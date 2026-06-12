@@ -144,6 +144,27 @@ def summarize(sym, series):
     }
 
 
+# ── 암호화폐 지원 ──
+CRYPTO = {"BTC-USD", "ETH-USD"}          # 관심종목 표기 (야후 형식)
+
+
+def is_crypto(sym):
+    return sym.upper() in CRYPTO
+
+
+def to_alpaca_symbol(sym):
+    """BTC-USD → BTC/USD (알파카 주문용)"""
+    return sym.replace("-", "/") if is_crypto(sym) else sym
+
+
+def normalize_position_symbol(sym):
+    """알파카 포지션의 BTCUSD → BTC-USD 로 통일"""
+    for c in CRYPTO:
+        if sym.upper() == c.replace("-", ""):
+            return c
+    return sym
+
+
 # ── Alpaca 모의계좌 ──
 def alpaca(path, method="GET", body=None):
     return http_json(ALPACA_BASE + path, method=method, body=body,
@@ -162,7 +183,7 @@ def ask_claude(account, positions, market):
         "- 레버리지(TQQQ/SOXL/UPRO/QLD): 상승 추세가 명확할 때만 단기 전술용으로. 레버리지+인버스 합산 평가액은 총자산의 15%를 절대 넘기지 말 것\n"
         "- 인버스(SQQQ/SOXS/SH/SDS): 지수가 20일선 아래로 꺾이는 등 하락 신호가 분명할 때 헤지용으로만. 같은 15% 한도 적용\n"
         "- 레버리지·인버스는 변동성 잠식이 있으니 보유가 길어지거나 근거가 사라지면 우선 정리 대상\n"
-        "- RSI 과매도 + 볼린저 하단 같은 '싸게 살 기회' 역발상도 적극 활용\n\n"
+        "- RSI 과매도 + 볼린저 하단 같은 '싸게 살 기회' 역발상도 적극 활용\n- 암호화폐(BTC-USD/ETH-USD): 시험 운용 중. 변동성이 매우 크니 합산 평가액 총자산 5% 이내, 소수점 수량 사용 가능 (예: 0.02)\n\n"
         f"[계좌] 총자산 ${account['equity']}, 현금 ${account['cash']}\n"
         f"[보유 포지션]\n{json.dumps(positions, ensure_ascii=False, indent=1)}\n\n"
         f"[관심종목 지표]\n{json.dumps(market, ensure_ascii=False, indent=1)}\n\n"
@@ -198,7 +219,11 @@ def execute(decisions, account, positions, market):
     results = []
     for d in decisions[:MAX_TRADES_PER_RUN]:
         sym = str(d.get("symbol", "")).upper()
-        qty = int(d.get("qty", 0))
+        crypto = is_crypto(sym)
+        try:
+            qty = round(float(d.get("qty", 0)), 6 if crypto else 4)
+        except (TypeError, ValueError):
+            qty = 0
         action = d.get("action")
         reason = str(d.get("reason", ""))[:120]
         if qty <= 0 or sym not in prices:
@@ -207,15 +232,15 @@ def execute(decisions, account, positions, market):
         cost = qty * prices[sym]
         if action == "buy":
             if cost > equity * MAX_POSITION_PCT:
-                qty = max(1, int(equity * MAX_POSITION_PCT / prices[sym]))
+                qty = round(equity * MAX_POSITION_PCT / prices[sym], 6 if crypto else 4)
                 cost = qty * prices[sym]
-            if cost > cash - equity * MIN_CASH_BUFFER_PCT:
+            if qty <= 0 or cost > cash - equity * MIN_CASH_BUFFER_PCT:
                 results.append(f"⛔ {sym} 매수 보류 (현금 한도)")
                 continue
             side = "buy"
         elif action == "sell":
             if held.get(sym, 0) < qty:
-                qty = int(held.get(sym, 0))
+                qty = round(held.get(sym, 0), 6 if crypto else 4)
             if qty <= 0:
                 results.append(f"⛔ {sym} 매도 보류 (보유 없음)")
                 continue
@@ -224,10 +249,10 @@ def execute(decisions, account, positions, market):
             continue
         try:
             alpaca("/v2/orders", method="POST", body={
-                "symbol": sym, "qty": str(qty), "side": side,
-                "type": "market", "time_in_force": "day"})
+                "symbol": to_alpaca_symbol(sym), "qty": str(qty), "side": side,
+                "type": "market", "time_in_force": "gtc" if crypto else "day"})
             mark = "🔴 매수" if side == "buy" else "🔵 매도"
-            results.append(f"{mark} {sym} {qty}주 (~${cost:,.0f}) — {reason}")
+            results.append(f"{mark} {sym} {qty}{'개' if crypto else '주'} (~${cost:,.0f}) — {reason}")
             cash = cash - cost if side == "buy" else cash + cost
         except Exception as e:
             results.append(f"⛔ {sym} 주문 실패: {e}")
@@ -304,7 +329,7 @@ def main():
                  if t.strip() and not t.strip().startswith("#")]
 
     positions_raw = alpaca("/v2/positions")
-    positions = [{"symbol": p["symbol"], "qty": float(p["qty"]),
+    positions = [{"symbol": normalize_position_symbol(p["symbol"]), "qty": float(p["qty"]),
                   "avg_cost": float(p["avg_entry_price"]),
                   "now": float(p["current_price"]),
                   "pnl_pct": round(float(p["unrealized_plpc"]) * 100, 1)}
