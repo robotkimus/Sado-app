@@ -9,7 +9,14 @@ import os
 import sys
 import urllib.parse
 import urllib.request
+import urllib.error
 import datetime
+
+def log(*args):
+    """stderr로 즉시 출력 — GitHub Actions 로그에서 항상 보이도록"""
+    sys.stderr.write(" ".join(str(a) for a in args) + "\n")
+    sys.stderr.flush()
+
 
 # ── 환경 변수 (GitHub Secrets) ──
 ALPACA_KEY = os.environ.get("ALPACA_API_KEY", "").strip()
@@ -34,11 +41,21 @@ def http_json(url, method="GET", headers=None, body=None):
         return json.loads(r.read().decode("utf-8", "replace"))
 
 
-# ── 시세 (Stooq → Yahoo 폴백, 알림 시스템과 동일) ──
-def _get(url):
-    req = urllib.request.Request(url, headers=UA)
+# ── 시세 (1순위: Alpaca 자체 데이터 → 2순위: Stooq → 3순위: Yahoo) ──
+def _get(url, headers=None):
+    req = urllib.request.Request(url, headers={**UA, **(headers or {})})
     with urllib.request.urlopen(req, timeout=30) as r:
         return r.read().decode("utf-8", "replace")
+
+
+def fetch_alpaca_data(sym):
+    url = (f"https://data.alpaca.markets/v2/stocks/{urllib.parse.quote(sym)}/bars"
+           f"?timeframe=1Day&limit=200&adjustment=split&feed=iex")
+    j = json.loads(_get(url, headers={"APCA-API-KEY-ID": ALPACA_KEY,
+                                      "APCA-API-SECRET-KEY": ALPACA_SECRET}))
+    rows = [{"date": b["t"][:10], "close": float(b["c"]), "volume": float(b.get("v") or 0)}
+            for b in (j.get("bars") or [])]
+    return rows
 
 
 def fetch_stooq(sym):
@@ -63,21 +80,23 @@ def fetch_yahoo(sym):
         c = q["close"][i]
         if c is None:
             continue
-        d = datetime.datetime.utcfromtimestamp(t).strftime("%Y-%m-%d")
+        d = datetime.datetime.fromtimestamp(t, datetime.timezone.utc).strftime("%Y-%m-%d")
         rows.append({"date": d, "close": float(c), "volume": float(q["volume"][i] or 0)})
     return rows
 
 
 def fetch_daily(sym):
-    for fn in (fetch_stooq, fetch_yahoo):
+    errors = []
+    for fn in (fetch_alpaca_data, fetch_stooq, fetch_yahoo):
         try:
             rows = fn(sym)
             if len(rows) >= 25:
                 rows.sort(key=lambda r: r["date"])
                 return rows[-160:]
-        except Exception:
-            continue
-    raise RuntimeError(f"{sym} 시세 조회 실패")
+            errors.append(f"{fn.__name__}: 데이터 부족({len(rows)}행)")
+        except Exception as e:
+            errors.append(f"{fn.__name__}: {e}")
+    raise RuntimeError(" / ".join(errors))
 
 
 # ── 지표 요약 (Claude에게 줄 재료) ──
@@ -156,7 +175,10 @@ def ask_claude(account, positions, market):
               "messages": [{"role": "user", "content": prompt}]})
     text = "".join(b.get("text", "") for b in res.get("content", []))
     text = text.replace("```json", "").replace("```", "").strip()
-    return json.loads(text)
+    start, end = text.find("{"), text.rfind("}")
+    if start == -1 or end == -1:
+        raise ValueError("Claude 응답에 JSON이 없음: " + text[:200])
+    return json.loads(text[start:end + 1])
 
 
 # ── 주문 검증 + 실행 ──
@@ -206,7 +228,7 @@ def execute(decisions, account, positions, market):
 
 def send_push(title, message, urgent):
     if not NTFY_TOPIC:
-        print("NTFY_TOPIC 없음 — 알림 생략")
+        log("NTFY_TOPIC 없음 — 알림 생략")
         return
     payload = json.dumps({"topic": NTFY_TOPIC, "title": title, "message": message,
                           "priority": 4 if urgent else 3,
@@ -217,17 +239,62 @@ def send_push(title, message, urgent):
 
 
 def main():
-    for name, val in [("ALPACA_API_KEY", ALPACA_KEY), ("ALPACA_SECRET_KEY", ALPACA_SECRET),
-                      ("ANTHROPIC_API_KEY", ANTHROPIC_KEY)]:
-        if not val:
-            print(f"시크릿 {name} 이(가) 없습니다.")
-            return 1
+    # ── 0단계: 시크릿 존재 확인 ──
+    missing = [n for n, v in [("ALPACA_API_KEY", ALPACA_KEY),
+                              ("ALPACA_SECRET_KEY", ALPACA_SECRET),
+                              ("ANTHROPIC_API_KEY", ANTHROPIC_KEY)] if not v]
+    if missing:
+        log(f"❌ [0단계] GitHub Secret 누락: {', '.join(missing)}")
+        log("   Settings → Secrets and variables → Actions 에서 이름을 정확히 확인하세요.")
+        return 1
+    log(f"✅ [0단계] 시크릿 3개 확인 (ALPACA_API_KEY 앞 4자: {ALPACA_KEY[:4]}..., "
+          f"ANTHROPIC 앞 7자: {ANTHROPIC_KEY[:7]}...)")
 
+    # ── 1단계: Alpaca 모의계좌 연결 테스트 ──
+    try:
+        account = alpaca("/v2/account")
+        log(f"✅ [1단계] Alpaca 연결 성공 — 총자산 ${account['equity']}, 현금 ${account['cash']}")
+    except urllib.error.HTTPError as e:
+        log(f"❌ [1단계] Alpaca 인증 실패 (HTTP {e.code})")
+        if e.code in (401, 403):
+            log("   → 키가 틀렸거나, 모의계좌(Paper)가 아닌 키일 가능성이 커요.")
+            log("   → 알파카 대시보드 왼쪽 위가 'Paper Trading'인 상태에서 키를 재생성하고,")
+            log("     GitHub Secret 값을 새로 붙여넣어 주세요 (앞뒤 공백·따옴표 없이).")
+        return 1
+    except Exception as e:
+        log(f"❌ [1단계] Alpaca 연결 오류: {e}")
+        return 1
+
+    # ── 2단계: Anthropic(Claude) 연결 테스트 ──
+    try:
+        ping = http_json(
+            "https://api.anthropic.com/v1/messages", method="POST",
+            headers={"x-api-key": ANTHROPIC_KEY, "anthropic-version": "2023-06-01",
+                     "content-type": "application/json"},
+            body={"model": "claude-sonnet-4-6", "max_tokens": 16,
+                  "messages": [{"role": "user", "content": "ping"}]})
+        log("✅ [2단계] Claude API 연결 성공")
+    except urllib.error.HTTPError as e:
+        detail = ""
+        try:
+            detail = e.read().decode("utf-8", "replace")[:300]
+        except Exception:
+            pass
+        log(f"❌ [2단계] Claude API 실패 (HTTP {e.code}) {detail}")
+        if e.code == 401:
+            log("   → API 키가 잘못됐어요. console.anthropic.com 에서 키를 재확인하세요.")
+        elif e.code == 400 and "credit" in detail.lower():
+            log("   → 크레딧 부족이에요. Billing에서 충전 상태를 확인하세요.")
+        return 1
+    except Exception as e:
+        log(f"❌ [2단계] Claude API 오류: {e}")
+        return 1
+
+    # ── 3단계: 관심종목 시세 ──
     with open("watchlist.txt", encoding="utf-8") as f:
         watch = [t.strip().upper() for t in f
                  if t.strip() and not t.strip().startswith("#")]
 
-    account = alpaca("/v2/account")
     positions_raw = alpaca("/v2/positions")
     positions = [{"symbol": p["symbol"], "qty": float(p["qty"]),
                   "avg_cost": float(p["avg_entry_price"]),
@@ -240,7 +307,8 @@ def main():
         try:
             market.append(summarize(sym, fetch_daily(sym)))
         except Exception as e:
-            print(f"{sym} 시세 실패: {e}")
+            log(f"⚠️ {sym} 시세 실패: {e}")
+    log(f"✅ [3단계] 시세 확보 {len(market)}/{len(watch)} 종목")
 
     if not market:
         send_push("🤖 Claude 봇 — 실행 실패", "시세를 하나도 못 가져왔어요.", True)
@@ -248,7 +316,9 @@ def main():
 
     try:
         plan = ask_claude(account, positions, market)
+        log("✅ [4단계] Claude 판단 수신")
     except Exception as e:
+        log(f"❌ [4단계] Claude 판단 실패: {e}")
         send_push("🤖 Claude 봇 — 판단 실패", f"Claude API 오류: {e}", True)
         return 1
 
@@ -265,8 +335,8 @@ def main():
     body = "\n\n".join(body_parts)
 
     title = "🤖 Claude 봇: " + (f"{len(results)}건 거래" if results else "오늘은 관망")
-    print(title)
-    print(body)
+    log(title)
+    log(body)
     send_push(title, body, bool(results))
     return 0
 
