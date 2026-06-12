@@ -7,15 +7,21 @@ import io
 import json
 import os
 import sys
+import urllib.parse
 import urllib.request
 
 NTFY_TOPIC = os.environ.get("NTFY_TOPIC", "").strip()
+UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/124 Safari/537.36"}
 
 
-def fetch_daily(sym):
-    url = f"https://stooq.com/q/d/l/?s={sym.lower()}.us&i=d"
-    with urllib.request.urlopen(url, timeout=30) as r:
-        text = r.read().decode("utf-8", "replace")
+def _get(url):
+    req = urllib.request.Request(url, headers=UA)
+    with urllib.request.urlopen(req, timeout=30) as r:
+        return r.read().decode("utf-8", "replace")
+
+
+def fetch_stooq(sym):
+    text = _get(f"https://stooq.com/q/d/l/?s={sym.lower()}.us&i=d")
     rows = []
     for row in csv.DictReader(io.StringIO(text)):
         try:
@@ -26,8 +32,39 @@ def fetch_daily(sym):
             })
         except (KeyError, ValueError):
             continue
-    rows.sort(key=lambda r: r["date"])
-    return rows[-160:]
+    return rows
+
+
+def fetch_yahoo(sym):
+    text = _get(f"https://query1.finance.yahoo.com/v8/finance/chart/"
+                f"{urllib.parse.quote(sym)}?range=1y&interval=1d")
+    j = json.loads(text)
+    result = j["chart"]["result"][0]
+    ts = result["timestamp"]
+    q = result["indicators"]["quote"][0]
+    rows = []
+    for i, t in enumerate(ts):
+        c, v = q["close"][i], q["volume"][i]
+        if c is None:
+            continue
+        import datetime as _dt
+        d = _dt.datetime.utcfromtimestamp(t).strftime("%Y-%m-%d")
+        rows.append({"date": d, "close": float(c), "volume": float(v or 0)})
+    return rows
+
+
+def fetch_daily(sym):
+    errors = []
+    for fn in (fetch_stooq, fetch_yahoo):
+        try:
+            rows = fn(sym)
+            if len(rows) >= 25:
+                rows.sort(key=lambda r: r["date"])
+                return rows[-160:]
+            errors.append(f"{fn.__name__}: 데이터 부족")
+        except Exception as e:
+            errors.append(f"{fn.__name__}: {e}")
+    raise RuntimeError(" / ".join(errors))
 
 
 def sma(vals, n, i):
