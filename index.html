@@ -112,7 +112,7 @@
   <div class="card pad">
     <div class="sec-title">시장 날씨 — 판이 깨지면 다 같이 깨진다</div>
     <div class="wgrid" id="wGrid"></div>
-    <button class="btn" id="weatherBtn" style="width:100%; margin-top:2px">시장 날씨 확인</button>
+    <button class="btn" id="weatherBtn" style="width:100%; margin-top:2px">지금 새로고침</button>
     <div class="muted" id="wNote" style="margin-top:8px"></div>
   </div>
 
@@ -238,7 +238,7 @@ document.getElementById("tickerInput").addEventListener("keydown", e=>{
   if(e.key==="Enter") document.getElementById("goBtn").click();
 });
 
-/* ── 시장 날씨 (매크로) ── */
+/* ── 시장 날씨 (매크로) — 자동 갱신 ── */
 const MACRO = [
   { id:"vix", name:"VIX 공포지수", td:"VIX", tv:"CBOE:VIX", digits:1,
     interp:(v,pc)=> v>=30 ? {c:"var(--buy)", t:"공포 극심 — 역발상 매수를 보는 구간"}
@@ -258,11 +258,57 @@ const MACRO = [
       : {c:"var(--text)", t:"보합권 흐름"} },
 ];
 
-function renderWeatherCards(data){
+const FG_LABEL = {
+  "extreme fear":["극단적 공포","var(--buy)","역사적으로 매수 기회였던 영역"],
+  "fear":["공포","var(--buy)","시장이 겁먹은 상태 — 저가 매수 검토 구간"],
+  "neutral":["중립","var(--text)","뚜렷한 쏠림 없음"],
+  "greed":["탐욕","var(--hold)","낙관 과열 시작 — 추격 매수 주의"],
+  "extreme greed":["극단적 탐욕","var(--sell)","과열 — 차익 실현을 보는 구간"],
+};
+
+let weatherData = null;   // {vix:{v,pc}, krw, spx, ndx}
+let fearGreed = null;     // {score, rating}
+let lastWeatherAt = 0;
+
+async function fetchViaProxies(url, asJson){
+  const tries = [
+    `https://api.allorigins.win/raw?url=${encodeURIComponent(url)}`,
+    `https://corsproxy.io/?url=${encodeURIComponent(url)}`,
+  ];
+  let lastErr = null;
+  for(const u of tries){
+    try{
+      const res = await fetch(u, {signal: AbortSignal.timeout(12000)});
+      if(!res.ok) throw new Error("HTTP " + res.status);
+      return asJson ? await res.json() : await res.text();
+    }catch(e){ lastErr = e; }
+  }
+  throw lastErr || new Error("프록시 실패");
+}
+
+async function fetchVIXFallback(){
+  // Yahoo ^VIX 시세 (프록시 경유)
+  const j = await fetchViaProxies(
+    "https://query1.finance.yahoo.com/v8/finance/chart/%5EVIX?range=2d&interval=1d", true);
+  const r = j.chart.result[0];
+  const closes = (r.indicators.quote[0].close || []).filter(x=>x!=null);
+  const now = r.meta.regularMarketPrice ?? closes[closes.length-1];
+  const prev = r.meta.chartPreviousClose ?? closes[closes.length-2] ?? now;
+  return { v: now, pc: prev ? ((now/prev)-1)*100 : 0 };
+}
+
+async function fetchFearGreed(){
+  const j = await fetchViaProxies(
+    "https://production.dataviz.cnn.io/index/fearandgreed/graphdata", true);
+  const fg = j.fear_and_greed;
+  return { score: Math.round(fg.score), rating: String(fg.rating||"").toLowerCase() };
+}
+
+function renderWeatherCards(){
   const grid = document.getElementById("wGrid");
   grid.innerHTML = "";
   MACRO.forEach(m=>{
-    const q = data ? data[m.id] : null;
+    const q = weatherData ? weatherData[m.id] : null;
     const div = document.createElement("div");
     div.className = "wcard";
     let body;
@@ -271,10 +317,10 @@ function renderWeatherCards(data){
       const chgColor = q.pc>=0 ? "var(--buy)" : "var(--sell)";
       body = `<div class="wval">${q.v.toFixed(m.digits)}<span class="wchg" style="color:${chgColor}">${q.pc>=0?"+":""}${q.pc.toFixed(2)}%</span></div>
               <div class="wmsg" style="color:${it.c}">${it.t}</div>`;
-    } else if (data) {
+    } else if (weatherData) {
       body = `<div class="wval" style="color:var(--dim)">—</div><div class="wmsg">값 조회 불가 · 탭해서 차트로 확인</div>`;
     } else {
-      body = `<div class="wval" style="color:var(--dim)">—</div><div class="wmsg">탭하면 차트로 보기</div>`;
+      body = `<div class="wval" style="color:var(--dim)">—</div><div class="wmsg">불러오는 중...</div>`;
     }
     div.innerHTML = `<div class="wname">${m.name}</div>` + body;
     div.onclick = ()=>{
@@ -284,45 +330,73 @@ function renderWeatherCards(data){
     };
     grid.appendChild(div);
   });
+  // 공포탐욕지수 — 가로 전체 카드
+  const fg = document.createElement("div");
+  fg.className = "wcard";
+  fg.style.gridColumn = "1 / -1";
+  if(fearGreed){
+    const [label, color, msg] = FG_LABEL[fearGreed.rating] || ["—","var(--text)",""];
+    fg.innerHTML = `
+      <div style="display:flex; justify-content:space-between; align-items:baseline;">
+        <span class="wname">공포탐욕지수 (CNN Fear &amp; Greed)</span>
+        <span style="font-size:18px; font-weight:800; color:${color}; font-variant-numeric:tabular-nums;">${fearGreed.score} · ${label}</span>
+      </div>
+      <div style="position:relative; height:8px; border-radius:99px; margin-top:10px;
+           background:linear-gradient(90deg, var(--buy), var(--hold) 50%, var(--sell));">
+        <div style="position:absolute; top:-4px; left:calc(${Math.max(0,Math.min(100,fearGreed.score))}% - 8px);
+             width:16px; height:16px; border-radius:99px; background:var(--text); border:3px solid var(--bg);"></div>
+      </div>
+      <div style="display:flex; justify-content:space-between; font-size:10px; color:var(--dim); margin-top:5px;">
+        <span>0 공포(기회)</span><span>50</span><span>탐욕(과열) 100</span>
+      </div>
+      <div class="wmsg" style="color:${color}; margin-top:6px;">${msg}</div>`;
+  } else {
+    fg.innerHTML = `<div class="wname">공포탐욕지수 (CNN Fear &amp; Greed)</div>
+      <div class="wval" style="color:var(--dim)">—</div><div class="wmsg">불러오는 중...</div>`;
+  }
+  grid.appendChild(fg);
 }
 
-document.getElementById("weatherBtn").onclick = async ()=>{
+async function loadWeather(){
   const note = document.getElementById("wNote");
   const key = getKey();
-  if(!key){
-    note.textContent = "시장 날씨 수치 조회에는 무료 API 키가 필요해요. 아래 신호 판정 칸에서 키를 등록해주세요. (차트 보기는 키 없이도 가능)";
-    return;
+  lastWeatherAt = Date.now();
+  // 1) Twelve Data 일괄 시세 (키 있을 때)
+  weatherData = weatherData || {};
+  if(key){
+    try{
+      const syms = MACRO.map(m=>m.td).join(",");
+      const json = await (await fetch(
+        `https://api.twelvedata.com/quote?symbol=${encodeURIComponent(syms)}&apikey=${encodeURIComponent(key)}`,
+        {signal: AbortSignal.timeout(12000)})).json();
+      MACRO.forEach(m=>{
+        const q = json[m.td] || (json.symbol===m.td ? json : null);
+        if(q && q.close && !q.code)
+          weatherData[m.id] = { v: parseFloat(q.close), pc: parseFloat(q.percent_change || 0) };
+      });
+    }catch(e){ /* 아래 폴백 진행 */ }
   }
-  const btn = document.getElementById("weatherBtn");
-  btn.disabled = true;
-  btn.innerHTML = '<span class="spin"></span> 확인 중...';
-  note.textContent = "";
-  try{
-    const syms = MACRO.map(m=>m.td).join(",");
-    const res = await fetch(`https://api.twelvedata.com/quote?symbol=${encodeURIComponent(syms)}&apikey=${encodeURIComponent(key)}`,
-      {signal: AbortSignal.timeout(12000)});
-    const json = await res.json();
-    const data = {};
-    MACRO.forEach(m=>{
-      // 단일 심볼이면 평평한 객체, 복수면 심볼 키로 묶여 옴
-      const q = json[m.td] || (json.symbol===m.td ? json : null) || (json.name && MACRO.length===1 ? json : null);
-      if(q && q.close && !q.code){
-        data[m.id] = { v: parseFloat(q.close), pc: parseFloat(q.percent_change || 0) };
-      } else {
-        data[m.id] = null;
-      }
-    });
-    renderWeatherCards(data);
-    const ok = Object.values(data).filter(Boolean).length;
-    note.textContent = ok ? "카드를 탭하면 해당 차트로 전환돼요." :
-      "수치를 못 가져왔어요. 무료 플랜에서 지원하지 않는 심볼일 수 있어요 — 카드를 탭해 차트로 확인하세요.";
-  }catch(e){
-    note.textContent = "불러오기 실패: " + e.message;
-  }finally{
-    btn.disabled = false;
-    btn.textContent = "시장 날씨 확인";
+  // 2) VIX 폴백 (Twelve Data 무료 플랜은 VIX 미지원)
+  if(!weatherData.vix || !isFinite(weatherData.vix.v)){
+    try{ weatherData.vix = await fetchVIXFallback(); }catch(e){ weatherData.vix = null; }
   }
-};
+  renderWeatherCards();
+  // 3) 공포탐욕지수
+  try{ fearGreed = await fetchFearGreed(); }catch(e){ /* 유지 */ }
+  renderWeatherCards();
+  const t = new Date();
+  note.textContent = (key ? "" : "환율·지수 수치는 API 키 등록 후 표시돼요. ")
+    + `마지막 갱신 ${String(t.getHours()).padStart(2,"0")}:${String(t.getMinutes()).padStart(2,"0")}`
+    + " · 5분마다 자동 갱신 · 카드를 탭하면 차트로 전환";
+}
+
+document.getElementById("weatherBtn").onclick = loadWeather;
+
+// 5분 자동 갱신 + 화면 복귀 시 오래됐으면 즉시 갱신
+setInterval(()=>{ if(document.visibilityState === "visible") loadWeather(); }, 5*60*1000);
+document.addEventListener("visibilitychange", ()=>{
+  if(document.visibilityState === "visible" && Date.now() - lastWeatherAt > 5*60*1000) loadWeather();
+});
 
 /* ── API 키 관리 (이 폰 브라우저에만 저장됨) ── */
 function getKey(){ try{ return localStorage.getItem("td_key") || ""; }catch(e){ return ""; } }
@@ -605,7 +679,8 @@ renderChips();
 loadChart(current);
 document.getElementById("sigTitle").textContent = current + " 신호 판정";
 refreshKeyUI();
-renderWeatherCards(null);
+renderWeatherCards();
+loadWeather();
 loadBotStatus();
 
 /* ── PWA 서비스 워커 등록 (https에서만 작동) ── */
