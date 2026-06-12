@@ -338,6 +338,21 @@ def main():
     log(title)
     log(body)
     send_push(title, body, bool(results))
+
+    # ── 사도될까 앱 연동용 상태 파일 저장 ──
+    kst = datetime.timezone(datetime.timedelta(hours=9))
+    status = {
+        "updated": datetime.datetime.now(kst).strftime("%Y-%m-%d %H:%M"),
+        "equity": float(account["equity"]),
+        "cash": float(account["cash"]),
+        "base": 100000.0,
+        "positions": positions,
+        "trades": results,
+        "market_view": view,
+    }
+    with open("bot_status.json", "w", encoding="utf-8") as f:
+        json.dump(status, f, ensure_ascii=False, indent=1)
+    log("✅ [5단계] bot_status.json 저장 완료")
     return 0
 
 
