@@ -1,0 +1,20 @@
+name: claude-trade-bot
+
+on:
+  schedule:
+    # 매주 화~토 UTC 15:00 = 한국시간 자정 00:00 (미국 장 개장 30분 후)
+    - cron: "0 15 * * 1-5"
+  workflow_dispatch: {}   # Actions 탭에서 수동 실행 가능
+
+jobs:
+  trade:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Claude 모의투자 봇 실행
+        env:
+          ALPACA_API_KEY: ${{ secrets.ALPACA_API_KEY }}
+          ALPACA_SECRET_KEY: ${{ secrets.ALPACA_SECRET_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+        run: python3 trade_bot.py
