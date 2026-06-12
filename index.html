@@ -116,6 +116,12 @@
     <div class="muted" id="wNote" style="margin-top:8px"></div>
   </div>
 
+  <!-- Claude 봇 포트폴리오 -->
+  <div class="card pad">
+    <div class="sec-title">🤖 Claude 봇 포트폴리오 (모의계좌)</div>
+    <div id="botBox"><div class="muted">불러오는 중...</div></div>
+  </div>
+
   <!-- 신호 판정 -->
   <div class="card pad">
     <div class="sec-title" id="sigTitle">신호 판정</div>
@@ -539,12 +545,68 @@ document.getElementById("csvBtn").onclick = ()=>{
   }
 };
 
+/* ── Claude 봇 포트폴리오 (bot_status.json 읽기) ── */
+async function loadBotStatus(){
+  const box = document.getElementById("botBox");
+  try{
+    const res = await fetch("bot_status.json?t=" + Date.now());
+    if(!res.ok) throw new Error("아직 기록 없음");
+    const s = await res.json();
+    const ret = ((s.equity / s.base) - 1) * 100;
+    const retColor = ret >= 0 ? "var(--buy)" : "var(--sell)";
+    let html = `
+      <div style="display:flex; justify-content:space-between; align-items:baseline;">
+        <div>
+          <div style="font-size:24px; font-weight:800; font-variant-numeric:tabular-nums;">
+            $${s.equity.toLocaleString(undefined,{maximumFractionDigits:0})}
+          </div>
+          <div class="muted">현금 $${s.cash.toLocaleString(undefined,{maximumFractionDigits:0})} · ${s.updated} 기준</div>
+        </div>
+        <div style="font-size:18px; font-weight:800; color:${retColor};">
+          ${ret>=0?"+":""}${ret.toFixed(2)}%
+        </div>
+      </div>`;
+    if(s.positions && s.positions.length){
+      html += `<div style="margin-top:12px; display:flex; flex-direction:column; gap:6px;">`;
+      s.positions.forEach(p=>{
+        const c = p.pnl_pct >= 0 ? "var(--buy)" : "var(--sell)";
+        html += `
+          <div style="display:flex; justify-content:space-between; padding:10px 12px;
+                      background:var(--card2); border:1px solid var(--line); border-radius:12px;">
+            <span style="font-weight:700;">${p.symbol} <span class="muted">${p.qty}주 · 평단 $${p.avg_cost.toFixed(2)}</span></span>
+            <span style="font-weight:800; color:${c}; font-variant-numeric:tabular-nums;">
+              ${p.pnl_pct>=0?"+":""}${p.pnl_pct.toFixed(1)}%
+            </span>
+          </div>`;
+      });
+      html += `</div>`;
+    } else {
+      html += `<div class="muted" style="margin-top:10px;">보유 종목 없음 (전량 현금)</div>`;
+    }
+    if(s.market_view){
+      html += `<div style="margin-top:12px; padding:11px 13px; background:var(--card2);
+                    border:1px solid var(--line); border-radius:12px; font-size:12.5px; line-height:1.55;">
+                 🧠 <b>Claude의 시각:</b> ${s.market_view}</div>`;
+    }
+    if(s.trades && s.trades.length){
+      html += `<div class="muted" style="margin-top:10px; font-weight:700;">최근 실행 거래</div>
+               <div style="font-size:12.5px; line-height:1.7; margin-top:4px;">${s.trades.map(t=>t.replace(/</g,"&lt;")).join("<br>")}</div>`;
+    } else {
+      html += `<div class="muted" style="margin-top:10px;">최근 실행에서는 거래 없음 (관망)</div>`;
+    }
+    box.innerHTML = html;
+  }catch(e){
+    box.innerHTML = `<div class="muted">봇 기록이 아직 없어요. 매매봇이 한 번 실행되면 여기에 총자산·보유 종목·Claude의 판단 근거가 표시돼요.</div>`;
+  }
+}
+
 /* ── 초기화 ── */
 renderChips();
 loadChart(current);
 document.getElementById("sigTitle").textContent = current + " 신호 판정";
 refreshKeyUI();
 renderWeatherCards(null);
+loadBotStatus();
 
 /* ── PWA 서비스 워커 등록 (https에서만 작동) ── */
 if ("serviceWorker" in navigator && location.protocol === "https:") {
