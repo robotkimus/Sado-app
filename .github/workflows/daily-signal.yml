@@ -1,1 +1,17 @@
+name: daily-signal
 
+on:
+  schedule:
+    # 매주 화~토 UTC 22:30 = 한국시간 오전 7:30 (미국 장 마감 후)
+    - cron: "30 22 * * 1-5"
+  workflow_dispatch: {}   # Actions 탭에서 수동 실행 버튼 활성화
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: 신호 점검 및 푸시 알림
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+        run: python3 check_signals.py
