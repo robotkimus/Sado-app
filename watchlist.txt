@@ -1,6 +1,76 @@
-# 알림 받을 미국 주식 티커 (한 줄에 하나, #으로 시작하면 무시)
+# 알림·매매 대상 (한 줄에 하나, #으로 시작하면 무시)
+# ── M7 (핵심) ──
 AAPL
-NVDA
-TSLA
 MSFT
+NVDA
+GOOGL
+AMZN
+META
+TSLA
+# ── 반도체 / 소프트웨어 개별주 ──
+AVGO
+AMD
+QCOM
+MU
+INTC
+CRM
+ADBE
+ORCL
+NOW
+PLTR
+# ── 기술 섹터 ETF ──
+IGV
+SOXX
+SMH
+QQQ
+XLK
+# ── 레버리지 (전술용 · 총자산 15% 이내) ──
+TQQQ
+SOXL
+UPRO
+QLD
+# ── 인버스 (하락 헤지용 · 총자산 15% 이내) ──
+SQQQ
+SOXS
+SH
+SDS
+# ── 금융 ──
+BRK-B
+JPM
+BAC
+GS
+V
+MA
+# ── 헬스케어 ──
+JNJ
+PFE
+UNH
+LLY
+MRK
+ABBV
+# ── 에너지 ──
+CVX
+XOM
+COP
+# ── 소비 / 산업 ──
+KO
+PG
+PEP
+WMT
+COST
+MCD
+NKE
+DIS
+CAT
+DE
+BA
+HON
+# ── 가치 / 배당 ETF ──
+VTV
+SCHD
+# ── 안전자산 ──
+GLD
+TLT
+# ── 벤치마크 ──
 SPY
+IWM

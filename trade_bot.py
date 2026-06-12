@@ -7,6 +7,7 @@ import io
 import json
 import os
 import sys
+import time
 import urllib.parse
 import urllib.request
 import urllib.error
@@ -28,7 +29,7 @@ ALPACA_BASE = "https://paper-api.alpaca.markets"  # 모의계좌 전용 (변경 
 UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/124 Safari/537.36"}
 
 # ── 안전장치 ──
-MAX_TRADES_PER_RUN = 3          # 한 번 실행에 최대 주문 수
+MAX_TRADES_PER_RUN = 5          # 한 번 실행에 최대 주문 수
 MAX_POSITION_PCT = 0.05         # 한 종목 신규 매수 한도: 총자산의 5%
 MIN_CASH_BUFFER_PCT = 0.10      # 현금 10%는 항상 남김
 
@@ -153,19 +154,26 @@ def alpaca(path, method="GET", body=None):
 # ── Claude에게 판단 요청 ──
 def ask_claude(account, positions, market):
     prompt = (
-        "당신은 신중한 미국 주식 포트폴리오 매니저입니다. 모의계좌를 운용 중입니다.\n"
+        "당신은 미국 주식 포트폴리오 매니저입니다. 모의계좌를 운용 중입니다.\n"
         "기술적 지표 기반의 스윙 전략을 따르되, 확신이 없으면 거래하지 않는 것이 원칙입니다.\n\n"
+        "포트폴리오 구조 (중요):\n"
+        "- 코어: M7(AAPL/MSFT/NVDA/GOOGL/AMZN/META/TSLA)과 기술 ETF(IGV/SOXX/SMH/QQQ)를 성장 축으로 운용\n"
+        "- 분산: 금융·헬스케어·에너지·소비재·안전자산(GLD/TLT)에도 나눠 담아 한 섹터 쏠림을 피할 것\n"
+        "- 레버리지(TQQQ/SOXL/UPRO/QLD): 상승 추세가 명확할 때만 단기 전술용으로. 레버리지+인버스 합산 평가액은 총자산의 15%를 절대 넘기지 말 것\n"
+        "- 인버스(SQQQ/SOXS/SH/SDS): 지수가 20일선 아래로 꺾이는 등 하락 신호가 분명할 때 헤지용으로만. 같은 15% 한도 적용\n"
+        "- 레버리지·인버스는 변동성 잠식이 있으니 보유가 길어지거나 근거가 사라지면 우선 정리 대상\n"
+        "- RSI 과매도 + 볼린저 하단 같은 '싸게 살 기회' 역발상도 적극 활용\n\n"
         f"[계좌] 총자산 ${account['equity']}, 현금 ${account['cash']}\n"
         f"[보유 포지션]\n{json.dumps(positions, ensure_ascii=False, indent=1)}\n\n"
         f"[관심종목 지표]\n{json.dumps(market, ensure_ascii=False, indent=1)}\n\n"
         "규칙:\n"
         f"- 주문은 최대 {MAX_TRADES_PER_RUN}건, 신규 매수는 종목당 총자산의 {int(MAX_POSITION_PCT*100)}% 이내\n"
         "- 매수는 관심종목 내에서만, 매도는 보유 종목만, 공매도 금지\n"
-        "- 손실 중인 포지션이 -7% 이하면 손절을 적극 검토\n"
+        "- 손실 중인 포지션이 -7% 이하면 손절을 적극 검토 (레버리지는 -5%)\n"
         "- 거래할 이유가 약하면 빈 배열로 응답 (거래 안 함이 기본값)\n\n"
         "아래 JSON 형식으로만 응답하세요. 다른 텍스트, 마크다운 백틱 금지:\n"
-        '{"decisions":[{"action":"buy|sell","symbol":"AAPL","qty":3,"reason":"한 문장 근거"}],'
-        '"market_view":"오늘 시장에 대한 한두 문장 평가"}'
+        '{"decisions":[{"action":"buy|sell","symbol":"JPM","qty":3,"reason":"한 문장 근거"}],'
+        '"market_view":"오늘 시장·포트폴리오 분산·레버리지 노출에 대한 한두 문장 평가"}'
     )
     res = http_json(
         "https://api.anthropic.com/v1/messages", method="POST",
@@ -308,6 +316,7 @@ def main():
             market.append(summarize(sym, fetch_daily(sym)))
         except Exception as e:
             log(f"⚠️ {sym} 시세 실패: {e}")
+        time.sleep(0.4)  # 종목이 많아 데이터 소스 차단 방지용 간격
     log(f"✅ [3단계] 시세 확보 {len(market)}/{len(watch)} 종목")
 
     if not market:
