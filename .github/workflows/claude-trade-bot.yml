@@ -6,6 +6,9 @@ on:
     - cron: "0 15 * * 1-5"
   workflow_dispatch: {}   # Actions 탭에서 수동 실행 가능
 
+permissions:
+  contents: write   # 봇 상태 파일 커밋용
+
 jobs:
   trade:
     runs-on: ubuntu-latest
@@ -18,3 +21,10 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
         run: python3 -u trade_bot.py
+      - name: 봇 상태를 앱에 반영 (커밋)
+        run: |
+          git config user.name "claude-trade-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add bot_status.json
+          git diff --staged --quiet || git commit -m "🤖 봇 포트폴리오 현황 업데이트"
+          git push
