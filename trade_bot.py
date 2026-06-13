@@ -466,6 +466,28 @@ def main():
     with open("bot_status.json", "w", encoding="utf-8") as f:
         json.dump(status, f, ensure_ascii=False, indent=1)
     log("✅ [5단계] bot_status.json 저장 완료")
+
+    # ── 자산 히스토리 누적 (성과 추적용) ──
+    try:
+        try:
+            with open("equity_history.json", encoding="utf-8") as f:
+                hist = json.load(f)
+        except Exception:
+            hist = []
+        today = datetime.datetime.now(kst).strftime("%Y-%m-%d")
+        eq = round(float(account["equity"]), 2)
+        # 같은 날짜는 최신값으로 갱신 (하루 한 점)
+        if hist and hist[-1].get("date") == today:
+            hist[-1] = {"date": today, "equity": eq}
+        else:
+            hist.append({"date": today, "equity": eq})
+        # 최근 180일만 유지
+        hist = hist[-180:]
+        with open("equity_history.json", "w", encoding="utf-8") as f:
+            json.dump(hist, f, ensure_ascii=False, indent=1)
+        log(f"✅ 자산 히스토리 기록: {today} ${eq:,.0f} (총 {len(hist)}일)")
+    except Exception as e:
+        log(f"자산 히스토리 기록 실패: {e}")
     return 0
 
 

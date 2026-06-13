@@ -1152,9 +1152,65 @@ async function loadBotStatus(){
       html += `<div class="muted" style="margin-top:10px;">최근 실행에서는 거래 없음 (관망)</div>`;
     }
     box.innerHTML = html;
+    loadEquityChart();   // 자산 추이 그래프
   }catch(e){
     box.innerHTML = `<div class="muted">봇 기록이 아직 없어요. 매매봇이 한 번 실행되면 여기에 총자산·보유 종목·Claude의 판단 근거가 표시돼요.</div>`;
   }
+}
+
+/* ── 봇 자산 추이 그래프 (equity_history.json) ── */
+async function loadEquityChart(){
+  try{
+    const res = await fetch("equity_history.json?t=" + Date.now());
+    if(!res.ok) return;
+    const hist = await res.json();
+    if(!Array.isArray(hist) || hist.length < 2) return;  // 2점 이상이어야 선
+
+    const W = 320, H = 90, pad = {l:6, r:6, t:10, b:6};
+    const vals = hist.map(h=>h.equity);
+    let min = Math.min(...vals), max = Math.max(...vals);
+    const base = 100000;
+    min = Math.min(min, base); max = Math.max(max, base);
+    const span = (max-min) || 1;
+    const xs = i => pad.l + (W-pad.l-pad.r) * (i/(hist.length-1));
+    const ys = v => pad.t + (H-pad.t-pad.b) * (1-(v-min)/span);
+
+    const last = vals[vals.length-1];
+    const up = last >= base;
+    const color = up ? "#FF4D5E" : "#4D8CFF";
+    // 선 path
+    let d = "";
+    hist.forEach((h,i)=>{ d += (i===0?"M":"L") + xs(i).toFixed(1) + " " + ys(h.equity).toFixed(1) + " "; });
+    // 기준선($100,000)
+    const baseY = ys(base);
+    // 영역 채우기
+    let area = d + `L ${xs(hist.length-1).toFixed(1)} ${(H-pad.b).toFixed(1)} L ${xs(0).toFixed(1)} ${(H-pad.b).toFixed(1)} Z`;
+
+    const ret = ((last/base)-1)*100;
+    const svg = `
+      <div style="margin-top:14px; padding:13px 14px; background:var(--card2); border:1px solid var(--line); border-radius:14px;">
+        <div style="display:flex; justify-content:space-between; align-items:baseline; margin-bottom:8px;">
+          <span style="font-size:12px; font-weight:700; color:var(--dim);">📈 자산 추이 (최근 ${hist.length}일)</span>
+          <span style="font-size:12px; font-weight:800; color:${color};">${ret>=0?"+":""}${ret.toFixed(2)}%</span>
+        </div>
+        <svg viewBox="0 0 ${W} ${H}" style="width:100%; height:90px; display:block;">
+          <defs><linearGradient id="eqg" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="${color}" stop-opacity="0.25"/>
+            <stop offset="100%" stop-color="${color}" stop-opacity="0"/>
+          </linearGradient></defs>
+          <line x1="${pad.l}" y1="${baseY.toFixed(1)}" x2="${W-pad.r}" y2="${baseY.toFixed(1)}"
+                stroke="#8B94A8" stroke-width="0.5" stroke-dasharray="3,3" opacity="0.5"/>
+          <path d="${area}" fill="url(#eqg)"/>
+          <path d="${d}" fill="none" stroke="${color}" stroke-width="1.8" stroke-linejoin="round"/>
+        </svg>
+        <div style="display:flex; justify-content:space-between; font-size:10px; color:var(--dim); margin-top:2px;">
+          <span>${hist[0].date}</span>
+          <span style="opacity:.7;">─ ─ 기준 $100,000</span>
+          <span>${hist[hist.length-1].date}</span>
+        </div>
+      </div>`;
+    document.getElementById("botBox").insertAdjacentHTML("beforeend", svg);
+  }catch(e){ /* 그래프 없으면 조용히 넘어감 */ }
 }
 
 /* ── 초기화 ── */
