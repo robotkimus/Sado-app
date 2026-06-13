@@ -103,6 +103,15 @@
     <a id="naverLink" class="naver" href="#" target="_blank" rel="noopener" style="display:none;">📊 네이버 금융에서 자세히 보기 →</a>
   </div>
 
+  <!-- 뉴스 & 공시 -->
+  <div class="card pad" id="newsCard" style="display:none;">
+    <div class="sec-title">📰 관련 뉴스 · 공시</div>
+    <div style="display:flex; gap:8px; margin-bottom:10px;">
+      <input type="text" id="dartKey" placeholder="DART API 키 (40자, 공시 보려면 입력)" style="font-size:12px; padding:8px 10px;">
+    </div>
+    <div id="newsList"></div>
+  </div>
+
   <div class="card pad" id="result" style="display:none;">
     <div class="verdict-top">
       <div>
@@ -139,6 +148,9 @@ const KR_PRESETS = [
 ];
 let current = "005930";
 let lastRows = null;
+// DART 키 로컬 저장 (localStorage 미지원 환경 대비 try)
+function getDartKey(){ try{ return localStorage.getItem("dartKey")||""; }catch(e){ return window._dartKey||""; } }
+function setDartKey(v){ try{ localStorage.setItem("dartKey", v); }catch(e){ window._dartKey = v; } }
 const chipsEl = document.getElementById("chips");
 function krName(code){ const f = KR_PRESETS.find(k=>k.code===code); return f ? f.name : code; }
 function renderChips(){
@@ -468,6 +480,76 @@ function render(res){
   drawChart(res.rows);
 }
 
+/* ── 뉴스 (네이버 검색) + 공시 (DART) ── */
+async function loadNewsAndDisclosure(){
+  const listEl = document.getElementById("newsList");
+  document.getElementById("newsCard").style.display = "block";
+  listEl.innerHTML = '<div class="muted">불러오는 중...</div>';
+  const name = krName(current);
+  let html = "";
+
+  // ── 네이버 뉴스 검색 (RSS, 프록시 경유) ──
+  try{
+    const rssUrl = `https://search.naver.com/search.naver?where=news&query=${encodeURIComponent(name)}&sort=1`;
+    // 네이버 뉴스 오픈 검색은 RSS가 막혀 구글뉴스 RSS로 대체 (한국어)
+    const gUrl = `https://news.google.com/rss/search?q=${encodeURIComponent(name+" 주식")}&hl=ko&gl=KR&ceid=KR:ko`;
+    const proxied = `https://api.allorigins.win/raw?url=${encodeURIComponent(gUrl)}`;
+    const res = await fetch(proxied, {signal:AbortSignal.timeout(12000)});
+    const xml = await res.text();
+    const doc = new DOMParser().parseFromString(xml, "text/xml");
+    const items = [...doc.querySelectorAll("item")].slice(0,6);
+    if(items.length){
+      html += '<div style="font-size:12px; font-weight:700; color:var(--dim); margin:4px 0 8px;">📰 뉴스</div>';
+      items.forEach(it=>{
+        const title = it.querySelector("title")?.textContent || "";
+        const link = it.querySelector("link")?.textContent || "#";
+        const date = (it.querySelector("pubDate")?.textContent || "").slice(0,16);
+        html += `<a href="${link}" target="_blank" rel="noopener" style="display:block; padding:9px 0; border-top:1px solid var(--line); text-decoration:none; color:var(--text); font-size:13px; line-height:1.4;">
+          ${title}<div class="muted" style="margin-top:2px;">${date}</div></a>`;
+      });
+    }
+  }catch(e){
+    html += '<div class="muted">뉴스를 불러오지 못했어요.</div>';
+  }
+
+  // ── DART 공시 (키 있을 때만) ──
+  const key = getDartKey();
+  if(key && key.length >= 30){
+    try{
+      const today = new Date();
+      const end = today.toISOString().slice(0,10).replace(/-/g,"");
+      const past = new Date(today.getTime()-90*86400000).toISOString().slice(0,10).replace(/-/g,"");
+      const dartUrl = `https://opendart.fss.or.kr/api/list.json?crtfc_key=${key}&corp_cls=&bgn_de=${past}&end_de=${end}&page_count=10`;
+      // DART는 종목코드(stock_code)로 직접 못 거니, 회사명 검색은 corpCode 필요 → 간단히 전체에서 필터
+      const dRes = await fetch(`https://api.allorigins.win/raw?url=${encodeURIComponent(dartUrl)}`, {signal:AbortSignal.timeout(12000)});
+      const dJson = await dRes.json();
+      if(dJson.status === "000" && dJson.list){
+        const mine = dJson.list.filter(d=> d.stock_code === current).slice(0,6);
+        if(mine.length){
+          html += '<div style="font-size:12px; font-weight:700; color:var(--dim); margin:14px 0 8px;">📋 DART 공시</div>';
+          mine.forEach(d=>{
+            const url = `https://dart.fss.or.kr/dsaf001/main.do?rcpNo=${d.rcept_no}`;
+            html += `<a href="${url}" target="_blank" rel="noopener" style="display:block; padding:9px 0; border-top:1px solid var(--line); text-decoration:none; color:var(--text); font-size:13px;">
+              ${d.report_nm}<div class="muted" style="margin-top:2px;">${d.flr_nm} · ${d.rcept_dt}</div></a>`;
+          });
+        } else {
+          html += '<div class="muted" style="margin-top:12px;">최근 90일 내 이 종목 공시 없음</div>';
+        }
+      } else if(dJson.status === "013"){
+        html += '<div class="muted" style="margin-top:12px;">최근 공시 없음</div>';
+      } else {
+        html += `<div class="muted" style="margin-top:12px;">공시 조회 실패 (${dJson.message||dJson.status})</div>`;
+      }
+    }catch(e){
+      html += '<div class="muted" style="margin-top:12px;">공시를 불러오지 못했어요.</div>';
+    }
+  } else {
+    html += '<div class="muted" style="margin-top:12px;">💡 DART 키를 입력하면 공시도 함께 볼 수 있어요 (opendart.fss.or.kr 무료 발급)</div>';
+  }
+
+  listEl.innerHTML = html || '<div class="muted">표시할 내용이 없어요.</div>';
+}
+
 async function analyze(){
   const btn = document.getElementById("analyzeBtn");
   const errEl = document.getElementById("err");
@@ -478,6 +560,7 @@ async function analyze(){
   try{
     const series = await fetchDailyKR(current);
     render(judge(compute(series)));
+    loadNewsAndDisclosure();
   }catch(e){
     errEl.textContent = e.message || "분석에 실패했어요.";
     document.getElementById("result").style.display = "none";
@@ -496,6 +579,11 @@ document.getElementById("codeInput").addEventListener("keydown", e=>{
   if(e.key==="Enter") document.getElementById("goBtn").click();
 });
 document.getElementById("analyzeBtn").onclick = analyze;
+const dartInput = document.getElementById("dartKey");
+if(dartInput){
+  dartInput.value = getDartKey();
+  dartInput.addEventListener("change", ()=>{ setDartKey(dartInput.value.trim()); });
+}
 window.addEventListener("resize", ()=>{ if(lastRows) drawChart(lastRows); });
 
 renderChips();

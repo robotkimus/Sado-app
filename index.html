@@ -172,6 +172,11 @@
     </details>
   </div>
 
+  <div class="card" id="newsCard" style="display:none; padding:16px;">
+    <div style="font-size:12.5px; font-weight:700; color:var(--dim); margin-bottom:8px;">📰 관련 뉴스</div>
+    <div id="newsList"></div>
+  </div>
+
   <div class="note">
     차트는 TradingView 제공 실시간 위젯이에요. 신호 판정은 일별 종가 기준의 기계적 해석일 뿐
     투자 권유가 아니며, 미래 수익을 보장하지 않아요. 매매 전 기업 실적과 시장 환경(금리·VIX)도 함께 확인하세요.
@@ -694,6 +699,33 @@ function render(res){
 }
 
 /* ── 버튼 핸들러 ── */
+/* ── 미국 뉴스 (구글뉴스 RSS) ── */
+async function loadNews(){
+  const listEl = document.getElementById("newsList");
+  document.getElementById("newsCard").style.display = "block";
+  listEl.innerHTML = '<div class="muted">불러오는 중...</div>';
+  try{
+    const gUrl = `https://news.google.com/rss/search?q=${encodeURIComponent(current+" stock")}&hl=en-US&gl=US&ceid=US:en`;
+    const proxied = `https://api.allorigins.win/raw?url=${encodeURIComponent(gUrl)}`;
+    const res = await fetch(proxied, {signal:AbortSignal.timeout(12000)});
+    const xml = await res.text();
+    const doc = new DOMParser().parseFromString(xml, "text/xml");
+    const items = [...doc.querySelectorAll("item")].slice(0,6);
+    if(!items.length){ listEl.innerHTML = '<div class="muted">뉴스가 없어요.</div>'; return; }
+    let html = "";
+    items.forEach(it=>{
+      const title = it.querySelector("title")?.textContent || "";
+      const link = it.querySelector("link")?.textContent || "#";
+      const date = (it.querySelector("pubDate")?.textContent || "").slice(0,16);
+      html += `<a href="${link}" target="_blank" rel="noopener" style="display:block; padding:9px 0; border-top:1px solid var(--line); text-decoration:none; color:var(--text); font-size:13px; line-height:1.4;">
+        ${title}<div class="muted" style="margin-top:2px;">${date}</div></a>`;
+    });
+    listEl.innerHTML = html;
+  }catch(e){
+    listEl.innerHTML = '<div class="muted">뉴스를 불러오지 못했어요.</div>';
+  }
+}
+
 const analyzeBtn = document.getElementById("analyzeBtn");
 analyzeBtn.onclick = async ()=>{
   document.getElementById("err").innerHTML = "";
@@ -702,6 +734,7 @@ analyzeBtn.onclick = async ()=>{
   try{
     const data = await fetchDaily(current);
     render(judge(compute(data)));
+    loadNews();
   }catch(e){
     document.getElementById("err").innerHTML = `<div class="err">${e.message}</div>`;
   }finally{
