@@ -425,14 +425,18 @@ tickerInput.addEventListener("input", ()=>{
   // 1) 사전에서 즉시 표시 (네트워크 0초)
   const dictHits = searchUsDict(q);
   if(dictHits.length) showAc(dictHits);
-  // 2) 야후 검색으로 보강 (사전에 없는 종목까지)
+  // 2) 사전 결과가 충분하면(3개 이상) 야후 호출 생략 → 깜빡임 방지
+  if(dictHits.length >= 3) return;
+  // 사전 결과가 적을 때만 야후로 보강
   acTimer = setTimeout(async ()=>{
+    // 입력이 바뀌었으면 무시 (오래된 응답이 덮어쓰지 않게)
+    if(tickerInput.value.trim() !== q) return;
     const list = await searchSymbols(q);
-    // 사전 결과 + 야후 결과 합치되 중복 제거
+    if(tickerInput.value.trim() !== q) return;
     const merged = [...dictHits];
     list.forEach(x=>{ if(!merged.find(m=>m.symbol===x.symbol)) merged.push(x); });
     if(merged.length) showAc(merged.slice(0,12));
-  }, 300);
+  }, 350);
 });
 document.addEventListener("click", e=>{
   if(!e.target.closest(".row") && !e.target.closest("#acBox")){

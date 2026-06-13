@@ -820,7 +820,18 @@ tickerInput.addEventListener("input", ()=>{
   const q = tickerInput.value.trim();
   clearTimeout(acTimer);
   if(q.length < 1 || /^\d{1,6}$/.test(q)){ acBox.style.display="none"; return; }
-  acTimer = setTimeout(async ()=>{ showAc(await searchKR(q)); }, 300);
+  // 한글이면 사전에서 즉시 (야후 호출 없이 — 깜빡임 없음)
+  if(/[가-힣]/.test(q)){
+    const hits = searchDict(q);
+    if(hits.length){ showAc(hits); return; }
+  }
+  // 영문/그 외는 야후 검색
+  acTimer = setTimeout(async ()=>{
+    if(tickerInput.value.trim() !== q) return;
+    const list = await searchKR(q);
+    if(tickerInput.value.trim() !== q) return;
+    showAc(list);
+  }, 350);
 });
 document.addEventListener("click", e=>{
   if(!e.target.closest(".row") && !e.target.closest("#acBox")) acBox.style.display = "none";
