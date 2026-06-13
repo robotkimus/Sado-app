@@ -246,6 +246,22 @@ function compute(series){
   }
   return rows;
 }
+/* ── 피보나치 되돌림 (최근 90일 고저 기준) ── */
+function fibLevels(rows){
+  const data = rows.slice(-90);
+  let hi=-Infinity, lo=Infinity, hiIdx=0, loIdx=0;
+  data.forEach((r,i)=>{ if(r.close>hi){hi=r.close;hiIdx=i;} if(r.close<lo){lo=r.close;loIdx=i;} });
+  const upTrend = loIdx < hiIdx; // 저점이 먼저면 상승 추세
+  const diff = hi - lo;
+  const ratios = [0, 0.236, 0.382, 0.5, 0.618, 0.786, 1];
+  // 상승추세: 고점에서 되돌림(아래로), 하락추세: 저점에서 되돌림(위로)
+  const levels = ratios.map(r=>({
+    ratio: r,
+    price: upTrend ? hi - diff*r : lo + diff*r
+  }));
+  return {hi, lo, upTrend, levels};
+}
+
 function judge(rows){
   const last = rows[rows.length-1];
   const sigs = [];
@@ -289,9 +305,35 @@ function judge(rows){
       d: ok ? `평균 대비 ${(ratio*100).toFixed(0)}% 거래량 — ${up?"상승에 힘이 실림":"하락에 매물 출회 — 경계"}`
             : `평균 대비 ${(ratio*100).toFixed(0)}% — 거래량 평이`});
   }
+  // 피보나치 되돌림 신호
+  const fib = fibLevels(rows);
+  const price = last.close;
+  // 현재가가 어느 피보 레벨에 가까운지
+  let nearest = fib.levels[0], minDist = Infinity;
+  fib.levels.forEach(l=>{ const d=Math.abs(price-l.price); if(d<minDist){minDist=d;nearest=l;} });
+  const nearPct = (nearest.ratio*100).toFixed(1);
+  const distPct = (minDist/price*100);
+  // 38.2~61.8% 되돌림 구간이면 지지/저항 주목 구간
+  const inZone = nearest.ratio>=0.382 && nearest.ratio<=0.618 && distPct<2;
+  let fibV="hold", fibS=0, fibD="";
+  if(distPct < 1.5){
+    if(nearest.ratio===0.618 || nearest.ratio===0.5){
+      fibV="buy"; fibS=0.5;
+      fibD=`현재가가 ${nearPct}% 되돌림선 부근 — 강한 지지/매수 관심 구간`;
+    } else if(nearest.ratio===0.236){
+      fibV="hold"; fibS=0;
+      fibD=`현재가가 ${nearPct}% 얕은 되돌림 — 추세 강함, 눌림목 주목`;
+    } else {
+      fibD=`현재가가 ${nearPct}% 되돌림선 부근 — 지지/저항 주목`;
+    }
+  } else {
+    fibD=`되돌림선과 거리 있음 (가장 가까운 선: ${nearPct}%) — 뚜렷한 지지/저항 미접근`;
+  }
+  sigs.push({name:"피보나치 되돌림", v:fibV, s:fibS, d:fibD});
+
   const total = sigs.reduce((a,x)=>a+x.s,0);
   const overall = total>=1.5?"buy":total<=-1.5?"sell":"hold";
-  return {sigs, total, overall, last, prev:rows[rows.length-2], rows};
+  return {sigs, total, overall, last, prev:rows[rows.length-2], rows, fib};
 }
 
 function drawChart(rows){
@@ -328,6 +370,18 @@ function drawChart(rows){
   line("ma5","#E8B454",1.2);
   const upTrend = data[data.length-1].close >= data[0].close;
   line("close", upTrend ? "#FF4D5E" : "#4D8CFF", 1.8);
+  // 피보나치 되돌림 선 (점선)
+  const fib = fibLevels(rows);
+  ctx.setLineDash([3,3]); ctx.lineWidth=0.8;
+  fib.levels.forEach(l=>{
+    if(l.price<min||l.price>max) return;
+    const y=ys(l.price);
+    ctx.strokeStyle="rgba(232,180,84,.45)"; ctx.beginPath();
+    ctx.moveTo(pad.l,y); ctx.lineTo(W-pad.r,y); ctx.stroke();
+    ctx.fillStyle="rgba(232,180,84,.8)"; ctx.font="9px sans-serif"; ctx.textAlign="left";
+    ctx.fillText((l.ratio*100).toFixed(1)+"%", pad.l+2, y-2);
+  });
+  ctx.setLineDash([]);
   ctx.textAlign="left"; ctx.font="10px sans-serif";
   ctx.fillStyle="#FF4D5E"; ctx.fillText("● 종가", pad.l, 11);
   ctx.fillStyle="#E8B454"; ctx.fillText("● 5일", pad.l+44, 11);
