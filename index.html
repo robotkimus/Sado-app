@@ -359,34 +359,26 @@ function renderWeatherCards(){
 
 async function loadWeather(){
   const note = document.getElementById("wNote");
-  const key = getKey();
   lastWeatherAt = Date.now();
-  // 1) Twelve Data 일괄 시세 (키 있을 때)
   weatherData = weatherData || {};
-  if(key){
+  // 환율·지수·VIX 를 Yahoo 에서 한 번에 (무료·무제한, API 키 크레딧 미사용)
+  const ymap = { vix:"%5EVIX", krw:"KRW=X", spx:"SPY", ndx:"QQQ" };
+  await Promise.all(Object.entries(ymap).map(async ([id, ysym])=>{
     try{
-      const syms = MACRO.map(m=>m.td).join(",");
-      const json = await (await fetch(
-        `https://api.twelvedata.com/quote?symbol=${encodeURIComponent(syms)}&apikey=${encodeURIComponent(key)}`,
-        {signal: AbortSignal.timeout(12000)})).json();
-      MACRO.forEach(m=>{
-        const q = json[m.td] || (json.symbol===m.td ? json : null);
-        if(q && q.close && !q.code)
-          weatherData[m.id] = { v: parseFloat(q.close), pc: parseFloat(q.percent_change || 0) };
-      });
-    }catch(e){ /* 아래 폴백 진행 */ }
-  }
-  // 2) VIX 폴백 (Twelve Data 무료 플랜은 VIX 미지원)
-  if(!weatherData.vix || !isFinite(weatherData.vix.v)){
-    try{ weatherData.vix = await fetchVIXFallback(); }catch(e){ weatherData.vix = null; }
-  }
+      const j = await fetchViaProxies(
+        `https://query1.finance.yahoo.com/v8/finance/chart/${ysym}?range=2d&interval=1d`, true);
+      const m = j.chart.result[0].meta;
+      const now = m.regularMarketPrice;
+      const prev = m.chartPreviousClose ?? now;
+      if(isFinite(now)) weatherData[id] = { v: now, pc: prev ? ((now/prev)-1)*100 : 0 };
+    }catch(e){ /* 개별 실패는 무시 */ }
+  }));
   renderWeatherCards();
-  // 3) 공포탐욕지수
+  // 공포탐욕지수 (CNN)
   try{ fearGreed = await fetchFearGreed(); }catch(e){ /* 유지 */ }
   renderWeatherCards();
   const t = new Date();
-  note.textContent = (key ? "" : "환율·지수 수치는 API 키 등록 후 표시돼요. ")
-    + `마지막 갱신 ${String(t.getHours()).padStart(2,"0")}:${String(t.getMinutes()).padStart(2,"0")}`
+  note.textContent = `마지막 갱신 ${String(t.getHours()).padStart(2,"0")}:${String(t.getMinutes()).padStart(2,"0")}`
     + " · 5분마다 자동 갱신 · 카드를 탭하면 차트로 전환";
 }
 
