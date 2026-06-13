@@ -263,15 +263,21 @@ def execute(decisions, account, positions, market):
             results.append(f"⏸ {sym} 보류 (미국장 마감 — 개장 시 재검토)")
             continue
         try:
-            order = {"symbol": to_alpaca_symbol(sym), "qty": str(qty), "side": side}
-            if crypto:
-                # 코인은 지정가(limit) — 현재가에서 살짝 유리하게 걸어 price band 통과 + 즉시 체결 유도
-                px = prices[sym]
-                limit = round(px * (1.01 if side == "buy" else 0.99), 2)  # 매수는 +1%, 매도는 -1%
-                order.update({"type": "limit", "limit_price": str(limit),
-                              "time_in_force": "gtc"})
+            if crypto and side == "buy":
+                # 코인 매수는 금액(notional) 기준 — BTC 고가로 인한 수량/최소단위 문제 회피
+                notional = round(qty * prices[sym], 2)
+                if notional < 10:      # 알파카 코인 최소 주문 $10
+                    notional = 10.0
+                order = {"symbol": to_alpaca_symbol(sym), "notional": str(notional),
+                         "side": side, "type": "market", "time_in_force": "gtc"}
+                cost = notional
+            elif crypto:
+                # 코인 매도는 보유 수량 기준
+                order = {"symbol": to_alpaca_symbol(sym), "qty": str(qty),
+                         "side": side, "type": "market", "time_in_force": "gtc"}
             else:
-                order.update({"type": "market", "time_in_force": "day"})
+                order = {"symbol": to_alpaca_symbol(sym), "qty": str(qty),
+                         "side": side, "type": "market", "time_in_force": "day"}
             alpaca("/v2/orders", method="POST", body=order)
             mark = "🔴 매수" if side == "buy" else "🔵 매도"
             results.append(f"{mark} {sym} {qty}{'개' if crypto else '주'} (~${cost:,.0f}) — {reason}")
