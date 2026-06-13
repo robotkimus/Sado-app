@@ -159,6 +159,56 @@ function saveKrFavs(arr){ try{ localStorage.setItem("fav_kr", JSON.stringify(arr
 let KR_PRESETS = getKrFavs();
 let current = "005930";
 let knownNames = {};  // code -> name (검색으로 알아낸 이름)
+
+/* ── 한국 주요 종목 사전 (한글 검색용) ── */
+const KR_DICT = [
+  ["삼성전자","005930"],["삼성전자우","005935"],["SK하이닉스","000660"],["LG에너지솔루션","373220"],["LG엔솔","373220"],
+  ["삼성바이오로직스","207940"],["삼성바이오","207940"],["현대차","005380"],["기아","000270"],["셀트리온","068270"],
+  ["NAVER","035420"],["네이버","035420"],["카카오","035720"],["삼성SDI","006400"],["LG화학","051910"],
+  ["POSCO홀딩스","005490"],["포스코홀딩스","005490"],["포스코","005490"],["KB금융","105560"],["신한지주","055550"],
+  ["삼성물산","028260"],["현대모비스","012330"],["LG전자","066570"],["SK이노베이션","096770"],["한화에어로스페이스","012450"],
+  ["하나금융지주","086790"],["메리츠금융지주","138040"],["삼성생명","032830"],["삼성화재","000810"],["SK텔레콤","017670"],
+  ["KT","030200"],["LG유플러스","032640"],["KT&G","033780"],["HMM","011200"],["두산에너빌리티","034020"],
+  ["에코프로비엠","247540"],["에코프로","086520"],["포스코퓨처엠","003670"],["엘앤에프","066970"],["코스모신소재","005070"],
+  ["크래프톤","259960"],["하이브","352820"],["엔씨소프트","036570"],["엔씨","036570"],["넷마블","251270"],
+  ["펄어비스","263750"],["카카오게임즈","293490"],["위메이드","112040"],["컴투스","078340"],["데브시스터즈","194480"],
+  ["현대글로비스","086280"],["현대제철","004020"],["고려아연","010130"],["롯데케미칼","011170"],["금호석유","011780"],
+  ["한국전력","015760"],["한전","015760"],["두산밥캣","241560"],["한미반도체","042700"],["DB하이텍","000990"],
+  ["리노공업","058470"],["이오테크닉스","039030"],["원익IPS","240810"],["주성엔지니어링","036930"],["테스","095610"],
+  ["삼성전기","009150"],["LG디스플레이","034220"],["LG이노텍","011070"],["SKC","011790"],["솔브레인","357780"],
+  ["카카오뱅크","323410"],["카카오페이","377300"],["토스","null"],["케이뱅크","null"],["우리금융지주","316140"],
+  ["기업은행","024110"],["BNK금융지주","138930"],["JB금융지주","175330"],["DGB금융지주","139130"],["미래에셋증권","006800"],
+  ["한국금융지주","071050"],["삼성증권","016360"],["NH투자증권","005940"],["키움증권","039490"],["메리츠증권","008560"],
+  ["아모레퍼시픽","090430"],["LG생활건강","051900"],["코스맥스","192820"],["한국콜마","161890"],["클리오","237880"],
+  ["CJ제일제당","097950"],["오리온","271560"],["농심","004370"],["롯데웰푸드","280360"],["삼양식품","003230"],
+  ["하이트진로","000080"],["오뚜기","007310"],["빙그레","005180"],["동서","026960"],["풀무원","017810"],
+  ["셀트리온헬스케어","091990"],["유한양행","000100"],["한미약품","128940"],["대웅제약","069620"],["녹십자","006280"],
+  ["삼천당제약","000250"],["SK바이오팜","326030"],["SK바이오사이언스","302440"],["알테오젠","196170"],["HLB","028300"],
+  ["에이비엘바이오","298380"],["리가켐바이오","141080"],["펩트론","087010"],["에스티팜","237690"],["휴젤","145020"],
+  ["현대건설","000720"],["GS건설","006360"],["대우건설","047040"],["DL이앤씨","375500"],["HDC현대산업개발","294870"],
+  ["대한항공","003490"],["아시아나항공","020560"],["제주항공","089590"],["진에어","272450"],["한진칼","180640"],
+  ["CJ대한통운","000120"],["현대오토에버","307950"],["한온시스템","018880"],["만도","204320"],["HL만도","204320"],
+  ["S-Oil","010950"],["에스오일","010950"],["GS","078930"],["SK","034730"],["LG","003550"],["롯데지주","004990"],
+  ["한화","000880"],["두산","000150"],["효성","004800"],["코오롱인더","120110"],["태광산업","003240"],
+  ["삼성엔지니어링","028050"],["한화솔루션","009830"],["OCI","456040"],["한솔케미칼","014680"],["후성","093370"],
+  ["덴티움","145720"],["오스템임플란트","null"],["클래시스","214150"],["루닛","328130"],["뷰노","338220"],
+  ["JYP Ent.","035900"],["JYP","035900"],["에스엠","041510"],["SM","041510"],["와이지엔터","122870"],["YG","122870"],
+  ["CJ ENM","035760"],["스튜디오드래곤","253450"],["콘텐트리중앙","036420"],["덱스터","206560"],["위지윅스튜디오","299900"],
+];
+const KR_DICT_MAP = {};
+KR_DICT.forEach(([name,code])=>{ if(code!=="null") KR_DICT_MAP[name.toLowerCase()] = {code, name}; });
+function searchDict(q){
+  const ql = q.toLowerCase().replace(/\s/g,"");
+  const hits = [];
+  for(const [name, code] of KR_DICT){
+    if(code==="null") continue;
+    const nl = name.toLowerCase().replace(/\s/g,"");
+    if(nl.includes(ql) || ql.includes(nl)){
+      if(!hits.find(h=>h.code===code)) hits.push({code, name, ex:"코스피/코스닥"});
+    }
+  }
+  return hits.slice(0,10);
+}
 let lastRows = null;
 const chipsEl = document.getElementById("chips");
 function krName(code){ const f = KR_PRESETS.find(k=>k.code===code); if(f && f.name!==code) return f.name; return knownNames[code] || code; }
@@ -315,6 +365,32 @@ function volRange(rows, days){
   };
 }
 
+/* ── OBV (On-Balance Volume, 매집 흔적) ── */
+function obvSignal(rows){
+  // OBV 누적 계산
+  let obv = 0; const series = [];
+  for(let i=0;i<rows.length;i++){
+    if(i>0){
+      if(rows[i].close > rows[i-1].close) obv += rows[i].volume;
+      else if(rows[i].close < rows[i-1].close) obv -= rows[i].volume;
+    }
+    series.push(obv);
+  }
+  // 최근 20일 OBV 추세 vs 가격 추세 비교 (다이버전스 탐지)
+  const n = Math.min(20, series.length-1);
+  const obvNow = series[series.length-1], obvPast = series[series.length-1-n];
+  const priceNow = rows[rows.length-1].close, pricePast = rows[rows.length-1-n].close;
+  const obvUp = obvNow > obvPast;
+  const priceUp = priceNow > pricePast;
+  const obvSlope = obvPast!==0 ? ((obvNow-obvPast)/Math.abs(obvPast))*100 : 0;
+  let v="hold", s=0, d="";
+  if(obvUp && priceUp){ v="buy"; s=0.5; d="OBV·가격 동반 상승 — 거래량이 상승을 뒷받침 (건강한 상승)"; }
+  else if(obvUp && !priceUp){ v="buy"; s=1; d="가격은 횡보/하락인데 OBV 상승 — 몰래 매집 흔적 (강세 다이버전스)"; }
+  else if(!obvUp && priceUp){ v="sell"; s=-1; d="가격은 오르는데 OBV 하락 — 거래량 뒷받침 약함 (약세 다이버전스, 주의)"; }
+  else { v="sell"; s=-0.5; d="OBV·가격 동반 하락 — 매도세 우위, 자금 이탈 중"; }
+  return {name:"OBV (자금 흐름)", v, s, d};
+}
+
 /* ── 피보나치 되돌림 (최근 90일 고저 기준) ── */
 function fibLevels(rows){
   const data = rows.slice(-90);
@@ -374,6 +450,9 @@ function judge(rows){
       d: ok ? `평균 대비 ${(ratio*100).toFixed(0)}% 거래량 — ${up?"상승에 힘이 실림":"하락에 매물 출회 — 경계"}`
             : `평균 대비 ${(ratio*100).toFixed(0)}% — 거래량 평이`});
   }
+  // OBV 신호
+  sigs.push(obvSignal(rows));
+
   // 피보나치 되돌림 신호
   const fib = fibLevels(rows);
   const price = last.close;
@@ -553,30 +632,46 @@ const acBox = document.getElementById("acBox");
 const tickerInput = document.getElementById("codeInput");
 let acTimer = null;
 async function searchKR(q){
-  const url = `https://query1.finance.yahoo.com/v1/finance/search?q=${encodeURIComponent(q)}&quotesCount=12&newsCount=0`;
+  // 1순위: 한글 사전 (한글 검색 대응)
+  const dictHits = searchDict(q);
+  // 한글이 포함된 검색이면 사전 결과를 우선 반환
+  if(dictHits.length && /[가-힣]/.test(q)) return dictHits;
+
+  const url = `https://query1.finance.yahoo.com/v1/finance/search?q=${encodeURIComponent(q)}&quotesCount=14&newsCount=0`;
+  const enc = encodeURIComponent(url);
+  const pickKR = (quotes)=> quotes
+    .filter(x=> x.symbol && (x.symbol.endsWith(".KS")||x.symbol.endsWith(".KQ")))
+    .map(x=>({
+      code: x.symbol.replace(/\.(KS|KQ)$/,""),
+      name: x.shortname || x.longname || x.symbol,
+      ex: x.symbol.endsWith(".KS") ? "코스피" : "코스닥"
+    }));
+  // allorigins JSON 우선
+  try{
+    const res = await fetch(`https://api.allorigins.win/get?url=${enc}`, {signal:AbortSignal.timeout(9000)});
+    if(res.ok){
+      const j = await res.json();
+      if(j && j.contents){
+        const data = JSON.parse(j.contents);
+        if(data.quotes){ const r = pickKR(data.quotes); if(r.length) return r; }
+      }
+    }
+  }catch(e){}
   const tries = [
-    url,
-    `https://corsproxy.io/?url=${encodeURIComponent(url)}`,
-    `https://api.allorigins.win/raw?url=${encodeURIComponent(url)}`
+    `https://corsproxy.io/?url=${enc}`,
+    `https://api.allorigins.win/raw?url=${enc}`,
+    url
   ];
   for(const u of tries){
     try{
       const res = await fetch(u, {signal:AbortSignal.timeout(8000)});
       if(!res.ok) continue;
       const j = await res.json();
-      if(j.quotes){
-        // 한국 거래소(.KS 코스피 / .KQ 코스닥)만
-        return j.quotes
-          .filter(x=> x.symbol && (x.symbol.endsWith(".KS")||x.symbol.endsWith(".KQ")))
-          .map(x=>({
-            code: x.symbol.replace(/\.(KS|KQ)$/,""),
-            name: x.shortname || x.longname || x.symbol,
-            ex: x.symbol.endsWith(".KS") ? "코스피" : "코스닥"
-          }));
-      }
+      if(j.quotes){ const r = pickKR(j.quotes); if(r.length) return r; }
     }catch(e){}
   }
-  return [];
+  // 야후도 실패하면 사전 결과라도 (한글 아닌 경우 포함)
+  return dictHits;
 }
 function showAc(list){
   if(!list.length){ acBox.style.display="none"; return; }
@@ -585,25 +680,30 @@ function showAc(list){
   ).join("");
   acBox.style.display = "block";
   acBox.querySelectorAll(".acitem").forEach(el=>{
-    el.onclick = ()=>{
+    // mousedown/touchstart로 잡아야 input blur·document click보다 먼저 실행됨
+    const pick = (ev)=>{
+      ev.preventDefault();
+      ev.stopPropagation();
       const code = el.dataset.code, name = el.dataset.name;
-      knownNames[code] = name;  // 이름 기억
+      knownNames[code] = name;
       const f = KR_PRESETS.find(k=>k.code===code);
       if(f && f.name===code) f.name = name;
       acBox.style.display = "none";
       document.getElementById("codeInput").value = "";
       setCode(code);
     };
+    el.addEventListener("mousedown", pick);
+    el.addEventListener("touchstart", pick, {passive:false});
   });
 }
 tickerInput.addEventListener("input", ()=>{
   const q = tickerInput.value.trim();
   clearTimeout(acTimer);
-  if(q.length < 1 || /^\d{1,6}$/.test(q)){ acBox.style.display="none"; return; }  // 숫자코드는 자동완성 안함
+  if(q.length < 1 || /^\d{1,6}$/.test(q)){ acBox.style.display="none"; return; }
   acTimer = setTimeout(async ()=>{ showAc(await searchKR(q)); }, 300);
 });
 document.addEventListener("click", e=>{
-  if(!e.target.closest(".row")) acBox.style.display = "none";
+  if(!e.target.closest(".row") && !e.target.closest("#acBox")) acBox.style.display = "none";
 });
 
 document.getElementById("analyzeBtn").onclick = analyze;

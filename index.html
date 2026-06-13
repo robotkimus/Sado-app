@@ -292,11 +292,23 @@ let acTimer = null;
 const acBox = document.getElementById("acBox");
 const tickerInput = document.getElementById("tickerInput");
 async function searchSymbols(q){
-  const url = `https://query1.finance.yahoo.com/v1/finance/search?q=${encodeURIComponent(q)}&quotesCount=8&newsCount=0`;
+  const url = `https://query1.finance.yahoo.com/v1/finance/search?q=${encodeURIComponent(q)}&quotesCount=10&newsCount=0`;
+  const enc = encodeURIComponent(url);
+  // allorigins JSON(get) 우선 — 가장 안정적
+  try{
+    const res = await fetch(`https://api.allorigins.win/get?url=${enc}`, {signal:AbortSignal.timeout(9000)});
+    if(res.ok){
+      const j = await res.json();
+      if(j && j.contents){
+        const data = JSON.parse(j.contents);
+        if(data.quotes) return data.quotes.filter(x=>x.symbol && (x.quoteType==="EQUITY"||x.quoteType==="ETF"));
+      }
+    }
+  }catch(e){}
   const tries = [
-    url,
-    `https://corsproxy.io/?url=${encodeURIComponent(url)}`,
-    `https://api.allorigins.win/raw?url=${encodeURIComponent(url)}`
+    `https://corsproxy.io/?url=${enc}`,
+    `https://api.allorigins.win/raw?url=${enc}`,
+    url
   ];
   for(const u of tries){
     try{
@@ -315,11 +327,15 @@ function showAc(list){
   ).join("");
   acBox.style.display = "block";
   acBox.querySelectorAll(".acitem").forEach(el=>{
-    el.onclick = ()=>{
+    const pick = (ev)=>{
+      ev.preventDefault();
+      ev.stopPropagation();
       tickerInput.value = el.dataset.sym;
       acBox.style.display = "none";
       setTicker(el.dataset.sym);
     };
+    el.addEventListener("mousedown", pick);
+    el.addEventListener("touchstart", pick, {passive:false});
   });
 }
 tickerInput.addEventListener("input", ()=>{
@@ -332,7 +348,7 @@ tickerInput.addEventListener("input", ()=>{
   }, 300);
 });
 document.addEventListener("click", e=>{
-  if(!e.target.closest(".row")) acBox.style.display = "none";
+  if(!e.target.closest(".row") && !e.target.closest("#acBox")) acBox.style.display = "none";
 });
 
 /* ── 시장 날씨 (매크로) — 자동 갱신 ── */
@@ -626,6 +642,32 @@ function volRange(rows, days){
   };
 }
 
+/* ── OBV (On-Balance Volume, 매집 흔적) ── */
+function obvSignal(rows){
+  // OBV 누적 계산
+  let obv = 0; const series = [];
+  for(let i=0;i<rows.length;i++){
+    if(i>0){
+      if(rows[i].close > rows[i-1].close) obv += rows[i].volume;
+      else if(rows[i].close < rows[i-1].close) obv -= rows[i].volume;
+    }
+    series.push(obv);
+  }
+  // 최근 20일 OBV 추세 vs 가격 추세 비교 (다이버전스 탐지)
+  const n = Math.min(20, series.length-1);
+  const obvNow = series[series.length-1], obvPast = series[series.length-1-n];
+  const priceNow = rows[rows.length-1].close, pricePast = rows[rows.length-1-n].close;
+  const obvUp = obvNow > obvPast;
+  const priceUp = priceNow > pricePast;
+  const obvSlope = obvPast!==0 ? ((obvNow-obvPast)/Math.abs(obvPast))*100 : 0;
+  let v="hold", s=0, d="";
+  if(obvUp && priceUp){ v="buy"; s=0.5; d="OBV·가격 동반 상승 — 거래량이 상승을 뒷받침 (건강한 상승)"; }
+  else if(obvUp && !priceUp){ v="buy"; s=1; d="가격은 횡보/하락인데 OBV 상승 — 몰래 매집 흔적 (강세 다이버전스)"; }
+  else if(!obvUp && priceUp){ v="sell"; s=-1; d="가격은 오르는데 OBV 하락 — 거래량 뒷받침 약함 (약세 다이버전스, 주의)"; }
+  else { v="sell"; s=-0.5; d="OBV·가격 동반 하락 — 매도세 우위, 자금 이탈 중"; }
+  return {name:"OBV (자금 흐름)", v, s, d};
+}
+
 /* ── 피보나치 되돌림 (최근 90일 고저 기준) ── */
 function fibLevels(rows){
   const data = rows.slice(-90);
@@ -681,6 +723,9 @@ function judge(rows){
       d: ok ? `평균 대비 ${(ratio*100).toFixed(0)}% 거래량 — ${up?"상승에 힘이 실림 (진짜 상승)":"하락에 매물 출회 — 경계"}`
             : `평균 대비 ${(ratio*100).toFixed(0)}% — 거래량 평이, 신뢰도 낮은 움직임`});
   }
+  // OBV 신호
+  sigs.push(obvSignal(rows));
+
   // 피보나치 되돌림 신호
   const fib = fibLevels(rows);
   const price = last.close;
