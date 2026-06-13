@@ -31,5 +31,11 @@ jobs:
           git config user.name "claude-trade-bot"
           git config user.email "bot@users.noreply.github.com"
           git add bot_status.json
-          git diff --staged --quiet || git commit -m "🤖 봇 포트폴리오 현황 업데이트"
-          git push
+          git diff --staged --quiet && echo "변경 없음 — 커밋 생략" && exit 0
+          git commit -m "🤖 봇 포트폴리오 현황 업데이트"
+          # 충돌 방지: 원격 최신을 먼저 합친 뒤 푸시 (최대 3회 재시도)
+          for i in 1 2 3; do
+            git pull --rebase --autostash origin main && git push && break
+            echo "푸시 재시도 $i..."
+            sleep 3
+          done
