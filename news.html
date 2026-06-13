@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>오늘, 사도 될까 — 뉴스</title>
+<meta name="theme-color" content="#0E1320">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<style>
+  :root{
+    --bg:#0E1320; --card:#171E2E; --card2:#1D2638; --line:#26314A;
+    --text:#EDEAE3; --dim:#8B94A8;
+    --buy:#FF4D5E; --sell:#4D8CFF; --hold:#E8B454;
+  }
+  *{box-sizing:border-box; -webkit-tap-highlight-color:transparent;}
+  body{
+    margin:0; background:var(--bg); color:var(--text);
+    font-family:'Pretendard Variable',Pretendard,-apple-system,'Apple SD Gothic Neo','Malgun Gothic',system-ui,sans-serif;
+    padding:18px 14px calc(40px + env(safe-area-inset-bottom));
+  }
+  .wrap{max-width:480px; margin:0 auto;}
+  .eyebrow{font-size:11px; letter-spacing:.22em; color:var(--dim); font-weight:700;}
+  h1{font-size:26px; font-weight:800; margin:4px 0 14px; letter-spacing:-0.02em;}
+  /* 탭 메뉴 */
+  .tabs{display:flex; gap:6px; margin-bottom:16px; background:var(--card); padding:5px;
+    border-radius:14px; border:1px solid var(--line);}
+  .tab{flex:1; text-align:center; padding:9px 0; border-radius:10px; font-size:13px; font-weight:700;
+    color:var(--dim); text-decoration:none; cursor:pointer;}
+  .tab.on{background:var(--text); color:var(--bg);}
+  /* 미국/국내 토글 */
+  .toggle{display:flex; gap:8px; margin-bottom:12px;}
+  .tg{flex:1; padding:10px 0; text-align:center; border-radius:12px; border:1px solid var(--line);
+    background:transparent; color:var(--dim); font-size:13px; font-weight:700; cursor:pointer; font-family:inherit;}
+  .tg.on{background:var(--card2); color:var(--text); border-color:var(--text);}
+  .row{display:flex; gap:8px; margin-bottom:14px;}
+  input[type=text]{flex:1; min-width:0; background:var(--card); border:1px solid var(--line); border-radius:12px;
+    color:var(--text); font-size:14px; font-weight:700; padding:11px 14px; font-family:inherit;}
+  input[type=text]::placeholder{color:var(--dim); font-weight:500;}
+  .btn{padding:11px 18px; border-radius:12px; border:none; background:var(--text); color:var(--bg);
+    font-weight:800; font-size:14px; cursor:pointer; font-family:inherit;}
+  .btn:disabled{opacity:.5;}
+  .chips{display:flex; gap:8px; overflow-x:auto; padding-bottom:6px; margin-bottom:12px;}
+  .chips::-webkit-scrollbar{display:none;}
+  .chip{padding:8px 14px; border-radius:999px; border:1px solid var(--line); background:transparent;
+    color:var(--dim); font-size:13px; font-weight:700; white-space:nowrap; cursor:pointer; font-family:inherit;}
+  .chip.on{background:var(--text); color:var(--bg); border-color:var(--text);}
+  .card{background:var(--card); border:1px solid var(--line); border-radius:18px; padding:16px; margin-bottom:12px;}
+  .sec-title{font-size:12.5px; font-weight:700; color:var(--dim); margin-bottom:8px;}
+  .item{display:block; padding:11px 0; border-top:1px solid var(--line); text-decoration:none;
+    color:var(--text); font-size:13.5px; line-height:1.45;}
+  .item:first-child{border-top:none;}
+  .item .meta{font-size:11.5px; color:var(--dim); margin-top:3px;}
+  .muted{font-size:12px; color:var(--dim); line-height:1.6;}
+  .switch{font-size:11px; color:var(--sell); text-decoration:none; font-weight:700;
+    border:1px solid var(--line); padding:5px 10px; border-radius:99px;}
+  .spin{display:inline-block; width:14px; height:14px; border:2px solid var(--bg);
+    border-top-color:transparent; border-radius:99px; animation:sp .7s linear infinite; vertical-align:-2px;}
+  @keyframes sp{to{transform:rotate(360deg)}}
+  .dartrow{display:flex; gap:8px; margin-bottom:12px;}
+  .dartrow input{font-size:12px; padding:9px 11px;}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="eyebrow" style="display:flex; justify-content:space-between; align-items:center;">
+    <span>NEWS · DISCLOSURE</span>
+  </div>
+  <h1>오늘, 사도 될까</h1>
+
+  <!-- 탭 메뉴 -->
+  <div class="tabs">
+    <a class="tab" href="index.html">🇺🇸 해외</a>
+    <a class="tab" href="kr.html">🇰🇷 국내</a>
+    <a class="tab on">📰 뉴스</a>
+  </div>
+
+  <!-- 미국/국내 토글 -->
+  <div class="toggle">
+    <button class="tg on" id="tgUS">🇺🇸 미국</button>
+    <button class="tg" id="tgKR">🇰🇷 국내</button>
+  </div>
+
+  <div class="chips" id="chips"></div>
+  <div class="row">
+    <input type="text" id="q" placeholder="종목명/티커 검색 (예: NVDA 또는 삼성전자)">
+    <button class="btn" id="goBtn">검색</button>
+  </div>
+
+  <!-- DART 키 (국내일 때만 표시) -->
+  <div class="dartrow" id="dartRow" style="display:none;">
+    <input type="text" id="dartKey" placeholder="DART API 키 (공시 보려면 입력, opendart.fss.or.kr 무료)">
+  </div>
+
+  <div class="card" id="newsCard">
+    <div class="sec-title" id="newsTitle">검색어를 입력하거나 종목을 선택하세요</div>
+    <div id="newsList"><div class="muted">상단에서 미국/국내를 고르고, 종목을 검색해보세요.</div></div>
+  </div>
+
+  <div class="card" id="dartCard" style="display:none;">
+    <div class="sec-title">📋 DART 공시</div>
+    <div id="dartList"></div>
+  </div>
+
+  <div class="muted" style="margin-top:8px; font-size:11px; line-height:1.6;">
+    뉴스는 구글뉴스 집계, 공시는 금융감독원 DART 기준이에요. 검증되지 않은 루머·찌라시는 포함하지 않아요.
+    무료 데이터 특성상 가끔 느리거나 안 뜰 수 있어요.
+  </div>
+</div>
+
+<script>
+const US_PRESETS = ["NVDA","TSLA","AAPL","MSFT","AMZN","META"];
+const KR_PRESETS = [
+  {code:"005930", name:"삼성전자"},
+  {code:"000660", name:"SK하이닉스"},
+  {code:"373220", name:"LG엔솔"},
+  {code:"035720", name:"카카오"},
+  {code:"035420", name:"NAVER"},
+  {code:"247540", name:"에코프로비엠"},
+];
+let market = "US";  // US | KR
+
+function getDartKey(){ try{ return localStorage.getItem("dartKey")||""; }catch(e){ return window._dk||""; } }
+function setDartKey(v){ try{ localStorage.setItem("dartKey", v); }catch(e){ window._dk = v; } }
+
+function renderChips(){
+  const el = document.getElementById("chips");
+  el.innerHTML = "";
+  if(market === "US"){
+    US_PRESETS.forEach(t=>{
+      const b = document.createElement("button");
+      b.className = "chip"; b.textContent = t;
+      b.onclick = ()=>{ document.getElementById("q").value = t; search(); };
+      el.appendChild(b);
+    });
+  } else {
+    KR_PRESETS.forEach(k=>{
+      const b = document.createElement("button");
+      b.className = "chip"; b.textContent = k.name;
+      b.onclick = ()=>{ document.getElementById("q").value = k.name; search(k.code); };
+      el.appendChild(b);
+    });
+  }
+}
+
+function setMarket(m){
+  market = m;
+  document.getElementById("tgUS").className = "tg" + (m==="US"?" on":"");
+  document.getElementById("tgKR").className = "tg" + (m==="KR"?" on":"");
+  document.getElementById("dartRow").style.display = (m==="KR") ? "flex" : "none";
+  document.getElementById("dartCard").style.display = "none";
+  document.getElementById("q").placeholder = m==="US" ? "티커 검색 (예: NVDA)" : "종목명 검색 (예: 삼성전자)";
+  renderChips();
+}
+
+async function fetchNews(query, lang){
+  const hl = lang==="ko" ? "ko" : "en-US";
+  const gl = lang==="ko" ? "KR" : "US";
+  const ceid = lang==="ko" ? "KR:ko" : "US:en";
+  const gUrl = `https://news.google.com/rss/search?q=${encodeURIComponent(query)}&hl=${hl}&gl=${gl}&ceid=${ceid}`;
+  const proxies = [
+    `https://api.allorigins.win/raw?url=${encodeURIComponent(gUrl)}`,
+    `https://corsproxy.io/?url=${encodeURIComponent(gUrl)}`,
+    `https://api.codetabs.com/v1/proxy/?quest=${encodeURIComponent(gUrl)}`
+  ];
+  let lastErr = null;
+  for(const u of proxies){
+    try{
+      const res = await fetch(u, {signal:AbortSignal.timeout(13000)});
+      if(!res.ok) throw new Error("HTTP "+res.status);
+      const xml = await res.text();
+      const doc = new DOMParser().parseFromString(xml, "text/xml");
+      const items = [...doc.querySelectorAll("item")];
+      if(items.length) return items.slice(0,8);
+      throw new Error("결과 없음");
+    }catch(e){ lastErr = e; }
+  }
+  throw lastErr || new Error("실패");
+}
+
+async function loadDart(code){
+  const listEl = document.getElementById("dartList");
+  const card = document.getElementById("dartCard");
+  const key = getDartKey();
+  if(!key || key.length < 30){
+    card.style.display = "block";
+    listEl.innerHTML = '<div class="muted">💡 DART 키를 입력하면 이 종목의 공시를 볼 수 있어요. (opendart.fss.or.kr 무료 발급)</div>';
+    return;
+  }
+  card.style.display = "block";
+  listEl.innerHTML = '<div class="muted"><span class="spin"></span> 공시 불러오는 중...</div>';
+  try{
+    const today = new Date();
+    const end = today.toISOString().slice(0,10).replace(/-/g,"");
+    const past = new Date(today.getTime()-90*86400000).toISOString().slice(0,10).replace(/-/g,"");
+    const dartUrl = `https://opendart.fss.or.kr/api/list.json?crtfc_key=${key}&bgn_de=${past}&end_de=${end}&page_count=100`;
+    const res = await fetch(`https://api.allorigins.win/raw?url=${encodeURIComponent(dartUrl)}`, {signal:AbortSignal.timeout(13000)});
+    const j = await res.json();
+    if(j.status === "000" && j.list){
+      const mine = j.list.filter(d=> d.stock_code === code).slice(0,8);
+      if(mine.length){
+        listEl.innerHTML = mine.map(d=>{
+          const url = `https://dart.fss.or.kr/dsaf001/main.do?rcpNo=${d.rcept_no}`;
+          return `<a class="item" href="${url}" target="_blank" rel="noopener">${d.report_nm}
+            <div class="meta">${d.flr_nm} · ${d.rcept_dt}</div></a>`;
+        }).join("");
+      } else {
+        listEl.innerHTML = '<div class="muted">최근 90일 내 이 종목 공시가 없어요.</div>';
+      }
+    } else {
+      listEl.innerHTML = `<div class="muted">공시 조회 실패 (${j.message||j.status})</div>`;
+    }
+  }catch(e){
+    listEl.innerHTML = '<div class="muted">공시를 불러오지 못했어요. 키를 확인하거나 잠시 후 다시 시도하세요.</div>';
+  }
+}
+
+async function search(krCode){
+  const q = document.getElementById("q").value.trim();
+  if(!q){ return; }
+  const btn = document.getElementById("goBtn");
+  const listEl = document.getElementById("newsList");
+  document.getElementById("newsTitle").textContent = `📰 "${q}" 관련 뉴스`;
+  btn.disabled = true; const orig = btn.textContent; btn.innerHTML = '<span class="spin"></span>';
+  listEl.innerHTML = '<div class="muted"><span class="spin"></span> 뉴스 불러오는 중...</div>';
+  try{
+    const query = market==="US" ? (q + " stock") : (q + " 주식");
+    const items = await fetchNews(query, market==="US" ? "en" : "ko");
+    listEl.innerHTML = items.map(it=>{
+      const title = it.querySelector("title")?.textContent || "";
+      const link = it.querySelector("link")?.textContent || "#";
+      const date = (it.querySelector("pubDate")?.textContent || "").slice(0,16);
+      const src = it.querySelector("source")?.textContent || "";
+      return `<a class="item" href="${link}" target="_blank" rel="noopener">${title}
+        <div class="meta">${src}${src&&date?" · ":""}${date}</div></a>`;
+    }).join("");
+  }catch(e){
+    listEl.innerHTML = '<div class="muted">뉴스를 불러오지 못했어요. 잠시 후 다시 시도해주세요.</div>';
+  }finally{
+    btn.disabled = false; btn.textContent = orig;
+  }
+  // 국내면 공시도
+  if(market === "KR"){
+    let code = krCode;
+    if(!code){
+      const f = KR_PRESETS.find(k=>k.name===q || k.code===q);
+      code = f ? f.code : (/^\d{6}$/.test(q) ? q : null);
+    }
+    if(code) loadDart(code);
+    else { document.getElementById("dartCard").style.display = "none"; }
+  } else {
+    document.getElementById("dartCard").style.display = "none";
+  }
+}
+
+/* 이벤트 */
+document.getElementById("tgUS").onclick = ()=>setMarket("US");
+document.getElementById("tgKR").onclick = ()=>setMarket("KR");
+document.getElementById("goBtn").onclick = ()=>search();
+document.getElementById("q").addEventListener("keydown", e=>{ if(e.key==="Enter") search(); });
+const dk = document.getElementById("dartKey");
+dk.value = getDartKey();
+dk.addEventListener("change", ()=>setDartKey(dk.value.trim()));
+
+/* 초기화 */
+setMarket("US");
+</script>
+</body>
+</html>
