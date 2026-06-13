@@ -720,12 +720,17 @@ async function analyze(){
 }
 
 document.getElementById("goBtn").onclick = ()=>{
-  const v = document.getElementById("codeInput").value.trim();
-  if(/^\d{6}$/.test(v)){ setCode(v); acBox.style.display="none"; }
+  const ci = document.getElementById("codeInput");
+  const v = ci.value.trim();
+  if(/^\d{6}$/.test(v)){
+    setCode(v);
+    acBox.style.display="none"; acBox.innerHTML="";
+    ci.value = ""; ci.blur();   // 코드로 바로 찾으면 비우기
+  }
   else if(v){
     // 이름이면 자동완성 검색을 띄움
     searchKR(v).then(list=>{
-      if(list.length){ tickerInput.value=""; showAc(list); }
+      if(list.length){ showAc(list); }
       else document.getElementById("err").textContent = "종목을 찾지 못했어요. 종목명이나 코드 6자리로 검색해보세요.";
     });
   }
@@ -796,7 +801,10 @@ function showAc(list){
       const f = KR_PRESETS.find(k=>k.code===code);
       if(f && f.name===code) f.name = name;
       acBox.style.display = "none";
-      document.getElementById("codeInput").value = "";
+      acBox.innerHTML = "";
+      const ci = document.getElementById("codeInput");
+      ci.value = "";
+      ci.blur();   // 자동완성 재발생 방지
       setCode(code);
     };
     el.addEventListener("mousedown", pick);

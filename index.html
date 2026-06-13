@@ -311,9 +311,12 @@ function setTicker(t){
   document.getElementById("err").innerHTML = "";
 }
 document.getElementById("goBtn").onclick = ()=>{
-  const v = document.getElementById("tickerInput").value.trim();
+  const inp = document.getElementById("tickerInput");
+  const v = inp.value.trim();
   if(v) setTicker(v);
   document.getElementById("acBox").style.display = "none";
+  inp.value = "";   // 검색 후 비우기
+  inp.blur();
 };
 document.getElementById("tickerInput").addEventListener("keydown", e=>{
   if(e.key==="Enter") document.getElementById("goBtn").click();
@@ -397,10 +400,13 @@ function showAc(list){
     const pick = (ev)=>{
       ev.preventDefault();
       ev.stopPropagation();
-      tickerInput.value = el.dataset.sym;
+      const sym = el.dataset.sym;
       acBox.style.display = "none";
+      acBox.innerHTML = "";
+      tickerInput.value = "";   // 검색어 비우기 → 자동완성 재발생 방지
+      tickerInput.blur();
       if(tv) tv.style.visibility = "visible";
-      setTicker(el.dataset.sym);
+      setTicker(sym);
     };
     el.addEventListener("mousedown", pick);
     el.addEventListener("touchstart", pick, {passive:false});
