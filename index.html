@@ -101,7 +101,7 @@
 
   <div class="chips" id="chips"></div>
   <div class="row">
-    <input type="text" id="tickerInput" placeholder="티커 직접 입력 (예: AMZN)" maxlength="8">
+    <input type="text" id="tickerInput" placeholder="미국 AMZN · 국내 005930" maxlength="12">
     <button class="btn" id="goBtn">보기</button>
   </div>
 
@@ -179,18 +179,27 @@ const PRESETS = ["AAPL","NVDA","TSLA","MSFT","SPY","QQQ"];
 let current = "AAPL";
 
 /* ── 트레이딩뷰 차트 (iframe 임베드 — 외부 스크립트 의존 없음) ── */
+/* ── 국내/미국 판별 ── */
+function isKR(sym){ return /^\d{6}$/.test(sym.trim()); }
+function krName(code){
+  const f = KR_PRESETS.find(k=>k.code===code);
+  return f ? f.name : code;
+}
+
 function loadChart(sym){
   const box = document.getElementById("tvbox");
   box.innerHTML = "";
+  // 국내는 KRX 접두사, 미국은 그대로 (코스닥 종목은 자동으로 처리되도록 fallback)
+  const tvSymbol = isKR(sym) ? ("KRX:" + sym) : sym;
   const params = new URLSearchParams({
-    symbol: sym,
+    symbol: tvSymbol,
     interval: "D",
     theme: "dark",
     style: "1",
     locale: "kr",
     timezone: "Asia/Seoul",
     hidesidetoolbar: "1",
-    allow_symbol_change: "0",
+    allow_symbol_change: "1",
     studies: "BB@tv-basicstudies"
   });
   const f = document.createElement("iframe");
@@ -211,9 +220,18 @@ function loadChart(sym){
 }
 
 /* ── 티커 칩 ── */
+const KR_PRESETS = [
+  {code:"005930", name:"삼성전자"},
+  {code:"000660", name:"SK하이닉스"},
+  {code:"373220", name:"LG엔솔"},
+  {code:"035720", name:"카카오"},
+  {code:"035420", name:"NAVER"},
+  {code:"247540", name:"에코프로비엠"},
+];
 const chipsEl = document.getElementById("chips");
 function renderChips(){
   chipsEl.innerHTML = "";
+  // 미국 프리셋
   PRESETS.forEach(t=>{
     const b = document.createElement("button");
     b.className = "chip" + (t===current ? " on" : "");
@@ -221,12 +239,27 @@ function renderChips(){
     b.onclick = ()=>setTicker(t);
     chipsEl.appendChild(b);
   });
+  // 구분선
+  const sep = document.createElement("span");
+  sep.style.cssText = "align-self:center;color:var(--line);padding:0 2px;";
+  sep.textContent = "│";
+  chipsEl.appendChild(sep);
+  // 국내 프리셋
+  KR_PRESETS.forEach(k=>{
+    const b = document.createElement("button");
+    b.className = "chip" + (k.code===current ? " on" : "");
+    b.textContent = k.name;
+    b.onclick = ()=>setTicker(k.code);
+    chipsEl.appendChild(b);
+  });
 }
 function setTicker(t){
-  current = t.toUpperCase().trim();
+  t = t.trim();
+  current = isKR(t) ? t : t.toUpperCase();
   renderChips();
   loadChart(current);
-  document.getElementById("sigTitle").textContent = current + " 신호 판정";
+  const label = isKR(current) ? `${krName(current)} (${current})` : current;
+  document.getElementById("sigTitle").textContent = label + " 신호 판정";
   document.getElementById("result").style.display = "none";
   document.getElementById("err").innerHTML = "";
 }
@@ -424,7 +457,42 @@ document.getElementById("resetKey").onclick = (e)=>{
 };
 
 /* ── 데이터 불러오기 ── */
+async function fetchDailyKR(code){
+  // 네이버 금융 일별시세 (프록시 경유로 CORS 우회)
+  const naverUrl = `https://api.finance.naver.com/siseJson.naver?symbol=${code}&requestType=1&count=160&timeframe=day`;
+  const tries = [
+    `https://api.allorigins.win/raw?url=${encodeURIComponent(naverUrl)}`,
+    `https://corsproxy.io/?url=${encodeURIComponent(naverUrl)}`
+  ];
+  let lastErr = null;
+  for(const url of tries){
+    try{
+      const res = await fetch(url, {signal: AbortSignal.timeout(12000)});
+      if(!res.ok) throw new Error("HTTP " + res.status);
+      let text = (await res.text()).trim();
+      // 응답은 작은따옴표 JSON 유사 형식: [['날짜',...],['20260101',시,고,저,종,거래량,..],..]
+      const rows = JSON.parse(text.replace(/'/g, '"'));
+      const out = [];
+      for(let i=1;i<rows.length;i++){
+        const r = rows[i];
+        const d = String(r[0]);
+        const close = parseFloat(r[4]);
+        const volume = parseFloat(r[5] || 0);
+        if(!isFinite(close)) continue;
+        out.push({date:`${d.slice(0,4)}-${d.slice(4,6)}-${d.slice(6,8)}`, close, volume});
+      }
+      out.sort((a,b)=>a.date<b.date?-1:1);
+      if(out.length >= 25) return out.slice(-160);
+      throw new Error("데이터 부족");
+    }catch(e){ lastErr = e; }
+  }
+  throw new Error("국내 시세 불러오기 실패 (" + (lastErr?.message||"") + "). 종목코드(6자리)를 확인해주세요.");
+}
+
 async function fetchDaily(sym){
+  // 국내주식(6자리 숫자)은 네이버 금융 사용
+  if(isKR(sym)) return await fetchDailyKR(sym);
+
   const key = getKey();
   // 1순위: Twelve Data (키 있으면) — 안정적, CORS 허용
   if(key){
@@ -565,8 +633,10 @@ const V = {
 function render(res){
   const v = V[res.overall];
   document.getElementById("result").style.display = "block";
-  document.getElementById("vTicker").textContent = current;
-  document.getElementById("vPrice").textContent = "$" + res.last.close.toFixed(2);
+  const kr = isKR(current);
+  document.getElementById("vTicker").textContent = kr ? `${krName(current)} (${current})` : current;
+  const fmt = (n)=> kr ? "₩" + Math.round(n).toLocaleString() : "$" + n.toFixed(2);
+  document.getElementById("vPrice").textContent = fmt(res.last.close);
   const chg = res.prev ? ((res.last.close-res.prev.close)/res.prev.close)*100 : 0;
   const chgEl = document.getElementById("vChg");
   chgEl.textContent = (chg>=0?"+":"") + chg.toFixed(2) + "%";
