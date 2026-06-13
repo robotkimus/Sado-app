@@ -160,6 +160,29 @@ function setCode(code){
   const nl = document.getElementById("naverLink");
   nl.href = `https://finance.naver.com/item/main.naver?code=${current}`;
   nl.style.display = "inline-block";
+  loadChartOnly();   // 종목 선택 시 차트는 바로 표시 (분석은 버튼)
+}
+
+// 차트만 불러와 그리기 (신호 분석과 별개)
+async function loadChartOnly(){
+  const box = document.getElementById("chartbox");
+  // 로딩 표시
+  const cv = document.getElementById("chart");
+  const ctx = cv.getContext("2d");
+  const W = box.clientWidth, H = box.clientHeight;
+  cv.width = W; cv.height = H;
+  ctx.clearRect(0,0,W,H);
+  ctx.fillStyle = "#8B94A8"; ctx.font = "13px sans-serif"; ctx.textAlign = "center";
+  ctx.fillText("차트 불러오는 중...", W/2, H/2);
+  try{
+    const series = await fetchDailyKR(current);
+    lastRows = compute(series);
+    drawChart(lastRows);
+  }catch(e){
+    ctx.clearRect(0,0,W,H);
+    ctx.fillStyle = "#8B94A8"; ctx.font = "12px sans-serif"; ctx.textAlign = "center";
+    ctx.fillText("차트를 불러오지 못했어요", W/2, H/2);
+  }
 }
 
 async function yahooFetch(ysym){
@@ -378,7 +401,7 @@ document.getElementById("analyzeBtn").onclick = analyze;
 window.addEventListener("resize", ()=>{ if(lastRows) drawChart(lastRows); });
 
 renderChips();
-setCode(current);
+setTimeout(()=>setCode(current), 100);  // 레이아웃 잡힌 뒤 차트 로드
 </script>
 </body>
 </html>
