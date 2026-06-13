@@ -612,6 +612,26 @@ document.getElementById("csvBtn").onclick = ()=>{
 };
 
 /* ── Claude 봇 포트폴리오 (bot_status.json 읽기) ── */
+function recentTradeBadge(s){
+  if(!s.last_trade_time) return "";
+  // 마지막 거래가 6시간 이내면 "방금 체결" 강조
+  const parts = s.last_trade_time.match(/(\d+)-(\d+)-(\d+) (\d+):(\d+)/);
+  let fresh = false;
+  if(parts){
+    const d = new Date(+parts[1], +parts[2]-1, +parts[3], +parts[4], +parts[5]);
+    fresh = (Date.now() - d.getTime()) < 6*60*60*1000;
+  }
+  if(fresh && s.last_trade_count > 0){
+    return `<div style="display:inline-block; margin-top:6px; padding:3px 10px; border-radius:99px;
+                 background:color-mix(in srgb, var(--buy) 18%, transparent); color:var(--buy);
+                 font-size:11.5px; font-weight:800;">🚨 방금 ${s.last_trade_count}건 체결 · ${s.last_trade_time}</div>`;
+  }
+  if(s.last_trade_time){
+    return `<div class="muted" style="margin-top:4px; font-size:11px;">최근 거래: ${s.last_trade_time}</div>`;
+  }
+  return "";
+}
+
 async function loadBotStatus(){
   const box = document.getElementById("botBox");
   try{
@@ -627,6 +647,7 @@ async function loadBotStatus(){
             $${s.equity.toLocaleString(undefined,{maximumFractionDigits:0})}
           </div>
           <div class="muted">현금 $${s.cash.toLocaleString(undefined,{maximumFractionDigits:0})} · ${s.updated} 기준</div>
+          ${recentTradeBadge(s)}
         </div>
         <div style="font-size:18px; font-weight:800; color:${retColor};">
           ${ret>=0?"+":""}${ret.toFixed(2)}%

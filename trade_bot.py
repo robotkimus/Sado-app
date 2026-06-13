@@ -271,6 +271,14 @@ def send_push(title, message, urgent):
     urllib.request.urlopen(req, timeout=20)
 
 
+def _prev_last_trade_time():
+    try:
+        with open("bot_status.json", encoding="utf-8") as f:
+            return json.load(f).get("last_trade_time")
+    except Exception:
+        return None
+
+
 def main():
     # ── 0단계: 시크릿 존재 확인 ──
     missing = [n for n, v in [("ALPACA_API_KEY", ALPACA_KEY),
@@ -368,21 +376,31 @@ def main():
     body_parts.append("※ 모의계좌 자동매매 · 참고용")
     body = "\n\n".join(body_parts)
 
-    title = "🤖 Claude 봇: " + (f"{len(results)}건 거래" if results else "오늘은 관망")
+    # 실제 체결(⛔ 제외)이 있었는지 판별
+    executed = [r for r in results if not r.startswith("⛔")]
+    kst = datetime.timezone(datetime.timedelta(hours=9))
+    now_str = datetime.datetime.now(kst).strftime("%Y-%m-%d %H:%M")
+
+    if executed:
+        title = f"🚨 Claude 봇 거래 발생! {len(executed)}건 체결"
+    else:
+        title = "🤖 Claude 봇: 이번엔 관망 (거래 없음)"
     log(title)
     log(body)
-    send_push(title, body, bool(results))
+    send_push(title, body, bool(executed))
 
     # ── 사도될까 앱 연동용 상태 파일 저장 ──
-    kst = datetime.timezone(datetime.timedelta(hours=9))
     status = {
-        "updated": datetime.datetime.now(kst).strftime("%Y-%m-%d %H:%M"),
+        "updated": now_str,
         "equity": float(account["equity"]),
         "cash": float(account["cash"]),
         "base": 100000.0,
         "positions": positions,
         "trades": results,
         "market_view": view,
+        "last_trade_time": now_str if executed else (
+            _prev_last_trade_time()),
+        "last_trade_count": len(executed),
     }
     with open("bot_status.json", "w", encoding="utf-8") as f:
         json.dump(status, f, ensure_ascii=False, indent=1)
