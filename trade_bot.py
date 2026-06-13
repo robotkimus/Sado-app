@@ -145,7 +145,7 @@ def summarize(sym, series):
 
 
 # ── 암호화폐 지원 ──
-CRYPTO = {"BTC-USD", "ETH-USD"}          # 관심종목 표기 (야후 형식)
+CRYPTO = {"ETH-USD"}                     # 코인은 이더리움만 (BTC는 알파카 모의계좌 체결 문제)
 
 
 def is_crypto(sym):
