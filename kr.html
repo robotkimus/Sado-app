@@ -45,6 +45,27 @@
   .acitem:hover{background:var(--card2);}
   .acitem .sym{font-weight:800;}
   .acitem .nm{color:var(--dim); font-size:12px; margin-left:6px;}
+  .weather-hero{position:relative; height:110px; border-radius:16px; overflow:hidden;
+    margin-bottom:12px; border:1px solid var(--line);}
+  .wh-sky{position:absolute; inset:0; transition:background 1s ease;}
+  .wh-content{position:relative; z-index:2; height:100%; display:flex; align-items:center; gap:16px; padding:0 20px;}
+  .wh-icon{font-size:48px; line-height:1; filter:drop-shadow(0 2px 6px rgba(0,0,0,.4));}
+  .wh-label{font-size:20px; font-weight:800; letter-spacing:-0.02em;}
+  .wh-sub{font-size:12px; opacity:.85; margin-top:3px; line-height:1.4;}
+  .sky-sunny{background:linear-gradient(135deg,#1a4a7a,#2d7ab8 60%,#48a0d8);}
+  .sky-partly{background:linear-gradient(135deg,#2a3a55,#456590 70%,#5a7a9a);}
+  .sky-cloudy{background:linear-gradient(135deg,#2a3245,#404a60 70%,#525a6e);}
+  .sky-rain{background:linear-gradient(135deg,#1e2535,#2a3548 70%,#35435a);}
+  .sky-storm{background:linear-gradient(135deg,#15151f,#252535 60%,#1a1a2e);}
+  .wh-drop{position:absolute; width:2px; height:14px; background:rgba(170,200,230,.5);
+    border-radius:2px; animation:fall linear infinite; z-index:1;}
+  @keyframes fall{0%{transform:translateY(-20px)}100%{transform:translateY(130px)}}
+  @media (prefers-reduced-motion: reduce){.wh-drop{display:none}}
+  .krw-grid{display:grid; grid-template-columns:1fr 1fr; gap:8px;}
+  .krw-card{background:var(--card2); border:1px solid var(--line); border-radius:12px; padding:11px;}
+  .krw-name{font-size:11px; color:var(--dim); font-weight:700;}
+  .krw-val{font-size:16px; font-weight:800; margin-top:3px; font-variant-numeric:tabular-nums;}
+  .krw-chg{font-size:11px; font-weight:700; margin-left:5px;}
   input[type=text]{
     flex:1; min-width:0; background:var(--card); border:1px solid var(--line); border-radius:12px;
     color:var(--text); font-size:14px; font-weight:700; padding:11px 14px; font-family:inherit;
@@ -111,6 +132,22 @@
   </div>
 
   <div class="card"><div id="chartbox"><canvas id="chart"></canvas></div></div>
+
+  <!-- 한국 시장 날씨 -->
+  <div class="card pad">
+    <div class="sec-title">🇰🇷 국내 시장 날씨</div>
+    <div class="weather-hero" id="weatherHero">
+      <div class="wh-sky" id="whSky"></div>
+      <div class="wh-content">
+        <div class="wh-icon" id="whIcon">⛅</div>
+        <div class="wh-text">
+          <div class="wh-label" id="whLabel">시장 날씨 측정 중...</div>
+          <div class="wh-sub" id="whSub">잠시만요</div>
+        </div>
+      </div>
+    </div>
+    <div class="krw-grid" id="krwGrid"></div>
+  </div>
 
   <div class="card pad">
     <div class="sec-title" id="sigTitle">종목을 선택하거나 코드를 입력하세요</div>
@@ -778,8 +815,90 @@ document.addEventListener("click", e=>{
 document.getElementById("analyzeBtn").onclick = analyze;
 window.addEventListener("resize", ()=>{ if(lastRows) drawChart(lastRows); });
 
+/* ── 한국 시장 날씨 (코스피·코스닥·환율 종합) ── */
+async function yahooQuote(ysym){
+  const base = `https://query1.finance.yahoo.com/v8/finance/chart/${ysym}?range=2d&interval=1d`;
+  const tries = [
+    base,
+    `https://corsproxy.io/?url=${encodeURIComponent(base)}`,
+    `https://api.allorigins.win/raw?url=${encodeURIComponent(base)}`
+  ];
+  for(const u of tries){
+    try{
+      const res = await fetch(u, {signal:AbortSignal.timeout(11000)});
+      if(!res.ok) continue;
+      const j = await res.json();
+      const m = j?.chart?.result?.[0]?.meta;
+      if(m && isFinite(m.regularMarketPrice)){
+        const now = m.regularMarketPrice, prev = m.chartPreviousClose ?? now;
+        return { v: now, pc: prev ? ((now/prev)-1)*100 : 0 };
+      }
+    }catch(e){}
+  }
+  return null;
+}
+
+async function loadKRWeather(){
+  const grid = document.getElementById("krwGrid");
+  // 코스피·코스닥·환율
+  const [kospi, kosdaq, usdkrw] = await Promise.all([
+    yahooQuote("%5EKS11"),   // 코스피
+    yahooQuote("%5EKQ11"),   // 코스닥
+    yahooQuote("KRW=X")      // 원/달러
+  ]);
+
+  // 카드 렌더
+  const card = (name, q, digits, unit)=>{
+    if(!q) return `<div class="krw-card"><div class="krw-name">${name}</div><div class="krw-val" style="color:var(--dim)">—</div></div>`;
+    const c = q.pc>=0 ? "var(--buy)" : "var(--sell)";
+    return `<div class="krw-card"><div class="krw-name">${name}</div>
+      <div class="krw-val">${unit}${q.v.toLocaleString(undefined,{maximumFractionDigits:digits})}
+      <span class="krw-chg" style="color:${c}">${q.pc>=0?"+":""}${q.pc.toFixed(2)}%</span></div></div>`;
+  };
+  grid.innerHTML = card("코스피", kospi, 2, "") + card("코스닥", kosdaq, 2, "")
+    + card("원/달러", usdkrw, 1, "₩");
+
+  // 종합 점수 (코스피·코스닥 등락 위주, 환율 약세는 감점)
+  let score = 50, parts = [];
+  if(kospi){ score += kospi.pc * 8; parts.push(`코스피 ${kospi.pc>=0?"+":""}${kospi.pc.toFixed(1)}%`); }
+  if(kosdaq){ score += kosdaq.pc * 4; }
+  if(usdkrw){ score -= Math.max(0, usdkrw.pc) * 5; }  // 원화 약세(환율↑)면 감점
+  score = Math.max(0, Math.min(100, score));
+
+  const sky = document.getElementById("whSky");
+  const icon = document.getElementById("whIcon");
+  const label = document.getElementById("whLabel");
+  const sub = document.getElementById("whSub");
+  let cls, ic, lb, sb;
+  if(score >= 72){ cls="sky-sunny"; ic="☀️"; lb="맑음 — 시장 강세"; sb="상승 흐름, 투자심리 양호"; }
+  else if(score >= 56){ cls="sky-partly"; ic="⛅"; lb="구름 조금 — 대체로 양호"; sb="완만한 흐름"; }
+  else if(score >= 44){ cls="sky-cloudy"; ic="☁️"; lb="흐림 — 혼조"; sb="방향 모호, 관망세"; }
+  else if(score >= 28){ cls="sky-rain"; ic="🌧️"; lb="비 — 약세 분위기"; sb="하락 압력, 보수적 접근"; }
+  else { cls="sky-storm"; ic="⛈️"; lb="폭풍 — 급락 경계"; sb="변동성 확대, 주의 필요"; }
+  sky.className = "wh-sky " + cls;
+  icon.textContent = ic;
+  label.textContent = lb;
+  sub.textContent = (parts.length ? parts.join(" · ") + " · " : "") + sb;
+
+  document.querySelectorAll(".wh-drop").forEach(d=>d.remove());
+  if(cls==="sky-rain" || cls==="sky-storm"){
+    const hero = document.getElementById("weatherHero");
+    const n = cls==="sky-storm" ? 18 : 11;
+    for(let i=0;i<n;i++){
+      const d = document.createElement("div");
+      d.className = "wh-drop";
+      d.style.left = Math.random()*100 + "%";
+      d.style.animationDuration = (0.5 + Math.random()*0.6) + "s";
+      d.style.animationDelay = (Math.random()*1.5) + "s";
+      hero.appendChild(d);
+    }
+  }
+}
+
 renderChips();
 setTimeout(()=>setCode(current), 100);  // 레이아웃 잡힌 뒤 차트 로드
+loadKRWeather();
+setInterval(()=>{ if(document.visibilityState==="visible") loadKRWeather(); }, 5*60*1000);
 </script>
 </body>
 </html>
