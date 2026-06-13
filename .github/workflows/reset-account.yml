@@ -1,0 +1,16 @@
+name: reset-account
+
+on:
+  workflow_dispatch: {}   # 수동 실행 전용 (예약 없음)
+
+jobs:
+  reset:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: 계좌 정리 (주문 취소 + 포지션 청산)
+        env:
+          ALPACA_API_KEY: ${{ secrets.ALPACA_API_KEY }}
+          ALPACA_SECRET_KEY: ${{ secrets.ALPACA_SECRET_KEY }}
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+        run: python3 -u reset_account.py
