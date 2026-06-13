@@ -147,30 +147,6 @@
   <!-- 트레이딩뷰 실시간 차트 -->
   <div class="card"><div id="tvbox"></div></div>
 
-  <!-- 시장 날씨 (매크로) -->
-  <div class="card pad">
-    <div class="sec-title">시장 날씨 — 판이 깨지면 다 같이 깨진다</div>
-    <div class="weather-hero" id="weatherHero">
-      <div class="wh-sky" id="whSky"></div>
-      <div class="wh-content">
-        <div class="wh-icon" id="whIcon">⛅</div>
-        <div class="wh-text">
-          <div class="wh-label" id="whLabel">시장 날씨 측정 중...</div>
-          <div class="wh-sub" id="whSub">잠시만요</div>
-        </div>
-      </div>
-    </div>
-    <div class="wgrid" id="wGrid"></div>
-    <button class="btn" id="weatherBtn" style="width:100%; margin-top:2px">지금 새로고침</button>
-    <div class="muted" id="wNote" style="margin-top:8px"></div>
-  </div>
-
-  <!-- Claude 봇 포트폴리오 -->
-  <div class="card pad">
-    <div class="sec-title">🤖 Claude 봇 포트폴리오 (모의계좌)</div>
-    <div id="botBox"><div class="muted">불러오는 중...</div></div>
-  </div>
-
   <!-- 신호 판정 -->
   <div class="card pad">
     <div class="sec-title" id="sigTitle">신호 판정</div>
@@ -216,6 +192,31 @@
       <button class="btn" id="csvBtn" style="width:100%; margin-top:8px">붙여넣은 데이터로 분석</button>
     </details>
   </div>
+
+  <!-- 시장 날씨 (매크로) -->
+  <div class="card pad">
+    <div class="sec-title">시장 날씨 — 판이 깨지면 다 같이 깨진다</div>
+    <div class="weather-hero" id="weatherHero">
+      <div class="wh-sky" id="whSky"></div>
+      <div class="wh-content">
+        <div class="wh-icon" id="whIcon">⛅</div>
+        <div class="wh-text">
+          <div class="wh-label" id="whLabel">시장 날씨 측정 중...</div>
+          <div class="wh-sub" id="whSub">잠시만요</div>
+        </div>
+      </div>
+    </div>
+    <div class="wgrid" id="wGrid"></div>
+    <button class="btn" id="weatherBtn" style="width:100%; margin-top:2px">지금 새로고침</button>
+    <div class="muted" id="wNote" style="margin-top:8px"></div>
+  </div>
+
+  <!-- Claude 봇 포트폴리오 -->
+  <div class="card pad">
+    <div class="sec-title">🤖 Claude 봇 포트폴리오 (모의계좌)</div>
+    <div id="botBox"><div class="muted">불러오는 중...</div></div>
+  </div>
+
 
   <div class="note">
     차트는 TradingView 제공 실시간 위젯이에요. 신호 판정은 일별 종가 기준의 기계적 해석일 뿐
@@ -462,13 +463,14 @@ let lastWeatherAt = 0;
 
 async function fetchViaProxies(url, asJson){
   const tries = [
-    `https://api.allorigins.win/raw?url=${encodeURIComponent(url)}`,
+    url,  // 직접 호출 우선 (야후는 보통 CORS 허용)
     `https://corsproxy.io/?url=${encodeURIComponent(url)}`,
+    `https://api.allorigins.win/raw?url=${encodeURIComponent(url)}`,
   ];
   let lastErr = null;
   for(const u of tries){
     try{
-      const res = await fetch(u, {signal: AbortSignal.timeout(12000)});
+      const res = await fetch(u, {signal: AbortSignal.timeout(7000)});
       if(!res.ok) throw new Error("HTTP " + res.status);
       return asJson ? await res.json() : await res.text();
     }catch(e){ lastErr = e; }
@@ -551,21 +553,27 @@ async function loadWeather(){
   const note = document.getElementById("wNote");
   lastWeatherAt = Date.now();
   weatherData = weatherData || {};
-  // 환율·지수·VIX 를 Yahoo 에서 한 번에 (무료·무제한, API 키 크레딧 미사용)
   const ymap = { vix:"%5EVIX", krw:"KRW=X", spx:"SPY", ndx:"QQQ" };
-  await Promise.all(Object.entries(ymap).map(async ([id, ysym])=>{
+  // 각 지표가 도착하는 즉시 카드 갱신 (전체를 기다리지 않음)
+  const jobs = Object.entries(ymap).map(async ([id, ysym])=>{
     try{
       const j = await fetchViaProxies(
         `https://query1.finance.yahoo.com/v8/finance/chart/${ysym}?range=2d&interval=1d`, true);
       const m = j.chart.result[0].meta;
       const now = m.regularMarketPrice;
       const prev = m.chartPreviousClose ?? now;
-      if(isFinite(now)) weatherData[id] = { v: now, pc: prev ? ((now/prev)-1)*100 : 0 };
+      if(isFinite(now)){
+        weatherData[id] = { v: now, pc: prev ? ((now/prev)-1)*100 : 0 };
+        renderWeatherCards();   // 도착 즉시 그리기
+        updateWeatherHero();
+      }
     }catch(e){ /* 개별 실패는 무시 */ }
-  }));
-  renderWeatherCards();
-  // 공포탐욕지수 (CNN)
-  try{ fearGreed = await fetchFearGreed(); }catch(e){ /* 유지 */ }
+  });
+  // 공포탐욕지수도 병렬로
+  const fgJob = (async ()=>{
+    try{ fearGreed = await fetchFearGreed(); renderWeatherCards(); updateWeatherHero(); }catch(e){}
+  })();
+  await Promise.all([...jobs, fgJob]);
   renderWeatherCards();
   updateWeatherHero();
   const t = new Date();
@@ -677,7 +685,7 @@ async function fetchDaily(sym){
   // 1순위: Twelve Data (키 있으면) — 안정적, CORS 허용
   if(key){
     const url = `https://api.twelvedata.com/time_series?symbol=${encodeURIComponent(sym)}&interval=1day&outputsize=160&apikey=${encodeURIComponent(key)}`;
-    const res = await fetch(url, {signal: AbortSignal.timeout(12000)});
+    const res = await fetch(url, {signal: AbortSignal.timeout(7000)});
     const json = await res.json();
     if(json.status === "error" || !json.values){
       throw new Error("Twelve Data 오류: " + (json.message || "데이터 없음") +
@@ -702,7 +710,7 @@ async function fetchDaily(sym){
   let lastErr = null;
   for(const url of tries){
     try{
-      const res = await fetch(url, {signal: AbortSignal.timeout(12000)});
+      const res = await fetch(url, {signal: AbortSignal.timeout(7000)});
       if(!res.ok) throw new Error("HTTP " + res.status);
       const text = await res.text();
       if(text.toLowerCase().startsWith("date,")) return parseCSV(text);
