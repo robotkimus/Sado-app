@@ -265,8 +265,11 @@ def execute(decisions, account, positions, market):
         try:
             order = {"symbol": to_alpaca_symbol(sym), "qty": str(qty), "side": side}
             if crypto:
-                # 코인은 시장가 + gtc 로 즉시 체결 유도
-                order.update({"type": "market", "time_in_force": "gtc"})
+                # 코인은 지정가(limit) — 현재가에서 살짝 유리하게 걸어 price band 통과 + 즉시 체결 유도
+                px = prices[sym]
+                limit = round(px * (1.01 if side == "buy" else 0.99), 2)  # 매수는 +1%, 매도는 -1%
+                order.update({"type": "limit", "limit_price": str(limit),
+                              "time_in_force": "gtc"})
             else:
                 order.update({"type": "market", "time_in_force": "day"})
             alpaca("/v2/orders", method="POST", body=order)
