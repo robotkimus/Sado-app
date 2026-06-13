@@ -147,7 +147,7 @@ function renderChips(){
     const b = document.createElement("button");
     b.className = "chip" + (k.code===current ? " on" : "");
     b.textContent = k.name;
-    b.onclick = ()=>{ setCode(k.code); analyze(); };
+    b.onclick = ()=>setCode(k.code);
     chipsEl.appendChild(b);
   });
 }
@@ -368,7 +368,7 @@ async function analyze(){
 
 document.getElementById("goBtn").onclick = ()=>{
   const v = document.getElementById("codeInput").value.trim();
-  if(/^\d{6}$/.test(v)){ setCode(v); analyze(); }
+  if(/^\d{6}$/.test(v)){ setCode(v); }
   else { document.getElementById("err").textContent = "종목코드 6자리를 입력해주세요 (예: 005930)"; }
 };
 document.getElementById("codeInput").addEventListener("keydown", e=>{
@@ -379,7 +379,6 @@ window.addEventListener("resize", ()=>{ if(lastRows) drawChart(lastRows); });
 
 renderChips();
 setCode(current);
-analyze();
 </script>
 </body>
 </html>
