@@ -336,12 +336,24 @@ def main():
         watch = [t.strip().upper() for t in f
                  if t.strip() and not t.strip().startswith("#")]
 
-    positions_raw = alpaca("/v2/positions")
-    positions = [{"symbol": normalize_position_symbol(p["symbol"]), "qty": float(p["qty"]),
-                  "avg_cost": float(p["avg_entry_price"]),
-                  "now": float(p["current_price"]),
-                  "pnl_pct": round(float(p["unrealized_plpc"]) * 100, 1)}
-                 for p in positions_raw]
+    try:
+        positions_raw = alpaca("/v2/positions")
+    except Exception as e:
+        log(f"⚠️ 포지션 조회 실패: {e}")
+        positions_raw = []
+    log(f"📊 알파카 포지션 조회 결과: {len(positions_raw)}개")
+    positions = []
+    for p in positions_raw:
+        try:
+            positions.append({
+                "symbol": normalize_position_symbol(p.get("symbol", "")),
+                "qty": float(p.get("qty", 0)),
+                "avg_cost": float(p.get("avg_entry_price", 0)),
+                "now": float(p.get("current_price", 0) or p.get("avg_entry_price", 0)),
+                "pnl_pct": round(float(p.get("unrealized_plpc", 0)) * 100, 1),
+            })
+        except Exception as e:
+            log(f"⚠️ 포지션 파싱 오류 ({p.get('symbol','?')}): {e}")
 
     market = []
     for sym in watch:
