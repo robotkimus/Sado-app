@@ -295,6 +295,11 @@ function setCode(code){
   const nl = document.getElementById("naverLink");
   nl.href = `https://finance.naver.com/item/main.naver?code=${current}`;
   nl.style.display = "inline-block";
+  // 자동완성 닫기 + 검색칸 비우기
+  const ab = document.getElementById("acBox");
+  if(ab){ ab.style.display = "none"; ab.innerHTML = ""; }
+  const ci = document.getElementById("codeInput");
+  if(ci) ci.value = "";
   loadChartOnly();   // 종목 선택 시 차트는 바로 표시 (분석은 버튼)
 }
 

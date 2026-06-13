@@ -310,6 +310,11 @@ function setTicker(t){
   document.getElementById("sigTitle").textContent = current + " 신호 판정";
   document.getElementById("result").style.display = "none";
   document.getElementById("err").innerHTML = "";
+  // 자동완성 닫기 + 검색칸 비우기 (선택 후 목록이 남지 않게)
+  const ab = document.getElementById("acBox");
+  if(ab){ ab.style.display = "none"; ab.innerHTML = ""; }
+  const ti = document.getElementById("tickerInput");
+  if(ti) ti.value = "";
 }
 document.getElementById("goBtn").onclick = ()=>{
   const inp = document.getElementById("tickerInput");
