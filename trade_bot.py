@@ -172,6 +172,14 @@ def alpaca(path, method="GET", body=None):
                               "APCA-API-SECRET-KEY": ALPACA_SECRET})
 
 
+def market_is_open():
+    """미국 주식 정규장이 열려 있는지 알파카 클락으로 확인"""
+    try:
+        return bool(alpaca("/v2/clock").get("is_open"))
+    except Exception:
+        return False
+
+
 # ── Claude에게 판단 요청 ──
 def ask_claude(account, positions, market):
     prompt = (
@@ -211,6 +219,9 @@ def ask_claude(account, positions, market):
 
 
 # ── 주문 검증 + 실행 ──
+STOCK_MARKET_OPEN = True  # main에서 매 실행마다 갱신
+
+
 def execute(decisions, account, positions, market):
     equity = float(account["equity"])
     cash = float(account["cash"])
@@ -247,10 +258,18 @@ def execute(decisions, account, positions, market):
             side = "sell"
         else:
             continue
+        # 미국 주식장이 닫혀 있으면 주식 주문은 보류 (체결 대기 방지), 코인은 24시간 진행
+        if not crypto and not STOCK_MARKET_OPEN:
+            results.append(f"⏸ {sym} 보류 (미국장 마감 — 개장 시 재검토)")
+            continue
         try:
-            alpaca("/v2/orders", method="POST", body={
-                "symbol": to_alpaca_symbol(sym), "qty": str(qty), "side": side,
-                "type": "market", "time_in_force": "gtc" if crypto else "day"})
+            order = {"symbol": to_alpaca_symbol(sym), "qty": str(qty), "side": side}
+            if crypto:
+                # 코인은 시장가 + gtc 로 즉시 체결 유도
+                order.update({"type": "market", "time_in_force": "gtc"})
+            else:
+                order.update({"type": "market", "time_in_force": "day"})
+            alpaca("/v2/orders", method="POST", body=order)
             mark = "🔴 매수" if side == "buy" else "🔵 매도"
             results.append(f"{mark} {sym} {qty}{'개' if crypto else '주'} (~${cost:,.0f}) — {reason}")
             cash = cash - cost if side == "buy" else cash + cost
@@ -342,6 +361,9 @@ def main():
         log(f"⚠️ 포지션 조회 실패: {e}")
         positions_raw = []
     log(f"📊 알파카 포지션 조회 결과: {len(positions_raw)}개")
+    global STOCK_MARKET_OPEN
+    STOCK_MARKET_OPEN = market_is_open()
+    log(f"🕐 미국 주식장: {'개장 중' if STOCK_MARKET_OPEN else '마감 (코인만 거래)'}")
     positions = []
     for p in positions_raw:
         try:
