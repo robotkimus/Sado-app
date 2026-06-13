@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>오늘, 사도 될까 — 국내주식</title>
+<style>
+  :root{
+    --bg:#0E1320; --card:#161D2E; --line:#243049; --text:#E8EDF7;
+    --muted:#8A97B0; --buy:#F0454A; --sell:#3B82F6; --hold:#7C8AA5;
+    --accent:#F0454A;
+  }
+  *{box-sizing:border-box; -webkit-tap-highlight-color:transparent;}
+  body{margin:0; background:var(--bg); color:var(--text);
+    font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Pretendard",sans-serif;
+    padding:18px 16px 60px; max-width:680px; margin:0 auto;}
+  .top{display:flex; align-items:center; justify-content:space-between; margin-bottom:2px;}
+  .eyebrow{font-size:12px; letter-spacing:2px; color:var(--muted); font-weight:700;}
+  .switch{font-size:12px; color:var(--sell); text-decoration:none; font-weight:700;
+    border:1px solid var(--line); padding:5px 10px; border-radius:99px;}
+  h1{font-size:26px; margin:4px 0 14px;}
+  .chips{display:flex; gap:8px; overflow-x:auto; padding-bottom:6px; margin-bottom:12px;
+    scrollbar-width:none;}
+  .chips::-webkit-scrollbar{display:none;}
+  .chip{flex:0 0 auto; background:var(--card); border:1px solid var(--line); color:var(--text);
+    padding:9px 15px; border-radius:99px; font-size:14px; font-weight:600;}
+  .chip.on{background:var(--text); color:var(--bg); border-color:var(--text);}
+  .row{display:flex; gap:8px; margin-bottom:14px;}
+  input{flex:1; background:var(--card); border:1px solid var(--line); color:var(--text);
+    padding:13px 15px; border-radius:13px; font-size:16px;}
+  .btn{background:var(--text); color:var(--bg); border:0; padding:0 22px; border-radius:13px;
+    font-size:16px; font-weight:700;}
+  .card{background:var(--card); border:1px solid var(--line); border-radius:16px;
+    padding:18px; margin-bottom:14px;}
+  .muted{color:var(--muted); font-size:13px;}
+  .vhead{display:flex; align-items:center; gap:14px; margin-bottom:6px;}
+  .glyph{font-size:40px; line-height:1;}
+  .price{font-size:30px; font-weight:800;}
+  .chg{font-size:15px; font-weight:700; margin-left:8px;}
+  .label{font-size:18px; font-weight:800; margin-top:2px;}
+  .sig{display:flex; justify-content:space-between; align-items:flex-start; gap:12px;
+    padding:13px 0; border-top:1px solid var(--line);}
+  .sig:first-of-type{border-top:0;}
+  .sname{font-weight:700; font-size:14.5px;}
+  .sdesc{color:var(--muted); font-size:12.5px; margin-top:3px; line-height:1.45;}
+  .tag{flex:0 0 auto; padding:4px 10px; border-radius:8px; font-size:12px; font-weight:800;}
+  .t-buy{background:rgba(240,69,74,.16); color:var(--buy);}
+  .t-sell{background:rgba(59,130,246,.16); color:var(--sell);}
+  .t-hold{background:rgba(124,138,165,.16); color:var(--hold);}
+  .btn-go{width:100%; background:var(--text); color:var(--bg); border:0; padding:15px;
+    border-radius:13px; font-size:16px; font-weight:800; margin-top:4px;}
+  .err{color:var(--buy); font-size:13.5px; margin-top:10px; line-height:1.5;}
+  .foot{color:var(--muted); font-size:11.5px; line-height:1.6; margin-top:8px;}
+  a.naver{display:inline-block; margin-top:10px; color:var(--sell); font-size:13px; font-weight:700;
+    text-decoration:none; border:1px solid var(--line); padding:8px 12px; border-radius:10px;}
+  .loading{display:inline-block; width:13px; height:13px; border:2px solid var(--bg);
+    border-top-color:transparent; border-radius:50%; animation:spin .7s linear infinite;
+    vertical-align:-2px; margin-right:6px;}
+  @keyframes spin{to{transform:rotate(360deg);}}
+</style>
+</head>
+<body>
+  <div class="top">
+    <span class="eyebrow">KR STOCK · SIGNAL</span>
+    <a class="switch" href="index.html">🇺🇸 해외주식 →</a>
+  </div>
+  <h1>오늘, 사도 될까 — 국내</h1>
+
+  <div class="chips" id="chips"></div>
+  <div class="row">
+    <input type="text" id="codeInput" placeholder="종목코드 6자리 (예: 005930)" maxlength="6" inputmode="numeric">
+    <button class="btn" id="goBtn">보기</button>
+  </div>
+
+  <div class="card">
+    <div id="sigTitle" class="muted" style="margin-bottom:12px;">종목을 선택하거나 코드를 입력하세요</div>
+    <button class="btn-go" id="analyzeBtn">신호 분석</button>
+    <div id="err" class="err"></div>
+    <a id="naverLink" class="naver" href="#" target="_blank" rel="noopener" style="display:none;">📊 네이버 차트 열기</a>
+  </div>
+
+  <div class="card" id="result" style="display:none;">
+    <div class="vhead">
+      <span class="glyph" id="vGlyph"></span>
+      <div>
+        <div class="muted" id="vTicker"></div>
+        <div><span class="price" id="vPrice"></span><span class="chg" id="vChg"></span></div>
+      </div>
+    </div>
+    <div class="label" id="vLabel"></div>
+    <div class="muted" id="vDate" style="margin-bottom:6px;"></div>
+    <div id="sigList" style="margin-top:8px;"></div>
+  </div>
+
+  <div class="foot">
+    데이터: Yahoo Finance (코스피 .KS / 코스닥 .KQ). 신호 판정은 일별 종가 기준의 기계적 해석일 뿐
+    투자 권유가 아니며, 미래 수익을 보장하지 않아요. 매매 전 기업 실적과 시장 환경도 함께 확인하세요.
+  </div>
+
+<script>
+/* ── 국내 프리셋 ── */
+const KR_PRESETS = [
+  {code:"005930", name:"삼성전자"},
+  {code:"000660", name:"SK하이닉스"},
+  {code:"373220", name:"LG엔솔"},
+  {code:"035720", name:"카카오"},
+  {code:"035420", name:"NAVER"},
+  {code:"247540", name:"에코프로비엠"},
+  {code:"005380", name:"현대차"},
+  {code:"068270", name:"셀트리온"},
+];
+let current = "005930";
+const chipsEl = document.getElementById("chips");
+function krName(code){ const f = KR_PRESETS.find(k=>k.code===code); return f ? f.name : code; }
+function renderChips(){
+  chipsEl.innerHTML = "";
+  KR_PRESETS.forEach(k=>{
+    const b = document.createElement("button");
+    b.className = "chip" + (k.code===current ? " on" : "");
+    b.textContent = k.name;
+    b.onclick = ()=>setCode(k.code);
+    chipsEl.appendChild(b);
+  });
+}
+function setCode(code){
+  current = code.trim();
+  renderChips();
+  document.getElementById("sigTitle").textContent = `${krName(current)} (${current}) 신호 판정`;
+  document.getElementById("result").style.display = "none";
+  document.getElementById("err").innerHTML = "";
+  const nl = document.getElementById("naverLink");
+  nl.href = `https://finance.naver.com/item/main.naver?code=${current}`;
+  nl.style.display = "inline-block";
+}
+
+/* ── 데이터: 야후 파이낸스 (.KS 코스피 / .KQ 코스닥 자동 시도) ── */
+async function yahooFetch(ysym){
+  const base = `https://query1.finance.yahoo.com/v8/finance/chart/${ysym}?range=1y&interval=1d`;
+  const tries = [
+    base,
+    `https://corsproxy.io/?url=${encodeURIComponent(base)}`,
+    `https://api.allorigins.win/raw?url=${encodeURIComponent(base)}`,
+    `https://api.codetabs.com/v1/proxy/?quest=${encodeURIComponent(base)}`
+  ];
+  let lastErr = null;
+  for(const url of tries){
+    try{
+      const res = await fetch(url, {signal: AbortSignal.timeout(13000)});
+      if(!res.ok) throw new Error("HTTP " + res.status);
+      const json = await res.json();
+      const r = json?.chart?.result?.[0];
+      if(!r) throw new Error("형식 오류");
+      const ts = r.timestamp || [];
+      const q = r.indicators?.quote?.[0] || {};
+      const closes = q.close || [];
+      const vols = q.volume || [];
+      const out = [];
+      for(let i=0;i<ts.length;i++){
+        const c = closes[i];
+        if(c==null || !isFinite(c)) continue;
+        const d = new Date(ts[i]*1000);
+        const ds = `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,"0")}-${String(d.getDate()).padStart(2,"0")}`;
+        out.push({date:ds, close:c, volume:(vols[i]||0)});
+      }
+      if(out.length >= 25) return out.slice(-160);
+      throw new Error("데이터 부족");
+    }catch(e){ lastErr = e; }
+  }
+  throw lastErr || new Error("불러오기 실패");
+}
+
+async function fetchDailyKR(code){
+  // 코스피(.KS) 먼저, 실패하면 코스닥(.KQ) 시도
+  try{
+    return await yahooFetch(code + ".KS");
+  }catch(e1){
+    try{
+      return await yahooFetch(code + ".KQ");
+    }catch(e2){
+      throw new Error("국내 시세 불러오기 실패. 잠시 후 다시 시도하거나, 종목코드(6자리)를 확인해주세요.");
+    }
+  }
+}
+
+/* ── 신호 계산 (미국 앱과 동일 로직) ── */
+function sma(arr,n,i){ if(i<n-1) return null; let s=0; for(let k=i-n+1;k<=i;k++) s+=arr[k]; return s/n; }
+function compute(series){
+  const closes = series.map(r=>r.close), vols = series.map(r=>r.volume);
+  const rows = series.map((r,i)=>{
+    const ma5=sma(closes,5,i), ma20=sma(closes,20,i);
+    let upper=null, lower=null;
+    if(i>=19){
+      let sq=0; for(let k=i-19;k<=i;k++) sq += (closes[k]-ma20)**2;
+      const sd=Math.sqrt(sq/20); upper=ma20+2*sd; lower=ma20-2*sd;
+    }
+    return {...r, ma5, ma20, upper, lower, volAvg20:sma(vols,20,i)};
+  });
+  let g=0,l=0;
+  for(let i=1;i<rows.length;i++){
+    const ch=closes[i]-closes[i-1], gain=Math.max(ch,0), loss=Math.max(-ch,0);
+    if(i<=14){ g+=gain/14; l+=loss/14; rows[i].rsi = i===14 ? 100-100/(1+(l===0?100:g/l)) : null; }
+    else{ g=(g*13+gain)/14; l=(l*13+loss)/14; rows[i].rsi = 100-100/(1+(l===0?100:g/l)); }
+  }
+  return rows;
+}
+function judge(rows){
+  const last = rows[rows.length-1];
+  const sigs = [];
+  if(last.ma20!=null){
+    const above = last.close > last.ma20;
+    const gap = ((last.close-last.ma20)/last.ma20)*100;
+    sigs.push({name:"20일 이동평균선", v:above?"buy":"sell", s:above?1:-1,
+      d: above ? `주가가 20일선보다 ${gap.toFixed(1)}% 위 — 단기 추세 양호`
+               : `주가가 20일선보다 ${Math.abs(gap).toFixed(1)}% 아래 — 추세 이탈 주의`});
+  }
+  let cross=null;
+  for(let i=rows.length-7;i<rows.length;i++){
+    const p=rows[i-1], c=rows[i];
+    if(!p?.ma5||!p?.ma20||!c?.ma5||!c?.ma20) continue;
+    if(p.ma5<=p.ma20 && c.ma5>c.ma20) cross={t:"g", date:c.date};
+    if(p.ma5>=p.ma20 && c.ma5<c.ma20) cross={t:"d", date:c.date};
+  }
+  sigs.push({name:"골든 / 데드크로스", v:cross?(cross.t==="g"?"buy":"sell"):"hold", s:cross?(cross.t==="g"?1.5:-1.5):0,
+    d: cross ? `${cross.date} ${cross.t==="g"?"골든크로스 발생 — 강한 매수 신호":"데드크로스 발생 — 매도 신호"}`
+             : "최근 7거래일 내 교차 없음 — 추세 유지 중"});
+  if(last.rsi!=null){
+    const r=last.rsi;
+    sigs.push({name:"RSI (14)", v:r<=30?"buy":r>=70?"sell":"hold", s:r<=30?1:r>=70?-1:0,
+      d: r<=30 ? `RSI ${r.toFixed(0)} — 과매도 구간, 반등 노릴 자리`
+        : r>=70 ? `RSI ${r.toFixed(0)} — 과열 구간, 매도 준비`
+        : `RSI ${r.toFixed(0)} — 중립 구간 (30~70)`});
+  }
+  if(last.upper!=null){
+    const pos=(last.close-last.lower)/(last.upper-last.lower);
+    sigs.push({name:"볼린저 밴드", v:pos<=0.15?"buy":pos>=0.85?"sell":"hold", s:pos<=0.15?1:pos>=0.85?-1:0,
+      d: pos<=0.15 ? "밴드 하단 근접 — 통계적 저점 영역"
+        : pos>=0.85 ? "밴드 상단 근접 — 통계적 고점 영역"
+        : `밴드 내 ${(pos*100).toFixed(0)}% 위치 — 중간 영역`});
+  }
+  if(last.volAvg20!=null && last.volAvg20>0){
+    const ratio=last.volume/last.volAvg20;
+    const prev=rows[rows.length-2];
+    const up = prev ? last.close>=prev.close : true;
+    const ok = ratio>=1.2;
+    sigs.push({name:"거래량 확인", v:ok?(up?"buy":"sell"):"hold", s:ok?(up?0.5:-0.5):0,
+      d: ok ? `평균 대비 ${(ratio*100).toFixed(0)}% 거래량 — ${up?"상승에 힘이 실림":"하락에 매물 출회 — 경계"}`
+            : `평균 대비 ${(ratio*100).toFixed(0)}% — 거래량 평이`});
+  }
+  const total = sigs.reduce((a,x)=>a+x.s,0);
+  const overall = total>=1.5?"buy":total<=-1.5?"sell":"hold";
+  return {sigs, total, overall, last, prev:rows[rows.length-2]};
+}
+
+const V = {
+  buy:  {g:"📈", label:"지금, 사도 괜찮아 보여요", color:"var(--buy)"},
+  sell: {g:"📉", label:"지금은 파는 쪽 신호예요", color:"var(--sell)"},
+  hold: {g:"⏸", label:"관망 — 신호가 엇갈려요", color:"var(--hold)"},
+};
+function render(res){
+  const v = V[res.overall];
+  document.getElementById("result").style.display = "block";
+  document.getElementById("vTicker").textContent = `${krName(current)} (${current})`;
+  document.getElementById("vPrice").textContent = "₩" + Math.round(res.last.close).toLocaleString();
+  const chg = res.prev ? ((res.last.close-res.prev.close)/res.prev.close)*100 : 0;
+  const chgEl = document.getElementById("vChg");
+  chgEl.textContent = (chg>=0?"+":"") + chg.toFixed(2) + "%";
+  chgEl.style.color = chg>=0 ? "var(--buy)" : "var(--sell)";
+  document.getElementById("vDate").textContent = res.last.date + " 종가 기준";
+  document.getElementById("vGlyph").textContent = v.g;
+  document.getElementById("vGlyph").style.color = v.color;
+  document.getElementById("vLabel").textContent = v.label;
+  document.getElementById("vLabel").style.color = v.color;
+  const list = document.getElementById("sigList");
+  list.innerHTML = "";
+  res.sigs.forEach(s=>{
+    const tagCls = s.v==="buy"?"t-buy":s.v==="sell"?"t-sell":"t-hold";
+    const tagTxt = s.v==="buy"?"매수":s.v==="sell"?"매도":"관망";
+    const el = document.createElement("div");
+    el.className = "sig";
+    el.innerHTML = `<div><div class="sname">${s.name}</div><div class="sdesc">${s.d}</div></div>
+                    <span class="tag ${tagCls}">${tagTxt}</span>`;
+    list.appendChild(el);
+  });
+}
+
+async function analyze(){
+  const btn = document.getElementById("analyzeBtn");
+  const errEl = document.getElementById("err");
+  errEl.innerHTML = "";
+  btn.disabled = true;
+  const orig = btn.textContent;
+  btn.innerHTML = '<span class="loading"></span>분석 중...';
+  try{
+    const series = await fetchDailyKR(current);
+    const rows = compute(series);
+    render(judge(rows));
+  }catch(e){
+    errEl.textContent = e.message || "분석에 실패했어요.";
+    document.getElementById("result").style.display = "none";
+  }finally{
+    btn.disabled = false;
+    btn.textContent = orig;
+  }
+}
+
+/* ── 이벤트 ── */
+document.getElementById("goBtn").onclick = ()=>{
+  const v = document.getElementById("codeInput").value.trim();
+  if(/^\d{6}$/.test(v)){ setCode(v); }
+  else { document.getElementById("err").textContent = "종목코드 6자리를 입력해주세요 (예: 005930)"; }
+};
+document.getElementById("codeInput").addEventListener("keydown", e=>{
+  if(e.key==="Enter") document.getElementById("goBtn").click();
+});
+document.getElementById("analyzeBtn").onclick = analyze;
+
+/* ── 초기화 ── */
+renderChips();
+setCode(current);
+</script>
+</body>
+</html>
