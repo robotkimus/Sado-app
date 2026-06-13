@@ -458,24 +458,30 @@ document.getElementById("resetKey").onclick = (e)=>{
 
 /* ── 데이터 불러오기 ── */
 async function fetchDailyKR(code){
-  // 네이버 금융 일별시세 (프록시 경유로 CORS 우회)
+  // 네이버 금융 일별시세 (여러 프록시로 CORS 우회 — 하나 막히면 다음 시도)
   const naverUrl = `https://api.finance.naver.com/siseJson.naver?symbol=${code}&requestType=1&count=160&timeframe=day`;
+  const enc = encodeURIComponent(naverUrl);
   const tries = [
-    `https://api.allorigins.win/raw?url=${encodeURIComponent(naverUrl)}`,
-    `https://corsproxy.io/?url=${encodeURIComponent(naverUrl)}`
+    `https://corsproxy.io/?url=${enc}`,
+    `https://api.allorigins.win/raw?url=${enc}`,
+    `https://api.codetabs.com/v1/proxy/?quest=${enc}`,
+    `https://thingproxy.freeboard.io/fetch/${naverUrl}`
   ];
   let lastErr = null;
   for(const url of tries){
     try{
-      const res = await fetch(url, {signal: AbortSignal.timeout(12000)});
+      const res = await fetch(url, {signal: AbortSignal.timeout(15000)});
       if(!res.ok) throw new Error("HTTP " + res.status);
       let text = (await res.text()).trim();
-      // 응답은 작은따옴표 JSON 유사 형식: [['날짜',...],['20260101',시,고,저,종,거래량,..],..]
+      if(!text || text[0] !== "[") throw new Error("빈 응답");
+      // 응답: [['날짜',...],['20260101',시,고,저,종,거래량,..],..] (작은따옴표)
       const rows = JSON.parse(text.replace(/'/g, '"'));
       const out = [];
       for(let i=1;i<rows.length;i++){
         const r = rows[i];
-        const d = String(r[0]);
+        if(!Array.isArray(r) || r.length < 6) continue;
+        const d = String(r[0]).replace(/[^0-9]/g, "");
+        if(d.length < 8) continue;
         const close = parseFloat(r[4]);
         const volume = parseFloat(r[5] || 0);
         if(!isFinite(close)) continue;
@@ -483,10 +489,10 @@ async function fetchDailyKR(code){
       }
       out.sort((a,b)=>a.date<b.date?-1:1);
       if(out.length >= 25) return out.slice(-160);
-      throw new Error("데이터 부족");
+      throw new Error("데이터 부족(" + out.length + "일)");
     }catch(e){ lastErr = e; }
   }
-  throw new Error("국내 시세 불러오기 실패 (" + (lastErr?.message||"") + "). 종목코드(6자리)를 확인해주세요.");
+  throw new Error("국내 시세 불러오기 실패 (" + (lastErr?.message||"") + "). 잠시 후 다시 시도하거나, 종목코드(6자리)를 확인해주세요.");
 }
 
 async function fetchDaily(sym){
