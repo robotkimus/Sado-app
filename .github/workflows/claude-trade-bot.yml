@@ -2,12 +2,17 @@ name: claude-trade-bot
 
 on:
   schedule:
-    # 매주 화~토 UTC 15:00 = 한국시간 자정 00:00 (미국 장 개장 30분 후)
-    - cron: "0 15 * * 1-5"
-  workflow_dispatch: {}   # Actions 탭에서 수동 실행 가능
+    # ── 미국 주식 정규장 (한국 평일 밤~새벽) ──
+    - cron: "0 14 * * 1-5"   # 한국 23:00
+    - cron: "0 17 * * 1-5"   # 한국 02:00
+    - cron: "0 19 * * 1-5"   # 한국 04:00
+    # ── 코인 전용 낮 시간대 (24시간 시장, 매일) ──
+    - cron: "0 3 * * *"      # 한국 12:00 (정오)
+    - cron: "0 9 * * *"      # 한국 18:00 (저녁)
+  workflow_dispatch: {}
 
 permissions:
-  contents: write   # 봇 상태 파일 커밋용
+  contents: write
 
 jobs:
   trade:
