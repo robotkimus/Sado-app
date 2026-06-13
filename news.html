@@ -152,15 +152,38 @@ function setMarket(m){
   renderChips();
 }
 
+function parseRss(xml){
+  const doc = new DOMParser().parseFromString(xml, "text/xml");
+  let items = [...doc.querySelectorAll("item")];
+  if(!items.length) items = [...doc.getElementsByTagName("item")];
+  return items;
+}
 async function fetchNews(query, lang){
   const hl = lang==="ko" ? "ko" : "en-US";
   const gl = lang==="ko" ? "KR" : "US";
   const ceid = lang==="ko" ? "KR:ko" : "US:en";
   const gUrl = `https://news.google.com/rss/search?q=${encodeURIComponent(query)}&hl=${hl}&gl=${gl}&ceid=${ceid}`;
+  const enc = encodeURIComponent(gUrl);
+
+  // 1) allorigins get(JSON) — contents 필드에 본문 (가장 안정적)
+  try{
+    const res = await fetch(`https://api.allorigins.win/get?url=${enc}`, {signal:AbortSignal.timeout(14000)});
+    if(res.ok){
+      const j = await res.json();
+      if(j && j.contents){
+        const items = parseRss(j.contents);
+        if(items.length) return items.slice(0,8);
+      }
+    }
+  }catch(e){}
+
+  // 2) raw 프록시들
   const proxies = [
-    `https://api.allorigins.win/raw?url=${encodeURIComponent(gUrl)}`,
-    `https://corsproxy.io/?url=${encodeURIComponent(gUrl)}`,
-    `https://api.codetabs.com/v1/proxy/?quest=${encodeURIComponent(gUrl)}`
+    `https://corsproxy.io/?url=${enc}`,
+    `https://api.allorigins.win/raw?url=${enc}`,
+    `https://api.codetabs.com/v1/proxy/?quest=${enc}`,
+    `https://thingproxy.freeboard.io/fetch/${gUrl}`,
+    `https://r.jina.ai/${gUrl}`
   ];
   let lastErr = null;
   for(const u of proxies){
@@ -168,13 +191,12 @@ async function fetchNews(query, lang){
       const res = await fetch(u, {signal:AbortSignal.timeout(13000)});
       if(!res.ok) throw new Error("HTTP "+res.status);
       const xml = await res.text();
-      const doc = new DOMParser().parseFromString(xml, "text/xml");
-      const items = [...doc.querySelectorAll("item")];
+      const items = parseRss(xml);
       if(items.length) return items.slice(0,8);
-      throw new Error("결과 없음");
+      throw new Error("빈 결과");
     }catch(e){ lastErr = e; }
   }
-  throw lastErr || new Error("실패");
+  throw lastErr || new Error("모든 경로 실패");
 }
 
 async function loadDart(code){
@@ -222,19 +244,29 @@ async function search(krCode){
   document.getElementById("newsTitle").textContent = `📰 "${q}" 관련 뉴스`;
   btn.disabled = true; const orig = btn.textContent; btn.innerHTML = '<span class="spin"></span>';
   listEl.innerHTML = '<div class="muted"><span class="spin"></span> 뉴스 불러오는 중...</div>';
+  const query = market==="US" ? (q + " stock") : (q + " 주식");
+  // 외부 검색 바로가기 링크 (프록시 실패해도 항상 작동)
+  const gNews = market==="US"
+    ? `https://news.google.com/search?q=${encodeURIComponent(query)}&hl=en-US`
+    : `https://search.naver.com/search.naver?where=news&query=${encodeURIComponent(q)}&sort=1`;
+  const linkBtn = `<a class="item" href="${gNews}" target="_blank" rel="noopener"
+       style="text-align:center; font-weight:800; color:var(--sell); border-top:none;">
+       🔗 ${market==="US"?"구글뉴스":"네이버뉴스"}에서 "${q}" 전체 보기 →</a>`;
   try{
-    const query = market==="US" ? (q + " stock") : (q + " 주식");
     const items = await fetchNews(query, market==="US" ? "en" : "ko");
-    listEl.innerHTML = items.map(it=>{
-      const title = it.querySelector("title")?.textContent || "";
-      const link = it.querySelector("link")?.textContent || "#";
+    const html = items.map(it=>{
+      const title = it.querySelector("title")?.textContent || (it.getElementsByTagName("title")[0]?.textContent) || "";
+      const link = it.querySelector("link")?.textContent || (it.getElementsByTagName("link")[0]?.textContent) || "#";
       const date = (it.querySelector("pubDate")?.textContent || "").slice(0,16);
       const src = it.querySelector("source")?.textContent || "";
       return `<a class="item" href="${link}" target="_blank" rel="noopener">${title}
         <div class="meta">${src}${src&&date?" · ":""}${date}</div></a>`;
     }).join("");
+    listEl.innerHTML = html + linkBtn;
   }catch(e){
-    listEl.innerHTML = '<div class="muted">뉴스를 불러오지 못했어요. 잠시 후 다시 시도해주세요.</div>';
+    // 헤드라인 못 불러오면 검색 링크만이라도 제공
+    listEl.innerHTML = `<div class="muted" style="margin-bottom:8px;">
+      앱 안에서 헤드라인을 불러오지 못했어요 (무료 프록시 제한). 아래 버튼으로 바로 볼 수 있어요.</div>` + linkBtn;
   }finally{
     btn.disabled = false; btn.textContent = orig;
   }
