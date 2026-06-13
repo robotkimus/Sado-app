@@ -367,6 +367,20 @@ def main():
     global STOCK_MARKET_OPEN
     STOCK_MARKET_OPEN = market_is_open()
     log(f"🕐 미국 주식장: {'개장 중' if STOCK_MARKET_OPEN else '마감 (코인만 거래)'}")
+
+    # 미체결 주문이 쌓여 있으면 구매력이 잠기므로, 일정 수 이상이면 이번 실행은 신규 주문 보류
+    try:
+        open_orders = alpaca("/v2/orders?status=open&limit=100")
+        n_open = len(open_orders)
+    except Exception:
+        n_open = 0
+    log(f"📋 현재 미체결 대기 주문: {n_open}건")
+    if n_open >= 10:
+        msg = (f"⚠️ 미체결 주문이 {n_open}건 쌓여 있어요. 구매력이 잠겨 신규 주문을 보류합니다.\n"
+               "reset-account 워크플로로 주문을 정리한 뒤 다시 실행하세요.")
+        log(msg)
+        send_push("🤖 Claude 봇 — 주문 보류", msg, True)
+        return 0
     positions = []
     for p in positions_raw:
         try:
