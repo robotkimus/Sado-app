@@ -37,8 +37,9 @@
   }
   .chip.on{background:var(--text); color:var(--bg); border-color:var(--text);}
   .row{display:flex; gap:8px; margin-bottom:14px;}
-  .acbox{position:absolute; top:52px; left:0; right:0; background:var(--card); border:1px solid var(--line);
-    border-radius:12px; z-index:50; overflow:hidden; display:none; max-height:280px; overflow-y:auto;}
+  .acbox{position:absolute; top:54px; left:0; right:0; background:var(--card); border:1px solid var(--line);
+    border-radius:12px; z-index:9999; display:none; max-height:50vh; overflow-y:auto;
+    -webkit-overflow-scrolling:touch; box-shadow:0 8px 24px rgba(0,0,0,.5);}
   .acitem{padding:11px 14px; border-top:1px solid var(--line); cursor:pointer; font-size:13.5px;}
   .acitem:first-child{border-top:none;}
   .acitem:hover{background:var(--card2);}
@@ -407,6 +408,49 @@ function fibLevels(rows){
   return {hi, lo, upTrend, levels};
 }
 
+/* ── 백테스트 (이 신호대로 과거 1년 매매했다면?) ── */
+function backtest(rows){
+  function scoreAt(idx){
+    const sub = rows.slice(0, idx+1);
+    if(sub.length < 25) return 0;
+    const last = sub[sub.length-1];
+    let total = 0;
+    if(last.ma20!=null) total += last.close > last.ma20 ? 1 : -1;
+    for(let i=sub.length-7;i<sub.length;i++){
+      const p=sub[i-1], c=sub[i];
+      if(!p?.ma5||!p?.ma20||!c?.ma5||!c?.ma20) continue;
+      if(p.ma5<=p.ma20 && c.ma5>c.ma20) total += 1.5;
+      if(p.ma5>=p.ma20 && c.ma5<c.ma20) total -= 1.5;
+    }
+    if(last.rsi!=null){ if(last.rsi<=30) total+=1; else if(last.rsi>=70) total-=1; }
+    if(last.upper!=null){
+      const pos=(last.close-last.lower)/(last.upper-last.lower);
+      if(pos<=0.15) total+=1; else if(pos>=0.85) total-=1;
+    }
+    return total;
+  }
+  let cash = 10000, shares = 0, trades = 0, wins = 0, buyPrice = 0;
+  const startIdx = Math.max(25, rows.length - 252);
+  const startPrice = rows[startIdx].close;
+  for(let i=startIdx;i<rows.length;i++){
+    const score = scoreAt(i);
+    const price = rows[i].close;
+    if(score >= 1.5 && shares === 0 && cash > 0){
+      shares = cash / price; cash = 0; buyPrice = price; trades++;
+    } else if(score <= -1.5 && shares > 0){
+      cash = shares * price;
+      if(price > buyPrice) wins++;
+      shares = 0;
+    }
+  }
+  const lastPrice = rows[rows.length-1].close;
+  const finalValue = cash + shares * lastPrice;
+  const stratReturn = (finalValue/10000 - 1) * 100;
+  const holdReturn = (lastPrice/startPrice - 1) * 100;
+  const winRate = trades>0 ? (wins/trades*100) : 0;
+  return { stratReturn, holdReturn, trades, winRate, hasOpen: shares>0 };
+}
+
 function judge(rows){
   const last = rows[rows.length-1];
   const sigs = [];
@@ -483,7 +527,8 @@ function judge(rows){
   const overall = total>=1.5?"buy":total<=-1.5?"sell":"hold";
   const vol20 = volRange(rows, 20);
   const vol60 = volRange(rows, 60);
-  return {sigs, total, overall, last, prev:rows[rows.length-2], rows, fib, vol20, vol60};
+  const bt = backtest(rows);
+  return {sigs, total, overall, last, prev:rows[rows.length-2], rows, fib, vol20, vol60, bt};
 }
 
 function drawChart(rows){
@@ -588,6 +633,30 @@ function render(res){
       </div>
     </div>`;
   document.getElementById("sigList").insertAdjacentHTML("beforeend", volHtml);
+
+  // 백테스트 맛보기
+  if(res.bt){
+    const bt = res.bt;
+    const stratColor = bt.stratReturn >= 0 ? "var(--buy)" : "var(--sell)";
+    const holdColor = bt.holdReturn >= 0 ? "var(--buy)" : "var(--sell)";
+    const win = bt.stratReturn >= bt.holdReturn;
+    const btHtml = `
+      <div style="margin-top:12px; padding:13px 14px; background:var(--card2); border:1px solid var(--line); border-radius:14px;">
+        <div style="font-size:12px; font-weight:700; color:var(--dim); margin-bottom:8px;">🔬 백테스트 — 이 신호대로 지난 1년 매매했다면?</div>
+        <div style="font-size:12.5px; line-height:1.95;">
+          <div style="display:flex; justify-content:space-between;"><span>📊 신호 따라 매매</span>
+            <span style="font-weight:800; color:${stratColor}; font-variant-numeric:tabular-nums;">${bt.stratReturn>=0?"+":""}${bt.stratReturn.toFixed(1)}%</span></div>
+          <div style="display:flex; justify-content:space-between;"><span style="color:var(--dim);">🤲 그냥 보유했다면</span>
+            <span style="font-weight:700; color:${holdColor}; font-variant-numeric:tabular-nums;">${bt.holdReturn>=0?"+":""}${bt.holdReturn.toFixed(1)}%</span></div>
+          <div style="display:flex; justify-content:space-between; margin-top:6px; padding-top:6px; border-top:1px solid var(--line); color:var(--dim); font-size:11.5px;">
+            <span>매매 ${bt.trades}회 · 승률 ${bt.winRate.toFixed(0)}%</span>
+            <span style="color:${win?'var(--buy)':'var(--dim)'};">${win?"✓ 신호가 더 나았음":"보유가 나았음"}</span></div>
+        </div>
+        <div style="font-size:10.5px; color:var(--dim); margin-top:8px; line-height:1.5;">
+          ※ 과거 결과일 뿐 미래를 보장하지 않아요. 수수료·세금 미반영, 종가 기준 단순 시뮬레이션이에요.</div>
+      </div>`;
+    document.getElementById("sigList").insertAdjacentHTML("beforeend", btHtml);
+  }
 
   lastRows = res.rows;
   drawChart(res.rows);

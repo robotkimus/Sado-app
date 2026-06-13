@@ -39,8 +39,9 @@
   }
   .chip.on{background:var(--text); color:var(--bg); border-color:var(--text);}
   .row{display:flex; gap:8px; margin-bottom:14px;}
-  .acbox{position:absolute; top:52px; left:0; right:0; background:var(--card); border:1px solid var(--line);
-    border-radius:12px; z-index:50; overflow:hidden; display:none; max-height:280px; overflow-y:auto;}
+  .acbox{position:absolute; top:54px; left:0; right:0; background:var(--card); border:1px solid var(--line);
+    border-radius:12px; z-index:9999; display:none; max-height:50vh; overflow-y:auto;
+    -webkit-overflow-scrolling:touch; box-shadow:0 8px 24px rgba(0,0,0,.5);}
   .acitem{padding:11px 14px; border-top:1px solid var(--line); cursor:pointer; font-size:13.5px;}
   .acitem:first-child{border-top:none;}
   .acitem:hover,.acitem.sel{background:var(--card2);}
@@ -97,6 +98,26 @@
   @keyframes sp{to{transform:rotate(360deg)}}
   @media (prefers-reduced-motion: reduce){.spin{animation:none}}
   /* 시장 날씨 */
+  .weather-hero{position:relative; height:110px; border-radius:16px; overflow:hidden;
+    margin-bottom:12px; border:1px solid var(--line);}
+  .wh-sky{position:absolute; inset:0; transition:background 1s ease;}
+  .wh-content{position:relative; z-index:2; height:100%; display:flex; align-items:center;
+    gap:16px; padding:0 20px;}
+  .wh-icon{font-size:48px; line-height:1; filter:drop-shadow(0 2px 6px rgba(0,0,0,.4));}
+  .wh-label{font-size:20px; font-weight:800; letter-spacing:-0.02em;}
+  .wh-sub{font-size:12px; opacity:.85; margin-top:3px; line-height:1.4;}
+  /* 날씨별 하늘 그라데이션 */
+  .sky-sunny{background:linear-gradient(135deg,#1a4a7a,#2d7ab8 60%,#48a0d8);}
+  .sky-partly{background:linear-gradient(135deg,#2a3a55,#456590 70%,#5a7a9a);}
+  .sky-cloudy{background:linear-gradient(135deg,#2a3245,#404a60 70%,#525a6e);}
+  .sky-rain{background:linear-gradient(135deg,#1e2535,#2a3548 70%,#35435a);}
+  .sky-storm{background:linear-gradient(135deg,#15151f,#252535 60%,#1a1a2e);}
+  /* 떠다니는 입자 (비/눈 느낌) */
+  .wh-drop{position:absolute; width:2px; height:14px; background:rgba(170,200,230,.5);
+    border-radius:2px; animation:fall linear infinite; z-index:1;}
+  @keyframes fall{0%{transform:translateY(-20px)}100%{transform:translateY(130px)}}
+  @keyframes twinkle{0%,100%{opacity:.3}50%{opacity:.9}}
+  @media (prefers-reduced-motion: reduce){.wh-drop{display:none}}
   .wgrid{display:grid; grid-template-columns:1fr 1fr; gap:8px; margin-bottom:10px;}
   .wcard{background:var(--card2); border:1px solid var(--line); border-radius:14px;
     padding:12px; cursor:pointer;}
@@ -129,6 +150,16 @@
   <!-- 시장 날씨 (매크로) -->
   <div class="card pad">
     <div class="sec-title">시장 날씨 — 판이 깨지면 다 같이 깨진다</div>
+    <div class="weather-hero" id="weatherHero">
+      <div class="wh-sky" id="whSky"></div>
+      <div class="wh-content">
+        <div class="wh-icon" id="whIcon">⛅</div>
+        <div class="wh-text">
+          <div class="wh-label" id="whLabel">시장 날씨 측정 중...</div>
+          <div class="wh-sub" id="whSub">잠시만요</div>
+        </div>
+      </div>
+    </div>
     <div class="wgrid" id="wGrid"></div>
     <button class="btn" id="weatherBtn" style="width:100%; margin-top:2px">지금 새로고침</button>
     <div class="muted" id="wNote" style="margin-top:8px"></div>
@@ -290,6 +321,40 @@ document.getElementById("tickerInput").addEventListener("keydown", e=>{
 /* ── 종목 자동완성 (야후 검색 API) ── */
 let acTimer = null;
 const acBox = document.getElementById("acBox");
+
+/* ── 미국 인기종목 사전 (즉시 검색용) ── */
+const US_DICT = [
+  ["AAPL","Apple"],["MSFT","Microsoft"],["NVDA","NVIDIA"],["AMZN","Amazon"],["GOOGL","Alphabet (Google)"],
+  ["GOOG","Alphabet (Google) C"],["META","Meta (Facebook)"],["TSLA","Tesla"],["AVGO","Broadcom"],["BRK.B","Berkshire Hathaway"],
+  ["LLY","Eli Lilly"],["JPM","JPMorgan Chase"],["V","Visa"],["MA","Mastercard"],["UNH","UnitedHealth"],
+  ["XOM","Exxon Mobil"],["JNJ","Johnson & Johnson"],["WMT","Walmart"],["PG","Procter & Gamble"],["HD","Home Depot"],
+  ["COST","Costco"],["ORCL","Oracle"],["NFLX","Netflix"],["AMD","AMD"],["CRM","Salesforce"],
+  ["BAC","Bank of America"],["KO","Coca-Cola"],["PEP","PepsiCo"],["TMO","Thermo Fisher"],["ADBE","Adobe"],
+  ["CSCO","Cisco"],["MCD","McDonald's"],["ABBV","AbbVie"],["WFC","Wells Fargo"],["DIS","Disney"],
+  ["INTC","Intel"],["QCOM","Qualcomm"],["TXN","Texas Instruments"],["AMAT","Applied Materials"],["MU","Micron"],
+  ["INTU","Intuit"],["IBM","IBM"],["NOW","ServiceNow"],["UBER","Uber"],["BA","Boeing"],
+  ["GE","General Electric"],["CAT","Caterpillar"],["NKE","Nike"],["PFE","Pfizer"],["MRK","Merck"],
+  ["T","AT&T"],["VZ","Verizon"],["CMCSA","Comcast"],["PYPL","PayPal"],["SBUX","Starbucks"],
+  ["GS","Goldman Sachs"],["MS","Morgan Stanley"],["BLK","BlackRock"],["AXP","American Express"],["C","Citigroup"],
+  ["PLTR","Palantir"],["COIN","Coinbase"],["SQ","Block (Square)"],["SHOP","Shopify"],["SNOW","Snowflake"],
+  ["ABNB","Airbnb"],["MRNA","Moderna"],["GME","GameStop"],["AMC","AMC"],["RIVN","Rivian"],
+  ["LCID","Lucid"],["F","Ford"],["GM","General Motors"],["DAL","Delta Air Lines"],["AAL","American Airlines"],
+  ["SPY","S&P 500 ETF"],["QQQ","Nasdaq 100 ETF"],["DIA","Dow Jones ETF"],["IWM","Russell 2000 ETF"],["VOO","Vanguard S&P500"],
+  ["VTI","Vanguard Total Market"],["ARKK","ARK Innovation"],["TQQQ","ProShares 3x Nasdaq"],["SOXL","3x Semiconductor"],["SOXX","Semiconductor ETF"],
+  ["SMH","Semiconductor ETF"],["XLF","Financial ETF"],["XLE","Energy ETF"],["XLK","Technology ETF"],["GLD","Gold ETF"],
+  ["SLV","Silver ETF"],["TLT","20Y Treasury ETF"],["VIX","Volatility Index"],["BABA","Alibaba"],["NIO","NIO"],
+  ["TSM","Taiwan Semi (TSMC)"],["ASML","ASML"],["TM","Toyota"],["SONY","Sony"],["NVO","Novo Nordisk"],
+];
+function searchUsDict(q){
+  const ql = q.toLowerCase();
+  const hits = [];
+  US_DICT.forEach(([sym,name])=>{
+    if(sym.toLowerCase().startsWith(ql) || name.toLowerCase().includes(ql)){
+      hits.push({symbol:sym, shortname:name, quoteType:"EQUITY"});
+    }
+  });
+  return hits.slice(0,10);
+}
 const tickerInput = document.getElementById("tickerInput");
 async function searchSymbols(q){
   const url = `https://query1.finance.yahoo.com/v1/finance/search?q=${encodeURIComponent(q)}&quotesCount=10&newsCount=0`;
@@ -326,12 +391,14 @@ function showAc(list){
     `<div class="acitem" data-sym="${x.symbol}"><span class="sym">${x.symbol}</span><span class="nm">${(x.shortname||x.longname||"").slice(0,30)}</span></div>`
   ).join("");
   acBox.style.display = "block";
+  const tv = document.getElementById("tvbox"); if(tv) tv.style.visibility = "hidden";
   acBox.querySelectorAll(".acitem").forEach(el=>{
     const pick = (ev)=>{
       ev.preventDefault();
       ev.stopPropagation();
       tickerInput.value = el.dataset.sym;
       acBox.style.display = "none";
+      if(tv) tv.style.visibility = "visible";
       setTicker(el.dataset.sym);
     };
     el.addEventListener("mousedown", pick);
@@ -341,14 +408,24 @@ function showAc(list){
 tickerInput.addEventListener("input", ()=>{
   const q = tickerInput.value.trim();
   clearTimeout(acTimer);
-  if(q.length < 1){ acBox.style.display="none"; return; }
+  if(q.length < 1){ acBox.style.display="none"; const tv=document.getElementById("tvbox"); if(tv) tv.style.visibility="visible"; return; }
+  // 1) 사전에서 즉시 표시 (네트워크 0초)
+  const dictHits = searchUsDict(q);
+  if(dictHits.length) showAc(dictHits);
+  // 2) 야후 검색으로 보강 (사전에 없는 종목까지)
   acTimer = setTimeout(async ()=>{
     const list = await searchSymbols(q);
-    showAc(list);
+    // 사전 결과 + 야후 결과 합치되 중복 제거
+    const merged = [...dictHits];
+    list.forEach(x=>{ if(!merged.find(m=>m.symbol===x.symbol)) merged.push(x); });
+    if(merged.length) showAc(merged.slice(0,12));
   }, 300);
 });
 document.addEventListener("click", e=>{
-  if(!e.target.closest(".row") && !e.target.closest("#acBox")) acBox.style.display = "none";
+  if(!e.target.closest(".row") && !e.target.closest("#acBox")){
+    acBox.style.display = "none";
+    const tv=document.getElementById("tvbox"); if(tv) tv.style.visibility="visible";
+  }
 });
 
 /* ── 시장 날씨 (매크로) — 자동 갱신 ── */
@@ -490,9 +567,67 @@ async function loadWeather(){
   // 공포탐욕지수 (CNN)
   try{ fearGreed = await fetchFearGreed(); }catch(e){ /* 유지 */ }
   renderWeatherCards();
+  updateWeatherHero();
   const t = new Date();
   note.textContent = `마지막 갱신 ${String(t.getHours()).padStart(2,"0")}:${String(t.getMinutes()).padStart(2,"0")}`
     + " · 5분마다 자동 갱신 · 카드를 탭하면 차트로 전환";
+}
+
+/* ── 시장 날씨 종합 판정 (VIX + 공포탐욕 + 지수) ── */
+function updateWeatherHero(){
+  const sky = document.getElementById("whSky");
+  const icon = document.getElementById("whIcon");
+  const label = document.getElementById("whLabel");
+  const sub = document.getElementById("whSub");
+  if(!sky) return;
+
+  // 점수화: VIX와 공포탐욕지수로 0(폭풍)~100(쾌청) 계산
+  let score = 50, parts = [];
+  const vix = weatherData?.vix?.v;
+  const fg = fearGreed?.score;
+  const spx = weatherData?.spx?.pc;
+
+  if(isFinite(vix)){
+    // VIX 12→매우안정, 35→공포
+    const vScore = Math.max(0, Math.min(100, (35 - vix) / (35 - 12) * 100));
+    score = vScore; parts.push(`VIX ${vix.toFixed(1)}`);
+  }
+  if(isFinite(fg)){
+    // 공포탐욕은 그 자체가 0(공포)~100(탐욕) — 너무 탐욕도 위험이라 약하게 반영
+    score = isFinite(vix) ? (score*0.6 + fg*0.4) : fg;
+    parts.push(`공포탐욕 ${fg}`);
+  }
+  if(isFinite(spx)){
+    score += spx * 3; // 당일 지수 등락 반영
+  }
+  score = Math.max(0, Math.min(100, score));
+
+  let cls, ic, lb, sb;
+  if(score >= 75){ cls="sky-sunny"; ic="☀️"; lb="맑음 — 시장 쾌청"; sb="위험선호 우위, 추세 양호한 구간"; }
+  else if(score >= 58){ cls="sky-partly"; ic="⛅"; lb="구름 조금 — 대체로 양호"; sb="완만한 흐름, 무난한 환경"; }
+  else if(score >= 42){ cls="sky-cloudy"; ic="☁️"; lb="흐림 — 눈치 보기"; sb="방향 모호, 변동성 주의"; }
+  else if(score >= 25){ cls="sky-rain"; ic="🌧️"; lb="비 — 불안 확산"; sb="위험회피 분위기, 보수적으로"; }
+  else { cls="sky-storm"; ic="⛈️"; lb="폭풍 — 공포 극심"; sb="역발상 기회일 수도, 변동성 최고조"; }
+
+  sky.className = "wh-sky " + cls;
+  icon.textContent = ic;
+  label.textContent = lb;
+  sub.textContent = (parts.length ? parts.join(" · ") + " · " : "") + sb;
+
+  // 비/폭풍이면 빗방울 입자 추가
+  document.querySelectorAll(".wh-drop").forEach(d=>d.remove());
+  if(cls==="sky-rain" || cls==="sky-storm"){
+    const hero = document.getElementById("weatherHero");
+    const n = cls==="sky-storm" ? 18 : 11;
+    for(let i=0;i<n;i++){
+      const d = document.createElement("div");
+      d.className = "wh-drop";
+      d.style.left = Math.random()*100 + "%";
+      d.style.animationDuration = (0.5 + Math.random()*0.6) + "s";
+      d.style.animationDelay = (Math.random()*1.5) + "s";
+      hero.appendChild(d);
+    }
+  }
 }
 
 async function loadWeatherWithButton(){
@@ -680,6 +815,49 @@ function fibLevels(rows){
   return {hi, lo, upTrend, levels};
 }
 
+/* ── 백테스트 (이 신호대로 과거 1년 매매했다면?) ── */
+function backtest(rows){
+  function scoreAt(idx){
+    const sub = rows.slice(0, idx+1);
+    if(sub.length < 25) return 0;
+    const last = sub[sub.length-1];
+    let total = 0;
+    if(last.ma20!=null) total += last.close > last.ma20 ? 1 : -1;
+    for(let i=sub.length-7;i<sub.length;i++){
+      const p=sub[i-1], c=sub[i];
+      if(!p?.ma5||!p?.ma20||!c?.ma5||!c?.ma20) continue;
+      if(p.ma5<=p.ma20 && c.ma5>c.ma20) total += 1.5;
+      if(p.ma5>=p.ma20 && c.ma5<c.ma20) total -= 1.5;
+    }
+    if(last.rsi!=null){ if(last.rsi<=30) total+=1; else if(last.rsi>=70) total-=1; }
+    if(last.upper!=null){
+      const pos=(last.close-last.lower)/(last.upper-last.lower);
+      if(pos<=0.15) total+=1; else if(pos>=0.85) total-=1;
+    }
+    return total;
+  }
+  let cash = 10000, shares = 0, trades = 0, wins = 0, buyPrice = 0;
+  const startIdx = Math.max(25, rows.length - 252);
+  const startPrice = rows[startIdx].close;
+  for(let i=startIdx;i<rows.length;i++){
+    const score = scoreAt(i);
+    const price = rows[i].close;
+    if(score >= 1.5 && shares === 0 && cash > 0){
+      shares = cash / price; cash = 0; buyPrice = price; trades++;
+    } else if(score <= -1.5 && shares > 0){
+      cash = shares * price;
+      if(price > buyPrice) wins++;
+      shares = 0;
+    }
+  }
+  const lastPrice = rows[rows.length-1].close;
+  const finalValue = cash + shares * lastPrice;
+  const stratReturn = (finalValue/10000 - 1) * 100;
+  const holdReturn = (lastPrice/startPrice - 1) * 100;
+  const winRate = trades>0 ? (wins/trades*100) : 0;
+  return { stratReturn, holdReturn, trades, winRate, hasOpen: shares>0 };
+}
+
 function judge(rows){
   const last = rows[rows.length-1];
   const sigs = [];
@@ -752,7 +930,8 @@ function judge(rows){
   const overall = total>=1.5?"buy":total<=-1.5?"sell":"hold";
   const vol20 = volRange(rows, 20);
   const vol60 = volRange(rows, 60);
-  return {sigs, total, overall, last, prev:rows[rows.length-2], fib, vol20, vol60};
+  const bt = backtest(rows);
+  return {sigs, total, overall, last, prev:rows[rows.length-2], fib, vol20, vol60, bt};
 }
 
 /* ── 렌더링 ── */
@@ -828,6 +1007,31 @@ function render(res){
           <span>60일 기준 1σ</span><span style="font-variant-numeric:tabular-nums;">${usd(res.vol60.s1[0])} ~ ${usd(res.vol60.s1[1])}</span></div>
       </div>`;
     box.appendChild(vdiv);
+  }
+  // 백테스트 맛보기
+  if(res.bt && res.bt.trades >= 0){
+    const bt = res.bt;
+    const stratColor = bt.stratReturn >= 0 ? "var(--buy)" : "var(--sell)";
+    const holdColor = bt.holdReturn >= 0 ? "var(--buy)" : "var(--sell)";
+    const win = bt.stratReturn >= bt.holdReturn;
+    const bdiv = document.createElement("div");
+    bdiv.style.cssText = "margin-top:12px; padding:12px 14px; background:var(--card2); border:1px solid var(--line); border-radius:14px;";
+    bdiv.innerHTML = `<div style="font-size:12px; font-weight:700; color:var(--dim); margin-bottom:8px;">
+        🔬 백테스트 — 이 신호대로 지난 1년 매매했다면?</div>
+      <div style="font-size:12.5px; line-height:1.95;">
+        <div style="display:flex; justify-content:space-between;">
+          <span>📊 신호 따라 매매</span>
+          <span style="font-weight:800; color:${stratColor}; font-variant-numeric:tabular-nums;">${bt.stratReturn>=0?"+":""}${bt.stratReturn.toFixed(1)}%</span></div>
+        <div style="display:flex; justify-content:space-between;">
+          <span style="color:var(--dim);">🤲 그냥 보유했다면</span>
+          <span style="font-weight:700; color:${holdColor}; font-variant-numeric:tabular-nums;">${bt.holdReturn>=0?"+":""}${bt.holdReturn.toFixed(1)}%</span></div>
+        <div style="display:flex; justify-content:space-between; margin-top:6px; padding-top:6px; border-top:1px solid var(--line); color:var(--dim); font-size:11.5px;">
+          <span>매매 ${bt.trades}회 · 승률 ${bt.winRate.toFixed(0)}%</span>
+          <span style="color:${win?'var(--buy)':'var(--dim)'};">${win?"✓ 신호가 더 나았음":"보유가 나았음"}</span></div>
+      </div>
+      <div style="font-size:10.5px; color:var(--dim); margin-top:8px; line-height:1.5;">
+        ※ 과거 결과일 뿐 미래 수익을 보장하지 않아요. 수수료·세금 미반영, 종가 기준 단순 시뮬레이션이에요.</div>`;
+    box.appendChild(bdiv);
   }
 }
 
