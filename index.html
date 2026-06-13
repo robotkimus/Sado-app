@@ -237,6 +237,7 @@ let current = "AAPL";
 /* ── 트레이딩뷰 차트 (iframe 임베드 — 외부 스크립트 의존 없음) ── */
 function loadChart(sym){
   const box = document.getElementById("tvbox");
+  box.style.visibility = "visible";   // 어떤 경로로 종목을 골라도 차트 복원
   box.innerHTML = "";
   const params = new URLSearchParams({
     symbol: sym,
