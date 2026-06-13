@@ -185,7 +185,13 @@
 </div>
 
 <script>
-const PRESETS = ["AAPL","NVDA","TSLA","MSFT","SPY","QQQ"];
+const DEFAULT_TICKERS = ["AAPL","MSFT","NVDA","AMZN","GOOGL","META","TSLA"];  // 미국 M7
+function getFavs(){
+  try{ const v = localStorage.getItem("fav_tickers"); return v ? JSON.parse(v) : DEFAULT_TICKERS.slice(); }
+  catch(e){ return DEFAULT_TICKERS.slice(); }
+}
+function saveFavs(arr){ try{ localStorage.setItem("fav_tickers", JSON.stringify(arr)); }catch(e){} }
+let PRESETS = getFavs();
 let current = "AAPL";
 
 /* ── 트레이딩뷰 차트 (iframe 임베드 — 외부 스크립트 의존 없음) ── */
@@ -229,8 +235,32 @@ function renderChips(){
     b.className = "chip" + (t===current ? " on" : "");
     b.textContent = t;
     b.onclick = ()=>setTicker(t);
+    // 길게 누르거나, 현재 선택된 칩이면 삭제(✕) 표시
+    if(t === current && PRESETS.length > 1){
+      const x = document.createElement("span");
+      x.textContent = " ✕";
+      x.style.cssText = "opacity:.6; font-weight:900;";
+      x.onclick = (e)=>{ e.stopPropagation(); removeFav(t); };
+      b.appendChild(x);
+    }
     chipsEl.appendChild(b);
   });
+  // ⭐ 현재 종목이 즐겨찾기에 없으면 "추가" 칩
+  if(!PRESETS.includes(current)){
+    const add = document.createElement("button");
+    add.className = "chip";
+    add.style.cssText = "color:var(--hold); border-color:var(--hold);";
+    add.textContent = "⭐ " + current + " 추가";
+    add.onclick = ()=>addFav(current);
+    chipsEl.appendChild(add);
+  }
+}
+function addFav(t){
+  t = t.toUpperCase().trim();
+  if(t && !PRESETS.includes(t)){ PRESETS.push(t); saveFavs(PRESETS); renderChips(); }
+}
+function removeFav(t){
+  PRESETS = PRESETS.filter(x=>x!==t); saveFavs(PRESETS); renderChips();
 }
 function setTicker(t){
   current = t.toUpperCase().trim();

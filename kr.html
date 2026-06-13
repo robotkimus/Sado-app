@@ -134,16 +134,21 @@
 </div>
 
 <script>
-const KR_PRESETS = [
+const KR_DEFAULT = [   // 한국 시총 상위 대표주 (한국판 M7 느낌)
   {code:"005930", name:"삼성전자"},
   {code:"000660", name:"SK하이닉스"},
   {code:"373220", name:"LG엔솔"},
-  {code:"035720", name:"카카오"},
-  {code:"035420", name:"NAVER"},
-  {code:"247540", name:"에코프로비엠"},
+  {code:"207940", name:"삼성바이오"},
   {code:"005380", name:"현대차"},
+  {code:"000270", name:"기아"},
   {code:"068270", name:"셀트리온"},
 ];
+function getKrFavs(){
+  try{ const v = localStorage.getItem("fav_kr"); return v ? JSON.parse(v) : KR_DEFAULT.slice(); }
+  catch(e){ return KR_DEFAULT.slice(); }
+}
+function saveKrFavs(arr){ try{ localStorage.setItem("fav_kr", JSON.stringify(arr)); }catch(e){} }
+let KR_PRESETS = getKrFavs();
 let current = "005930";
 let lastRows = null;
 const chipsEl = document.getElementById("chips");
@@ -155,8 +160,33 @@ function renderChips(){
     b.className = "chip" + (k.code===current ? " on" : "");
     b.textContent = k.name;
     b.onclick = ()=>setCode(k.code);
+    if(k.code === current && KR_PRESETS.length > 1){
+      const x = document.createElement("span");
+      x.textContent = " ✕";
+      x.style.cssText = "opacity:.6; font-weight:900;";
+      x.onclick = (e)=>{ e.stopPropagation(); removeKrFav(k.code); };
+      b.appendChild(x);
+    }
     chipsEl.appendChild(b);
   });
+  // 현재 종목이 즐겨찾기에 없으면 추가 칩
+  if(!KR_PRESETS.find(k=>k.code===current)){
+    const add = document.createElement("button");
+    add.className = "chip";
+    add.style.cssText = "color:var(--hold); border-color:var(--hold);";
+    add.textContent = "⭐ " + current + " 추가";
+    add.onclick = ()=>addKrFav(current);
+    chipsEl.appendChild(add);
+  }
+}
+function addKrFav(code){
+  if(code && !KR_PRESETS.find(k=>k.code===code)){
+    KR_PRESETS.push({code:code, name:code});  // 이름 모르면 코드로 표시
+    saveKrFavs(KR_PRESETS); renderChips();
+  }
+}
+function removeKrFav(code){
+  KR_PRESETS = KR_PRESETS.filter(k=>k.code!==code); saveKrFavs(KR_PRESETS); renderChips();
 }
 function setCode(code){
   current = code.trim();
