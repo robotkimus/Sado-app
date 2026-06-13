@@ -37,6 +37,13 @@
   }
   .chip.on{background:var(--text); color:var(--bg); border-color:var(--text);}
   .row{display:flex; gap:8px; margin-bottom:14px;}
+  .acbox{position:absolute; top:52px; left:0; right:0; background:var(--card); border:1px solid var(--line);
+    border-radius:12px; z-index:50; overflow:hidden; display:none; max-height:280px; overflow-y:auto;}
+  .acitem{padding:11px 14px; border-top:1px solid var(--line); cursor:pointer; font-size:13.5px;}
+  .acitem:first-child{border-top:none;}
+  .acitem:hover{background:var(--card2);}
+  .acitem .sym{font-weight:800;}
+  .acitem .nm{color:var(--dim); font-size:12px; margin-left:6px;}
   input[type=text]{
     flex:1; min-width:0; background:var(--card); border:1px solid var(--line); border-radius:12px;
     color:var(--text); font-size:14px; font-weight:700; padding:11px 14px; font-family:inherit;
@@ -96,9 +103,10 @@
   </div>
 
   <div class="chips" id="chips"></div>
-  <div class="row">
-    <input type="text" id="codeInput" placeholder="종목코드 6자리 (예: 005930)" maxlength="6" inputmode="numeric">
+  <div class="row" style="position:relative;">
+    <input type="text" id="codeInput" placeholder="종목명/코드 검색 (예: 삼성전자 또는 005930)" maxlength="20" autocomplete="off">
     <button class="btn" id="goBtn">보기</button>
+    <div id="acBox" class="acbox"></div>
   </div>
 
   <div class="card"><div id="chartbox"><canvas id="chart"></canvas></div></div>
@@ -150,9 +158,10 @@ function getKrFavs(){
 function saveKrFavs(arr){ try{ localStorage.setItem("fav_kr", JSON.stringify(arr)); }catch(e){} }
 let KR_PRESETS = getKrFavs();
 let current = "005930";
+let knownNames = {};  // code -> name (검색으로 알아낸 이름)
 let lastRows = null;
 const chipsEl = document.getElementById("chips");
-function krName(code){ const f = KR_PRESETS.find(k=>k.code===code); return f ? f.name : code; }
+function krName(code){ const f = KR_PRESETS.find(k=>k.code===code); if(f && f.name!==code) return f.name; return knownNames[code] || code; }
 function renderChips(){
   chipsEl.innerHTML = "";
   KR_PRESETS.forEach(k=>{
@@ -181,7 +190,7 @@ function renderChips(){
 }
 function addKrFav(code){
   if(code && !KR_PRESETS.find(k=>k.code===code)){
-    KR_PRESETS.push({code:code, name:code});  // 이름 모르면 코드로 표시
+    KR_PRESETS.push({code:code, name: knownNames[code] || code});
     saveKrFavs(KR_PRESETS); renderChips();
   }
 }
@@ -526,12 +535,77 @@ async function analyze(){
 
 document.getElementById("goBtn").onclick = ()=>{
   const v = document.getElementById("codeInput").value.trim();
-  if(/^\d{6}$/.test(v)){ setCode(v); }
-  else { document.getElementById("err").textContent = "종목코드 6자리를 입력해주세요 (예: 005930)"; }
+  if(/^\d{6}$/.test(v)){ setCode(v); acBox.style.display="none"; }
+  else if(v){
+    // 이름이면 자동완성 검색을 띄움
+    searchKR(v).then(list=>{
+      if(list.length){ tickerInput.value=""; showAc(list); }
+      else document.getElementById("err").textContent = "종목을 찾지 못했어요. 종목명이나 코드 6자리로 검색해보세요.";
+    });
+  }
 };
 document.getElementById("codeInput").addEventListener("keydown", e=>{
   if(e.key==="Enter") document.getElementById("goBtn").click();
 });
+
+/* ── 종목 자동완성 (야후 검색에서 한국 .KS/.KQ 필터) ── */
+const acBox = document.getElementById("acBox");
+const tickerInput = document.getElementById("codeInput");
+let acTimer = null;
+async function searchKR(q){
+  const url = `https://query1.finance.yahoo.com/v1/finance/search?q=${encodeURIComponent(q)}&quotesCount=12&newsCount=0`;
+  const tries = [
+    url,
+    `https://corsproxy.io/?url=${encodeURIComponent(url)}`,
+    `https://api.allorigins.win/raw?url=${encodeURIComponent(url)}`
+  ];
+  for(const u of tries){
+    try{
+      const res = await fetch(u, {signal:AbortSignal.timeout(8000)});
+      if(!res.ok) continue;
+      const j = await res.json();
+      if(j.quotes){
+        // 한국 거래소(.KS 코스피 / .KQ 코스닥)만
+        return j.quotes
+          .filter(x=> x.symbol && (x.symbol.endsWith(".KS")||x.symbol.endsWith(".KQ")))
+          .map(x=>({
+            code: x.symbol.replace(/\.(KS|KQ)$/,""),
+            name: x.shortname || x.longname || x.symbol,
+            ex: x.symbol.endsWith(".KS") ? "코스피" : "코스닥"
+          }));
+      }
+    }catch(e){}
+  }
+  return [];
+}
+function showAc(list){
+  if(!list.length){ acBox.style.display="none"; return; }
+  acBox.innerHTML = list.map(x=>
+    `<div class="acitem" data-code="${x.code}" data-name="${x.name}"><span class="sym">${x.name}</span><span class="nm">${x.code} · ${x.ex}</span></div>`
+  ).join("");
+  acBox.style.display = "block";
+  acBox.querySelectorAll(".acitem").forEach(el=>{
+    el.onclick = ()=>{
+      const code = el.dataset.code, name = el.dataset.name;
+      knownNames[code] = name;  // 이름 기억
+      const f = KR_PRESETS.find(k=>k.code===code);
+      if(f && f.name===code) f.name = name;
+      acBox.style.display = "none";
+      document.getElementById("codeInput").value = "";
+      setCode(code);
+    };
+  });
+}
+tickerInput.addEventListener("input", ()=>{
+  const q = tickerInput.value.trim();
+  clearTimeout(acTimer);
+  if(q.length < 1 || /^\d{1,6}$/.test(q)){ acBox.style.display="none"; return; }  // 숫자코드는 자동완성 안함
+  acTimer = setTimeout(async ()=>{ showAc(await searchKR(q)); }, 300);
+});
+document.addEventListener("click", e=>{
+  if(!e.target.closest(".row")) acBox.style.display = "none";
+});
+
 document.getElementById("analyzeBtn").onclick = analyze;
 window.addEventListener("resize", ()=>{ if(lastRows) drawChart(lastRows); });
 

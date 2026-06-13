@@ -39,6 +39,13 @@
   }
   .chip.on{background:var(--text); color:var(--bg); border-color:var(--text);}
   .row{display:flex; gap:8px; margin-bottom:14px;}
+  .acbox{position:absolute; top:52px; left:0; right:0; background:var(--card); border:1px solid var(--line);
+    border-radius:12px; z-index:50; overflow:hidden; display:none; max-height:280px; overflow-y:auto;}
+  .acitem{padding:11px 14px; border-top:1px solid var(--line); cursor:pointer; font-size:13.5px;}
+  .acitem:first-child{border-top:none;}
+  .acitem:hover,.acitem.sel{background:var(--card2);}
+  .acitem .sym{font-weight:800;}
+  .acitem .nm{color:var(--dim); font-size:12px; margin-left:6px;}
   input[type=text]{
     flex:1; min-width:0; background:var(--card); border:1px solid var(--line); border-radius:12px;
     color:var(--text); font-size:14px; font-weight:700; padding:11px 14px;
@@ -110,9 +117,10 @@
   </div>
 
   <div class="chips" id="chips"></div>
-  <div class="row">
-    <input type="text" id="tickerInput" placeholder="티커 입력 (예: AMZN)" maxlength="8">
+  <div class="row" style="position:relative;">
+    <input type="text" id="tickerInput" placeholder="티커/회사명 검색 (예: apple)" maxlength="20" autocomplete="off">
     <button class="btn" id="goBtn">보기</button>
+    <div id="acBox" class="acbox"></div>
   </div>
 
   <!-- 트레이딩뷰 실시간 차트 -->
@@ -273,9 +281,58 @@ function setTicker(t){
 document.getElementById("goBtn").onclick = ()=>{
   const v = document.getElementById("tickerInput").value.trim();
   if(v) setTicker(v);
+  document.getElementById("acBox").style.display = "none";
 };
 document.getElementById("tickerInput").addEventListener("keydown", e=>{
   if(e.key==="Enter") document.getElementById("goBtn").click();
+});
+
+/* ── 종목 자동완성 (야후 검색 API) ── */
+let acTimer = null;
+const acBox = document.getElementById("acBox");
+const tickerInput = document.getElementById("tickerInput");
+async function searchSymbols(q){
+  const url = `https://query1.finance.yahoo.com/v1/finance/search?q=${encodeURIComponent(q)}&quotesCount=8&newsCount=0`;
+  const tries = [
+    url,
+    `https://corsproxy.io/?url=${encodeURIComponent(url)}`,
+    `https://api.allorigins.win/raw?url=${encodeURIComponent(url)}`
+  ];
+  for(const u of tries){
+    try{
+      const res = await fetch(u, {signal:AbortSignal.timeout(8000)});
+      if(!res.ok) continue;
+      const j = await res.json();
+      if(j.quotes) return j.quotes.filter(x=>x.symbol && (x.quoteType==="EQUITY"||x.quoteType==="ETF"));
+    }catch(e){}
+  }
+  return [];
+}
+function showAc(list){
+  if(!list.length){ acBox.style.display="none"; return; }
+  acBox.innerHTML = list.map(x=>
+    `<div class="acitem" data-sym="${x.symbol}"><span class="sym">${x.symbol}</span><span class="nm">${(x.shortname||x.longname||"").slice(0,30)}</span></div>`
+  ).join("");
+  acBox.style.display = "block";
+  acBox.querySelectorAll(".acitem").forEach(el=>{
+    el.onclick = ()=>{
+      tickerInput.value = el.dataset.sym;
+      acBox.style.display = "none";
+      setTicker(el.dataset.sym);
+    };
+  });
+}
+tickerInput.addEventListener("input", ()=>{
+  const q = tickerInput.value.trim();
+  clearTimeout(acTimer);
+  if(q.length < 1){ acBox.style.display="none"; return; }
+  acTimer = setTimeout(async ()=>{
+    const list = await searchSymbols(q);
+    showAc(list);
+  }, 300);
+});
+document.addEventListener("click", e=>{
+  if(!e.target.closest(".row")) acBox.style.display = "none";
 });
 
 /* ── 시장 날씨 (매크로) — 자동 갱신 ── */
