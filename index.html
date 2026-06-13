@@ -382,7 +382,19 @@ async function loadWeather(){
     + " · 5분마다 자동 갱신 · 카드를 탭하면 차트로 전환";
 }
 
-document.getElementById("weatherBtn").onclick = loadWeather;
+async function loadWeatherWithButton(){
+  const btn = document.getElementById("weatherBtn");
+  const original = btn.textContent;
+  btn.disabled = true;
+  btn.innerHTML = '<span class="spin"></span> 불러오는 중...';
+  try {
+    await loadWeather();
+  } finally {
+    btn.disabled = false;
+    btn.textContent = original;
+  }
+}
+document.getElementById("weatherBtn").onclick = loadWeatherWithButton;
 
 // 5분 자동 갱신 + 화면 복귀 시 오래됐으면 즉시 갱신
 setInterval(()=>{ if(document.visibilityState === "visible") loadWeather(); }, 5*60*1000);

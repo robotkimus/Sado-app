@@ -400,8 +400,12 @@ def main():
         except Exception as e:
             log(f"⚠️ 포지션 파싱 오류 ({p.get('symbol','?')}): {e}")
 
+    # 미국장 마감 시에는 코인만 수집 (주식은 어차피 보류되므로 헛수집·크레딧 절약)
+    targets = watch if STOCK_MARKET_OPEN else [s for s in watch if s in CRYPTO]
+    if not STOCK_MARKET_OPEN:
+        log(f"💤 미국장 마감 — 코인만 점검 ({len(targets)}종목)")
     market = []
-    for sym in watch:
+    for sym in targets:
         try:
             market.append(summarize(sym, fetch_daily(sym)))
         except Exception as e:
