@@ -1,1 +1,38 @@
+name: claude-trade-bot
 
+on:
+  schedule:
+    # 미국 주식 정규장 (한국 평일 밤~새벽)
+    - cron: '0 14 * * 1-5'
+    - cron: '0 17 * * 1-5'
+    - cron: '0 19 * * 1-5'
+    # 코인(ETH) — 매시간 (24시간, 매일)
+    - cron: '0 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  trade:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Claude 모의투자 봇 실행
+        env:
+          ALPACA_API_KEY: ${{ secrets.ALPACA_API_KEY }}
+          ALPACA_SECRET_KEY: ${{ secrets.ALPACA_SECRET_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+        run: python3 -u trade_bot.py
+      - name: 봇 상태를 앱에 반영 (커밋)
+        run: |
+          git config user.name "claude-trade-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add bot_status.json
+          git diff --staged --quiet && echo "변경 없음" && exit 0
+          git commit -m "bot status update"
+          for i in 1 2 3; do
+            git pull --rebase --autostash origin main && git push && break
+            echo "retry $i"; sleep 3
+          done
