@@ -144,6 +144,65 @@ def summarize(sym, series):
     }
 
 
+def assess_regime():
+    """시장 전체 국면 판단 — SPY 추세 + VIX로 하락장/조정/상승장 구분.
+    역대 하락장(2008, 2020, 2022)의 공통 신호를 기준으로 함."""
+    regime = {"label": "불명", "detail": "", "vix": None, "spy_vs_ma20": None, "spy_vs_ma60": None}
+    try:
+        spy = fetch_daily("SPY")
+        closes = [r["close"] for r in spy]
+        i = len(closes) - 1
+        ma20 = sma(closes, 20, i)
+        ma60 = sma(closes, 60, i)
+        price = closes[-1]
+        spy_ma20 = round((price / ma20 - 1) * 100, 1) if ma20 else None
+        spy_ma60 = round((price / ma60 - 1) * 100, 1) if ma60 else None
+        # 고점 대비 낙폭 (최근 120일 고점)
+        hi = max(closes[-120:]) if len(closes) >= 20 else max(closes)
+        drawdown = round((price / hi - 1) * 100, 1)
+        regime["spy_vs_ma20"] = spy_ma20
+        regime["spy_vs_ma60"] = spy_ma60
+        regime["spy_drawdown_from_high_pct"] = drawdown
+
+        vix_val = None
+        try:
+            vix = fetch_daily("^VIX") if False else None  # VIX 직접 조회는 소스마다 다름 — 아래 대체
+        except Exception:
+            vix = None
+        # VIX는 별도 시도 (실패해도 무방)
+        try:
+            import urllib.request
+            url = "https://query1.finance.yahoo.com/v8/finance/chart/%5EVIX?range=5d&interval=1d"
+            req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+            with urllib.request.urlopen(req, timeout=10) as r:
+                vj = json.load(r)
+            vix_val = vj["chart"]["result"][0]["meta"].get("regularMarketPrice")
+        except Exception:
+            vix_val = None
+        regime["vix"] = round(vix_val, 1) if vix_val else None
+
+        # 국면 판정 (역대 하락장 교훈 기반)
+        # 하락장: SPY가 60일선 아래 + 고점 대비 -10% 이상 + (VIX 높으면 강화)
+        if spy_ma60 is not None and drawdown is not None:
+            if spy_ma60 < -2 and drawdown <= -10:
+                regime["label"] = "하락장/조정"
+                regime["detail"] = "SPY가 장기추세(60일선) 아래이고 고점 대비 큰 폭 하락. 방어 우선 국면."
+            elif spy_ma20 is not None and spy_ma20 < -3:
+                regime["label"] = "단기 약세"
+                regime["detail"] = "단기추세(20일선) 이탈. 신규 매수 신중, 손절 기준 엄격 적용."
+            elif spy_ma20 is not None and spy_ma20 > 1 and (vix_val is None or vix_val < 20):
+                regime["label"] = "상승장"
+                regime["detail"] = "추세 양호, 변동성 안정. 정상 운용 가능."
+            else:
+                regime["label"] = "중립/혼조"
+                regime["detail"] = "뚜렷한 추세 없음. 종목별 선별 대응."
+        if vix_val is not None and vix_val >= 30:
+            regime["detail"] += " VIX 30 이상 — 공포 극심, 변동성 매우 큼."
+    except Exception as e:
+        regime["detail"] = f"국면 판단 실패: {e}"
+    return regime
+
+
 # ── 암호화폐 지원 ──
 CRYPTO = {"ETH-USD"}                     # 코인은 이더리움만 (BTC는 알파카 모의계좌 체결 문제)
 
@@ -181,10 +240,17 @@ def market_is_open():
 
 
 # ── Claude에게 판단 요청 ──
-def ask_claude(account, positions, market):
+def ask_claude(account, positions, market, regime=None):
     prompt = (
         "당신은 미국 주식 포트폴리오 매니저입니다. 모의계좌를 운용 중입니다.\n"
         "기술적 지표 기반의 스윙 전략을 따르되, 확신이 없으면 거래하지 않는 것이 원칙입니다.\n\n"
+        "핵심 매매 철학 (반드시 따를 것):\n"
+        "- '기다리는 매매'가 가장 중요하다. 아무 때나 사지 말고, 좋은 자리가 올 때까지 기다린다. 애매하면 거래하지 않는 것이 정답.\n"
+        "- 두 가지 진입 방식을 시장 국면에 맞게 골라 쓴다:\n"
+        "  ① 저점매수(쌀 때 사서 비쌀 때 판다): 과매도(RSI 30 이하)·볼린저 하단·공포 극심 구간에서 역발상 매수. 단, 떨어지는 칼날 잡지 말고 하락이 멈추고 바닥 다지는 신호(거래량 동반 반등, MA5 회복) 확인 후 진입.\n"
+        "  ② 추세추종(비쌀 때 사서 더 비쌀 때 판다): 골든크로스·신고가 돌파·강한 상승추세에서 달리는 추세에 올라탐. 거래량이 뒷받침될 때만.\n"
+        "- 시장 국면으로 둘 중 무엇을 쓸지 결정한다: 하락장/과매도 국면 → ①저점매수 위주(신중히). 상승장/추세 국면 → ②추세추종 위주. 혼조·불명확 → 기다림(관망).\n"
+        "- 두 방식 모두 '좋은 자리를 기다린다'는 본질은 같다. 조급하게 진입하지 말 것.\n\n"
         "포트폴리오 구조 (중요):\n"
         "- 코어: M7(AAPL/MSFT/NVDA/GOOGL/AMZN/META/TSLA)과 기술 ETF(IGV/SOXX/SMH/QQQ)를 성장 축으로 운용\n"
         "- 분산: 금융·헬스케어·에너지·소비재·안전자산(GLD/TLT)에도 나눠 담아 한 섹터 쏠림을 피할 것\n"
@@ -192,6 +258,16 @@ def ask_claude(account, positions, market):
         "- 인버스(SQQQ/SOXS/SH/SDS): 지수가 20일선 아래로 꺾이는 등 하락 신호가 분명할 때 헤지용으로만. 같은 15% 한도 적용\n"
         "- 레버리지·인버스는 변동성 잠식이 있으니 보유가 길어지거나 근거가 사라지면 우선 정리 대상\n"
         "- RSI 과매도 + 볼린저 하단 같은 '싸게 살 기회' 역발상도 적극 활용\n- 암호화폐(BTC-USD/ETH-USD): 시험 운용 중. 변동성이 매우 크니 합산 평가액 총자산 5% 이내, 소수점 수량 사용 가능 (예: 0.02)\n\n"
+        "하락장·조정 대응 원칙 (역대 약세장 2008·2020·2022의 교훈):\n"
+        "- 현금은 무기다: 하락장에선 현금 비중을 늘리는 것 자체가 좋은 결정. 억지로 매수하지 말 것. 관망·현금 보유가 종종 최선\n"
+        "- 떨어지는 칼날 잡지 말 것: 급락 중인 종목을 '싸다'고 서둘러 사지 말 것. 하락 추세가 멈추고 바닥을 다지는 신호(거래량 동반 반등, MA5 회복)를 확인 후 진입\n"
+        "- 손절은 빠르게: 하락장에선 손실이 더 빨리 커진다. 손절 기준(-7%, 레버리지 -5%)을 더 엄격히, 머뭇거리지 말 것\n"
+        "- 분할 대응: 한 번에 다 사지 말고, 확신이 설 때 조금씩. 평균단가 낮추기(물타기)는 추세 확인 전엔 금물\n"
+        "- 레버리지 금지에 가깝게: 하락·변동성 국면에서 레버리지 롱(TQQQ 등)은 변동성 잠식으로 치명적. 추세가 명확히 돌기 전엔 피할 것\n"
+        "- 방어 자산: 하락장에선 GLD(금)·TLT(국채) 같은 안전자산 비중을 고려. 인버스(SQQQ 등)는 하락이 분명할 때만 소량 헤지\n"
+        "- 공포에 휩쓸리지 말되 과신도 말 것: VIX가 극도로 높을 때(30+)는 역사적 저점 근처인 경우도 있으나, 섣부른 '바닥 매수'보다 안정 확인이 우선\n\n"
+        f"[현재 시장 국면] {json.dumps(regime, ensure_ascii=False) if regime else '판단 안 됨'}\n"
+        "  → 위 국면을 반드시 반영할 것. '하락장/조정'이나 '단기 약세'면 신규 매수를 크게 줄이고 방어·현금 우선. '상승장'이면 정상 운용.\n\n"
         f"[계좌] 총자산 ${account['equity']}, 현금 ${account['cash']}\n"
         f"[보유 포지션]\n{json.dumps(positions, ensure_ascii=False, indent=1)}\n\n"
         f"[관심종목 지표]\n{json.dumps(market, ensure_ascii=False, indent=1)}\n\n"
@@ -401,9 +477,33 @@ def main():
             log(f"⚠️ 포지션 파싱 오류 ({p.get('symbol','?')}): {e}")
 
     # 미국장 마감 시에는 코인만 수집 (주식은 어차피 보류되므로 헛수집·크레딧 절약)
-    targets = watch if STOCK_MARKET_OPEN else [s for s in watch if s in CRYPTO]
     if not STOCK_MARKET_OPEN:
+        targets = [s for s in watch if s in CRYPTO]
         log(f"💤 미국장 마감 — 코인만 점검 ({len(targets)}종목)")
+    else:
+        # 종목 풀이 크면(>70) 전부 매번 받지 않고 로테이션 스캔 (속도·데이터소스 보호)
+        # 항상 받는 것: 보유 종목 + 코어(M7·주요 ETF·헤지·코인)
+        CORE = {"AAPL","MSFT","NVDA","GOOGL","AMZN","META","TSLA",
+                "QQQ","SPY","SMH","SOXX","IGV","XLK","GLD","TLT",
+                "TQQQ","SOXL","SQQQ","SOXS","ETH-USD"}
+        held_syms = {p["symbol"] for p in positions}
+        always = [s for s in watch if s in CORE or s in held_syms]
+        rest = [s for s in watch if s not in CORE and s not in held_syms and s not in CRYPTO]
+
+        if len(watch) > 70 and rest:
+            # 날짜+시간 기반으로 매 실행마다 다른 묶음을 스캔 (며칠이면 전체 1회전)
+            import datetime as _dt
+            _kst = _dt.timezone(_dt.timedelta(hours=9))
+            _now = _dt.datetime.now(_kst)
+            BATCH = 40  # 매 실행 확장풀 스캔 개수
+            slot = (_now.hour + _now.day) % max(1, (len(rest) + BATCH - 1) // BATCH)
+            start = slot * BATCH
+            rotation = rest[start:start + BATCH]
+            targets = always + rotation
+            log(f"🔄 로테이션 스캔: 코어·보유 {len(always)}개 + 확장풀 {len(rotation)}개 (전체 {len(watch)}개 중)")
+        else:
+            targets = watch
+
     market = []
     for sym in targets:
         try:
@@ -411,14 +511,18 @@ def main():
         except Exception as e:
             log(f"⚠️ {sym} 시세 실패: {e}")
         time.sleep(0.4)  # 종목이 많아 데이터 소스 차단 방지용 간격
-    log(f"✅ [3단계] 시세 확보 {len(market)}/{len(watch)} 종목")
+    log(f"✅ [3단계] 시세 확보 {len(market)}/{len(targets)} 종목")
 
     if not market:
         send_push("🤖 Claude 봇 — 실행 실패", "시세를 하나도 못 가져왔어요.", True)
         return 1
 
+    # 시장 전체 국면 판단 (하락장 대응용)
+    regime = assess_regime()
+    log(f"✅ [3.5단계] 시장 국면: {regime.get('label')} — {regime.get('detail','')}")
+
     try:
-        plan = ask_claude(account, positions, market)
+        plan = ask_claude(account, positions, market, regime)
         log("✅ [4단계] Claude 판단 수신")
     except Exception as e:
         log(f"❌ [4단계] Claude 판단 실패: {e}")
