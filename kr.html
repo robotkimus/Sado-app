@@ -157,7 +157,7 @@
       <span class="ch-title" id="sigTitle">신호 분석</span>
       <div class="ch-right">
         <span class="ch-sum" id="sigSummary"></span>
-        <button type="button" class="ch-close" data-close="sigCard">✕</button>
+        <button type="button" class="ch-close" id="sigClose" style="display:none;">✕</button>
       </div>
     </div>
     <div class="card-body">
@@ -326,7 +326,9 @@ function setCode(code){
   document.getElementById("result").style.display = "none";
   document.getElementById("err").innerHTML = "";
   const sc = document.getElementById("sigCard");
-  if(sc) sc.style.display = "block";   // 닫았어도 종목 다시 고르면 신호 카드 복원
+  if(sc) sc.style.display = "block";   // 카드는 항상 표시
+  const xb = document.getElementById("sigClose");
+  if(xb) xb.style.display = "none";    // 분석 전이라 ✕ 숨김
   const ss = document.getElementById("sigSummary");
   if(ss) ss.textContent = "";
   const nl = document.getElementById("naverLink");
@@ -701,6 +703,8 @@ function render(res){
   document.getElementById("vScore").textContent = `종합 ${res.total>=0?"+":""}${res.total.toFixed(1)}`;
   const ss = document.getElementById("sigSummary");
   if(ss) ss.innerHTML = `<span style="color:${v.color};">${v.g} ${v.label}</span>`;
+  const xb = document.getElementById("sigClose");
+  if(xb) xb.style.display = "flex";
   const pct = Math.max(0, Math.min(100, (res.total+5)/10*100));
   document.getElementById("knob").style.left = `calc(${pct}% - 8px)`;
   const list = document.getElementById("sigList");
@@ -893,16 +897,23 @@ document.addEventListener("click", e=>{
   if(!e.target.closest(".row") && !e.target.closest("#acBox")) acBox.style.display = "none";
 });
 
-// 카드 닫기(✕) — 해당 카드만 숨김
-document.querySelectorAll(".ch-close").forEach(btn=>{
-  btn.addEventListener("click", (e)=>{
-    e.preventDefault();
-    e.stopPropagation();
-    const id = btn.getAttribute("data-close");
-    const card = document.getElementById(id);
-    if(card) card.style.display = "none";
-  });
-});
+// 신호 분석 ✕ — 분석 결과만 숨기고 분석 버튼은 남김
+(function(){
+  const x = document.getElementById("sigClose");
+  if(x){
+    x.addEventListener("click", (e)=>{
+      e.preventDefault();
+      e.stopPropagation();
+      const r = document.getElementById("result");
+      if(r) r.style.display = "none";
+      const ss = document.getElementById("sigSummary");
+      if(ss) ss.innerHTML = "";
+      x.style.display = "none";
+      const err = document.getElementById("err");
+      if(err) err.innerHTML = "";
+    });
+  }
+})();
 
 document.getElementById("analyzeBtn").onclick = analyze;
 window.addEventListener("resize", ()=>{ if(lastRows) drawChart(lastRows); });

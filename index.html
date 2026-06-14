@@ -174,7 +174,7 @@
       <span class="ch-title" id="sigTitle">신호 판정</span>
       <div class="ch-right">
         <span class="ch-sum" id="sigSummary"></span>
-        <button type="button" class="ch-close" data-close="sigCard">✕</button>
+        <button type="button" class="ch-close" id="sigClose" style="display:none;">✕</button>
       </div>
     </div>
     <div class="card-body">
@@ -376,7 +376,9 @@ function setTicker(t){
   document.getElementById("result").style.display = "none";
   document.getElementById("err").innerHTML = "";
   const sc = document.getElementById("sigCard");
-  if(sc) sc.style.display = "block";   // 닫았어도 종목 다시 고르면 신호 카드 복원
+  if(sc) sc.style.display = "block";   // 카드는 항상 표시
+  const xb = document.getElementById("sigClose");
+  if(xb) xb.style.display = "none";    // 새 종목 = 아직 분석 전이라 ✕ 숨김
   const ss = document.getElementById("sigSummary");
   if(ss) ss.textContent = "";
   // 자동완성 닫기 + 검색칸 비우기 (선택 후 목록이 남지 않게)
@@ -559,16 +561,23 @@ async function loadFundamentals(sym){
     box.innerHTML = '<div class="muted">재무 데이터를 불러오지 못했어요. 잠시 후 다시 시도하거나, ETF·신규상장 종목은 펀더멘털이 없을 수 있어요.</div>';
   }
 }
-// 카드 닫기(✕) — 해당 카드만 숨김
-document.querySelectorAll(".ch-close").forEach(btn=>{
-  btn.addEventListener("click", (e)=>{
-    e.preventDefault();
-    e.stopPropagation();
-    const id = btn.getAttribute("data-close");
-    const card = document.getElementById(id);
-    if(card) card.style.display = "none";
-  });
-});
+// 신호 분석 ✕ — 분석 결과만 숨기고 분석 버튼은 남김
+(function(){
+  const x = document.getElementById("sigClose");
+  if(x){
+    x.addEventListener("click", (e)=>{
+      e.preventDefault();
+      e.stopPropagation();
+      const r = document.getElementById("result");
+      if(r) r.style.display = "none";
+      const ss = document.getElementById("sigSummary");
+      if(ss) ss.innerHTML = "";
+      x.style.display = "none";   // 결과 닫으면 ✕도 숨김
+      const err = document.getElementById("err");
+      if(err) err.innerHTML = "";
+    });
+  }
+})();
 
 document.getElementById("goBtn").onclick = ()=>{
   const inp = document.getElementById("tickerInput");
@@ -1253,6 +1262,8 @@ function render(res){
   // 접힌 제목 옆 요약: 종합 판정 (매수/관망/매도)
   const ss = document.getElementById("sigSummary");
   if(ss) ss.innerHTML = `<span style="color:${v.color};">${v.g} ${v.label}</span>`;
+  const xb = document.getElementById("sigClose");
+  if(xb) xb.style.display = "flex";   // 분석 결과 있을 때만 ✕ 표시
   const pct = Math.max(0, Math.min(100, ((res.total+5)/10)*100));
   document.getElementById("knob").style.left = `calc(${pct}% - 8px)`;
   const box = document.getElementById("signals");
