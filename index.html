@@ -1356,6 +1356,7 @@ renderChips();
 loadChart(current);
 document.getElementById("sigTitle").textContent = current + " 신호 판정";
 refreshKeyUI();
+loadFundamentals(current);   // 첫 로딩 때도 펀더멘털 표시
 renderWeatherCards();
 loadWeather();
 loadBotStatus();
