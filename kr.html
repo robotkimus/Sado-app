@@ -84,16 +84,15 @@
   #chartbox canvas{width:100%; height:100%; display:block;}
   .pad{padding:16px;}
   .sec-title{font-size:12.5px; font-weight:700; color:var(--dim); margin-bottom:10px;}
-  details.fold{margin:0;}
-  details.fold summary{list-style:none; cursor:pointer; display:flex; align-items:center;
-    justify-content:space-between; gap:10px;}
-  details.fold summary::-webkit-details-marker{display:none;}
-  .fold-title{font-size:14px; font-weight:800; color:var(--text); display:flex; align-items:center; gap:8px;}
-  .fold-sum{font-size:13px; font-weight:700; color:var(--dim); display:flex; align-items:center; gap:8px;}
-  .fold-chev{transition:transform .25s ease; color:var(--dim); font-size:13px;}
-  details.fold[open] .fold-chev{transform:rotate(180deg);}
-  .fold-body{margin-top:14px;}
-  @media (prefers-reduced-motion: reduce){.fold-chev{transition:none}}
+  .card-head{display:flex; align-items:center; justify-content:space-between; gap:10px;}
+  .card-head .ch-title{font-size:14px; font-weight:800; color:var(--text); display:flex; align-items:center; gap:8px;}
+  .card-head .ch-right{display:flex; align-items:center; gap:10px;}
+  .card-head .ch-sum{font-size:13px; font-weight:700; color:var(--dim);}
+  .ch-close{width:26px; height:26px; border-radius:8px; border:1px solid var(--line);
+    background:var(--card2); color:var(--dim); font-size:14px; font-weight:700; cursor:pointer;
+    display:flex; align-items:center; justify-content:center; flex:0 0 auto; font-family:inherit; line-height:1;}
+  .ch-close:active{background:var(--line);}
+  .card-body{margin-top:14px;}
   .verdict-top{display:flex; justify-content:space-between; align-items:flex-start;}
   .price{font-size:30px; font-weight:800; font-variant-numeric:tabular-nums;}
   .chg{font-size:14px; font-weight:700; margin-left:8px;}
@@ -143,56 +142,64 @@
 
   <div class="card"><div id="chartbox"><canvas id="chart"></canvas></div></div>
 
-  <div class="card pad">
-    <div class="sec-title" id="sigTitle">종목을 선택하거나 코드를 입력하세요</div>
-    <button class="btn" id="analyzeBtn" style="width:100%; padding:14px;">실시간 데이터로 신호 분석</button>
-    <div id="err" class="err"></div>
-    <a id="naverLink" class="naver" href="#" target="_blank" rel="noopener" style="display:none;">📊 네이버 금융에서 자세히 보기 →</a>
-  </div>
-
-  <div class="card pad" id="result" style="display:none;">
-    <div class="verdict-top">
-      <div>
-        <div class="muted" id="vTicker"></div>
-        <div><span class="price" id="vPrice"></span><span class="chg" id="vChg"></span></div>
-        <div class="muted" id="vDate" style="margin-top:2px;"></div>
-      </div>
-      <div>
-        <div class="glyph" id="vGlyph"></div>
-        <div class="vlabel" id="vLabel"></div>
-        <div class="vscore" id="vScore"></div>
+  <div class="card pad" id="sigCard">
+    <div class="card-head">
+      <span class="ch-title" id="sigTitle">신호 분석</span>
+      <div class="ch-right">
+        <span class="ch-sum" id="sigSummary"></span>
+        <button class="ch-close" onclick="document.getElementById('sigCard').style.display='none'">✕</button>
       </div>
     </div>
-    <div class="gauge"><div class="knob" id="knob"></div></div>
-    <div class="gauge-labels"><span>매도</span><span>관망</span><span>매수</span></div>
-    <div id="sigList" style="margin-top:16px;"></div>
-    <div class="note">
-      신호 판정은 일별 종가 기준의 기계적 해석일 뿐 투자 권유가 아니며, 미래 수익을 보장하지 않아요.
-      매매 전 기업 실적과 시장 환경도 함께 확인하세요. · 데이터: Yahoo Finance
+    <div class="card-body">
+      <button class="btn" id="analyzeBtn" style="width:100%; padding:14px;">실시간 데이터로 신호 분석</button>
+      <div id="err" class="err"></div>
+      <a id="naverLink" class="naver" href="#" target="_blank" rel="noopener" style="display:none;">📊 네이버 금융에서 자세히 보기 →</a>
+      <div id="result" style="display:none; margin-top:14px;">
+        <div class="verdict-top">
+          <div>
+            <div class="muted" id="vTicker"></div>
+            <div><span class="price" id="vPrice"></span><span class="chg" id="vChg"></span></div>
+            <div class="muted" id="vDate" style="margin-top:2px;"></div>
+          </div>
+          <div>
+            <div class="glyph" id="vGlyph"></div>
+            <div class="vlabel" id="vLabel"></div>
+            <div class="vscore" id="vScore"></div>
+          </div>
+        </div>
+        <div class="gauge"><div class="knob" id="knob"></div></div>
+        <div class="gauge-labels"><span>매도</span><span>관망</span><span>매수</span></div>
+        <div id="sigList" style="margin-top:16px;"></div>
+        <div class="note">
+          신호 판정은 일별 종가 기준의 기계적 해석일 뿐 투자 권유가 아니며, 미래 수익을 보장하지 않아요.
+          매매 전 기업 실적과 시장 환경도 함께 확인하세요. · 데이터: Yahoo Finance
+        </div>
+      </div>
     </div>
   </div>
 
   <!-- 한국 시장 날씨 -->
-  <div class="card pad">
-    <details class="fold" id="weatherFold">
-      <summary>
-        <span class="fold-title">🇰🇷 국내 시장 날씨</span>
-        <span class="fold-sum"><span id="weatherSummary">측정 중...</span><span class="fold-chev">▼</span></span>
-      </summary>
-      <div class="fold-body">
-        <div class="weather-hero" id="weatherHero">
-          <div class="wh-sky" id="whSky"></div>
-          <div class="wh-content">
-            <div class="wh-icon" id="whIcon">⛅</div>
-            <div class="wh-text">
-              <div class="wh-label" id="whLabel">시장 날씨 측정 중...</div>
-              <div class="wh-sub" id="whSub">잠시만요</div>
-            </div>
+  <div class="card pad" id="weatherCard">
+    <div class="card-head">
+      <span class="ch-title">🇰🇷 국내 시장 날씨</span>
+      <div class="ch-right">
+        <span class="ch-sum" id="weatherSummary">측정 중...</span>
+        <button class="ch-close" onclick="document.getElementById('weatherCard').style.display='none'">✕</button>
+      </div>
+    </div>
+    <div class="card-body">
+      <div class="weather-hero" id="weatherHero">
+        <div class="wh-sky" id="whSky"></div>
+        <div class="wh-content">
+          <div class="wh-icon" id="whIcon">⛅</div>
+          <div class="wh-text">
+            <div class="wh-label" id="whLabel">시장 날씨 측정 중...</div>
+            <div class="wh-sub" id="whSub">잠시만요</div>
           </div>
         </div>
-        <div class="krw-grid" id="krwGrid"></div>
       </div>
-    </details>
+      <div class="krw-grid" id="krwGrid"></div>
+    </div>
   </div>
 
 </div>
@@ -309,6 +316,10 @@ function setCode(code){
   document.getElementById("sigTitle").textContent = `${krName(current)} (${current}) 신호 판정`;
   document.getElementById("result").style.display = "none";
   document.getElementById("err").innerHTML = "";
+  const sc = document.getElementById("sigCard");
+  if(sc) sc.style.display = "block";   // 닫았어도 종목 다시 고르면 신호 카드 복원
+  const ss = document.getElementById("sigSummary");
+  if(ss) ss.textContent = "";
   const nl = document.getElementById("naverLink");
   nl.href = `https://finance.naver.com/item/main.naver?code=${current}`;
   nl.style.display = "inline-block";
@@ -679,6 +690,8 @@ function render(res){
   document.getElementById("vLabel").textContent = v.label;
   document.getElementById("vLabel").style.color = v.color;
   document.getElementById("vScore").textContent = `종합 ${res.total>=0?"+":""}${res.total.toFixed(1)}`;
+  const ss = document.getElementById("sigSummary");
+  if(ss) ss.innerHTML = `<span style="color:${v.color};">${v.g} ${v.label}</span>`;
   const pct = Math.max(0, Math.min(100, (res.total+5)/10*100));
   document.getElementById("knob").style.left = `calc(${pct}% - 8px)`;
   const list = document.getElementById("sigList");
