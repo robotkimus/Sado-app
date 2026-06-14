@@ -75,6 +75,17 @@
     display:flex; align-items:center; justify-content:center; flex:0 0 auto; font-family:inherit; line-height:1;}
   .ch-close:active{background:var(--line);}
   .card-body{margin-top:14px;}
+  /* 접기/펼치기 카드 */
+  details.fold{margin:0;}
+  details.fold > summary{list-style:none; cursor:pointer; display:flex; align-items:center;
+    justify-content:space-between; gap:10px;}
+  details.fold > summary::-webkit-details-marker{display:none;}
+  .fold-title{font-size:14px; font-weight:800; color:var(--text); display:flex; align-items:center; gap:8px;}
+  .fold-sum{font-size:13px; font-weight:700; color:var(--dim); display:flex; align-items:center; gap:8px;}
+  .fold-chev{transition:transform .25s ease; color:var(--dim); font-size:13px;}
+  details.fold[open] > summary .fold-chev{transform:rotate(180deg);}
+  .fold-body{margin-top:14px;}
+  @media (prefers-reduced-motion: reduce){.fold-chev{transition:none}}
   /* 종합 판정 */
   .verdict-top{display:flex; justify-content:space-between; align-items:flex-start;}
   .price{font-size:30px; font-weight:800; font-variant-numeric:tabular-nums;}
@@ -163,7 +174,7 @@
       <span class="ch-title" id="sigTitle">신호 판정</span>
       <div class="ch-right">
         <span class="ch-sum" id="sigSummary"></span>
-        <button class="ch-close" onclick="document.getElementById('sigCard').style.display='none'">✕</button>
+        <button type="button" class="ch-close" data-close="sigCard">✕</button>
       </div>
     </div>
     <div class="card-body">
@@ -213,65 +224,62 @@
 
   <!-- 기업 펀더멘털 -->
   <div class="card pad" id="fundaCard" style="display:none;">
-    <div class="card-head">
-      <span class="ch-title">📊 기업 펀더멘털</span>
-      <div class="ch-right">
-        <span class="ch-sum" id="fundaSummary">—</span>
-        <button class="ch-close" onclick="document.getElementById('fundaCard').style.display='none'">✕</button>
-      </div>
-    </div>
-    <div class="card-body">
-      <div id="finnhubSetup" style="display:none; margin-bottom:10px;">
-        <div class="muted" style="margin-bottom:8px;">
-          펀더멘털(PER·시총·실적)을 보려면 <b style="color:var(--text)">finnhub.io</b>에서 무료 API 키를 받아 입력하세요. (이메일 가입 → 대시보드에서 키 복사)
+    <details class="fold" id="fundaFold">
+      <summary>
+        <span class="fold-title">📊 기업 펀더멘털</span>
+        <span class="fold-sum"><span id="fundaSummary">—</span><span class="fold-chev">▼</span></span>
+      </summary>
+      <div class="fold-body">
+        <div id="finnhubSetup" style="display:none; margin-bottom:10px;">
+          <div class="muted" style="margin-bottom:8px;">
+            펀더멘털(PER·시총·실적)을 보려면 <b style="color:var(--text)">finnhub.io</b>에서 무료 API 키를 받아 입력하세요. (이메일 가입 → 대시보드에서 키 복사)
+          </div>
+          <div class="row" style="margin-bottom:0;">
+            <input type="text" id="finnhubKey" placeholder="Finnhub API 키 붙여넣기" autocapitalize="off" autocorrect="off" style="text-transform:none;">
+            <button class="btn" id="saveFinnhub">저장</button>
+          </div>
         </div>
-        <div class="row" style="margin-bottom:0;">
-          <input type="text" id="finnhubKey" placeholder="Finnhub API 키 붙여넣기" autocapitalize="off" autocorrect="off" style="text-transform:none;">
-          <button class="btn" id="saveFinnhub">저장</button>
-        </div>
+        <div id="fundaBox"></div>
       </div>
-      <div id="fundaBox"></div>
-    </div>
+    </details>
   </div>
 
   <!-- 시장 날씨 (매크로) -->
   <div class="card pad" id="weatherCard">
-    <div class="card-head">
-      <span class="ch-title">🌤️ 시장 날씨</span>
-      <div class="ch-right">
-        <span class="ch-sum" id="weatherSummary">측정 중...</span>
-        <button class="ch-close" onclick="document.getElementById('weatherCard').style.display='none'">✕</button>
-      </div>
-    </div>
-    <div class="card-body">
-      <div class="weather-hero" id="weatherHero">
-        <div class="wh-sky" id="whSky"></div>
-        <div class="wh-content">
-          <div class="wh-icon" id="whIcon">⛅</div>
-          <div class="wh-text">
-            <div class="wh-label" id="whLabel">시장 날씨 측정 중...</div>
-            <div class="wh-sub" id="whSub">잠시만요</div>
+    <details class="fold" id="weatherFold">
+      <summary>
+        <span class="fold-title">🌤️ 시장 날씨</span>
+        <span class="fold-sum"><span id="weatherSummary">측정 중...</span><span class="fold-chev">▼</span></span>
+      </summary>
+      <div class="fold-body">
+        <div class="weather-hero" id="weatherHero">
+          <div class="wh-sky" id="whSky"></div>
+          <div class="wh-content">
+            <div class="wh-icon" id="whIcon">⛅</div>
+            <div class="wh-text">
+              <div class="wh-label" id="whLabel">시장 날씨 측정 중...</div>
+              <div class="wh-sub" id="whSub">잠시만요</div>
+            </div>
           </div>
         </div>
+        <div class="wgrid" id="wGrid"></div>
+        <button class="btn" id="weatherBtn" style="width:100%; margin-top:2px">지금 새로고침</button>
+        <div class="muted" id="wNote" style="margin-top:8px"></div>
       </div>
-      <div class="wgrid" id="wGrid"></div>
-      <button class="btn" id="weatherBtn" style="width:100%; margin-top:2px">지금 새로고침</button>
-      <div class="muted" id="wNote" style="margin-top:8px"></div>
-    </div>
+    </details>
   </div>
 
   <!-- Claude 봇 포트폴리오 -->
   <div class="card pad" id="botCard">
-    <div class="card-head">
-      <span class="ch-title">🤖 Claude 봇</span>
-      <div class="ch-right">
-        <span class="ch-sum" id="botSummary">불러오는 중...</span>
-        <button class="ch-close" onclick="document.getElementById('botCard').style.display='none'">✕</button>
+    <details class="fold" id="botFold">
+      <summary>
+        <span class="fold-title">🤖 Claude 봇</span>
+        <span class="fold-sum"><span id="botSummary">불러오는 중...</span><span class="fold-chev">▼</span></span>
+      </summary>
+      <div class="fold-body">
+        <div id="botBox"><div class="muted">불러오는 중...</div></div>
       </div>
-    </div>
-    <div class="card-body">
-      <div id="botBox"><div class="muted">불러오는 중...</div></div>
-    </div>
+    </details>
   </div>
 
 
@@ -395,6 +403,8 @@ async function loadFundamentals(sym){
     box.innerHTML = '<div class="muted">위에 Finnhub 무료 키를 입력하면 PER·시총·실적 등 펀더멘털이 표시돼요.</div>';
     const fs = document.getElementById("fundaSummary");
     if(fs) fs.textContent = "키 입력 필요";
+    const ff = document.getElementById("fundaFold");
+    if(ff) ff.open = true;   // 키 입력칸이 보이도록 펼침
     return;
   }
   setup.style.display = "none";
@@ -549,6 +559,17 @@ async function loadFundamentals(sym){
     box.innerHTML = '<div class="muted">재무 데이터를 불러오지 못했어요. 잠시 후 다시 시도하거나, ETF·신규상장 종목은 펀더멘털이 없을 수 있어요.</div>';
   }
 }
+// 카드 닫기(✕) — 해당 카드만 숨김
+document.querySelectorAll(".ch-close").forEach(btn=>{
+  btn.addEventListener("click", (e)=>{
+    e.preventDefault();
+    e.stopPropagation();
+    const id = btn.getAttribute("data-close");
+    const card = document.getElementById(id);
+    if(card) card.style.display = "none";
+  });
+});
+
 document.getElementById("goBtn").onclick = ()=>{
   const inp = document.getElementById("tickerInput");
   const v = inp.value.trim();
