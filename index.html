@@ -404,6 +404,55 @@ async function loadFundamentals(sym){
     else if(profitMargin!=null && profitMargin < 0) warns.push("⚠️ 순이익률 마이너스 — 팔수록 손해 보는 구조");
     if(pbr!=null && pbr < 1) warns.push("✓ PBR " + pbr.toFixed(2) + "배 — 자산가치보다 싸게 거래 중");
 
+    // ── 종합 판정 (거품 vs 기회) ──
+    let fScore = 0, factorN = 0;
+    if(per!=null){ factorN++;
+      if(per < 0) fScore -= 2;            // 적자
+      else if(per > 100) fScore -= 2;     // 극단 고평가
+      else if(per > 50) fScore -= 1;
+      else if(per < 15) fScore += 2;      // 저평가
+      else if(per < 25) fScore += 1;
+    }
+    if(profitMargin!=null){ factorN++;
+      if(profitMargin < 0) fScore -= 2;   // 손실
+      else if(profitMargin > 20) fScore += 2;
+      else if(profitMargin > 10) fScore += 1;
+    }
+    if(revGrowth!=null){ factorN++;
+      if(revGrowth < 0) fScore -= 1;      // 매출 감소
+      else if(revGrowth > 20) fScore += 2;
+      else if(revGrowth > 8) fScore += 1;
+    }
+    if(roe!=null){ factorN++;
+      if(roe < 0) fScore -= 1;
+      else if(roe > 20) fScore += 1;
+    }
+    if(pbr!=null){ factorN++;
+      if(pbr < 1) fScore += 1;
+      else if(pbr > 12) fScore -= 1;
+    }
+    let verdict = null;
+    if(factorN >= 2){
+      let vlabel, vcolor, vmsg, vicon;
+      if(fScore <= -3){
+        vicon="🔴"; vcolor="var(--sell)"; vlabel="거품·고위험 신호";
+        vmsg="이익 대비 비싸거나 적자·역성장이 겹쳐요. 주가가 실적보다 기대에 기대고 있을 가능성 — 신중한 접근이 필요해요.";
+      } else if(fScore <= -1){
+        vicon="🟠"; vcolor="var(--hold)"; vlabel="다소 고평가 — 주의";
+        vmsg="성장 기대가 주가에 많이 반영된 편이에요. 실적이 기대를 못 따라가면 조정 위험이 있어요.";
+      } else if(fScore <= 1){
+        vicon="🟡"; vcolor="var(--hold)"; vlabel="중립 — 무난한 수준";
+        vmsg="펀더멘털이 크게 비싸지도 싸지도 않은 평이한 구간이에요. 다른 지표·시장 환경을 함께 보세요.";
+      } else if(fScore <= 3){
+        vicon="🟢"; vcolor="var(--buy)"; vlabel="견고한 펀더멘털";
+        vmsg="이익·성장·밸류에이션이 대체로 건강해요. 실적이 주가를 뒷받침하는 편이에요.";
+      } else {
+        vicon="🟢"; vcolor="var(--buy)"; vlabel="우수 — 기회 영역";
+        vmsg="저평가에 높은 수익성·성장까지 갖춘 드문 조합이에요. 펀더멘털 측면에서 매력적이에요.";
+      }
+      verdict = {vicon, vcolor, vlabel, vmsg};
+    }
+
     const row = (label, val, hint)=>`<div style="display:flex; justify-content:space-between; padding:7px 0; border-top:1px solid var(--line); font-size:12.5px;">
       <span style="color:var(--dim);">${label}</span>
       <span style="font-weight:700; font-variant-numeric:tabular-nums;">${val}${hint?` <span style="color:var(--dim); font-weight:400;">${hint}</span>`:""}</span></div>`;
@@ -411,6 +460,15 @@ async function loadFundamentals(sym){
 
     let html = "";
     if(prof.name) html += `<div style="font-size:13px; font-weight:700; margin-bottom:8px;">${prof.name}${prof.finnhubIndustry?` <span class="muted" style="font-weight:400;">· ${prof.finnhubIndustry}</span>`:""}</div>`;
+    // 종합 판정 배너
+    if(verdict){
+      html += `<div style="margin-bottom:12px; padding:13px 14px; border-radius:14px;
+        background:color-mix(in srgb, ${verdict.vcolor} 12%, transparent);
+        border:1px solid color-mix(in srgb, ${verdict.vcolor} 35%, transparent);">
+        <div style="font-size:14px; font-weight:800; color:${verdict.vcolor}; margin-bottom:4px;">${verdict.vicon} ${verdict.vlabel}</div>
+        <div style="font-size:12px; color:var(--text); line-height:1.55; opacity:.9;">${verdict.vmsg}</div>
+      </div>`;
+    }
     if(warns.length){
       html += `<div style="margin-bottom:10px;">` + warns.map(w=>{
         const c = w.startsWith("⚠️") ? "var(--sell)" : w.startsWith("✓") ? "var(--buy)" : "var(--hold)";
@@ -428,7 +486,7 @@ async function loadFundamentals(sym){
     html += row("52주 최고", high52!=null ? "$"+high52.toFixed(2) : "—");
     html += row("52주 최저", low52!=null ? "$"+low52.toFixed(2) : "—");
     html += `<div style="font-size:10.5px; color:var(--dim); margin-top:10px; line-height:1.5;">
-      ※ Finnhub 데이터. PER·매출성장·이익률로 "회사가 실제로 돈을 버는지" 확인하세요. 차트 신호가 좋아도 적자·고PER이면 거품일 수 있어요. · <a href="#" id="finnhubReset" style="color:var(--dim);">키 변경</a></div>`;
+      ※ 종합 판정은 PER·이익률·성장·PBR을 기계적으로 점수화한 참고용이에요. 투자 권유가 아니며, 업종 특성·미래 전망은 반영하지 못해요. 차트 신호가 좋아도 적자·고PER이면 거품일 수 있어요. · <a href="#" id="finnhubReset" style="color:var(--dim);">키 변경</a></div>`;
     box.innerHTML = html;
     const rk = document.getElementById("finnhubReset");
     if(rk) rk.onclick = (e)=>{ e.preventDefault(); setFinnhubKey(""); loadFundamentals(current); };
