@@ -585,7 +585,7 @@ function drawChart(rows){
   ctx.setTransform(dpr,0,0,dpr,0,0);
   ctx.clearRect(0,0,W,H);
   const data = rows.slice(-90);
-  const pad = {l:8, r:60, t:16, b:8};
+  const pad = {l:8, r:60, t:16, b:22};
   const xs = (i)=> pad.l + (W-pad.l-pad.r) * (i/(data.length-1));
   let min=Infinity, max=-Infinity;
   data.forEach(r=>{ min=Math.min(min,r.close); max=Math.max(max,r.close);
@@ -598,6 +598,22 @@ function drawChart(rows){
     ctx.globalAlpha=.35; ctx.beginPath(); ctx.moveTo(pad.l,y); ctx.lineTo(W-pad.r,y); ctx.stroke();
     ctx.globalAlpha=1; ctx.fillText("₩"+Math.round(v).toLocaleString(), W-pad.r+5, y+3);
   }
+  // X축 날짜 라벨 (4개 균등)
+  ctx.fillStyle="#8B94A8"; ctx.font="9px sans-serif";
+  const nLabels = 4;
+  for(let k=0; k<nLabels; k++){
+    const idx = Math.round((data.length-1) * k/(nLabels-1));
+    const r = data[idx];
+    if(!r || !r.date) continue;
+    const md = r.date.slice(5);  // MM-DD
+    const x = xs(idx);
+    ctx.textAlign = k===0 ? "left" : (k===nLabels-1 ? "right" : "center");
+    ctx.fillText(md, Math.max(pad.l, Math.min(W-pad.r, x)), H-7);
+    // 옅은 세로 격자
+    ctx.globalAlpha=.2; ctx.strokeStyle="#26314A"; ctx.beginPath();
+    ctx.moveTo(x, pad.t); ctx.lineTo(x, H-pad.b); ctx.stroke(); ctx.globalAlpha=1;
+  }
+  ctx.textAlign="left";
   const line=(key,color,w)=>{
     ctx.strokeStyle=color; ctx.lineWidth=w; ctx.beginPath(); let st=false;
     data.forEach((r,i)=>{ const v=key==="close"?r.close:r[key]; if(v==null) return;
