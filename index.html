@@ -363,8 +363,23 @@ async function loadFundamentals(sym){
       box.innerHTML = '<div class="err">키가 올바르지 않아요. finnhub.io 대시보드의 키를 다시 확인해주세요.</div>';
       return;
     }
-    const m = (await mRes.json()).metric || {};
-    const prof = await pRes.json();
+    if(mRes.status === 429 || pRes.status === 429){
+      box.innerHTML = '<div class="muted">호출 한도 초과 — 잠시 후 다시 시도해주세요 (무료 플랜 분당 60회).</div>';
+      return;
+    }
+    if(mRes.status === 403 || pRes.status === 403){
+      box.innerHTML = '<div class="muted">이 데이터는 Finnhub 무료 플랜에서 제한될 수 있어요. 기본 정보만 표시할게요.</div>';
+    }
+    const mJson = await mRes.json().catch(()=>({}));
+    const m = mJson.metric || {};
+    const prof = await pRes.json().catch(()=>({}));
+    // 데이터가 통째로 비었으면 안내
+    if(Object.keys(m).length === 0 && !prof.name && !prof.marketCapitalization){
+      box.innerHTML = `<div class="muted">이 종목(${sym})의 펀더멘털을 못 받았어요. 무료 플랜 제한이거나 ETF·특수종목일 수 있어요. 일반 미국 대형주(AAPL·MSFT 등)로 시도해보세요. · <a href="#" id="finnhubReset" style="color:var(--dim);">키 변경</a></div>`;
+      const rk = document.getElementById("finnhubReset");
+      if(rk) rk.onclick = (e)=>{ e.preventDefault(); setFinnhubKey(""); loadFundamentals(current); };
+      return;
+    }
 
     const fmtB = (n)=> n==null ? "—" : (Math.abs(n)>=1e6 ? "$"+(n/1e6).toFixed(2)+"T" : Math.abs(n)>=1e3 ? "$"+(n/1e3).toFixed(1)+"B" : "$"+Math.round(n)+"M");
     // Finnhub marketCapitalization 단위는 백만달러
