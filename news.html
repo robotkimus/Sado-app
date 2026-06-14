@@ -86,6 +86,23 @@
     <button class="btn" id="goBtn">검색</button>
   </div>
 
+  <!-- 오늘의 시장 요약 -->
+  <div class="card" id="summaryCard">
+    <div class="sec-title">📊 오늘의 시장 요약</div>
+    <div id="summaryData"><div class="muted"><span class="spin"></span> 시장 데이터 불러오는 중...</div></div>
+    <div id="summaryAI" style="margin-top:12px;"></div>
+    <div id="aiKeyRow" style="display:none; margin-top:10px;">
+      <div class="muted" style="margin-bottom:8px;">
+        Claude 해설을 보려면 <b style="color:var(--text)">Anthropic API 키</b>를 입력하세요. (console.anthropic.com에서 발급, sk-ant-로 시작)
+      </div>
+      <div class="row" style="margin-bottom:0;">
+        <input type="text" id="anthropicKey" placeholder="sk-ant-... 붙여넣기" autocapitalize="off" autocorrect="off">
+        <button class="btn" id="saveAnthropic">저장</button>
+      </div>
+    </div>
+    <button class="btn" id="aiBtn" style="width:100%; margin-top:10px; display:none;">🧠 Claude 해설 보기</button>
+  </div>
+
   <!-- DART 키 (국내일 때만 표시) -->
   <div class="dartrow" id="dartRow" style="display:none;">
     <input type="text" id="dartKey" placeholder="DART API 키 (공시 보려면 입력, opendart.fss.or.kr 무료)">
@@ -293,8 +310,162 @@ const dk = document.getElementById("dartKey");
 dk.value = getDartKey();
 dk.addEventListener("change", ()=>setDartKey(dk.value.trim()));
 
+/* ── 오늘의 시장 요약 ── */
+function getAnthropicKey(){ try{ return localStorage.getItem("anthropic_key")||""; }catch(e){ return window._ak||""; } }
+function setAnthropicKey(k){ try{ localStorage.setItem("anthropic_key", k); }catch(e){ window._ak = k; } }
+
+let marketSummaryData = null;
+
+async function sumFetch(url){
+  const enc = encodeURIComponent(url);
+  const proxies = [
+    url,
+    `https://corsproxy.io/?url=${enc}`,
+    `https://api.allorigins.win/raw?url=${enc}`,
+  ];
+  for(const u of proxies){
+    try{
+      const res = await fetch(u, {signal:AbortSignal.timeout(8000)});
+      if(res.ok) return await res.json();
+    }catch(e){}
+  }
+  return null;
+}
+
+async function loadMarketSummary(){
+  const box = document.getElementById("summaryData");
+  // 야후 심볼: 지수·국채·달러·금·유가
+  const items = [
+    {key:"sp",   sym:"%5EGSPC", name:"S&P 500",   dec:2},
+    {key:"dow",  sym:"%5EDJI",  name:"다우",       dec:2},
+    {key:"nq",   sym:"%5EIXIC", name:"나스닥",     dec:2},
+    {key:"rut",  sym:"%5ERUT",  name:"러셀2000",   dec:2},
+    {key:"tnx",  sym:"%5ETNX",  name:"10년 국채",  dec:3, suffix:"%"},
+    {key:"dxy",  sym:"DX-Y.NYB",name:"달러인덱스", dec:2},
+    {key:"gold", sym:"GC=F",    name:"금",         dec:1},
+    {key:"wti",  sym:"CL=F",    name:"WTI 유가",   dec:2},
+  ];
+  const results = {};
+  await Promise.all(items.map(async it=>{
+    const j = await sumFetch(`https://query1.finance.yahoo.com/v8/finance/chart/${it.sym}?range=2d&interval=1d`);
+    const m = j?.chart?.result?.[0]?.meta;
+    if(m && isFinite(m.regularMarketPrice)){
+      const now = m.regularMarketPrice, prev = m.chartPreviousClose ?? now;
+      results[it.key] = { v: now, pc: prev ? ((now/prev)-1)*100 : 0, name: it.name, dec: it.dec, suffix: it.suffix||"" };
+    }
+  }));
+  marketSummaryData = results;
+
+  // 표 렌더
+  const order = ["sp","dow","nq","rut","tnx","dxy","gold","wti"];
+  let rows = "";
+  order.forEach(k=>{
+    const r = results[k];
+    if(!r){ return; }
+    const up = r.pc >= 0;
+    const c = up ? "var(--buy)" : "var(--sell)";
+    const arrow = up ? "▲" : "▼";
+    rows += `<div style="display:flex; justify-content:space-between; padding:8px 0; border-top:1px solid var(--line); font-size:13px;">
+      <span style="color:var(--dim); font-weight:700;">${r.name}</span>
+      <span style="font-weight:700; font-variant-numeric:tabular-nums;">
+        ${r.v.toLocaleString(undefined,{minimumFractionDigits:r.dec, maximumFractionDigits:r.dec})}${r.suffix}
+        <span style="color:${c}; margin-left:6px;">${arrow} ${up?"+":""}${r.pc.toFixed(2)}%</span>
+      </span></div>`;
+  });
+  if(rows){
+    box.innerHTML = rows;
+    document.getElementById("aiBtn").style.display = "block";
+  } else {
+    box.innerHTML = '<div class="muted">시장 데이터를 불러오지 못했어요. 잠시 후 다시 시도해주세요. (주말·휴장 중엔 전일 종가가 표시돼요)</div>';
+  }
+}
+
+async function generateAICommentary(){
+  const aiBox = document.getElementById("summaryAI");
+  const key = getAnthropicKey();
+  if(!key){
+    document.getElementById("aiKeyRow").style.display = "block";
+    return;
+  }
+  if(!marketSummaryData){ return; }
+  aiBox.innerHTML = '<div class="muted"><span class="spin"></span> Claude가 해설을 작성 중...</div>';
+
+  // 데이터를 텍스트로 정리 (Claude에게 진짜 숫자만 전달)
+  const d = marketSummaryData;
+  const fmt = (r)=> r ? `${r.name} ${r.v.toLocaleString(undefined,{maximumFractionDigits:r.dec})}${r.suffix} (${r.pc>=0?"+":""}${r.pc.toFixed(2)}%)` : "";
+  const dataText = ["sp","dow","nq","rut","tnx","dxy","gold","wti"].map(k=>fmt(d[k])).filter(Boolean).join("\n");
+
+  const prompt = `당신은 한국어 금융 시황 해설가입니다. 아래는 오늘 미국 시장의 실제 데이터입니다. 이 숫자들만 근거로, 차분하고 객관적인 시황 해설을 작성하세요.
+
+[실제 시장 데이터]
+${dataText}
+
+규칙:
+- 위 숫자 외에 다른 수치나 사건(IPO, 전쟁, 특정 기업 뉴스 등)을 절대 지어내지 마세요. 데이터에 없는 건 언급하지 마세요.
+- 지수·금리·달러·원자재의 방향을 종합해 "위험선호인지 위험회피인지", "금리·달러가 주는 부담" 등을 해설하세요.
+- 4~6문장. 마지막에 한 줄로 전체 분위기를 요약하세요.
+- 투자 권유나 매수/매도 단정은 하지 마세요.
+- 존댓말로 작성하세요.`;
+
+  try{
+    const res = await fetch("https://api.anthropic.com/v1/messages", {
+      method:"POST",
+      headers:{
+        "Content-Type":"application/json",
+        "x-api-key":key,
+        "anthropic-version":"2023-06-01",
+        "anthropic-dangerous-direct-browser-access":"true"
+      },
+      body: JSON.stringify({
+        model:"claude-sonnet-4-6",
+        max_tokens:600,
+        messages:[{role:"user", content:prompt}]
+      }),
+      signal:AbortSignal.timeout(30000)
+    });
+    if(res.status === 401){
+      document.getElementById("aiKeyRow").style.display = "block";
+      aiBox.innerHTML = '<div class="err" style="color:var(--buy);">API 키가 올바르지 않아요. 다시 확인해주세요.</div>';
+      return;
+    }
+    if(!res.ok){
+      aiBox.innerHTML = `<div class="muted">해설 생성 실패 (${res.status}). 잠시 후 다시 시도해주세요.</div>`;
+      return;
+    }
+    const j = await res.json();
+    const text = (j.content||[]).map(c=>c.text||"").join("\n").trim();
+    const now = new Date();
+    aiBox.innerHTML = `<div style="padding:14px; background:var(--card2); border:1px solid var(--line); border-radius:14px;">
+      <div style="font-size:12px; font-weight:700; color:var(--dim); margin-bottom:8px;">🧠 Claude의 시황 해설</div>
+      <div style="font-size:13px; line-height:1.75; white-space:pre-wrap;">${text.replace(/</g,"&lt;")}</div>
+      <div style="font-size:10px; color:var(--dim); margin-top:10px; line-height:1.5;">
+        ${now.getMonth()+1}월 ${now.getDate()}일 ${String(now.getHours()).padStart(2,"0")}:${String(now.getMinutes()).padStart(2,"0")} 생성 · 위 실제 데이터만 근거로 한 해설이에요. 투자 권유가 아니에요.</div>
+    </div>`;
+  }catch(e){
+    aiBox.innerHTML = '<div class="muted">해설 생성 중 오류가 났어요. 네트워크를 확인하고 다시 시도해주세요.</div>';
+  }
+}
+
+document.getElementById("aiBtn").onclick = generateAICommentary;
+(function(){
+  const sb = document.getElementById("saveAnthropic");
+  const inp = document.getElementById("anthropicKey");
+  if(sb && inp){
+    inp.value = getAnthropicKey();
+    sb.onclick = ()=>{
+      const k = inp.value.trim();
+      if(!k) return;
+      setAnthropicKey(k);
+      document.getElementById("aiKeyRow").style.display = "none";
+      generateAICommentary();
+    };
+  }
+})();
+
 /* 초기화 */
 setMarket("US");
+loadMarketSummary();
+
 </script>
 </body>
 </html>
