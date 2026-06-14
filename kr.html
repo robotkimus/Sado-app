@@ -84,6 +84,16 @@
   #chartbox canvas{width:100%; height:100%; display:block;}
   .pad{padding:16px;}
   .sec-title{font-size:12.5px; font-weight:700; color:var(--dim); margin-bottom:10px;}
+  details.fold{margin:0;}
+  details.fold summary{list-style:none; cursor:pointer; display:flex; align-items:center;
+    justify-content:space-between; gap:10px;}
+  details.fold summary::-webkit-details-marker{display:none;}
+  .fold-title{font-size:14px; font-weight:800; color:var(--text); display:flex; align-items:center; gap:8px;}
+  .fold-sum{font-size:13px; font-weight:700; color:var(--dim); display:flex; align-items:center; gap:8px;}
+  .fold-chev{transition:transform .25s ease; color:var(--dim); font-size:13px;}
+  details.fold[open] .fold-chev{transform:rotate(180deg);}
+  .fold-body{margin-top:14px;}
+  @media (prefers-reduced-motion: reduce){.fold-chev{transition:none}}
   .verdict-top{display:flex; justify-content:space-between; align-items:flex-start;}
   .price{font-size:30px; font-weight:800; font-variant-numeric:tabular-nums;}
   .chg{font-size:14px; font-weight:700; margin-left:8px;}
@@ -164,18 +174,25 @@
 
   <!-- 한국 시장 날씨 -->
   <div class="card pad">
-    <div class="sec-title">🇰🇷 국내 시장 날씨</div>
-    <div class="weather-hero" id="weatherHero">
-      <div class="wh-sky" id="whSky"></div>
-      <div class="wh-content">
-        <div class="wh-icon" id="whIcon">⛅</div>
-        <div class="wh-text">
-          <div class="wh-label" id="whLabel">시장 날씨 측정 중...</div>
-          <div class="wh-sub" id="whSub">잠시만요</div>
+    <details class="fold" id="weatherFold">
+      <summary>
+        <span class="fold-title">🇰🇷 국내 시장 날씨</span>
+        <span class="fold-sum"><span id="weatherSummary">측정 중...</span><span class="fold-chev">▼</span></span>
+      </summary>
+      <div class="fold-body">
+        <div class="weather-hero" id="weatherHero">
+          <div class="wh-sky" id="whSky"></div>
+          <div class="wh-content">
+            <div class="wh-icon" id="whIcon">⛅</div>
+            <div class="wh-text">
+              <div class="wh-label" id="whLabel">시장 날씨 측정 중...</div>
+              <div class="wh-sub" id="whSub">잠시만요</div>
+            </div>
+          </div>
         </div>
+        <div class="krw-grid" id="krwGrid"></div>
       </div>
-    </div>
-    <div class="krw-grid" id="krwGrid"></div>
+    </details>
   </div>
 
 </div>
@@ -921,6 +938,8 @@ async function loadKRWeather(){
   icon.textContent = ic;
   label.textContent = lb;
   sub.textContent = (parts.length ? parts.join(" · ") + " · " : "") + sb;
+  const ws = document.getElementById("weatherSummary");
+  if(ws) ws.textContent = ic + " " + lb.split(" — ")[0];
 
   document.querySelectorAll(".wh-drop").forEach(d=>d.remove());
   if(cls==="sky-rain" || cls==="sky-storm"){

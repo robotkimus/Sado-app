@@ -65,6 +65,17 @@
   #tvbox{height:420px;}
   .pad{padding:16px;}
   .sec-title{font-size:12.5px; font-weight:700; color:var(--dim); margin-bottom:10px;}
+  /* 접기/펼치기 카드 */
+  details.fold{margin:0;}
+  details.fold summary{list-style:none; cursor:pointer; display:flex; align-items:center;
+    justify-content:space-between; gap:10px;}
+  details.fold summary::-webkit-details-marker{display:none;}
+  .fold-title{font-size:14px; font-weight:800; color:var(--text); display:flex; align-items:center; gap:8px;}
+  .fold-sum{font-size:13px; font-weight:700; color:var(--dim); display:flex; align-items:center; gap:8px;}
+  .fold-chev{transition:transform .25s ease; color:var(--dim); font-size:13px;}
+  details.fold[open] .fold-chev{transform:rotate(180deg);}
+  .fold-body{margin-top:14px;}
+  @media (prefers-reduced-motion: reduce){.fold-chev{transition:none}}
   /* 종합 판정 */
   .verdict-top{display:flex; justify-content:space-between; align-items:flex-start;}
   .price{font-size:30px; font-weight:800; font-variant-numeric:tabular-nums;}
@@ -195,41 +206,62 @@
 
   <!-- 기업 펀더멘털 -->
   <div class="card pad" id="fundaCard" style="display:none;">
-    <div class="sec-title">📊 기업 펀더멘털 — 회사 자체는 건강한가</div>
-    <div id="finnhubSetup" style="display:none; margin-bottom:10px;">
-      <div class="muted" style="margin-bottom:8px;">
-        펀더멘털(PER·시총·실적)을 보려면 <b style="color:var(--text)">finnhub.io</b>에서 무료 API 키를 받아 입력하세요. (이메일 가입 → 대시보드에서 키 복사)
+    <details class="fold" id="fundaFold">
+      <summary>
+        <span class="fold-title">📊 기업 펀더멘털</span>
+        <span class="fold-sum"><span id="fundaSummary">—</span><span class="fold-chev">▼</span></span>
+      </summary>
+      <div class="fold-body">
+        <div id="finnhubSetup" style="display:none; margin-bottom:10px;">
+          <div class="muted" style="margin-bottom:8px;">
+            펀더멘털(PER·시총·실적)을 보려면 <b style="color:var(--text)">finnhub.io</b>에서 무료 API 키를 받아 입력하세요. (이메일 가입 → 대시보드에서 키 복사)
+          </div>
+          <div class="row" style="margin-bottom:0;">
+            <input type="text" id="finnhubKey" placeholder="Finnhub API 키 붙여넣기" autocapitalize="off" autocorrect="off" style="text-transform:none;">
+            <button class="btn" id="saveFinnhub">저장</button>
+          </div>
+        </div>
+        <div id="fundaBox"></div>
       </div>
-      <div class="row" style="margin-bottom:0;">
-        <input type="text" id="finnhubKey" placeholder="Finnhub API 키 붙여넣기" autocapitalize="off" autocorrect="off" style="text-transform:none;">
-        <button class="btn" id="saveFinnhub">저장</button>
-      </div>
-    </div>
-    <div id="fundaBox"></div>
+    </details>
   </div>
 
   <!-- 시장 날씨 (매크로) -->
   <div class="card pad">
-    <div class="sec-title">시장 날씨 — 판이 깨지면 다 같이 깨진다</div>
-    <div class="weather-hero" id="weatherHero">
-      <div class="wh-sky" id="whSky"></div>
-      <div class="wh-content">
-        <div class="wh-icon" id="whIcon">⛅</div>
-        <div class="wh-text">
-          <div class="wh-label" id="whLabel">시장 날씨 측정 중...</div>
-          <div class="wh-sub" id="whSub">잠시만요</div>
+    <details class="fold" id="weatherFold">
+      <summary>
+        <span class="fold-title">🌤️ 시장 날씨</span>
+        <span class="fold-sum"><span id="weatherSummary">측정 중...</span><span class="fold-chev">▼</span></span>
+      </summary>
+      <div class="fold-body">
+        <div class="weather-hero" id="weatherHero">
+          <div class="wh-sky" id="whSky"></div>
+          <div class="wh-content">
+            <div class="wh-icon" id="whIcon">⛅</div>
+            <div class="wh-text">
+              <div class="wh-label" id="whLabel">시장 날씨 측정 중...</div>
+              <div class="wh-sub" id="whSub">잠시만요</div>
+            </div>
+          </div>
         </div>
+        <div class="wgrid" id="wGrid"></div>
+        <button class="btn" id="weatherBtn" style="width:100%; margin-top:2px">지금 새로고침</button>
+        <div class="muted" id="wNote" style="margin-top:8px"></div>
       </div>
-    </div>
-    <div class="wgrid" id="wGrid"></div>
-    <button class="btn" id="weatherBtn" style="width:100%; margin-top:2px">지금 새로고침</button>
-    <div class="muted" id="wNote" style="margin-top:8px"></div>
+    </details>
   </div>
 
   <!-- Claude 봇 포트폴리오 -->
   <div class="card pad">
-    <div class="sec-title">🤖 Claude 봇 포트폴리오 (모의계좌)</div>
-    <div id="botBox"><div class="muted">불러오는 중...</div></div>
+    <details class="fold" id="botFold">
+      <summary>
+        <span class="fold-title">🤖 Claude 봇</span>
+        <span class="fold-sum"><span id="botSummary">불러오는 중...</span><span class="fold-chev">▼</span></span>
+      </summary>
+      <div class="fold-body">
+        <div id="botBox"><div class="muted">불러오는 중...</div></div>
+      </div>
+    </details>
   </div>
 
 
@@ -347,6 +379,10 @@ async function loadFundamentals(sym){
   if(!key){
     setup.style.display = "block";
     box.innerHTML = '<div class="muted">위에 Finnhub 무료 키를 입력하면 PER·시총·실적 등 펀더멘털이 표시돼요.</div>';
+    const fs = document.getElementById("fundaSummary");
+    if(fs) fs.textContent = "키 입력 필요";
+    const ff = document.getElementById("fundaFold");
+    if(ff) ff.open = true;   // 키 입력 안내는 펼쳐서 보이게
     return;
   }
   setup.style.display = "none";
@@ -488,6 +524,13 @@ async function loadFundamentals(sym){
     html += `<div style="font-size:10.5px; color:var(--dim); margin-top:10px; line-height:1.5;">
       ※ 종합 판정은 PER·이익률·성장·PBR을 기계적으로 점수화한 참고용이에요. 투자 권유가 아니며, 업종 특성·미래 전망은 반영하지 못해요. 차트 신호가 좋아도 적자·고PER이면 거품일 수 있어요. · <a href="#" id="finnhubReset" style="color:var(--dim);">키 변경</a></div>`;
     box.innerHTML = html;
+    // 접힌 제목 옆 요약: 종합 판정 (거품/기회)
+    const fs = document.getElementById("fundaSummary");
+    if(fs){
+      if(verdict) fs.innerHTML = `<span style="color:${verdict.vcolor};">${verdict.vicon} ${verdict.vlabel}</span>`;
+      else if(prof.name) fs.textContent = prof.name;
+      else fs.textContent = "—";
+    }
     const rk = document.getElementById("finnhubReset");
     if(rk) rk.onclick = (e)=>{ e.preventDefault(); setFinnhubKey(""); loadFundamentals(current); };
   }catch(e){
@@ -815,6 +858,9 @@ function updateWeatherHero(){
   icon.textContent = ic;
   label.textContent = lb;
   sub.textContent = (parts.length ? parts.join(" · ") + " · " : "") + sb;
+  // 접힌 제목 옆 요약: 아이콘 + 짧은 라벨
+  const ws = document.getElementById("weatherSummary");
+  if(ws) ws.textContent = ic + " " + lb.split(" — ")[0];
 
   // 비/폭풍이면 빗방울 입자 추가
   document.querySelectorAll(".wh-drop").forEach(d=>d.remove());
@@ -1306,6 +1352,11 @@ async function loadBotStatus(){
     const s = await res.json();
     const ret = ((s.equity / s.base) - 1) * 100;
     const retColor = ret >= 0 ? "var(--buy)" : "var(--sell)";
+    // 접힌 제목 옆 요약: 총자산 + 수익률
+    const bs = document.getElementById("botSummary");
+    if(bs){
+      bs.innerHTML = `$${s.equity.toLocaleString(undefined,{maximumFractionDigits:0})} <span style="color:${retColor};">${ret>=0?"+":""}${ret.toFixed(2)}%</span>`;
+    }
     let html = `
       <div style="display:flex; justify-content:space-between; align-items:baseline;">
         <div>
