@@ -162,6 +162,12 @@
     </div>
   </div>
 
+  <!-- 기업 펀더멘털 -->
+  <div class="card pad" id="fundaCard" style="display:none;">
+    <div class="sec-title">📊 기업 펀더멘털 — 회사 자체는 건강한가</div>
+    <div id="fundaBox"></div>
+  </div>
+
   <!-- 한국 시장 날씨 -->
   <div class="card pad">
     <div class="sec-title">🇰🇷 국내 시장 날씨</div>
@@ -301,6 +307,83 @@ function setCode(code){
   const ci = document.getElementById("codeInput");
   if(ci) ci.value = "";
   loadChartOnly();   // 종목 선택 시 차트는 바로 표시 (분석은 버튼)
+  loadFundamentalsKR(current);
+}
+
+/* ── 기업 펀더멘털 (야후 quoteSummary, 한국 .KS/.KQ) ── */
+async function loadFundamentalsKR(code){
+  const card = document.getElementById("fundaCard");
+  const box = document.getElementById("fundaBox");
+  card.style.display = "block";
+  box.innerHTML = '<div class="muted"><span class="spin"></span> 재무 데이터 불러오는 중...</div>';
+  const modules = "defaultKeyStatistics,financialData,summaryDetail,price";
+  async function tryFetch(sym){
+    const url = `https://query1.finance.yahoo.com/v10/finance/quoteSummary/${sym}?modules=${modules}`;
+    const enc = encodeURIComponent(url);
+    try{
+      const res = await fetch(`https://api.allorigins.win/get?url=${enc}`, {signal:AbortSignal.timeout(10000)});
+      if(res.ok){ const j = await res.json(); if(j.contents){ const d = JSON.parse(j.contents); if(d.quoteSummary?.result?.[0]) return d; } }
+    }catch(e){}
+    for(const u of [`https://corsproxy.io/?url=${enc}`, url]){
+      try{ const res = await fetch(u, {signal:AbortSignal.timeout(8000)}); if(res.ok){ const d = await res.json(); if(d.quoteSummary?.result?.[0]) return d; } }catch(e){}
+    }
+    return null;
+  }
+  let data = await tryFetch(code + ".KS");
+  if(!data) data = await tryFetch(code + ".KQ");
+  try{
+    const r = data.quoteSummary.result[0];
+    const ks = r.defaultKeyStatistics || {}, fd = r.financialData || {}, sd = r.summaryDetail || {}, pr = r.price || {};
+    const v = (o)=> (o && o.raw!=null) ? o.raw : null;
+    const won = (n)=> n==null ? "—" : (Math.abs(n)>=1e12 ? "₩"+(n/1e12).toFixed(1)+"조" : Math.abs(n)>=1e8 ? "₩"+(n/1e8).toFixed(0)+"억" : "₩"+Math.round(n).toLocaleString());
+    const pct = (n)=> n==null ? "—" : (n*100).toFixed(1)+"%";
+
+    const per = v(sd.trailingPE) ?? v(ks.trailingPE);
+    const forwardPE = v(sd.forwardPE);
+    const pbr = v(ks.priceToBook);
+    const revenue = v(fd.totalRevenue);
+    const revGrowth = v(fd.revenueGrowth);
+    const earnings = v(ks.netIncomeToCommon);
+    const profitMargin = v(fd.profitMargins);
+    const roe = v(fd.returnOnEquity);
+    const debtToEquity = v(fd.debtToEquity);
+    const marketCap = v(pr.marketCap) ?? v(sd.marketCap);
+    const eps = v(ks.trailingEps);
+
+    const warns = [];
+    if(earnings!=null && earnings < 0) warns.push("⚠️ 적자 기업 — 아직 이익을 못 내는 중. 주가가 기대만으로 오르는 거품 위험");
+    else if(per!=null && per > 100) warns.push("⚠️ PER " + per.toFixed(0) + "배 — 이익 대비 매우 비쌈. 과열·거품 주의");
+    else if(per!=null && per > 50) warns.push("⚡ PER " + per.toFixed(0) + "배 — 다소 고평가. 성장 기대가 큰 종목");
+    if(revGrowth!=null && revGrowth < 0) warns.push("⚠️ 매출 감소 중 (" + pct(revGrowth) + ") — 회사가 줄어들고 있음");
+    if(debtToEquity!=null && debtToEquity > 200) warns.push("⚠️ 부채비율 높음 — 빚 부담 큼");
+    if(per!=null && per > 0 && per < 15 && earnings!=null && earnings > 0) warns.push("✓ PER " + per.toFixed(0) + "배 — 이익 대비 저평가 영역");
+    if(profitMargin!=null && profitMargin > 0.2) warns.push("✓ 순이익률 " + pct(profitMargin) + " — 수익성 우수");
+
+    const row = (label, val, hint)=>`<div style="display:flex; justify-content:space-between; padding:7px 0; border-top:1px solid var(--line); font-size:12.5px;">
+      <span style="color:var(--dim);">${label}</span>
+      <span style="font-weight:700; font-variant-numeric:tabular-nums;">${val}${hint?` <span style="color:var(--dim); font-weight:400;">${hint}</span>`:""}</span></div>`;
+
+    let html = "";
+    if(warns.length){
+      html += `<div style="margin-bottom:10px;">` + warns.map(w=>{
+        const c = w.startsWith("⚠️") ? "var(--sell)" : w.startsWith("✓") ? "var(--buy)" : "var(--hold)";
+        return `<div style="font-size:12.5px; color:${c}; line-height:1.5; margin-bottom:4px;">${w}</div>`;
+      }).join("") + `</div>`;
+    }
+    html += row("시가총액", won(marketCap));
+    html += row("PER (주가수익비율)", per!=null ? per.toFixed(1)+"배" : "—", forwardPE!=null ? `(예상 ${forwardPE.toFixed(1)})` : "");
+    html += row("PBR (주가순자산)", pbr!=null ? pbr.toFixed(2)+"배" : "—");
+    html += row("EPS (주당순이익)", eps!=null ? "₩"+Math.round(eps).toLocaleString() : "—");
+    html += row("매출 (연)", won(revenue), revGrowth!=null ? `(성장 ${pct(revGrowth)})` : "");
+    html += row("순이익", won(earnings), profitMargin!=null ? `(마진 ${pct(profitMargin)})` : "");
+    html += row("ROE (자기자본이익률)", pct(roe));
+    html += row("부채비율", debtToEquity!=null ? debtToEquity.toFixed(0)+"%" : "—");
+    html += `<div style="font-size:10.5px; color:var(--dim); margin-top:10px; line-height:1.5;">
+      ※ 야후 파이낸스 재무 데이터. PER·매출·이익으로 "회사가 실제로 돈을 버는지" 확인하세요. 차트 신호가 좋아도 적자·고PER이면 거품일 수 있어요.</div>`;
+    box.innerHTML = html;
+  }catch(e){
+    box.innerHTML = '<div class="muted">재무 데이터를 불러오지 못했어요. 일부 종목은 펀더멘털 정보가 없을 수 있어요.</div>';
+  }
 }
 
 // 차트만 불러와 그리기 (신호 분석과 별개)
