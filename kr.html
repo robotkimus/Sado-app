@@ -316,48 +316,56 @@ async function loadFundamentalsKR(code){
   const box = document.getElementById("fundaBox");
   card.style.display = "block";
   box.innerHTML = '<div class="muted"><span class="spin"></span> 재무 데이터 불러오는 중...</div>';
-  const modules = "defaultKeyStatistics,financialData,summaryDetail,price";
-  async function tryFetch(sym){
-    const url = `https://query1.finance.yahoo.com/v10/finance/quoteSummary/${sym}?modules=${modules}`;
+
+  async function quoteFetch(sym){
+    const url = `https://query1.finance.yahoo.com/v7/finance/quote?symbols=${sym}`;
     const enc = encodeURIComponent(url);
-    try{
-      const res = await fetch(`https://api.allorigins.win/get?url=${enc}`, {signal:AbortSignal.timeout(10000)});
-      if(res.ok){ const j = await res.json(); if(j.contents){ const d = JSON.parse(j.contents); if(d.quoteSummary?.result?.[0]) return d; } }
-    }catch(e){}
-    for(const u of [`https://corsproxy.io/?url=${enc}`, url]){
-      try{ const res = await fetch(u, {signal:AbortSignal.timeout(8000)}); if(res.ok){ const d = await res.json(); if(d.quoteSummary?.result?.[0]) return d; } }catch(e){}
+    const proxies = [
+      `https://api.allorigins.win/get?url=${enc}`,
+      `https://corsproxy.io/?url=${enc}`,
+      `https://api.allorigins.win/raw?url=${enc}`,
+    ];
+    for(let i=0;i<proxies.length;i++){
+      try{
+        const res = await fetch(proxies[i], {signal:AbortSignal.timeout(9000)});
+        if(!res.ok) continue;
+        let j;
+        if(i===0){ const w = await res.json(); j = JSON.parse(w.contents); }
+        else j = await res.json();
+        const q = j?.quoteResponse?.result?.[0];
+        if(q) return q;
+      }catch(e){}
     }
     return null;
   }
-  let data = await tryFetch(code + ".KS");
-  if(!data) data = await tryFetch(code + ".KQ");
-  try{
-    const r = data.quoteSummary.result[0];
-    const ks = r.defaultKeyStatistics || {}, fd = r.financialData || {}, sd = r.summaryDetail || {}, pr = r.price || {};
-    const v = (o)=> (o && o.raw!=null) ? o.raw : null;
-    const won = (n)=> n==null ? "—" : (Math.abs(n)>=1e12 ? "₩"+(n/1e12).toFixed(1)+"조" : Math.abs(n)>=1e8 ? "₩"+(n/1e8).toFixed(0)+"억" : "₩"+Math.round(n).toLocaleString());
-    const pct = (n)=> n==null ? "—" : (n*100).toFixed(1)+"%";
 
-    const per = v(sd.trailingPE) ?? v(ks.trailingPE);
-    const forwardPE = v(sd.forwardPE);
-    const pbr = v(ks.priceToBook);
-    const revenue = v(fd.totalRevenue);
-    const revGrowth = v(fd.revenueGrowth);
-    const earnings = v(ks.netIncomeToCommon);
-    const profitMargin = v(fd.profitMargins);
-    const roe = v(fd.returnOnEquity);
-    const debtToEquity = v(fd.debtToEquity);
-    const marketCap = v(pr.marketCap) ?? v(sd.marketCap);
-    const eps = v(ks.trailingEps);
+  let q = await quoteFetch(code + ".KS");
+  if(!q) q = await quoteFetch(code + ".KQ");
+
+  if(!q){
+    box.innerHTML = '<div class="muted">재무 데이터를 불러오지 못했어요. 야후가 일부 국내 종목의 재무정보를 제공하지 않거나, 잠시 연결이 불안정할 수 있어요. 종목을 다시 선택해보세요.</div>';
+    return;
+  }
+  try{
+    const won = (n)=> n==null ? "—" : (Math.abs(n)>=1e12 ? "₩"+(n/1e12).toFixed(1)+"조" : Math.abs(n)>=1e8 ? "₩"+(n/1e8).toFixed(0)+"억" : "₩"+Math.round(n).toLocaleString());
+    const per = q.trailingPE, forwardPE = q.forwardPE, pbr = q.priceToBook;
+    const eps = q.epsTrailingTwelveMonths, marketCap = q.marketCap;
+    const fiftyTwoHigh = q.fiftyTwoWeekHigh, fiftyTwoLow = q.fiftyTwoWeekLow;
+    const price = q.regularMarketPrice;
 
     const warns = [];
-    if(earnings!=null && earnings < 0) warns.push("⚠️ 적자 기업 — 아직 이익을 못 내는 중. 주가가 기대만으로 오르는 거품 위험");
+    if(per!=null && per < 0) warns.push("⚠️ PER 음수 — 적자 상태(이익이 마이너스). 주가가 기대만으로 오르는 거품 위험");
     else if(per!=null && per > 100) warns.push("⚠️ PER " + per.toFixed(0) + "배 — 이익 대비 매우 비쌈. 과열·거품 주의");
     else if(per!=null && per > 50) warns.push("⚡ PER " + per.toFixed(0) + "배 — 다소 고평가. 성장 기대가 큰 종목");
-    if(revGrowth!=null && revGrowth < 0) warns.push("⚠️ 매출 감소 중 (" + pct(revGrowth) + ") — 회사가 줄어들고 있음");
-    if(debtToEquity!=null && debtToEquity > 200) warns.push("⚠️ 부채비율 높음 — 빚 부담 큼");
-    if(per!=null && per > 0 && per < 15 && earnings!=null && earnings > 0) warns.push("✓ PER " + per.toFixed(0) + "배 — 이익 대비 저평가 영역");
-    if(profitMargin!=null && profitMargin > 0.2) warns.push("✓ 순이익률 " + pct(profitMargin) + " — 수익성 우수");
+    else if(per!=null && per > 0 && per < 12) warns.push("✓ PER " + per.toFixed(0) + "배 — 이익 대비 저평가 영역");
+    if(pbr!=null && pbr < 1) warns.push("✓ PBR " + pbr.toFixed(2) + "배 — 자산가치보다 싸게 거래 중");
+    else if(pbr!=null && pbr > 10) warns.push("⚠️ PBR " + pbr.toFixed(1) + "배 — 자산 대비 매우 고평가");
+    // 52주 고점 대비 위치
+    if(price!=null && fiftyTwoHigh!=null && fiftyTwoLow!=null){
+      const pos = (price-fiftyTwoLow)/(fiftyTwoHigh-fiftyTwoLow)*100;
+      if(pos > 90) warns.push("⚡ 52주 고점 부근 (" + pos.toFixed(0) + "%) — 신고가 영역, 추격 주의");
+      else if(pos < 15) warns.push("⚡ 52주 저점 부근 (" + pos.toFixed(0) + "%) — 바닥권, 반등 가능성 점검");
+    }
 
     const row = (label, val, hint)=>`<div style="display:flex; justify-content:space-between; padding:7px 0; border-top:1px solid var(--line); font-size:12.5px;">
       <span style="color:var(--dim);">${label}</span>
@@ -374,15 +382,13 @@ async function loadFundamentalsKR(code){
     html += row("PER (주가수익비율)", per!=null ? per.toFixed(1)+"배" : "—", forwardPE!=null ? `(예상 ${forwardPE.toFixed(1)})` : "");
     html += row("PBR (주가순자산)", pbr!=null ? pbr.toFixed(2)+"배" : "—");
     html += row("EPS (주당순이익)", eps!=null ? "₩"+Math.round(eps).toLocaleString() : "—");
-    html += row("매출 (연)", won(revenue), revGrowth!=null ? `(성장 ${pct(revGrowth)})` : "");
-    html += row("순이익", won(earnings), profitMargin!=null ? `(마진 ${pct(profitMargin)})` : "");
-    html += row("ROE (자기자본이익률)", pct(roe));
-    html += row("부채비율", debtToEquity!=null ? debtToEquity.toFixed(0)+"%" : "—");
+    html += row("52주 최고", fiftyTwoHigh!=null ? "₩"+Math.round(fiftyTwoHigh).toLocaleString() : "—");
+    html += row("52주 최저", fiftyTwoLow!=null ? "₩"+Math.round(fiftyTwoLow).toLocaleString() : "—");
     html += `<div style="font-size:10.5px; color:var(--dim); margin-top:10px; line-height:1.5;">
-      ※ 야후 파이낸스 재무 데이터. PER·매출·이익으로 "회사가 실제로 돈을 버는지" 확인하세요. 차트 신호가 좋아도 적자·고PER이면 거품일 수 있어요.</div>`;
+      ※ 야후 파이낸스 데이터. 국내 종목은 매출·ROE 등 일부 상세 재무가 안 나올 수 있어요. PER·PBR로 "이익·자산 대비 비싼지"를 확인하세요. 차트 신호가 좋아도 적자(PER 음수)면 거품일 수 있어요.</div>`;
     box.innerHTML = html;
   }catch(e){
-    box.innerHTML = '<div class="muted">재무 데이터를 불러오지 못했어요. 일부 종목은 펀더멘털 정보가 없을 수 있어요.</div>';
+    box.innerHTML = '<div class="muted">재무 데이터 처리 중 오류가 났어요. 다시 시도해주세요.</div>';
   }
 }
 
