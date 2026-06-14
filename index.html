@@ -196,6 +196,15 @@
   <!-- 기업 펀더멘털 -->
   <div class="card pad" id="fundaCard" style="display:none;">
     <div class="sec-title">📊 기업 펀더멘털 — 회사 자체는 건강한가</div>
+    <div id="finnhubSetup" style="display:none; margin-bottom:10px;">
+      <div class="muted" style="margin-bottom:8px;">
+        펀더멘털(PER·시총·실적)을 보려면 <b style="color:var(--text)">finnhub.io</b>에서 무료 API 키를 받아 입력하세요. (이메일 가입 → 대시보드에서 키 복사)
+      </div>
+      <div class="row" style="margin-bottom:0;">
+        <input type="text" id="finnhubKey" placeholder="Finnhub API 키 붙여넣기" autocapitalize="off" autocorrect="off" style="text-transform:none;">
+        <button class="btn" id="saveFinnhub">저장</button>
+      </div>
+    </div>
     <div id="fundaBox"></div>
   </div>
 
@@ -325,65 +334,68 @@ function setTicker(t){
 }
 
 /* ── 기업 펀더멘털 (야후 quoteSummary) ── */
+/* ── Finnhub 키 관리 ── */
+function getFinnhubKey(){ try{ return localStorage.getItem("finnhub_key")||""; }catch(e){ return window._fk||""; } }
+function setFinnhubKey(k){ try{ localStorage.setItem("finnhub_key", k); }catch(e){ window._fk = k; } }
+
 async function loadFundamentals(sym){
   const card = document.getElementById("fundaCard");
   const box = document.getElementById("fundaBox");
+  const setup = document.getElementById("finnhubSetup");
   card.style.display = "block";
-  box.innerHTML = '<div class="muted"><span class="spin"></span> 재무 데이터 불러오는 중...</div>';
-
-  async function quoteFetch(s){
-    const url = `https://query1.finance.yahoo.com/v7/finance/quote?symbols=${s}`;
-    const enc = encodeURIComponent(url);
-    const proxies = [
-      `https://api.allorigins.win/get?url=${enc}`,
-      `https://corsproxy.io/?url=${enc}`,
-      `https://api.allorigins.win/raw?url=${enc}`,
-    ];
-    for(let i=0;i<proxies.length;i++){
-      try{
-        const res = await fetch(proxies[i], {signal:AbortSignal.timeout(9000)});
-        if(!res.ok) continue;
-        let j;
-        if(i===0){ const w = await res.json(); j = JSON.parse(w.contents); }
-        else j = await res.json();
-        const q = j?.quoteResponse?.result?.[0];
-        if(q) return q;
-      }catch(e){}
-    }
-    return null;
-  }
-
-  const q = await quoteFetch(sym);
-  if(!q){
-    box.innerHTML = '<div class="muted">재무 데이터를 불러오지 못했어요. ETF·신규상장 종목은 펀더멘털이 없을 수 있고, 잠시 연결이 불안정할 수도 있어요. 종목을 다시 선택해보세요.</div>';
+  const key = getFinnhubKey();
+  if(!key){
+    setup.style.display = "block";
+    box.innerHTML = '<div class="muted">위에 Finnhub 무료 키를 입력하면 PER·시총·실적 등 펀더멘털이 표시돼요.</div>';
     return;
   }
+  setup.style.display = "none";
+  box.innerHTML = '<div class="muted"><span class="spin"></span> 재무 데이터 불러오는 중...</div>';
   try{
-    const fmtB = (n)=> n==null ? "—" : (Math.abs(n)>=1e12 ? "$"+(n/1e12).toFixed(2)+"T" : Math.abs(n)>=1e9 ? "$"+(n/1e9).toFixed(1)+"B" : Math.abs(n)>=1e6 ? "$"+(n/1e6).toFixed(0)+"M" : "$"+Math.round(n).toLocaleString());
-    const per = q.trailingPE, forwardPE = q.forwardPE, pbr = q.priceToBook;
-    const eps = q.epsTrailingTwelveMonths, marketCap = q.marketCap;
-    const fiftyTwoHigh = q.fiftyTwoWeekHigh, fiftyTwoLow = q.fiftyTwoWeekLow;
-    const price = q.regularMarketPrice;
-    const divYield = q.trailingAnnualDividendYield;
+    // Finnhub: 기업 기본지표(metric) + 시세(quote) + 프로필
+    const base = "https://finnhub.io/api/v1";
+    const [mRes, pRes] = await Promise.all([
+      fetch(`${base}/stock/metric?symbol=${encodeURIComponent(sym)}&metric=all&token=${key}`, {signal:AbortSignal.timeout(10000)}),
+      fetch(`${base}/stock/profile2?symbol=${encodeURIComponent(sym)}&token=${key}`, {signal:AbortSignal.timeout(10000)})
+    ]);
+    if(mRes.status === 401 || pRes.status === 401){
+      setup.style.display = "block";
+      box.innerHTML = '<div class="err">키가 올바르지 않아요. finnhub.io 대시보드의 키를 다시 확인해주세요.</div>';
+      return;
+    }
+    const m = (await mRes.json()).metric || {};
+    const prof = await pRes.json();
+
+    const fmtB = (n)=> n==null ? "—" : (Math.abs(n)>=1e6 ? "$"+(n/1e6).toFixed(2)+"T" : Math.abs(n)>=1e3 ? "$"+(n/1e3).toFixed(1)+"B" : "$"+Math.round(n)+"M");
+    // Finnhub marketCapitalization 단위는 백만달러
+    const per = m.peTTM ?? m.peBasicExclExtraTTM;
+    const pbr = m.pbQuarterly ?? m.pb;
+    const eps = m.epsTTM ?? m.epsBasicExclExtraItemsTTM;
+    const marketCap = prof.marketCapitalization;  // 백만 단위
+    const roe = m.roeTTM;
+    const profitMargin = m.netProfitMarginTTM;
+    const revGrowth = m.revenueGrowthTTMYoy;
+    const high52 = m["52WeekHigh"], low52 = m["52WeekLow"];
+    const debtEq = m["totalDebt/totalEquityQuarterly"] ?? m.longTermDebt2EquityQuarterly;
+    const divYield = m.dividendYieldIndicatedAnnual;
 
     const warns = [];
-    if(per!=null && per < 0) warns.push("⚠️ PER 음수 — 적자 상태(이익이 마이너스). 주가가 기대만으로 오르는 거품 위험");
+    if(per!=null && per < 0) warns.push("⚠️ PER 음수 — 적자 상태(이익 마이너스). 주가가 기대만으로 오르는 거품 위험");
     else if(per!=null && per > 100) warns.push("⚠️ PER " + per.toFixed(0) + "배 — 이익 대비 매우 비쌈. 과열·거품 주의");
     else if(per!=null && per > 50) warns.push("⚡ PER " + per.toFixed(0) + "배 — 다소 고평가. 성장 기대가 큰 종목");
     else if(per!=null && per > 0 && per < 15) warns.push("✓ PER " + per.toFixed(0) + "배 — 이익 대비 저평가 영역");
+    if(revGrowth!=null && revGrowth < 0) warns.push("⚠️ 매출 감소 중 (" + revGrowth.toFixed(1) + "%) — 회사가 줄어들고 있음");
+    if(profitMargin!=null && profitMargin > 20) warns.push("✓ 순이익률 " + profitMargin.toFixed(1) + "% — 수익성 우수");
+    else if(profitMargin!=null && profitMargin < 0) warns.push("⚠️ 순이익률 마이너스 — 팔수록 손해 보는 구조");
     if(pbr!=null && pbr < 1) warns.push("✓ PBR " + pbr.toFixed(2) + "배 — 자산가치보다 싸게 거래 중");
-    else if(pbr!=null && pbr > 15) warns.push("⚠️ PBR " + pbr.toFixed(1) + "배 — 자산 대비 매우 고평가");
-    if(price!=null && fiftyTwoHigh!=null && fiftyTwoLow!=null && fiftyTwoHigh>fiftyTwoLow){
-      const pos = (price-fiftyTwoLow)/(fiftyTwoHigh-fiftyTwoLow)*100;
-      if(pos > 90) warns.push("⚡ 52주 고점 부근 (" + pos.toFixed(0) + "%) — 신고가 영역, 추격 주의");
-      else if(pos < 15) warns.push("⚡ 52주 저점 부근 (" + pos.toFixed(0) + "%) — 바닥권, 반등 가능성 점검");
-    }
 
     const row = (label, val, hint)=>`<div style="display:flex; justify-content:space-between; padding:7px 0; border-top:1px solid var(--line); font-size:12.5px;">
       <span style="color:var(--dim);">${label}</span>
       <span style="font-weight:700; font-variant-numeric:tabular-nums;">${val}${hint?` <span style="color:var(--dim); font-weight:400;">${hint}</span>`:""}</span></div>`;
+    const num = (n,suf,dec)=> n==null ? "—" : n.toFixed(dec==null?1:dec)+(suf||"");
 
     let html = "";
+    if(prof.name) html += `<div style="font-size:13px; font-weight:700; margin-bottom:8px;">${prof.name}${prof.finnhubIndustry?` <span class="muted" style="font-weight:400;">· ${prof.finnhubIndustry}</span>`:""}</div>`;
     if(warns.length){
       html += `<div style="margin-bottom:10px;">` + warns.map(w=>{
         const c = w.startsWith("⚠️") ? "var(--sell)" : w.startsWith("✓") ? "var(--buy)" : "var(--hold)";
@@ -391,17 +403,22 @@ async function loadFundamentals(sym){
       }).join("") + `</div>`;
     }
     html += row("시가총액", fmtB(marketCap));
-    html += row("PER (주가수익비율)", per!=null ? per.toFixed(1)+"배" : "—", forwardPE!=null ? `(예상 ${forwardPE.toFixed(1)})` : "");
-    html += row("PBR (주가순자산)", pbr!=null ? pbr.toFixed(2)+"배" : "—");
+    html += row("PER (주가수익비율)", num(per,"배"));
+    html += row("PBR (주가순자산)", num(pbr,"배",2));
     html += row("EPS (주당순이익)", eps!=null ? "$"+eps.toFixed(2) : "—");
-    html += row("배당수익률", divYield!=null && divYield>0 ? (divYield*100).toFixed(2)+"%" : "—");
-    html += row("52주 최고", fiftyTwoHigh!=null ? "$"+fiftyTwoHigh.toFixed(2) : "—");
-    html += row("52주 최저", fiftyTwoLow!=null ? "$"+fiftyTwoLow.toFixed(2) : "—");
+    html += row("ROE (자기자본이익률)", num(roe,"%"));
+    html += row("순이익률", num(profitMargin,"%"));
+    html += row("매출성장률(YoY)", num(revGrowth,"%"));
+    html += row("배당수익률", divYield!=null && divYield>0 ? num(divYield,"%",2) : "—");
+    html += row("52주 최고", high52!=null ? "$"+high52.toFixed(2) : "—");
+    html += row("52주 최저", low52!=null ? "$"+low52.toFixed(2) : "—");
     html += `<div style="font-size:10.5px; color:var(--dim); margin-top:10px; line-height:1.5;">
-      ※ 야후 파이낸스 데이터. PER·PBR로 "이익·자산 대비 비싼지"를 확인하세요. 차트 신호가 좋아도 적자(PER 음수)·고PER이면 거품일 수 있어요.</div>`;
+      ※ Finnhub 데이터. PER·매출성장·이익률로 "회사가 실제로 돈을 버는지" 확인하세요. 차트 신호가 좋아도 적자·고PER이면 거품일 수 있어요. · <a href="#" id="finnhubReset" style="color:var(--dim);">키 변경</a></div>`;
     box.innerHTML = html;
+    const rk = document.getElementById("finnhubReset");
+    if(rk) rk.onclick = (e)=>{ e.preventDefault(); setFinnhubKey(""); loadFundamentals(current); };
   }catch(e){
-    box.innerHTML = '<div class="muted">재무 데이터 처리 중 오류가 났어요. 다시 시도해주세요.</div>';
+    box.innerHTML = '<div class="muted">재무 데이터를 불러오지 못했어요. 잠시 후 다시 시도하거나, ETF·신규상장 종목은 펀더멘털이 없을 수 있어요.</div>';
   }
 }
 document.getElementById("goBtn").onclick = ()=>{
@@ -782,6 +799,20 @@ document.getElementById("resetKey").onclick = (e)=>{
   document.getElementById("apiKeyInput").value = "";
   refreshKeyUI();
 };
+// Finnhub 키 저장
+(function(){
+  const sb = document.getElementById("saveFinnhub");
+  const inp = document.getElementById("finnhubKey");
+  if(sb && inp){
+    inp.value = getFinnhubKey();
+    sb.onclick = ()=>{
+      const k = inp.value.trim();
+      if(!k) return;
+      setFinnhubKey(k);
+      loadFundamentals(current);
+    };
+  }
+})();
 
 /* ── 데이터 불러오기 ── */
 async function fetchDaily(sym){
