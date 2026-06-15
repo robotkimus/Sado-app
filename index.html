@@ -1712,15 +1712,24 @@ async function loadBotStatus(){
       }
 
       html += `<div style="margin-top:12px; display:flex; flex-direction:column; gap:6px;">`;
-      s.positions.forEach(p=>{
-        const c = p.pnl_pct >= 0 ? "var(--buy)" : "var(--sell)";
+      // 평가금 순으로 정렬된 valued 사용 (위 도넛 차트와 동일). 평가액 없으면 원본 순서
+      const listSrc = (typeof valued !== "undefined" && valued.length) ? valued : s.positions.map(p=>({
+        sym:p.symbol, qty:p.qty, avg:p.avg_cost, now:p.now||p.avg_cost, pnl:p.pnl_pct, val:(p.qty*(p.now||p.avg_cost||0))
+      }));
+      listSrc.forEach(p=>{
+        const c = p.pnl >= 0 ? "var(--buy)" : "var(--sell)";
+        const valStr = p.val>0 ? "$"+p.val.toLocaleString(undefined,{maximumFractionDigits:0}) : "";
         html += `
-          <div style="display:flex; justify-content:space-between; padding:10px 12px;
+          <div style="display:flex; justify-content:space-between; align-items:center; padding:11px 13px;
                       background:var(--card2); border:1px solid var(--line); border-radius:12px;">
-            <span style="font-weight:700;">${p.symbol} <span class="muted">${p.qty}주 · 평단 $${p.avg_cost.toFixed(2)}</span></span>
-            <span style="font-weight:800; color:${c}; font-variant-numeric:tabular-nums;">
-              ${p.pnl_pct>=0?"+":""}${p.pnl_pct.toFixed(1)}%
-            </span>
+            <div style="min-width:0;">
+              <div style="font-weight:800; font-size:14px;">${p.sym}</div>
+              <div class="muted" style="font-size:11px; margin-top:2px;">${p.qty}주 · 평단 $${(p.avg||0).toFixed(2)}</div>
+            </div>
+            <div style="text-align:right;">
+              <div style="font-weight:800; font-size:14px; font-variant-numeric:tabular-nums;">${valStr}</div>
+              <div style="font-weight:700; font-size:12px; color:${c}; margin-top:2px;">${p.pnl>=0?"+":""}${p.pnl.toFixed(1)}%</div>
+            </div>
           </div>`;
       });
       html += `</div>`;
