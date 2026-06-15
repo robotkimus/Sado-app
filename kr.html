@@ -1070,16 +1070,16 @@ setInterval(()=>{ if(document.visibilityState==="visible") loadKRWeather(); }, 5
 /* ===== 시장 지표 바 (공통 모듈) ===== */
 (function(){
   const MKT_ITEMS = [
+    {sym:"%5EKS11",  name:"코스피",          cat:"지수·환율", region:"국내", dec:2},
+    {sym:"%5EKQ11",  name:"코스닥",          cat:"지수·환율", region:"국내", dec:2},
     {sym:"%5EIXIC",  name:"나스닥",          cat:"지수·환율", region:"해외", dec:2},
     {sym:"%5EGSPC",  name:"S&P 500",        cat:"지수·환율", region:"해외", dec:2},
     {sym:"%5EDJI",   name:"다우존스",        cat:"지수·환율", region:"해외", dec:2},
     {sym:"%5ERUT",   name:"러셀 2000",       cat:"지수·환율", region:"해외", dec:2},
     {sym:"%5ESOX",   name:"필라델피아 반도체", cat:"지수·환율", region:"해외", dec:2},
     {sym:"%5EVIX",   name:"VIX",            cat:"지수·환율", region:"해외", dec:2},
-    {sym:"DX-Y.NYB", name:"달러 인덱스",     cat:"지수·환율", region:"해외", dec:2},
-    {sym:"%5EKS11",  name:"코스피",          cat:"지수·환율", region:"국내", dec:2},
-    {sym:"%5EKQ11",  name:"코스닥",          cat:"지수·환율", region:"국내", dec:2},
     {sym:"KRW=X",    name:"원/달러 환율",     cat:"지수·환율", region:"국내", dec:2},
+    {sym:"DX-Y.NYB", name:"달러 인덱스",     cat:"지수·환율", region:"해외", dec:2},
     {sym:"%5EIRX",   name:"미국 국채 3개월",  cat:"채권", region:"해외", dec:3, suffix:"%"},
     {sym:"%5EFVX",   name:"미국 국채 5년",    cat:"채권", region:"해외", dec:3, suffix:"%"},
     {sym:"%5ETNX",   name:"미국 국채 10년",   cat:"채권", region:"해외", dec:3, suffix:"%"},
@@ -1179,7 +1179,7 @@ setInterval(()=>{ if(document.visibilityState==="visible") loadKRWeather(); }, 5
   document.getElementById("mktKR").onclick = (e)=>{ e.stopPropagation(); mktTab="국내"; rollIdx=0;
     document.getElementById("mktKR").classList.add("on"); document.getElementById("mktUS").classList.remove("on"); renderRoll(); };
   document.getElementById("mktInline").onclick = ()=>{
-    detailCat="지수·환율"; detailFilter=mktTab; renderDetail();
+    detailCat="지수·환율"; detailFilter="전체"; renderDetail();
     document.getElementById("mktDetail").classList.add("show"); window.scrollTo(0,0);
   };
   document.getElementById("mdBack").onclick = ()=>document.getElementById("mktDetail").classList.remove("show");
