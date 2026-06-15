@@ -293,7 +293,7 @@ def ask_claude(account, positions, market, regime=None):
         "- 거래할 이유가 약하면 빈 배열로 응답 (거래 안 함이 기본값)\n\n"
         "아래 JSON 형식으로만 응답하세요. 다른 텍스트, 마크다운 백틱 금지:\n"
         '{"decisions":[{"action":"buy|sell","symbol":"JPM","qty":3,"conviction":"normal","reason":"한 문장 근거"}],'
-        '"market_view":"오늘 시장·포트폴리오 분산·레버리지 노출에 대한 한두 문장 평가"}'
+        '"market_view":"오늘 시장 국면 판단, 왜 매수/매도/관망했는지 핵심 근거, 포트폴리오 분산·레버리지·현금 비중에 대한 평가를 2~3문장으로. 나중에 사람이 봇의 판단을 복기할 수 있도록 솔직하고 구체적으로."}'
     )
     res = http_json(
         "https://api.anthropic.com/v1/messages", method="POST",
@@ -610,6 +610,46 @@ def main():
     with open("bot_status.json", "w", encoding="utf-8") as f:
         json.dump(status, f, ensure_ascii=False, indent=1)
     log("✅ [5단계] bot_status.json 저장 완료")
+
+    # ── 판단 일지 누적 (행동 분석용) ──
+    # 거래가 있었거나, market_view에 의미 있는 판단이 담겼을 때만 기록 (관망 반복은 생략해 용량 절약)
+    try:
+        if executed or (view and len(view) > 10):
+            journal = []
+            try:
+                with open("trade_journal.json", encoding="utf-8") as f:
+                    journal = json.load(f)
+            except Exception:
+                journal = []
+            # 보유 종목 요약 (평단 대비 손익)
+            pos_summary = [
+                {"sym": p["symbol"], "qty": p["qty"], "pnl_pct": p.get("pnl_pct", 0)}
+                for p in positions
+            ]
+            entry = {
+                "time": now_str,
+                "regime": (regime or {}).get("label", "?"),
+                "vix": (regime or {}).get("vix"),
+                "equity": round(float(account["equity"]), 2),
+                "cash_pct": round(float(account["cash"]) / float(account["equity"]) * 100, 1) if float(account["equity"]) else 0,
+                "trades": [
+                    {"sym": d.get("symbol"), "action": d.get("action"),
+                     "qty": d.get("qty"), "conviction": d.get("conviction", "normal"),
+                     "reason": str(d.get("reason", ""))[:100]}
+                    for d in decisions
+                ] if decisions else [],
+                "executed": executed,
+                "positions": pos_summary,
+                "market_view": view,
+            }
+            journal.append(entry)
+            # 최근 200개만 유지 (용량 관리)
+            journal = journal[-200:]
+            with open("trade_journal.json", "w", encoding="utf-8") as f:
+                json.dump(journal, f, ensure_ascii=False, indent=1)
+            log(f"📓 판단 일지 기록 (#{len(journal)})")
+    except Exception as e:
+        log(f"⚠️ 판단 일지 기록 실패: {e}")
 
     # ── 자산 히스토리 누적 (성과 추적용) ──
     try:
