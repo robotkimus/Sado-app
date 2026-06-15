@@ -1665,6 +1665,52 @@ async function loadBotStatus(){
         </div>
       </div>`;
     if(s.positions && s.positions.length){
+      // 평가액 비중 도넛 차트 (업비트 스타일)
+      const COLORS = ["#FF4D5E","#4D8CFF","#E8B454","#4DD0A0","#A78BFA","#F472B6","#38BDF8","#FB923C","#A3E635","#94A3B8"];
+      const valued = s.positions.map(p=>({
+        sym: p.symbol, qty: p.qty, pnl: p.pnl_pct,
+        avg: p.avg_cost, now: p.now||p.avg_cost,
+        val: p.qty * (p.now||p.avg_cost||0)
+      })).filter(p=>p.val>0).sort((a,b)=>b.val-a.val);
+      const totalVal = valued.reduce((s,p)=>s+p.val,0);
+      // 현금도 비중에 포함
+      const slices = valued.map((p,i)=>({...p, color:COLORS[i%COLORS.length], pct: totalVal? p.val/totalVal*100 : 0}));
+
+      if(totalVal > 0 && slices.length){
+        // 도넛 SVG
+        const R=52, r=33, cx=60, cy=60;
+        let ang = -90; // 12시 방향 시작
+        let arcs = "";
+        slices.forEach(sl=>{
+          const a0 = ang, a1 = ang + (sl.pct/100)*360; ang = a1;
+          const rad = d=>d*Math.PI/180;
+          const x0=cx+R*Math.cos(rad(a0)), y0=cy+R*Math.sin(rad(a0));
+          const x1=cx+R*Math.cos(rad(a1)), y1=cy+R*Math.sin(rad(a1));
+          const xi1=cx+r*Math.cos(rad(a1)), yi1=cy+r*Math.sin(rad(a1));
+          const xi0=cx+r*Math.cos(rad(a0)), yi0=cy+r*Math.sin(rad(a0));
+          const large = (sl.pct>50)?1:0;
+          arcs += `<path d="M${x0} ${y0} A${R} ${R} 0 ${large} 1 ${x1} ${y1} L${xi1} ${yi1} A${r} ${r} 0 ${large} 0 ${xi0} ${yi0} Z" fill="${sl.color}"/>`;
+        });
+        const legend = slices.map(sl=>`
+          <div style="display:flex; align-items:center; justify-content:space-between; gap:8px; font-size:12px; padding:3px 0;">
+            <span style="display:flex; align-items:center; gap:6px; min-width:0;">
+              <span style="width:9px; height:9px; border-radius:2px; background:${sl.color}; flex-shrink:0;"></span>
+              <span style="font-weight:700;">${sl.sym}</span>
+            </span>
+            <span style="font-weight:700; color:var(--dim);">${sl.pct.toFixed(1)}%</span>
+          </div>`).join("");
+        html += `
+          <div style="margin-top:14px; display:flex; gap:16px; align-items:center;
+                      padding:14px; background:var(--card2); border:1px solid var(--line); border-radius:14px;">
+            <svg width="120" height="120" viewBox="0 0 120 120" style="flex-shrink:0;">
+              ${arcs}
+              <text x="60" y="56" text-anchor="middle" font-size="10" fill="var(--dim)">보유비중</text>
+              <text x="60" y="70" text-anchor="middle" font-size="11" fill="var(--text)" font-weight="700">${slices.length}종목</text>
+            </svg>
+            <div style="flex:1; min-width:0;">${legend}</div>
+          </div>`;
+      }
+
       html += `<div style="margin-top:12px; display:flex; flex-direction:column; gap:6px;">`;
       s.positions.forEach(p=>{
         const c = p.pnl_pct >= 0 ? "var(--buy)" : "var(--sell)";
