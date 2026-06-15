@@ -273,6 +273,8 @@
         <div class="gauge"><div class="knob" id="knob"></div></div>
         <div class="gauge-labels"><span>매도 우위</span><span>관망</span><span>매수 우위</span></div>
         <div id="signals" style="margin-top:16px"></div>
+        <div id="comboBox" style="margin-top:16px;"></div>
+        <div id="comboAI" style="margin-top:12px;"></div>
       </div>
       <details>
         <summary>자동 불러오기가 안 되면 — CSV 직접 붙여넣기</summary>
@@ -575,6 +577,8 @@ async function loadFundamentals(sym){
       }
       verdict = {vicon, vcolor, vlabel, vmsg};
     }
+    window.lastFundaScore = (factorN >= 2) ? fScore : null;
+    window.lastFundaVerdict = verdict;
 
     const row = (label, val, hint)=>`<div style="display:flex; justify-content:space-between; padding:7px 0; border-top:1px solid var(--line); font-size:12.5px;">
       <span style="color:var(--dim);">${label}</span>
@@ -966,6 +970,7 @@ function updateWeatherHero(){
   // 접힌 제목 옆 요약: 아이콘 + 짧은 라벨
   const ws = document.getElementById("weatherSummary");
   if(ws) ws.textContent = ic + " " + lb.split(" — ")[0];
+  window.lastWeatherScore = score;   // 0~100, 종합 판정용
 
   // 비/폭풍이면 빗방울 입자 추가
   document.querySelectorAll(".wh-drop").forEach(d=>d.remove());
@@ -1405,9 +1410,138 @@ function render(res){
         ※ 과거 결과일 뿐 미래 수익을 보장하지 않아요. 수수료·세금 미반영, 종가 기준 단순 시뮬레이션이에요.</div>`;
     box.appendChild(bdiv);
   }
+  // 종합 판정 갱신 (신호+펀더멘털+시장날씨)
+  renderCombo(res);
 }
 
-/* ── 버튼 핸들러 ── */
+/* ── 종합 판정 (신호 + 펀더멘털 + 시장 날씨) ── */
+function renderCombo(res){
+  const box = document.getElementById("comboBox");
+  if(!box) return;
+  document.getElementById("comboAI").innerHTML = "";  // 새 분석 시 이전 AI 해설 비움
+
+  // 1) 신호 점수 (-5~+5) → -100~+100 스케일
+  const sigScore = Math.max(-5, Math.min(5, res.total)) / 5 * 100;
+  // 2) 펀더멘털 점수 (있으면) -5~+5 가정 → 스케일
+  const fScore = window.lastFundaScore;
+  const hasFunda = (fScore !== null && fScore !== undefined);
+  const fundaScore = hasFunda ? Math.max(-5, Math.min(5, fScore)) / 5 * 100 : null;
+  // 3) 시장 날씨 (0~100) → -100~+100
+  const wScore = window.lastWeatherScore;
+  const hasWeather = (wScore !== null && wScore !== undefined);
+  const weatherScore = hasWeather ? (wScore - 50) / 50 * 100 : null;
+
+  // 가중 평균: 신호 0.5, 펀더멘털 0.3, 날씨 0.2 (없는 건 빼고 재정규화)
+  let total = 0, wsum = 0;
+  total += sigScore * 0.5; wsum += 0.5;
+  if(hasFunda){ total += fundaScore * 0.3; wsum += 0.3; }
+  if(hasWeather){ total += weatherScore * 0.2; wsum += 0.2; }
+  const combo = total / wsum;  // -100 ~ +100
+
+  let label, color, icon, msg;
+  if(combo >= 40){ icon="▲"; color="var(--buy)"; label="매수 우위";
+    msg="신호·펀더멘털·시장 환경이 대체로 우호적이에요. 다만 분할 매수로 위험을 나누는 게 좋아요."; }
+  else if(combo >= 12){ icon="↗"; color="var(--buy)"; label="약한 매수";
+    msg="긍정 요소가 우세하지만 확신은 크지 않아요. 진입한다면 신중하게, 일부만."; }
+  else if(combo > -12){ icon="◆"; color="var(--hold)"; label="관망";
+    msg="신호가 엇갈려요. 좋은 자리를 기다리는 게 나아요. 무리한 진입은 피하세요."; }
+  else if(combo > -40){ icon="↘"; color="var(--sell)"; label="약한 매도/회피";
+    msg="부정 요소가 우세해요. 신규 진입은 보류하고, 보유 중이면 리스크 관리를 고려하세요."; }
+  else { icon="▼"; color="var(--sell)"; label="매도 우위/회피";
+    msg="여러 지표가 부정적이에요. 진입을 피하고, 보유 포지션은 방어적으로 보세요."; }
+
+  // 구성 요소 표시
+  const part = (nm, sc, on)=> on
+    ? `<span style="color:${sc>=0?'var(--buy)':'var(--sell)'};">${nm} ${sc>=0?"+":""}${Math.round(sc)}</span>`
+    : `<span style="color:var(--dim);">${nm} —</span>`;
+  const parts = [
+    part("신호", sigScore, true),
+    part("펀더", fundaScore, hasFunda),
+    part("시장", weatherScore, hasWeather),
+  ].join(' <span style="color:var(--line)">·</span> ');
+
+  box.innerHTML = `
+    <div style="padding:16px; background:color-mix(in srgb, ${color} 9%, var(--card2)); border:1px solid ${color}; border-radius:16px;">
+      <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:8px;">
+        <span style="font-size:12px; font-weight:700; color:var(--dim);">🎯 종합 판정</span>
+        <span style="font-size:18px; font-weight:800; color:${color};">${icon} ${label}</span>
+      </div>
+      <div style="font-size:12.5px; line-height:1.65; color:var(--text); margin-bottom:10px;">${msg}</div>
+      <div style="font-size:11.5px; color:var(--dim); margin-bottom:12px;">${parts}${hasFunda?"":' <span style="color:var(--dim)">(펀더멘털은 Finnhub 키 입력 시 반영)</span>'}</div>
+      <button class="btn" id="comboAIBtn" style="width:100%; font-size:13px; padding:11px;">🧠 Claude에게 종합 분석 받기</button>
+      <div style="font-size:10px; color:var(--dim); margin-top:8px; line-height:1.5;">
+        ※ 신호·펀더멘털·시장을 기계적으로 합산한 참고용이에요. 투자 권유가 아니며, 최종 판단·책임은 본인에게 있어요.</div>
+    </div>`;
+
+  document.getElementById("comboAIBtn").onclick = ()=>generateComboAI(res, {combo, label, sigScore, fundaScore, weatherScore, hasFunda, hasWeather});
+}
+
+/* ── Claude 종합 분석 ── */
+async function generateComboAI(res, combo){
+  const aiBox = document.getElementById("comboAI");
+  const key = (function(){ try{ return localStorage.getItem("anthropic_key")||""; }catch(e){ return ""; } })();
+  if(!key){
+    aiBox.innerHTML = `<div style="padding:12px 14px; background:var(--card2); border:1px solid var(--line); border-radius:12px;">
+      <div class="muted" style="margin-bottom:8px;">Claude 종합 분석을 보려면 <b style="color:var(--text)">Anthropic API 키</b>가 필요해요. (뉴스 페이지에서 입력한 그 키예요)</div>
+      <div class="row" style="margin-bottom:0;">
+        <input type="text" id="comboKey" placeholder="sk-ant-... 붙여넣기" autocapitalize="off" autocorrect="off" style="text-transform:none;">
+        <button class="btn" id="comboKeySave">저장</button>
+      </div></div>`;
+    document.getElementById("comboKeySave").onclick = ()=>{
+      const k = document.getElementById("comboKey").value.trim();
+      if(!k) return;
+      try{ localStorage.setItem("anthropic_key", k); }catch(e){}
+      generateComboAI(res, combo);
+    };
+    return;
+  }
+  aiBox.innerHTML = '<div class="muted"><span class="spin"></span> Claude가 종합 분석 중...</div>';
+
+  // 데이터 정리
+  const fv = window.lastFundaVerdict;
+  const sigList = res.sigs.map(s=>`${s.name}: ${s.d}`).join("\n");
+  const fundaText = fv ? `${fv.vlabel} — ${fv.vmsg}` : "펀더멘털 데이터 없음 (Finnhub 키 미입력 또는 ETF)";
+  const wScore = window.lastWeatherScore;
+  const weatherText = (wScore!=null) ? `시장 날씨 점수 ${Math.round(wScore)}/100 (높을수록 우호적)` : "시장 날씨 데이터 없음";
+
+  const prompt = `당신은 신중한 한국어 주식 분석가입니다. 아래는 ${current} 종목에 대한 기술적 신호, 펀더멘털, 시장 환경 데이터입니다. 이를 종합해 "지금 이 종목을 사도 될지"를 균형 있게 분석하세요.
+
+[기술적 신호] (종합 ${res.total.toFixed(1)}/5점)
+${sigList}
+
+[펀더멘털]
+${fundaText}
+
+[시장 환경]
+${weatherText}
+
+규칙:
+- 위 데이터에 있는 내용만 근거로 하세요. 없는 수치나 뉴스를 지어내지 마세요.
+- 긍정 요소와 위험 요소를 모두 짚으세요. 한쪽으로 치우치지 마세요.
+- "반드시 사라/팔라"는 단정 대신, 어떤 조건에서 유효하고 어떤 위험이 있는지 설명하세요.
+- 5~7문장. 마지막에 한 줄로 "종합 의견(신중한 관점)"을 제시하세요.
+- 존댓말. 투자 권유가 아니라 판단을 돕는 분석임을 전제로.`;
+
+  try{
+    const r = await fetch("https://api.anthropic.com/v1/messages", {
+      method:"POST",
+      headers:{"Content-Type":"application/json","x-api-key":key,"anthropic-version":"2023-06-01","anthropic-dangerous-direct-browser-access":"true"},
+      body: JSON.stringify({ model:"claude-sonnet-4-6", max_tokens:700, messages:[{role:"user", content:prompt}] }),
+      signal:AbortSignal.timeout(35000)
+    });
+    if(r.status === 401){ aiBox.innerHTML = '<div class="muted" style="color:var(--sell);">API 키가 올바르지 않아요. 뉴스 페이지에서 키를 다시 확인해주세요.</div>'; return; }
+    if(!r.ok){ aiBox.innerHTML = `<div class="muted">분석 실패 (${r.status}). 잠시 후 다시 시도해주세요.</div>`; return; }
+    const j = await r.json();
+    const text = (j.content||[]).map(c=>c.text||"").join("\n").trim();
+    aiBox.innerHTML = `<div style="padding:14px; background:var(--card2); border:1px solid var(--line); border-radius:14px;">
+      <div style="font-size:12px; font-weight:700; color:var(--dim); margin-bottom:8px;">🧠 Claude 종합 분석</div>
+      <div style="font-size:13px; line-height:1.75; white-space:pre-wrap;">${text.replace(/</g,"&lt;")}</div>
+      <div style="font-size:10px; color:var(--dim); margin-top:10px;">위 실제 지표만 근거로 한 분석이에요. 투자 권유가 아니에요.</div>
+    </div>`;
+  }catch(e){
+    aiBox.innerHTML = '<div class="muted">분석 중 오류가 났어요. 네트워크를 확인하고 다시 시도해주세요.</div>';
+  }
+}
 const analyzeBtn = document.getElementById("analyzeBtn");
 analyzeBtn.onclick = async ()=>{
   document.getElementById("err").innerHTML = "";
