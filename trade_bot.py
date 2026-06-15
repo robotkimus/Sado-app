@@ -142,6 +142,7 @@ def summarize(sym, series):
         "ma5": round(ma5, 2) if ma5 else None,
         "ma20": round(ma20, 2) if ma20 else None,
         "ma60": round(ma60, 2) if ma60 else None,
+        "disparity_ma20_pct": round((closes[-1] / ma20 - 1) * 100, 1) if ma20 else None,
         "rsi14": round(rsi, 1) if rsi else None,
         "bollinger_pos_0to1": round((closes[-1] - (ma20 - 2 * sd)) / (4 * sd), 2) if ma20 and sd else None,
         "volume_vs_20d_avg": round(vol_ratio, 2),
@@ -207,6 +208,66 @@ def assess_regime():
     return regime
 
 
+# ── 섹터 흐름(로테이션) 분석 ──
+# 주요 섹터 ETF의 상대 강도를 비교해 "돈이 어디로 도는지" 파악.
+# 개별 텐버거는 못 골라도, 주도 섹터(샌디스크式 반도체 흐름 등)는 데이터로 읽을 수 있다.
+SECTOR_ETFS = {
+    "SOXX": "반도체",
+    "XLK": "기술",
+    "QQQ": "빅테크/나스닥",
+    "XLF": "금융",
+    "XLE": "에너지",
+    "XLV": "헬스케어",
+    "XBI": "바이오",
+    "XLY": "임의소비재",
+    "XLP": "필수소비재",
+    "XLI": "산업재",
+    "XLB": "소재",
+    "XLU": "유틸리티",
+    "XLRE": "부동산",
+    "XLC": "커뮤니케이션",
+}
+
+def assess_sectors():
+    """섹터별 1개월·3개월 수익률로 상대 강도 순위를 매긴다.
+    주도 섹터(강세)와 소외 섹터(약세)를 구분해 봇이 흐름을 타게 한다."""
+    sectors = []
+    for sym, name in SECTOR_ETFS.items():
+        try:
+            bars = fetch_daily(sym)
+            closes = [r["close"] for r in bars if r.get("close")]
+            if len(closes) < 65:
+                continue
+            now = closes[-1]
+            r1m = (now / closes[-21] - 1) * 100 if len(closes) >= 21 else None   # 약 1개월(21거래일)
+            r3m = (now / closes[-63] - 1) * 100 if len(closes) >= 63 else None   # 약 3개월(63거래일)
+            ma20 = sma(closes, 20, len(closes) - 1)
+            above_ma20 = (now > ma20) if ma20 else None
+            sectors.append({
+                "sym": sym, "name": name,
+                "ret_1m_pct": round(r1m, 1) if r1m is not None else None,
+                "ret_3m_pct": round(r3m, 1) if r3m is not None else None,
+                "above_ma20": above_ma20,
+            })
+        except Exception:
+            continue
+    if not sectors:
+        return {"ranked": [], "leaders": [], "laggards": [], "summary": "섹터 데이터 수집 실패"}
+    # 1개월 수익률 기준 정렬 (없으면 3개월)
+    sectors.sort(key=lambda s: (s["ret_1m_pct"] if s["ret_1m_pct"] is not None else
+                                (s["ret_3m_pct"] if s["ret_3m_pct"] is not None else -999)), reverse=True)
+    leaders = sectors[:3]
+    laggards = sectors[-3:]
+    lead_str = ", ".join(f"{s['name']}({s['ret_1m_pct']:+.1f}%)" for s in leaders if s["ret_1m_pct"] is not None)
+    lag_str = ", ".join(f"{s['name']}({s['ret_1m_pct']:+.1f}%)" for s in laggards if s["ret_1m_pct"] is not None)
+    return {
+        "ranked": sectors,
+        "leaders": [s["sym"] for s in leaders],
+        "laggards": [s["sym"] for s in laggards],
+        "summary": f"주도 섹터: {lead_str} / 소외 섹터: {lag_str}",
+    }
+
+
 # ── 암호화폐 지원 ──
 CRYPTO = {"ETH-USD"}                     # 코인은 이더리움만 (BTC는 알파카 모의계좌 체결 문제)
 
@@ -252,6 +313,12 @@ def ask_claude(account, positions, market, regime=None):
         "- '기다리는 매매'가 가장 중요하다. 아무 때나 사지 말고, 좋은 자리가 올 때까지 기다린다. 애매하면 거래하지 않는 것이 정답.\n"
         "- 두 가지 진입 방식을 시장 국면에 맞게 골라 쓴다:\n"
         "  ① 저점매수(쌀 때 사서 비쌀 때 판다): 과매도(RSI 30 이하)·볼린저 하단·공포 극심 구간에서 역발상 매수. 단, 떨어지는 칼날 잡지 말고 하락이 멈추고 바닥 다지는 신호(거래량 동반 반등, MA5 회복) 확인 후 진입.\n"
+        "    └ 괴리율 역추세 매매 (일본 전설 트레이더 BNF 기법): 주가가 20~25일 이동평균선 대비 과도하게 아래로 벌어졌을 때(예: -10% 이상 괴리), 평균으로 되돌아오는 반등을 노린다. 단 다음 조건을 지킬 것:\n"
+        "      · 대형주·우량주 한정: 변동성 큰 잡주·소형주에는 적용 금지(망할 위험·반등 불확실). 시총 크고 펀더멘털 견고한 종목만.\n"
+        "      · 반등 신호 필수: 단지 '많이 빠졌다'가 아니라, 하락이 멈추고 돌아서는 신호(MA5 회복·거래량 동반 반등·RSI 과매도 탈출)가 확인될 때만. 괴리만 보고 사지 말 것.\n"
+        "      · 하락장/조정 국면에서는 적용 금지: 평균회귀가 깨지는 구간이라 위험. 상승장·중립 국면에서만.\n"
+        "      · 업종 확산 참고: 같은 업종 대장주가 먼저 반등하면 관련 우량주로 확산되는 경향도 함께 고려.\n"
+        "      · 각 종목 지표의 disparity_ma20_pct가 20일선 괴리율(%)이다. 음수로 크게 벌어진 우량주에서 반등 신호가 보이면 BNF식 역추세 기회로 판단하라.\n"
         "  ② 추세추종(비쌀 때 사서 더 비쌀 때 판다): 골든크로스·신고가 돌파·강한 상승추세에서 달리는 추세에 올라탐. 거래량이 뒷받침될 때만.\n"
         "- 시장 국면으로 둘 중 무엇을 쓸지 결정한다: 하락장/과매도 국면 → ①저점매수 위주(신중히). 상승장/추세 국면 → ②추세추종 위주. 혼조·불명확 → 기다림(관망).\n"
         "- 두 방식 모두 '좋은 자리를 기다린다'는 본질은 같다. 조급하게 진입하지 말 것.\n\n"
@@ -278,9 +345,13 @@ def ask_claude(account, positions, market, regime=None):
         "  ④ 하락장/조정 국면이 아닐 것: 시장 전체가 하락장이면 물타기는 위험하니 금지\n"
         "- 추가 매수도 분할로: 한 번에 평단을 다 낮추려 하지 말고, 반등 확인하며 나눠서. 추가 후에도 그 종목 합산은 포지션 한도(보통 5%, 강한확신 12%) 이내\n"
         "- 손절 우선순위가 물타기보다 높다: 추세 반전이 확인 안 되고 계속 빠지면, 물타기가 아니라 손절(-7%)을 검토. 떨어지는 칼날에 계속 돈을 넣는 건 가장 위험한 실수\n\n"
-        f"[현재 시장 국면] {json.dumps(regime, ensure_ascii=False) if regime else '판단 안 됨'}\n"
-        "  → 위 국면을 반드시 반영할 것. '하락장/조정'이나 '단기 약세'면 신규 매수를 크게 줄이고 방어·현금 우선. '상승장'이면 정상 운용.\n\n"
-        f"[계좌] 총자산 ${account['equity']}, 현금 ${account['cash']}\n"
+        f"[현재 시장 국면] {json.dumps({k:v for k,v in regime.items() if k!='sectors'}, ensure_ascii=False) if regime else '판단 안 됨'}\n"
+        "  → 위 국면을 반드시 반영할 것. '하락장/조정'이나 '단기 약세'면 신규 매수를 크게 줄이고 방어·현금 우선. '상승장'이면 정상 운용.\n"
+        + (f"[섹터 흐름] {(regime or {}).get('sectors',{}).get('summary','')}\n"
+           f"  섹터별 1·3개월 수익률: {json.dumps((regime or {}).get('sectors',{}).get('ranked',[]), ensure_ascii=False)}\n"
+           "  → 돈이 어디로 도는지(로테이션) 파악하라. 주도 섹터(강세)의 우량주에 무게를 두고, 소외 섹터는 신중히. 단, 이미 많이 오른 섹터를 뒤늦게 추격하는 건 경계(고점 매수 위험). 섹터 흐름은 '근거'로 참고하되 개별 종목 신호·펀더멘털과 함께 종합 판단할 것.\n\n"
+           if (regime or {}).get('sectors') else "\n")
+        + f"[계좌] 총자산 ${account['equity']}, 현금 ${account['cash']}\n"
         f"[보유 포지션]\n{json.dumps(positions, ensure_ascii=False, indent=1)}\n\n"
         f"[관심종목 지표]\n{json.dumps(market, ensure_ascii=False, indent=1)}\n\n"
         "규칙:\n"
@@ -561,6 +632,15 @@ def main():
     regime = assess_regime()
     log(f"✅ [3.5단계] 시장 국면: {regime.get('label')} — {regime.get('detail','')}")
 
+    # 섹터 흐름(로테이션) 분석 — 돈이 어디로 도는지
+    try:
+        sectors = assess_sectors()
+        regime["sectors"] = sectors
+        log(f"✅ [3.6단계] 섹터 흐름: {sectors.get('summary','')}")
+    except Exception as e:
+        log(f"⚠️ [3.6단계] 섹터 분석 실패: {e}")
+        regime["sectors"] = None
+
     try:
         plan = ask_claude(account, positions, market, regime)
         log("✅ [4단계] Claude 판단 수신")
@@ -629,6 +709,7 @@ def main():
             entry = {
                 "time": now_str,
                 "regime": (regime or {}).get("label", "?"),
+                "sectors": (regime or {}).get("sectors", {}).get("summary", "") if (regime or {}).get("sectors") else "",
                 "vix": (regime or {}).get("vix"),
                 "equity": round(float(account["equity"]), 2),
                 "cash_pct": round(float(account["cash"]) / float(account["equity"]) * 100, 1) if float(account["equity"]) else 0,
