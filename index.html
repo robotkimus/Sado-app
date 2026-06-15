@@ -12,9 +12,15 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <style>
   :root{
+    /* 다크 (기본) */
     --bg:#0E1320; --card:#171E2E; --card2:#1D2638; --line:#26314A;
     --text:#EDEAE3; --dim:#8B94A8;
     --buy:#FF4D5E; --sell:#4D8CFF; --hold:#E8B454;
+  }
+  [data-theme="light"]{
+    --bg:#F5F6F8; --card:#FFFFFF; --card2:#F0F2F5; --line:#E2E6EC;
+    --text:#1A1F2B; --dim:#6B7689;
+    --buy:#E03145; --sell:#2F6FE0; --hold:#C8912E;
   }
   *{box-sizing:border-box; -webkit-tap-highlight-color:transparent;}
   body{
@@ -189,11 +195,20 @@
   .md-row .mr-pv{font-size:12.5px; color:var(--dim); margin-top:2px;}
   .md-empty{color:var(--dim); font-size:14px; padding:40px 0; text-align:center;}
 </style>
+<script>
+  (function(){ try{ if(localStorage.getItem("theme")==="light") document.documentElement.classList.add("_light_pending"); }catch(e){} })();
+</script>
 </head>
 <body>
 <div class="wrap">
   <div class="eyebrow">US STOCK · LIVE SIGNAL</div>
-  <h1>오늘, 사도 될까</h1>
+  <div style="display:flex; align-items:center; justify-content:space-between; gap:10px;">
+    <h1 style="margin-bottom:12px;">오늘, 사도 될까</h1>
+    <button id="themeToggle" type="button" aria-label="테마 전환"
+      style="background:var(--card2); border:1px solid var(--line); color:var(--text);
+      width:38px; height:38px; border-radius:11px; font-size:18px; cursor:pointer;
+      flex-shrink:0; display:flex; align-items:center; justify-content:center; font-family:inherit;">🌙</button>
+  </div>
   <div class="tabs">
     <a class="tab on">🇺🇸 해외</a>
     <a class="tab" href="kr.html">🇰🇷 국내</a>
@@ -1838,6 +1853,28 @@ if ("serviceWorker" in navigator && location.protocol === "https:") {
   loadMkt();
 })();
 
+
+/* ===== 다크/화이트 테마 토글 ===== */
+(function(){
+  const KEY = "app_theme";
+  function apply(t){
+    if(t === "light") document.documentElement.setAttribute("data-theme","light");
+    else document.documentElement.removeAttribute("data-theme");
+    const btn = document.getElementById("themeToggle");
+    if(btn) btn.textContent = (t === "light") ? "☀️" : "🌙";
+    const mc = document.querySelector('meta[name="theme-color"]');
+    if(mc) mc.setAttribute("content", t === "light" ? "#F5F6F8" : "#0E1320");
+  }
+  let cur = "dark";
+  try{ cur = localStorage.getItem(KEY) || "dark"; }catch(e){}
+  apply(cur);
+  const btn = document.getElementById("themeToggle");
+  if(btn) btn.onclick = ()=>{
+    cur = (cur === "light") ? "dark" : "light";
+    try{ localStorage.setItem(KEY, cur); }catch(e){}
+    apply(cur);
+  };
+})();
 </script>
 </body>
 </html>

@@ -10,9 +10,15 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <style>
   :root{
+    /* 다크 (기본) */
     --bg:#0E1320; --card:#171E2E; --card2:#1D2638; --line:#26314A;
     --text:#EDEAE3; --dim:#8B94A8;
     --buy:#FF4D5E; --sell:#4D8CFF; --hold:#E8B454;
+  }
+  [data-theme="light"]{
+    --bg:#F5F6F8; --card:#FFFFFF; --card2:#F0F2F5; --line:#E2E6EC;
+    --text:#1A1F2B; --dim:#6B7689;
+    --buy:#E03145; --sell:#2F6FE0; --hold:#C8912E;
   }
   *{box-sizing:border-box; -webkit-tap-highlight-color:transparent;}
   body{
@@ -174,11 +180,20 @@
   .md-row .mr-pv{font-size:12.5px; color:var(--dim); margin-top:2px;}
   .md-empty{color:var(--dim); font-size:14px; padding:40px 0; text-align:center;}
 </style>
+<script>
+  (function(){ try{ if(localStorage.getItem("theme")==="light") document.documentElement.classList.add("_light_pending"); }catch(e){} })();
+</script>
 </head>
 <body>
 <div class="wrap">
   <div class="eyebrow">KR STOCK · SIGNAL</div>
-  <h1>오늘, 사도 될까</h1>
+  <div style="display:flex; align-items:center; justify-content:space-between; gap:10px;">
+    <h1 style="margin-bottom:12px;">오늘, 사도 될까</h1>
+    <button id="themeToggle" type="button" aria-label="테마 전환"
+      style="background:var(--card2); border:1px solid var(--line); color:var(--text);
+      width:38px; height:38px; border-radius:11px; font-size:18px; cursor:pointer;
+      flex-shrink:0; display:flex; align-items:center; justify-content:center; font-family:inherit;">🌙</button>
+  </div>
   <div class="tabs">
     <a class="tab" href="index.html">🇺🇸 해외</a>
     <a class="tab on">🇰🇷 국내</a>
@@ -419,7 +434,7 @@ async function loadChartOnly(){
   ctx.fillText("차트 불러오는 중...", W/2, H/2);
   try{
     const series = await fetchDailyKR(current);
-    lastRows = compute(series);
+    lastRows = compute(series); window.lastRows = lastRows;
     drawChart(lastRows);
   }catch(e){
     ctx.clearRect(0,0,W,H);
@@ -695,14 +710,17 @@ function drawChart(rows){
     if(r.ma20!=null){min=Math.min(min,r.ma20);max=Math.max(max,r.ma20);} });
   const sp=(max-min)||1; min-=sp*0.08; max+=sp*0.08;
   const ys=(v)=> pad.t + (H-pad.t-pad.b) * (1-(v-min)/(max-min));
-  ctx.strokeStyle="#26314A"; ctx.fillStyle="#8B94A8"; ctx.font="10px sans-serif"; ctx.textAlign="left";
+  const cs = getComputedStyle(document.documentElement);
+  const cLine = (cs.getPropertyValue("--line")||"#26314A").trim();
+  const cDim  = (cs.getPropertyValue("--dim")||"#8B94A8").trim();
+  ctx.strokeStyle=cLine; ctx.fillStyle=cDim; ctx.font="10px sans-serif"; ctx.textAlign="left";
   for(let g=0; g<=3; g++){
     const v=min+(max-min)*g/3, y=ys(v);
     ctx.globalAlpha=.35; ctx.beginPath(); ctx.moveTo(pad.l,y); ctx.lineTo(W-pad.r,y); ctx.stroke();
     ctx.globalAlpha=1; ctx.fillText("₩"+Math.round(v).toLocaleString(), W-pad.r+5, y+3);
   }
   // X축 날짜 라벨 (4개 균등)
-  ctx.fillStyle="#8B94A8"; ctx.font="9px sans-serif";
+  ctx.fillStyle=cDim; ctx.font="9px sans-serif";
   const nLabels = 4;
   for(let k=0; k<nLabels; k++){
     const idx = Math.round((data.length-1) * k/(nLabels-1));
@@ -713,7 +731,7 @@ function drawChart(rows){
     ctx.textAlign = k===0 ? "left" : (k===nLabels-1 ? "right" : "center");
     ctx.fillText(md, Math.max(pad.l, Math.min(W-pad.r, x)), H-7);
     // 옅은 세로 격자
-    ctx.globalAlpha=.2; ctx.strokeStyle="#26314A"; ctx.beginPath();
+    ctx.globalAlpha=.2; ctx.strokeStyle=cLine; ctx.beginPath();
     ctx.moveTo(x, pad.t); ctx.lineTo(x, H-pad.b); ctx.stroke(); ctx.globalAlpha=1;
   }
   ctx.textAlign="left";
@@ -824,7 +842,7 @@ function render(res){
     document.getElementById("sigList").insertAdjacentHTML("beforeend", btHtml);
   }
 
-  lastRows = res.rows;
+  lastRows = res.rows; window.lastRows = lastRows;
   drawChart(res.rows);
 }
 
@@ -1187,6 +1205,30 @@ setInterval(()=>{ if(document.visibilityState==="visible") loadKRWeather(); }, 5
   loadMkt();
 })();
 
+
+/* ===== 다크/화이트 테마 토글 ===== */
+(function(){
+  const KEY = "app_theme";
+  function apply(t){
+    if(t === "light") document.documentElement.setAttribute("data-theme","light");
+    else document.documentElement.removeAttribute("data-theme");
+    const btn = document.getElementById("themeToggle");
+    if(btn) btn.textContent = (t === "light") ? "☀️" : "🌙";
+    const mc = document.querySelector('meta[name="theme-color"]');
+    if(mc) mc.setAttribute("content", t === "light" ? "#F5F6F8" : "#0E1320");
+    // 캔버스 차트 다시 그리기 (색 반영)
+    try{ if(window.lastRows) drawChart(window.lastRows); }catch(e){}
+  }
+  let cur = "dark";
+  try{ cur = localStorage.getItem(KEY) || "dark"; }catch(e){}
+  apply(cur);
+  const btn = document.getElementById("themeToggle");
+  if(btn) btn.onclick = ()=>{
+    cur = (cur === "light") ? "dark" : "light";
+    try{ localStorage.setItem(KEY, cur); }catch(e){}
+    apply(cur);
+  };
+})();
 </script>
 </body>
 </html>
