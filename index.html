@@ -194,6 +194,28 @@
   .md-row .mr-pc{font-size:16px; font-weight:800;}
   .md-row .mr-pv{font-size:12.5px; color:var(--dim); margin-top:2px;}
   .md-empty{color:var(--dim); font-size:14px; padding:40px 0; text-align:center;}
+  .md-row{cursor:pointer;}
+  .md-row:active{opacity:.6;}
+  .mr-arrow{color:var(--dim); font-size:18px; flex-shrink:0; margin-left:4px;}
+  /* 지표 차트 화면 */
+  .mkt-chart{position:fixed; inset:0; background:var(--bg); z-index:95; overflow-y:auto;
+    max-width:520px; margin:0 auto; display:none;}
+  .mkt-chart.show{display:block;}
+  .mc-hd{display:flex; align-items:center; padding:18px 16px 12px;}
+  .mc-back{background:none; border:none; color:var(--text); font-size:26px; padding:0; line-height:1; font-family:inherit; cursor:pointer;}
+  .mc-top{padding:6px 20px 0;}
+  .mc-nm{font-size:15px; color:var(--dim); font-weight:700;}
+  .mc-pv{font-size:30px; font-weight:800; margin:6px 0 4px;}
+  .mc-pc{font-size:14px; font-weight:700;}
+  .mc-canvas-wrap{padding:18px 12px 4px;}
+  .mc-periods{display:flex; gap:8px; padding:8px 20px 20px;}
+  .mc-period{flex:1; padding:9px 0; border-radius:10px; font-size:13px; font-weight:700;
+    border:none; background:var(--card2); color:var(--dim); font-family:inherit; cursor:pointer;}
+  .mc-period.on{background:var(--text); color:var(--bg);}
+  .mc-info{padding:4px 20px 40px;}
+  .mc-info-row{display:flex; justify-content:space-between; padding:13px 0; border-bottom:1px solid var(--line); font-size:14px;}
+  .mc-info-row .k{color:var(--dim);}
+  .mc-info-row .v{font-weight:700;}
 </style>
 <script>
   (function(){ try{ if(localStorage.getItem("theme")==="light") document.documentElement.classList.add("_light_pending"); }catch(e){} })();
@@ -233,6 +255,19 @@
     <div class="md-cats" id="mdCats"></div>
     <div class="md-chips" id="mdChips"></div>
     <div class="md-rows" id="mdRows"></div>
+  </div>
+
+  <!-- 지표 차트 화면 (공통) -->
+  <div class="mkt-chart" id="mktChart">
+    <div class="mc-hd"><button class="mc-back" id="mcBack" type="button">‹</button></div>
+    <div class="mc-top">
+      <div class="mc-nm" id="mcNm">—</div>
+      <div class="mc-pv" id="mcPv">—</div>
+      <div class="mc-pc" id="mcPc">—</div>
+    </div>
+    <div class="mc-canvas-wrap"><canvas id="mcCanvas" style="width:100%; height:240px;"></canvas></div>
+    <div class="mc-periods" id="mcPeriods"></div>
+    <div class="mc-info" id="mcInfo"></div>
   </div>
 
 
@@ -1830,15 +1865,98 @@ if ("serviceWorker" in navigator && location.protocol === "https:") {
     items.forEach(it=>{
       const c = col(it.up);
       const chg = it.cat==="채권" ? (it.up?"+":"")+it.diff.toFixed(3) : (it.up?"+":"")+it.pc.toFixed(2)+"%";
-      rows += '<div class="md-row"><div class="mr-info"><div class="mr-nm">'+it.name+'</div>'
+      rows += '<div class="md-row" data-sym="'+it.sym+'"><div class="mr-info"><div class="mr-nm">'+it.name+'</div>'
         +'<div class="mr-sub">'+(CAT_SUB[it.cat]||"")+' · '+(it.region)+'</div></div>'
         +'<div class="mr-pr"><span class="mr-pc" style="color:'+c+'">'+chg+'</span>'
-        +'<span class="mr-pv">'+fmtVal(it)+'</span></div></div>';
+        +'<span class="mr-pv">'+fmtVal(it)+'</span></div><span class="mr-arrow">›</span></div>';
     });
     document.getElementById("mdRows").innerHTML = rows;
     document.querySelectorAll(".md-cat").forEach(b=>b.onclick=()=>{ detailCat=b.dataset.cat; detailFilter="전체"; renderDetail(); });
     document.querySelectorAll(".md-chip").forEach(b=>b.onclick=()=>{ detailFilter=b.dataset.f; renderDetail(); });
+    document.querySelectorAll(".md-row").forEach(r=>r.onclick=()=>{
+      const it = mktData.find(d=>d.sym===r.dataset.sym);
+      if(it) openChart(it);
+    });
   }
+
+  /* ── 지표 차트 ── */
+  let chartItem = null, chartPeriod = "1mo";
+  const PERIODS = [["5d","1주"],["1mo","1달"],["3mo","3달"],["1y","1년"],["5y","5년"]];
+
+  async function openChart(it){
+    chartItem = it; chartPeriod = "1mo";
+    document.getElementById("mcNm").textContent = it.name;
+    document.getElementById("mcPv").textContent = fmtVal(it);
+    const c = col(it.up);
+    const chg = it.cat==="채권" ? (it.up?"+":"")+it.diff.toFixed(3) : (it.up?"+":"")+it.pc.toFixed(2)+"%";
+    const pcEl = document.getElementById("mcPc");
+    pcEl.textContent = (it.up?"▲ ":"▼ ")+chg+" (어제보다)"; pcEl.style.color = c;
+    document.getElementById("mcPeriods").innerHTML =
+      PERIODS.map(p=>'<button class="mc-period '+(p[0]===chartPeriod?"on":"")+'" data-p="'+p[0]+'">'+p[1]+'</button>').join("");
+    document.querySelectorAll(".mc-period").forEach(b=>b.onclick=()=>{ chartPeriod=b.dataset.p;
+      document.querySelectorAll(".mc-period").forEach(x=>x.classList.toggle("on",x.dataset.p===chartPeriod)); drawChart(); });
+    document.getElementById("mktChart").classList.add("show");
+    window.scrollTo(0,0);
+    drawChart();
+  }
+
+  async function drawChart(){
+    const it = chartItem; if(!it) return;
+    const cv = document.getElementById("mcCanvas");
+    const info = document.getElementById("mcInfo");
+    info.innerHTML = '<div class="muted" style="padding:20px 0; text-align:center;">차트 불러오는 중…</div>';
+    const intvMap = {"5d":"15m","1mo":"1d","3mo":"1d","1y":"1d","5y":"1wk"};
+    const j = await mbFetch("https://query1.finance.yahoo.com/v8/finance/chart/"+it.sym+"?range="+chartPeriod+"&interval="+(intvMap[chartPeriod]||"1d"));
+    const r = j && j.chart && j.chart.result && j.chart.result[0];
+    if(!r || !r.timestamp){ info.innerHTML = '<div class="muted" style="padding:20px 0; text-align:center;">이 지표는 과거 데이터를 불러오지 못했어요.</div>'; clearCanvas(cv); return; }
+    const closes = r.indicators.quote[0].close.map((v,i)=>v).filter(v=>v!=null);
+    const ts = r.timestamp;
+    if(closes.length < 2){ info.innerHTML = '<div class="muted" style="padding:20px 0; text-align:center;">데이터가 부족해요.</div>'; clearCanvas(cv); return; }
+    renderLine(cv, closes, it);
+    // 시세 정보
+    const meta = r.meta || {};
+    const hi = Math.max(...closes), lo = Math.min(...closes), open0 = closes[0];
+    const f = (n)=> (it.prefix||"")+n.toLocaleString(undefined,{maximumFractionDigits:it.dec})+(it.suffix||"");
+    info.innerHTML =
+      '<div class="mc-info-row"><span class="k">기간 시작</span><span class="v">'+f(open0)+'</span></div>'+
+      '<div class="mc-info-row"><span class="k">기간 고가</span><span class="v">'+f(hi)+'</span></div>'+
+      '<div class="mc-info-row"><span class="k">기간 저가</span><span class="v">'+f(lo)+'</span></div>'+
+      '<div class="mc-info-row"><span class="k">현재가</span><span class="v">'+fmtVal(it)+'</span></div>';
+  }
+
+  function clearCanvas(cv){ const x=cv.getContext("2d"); x.clearRect(0,0,cv.width,cv.height); }
+
+  function renderLine(cv, data, it){
+    const dpr = window.devicePixelRatio || 1;
+    const W = cv.clientWidth, H = 240;
+    cv.width = W*dpr; cv.height = H*dpr;
+    const ctx = cv.getContext("2d"); ctx.scale(dpr,dpr);
+    ctx.clearRect(0,0,W,H);
+    const pad = {l:8, r:8, t:14, b:14};
+    const min = Math.min(...data), max = Math.max(...data);
+    const range = (max-min)||1;
+    const xs = i => pad.l + (W-pad.l-pad.r) * (i/(data.length-1));
+    const ys = v => pad.t + (H-pad.t-pad.b) * (1-(v-min)/range);
+    const up = data[data.length-1] >= data[0];
+    const cssVar = (n)=>getComputedStyle(document.body).getPropertyValue(n).trim()||"#888";
+    const line = up ? cssVar("--buy") : cssVar("--sell");
+    // 영역 그라데이션
+    const grad = ctx.createLinearGradient(0,pad.t,0,H-pad.b);
+    grad.addColorStop(0, line+"33"); grad.addColorStop(1, line+"00");
+    ctx.beginPath(); ctx.moveTo(xs(0), ys(data[0]));
+    data.forEach((v,i)=>ctx.lineTo(xs(i), ys(v)));
+    ctx.lineTo(xs(data.length-1), H-pad.b); ctx.lineTo(xs(0), H-pad.b); ctx.closePath();
+    ctx.fillStyle = grad; ctx.fill();
+    // 라인
+    ctx.beginPath(); ctx.moveTo(xs(0), ys(data[0]));
+    data.forEach((v,i)=>ctx.lineTo(xs(i), ys(v)));
+    ctx.strokeStyle = line; ctx.lineWidth = 2; ctx.lineJoin="round"; ctx.stroke();
+    // 끝점
+    ctx.beginPath(); ctx.arc(xs(data.length-1), ys(data[data.length-1]), 3.5, 0, Math.PI*2);
+    ctx.fillStyle = line; ctx.fill();
+  }
+
+  document.getElementById("mcBack").onclick = ()=>document.getElementById("mktChart").classList.remove("show");
 
   document.getElementById("mktUS").onclick = (e)=>{ e.stopPropagation(); mktTab="해외"; rollIdx=0;
     document.getElementById("mktUS").classList.add("on"); document.getElementById("mktKR").classList.remove("on"); renderRoll(); };
