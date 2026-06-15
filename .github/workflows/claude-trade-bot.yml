@@ -23,6 +23,7 @@ jobs:
           ALPACA_API_KEY: ${{ secrets.ALPACA_API_KEY }}
           ALPACA_SECRET_KEY: ${{ secrets.ALPACA_SECRET_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
         run: python3 -u trade_bot.py
       - name: 봇 상태를 앱에 반영 (커밋)
