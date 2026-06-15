@@ -1,13 +1,7 @@
 name: claude-trade-bot
 
 on:
-  schedule:
-    # 미국 주식 정규장 (한국 평일 밤~새벽)
-    - cron: '0 14 * * 1-5'
-    - cron: '0 17 * * 1-5'
-    - cron: '0 19 * * 1-5'
-    # 코인(ETH) — 매시간 (24시간, 매일)
-    - cron: '0 * * * *'
+  # 실행은 cron-job.org가 매시간 정각에 workflow_dispatch로 트리거 (GitHub cron은 지연이 심해 사용 안 함)
   workflow_dispatch:
 
 permissions:
