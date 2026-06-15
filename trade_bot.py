@@ -641,7 +641,7 @@ def main():
         msg = (f"⚠️ 미체결 주문이 {n_open}건 쌓여 있어요. 구매력이 잠겨 신규 주문을 보류합니다.\n"
                "reset-account 워크플로로 주문을 정리한 뒤 다시 실행하세요.")
         log(msg)
-        send_push("🤖 Claude 봇 — 주문 보류", msg, True)
+        send_push("🤝 컨센서스 봇 — 주문 보류", msg, True)
         return 0
     positions = []
     for p in positions_raw:
@@ -694,7 +694,7 @@ def main():
     log(f"✅ [3단계] 시세 확보 {len(market)}/{len(targets)} 종목")
 
     if not market:
-        send_push("🤖 Claude 봇 — 실행 실패", "시세를 하나도 못 가져왔어요.", True)
+        send_push("🤝 컨센서스 봇 — 실행 실패", "시세를 하나도 못 가져왔어요.", True)
         return 1
 
     # 시장 전체 국면 판단 (하락장 대응용)
@@ -715,7 +715,7 @@ def main():
         log("✅ [4단계] Claude 판단 수신")
     except Exception as e:
         log(f"❌ [4단계] Claude 판단 실패: {e}")
-        send_push("🤖 Claude 봇 — 판단 실패", f"Claude API 오류: {e}", True)
+        send_push("🤝 컨센서스 봇 — 판단 실패", f"AI API 오류: {e}", True)
         return 1
 
     decisions = plan.get("decisions", [])
@@ -736,9 +736,9 @@ def main():
     now_str = datetime.datetime.now(kst).strftime("%Y-%m-%d %H:%M")
 
     if executed:
-        title = f"🚨 Claude 봇 거래 발생! {len(executed)}건 체결"
+        title = f"🚨 컨센서스 봇 거래 발생! {len(executed)}건 체결"
     else:
-        title = "🤖 Claude 봇: 이번엔 관망 (거래 없음)"
+        title = "🤝 컨센서스 봇: 이번엔 관망 (거래 없음)"
     log(title)
     log(body)
     send_push(title, body, bool(executed))
