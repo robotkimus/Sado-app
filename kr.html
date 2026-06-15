@@ -187,8 +187,8 @@
   <!-- 시장 지표 바 (공통) -->
   <button class="mktbar" id="mktInline" type="button">
     <span class="mb-tabs">
-      <span class="mb-tab on" id="mktUS">미국</span>
-      <span class="mb-tab" id="mktKR">국내</span>
+      <span class="mb-tab" id="mktUS">미국</span>
+      <span class="mb-tab on" id="mktKR">국내</span>
     </span>
     <span class="mb-roll" id="mktRoll"><span class="nm">시장</span><span class="vl">불러오는 중…</span></span>
     <span class="mb-chev">›</span>
@@ -1097,7 +1097,7 @@ setInterval(()=>{ if(document.visibilityState==="visible") loadKRWeather(); }, 5
   const MKT_CATS = ["지수·환율","채권","원자재","가상자산"];
   const CAT_SUB = {"지수·환율":"지수","채권":"채권금리","원자재":"원자재","가상자산":"가상자산"};
   let mktData = [];
-  let mktTab = "해외", rollIdx = 0, rollTimer = null;
+  let mktTab = "국내", rollIdx = 0, rollTimer = null;
   let detailCat = "지수·환율", detailFilter = "전체";
 
   function mbFetch(url){
