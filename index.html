@@ -146,6 +146,48 @@
   .wval{font-size:18px; font-weight:800; margin-top:4px; font-variant-numeric:tabular-nums;}
   .wchg{font-size:11.5px; font-weight:700; margin-left:6px;}
   .wmsg{font-size:11px; margin-top:5px; line-height:1.45; color:var(--dim);}
+  /* === 시장 지표 바 (공통) === */
+  .mktbar{display:flex; align-items:center; gap:10px; width:100%;
+    background:var(--card2); border:1px solid var(--line); border-radius:12px;
+    padding:10px 13px; color:inherit; text-align:left; margin-bottom:12px; cursor:pointer;
+    font-family:inherit;}
+  .mktbar .mb-tabs{display:flex; gap:4px; flex-shrink:0;}
+  .mktbar .mb-tab{font-size:11px; font-weight:700; color:var(--dim); padding:3px 8px;
+    border-radius:7px; background:transparent; border:none; font-family:inherit; cursor:pointer;}
+  .mktbar .mb-tab.on{background:var(--card); color:var(--text);}
+  .mktbar .mb-roll{display:flex; align-items:baseline; gap:8px; flex:1; min-width:0;
+    transition:opacity .22s ease, transform .22s ease; overflow:hidden;}
+  .mb-roll .nm{font-size:12.5px; font-weight:700; color:var(--dim); white-space:nowrap;}
+  .mb-roll .vl{font-size:15px; font-weight:800; white-space:nowrap;}
+  .mb-roll .ar{font-size:12px; font-weight:700; white-space:nowrap;}
+  .mktbar .mb-chev{color:var(--dim); font-size:16px; flex-shrink:0;}
+  /* 상세 화면 (오버레이) */
+  .mkt-detail{position:fixed; inset:0; background:var(--bg); z-index:90; overflow-y:auto;
+    max-width:520px; margin:0 auto; display:none;}
+  .mkt-detail.show{display:block;}
+  .md-hd{display:flex; align-items:center; padding:18px 16px 12px; position:sticky; top:0;
+    background:var(--bg); z-index:2;}
+  .md-back{background:none; border:none; color:var(--text); font-size:26px; padding:0; line-height:1;
+    font-family:inherit; cursor:pointer;}
+  .md-title{flex:1; text-align:center; font-size:17px; font-weight:700; margin-right:26px;}
+  .md-cats{display:flex; gap:20px; padding:0 18px; border-bottom:1px solid var(--line);
+    position:sticky; top:50px; background:var(--bg); z-index:2; overflow-x:auto;}
+  .md-cat{background:none; border:none; padding:9px 0 11px; font-size:15px; font-weight:600;
+    color:var(--dim); border-bottom:2.5px solid transparent; white-space:nowrap; font-family:inherit; cursor:pointer;}
+  .md-cat.on{font-weight:800; color:var(--text); border-bottom-color:var(--text);}
+  .md-chips{display:flex; gap:8px; padding:13px 18px 4px;}
+  .md-chip{padding:7px 16px; border-radius:999px; font-size:13px; font-weight:700; border:none;
+    background:transparent; color:var(--dim); font-family:inherit; cursor:pointer;}
+  .md-chip.on{background:var(--card2); color:var(--text);}
+  .md-rows{padding:4px 18px 48px;}
+  .md-row{display:flex; align-items:center; gap:13px; padding:16px 0; border-bottom:1px solid var(--line);}
+  .md-row .mr-info{flex:1; min-width:0;}
+  .md-row .mr-nm{font-size:16px; font-weight:800; color:var(--text);}
+  .md-row .mr-sub{font-size:11.5px; color:var(--dim); margin-top:2px;}
+  .md-row .mr-pr{display:flex; flex-direction:column; align-items:flex-end;}
+  .md-row .mr-pc{font-size:16px; font-weight:800;}
+  .md-row .mr-pv{font-size:12.5px; color:var(--dim); margin-top:2px;}
+  .md-empty{color:var(--dim); font-size:14px; padding:40px 0; text-align:center;}
 </style>
 </head>
 <body>
@@ -157,6 +199,27 @@
     <a class="tab" href="kr.html">🇰🇷 국내</a>
     <a class="tab" href="news.html">📰 뉴스</a>
   </div>
+  <!-- 시장 지표 바 (공통) -->
+  <button class="mktbar" id="mktInline" type="button">
+    <span class="mb-tabs">
+      <span class="mb-tab on" id="mktUS">미국</span>
+      <span class="mb-tab" id="mktKR">국내</span>
+    </span>
+    <span class="mb-roll" id="mktRoll"><span class="nm">시장</span><span class="vl">불러오는 중…</span></span>
+    <span class="mb-chev">›</span>
+  </button>
+
+  <!-- 시장 지표 상세 화면 (공통) -->
+  <div class="mkt-detail" id="mktDetail">
+    <div class="md-hd">
+      <button class="md-back" id="mdBack" type="button">‹</button>
+      <div class="md-title">주요 지표</div>
+    </div>
+    <div class="md-cats" id="mdCats"></div>
+    <div class="md-chips" id="mdChips"></div>
+    <div class="md-rows" id="mdRows"></div>
+  </div>
+
 
   <div class="chips" id="chips"></div>
   <div class="row" style="position:relative;">
@@ -1521,6 +1584,126 @@ loadBotStatus();
 if ("serviceWorker" in navigator && location.protocol === "https:") {
   navigator.serviceWorker.register("sw.js").catch(()=>{});
 }
+/* ===== 시장 지표 바 (공통 모듈) ===== */
+(function(){
+  const MKT_ITEMS = [
+    {sym:"%5EIXIC",  name:"나스닥",          cat:"지수·환율", region:"해외", dec:2},
+    {sym:"%5EGSPC",  name:"S&P 500",        cat:"지수·환율", region:"해외", dec:2},
+    {sym:"%5EDJI",   name:"다우존스",        cat:"지수·환율", region:"해외", dec:2},
+    {sym:"%5ERUT",   name:"러셀 2000",       cat:"지수·환율", region:"해외", dec:2},
+    {sym:"%5ESOX",   name:"필라델피아 반도체", cat:"지수·환율", region:"해외", dec:2},
+    {sym:"%5EVIX",   name:"VIX",            cat:"지수·환율", region:"해외", dec:2},
+    {sym:"DX-Y.NYB", name:"달러 인덱스",     cat:"지수·환율", region:"해외", dec:2},
+    {sym:"%5EKS11",  name:"코스피",          cat:"지수·환율", region:"국내", dec:2},
+    {sym:"%5EKQ11",  name:"코스닥",          cat:"지수·환율", region:"국내", dec:2},
+    {sym:"KRW=X",    name:"원/달러 환율",     cat:"지수·환율", region:"국내", dec:2},
+    {sym:"%5EIRX",   name:"미국 국채 3개월",  cat:"채권", region:"해외", dec:3, suffix:"%"},
+    {sym:"%5EFVX",   name:"미국 국채 5년",    cat:"채권", region:"해외", dec:3, suffix:"%"},
+    {sym:"%5ETNX",   name:"미국 국채 10년",   cat:"채권", region:"해외", dec:3, suffix:"%"},
+    {sym:"%5ETYX",   name:"미국 국채 30년",   cat:"채권", region:"해외", dec:3, suffix:"%"},
+    {sym:"GC=F",     name:"금",             cat:"원자재", region:"해외", dec:1},
+    {sym:"SI=F",     name:"은",             cat:"원자재", region:"해외", dec:2},
+    {sym:"HG=F",     name:"구리",           cat:"원자재", region:"해외", dec:3},
+    {sym:"CL=F",     name:"WTI 유가",        cat:"원자재", region:"해외", dec:2},
+    {sym:"NG=F",     name:"천연가스",        cat:"원자재", region:"해외", dec:3},
+    {sym:"BTC-USD",  name:"비트코인",        cat:"가상자산", region:"해외", dec:0, prefix:"$"},
+    {sym:"ETH-USD",  name:"이더리움",        cat:"가상자산", region:"해외", dec:0, prefix:"$"},
+    {sym:"XRP-USD",  name:"리플",           cat:"가상자산", region:"해외", dec:3, prefix:"$"},
+    {sym:"SOL-USD",  name:"솔라나",          cat:"가상자산", region:"해외", dec:2, prefix:"$"},
+  ];
+  const MKT_CATS = ["지수·환율","채권","원자재","가상자산"];
+  const CAT_SUB = {"지수·환율":"지수","채권":"채권금리","원자재":"원자재","가상자산":"가상자산"};
+  let mktData = [];
+  let mktTab = "해외", rollIdx = 0, rollTimer = null;
+  let detailCat = "지수·환율", detailFilter = "전체";
+
+  function mbFetch(url){
+    const enc = encodeURIComponent(url);
+    const proxies = [url, "https://corsproxy.io/?url="+enc, "https://api.allorigins.win/raw?url="+enc];
+    return (async ()=>{
+      for(const u of proxies){
+        try{ const r = await fetch(u, {signal:AbortSignal.timeout(8000)}); if(r.ok) return await r.json(); }catch(e){}
+      }
+      return null;
+    })();
+  }
+  function fmtVal(it){
+    const num = it.v.toLocaleString(undefined,{minimumFractionDigits:it.dec, maximumFractionDigits:it.dec});
+    return (it.prefix||"") + num + (it.suffix||"");
+  }
+  const col = up => up ? "var(--buy)" : "var(--sell)";
+
+  async function loadMkt(){
+    await Promise.all(MKT_ITEMS.map(async it=>{
+      const j = await mbFetch("https://query1.finance.yahoo.com/v8/finance/chart/"+it.sym+"?range=5d&interval=1d");
+      const m = j && j.chart && j.chart.result && j.chart.result[0] && j.chart.result[0].meta;
+      if(m && isFinite(m.regularMarketPrice)){
+        const now = m.regularMarketPrice, prev = (m.chartPreviousClose!=null?m.chartPreviousClose:now);
+        it.v = now; it.pc = prev ? ((now/prev)-1)*100 : 0; it.diff = now-prev; it.up = (now-prev)>=0;
+        mktData.push(it);
+      }
+    }));
+    // 전역으로 노출 (Claude 해설용)
+    window.mktData = mktData;
+    renderRoll();
+  }
+
+  function rollList(){ return mktData.filter(d=>d.cat==="지수·환율" && d.region===mktTab); }
+  function rollHTML(it){
+    return '<span class="nm">'+it.name+'</span><span class="vl">'+fmtVal(it)+'</span>'
+      +'<span class="ar" style="color:'+col(it.up)+'">'+(it.up?"▲":"▼")+' '+(it.up?"+":"")+it.pc.toFixed(2)+'%</span>';
+  }
+  function renderRoll(){
+    const roll = document.getElementById("mktRoll");
+    const list = rollList();
+    if(!roll) return;
+    if(!list.length){ roll.innerHTML = '<span class="nm">시장</span><span class="vl" style="color:var(--dim)">데이터 없음</span>'; return; }
+    rollIdx = rollIdx % list.length;
+    roll.innerHTML = rollHTML(list[rollIdx]);
+    clearInterval(rollTimer);
+    rollTimer = setInterval(()=>{
+      const r = document.getElementById("mktRoll"), l = rollList();
+      if(!r || !l.length){ clearInterval(rollTimer); return; }
+      r.style.opacity="0"; r.style.transform="translateY(-5px)";
+      setTimeout(()=>{ rollIdx=(rollIdx+1)%l.length; r.innerHTML=rollHTML(l[rollIdx]);
+        r.style.opacity="1"; r.style.transform="translateY(0)"; },220);
+    },3000);
+  }
+
+  function renderDetail(){
+    const items = mktData.filter(d=>d.cat===detailCat && (detailFilter==="전체"||d.region===detailFilter));
+    document.getElementById("mdCats").innerHTML =
+      MKT_CATS.map(c=>'<button class="md-cat '+(c===detailCat?"on":"")+'" data-cat="'+c+'">'+c+'</button>').join("");
+    document.getElementById("mdChips").innerHTML =
+      ["전체","국내","해외"].map(f=>'<button class="md-chip '+(f===detailFilter?"on":"")+'" data-f="'+f+'">'+f+'</button>').join("");
+    let rows = "";
+    if(!items.length) rows = '<div class="md-empty">해당 지표가 없어요. (무료로 못 받는 항목일 수 있어요)</div>';
+    items.forEach(it=>{
+      const c = col(it.up);
+      const chg = it.cat==="채권" ? (it.up?"+":"")+it.diff.toFixed(3) : (it.up?"+":"")+it.pc.toFixed(2)+"%";
+      rows += '<div class="md-row"><div class="mr-info"><div class="mr-nm">'+it.name+'</div>'
+        +'<div class="mr-sub">'+(CAT_SUB[it.cat]||"")+' · '+(it.region)+'</div></div>'
+        +'<div class="mr-pr"><span class="mr-pc" style="color:'+c+'">'+chg+'</span>'
+        +'<span class="mr-pv">'+fmtVal(it)+'</span></div></div>';
+    });
+    document.getElementById("mdRows").innerHTML = rows;
+    document.querySelectorAll(".md-cat").forEach(b=>b.onclick=()=>{ detailCat=b.dataset.cat; detailFilter="전체"; renderDetail(); });
+    document.querySelectorAll(".md-chip").forEach(b=>b.onclick=()=>{ detailFilter=b.dataset.f; renderDetail(); });
+  }
+
+  document.getElementById("mktUS").onclick = (e)=>{ e.stopPropagation(); mktTab="해외"; rollIdx=0;
+    document.getElementById("mktUS").classList.add("on"); document.getElementById("mktKR").classList.remove("on"); renderRoll(); };
+  document.getElementById("mktKR").onclick = (e)=>{ e.stopPropagation(); mktTab="국내"; rollIdx=0;
+    document.getElementById("mktKR").classList.add("on"); document.getElementById("mktUS").classList.remove("on"); renderRoll(); };
+  document.getElementById("mktInline").onclick = ()=>{
+    detailCat="지수·환율"; detailFilter=mktTab; renderDetail();
+    document.getElementById("mktDetail").classList.add("show"); window.scrollTo(0,0);
+  };
+  document.getElementById("mdBack").onclick = ()=>document.getElementById("mktDetail").classList.remove("show");
+
+  loadMkt();
+})();
+
 </script>
 </body>
 </html>

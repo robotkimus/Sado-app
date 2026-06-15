@@ -58,6 +58,49 @@
   @keyframes sp{to{transform:rotate(360deg)}}
   .dartrow{display:flex; gap:8px; margin-bottom:12px;}
   .dartrow input{font-size:12px; padding:9px 11px;}
+
+  /* === 시장 지표 바 (공통) === */
+  .mktbar{display:flex; align-items:center; gap:10px; width:100%;
+    background:var(--card2); border:1px solid var(--line); border-radius:12px;
+    padding:10px 13px; color:inherit; text-align:left; margin-bottom:12px; cursor:pointer;
+    font-family:inherit;}
+  .mktbar .mb-tabs{display:flex; gap:4px; flex-shrink:0;}
+  .mktbar .mb-tab{font-size:11px; font-weight:700; color:var(--dim); padding:3px 8px;
+    border-radius:7px; background:transparent; border:none; font-family:inherit; cursor:pointer;}
+  .mktbar .mb-tab.on{background:var(--card); color:var(--text);}
+  .mktbar .mb-roll{display:flex; align-items:baseline; gap:8px; flex:1; min-width:0;
+    transition:opacity .22s ease, transform .22s ease; overflow:hidden;}
+  .mb-roll .nm{font-size:12.5px; font-weight:700; color:var(--dim); white-space:nowrap;}
+  .mb-roll .vl{font-size:15px; font-weight:800; white-space:nowrap;}
+  .mb-roll .ar{font-size:12px; font-weight:700; white-space:nowrap;}
+  .mktbar .mb-chev{color:var(--dim); font-size:16px; flex-shrink:0;}
+  /* 상세 화면 (오버레이) */
+  .mkt-detail{position:fixed; inset:0; background:var(--bg); z-index:90; overflow-y:auto;
+    max-width:520px; margin:0 auto; display:none;}
+  .mkt-detail.show{display:block;}
+  .md-hd{display:flex; align-items:center; padding:18px 16px 12px; position:sticky; top:0;
+    background:var(--bg); z-index:2;}
+  .md-back{background:none; border:none; color:var(--text); font-size:26px; padding:0; line-height:1;
+    font-family:inherit; cursor:pointer;}
+  .md-title{flex:1; text-align:center; font-size:17px; font-weight:700; margin-right:26px;}
+  .md-cats{display:flex; gap:20px; padding:0 18px; border-bottom:1px solid var(--line);
+    position:sticky; top:50px; background:var(--bg); z-index:2; overflow-x:auto;}
+  .md-cat{background:none; border:none; padding:9px 0 11px; font-size:15px; font-weight:600;
+    color:var(--dim); border-bottom:2.5px solid transparent; white-space:nowrap; font-family:inherit; cursor:pointer;}
+  .md-cat.on{font-weight:800; color:var(--text); border-bottom-color:var(--text);}
+  .md-chips{display:flex; gap:8px; padding:13px 18px 4px;}
+  .md-chip{padding:7px 16px; border-radius:999px; font-size:13px; font-weight:700; border:none;
+    background:transparent; color:var(--dim); font-family:inherit; cursor:pointer;}
+  .md-chip.on{background:var(--card2); color:var(--text);}
+  .md-rows{padding:4px 18px 48px;}
+  .md-row{display:flex; align-items:center; gap:13px; padding:16px 0; border-bottom:1px solid var(--line);}
+  .md-row .mr-info{flex:1; min-width:0;}
+  .md-row .mr-nm{font-size:16px; font-weight:800; color:var(--text);}
+  .md-row .mr-sub{font-size:11.5px; color:var(--dim); margin-top:2px;}
+  .md-row .mr-pr{display:flex; flex-direction:column; align-items:flex-end;}
+  .md-row .mr-pc{font-size:16px; font-weight:800;}
+  .md-row .mr-pv{font-size:12.5px; color:var(--dim); margin-top:2px;}
+  .md-empty{color:var(--dim); font-size:14px; padding:40px 0; text-align:center;}
 </style>
 </head>
 <body>
@@ -66,6 +109,16 @@
     <span>NEWS · DISCLOSURE</span>
   </div>
   <h1>오늘, 사도 될까</h1>
+
+  <!-- 시장 지표 바 (공통) -->
+  <button class="mktbar" id="mktInline" type="button">
+    <span class="mb-tabs">
+      <span class="mb-tab on" id="mktUS">미국</span>
+      <span class="mb-tab" id="mktKR">국내</span>
+    </span>
+    <span class="mb-roll" id="mktRoll"><span class="nm">시장</span><span class="vl">불러오는 중…</span></span>
+    <span class="mb-chev">›</span>
+  </button>
 
   <!-- 탭 메뉴 -->
   <div class="tabs">
@@ -86,11 +139,10 @@
     <button class="btn" id="goBtn">검색</button>
   </div>
 
-  <!-- 오늘의 시장 요약 -->
+  <!-- Claude 시황 해설 -->
   <div class="card" id="summaryCard">
-    <div class="sec-title">📊 오늘의 시장 요약</div>
-    <div id="summaryData"><div class="muted"><span class="spin"></span> 시장 데이터 불러오는 중...</div></div>
-    <div id="summaryAI" style="margin-top:12px;"></div>
+    <div class="sec-title">🧠 Claude 시황 해설</div>
+    <div id="summaryAI" style="margin-top:4px;"></div>
     <div id="aiKeyRow" style="display:none; margin-top:10px;">
       <div class="muted" style="margin-bottom:8px;">
         Claude 해설을 보려면 <b style="color:var(--text)">Anthropic API 키</b>를 입력하세요. (console.anthropic.com에서 발급, sk-ant-로 시작)
@@ -100,7 +152,18 @@
         <button class="btn" id="saveAnthropic">저장</button>
       </div>
     </div>
-    <button class="btn" id="aiBtn" style="width:100%; margin-top:10px; display:none;">🧠 Claude 해설 보기</button>
+    <button class="btn" id="aiBtn" style="width:100%; margin-top:10px;">🧠 Claude 해설 보기</button>
+  </div>
+
+  <!-- 시장 지표 상세 화면 -->
+  <div class="mkt-detail" id="mktDetail">
+    <div class="md-hd">
+      <button class="md-back" id="mdBack">‹</button>
+      <div class="md-title">주요 지표</div>
+    </div>
+    <div class="md-cats" id="mdCats"></div>
+    <div class="md-chips" id="mdChips"></div>
+    <div class="md-rows" id="mdRows"></div>
   </div>
 
   <!-- DART 키 (국내일 때만 표시) -->
@@ -314,71 +377,126 @@ dk.addEventListener("change", ()=>setDartKey(dk.value.trim()));
 function getAnthropicKey(){ try{ return localStorage.getItem("anthropic_key")||""; }catch(e){ return window._ak||""; } }
 function setAnthropicKey(k){ try{ localStorage.setItem("anthropic_key", k); }catch(e){ window._ak = k; } }
 
-let marketSummaryData = null;
-
-async function sumFetch(url){
-  const enc = encodeURIComponent(url);
-  const proxies = [
-    url,
-    `https://corsproxy.io/?url=${enc}`,
-    `https://api.allorigins.win/raw?url=${enc}`,
+/* ===== 시장 지표 바 (공통 모듈) ===== */
+(function(){
+  const MKT_ITEMS = [
+    {sym:"%5EIXIC",  name:"나스닥",          cat:"지수·환율", region:"해외", dec:2},
+    {sym:"%5EGSPC",  name:"S&P 500",        cat:"지수·환율", region:"해외", dec:2},
+    {sym:"%5EDJI",   name:"다우존스",        cat:"지수·환율", region:"해외", dec:2},
+    {sym:"%5ERUT",   name:"러셀 2000",       cat:"지수·환율", region:"해외", dec:2},
+    {sym:"%5ESOX",   name:"필라델피아 반도체", cat:"지수·환율", region:"해외", dec:2},
+    {sym:"%5EVIX",   name:"VIX",            cat:"지수·환율", region:"해외", dec:2},
+    {sym:"DX-Y.NYB", name:"달러 인덱스",     cat:"지수·환율", region:"해외", dec:2},
+    {sym:"%5EKS11",  name:"코스피",          cat:"지수·환율", region:"국내", dec:2},
+    {sym:"%5EKQ11",  name:"코스닥",          cat:"지수·환율", region:"국내", dec:2},
+    {sym:"KRW=X",    name:"원/달러 환율",     cat:"지수·환율", region:"국내", dec:2},
+    {sym:"%5EIRX",   name:"미국 국채 3개월",  cat:"채권", region:"해외", dec:3, suffix:"%"},
+    {sym:"%5EFVX",   name:"미국 국채 5년",    cat:"채권", region:"해외", dec:3, suffix:"%"},
+    {sym:"%5ETNX",   name:"미국 국채 10년",   cat:"채권", region:"해외", dec:3, suffix:"%"},
+    {sym:"%5ETYX",   name:"미국 국채 30년",   cat:"채권", region:"해외", dec:3, suffix:"%"},
+    {sym:"GC=F",     name:"금",             cat:"원자재", region:"해외", dec:1},
+    {sym:"SI=F",     name:"은",             cat:"원자재", region:"해외", dec:2},
+    {sym:"HG=F",     name:"구리",           cat:"원자재", region:"해외", dec:3},
+    {sym:"CL=F",     name:"WTI 유가",        cat:"원자재", region:"해외", dec:2},
+    {sym:"NG=F",     name:"천연가스",        cat:"원자재", region:"해외", dec:3},
+    {sym:"BTC-USD",  name:"비트코인",        cat:"가상자산", region:"해외", dec:0, prefix:"$"},
+    {sym:"ETH-USD",  name:"이더리움",        cat:"가상자산", region:"해외", dec:0, prefix:"$"},
+    {sym:"XRP-USD",  name:"리플",           cat:"가상자산", region:"해외", dec:3, prefix:"$"},
+    {sym:"SOL-USD",  name:"솔라나",          cat:"가상자산", region:"해외", dec:2, prefix:"$"},
   ];
-  for(const u of proxies){
-    try{
-      const res = await fetch(u, {signal:AbortSignal.timeout(8000)});
-      if(res.ok) return await res.json();
-    }catch(e){}
-  }
-  return null;
-}
+  const MKT_CATS = ["지수·환율","채권","원자재","가상자산"];
+  const CAT_SUB = {"지수·환율":"지수","채권":"채권금리","원자재":"원자재","가상자산":"가상자산"};
+  let mktData = [];
+  let mktTab = "해외", rollIdx = 0, rollTimer = null;
+  let detailCat = "지수·환율", detailFilter = "전체";
 
-async function loadMarketSummary(){
-  const box = document.getElementById("summaryData");
-  // 야후 심볼: 지수·국채·달러·금·유가
-  const items = [
-    {key:"sp",   sym:"%5EGSPC", name:"S&P 500",   dec:2},
-    {key:"dow",  sym:"%5EDJI",  name:"다우",       dec:2},
-    {key:"nq",   sym:"%5EIXIC", name:"나스닥",     dec:2},
-    {key:"rut",  sym:"%5ERUT",  name:"러셀2000",   dec:2},
-    {key:"tnx",  sym:"%5ETNX",  name:"10년 국채",  dec:3, suffix:"%"},
-    {key:"dxy",  sym:"DX-Y.NYB",name:"달러인덱스", dec:2},
-    {key:"gold", sym:"GC=F",    name:"금",         dec:1},
-    {key:"wti",  sym:"CL=F",    name:"WTI 유가",   dec:2},
-  ];
-  const results = {};
-  await Promise.all(items.map(async it=>{
-    const j = await sumFetch(`https://query1.finance.yahoo.com/v8/finance/chart/${it.sym}?range=2d&interval=1d`);
-    const m = j?.chart?.result?.[0]?.meta;
-    if(m && isFinite(m.regularMarketPrice)){
-      const now = m.regularMarketPrice, prev = m.chartPreviousClose ?? now;
-      results[it.key] = { v: now, pc: prev ? ((now/prev)-1)*100 : 0, name: it.name, dec: it.dec, suffix: it.suffix||"" };
-    }
-  }));
-  marketSummaryData = results;
-
-  // 표 렌더
-  const order = ["sp","dow","nq","rut","tnx","dxy","gold","wti"];
-  let rows = "";
-  order.forEach(k=>{
-    const r = results[k];
-    if(!r){ return; }
-    const up = r.pc >= 0;
-    const c = up ? "var(--buy)" : "var(--sell)";
-    const arrow = up ? "▲" : "▼";
-    rows += `<div style="display:flex; justify-content:space-between; padding:8px 0; border-top:1px solid var(--line); font-size:13px;">
-      <span style="color:var(--dim); font-weight:700;">${r.name}</span>
-      <span style="font-weight:700; font-variant-numeric:tabular-nums;">
-        ${r.v.toLocaleString(undefined,{minimumFractionDigits:r.dec, maximumFractionDigits:r.dec})}${r.suffix}
-        <span style="color:${c}; margin-left:6px;">${arrow} ${up?"+":""}${r.pc.toFixed(2)}%</span>
-      </span></div>`;
-  });
-  if(rows){
-    box.innerHTML = rows;
-    document.getElementById("aiBtn").style.display = "block";
-  } else {
-    box.innerHTML = '<div class="muted">시장 데이터를 불러오지 못했어요. 잠시 후 다시 시도해주세요. (주말·휴장 중엔 전일 종가가 표시돼요)</div>';
+  function mbFetch(url){
+    const enc = encodeURIComponent(url);
+    const proxies = [url, "https://corsproxy.io/?url="+enc, "https://api.allorigins.win/raw?url="+enc];
+    return (async ()=>{
+      for(const u of proxies){
+        try{ const r = await fetch(u, {signal:AbortSignal.timeout(8000)}); if(r.ok) return await r.json(); }catch(e){}
+      }
+      return null;
+    })();
   }
-}
+  function fmtVal(it){
+    const num = it.v.toLocaleString(undefined,{minimumFractionDigits:it.dec, maximumFractionDigits:it.dec});
+    return (it.prefix||"") + num + (it.suffix||"");
+  }
+  const col = up => up ? "var(--buy)" : "var(--sell)";
+
+  async function loadMkt(){
+    await Promise.all(MKT_ITEMS.map(async it=>{
+      const j = await mbFetch("https://query1.finance.yahoo.com/v8/finance/chart/"+it.sym+"?range=5d&interval=1d");
+      const m = j && j.chart && j.chart.result && j.chart.result[0] && j.chart.result[0].meta;
+      if(m && isFinite(m.regularMarketPrice)){
+        const now = m.regularMarketPrice, prev = (m.chartPreviousClose!=null?m.chartPreviousClose:now);
+        it.v = now; it.pc = prev ? ((now/prev)-1)*100 : 0; it.diff = now-prev; it.up = (now-prev)>=0;
+        mktData.push(it);
+      }
+    }));
+    // 전역으로 노출 (Claude 해설용)
+    window.mktData = mktData;
+    renderRoll();
+  }
+
+  function rollList(){ return mktData.filter(d=>d.cat==="지수·환율" && d.region===mktTab); }
+  function rollHTML(it){
+    return '<span class="nm">'+it.name+'</span><span class="vl">'+fmtVal(it)+'</span>'
+      +'<span class="ar" style="color:'+col(it.up)+'">'+(it.up?"▲":"▼")+' '+(it.up?"+":"")+it.pc.toFixed(2)+'%</span>';
+  }
+  function renderRoll(){
+    const roll = document.getElementById("mktRoll");
+    const list = rollList();
+    if(!roll) return;
+    if(!list.length){ roll.innerHTML = '<span class="nm">시장</span><span class="vl" style="color:var(--dim)">데이터 없음</span>'; return; }
+    rollIdx = rollIdx % list.length;
+    roll.innerHTML = rollHTML(list[rollIdx]);
+    clearInterval(rollTimer);
+    rollTimer = setInterval(()=>{
+      const r = document.getElementById("mktRoll"), l = rollList();
+      if(!r || !l.length){ clearInterval(rollTimer); return; }
+      r.style.opacity="0"; r.style.transform="translateY(-5px)";
+      setTimeout(()=>{ rollIdx=(rollIdx+1)%l.length; r.innerHTML=rollHTML(l[rollIdx]);
+        r.style.opacity="1"; r.style.transform="translateY(0)"; },220);
+    },3000);
+  }
+
+  function renderDetail(){
+    const items = mktData.filter(d=>d.cat===detailCat && (detailFilter==="전체"||d.region===detailFilter));
+    document.getElementById("mdCats").innerHTML =
+      MKT_CATS.map(c=>'<button class="md-cat '+(c===detailCat?"on":"")+'" data-cat="'+c+'">'+c+'</button>').join("");
+    document.getElementById("mdChips").innerHTML =
+      ["전체","국내","해외"].map(f=>'<button class="md-chip '+(f===detailFilter?"on":"")+'" data-f="'+f+'">'+f+'</button>').join("");
+    let rows = "";
+    if(!items.length) rows = '<div class="md-empty">해당 지표가 없어요. (무료로 못 받는 항목일 수 있어요)</div>';
+    items.forEach(it=>{
+      const c = col(it.up);
+      const chg = it.cat==="채권" ? (it.up?"+":"")+it.diff.toFixed(3) : (it.up?"+":"")+it.pc.toFixed(2)+"%";
+      rows += '<div class="md-row"><div class="mr-info"><div class="mr-nm">'+it.name+'</div>'
+        +'<div class="mr-sub">'+(CAT_SUB[it.cat]||"")+' · '+(it.region)+'</div></div>'
+        +'<div class="mr-pr"><span class="mr-pc" style="color:'+c+'">'+chg+'</span>'
+        +'<span class="mr-pv">'+fmtVal(it)+'</span></div></div>';
+    });
+    document.getElementById("mdRows").innerHTML = rows;
+    document.querySelectorAll(".md-cat").forEach(b=>b.onclick=()=>{ detailCat=b.dataset.cat; detailFilter="전체"; renderDetail(); });
+    document.querySelectorAll(".md-chip").forEach(b=>b.onclick=()=>{ detailFilter=b.dataset.f; renderDetail(); });
+  }
+
+  document.getElementById("mktUS").onclick = (e)=>{ e.stopPropagation(); mktTab="해외"; rollIdx=0;
+    document.getElementById("mktUS").classList.add("on"); document.getElementById("mktKR").classList.remove("on"); renderRoll(); };
+  document.getElementById("mktKR").onclick = (e)=>{ e.stopPropagation(); mktTab="국내"; rollIdx=0;
+    document.getElementById("mktKR").classList.add("on"); document.getElementById("mktUS").classList.remove("on"); renderRoll(); };
+  document.getElementById("mktInline").onclick = ()=>{
+    detailCat="지수·환율"; detailFilter=mktTab; renderDetail();
+    document.getElementById("mktDetail").classList.add("show"); window.scrollTo(0,0);
+  };
+  document.getElementById("mdBack").onclick = ()=>document.getElementById("mktDetail").classList.remove("show");
+
+  loadMkt();
+})();
+
 
 async function generateAICommentary(){
   const aiBox = document.getElementById("summaryAI");
@@ -387,13 +505,19 @@ async function generateAICommentary(){
     document.getElementById("aiKeyRow").style.display = "block";
     return;
   }
-  if(!marketSummaryData){ return; }
+  const md = window.mktData || [];
+  if(!md.length){ aiBox.innerHTML = '<div class="muted">시장 데이터를 아직 못 불러왔어요. 잠시 후 다시 시도해주세요.</div>'; return; }
   aiBox.innerHTML = '<div class="muted"><span class="spin"></span> 뉴스 수집 + Claude 해설 작성 중...</div>';
 
   // 데이터를 텍스트로 정리 (Claude에게 진짜 숫자만 전달)
-  const d = marketSummaryData;
-  const fmt = (r)=> r ? `${r.name} ${r.v.toLocaleString(undefined,{maximumFractionDigits:r.dec})}${r.suffix} (${r.pc>=0?"+":""}${r.pc.toFixed(2)}%)` : "";
-  const dataText = ["sp","dow","nq","rut","tnx","dxy","gold","wti"].map(k=>fmt(d[k])).filter(Boolean).join("\n");
+  const pick = (n)=> md.find(x=>x.name===n);
+  const d = {
+    sp:pick("S&P 500"), dow:pick("다우존스"), nq:pick("나스닥"), rut:pick("러셀 2000"),
+    tnx:pick("미국 국채 10년"), dxy:pick("달러 인덱스"), gold:pick("금"), wti:pick("WTI 유가"),
+    vix:pick("VIX"), kospi:pick("코스피"),
+  };
+  const fmt = (r)=> r ? `${r.name} ${r.v.toLocaleString(undefined,{maximumFractionDigits:r.dec})}${r.suffix||""} (${r.pc>=0?"+":""}${r.pc.toFixed(2)}%)` : "";
+  const dataText = ["sp","dow","nq","rut","tnx","dxy","gold","wti","vix","kospi"].map(k=>fmt(d[k])).filter(Boolean).join("\n");
 
   // 거시경제 뉴스 헤드라인 수집 (여러 키워드, 되는 만큼만)
   let headlines = [];
@@ -486,7 +610,6 @@ document.getElementById("aiBtn").onclick = generateAICommentary;
 
 /* 초기화 */
 setMarket("US");
-loadMarketSummary();
 
 </script>
 </body>
