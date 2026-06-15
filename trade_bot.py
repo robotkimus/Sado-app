@@ -30,7 +30,11 @@ UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.3
 
 # ── 안전장치 ──
 MAX_TRADES_PER_RUN = 5          # 한 번 실행에 최대 주문 수
-MAX_POSITION_PCT = 0.05         # 한 종목 신규 매수 한도: 총자산의 5%
+MAX_POSITION_PCT = 0.05         # 한 종목 신규 매수 한도: 총자산의 5% (기본)
+MAX_POSITION_HIGH = 0.12        # 강한 확신 시 최대 한도: 12% (일반주, 하락장 제외)
+MAX_POSITION_LEV = 0.08         # 레버리지: 확신 시 최대 8% (3배 변동이라 일반주보다 낮게)
+LEVERAGE_TICKERS = {"TQQQ", "SOXL", "UPRO", "QLD", "TNA", "FNGU", "TECL", "LABU", "NVDL", "TSLL"}
+INVERSE_TICKERS = {"SQQQ", "SOXS", "SH", "SDS"}
 MIN_CASH_BUFFER_PCT = 0.10      # 현금 10%는 항상 남김
 
 
@@ -254,7 +258,7 @@ def ask_claude(account, positions, market, regime=None):
         "포트폴리오 구조 (중요):\n"
         "- 코어: M7(AAPL/MSFT/NVDA/GOOGL/AMZN/META/TSLA)과 기술 ETF(IGV/SOXX/SMH/QQQ)를 성장 축으로 운용\n"
         "- 분산: 금융·헬스케어·에너지·소비재·안전자산(GLD/TLT)에도 나눠 담아 한 섹터 쏠림을 피할 것\n"
-        "- 레버리지(TQQQ/SOXL/UPRO/QLD): 상승 추세가 명확할 때만 단기 전술용으로. 레버리지+인버스 합산 평가액은 총자산의 15%를 절대 넘기지 말 것\n"
+        "- 레버리지(TQQQ/SOXL/UPRO/QLD/TNA/FNGU/TECL/LABU/NVDL/TSLL): 3배 변동이라 위험. 상승 추세가 명확할 때만 단기 전술용으로. 확신이 강하면 종목당 최대 8%까지, 아니면 5% 이내. 레버리지+인버스 합산 평가액은 총자산의 15%를 절대 넘기지 말 것\n"
         "- 인버스(SQQQ/SOXS/SH/SDS): 지수가 20일선 아래로 꺾이는 등 하락 신호가 분명할 때 헤지용으로만. 같은 15% 한도 적용\n"
         "- 레버리지·인버스는 변동성 잠식이 있으니 보유가 길어지거나 근거가 사라지면 우선 정리 대상\n"
         "- RSI 과매도 + 볼린저 하단 같은 '싸게 살 기회' 역발상도 적극 활용\n- 암호화폐(BTC-USD/ETH-USD): 시험 운용 중. 변동성이 매우 크니 합산 평가액 총자산 5% 이내, 소수점 수량 사용 가능 (예: 0.02)\n\n"
@@ -272,12 +276,15 @@ def ask_claude(account, positions, market, regime=None):
         f"[보유 포지션]\n{json.dumps(positions, ensure_ascii=False, indent=1)}\n\n"
         f"[관심종목 지표]\n{json.dumps(market, ensure_ascii=False, indent=1)}\n\n"
         "규칙:\n"
-        f"- 주문은 최대 {MAX_TRADES_PER_RUN}건, 신규 매수는 종목당 총자산의 {int(MAX_POSITION_PCT*100)}% 이내\n"
+        f"- 신규 매수 한도(종목당 총자산 대비): 확신이 보통이면 {int(MAX_POSITION_PCT*100)}%, 확신이 강하면 최대 {int(MAX_POSITION_HIGH*100)}%, 확신이 약하면 3% 이내\n"
+        "- 각 주문에 \"conviction\" 필드를 넣으세요: \"high\"(강한 확신) | \"normal\"(보통) | \"low\"(시험적). 신호·펀더멘털·시장국면이 모두 우호적이고 자리가 분명할 때만 high.\n"
+        "- high(큰 포지션)는 신중히: 한 종목에 자산을 크게 싣는 건 위험합니다. 정말 확신이 설 때만, 그리고 분할로 나눠 사세요(한 번에 한도를 다 채우지 말고 여러 번에 걸쳐).\n"
+        "- 인버스 종목과 하락장·조정 국면에서는 conviction과 무관하게 5% 이내로 제한됩니다(시스템이 강제). 레버리지는 확신이 강할 때만 최대 8%.\n"
         "- 매수는 관심종목 내에서만, 매도는 보유 종목만, 공매도 금지\n"
         "- 손실 중인 포지션이 -7% 이하면 손절을 적극 검토 (레버리지는 -5%)\n"
         "- 거래할 이유가 약하면 빈 배열로 응답 (거래 안 함이 기본값)\n\n"
         "아래 JSON 형식으로만 응답하세요. 다른 텍스트, 마크다운 백틱 금지:\n"
-        '{"decisions":[{"action":"buy|sell","symbol":"JPM","qty":3,"reason":"한 문장 근거"}],'
+        '{"decisions":[{"action":"buy|sell","symbol":"JPM","qty":3,"conviction":"normal","reason":"한 문장 근거"}],'
         '"market_view":"오늘 시장·포트폴리오 분산·레버리지 노출에 대한 한두 문장 평가"}'
     )
     res = http_json(
@@ -298,7 +305,7 @@ def ask_claude(account, positions, market, regime=None):
 STOCK_MARKET_OPEN = True  # main에서 매 실행마다 갱신
 
 
-def execute(decisions, account, positions, market):
+def execute(decisions, account, positions, market, regime=None):
     equity = float(account["equity"])
     cash = float(account["cash"])
     held = {p["symbol"]: float(p["qty"]) for p in positions}
@@ -313,16 +320,41 @@ def execute(decisions, account, positions, market):
             qty = 0
         action = d.get("action")
         reason = str(d.get("reason", ""))[:120]
+        conviction = str(d.get("conviction", "normal")).lower()  # high | normal | low
         if qty <= 0 or sym not in prices:
             results.append(f"⛔ {sym} 건너뜀 (잘못된 주문)")
             continue
         cost = qty * prices[sym]
         if action == "buy":
-            if cost > equity * MAX_POSITION_PCT:
-                qty = round(equity * MAX_POSITION_PCT / prices[sym], 6 if crypto else 4)
+            # 포지션 한도 결정 (확신도 차등)
+            #  - 인버스(SQQQ 등): 항상 5% 고정 (헤지용)
+            #  - 하락장/조정: 차등 없이 5% (방어)
+            #  - 레버리지(TQQQ 등): 확신 강하면 최대 8%, 아니면 5% (3배 변동이라 일반주보다 낮게)
+            #  - 일반주 강한 확신(high): 최대 12% / 보통: 5% / 약함(low): 3%
+            is_lev = sym in LEVERAGE_TICKERS
+            is_inv = sym in INVERSE_TICKERS
+            regime_label = (regime or {}).get("label", "")
+            defensive = regime_label in ("하락장/조정", "단기 약세")
+            if is_inv or defensive:
+                pos_cap = MAX_POSITION_PCT                              # 5%
+            elif is_lev:
+                pos_cap = MAX_POSITION_LEV if conviction == "high" else MAX_POSITION_PCT  # 8% or 5%
+            elif conviction == "high":
+                pos_cap = MAX_POSITION_HIGH                             # 12%
+            elif conviction == "low":
+                pos_cap = 0.03                                          # 3%
+            else:
+                pos_cap = MAX_POSITION_PCT                              # 5%
+
+            # 이미 보유 중이면, 합산이 한도를 넘지 않게 (분할 매수 누적 방지)
+            held_val = held.get(sym, 0) * prices[sym]
+            max_total = equity * pos_cap
+            room = max(0, max_total - held_val)
+            if cost > room:
+                qty = round(room / prices[sym], 6 if crypto else 4)
                 cost = qty * prices[sym]
             if qty <= 0 or cost > cash - equity * MIN_CASH_BUFFER_PCT:
-                results.append(f"⛔ {sym} 매수 보류 (현금 한도)")
+                results.append(f"⛔ {sym} 매수 보류 (현금/한도)")
                 continue
             side = "buy"
         elif action == "sell":
@@ -531,7 +563,7 @@ def main():
 
     decisions = plan.get("decisions", [])
     view = plan.get("market_view", "")
-    results = execute(decisions, account, positions, market) if decisions else []
+    results = execute(decisions, account, positions, market, regime) if decisions else []
 
     pos_line = ", ".join(f"{p['symbol']} {p['pnl_pct']:+.1f}%" for p in positions) or "없음"
     body_parts = [f"💼 총자산 ${float(account['equity']):,.0f} · 보유: {pos_line}"]

@@ -65,11 +65,17 @@ QQQ
 XLK
 VGT
 
-# ── 레버리지 (전술용 · 총자산 15% 이내) ──
+# ── 레버리지 (전술용 · 종목당 8% 이내, 상승추세 명확할 때만) ──
 TQQQ
 SOXL
 UPRO
 QLD
+TNA
+FNGU
+TECL
+LABU
+NVDL
+TSLL
 
 # ── 인버스 (하락 헤지용 · 총자산 15% 이내) ──
 SQQQ
