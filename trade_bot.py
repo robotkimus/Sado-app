@@ -23,6 +23,7 @@ def log(*args):
 ALPACA_KEY = os.environ.get("ALPACA_API_KEY", "").strip()
 ALPACA_SECRET = os.environ.get("ALPACA_SECRET_KEY", "").strip()
 ANTHROPIC_KEY = os.environ.get("ANTHROPIC_API_KEY", "").strip()
+DEEPSEEK_KEY = os.environ.get("DEEPSEEK_API_KEY", "").strip()
 NTFY_TOPIC = os.environ.get("NTFY_TOPIC", "").strip()
 
 ALPACA_BASE = "https://paper-api.alpaca.markets"  # 모의계좌 전용 (변경 금지)
@@ -373,11 +374,79 @@ def ask_claude(account, positions, market, regime=None):
         body={"model": "claude-sonnet-4-6", "max_tokens": 1500,
               "messages": [{"role": "user", "content": prompt}]})
     text = "".join(b.get("text", "") for b in res.get("content", []))
-    text = text.replace("```json", "").replace("```", "").strip()
+    claude_plan = _parse_ai_json(text, "Claude")
+
+    # ── DeepSeek 파트너 호출 (합의 방식) ──
+    # DeepSeek이 독립적으로 판단 → 둘 다 동의한 매수만 실행. 손절은 한쪽만 원해도 실행(방어 우선).
+    # DeepSeek 오류 시 Claude 단독으로 진행.
+    if not DEEPSEEK_KEY:
+        log("ℹ️ DeepSeek 키 없음 → Claude 단독 운용")
+        return claude_plan
+    try:
+        ds_res = http_json(
+            "https://api.deepseek.com/chat/completions", method="POST",
+            headers={"Authorization": f"Bearer {DEEPSEEK_KEY}",
+                     "content-type": "application/json"},
+            body={"model": "deepseek-chat", "max_tokens": 1500,
+                  "messages": [{"role": "user", "content": prompt}]})
+        ds_text = ds_res.get("choices", [{}])[0].get("message", {}).get("content", "")
+        deepseek_plan = _parse_ai_json(ds_text, "DeepSeek")
+        log("✅ DeepSeek 판단 수신 — 합의 방식 적용")
+        return _consensus(claude_plan, deepseek_plan)
+    except Exception as e:
+        log(f"⚠️ DeepSeek 호출 실패 ({e}) → Claude 단독으로 진행")
+        return claude_plan
+
+
+def _parse_ai_json(text, who):
+    """AI 응답에서 JSON 추출."""
+    text = (text or "").replace("```json", "").replace("```", "").strip()
     start, end = text.find("{"), text.rfind("}")
     if start == -1 or end == -1:
-        raise ValueError("Claude 응답에 JSON이 없음: " + text[:200])
+        raise ValueError(f"{who} 응답에 JSON이 없음: " + text[:200])
     return json.loads(text[start:end + 1])
+
+
+def _consensus(claude_plan, deepseek_plan):
+    """두 AI 판단을 합의: 둘 다 동의한 매수만 실행, 손절은 한쪽이라도 원하면 실행."""
+    c_dec = claude_plan.get("decisions", []) or []
+    d_dec = deepseek_plan.get("decisions", []) or []
+
+    def key(x):
+        return (str(x.get("symbol", "")).upper(), str(x.get("action", "")).lower())
+
+    c_map = {key(x): x for x in c_dec}
+    d_set = {key(x) for x in d_dec}
+
+    merged = []
+    consensus_log = []
+    for k, x in c_map.items():
+        sym, action = k
+        if action == "sell":
+            # 매도(손절)는 Claude가 원하면 실행 (방어 우선)
+            merged.append(x); consensus_log.append(f"{sym} 매도(Claude)")
+        elif action == "buy":
+            if k in d_set:
+                # 둘 다 매수 동의 → 실행 (수량은 더 보수적인 쪽=작은 쪽)
+                d_x = next((y for y in d_dec if key(y) == k), None)
+                try:
+                    cq = float(x.get("qty", 0)); dq = float(d_x.get("qty", 0)) if d_x else cq
+                    x = dict(x); x["qty"] = min(cq, dq)  # 보수적으로 작은 수량
+                except Exception:
+                    pass
+                merged.append(x); consensus_log.append(f"{sym} 매수(합의)")
+            else:
+                consensus_log.append(f"{sym} 매수 보류(Claude만)")
+    # DeepSeek만 원한 매도(손절)도 방어 차원에서 실행
+    for y in d_dec:
+        sym, action = key(y)
+        if action == "sell" and (sym, "sell") not in c_map:
+            merged.append(y); consensus_log.append(f"{sym} 매도(DeepSeek)")
+
+    view = "🤝 합의: " + (", ".join(consensus_log) if consensus_log else "거래 없음") + \
+           " | Claude: " + claude_plan.get("market_view", "")[:200] + \
+           " | DeepSeek: " + deepseek_plan.get("market_view", "")[:200]
+    return {"decisions": merged, "market_view": view}
 
 
 # ── 주문 검증 + 실행 ──
