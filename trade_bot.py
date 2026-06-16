@@ -565,7 +565,7 @@ def ask_claude(account, positions, market, regime=None, session="regular"):
         "- 거래할 이유가 약하면 빈 배열로 응답 (거래 안 함이 기본값)\n\n"
         "아래 JSON 형식으로만 응답하세요. 다른 텍스트, 마크다운 백틱 금지:\n"
         '{"decisions":[{"action":"buy|sell","symbol":"JPM","qty":3,"conviction":"normal","tier":"core","reason":"한 문장 근거"}],'
-        '"market_view":"오늘 시장 국면 판단, 왜 매수/매도/관망했는지 핵심 근거, 포트폴리오 분산·레버리지·현금 비중에 대한 평가를 2~3문장으로. 나중에 사람이 봇의 판단을 복기할 수 있도록 솔직하고 구체적으로."}'
+        '"market_view":"오늘 시장 국면 판단, 왜 매수/매도/관망했는지 핵심 근거, 포트폴리오 분산·레버리지·현금 비중에 대한 평가를 3~5문장으로 충분히. 나중에 사람이 봇의 판단을 복기할 수 있도록 솔직하고 구체적으로. 다만 마지막 문장은 반드시 마침표로 끝맺을 것."}'
     )
     res = http_json(
         "https://api.anthropic.com/v1/messages", method="POST",
@@ -607,17 +607,24 @@ def _parse_ai_json(text, who):
     return json.loads(text[start:end + 1])
 
 
-def _clip_sentence(text, limit=400):
+def _clip_sentence(text, limit=1000):
     """알림/표시용으로 길이를 제한하되 문장 중간에서 안 끊기게.
-    limit를 넘으면 그 안의 마지막 문장 종결부호(. ! ? 까지)에서 깔끔하게 자른다.
-    적당한 종결부호가 없으면 말줄임표를 붙인다."""
-    if not text or len(text) <= limit:
+    limit를 넉넉히 두어 평소엔 거의 안 자르고, 넘칠 때만 마지막 문장
+    종결부호(. ! ? 까지)에서 깔끔하게 자른다. 종결부호가 없으면 말줄임표."""
+    if not text:
+        return text
+    text = text.rstrip()
+    if len(text) <= limit:
         return text
     cut = text[:limit]
     idx = max(cut.rfind("."), cut.rfind("!"), cut.rfind("?"),
               cut.rfind("。"), cut.rfind("…"))
     if idx > limit * 0.5:          # 너무 앞에서 끊기면 차라리 말줄임
         return cut[:idx + 1]
+    # 종결부호 못 찾음: 마지막 공백까지만 잘라 단어/이모지 조각이 남지 않게
+    sp = cut.rfind(" ")
+    if sp > limit * 0.6:
+        cut = cut[:sp]
     return cut.rstrip() + "…"
 
 
