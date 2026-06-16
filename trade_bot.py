@@ -841,6 +841,32 @@ def _prev_last_trade_time():
         return None
 
 
+def _parse_positions(positions_raw):
+    """알파카 raw 포지션을 앱·프롬프트용 형식으로 변환."""
+    out = []
+    for p in positions_raw:
+        try:
+            out.append({
+                "symbol": normalize_position_symbol(p.get("symbol", "")),
+                "qty": float(p.get("qty", 0)),
+                "avg_cost": float(p.get("avg_entry_price", 0)),
+                "now": float(p.get("current_price", 0) or p.get("avg_entry_price", 0)),
+                "pnl_pct": round(float(p.get("unrealized_plpc", 0)) * 100, 1),
+            })
+        except Exception as e:
+            log(f"⚠️ 포지션 파싱 오류 ({p.get('symbol','?')}): {e}")
+    return out
+
+
+def fetch_positions():
+    """알파카 포지션을 조회해 파싱까지. 실패 시 빈 리스트."""
+    try:
+        return _parse_positions(alpaca("/v2/positions"))
+    except Exception as e:
+        log(f"⚠️ 포지션 조회 실패: {e}")
+        return []
+
+
 def main():
     # ── 0단계: 시크릿 존재 확인 ──
     missing = [n for n, v in [("ALPACA_API_KEY", ALPACA_KEY),
@@ -923,18 +949,7 @@ def main():
         log(msg)
         send_push("🤝 컨센서스 봇 — 주문 보류", msg, True)
         return 0
-    positions = []
-    for p in positions_raw:
-        try:
-            positions.append({
-                "symbol": normalize_position_symbol(p.get("symbol", "")),
-                "qty": float(p.get("qty", 0)),
-                "avg_cost": float(p.get("avg_entry_price", 0)),
-                "now": float(p.get("current_price", 0) or p.get("avg_entry_price", 0)),
-                "pnl_pct": round(float(p.get("unrealized_plpc", 0)) * 100, 1),
-            })
-        except Exception as e:
-            log(f"⚠️ 포지션 파싱 오류 ({p.get('symbol','?')}): {e}")
+    positions = _parse_positions(positions_raw)
 
     # 미국장 마감 시에는 코인만 수집 (주식은 어차피 보류되므로 헛수집·크레딧 절약)
     if not STOCK_MARKET_OPEN:
@@ -1012,6 +1027,22 @@ def main():
     view = plan.get("market_view", "")
     results = execute(decisions, account, positions, market, regime) if decisions else []
 
+    # 체결(⛔ 제외)이 있었으면 포지션을 재조회해 '매도 전 스냅샷'이 아닌 최신 상태를 반영.
+    # (예전엔 execute 전에 조회한 positions를 그대로 저장해, 방금 판 종목이 포트폴리오에
+    #  남아 다음 실행에야 빠지는 '늦은 업데이트' 버그가 있었음.)
+    executed = [r for r in results if not r.startswith("⛔")]
+    if executed:
+        time.sleep(3)  # 시장가 체결이 알파카에 반영될 시간을 잠깐 줌
+        refreshed = fetch_positions()
+        if refreshed or not positions:
+            positions = refreshed
+        # 계좌(현금·총자산)도 체결 반영해 다시 조회
+        try:
+            account = alpaca("/v2/account")
+        except Exception as e:
+            log(f"⚠️ 계좌 재조회 실패(기존 값 유지): {e}")
+        log(f"🔄 체결 반영 후 포지션 재조회: {len(positions)}개")
+
     pos_line = ", ".join(f"{p['symbol']} {p['pnl_pct']:+.1f}%" for p in positions) or "없음"
     body_parts = [f"💼 총자산 ${float(account['equity']):,.0f} · 보유: {pos_line}"]
     if view:
@@ -1020,8 +1051,6 @@ def main():
     body_parts.append("※ 모의계좌 자동매매 · 참고용")
     body = "\n\n".join(body_parts)
 
-    # 실제 체결(⛔ 제외)이 있었는지 판별
-    executed = [r for r in results if not r.startswith("⛔")]
     kst = datetime.timezone(datetime.timedelta(hours=9))
     now_str = datetime.datetime.now(kst).strftime("%Y-%m-%d %H:%M")
 
