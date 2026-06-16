@@ -38,6 +38,11 @@ LEVERAGE_TICKERS = {"TQQQ", "SOXL", "UPRO", "QLD", "TNA", "FNGU", "TECL", "LABU"
 INVERSE_TICKERS = {"SQQQ", "SOXS", "SH", "SDS"}
 MIN_CASH_BUFFER_PCT = 0.10      # 현금 10%는 항상 남김
 
+# ── 하이리스크 슬롯 (저평가·과매도 역추세 전용 격리 예산) ──
+# 일반(core) 매수와 별도로 운용. 한 종목 물려도 전체가 휘청이지 않게 칸막이.
+MAX_HIGHRISK_BUDGET_PCT = 0.20   # 하이리스크 포지션 '합계' 상한: 총자산의 20%
+MAX_HIGHRISK_POSITION_PCT = 0.05 # 하이리스크 한 종목 상한: 총자산의 5% (레버리지 포함 동일)
+
 
 def http_json(url, method="GET", headers=None, body=None):
     data = json.dumps(body).encode() if body is not None else None
@@ -91,6 +96,43 @@ def fetch_yahoo(sym):
     return rows
 
 
+def fetch_valuations(symbols):
+    """야후 batch quote로 PER·PBR 등 밸류에이션을 한 번에 수집.
+    저평가 판정용. 실패해도 봇이 죽지 않게 {}를 반환(있으면 쓰고 없으면 기술적으로만).
+    코인·일부 ETF는 값이 없을 수 있음 → 그대로 둠."""
+    out = {}
+    # 코인 제외 (밸류에이션 개념 없음)
+    syms = [s for s in symbols if not is_crypto(s)]
+    if not syms:
+        return out
+    # 야후 quote는 한 번에 여러 심볼 가능 → 50개씩 끊어서
+    for i in range(0, len(syms), 50):
+        chunk = syms[i:i + 50]
+        try:
+            url = ("https://query1.finance.yahoo.com/v7/finance/quote?symbols="
+                   + urllib.parse.quote(",".join(chunk)))
+            j = json.loads(_get(url))
+            for q in j.get("quoteResponse", {}).get("result", []):
+                sym = str(q.get("symbol", "")).upper()
+                if not sym:
+                    continue
+                out[sym] = {
+                    "pe": q.get("trailingPE"),
+                    "fwd_pe": q.get("forwardPE"),
+                    "pb": q.get("priceToBook"),
+                    # 52주 고점 대비 위치(%) — 낙폭 가늠용
+                    "off_52w_high_pct": (
+                        round((q.get("regularMarketPrice", 0) / q.get("fiftyTwoWeekHigh", 0) - 1) * 100, 1)
+                        if q.get("fiftyTwoWeekHigh") else None),
+                }
+        except Exception as e:
+            log(f"⚠️ 밸류에이션 수집 실패(chunk {i}): {e} → 기술적 지표로만 판정")
+        time.sleep(0.3)
+    if out:
+        log(f"✅ 밸류에이션 수집: {len(out)}종목 (PER·PBR)")
+    return out
+
+
 def fetch_daily(sym):
     errors = []
     for fn in (fetch_alpaca_data, fetch_stooq, fetch_yahoo):
@@ -110,6 +152,86 @@ def sma(vals, n, i):
     if i < n - 1:
         return None
     return sum(vals[i - n + 1:i + 1]) / n
+
+
+def support_resistance(closes, cur, k=3, cluster_pct=1.5, max_each=4):
+    """종가 기준 스윙 고/저점을 찾아 가격대로 군집화 → 지지·저항대 산출.
+    k: 좌우 비교 봉 수(클수록 큰 스윙만). cluster_pct: 이 %내 점들은 한 대역으로 묶음.
+    반환: {"support":[현재가 아래 가까운 순], "resistance":[현재가 위 가까운 순]}"""
+    if len(closes) < 2 * k + 5 or not cur:
+        return {"support": [], "resistance": []}
+    pivots = []
+    for i in range(k, len(closes) - k):
+        seg = closes[i - k:i + k + 1]
+        if closes[i] == max(seg):
+            pivots.append(closes[i])   # 스윙 고점
+        elif closes[i] == min(seg):
+            pivots.append(closes[i])   # 스윙 저점
+    if not pivots:
+        return {"support": [], "resistance": []}
+    # 가까운 가격끼리 군집화
+    pivots.sort()
+    clusters = [[pivots[0]]]
+    for p in pivots[1:]:
+        if abs(p - clusters[-1][-1]) / clusters[-1][-1] * 100 <= cluster_pct:
+            clusters[-1].append(p)
+        else:
+            clusters.append([p])
+    # 대역 중심값 + 닿은 횟수(강도)
+    levels = [{"price": round(sum(c) / len(c), 2), "touches": len(c)} for c in clusters]
+    sup = sorted([l for l in levels if l["price"] < cur], key=lambda x: cur - x["price"])[:max_each]
+    res = sorted([l for l in levels if l["price"] > cur], key=lambda x: x["price"] - cur)[:max_each]
+    return {"support": sup, "resistance": res}
+
+
+def fib_retracement(closes, lookback=60):
+    """최근 lookback일의 스윙 최저→최고로 피보나치 되돌림 라인 계산.
+    반환: {"swing_low","swing_high","up": bool, "levels":{...}} (없으면 None)"""
+    if len(closes) < 10:
+        return None
+    seg = closes[-lookback:]
+    lo, hi = min(seg), max(seg)
+    if hi <= lo:
+        return None
+    lo_i, hi_i = seg.index(lo), seg.index(hi)
+    up = hi_i > lo_i   # 저점이 먼저면 상승 스윙(되돌림은 아래로)
+    diff = hi - lo
+    # 상승 스윙이면 고점에서 아래로 되돌림, 하락 스윙이면 저점에서 위로 되돌림
+    if up:
+        levels = {r: round(hi - diff * f, 2) for r, f in
+                  (("382", 0.382), ("500", 0.5), ("618", 0.618))}
+    else:
+        levels = {r: round(lo + diff * f, 2) for r, f in
+                  (("382", 0.382), ("500", 0.5), ("618", 0.618))}
+    return {"swing_low": round(lo, 2), "swing_high": round(hi, 2), "up": up, "levels": levels}
+
+
+def taco_zone(cur, sr, fib):
+    """저가매수 후보 밴드 = 현재가 바로 아래 지지대와 피보나치 되돌림(0.5~0.618)이
+    겹치거나 가까운 구간. 반환: {"low","high","basis"} 또는 None."""
+    if not cur:
+        return None
+    cands = []
+    # 가장 가까운 아래 지지대
+    if sr and sr.get("support"):
+        cands.append(("지지대", sr["support"][0]["price"]))
+    # 피보나치 0.5 / 0.618 중 현재가 아래인 것
+    if fib:
+        for r in ("500", "618"):
+            v = fib["levels"].get(r)
+            if v and v < cur:
+                cands.append((f"피보 {r[0]}.{r[1:]}", v))
+    if not cands:
+        return None
+    prices = [p for _, p in cands]
+    lo, hi = min(prices), max(prices)
+    # 밴드가 현재가에서 너무 멀면(>15%) 의미 약함 → 그래도 표시는 하되 basis에 표기
+    basis = "+".join(sorted({n for n, _ in cands}))
+    # 밴드가 한 점이면 ±0.8% 폭 부여
+    if hi - lo < cur * 0.003:
+        mid = (hi + lo) / 2
+        lo, hi = round(mid * 0.992, 2), round(mid * 1.008, 2)
+    return {"low": round(lo, 2), "high": round(hi, 2), "basis": basis}
 
 
 def summarize(sym, series):
@@ -135,18 +257,29 @@ def summarize(sym, series):
     vol_ratio = vols[-1] / (sum(vols[-20:]) / 20) if sum(vols[-20:]) else 1
     chg5 = (closes[-1] / closes[-6] - 1) * 100 if len(closes) > 6 else 0
     chg20 = (closes[-1] / closes[-21] - 1) * 100 if len(closes) > 21 else 0
+    cur = closes[-1]
+    sr = support_resistance(closes, cur)
+    fib = fib_retracement(closes)
+    tz = taco_zone(cur, sr, fib)
+    # 현재가가 TACO ZONE 안에 있는지 (저가매수 후보 진입 여부)
+    in_taco = bool(tz and tz["low"] <= cur <= tz["high"])
     return {
         "symbol": sym,
-        "price": round(closes[-1], 2),
+        "price": round(cur, 2),
         "chg_5d_pct": round(chg5, 1),
         "chg_20d_pct": round(chg20, 1),
         "ma5": round(ma5, 2) if ma5 else None,
         "ma20": round(ma20, 2) if ma20 else None,
         "ma60": round(ma60, 2) if ma60 else None,
-        "disparity_ma20_pct": round((closes[-1] / ma20 - 1) * 100, 1) if ma20 else None,
+        "disparity_ma20_pct": round((cur / ma20 - 1) * 100, 1) if ma20 else None,
         "rsi14": round(rsi, 1) if rsi else None,
-        "bollinger_pos_0to1": round((closes[-1] - (ma20 - 2 * sd)) / (4 * sd), 2) if ma20 and sd else None,
+        "bollinger_pos_0to1": round((cur - (ma20 - 2 * sd)) / (4 * sd), 2) if ma20 and sd else None,
         "volume_vs_20d_avg": round(vol_ratio, 2),
+        "support": [l["price"] for l in sr["support"]],
+        "resistance": [l["price"] for l in sr["resistance"]],
+        "fib": fib["levels"] if fib else None,
+        "taco_zone": tz,
+        "in_taco_zone": in_taco,
     }
 
 
@@ -400,6 +533,18 @@ def ask_claude(account, positions, market, regime=None, session="regular"):
         "  ④ 하락장/조정 국면이 아닐 것: 시장 전체가 하락장이면 물타기는 위험하니 금지\n"
         "- 추가 매수도 분할로: 한 번에 평단을 다 낮추려 하지 말고, 반등 확인하며 나눠서. 추가 후에도 그 종목 합산은 포지션 한도(보통 5%, 강한확신 12%) 이내\n"
         "- 손절 우선순위가 물타기보다 높다: 추세 반전이 확인 안 되고 계속 빠지면, 물타기가 아니라 손절(-7%)을 검토. 떨어지는 칼날에 계속 돈을 넣는 건 가장 위험한 실수\n\n"
+        f"하이리스크 슬롯 (저평가·과매도 역추세 전용, 격리 예산 총자산의 {int(MAX_HIGHRISK_BUDGET_PCT*100)}%):\n"
+        "- 목적: 빅테크·지수·방어주 위주의 안전한 코어 외에, '지금 저평가·과매도된 종목의 반등'을 노리는 하이리스크 하이리턴 칸을 별도로 둔다.\n"
+        f"- 격리 원칙: 하이리스크 포지션들의 '합계'는 총자산의 {int(MAX_HIGHRISK_BUDGET_PCT*100)}%를 넘지 않는다(시스템이 강제). 한 종목당 최대 {int(MAX_HIGHRISK_POSITION_PCT*100)}%. 코어 예산과 분리되어, 물려도 전체가 휘청이지 않게 칸막이.\n"
+        "- 저평가 판정은 '두 가지를 결합'한다:\n"
+        "  ① 기술적 과매도 반등: disparity_ma20_pct가 음수로 크게 벌어짐(예: -10% 이하) + RSI 과매도권 + 반등 신호(MA5 회복·거래량 동반 반등·RSI 과매도 탈출). '많이 빠졌다'만으로는 부족, 돌아서는 신호가 핵심.\n"
+        "    └ 지지/저항·피보나치 활용: 각 종목 지표의 support(아래 지지대 가격들)·resistance(위 저항대)·fib(피보나치 되돌림 38.2/50/61.8%)·taco_zone(저가매수 후보 밴드 {low,high,basis})·in_taco_zone(현재가가 그 밴드 안인지)을 본다. 현재가가 강한 지지대나 피보 0.5~0.618 되돌림에 닿았고(=in_taco_zone true) 거기서 반등 신호가 나오면 저가매수 자리로 판단. 단 '지지에 닿음'만으론 부족, 매물대가 깨지면 손절(차트는 미래 보장이 아니라 확률 가이드일 뿐).\n"
+        "  ② 밸류에이션 저평가: 각 종목 지표의 valuation 필드(pe=PER, fwd_pe=선행PER, pb=PBR, off_52w_high_pct=52주고점대비낙폭%)를 본다. 동종 섹터·과거 대비 PER/PBR이 낮은데 펀더멘털은 망가지지 않은 종목. (valuation이 없으면 ①기술적 신호로만 판정)\n"
+        "  → ① 또는 ② 중 하나라도 분명하고, 펀더멘털이 망가진 게 아니면 하이리스크 후보. 둘 다 충족이면 더 강한 신호.\n"
+        "- 하락장 예외(중요): BNF 역추세는 원래 하락장 금지지만, 하이리스크 슬롯에 한해 '확실한 추세 전환 신호'가 보이면 하락장에서도 저가매수를 시도할 수 있다. 단 매우 신중히 — 추세 전환이 애매하면 하지 말 것. 막연한 '싸 보임'은 금지, 반드시 돌아서는 신호 확인.\n"
+        "- 레버리지(TQQQ 등)도 하이리스크 슬롯에 포함 가능. 단 한 종목 한도 5%는 동일.\n"
+        f"- 각 주문에 \"tier\" 필드를 넣어라: \"core\"(일반 안전 매수) | \"highrisk\"(저평가·과매도 역추세). 미지정 시 core로 간주.\n"
+        "- 하이리스크라도 두 AI(Claude·DeepSeek)가 모두 동의해야 실제 매수된다(합의 원칙 동일). 손절은 한쪽만 원해도 실행.\n\n"
         f"[현재 시장 국면] {json.dumps({k:v for k,v in regime.items() if k!='sectors'}, ensure_ascii=False) if regime else '판단 안 됨'}\n"
         "  → 위 국면을 반드시 반영할 것. '하락장/조정'이나 '단기 약세'면 신규 매수를 크게 줄이고 방어·현금 우선. '상승장'이면 정상 운용.\n"
         + (f"[섹터 흐름] {(regime or {}).get('sectors',{}).get('summary','')}\n"
@@ -419,7 +564,7 @@ def ask_claude(account, positions, market, regime=None, session="regular"):
         "- 손실 중인 포지션이 -7% 이하면 손절을 적극 검토 (레버리지는 -5%)\n"
         "- 거래할 이유가 약하면 빈 배열로 응답 (거래 안 함이 기본값)\n\n"
         "아래 JSON 형식으로만 응답하세요. 다른 텍스트, 마크다운 백틱 금지:\n"
-        '{"decisions":[{"action":"buy|sell","symbol":"JPM","qty":3,"conviction":"normal","reason":"한 문장 근거"}],'
+        '{"decisions":[{"action":"buy|sell","symbol":"JPM","qty":3,"conviction":"normal","tier":"core","reason":"한 문장 근거"}],'
         '"market_view":"오늘 시장 국면 판단, 왜 매수/매도/관망했는지 핵심 근거, 포트폴리오 분산·레버리지·현금 비중에 대한 평가를 2~3문장으로. 나중에 사람이 봇의 판단을 복기할 수 있도록 솔직하고 구체적으로."}'
     )
     res = http_json(
@@ -514,6 +659,11 @@ def execute(decisions, account, positions, market, regime=None):
     cash = float(account["cash"])
     held = {p["symbol"]: float(p["qty"]) for p in positions}
     prices = {m["symbol"]: m["price"] for m in market}
+    # 하이리스크 격리 예산 추적: 이번 실행에서 하이리스크로 새로 집행한 금액 누적.
+    # (기보유분 중 무엇이 하이리스크였는지는 봇이 기록하지 않으므로, 보수적으로
+    #  이번 런에서 새로 늘리는 하이리스크 매수의 합계만 20% 한도로 통제한다.)
+    highrisk_spent = 0.0
+    highrisk_budget = equity * MAX_HIGHRISK_BUDGET_PCT
     results = []
     for d in decisions[:MAX_TRADES_PER_RUN]:
         sym = str(d.get("symbol", "")).upper()
@@ -530,21 +680,23 @@ def execute(decisions, account, positions, market, regime=None):
         action = d.get("action")
         reason = str(d.get("reason", ""))[:120]
         conviction = str(d.get("conviction", "normal")).lower()  # high | normal | low
+        tier = str(d.get("tier", "core")).lower()                 # core | highrisk
+        is_highrisk = (tier == "highrisk")
         if qty <= 0 or sym not in prices:
             results.append(f"⛔ {sym} 건너뜀 (잘못된 주문)")
             continue
         cost = qty * prices[sym]
         if action == "buy":
-            # 포지션 한도 결정 (확신도 차등)
-            #  - 인버스(SQQQ 등): 항상 5% 고정 (헤지용)
-            #  - 하락장/조정: 차등 없이 5% (방어)
-            #  - 레버리지(TQQQ 등): 확신 강하면 최대 8%, 아니면 5% (3배 변동이라 일반주보다 낮게)
-            #  - 일반주 강한 확신(high): 최대 12% / 보통: 5% / 약함(low): 3%
             is_lev = sym in LEVERAGE_TICKERS
             is_inv = sym in INVERSE_TICKERS
             regime_label = (regime or {}).get("label", "")
             defensive = regime_label in ("하락장/조정", "단기 약세")
-            if is_inv or defensive:
+            if is_highrisk:
+                # ── 하이리스크 슬롯: 종목당 5% 고정, 하락장이어도 진입 허용(추세전환 판단은 AI가 함) ──
+                # 격리 예산(합계 20%)은 아래에서 별도 체크.
+                pos_cap = MAX_HIGHRISK_POSITION_PCT                    # 5% (레버리지 포함 동일)
+            elif is_inv or defensive:
+                # 코어 매수: 인버스·하락장은 5% 방어
                 pos_cap = MAX_POSITION_PCT                              # 5%
             elif is_lev:
                 pos_cap = MAX_POSITION_LEV if conviction == "high" else MAX_POSITION_PCT  # 8% or 5%
@@ -562,9 +714,22 @@ def execute(decisions, account, positions, market, regime=None):
             if cost > room:
                 qty = round(room / prices[sym], 6 if crypto else 4)
                 cost = qty * prices[sym]
+
+            # 하이리스크 격리 예산: 합계가 20%를 넘지 않도록 이번 매수액을 깎거나 보류
+            if is_highrisk:
+                hr_room = max(0, highrisk_budget - highrisk_spent)
+                if cost > hr_room:
+                    qty = round(hr_room / prices[sym], 6 if crypto else 4)
+                    cost = qty * prices[sym]
+                if qty <= 0:
+                    results.append(f"⛔ {sym} 하이리스크 보류 (격리예산 {int(MAX_HIGHRISK_BUDGET_PCT*100)}% 소진)")
+                    continue
+
             if qty <= 0 or cost > cash - equity * MIN_CASH_BUFFER_PCT:
                 results.append(f"⛔ {sym} 매수 보류 (현금/한도)")
                 continue
+            if is_highrisk:
+                highrisk_spent += cost  # 격리 예산 집행 누적
             side = "buy"
         elif action == "sell":
             if held.get(sym, 0) < qty:
@@ -593,7 +758,8 @@ def execute(decisions, account, positions, market, regime=None):
                          "side": side, "type": "market", "time_in_force": "day"}
             alpaca("/v2/orders", method="POST", body=order)
             mark = "🔴 매수" if side == "buy" else "🔵 매도"
-            results.append(f"{mark} {sym} {qty}{'개' if crypto else '주'} (~${cost:,.0f}) — {reason}")
+            hr_tag = " ⚡하이리스크" if (side == "buy" and is_highrisk) else ""
+            results.append(f"{mark}{hr_tag} {sym} {qty}{'개' if crypto else '주'} (~${cost:,.0f}) — {reason}")
             cash = cash - cost if side == "buy" else cash + cost
         except Exception as e:
             results.append(f"⛔ {sym} 주문 실패: {e}")
@@ -790,6 +956,16 @@ def main():
         send_push("🤝 컨센서스 봇 — 실행 실패", "시세를 하나도 못 가져왔어요.", True)
         return 1
 
+    # 밸류에이션(PER·PBR) 수집해 각 종목에 merge (저평가 판정용, 실패 허용)
+    try:
+        vals = fetch_valuations([m["symbol"] for m in market])
+        for m in market:
+            v = vals.get(m["symbol"])
+            if v:
+                m["valuation"] = {k: val for k, val in v.items() if val is not None}
+    except Exception as e:
+        log(f"⚠️ 밸류에이션 merge 실패: {e}")
+
     # 시장 전체 국면 판단 (하락장 대응용)
     regime = assess_regime()
     log(f"✅ [3.5단계] 시장 국면: {regime.get('label')} — {regime.get('detail','')}")
@@ -837,6 +1013,23 @@ def main():
     send_push(title, body, bool(executed))
 
     # ── 사도될까 앱 연동용 상태 파일 저장 ──
+    # 앱 차트 오버레이용: 보유 종목 + 지수(SPY/QQQ)의 지지/저항·피보·TACO ZONE
+    mkt_by_sym = {m["symbol"]: m for m in market}
+    levels_syms = list({p["symbol"] for p in positions} | {"SPY", "QQQ"})
+    chart_levels = {}
+    for sym in levels_syms:
+        m = mkt_by_sym.get(sym)
+        if not m:
+            continue
+        chart_levels[sym] = {
+            "price": m.get("price"),
+            "support": m.get("support", []),
+            "resistance": m.get("resistance", []),
+            "fib": m.get("fib"),
+            "taco_zone": m.get("taco_zone"),
+            "in_taco_zone": m.get("in_taco_zone", False),
+        }
+
     status = {
         "updated": now_str,
         "equity": float(account["equity"]),
@@ -845,6 +1038,7 @@ def main():
         "positions": positions,
         "trades": results,
         "market_view": view,
+        "chart_levels": chart_levels,
         "last_trade_time": now_str if executed else (
             _prev_last_trade_time()),
         "last_trade_count": len(executed),
@@ -878,6 +1072,7 @@ def main():
                 "trades": [
                     {"sym": d.get("symbol"), "action": d.get("action"),
                      "qty": d.get("qty"), "conviction": d.get("conviction", "normal"),
+                     "tier": d.get("tier", "core"),
                      "reason": str(d.get("reason", ""))[:100]}
                     for d in decisions
                 ] if decisions else [],

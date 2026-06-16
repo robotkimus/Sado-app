@@ -1621,6 +1621,63 @@ document.getElementById("csvBtn").onclick = ()=>{
 
 /* ── Claude 봇 포트폴리오 (bot_status.json 읽기) ── */
 
+/* 봇이 계산한 지지/저항·TACO ZONE을 미니 막대로 시각화.
+   각 종목: [최저지지 ── 현재가▼ ── 최고저항] 범위 위에 TACO ZONE(청록)·피보선 표시 */
+function renderTacoZones(levels){
+  const syms = Object.keys(levels);
+  if(!syms.length) return "";
+  // 지수(SPY/QQQ) 먼저, 그다음 보유종목
+  const order = s=> (s==="SPY"?0 : s==="QQQ"?1 : 2);
+  syms.sort((a,b)=> order(a)-order(b) || a.localeCompare(b));
+
+  let html = `<div style="margin-top:14px;">
+    <div class="muted" style="font-weight:700; margin-bottom:8px;">📊 지지·저항 & 🌮 TACO ZONE (저가매수 후보 구간)</div>`;
+
+  for(const sym of syms){
+    const L = levels[sym];
+    const cur = L.price;
+    if(!cur) continue;
+    const sup = L.support||[], res = L.resistance||[], tz = L.taco_zone;
+    // 막대 범위: 가장 낮은 지지 ~ 가장 높은 저항 (없으면 현재가 ±8%)
+    let lo = Math.min(cur, ...(sup.length?sup:[cur*0.92]));
+    let hi = Math.max(cur, ...(res.length?res:[cur*1.08]));
+    if(hi<=lo){ lo=cur*0.92; hi=cur*1.08; }
+    const pct = v => Math.max(0, Math.min(100, (v-lo)/(hi-lo)*100));
+    const inTaco = L.in_taco_zone;
+
+    // TACO ZONE 밴드
+    let band = "";
+    if(tz){
+      const l=pct(tz.low), r=pct(tz.high);
+      band = `<div style="position:absolute; left:${l}%; width:${Math.max(1.5,r-l)}%; top:0; bottom:0;
+                   background:rgba(45,212,191,.28); border-left:1px solid #2DD4BF; border-right:1px solid #2DD4BF;"></div>`;
+    }
+    // 지지(파랑)·저항(빨강) 눈금
+    const ticks = sup.map(p=>`<div style="position:absolute; left:${pct(p)}%; top:0; bottom:0; width:1px; background:rgba(96,165,250,.5);"></div>`).join("")
+                + res.map(p=>`<div style="position:absolute; left:${pct(p)}%; top:0; bottom:0; width:1px; background:rgba(248,113,113,.5);"></div>`).join("");
+    // 현재가 마커
+    const marker = `<div style="position:absolute; left:${pct(cur)}%; top:-3px; bottom:-3px; width:2px; background:var(--text); transform:translateX(-1px);"></div>`;
+
+    const tzText = tz ? `🌮 $${tz.low}~$${tz.high} (${tz.basis})${inTaco?' · <b style="color:#2DD4BF;">지금 진입권</b>':''}` : "구간 미산출";
+    const label = (sym==="SPY"||sym==="QQQ") ? `${sym} <span style="color:var(--dim);">(지수)</span>` : sym;
+
+    html += `<div style="margin-bottom:11px;">
+      <div style="display:flex; justify-content:space-between; font-size:12px; margin-bottom:4px;">
+        <span style="font-weight:700;">${label}</span>
+        <span style="color:var(--dim);">$${cur}</span>
+      </div>
+      <div style="position:relative; height:22px; background:var(--card2); border:1px solid var(--line); border-radius:6px; overflow:hidden;">
+        ${band}${ticks}${marker}
+      </div>
+      <div style="font-size:11px; color:var(--dim); margin-top:3px;">${tzText}</div>
+    </div>`;
+  }
+  html += `<div style="font-size:10.5px; color:var(--dim); line-height:1.5; margin-top:2px;">
+    ▌현재가 · <span style="color:#60A5FA;">│</span>지지 · <span style="color:#F87171;">│</span>저항 · <span style="color:#2DD4BF;">▨</span>TACO ZONE.
+    차트선은 확률 가이드일 뿐, 매물대가 깨지면 손절이 우선이에요.</div></div>`;
+  return html;
+}
+
 /* market_view 문자열을 합의·Claude·DeepSeek 세 블록으로 분리 렌더.
    봇이 보내는 형식: "🤝 합의: ... | Claude: ... | DeepSeek: ..."
    (DeepSeek 오류 시엔 구분자 없이 Claude 단독 문장만 옴 → 그 경우 한 박스로) */
@@ -1797,6 +1854,9 @@ async function loadBotStatus(){
     }
     if(s.market_view){
       html += renderAIViews(s.market_view);
+    }
+    if(s.chart_levels){
+      html += renderTacoZones(s.chart_levels);
     }
     if(s.trades && s.trades.length){
       html += `<div class="muted" style="margin-top:10px; font-weight:700;">최근 실행 거래</div>
