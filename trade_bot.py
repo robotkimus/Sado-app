@@ -297,16 +297,70 @@ def alpaca(path, method="GET", body=None):
                               "APCA-API-SECRET-KEY": ALPACA_SECRET})
 
 
-def market_is_open():
-    """미국 주식 정규장이 열려 있는지 알파카 클락으로 확인"""
+def get_market_session():
+    """미국 주식 세션을 단일 진실 소스로 판정.
+    반환: 'regular'(정규장) | 'pre'(프리마켓) | 'after'(애프터마켓) | 'closed'(휴장/주말)
+    알파카 클락의 is_open + 현재시각(ET) + 다음 개장/폐장 시각으로 세션을 구분한다.
+    두 AI(Claude·DeepSeek)에게 동일하게 주입해 판단을 통일하는 것이 목적."""
     try:
-        return bool(alpaca("/v2/clock").get("is_open"))
+        clock = alpaca("/v2/clock")
     except Exception:
-        return False
+        return "closed"
+    if clock.get("is_open"):
+        return "regular"
+    # 정규장이 아닐 때 pre/after/closed 구분 (ET 기준 시각 파싱)
+    def _parse_et(ts):
+        # 예: "2026-06-16T09:30:00-04:00"
+        try:
+            return datetime.datetime.fromisoformat(ts.replace("Z", "+00:00"))
+        except Exception:
+            return None
+    now = _parse_et(clock.get("timestamp", ""))
+    nxt_open = _parse_et(clock.get("next_open", ""))
+    nxt_close = _parse_et(clock.get("next_close", ""))
+    if not now:
+        return "closed"
+    # 다음 폐장이 다음 개장보다 먼저면(=오늘 개장 후 폐장 예정) 지금은 개장 전 = 프리마켓
+    # 단, 같은 날 개장 예정일 때만 프리/애프터로 본다
+    try:
+        if nxt_open and now.date() == nxt_open.date():
+            # 오늘 개장 예정이고 아직 개장 전 → 프리마켓
+            if now < nxt_open:
+                return "pre"
+        # 오늘 이미 폐장했고(개장은 내일) → 애프터마켓
+        if nxt_open and nxt_close and now.date() != nxt_open.date():
+            # 개장이 내일 이후면 장 끝난 뒤(애프터) 또는 휴장
+            # ET 기준 16:00~20:00 정도를 애프터로 간주
+            if 16 <= now.hour < 20:
+                return "after"
+        return "closed"
+    except Exception:
+        return "closed"
+
+
+_SESSION_KR = {"regular": "정규장(개장 중)", "pre": "프리마켓(개장 전)",
+               "after": "애프터마켓(폐장 후)", "closed": "휴장(주말·공휴일 또는 시간 외)"}
+
+
+def market_is_open():
+    """하위호환용: 정규장이면 True. (기존 호출부 유지)"""
+    return get_market_session() == "regular"
 
 
 # ── Claude에게 판단 요청 ──
-def ask_claude(account, positions, market, regime=None):
+def ask_claude(account, positions, market, regime=None, session="regular"):
+    session_kr = _SESSION_KR.get(session, session)
+    # 정규장이 아니면 두 AI 모두 미국 주식 거래를 만들지 않도록 동일하게 지시 (판단 통일의 핵심)
+    session_rule = (
+        f"[현재 미국장 세션] {session_kr}\n"
+        + ("  → 지금은 정규장이 아닙니다. 미국 주식(코인 제외)에 대한 매수·매도 결정을 "
+           "절대 내지 마세요. 프리마켓·애프터마켓은 호가가 얇아 체결이 왜곡되고, 이 봇은 "
+           "정규장에만 주식을 거래합니다. 주식 관련 decisions는 모두 빈 배열로 두고, "
+           "코인(예: ETH-USD)만 근거가 분명할 때 거래하세요. market_view에는 '정규장이 아니라 "
+           "주식은 관망'임을 명시하세요.\n"
+           if session != "regular"
+           else "  → 정규장입니다. 평소 규칙대로 주식·코인 모두 정상 판단하세요.\n")
+    )
     prompt = (
         "당신은 미국 주식 포트폴리오 매니저입니다. 모의계좌를 운용 중입니다.\n"
         "기술적 지표 기반의 스윙 전략을 따르되, 확신이 없으면 거래하지 않는 것이 원칙입니다.\n\n"
@@ -352,6 +406,7 @@ def ask_claude(account, positions, market, regime=None):
            f"  섹터별 1·3개월 수익률: {json.dumps((regime or {}).get('sectors',{}).get('ranked',[]), ensure_ascii=False)}\n"
            "  → 돈이 어디로 도는지(로테이션) 파악하라. 주도 섹터(강세)의 우량주에 무게를 두고, 소외 섹터는 신중히. 단, 이미 많이 오른 섹터를 뒤늦게 추격하는 건 경계(고점 매수 위험). 섹터 흐름은 '근거'로 참고하되 개별 종목 신호·펀더멘털과 함께 종합 판단할 것.\n\n"
            if (regime or {}).get('sectors') else "\n")
+        + session_rule
         + f"[계좌] 총자산 ${account['equity']}, 현금 ${account['cash']}\n"
         f"[보유 포지션]\n{json.dumps(positions, ensure_ascii=False, indent=1)}\n\n"
         f"[관심종목 지표]\n{json.dumps(market, ensure_ascii=False, indent=1)}\n\n"
@@ -451,6 +506,7 @@ def _consensus(claude_plan, deepseek_plan):
 
 # ── 주문 검증 + 실행 ──
 STOCK_MARKET_OPEN = True  # main에서 매 실행마다 갱신
+MARKET_SESSION = "regular"  # main에서 매 실행마다 갱신 (regular|pre|after|closed)
 
 
 def execute(decisions, account, positions, market, regime=None):
@@ -462,6 +518,11 @@ def execute(decisions, account, positions, market, regime=None):
     for d in decisions[:MAX_TRADES_PER_RUN]:
         sym = str(d.get("symbol", "")).upper()
         crypto = is_crypto(sym)
+        # 미국 주식장이 정규장이 아니면 주식 주문은 여기서 선차단 (코인은 24시간 진행).
+        # '잘못된 주문' 체크보다 앞에 둬서, 비정규장에 AI가 낸 주식 결정이 노이즈로 빠지지 않게 함.
+        if not crypto and not STOCK_MARKET_OPEN:
+            results.append(f"⏸ {sym} 보류 ({_SESSION_KR.get(MARKET_SESSION,'장 외')} — 정규장에 재검토)")
+            continue
         try:
             qty = round(float(d.get("qty", 0)), 6 if crypto else 4)
         except (TypeError, ValueError):
@@ -513,10 +574,6 @@ def execute(decisions, account, positions, market, regime=None):
                 continue
             side = "sell"
         else:
-            continue
-        # 미국 주식장이 닫혀 있으면 주식 주문은 보류 (체결 대기 방지), 코인은 24시간 진행
-        if not crypto and not STOCK_MARKET_OPEN:
-            results.append(f"⏸ {sym} 보류 (미국장 마감 — 개장 시 재검토)")
             continue
         try:
             if crypto and side == "buy":
@@ -626,9 +683,11 @@ def main():
         log(f"⚠️ 포지션 조회 실패: {e}")
         positions_raw = []
     log(f"📊 알파카 포지션 조회 결과: {len(positions_raw)}개")
-    global STOCK_MARKET_OPEN
-    STOCK_MARKET_OPEN = market_is_open()
-    log(f"🕐 미국 주식장: {'개장 중' if STOCK_MARKET_OPEN else '마감 (코인만 거래)'}")
+    global STOCK_MARKET_OPEN, MARKET_SESSION
+    MARKET_SESSION = get_market_session()
+    STOCK_MARKET_OPEN = (MARKET_SESSION == "regular")
+    log(f"🕐 미국 주식장: {_SESSION_KR.get(MARKET_SESSION, MARKET_SESSION)}"
+        + ("" if STOCK_MARKET_OPEN else " — 주식 관망, 코인만 거래"))
 
     # 미체결 주문이 쌓여 있으면 구매력이 잠기므로, 일정 수 이상이면 이번 실행은 신규 주문 보류
     try:
@@ -711,7 +770,7 @@ def main():
         regime["sectors"] = None
 
     try:
-        plan = ask_claude(account, positions, market, regime)
+        plan = ask_claude(account, positions, market, regime, MARKET_SESSION)
         log("✅ [4단계] Claude 판단 수신")
     except Exception as e:
         log(f"❌ [4단계] Claude 판단 실패: {e}")
