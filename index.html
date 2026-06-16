@@ -1620,6 +1620,63 @@ document.getElementById("csvBtn").onclick = ()=>{
 };
 
 /* ── Claude 봇 포트폴리오 (bot_status.json 읽기) ── */
+
+/* market_view 문자열을 합의·Claude·DeepSeek 세 블록으로 분리 렌더.
+   봇이 보내는 형식: "🤝 합의: ... | Claude: ... | DeepSeek: ..."
+   (DeepSeek 오류 시엔 구분자 없이 Claude 단독 문장만 옴 → 그 경우 한 박스로) */
+function renderAIViews(mv){
+  const esc = (t)=> (t||"").replace(/</g,"&lt;").replace(/>/g,"&gt;");
+  // 구분자로 분해
+  let consensus = "", claude = "", deep = "";
+  let rest = mv;
+  const ci = rest.indexOf(" | Claude:");
+  const di = rest.indexOf(" | DeepSeek:");
+  if(ci !== -1){
+    consensus = rest.slice(0, ci).trim();
+    if(di !== -1 && di > ci){
+      claude = rest.slice(ci + " | Claude:".length, di).trim();
+      deep   = rest.slice(di + " | DeepSeek:".length).trim();
+    } else {
+      claude = rest.slice(ci + " | Claude:".length).trim();
+    }
+  } else {
+    // 구분자 없음 = Claude 단독(DeepSeek 오류 등) → 통째로 Claude 박스
+    claude = rest.trim();
+  }
+  // "🤝 합의:" 접두어 정리
+  consensus = consensus.replace(/^🤝\s*합의:\s*/, "").trim();
+
+  const wrap = (label, icon, accent, text)=>`
+    <div style="margin-top:8px; padding:10px 12px 10px 14px; background:var(--card2);
+                border:1px solid var(--line); border-left:3px solid ${accent};
+                border-radius:10px; font-size:12.5px; line-height:1.55;">
+      <div style="font-weight:800; color:${accent}; margin-bottom:3px; font-size:12px;">
+        ${icon} ${label}</div>
+      <div style="color:var(--text);">${esc(text)}</div>
+    </div>`;
+
+  let out = `<div style="margin-top:12px;">`;
+  // 합의 요약 (있을 때만, 중립 톤)
+  if(consensus && consensus !== "거래 없음"){
+    out += `<div style="padding:8px 12px; background:color-mix(in srgb, var(--text) 6%, transparent);
+                  border:1px solid var(--line); border-radius:10px; font-size:12px; font-weight:700;
+                  color:var(--dim);">🤝 합의 결과: <span style="color:var(--text);">${esc(consensus)}</span></div>`;
+  } else if(consensus === "거래 없음"){
+    out += `<div style="padding:8px 12px; background:color-mix(in srgb, var(--text) 6%, transparent);
+                  border:1px solid var(--line); border-radius:10px; font-size:12px; font-weight:700;
+                  color:var(--dim);">🤝 두 AI 합의: <span style="color:var(--text);">관망 (거래 없음)</span></div>`;
+  }
+  // Claude (보라 액센트) · DeepSeek (청록 액센트) — 매수·매도 빨강/파랑과 안 겹치게
+  if(claude) out += wrap("Claude의 시각", "🧠", "#A78BFA", claude);
+  if(deep)   out += wrap("DeepSeek의 시각", "🌊", "#2DD4BF", deep);
+  // DeepSeek이 아예 없으면(단독 운용) 안내
+  if(claude && !deep){
+    out += `<div class="muted" style="margin-top:6px; font-size:11px;">ℹ️ 이번엔 Claude 단독 판단이에요 (DeepSeek 응답 없음).</div>`;
+  }
+  out += `</div>`;
+  return out;
+}
+
 function recentTradeBadge(s){
   if(!s.last_trade_time) return "";
   // 마지막 거래가 6시간 이내면 "방금 체결" 강조
@@ -1739,9 +1796,7 @@ async function loadBotStatus(){
       html += `<div class="muted" style="margin-top:10px;">보유 종목 없음 (전량 현금)</div>`;
     }
     if(s.market_view){
-      html += `<div style="margin-top:12px; padding:11px 13px; background:var(--card2);
-                    border:1px solid var(--line); border-radius:12px; font-size:12.5px; line-height:1.55;">
-                 🧠 <b>Claude의 시각:</b> ${s.market_view}</div>`;
+      html += renderAIViews(s.market_view);
     }
     if(s.trades && s.trades.length){
       html += `<div class="muted" style="margin-top:10px; font-weight:700;">최근 실행 거래</div>

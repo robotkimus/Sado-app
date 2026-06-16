@@ -600,6 +600,40 @@ def execute(decisions, account, positions, market, regime=None):
     return results
 
 
+def format_view_for_push(mv):
+    """market_view("🤝 합의: ... | Claude: ... | DeepSeek: ...")를
+    ntfy 알림용으로 Claude·DeepSeek 구별되게 줄바꿈 분리.
+    DeepSeek 오류로 구분자가 없으면 Claude 단독으로 표기."""
+    if not mv:
+        return ""
+    consensus, claude, deep = "", "", ""
+    ci = mv.find(" | Claude:")
+    di = mv.find(" | DeepSeek:")
+    if ci != -1:
+        consensus = mv[:ci].strip()
+        if di != -1 and di > ci:
+            claude = mv[ci + len(" | Claude:"):di].strip()
+            deep = mv[di + len(" | DeepSeek:"):].strip()
+        else:
+            claude = mv[ci + len(" | Claude:"):].strip()
+    else:
+        claude = mv.strip()
+    consensus = consensus.replace("🤝 합의:", "").strip()
+
+    lines = []
+    if consensus and consensus != "거래 없음":
+        lines.append(f"🤝 합의: {consensus}")
+    elif consensus == "거래 없음":
+        lines.append("🤝 두 AI 합의: 관망 (거래 없음)")
+    if claude:
+        lines.append(f"🧠 Claude: {claude}")
+    if deep:
+        lines.append(f"🌊 DeepSeek: {deep}")
+    elif claude:
+        lines.append("ℹ️ 이번엔 Claude 단독 판단 (DeepSeek 응답 없음)")
+    return "\n\n".join(lines)
+
+
 def send_push(title, message, urgent):
     if not NTFY_TOPIC:
         log("NTFY_TOPIC 없음 — 알림 생략")
@@ -784,7 +818,7 @@ def main():
     pos_line = ", ".join(f"{p['symbol']} {p['pnl_pct']:+.1f}%" for p in positions) or "없음"
     body_parts = [f"💼 총자산 ${float(account['equity']):,.0f} · 보유: {pos_line}"]
     if view:
-        body_parts.append(f"🧠 {view}")
+        body_parts.append(format_view_for_push(view))
     body_parts.append("\n".join(results) if results else "오늘은 거래 없음 (관망)")
     body_parts.append("※ 모의계좌 자동매매 · 참고용")
     body = "\n\n".join(body_parts)
