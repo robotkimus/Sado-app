@@ -133,6 +133,42 @@ def fetch_valuations(symbols):
     return out
 
 
+def fetch_latest_prices(symbols):
+    """알파카 snapshot으로 종목들의 '최신 체결가'를 batch 수집.
+    정규장 마감 후에도 애프터마켓 체결가를 반영하므로, 실적 발표 등으로
+    장 외 급변한 가격을 봇이 볼 수 있게 한다. 실패해도 {}를 반환(있으면 쓰고 없으면 일봉 종가).
+    코인 제외(별도 처리)."""
+    out = {}
+    syms = [s for s in symbols if not is_crypto(s)]
+    if not syms:
+        return out
+    for i in range(0, len(syms), 100):
+        chunk = syms[i:i + 100]
+        try:
+            url = ("https://data.alpaca.markets/v2/stocks/snapshots?feed=iex&symbols="
+                   + urllib.parse.quote(",".join(chunk)))
+            j = json.loads(_get(url, headers={"APCA-API-KEY-ID": ALPACA_KEY,
+                                              "APCA-API-SECRET-KEY": ALPACA_SECRET}))
+            # snapshots 응답: {symbol: {latestTrade:{p:가격,t:시각}, dailyBar:{c}, ...}}
+            data = j if isinstance(j, dict) else {}
+            # 일부 응답은 {"snapshots":{...}} 형태일 수 있음
+            if "snapshots" in data:
+                data = data["snapshots"]
+            for sym, snap in data.items():
+                if not isinstance(snap, dict):
+                    continue
+                lt = snap.get("latestTrade") or {}
+                price = lt.get("p")
+                if price:
+                    out[str(sym).upper()] = float(price)
+        except Exception as e:
+            log(f"⚠️ 최신가 수집 실패(chunk {i}): {e} → 일봉 종가로 대체")
+        time.sleep(0.3)
+    if out:
+        log(f"✅ 애프터마켓 최신가 수집: {len(out)}종목")
+    return out
+
+
 def fetch_daily(sym):
     errors = []
     for fn in (fetch_alpaca_data, fetch_stooq, fetch_yahoo):
@@ -483,17 +519,30 @@ def market_is_open():
 # ── Claude에게 판단 요청 ──
 def ask_claude(account, positions, market, regime=None, session="regular"):
     session_kr = _SESSION_KR.get(session, session)
-    # 정규장이 아니면 두 AI 모두 미국 주식 거래를 만들지 않도록 동일하게 지시 (판단 통일의 핵심)
-    session_rule = (
-        f"[현재 미국장 세션] {session_kr}\n"
-        + ("  → 지금은 정규장이 아닙니다. 미국 주식(코인 제외)에 대한 매수·매도 결정을 "
-           "절대 내지 마세요. 프리마켓·애프터마켓은 호가가 얇아 체결이 왜곡되고, 이 봇은 "
-           "정규장에만 주식을 거래합니다. 주식 관련 decisions는 모두 빈 배열로 두고, "
-           "코인(예: ETH-USD)만 근거가 분명할 때 거래하세요. market_view에는 '정규장이 아니라 "
-           "주식은 관망'임을 명시하세요.\n"
-           if session != "regular"
-           else "  → 정규장입니다. 평소 규칙대로 주식·코인 모두 정상 판단하세요.\n")
-    )
+    # 세션별로 두 AI에 동일한 거래 규칙을 주입 (판단 통일의 핵심)
+    if session == "regular":
+        session_rule = (
+            f"[현재 미국장 세션] {session_kr}\n"
+            "  → 정규장입니다. 평소 규칙대로 주식·코인 모두 정상 판단하세요.\n"
+        )
+    elif session == "after":
+        session_rule = (
+            f"[현재 미국장 세션] {session_kr}\n"
+            "  → 애프터마켓입니다. 이 봇은 애프터마켓에도 거래하되 매우 신중하게 합니다. 핵심 주의사항:\n"
+            "  · 실적 발표가 애프터마켓에 많이 나오므로, 보유 종목이 급변(afterhours_chg_pct 참고)했다면 대응(손절·익절)을 우선 검토하세요.\n"
+            "  · 각 종목 price는 '애프터마켓 실시간 체결가'로 갱신돼 있고, regular_close(정규장 종가)·afterhours_chg_pct(장 외 변동%)가 함께 제공됩니다.\n"
+            "  · 애프터마켓은 호가가 얇아 체결이 왜곡되기 쉽습니다. 이미 크게 급등한 종목을 추격 매수하는 것은 위험하니 신중하세요(신규 매수는 정말 확신될 때만, 포지션도 절반으로 축소됩니다).\n"
+            "  · 손절은 보유 종목 보호를 위해 적극적으로, 신규 매수는 보수적으로. 애매하면 정규장까지 기다리세요.\n"
+            "  · 주문은 시장가가 아니라 지정가로 나갑니다(체결이 안 될 수도 있음을 감안).\n"
+        )
+    else:
+        session_rule = (
+            f"[현재 미국장 세션] {session_kr}\n"
+            "  → 지금은 거래 가능한 시간이 아닙니다(프리마켓·휴장). 미국 주식(코인 제외)에 대한 "
+            "매수·매도 결정을 절대 내지 마세요. 주식 관련 decisions는 모두 빈 배열로 두고, "
+            "코인(예: ETH-USD)만 근거가 분명할 때 거래하세요. market_view에는 '거래 시간이 아니라 "
+            "주식은 관망'임을 명시하세요.\n"
+        )
     prompt = (
         "당신은 미국 주식 포트폴리오 매니저입니다. 모의계좌를 운용 중입니다.\n"
         "기술적 지표 기반의 스윙 전략을 따르되, 확신이 없으면 거래하지 않는 것이 원칙입니다.\n\n"
@@ -674,7 +723,9 @@ def _consensus(claude_plan, deepseek_plan):
 
 
 # ── 주문 검증 + 실행 ──
-STOCK_MARKET_OPEN = True  # main에서 매 실행마다 갱신
+STOCK_MARKET_OPEN = True   # 정규장 여부 (시장가 거래)
+STOCK_TRADABLE = True      # 주식 거래 가능 여부 (정규장 OR 애프터마켓)
+IS_AFTER_HOURS = False     # 애프터마켓 여부 (지정가+extended_hours, 포지션 축소)
 MARKET_SESSION = "regular"  # main에서 매 실행마다 갱신 (regular|pre|after|closed)
 
 
@@ -692,9 +743,9 @@ def execute(decisions, account, positions, market, regime=None):
     for d in decisions[:MAX_TRADES_PER_RUN]:
         sym = str(d.get("symbol", "")).upper()
         crypto = is_crypto(sym)
-        # 미국 주식장이 정규장이 아니면 주식 주문은 여기서 선차단 (코인은 24시간 진행).
-        # '잘못된 주문' 체크보다 앞에 둬서, 비정규장에 AI가 낸 주식 결정이 노이즈로 빠지지 않게 함.
-        if not crypto and not STOCK_MARKET_OPEN:
+        # 주식 거래 불가 세션(프리마켓·휴장)이면 선차단 (코인은 24시간 진행).
+        # 애프터마켓은 STOCK_TRADABLE=True라 통과 → 아래에서 지정가+축소로 처리.
+        if not crypto and not STOCK_TRADABLE:
             results.append(f"⏸ {sym} 보류 ({_SESSION_KR.get(MARKET_SESSION,'장 외')} — 정규장에 재검토)")
             continue
         try:
@@ -730,6 +781,10 @@ def execute(decisions, account, positions, market, regime=None):
                 pos_cap = 0.03                                          # 3%
             else:
                 pos_cap = MAX_POSITION_PCT                              # 5%
+
+            # 애프터마켓 매수는 유동성·변동성 리스크로 한도를 절반으로 축소
+            if not crypto and IS_AFTER_HOURS:
+                pos_cap *= 0.5
 
             # 이미 보유 중이면, 합산이 한도를 넘지 않게 (분할 매수 누적 방지)
             held_val = held.get(sym, 0) * prices[sym]
@@ -777,13 +832,22 @@ def execute(decisions, account, positions, market, regime=None):
                 # 코인 매도는 보유 수량 기준
                 order = {"symbol": to_alpaca_symbol(sym), "qty": str(qty),
                          "side": side, "type": "market", "time_in_force": "gtc"}
+            elif IS_AFTER_HOURS:
+                # 애프터마켓: 시장가 불가 → 지정가 + extended_hours 필수.
+                # 체결 가능성을 위해 매수는 현재가 +0.3%, 매도는 -0.3%로 살짝 양보.
+                px = prices[sym]
+                limit_px = round(px * (1.003 if side == "buy" else 0.997), 2)
+                order = {"symbol": to_alpaca_symbol(sym), "qty": str(qty),
+                         "side": side, "type": "limit", "limit_price": str(limit_px),
+                         "time_in_force": "day", "extended_hours": True}
             else:
                 order = {"symbol": to_alpaca_symbol(sym), "qty": str(qty),
                          "side": side, "type": "market", "time_in_force": "day"}
             alpaca("/v2/orders", method="POST", body=order)
             mark = "🔴 매수" if side == "buy" else "🔵 매도"
             hr_tag = " ⚡하이리스크" if (side == "buy" and is_highrisk) else ""
-            results.append(f"{mark}{hr_tag} {sym} {qty}{'개' if crypto else '주'} (~${cost:,.0f}) — {reason}")
+            ah_tag = " 🌙애프터" if (not crypto and IS_AFTER_HOURS) else ""
+            results.append(f"{mark}{hr_tag}{ah_tag} {sym} {qty}{'개' if crypto else '주'} (~${cost:,.0f}) — {reason}")
             cash = cash - cost if side == "buy" else cash + cost
         except Exception as e:
             results.append(f"⛔ {sym} 주문 실패: {e}")
@@ -956,11 +1020,16 @@ def main():
         log(f"⚠️ 포지션 조회 실패: {e}")
         positions_raw = []
     log(f"📊 알파카 포지션 조회 결과: {len(positions_raw)}개")
-    global STOCK_MARKET_OPEN, MARKET_SESSION
+    global STOCK_MARKET_OPEN, STOCK_TRADABLE, IS_AFTER_HOURS, MARKET_SESSION
     MARKET_SESSION = get_market_session()
     STOCK_MARKET_OPEN = (MARKET_SESSION == "regular")
-    log(f"🕐 미국 주식장: {_SESSION_KR.get(MARKET_SESSION, MARKET_SESSION)}"
-        + ("" if STOCK_MARKET_OPEN else " — 주식 관망, 코인만 거래"))
+    IS_AFTER_HOURS = (MARKET_SESSION == "after")
+    # 주식 거래 가능 = 정규장 또는 애프터마켓 (프리마켓·휴장은 코인만)
+    STOCK_TRADABLE = MARKET_SESSION in ("regular", "after")
+    _sess_note = ("" if STOCK_MARKET_OPEN else
+                  (" — 애프터마켓: 지정가·축소 포지션으로 거래" if IS_AFTER_HOURS
+                   else " — 주식 관망, 코인만 거래"))
+    log(f"🕐 미국 주식장: {_SESSION_KR.get(MARKET_SESSION, MARKET_SESSION)}{_sess_note}")
 
     # 미체결 주문이 쌓여 있으면 구매력이 잠기므로, 일정 수 이상이면 이번 실행은 신규 주문 보류
     try:
@@ -977,10 +1046,19 @@ def main():
         return 0
     positions = _parse_positions(positions_raw)
 
-    # 미국장 마감 시에는 코인만 수집 (주식은 어차피 보류되므로 헛수집·크레딧 절약)
-    if not STOCK_MARKET_OPEN:
+    # 미국장 마감(프리·휴장) 시에는 코인만 수집 (주식 거래 보류되므로 헛수집·크레딧 절약)
+    if not STOCK_TRADABLE:
         targets = [s for s in watch if s in CRYPTO]
         log(f"💤 미국장 마감 — 코인만 점검 ({len(targets)}종목)")
+    elif IS_AFTER_HOURS:
+        # 애프터마켓: 실적 대응이 핵심이므로 보유 종목 + 코어만 집중 수집
+        # (애프터마켓은 유동성 얇아 전체 스캔은 비효율, 보유분 방어·코어 급변 감지에 집중)
+        CORE = {"AAPL","MSFT","NVDA","GOOGL","AMZN","META","TSLA",
+                "QQQ","SPY","SMH","SOXX","IGV","XLK","GLD","TLT",
+                "TQQQ","SOXL","SQQQ","SOXS","ETH-USD"}
+        held_syms = {p["symbol"] for p in positions}
+        targets = [s for s in watch if s in CORE or s in held_syms]
+        log(f"🌙 애프터마켓 — 보유·코어 집중 점검 ({len(targets)}종목)")
     else:
         # 종목 풀이 크면(>70) 전부 매번 받지 않고 로테이션 스캔 (속도·데이터소스 보호)
         # 항상 받는 것: 보유 종목 + 코어(M7·주요 ETF·헤지·코인)
@@ -1013,6 +1091,21 @@ def main():
             log(f"⚠️ {sym} 시세 실패: {e}")
         time.sleep(0.4)  # 종목이 많아 데이터 소스 차단 방지용 간격
     log(f"✅ [3단계] 시세 확보 {len(market)}/{len(targets)} 종목")
+
+    # 애프터마켓이면 최신 체결가로 현재가를 갱신 (실적 급변 반영). 일봉 종가 대비 변화도 계산.
+    if IS_AFTER_HOURS and market:
+        latest = fetch_latest_prices([m["symbol"] for m in market])
+        for m in market:
+            lp = latest.get(m["symbol"])
+            if lp and m.get("price"):
+                prev_close = m["price"]
+                m["regular_close"] = prev_close          # 정규장 종가 보존
+                m["price"] = round(lp, 2)                 # 현재가를 애프터마켓 체결가로
+                m["afterhours_chg_pct"] = round((lp / prev_close - 1) * 100, 1)  # 장 외 변동
+        moved = [m for m in market if abs(m.get("afterhours_chg_pct", 0)) >= 3]
+        if moved:
+            log("🌙 애프터마켓 급변(±3%↑): " +
+                ", ".join(f"{m['symbol']} {m['afterhours_chg_pct']:+.1f}%" for m in moved))
 
     if not market:
         send_push("🤝 컨센서스 봇 — 실행 실패", "시세를 하나도 못 가져왔어요.", True)
