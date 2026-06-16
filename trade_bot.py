@@ -565,7 +565,7 @@ def ask_claude(account, positions, market, regime=None, session="regular"):
         "- 거래할 이유가 약하면 빈 배열로 응답 (거래 안 함이 기본값)\n\n"
         "아래 JSON 형식으로만 응답하세요. 다른 텍스트, 마크다운 백틱 금지:\n"
         '{"decisions":[{"action":"buy|sell","symbol":"JPM","qty":3,"conviction":"normal","tier":"core","reason":"한 문장 근거"}],'
-        '"market_view":"오늘 시장 국면 판단, 왜 매수/매도/관망했는지 핵심 근거, 포트폴리오 분산·레버리지·현금 비중에 대한 평가를 3~5문장으로 충분히. 나중에 사람이 봇의 판단을 복기할 수 있도록 솔직하고 구체적으로. 다만 마지막 문장은 반드시 마침표로 끝맺을 것."}'
+        '"market_view":"오늘 시장 국면 판단, 왜 매수/매도/관망했는지 핵심 근거, 포트폴리오 분산·레버리지·현금 비중에 대한 평가를 자세히. 길이 제한 없으니 나중에 사람이 봇의 판단을 복기할 수 있도록 솔직하고 구체적으로 충분히 설명할 것. 다만 마지막 문장은 반드시 마침표로 끝맺을 것."}'
     )
     res = http_json(
         "https://api.anthropic.com/v1/messages", method="POST",
@@ -664,9 +664,12 @@ def _consensus(claude_plan, deepseek_plan):
         if action == "sell" and (sym, "sell") not in c_map:
             merged.append(y); consensus_log.append(f"{sym} 매도(DeepSeek)")
 
+    # 앱용 market_view는 잘림 없이 두 AI의 전체 분석을 그대로 담는다(사실상 무제한,
+    # 폭주 방어용 넉넉한 상한만). 알림(ntfy)은 format_view_for_push에서 각 250자로
+    # 별도 요약되므로, 여기서 길어도 알림이 4096바이트를 넘지 않는다.
     view = "🤝 합의: " + (", ".join(consensus_log) if consensus_log else "거래 없음") + \
-           " | Claude: " + _clip_sentence(claude_plan.get("market_view", "")) + \
-           " | DeepSeek: " + _clip_sentence(deepseek_plan.get("market_view", ""))
+           " | Claude: " + _clip_sentence(claude_plan.get("market_view", ""), 4000) + \
+           " | DeepSeek: " + _clip_sentence(deepseek_plan.get("market_view", ""), 4000)
     return {"decisions": merged, "market_view": view}
 
 
@@ -807,6 +810,11 @@ def format_view_for_push(mv):
         claude = mv.strip()
     consensus = consensus.replace("🤝 합의:", "").strip()
 
+    # 알림(ntfy)은 ntfy 서버 4096바이트 제한이 있어, 각 AI 멘트를 250자로 요약한다.
+    # 앱용 market_view는 1000자 풀버전 그대로 유지되고, 여기서 자르는 건 알림 표시용뿐.
+    claude = _clip_sentence(claude, 250)
+    deep = _clip_sentence(deep, 250)
+
     lines = []
     if consensus and consensus != "거래 없음":
         lines.append(f"🤝 합의: {consensus}")
@@ -821,10 +829,28 @@ def format_view_for_push(mv):
     return "\n\n".join(lines)
 
 
+def _fit_ntfy(message, max_bytes=3800):
+    """ntfy 서버는 본문이 4096바이트를 넘으면 알림을 첨부파일로 돌려 '짤린 것처럼'
+    보인다. 한도 안에 들도록 UTF-8 바이트 기준으로 안전하게 자른다(한글 글자 중간
+    분할 방지). 잘릴 경우 전체는 앱에서 보라는 안내를 덧붙인다."""
+    data = message.encode("utf-8")
+    if len(data) <= max_bytes:
+        return message
+    note = "\n\n…(전체 내용은 사도될까 앱에서 확인)"
+    budget = max_bytes - len(note.encode("utf-8"))
+    cut = data[:budget].decode("utf-8", "ignore")  # 깨진 끝바이트는 버림
+    # 줄 경계에서 끊어 자연스럽게
+    nl = cut.rfind("\n\n")
+    if nl > budget * 0.5:
+        cut = cut[:nl]
+    return cut.rstrip() + note
+
+
 def send_push(title, message, urgent):
     if not NTFY_TOPIC:
         log("NTFY_TOPIC 없음 — 알림 생략")
         return
+    message = _fit_ntfy(message)
     payload = json.dumps({"topic": NTFY_TOPIC, "title": title, "message": message,
                           "priority": 4 if urgent else 3,
                           "tags": ["robot"]}).encode("utf-8")
