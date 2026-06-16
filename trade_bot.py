@@ -607,6 +607,20 @@ def _parse_ai_json(text, who):
     return json.loads(text[start:end + 1])
 
 
+def _clip_sentence(text, limit=400):
+    """알림/표시용으로 길이를 제한하되 문장 중간에서 안 끊기게.
+    limit를 넘으면 그 안의 마지막 문장 종결부호(. ! ? 까지)에서 깔끔하게 자른다.
+    적당한 종결부호가 없으면 말줄임표를 붙인다."""
+    if not text or len(text) <= limit:
+        return text
+    cut = text[:limit]
+    idx = max(cut.rfind("."), cut.rfind("!"), cut.rfind("?"),
+              cut.rfind("。"), cut.rfind("…"))
+    if idx > limit * 0.5:          # 너무 앞에서 끊기면 차라리 말줄임
+        return cut[:idx + 1]
+    return cut.rstrip() + "…"
+
+
 def _consensus(claude_plan, deepseek_plan):
     """두 AI 판단을 합의: 둘 다 동의한 매수만 실행, 손절은 한쪽이라도 원하면 실행."""
     c_dec = claude_plan.get("decisions", []) or []
@@ -644,8 +658,8 @@ def _consensus(claude_plan, deepseek_plan):
             merged.append(y); consensus_log.append(f"{sym} 매도(DeepSeek)")
 
     view = "🤝 합의: " + (", ".join(consensus_log) if consensus_log else "거래 없음") + \
-           " | Claude: " + claude_plan.get("market_view", "")[:200] + \
-           " | DeepSeek: " + deepseek_plan.get("market_view", "")[:200]
+           " | Claude: " + _clip_sentence(claude_plan.get("market_view", "")) + \
+           " | DeepSeek: " + _clip_sentence(deepseek_plan.get("market_view", ""))
     return {"decisions": merged, "market_view": view}
 
 
