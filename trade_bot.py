@@ -96,22 +96,50 @@ def fetch_yahoo(sym):
     return rows
 
 
+def _yahoo_crumb_session():
+    """야후 quote API는 쿠키+crumb 인증을 요구한다(2024년 이후). 쿠키를 받고 crumb를
+    발급받아 (opener, crumb)를 반환. 실패 시 (None, None)."""
+    try:
+        import http.cookiejar
+        cj = http.cookiejar.CookieJar()
+        opener = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(cj))
+        opener.addheaders = list(UA.items())
+        # 1) 쿠키 받기 (finance 메인에서 consent 쿠키)
+        try:
+            opener.open("https://fc.yahoo.com", timeout=10)
+        except Exception:
+            opener.open("https://finance.yahoo.com", timeout=10)
+        # 2) crumb 발급
+        crumb = opener.open(
+            "https://query1.finance.yahoo.com/v1/test/getcrumb", timeout=10
+        ).read().decode("utf-8", "replace").strip()
+        if crumb and "<" not in crumb:   # HTML 에러페이지가 아니면
+            return opener, crumb
+    except Exception as e:
+        log(f"⚠️ 야후 crumb 발급 실패: {e}")
+    return None, None
+
+
 def fetch_valuations(symbols):
-    """야후 batch quote로 PER·PBR 등 밸류에이션을 한 번에 수집.
+    """야후 batch quote로 PER·PBR 등 밸류에이션을 한 번에 수집(쿠키+crumb 인증).
     저평가 판정용. 실패해도 봇이 죽지 않게 {}를 반환(있으면 쓰고 없으면 기술적으로만).
     코인·일부 ETF는 값이 없을 수 있음 → 그대로 둠."""
     out = {}
-    # 코인 제외 (밸류에이션 개념 없음)
     syms = [s for s in symbols if not is_crypto(s)]
     if not syms:
         return out
-    # 야후 quote는 한 번에 여러 심볼 가능 → 50개씩 끊어서
+    opener, crumb = _yahoo_crumb_session()
+    if not crumb:
+        log("⚠️ 밸류에이션: 야후 인증 실패 → 기술적 지표로만 판정")
+        return out
     for i in range(0, len(syms), 50):
         chunk = syms[i:i + 50]
         try:
-            url = ("https://query1.finance.yahoo.com/v7/finance/quote?symbols="
+            url = ("https://query1.finance.yahoo.com/v7/finance/quote?crumb="
+                   + urllib.parse.quote(crumb) + "&symbols="
                    + urllib.parse.quote(",".join(chunk)))
-            j = json.loads(_get(url))
+            raw = opener.open(url, timeout=20).read().decode("utf-8", "replace")
+            j = json.loads(raw)
             for q in j.get("quoteResponse", {}).get("result", []):
                 sym = str(q.get("symbol", "")).upper()
                 if not sym:
@@ -120,7 +148,6 @@ def fetch_valuations(symbols):
                     "pe": q.get("trailingPE"),
                     "fwd_pe": q.get("forwardPE"),
                     "pb": q.get("priceToBook"),
-                    # 52주 고점 대비 위치(%) — 낙폭 가늠용
                     "off_52w_high_pct": (
                         round((q.get("regularMarketPrice", 0) / q.get("fiftyTwoWeekHigh", 0) - 1) * 100, 1)
                         if q.get("fiftyTwoWeekHigh") else None),
@@ -294,6 +321,10 @@ def summarize(sym, series):
     chg5 = (closes[-1] / closes[-6] - 1) * 100 if len(closes) > 6 else 0
     chg20 = (closes[-1] / closes[-21] - 1) * 100 if len(closes) > 21 else 0
     cur = closes[-1]
+    # 52주(약 252거래일) 고점 대비 낙폭 — 가격 데이터만으로 계산(야후 인증 불필요).
+    # 밸류에이션 수집이 실패해도 '얼마나 빠졌나'는 항상 제공돼 저가매수 판단에 쓰임.
+    hi_252 = max(closes[-252:]) if len(closes) >= 20 else max(closes)
+    off_52w = round((cur / hi_252 - 1) * 100, 1) if hi_252 else None
     sr = support_resistance(closes, cur)
     fib = fib_retracement(closes)
     tz = taco_zone(cur, sr, fib)
@@ -316,6 +347,7 @@ def summarize(sym, series):
         "fib": fib["levels"] if fib else None,
         "taco_zone": tz,
         "in_taco_zone": in_taco,
+        "off_52w_high_pct": off_52w,
     }
 
 
@@ -614,13 +646,13 @@ def ask_claude(account, positions, market, regime=None, session="regular"):
         "- 거래할 이유가 약하면 빈 배열로 응답 (거래 안 함이 기본값)\n\n"
         "아래 JSON 형식으로만 응답하세요. 다른 텍스트, 마크다운 백틱 금지:\n"
         '{"decisions":[{"action":"buy|sell","symbol":"JPM","qty":3,"conviction":"normal","tier":"core","reason":"한 문장 근거"}],'
-        '"market_view":"오늘 시장 국면 판단, 왜 매수/매도/관망했는지 핵심 근거, 포트폴리오 분산·레버리지·현금 비중에 대한 평가를 자세히. 길이 제한 없으니 나중에 사람이 봇의 판단을 복기할 수 있도록 솔직하고 구체적으로 충분히 설명할 것. 다만 마지막 문장은 반드시 마침표로 끝맺을 것."}'
+        '"market_view":"오늘 시장 국면 판단, 왜 매수/매도/관망했는지 핵심 근거, 포트폴리오 분산·레버리지·현금 비중에 대한 평가를 자세히. 나중에 사람이 봇의 판단을 복기할 수 있도록 솔직하고 구체적으로 충분히 설명하되, 5~8문장(800자 내외)을 넘지 말 것. 반드시 완결된 JSON으로 끝맺고 마지막 문장은 마침표로 끝낼 것."}'
     )
     res = http_json(
         "https://api.anthropic.com/v1/messages", method="POST",
         headers={"x-api-key": ANTHROPIC_KEY, "anthropic-version": "2023-06-01",
                  "content-type": "application/json"},
-        body={"model": "claude-sonnet-4-6", "max_tokens": 1500,
+        body={"model": "claude-sonnet-4-6", "max_tokens": 4000,
               "messages": [{"role": "user", "content": prompt}]})
     text = "".join(b.get("text", "") for b in res.get("content", []))
     claude_plan = _parse_ai_json(text, "Claude")
@@ -636,7 +668,7 @@ def ask_claude(account, positions, market, regime=None, session="regular"):
             "https://api.deepseek.com/chat/completions", method="POST",
             headers={"Authorization": f"Bearer {DEEPSEEK_KEY}",
                      "content-type": "application/json"},
-            body={"model": "deepseek-chat", "max_tokens": 1500,
+            body={"model": "deepseek-chat", "max_tokens": 4000,
                   "messages": [{"role": "user", "content": prompt}]})
         ds_text = ds_res.get("choices", [{}])[0].get("message", {}).get("content", "")
         deepseek_plan = _parse_ai_json(ds_text, "DeepSeek")
@@ -648,12 +680,37 @@ def ask_claude(account, positions, market, regime=None, session="regular"):
 
 
 def _parse_ai_json(text, who):
-    """AI 응답에서 JSON 추출."""
+    """AI 응답에서 JSON 추출. 응답이 토큰 한도로 잘려 JSON이 미완성이어도
+    decisions 배열만이라도 복구해 거래는 진행되게 한다(market_view는 부가 정보)."""
     text = (text or "").replace("```json", "").replace("```", "").strip()
     start, end = text.find("{"), text.rfind("}")
-    if start == -1 or end == -1:
-        raise ValueError(f"{who} 응답에 JSON이 없음: " + text[:200])
-    return json.loads(text[start:end + 1])
+    if start != -1 and end != -1 and end > start:
+        try:
+            return json.loads(text[start:end + 1])
+        except json.JSONDecodeError:
+            pass  # 아래 복구 시도로
+
+    # ── 복구: 응답이 잘려 완전한 JSON이 아닐 때 decisions 배열만 추출 ──
+    if start != -1:
+        import re
+        m = re.search(r'"decisions"\s*:\s*(\[.*?\])', text[start:], re.DOTALL)
+        if m:
+            try:
+                decisions = json.loads(m.group(1))
+                # market_view도 가능한 만큼 살림 (잘렸으면 거기까지만)
+                mv = ""
+                mvm = re.search(r'"market_view"\s*:\s*"(.*)', text[start:], re.DOTALL)
+                if mvm:
+                    mv = mvm.group(1)
+                    # 끝의 미완성 따옴표·중괄호 정리
+                    mv = mv.rstrip().rstrip('"').rstrip('}').rstrip().rstrip('"')
+                log(f"⚠️ {who} 응답이 잘려 부분 복구: 거래 {len(decisions)}건 추출"
+                    + (" (market_view 일부 손실)" if not mv else ""))
+                return {"decisions": decisions, "market_view": mv}
+            except json.JSONDecodeError:
+                pass
+
+    raise ValueError(f"{who} 응답에 JSON이 없음: " + text[:200])
 
 
 def _clip_sentence(text, limit=1000):
@@ -1111,13 +1168,18 @@ def main():
         send_push("🤝 컨센서스 봇 — 실행 실패", "시세를 하나도 못 가져왔어요.", True)
         return 1
 
-    # 밸류에이션(PER·PBR) 수집해 각 종목에 merge (저평가 판정용, 실패 허용)
+    # 밸류에이션(PER·PBR) 수집해 각 종목에 merge (저평가 판정용, 실패 허용).
+    # 야후 인증이 실패해도 off_52w_high_pct는 일봉으로 계산돼 있어 항상 제공됨.
     try:
         vals = fetch_valuations([m["symbol"] for m in market])
         for m in market:
-            v = vals.get(m["symbol"])
-            if v:
-                m["valuation"] = {k: val for k, val in v.items() if val is not None}
+            v = vals.get(m["symbol"]) or {}
+            val = {k: x for k, x in v.items() if x is not None}
+            # 야후가 52주 낙폭을 안 줬으면 일봉 계산값으로 채움
+            if "off_52w_high_pct" not in val and m.get("off_52w_high_pct") is not None:
+                val["off_52w_high_pct"] = m["off_52w_high_pct"]
+            if val:
+                m["valuation"] = val
     except Exception as e:
         log(f"⚠️ 밸류에이션 merge 실패: {e}")
 
