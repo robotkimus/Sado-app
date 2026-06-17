@@ -160,6 +160,42 @@ def fetch_valuations(symbols):
     return out
 
 
+def fetch_market_news(symbols=None, limit=30):
+    """알파카(Benzinga) 뉴스 API로 시장 주요 뉴스를 수집. 썸네일·출처·시각 포함.
+    symbols 주면 해당 종목 뉴스, 없으면 전체 시장 뉴스. 앱 표시용(news.json).
+    실패해도 빈 리스트 반환(봇 거래엔 영향 없음)."""
+    try:
+        url = (f"https://data.alpaca.markets/v1beta1/news?limit={limit}&sort=desc"
+               "&include_content=false&exclude_contentless=true")
+        if symbols:
+            url += "&symbols=" + urllib.parse.quote(",".join(symbols))
+        j = json.loads(_get(url, headers={"APCA-API-KEY-ID": ALPACA_KEY,
+                                          "APCA-API-SECRET-KEY": ALPACA_SECRET}))
+        out = []
+        for n in j.get("news", []):
+            # 썸네일: images 배열에서 small/thumb 우선
+            thumb = ""
+            for img in (n.get("images") or []):
+                if img.get("url"):
+                    thumb = img["url"]
+                    if img.get("size") in ("thumb", "small"):
+                        break
+            out.append({
+                "headline": n.get("headline", ""),
+                "summary": (n.get("summary", "") or "")[:200],
+                "source": n.get("source", "") or n.get("author", ""),
+                "url": n.get("url", ""),
+                "created_at": n.get("created_at", ""),
+                "symbols": n.get("symbols", [])[:5],
+                "image": thumb,
+            })
+        log(f"✅ 시장 뉴스 수집: {len(out)}건")
+        return out
+    except Exception as e:
+        log(f"⚠️ 시장 뉴스 수집 실패: {e}")
+        return []
+
+
 def fetch_latest_prices(symbols):
     """알파카 snapshot으로 종목들의 '최신 체결가'를 batch 수집.
     정규장 마감 후에도 애프터마켓 체결가를 반영하므로, 실적 발표 등으로
@@ -1291,6 +1327,24 @@ def main():
     with open("bot_status.json", "w", encoding="utf-8") as f:
         json.dump(status, f, ensure_ascii=False, indent=1)
     log("✅ [5단계] bot_status.json 저장 완료")
+
+    # ── 시장 뉴스 수집 → news.json (앱 표시용, 거래 판단과 무관) ──
+    try:
+        held_syms = [p["symbol"] for p in positions if not is_crypto(p["symbol"])]
+        general = fetch_market_news(limit=30)              # 전체 시장 주요 뉴스
+        held_news = fetch_market_news(held_syms, limit=15) if held_syms else []
+        # 중복 제거(url 기준), 보유종목 뉴스 우선 + 일반 뉴스
+        seen, merged = set(), []
+        for n in held_news + general:
+            u = n.get("url", "")
+            if u and u not in seen:
+                seen.add(u); merged.append(n)
+        news_doc = {"updated": now_str, "items": merged[:40]}
+        with open("news.json", "w", encoding="utf-8") as f:
+            json.dump(news_doc, f, ensure_ascii=False, indent=1)
+        log(f"✅ news.json 저장 완료 ({len(news_doc['items'])}건)")
+    except Exception as e:
+        log(f"⚠️ news.json 저장 실패(앱 표시만 영향): {e}")
 
     # ── 판단 일지 누적 (행동 분석용) ──
     # 거래가 있었거나, market_view에 의미 있는 판단이 담겼을 때만 기록 (관망 반복은 생략해 용량 절약)

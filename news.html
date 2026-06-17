@@ -129,6 +129,21 @@
   .mc-info-row{display:flex; justify-content:space-between; padding:13px 0; border-bottom:1px solid var(--line); font-size:14px;}
   .mc-info-row .k{color:var(--dim);}
   .mc-info-row .v{font-weight:700;}
+  /* ── SAVE식 뉴스 라인 ── */
+  .nrow{display:flex; gap:12px; align-items:flex-start; padding:14px 0;
+    border-bottom:1px solid var(--line); text-decoration:none; color:inherit;}
+  .nrow:last-child{border-bottom:none;}
+  .nrow-body{flex:1; min-width:0;}
+  .nrow-head{display:flex; align-items:center; gap:7px; margin-bottom:7px;}
+  .nbadge{font-size:11px; font-weight:800; color:#5b6bd6; background:rgba(91,107,214,.14);
+    padding:2px 8px; border-radius:6px; white-space:nowrap; max-width:120px; overflow:hidden; text-overflow:ellipsis;}
+  .ntime{font-size:11px; color:var(--dim); margin-left:auto; white-space:nowrap;}
+  .ntitle{font-size:15px; font-weight:700; line-height:1.45; color:var(--text);}
+  .ntags{display:flex; gap:6px; margin-top:9px; flex-wrap:wrap;}
+  .ntag{font-size:11px; color:var(--dim); border:1px solid var(--line);
+    padding:2px 9px; border-radius:13px;}
+  .nthumb{width:64px; height:64px; border-radius:10px; object-fit:cover;
+    flex-shrink:0; background:var(--card2);}
 </style>
 <script>
   (function(){ try{ if(localStorage.getItem("theme")==="light") document.documentElement.classList.add("_light_pending"); }catch(e){} })();
@@ -221,6 +236,14 @@
     <input type="text" id="dartKey" placeholder="DART API 키 (공시 보려면 입력, opendart.fss.or.kr 무료)">
   </div>
 
+  <div class="card" id="marketNewsCard">
+    <div style="display:flex; justify-content:space-between; align-items:center;">
+      <div class="sec-title">🌐 주요 시장 뉴스</div>
+      <span id="mnUpdated" class="muted" style="font-size:10.5px;"></span>
+    </div>
+    <div id="marketNewsList"><div class="muted"><span class="spin"></span> 불러오는 중...</div></div>
+  </div>
+
   <div class="card" id="newsCard">
     <div class="sec-title" id="newsTitle">검색어를 입력하거나 종목을 선택하세요</div>
     <div id="newsList"><div class="muted">상단에서 미국/국내를 고르고, 종목을 검색해보세요.</div></div>
@@ -287,6 +310,83 @@ function parseRss(xml){
   let items = [...doc.querySelectorAll("item")];
   if(!items.length) items = [...doc.getElementsByTagName("item")];
   return items;
+}
+
+/* ── 주요 시장 뉴스 (news.json 우선, 구글RSS 폴백) ── */
+function mnTimeAgo(pub){
+  if(!pub) return "";
+  const d = new Date(pub); if(isNaN(d)) return "";
+  const min = Math.floor((Date.now()-d)/60000);
+  if(min < 60) return `${min}분 전`;
+  const hr = Math.floor(min/60);
+  if(hr < 24) return `${hr}시간 전`;
+  return `${Math.floor(hr/24)}일 전`;
+}
+function renderMarketNews(items, updated){
+  const el = document.getElementById("marketNewsList");
+  const upEl = document.getElementById("mnUpdated");
+  if(!items || !items.length){
+    el.innerHTML = '<div class="muted">지금은 뉴스를 못 불러왔어요. 잠시 후 다시 시도해주세요.</div>';
+    return;
+  }
+  if(upEl && updated) upEl.textContent = "업데이트 " + updated;
+  el.innerHTML = items.slice(0,30).map(it=>{
+    const title = it.headline || "";
+    const link = it.url || "#";
+    const src = it.source || "Benzinga";
+    const ago = mnTimeAgo(it.created_at);
+    const tags = (it.symbols||[]).slice(0,3)
+      .map(s=>`<span class="ntag">#${s}</span>`).join("");
+    const thumb = it.image
+      ? `<img src="${it.image}" loading="lazy" referrerpolicy="no-referrer"
+             class="nthumb" onerror="this.style.display='none'">`
+      : "";
+    return `<a href="${link}" target="_blank" rel="noopener" class="nrow">
+              <div class="nrow-body">
+                <div class="nrow-head">
+                  <span class="nbadge">${src}</span>
+                  <span class="ntime">${ago}</span>
+                </div>
+                <div class="ntitle">${title}</div>
+                ${tags?`<div class="ntags">${tags}</div>`:""}
+              </div>
+              ${thumb}
+            </a>`;
+  }).join("");
+}
+
+async function loadMarketNews(){
+  const el = document.getElementById("marketNewsList");
+  // 1) 봇이 저장한 news.json 우선 (빠르고 안정적, 썸네일 포함)
+  try{
+    const r = await fetch("news.json?t=" + Date.now(), {signal:AbortSignal.timeout(8000)});
+    if(r.ok){
+      const j = await r.json();
+      if(j && j.items && j.items.length){
+        renderMarketNews(j.items, j.updated);
+        return;
+      }
+    }
+  }catch(e){}
+  // 2) 폴백: 봇이 아직 안 돌았으면 구글 RSS로 (느리지만 빈 화면 방지)
+  el.innerHTML = '<div class="muted"><span class="spin"></span> 불러오는 중...</div>';
+  try{
+    const items = await fetchNews("stock market S&P 500 Nasdaq", "en");
+    const conv = items.map(it=>{
+      let title = (it.querySelector("title")||{}).textContent || "";
+      const link = (it.querySelector("link")||{}).textContent || "#";
+      const pub = (it.querySelector("pubDate")||{}).textContent || "";
+      let src = ""; const d = title.lastIndexOf(" - ");
+      if(d>0){ src = title.slice(d+3); title = title.slice(0,d); }
+      return {headline:title, url:link, source:src, created_at:pub, symbols:[], image:""};
+    });
+    renderMarketNews(conv, "실시간(폴백)");
+  }catch(e){
+    el.innerHTML = '<div class="muted">지금은 뉴스를 못 불러왔어요. 잠시 후 새로고침해주세요.</div>';
+  }
+}
+function initMarketNews(){
+  loadMarketNews();
 }
 async function fetchNews(query, lang){
   const hl = lang==="ko" ? "ko" : "en-US";
@@ -743,6 +843,7 @@ document.getElementById("aiBtn").onclick = generateAICommentary;
 
 /* 초기화 */
 setMarket("US");
+initMarketNews();
 
 
 /* ===== 다크/화이트 테마 토글 ===== */
