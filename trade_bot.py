@@ -196,11 +196,11 @@ def fetch_market_news(symbols=None, limit=30):
         return []
 
 
-def fetch_latest_prices(symbols):
-    """알파카 snapshot으로 종목들의 '최신 체결가'를 batch 수집.
-    정규장 마감 후에도 애프터마켓 체결가를 반영하므로, 실적 발표 등으로
-    장 외 급변한 가격을 봇이 볼 수 있게 한다. 실패해도 {}를 반환(있으면 쓰고 없으면 일봉 종가).
-    코인 제외(별도 처리)."""
+def fetch_snapshots(symbols):
+    """알파카 snapshot으로 최신가 + 당일 저가/고가를 batch 수집.
+    '장중 저점 대비 반등률'을 계산해, SOXL 같은 변동성 큰 종목의 급락 후 반등을
+    봇이 포착할 수 있게 한다. 반환: {SYM: {price, day_low, day_high, rebound_from_low_pct, off_day_high_pct}}
+    실패해도 {} 반환."""
     out = {}
     syms = [s for s in symbols if not is_crypto(s)]
     if not syms:
@@ -212,24 +212,37 @@ def fetch_latest_prices(symbols):
                    + urllib.parse.quote(",".join(chunk)))
             j = json.loads(_get(url, headers={"APCA-API-KEY-ID": ALPACA_KEY,
                                               "APCA-API-SECRET-KEY": ALPACA_SECRET}))
-            # snapshots 응답: {symbol: {latestTrade:{p:가격,t:시각}, dailyBar:{c}, ...}}
-            data = j if isinstance(j, dict) else {}
-            # 일부 응답은 {"snapshots":{...}} 형태일 수 있음
-            if "snapshots" in data:
-                data = data["snapshots"]
+            data = j.get("snapshots", j) if isinstance(j, dict) else {}
             for sym, snap in data.items():
                 if not isinstance(snap, dict):
                     continue
                 lt = snap.get("latestTrade") or {}
-                price = lt.get("p")
-                if price:
-                    out[str(sym).upper()] = float(price)
+                db = snap.get("dailyBar") or {}
+                price = lt.get("p") or db.get("c")
+                if not price:
+                    continue
+                price = float(price)
+                low = float(db.get("l") or 0) or None     # 당일 저가
+                high = float(db.get("h") or 0) or None     # 당일 고가
+                rec = {"price": price, "day_low": low, "day_high": high}
+                if low and low > 0:
+                    rec["rebound_from_low_pct"] = round((price / low - 1) * 100, 1)
+                if high and high > 0:
+                    rec["off_day_high_pct"] = round((price / high - 1) * 100, 1)
+                out[str(sym).upper()] = rec
         except Exception as e:
-            log(f"⚠️ 최신가 수집 실패(chunk {i}): {e} → 일봉 종가로 대체")
+            log(f"⚠️ snapshot 수집 실패(chunk {i}): {e}")
         time.sleep(0.3)
     if out:
-        log(f"✅ 애프터마켓 최신가 수집: {len(out)}종목")
+        log(f"✅ snapshot 수집: {len(out)}종목 (최신가·장중 저점)")
     return out
+
+
+def fetch_latest_prices(symbols):
+    """fetch_snapshots에서 가격만 추려 {SYM: price}로 반환 (기존 호환)."""
+    snaps = fetch_snapshots(symbols)
+    return {s: v["price"] for s, v in snaps.items() if v.get("price")}
+
 
 
 def fetch_daily(sym):
@@ -638,12 +651,12 @@ def ask_claude(account, positions, market, regime=None, session="regular"):
         "      · 하락장/조정 국면에서는 적용 금지: 평균회귀가 깨지는 구간이라 위험. 상승장·중립 국면에서만.\n"
         "      · 업종 확산 참고: 같은 업종 대장주가 먼저 반등하면 관련 우량주로 확산되는 경향도 함께 고려.\n"
         "      · 각 종목 지표의 disparity_ma20_pct가 20일선 괴리율(%)이다. 음수로 크게 벌어진 우량주에서 반등 신호가 보이면 BNF식 역추세 기회로 판단하라.\n"
-        "  ② 추세추종(비쌀 때 사서 더 비쌀 때 판다): 골든크로스·신고가 돌파·강한 상승추세에서 달리는 추세에 올라탐. 거래량이 뒷받침될 때만.\n"
+        "  ② 추세추종(비쌀 때 사서 더 비쌀 때 판다): 골든크로스·신고가 돌파·강한 상승추세에서 달리는 추세에 올라탐. 거래량이 뒷받침될 때만. ★ 핵심은 '주도 섹터에 올라타는 것'이다 — 섹터 흐름에서 주도 섹터(강세)가 확인되면 그 섹터 ETF·종목을 추세추종으로 따라붙어라. 이미 올랐다고 피하지 말고, 추세가 살아있으면 분할로 진입한다.\n"
         "- 시장 국면으로 둘 중 무엇을 쓸지 결정한다: 하락장/과매도 국면 → ①저점매수 위주(신중히). 상승장/추세 국면 → ②추세추종 위주. 혼조·불명확 → 기다림(관망).\n"
         "- 두 방식 모두 '좋은 자리를 기다린다'는 본질은 같다. 조급하게 진입하지 말 것.\n\n"
         "포트폴리오 구조 (중요):\n"
-        "- 코어: M7(AAPL/MSFT/NVDA/GOOGL/AMZN/META/TSLA)과 기술 ETF(IGV/SOXX/SMH/QQQ)를 성장 축으로 운용\n"
-        "- 분산: 금융·헬스케어·에너지·소비재·안전자산(GLD/TLT)에도 나눠 담아 한 섹터 쏠림을 피할 것\n"
+        "- 코어: M7(AAPL/MSFT/NVDA/GOOGL/AMZN/META/TSLA)과 기술 ETF(IGV/SOXX/SMH/QQQ)를 성장 축으로 운용. ★ 단 코어를 지수(QQQ/SPY)와 빅테크로만 채우지 말 것 — 지금 주도하는 섹터의 ETF·종목을 반드시 코어에 포함하라. 반도체 사이클이면 SOXX·SMH와 강한 반도체 종목(NVDA·AVGO·AMD·MU·AMAT·LRCX·KLAC 등)을 적극 담는 게 추세추종의 정석이다. '지수+빅테크 디폴트'로만 돌면 정작 사이클의 수익을 놓친다.\n"
+        "- 분산: 금융·헬스케어·에너지·소비재·안전자산(GLD/TLT)에도 나눠 담아 한 섹터 쏠림을 피할 것. 단 분산이 '주도 섹터 회피'의 핑계가 되면 안 된다 — 분산은 하되 주도 섹터에 무게중심을 둬라.\n"
         "- 레버리지(TQQQ/SOXL/UPRO/QLD/TNA/FNGU/TECL/LABU/NVDL/TSLL): 3배 변동이라 위험. 상승 추세가 명확할 때만 단기 전술용으로. 확신이 강하면 종목당 최대 8%까지, 아니면 5% 이내. 레버리지+인버스 합산 평가액은 총자산의 15%를 절대 넘기지 말 것\n"
         "- 인버스(SQQQ/SOXS/SH/SDS): 지수가 20일선 아래로 꺾이는 등 하락 신호가 분명할 때 헤지용으로만. 같은 15% 한도 적용\n"
         "- 레버리지·인버스는 변동성 잠식이 있으니 보유가 길어지거나 근거가 사라지면 우선 정리 대상\n"
@@ -653,7 +666,7 @@ def ask_claude(account, positions, market, regime=None, session="regular"):
         "- 떨어지는 칼날 잡지 말 것: 급락 중인 종목을 '싸다'고 서둘러 사지 말 것. 하락 추세가 멈추고 바닥을 다지는 신호(거래량 동반 반등, MA5 회복)를 확인 후 진입\n"
         "- 손절은 빠르게: 하락장에선 손실이 더 빨리 커진다. 손절 기준(-7%, 레버리지 -5%)을 더 엄격히, 머뭇거리지 말 것\n"
         "- 분할 대응: 한 번에 다 사지 말고, 확신이 설 때 조금씩. 평균단가 낮추기(물타기)는 추세 확인 전엔 금물\n"
-        "- 레버리지 금지에 가깝게: 하락·변동성 국면에서 레버리지 롱(TQQQ 등)은 변동성 잠식으로 치명적. 추세가 명확히 돌기 전엔 피할 것\n"
+        "- 레버리지는 양날의 검: 하락·변동성 국면에서 레버리지 롱(TQQQ 등)은 변동성 잠식으로 치명적이라 추세가 명확히 돌기 전엔 피한다. 다만 '주도 섹터가 강한데 단기 급락 후 분명한 반등 신호가 나온 경우'는 하이리스크 슬롯으로 적극 포착할 가치가 있다(아래 하이리스크 규칙 참고). 무작정 금지가 아니라, 신호가 분명할 때만 빠르게 잡고 빠르게 손절한다.\n"
         "- 방어 자산: 하락장에선 GLD(금)·TLT(국채) 같은 안전자산 비중을 고려. 인버스(SQQQ 등)는 하락이 분명할 때만 소량 헤지\n"
         "- 공포에 휩쓸리지 말되 과신도 말 것: VIX가 극도로 높을 때(30+)는 역사적 저점 근처인 경우도 있으나, 섣부른 '바닥 매수'보다 안정 확인이 우선\n\n"
         "추가 매수(물타기로 평균단가 낮추기) 원칙 — 규율을 지킬 때만:\n"
@@ -674,13 +687,17 @@ def ask_claude(account, positions, market, regime=None, session="regular"):
         "  → ① 또는 ② 중 하나라도 분명하고, 펀더멘털이 망가진 게 아니면 하이리스크 후보. 둘 다 충족이면 더 강한 신호.\n"
         "- 하락장 예외(중요): BNF 역추세는 원래 하락장 금지지만, 하이리스크 슬롯에 한해 '확실한 추세 전환 신호'가 보이면 하락장에서도 저가매수를 시도할 수 있다. 단 매우 신중히 — 추세 전환이 애매하면 하지 말 것. 막연한 '싸 보임'은 금지, 반드시 돌아서는 신호 확인.\n"
         "- 레버리지(TQQQ 등)도 하이리스크 슬롯에 포함 가능. 단 한 종목 한도 5%는 동일.\n"
+        "- ★ 주도 섹터 레버리지 급락 반등 (적극 포착): 주도 섹터(예: 반도체)의 레버리지 ETF(SOXL·TQQQ 등)가 단기 급락(예: 하루 -12% 이상 또는 disparity_ma20_pct -15% 이하)한 뒤 '돌아서는 신호'가 나오면 하이리스크 슬롯으로 적극 진입하라. 신호 우선순위: ① rebound_from_low_pct(장중 저점 대비 반등률)가 크게 양수(+5% 이상) = 저점 찍고 튀는 중, ② MA5 회복 또는 거래량 동반 반등, ③ RSI 과매도 탈출. 이런 변동성 큰 종목의 'V자 반등'은 큰 수익 기회다. 단 레버리지는 손절 -5%로 더 빠르게, 포지션 5% 이내, 두 AI 합의 필수.\n"
+        "  └ rebound_from_low_pct(장중 저점 대비 현재 반등률%)와 off_day_high_pct(당일 고점 대비 현재 낙폭%)가 제공되면 적극 활용하라. 예: rebound_from_low_pct +8%면 장중 바닥에서 이미 8% 튄 것 = 반등 시작 신호. 단 '급락 자체'가 아니라 '급락 후 반등 확인'이 핵심 — 아직 떨어지는 중(rebound 거의 0)이면 칼날이니 기다려라.\n"
         f"- 각 주문에 \"tier\" 필드를 넣어라: \"core\"(일반 안전 매수) | \"highrisk\"(저평가·과매도 역추세). 미지정 시 core로 간주.\n"
         "- 하이리스크라도 두 AI(Claude·DeepSeek)가 모두 동의해야 실제 매수된다(합의 원칙 동일). 손절은 한쪽만 원해도 실행.\n\n"
         f"[현재 시장 국면] {json.dumps({k:v for k,v in regime.items() if k!='sectors'}, ensure_ascii=False) if regime else '판단 안 됨'}\n"
         "  → 위 국면을 반드시 반영할 것. '하락장/조정'이나 '단기 약세'면 신규 매수를 크게 줄이고 방어·현금 우선. '상승장'이면 정상 운용.\n"
         + (f"[섹터 흐름] {(regime or {}).get('sectors',{}).get('summary','')}\n"
            f"  섹터별 1·3개월 수익률: {json.dumps((regime or {}).get('sectors',{}).get('ranked',[]), ensure_ascii=False)}\n"
-           "  → 돈이 어디로 도는지(로테이션) 파악하라. 주도 섹터(강세)의 우량주에 무게를 두고, 소외 섹터는 신중히. 단, 이미 많이 오른 섹터를 뒤늦게 추격하는 건 경계(고점 매수 위험). 섹터 흐름은 '근거'로 참고하되 개별 종목 신호·펀더멘털과 함께 종합 판단할 것.\n\n"
+           "  → ★ 돈이 도는 주도 섹터(강세)를 추세추종으로 적극 따라붙어라. 이게 이 봇의 핵심 수익원이다. 주도 섹터(예: 반도체 강세 사이클)면 그 섹터 ETF(SOXX/SMH 등)와 그 섹터 강한 개별 종목을 분할로 매수하라. '이미 많이 올랐다'는 이유만으로 주도 섹터를 통째로 회피하지 말 것 — 추세추종은 원래 오르는 걸 사는 전략이다. 추세가 살아있으면(MA5·MA20 위, 거래량 동반) 분할로 따라붙고, 눌림목(단기 조정)이 오면 추가하라.\n"
+           "  → 단 '과열 극단'에서만 신규 진입을 자제한다: RSI 75 이상 + 볼린저 상단 크게 초과(1.1+) + 거래량 급감 같은 명백한 과열 신호가 동시에 보일 때. 그 외 추세 중간 구간(RSI 55~72)은 추세추종 정상 매수 구간이다. 막연히 '많이 올랐다'로 멈추지 말고, 과열 지표가 실제로 극단인지 확인하라.\n"
+           "  → 소외 섹터(약세, 1개월 마이너스)는 신중히. 섹터 흐름은 개별 종목 신호·펀더멘털과 함께 종합 판단하되, 주도 섹터를 비우고 지수·빅테크만 도는 편향을 경계하라.\n\n"
            if (regime or {}).get('sectors') else "\n")
         + session_rule
         + f"[계좌] 총자산 ${account['equity']}, 현금 ${account['cash']}\n"
@@ -1199,20 +1216,35 @@ def main():
         time.sleep(0.4)  # 종목이 많아 데이터 소스 차단 방지용 간격
     log(f"✅ [3단계] 시세 확보 {len(market)}/{len(targets)} 종목")
 
-    # 애프터마켓이면 최신 체결가로 현재가를 갱신 (실적 급변 반영). 일봉 종가 대비 변화도 계산.
-    if IS_AFTER_HOURS and market:
-        latest = fetch_latest_prices([m["symbol"] for m in market])
+    # 거래 가능 세션(정규장·애프터마켓)이면 snapshot으로 장중 저점 대비 반등 신호를 주입.
+    # SOXL 등 변동성 큰 종목이 장중 -16% 빠졌다 반등하는 흐름을 봇이 포착하게 함.
+    if STOCK_TRADABLE and market:
+        snaps = fetch_snapshots([m["symbol"] for m in market])
         for m in market:
-            lp = latest.get(m["symbol"])
+            snap = snaps.get(m["symbol"])
+            if not snap:
+                continue
+            lp = snap.get("price")
             if lp and m.get("price"):
-                prev_close = m["price"]
-                m["regular_close"] = prev_close          # 정규장 종가 보존
-                m["price"] = round(lp, 2)                 # 현재가를 애프터마켓 체결가로
-                m["afterhours_chg_pct"] = round((lp / prev_close - 1) * 100, 1)  # 장 외 변동
-        moved = [m for m in market if abs(m.get("afterhours_chg_pct", 0)) >= 3]
-        if moved:
-            log("🌙 애프터마켓 급변(±3%↑): " +
-                ", ".join(f"{m['symbol']} {m['afterhours_chg_pct']:+.1f}%" for m in moved))
+                if IS_AFTER_HOURS:
+                    m["regular_close"] = m["price"]               # 정규장 종가 보존
+                    m["afterhours_chg_pct"] = round((lp / m["price"] - 1) * 100, 1)
+                m["price"] = round(lp, 2)                          # 현재가를 최신 체결가로
+            # 장중 저점 대비 반등률 / 고점 대비 낙폭 (급락 후 반등 포착용)
+            if snap.get("rebound_from_low_pct") is not None:
+                m["rebound_from_low_pct"] = snap["rebound_from_low_pct"]
+            if snap.get("off_day_high_pct") is not None:
+                m["off_day_high_pct"] = snap["off_day_high_pct"]
+        # 로그: 장중 저점에서 크게 튄 종목(반등 +5%↑) 부각
+        rebounders = [m for m in market if m.get("rebound_from_low_pct", 0) >= 5]
+        if rebounders:
+            log("📈 장중 저점 대비 반등(+5%↑): " +
+                ", ".join(f"{m['symbol']} +{m['rebound_from_low_pct']:.1f}%" for m in rebounders))
+        if IS_AFTER_HOURS:
+            moved = [m for m in market if abs(m.get("afterhours_chg_pct", 0)) >= 3]
+            if moved:
+                log("🌙 애프터마켓 급변(±3%↑): " +
+                    ", ".join(f"{m['symbol']} {m['afterhours_chg_pct']:+.1f}%" for m in moved))
 
     if not market:
         send_push("🤝 컨센서스 봇 — 실행 실패", "시세를 하나도 못 가져왔어요.", True)
