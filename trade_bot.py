@@ -519,28 +519,41 @@ def get_market_session():
     now = _parse_et(clock.get("timestamp", ""))
     nxt_open = _parse_et(clock.get("next_open", ""))
     nxt_close = _parse_et(clock.get("next_close", ""))
+    def _closed_kind():
+        # 거래 시간 외를 주말/공휴일/평일 시간외로 구분 (라벨 정확도용. 거래는 모두 불가)
+        if not now:
+            return "closed_offhours"
+        wd = now.weekday()  # 0=월 ~ 6=일
+        if wd >= 5:
+            return "closed_weekend"
+        # 평일인데 닫힘: 다음 개장이 '모레 이후'면 공휴일로 추정(평일 하루 통째로 닫힘)
+        try:
+            if nxt_open and (nxt_open.date() - now.date()).days >= 2:
+                return "closed_holiday"
+        except Exception:
+            pass
+        return "closed_offhours"   # 평일 장 마감 후 또는 개장 전
+
     if not now:
-        return "closed"
-    # 다음 폐장이 다음 개장보다 먼저면(=오늘 개장 후 폐장 예정) 지금은 개장 전 = 프리마켓
-    # 단, 같은 날 개장 예정일 때만 프리/애프터로 본다
+        return "closed_offhours"
     try:
         if nxt_open and now.date() == nxt_open.date():
-            # 오늘 개장 예정이고 아직 개장 전 → 프리마켓
             if now < nxt_open:
                 return "pre"
-        # 오늘 이미 폐장했고(개장은 내일) → 애프터마켓
         if nxt_open and nxt_close and now.date() != nxt_open.date():
-            # 개장이 내일 이후면 장 끝난 뒤(애프터) 또는 휴장
-            # ET 기준 16:00~20:00 정도를 애프터로 간주
             if 16 <= now.hour < 20:
                 return "after"
-        return "closed"
+        return _closed_kind()
     except Exception:
-        return "closed"
+        return "closed_offhours"
 
 
 _SESSION_KR = {"regular": "정규장(개장 중)", "pre": "프리마켓(개장 전)",
-               "after": "애프터마켓(폐장 후)", "closed": "휴장(주말·공휴일 또는 시간 외)"}
+               "after": "애프터마켓(폐장 후)",
+               "closed_offhours": "거래 시간 외 (미국 장 마감 상태)",
+               "closed_weekend": "주말 휴장",
+               "closed_holiday": "공휴일 휴장",
+               "closed": "거래 시간 외 (미국 장 마감 상태)"}  # 하위호환
 
 
 def market_is_open():
@@ -570,10 +583,11 @@ def ask_claude(account, positions, market, regime=None, session="regular"):
     else:
         session_rule = (
             f"[현재 미국장 세션] {session_kr}\n"
-            "  → 지금은 거래 가능한 시간이 아닙니다(프리마켓·휴장). 미국 주식(코인 제외)에 대한 "
-            "매수·매도 결정을 절대 내지 마세요. 주식 관련 decisions는 모두 빈 배열로 두고, "
-            "코인(예: ETH-USD)만 근거가 분명할 때 거래하세요. market_view에는 '거래 시간이 아니라 "
-            "주식은 관망'임을 명시하세요.\n"
+            f"  → 지금은 미국 주식 거래 시간이 아닙니다(위 세션 상태 그대로 표현하세요. "
+            "정규장이 아닐 뿐 '휴장'으로 단정하지 말 것 — 평일 장 마감 후일 수 있음). "
+            "미국 주식(코인 제외)에 대한 매수·매도 결정을 절대 내지 마세요. 주식 관련 decisions는 "
+            "모두 빈 배열로 두고, 코인(예: ETH-USD)만 근거가 분명할 때 거래하세요. "
+            "market_view에는 위 세션 상태를 정확히 반영해 '거래 시간이 아니라 주식은 관망'임을 명시하세요.\n"
         )
     prompt = (
         "당신은 미국 주식 포트폴리오 매니저입니다. 모의계좌를 운용 중입니다.\n"
