@@ -1,6 +1,35 @@
 {
- "updated": "2026-06-19 01:03",
+ "updated": "2026-06-19 02:02",
  "items": [
+  {
+   "headline": "Nasdaq 100 Rallies, Oil Sinks To $75 On Iran Peace Deal: Stock Market Today",
+   "summary": "Stocks staged a broad rebound Thursday as a signed U.S.-Iran peace deal sank oil and an Intel-Apple chip pact powered semis.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/market-summary/26/06/53283834/nasdaq-100-rallied-intel-apple-deal-oil-sinks-on-iran-peace-deal",
+   "created_at": "2026-06-18T16:33:55Z",
+   "symbols": [
+    "AAPL",
+    "ACN",
+    "ALAB",
+    "AMD",
+    "AVGO"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/18/Oil-Derricks-Silhouette--Double-Exposure.jpeg?width=1024&height=768"
+  },
+  {
+   "headline": "EXCLUSIVE: Most eVTOL Companies Won't Survive — Nvidia Partner Explains Why",
+   "summary": "A Nvidia-backed aviation executive says only a handful of eVTOL manufacturers will survive over the next five years. Here&#39;s why Joby, Archer and others should be on your watchlist.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/06/53283071/exclusive-most-evtol-companies-wont-survive-this-nvidia-partner-explains-why",
+   "created_at": "2026-06-18T16:09:07Z",
+   "symbols": [
+    "ACHR",
+    "EVTL",
+    "JOBY",
+    "NVDA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/18/Flying-Transportation-Drone-Picking-Up-A_0.jpeg?width=1024&height=768"
+  },
   {
    "headline": "Take Chips Off The Table Before AI Trade Turns, UBS Warns",
    "summary": "UBS warns investors to reduce risk in tech stocks as AI trade becomes crowded and macro conditions are uncertain.",
@@ -188,34 +217,183 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/06/17/Washington-D-c---Usa---February-4--2025-.jpeg?width=1024&height=768"
   },
   {
-   "headline": "Apple Will Raise Prices Due To Soaring Memory Costs: CEO Tim Cook Says 'This Is A 100-Year Flood'",
-   "summary": "Apple will raise prices across its product lineup due to soaring memory chip costs, CEO Tim Cook says.",
+   "headline": "Super Micro Computer Stock Is Surging Thursday: What's Driving The Action?",
+   "summary": "Super Micro Computer shares are trading higher Thursday as investors digest the closing of the company&#39;s large equity financing package.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/06/53266186/apple-will-raise-prices-due-to-soaring-memory-costs-ceo-tim-cook-says-this-is-a-100-year-flood",
-   "created_at": "2026-06-17T22:19:18Z",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/06/53284269/super-micro-computer-stock-is-surging-thursday-whats-driving-the-action",
+   "created_at": "2026-06-18T16:43:38Z",
    "symbols": [
-    "AAPL",
+    "SMCI"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/18/Super-Micro-Computer--Inc-.jpeg?width=1024&height=768"
+  },
+  {
+   "headline": "The 14-Point US-Iran Deal Broken Down: What It Means For Oil Prices",
+   "summary": "US and Iran sign 14-point MOU to end war and reopen Strait of Hormuz, with immediate oil flow and 60-day nuclear program negotiation to come.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/06/53284836/the-14-point-us-iran-deal-broken-down-what-it-means-for-oil-prices",
+   "created_at": "2026-06-18T17:00:24Z",
+   "symbols": [
+    "CVX",
+    "OXY",
+    "USO",
+    "XOM"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/18/Weiss-Calls-Reported-Iran-Terms-An-Utter.jpeg?width=1024&height=768"
+  },
+  {
+   "headline": "Butterfly Network Climbs On Midjourney Hype Despite FDA, Reimbursement Questions",
+   "summary": "Butterfly says Midjourney unveils its medical scanner plans, while analysts weigh growth potential, FDA hurdles and reimbursement risks.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/health-care/26/06/53284799/butterfly-network-climbs-on-midjourney-hype-despite-fda-reimbursement-questions",
+   "created_at": "2026-06-18T16:59:18Z",
+   "symbols": [
+    "BFLY"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/18/Ultrasound-machine.jpeg?width=1024&height=768"
+  },
+  {
+   "headline": "Pfizer Stock Drops Today As CFO Steps Down In August",
+   "summary": "Pfizer shares are slipping Thursday after it announced that Chief Financial Officer Dave Denton will leave the organization.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/06/53284645/pfizer-stock-drops-today-as-cfo-steps-down-in-august",
+   "created_at": "2026-06-18T16:54:17Z",
+   "symbols": [
+    "PFE"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/18/Pfizer-Covid-shot.jpeg?width=1024&height=768"
+  },
+  {
+   "headline": "Why Is SanDisk Stock Surging On Thursday?",
+   "summary": "SanDisk Corporation (NASDAQ: SNDK) stock surges as Apple CEO Tim Cook confirms a severe memory shortage, validating pricing power for chipmakers.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/06/53284461/why-is-sandisk-stock-surging-on-thursday-2",
+   "created_at": "2026-06-18T16:48:56Z",
+   "symbols": [
     "AMZN",
     "GOOG",
     "GOOGL",
-    "META"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/17/Apple-Logo-On-Apple-Store-In-Hong-Kong.jpeg?width=1024&height=768"
-  },
-  {
-   "headline": "Fed Holds Rates Steady; Retail Sales Remain Resilient",
-   "summary": " ",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/Opinion/26/06/53262681/fed-holds-rates-steady-retail-sales-remain-resilient",
-   "created_at": "2026-06-17T19:47:11Z",
-   "symbols": [
-    "AAPL",
-    "AMZN",
-    "GOOG",
     "META",
     "MSFT"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/17/Federal-Reserve.jpeg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/18/Milpitas--Ca---Feb--12--2017-Sandisk---A.jpeg?width=1024&height=768"
+  },
+  {
+   "headline": "$1000 Invested In Freeport-McMoRan 10 Years Ago Would Be Worth This Much Today",
+   "summary": " ",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/insights/news/26/06/53284338/1000-invested-in-freeport-mcmoran-10-years-ago-would-be-worth-this-much-today",
+   "created_at": "2026-06-18T16:45:37Z",
+   "symbols": [
+    "FCX"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "What's Going On With Westport Fuel Systems Stock Thursday?",
+   "summary": "WPRT stock jumps 11% as Westport Fuel Systems &amp; Volvo Group&#39;s JV, Cespira, signs a deal to advance hydrogen heavy-duty engines.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/06/53284230/whats-going-on-with-westport-fuel-systems-stock-thursday",
+   "created_at": "2026-06-18T16:42:55Z",
+   "symbols": [
+    "VLVLY",
+    "WPRT"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/18/Hydrogen-fuel-cell.jpeg?width=1024&height=768"
+  },
+  {
+   "headline": "Centrus Energy Stock Climbs After Signing Nuclear Fuel Agreement With Oklo",
+   "summary": "Centrus Energy shares rise after signing a Letter of Intent with Oklo to supply HALEU fuel for next-generation nuclear reactors.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/06/53284245/centrus-energy-stock-climbs-after-signing-nuclear-fuel-agreement-with-oklo",
+   "created_at": "2026-06-18T16:43:24Z",
+   "symbols": [
+    "LEU",
+    "OKLO",
+    "XME"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/18/Power-Demand-Adds-More-Strain.jpeg?width=1024&height=768"
+  },
+  {
+   "headline": "From Scarcity To Execution: China's AI Valuation Reset",
+   "summary": " ",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/Opinion/26/06/53283928/from-scarcity-to-execution-chinas-ai-valuation-reset",
+   "created_at": "2026-06-18T16:36:33Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/18/-18-6-2026-135029-thebambooworks-com.jpeg?width=1024&height=768"
+  },
+  {
+   "headline": "Adobe Brings Creative AI Agent To Photoshop, Premiere, Illustrator",
+   "summary": "Adobe expanded its creative agent to automate multi-step workflows through natural language prompts across key Creative Cloud apps.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/large-cap/26/06/53283890/adobe-brings-creative-ai-agent-to-photoshop-premiere-illustrator",
+   "created_at": "2026-06-18T16:35:21Z",
+   "symbols": [
+    "ADBE",
+    "IGV",
+    "MRAD",
+    "PKW"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/18/Record-Quarterly-Earnings.jpeg?width=1024&height=768"
+  },
+  {
+   "headline": "If You Invested $1000 In Curtiss-Wright Stock 10 Years Ago, You Would Have This Much Today",
+   "summary": " ",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/insights/news/26/06/53283737/if-you-invested-1000-in-curtiss-wright-stock-10-years-ago-you-would-have-this-much-today",
+   "created_at": "2026-06-18T16:30:26Z",
+   "symbols": [
+    "CW"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Apple Dominates Global Smartwatch Market",
+   "summary": "Apple leads Q1 2026 global smartwatch market with 23% share as shipments jump 21% YoY, driven by health upgrades and the SE 3.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/06/53283613/apple-dominates-global-smartwatch-market",
+   "created_at": "2026-06-18T16:27:02Z",
+   "symbols": [
+    "AAPL",
+    "XIACF",
+    "XIACY"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/18/Bangkok-Thailand-Oct-18-2023-The-Apple-W.jpeg?width=1024&height=768"
+  },
+  {
+   "headline": "$1000 Invested In Amphenol 5 Years Ago Would Be Worth This Much Today",
+   "summary": " ",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/insights/news/26/06/53283286/1000-invested-in-amphenol-5-years-ago-would-be-worth-this-much-today",
+   "created_at": "2026-06-18T16:15:20Z",
+   "symbols": [
+    "APH"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Visual China Files For Hong Kong IPO As It Reframes For An AI Era",
+   "summary": " ",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/Opinion/26/06/53283045/visual-china-files-for-hong-kong-ipo-as-it-reframes-for-an-ai-era",
+   "created_at": "2026-06-18T16:08:30Z",
+   "symbols": [
+    "GETY",
+    "SSTK"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/18/-18-6-2026-135745-thebambooworks-com.jpeg?width=1024&height=768"
+  },
+  {
+   "headline": "Why Is Nebius Group Stock Surging On Thursday?",
+   "summary": "NBIS stock rises as Nebius Group prepares to join the Nasdaq-100. Jim Cramer calls it a &#34;big deal.&#34; Get the technical levels here.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/06/53282998/why-is-nebius-group-stock-surging-on-thursday",
+   "created_at": "2026-06-18T16:07:15Z",
+   "symbols": [
+    "NBIS"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/18/Nebius-Group.jpeg?width=1024&height=768"
   },
   {
    "headline": "Here's How Much $100 Invested In Equinix 20 Years Ago Would Be Worth Today",
@@ -336,187 +514,6 @@
    "created_at": "2026-06-18T15:30:40Z",
    "symbols": [
     "IAU"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "FDA Expands Merck Pneumococcal Shot Label To Include At-Risk Children And Teens",
-   "summary": "FDA Expands Merck CAPVAXIVE Use To At-Risk Children And Adolescents Aged 2-17 Following Positive Phase 3 STRIDE-13 Data.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/fda/26/06/53281318/fda-expands-merck-pneumococcal-shot-label-to-include-at-risk-children-and-teens",
-   "created_at": "2026-06-18T15:29:26Z",
-   "symbols": [
-    "MRK",
-    "PFE"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/18/Merck.jpeg?width=1024&height=768"
-  },
-  {
-   "headline": "Pentagon Bets $725M On Energy Fuels — 5 Rare Earth Stocks To Watch",
-   "summary": "The DoD commits $725 million to Energy Fuels to expand domestic rare earth processing. Here&#39;s 5 more stocks to watch.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/06/53281203/pentagon-bets-725m-on-energy-fuels-5-rare-earth-stocks-to-watch",
-   "created_at": "2026-06-18T15:26:45Z",
-   "symbols": [
-    "CRML",
-    "LAC",
-    "MP",
-    "PPTA",
-    "USAR"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/18/3d-Rendering-Rare-Earth-Elements.jpeg?width=1024&height=768"
-  },
-  {
-   "headline": "CarMax Rides Q1 Pop, But Analyst Wants More Proof For Turnaround",
-   "summary": "CarMax shares rose on upbeat Q1 results, boosted by market share and efficiency gains. Needham holds a Hold rating, citing potential risks.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/06/53280992/carmax-q1-earnings-analyst-more-turnaround-proof",
-   "created_at": "2026-06-18T15:22:31Z",
-   "symbols": [
-    "CVNA",
-    "KMX"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/18/Las-Vegas---Circa-June-2019-Carmax-Auto-_0.jpeg?width=1024&height=768"
-  },
-  {
-   "headline": "Robo.ai To Acquire QC Capital In $60 Million All-Stock Deal",
-   "summary": "Robo.ai (NASDAQ: AIIO) stock jumps 19% on a proposed $60M all-stock acquisition of QC Capital to expand its global AI robotics platform.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/m-a/26/06/53280958/robo-ai-to-acquire-qc-capital-in-60-million-all-stock-deal",
-   "created_at": "2026-06-18T15:21:12Z",
-   "symbols": [
-    "AIIO"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/18/Financial-Graph-With-Uptrend-Line-Techno.jpeg?width=1024&height=768"
-  },
-  {
-   "headline": "Here's How Much You Would Have Made Owning Marathon Petroleum Stock In The Last 5 Years",
-   "summary": " ",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/insights/news/26/06/53280723/heres-how-much-you-would-have-made-owning-marathon-petroleum-stock-in-the-last-5-years",
-   "created_at": "2026-06-18T15:15:22Z",
-   "symbols": [
-    "MPC"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Biogen To Acquire RayThera For Up To $1 Billion, Expanding Immunology Pipeline",
-   "summary": "Biogen acquires RayThera in a deal worth up to $1 billion, adding early-stage immunology assets as it expands beyond Alzheimer&#39;s disease.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/m-a/26/06/53280277/biogen-to-acquire-raythera-for-up-to-1-billion-expanding-immunology-pipeline",
-   "created_at": "2026-06-18T15:07:15Z",
-   "symbols": [
-    "BIIB"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/18/MA-Businessman-Handshake.jpeg?width=1024&height=768"
-  },
-  {
-   "headline": "Hyperliquid, Aster, And The Hard Truth About Decentralized Exchanges In The US",
-   "summary": " ",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/Opinion/26/06/53280103/hyperliquid-aster-and-the-hard-truth-about-decentralized-exchanges-in-the-us",
-   "created_at": "2026-06-18T15:03:36Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/18/17817742782f34.png?width=1024&height=768"
-  },
-  {
-   "headline": "Oil Is Heading For Its Worst Week In Months. Why Are Tanker Stocks Still Rising?",
-   "summary": "Oil prices have tumbled nearly 15% over the past five days, but tanker stocks including Frontline, Scorpio Tankers and Teekay Tankers continue to show resilience.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/commodities/26/06/53280097/oil-price-worst-week-in-months-tanker-stocks-still-rising",
-   "created_at": "2026-06-18T15:03:26Z",
-   "symbols": [
-    "FRO",
-    "MATX",
-    "SBLK",
-    "STNG",
-    "TNK"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/18/The-Crude-Oil-Tanker-Front-Sirius-Will-B.jpeg?width=1024&height=768"
-  },
-  {
-   "headline": "$1000 Invested In SPDR Gold MiniShares Trust 5 Years Ago Would Be Worth This Much Today",
-   "summary": " ",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/insights/news/26/06/53279928/1000-invested-in-spdr-gold-minishares-trust-5-years-ago-would-be-worth-this-much-today",
-   "created_at": "2026-06-18T15:00:22Z",
-   "symbols": [
-    "GLDM"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Congressional Trading Report: Rep. Matt Van Epps Sold Over $27K In Tapestry Stock",
-   "summary": " ",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/insights/government/26/06/53279927/congressional-trading-report-rep-matt-van-epps-sold-over-27k-in-tapestry-stock",
-   "created_at": "2026-06-18T15:00:21Z",
-   "symbols": [
-    "AMZN",
-    "GOOGL",
-    "TPR"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/insider_trade_1.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Why Is American Airlines Stock Surging On Thursday?",
-   "summary": "American Airlines (NASDAQ: AAL) stock surges Thursday as crude oil drops below $75 following a U.S.-Iran preliminary peace agreement. Read the market breakdown.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/06/53279785/why-is-american-airlines-stock-surging-on-thursday",
-   "created_at": "2026-06-18T14:57:21Z",
-   "symbols": [
-    "AAL"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/18/American-Airlines.jpeg?width=1024&height=768"
-  },
-  {
-   "headline": "What's Going On With Plug Power Stock Thursday?",
-   "summary": "Plug Power shares are rising Thursday as traders lean into its liquidity-focused tax-credit sale update and a risk-on tape lifting cyclicals.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/06/53279649/whats-going-on-with-plug-power-stock-thursday-2",
-   "created_at": "2026-06-18T14:54:21Z",
-   "symbols": [
-    "PLUG"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/18/Stuttgart--Germany---03-17-2024-Mobile-P.jpeg?width=1024&height=768"
-  },
-  {
-   "headline": "Nasdaq Surges 300 Points; US Initial Jobless Claims Edge Lower",
-   "summary": "US stocks up, Nasdaq gains over 300 points. Dow up 0.51%, Nasdaq up 1.17%, S&amp;P 500 up 0.94%. Tech sector jumps 2.3%, energy stocks down 2%. US jobless claims fall by 4,000, Philadelphia Fed index ",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/market-summary/26/06/53279611/nasdaq-surges-300-points-us-initial-jobless-claims-edge-lower",
-   "created_at": "2026-06-18T14:53:49Z",
-   "symbols": [
-    "ADTX",
-    "ATPC",
-    "CDT",
-    "INLF",
-    "SNBR"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/18/Walmart-Misses-Nasdaq-100--LULU-Slumps.jpeg?width=1024&height=768"
-  },
-  {
-   "headline": "Tower Semiconductor, Marvell Ship Over 5 Million Photonic Chips For AI Data Centers",
-   "summary": "Tower Semiconductor rises after announcing shipments of more than 5 million coherent PICs to Marvell for AI-driven networking applications.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/large-cap/26/06/53279445/tower-semiconductor-marvell-ship-over-5-million-photonic-chips-for-ai-data-centers",
-   "created_at": "2026-06-18T14:50:05Z",
-   "symbols": [
-    "MRVL",
-    "PSI",
-    "TSEM"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/18/Stuttgart--Germany---07-24-2022-Cellphon.jpeg?width=1024&height=768"
-  },
-  {
-   "headline": "$1000 Invested In Revolution Medicines 5 Years Ago Would Be Worth This Much Today",
-   "summary": " ",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/insights/news/26/06/53279262/1000-invested-in-revolution-medicines-5-years-ago-would-be-worth-this-much-today",
-   "created_at": "2026-06-18T14:45:23Z",
-   "symbols": [
-    "RVMD"
    ],
    "image": ""
   }
