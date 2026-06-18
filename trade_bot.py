@@ -663,6 +663,7 @@ def ask_claude(account, positions, market, regime=None, session="regular"):
         "- RSI 과매도 + 볼린저 하단 같은 '싸게 살 기회' 역발상도 적극 활용\n- 암호화폐(BTC-USD/ETH-USD): 시험 운용 중. 변동성이 매우 크니 합산 평가액 총자산 5% 이내, 소수점 수량 사용 가능 (예: 0.02)\n\n"
         "하락장·조정 대응 원칙 (역대 약세장 2008·2020·2022의 교훈):\n"
         "- 현금은 무기다: 하락장에선 현금 비중을 늘리는 것 자체가 좋은 결정. 억지로 매수하지 말 것. 관망·현금 보유가 종종 최선\n"
+        "- ★ 다만 현금 과다 보유도 '리스크'다: 상승장·중립장에서 현금을 80~90%씩 쌓아두는 것은 기회손실이다. 시장 국면이 하락장이 아니고, 주도 섹터에 명확한 추세가 있으면 '기다리는 매매'를 핑계로 무한정 관망하지 말고 적극 진입하라. 특히 주도 섹터 추세추종 매수는 확신이 서면 망설이지 말 것. 현금을 무기로 쓰는 것과, 기회를 놓치며 현금만 쌓는 것은 다르다.\n"
         "- 떨어지는 칼날 잡지 말 것: 급락 중인 종목을 '싸다'고 서둘러 사지 말 것. 하락 추세가 멈추고 바닥을 다지는 신호(거래량 동반 반등, MA5 회복)를 확인 후 진입\n"
         "- 손절은 빠르게: 하락장에선 손실이 더 빨리 커진다. 손절 기준(-7%, 레버리지 -5%)을 더 엄격히, 머뭇거리지 말 것\n"
         "- 분할 대응: 한 번에 다 사지 말고, 확신이 설 때 조금씩. 평균단가 낮추기(물타기)는 추세 확인 전엔 금물\n"
@@ -699,6 +700,14 @@ def ask_claude(account, positions, market, regime=None, session="regular"):
            "  → 단 '과열 극단'에서만 신규 진입을 자제한다: RSI 75 이상 + 볼린저 상단 크게 초과(1.1+) + 거래량 급감 같은 명백한 과열 신호가 동시에 보일 때. 그 외 추세 중간 구간(RSI 55~72)은 추세추종 정상 매수 구간이다. 막연히 '많이 올랐다'로 멈추지 말고, 과열 지표가 실제로 극단인지 확인하라.\n"
            "  → 소외 섹터(약세, 1개월 마이너스)는 신중히. 섹터 흐름은 개별 종목 신호·펀더멘털과 함께 종합 판단하되, 주도 섹터를 비우고 지수·빅테크만 도는 편향을 경계하라.\n\n"
            if (regime or {}).get('sectors') else "\n")
+        + ("수익 종목 다루는 법 (★ 수익은 길게 가져간다 — let winners run):\n"
+           "- 손실은 빨리 자르되(손절 -7%), 수익 나는 종목은 섣불리 팔지 마라. 큰 수익(텐버거)은 끝까지 들고 가야 나온다.\n"
+           "- ★ 러너 보호: 평단 대비 +15% 이상 수익 중인 종목은 'RSI 과매수' 하나만으로 절대 팔지 마라. RSI가 70~80이어도 추세(MA20 위, 상승 흐름)가 살아있으면 계속 보유한다. 과매수는 강세장에서 오래 지속될 수 있다.\n"
+           "- ★ 트레일링 스탑: 각 보유 종목에 peak_pnl_pct(보유 중 최고 수익률)와 drawdown_from_peak_pct(고점 대비 현재 하락폭, 음수)가 제공된다. 수익 종목은 이걸로 관리하라:\n"
+           "  · peak가 큰 종목(+15% 이상 찍었던 종목)은, 고점 대비 -20%p 이상 빠지기 전(drawdown_from_peak_pct > -20)까지는 홀드. 추세가 살아있는 한 끝까지 태운다.\n"
+           "  · 고점 대비 -20%p 이상 빠지고(drawdown_from_peak_pct <= -20) 추세도 꺾이면(MA20 이탈 등) 그때 매도해 수익을 보전한다. 이게 '수익은 길게, 꺾이면 보전'이다.\n"
+           "  · 예: A종목이 +200% 찍었다가 현재 +175%(고점 대비 -25%p)면서 MA20 이탈 → 트레일링 스탑 매도. +50% 찍었다가 현재 +45%면 아직 홀드(고점 대비 -5%p).\n"
+           "- 단 이건 '수익 종목'에만 적용. 손실 종목은 기존 손절 규칙(-7%)을 따른다. 또 개별 악재(실적 쇼크 등)로 펀더멘털이 망가지면 트레일링과 무관하게 매도 검토.\n\n")
         + session_rule
         + f"[계좌] 총자산 ${account['equity']}, 현금 ${account['cash']}\n"
         f"[보유 포지션]\n{json.dumps(positions, ensure_ascii=False, indent=1)}\n\n"
@@ -1081,6 +1090,42 @@ def fetch_positions():
         return []
 
 
+def track_runners(positions):
+    """종목별 '보유 중 최고 수익률(peak_pnl)'을 runners.json에 누적 추적.
+    각 포지션에 peak_pnl_pct(최고점)와 drawdown_from_peak_pct(고점 대비 현재 하락폭)를
+    붙여, AI가 트레일링 스탑('수익은 길게, 꺾이면 보전')을 판단할 수 있게 한다.
+    텐버거 후보를 과매수만으로 섣불리 팔지 않고 끝까지 태우기 위함."""
+    try:
+        with open("runners.json", encoding="utf-8") as f:
+            peaks = json.load(f)
+    except Exception:
+        peaks = {}
+
+    held = set()
+    for p in positions:
+        sym = p["symbol"]
+        held.add(sym)
+        pnl = p.get("pnl_pct", 0)
+        prev_peak = peaks.get(sym, {}).get("peak_pnl_pct", pnl)
+        peak = max(prev_peak, pnl)
+        peaks[sym] = {"peak_pnl_pct": round(peak, 1)}
+        p["peak_pnl_pct"] = round(peak, 1)
+        # 고점 대비 하락폭(%p): 예: 최고 +50%였다가 현재 +20% → 30%p 하락
+        p["drawdown_from_peak_pct"] = round(pnl - peak, 1)  # 0 또는 음수
+
+    # 더 이상 보유하지 않는 종목은 정리(매도됨)
+    for sym in list(peaks.keys()):
+        if sym not in held:
+            peaks.pop(sym, None)
+
+    try:
+        with open("runners.json", "w", encoding="utf-8") as f:
+            json.dump(peaks, f, ensure_ascii=False, indent=1)
+    except Exception as e:
+        log(f"⚠️ runners.json 저장 실패: {e}")
+    return positions
+
+
 def main():
     # ── 0단계: 시크릿 존재 확인 ──
     missing = [n for n, v in [("ALPACA_API_KEY", ALPACA_KEY),
@@ -1169,6 +1214,7 @@ def main():
         send_push("🤝 컨센서스 봇 — 주문 보류", msg, True)
         return 0
     positions = _parse_positions(positions_raw)
+    positions = track_runners(positions)  # 종목별 최고 수익률 추적(트레일링 스탑용)
 
     # 미국장 마감(프리·휴장) 시에는 코인만 수집 (주식 거래 보류되므로 헛수집·크레딧 절약)
     if not STOCK_TRADABLE:
@@ -1298,7 +1344,7 @@ def main():
         time.sleep(3)  # 시장가 체결이 알파카에 반영될 시간을 잠깐 줌
         refreshed = fetch_positions()
         if refreshed or not positions:
-            positions = refreshed
+            positions = track_runners(refreshed)
         # 계좌(현금·총자산)도 체결 반영해 다시 조회
         try:
             account = alpaca("/v2/account")
