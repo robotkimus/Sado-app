@@ -1126,6 +1126,32 @@ def track_runners(positions):
     return positions
 
 
+def _has_crypto_opportunity(market, positions):
+    """프리마켓·휴장(코인만 보는 시간)에 AI를 부를 가치가 있는지 판정.
+    - 보유 코인이 있으면 True (손절·익절 판단 필요)
+    - 코인에 '살 만한 신호'(taco_zone 진입/과매도/큰 괴리/급락 후 반등)가 있으면 True
+    - 둘 다 없으면 False → AI 호출을 건너뛰어 비용 절감.
+    이전엔 신호가 없어도 매번 두 AI를 풀로 불러 관망만 반복했음."""
+    # 보유 코인이 있으면 무조건 점검 필요
+    if any(is_crypto(p.get("symbol", "")) for p in positions):
+        return True, "보유 코인 점검"
+    # 코인 매수 후보 신호 확인
+    for m in market:
+        if not is_crypto(m.get("symbol", "")):
+            continue
+        rsi = m.get("rsi")
+        disp = m.get("disparity_ma20_pct")
+        if m.get("in_taco_zone"):
+            return True, f"{m['symbol']} taco_zone 진입"
+        if rsi is not None and rsi < 35:
+            return True, f"{m['symbol']} RSI {rsi:.0f} 과매도"
+        if disp is not None and disp <= -10:
+            return True, f"{m['symbol']} MA20 괴리 {disp:.0f}%"
+        if m.get("rebound_from_low_pct", 0) >= 5:
+            return True, f"{m['symbol']} 저점 대비 반등"
+    return False, ""
+
+
 def main():
     # ── 0단계: 시크릿 존재 확인 ──
     missing = [n for n, v in [("ALPACA_API_KEY", ALPACA_KEY),
@@ -1323,6 +1349,46 @@ def main():
     except Exception as e:
         log(f"⚠️ [3.6단계] 섹터 분석 실패: {e}")
         regime["sectors"] = None
+
+    # ── 비용 절감: 코인만 보는 시간대(프리마켓·휴장)에 코인 기회가 없으면 AI 호출 스킵 ──
+    # 두 AI를 풀로 부르는 건 비싸므로, 살 신호도 없고 보유 코인도 없으면 관망 기록만 남기고 종료.
+    if not STOCK_TRADABLE:
+        has_opp, why = _has_crypto_opportunity(market, positions)
+        if not has_opp:
+            log("💤 코인 신호 없음 — AI 호출 건너뜀(비용 절감). 관망 기록만 저장.")
+            now_str = datetime.datetime.now(
+                datetime.timezone(datetime.timedelta(hours=9))).strftime("%Y-%m-%d %H:%M")
+            status = {
+                "updated": now_str,
+                "session": _SESSION_KR.get(MARKET_SESSION, MARKET_SESSION),
+                "equity": float(account.get("equity", 0)),
+                "cash": float(account.get("cash", 0)),
+                "positions": positions,
+                "market_view": f"[{_SESSION_KR.get(MARKET_SESSION, MARKET_SESSION)}] "
+                               "주식 거래 시간이 아니고 코인도 살 만한 신호가 없어 관망. "
+                               "(AI 판단 생략 — 비용 절감)",
+                "trades": [],
+            }
+            try:
+                with open("bot_status.json", "w", encoding="utf-8") as f:
+                    json.dump(status, f, ensure_ascii=False, indent=1)
+            except Exception as e:
+                log(f"⚠️ bot_status.json 저장 실패: {e}")
+            # 뉴스는 계속 갱신 (앱 표시용, AI와 무관)
+            try:
+                held_syms = [p["symbol"] for p in positions if not is_crypto(p["symbol"])]
+                general = fetch_market_news(limit=30)
+                held_news = fetch_market_news(held_syms, limit=15) if held_syms else []
+                seen, merged = set(), []
+                for n in held_news + general:
+                    u = n.get("url", "")
+                    if u and u not in seen:
+                        seen.add(u); merged.append(n)
+                with open("news.json", "w", encoding="utf-8") as f:
+                    json.dump({"updated": now_str, "items": merged[:40]}, f, ensure_ascii=False, indent=1)
+            except Exception as e:
+                log(f"⚠️ news.json 저장 실패: {e}")
+            return 0
 
     try:
         plan = ask_claude(account, positions, market, regime, MARKET_SESSION)
