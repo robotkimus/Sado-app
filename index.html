@@ -1760,7 +1760,9 @@ async function loadBotStatus(){
     const res = await fetch("bot_status.json?t=" + Date.now());
     if(!res.ok) throw new Error("아직 기록 없음");
     const s = await res.json();
-    const ret = ((s.equity / s.base) - 1) * 100;
+    // 기준 자본(base)이 없거나 0이면 초기자본 10만으로 폴백 → NaN/Infinity 방지
+    const base = (s.base && s.base > 0) ? s.base : 100000;
+    const ret = (s.equity && base) ? ((s.equity / base) - 1) * 100 : 0;
     const retColor = ret >= 0 ? "var(--buy)" : "var(--sell)";
     // 접힌 제목 옆 요약: 총자산 + 수익률
     const bs = document.getElementById("botSummary");

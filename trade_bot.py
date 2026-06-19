@@ -811,40 +811,85 @@ def _clip_sentence(text, limit=1000):
 
 
 def _consensus(claude_plan, deepseek_plan):
-    """두 AI 판단을 합의: 둘 다 동의한 매수만 실행, 손절은 한쪽이라도 원하면 실행."""
+    """두 AI 판단을 합의: 둘 다 동의한 매수만 실행, 손절은 한쪽이라도 원하면 실행.
+    예외(C안): 주도섹터 코어 종목은 한쪽 AI가 high 확신으로 매수를 원하고
+    상대가 그 종목 매도를 제안하지 않았다면(=적극 반대 아님), 소량(절반)으로 진입 허용.
+    Claude가 주도섹터를 사자고 해도 DeepSeek 보수성 때문에 계속 보류돼
+    현금만 쌓이던 교착을 푼다."""
     c_dec = claude_plan.get("decisions", []) or []
     d_dec = deepseek_plan.get("decisions", []) or []
+
+    # 주도섹터 코어(반도체 ETF·대장주). 한쪽만 강하게 원해도 소량 진입 허용 대상.
+    LEAD_CORE = {"SOXX", "SMH", "NVDA", "AVGO", "AMD", "MU", "AMAT", "LRCX", "KLAC", "QQQ"}
 
     def key(x):
         return (str(x.get("symbol", "")).upper(), str(x.get("action", "")).lower())
 
     c_map = {key(x): x for x in c_dec}
     d_set = {key(x) for x in d_dec}
+    # 상대가 그 종목 '매도'를 원했는지(적극 반대 여부) 판단용
+    c_sell = {s for (s, a) in c_map if a == "sell"}
+    d_sell = {key(y)[0] for y in d_dec if key(y)[1] == "sell"}
 
     merged = []
     consensus_log = []
+
+    def _solo_lead_buy(x, sym, opponent_sells):
+        """주도섹터 코어를 한쪽만 high 확신으로 매수 + 상대가 매도 안 했으면 소량 진입."""
+        if sym not in LEAD_CORE:
+            return False
+        if str(x.get("conviction", "")).lower() != "high":
+            return False
+        if sym in opponent_sells:   # 상대가 매도를 원함 = 적극 반대 → 진입 안 함
+            return False
+        return True
+
     for k, x in c_map.items():
         sym, action = k
         if action == "sell":
-            # 매도(손절)는 Claude가 원하면 실행 (방어 우선)
             merged.append(x); consensus_log.append(f"{sym} 매도(Claude)")
         elif action == "buy":
             if k in d_set:
-                # 둘 다 매수 동의 → 실행 (수량은 더 보수적인 쪽=작은 쪽)
                 d_x = next((y for y in d_dec if key(y) == k), None)
                 try:
                     cq = float(x.get("qty", 0)); dq = float(d_x.get("qty", 0)) if d_x else cq
-                    x = dict(x); x["qty"] = min(cq, dq)  # 보수적으로 작은 수량
+                    x = dict(x); x["qty"] = min(cq, dq)
                 except Exception:
                     pass
                 merged.append(x); consensus_log.append(f"{sym} 매수(합의)")
+            elif _solo_lead_buy(x, sym, d_sell):
+                # C안: 주도섹터 코어, Claude high 확신, DeepSeek 반대(매도) 아님 → 소량(절반) 진입
+                x = dict(x)
+                try:
+                    x["qty"] = max(1, int(float(x.get("qty", 1)) / 2))
+                except Exception:
+                    x["qty"] = 1
+                merged.append(x); consensus_log.append(f"{sym} 매수(Claude주도·소량)")
             else:
                 consensus_log.append(f"{sym} 매수 보류(Claude만)")
+
+    # DeepSeek만 원한 매수 중 주도섹터 코어 + high 확신 + Claude 매도 아님 → 소량 진입
+    for y in d_dec:
+        sym, action = key(y)
+        if action == "buy" and (sym, "buy") not in c_map:
+            if _solo_lead_buy(y, sym, c_sell):
+                y = dict(y)
+                try:
+                    y["qty"] = max(1, int(float(y.get("qty", 1)) / 2))
+                except Exception:
+                    y["qty"] = 1
+                merged.append(y); consensus_log.append(f"{sym} 매수(DeepSeek주도·소량)")
+
     # DeepSeek만 원한 매도(손절)도 방어 차원에서 실행
     for y in d_dec:
         sym, action = key(y)
         if action == "sell" and (sym, "sell") not in c_map:
             merged.append(y); consensus_log.append(f"{sym} 매도(DeepSeek)")
+
+    view = "🤝 합의: " + (", ".join(consensus_log) if consensus_log else "거래 없음") + \
+           " | Claude: " + _clip_sentence(claude_plan.get("market_view", ""), 4000) + \
+           " | DeepSeek: " + _clip_sentence(deepseek_plan.get("market_view", ""), 4000)
+    return {"decisions": merged, "market_view": view}
 
     # 앱용 market_view는 잘림 없이 두 AI의 전체 분석을 그대로 담는다(사실상 무제한,
     # 폭주 방어용 넉넉한 상한만). 알림(ntfy)은 format_view_for_push에서 각 250자로
@@ -1363,6 +1408,7 @@ def main():
                 "session": _SESSION_KR.get(MARKET_SESSION, MARKET_SESSION),
                 "equity": float(account.get("equity", 0)),
                 "cash": float(account.get("cash", 0)),
+                "base": 100000.0,
                 "positions": positions,
                 "market_view": f"[{_SESSION_KR.get(MARKET_SESSION, MARKET_SESSION)}] "
                                "주식 거래 시간이 아니고 코인도 살 만한 신호가 없어 관망. "
