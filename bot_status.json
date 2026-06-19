@@ -1,35 +1,35 @@
 {
- "updated": "2026-06-19 11:00",
+ "updated": "2026-06-19 12:00",
  "session": "공휴일 휴장",
- "equity": 99778.53,
+ "equity": 99777.84,
  "cash": 96890.0,
  "positions": [
   {
    "symbol": "MSFT",
    "qty": 2.0,
    "avg_cost": 380.19,
-   "now": 379.1,
-   "pnl_pct": -0.3,
+   "now": 379.4,
+   "pnl_pct": -0.2,
    "peak_pnl_pct": -0.1,
-   "drawdown_from_peak_pct": -0.2
+   "drawdown_from_peak_pct": -0.1
   },
   {
    "symbol": "NVDA",
    "qty": 1.0,
    "avg_cost": 209.03,
-   "now": 210.33,
-   "pnl_pct": 0.6,
-   "peak_pnl_pct": 0.6,
+   "now": 210.69,
+   "pnl_pct": 0.8,
+   "peak_pnl_pct": 0.8,
    "drawdown_from_peak_pct": 0.0
   },
   {
    "symbol": "SOXX",
    "qty": 3.0,
    "avg_cost": 631.02,
-   "now": 640.0,
-   "pnl_pct": 1.4,
+   "now": 639.45,
+   "pnl_pct": 1.3,
    "peak_pnl_pct": 1.5,
-   "drawdown_from_peak_pct": -0.1
+   "drawdown_from_peak_pct": -0.2
   }
  ],
  "market_view": "[공휴일 휴장] 주식 거래 시간이 아니고 코인도 살 만한 신호가 없어 관망. (AI 판단 생략 — 비용 절감)",
