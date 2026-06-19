@@ -1500,7 +1500,16 @@ def main():
         title = "🤝 컨센서스 봇: 이번엔 관망 (거래 없음)"
     log(title)
     log(body)
-    send_push(title, body, bool(executed))
+    # 알림 발송 정책:
+    # - 거래가 체결됐으면 시간 무관 항상 알림(중요). 애프터마켓에서 체결돼도 알림 옴.
+    # - 거래 없는 관망: 정규장(STOCK_MARKET_OPEN)에서만 알림.
+    #   프리마켓·애프터마켓·휴장에 거래 없이 관망한 건 알림이 무의미·피곤 → 생략.
+    #   (애프터마켓도 관망 시엔 알림 생략. 단 애프터에 실제 체결되면 위 executed 조건으로 알림 옴.)
+    #   bot_status·뉴스는 아래에서 계속 갱신되므로 앱에서 보는 데는 지장 없음.
+    if executed or STOCK_MARKET_OPEN:
+        send_push(title, body, bool(executed))
+    else:
+        log("🔕 정규장 외 관망 — 거래 없어 알림 생략(앱 상태·뉴스는 갱신).")
 
     # ── 사도될까 앱 연동용 상태 파일 저장 ──
     # 앱 차트 오버레이용: 보유 종목 + 지수(SPY/QQQ)의 지지/저항·피보·TACO ZONE
