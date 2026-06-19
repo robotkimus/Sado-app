@@ -1174,26 +1174,45 @@ def track_runners(positions):
 def _has_crypto_opportunity(market, positions):
     """프리마켓·휴장(코인만 보는 시간)에 AI를 부를 가치가 있는지 판정.
     - 보유 코인이 있으면 True (손절·익절 판단 필요)
-    - 코인에 '살 만한 신호'(taco_zone 진입/과매도/큰 괴리/급락 후 반등)가 있으면 True
-    - 둘 다 없으면 False → AI 호출을 건너뛰어 비용 절감.
-    이전엔 신호가 없어도 매번 두 AI를 풀로 불러 관망만 반복했음."""
-    # 보유 코인이 있으면 무조건 점검 필요
+    - 코인이 '저가 구간(taco_zone/과매도/큰 괴리)'에 있으면서 '반등이 실제로 시작된 신호'
+      (MA5 회복 또는 거래량 동반 또는 저점 대비 반등)가 함께 있을 때만 True
+    - 그 외에는 False → AI 호출을 건너뛰어 비용 절감.
+    두 AI는 매수의 마지막 조건으로 '반등 확인'을 요구하므로, 반등 신호 없이
+    과매도/taco_zone만으로 부르면 100% 관망으로 끝나 토큰만 낭비됨. 그래서 반등 신호를 필수로 둠."""
+    # 보유 코인이 있으면 무조건 점검 필요(손절·트레일링)
     if any(is_crypto(p.get("symbol", "")) for p in positions):
         return True, "보유 코인 점검"
-    # 코인 매수 후보 신호 확인
+
     for m in market:
         if not is_crypto(m.get("symbol", "")):
             continue
         rsi = m.get("rsi")
         disp = m.get("disparity_ma20_pct")
-        if m.get("in_taco_zone"):
-            return True, f"{m['symbol']} taco_zone 진입"
-        if rsi is not None and rsi < 35:
-            return True, f"{m['symbol']} RSI {rsi:.0f} 과매도"
-        if disp is not None and disp <= -10:
-            return True, f"{m['symbol']} MA20 괴리 {disp:.0f}%"
-        if m.get("rebound_from_low_pct", 0) >= 5:
-            return True, f"{m['symbol']} 저점 대비 반등"
+        price = m.get("price")
+        ma5 = m.get("ma5")
+        vol_ratio = m.get("volume_vs_20d_avg", 0) or 0
+        rebound = m.get("rebound_from_low_pct", 0) or 0
+
+        # 1) '저가 구간'인가 (싸게 살 만한 위치)
+        cheap = bool(m.get("in_taco_zone")) \
+            or (rsi is not None and rsi < 35) \
+            or (disp is not None and disp <= -10)
+
+        # 2) '반등이 실제로 시작된 신호'가 있는가 (떨어지는 칼날이 아닌 증거)
+        rebound_started = (
+            (price is not None and ma5 is not None and price >= ma5)  # MA5 회복
+            or vol_ratio >= 1.2          # 거래량 동반(평균의 1.2배↑)
+            or rebound >= 5              # 장중 저점 대비 +5%↑ 반등
+        )
+
+        # 저가 구간 + 반등 시작이 '동시에' 있어야 AI 호출 (둘 중 하나만으론 관망 확정 → 스킵)
+        if cheap and rebound_started:
+            return True, f"{m['symbol']} 저가구간+반등신호"
+
+        # 강한 과매도 극단(RSI 30 미만)은 반등 전이라도 한 번은 볼 가치가 있음(예외)
+        if rsi is not None and rsi < 30:
+            return True, f"{m['symbol']} RSI {rsi:.0f} 극단 과매도"
+
     return False, ""
 
 
