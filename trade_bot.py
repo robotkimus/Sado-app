@@ -356,6 +356,56 @@ def fib_retracement(closes, lookback=60):
     return {"swing_low": round(lo, 2), "swing_high": round(hi, 2), "up": up, "levels": levels}
 
 
+def ichimoku(closes):
+    """일목균형표(이치모쿠) — 종가 기반 근사 계산.
+    (정밀하게는 고가·저가가 필요하나, 데이터 소스에 종가만 안정적으로 들어와
+     기간 내 종가 최고/최저로 근사한다. 구름 위/안/아래 판정엔 충분.)
+    반환: {tenkan, kijun, cloud_top, cloud_bottom, pos, dist_to_cloud_pct} 또는 None
+      pos: 'above'(구름 위·강세) | 'in'(구름 안·중립) | 'below'(구름 아래·약세)
+      dist_to_cloud_pct: 현재가가 구름에서 떨어진 거리%(구름 위면 구름상단까지, 안이면 0)
+    """
+    if len(closes) < 52:
+        return None
+
+    def mid(period, end):
+        seg = closes[max(0, end - period + 1):end + 1]
+        return (max(seg) + min(seg)) / 2 if seg else None
+
+    n = len(closes)
+    cur = closes[-1]
+    tenkan = mid(9, n - 1)           # 전환선(9)
+    kijun = mid(26, n - 1)           # 기준선(26)
+    # 선행스팬은 26일 앞으로 그리므로, '현재 위치의 구름'은 26일 전 시점 기준값이다.
+    past = n - 1 - 26
+    if past < 51:
+        return None
+    span_a = (mid(9, past) + mid(26, past)) / 2   # 선행스팬1(26일 전 산출 → 현재에 투영)
+    span_b = mid(52, past)                          # 선행스팬2
+    if span_a is None or span_b is None:
+        return None
+    cloud_top = max(span_a, span_b)
+    cloud_bottom = min(span_a, span_b)
+
+    if cur > cloud_top:
+        pos = "above"
+        dist = (cur / cloud_top - 1) * 100        # 구름 상단까지 내려올 여지(양수=위에 떠있음)
+    elif cur < cloud_bottom:
+        pos = "below"
+        dist = (cur / cloud_bottom - 1) * 100     # 음수
+    else:
+        pos = "in"
+        dist = 0.0
+
+    return {
+        "tenkan": round(tenkan, 2),
+        "kijun": round(kijun, 2),
+        "cloud_top": round(cloud_top, 2),
+        "cloud_bottom": round(cloud_bottom, 2),
+        "pos": pos,
+        "dist_to_cloud_pct": round(dist, 1),
+    }
+
+
 def taco_zone(cur, sr, fib):
     """저가매수 후보 밴드 = 현재가 바로 아래 지지대와 피보나치 되돌림(0.5~0.618)이
     겹치거나 가까운 구간. 반환: {"low","high","basis"} 또는 None."""
@@ -447,6 +497,7 @@ def summarize(sym, series):
         "taco_zone": tz,
         "in_taco_zone": in_taco,
         "off_52w_high_pct": off_52w,
+        "ichimoku": ichimoku(closes),
     }
 
 
@@ -737,6 +788,7 @@ def ask_claude(account, positions, market, regime=None, session="regular"):
         "- 저평가 판정은 '두 가지를 결합'한다:\n"
         "  ① 기술적 과매도 반등: disparity_ma20_pct가 음수로 크게 벌어짐(예: -10% 이하) + RSI 과매도권 + 반등 신호(MA5 회복·거래량 동반 반등·RSI 과매도 탈출). '많이 빠졌다'만으로는 부족, 돌아서는 신호가 핵심.\n"
         "    └ 지지/저항·피보나치 활용: 각 종목 지표의 support(아래 지지대 가격들)·resistance(위 저항대)·fib(피보나치 되돌림 38.2/50/61.8%)·taco_zone(저가매수 후보 밴드 {low,high,basis})·in_taco_zone(현재가가 그 밴드 안인지)을 본다. 현재가가 강한 지지대나 피보 0.5~0.618 되돌림에 닿았고(=in_taco_zone true) 거기서 반등 신호가 나오면 저가매수 자리로 판단. 단 '지지에 닿음'만으론 부족, 매물대가 깨지면 손절(차트는 미래 보장이 아니라 확률 가이드일 뿐).\n"
+        "    └ 일목균형표(ichimoku) 활용 — '기다리는 매매'의 핵심 도구: 각 종목의 ichimoku 필드를 본다. pos는 현재가와 구름의 관계다. 'above'=구름 위(상승추세·강세), 'in'=구름 안(중립·방향 모색), 'below'=구름 아래(하락추세·약세). dist_to_cloud_pct는 현재가가 구름에서 떨어진 거리%다. ★ 가장 좋은 매수 자리: 'above'(상승추세 유지)이면서 dist_to_cloud_pct가 작게 양수(예: +0~5%) = 오르던 주가가 구름 상단까지 눌려 내려와 '지지'를 테스트하는 눌림목이다. 구름이 지지선 역할을 하며 추세가 살아있을 가능성이 높아, 거기서 반등 신호(MA5 회복·거래량)가 나오면 '기다리던 자리'로 본다. 반대로 'below'(구름 아래)는 추세가 꺾인 약세라 떨어지는 칼날 위험이 크니 신규 매수를 피한다. 'in'(구름 안)은 방향 불명확이니 신중히. 단 일목도 만능이 아니라 다른 지표·펀더멘털과 함께 종합 판단하는 한 재료일 뿐이다.\n"
         "  ② 밸류에이션 저평가: 각 종목 지표의 valuation 필드(pe=PER, fwd_pe=선행PER, pb=PBR, off_52w_high_pct=52주고점대비낙폭%)를 본다. 동종 섹터·과거 대비 PER/PBR이 낮은데 펀더멘털은 망가지지 않은 종목. (valuation이 없으면 ①기술적 신호로만 판정)\n"
         "  → ① 또는 ② 중 하나라도 분명하고, 펀더멘털이 망가진 게 아니면 하이리스크 후보. 둘 다 충족이면 더 강한 신호.\n"
         "- 하락장 예외(중요): BNF 역추세는 원래 하락장 금지지만, 하이리스크 슬롯에 한해 '확실한 추세 전환 신호'가 보이면 하락장에서도 저가매수를 시도할 수 있다. 단 매우 신중히 — 추세 전환이 애매하면 하지 말 것. 막연한 '싸 보임'은 금지, 반드시 돌아서는 신호 확인.\n"
