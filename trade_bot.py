@@ -38,25 +38,51 @@ LEVERAGE_TICKERS = {"TQQQ", "SOXL", "UPRO", "QLD", "TNA", "FNGU", "TECL", "LABU"
 INVERSE_TICKERS = {"SQQQ", "SOXS", "SH", "SDS"}
 MIN_CASH_BUFFER_PCT = 0.10      # 현금 10%는 항상 남김
 
+# ── 텐버거(러너) 트레일링 스탑 ──
+# 수익이 크게 난 종목은 끝까지 태우되(let winners run), 고점 대비 일정폭 꺾이면 수익을 보전한다.
+RUNNER_MIN_PEAK_PCT = 15.0       # 트레일링 보호 대상이 되는 최소 고점 수익률(+15%↑ 찍은 종목만)
+RUNNER_TRAIL_DROP_PCT = 20.0     # 고점 대비 이만큼(%p) 빠지면 트레일링 스탑 발동(자동 매도 신호)
+RUNNER_BIG_PEAK_PCT = 50.0       # 대박 구간(+50%↑): 변동성이 크므로 트레일링 폭을 더 넓게
+RUNNER_BIG_TRAIL_DROP_PCT = 30.0 # 대박 구간은 고점 대비 -30%p로 더 여유있게(텐버거 일찍 안 끊기게)
+
+# ── 텐버거(10배주) 후보 발굴 ──
+# 봇은 '후보 추천'만, 최종 편입은 사람이 tenbagger.txt에 추가. 거기 적힌 종목은
+# 장기보유로 취급해 단기 손절·트레일링을 면제(엉덩이 싸움 존중).
+TENBAGGER_FILE = "tenbagger.txt"          # 사람이 확정한 장기보유 텐버거 종목(한 줄 1티커)
+TENBAGGER_CAND_FILE = "tenbagger_candidates.json"  # 봇이 추천한 후보(앱·알림용)
+TENBAGGER_SMALLCAP_MAX = 20_000_000_000   # 소형~미드캡 상한: 시총 200억 달러 미만 가산
+TENBAGGER_DEEP_DIP_PCT = -25.0            # 52주 고점 대비 이만큼↓ 빠진 '소외 우량주' 가산
+# 대형주·ETF는 텐버거(가벼운 몸집) 대상이 아니므로 후보에서 제외
+TENBAGGER_EXCLUDE = {
+    "SPY", "QQQ", "DIA", "IWM", "VOO", "VTI", "SOXX", "SMH", "XLK", "XLF", "XLE",
+    "GLD", "TLT", "AAPL", "MSFT", "GOOGL", "AMZN", "META", "NVDA", "TSLA",
+    "TQQQ", "SOXL", "UPRO", "QLD", "SQQQ", "SOXS",
+}
+
 # ── 하이리스크 슬롯 (저평가·과매도 역추세 전용 격리 예산) ──
 # 일반(core) 매수와 별도로 운용. 한 종목 물려도 전체가 휘청이지 않게 칸막이.
 MAX_HIGHRISK_BUDGET_PCT = 0.20   # 하이리스크 포지션 '합계' 상한: 총자산의 20%
 MAX_HIGHRISK_POSITION_PCT = 0.05 # 하이리스크 한 종목 상한: 총자산의 5% (레버리지 포함 동일)
 
 
-def http_json(url, method="GET", headers=None, body=None):
+def _urlopen_text(url, method="GET", headers=None, body=None, timeout=30):
+    """urllib 요청 공통 코어. 응답 본문을 문자열로 반환.
+    http_json/_get이 공유해 중복 제거. timeout·헤더는 호출부가 지정."""
     data = json.dumps(body).encode() if body is not None else None
     req = urllib.request.Request(url, data=data, method=method,
                                  headers={**UA, **(headers or {})})
-    with urllib.request.urlopen(req, timeout=60) as r:
-        return json.loads(r.read().decode("utf-8", "replace"))
+    with urllib.request.urlopen(req, timeout=timeout) as r:
+        return r.read().decode("utf-8", "replace")
+
+
+def http_json(url, method="GET", headers=None, body=None):
+    return json.loads(_urlopen_text(url, method=method, headers=headers,
+                                    body=body, timeout=60))
 
 
 # ── 시세 (1순위: Alpaca 자체 데이터 → 2순위: Stooq → 3순위: Yahoo) ──
 def _get(url, headers=None):
-    req = urllib.request.Request(url, headers={**UA, **(headers or {})})
-    with urllib.request.urlopen(req, timeout=30) as r:
-        return r.read().decode("utf-8", "replace")
+    return _urlopen_text(url, headers=headers, timeout=30)
 
 
 def fetch_alpaca_data(sym):
@@ -148,6 +174,7 @@ def fetch_valuations(symbols):
                     "pe": q.get("trailingPE"),
                     "fwd_pe": q.get("forwardPE"),
                     "pb": q.get("priceToBook"),
+                    "market_cap": q.get("marketCap"),
                     "off_52w_high_pct": (
                         round((q.get("regularMarketPrice", 0) / q.get("fiftyTwoWeekHigh", 0) - 1) * 100, 1)
                         if q.get("fiftyTwoWeekHigh") else None),
@@ -347,8 +374,20 @@ def taco_zone(cur, sr, fib):
 
 
 def summarize(sym, series):
-    closes = [r["close"] for r in series]
-    vols = [r["volume"] for r in series]
+    # 입력 방어: series가 비었거나 close가 없는 행이 섞여도 죽지 않게 정제
+    series = [r for r in (series or []) if isinstance(r, dict) and r.get("close") is not None]
+    if len(series) < 2:
+        return {"symbol": sym, "price": None, "error": "데이터 부족"}
+    closes = []
+    vols = []
+    for r in series:
+        try:
+            closes.append(float(r["close"]))
+            vols.append(float(r.get("volume") or 0))
+        except (TypeError, ValueError):
+            continue
+    if len(closes) < 2:
+        return {"symbol": sym, "price": None, "error": "유효 종가 부족"}
     i = len(closes) - 1
     ma5, ma20, ma60 = sma(closes, 5, i), sma(closes, 20, i), sma(closes, 60, i)
     g = l = 0.0
@@ -589,8 +628,9 @@ def get_market_session():
         if nxt_open and now.date() == nxt_open.date():
             if now < nxt_open:
                 return "pre"
+        # 애프터마켓: 평일(월~금)이고 ET 16~20시일 때만. (주말 오후를 애프터로 오인하던 버그 수정)
         if nxt_open and nxt_close and now.date() != nxt_open.date():
-            if 16 <= now.hour < 20:
+            if now.weekday() < 5 and 16 <= now.hour < 20:
                 return "after"
         return _closed_kind()
     except Exception:
@@ -670,6 +710,8 @@ def ask_claude(account, positions, market, regime=None, session="regular"):
         "- 레버리지는 양날의 검: 하락·변동성 국면에서 레버리지 롱(TQQQ 등)은 변동성 잠식으로 치명적이라 추세가 명확히 돌기 전엔 피한다. 다만 '주도 섹터가 강한데 단기 급락 후 분명한 반등 신호가 나온 경우'는 하이리스크 슬롯으로 적극 포착할 가치가 있다(아래 하이리스크 규칙 참고). 무작정 금지가 아니라, 신호가 분명할 때만 빠르게 잡고 빠르게 손절한다.\n"
         "- 방어 자산: 하락장에선 GLD(금)·TLT(국채) 같은 안전자산 비중을 고려. 인버스(SQQQ 등)는 하락이 분명할 때만 소량 헤지\n"
         "- 공포에 휩쓸리지 말되 과신도 말 것: VIX가 극도로 높을 때(30+)는 역사적 저점 근처인 경우도 있으나, 섣부른 '바닥 매수'보다 안정 확인이 우선\n\n"
+        "★★ 봇의 최우선 철학 — '하락장에 덜 잃는다': 월가의 명언처럼, 장기 수익률은 '크게 버는 것'보다 '크게 잃지 않는 것'이 결정한다. -50% 손실은 +100%를 벌어야 본전이다(복리의 비대칭). 그러니 ① 하락장·약세 신호가 보이면 방어(현금·손절)를 주저하지 말고, ② 상승·중립장에선 기회를 놓치지 말고 적극 매수해 현금이 무의미하게 쌓이지 않게 하라. 이 둘의 균형이 핵심이다.\n"
+        "★★ 목표 포트폴리오 배분(상승·중립장 기준): ① 텐버거/하이리스크 슬롯에 시드의 약 20%까지 — '다음에 올 섹터'의 낌새(소외된 저평가 우량주, 신저가 근처 턴어라운드)가 보이면 미리 선점. ② 나머지는 현재 주도 섹터 추세추종(반도체 등 강세 섹터 ETF·대장주)으로 채워 분산. 한쪽에 몰지 말고 '미래 선점 20% + 현재 주도 다수'로 다각화하라. 단 하락장이면 이 배분을 미루고 방어 우선.\n\n"
         "추가 매수(물타기로 평균단가 낮추기) 원칙 — 규율을 지킬 때만:\n"
         "- 보유 종목이 평단 대비 하락했을 때, 무작정 더 사지 말 것. 아래 조건이 '모두' 충족될 때만 추가 매수를 고려:\n"
         "  ① 추세 반전 확인: 하락이 멈추고 바닥을 다지는 신호 — 종가가 MA5를 회복, 또는 거래량 동반 반등, 또는 RSI가 과매도(30 이하)에서 상승 전환\n"
@@ -691,7 +733,8 @@ def ask_claude(account, positions, market, regime=None, session="regular"):
         "- ★ 주도 섹터 레버리지 급락 반등 (적극 포착): 주도 섹터(예: 반도체)의 레버리지 ETF(SOXL·TQQQ 등)가 단기 급락(예: 하루 -12% 이상 또는 disparity_ma20_pct -15% 이하)한 뒤 '돌아서는 신호'가 나오면 하이리스크 슬롯으로 적극 진입하라. 신호 우선순위: ① rebound_from_low_pct(장중 저점 대비 반등률)가 크게 양수(+5% 이상) = 저점 찍고 튀는 중, ② MA5 회복 또는 거래량 동반 반등, ③ RSI 과매도 탈출. 이런 변동성 큰 종목의 'V자 반등'은 큰 수익 기회다. 단 레버리지는 손절 -5%로 더 빠르게, 포지션 5% 이내, 두 AI 합의 필수.\n"
         "  └ rebound_from_low_pct(장중 저점 대비 현재 반등률%)와 off_day_high_pct(당일 고점 대비 현재 낙폭%)가 제공되면 적극 활용하라. 예: rebound_from_low_pct +8%면 장중 바닥에서 이미 8% 튄 것 = 반등 시작 신호. 단 '급락 자체'가 아니라 '급락 후 반등 확인'이 핵심 — 아직 떨어지는 중(rebound 거의 0)이면 칼날이니 기다려라.\n"
         f"- 각 주문에 \"tier\" 필드를 넣어라: \"core\"(일반 안전 매수) | \"highrisk\"(저평가·과매도 역추세). 미지정 시 core로 간주.\n"
-        "- 하이리스크라도 두 AI(Claude·DeepSeek)가 모두 동의해야 실제 매수된다(합의 원칙 동일). 손절은 한쪽만 원해도 실행.\n\n"
+        "- 하이리스크(저평가·과매도 역추세) 매수는 원칙적으로 두 AI 합의 시 실행하되, '격리 예산(작은 금액)'이라 한쪽 AI라도 high 확신이면 소량(절반) 시험 진입이 허용된다. 그러니 저평가 우량주에 확신이 서면 conviction을 'high'로 명확히 표하라. '많이 빠진 저평가 우량주'를 영영 안 사고 현금만 쌓는 것은 기회손실이다 — 하이리스크 예산 범위 안에서는 적극적으로 담아라.\n"
+        "- 매도: 보유 손익이 손절선(-7%, 레버리지 -5%) 이하인 '진짜 손절'은 한쪽만 원해도 즉시 실행(방어 우선). 그러나 손절선 위인데 '리밸런싱·자금확보·약세' 같은 이유로 파는 '재량 매도'는 두 AI가 모두 동의해야 실행된다. 단순히 '주도섹터 자금 확보'를 위해 멀쩡한 보유 종목을 혼자 팔지 말 것 — 현금은 이미 충분하다.\n\n"
         f"[현재 시장 국면] {json.dumps({k:v for k,v in regime.items() if k!='sectors'}, ensure_ascii=False) if regime else '판단 안 됨'}\n"
         "  → 위 국면을 반드시 반영할 것. '하락장/조정'이나 '단기 약세'면 신규 매수를 크게 줄이고 방어·현금 우선. '상승장'이면 정상 운용.\n"
         + (f"[섹터 흐름] {(regime or {}).get('sectors',{}).get('summary','')}\n"
@@ -707,7 +750,8 @@ def ask_claude(account, positions, market, regime=None, session="regular"):
            "  · peak가 큰 종목(+15% 이상 찍었던 종목)은, 고점 대비 -20%p 이상 빠지기 전(drawdown_from_peak_pct > -20)까지는 홀드. 추세가 살아있는 한 끝까지 태운다.\n"
            "  · 고점 대비 -20%p 이상 빠지고(drawdown_from_peak_pct <= -20) 추세도 꺾이면(MA20 이탈 등) 그때 매도해 수익을 보전한다. 이게 '수익은 길게, 꺾이면 보전'이다.\n"
            "  · 예: A종목이 +200% 찍었다가 현재 +175%(고점 대비 -25%p)면서 MA20 이탈 → 트레일링 스탑 매도. +50% 찍었다가 현재 +45%면 아직 홀드(고점 대비 -5%p).\n"
-           "- 단 이건 '수익 종목'에만 적용. 손실 종목은 기존 손절 규칙(-7%)을 따른다. 또 개별 악재(실적 쇼크 등)로 펀더멘털이 망가지면 트레일링과 무관하게 매도 검토.\n\n")
+           "- 단 이건 '수익 종목'에만 적용. 손실 종목은 기존 손절 규칙(-7%)을 따른다. 또 개별 악재(실적 쇼크 등)로 펀더멘털이 망가지면 트레일링과 무관하게 매도 검토.\n"
+           "- ★ 텐버거(장기보유) 종목: 보유 포지션 중 is_tenbagger=true인 종목은 사람이 '10배주 후보'로 확정한 장기보유 종목이다. 5~10년 보고 묻어두는 자리라 단기 손절(-7%)·트레일링·과매수 매도를 적용하지 마라. 일시적으로 마이너스여도 버틴다(엉덩이 싸움). 오직 '펀더멘털이 실제로 망가졌다'고 판단될 때만 매도를 검토하라. 단기 등락에 흔들리지 말 것.\n\n")
         + session_rule
         + f"[계좌] 총자산 ${account['equity']}, 현금 ${account['cash']}\n"
         f"[보유 포지션]\n{json.dumps(positions, ensure_ascii=False, indent=1)}\n\n"
@@ -749,7 +793,7 @@ def ask_claude(account, positions, market, regime=None, session="regular"):
         ds_text = ds_res.get("choices", [{}])[0].get("message", {}).get("content", "")
         deepseek_plan = _parse_ai_json(ds_text, "DeepSeek")
         log("✅ DeepSeek 판단 수신 — 합의 방식 적용")
-        return _consensus(claude_plan, deepseek_plan)
+        return _consensus(claude_plan, deepseek_plan, positions, regime)
     except Exception as e:
         log(f"⚠️ DeepSeek 호출 실패 ({e}) → Claude 단독으로 진행")
         return claude_plan
@@ -810,44 +854,88 @@ def _clip_sentence(text, limit=1000):
     return cut.rstrip() + "…"
 
 
-def _consensus(claude_plan, deepseek_plan):
-    """두 AI 판단을 합의: 둘 다 동의한 매수만 실행, 손절은 한쪽이라도 원하면 실행.
-    예외(C안): 주도섹터 코어 종목은 한쪽 AI가 high 확신으로 매수를 원하고
-    상대가 그 종목 매도를 제안하지 않았다면(=적극 반대 아님), 소량(절반)으로 진입 허용.
-    Claude가 주도섹터를 사자고 해도 DeepSeek 보수성 때문에 계속 보류돼
-    현금만 쌓이던 교착을 푼다."""
+def _consensus(claude_plan, deepseek_plan, positions=None, regime=None):
+    """두 AI 판단을 합의.
+    매수(C안): 둘 다 동의 시 실행. 주도섹터 코어는 한쪽 high 확신+상대 매도 안 하면 소량 진입.
+    매도(A안): '진짜 손절'(보유 손익이 손절선 -7%, 레버리지 -5% 이하)은 한쪽만 원해도 즉시 실행(방어 우선).
+              그 외 '재량 매도'(리밸런싱·자금확보·약세 등 손절선 위)는 양쪽 합의해야 실행.
+              → DeepSeek이 손절선 한참 위인데 '주도섹터 자금 확보'라며 혼자 다 팔아 현금만
+                쌓이던 문제를 막는다. 진짜 위험할 때 손절은 그대로 빠르게 작동."""
     c_dec = claude_plan.get("decisions", []) or []
     d_dec = deepseek_plan.get("decisions", []) or []
 
-    # 주도섹터 코어(반도체 ETF·대장주). 한쪽만 강하게 원해도 소량 진입 허용 대상.
     LEAD_CORE = {"SOXX", "SMH", "NVDA", "AVGO", "AMD", "MU", "AMAT", "LRCX", "KLAC", "QQQ"}
+    tenbaggers = load_tenbaggers()   # 장기보유: 단기 손절 면제(합의 있어야 매도)
+
+    # 보유 종목의 현재 손익률 맵 (손절선 판정용)
+    pnl_map = {}
+    for p in (positions or []):
+        try:
+            pnl_map[str(p.get("symbol", "")).upper()] = float(p.get("pnl_pct", 0))
+        except Exception:
+            pass
+
+    def _is_stoploss(sym):
+        """해당 매도가 진짜 손절선(-7%, 레버리지 -5%)을 넘었는지.
+        단 텐버거(장기보유) 종목은 단기 손절 면제 → 재량 매도로 간주(합의 필요)."""
+        if sym in tenbaggers:
+            return False
+        if sym not in pnl_map:
+            return False   # 보유 정보 없으면 재량으로 간주(합의 필요)
+        line = -5.0 if sym in LEVERAGE_TICKERS else -7.0
+        return pnl_map[sym] <= line
 
     def key(x):
         return (str(x.get("symbol", "")).upper(), str(x.get("action", "")).lower())
 
     c_map = {key(x): x for x in c_dec}
     d_set = {key(x) for x in d_dec}
-    # 상대가 그 종목 '매도'를 원했는지(적극 반대 여부) 판단용
     c_sell = {s for (s, a) in c_map if a == "sell"}
     d_sell = {key(y)[0] for y in d_dec if key(y)[1] == "sell"}
+    # 양쪽이 같이 팔자고 한 종목(재량 매도라도 합의되면 실행)
+    both_sell = {s for s in c_sell if s in d_sell}
 
     merged = []
     consensus_log = []
+    done_sell = set()   # 중복 매도 방지
+    regime_label = (regime or {}).get("label", "")
+    defensive = regime_label in ("하락장/조정", "단기 약세")   # 방어 국면이면 솔로 진입 보수적
 
     def _solo_lead_buy(x, sym, opponent_sells):
-        """주도섹터 코어를 한쪽만 high 확신으로 매수 + 상대가 매도 안 했으면 소량 진입."""
-        if sym not in LEAD_CORE:
-            return False
-        if str(x.get("conviction", "")).lower() != "high":
-            return False
+        # 한쪽 AI만 매수를 원할 때 소량 진입을 허용할지 판정.
         if sym in opponent_sells:   # 상대가 매도를 원함 = 적극 반대 → 진입 안 함
             return False
-        return True
+        conv = str(x.get("conviction", "")).lower()
+        tier = str(x.get("tier", "core")).lower()
+        # 주도섹터 코어: high 확신은 항상, normal 확신도 '방어 국면이 아니면' 소량 진입
+        #  → 상승·중립장에서 주도섹터를 사자는데 합의가 안 돼 현금만 쌓이던 교착을 푼다.
+        if sym in LEAD_CORE:
+            if conv == "high":
+                return True
+            if conv == "normal" and not defensive:
+                return True
+        # 저평가·과매도 하이리스크: 격리 예산(작은 금액)이라 한쪽 high 확신이면 소량 진입
+        if tier == "highrisk" and conv == "high":
+            return True
+        return False
+
+    def _handle_sell(x, sym, who):
+        """A안 매도 처리: 손절선 초과면 한쪽만으로 실행, 아니면 합의(both_sell) 필요."""
+        if sym in done_sell:
+            return
+        if _is_stoploss(sym):
+            done_sell.add(sym); merged.append(x)
+            consensus_log.append(f"{sym} 손절({who})")
+        elif sym in both_sell:
+            done_sell.add(sym); merged.append(x)
+            consensus_log.append(f"{sym} 매도(합의)")
+        else:
+            consensus_log.append(f"{sym} 매도 보류({who}만·손절선 위)")
 
     for k, x in c_map.items():
         sym, action = k
         if action == "sell":
-            merged.append(x); consensus_log.append(f"{sym} 매도(Claude)")
+            _handle_sell(x, sym, "Claude")
         elif action == "buy":
             if k in d_set:
                 d_x = next((y for y in d_dec if key(y) == k), None)
@@ -858,7 +946,6 @@ def _consensus(claude_plan, deepseek_plan):
                     pass
                 merged.append(x); consensus_log.append(f"{sym} 매수(합의)")
             elif _solo_lead_buy(x, sym, d_sell):
-                # C안: 주도섹터 코어, Claude high 확신, DeepSeek 반대(매도) 아님 → 소량(절반) 진입
                 x = dict(x)
                 try:
                     x["qty"] = max(1, int(float(x.get("qty", 1)) / 2))
@@ -868,7 +955,7 @@ def _consensus(claude_plan, deepseek_plan):
             else:
                 consensus_log.append(f"{sym} 매수 보류(Claude만)")
 
-    # DeepSeek만 원한 매수 중 주도섹터 코어 + high 확신 + Claude 매도 아님 → 소량 진입
+    # DeepSeek만 원한 매수 중 주도섹터 코어 소량 진입
     for y in d_dec:
         sym, action = key(y)
         if action == "buy" and (sym, "buy") not in c_map:
@@ -880,11 +967,11 @@ def _consensus(claude_plan, deepseek_plan):
                     y["qty"] = 1
                 merged.append(y); consensus_log.append(f"{sym} 매수(DeepSeek주도·소량)")
 
-    # DeepSeek만 원한 매도(손절)도 방어 차원에서 실행
+    # DeepSeek 매도 처리 (A안: 손절선 초과만 단독 실행, 재량은 합의 필요)
     for y in d_dec:
         sym, action = key(y)
-        if action == "sell" and (sym, "sell") not in c_map:
-            merged.append(y); consensus_log.append(f"{sym} 매도(DeepSeek)")
+        if action == "sell":
+            _handle_sell(y, sym, "DeepSeek")
 
     view = "🤝 합의: " + (", ".join(consensus_log) if consensus_log else "거래 없음") + \
            " | Claude: " + _clip_sentence(claude_plan.get("market_view", ""), 4000) + \
@@ -1136,27 +1223,59 @@ def fetch_positions():
 
 
 def track_runners(positions):
-    """종목별 '보유 중 최고 수익률(peak_pnl)'을 runners.json에 누적 추적.
-    각 포지션에 peak_pnl_pct(최고점)와 drawdown_from_peak_pct(고점 대비 현재 하락폭)를
-    붙여, AI가 트레일링 스탑('수익은 길게, 꺾이면 보전')을 판단할 수 있게 한다.
-    텐버거 후보를 과매수만으로 섣불리 팔지 않고 끝까지 태우기 위함."""
+    """종목별 '보유 중 최고 수익률(peak_pnl)'을 runners.json에 누적 추적하고,
+    텐버거 트레일링 스탑을 '자동으로' 발동한다.
+    - 각 포지션에 peak_pnl_pct(최고점), drawdown_from_peak_pct(고점 대비 하락폭),
+      trailing_stop_triggered(자동 매도 발동 여부)를 붙인다.
+    - 수익을 길게 태우되(let winners run), +15%↑ 찍었던 종목이 고점 대비 -20%p(대박 +50%↑는
+      -30%p) 꺾이면 자동으로 매도 신호를 만들어 AI가 깜빡해도 수익을 보전한다.
+    반환: (positions, trailing_sells) — trailing_sells는 자동 발동된 매도 decision 리스트."""
     try:
         with open("runners.json", encoding="utf-8") as f:
             peaks = json.load(f)
+        if not isinstance(peaks, dict):
+            peaks = {}
     except Exception:
         peaks = {}
 
+    trailing_sells = []
     held = set()
+    tenbaggers = load_tenbaggers()   # 장기보유 종목: 트레일링 면제
     for p in positions:
-        sym = p["symbol"]
+        sym = p.get("symbol")
+        if not sym:
+            continue
         held.add(sym)
-        pnl = p.get("pnl_pct", 0)
+        try:
+            pnl = float(p.get("pnl_pct", 0))
+        except (TypeError, ValueError):
+            pnl = 0.0
         prev_peak = peaks.get(sym, {}).get("peak_pnl_pct", pnl)
+        try:
+            prev_peak = float(prev_peak)
+        except (TypeError, ValueError):
+            prev_peak = pnl
         peak = max(prev_peak, pnl)
+        drawdown = round(pnl - peak, 1)   # 0 또는 음수(고점 대비 하락폭 %p)
         peaks[sym] = {"peak_pnl_pct": round(peak, 1)}
         p["peak_pnl_pct"] = round(peak, 1)
-        # 고점 대비 하락폭(%p): 예: 최고 +50%였다가 현재 +20% → 30%p 하락
-        p["drawdown_from_peak_pct"] = round(pnl - peak, 1)  # 0 또는 음수
+        p["drawdown_from_peak_pct"] = drawdown
+
+        # ── 자동 트레일링 스탑 판정 ──
+        # 충분히 수익났던(peak>=15%) 종목이 고점 대비 과하게 빠지면 자동 매도.
+        # 단 현재도 손실 종목(pnl<=0)은 트레일링이 아니라 기존 손절(-7%) 규칙 영역이라 제외.
+        triggered = False
+        if sym not in tenbaggers and peak >= RUNNER_MIN_PEAK_PCT and pnl > 0:
+            trail = RUNNER_BIG_TRAIL_DROP_PCT if peak >= RUNNER_BIG_PEAK_PCT else RUNNER_TRAIL_DROP_PCT
+            if drawdown <= -trail:
+                triggered = True
+                trailing_sells.append({
+                    "symbol": sym, "action": "sell",
+                    "qty": p.get("qty"), "conviction": "high", "tier": "core",
+                    "reason": f"트레일링 스탑 자동 발동 — 고점 +{peak:.0f}% 대비 {drawdown:.0f}%p 하락, 수익 보전",
+                })
+        p["trailing_stop_triggered"] = triggered
+        p["is_tenbagger"] = sym in tenbaggers   # 앱·AI 표시용(장기보유 종목)
 
     # 더 이상 보유하지 않는 종목은 정리(매도됨)
     for sym in list(peaks.keys()):
@@ -1168,10 +1287,73 @@ def track_runners(positions):
             json.dump(peaks, f, ensure_ascii=False, indent=1)
     except Exception as e:
         log(f"⚠️ runners.json 저장 실패: {e}")
-    return positions
+    return positions, trailing_sells
 
 
-def _has_crypto_opportunity(market, positions):
+def load_tenbaggers():
+    """사람이 확정한 장기보유 텐버거 종목 집합을 로드(tenbagger.txt, 한 줄 1티커).
+    여기 있는 종목은 단기 손절·트레일링을 면제해 장기 보유를 존중한다."""
+    out = set()
+    try:
+        with open(TENBAGGER_FILE, encoding="utf-8") as f:
+            for line in f:
+                t = line.strip().upper()
+                if t and not t.startswith("#"):
+                    out.add(t)
+    except Exception:
+        pass
+    return out
+
+
+def score_tenbagger_candidates(market):
+    """watchlist 데이터에서 텐버거 4박자를 정량 점수화해 상위 후보를 추린다.
+    기준(받을 수 있는 데이터만): 소외(신저가 근처) + 과매도 반등 + 저평가 + 작은 몸집.
+    메가트렌드·해자 같은 정성 판단은 사람 몫이라 여기선 정량 신호만 본다."""
+    cands = []
+    for m in market:
+        sym = m.get("symbol", "")
+        if not sym or is_crypto(sym) or sym in TENBAGGER_EXCLUDE:
+            continue
+        val = m.get("valuation") or {}
+        score = 0
+        reasons = []
+
+        # ① 소외된 우량주: 52주 고점 대비 깊은 하락(신저가 근처)
+        off = m.get("off_52w_high_pct")
+        if off is None:
+            off = val.get("off_52w_high_pct")
+        if off is not None and off <= TENBAGGER_DEEP_DIP_PCT:
+            score += 2; reasons.append(f"52주고점 대비 {off:.0f}%")
+
+        # ② 과매도 탈출 + 반등 신호 (떨어지는 칼날 회피)
+        rsi = m.get("rsi14")
+        price, ma5 = m.get("price"), m.get("ma5")
+        if rsi is not None and rsi < 40 and price and ma5 and price >= ma5:
+            score += 2; reasons.append("과매도 탈출+MA5 회복")
+        elif rsi is not None and rsi < 35:
+            score += 1; reasons.append(f"RSI {rsi:.0f} 과매도")
+
+        # ③ 저평가: 선행 PER이 낮음(데이터 있을 때만)
+        fpe = val.get("fwd_pe")
+        if fpe is not None and 0 < fpe < 15:
+            score += 2; reasons.append(f"선행PER {fpe:.0f}")
+        elif fpe is not None and 0 < fpe < 20:
+            score += 1
+
+        # ④ 가벼운 몸집: 소형~미드캡 가산
+        mcap = val.get("market_cap")
+        if mcap is not None and 0 < mcap < TENBAGGER_SMALLCAP_MAX:
+            score += 2; reasons.append(f"시총 ${mcap/1e9:.1f}B(소형)")
+
+        if score >= 4:   # 4점 이상만 후보로 (4박자 중 2개 이상 강하게 충족)
+            cands.append({"symbol": sym, "score": score,
+                          "price": m.get("price"), "reasons": reasons})
+
+    cands.sort(key=lambda x: x["score"], reverse=True)
+    return cands[:8]   # 상위 8개만
+
+
+
     """프리마켓·휴장(코인만 보는 시간)에 AI를 부를 가치가 있는지 판정.
     - 보유 코인이 있으면 True (손절·익절 판단 필요)
     - 코인이 '저가 구간(taco_zone/과매도/큰 괴리)'에 있으면서 '반등이 실제로 시작된 신호'
@@ -1304,7 +1486,10 @@ def main():
         send_push("🤝 컨센서스 봇 — 주문 보류", msg, True)
         return 0
     positions = _parse_positions(positions_raw)
-    positions = track_runners(positions)  # 종목별 최고 수익률 추적(트레일링 스탑용)
+    positions, trailing_sells = track_runners(positions)  # 최고 수익률 추적 + 트레일링 자동 발동
+    if trailing_sells:
+        for ts in trailing_sells:
+            log(f"🔔 트레일링 스탑 자동 발동: {ts['symbol']} — {ts['reason']}")
 
     # 미국장 마감(프리·휴장) 시에는 코인만 수집 (주식 거래 보류되므로 헛수집·크레딧 절약)
     if not STOCK_TRADABLE:
@@ -1346,7 +1531,11 @@ def main():
     market = []
     for sym in targets:
         try:
-            market.append(summarize(sym, fetch_daily(sym)))
+            s = summarize(sym, fetch_daily(sym))
+            if s.get("price") is None or s.get("error"):
+                log(f"⚠️ {sym} 데이터 부실 — 제외 ({s.get('error','가격없음')})")
+            else:
+                market.append(s)
         except Exception as e:
             log(f"⚠️ {sym} 시세 실패: {e}")
         time.sleep(0.4)  # 종목이 많아 데이터 소스 차단 방지용 간격
@@ -1400,6 +1589,21 @@ def main():
                 m["valuation"] = val
     except Exception as e:
         log(f"⚠️ 밸류에이션 merge 실패: {e}")
+
+    # ── 텐버거(10배주) 후보 추천 — 봇은 후보만, 편입은 사람이 tenbagger.txt에 ──
+    tenbagger_candidates = []
+    try:
+        tenbagger_candidates = score_tenbagger_candidates(market)
+        kst_now = datetime.datetime.now(
+            datetime.timezone(datetime.timedelta(hours=9))).strftime("%Y-%m-%d %H:%M")
+        with open(TENBAGGER_CAND_FILE, "w", encoding="utf-8") as f:
+            json.dump({"updated": kst_now, "candidates": tenbagger_candidates},
+                      f, ensure_ascii=False, indent=1)
+        if tenbagger_candidates:
+            top = ", ".join(f"{c['symbol']}({c['score']})" for c in tenbagger_candidates[:5])
+            log(f"💎 텐버거 후보 {len(tenbagger_candidates)}개: {top}")
+    except Exception as e:
+        log(f"⚠️ 텐버거 후보 분석 실패: {e}")
 
     # 시장 전체 국면 판단 (하락장 대응용)
     regime = assess_regime()
@@ -1463,8 +1667,16 @@ def main():
         send_push("🤝 컨센서스 봇 — 판단 실패", f"AI API 오류: {e}", True)
         return 1
 
-    decisions = plan.get("decisions", [])
+    decisions = plan.get("decisions", []) or []
     view = plan.get("market_view", "")
+    # 텐버거 트레일링 자동 발동분을 AI 판단과 합친다(AI가 깜빡해도 수익 보전).
+    # 같은 종목을 AI도 이미 팔기로 했으면 중복 제거.
+    if trailing_sells:
+        ai_sell_syms = {str(d.get("symbol", "")).upper() for d in decisions
+                        if str(d.get("action", "")).lower() == "sell"}
+        for ts in trailing_sells:
+            if str(ts["symbol"]).upper() not in ai_sell_syms:
+                decisions.append(ts)
     results = execute(decisions, account, positions, market, regime) if decisions else []
 
     # 체결(⛔ 제외)이 있었으면 포지션을 재조회해 '매도 전 스냅샷'이 아닌 최신 상태를 반영.
@@ -1475,7 +1687,7 @@ def main():
         time.sleep(3)  # 시장가 체결이 알파카에 반영될 시간을 잠깐 줌
         refreshed = fetch_positions()
         if refreshed or not positions:
-            positions = track_runners(refreshed)
+            positions, _ = track_runners(refreshed)
         # 계좌(현금·총자산)도 체결 반영해 다시 조회
         try:
             account = alpaca("/v2/account")
@@ -1488,6 +1700,10 @@ def main():
     if view:
         body_parts.append(format_view_for_push(view))
     body_parts.append("\n".join(results) if results else "오늘은 거래 없음 (관망)")
+    # 텐버거 후보가 있으면 한 줄 덧붙임(사람이 검토 후 tenbagger.txt에 편입)
+    if tenbagger_candidates:
+        tb = ", ".join(f"{c['symbol']}({c['score']}점)" for c in tenbagger_candidates[:5])
+        body_parts.append(f"💎 텐버거 후보: {tb}\n→ 검토 후 tenbagger.txt에 추가하면 장기보유로 보호됩니다")
     body_parts.append("※ 모의계좌 자동매매 · 참고용")
     body = "\n\n".join(body_parts)
 
