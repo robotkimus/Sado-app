@@ -24,7 +24,7 @@ jobs:
         run: |
           git config user.name "claude-trade-bot"
           git config user.email "bot@users.noreply.github.com"
-          git add bot_status.json equity_history.json trade_journal.json news.json runners.json
+          git add bot_status.json equity_history.json trade_journal.json news.json runners.json tenbagger_candidates.json journal_archive/ 2>/dev/null || true
           git diff --staged --quiet && echo "변경 없음" && exit 0
           git commit -m "bot status update"
           for i in 1 2 3; do
