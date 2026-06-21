@@ -25,6 +25,7 @@ ALPACA_SECRET = os.environ.get("ALPACA_SECRET_KEY", "").strip()
 ANTHROPIC_KEY = os.environ.get("ANTHROPIC_API_KEY", "").strip()
 DEEPSEEK_KEY = os.environ.get("DEEPSEEK_API_KEY", "").strip()
 NTFY_TOPIC = os.environ.get("NTFY_TOPIC", "").strip()
+DISCORD_WEBHOOK = os.environ.get("DISCORD_WEBHOOK", "").strip()  # 디스코드 알림(있으면 함께 전송)
 
 ALPACA_BASE = "https://paper-api.alpaca.markets"  # 모의계좌 전용 (변경 금지)
 UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/124 Safari/537.36"}
@@ -1247,17 +1248,46 @@ def _fit_ntfy(message, max_bytes=3800):
     return cut.rstrip() + note
 
 
+def send_discord(title, message, urgent):
+    """디스코드 웹훅으로 알림 전송(임베드 카드). 색: 긴급=빨강, 일반=청록.
+    웹훅이 설정 안 됐으면 조용히 건너뜀. 실패해도 봇 진행에 지장 없게 예외 흡수."""
+    if not DISCORD_WEBHOOK:
+        return
+    # 디스코드 임베드 description은 4096자 제한 → 넉넉히 자름
+    desc = message if len(message) <= 4000 else message[:3990] + "…"
+    color = 0xE74C3C if urgent else 0x1ABC9C   # 빨강 / 청록
+    payload = json.dumps({
+        "embeds": [{
+            "title": title[:256],
+            "description": desc,
+            "color": color,
+        }],
+    }).encode("utf-8")
+    try:
+        req = urllib.request.Request(DISCORD_WEBHOOK, data=payload,
+                                     headers={"Content-Type": "application/json"})
+        urllib.request.urlopen(req, timeout=20)
+    except Exception as e:
+        log(f"⚠️ 디스코드 전송 실패(무시): {e}")
+
+
 def send_push(title, message, urgent):
+    # ntfy(기존)와 디스코드(신규)에 함께 전송. 둘 중 설정된 곳으로만 나감.
+    send_discord(title, message, urgent)
     if not NTFY_TOPIC:
-        log("NTFY_TOPIC 없음 — 알림 생략")
+        if not DISCORD_WEBHOOK:
+            log("NTFY_TOPIC·DISCORD_WEBHOOK 없음 — 알림 생략")
         return
     message = _fit_ntfy(message)
     payload = json.dumps({"topic": NTFY_TOPIC, "title": title, "message": message,
                           "priority": 4 if urgent else 3,
                           "tags": ["robot"]}).encode("utf-8")
-    req = urllib.request.Request("https://ntfy.sh/", data=payload,
-                                 headers={"Content-Type": "application/json"})
-    urllib.request.urlopen(req, timeout=20)
+    try:
+        req = urllib.request.Request("https://ntfy.sh/", data=payload,
+                                     headers={"Content-Type": "application/json"})
+        urllib.request.urlopen(req, timeout=20)
+    except Exception as e:
+        log(f"⚠️ ntfy 전송 실패(무시): {e}")
 
 
 def _prev_last_trade_time():
