@@ -186,6 +186,10 @@ def fetch_valuations(symbols):
                     "fwd_pe": q.get("forwardPE"),
                     "pb": q.get("priceToBook"),
                     "market_cap": q.get("marketCap"),
+                    # 가치투자 지표(야후 quote에 있을 때만, 누락 잦음)
+                    "roe": (round(q.get("returnOnEquity") * 100, 1)
+                            if isinstance(q.get("returnOnEquity"), (int, float)) else None),
+                    "psr": q.get("priceToSalesTrailing12Months"),
                     "off_52w_high_pct": (
                         round((q.get("regularMarketPrice", 0) / q.get("fiftyTwoWeekHigh", 0) - 1) * 100, 1)
                         if q.get("fiftyTwoWeekHigh") else None),
@@ -789,7 +793,8 @@ def ask_claude(account, positions, market, regime=None, session="regular"):
         "  ① 기술적 과매도 반등: disparity_ma20_pct가 음수로 크게 벌어짐(예: -10% 이하) + RSI 과매도권 + 반등 신호(MA5 회복·거래량 동반 반등·RSI 과매도 탈출). '많이 빠졌다'만으로는 부족, 돌아서는 신호가 핵심.\n"
         "    └ 지지/저항·피보나치 활용: 각 종목 지표의 support(아래 지지대 가격들)·resistance(위 저항대)·fib(피보나치 되돌림 38.2/50/61.8%)·taco_zone(저가매수 후보 밴드 {low,high,basis})·in_taco_zone(현재가가 그 밴드 안인지)을 본다. 현재가가 강한 지지대나 피보 0.5~0.618 되돌림에 닿았고(=in_taco_zone true) 거기서 반등 신호가 나오면 저가매수 자리로 판단. 단 '지지에 닿음'만으론 부족, 매물대가 깨지면 손절(차트는 미래 보장이 아니라 확률 가이드일 뿐).\n"
         "    └ 일목균형표(ichimoku) 활용 — '기다리는 매매'의 핵심 도구: 각 종목의 ichimoku 필드를 본다. pos는 현재가와 구름의 관계다. 'above'=구름 위(상승추세·강세), 'in'=구름 안(중립·방향 모색), 'below'=구름 아래(하락추세·약세). dist_to_cloud_pct는 현재가가 구름에서 떨어진 거리%다. ★ 가장 좋은 매수 자리: 'above'(상승추세 유지)이면서 dist_to_cloud_pct가 작게 양수(예: +0~5%) = 오르던 주가가 구름 상단까지 눌려 내려와 '지지'를 테스트하는 눌림목이다. 구름이 지지선 역할을 하며 추세가 살아있을 가능성이 높아, 거기서 반등 신호(MA5 회복·거래량)가 나오면 '기다리던 자리'로 본다. 반대로 'below'(구름 아래)는 추세가 꺾인 약세라 떨어지는 칼날 위험이 크니 신규 매수를 피한다. 'in'(구름 안)은 방향 불명확이니 신중히. 단 일목도 만능이 아니라 다른 지표·펀더멘털과 함께 종합 판단하는 한 재료일 뿐이다.\n"
-        "  ② 밸류에이션 저평가: 각 종목 지표의 valuation 필드(pe=PER, fwd_pe=선행PER, pb=PBR, off_52w_high_pct=52주고점대비낙폭%)를 본다. 동종 섹터·과거 대비 PER/PBR이 낮은데 펀더멘털은 망가지지 않은 종목. (valuation이 없으면 ①기술적 신호로만 판정)\n"
+        "  ② 밸류에이션 저평가: 각 종목 지표의 valuation 필드(pe=PER, fwd_pe=선행PER, pb=PBR, roe=자기자본이익률%, psr=주가매출비율, off_52w_high_pct=52주고점대비낙폭%)를 본다. 동종 섹터·과거 대비 PER/PBR이 낮은데 펀더멘털은 망가지지 않은 종목. (valuation이 없으면 ①기술적 신호로만 판정)\n"
+        "    └ 가치투자 참고 기준(데이터 있을 때): 그레이엄식 'PER 15 이하·PBR 1.5 이하(둘의 곱 22.5 이하)'는 싸게 사는 좋은 가이드다. 버핏식으로는 'ROE 15% 이상을 꾸준히 내는 자본효율 좋은 기업'이 위대한 기업이다. ★ 단 핵심은 '좋은 기업을 적당히 싸게'이지 PER 15·PSR 1.5 같은 고정 숫자에 기계적으로 얽매이는 게 아니다 — 애플·코카콜라처럼 위대한 기업은 PER이 높아도 살 가치가 있다. 숫자는 참고일 뿐, 펀더멘털(섹터 지위·성장성)과 함께 종합 판단하라.\n"
         "  → ① 또는 ② 중 하나라도 분명하고, 펀더멘털이 망가진 게 아니면 하이리스크 후보. 둘 다 충족이면 더 강한 신호.\n"
         "- 하락장 예외(중요): BNF 역추세는 원래 하락장 금지지만, 하이리스크 슬롯에 한해 '확실한 추세 전환 신호'가 보이면 하락장에서도 저가매수를 시도할 수 있다. 단 매우 신중히 — 추세 전환이 애매하면 하지 말 것. 막연한 '싸 보임'은 금지, 반드시 돌아서는 신호 확인.\n"
         "- 레버리지(TQQQ 등)도 하이리스크 슬롯에 포함 가능. 단 한 종목 한도 5%는 동일.\n"
@@ -1417,12 +1422,25 @@ def score_tenbagger_candidates(market):
         elif rsi is not None and rsi < 35:
             score += 1; reasons.append(f"RSI {rsi:.0f} 과매도")
 
-        # ③ 저평가: 선행 PER이 낮음(데이터 있을 때만)
+        # ③ 저평가(그레이엄 기준): 선행 PER 낮음 + PBR 낮음 + 둘의 곱 22.5 이하
         fpe = val.get("fwd_pe")
-        if fpe is not None and 0 < fpe < 15:
-            score += 2; reasons.append(f"선행PER {fpe:.0f}")
-        elif fpe is not None and 0 < fpe < 20:
+        pe = val.get("pe")
+        pb = val.get("pb")
+        use_pe = fpe if (fpe is not None and fpe > 0) else (pe if (pe is not None and pe > 0) else None)
+        if use_pe is not None and use_pe < 15:
+            score += 2; reasons.append(f"PER {use_pe:.0f}(저평가)")
+        elif use_pe is not None and use_pe < 20:
             score += 1
+        if pb is not None and 0 < pb < 1.5:
+            score += 1; reasons.append(f"PBR {pb:.1f}")
+        # 그레이엄 복합 기준: PER × PBR ≤ 22.5 (둘 다 있을 때)
+        if use_pe is not None and pb is not None and 0 < use_pe * pb <= 22.5:
+            score += 1; reasons.append("그레이엄 기준 충족")
+
+        # ③-2 우량성(버핏 ROE): ROE 15% 이상 = 자본 효율 좋은 위대한 기업 (데이터 있을 때만)
+        roe = val.get("roe")
+        if roe is not None and roe >= 15:
+            score += 2; reasons.append(f"ROE {roe:.0f}%(우량)")
 
         # ④ 가벼운 몸집: 소형~미드캡 가산
         mcap = val.get("market_cap")
