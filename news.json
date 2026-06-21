@@ -1,5 +1,5 @@
 {
- "updated": "2026-06-21 23:00",
+ "updated": "2026-06-22 00:00",
  "items": [
   {
    "headline": "Consumer Tech News (June 15-18): Trump Signals Major US Chip Alliance, Snap AR Glasses Face Criticism & More",
@@ -215,6 +215,20 @@
     "NVDA"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/06/18/Des-Moines--Iowa---September-21--2019-Be.jpeg?width=1024&height=768"
+  },
+  {
+   "headline": "SpaceX Has 18,712 BTC, Strategy Has 846,842 BTC: Whose Bitcoin Stack Matters More?",
+   "summary": "SpaceX&#39;s $35K Bitcoin cost basis with 100% gains may matter more for institutional adoption than Strategy&#39;s 45x larger but breakeven stack.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/06/60005324/spacex-has-18712-btc-strategy-has-846842-btc-whose-bitcoin-stack-matters-more",
+   "created_at": "2026-06-21T14:31:37Z",
+   "symbols": [
+    "BTCUSD",
+    "MSTR",
+    "SPCX",
+    "TSLA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/21/The-Spacex-Logo-Is-Displayed-On-A-Mobile.jpg?width=1024&height=768"
   },
   {
    "headline": "Trump's EV Policies, Tesla's Robotaxi Boost, GM's New Silverado, Uber's Zurich Expansion And More: This Week In Mobility",
@@ -463,15 +477,6 @@
     "ZECUSD"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/06/20/Denver--Colorado---June-18-2025-Polymark.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Crude Oil Price Pops As Iran Closes Strait Of Hormuz",
-   "summary": "Brent and WTI crude oil benchmarks are rising today after Iran closed the Strait of Hormuz following the ongoing fighting in Lebanon.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/commodities/26/06/60004404/crude-oil-price-pops-as-iran-closes-strait-of-hormuz",
-   "created_at": "2026-06-20T15:30:53Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/20/Oil-Field--Falling-Chart-And-Petroleum-R.jpg?width=1024&height=768"
   }
  ]
 }
