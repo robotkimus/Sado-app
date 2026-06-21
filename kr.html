@@ -28,6 +28,11 @@
   }
   .wrap{max-width:480px; margin:0 auto;}
   .eyebrow{font-size:11px; letter-spacing:.22em; color:var(--dim); font-weight:700;}
+  .live-on{color:#ff3b3b; font-weight:800;}
+  .live-on::before{content:"●"; margin-right:4px; animation:livePulse 1.4s ease-in-out infinite;}
+  .live-off{color:var(--dim); font-weight:700;}
+  .live-off::before{content:"●"; margin-right:4px; color:var(--dim);}
+  @keyframes livePulse{0%,100%{opacity:1;} 50%{opacity:.25;}}
   h1{font-size:26px; font-weight:800; margin:4px 0 12px; letter-spacing:-0.02em;}
   .tabs{display:flex; gap:6px; margin-bottom:16px; background:var(--card); padding:5px;
     border-radius:14px; border:1px solid var(--line);}
@@ -208,7 +213,7 @@
 </head>
 <body>
 <div class="wrap">
-  <div class="eyebrow">KR STOCK · SIGNAL</div>
+  <div class="eyebrow">KR STOCK · <span id="liveBadge">SIGNAL</span></div>
   <div style="display:flex; align-items:center; justify-content:space-between; gap:10px;">
     <h1 style="margin-bottom:12px;">오늘, 사도 될까</h1>
     <button id="themeToggle" type="button" aria-label="테마 전환"
@@ -327,6 +332,25 @@
 </div>
 
 <script>
+// ── 한국장 LIVE 상태 배지 ──
+// 한국장 정규장: 평일 09:00~15:30 (KST=UTC+9). 서머타임 없음.
+function krMarketLive(){
+  const now = new Date();
+  const utc = now.getTime() + now.getTimezoneOffset()*60000;
+  const k = new Date(utc + 9*3600*1000);   // KST로 변환(폰 시간대 무관)
+  const day = k.getDay();                    // 0=일, 6=토
+  const mins = k.getHours()*60 + k.getMinutes();
+  return (day>=1 && day<=5) && mins >= (9*60) && mins < (15*60+30);
+}
+function updateLiveBadge(){
+  const el = document.getElementById("liveBadge");
+  if(!el) return;
+  if(krMarketLive()){ el.textContent="LIVE ON"; el.className="live-on"; }
+  else{ el.textContent="CLOSED"; el.className="live-off"; }
+}
+updateLiveBadge();
+setInterval(updateLiveBadge, 30000);
+
 const KR_DEFAULT = [   // 한국 시총 상위 대표주 (한국판 M7 느낌)
   {code:"005930", name:"삼성전자"},
   {code:"000660", name:"SK하이닉스"},
