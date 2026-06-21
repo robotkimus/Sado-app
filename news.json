@@ -1,5 +1,5 @@
 {
- "updated": "2026-06-21 22:00",
+ "updated": "2026-06-21 22:40",
  "items": [
   {
    "headline": "Apple's Tim Cook Warns Of Price Hike, Intel Soars On Trump's Apple Partnership Announcement, And More: This Week In Appleverse",
@@ -211,6 +211,46 @@
     "SOXX"
    ],
    "image": ""
+  },
+  {
+   "headline": "Trump's EV Policies, Tesla's Robotaxi Boost, GM's New Silverado, Uber's Zurich Expansion And More: This Week In Mobility",
+   "summary": "EV policy debates and robotaxi expansion dominated the week, alongside new moves from Tesla, GM, Uber and Lucid.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/06/60005261/trumps-ev-policies-teslas-robotaxi-boost-gms-new-silverado-ubers-zurich-expansion-and-more-this-week-in-mobility",
+   "created_at": "2026-06-21T13:31:15Z",
+   "symbols": [
+    "GM",
+    "LCID",
+    "TSLA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/21/Tesla-Cybercab-on-display-at-the-Westfie.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Jane Street Challenges Citadel and Wall Street Giants as Revenue Surges",
+   "summary": "Jane Street is challenging some of the biggest companies in Wall Street as its revenues surge.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/hedge-funds/26/06/60005250/jane-street-challenges-citadel-and-wall-street-giants-as-revenue-surges",
+   "created_at": "2026-06-21T13:26:39Z",
+   "symbols": [
+    "CRWV",
+    "VIRT"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/21/Wall-Street-Sign-With-American-Flag-On-T.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Amazon's AI Chip Expansion, Intel's New Hire And Google's Loss: This Week In Tech",
+   "summary": "Tech saw Amazon expand AI chips, AT&amp;T regulatory pushback, an Intel hire, a Google AI leader moving to OpenAI and more.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/06/60005224/amazons-ai-chip-expansion-intels-new-hire-and-googles-loss-this-week-in-tech",
+   "created_at": "2026-06-21T13:01:38Z",
+   "symbols": [
+    "AMZN",
+    "GOOG",
+    "GOOGL",
+    "INTC",
+    "META"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/21/AI-technology-bubble-concept.jpg?width=1024&height=768"
   },
   {
    "headline": "Bitcoin's Potential Path To $7 Million, Bitwise's BTC Optimism And More: This Week In Crypto",
@@ -441,24 +481,6 @@
     "WFC"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/06/20/Jamie-Dimon-Speaks-During-Ceremony-For-F.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Peace Talks Stall as Lebanon Fighting Escalates, Iran Closes Hormuz",
-   "summary": "Talks to end the war in the Middle East have stalled amid intense fighting between Israel and Hezbollah in southern Lebanon. ",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/06/60004336/us-iran-peace-talks-stall-as-israel-hezbollah-fighting-escalates-in-lebanon",
-   "created_at": "2026-06-20T14:31:29Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/20/Israel--Hezbollah-And-Lebanon-Flags-On-C.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Iran Has Closed Strait of Hormuz Over Israeli Strikes in Lebanon",
-   "summary": "Iran said on Saturday it had shut the Strait of Hormuz again, a move that could disrupt a critical corridor for global crude shipments.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/06/60004321/iran-has-closed-strait-of-hormuz-over-israeli-strikes-in-lebanon",
-   "created_at": "2026-06-20T14:18:59Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/20/Aramco-Reroutes-Tankers-From-Hormuz.jpg?width=1024&height=768"
   }
  ]
 }
