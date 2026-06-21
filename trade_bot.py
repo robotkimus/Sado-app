@@ -1294,6 +1294,49 @@ def fetch_positions():
         return []
 
 
+def _fill_price_for(sym, market):
+    """거래 종목의 현재가(≈체결가)를 market 데이터에서 찾는다. journal 진입가 기록용."""
+    if not sym:
+        return None
+    for m in market or []:
+        if str(m.get("symbol", "")).upper() == str(sym).upper():
+            return m.get("price")
+    return None
+
+
+def _archive_journal(entries):
+    """trade_journal에서 잘려나가는 오래된 기록을 월별 파일로 영구 보존.
+    journal_archive/2026-06.json 형태로 누적 → 2~3년치 빅데이터로 쌓인다.
+    (trade_journal.json은 앱 표시용 최근 200개만, 아카이브는 전체 보존)"""
+    if not entries:
+        return
+    try:
+        os.makedirs("journal_archive", exist_ok=True)
+    except Exception as e:
+        log(f"⚠️ 아카이브 폴더 생성 실패: {e}")
+        return
+    # 기록을 연-월별로 묶어 각 파일에 append
+    by_month = {}
+    for e in entries:
+        ym = str(e.get("time", ""))[:7] or "unknown"   # "2026-06"
+        by_month.setdefault(ym, []).append(e)
+    for ym, items in by_month.items():
+        path = f"journal_archive/{ym}.json"
+        try:
+            existing = []
+            if os.path.exists(path):
+                with open(path, encoding="utf-8") as f:
+                    existing = json.load(f)
+                if not isinstance(existing, list):
+                    existing = []
+            existing.extend(items)
+            with open(path, "w", encoding="utf-8") as f:
+                json.dump(existing, f, ensure_ascii=False, indent=1)
+            log(f"🗄 아카이브 보존: {path} (+{len(items)}건, 총 {len(existing)}건)")
+        except Exception as e:
+            log(f"⚠️ 아카이브 저장 실패({ym}): {e}")
+
+
 def track_runners(positions):
     """종목별 '보유 중 최고 수익률(peak_pnl)'을 runners.json에 누적 추적하고,
     텐버거 트레일링 스탑을 '자동으로' 발동한다.
@@ -1927,9 +1970,10 @@ def main():
                     journal = json.load(f)
             except Exception:
                 journal = []
-            # 보유 종목 요약 (평단 대비 손익)
+            # 보유 종목 요약 (평단 대비 손익 + 진입 추적용 평단가·현재가)
             pos_summary = [
-                {"sym": p["symbol"], "qty": p["qty"], "pnl_pct": p.get("pnl_pct", 0)}
+                {"sym": p["symbol"], "qty": p["qty"], "pnl_pct": p.get("pnl_pct", 0),
+                 "avg_cost": p.get("avg_cost"), "now": p.get("now")}
                 for p in positions
             ]
             entry = {
@@ -1943,6 +1987,8 @@ def main():
                     {"sym": d.get("symbol"), "action": d.get("action"),
                      "qty": d.get("qty"), "conviction": d.get("conviction", "normal"),
                      "tier": d.get("tier", "core"),
+                     # 체결가(진입/청산가) — 나중에 '이 판단이 수익이었나' 추적의 핵심
+                     "fill_price": _fill_price_for(d.get("symbol"), market),
                      "reason": str(d.get("reason", ""))[:100]}
                     for d in decisions
                 ] if decisions else [],
@@ -1951,8 +1997,12 @@ def main():
                 "market_view": view,
             }
             journal.append(entry)
-            # 최근 200개만 유지 (용량 관리)
-            journal = journal[-200:]
+            # 최근 200개는 trade_journal.json(앱 표시·빠른 조회용)에 유지하되,
+            # 잘려나가는 오래된 기록은 월별 아카이브에 영구 보존 → 2~3년 빅데이터로 축적.
+            if len(journal) > 200:
+                overflow = journal[:-200]
+                _archive_journal(overflow)
+                journal = journal[-200:]
             with open("trade_journal.json", "w", encoding="utf-8") as f:
                 json.dump(journal, f, ensure_ascii=False, indent=1)
             log(f"📓 판단 일지 기록 (#{len(journal)})")
