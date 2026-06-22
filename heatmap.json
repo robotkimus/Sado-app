@@ -1,0 +1,145 @@
+{
+ "updated": "2026-06-23 07:01",
+ "items": [
+  {
+   "sym": "AAPL",
+   "sector": "기술",
+   "chg": -0.3,
+   "mcap": 4362291642368,
+   "price": 296.64
+  },
+  {
+   "sym": "MSFT",
+   "sector": "기술",
+   "chg": -3.2,
+   "mcap": 2728761229312,
+   "price": 367.98
+  },
+  {
+   "sym": "NVDA",
+   "sector": "반도체",
+   "chg": -1.0,
+   "mcap": 5053711646720,
+   "price": 208.59
+  },
+  {
+   "sym": "GOOGL",
+   "sector": "커뮤니케이션",
+   "chg": -5.0,
+   "mcap": 4266995482624,
+   "price": 348.53
+  },
+  {
+   "sym": "AMZN",
+   "sector": "임의소비재",
+   "chg": -4.7,
+   "mcap": 2504147599360,
+   "price": 232.99
+  },
+  {
+   "sym": "META",
+   "sector": "커뮤니케이션",
+   "chg": -2.3,
+   "mcap": 1431289856000,
+   "price": 563.69
+  },
+  {
+   "sym": "TSLA",
+   "sector": "임의소비재",
+   "chg": 1.1,
+   "mcap": 1521255841792,
+   "price": 405.05
+  },
+  {
+   "sym": "AMD",
+   "sector": "반도체",
+   "chg": 2.7,
+   "mcap": 899488219136,
+   "price": 549.32
+  },
+  {
+   "sym": "IGV",
+   "sector": "기타",
+   "chg": -2.0,
+   "mcap": null,
+   "price": 87.37
+  },
+  {
+   "sym": "SOXX",
+   "sector": "기타",
+   "chg": 2.4,
+   "mcap": null,
+   "price": 654.75
+  },
+  {
+   "sym": "SMH",
+   "sector": "기타",
+   "chg": 1.4,
+   "mcap": null,
+   "price": 667.38
+  },
+  {
+   "sym": "QQQ",
+   "sector": "기타",
+   "chg": -0.4,
+   "mcap": null,
+   "price": 737.98
+  },
+  {
+   "sym": "XLK",
+   "sector": "기타",
+   "chg": 0.4,
+   "mcap": null,
+   "price": 192.25
+  },
+  {
+   "sym": "TQQQ",
+   "sector": "기타",
+   "chg": -0.3,
+   "mcap": null,
+   "price": 82.67
+  },
+  {
+   "sym": "SOXL",
+   "sector": "기타",
+   "chg": 7.7,
+   "mcap": null,
+   "price": 299.93
+  },
+  {
+   "sym": "SQQQ",
+   "sector": "기타",
+   "chg": 0.5,
+   "mcap": null,
+   "price": 36.91
+  },
+  {
+   "sym": "SOXS",
+   "sector": "기타",
+   "chg": -8.1,
+   "mcap": null,
+   "price": 3.31
+  },
+  {
+   "sym": "GLD",
+   "sector": "기타",
+   "chg": -0.7,
+   "mcap": null,
+   "price": 384.51
+  },
+  {
+   "sym": "TLT",
+   "sector": "기타",
+   "chg": -0.8,
+   "mcap": null,
+   "price": 86.11
+  },
+  {
+   "sym": "SPY",
+   "sector": "기타",
+   "chg": -0.3,
+   "mcap": null,
+   "price": 744.27
+  }
+ ]
+}
