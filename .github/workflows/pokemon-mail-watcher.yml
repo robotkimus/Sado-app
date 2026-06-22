@@ -1,0 +1,33 @@
+name: pokemon-mail-watcher
+
+on:
+  # cron-job.org나 GitHub 스케줄로 매시간 트리거. 수동 실행도 가능.
+  workflow_dispatch:
+  schedule:
+    - cron: "5 * * * *"   # 매시간 5분에 (트레이딩 봇과 시간 겹침 줄이기)
+
+permissions:
+  contents: write
+
+jobs:
+  check-mail:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: 포켓몬 당첨 메일 확인
+        env:
+          GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+        run: python3 -u pokemon_mail_watcher.py
+      - name: 확인 기록 저장 (커밋)
+        run: |
+          git config user.name "pokemon-mail-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add seen_mail.json 2>/dev/null || true
+          git diff --staged --quiet && echo "변경 없음" && exit 0
+          git commit -m "pokemon mail check"
+          for i in 1 2 3; do
+            git pull --rebase --autostash origin main && git push && break
+            echo "retry $i"; sleep 3
+          done
