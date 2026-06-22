@@ -1,13 +1,13 @@
 {
- "updated": "2026-06-23 04:01",
+ "updated": "2026-06-23 04:32",
  "candidates": [
   {
    "symbol": "CMCSA",
    "score": 7,
-   "price": 22.41,
+   "price": 22.3,
    "reasons": [
     "52주고점 대비 -31%",
-    "RSI 27 과매도",
+    "RSI 26 과매도",
     "PER 6(저평가)",
     "PBR 0.9",
     "그레이엄 기준 충족"
@@ -16,9 +16,9 @@
   {
    "symbol": "T",
    "score": 5,
-   "price": 22.19,
+   "price": 22.12,
    "reasons": [
-    "RSI 32 과매도",
+    "RSI 31 과매도",
     "PER 9(저평가)",
     "PBR 1.4",
     "그레이엄 기준 충족"
@@ -27,7 +27,7 @@
   {
    "symbol": "KHC",
    "score": 4,
-   "price": 22.11,
+   "price": 22.09,
    "reasons": [
     "PER 11(저평가)",
     "PBR 0.6",
@@ -35,18 +35,9 @@
    ]
   },
   {
-   "symbol": "LMT",
-   "score": 4,
-   "price": 492.26,
-   "reasons": [
-    "52주고점 대비 -27%",
-    "RSI 34 과매도"
-   ]
-  },
-  {
    "symbol": "NOC",
    "score": 4,
-   "price": 507.02,
+   "price": 507.27,
    "reasons": [
     "52주고점 대비 -34%",
     "RSI 30 과매도"
@@ -55,7 +46,7 @@
   {
    "symbol": "F",
    "score": 4,
-   "price": 14.05,
+   "price": 13.96,
    "reasons": [
     "PER 8(저평가)",
     "PBR 1.5",
@@ -65,7 +56,7 @@
   {
    "symbol": "GM",
    "score": 4,
-   "price": 80.86,
+   "price": 80.16,
    "reasons": [
     "PER 6(저평가)",
     "PBR 1.2",
