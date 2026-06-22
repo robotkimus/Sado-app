@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """Claude AI 모의투자 봇
-   매 실행마다: 시세/지표 수집 → Claude에게 판단 요청 → Alpaca 모의계좌에 주문 → ntfy 알림
+   매 실행마다: 시세/지표 수집 → Claude에게 판단 요청 → Alpaca 모의계좌에 주문 → 디스코드 알림
    ⚠️ 모의계좌(paper) 전용. 실거래 주소는 코드에 존재하지 않습니다."""
 import csv
 import io
@@ -24,8 +24,7 @@ ALPACA_KEY = os.environ.get("ALPACA_API_KEY", "").strip()
 ALPACA_SECRET = os.environ.get("ALPACA_SECRET_KEY", "").strip()
 ANTHROPIC_KEY = os.environ.get("ANTHROPIC_API_KEY", "").strip()
 DEEPSEEK_KEY = os.environ.get("DEEPSEEK_API_KEY", "").strip()
-NTFY_TOPIC = os.environ.get("NTFY_TOPIC", "").strip()
-DISCORD_WEBHOOK = os.environ.get("DISCORD_WEBHOOK", "").strip()  # 디스코드 알림(있으면 함께 전송)
+DISCORD_WEBHOOK = os.environ.get("DISCORD_WEBHOOK", "").strip()  # 디스코드 알림
 
 ALPACA_BASE = "https://paper-api.alpaca.markets"  # 모의계좌 전용 (변경 금지)
 UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/124 Safari/537.36"}
@@ -1048,7 +1047,7 @@ def _consensus(claude_plan, deepseek_plan, positions=None, regime=None):
     return {"decisions": merged, "market_view": view}
 
     # 앱용 market_view는 잘림 없이 두 AI의 전체 분석을 그대로 담는다(사실상 무제한,
-    # 폭주 방어용 넉넉한 상한만). 알림(ntfy)은 format_view_for_push에서 각 250자로
+    # 폭주 방어용 넉넉한 상한만). 알림은 format_view_for_push에서 각 250자로
     # 별도 요약되므로, 여기서 길어도 알림이 4096바이트를 넘지 않는다.
     view = "🤝 합의: " + (", ".join(consensus_log) if consensus_log else "거래 없음") + \
            " | Claude: " + _clip_sentence(claude_plan.get("market_view", ""), 4000) + \
@@ -1194,7 +1193,7 @@ def execute(decisions, account, positions, market, regime=None, block_buys=False
 
 def format_view_for_push(mv):
     """market_view("🤝 합의: ... | Claude: ... | DeepSeek: ...")를
-    ntfy 알림용으로 Claude·DeepSeek 구별되게 줄바꿈 분리.
+    알림용으로 Claude·DeepSeek 구별되게 줄바꿈 분리.
     DeepSeek 오류로 구분자가 없으면 Claude 단독으로 표기."""
     if not mv:
         return ""
@@ -1212,7 +1211,7 @@ def format_view_for_push(mv):
         claude = mv.strip()
     consensus = consensus.replace("🤝 합의:", "").strip()
 
-    # 알림(ntfy)은 ntfy 서버 4096바이트 제한이 있어, 각 AI 멘트를 250자로 요약한다.
+    # 알림은 길이 제한을 고려해 각 AI 멘트를 250자로 요약한다.
     # 앱용 market_view는 1000자 풀버전 그대로 유지되고, 여기서 자르는 건 알림 표시용뿐.
     claude = _clip_sentence(claude, 250)
     deep = _clip_sentence(deep, 250)
@@ -1229,23 +1228,6 @@ def format_view_for_push(mv):
     elif claude:
         lines.append("ℹ️ 이번엔 Claude 단독 판단 (DeepSeek 응답 없음)")
     return "\n\n".join(lines)
-
-
-def _fit_ntfy(message, max_bytes=3800):
-    """ntfy 서버는 본문이 4096바이트를 넘으면 알림을 첨부파일로 돌려 '짤린 것처럼'
-    보인다. 한도 안에 들도록 UTF-8 바이트 기준으로 안전하게 자른다(한글 글자 중간
-    분할 방지). 잘릴 경우 전체는 앱에서 보라는 안내를 덧붙인다."""
-    data = message.encode("utf-8")
-    if len(data) <= max_bytes:
-        return message
-    note = "\n\n…(전체 내용은 사도될까 앱에서 확인)"
-    budget = max_bytes - len(note.encode("utf-8"))
-    cut = data[:budget].decode("utf-8", "ignore")  # 깨진 끝바이트는 버림
-    # 줄 경계에서 끊어 자연스럽게
-    nl = cut.rfind("\n\n")
-    if nl > budget * 0.5:
-        cut = cut[:nl]
-    return cut.rstrip() + note
 
 
 def send_discord(title, message, urgent):
@@ -1281,22 +1263,11 @@ def send_discord(title, message, urgent):
 
 
 def send_push(title, message, urgent):
-    # ntfy(기존)와 디스코드(신규)에 함께 전송. 둘 중 설정된 곳으로만 나감.
-    send_discord(title, message, urgent)
-    if not NTFY_TOPIC:
-        if not DISCORD_WEBHOOK:
-            log("NTFY_TOPIC·DISCORD_WEBHOOK 없음 — 알림 생략")
+    # 디스코드 웹훅으로 알림 전송.
+    if not DISCORD_WEBHOOK:
+        log("DISCORD_WEBHOOK 없음 — 알림 생략")
         return
-    message = _fit_ntfy(message)
-    payload = json.dumps({"topic": NTFY_TOPIC, "title": title, "message": message,
-                          "priority": 4 if urgent else 3,
-                          "tags": ["robot"]}).encode("utf-8")
-    try:
-        req = urllib.request.Request("https://ntfy.sh/", data=payload,
-                                     headers={"Content-Type": "application/json"})
-        urllib.request.urlopen(req, timeout=20)
-    except Exception as e:
-        log(f"⚠️ ntfy 전송 실패(무시): {e}")
+    send_discord(title, message, urgent)
 
 
 def _prev_last_trade_time():
