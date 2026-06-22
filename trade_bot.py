@@ -1264,9 +1264,18 @@ def send_discord(title, message, urgent):
         }],
     }).encode("utf-8")
     try:
-        req = urllib.request.Request(DISCORD_WEBHOOK, data=payload,
-                                     headers={"Content-Type": "application/json"})
+        req = urllib.request.Request(
+            DISCORD_WEBHOOK, data=payload,
+            headers={"Content-Type": "application/json",
+                     "User-Agent": "ConsensusBot/1.0 (+https://github.com/robotkimus/Sado-app)"})
         urllib.request.urlopen(req, timeout=20)
+    except urllib.error.HTTPError as e:
+        # 403·400 등은 응답 본문에 진짜 이유가 들어있음 → 찍어서 원인 파악
+        try:
+            body = e.read().decode("utf-8", "replace")[:300]
+        except Exception:
+            body = ""
+        log(f"⚠️ 디스코드 전송 실패(무시): HTTP {e.code} — {body}")
     except Exception as e:
         log(f"⚠️ 디스코드 전송 실패(무시): {e}")
 
