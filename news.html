@@ -30,7 +30,7 @@
   /* 탭 메뉴 */
   .tabs{display:flex; gap:6px; margin-bottom:16px; background:var(--card); padding:5px;
     border-radius:14px; border:1px solid var(--line);}
-  .tab{flex:1; text-align:center; padding:9px 0; border-radius:10px; font-size:13px; font-weight:700;
+  .tab{flex:1; text-align:center; padding:9px 0; border-radius:10px; font-size:11.5px; font-weight:700;
     color:var(--dim); text-decoration:none; cursor:pointer;}
   .tab.on{background:var(--text); color:var(--bg);}
   /* 미국/국내 토글 */
@@ -167,6 +167,7 @@
     <a class="tab" href="index.html">🇺🇸 해외</a>
     <a class="tab" href="kr.html">🇰🇷 국내</a>
     <a class="tab on">📰 뉴스</a>
+    <a class="tab" href="heatmap.html">🗺️ 히트맵</a>
   </div>
 
   <!-- 시장 지표 바 (공통) -->
@@ -579,12 +580,27 @@ function setAnthropicKey(k){ try{ localStorage.setItem("anthropic_key", k); }cat
   async function loadMkt(){
     await Promise.all(MKT_ITEMS.map(async it=>{
       const j = await mbFetch("https://query1.finance.yahoo.com/v8/finance/chart/"+it.sym+"?range=5d&interval=1d");
-      const m = j && j.chart && j.chart.result && j.chart.result[0] && j.chart.result[0].meta;
-      if(m && isFinite(m.regularMarketPrice)){
-        const now = m.regularMarketPrice, prev = (m.chartPreviousClose!=null?m.chartPreviousClose:now);
-        it.v = now; it.pc = prev ? ((now/prev)-1)*100 : 0; it.diff = now-prev; it.up = (now-prev)>=0;
-        mktData.push(it);
-      }
+      const r = j && j.chart && j.chart.result && j.chart.result[0];
+      const m = r && r.meta;
+      if(!(m && isFinite(m.regularMarketPrice))) return;
+      const now = m.regularMarketPrice;
+      // 일간 등락률: 일봉 종가 시계열의 '직전 거래일 종가'로 계산 (chartPreviousClose는
+      // 5일 범위 시작 직전 값이라 며칠 누적이 섞여 +16% 같은 왜곡이 생김).
+      let prev = null;
+      try{
+        const closes = (r.indicators.quote[0].close || []).filter(x=>x!=null && isFinite(x));
+        // 마지막 값이 현재가와 거의 같으면 그 직전이 전일 종가, 아니면 마지막이 전일 종가
+        if(closes.length >= 2){
+          const last = closes[closes.length-1];
+          prev = (Math.abs(last - now) / now < 0.001) ? closes[closes.length-2] : last;
+        }
+      }catch(e){}
+      if(prev == null) prev = (m.previousClose!=null ? m.previousClose : m.chartPreviousClose);
+      if(prev == null || !isFinite(prev) || prev<=0) return;  // 전일 종가 못 구하면 표시 안 함(가짜 방지)
+      const pc = ((now/prev)-1)*100;
+      if(Math.abs(pc) > 30) return;  // 하루 ±30% 초과는 데이터 오류로 보고 제외(지수·환율 기준)
+      it.v = now; it.pc = pc; it.diff = now-prev; it.up = (now-prev)>=0;
+      mktData.push(it);
     }));
     // 전역으로 노출 (Claude 해설용)
     window.mktData = mktData;
@@ -772,11 +788,13 @@ async function generateAICommentary(){
   const prompt = `당신은 한국어 금융 시황 해설가입니다. 아래는 오늘 미국 시장의 실제 데이터와, 수집된 뉴스 헤드라인입니다. 이를 종합해 차분하고 객관적인 시황 해설을 작성하세요.
 
 [실제 시장 데이터]
-${dataText}
+${dataText || "(시장 데이터를 불러오지 못했습니다)"}
 ${newsBlock}
 
 규칙:
-- 시장 데이터의 숫자는 정확히 그대로 인용하세요. 데이터에 없는 수치를 지어내지 마세요.
+- ★ 위 [실제 시장 데이터]에 적힌 숫자만 사용하세요. 거기 없는 지수·수치·종목·가격을 절대 지어내지 마세요. 데이터에 없는 지수(예: 데이터에 없는데 코스피·다우 등을 임의로)는 언급하지 마세요.
+- ★ 만약 [실제 시장 데이터]가 비어 있거나 "(불러오지 못했습니다)"라고 되어 있으면, 시황 수치를 지어내지 말고 "지금은 실시간 시장 데이터를 불러오지 못해 정확한 해설이 어렵습니다. 잠시 후 다시 시도해주세요."라고만 답하세요.
+- 등락률은 데이터에 적힌 % 그대로만 쓰세요. 데이터에 없는 등락률을 추정하지 마세요.
 - 뉴스 헤드라인은 "참고용"입니다. 헤드라인에서 읽을 수 있는 사실만 언급하고, 헤드라인에 없는 내용(구체적 발언, 수치, 사건)을 추측하거나 지어내지 마세요. 헤드라인이 모호하면 무리해서 해석하지 마세요.
 - 지수·금리·달러·원자재 방향을 종합해 위험선호/위험회피, 금리·달러 부담 등을 해설하고, 뉴스 맥락이 있으면 자연스럽게 엮으세요.
 - 6~9문장. 마지막에 한 줄로 전체 분위기를 요약하세요.
