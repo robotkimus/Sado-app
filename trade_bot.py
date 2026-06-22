@@ -483,9 +483,11 @@ def summarize(sym, series):
     tz = taco_zone(cur, sr, fib)
     # 현재가가 TACO ZONE 안에 있는지 (저가매수 후보 진입 여부)
     in_taco = bool(tz and tz["low"] <= cur <= tz["high"])
+    chg1 = (closes[-1] / closes[-2] - 1) * 100 if len(closes) >= 2 else 0
     return {
         "symbol": sym,
         "price": round(cur, 2),
+        "chg_1d_pct": round(chg1, 1),
         "chg_5d_pct": round(chg5, 1),
         "chg_20d_pct": round(chg20, 1),
         "ma5": round(ma5, 2) if ma5 else None,
@@ -583,6 +585,57 @@ SECTOR_ETFS = {
     "XLRE": "부동산",
     "XLC": "커뮤니케이션",
 }
+
+# ── 종목 → 섹터 매핑 (히트맵 그룹핑용) ──
+# 야후 batch quote는 섹터를 안 줘서 주요 종목을 직접 분류. 없는 종목은 "기타"로.
+STOCK_SECTOR = {
+    # 기술/반도체
+    "NVDA": "반도체", "AVGO": "반도체", "AMD": "반도체", "MU": "반도체", "INTC": "반도체",
+    "QCOM": "반도체", "TXN": "반도체", "AMAT": "반도체", "LRCX": "반도체", "KLAC": "반도체",
+    "ADI": "반도체", "MRVL": "반도체", "NXPI": "반도체", "ON": "반도체", "MCHP": "반도체",
+    "ASML": "반도체", "TSM": "반도체", "ARM": "반도체", "SMCI": "반도체",
+    "CRDO": "반도체", "AMBA": "반도체", "NVTS": "반도체", "INDI": "반도체", "ALAB": "반도체",
+    "SITM": "반도체", "MTSI": "반도체",
+    "MSFT": "기술", "AAPL": "기술", "ORCL": "기술", "CRM": "기술", "ADBE": "기술",
+    "NOW": "기술", "INTU": "기술", "CSCO": "기술", "IBM": "기술", "PLTR": "기술",
+    "PANW": "기술", "CRWD": "기술", "SNPS": "기술", "CDNS": "기술", "FTNT": "기술",
+    "WDAY": "기술", "DELL": "기술", "HPQ": "기술", "PATH": "기술",
+    # 빅테크/커뮤니케이션
+    "GOOGL": "커뮤니케이션", "META": "커뮤니케이션", "NFLX": "커뮤니케이션",
+    "DIS": "커뮤니케이션", "CMCSA": "커뮤니케이션", "T": "커뮤니케이션", "TMUS": "커뮤니케이션",
+    "VZ": "커뮤니케이션",
+    # 임의소비재
+    "AMZN": "임의소비재", "TSLA": "임의소비재", "HD": "임의소비재", "MCD": "임의소비재",
+    "NKE": "임의소비재", "SBUX": "임의소비재", "LOW": "임의소비재", "GM": "임의소비재",
+    "F": "임의소비재", "ABNB": "임의소비재", "AFRM": "임의소비재", "UPST": "임의소비재",
+    # 필수소비재
+    "WMT": "필수소비재", "COST": "필수소비재", "PG": "필수소비재", "KO": "필수소비재",
+    "PEP": "필수소비재", "MO": "필수소비재", "KHC": "필수소비재", "PM": "필수소비재",
+    # 금융
+    "JPM": "금융", "BAC": "금융", "WFC": "금융", "GS": "금융", "MS": "금융",
+    "C": "금융", "V": "금융", "MA": "금융", "AXP": "금융", "BRK-B": "금융",
+    "SCHW": "금융", "BLK": "금융", "SOFI": "금융",
+    # 헬스케어/바이오
+    "LLY": "헬스케어", "UNH": "헬스케어", "JNJ": "헬스케어", "ABBV": "헬스케어",
+    "MRK": "헬스케어", "PFE": "헬스케어", "TMO": "헬스케어", "ABT": "헬스케어",
+    "CVS": "헬스케어", "GILD": "헬스케어", "BMY": "헬스케어",
+    "TEM": "바이오", "RXRX": "바이오", "HIMS": "바이오", "CERT": "바이오", "NTLA": "바이오",
+    # 산업재/우주항공
+    "GE": "산업재", "CAT": "산업재", "BA": "산업재", "RTX": "산업재", "HON": "산업재",
+    "UNP": "산업재", "DE": "산업재", "LMT": "산업재", "NOC": "산업재", "GEV": "산업재",
+    "LUNR": "우주항공", "RKLB": "우주항공", "RDW": "우주항공", "ASTS": "우주항공", "PL": "우주항공",
+    "SERV": "산업재",
+    # 에너지
+    "XOM": "에너지", "CVX": "에너지", "COP": "에너지", "SLB": "에너지",
+    "BE": "에너지", "OKLO": "에너지", "SMR": "에너지", "FLNC": "에너지",
+    # 양자/차세대
+    "IONQ": "양자컴퓨팅", "RGTI": "양자컴퓨팅", "QBTS": "양자컴퓨팅",
+}
+
+
+def stock_sector(sym):
+    """종목의 섹터를 반환. 매핑에 없으면 '기타'."""
+    return STOCK_SECTOR.get(str(sym).upper(), "기타")
 
 def assess_sectors():
     """섹터별 1개월·3개월 수익률로 상대 강도 순위를 매긴다.
@@ -1974,6 +2027,36 @@ def main():
         log(f"✅ news.json 저장 완료 ({len(news_doc['items'])}건)")
     except Exception as e:
         log(f"⚠️ news.json 저장 실패(앱 표시만 영향): {e}")
+
+    # ── 히트맵 데이터 저장 (heatmap.json) — 앱 트리맵용 ──
+    # 각 종목의 섹터·시총·일간 등락률을 묶어 저장. 앱이 Finviz식 트리맵으로 그린다.
+    try:
+        heat_items = []
+        for m in market:
+            sym = m.get("symbol", "")
+            if not sym or is_crypto(sym):
+                continue
+            val = m.get("valuation") or {}
+            chg = m.get("chg_1d_pct")
+            if chg is None:
+                continue
+            heat_items.append({
+                "sym": sym,
+                "sector": stock_sector(sym),
+                "chg": chg,                       # 일간 등락률%
+                "mcap": val.get("market_cap"),    # 시총(박스 크기용, 없으면 null)
+                "price": m.get("price"),
+            })
+        heat_doc = {
+            "updated": datetime.datetime.now(
+                datetime.timezone(datetime.timedelta(hours=9))).strftime("%Y-%m-%d %H:%M"),
+            "items": heat_items,
+        }
+        with open("heatmap.json", "w", encoding="utf-8") as f:
+            json.dump(heat_doc, f, ensure_ascii=False, indent=1)
+        log(f"✅ heatmap.json 저장 완료 ({len(heat_items)}종목)")
+    except Exception as e:
+        log(f"⚠️ heatmap.json 저장 실패(앱 표시만 영향): {e}")
 
     # ── 판단 일지 누적 (행동 분석용) ──
     # 거래가 있었거나, market_view에 의미 있는 판단이 담겼을 때만 기록 (관망 반복은 생략해 용량 절약)

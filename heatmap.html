@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>오늘, 사도 될까 — 히트맵</title>
+<meta name="theme-color" content="#0E1320">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<style>
+  :root{
+    --bg:#0E1320; --card:#171E2E; --card2:#1D2638; --line:#26314A;
+    --text:#EDEAE3; --dim:#8B94A8;
+    --buy:#FF4D5E; --sell:#4D8CFF; --hold:#E8B454;
+  }
+  [data-theme="light"]{
+    --bg:#F5F6F8; --card:#FFFFFF; --card2:#F0F2F5; --line:#E2E6EC;
+    --text:#1A1F2B; --dim:#6B7689;
+    --buy:#E03145; --sell:#2F6FE0; --hold:#C8912E;
+  }
+  *{box-sizing:border-box; -webkit-tap-highlight-color:transparent;}
+  body{
+    margin:0; background:var(--bg); color:var(--text);
+    font-family:'Pretendard Variable',Pretendard,-apple-system,'Apple SD Gothic Neo','Malgun Gothic',system-ui,sans-serif;
+    padding:18px 14px calc(40px + env(safe-area-inset-bottom));
+  }
+  .wrap{max-width:480px; margin:0 auto;}
+  .eyebrow{font-size:11px; letter-spacing:.22em; color:var(--dim); font-weight:700;}
+  h1{font-size:26px; font-weight:800; margin:4px 0 12px; letter-spacing:-0.02em;}
+  .tabs{display:flex; gap:6px; margin-bottom:16px; background:var(--card); padding:5px;
+    border-radius:14px; border:1px solid var(--line);}
+  .tab{flex:1; text-align:center; padding:9px 0; border-radius:10px; font-size:12px; font-weight:700;
+    color:var(--dim); text-decoration:none; cursor:pointer;}
+  .tab.on{background:var(--text); color:var(--bg);}
+  .updated{font-size:11px; color:var(--dim); margin-bottom:10px;}
+  .legend{display:flex; align-items:center; gap:6px; margin-bottom:12px; font-size:11px; color:var(--dim);}
+  .legend .sw{width:14px; height:10px; border-radius:2px; display:inline-block;}
+  .heat{display:flex; flex-direction:column; gap:10px;}
+  .sector{}
+  .sector-hd{font-size:12px; font-weight:800; color:var(--text); margin-bottom:4px;
+    display:flex; justify-content:space-between; align-items:baseline;}
+  .sector-hd .avg{font-size:11px; font-weight:700;}
+  .grid{position:relative; width:100%; border-radius:8px; overflow:hidden;}
+  .tile{position:absolute; display:flex; flex-direction:column; align-items:center;
+    justify-content:center; overflow:hidden; border:1px solid rgba(0,0,0,.25);
+    cursor:pointer; transition:opacity .15s;}
+  .tile:active{opacity:.7;}
+  .tile .ts{font-weight:800; line-height:1.1; color:#fff; text-shadow:0 1px 2px rgba(0,0,0,.4);}
+  .tile .tc{font-weight:700; line-height:1.1; color:rgba(255,255,255,.92); text-shadow:0 1px 2px rgba(0,0,0,.4);}
+  .muted{font-size:11.5px; color:var(--dim); line-height:1.6;}
+  .spin{display:inline-block; width:16px; height:16px; border:2px solid var(--dim);
+    border-top-color:transparent; border-radius:99px; animation:sp .7s linear infinite; vertical-align:-3px;}
+  @keyframes sp{to{transform:rotate(360deg)}}
+  .err{font-size:12.5px; color:var(--buy); margin:12px 0; line-height:1.5;}
+</style>
+<script>
+  (function(){ try{ if(localStorage.getItem("app_theme")==="light") document.documentElement.setAttribute("data-theme","light"); }catch(e){} })();
+</script>
+</head>
+<body>
+<div class="wrap">
+  <div class="eyebrow">US MARKET · HEATMAP</div>
+  <div style="display:flex; align-items:center; justify-content:space-between; gap:10px;">
+    <h1 style="margin-bottom:12px;">시장 히트맵</h1>
+    <button id="themeToggle" type="button" aria-label="테마 전환"
+      style="background:var(--card2); border:1px solid var(--line); color:var(--text);
+      width:38px; height:38px; border-radius:11px; font-size:18px; cursor:pointer;
+      flex-shrink:0; display:flex; align-items:center; justify-content:center; font-family:inherit;">🌙</button>
+  </div>
+  <div class="tabs">
+    <a class="tab" href="index.html">🇺🇸 해외</a>
+    <a class="tab" href="kr.html">🇰🇷 국내</a>
+    <a class="tab" href="news.html">📰 뉴스</a>
+    <a class="tab on">🗺️ 히트맵</a>
+  </div>
+
+  <div class="legend">
+    <span>하락</span>
+    <span class="sw" style="background:#4D8CFF;"></span>
+    <span class="sw" style="background:#2a3550;"></span>
+    <span class="sw" style="background:#3a3550;"></span>
+    <span class="sw" style="background:#FF4D5E;"></span>
+    <span>상승</span>
+    <span style="margin-left:auto;">박스 크기 = 시가총액</span>
+  </div>
+  <div class="updated" id="updated"></div>
+  <div id="err" class="err" style="display:none;"></div>
+  <div class="heat" id="heat"><div class="muted"><span class="spin"></span> 시장 데이터 불러오는 중…</div></div>
+
+  <div class="muted" style="margin-top:16px;">
+    종목을 탭하면 해외 페이지에서 상세 신호를 볼 수 있어요. 색은 일간 등락률(빨강 상승·파랑 하락),
+    박스 크기는 시가총액에 비례해요. · 봇이 매시간 갱신 · 데이터: Yahoo Finance
+  </div>
+</div>
+
+<script>
+// ── 색 계산: 등락률 → 빨강(상승)/파랑(하락) 그라데이션 ──
+function heatColor(chg){
+  // chg: 등락률%. 0=중립(어두운 회색), +면 빨강, -면 파랑. ±3%에서 최대 채도.
+  const cap = Math.max(-3, Math.min(3, chg)) / 3;  // -1~1
+  if(Math.abs(chg) < 0.05) return "#2c3344";
+  if(cap > 0){
+    // 빨강 계열: 어두운→밝은 빨강
+    const t = cap;
+    const r = Math.round(60 + 195*t), g = Math.round(55 + 22*t), b = Math.round(70 + 24*t);
+    return `rgb(${r},${g},${b})`;
+  }else{
+    // 파랑 계열
+    const t = -cap;
+    const r = Math.round(50 + 27*t), g = Math.round(60 + 80*t), b = Math.round(80 + 175*t);
+    return `rgb(${r},${g},${b})`;
+  }
+}
+
+// ── Squarified Treemap 레이아웃 ──
+// 면적 비례로 박스를 빈틈없이 채우되 정사각형에 가깝게 (Finviz 방식).
+function squarify(items, x, y, w, h){
+  // items: [{value, ...}]  반환: 각 item에 {x,y,w,h} 추가
+  const total = items.reduce((a,b)=>a+b.value, 0);
+  if(total <= 0){ return items.map(it=>({...it, x, y, w:0, h:0})); }
+  const scale = (w*h) / total;
+  const scaled = items.map(it=>({...it, area: it.value*scale}));
+  const out = [];
+  let rx=x, ry=y, rw=w, rh=h;
+  let row = [], rowStart = 0;
+
+  function worst(row, len){
+    const sum = row.reduce((a,b)=>a+b.area,0);
+    const max = Math.max(...row.map(r=>r.area));
+    const min = Math.min(...row.map(r=>r.area));
+    return Math.max((len*len*max)/(sum*sum), (sum*sum)/(len*len*min));
+  }
+  function layoutRow(row, horizontal){
+    const sum = row.reduce((a,b)=>a+b.area,0);
+    if(horizontal){
+      const rowH = sum / rw;
+      let cx = rx;
+      for(const it of row){
+        const cw = it.area / rowH;
+        out.push({...it, x:cx, y:ry, w:cw, h:rowH});
+        cx += cw;
+      }
+      ry += rowH; rh -= rowH;
+    }else{
+      const rowW = sum / rh;
+      let cy = ry;
+      for(const it of row){
+        const ch = it.area / rowW;
+        out.push({...it, x:rx, y:cy, w:rowW, h:ch});
+        cy += ch;
+      }
+      rx += rowW; rw -= rowW;
+    }
+  }
+
+  let i = 0;
+  while(i < scaled.length){
+    const horizontal = rw >= rh;
+    const len = horizontal ? rw : rh;
+    row = [scaled[i]];
+    let j = i+1;
+    while(j < scaled.length){
+      const test = row.concat([scaled[j]]);
+      if(worst(test, len) <= worst(row, len)) { row = test; j++; }
+      else break;
+    }
+    layoutRow(row, horizontal);
+    i = j;
+  }
+  return out;
+}
+
+const SECTOR_ORDER = ["반도체","기술","커뮤니케이션","임의소비재","필수소비재","금융",
+  "헬스케어","바이오","산업재","우주항공","에너지","양자컴퓨팅","기타"];
+
+async function fetchHeatmap(){
+  // 봇이 저장한 heatmap.json 우선, 없으면 안내
+  const tries = ["heatmap.json", "./heatmap.json"];
+  for(const u of tries){
+    try{
+      const res = await fetch(u + "?t=" + Date.now(), {cache:"no-store"});
+      if(res.ok){
+        const j = await res.json();
+        if(j && Array.isArray(j.items) && j.items.length) return j;
+      }
+    }catch(e){}
+  }
+  return null;
+}
+
+function render(doc){
+  const heat = document.getElementById("heat");
+  document.getElementById("updated").textContent = doc.updated ? `${doc.updated} 기준` : "";
+  // 섹터별 그룹핑
+  const groups = {};
+  for(const it of doc.items){
+    if(it.chg == null) continue;
+    const sec = it.sector || "기타";
+    (groups[sec] = groups[sec] || []).push(it);
+  }
+  const W = document.querySelector(".wrap").clientWidth;
+  let html = "";
+  const order = SECTOR_ORDER.filter(s=>groups[s]).concat(
+    Object.keys(groups).filter(s=>!SECTOR_ORDER.includes(s)));
+
+  for(const sec of order){
+    let items = groups[sec];
+    // 시총 있는 건 시총, 없으면 최소값(균등) — 박스 크기
+    const fallback = 1e9;  // 시총 없는 종목 기본 크기
+    items = items.map(it=>({...it, value: (it.mcap && it.mcap>0) ? it.mcap : fallback}));
+    // 시총 큰 순 정렬 (Finviz처럼 큰 게 먼저)
+    items.sort((a,b)=>b.value - a.value);
+    // 섹터당 최대 12개까지만 (너무 잘게 쪼개지면 안 보임)
+    if(items.length > 12){
+      const head = items.slice(0,11);
+      const rest = items.slice(11);
+      const restVal = rest.reduce((a,b)=>a+b.value,0);
+      const restChg = rest.reduce((a,b)=>a+b.chg*b.value,0)/restVal;
+      head.push({sym:`+${rest.length}`, chg:restChg, value:restVal, mcap:restVal, isRest:true});
+      items = head;
+    }
+
+    // 섹터 평균 등락률(시총 가중)
+    const totVal = items.reduce((a,b)=>a+b.value,0);
+    const avgChg = items.reduce((a,b)=>a+b.chg*b.value,0)/totVal;
+    const avgColor = avgChg>=0 ? "var(--buy)" : "var(--sell)";
+
+    // 그리드 높이: 종목 수·중요도 따라 (섹터 크기감)
+    const gh = Math.max(70, Math.min(180, 50 + items.length*11));
+    const tiles = squarify(items, 0, 0, W, gh);
+
+    html += `<div class="sector">
+      <div class="sector-hd"><span>${sec}</span>
+        <span class="avg" style="color:${avgColor}">${avgChg>=0?"+":""}${avgChg.toFixed(2)}%</span></div>
+      <div class="grid" style="height:${gh}px">`;
+    for(const t of tiles){
+      const fs = Math.max(8, Math.min(15, Math.sqrt(t.w*t.h)/5));
+      const showChg = t.h > 26 && t.w > 30;
+      html += `<div class="tile" style="left:${t.x}px; top:${t.y}px; width:${t.w}px; height:${t.h}px;
+                 background:${heatColor(t.chg)};" data-sym="${t.isRest?'':t.sym}">
+                 <span class="ts" style="font-size:${fs}px">${t.sym}</span>
+                 ${showChg?`<span class="tc" style="font-size:${fs*0.72}px">${t.chg>=0?"+":""}${t.chg.toFixed(1)}%</span>`:""}
+               </div>`;
+    }
+    html += `</div></div>`;
+  }
+  heat.innerHTML = html;
+  // 종목 탭 → 해외 페이지로 (해당 종목)
+  heat.querySelectorAll(".tile").forEach(el=>{
+    const sym = el.dataset.sym;
+    if(sym) el.onclick = ()=>{ location.href = `index.html?sym=${sym}`; };
+  });
+}
+
+async function load(){
+  const doc = await fetchHeatmap();
+  if(!doc){
+    document.getElementById("heat").innerHTML = "";
+    const err = document.getElementById("err");
+    err.style.display = "block";
+    err.innerHTML = "아직 히트맵 데이터가 없어요. 봇이 다음 실행에서 heatmap.json을 만들면 표시됩니다. (장 시간에 갱신돼요)";
+    return;
+  }
+  render(doc);
+}
+load();
+setInterval(()=>{ if(document.visibilityState==="visible") load(); }, 5*60*1000);
+window.addEventListener("resize", load);
+
+/* 테마 토글 */
+(function(){
+  const KEY="app_theme";
+  function apply(t){
+    if(t==="light") document.documentElement.setAttribute("data-theme","light");
+    else document.documentElement.removeAttribute("data-theme");
+    const btn=document.getElementById("themeToggle");
+    if(btn) btn.textContent = t==="light"?"☀️":"🌙";
+    const mc=document.querySelector('meta[name="theme-color"]');
+    if(mc) mc.setAttribute("content", t==="light"?"#F5F6F8":"#0E1320");
+  }
+  let cur="dark";
+  try{ cur=localStorage.getItem(KEY)||"dark"; }catch(e){}
+  apply(cur);
+  const btn=document.getElementById("themeToggle");
+  if(btn) btn.onclick=()=>{ cur=cur==="light"?"dark":"light"; try{localStorage.setItem(KEY,cur);}catch(e){} apply(cur); };
+})();
+</script>
+</body>
+</html>
