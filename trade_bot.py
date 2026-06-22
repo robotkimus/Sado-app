@@ -704,12 +704,12 @@ def get_market_session():
         return "closed_offhours"
 
 
-_SESSION_KR = {"regular": "정규장(개장 중)", "pre": "프리마켓(개장 전)",
-               "after": "애프터마켓(폐장 후)",
-               "closed_offhours": "거래 시간 외 (미국 장 마감 상태)",
-               "closed_weekend": "주말 휴장",
-               "closed_holiday": "공휴일 휴장",
-               "closed": "거래 시간 외 (미국 장 마감 상태)"}  # 하위호환
+_SESSION_KR = {"regular": "미국 정규장(개장 중)", "pre": "미국 프리마켓(개장 전)",
+               "after": "미국 애프터마켓(폐장 후)",
+               "closed_offhours": "미국 장 마감 (거래 시간 외)",
+               "closed_weekend": "미국 주말 휴장",
+               "closed_holiday": "미국 공휴일 휴장",
+               "closed": "미국 장 마감 (거래 시간 외)"}  # 하위호환
 
 
 def market_is_open():
@@ -1840,7 +1840,7 @@ def main():
                 "base": 100000.0,
                 "positions": positions,
                 "market_view": f"[{_SESSION_KR.get(MARKET_SESSION, MARKET_SESSION)}] "
-                               "주식 거래 시간이 아니고 코인도 살 만한 신호가 없어 관망. "
+                               "미국 주식 거래 시간이 아니고 코인도 살 만한 신호가 없어 관망. "
                                "(AI 판단 생략 — 비용 절감)",
                 "trades": [],
             }
@@ -1967,6 +1967,11 @@ def main():
         "last_trade_time": now_str if executed else (
             _prev_last_trade_time()),
         "last_trade_count": len(executed),
+        # 합의는 됐지만 한도·예산·서킷브레이커로 이번에 못 산 건수(앱에 '+N건 보류'로 표시)
+        "last_hold_count": len([
+            r for r in results
+            if (r.startswith("⛔") or r.startswith("⏸")) and "주문 실패" not in r
+        ]),
     }
     with open("bot_status.json", "w", encoding="utf-8") as f:
         json.dump(status, f, ensure_ascii=False, indent=1)

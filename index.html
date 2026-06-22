@@ -1781,9 +1781,10 @@ function recentTradeBadge(s){
     fresh = (Date.now() - d.getTime()) < 6*60*60*1000;
   }
   if(fresh && s.last_trade_count > 0){
+    const hold = s.last_hold_count > 0 ? ` <span style="opacity:.75;">(+${s.last_hold_count}건 보류)</span>` : "";
     return `<div style="display:inline-block; margin-top:6px; padding:3px 10px; border-radius:99px;
                  background:color-mix(in srgb, var(--buy) 18%, transparent); color:var(--buy);
-                 font-size:11.5px; font-weight:800;">🚨 방금 ${s.last_trade_count}건 체결 · ${s.last_trade_time}</div>`;
+                 font-size:11.5px; font-weight:800;">🚨 방금 ${s.last_trade_count}건 체결${hold} · ${s.last_trade_time}</div>`;
   }
   if(s.last_trade_time){
     return `<div class="muted" style="margin-top:4px; font-size:11px;">최근 거래: ${s.last_trade_time}</div>`;
