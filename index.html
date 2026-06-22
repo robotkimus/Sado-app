@@ -32,6 +32,8 @@
   .eyebrow{font-size:11px; letter-spacing:.22em; color:var(--dim); font-weight:700;}
   .live-on{color:#ff3b3b; font-weight:800;}
   .live-on::before{content:"●"; margin-right:4px; animation:livePulse 1.4s ease-in-out infinite;}
+  .live-after{color:#ff9500; font-weight:800;}
+  .live-after::before{content:"●"; margin-right:4px; color:#ff9500;}
   .live-off{color:var(--dim); font-weight:700;}
   .live-off::before{content:"●"; margin-right:4px; color:var(--dim);}
   @keyframes livePulse{0%,100%{opacity:1;} 50%{opacity:.25;}}
@@ -412,35 +414,33 @@
 </div>
 
 <script>
-// ── 미국장 LIVE 상태 배지 ──
-// 미국 동부시간(ET) 평일 09:30~16:00이 정규장. 서머타임(3월둘째일~11월첫일)도 반영.
-function usMarketLive(){
+// ── 미국장 상태 배지 (LIVE / AFTER / CLOSED) ──
+// 미국 동부시간(ET) 평일: 정규장 09:30~16:00, 애프터마켓 16:00~20:00. 서머타임 반영.
+function usMarketState(){
   const now = new Date();
-  // ET 시각 = UTC - (서머타임이면 4시간, 아니면 5시간)
   const y = now.getUTCFullYear();
-  // 서머타임 시작: 3월 둘째 일요일 02:00, 종료: 11월 첫 일요일 02:00 (대략 판정)
+  // 서머타임: 3월 둘째 일요일 ~ 11월 첫 일요일
   const dstStart = new Date(Date.UTC(y, 2, 1));
-  dstStart.setUTCDate(1 + ((7 - dstStart.getUTCDay()) % 7) + 7);  // 3월 둘째 일요일
+  dstStart.setUTCDate(1 + ((7 - dstStart.getUTCDay()) % 7) + 7);
   const dstEnd = new Date(Date.UTC(y, 10, 1));
-  dstEnd.setUTCDate(1 + ((7 - dstEnd.getUTCDay()) % 7));          // 11월 첫 일요일
+  dstEnd.setUTCDate(1 + ((7 - dstEnd.getUTCDay()) % 7));
   const isDST = now >= dstStart && now < dstEnd;
   const offset = isDST ? 4 : 5;
   const et = new Date(now.getTime() - offset * 3600 * 1000);
   const day = et.getUTCDay();           // 0=일, 6=토
   const mins = et.getUTCHours() * 60 + et.getUTCMinutes();
-  const open = (day >= 1 && day <= 5) && mins >= (9 * 60 + 30) && mins < (16 * 60);
-  return open;
+  if(day < 1 || day > 5) return "closed";              // 주말
+  if(mins >= (9*60+30) && mins < (16*60)) return "live";   // 정규장
+  if(mins >= (16*60) && mins < (20*60)) return "after";    // 애프터마켓
+  return "closed";
 }
 function updateLiveBadge(){
   const el = document.getElementById("liveBadge");
   if(!el) return;
-  if(usMarketLive()){
-    el.textContent = "LIVE ON";
-    el.className = "live-on";
-  }else{
-    el.textContent = "CLOSED";
-    el.className = "live-off";
-  }
+  const st = usMarketState();
+  if(st === "live"){ el.textContent = "LIVE ON"; el.className = "live-on"; }
+  else if(st === "after"){ el.textContent = "AFTER"; el.className = "live-after"; }
+  else{ el.textContent = "CLOSED"; el.className = "live-off"; }
 }
 updateLiveBadge();
 setInterval(updateLiveBadge, 30000);  // 30초마다 갱신

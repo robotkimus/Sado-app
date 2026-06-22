@@ -30,6 +30,10 @@
   .eyebrow{font-size:11px; letter-spacing:.22em; color:var(--dim); font-weight:700;}
   .live-on{color:#ff3b3b; font-weight:800;}
   .live-on::before{content:"●"; margin-right:4px; animation:livePulse 1.4s ease-in-out infinite;}
+  .live-after{color:#ff9500; font-weight:800;}
+  .live-after::before{content:"●"; margin-right:4px; color:#ff9500;}
+  .live-pre{color:#e8b454; font-weight:800;}
+  .live-pre::before{content:"●"; margin-right:4px; color:#e8b454;}
   .live-off{color:var(--dim); font-weight:700;}
   .live-off::before{content:"●"; margin-right:4px; color:var(--dim);}
   @keyframes livePulse{0%,100%{opacity:1;} 50%{opacity:.25;}}
@@ -332,20 +336,28 @@
 </div>
 
 <script>
-// ── 한국장 LIVE 상태 배지 ──
-// 한국장 정규장: 평일 09:00~15:30 (KST=UTC+9). 서머타임 없음.
-function krMarketLive(){
+// ── 한국장 상태 배지 (PRE / LIVE / AFTER / CLOSED) ──
+// 한국장(KST=UTC+9, 서머타임 없음): 장전 시간외 08:30~09:00, 정규장 09:00~15:30,
+// 장후 시간외 15:30~18:00. 그 외 마감.
+function krMarketState(){
   const now = new Date();
   const utc = now.getTime() + now.getTimezoneOffset()*60000;
   const k = new Date(utc + 9*3600*1000);   // KST로 변환(폰 시간대 무관)
   const day = k.getDay();                    // 0=일, 6=토
   const mins = k.getHours()*60 + k.getMinutes();
-  return (day>=1 && day<=5) && mins >= (9*60) && mins < (15*60+30);
+  if(day < 1 || day > 5) return "closed";              // 주말
+  if(mins >= (9*60) && mins < (15*60+30)) return "live";    // 정규장
+  if(mins >= (8*60+30) && mins < (9*60)) return "pre";      // 장전 시간외
+  if(mins >= (15*60+30) && mins < (18*60)) return "after";  // 장후 시간외
+  return "closed";
 }
 function updateLiveBadge(){
   const el = document.getElementById("liveBadge");
   if(!el) return;
-  if(krMarketLive()){ el.textContent="LIVE ON"; el.className="live-on"; }
+  const st = krMarketState();
+  if(st === "live"){ el.textContent="LIVE ON"; el.className="live-on"; }
+  else if(st === "pre"){ el.textContent="PRE"; el.className="live-pre"; }
+  else if(st === "after"){ el.textContent="AFTER"; el.className="live-after"; }
   else{ el.textContent="CLOSED"; el.className="live-off"; }
 }
 updateLiveBadge();
