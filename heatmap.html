@@ -172,7 +172,7 @@ function squarify(items, x, y, w, h){
 }
 
 const SECTOR_ORDER = ["반도체","기술","커뮤니케이션","임의소비재","필수소비재","금융",
-  "헬스케어","바이오","산업재","우주항공","에너지","양자컴퓨팅","기타"];
+  "헬스케어","산업재","에너지","필수재","유틸리티","부동산","바이오","우주항공","양자컴퓨팅","기타"];
 
 async function fetchHeatmap(){
   // 봇이 저장한 heatmap.json 우선, 없으면 안내
@@ -211,10 +211,10 @@ function render(doc){
     items = items.map(it=>({...it, value: (it.mcap && it.mcap>0) ? it.mcap : fallback}));
     // 시총 큰 순 정렬 (Finviz처럼 큰 게 먼저)
     items.sort((a,b)=>b.value - a.value);
-    // 섹터당 최대 12개까지만 (너무 잘게 쪼개지면 안 보임)
-    if(items.length > 12){
-      const head = items.slice(0,11);
-      const rest = items.slice(11);
+    // 섹터당 최대 20개까지 (Finviz처럼 촘촘하게)
+    if(items.length > 20){
+      const head = items.slice(0,19);
+      const rest = items.slice(19);
       const restVal = rest.reduce((a,b)=>a+b.value,0);
       const restChg = rest.reduce((a,b)=>a+b.chg*b.value,0)/restVal;
       head.push({sym:`+${rest.length}`, chg:restChg, value:restVal, mcap:restVal, isRest:true});
@@ -226,8 +226,8 @@ function render(doc){
     const avgChg = items.reduce((a,b)=>a+b.chg*b.value,0)/totVal;
     const avgColor = avgChg>=0 ? "var(--buy)" : "var(--sell)";
 
-    // 그리드 높이: 종목 수·중요도 따라 (섹터 크기감)
-    const gh = Math.max(70, Math.min(180, 50 + items.length*11));
+    // 그리드 높이: 섹터 전체 시총·종목 수에 비례 (큰 섹터는 더 크게 = Finviz 느낌)
+    const gh = Math.max(90, Math.min(280, 60 + items.length*13));
     const tiles = squarify(items, 0, 0, W, gh);
 
     html += `<div class="sector">

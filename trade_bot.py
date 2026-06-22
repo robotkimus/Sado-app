@@ -186,6 +186,10 @@ def fetch_valuations(symbols):
                     "fwd_pe": q.get("forwardPE"),
                     "pb": q.get("priceToBook"),
                     "market_cap": q.get("marketCap"),
+                    # 일간 등락률(히트맵용, 야후 quote 제공)
+                    "chg_pct": (round(q.get("regularMarketChangePercent"), 2)
+                                if isinstance(q.get("regularMarketChangePercent"), (int, float)) else None),
+                    "price": q.get("regularMarketPrice"),
                     # 가치투자 지표(야후 quote에 있을 때만, 누락 잦음)
                     "roe": (round(q.get("returnOnEquity") * 100, 1)
                             if isinstance(q.get("returnOnEquity"), (int, float)) else None),
@@ -636,6 +640,51 @@ STOCK_SECTOR = {
 def stock_sector(sym):
     """종목의 섹터를 반환. 매핑에 없으면 '기타'."""
     return STOCK_SECTOR.get(str(sym).upper(), "기타")
+
+
+# ── 히트맵 전용 종목 (Finviz 스타일 촘촘한 트리맵용) ──
+# 거래 watchlist와 분리. 섹터별 시총 상위 대표주를 꽉 채워 시장 전경을 보여준다.
+# ETF는 제외(개별 종목만). 봇이 이들 시총·등락률만 따로 받아 heatmap.json에 저장.
+HEATMAP_STOCKS = {
+    "반도체": ["NVDA","AVGO","AMD","TSM","ASML","MU","INTC","QCOM","TXN","AMAT",
+              "LRCX","KLAC","ADI","MRVL","NXPI","MCHP","ON","ARM","SMCI"],
+    "기술": ["MSFT","AAPL","ORCL","CRM","ADBE","NOW","INTU","IBM","CSCO","ACN",
+            "PLTR","PANW","CRWD","ANET","SNPS","CDNS","FTNT","DELL","WDAY"],
+    "커뮤니케이션": ["GOOGL","META","NFLX","DIS","CMCSA","TMUS","VZ","T","CHTR","EA"],
+    "임의소비재": ["AMZN","TSLA","HD","MCD","NKE","LOW","SBUX","BKNG","TJX","GM",
+                "F","ABNB","MAR","ORLY","CMG"],
+    "필수소비재": ["WMT","COST","PG","KO","PEP","PM","MO","MDLZ","CL","KHC","TGT","KDP"],
+    "금융": ["BRK-B","JPM","V","MA","BAC","WFC","GS","MS","AXP","C","SCHW","BLK",
+            "SPGI","C","PGR","CB"],
+    "헬스케어": ["LLY","UNH","JNJ","ABBV","MRK","TMO","ABT","DHR","PFE","AMGN",
+              "BMY","CVS","GILD","MDT","ISRG","VRTX"],
+    "산업재": ["GE","CAT","RTX","HON","UNP","BA","DE","LMT","UPS","ETN","ADP",
+            "NOC","GD","EMR","CSX","NSC"],
+    "에너지": ["XOM","CVX","COP","SLB","EOG","MPC","PSX","WMB","OXY","VLO"],
+    "필수재": ["LIN","SHW","APD","ECL","FCX","NEM","DOW","DD"],
+    "유틸리티": ["NEE","SO","DUK","CEG","AEP","D","EXC","SRE"],
+    "부동산": ["PLD","AMT","EQIX","WELL","SPG","O","DLR","PSA"],
+}
+
+
+def heatmap_symbols():
+    """히트맵에 그릴 전체 종목 리스트(중복 제거)."""
+    out = []
+    seen = set()
+    for syms in HEATMAP_STOCKS.values():
+        for s in syms:
+            if s not in seen:
+                seen.add(s); out.append(s)
+    return out
+
+
+def heatmap_sector(sym):
+    """히트맵 전용 섹터 매핑 (HEATMAP_STOCKS 기준)."""
+    s = str(sym).upper()
+    for sec, syms in HEATMAP_STOCKS.items():
+        if s in syms:
+            return sec
+    return "기타"
 
 def assess_sectors():
     """섹터별 1개월·3개월 수익률로 상대 강도 순위를 매긴다.
@@ -2028,24 +2077,25 @@ def main():
     except Exception as e:
         log(f"⚠️ news.json 저장 실패(앱 표시만 영향): {e}")
 
-    # ── 히트맵 데이터 저장 (heatmap.json) — 앱 트리맵용 ──
-    # 각 종목의 섹터·시총·일간 등락률을 묶어 저장. 앱이 Finviz식 트리맵으로 그린다.
+    # ── 히트맵 데이터 저장 (heatmap.json) — Finviz 스타일 전용 종목 ──
+    # 거래 watchlist와 별개로 섹터별 대표주(시총 상위)를 촘촘히 보여준다.
+    # 시총·등락률을 batch quote로 한 번에 받아 효율적(일봉 안 받음).
     try:
+        hsyms = heatmap_symbols()
+        hvals = fetch_valuations(hsyms)   # 시총·등락률·가격을 한 번에
         heat_items = []
-        for m in market:
-            sym = m.get("symbol", "")
-            if not sym or is_crypto(sym):
-                continue
-            val = m.get("valuation") or {}
-            chg = m.get("chg_1d_pct")
-            if chg is None:
-                continue
+        for sym in hsyms:
+            v = hvals.get(sym.upper()) or {}
+            chg = v.get("chg_pct")
+            mcap = v.get("market_cap")
+            if chg is None and mcap is None:
+                continue   # 데이터 아예 못 받은 종목은 제외
             heat_items.append({
                 "sym": sym,
-                "sector": stock_sector(sym),
-                "chg": chg,                       # 일간 등락률%
-                "mcap": val.get("market_cap"),    # 시총(박스 크기용, 없으면 null)
-                "price": m.get("price"),
+                "sector": heatmap_sector(sym),
+                "chg": chg if chg is not None else 0,
+                "mcap": mcap,
+                "price": v.get("price"),
             })
         heat_doc = {
             "updated": datetime.datetime.now(
