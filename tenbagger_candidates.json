@@ -1,81 +1,81 @@
 {
- "updated": "2026-06-23 23:01",
+ "updated": "2026-06-24 00:24",
  "candidates": [
   {
-   "symbol": "NFLX",
-   "score": 4,
-   "price": 73.45,
+   "symbol": "CERT",
+   "score": 8,
+   "price": 5.36,
    "reasons": [
-    "52주고점 대비 -36%",
-    "RSI 24 과매도"
+    "52주고점 대비 -54%",
+    "PER 13(저평가)",
+    "PBR 0.8",
+    "그레이엄 기준 충족",
+    "시총 $0.8B(소형)"
    ]
   },
   {
-   "symbol": "FNGU",
-   "score": 4,
-   "price": 26.37,
+   "symbol": "PATH",
+   "score": 6,
+   "price": 10.3,
    "reasons": [
-    "52주고점 대비 -27%",
-    "PER 2(저평가)"
-   ]
-  },
-  {
-   "symbol": "BAC",
-   "score": 4,
-   "price": 57.49,
-   "reasons": [
+    "52주고점 대비 -47%",
     "PER 11(저평가)",
-    "PBR 1.5",
-    "그레이엄 기준 충족"
+    "시총 $5.3B(소형)"
    ]
   },
   {
-   "symbol": "C",
-   "score": 4,
-   "price": 143.91,
+   "symbol": "UPST",
+   "score": 6,
+   "price": 31.62,
    "reasons": [
-    "PER 11(저평가)",
-    "PBR 1.3",
-    "그레이엄 기준 충족"
-   ]
-  },
-  {
-   "symbol": "COF",
-   "score": 4,
-   "price": 198.26,
-   "reasons": [
-    "PER 8(저평가)",
-    "PBR 1.1",
-    "그레이엄 기준 충족"
-   ]
-  },
-  {
-   "symbol": "TFC",
-   "score": 4,
-   "price": 48.92,
-   "reasons": [
-    "PER 10(저평가)",
-    "PBR 1.0",
-    "그레이엄 기준 충족"
-   ]
-  },
-  {
-   "symbol": "PFE",
-   "score": 4,
-   "price": 24.88,
-   "reasons": [
-    "RSI 35 과매도",
+    "52주고점 대비 -38%",
     "PER 9(저평가)",
-    "그레이엄 기준 충족"
+    "시총 $3.0B(소형)"
    ]
   },
   {
-   "symbol": "ABT",
+   "symbol": "NVTS",
    "score": 4,
-   "price": 89.55,
+   "price": 21.89,
    "reasons": [
     "52주고점 대비 -31%",
-    "PER 15(저평가)"
+    "시총 $5.3B(소형)"
+   ]
+  },
+  {
+   "symbol": "INDI",
+   "score": 4,
+   "price": 3.8,
+   "reasons": [
+    "52주고점 대비 -29%",
+    "시총 $0.8B(소형)"
+   ]
+  },
+  {
+   "symbol": "TEM",
+   "score": 4,
+   "price": 48.73,
+   "reasons": [
+    "52주고점 대비 -46%",
+    "시총 $8.7B(소형)"
+   ]
+  },
+  {
+   "symbol": "RXRX",
+   "score": 4,
+   "price": 3.17,
+   "reasons": [
+    "52주고점 대비 -43%",
+    "시총 $1.7B(소형)"
+   ]
+  },
+  {
+   "symbol": "HIMS",
+   "score": 4,
+   "price": 34.01,
+   "reasons": [
+    "52주고점 대비 -25%",
+    "시총 $7.8B(소형)"
    ]
   }
  ]
