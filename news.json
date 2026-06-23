@@ -1,6 +1,78 @@
 {
- "updated": "2026-06-24 02:03",
+ "updated": "2026-06-24 03:03",
  "items": [
+  {
+   "headline": "Elon Musk's Space Data Center Vision Is Uneconomical, Says SoftBank Founder Masayoshi Son",
+   "summary": "SoftBank&#39;s Masayoshi Son says Musk&#39;s space data center dream is uneconomical. The tradeable read on SPCX&#39;s lockup overhang and why Nvidia wins either way.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/06/60052846/elon-musks-space-data-center-vision-is-uneconomical-says-softbank-founder-masayoshi-son",
+   "created_at": "2026-06-23T17:38:07Z",
+   "symbols": [
+    "NVDA",
+    "SFTBY",
+    "SPCX"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/23/Elon-Musk-Prepares-For-SpaceX-IPO.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "8 Communication Services Stocks With Whale Alerts In Today’s Session",
+   "summary": "This whale alert can help traders discover the next big trading opportunities.\nWhales are entities with large sums of money and we track their transactions here at Benzinga on our options activity sca",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/options/26/06/60052730/8-communication-services-stocks-whale-alerts-today-s-session",
+   "created_at": "2026-06-23T17:35:24Z",
+   "symbols": [
+    "ASTS",
+    "ATEX",
+    "BIDU",
+    "GOOG",
+    "GOOGL"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/aggregated_options_3.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "10 Information Technology Stocks Whale Activity In Today’s Session",
+   "summary": "This whale alert can help traders discover the next big trading opportunities.\nWhales are entities with large sums of money and we track their transactions here at Benzinga on our options activity sca",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/options/26/06/60052728/10-information-technology-stocks-whale-activity-today-s-session",
+   "created_at": "2026-06-23T17:35:23Z",
+   "symbols": [
+    "AMD",
+    "FSLR",
+    "FTNT",
+    "INTC",
+    "LRCX"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/aggregated_options_3.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Qualcomm AI, Data Center Opportunity Fails To Win Over Analyst: Late Entrant In 'Hyper-Competitive AI Market’",
+   "summary": "Qualcomm stock has rallied in 2026. An analyst remains cautious on the stock ahead of the company&#39;s investor day.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/06/60052565/qualcomm-ai-data-center-opportunity-fails-to-win-over-analyst-late-entrant-in-hyper-competitive-ai-market",
+   "created_at": "2026-06-23T17:31:30Z",
+   "symbols": [
+    "AMD",
+    "AVGO",
+    "NVDA",
+    "QCOM"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/23/The-Qualcomm-Trade.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "South Korea's Tech Rout Spills Into US Semiconductor ETFs Ahead Of Micron's Make-Or-Break Report",
+   "summary": "South Korea&#39;s tech sell-off rattles US semiconductor ETFs as Micron earnings approach, raising questions about AI-driven memory demand.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/etfs/sector-etfs/26/06/60051651/south-koreas-tech-rout-spills-into-us-semiconductor-etfs-ahead-of-microns-make-or-break-report",
+   "created_at": "2026-06-23T17:10:16Z",
+   "symbols": [
+    "AMAT",
+    "FTXL",
+    "LRCX",
+    "MRVL",
+    "MU"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/23/National-Flag-Of-South-Korea-On-Satin--D.jpg?width=1024&height=768"
+  },
   {
    "headline": "Chip Bloodbath Hits Nasdaq 100 As South Korea Plunges: Stock Market Today",
    "summary": "A global semiconductor sell-off hammered the Nasdaq on Tuesday, but a rotation into defensives and small caps kept the Dow green.",
@@ -28,20 +100,6 @@
     "SPY"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/06/23/Konskie--Poland---November-21--2024-Micr.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "What Is Going On With Marvell Stock On Tuesday?",
-   "summary": "Marvell Technology (NASDAQ: MRVL) stock shed nearly 8% on Tuesday as broad tech profit-taking overshadowed a fresh price target hike from Bank of America.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/06/60048825/what-is-going-on-with-marvell-stock-on-tuesday",
-   "created_at": "2026-06-23T16:00:34Z",
-   "symbols": [
-    "ARTY",
-    "MRVL",
-    "SOXQ",
-    "SOXX"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/23/Marvell.jpg?width=1024&height=768"
   },
   {
    "headline": "What Is Going On With Super Micro Stock On Tuesday?",
@@ -150,59 +208,222 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/06/23/Financial-Market-Bubble-Concept-And-Over.jpg?width=1024&height=768"
   },
   {
-   "headline": "Nvidia Says AI's Water Problem May Already Be Solved — Elon Musk Agrees",
-   "summary": "Nvidia claims its latest AI infrastructure can reduce cooling-related water consumption to nearly zero in some locations. Elon Musk responded &#34;True&#34;.",
+   "headline": "Anduril Lands Major Army Deal After 10 Months Of Battlefield Testing",
+   "summary": "Anduril Industries was chosen by the U.S. Army to run the common data baseline for its Next Generation Command and Control effort.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/06/60040005/nvidia-says-ais-water-problem-may-already-be-solved-elon-musk-agrees",
-   "created_at": "2026-06-23T12:58:11Z",
+   "url": "https://www.benzinga.com/markets/private-markets/26/06/60053468/anduril-lands-major-army-deal-after-10-months-of-battlefield-testing",
+   "created_at": "2026-06-23T17:55:50Z",
    "symbols": [
-    "NVDA",
-    "SPCX",
-    "TSLA"
+    "PLTR"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/23/The-modern-Nvidia-logo-and-company-name-.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/23/Santa-Ana--Ca--Usa---May-9--2022-Anduril.jpg?width=1024&height=768"
   },
   {
-   "headline": "Stock Market Today: Do, S&P 500, Nasdaq Futures Drop Despite Trump's 60-Day Waiver On Iran Sanctions— Infleqtion, SpaceX, Primoris In Focus (UPDATED)",
-   "summary": "U.S. stock futures declined on Tuesday, as the Nasdaq 100, Dow Jones, and S&amp;P 500 indices fell, following Monday&#39;s mixed close.",
+   "headline": "As Investors Cool On The Magnificent Seven, Thornburg Debuts Dividend-And-Options ETF THOR",
+   "summary": "AI&#39;s next growth phase could create new winners beyond Big Tech, ETF managers say, as Thornburg debuts the THOR ETF.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/06/60035618/stock-market-today-dow-jones-sp-500-future-drop-despite-trumps-60-day-waiver-on-iran-sanctions-infleqtion-spacex-primoris-in-focus",
-   "created_at": "2026-06-23T12:41:30Z",
+   "url": "https://www.benzinga.com/etfs/new-etfs/26/06/60053394/as-investors-cool-on-the-magnificent-seven-thornburg-debuts-dividend-and-options-etf-thor",
+   "created_at": "2026-06-23T17:52:53Z",
    "symbols": [
-    "BTCUSD",
-    "FDX",
-    "INFQ",
-    "PRIM",
-    "QQQ"
+    "IVES",
+    "TGLR",
+    "THOR"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/23/Close-Up-Of-Wall-Street-Sign-With-Iconic.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/23/Ai-Technology-Bubble-Concept-Chip-Stock-.jpg?width=1024&height=768"
   },
   {
-   "headline": "Gary Black Says 'The Math Doesn't Math' As SPCX Stock Stays Volatile After Blockbuster IPO— Compares Elon Musk-Led Company To Nvidia",
-   "summary": "SpaceX&#39;s valuation concerns raised by investor Gary Black, who drew comparisons with chipmaker Nvidia Corp.",
+   "headline": "Sangamo Bankruptcy Puts Gene Therapy Platforms In Play, Eli Lilly And Astellas Circle",
+   "summary": "Sangamo files for Chapter 11 as Eli Lilly and Astellas step in to buy its valuable gene therapy and genome-editing assets.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/06/60037948/gary-black-says-the-math-doesnt-math-as-spcx-dips-after-blockbuster-ipo-compares-elon-musk-led-company-to-nvidia",
-   "created_at": "2026-06-23T11:55:52Z",
+   "url": "https://www.benzinga.com/m-a/26/06/60053151/sangamo-bankruptcy-puts-gene-therapy-platforms-in-play-eli-lilly-and-astellas-circle",
+   "created_at": "2026-06-23T17:46:36Z",
    "symbols": [
-    "NVDA",
-    "SPCX"
+    "ALPMF",
+    "ALPMY",
+    "LLY",
+    "SGMO"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/23/Paris--France---February-3--2026-A-Horiz.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/23/Gene-editing.jpg?width=1024&height=768"
   },
   {
-   "headline": "Options Are Pricing A Tech Market Shakeout",
-   "summary": "Equity markets are at record highs, but options traders see trouble brewing. Here is why tech stocks are facing a quiet volatility shock.",
+   "headline": "SpaceX Saw 850,000 Orders From Robinhood For Its IPO: What's Going On?",
+   "summary": "Robinhood says over 850,000 customers requested SpaceX shares in its IPO, the most demand ever seen on the platform, as Bitcoin slides 2%.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/06/60037411/options-are-pricing-a-tech-market-shakeout",
-   "created_at": "2026-06-23T11:24:13Z",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/06/60053098/spacex-saw-850000-orders-from-robinhood-for-its-ipo-whats-going-on",
+   "created_at": "2026-06-23T17:45:31Z",
    "symbols": [
     "AMZN",
-    "FTEC",
-    "GOOG",
-    "IGV",
-    "IXN"
+    "BTCUSD",
+    "GOOGL",
+    "HOOD",
+    "SPCX"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/23/Financial-Analyst-Working-On-A-Computer-.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/23/The-Spacex-Logo-Is-Displayed-On-A-Mobile.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "AMC Stock Tanks On Offering: How Retail Got Drowned In Dilution",
+   "summary": "AMC stock tanks on latest offering. Investors have endured extreme dilution due to repeated stock offerings and preferred equity units.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/06/60053067/amc-stock-tanks-on-offering-how-retail-got-drowned-in-dilution",
+   "created_at": "2026-06-23T17:44:27Z",
+   "symbols": [
+    "AMC"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/23/New-York--Usa---September-14--2023-Amc-S.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Gold Is Under Pressure Today: What's Going On?",
+   "summary": "SPDR Gold Shares are dipping on Tuesday. Expectations for additional Federal Reserve rate hikes rise and geopolitical tensions ease.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/06/60052870/gold-is-under-pressure-today-whats-going-on",
+   "created_at": "2026-06-23T17:38:58Z",
+   "symbols": [
+    "GLD"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/23/Millions-In-Gold-And-Cash.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Why Tuesday’s Semiconductor Crash Went Further Than It Should Have",
+   "summary": "Is the AI Trade Too Leveraged for Its Own Good?\n\n\n\nTuesday’s chip sell-off was not just a story about AI getting a little less exciting. Alphabet’s loss of two senior AI scientists and fresh worries a",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/Opinion/26/06/60052751/why-tuesdays-semiconductor-crash-went-further-than-it-should-have",
+   "created_at": "2026-06-23T17:35:54Z",
+   "symbols": [
+    "SOXL"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/23/Microchip-on-PCB-circuit-board.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "10 Financials Stocks Whale Activity In Today’s Session",
+   "summary": "This whale alert can help traders discover the next big trading opportunities.\nWhales are entities with large sums of money and we track their transactions here at Benzinga on our options activity sca",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/options/26/06/60052729/10-financials-stocks-whale-activity-today-s-session",
+   "created_at": "2026-06-23T17:35:23Z",
+   "symbols": [
+    "AXP",
+    "BLK",
+    "COIN",
+    "DAVE",
+    "GLXY"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/aggregated_options_3.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Carnival’s Record Quarter Gets Sunk By Middle East Worries",
+   "summary": "Carnival stock dips 5.4% after Q2 revenue miss and weak Q3 guidance overshadow an earnings beat and strong 2026 booking demand.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/earnings/26/06/60052034/carnivals-record-quarter-gets-sunk-by-middle-east-worries",
+   "created_at": "2026-06-23T17:21:59Z",
+   "symbols": [
+    "CCL"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/23/Carnival-Cruise.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "9 Ways Investors Are Diversifying Beyond Stocks In 2026",
+   "summary": "For most of the 20th century, a balanced portfolio meant stocks and bonds — the playbook financial advisors handed down, the template baked into every 401(k) brochure. It worked well enough for a gene",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/06/60051885/9-ways-investors-are-diversifying-beyond-stocks-in-2026",
+   "created_at": "2026-06-23T17:17:20Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/23/Diversification-As-Core-Strategy.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "AbbVie’s Costly Apogee Acquisition Has Long-Term Upside: Analyst",
+   "summary": "AbbVie will acquire Apogee Therapeutics for $10.9 billion, with analyst citing long-term immunology growth despite near-term dilution.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/06/60051683/abbvies-costly-apogee-acquisition-has-long-term-upside-analyst",
+   "created_at": "2026-06-23T17:11:16Z",
+   "symbols": [
+    "ABBV",
+    "APGE"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/23/Abbvie.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "10 Consumer Discretionary Stocks Moving In Tuesday's Intraday Session",
+   "summary": "Gainers\n\nAmerica&#39;s Car-Mart (NASDAQ:CRMT) shares increased by 30.2% to $3.92 during Tuesday&#39;s regular session. The company&#39;s market cap stands at $24.9 million. \nECARX Holdings (NASDAQ:ECX",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/06/60051487/10-consumer-discretionary-stocks-moving-tuesday-s-intraday-session",
+   "created_at": "2026-06-23T17:05:41Z",
+   "symbols": [
+    "AZI",
+    "CRMT",
+    "ECX",
+    "JXG",
+    "KIDZ"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_2.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "12 Health Care Stocks Moving In Tuesday's Intraday Session",
+   "summary": "Gainers\n\nAditxt (NASDAQ:ADTX) shares increased by 151.6% to $0.05 during Tuesday&#39;s regular session. \nAtlantic International (NASDAQ:ATLN) stock rose 143.31% to $1.07. The market value of their out",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/06/60051486/12-health-care-stocks-moving-tuesday-s-intraday-session",
+   "created_at": "2026-06-23T17:05:41Z",
+   "symbols": [
+    "ADTX",
+    "ATLN",
+    "BOLD",
+    "CUE",
+    "GALT"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_4.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "12 Industrials Stocks Moving In Tuesday's Intraday Session",
+   "summary": "Gainers\n\nTianci International (NASDAQ:CIIT) stock rose 62.0% to $0.79 during Tuesday&#39;s regular session. The company&#39;s market cap stands at $3.7 million. As per the news, the Q3 earnings report",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/06/60051485/12-industrials-stocks-moving-tuesday-s-intraday-session",
+   "created_at": "2026-06-23T17:05:41Z",
+   "symbols": [
+    "AUC",
+    "CIIT",
+    "FOFO",
+    "HYLN",
+    "INLF"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_2.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "12 Information Technology Stocks Moving In Tuesday's Intraday Session",
+   "summary": "Gainers\n\nBackblaze (NASDAQ:BLZE) stock rose 38.3% to $11.23 during Tuesday&#39;s regular session. The market value of their outstanding shares is at $487.3 million. \nArqit Quantum (NASDAQ:ARQQ) stock ",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/06/60051484/12-information-technology-stocks-moving-tuesday-s-intraday-session",
+   "created_at": "2026-06-23T17:05:40Z",
+   "symbols": [
+    "AMPGR",
+    "AMPGZ",
+    "ARQQ",
+    "AXTI",
+    "BLZE"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_1.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Nio Shares Edge Higher Tuesday: What's Going On?",
+   "summary": "NIO shares are trading marginally higher on Tuesday as risk appetite stays selective, with the S&amp;P 500 down around 1%.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/06/60051363/nio-shares-edge-higher-tuesday-whats-going-on",
+   "created_at": "2026-06-23T17:01:38Z",
+   "symbols": [
+    "NIO"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/23/Nio-Adds-AEB-Feature.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Why Is Natera Stock Gaining Tuesday?",
+   "summary": "Natera (NTRA) stock rallies following a key NCCN guideline update for Signatera. Also, check out the full NTRA stock analysis.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/health-care/26/06/60051252/why-is-natera-stock-gaining-tuesday",
+   "created_at": "2026-06-23T16:59:53Z",
+   "symbols": [
+    "ARKG",
+    "FBT",
+    "IBB",
+    "NTRA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/23/High-Risk-Groups-May-Need-Earlier-Tests.jpg?width=1024&height=768"
   },
   {
    "headline": "Gorilla Technology Stock Surges On 5-Year AI Contract",
@@ -281,223 +502,6 @@
     "OKLO"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/06/23/Oklo-Inc.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Cheaper Jet Fuel, Golden Cross And A Breakout: Is American Airlines Stock Ready For Takeoff?",
-   "summary": "American Airlines stock flashes a golden cross and breaks above key moving averages as jet fuel prices retreat and travel demand remains resilient.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/technicals/26/06/60049885/cheaper-jet-fuel-golden-cross-and-a-breakout-is-american-airlines-stock-ready-for-takeoff",
-   "created_at": "2026-06-23T16:23:55Z",
-   "symbols": [
-    "AAL"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/23/Miami--Florida--April-7--2019-American-A.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Europe Approves Sanofi's Multiple Sclerosis Drug Despite FDA Rejection",
-   "summary": "Sanofi won European approval for Cenrifki in SPMS and secured Japan authorization for Wayrilz in chronic ITP.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/health-care/26/06/60049728/europe-approves-sanofis-multiple-sclerosis-drug-despite-fda-rejection",
-   "created_at": "2026-06-23T16:21:34Z",
-   "symbols": [
-    "SNY"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/23/Sanofi-SA.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "If You Invested $100 In Lockheed Martin Stock 20 Years Ago, You Would Have This Much Today",
-   "summary": "Lockheed Martin (NYSE:LMT) has outperformed the market over the past 20 years by 1.05% on an annualized basis producing an average annual return of 10.22%. Currently, Lockheed Martin has a market capi",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/06/60049504/if-you-invested-100-lockheed-martin-stock-20-years-ago-you-would-have-much-today",
-   "created_at": "2026-06-23T16:16:24Z",
-   "symbols": [
-    "LMT"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_2.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Bitcoin Has Been Cut In Half, But MARA And HIVE Just Flashed Golden Crosses",
-   "summary": "Bitcoin has fallen nearly 50% from its October peak, yet MARA Holdings and HIVE Digital Technologies are showing bullish technical signals. Here&#39;s what investors may be seeing.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/06/60049501/bitcoin-has-been-cut-in-half-but-mara-and-hive-just-flashed-golden-crosses",
-   "created_at": "2026-06-23T16:16:17Z",
-   "symbols": [
-    "BTCUSD",
-    "HIVE",
-    "MARA"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/23/Bitcoin-Btc-Virtual-Cryptocurrency-In-Fr.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Private Credit Pressure Builds As Apollo Limits Redemptions For Second Straight Quarter",
-   "summary": "Apollo Global Management has limited withdrawal requests from its non-traded private credit fund Apollo Debt Solutions.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/private-markets/26/06/60049325/private-credit-pressure-builds-as-apollo-limits-redemptions-for-second-straight-quarter",
-   "created_at": "2026-06-23T16:11:28Z",
-   "symbols": [
-    "APO"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/23/Konskie--Poland---November-15--2024-Apol.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Why Is Arm Holdings Stock Falling Tuesday?",
-   "summary": "ARM stock drops 9% in broad tech selloff. Is the bullish trend intact? Check key moving averages, support, and resistance levels.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/06/60049302/why-is-arm-holdings-stock-falling-tuesday",
-   "created_at": "2026-06-23T16:11:03Z",
-   "symbols": [
-    "AIPI",
-    "ARM",
-    "FPXI",
-    "SMHX",
-    "XLP"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/23/Konskie--Poland---November-12--2024-Arm-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "How XOVR Turned SpaceX IPO Into A Test Case For Private-Market ETF Investing",
-   "summary": "As SpaceX&#39;s IPO drove billions into XOVR, ERShares says the fund used various measures to preserve exposure and capture private-market value.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/etfs/specialty-etfs/26/06/60049060/how-xovr-turned-spacex-ipo-into-a-test-case-for-private-market-etf-investing",
-   "created_at": "2026-06-23T16:05:43Z",
-   "symbols": [
-    "SPCX",
-    "XOVR"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/23/Target-Date-Funds-Plan-Private-Markets.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Korn Ferry CEO Highlights Resilient Growth Despite Uneven Economy",
-   "summary": "Korn Ferry (KFY) stock jumps after Q4 2026 earnings and revenue top Wall Street estimates. Get the full financial breakdown here.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/earnings/26/06/60048910/korn-ferry-ceo-highlights-resilient-growth-despite-uneven-economy",
-   "created_at": "2026-06-23T16:02:10Z",
-   "symbols": [
-    "KFY"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/23/Korn-Ferry.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Crude Oil Down Over 1%; US Manufacturing PMI Surges In June",
-   "summary": "US stocks lower, Nasdaq falls 500 points. Dow down 0.04%, Nasdaq 1.91%, S&amp;P 500 1.27%. Consumer staples up 1.4%, tech down 2.3%. S&amp;P PMI rises.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/market-summary/26/06/60048906/crude-oil-down-over-1-us-manufacturing-pmi-surges-in-june",
-   "created_at": "2026-06-23T16:02:03Z",
-   "symbols": [
-    "ATLN",
-    "BLZE",
-    "BOLD",
-    "CRWV",
-    "NXTS"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/23/Brent-Crude-Oil-Price-Moving-Up.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Bitcoin Could Start A Catch-Up Rally—But The Fed Has To Play Ball, Bitwise's Matt Hougan Says",
-   "summary": "Matt Hougan believes Bitcoin could be poised for a catch-up rally if the Federal Reserve keeps rates unchanged and inflation concerns ease. Hougan argues that Bitcoin has lagged stocks largely because",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/06/60048865/bitcoin-could-start-a-catch-up-rally-but-the-fed-has-to-play-ball-bitwises-matt-hougan-says",
-   "created_at": "2026-06-23T16:01:15Z",
-   "symbols": [
-    "BTCUSD"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/23/Fed-Likely-to-Cut-Rates.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Here's How Much $1000 Invested In S&P Global 10 Years Ago Would Be Worth Today",
-   "summary": "S&amp;P Global (NYSE:SPGI) has outperformed the market over the past 10 years by 1.03% on an annualized basis producing an average annual return of 14.75%. Currently, S&amp;P Global has a market capit",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/06/60048827/here-s-how-much-1000-invested-s-p-global-10-years-ago-would-be-worth-today",
-   "created_at": "2026-06-23T16:00:44Z",
-   "symbols": [
-    "SPGI"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_3.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Winnebago Gears Up For Q3 Print; Here Are The Recent Forecast Changes From Wall Street's Most Accurate Analysts",
-   "summary": "Winnebago Industries, Inc (NYSE: WGO) will release Q3 earnings on June 25, with analysts expecting 78 cents/share &amp; $758.18M revenue. WGO stock fell 1.2% on Mon.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/06/60048412/winnebago-gears-up-for-q3-print-here-are-the-recent-forecast-changes-from-wall-streets-most-accurate-analysts-2",
-   "created_at": "2026-06-23T15:51:35Z",
-   "symbols": [
-    "WGO"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/23/Operations-Research-Analysts.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "This IBM Analyst Turns Bullish; Here Are Top 3 Upgrades For Tuesday",
-   "summary": "Top Wall Street analysts changed outlook on top names. Piper Sandler upgraded SNPS, JP Morgan upgraded IBM,. See analyst ratings.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/analyst-stock-ratings/upgrades/26/06/60048342/this-ibm-analyst-turns-bullish-here-are-top-3-upgrades-for-tuesday",
-   "created_at": "2026-06-23T15:50:16Z",
-   "symbols": [
-    "AHR",
-    "APGE",
-    "FTH",
-    "IBM",
-    "SNPS"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/23/IBM-Logo-On-Building.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Palantir Stock Flirts With Oversold, Down Nearly 40% In 2026",
-   "summary": "Palantir stock has fallen 40% from highs due to cyclical fears and AI disruption concerns. RSI indicates nearly oversold levels.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/06/60048230/palantir-stock-flirts-with-oversold-down-nearly-40-in-2026",
-   "created_at": "2026-06-23T15:47:42Z",
-   "symbols": [
-    "PLTR"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/23/Palantir---EK.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "SoFi Stock Edges Higher Despite Market Dip: What's Going On?",
-   "summary": "SoFi shares are trading higher by almost 2% on Tuesday as traders weigh insider buying and the company’s crypto-adjacent product narrative.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/06/60048092/sofi-stock-edges-higher-despite-market-dip-whats-going-on",
-   "created_at": "2026-06-23T15:44:15Z",
-   "symbols": [
-    "SOFI"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/23/San-Francisco--Ca--Usa---May-1--2022-Sof.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "GE Vernova Stock Is Falling Despite Major Vietnam LNG Order",
-   "summary": "GE Vernova stock falls premarket despite a Vietnam LNG order as investors watch technical levels, earnings and analyst ratings.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/large-cap/26/06/60048078/ge-vernova-stock-is-falling-despite-major-vietnam-lng-order",
-   "created_at": "2026-06-23T15:43:56Z",
-   "symbols": [
-    "AIPO",
-    "GEV",
-    "POWR",
-    "XLI"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/23/Issy-les-moulineaux--France--11-17-2025-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Domino's Announces CEO Retirement While Same-Store Sales Continue Tracking Below Target",
-   "summary": "Domino&#39;s Pizza CEO&#39;s retirement in September comes next in a series of disappointing announcements.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/06/60047959/dominos-announces-ceo-retirement-while-same-store-sales-continue-tracking-below-target",
-   "created_at": "2026-06-23T15:41:08Z",
-   "symbols": [
-    "DPZ",
-    "YUM"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/23/Dominos-Pizza-storefront-at-night.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Netflix Stock Plunges To 20-Month Low: Can Live Sports Replace ‘Stranger Things’ And ‘Squid Game’?",
-   "summary": "The most successful shows on Netflix have wrapped. The company is now exploring new strategies to keep subscribers and gain new ones.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/06/60047801/netflix-stock-plunges-to-20-month-low-can-live-sports-replace-stranger-things-and-squid-game",
-   "created_at": "2026-06-23T15:37:09Z",
-   "symbols": [
-    "NFLX"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/23/Who-Gets-The-Netflix-Password-In-A-Divor.jpg?width=1024&height=768"
   }
  ]
 }
