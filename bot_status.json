@@ -1,18 +1,29 @@
 {
- "updated": "2026-06-23 22:01",
- "session": "미국 프리마켓(개장 전)",
- "equity": 98836.73,
- "cash": 81064.44,
+ "updated": "2026-06-23 22:42",
+ "equity": 98789.13,
+ "cash": 80103.82,
  "base": 100000.0,
  "positions": [
   {
    "symbol": "AMD",
    "qty": 6.0,
    "avg_cost": 545.69,
-   "now": 510.88,
-   "pnl_pct": -6.4,
+   "now": 514.61,
+   "pnl_pct": -5.7,
    "peak_pnl_pct": 1.1,
-   "drawdown_from_peak_pct": -7.5,
+   "drawdown_from_peak_pct": -6.8,
+   "trailing_stop_triggered": false,
+   "is_tenbagger": false,
+   "stoploss_triggered": false
+  },
+  {
+   "symbol": "META",
+   "qty": 1.0,
+   "avg_cost": 569.21,
+   "now": 569.3,
+   "pnl_pct": 0.0,
+   "peak_pnl_pct": 0.0,
+   "drawdown_from_peak_pct": 0.0,
    "trailing_stop_triggered": false,
    "is_tenbagger": false,
    "stoploss_triggered": false
@@ -21,9 +32,9 @@
    "symbol": "MSFT",
    "qty": 3.0,
    "avg_cost": 372.34,
-   "now": 372.97,
-   "pnl_pct": 0.2,
-   "peak_pnl_pct": 0.2,
+   "now": 375.435,
+   "pnl_pct": 0.8,
+   "peak_pnl_pct": 0.8,
    "drawdown_from_peak_pct": 0.0,
    "trailing_stop_triggered": false,
    "is_tenbagger": false,
@@ -33,10 +44,10 @@
    "symbol": "NVDA",
    "qty": 20.0,
    "avg_cost": 209.715,
-   "now": 203.11,
-   "pnl_pct": -3.1,
+   "now": 202.24,
+   "pnl_pct": -3.6,
    "peak_pnl_pct": 0.8,
-   "drawdown_from_peak_pct": -3.9,
+   "drawdown_from_peak_pct": -4.4,
    "trailing_stop_triggered": false,
    "is_tenbagger": false,
    "stoploss_triggered": false
@@ -45,51 +56,238 @@
    "symbol": "QQQ",
    "qty": 1.0,
    "avg_cost": 744.8,
-   "now": 716.28,
-   "pnl_pct": -3.8,
+   "now": 717.1799,
+   "pnl_pct": -3.7,
    "peak_pnl_pct": -0.8,
-   "drawdown_from_peak_pct": -3.0,
+   "drawdown_from_peak_pct": -2.9,
    "trailing_stop_triggered": false,
    "is_tenbagger": false,
    "stoploss_triggered": false
   },
   {
    "symbol": "SMH",
-   "qty": 4.7388,
-   "avg_cost": 666.443948,
-   "now": 628.53,
-   "pnl_pct": -5.7,
+   "qty": 5.7388,
+   "avg_cost": 659.302394,
+   "now": 625.61,
+   "pnl_pct": -5.1,
    "peak_pnl_pct": 0.5,
-   "drawdown_from_peak_pct": -6.2,
+   "drawdown_from_peak_pct": -5.6,
    "trailing_stop_triggered": false,
    "is_tenbagger": false,
    "stoploss_triggered": false
-  },
-  {
-   "symbol": "SOXL",
-   "qty": 1.0,
-   "avg_cost": 300.6,
-   "now": 240.6793,
-   "pnl_pct": -19.9,
-   "peak_pnl_pct": 0.1,
-   "drawdown_from_peak_pct": -20.0,
-   "trailing_stop_triggered": false,
-   "is_tenbagger": false,
-   "stoploss_triggered": true
   },
   {
    "symbol": "SOXX",
    "qty": 9.1437,
    "avg_cost": 644.664353,
-   "now": 611.42,
-   "pnl_pct": -5.2,
+   "now": 606.907,
+   "pnl_pct": -5.9,
    "peak_pnl_pct": 1.7,
-   "drawdown_from_peak_pct": -6.9,
+   "drawdown_from_peak_pct": -7.6,
    "trailing_stop_triggered": false,
    "is_tenbagger": false,
    "stoploss_triggered": false
   }
  ],
- "market_view": "[미국 프리마켓(개장 전)] 미국 주식 거래 시간이 아니고 코인도 살 만한 신호가 없어 관망. (AI 판단 생략 — 비용 절감)",
- "trades": []
+ "trades": [
+  "🔵 매도 SOXL 1.0주 (~$237) — stoploss_triggered=true, 평단 $300.6 대비 현재 $238.75로 -20.6% 손실, 레버리지 손절 기준(-5%) 이미 크게 초과했으며 즉시 실행이 원칙",
+  "⛔ SOXX 매수 보류 (현금/한도)",
+  "🔴 매수 SMH 1.0주 (~$627) — 반도체 ETF 쌍두마차, above 구름(dist +20.1%), MA20 괴리율 +2.2% 건전, 오늘 -6% 단기 급락은 추세 살아있는 눌림목으로 추세추종 분할 진입 적기",
+  "🔴 매수 ⚡하이리스크 META 1.0주 (~$568) — disparity_ma20_pct -4.6%지만 off_52w_high_pct -28.7%, PER 20.6 저평가+과매도 반등 신호(볼린저 하단+RSI 40.9 바닥탈출 조짐), 하이리스크 슬롯 선점."
+ ],
+ "market_view": "🤝 합의: SOXL 손절(Claude), SOXX 매수(합의), SMH 매수(Claude주도·소량), ADBE 매수 보류(Claude만), META 매수(DeepSeek주도·소량) | Claude: 오늘 시장은 반도체 주도주들이 일제히 -6~-11% 급락하는 등 중립/혼조 내에서 단기 변동성이 극대화된 날이다. SPY는 MA20 대비 -1.6%로 본격 하락장은 아니지만 QQQ·XLK가 MA20 아래로 밀린 상태다. 가장 먼저 SOXL은 stoploss_triggered=true 상태로 -20.6% 손실 중이며 레버리지 손절 원칙(-5%)을 이미 크게 초과했으므로 즉시 손절 실행한다. 반도체(SOXX·SMH)는 3개월 수익률 +78%, 구름 위 상승추세가 살아있으며 오늘의 급락은 추세 훼손이 아닌 일시적 눌림목으로 판단해 분할 추가 매수한다. 기존 보유 SOXX·SMH·AMD·NVDA는 -5~-7% 손절선 미도달 상태이고 반도체 추세가 살아있으므로 홀드한다. ADBE는 fwd_pe 7.2, disparity_ma20 -14.4%, RSI 30.3 과매도로 밸류에이션·기술적 저평가가 동시에 충족되고 오늘 반등 신호(+1.5%)가 나와 하이리스크 슬롯 소량 진입을 결정했다. 현금은 $81,064(총자산의 82%)로 과다 보유 상태이며, 이번 매수로 반도체 추세추종과 하이리스크 저평가 역추세를 균형 있게 집행했다. | DeepSeek: 오늘 시장은 중립/혼조 국면(VIX 20.2, SPY MA20 대비 -1.6%)으로, 뚜렷한 방향성 없이 종목별 차별화가 진행 중입니다. 반도체 섹터(1M +13.2%)는 여전히 주도력을 유지하며 단기 조정(-6.8%)을 보였으나 추세 자체는 살아있어 눌림목 매수 기회로 판단했습니다. 보유 중인 SOXL은 변동성 잠식과 손실 -20.6%로 손절 규칙(-5%)에 따라 즉시 정리하여 손실을 제한했습니다. 현금 비중은 약 82%로 높으나, 상승장이 아닌 중립 국면임을 고려해 무리한 추격보다는 확실한 저가매수 기회(MSFT: disparity -8.5%, RSI 35.2)와 주도 섹터 추세추종(SOXX: 눌림목 분할)에 집중했습니다. 또한 META는 52주 고점 대비 -28.7% 낙폭, PER 20.6의 저평가 구간에서 기술적 반등 신호가 확인되어 하이리스크 슬롯(총자산 20% 이내)을 통해 소량 선점했습니다. 전반적으로 '기다리는 매매' 철학을 유지하며, 확실한 신호가 있는 종목에만 분할 진입해 현금이 무의미하게 쌓이지 않도록 균형을 맞추고 있습니다. 포트폴리오는 코어(MSFT, AMD, NVDA, QQQ, SMH, SOXX) 중심으로 분산되었으며, 레버리지 비중은 SOXL 청산 후 0%로 안전합니다.}",
+ "chart_levels": {
+  "NVDA": {
+   "price": 202.03,
+   "support": [
+    198.23,
+    184.2,
+    171.84,
+    165.17
+   ],
+   "resistance": [
+    211.79,
+    216.61,
+    224.36,
+    235.74
+   ],
+   "fib": {
+    "382": 208.78,
+    "500": 200.46,
+    "618": 192.13
+   },
+   "taco_zone": {
+    "low": 192.13,
+    "high": 200.46,
+    "basis": "지지대+피보 5.00+피보 6.18"
+   },
+   "in_taco_zone": false
+  },
+  "QQQ": {
+   "price": 716.72,
+   "support": [
+    697.61,
+    607.82,
+    558.28
+   ],
+   "resistance": [
+    719.79,
+    745.08
+   ],
+   "fib": {
+    "382": 674.39,
+    "500": 652.22,
+    "618": 630.05
+   },
+   "taco_zone": {
+    "low": 630.05,
+    "high": 697.61,
+    "basis": "지지대+피보 5.00+피보 6.18"
+   },
+   "in_taco_zone": false
+  },
+  "SMH": {
+   "price": 627.32,
+   "support": [
+    602.14,
+    578.34,
+    569.69,
+    543.96
+   ],
+   "resistance": [
+    637.9
+   ],
+   "fib": {
+    "382": 551.87,
+    "500": 515.72,
+    "618": 479.57
+   },
+   "taco_zone": {
+    "low": 479.57,
+    "high": 602.14,
+    "basis": "지지대+피보 5.00+피보 6.18"
+   },
+   "in_taco_zone": false
+  },
+  "META": {
+   "price": 568.23,
+   "support": [
+    566.98,
+    525.72
+   ],
+   "resistance": [
+    579.23,
+    589.15,
+    641.26,
+    738.31
+   ],
+   "fib": {
+    "382": 626.35,
+    "500": 607.13,
+    "618": 587.92
+   },
+   "taco_zone": {
+    "low": 562.44,
+    "high": 571.52,
+    "basis": "지지대"
+   },
+   "in_taco_zone": true
+  },
+  "SOXX": {
+   "price": 608.63,
+   "support": [
+    570.09,
+    536.27,
+    495.87,
+    461.6
+   ],
+   "resistance": [
+    615.68
+   ],
+   "fib": {
+    "382": 523.14,
+    "500": 482.4,
+    "618": 441.66
+   },
+   "taco_zone": {
+    "low": 441.66,
+    "high": 570.09,
+    "basis": "지지대+피보 5.00+피보 6.18"
+   },
+   "in_taco_zone": false
+  },
+  "AMD": {
+   "price": 516.95,
+   "support": [
+    455.6,
+    414.05,
+    347.81,
+    259.29
+   ],
+   "resistance": [
+    544.89
+   ],
+   "fib": {
+    "382": 415.79,
+    "500": 373.83,
+    "618": 331.88
+   },
+   "taco_zone": {
+    "low": 331.88,
+    "high": 455.6,
+    "basis": "지지대+피보 5.00+피보 6.18"
+   },
+   "in_taco_zone": false
+  },
+  "SPY": {
+   "price": 734.51,
+   "support": [
+    729.58,
+    711.58,
+    682.9,
+    652.64
+   ],
+   "resistance": [
+    754.19
+   ],
+   "fib": {
+    "382": 710.83,
+    "500": 695.77,
+    "618": 680.71
+   },
+   "taco_zone": {
+    "low": 680.71,
+    "high": 729.58,
+    "basis": "지지대+피보 5.00+피보 6.18"
+   },
+   "in_taco_zone": false
+  },
+  "MSFT": {
+   "price": 373.84,
+   "support": [
+    370.87,
+    356.77
+   ],
+   "resistance": [
+    384.47,
+    410.71,
+    444.11,
+    460.52
+   ],
+   "fib": {
+    "382": 420.89,
+    "500": 408.64,
+    "618": 396.4
+   },
+   "taco_zone": {
+    "low": 367.9,
+    "high": 373.84,
+    "basis": "지지대"
+   },
+   "in_taco_zone": true
+  }
+ },
+ "last_trade_time": "2026-06-23 22:42",
+ "last_trade_count": 3,
+ "last_hold_count": 1
 }

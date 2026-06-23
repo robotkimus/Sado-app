@@ -1,4 +1,63 @@
 {
- "updated": "2026-06-23 22:00",
- "candidates": []
+ "updated": "2026-06-23 22:41",
+ "candidates": [
+  {
+   "symbol": "CRM",
+   "score": 5,
+   "price": 152.09,
+   "reasons": [
+    "52주고점 대비 -43%",
+    "RSI 32 과매도",
+    "PER 10(저평가)"
+   ]
+  },
+  {
+   "symbol": "ADBE",
+   "score": 5,
+   "price": 197.67,
+   "reasons": [
+    "52주고점 대비 -45%",
+    "RSI 30 과매도",
+    "PER 7(저평가)"
+   ]
+  },
+  {
+   "symbol": "INTU",
+   "score": 5,
+   "price": 258.5,
+   "reasons": [
+    "52주고점 대비 -62%",
+    "RSI 30 과매도",
+    "PER 9(저평가)"
+   ]
+  },
+  {
+   "symbol": "PYPL",
+   "score": 5,
+   "price": 42.09,
+   "reasons": [
+    "52주고점 대비 -39%",
+    "PER 7(저평가)",
+    "그레이엄 기준 충족"
+   ]
+  },
+  {
+   "symbol": "TEAM",
+   "score": 4,
+   "price": 81.45,
+   "reasons": [
+    "52주고점 대비 -54%",
+    "PER 13(저평가)"
+   ]
+  },
+  {
+   "symbol": "WDAY",
+   "score": 4,
+   "price": 116.75,
+   "reasons": [
+    "52주고점 대비 -51%",
+    "PER 9(저평가)"
+   ]
+  }
+ ]
 }
