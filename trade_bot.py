@@ -2028,8 +2028,13 @@ def main():
             json.dump({"updated": kst_now, "candidates": tenbagger_candidates},
                       f, ensure_ascii=False, indent=1)
         if tenbagger_candidates:
-            top = ", ".join(f"{c['symbol']}({c['score']})" for c in tenbagger_candidates[:5])
-            log(f"💎 텐버거 후보 {len(tenbagger_candidates)}개: {top}")
+            finalists = [c for c in tenbagger_candidates if c["score"] >= TENBAGGER_AUTO_SCORE]
+            if finalists:
+                fl = ", ".join(f"{c['symbol']}({c['score']})" for c in finalists)
+                log(f"🏆 텐버거 결승 진출({TENBAGGER_AUTO_SCORE}점+): {fl}")
+            else:
+                top = tenbagger_candidates[0]
+                log(f"💎 텐버거 후보 {len(tenbagger_candidates)}개 (최고 {top['symbol']} {top['score']}점, 결승 진출자 없음)")
         # ── 배틀로얄 자동 편입: 10점 이상 후보 중 최고점 1개를 교차검증해 편입 ──
         # 정규장에서만(비용·데이터 신뢰성), 매 실행 최대 1종목.
         if STOCK_TRADABLE:
@@ -2142,10 +2147,6 @@ def main():
     if view:
         body_parts.append(format_view_for_push(view))
     body_parts.append("\n".join(results) if results else "오늘은 거래 없음 (관망)")
-    # 텐버거 후보가 있으면 한 줄 덧붙임(사람이 검토 후 tenbagger.txt에 편입)
-    if tenbagger_candidates:
-        tb = ", ".join(f"{c['symbol']}({c['score']}점)" for c in tenbagger_candidates[:5])
-        body_parts.append(f"💎 텐버거 후보: {tb}\n→ 검토 후 tenbagger.txt에 추가하면 장기보유로 보호됩니다")
     body_parts.append("※ 모의계좌 자동매매 · 참고용")
     body = "\n\n".join(body_parts)
 
