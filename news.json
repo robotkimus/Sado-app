@@ -1,6 +1,17 @@
 {
- "updated": "2026-06-23 16:01",
+ "updated": "2026-06-23 17:00",
  "items": [
+  {
+   "headline": "Semiconductor Stocks See 'Rare Surge' As SOX Index Hits Dot-Com Bubble-Era Volatility Levels",
+   "summary": "The $SOX index hits extreme volatility matching the 2000 Dot-Com Bubble. What this rare surge in semiconductor stocks means for tech.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/market-summary/26/06/60034663/semiconductor-stocks-see-rare-surge-as-sox-index-hits-dot-com-bubble-era-volatility-levels",
+   "created_at": "2026-06-23T07:09:16Z",
+   "symbols": [
+    "SOXX"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/23/Chips--semiconductor-shutterstock-219855.jpg?width=1024&height=768"
+  },
   {
    "headline": "Elon Musk Gives A Nod As Nvidia Argues AI Data Centers Aren't The Water Drain Many Believe: 'Numbers May Surprise You'",
    "summary": "Elon Musk backed Nvidia&#39;s claim that advanced liquid-cooling technology could dramatically reduce AI data center water consumption.",
@@ -203,18 +214,62 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/06/22/Nvidia-office-building--Taipei--Taiwan.jpg?width=1024&height=768"
   },
   {
-   "headline": "Why Is Caterpillar Stock Surging On Monday?",
-   "summary": "Caterpillar shares surged past the $1,000 threshold on Monday following news of a massive power project with Chevron and Microsoft.",
+   "headline": "Trump Helping His 'Big Oil Friends' While The Planet Heats Up, Bernie Sanders Says",
+   "summary": "Bernie Sanders criticizes Trump for promoting fossil fuels for profit, putting planet at risk amid record heatwaves.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/06/60019816/why-is-caterpillar-stock-surging-on-monday",
-   "created_at": "2026-06-22T15:30:48Z",
+   "url": "https://www.benzinga.com/news/politics/26/06/60034892/trump-putting-planet-risk-for-his-big-oil-friends-says-bernie-sanders",
+   "created_at": "2026-06-23T07:41:17Z",
    "symbols": [
-    "CAT",
-    "CVX",
-    "GEV",
-    "MSFT"
+    "CVX"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/22/Kaufbeuren--Germany---April-26--2021-Cat.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/23/President-Donald-J--Trump-Delivers-Remar.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Nancy Pelosi’s Final Year In Congress: Stock Trading Ban Incoming? Prediction Market Bettors Don't See It Happening",
+   "summary": "Prediction markets show limited optimism that a ban on congressional stock trading will pass this year, even as public scrutiny intensifies and lawmakers increase their trading activity.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/06/60034837/nancy-pelosis-final-year-in-congress-prediction-market-bettors-dont-see-stock-trading-ban-happening",
+   "created_at": "2026-06-23T07:33:45Z",
+   "symbols": [
+    "BTCUSD",
+    "POLUSD",
+    "ZECUSD"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/23/Brussels--Belgium--18th-Feb--2019--Presi.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Kevin Warsh's Silence Could Leave Markets Guessing, Says Claudia Sahm: Who's The 'Shadow Fed Chair'",
+   "summary": "Former Federal Reserve economist Claudia Sahm warns a quieter Fed could leave investors searching for policy signals.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/economic-data/26/06/60034798/claudia-sahm-says-kevin-warshs-silence-could-leave-markets-guessing-about-the-shadow-fed-chair",
+   "created_at": "2026-06-23T07:21:51Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/23/Federal-Reserve-Chair-Kevin-Warsh-Delive.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Meta Just Made A $900 Million Bet On This Indian Fintech Firm And Tapped Its Founder To Lead WhatsApp: 'The Headline Nobody Is Printing'",
+   "summary": "Meta invests $900 million in India&#39;s CRED as founder Kunal Shah joins WhatsApp, boosting its fintech and payments ambitions.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/m-a/26/06/60034721/meta-just-made-a-900-million-bet-on-this-indian-fintech-firm-and-tapped-its-founder-to-lead-whatsapp-the-headline-nobody-is-printing",
+   "created_at": "2026-06-23T07:21:08Z",
+   "symbols": [
+    "META"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/23/This-Illustrates-Digital-Connectivity-Wi.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Micron Announces Strategic Agreement With Anthropic Spanning Memory, Storage AI Architecture And Enterprise Claude Adoption",
+   "summary": "Micron invested in Anthropic and signed a memory supply deal as the Claude maker prepares for a potential IPO.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/06/60034685/micron-and-anthropic-strike-strategic-ai-partnership-spanning-memory-storage-and-claude",
+   "created_at": "2026-06-23T07:14:51Z",
+   "symbols": [
+    "AVGO",
+    "CRWV",
+    "MU",
+    "SPCX"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/23/The-Micron-Logo-Appears---EK.jpg?width=1024&height=768"
   },
   {
    "headline": "Winnebago Gears Up For Q3 Print; Here Are The Recent Forecast Changes From Wall Street's Most Accurate Analysts",
@@ -452,71 +507,6 @@
    "created_at": "2026-06-23T02:31:27Z",
    "symbols": [],
    "image": "https://cdn.benzinga.com/files/images/story/2026/06/23/Chuck-Schumer-during-a-press-conference-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Cathie Wood Bets $32.5 Million On SpaceX Dip As Stock Crashes From Debut Highs — Ark Keeps Dumping Roku Shares",
-   "summary": "On Monday, June 22, 2026 Cathie Wood bought 210,121 SpaceX shares worth ~$32.5 million across four ETFs as the stock slid 16% from its debut highs.\n",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/etfs/broad-u-s-equity-etfs/26/06/60033677/cathie-wood-bets-32-5-million-on-spacex-dip-as-stock-crashes-from-debut-highs-ark-keeps-dumping-roku-shares",
-   "created_at": "2026-06-23T02:21:22Z",
-   "symbols": [
-    "ARKF",
-    "ARKK",
-    "ARKQ",
-    "ARKW",
-    "ARKX"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/23/Cathie-Woods-Ark-Dumps-1-6-Million-In-Ro.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "SpaceX, Micron Technology, Super Micro Computer, Netflix And Palantir: Why These 5 Stocks Are On Investors' Radars Today",
-   "summary": "Major U.S. indices finished mixed on Monday, with the Dow Jones Industrial Average gaining 0.29% to close at 51,712.71.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/06/60033576/spacex-micron-technology-super-micro-computer-netflix-and-palantir-why-these-5-stocks-are-on-investors-radars-today",
-   "created_at": "2026-06-23T01:28:13Z",
-   "symbols": [
-    "MU",
-    "NFLX",
-    "PLTR",
-    "SMCI",
-    "SPCX"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/23/Stock-Market-Sell-off-During-Market-Cras.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Bitcoin, Ethereum, XRP, Dogecoin Slide As 'Smart Money' Sentiment Weakens: Analyst Says BTC Could Rise In July If History Repeats Itself",
-   "summary": "Leading cryptocurrencies extended losses on a volatile Monday, June 2022, despite the U.S. and Iran signing key agreements as part of a peace deal.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/06/60033652/bitcoin-ethereum-xrp-dogecoin-slide-as-smart-money-sentiment-weakens-analyst-sees-july-upside-for-btc",
-   "created_at": "2026-06-23T01:59:55Z",
-   "symbols": [
-    "BMNR",
-    "BTCUSD",
-    "DOGEUSD",
-    "ETHUSD",
-    "MSTR"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/23/Cryptocurrency--Focus-Bitcoin-On-Tablet-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Meta Pauses AI Tool That Monitored Employee Keystrokes Amid Fears Sensitive Employee Data Exposed: 'We're Pausing, While We Investigate'",
-   "summary": "Meta paused an AI training program after concerns that sensitive employee data may have been exposed internally.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/06/60033611/meta-pauses-ai-keystroke-monitoring-tool-over-employee-data-exposure-concerns",
-   "created_at": "2026-06-23T01:51:08Z",
-   "symbols": [
-    "META"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/23/Ljubljana--Slovenia---21-January-2023-Me.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Maye Musk 'Reprimanded' Daily By Women Who Sent $20,000 or $40,000 After Supposedly Getting 'Proposals' From Her Son: 'They Are Probably Fake…'",
-   "summary": "Maye Musk warned that fake Elon Musk accounts are scamming victims out of thousands through romance and investment fraud.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/06/60033496/maye-musk-says-women-lost-thousands-to-fake-elon-musk-marriage-scams",
-   "created_at": "2026-06-23T01:02:45Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/23/Almaty--Kazakhstan---10-17-2024--Maye-Mu.jpg?width=1024&height=768"
   }
  ]
 }
