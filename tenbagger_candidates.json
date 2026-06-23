@@ -1,12 +1,12 @@
 {
- "updated": "2026-06-24 04:01",
+ "updated": "2026-06-24 04:31",
  "candidates": [
   {
    "symbol": "CMCSA",
    "score": 8,
-   "price": 23.0,
+   "price": 22.88,
    "reasons": [
-    "52주고점 대비 -29%",
+    "52주고점 대비 -30%",
     "과매도 탈출+MA5 회복",
     "PER 6(저평가)",
     "PBR 0.9",
@@ -16,17 +16,17 @@
   {
    "symbol": "PL",
    "score": 6,
-   "price": 28.64,
+   "price": 28.41,
    "reasons": [
-    "52주고점 대비 -44%",
+    "52주고점 대비 -45%",
     "과매도 탈출+MA5 회복",
-    "시총 $10.2B(소형)"
+    "시총 $10.1B(소형)"
    ]
   },
   {
    "symbol": "KHC",
    "score": 4,
-   "price": 22.48,
+   "price": 22.5,
    "reasons": [
     "PER 11(저평가)",
     "PBR 0.6",
@@ -36,16 +36,16 @@
   {
    "symbol": "NOC",
    "score": 4,
-   "price": 513.91,
+   "price": 511.67,
    "reasons": [
     "52주고점 대비 -33%",
-    "RSI 34 과매도"
+    "RSI 33 과매도"
    ]
   },
   {
    "symbol": "T",
    "score": 4,
-   "price": 22.91,
+   "price": 22.94,
    "reasons": [
     "PER 9(저평가)",
     "PBR 1.5",
@@ -55,7 +55,7 @@
   {
    "symbol": "F",
    "score": 4,
-   "price": 14.06,
+   "price": 14.04,
    "reasons": [
     "PER 8(저평가)",
     "PBR 1.5",
@@ -65,7 +65,7 @@
   {
    "symbol": "GM",
    "score": 4,
-   "price": 79.17,
+   "price": 79.18,
    "reasons": [
     "PER 6(저평가)",
     "PBR 1.1",
@@ -75,10 +75,10 @@
   {
    "symbol": "LUNR",
    "score": 4,
-   "price": 21.07,
+   "price": 20.8,
    "reasons": [
     "52주고점 대비 -54%",
-    "시총 $3.4B(소형)"
+    "시총 $3.3B(소형)"
    ]
   }
  ]
