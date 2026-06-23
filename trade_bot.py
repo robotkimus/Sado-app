@@ -819,6 +819,35 @@ def market_is_open():
 
 
 # ── Claude에게 판단 요청 ──
+def _claude_call_with_retry(body, tries=4):
+    """Claude API 호출 + 529(Overloaded)·일시 오류 시 대기 후 재시도.
+    Anthropic 서버 혼잡으로 봇이 통째로 죽는 걸 막는다."""
+    last = None
+    for attempt in range(tries):
+        try:
+            return http_json(
+                "https://api.anthropic.com/v1/messages", method="POST",
+                headers={"x-api-key": ANTHROPIC_KEY, "anthropic-version": "2023-06-01",
+                         "content-type": "application/json"},
+                body=body)
+        except urllib.error.HTTPError as e:
+            # 401·크레딧 부족 등 영구 오류는 재시도 안 함
+            if e.code in (401, 403):
+                raise
+            last = e
+            if attempt < tries - 1:
+                wait = 5 * (attempt + 1)
+                log(f"⏳ Claude 호출 일시 오류(HTTP {e.code}) — {wait}초 후 재시도 ({attempt+1}/{tries})")
+                time.sleep(wait)
+        except Exception as e:
+            last = e
+            if attempt < tries - 1:
+                wait = 5 * (attempt + 1)
+                log(f"⏳ Claude 호출 오류({e}) — {wait}초 후 재시도 ({attempt+1}/{tries})")
+                time.sleep(wait)
+    raise last if last else RuntimeError("Claude 호출 실패")
+
+
 def ask_claude(account, positions, market, regime=None, session="regular"):
     session_kr = _SESSION_KR.get(session, session)
     # 세션별로 두 AI에 동일한 거래 규칙을 주입 (판단 통일의 핵심)
@@ -938,10 +967,7 @@ def ask_claude(account, positions, market, regime=None, session="regular"):
         '{"decisions":[{"action":"buy|sell","symbol":"JPM","qty":3,"conviction":"normal","tier":"core","reason":"한 문장 근거"}],'
         '"market_view":"오늘 시장 국면 판단, 왜 매수/매도/관망했는지 핵심 근거, 포트폴리오 분산·레버리지·현금 비중에 대한 평가를 자세히. 나중에 사람이 봇의 판단을 복기할 수 있도록 솔직하고 구체적으로 충분히 설명하되, 5~8문장(800자 내외)을 넘지 말 것. 반드시 완결된 JSON으로 끝맺고 마지막 문장은 마침표로 끝낼 것."}'
     )
-    res = http_json(
-        "https://api.anthropic.com/v1/messages", method="POST",
-        headers={"x-api-key": ANTHROPIC_KEY, "anthropic-version": "2023-06-01",
-                 "content-type": "application/json"},
+    res = _claude_call_with_retry(
         body={"model": "claude-sonnet-4-6", "max_tokens": 4000,
               "messages": [{"role": "user", "content": prompt}]})
     text = "".join(b.get("text", "") for b in res.get("content", []))
@@ -1714,29 +1740,53 @@ def main():
         return 1
 
     # ── 2단계: Anthropic(Claude) 연결 테스트 ──
-    try:
-        ping = http_json(
-            "https://api.anthropic.com/v1/messages", method="POST",
-            headers={"x-api-key": ANTHROPIC_KEY, "anthropic-version": "2023-06-01",
-                     "content-type": "application/json"},
-            body={"model": "claude-sonnet-4-6", "max_tokens": 16,
-                  "messages": [{"role": "user", "content": "ping"}]})
-        log("✅ [2단계] Claude API 연결 성공")
-    except urllib.error.HTTPError as e:
-        detail = ""
+    # 529(Overloaded)·500대 일시 오류는 Anthropic 서버 혼잡이므로 몇 번 재시도한다.
+    ping_ok = False
+    last_err = ""
+    for attempt in range(4):
         try:
-            detail = e.read().decode("utf-8", "replace")[:300]
-        except Exception:
-            pass
-        log(f"❌ [2단계] Claude API 실패 (HTTP {e.code}) {detail}")
-        if e.code == 401:
-            log("   → API 키가 잘못됐어요. console.anthropic.com 에서 키를 재확인하세요.")
-        elif e.code == 400 and "credit" in detail.lower():
-            log("   → 크레딧 부족이에요. Billing에서 충전 상태를 확인하세요.")
-        return 1
-    except Exception as e:
-        log(f"❌ [2단계] Claude API 오류: {e}")
-        return 1
+            ping = http_json(
+                "https://api.anthropic.com/v1/messages", method="POST",
+                headers={"x-api-key": ANTHROPIC_KEY, "anthropic-version": "2023-06-01",
+                         "content-type": "application/json"},
+                body={"model": "claude-sonnet-4-6", "max_tokens": 16,
+                      "messages": [{"role": "user", "content": "ping"}]})
+            log("✅ [2단계] Claude API 연결 성공")
+            ping_ok = True
+            break
+        except urllib.error.HTTPError as e:
+            detail = ""
+            try:
+                detail = e.read().decode("utf-8", "replace")[:300]
+            except Exception:
+                pass
+            last_err = f"HTTP {e.code} {detail}"
+            # 401(키 오류)·크레딧 부족은 재시도해도 소용없으니 즉시 중단
+            if e.code == 401:
+                log(f"❌ [2단계] Claude API 실패 ({last_err})")
+                log("   → API 키가 잘못됐어요. console.anthropic.com 에서 키를 재확인하세요.")
+                return 1
+            if e.code == 400 and "credit" in detail.lower():
+                log(f"❌ [2단계] Claude API 실패 ({last_err})")
+                log("   → 크레딧 부족이에요. Billing에서 충전 상태를 확인하세요.")
+                return 1
+            # 529(과부하)·500대 등 일시 오류 → 대기 후 재시도
+            wait = 5 * (attempt + 1)   # 5, 10, 15초
+            log(f"⏳ [2단계] Claude API 일시 오류({last_err}) — {wait}초 후 재시도 ({attempt+1}/4)")
+            time.sleep(wait)
+        except Exception as e:
+            last_err = str(e)
+            wait = 5 * (attempt + 1)
+            log(f"⏳ [2단계] Claude API 오류({last_err}) — {wait}초 후 재시도 ({attempt+1}/4)")
+            time.sleep(wait)
+
+    if not ping_ok:
+        # 4번 재시도도 실패: Anthropic 서버 혼잡일 가능성이 큼.
+        # 봇을 죽이지 않고 '이번 실행만 관망'으로 우아하게 종료(다음 시간에 재시도).
+        log(f"❌ [2단계] Claude API 연결 실패(재시도 소진): {last_err}")
+        log("   → Anthropic 서버 과부하일 수 있어요. 이번 실행은 건너뛰고 다음 시간에 재시도합니다.")
+        return 0   # exit 0: 워크플로 실패로 안 뜨게(빨간 X 방지)
+
 
     # ── 3단계: 관심종목 시세 ──
     with open("watchlist.txt", encoding="utf-8") as f:
