@@ -1,81 +1,62 @@
 {
- "updated": "2026-06-24 00:24",
+ "updated": "2026-06-24 01:02",
  "candidates": [
   {
-   "symbol": "CERT",
-   "score": 8,
-   "price": 5.36,
+   "symbol": "CRM",
+   "score": 5,
+   "price": 153.62,
+   "reasons": [
+    "52주고점 대비 -42%",
+    "RSI 34 과매도",
+    "PER 10(저평가)"
+   ]
+  },
+  {
+   "symbol": "ADBE",
+   "score": 5,
+   "price": 197.91,
+   "reasons": [
+    "52주고점 대비 -45%",
+    "RSI 30 과매도",
+    "PER 7(저평가)"
+   ]
+  },
+  {
+   "symbol": "INTU",
+   "score": 5,
+   "price": 258.91,
+   "reasons": [
+    "52주고점 대비 -62%",
+    "RSI 30 과매도",
+    "PER 9(저평가)"
+   ]
+  },
+  {
+   "symbol": "PYPL",
+   "score": 5,
+   "price": 41.92,
+   "reasons": [
+    "52주고점 대비 -40%",
+    "PER 7(저평가)",
+    "그레이엄 기준 충족"
+   ]
+  },
+  {
+   "symbol": "TEAM",
+   "score": 4,
+   "price": 81.57,
    "reasons": [
     "52주고점 대비 -54%",
-    "PER 13(저평가)",
-    "PBR 0.8",
-    "그레이엄 기준 충족",
-    "시총 $0.8B(소형)"
+    "PER 13(저평가)"
    ]
   },
   {
-   "symbol": "PATH",
-   "score": 6,
-   "price": 10.3,
-   "reasons": [
-    "52주고점 대비 -47%",
-    "PER 11(저평가)",
-    "시총 $5.3B(소형)"
-   ]
-  },
-  {
-   "symbol": "UPST",
-   "score": 6,
-   "price": 31.62,
-   "reasons": [
-    "52주고점 대비 -38%",
-    "PER 9(저평가)",
-    "시총 $3.0B(소형)"
-   ]
-  },
-  {
-   "symbol": "NVTS",
+   "symbol": "WDAY",
    "score": 4,
-   "price": 21.89,
+   "price": 115.85,
    "reasons": [
-    "52주고점 대비 -31%",
-    "시총 $5.3B(소형)"
-   ]
-  },
-  {
-   "symbol": "INDI",
-   "score": 4,
-   "price": 3.8,
-   "reasons": [
-    "52주고점 대비 -29%",
-    "시총 $0.8B(소형)"
-   ]
-  },
-  {
-   "symbol": "TEM",
-   "score": 4,
-   "price": 48.73,
-   "reasons": [
-    "52주고점 대비 -46%",
-    "시총 $8.7B(소형)"
-   ]
-  },
-  {
-   "symbol": "RXRX",
-   "score": 4,
-   "price": 3.17,
-   "reasons": [
-    "52주고점 대비 -43%",
-    "시총 $1.7B(소형)"
-   ]
-  },
-  {
-   "symbol": "HIMS",
-   "score": 4,
-   "price": 34.01,
-   "reasons": [
-    "52주고점 대비 -25%",
-    "시총 $7.8B(소형)"
+    "52주고점 대비 -52%",
+    "PER 9(저평가)"
    ]
   }
  ]
