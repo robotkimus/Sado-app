@@ -1,6 +1,32 @@
 {
- "updated": "2026-06-23 17:00",
+ "updated": "2026-06-23 18:01",
  "items": [
+  {
+   "headline": "Stock Market: Will S&P 500 Open Up Or Down Today?",
+   "summary": "June 23, 2026: Polymarket traders turn overwhelmingly bearish on the S&amp;P 500 open on Tuesday after a technology-led market selloff.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/06/60035209/sp500-june-23-open-up-or-down-polymarket-tech-selloff-fed-inflation",
+   "created_at": "2026-06-23T08:44:16Z",
+   "symbols": [
+    "AMD",
+    "AMZN",
+    "CCL",
+    "GOOG",
+    "GOOGL"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/23/Cyberpunk-Photo-Of-An-Upward-trending-Sa.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Ted Cruz Says China Is Spending 'A Lot Of Money' To Scare Americans Away From AI",
+   "summary": "Ted Cruz says Chinese communists are funding anti-AI messaging efforts to amplify U.S. fears of AI and slow American innovation.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/06/60035199/ted-cruz-alleges-china-is-fueling-ai-fear-campaigns-in-us",
+   "created_at": "2026-06-23T08:42:16Z",
+   "symbols": [
+    "NVDA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/23/Ted-Cruz.jpg?width=1024&height=768"
+  },
   {
    "headline": "Semiconductor Stocks See 'Rare Surge' As SOX Index Hits Dot-Com Bubble-Era Volatility Levels",
    "summary": "The $SOX index hits extreme volatility matching the 2000 Dot-Com Bubble. What this rare surge in semiconductor stocks means for tech.",
@@ -184,34 +210,84 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/06/22/Super-Micro-Computer--Inc.jpg?width=1024&height=768"
   },
   {
-   "headline": "Amazon Says Its Data Centers Use 86% Less Water Than Industry Average",
-   "summary": "Amazon says its data centers used 2.5 billion gallons of water in 2025 but achieved water efficiency levels 86% better than the industry average.",
+   "headline": "After Calling For Elon Musk To Be Investigated, Ro Khanna Faces A $10 Million Challenge From Billionaire David Friedberg",
+   "summary": "Khanna criticized Friedberg&#39;s stance on wealth tax, Friedberg asked Khanna to make a 5% voluntary contribution from his $200M net worth.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/06/60020190/amazon-says-its-data-centers-use-86-less-water-than-industry-average",
-   "created_at": "2026-06-22T15:39:22Z",
+   "url": "https://www.benzinga.com/news/politics/26/06/60035293/elon-musk-investigate-ro-khanna-10-million-challenge-david-friedberg",
+   "created_at": "2026-06-23T08:55:14Z",
    "symbols": [
-    "AMZN",
-    "GOOG",
-    "GOOGL",
-    "META",
-    "MSFT"
+    "SPCX",
+    "TSLA"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/22/USPS-Revenue-Reliant-on-Amazon.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/23/Washington--Dc--September-27--2021-Rep--.jpg?width=1024&height=768"
   },
   {
-   "headline": "'Big Short' Star Steve Eisman Turns Bearish On Hyperscalers (But Not Nvidia)",
-   "summary": "&#39;Big Short&#39; investor Steve Eisman says AI capex is turning the hyperscalers into airlines. He&#39;s still backing Nvidia, and so is Polymarket.",
+   "headline": "Xiaomi Launches Robotic EV Charging Arm That Automatically Plugs In Parked Cars, Reviving A Tesla Idea Elon Musk Never Delivered",
+   "summary": "Xiaomi launched a robotic arm to charge EVs without human assistance, potentially bringing the feature to mass market.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/prediction-markets/26/06/60020062/big-short-star-steve-eisman-turns-bearish-on-hyperscalers-but-not-nvidia",
-   "created_at": "2026-06-22T15:36:07Z",
+   "url": "https://www.benzinga.com/markets/tech/26/06/60035186/xiaomi-launches-robotic-ev-charging-arm-that-automatically-plugs-in-parked-cars-reviving-a-tesla-idea-elon-musk-never-delivered",
+   "created_at": "2026-06-23T08:40:27Z",
+   "symbols": [
+    "LI",
+    "TSLA",
+    "XIACF",
+    "XIACY"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/23/Paris--France---June-16--2023-Elon-Musk-.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Tim Scott, Elizabeth Warren Score Senate Win On Biggest Housing Bill In 30 Years— But Will It Actually Lower Home Prices?",
+   "summary": "Senate passes major housing bill targeting supply shortages and Wall Street home buying amid rising affordability concerns.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/real-estate/26/06/60035175/tim-scott-elizabeth-warren-score-senate-win-on-biggest-housing-bill-in-30-years-but-will-it-actually-lower-home-prices",
+   "created_at": "2026-06-23T08:39:05Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/23/Small-Model-House-On-Layer-Of-One-Hundre.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Tucker Carlson Ditches GOP Over Trump's Iran War and Israel Policy— Marjorie Taylor Greene Says He's 'Not The Only One': 'There's No Chance...'",
+   "summary": "Tucker Carlson quits the GOP, saying he&#39;d never support the Republican Party again amid Iran and Israel policy disputes.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/06/60035149/tucker-carlson-ditches-gop-over-trumps-iran-war-and-israel-policy-marjorie-taylor-greene-says-hes-not-the-only-one-theres-no-chance",
+   "created_at": "2026-06-23T08:25:04Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/23/Milwaukee--Wisconsin---July-18--2024-Tuc.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Bought SpaceX At The IPO? You're Up 23%. Bought The Peak? You're 'Down Almost 25%,' Says Mohamed El-Erian",
+   "summary": "Mohamed El-Erian called SpaceX&#39;s post-IPO plunge &#34;wild&#34; after the company lost over $400 billion in value.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/06/60035140/bought-spacex-at-the-ipo-youre-up-23-bought-the-peak-youre-down-almost-25-says-mohamed-el-erian",
+   "created_at": "2026-06-23T08:22:51Z",
    "symbols": [
     "AMZN",
-    "ANET",
-    "CSCO",
-    "GOOGL",
-    "NVDA"
+    "SPCX"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/22/Nvidia-office-building--Taipei--Taiwan.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/23/Spacex-Logo-On-A-Mobile-Phone-Screen-Wit.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Bernie Sanders Says AI Wealth Belongs To The Public, Not Tech 'Oligarchs'",
+   "summary": "Sanders proposes the American AI Sovereign Wealth Fund Act to give a public ownership stake in the rapidly growing sector.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/06/60035067/bernie-sanders-says-ai-wealth-belongs-to-the-public-not-tech-oligarchs",
+   "created_at": "2026-06-23T08:10:30Z",
+   "symbols": [
+    "BOX"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/23/Des-Moines--Iowa---September-21--2019-Be.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "OPEN CEO Takes $1 Salary As $741 Million Tesla-Style Pay Package Bets On A Housing Market Turnaround",
+   "summary": "Opendoor&#39;s CEO makes $1 in cash and $741M in stock alignment, a performance package echoing Tesla&#39;s legendary pay milestones.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/06/60035040/open-ceo-takes-1-salary-as-741-million-tesla-style-pay-package-bets-on-a-housing-market-turnaround",
+   "created_at": "2026-06-23T08:04:30Z",
+   "symbols": [
+    "OPEN",
+    "SHOP",
+    "TSLA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/23/Opendoor-Technologies-Inc.jpg?width=1024&height=768"
   },
   {
    "headline": "Trump Helping His 'Big Oil Friends' While The Planet Heats Up, Bernie Sanders Says",
@@ -422,91 +498,6 @@
    "created_at": "2026-06-23T04:39:54Z",
    "symbols": [],
    "image": "https://cdn.benzinga.com/files/images/story/2026/06/23/Nikki-Haley-Speaks-On-The-2nd-Day-Of-Cpa.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Peter Schiff Says Elon Musk Lost 'More Than' Warren Buffett Worth Of Fortune In One Day, But 'Don't Feel Sorry For Him': Here's Why",
-   "summary": "Peter Schiff says Elon Musk lost $150 billion on paper as SpaceX shares tumbled, bigger than Buffett&#39;s net worth.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/space/26/06/60033981/peter-schiff-says-elon-musk-lost-more-than-warren-buffetts-fortune-in-a-day",
-   "created_at": "2026-06-23T04:38:27Z",
-   "symbols": [
-    "BRK",
-    "HOOD",
-    "PLTR",
-    "SPCX"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/23/Paris--France---June-16--2023-Elon-Musk-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "XRP 'Opposite' Of Losing Relevance, Says Analyst: The Coin May Be Quiet On Price, But It Is Loud On Participation",
-   "summary": "A widely followed cryptocurrency analyst countered on Monday, June 22, price concerns for XRP by highlighting the token&#39;s strong trading volume across global exchanges in recent days.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/06/60033966/xrp-opposite-of-losing-relevance-analyst-says-price-is-quiet-but-participation-is-loud",
-   "created_at": "2026-06-23T04:33:26Z",
-   "symbols": [
-    "BTCUSD",
-    "XRPUSD",
-    "ZECUSD"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/23/Kyiv--Ukraine---August-17--2024-Ripple-X.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Qualcomm's Next AI bet? Reportedly Eyes A $4 Billion Deal For Startup Modular",
-   "summary": "Qualcomm is reportedly in advanced discussions to acquire Modular Inc in a transaction that could value the AI company at about $4 ‌billion. ",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/06/60033944/qualcomms-next-ai-bet-reportedly-eyes-4-billion-deal-for-startup-modular",
-   "created_at": "2026-06-23T04:21:30Z",
-   "symbols": [
-    "QCOM"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/23/Yogyakarta--Indonesia-On-September-13--2.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Iran Claims Authority Over Strait Of Hormuz, Denies New IAEA Deal After US Oil Waiver",
-   "summary": "Ghalibaf reaffirms Iran will administer Strait of Hormuz as US issues 60-day license to export Iranian oil.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/06/60033930/iran-claims-authority-over-strait-of-hormuz-denies-new-iaea-deal-after-us-oil-waiver",
-   "created_at": "2026-06-23T04:15:51Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/23/The-Iranian-Flag-Is-Visible-On-The-Scree.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Mike Tyson Plays The Harp To Promote Arbitrum And Ethereum-Based Prediction Market: Ad Featuring The Boxing Legend Captures Soccer World Cup Energy",
-   "summary": "Boxing legend Mike Tyson dropped a video advertisement on Monday, June 22, endorsing Rain Trade, a cryptocurrency-based prediction market platform.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/prediction-markets/26/06/60033849/mike-tyson-promotes-arbitrum-prediction-market-in-world-cup-themed-ad",
-   "created_at": "2026-06-23T03:25:36Z",
-   "symbols": [
-    "ARB",
-    "ARBUSD",
-    "BTCUSD",
-    "ETHUSD"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/23/New-York---August-28--2023-Former-Boxing.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Trump Signs Executive Orders That Bolster America As World Leader In Quantum Computing: D-Wave, Rigetti, IonQ Stocks Pop After Hours",
-   "summary": "Trump signs two quantum orders to boost computing and cybersecurity as U.S.-China tech competition intensifies.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/06/60033828/trump-signs-quantum-computing-orders-as-d-wave-rigetti-and-ionq-stocks-jump",
-   "created_at": "2026-06-23T03:20:17Z",
-   "symbols": [
-    "IBM",
-    "INFQ",
-    "IONQ",
-    "QBTS",
-    "QUBT"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/23/Washington-dc--United-States--April-14-2.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Chuck Schumer Says The Reflecting Pool Is A 'Perfect Picture' Of Trump's White House Stint: 'America Needs A President, Not A Pool Boy'",
-   "summary": "Schumer criticizes Trump for prioritizing pool renovation over struggling Americans. Trump blames vandals for project issues.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/06/60033768/chuck-schumer-says-reflecting-pool-is-a-perfect-picture-of-trumps-presidency",
-   "created_at": "2026-06-23T02:31:27Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/23/Chuck-Schumer-during-a-press-conference-.jpg?width=1024&height=768"
   }
  ]
 }
