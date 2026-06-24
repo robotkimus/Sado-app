@@ -513,7 +513,88 @@ def summarize(sym, series):
     }
 
 
-def assess_regime():
+def auto_hedge_decision(regime, positions, account, market):
+    """하락장에서 인버스(SQQQ/SOXS) 헷지를 자동으로 넣는다(AI 재량이 아니라 코드로 강제).
+    - 조정 국면: 헷지 안 함(현금 확보로 방어 — execute에서 매수 축소).
+    - 하락장 국면: 인버스 미보유 시 소량(자산 5%) 자동 진입.
+    반환: 헷지 매수 decision 또는 None."""
+    label = (regime or {}).get("label", "")
+    if label != "하락장":
+        return None
+    # 이미 인버스 보유 중이면 추가 안 함
+    held = {str(p.get("symbol", "")).upper() for p in (positions or [])}
+    if held & INVERSE_TICKERS:
+        return None
+    # 헷지 대상 선택: 반도체가 더 약하면 SOXS, 아니면 SQQQ
+    breadth = regime.get("breadth", {})
+    # 시장 전반 약세 → 나스닥 인버스(SQQQ) 기본. 반도체 신저가 많으면 SOXS.
+    hedge_sym = "SQQQ"
+    soxx = next((m for m in market if m.get("symbol") == "SOXX"), None)
+    qqq = next((m for m in market if m.get("symbol") == "QQQ"), None)
+    if soxx and qqq:
+        if (soxx.get("chg_1d_pct") or 0) < (qqq.get("chg_1d_pct") or 0) - 1:
+            hedge_sym = "SOXS"   # 반도체가 더 약하면 반도체 인버스
+    # 인버스 시세가 watchlist에 있어야 매수 가능
+    inv = next((m for m in market if m.get("symbol") == hedge_sym), None)
+    if not inv or not inv.get("price"):
+        return None
+    equity = account.get("equity", 0)
+    price = inv["price"]
+    # 자산 3% 한도(분할 진입 — 한 번에 크게 헷지하지 않음), 최소 1주
+    budget = equity * 0.03
+    qty = int(budget / price) if price > 0 else 0
+    if qty < 1:
+        return None
+    return {
+        "symbol": hedge_sym, "action": "buy", "qty": qty,
+        "conviction": "normal",
+        "reason": f"[자동 헷지] 하락장 국면 — {hedge_sym} 인버스로 포트폴리오 방어(자산 3% 한도). "
+                  f"폭: {breadth.get('summary','')}",
+    }
+
+
+def assess_breadth(market):
+    """시장 폭(breadth) 계산 — 지수가 아니라 '실제 종목들이 얼마나 무너졌나'를 본다.
+    트레이더들이 단기 조정과 진짜 하락장을 구분할 때 쓰는 핵심 지표.
+    SPY는 빅테크가 버티면 멀쩡해 보여도, 폭은 표면 아래 약세를 드러낸다.
+    반환: {pct_above_ma5, pct_declining, pct_new_low, count, summary}"""
+    total = above5 = declining = newlow = 0
+    for m in market:
+        sym = m.get("symbol", "")
+        if not sym or is_crypto(sym):
+            continue
+        # 인버스/레버리지는 폭 계산에서 제외(시장 방향과 반대거나 왜곡)
+        if sym in INVERSE_TICKERS or sym in LEVERAGE_TICKERS:
+            continue
+        price = m.get("price")
+        ma5 = m.get("ma5")
+        chg = m.get("chg_1d_pct")
+        off = m.get("off_52w_high_pct")
+        if price is None:
+            continue
+        total += 1
+        if ma5 and price >= ma5:
+            above5 += 1
+        if chg is not None and chg < 0:
+            declining += 1
+        if off is not None and off <= -25:   # 52주 고점 대비 -25%↓ = 신저가권
+            newlow += 1
+    if total < 10:
+        return {"count": total, "pct_above_ma5": None, "pct_declining": None,
+                "pct_new_low": None, "summary": "표본 부족"}
+    pa = round(above5 / total * 100)
+    pd = round(declining / total * 100)
+    pn = round(newlow / total * 100)
+    return {
+        "count": total,
+        "pct_above_ma5": pa,        # 5일선 위 비율 (높을수록 건강)
+        "pct_declining": pd,        # 당일 하락 비율 (높을수록 약세)
+        "pct_new_low": pn,          # 신저가권 비율 (높을수록 위험)
+        "summary": f"5일선 위 {pa}% · 당일 하락 {pd}% · 신저가권 {pn}%",
+    }
+
+
+def assess_regime(market=None):
     """시장 전체 국면 판단 — SPY 추세 + VIX로 하락장/조정/상승장 구분.
     역대 하락장(2008, 2020, 2022)의 공통 신호를 기준으로 함."""
     regime = {"label": "불명", "detail": "", "vix": None, "spy_vs_ma20": None, "spy_vs_ma60": None}
@@ -550,21 +631,40 @@ def assess_regime():
             vix_val = None
         regime["vix"] = round(vix_val, 1) if vix_val else None
 
-        # 국면 판정 (역대 하락장 교훈 기반)
-        # 하락장: SPY가 60일선 아래 + 고점 대비 -10% 이상 + (VIX 높으면 강화)
+        # ── 국면 판정: 지수 추세 + 시장 폭(breadth) + VIX 종합 ──
+        # 트레이더 방식: 지수만 보지 말고 '실제 종목들이 얼마나 무너졌나'(폭)를 함께 본다.
+        breadth = assess_breadth(market) if market else {"pct_above_ma5": None,
+            "pct_declining": None, "pct_new_low": None, "summary": "폭 미계산"}
+        regime["breadth"] = breadth
+        pa = breadth.get("pct_above_ma5")    # 5일선 위 비율
+        pn = breadth.get("pct_new_low")      # 신저가권 비율
+
+        # 폭이 나쁜지 판정 (과반이 5일선 아래 + 신저가 다수)
+        breadth_bad = (pa is not None and pa <= 35) or (pn is not None and pn >= 30)
+        breadth_weak = (pa is not None and pa <= 50) or (pn is not None and pn >= 20)
+
         if spy_ma60 is not None and drawdown is not None:
+            # 1) 하락장: 지수도 무너지고(60일선 아래+고점-10%) 폭도 나쁨 → 헷지 국면
             if spy_ma60 < -2 and drawdown <= -10:
-                regime["label"] = "하락장/조정"
-                regime["detail"] = "SPY가 장기추세(60일선) 아래이고 고점 대비 큰 폭 하락. 방어 우선 국면."
-            elif spy_ma20 is not None and spy_ma20 < -3:
-                regime["label"] = "단기 약세"
-                regime["detail"] = "단기추세(20일선) 이탈. 신규 매수 신중, 손절 기준 엄격 적용."
-            elif spy_ma20 is not None and spy_ma20 > 1 and (vix_val is None or vix_val < 20):
+                regime["label"] = "하락장"
+                regime["detail"] = "지수가 장기추세(60일선) 아래·고점 대비 큰 폭 하락. 방어/헷지 우선 국면."
+            # 2) 폭이 심각하게 나쁘면 지수가 버텨도 하락장 취급 (섹터 광범위 붕괴)
+            elif breadth_bad and (spy_ma20 is None or spy_ma20 < 0):
+                regime["label"] = "하락장"
+                regime["detail"] = f"지수는 버텨도 시장 폭 붕괴({breadth['summary']}). 표면 아래 광범위 약세 — 헷지 검토."
+            # 3) 조정: 지수 단기 이탈 또는 폭 약세 → 현금 확보 국면
+            elif (spy_ma20 is not None and spy_ma20 < -3) or breadth_weak:
+                regime["label"] = "조정"
+                regime["detail"] = f"단기추세 이탈 또는 폭 약화({breadth['summary']}). 신규 매수 축소·현금 확보 국면."
+            # 4) 상승장: 지수 강세 + 폭 양호 + 변동성 안정
+            elif (spy_ma20 is not None and spy_ma20 > 1
+                  and (pa is None or pa >= 55)
+                  and (vix_val is None or vix_val < 20)):
                 regime["label"] = "상승장"
-                regime["detail"] = "추세 양호, 변동성 안정. 정상 운용 가능."
+                regime["detail"] = "추세 양호·시장 폭 건강·변동성 안정. 정상 운용 가능."
             else:
                 regime["label"] = "중립/혼조"
-                regime["detail"] = "뚜렷한 추세 없음. 종목별 선별 대응."
+                regime["detail"] = f"뚜렷한 추세 없음({breadth['summary']}). 종목별 선별 대응."
         if vix_val is not None and vix_val >= 30:
             regime["detail"] += " VIX 30 이상 — 공포 극심, 변동성 매우 큼."
     except Exception as e:
@@ -937,7 +1037,7 @@ def ask_claude(account, positions, market, regime=None, session="regular"):
         "- 하이리스크(저평가·과매도 역추세) 매수는 원칙적으로 두 AI 합의 시 실행하되, '격리 예산(작은 금액)'이라 한쪽 AI라도 high 확신이면 소량(절반) 시험 진입이 허용된다. 그러니 저평가 우량주에 확신이 서면 conviction을 'high'로 명확히 표하라. '많이 빠진 저평가 우량주'를 영영 안 사고 현금만 쌓는 것은 기회손실이다 — 하이리스크 예산 범위 안에서는 적극적으로 담아라.\n"
         "- 매도: 보유 손익이 손절선(-7%, 레버리지 -5%) 이하인 '진짜 손절'은 한쪽만 원해도 즉시 실행(방어 우선). 그러나 손절선 위인데 '리밸런싱·자금확보·약세' 같은 이유로 파는 '재량 매도'는 두 AI가 모두 동의해야 실행된다. 단순히 '주도섹터 자금 확보'를 위해 멀쩡한 보유 종목을 혼자 팔지 말 것 — 현금은 이미 충분하다.\n\n"
         f"[현재 시장 국면] {json.dumps({k:v for k,v in regime.items() if k!='sectors'}, ensure_ascii=False) if regime else '판단 안 됨'}\n"
-        "  → 위 국면을 반드시 반영할 것. '하락장/조정'이나 '단기 약세'면 신규 매수를 크게 줄이고 방어·현금 우선. '상승장'이면 정상 운용.\n"
+        "  → 위 국면을 반드시 반영할 것. '하락장'이면 인버스 헷지+현금 우선, '조정'이면 신규 매수를 크게 줄이고 현금 확보 우선. '상승장'이면 정상 운용.\n"
         + (f"[섹터 흐름] {(regime or {}).get('sectors',{}).get('summary','')}\n"
            f"  섹터별 1·3개월 수익률: {json.dumps((regime or {}).get('sectors',{}).get('ranked',[]), ensure_ascii=False)}\n"
            "  → ★ 돈이 도는 주도 섹터(강세)를 추세추종으로 적극 따라붙어라. 이게 이 봇의 핵심 수익원이다. 주도 섹터(예: 반도체 강세 사이클)면 그 섹터 ETF(SOXX/SMH 등)와 그 섹터 강한 개별 종목을 분할로 매수하라. '이미 많이 올랐다'는 이유만으로 주도 섹터를 통째로 회피하지 말 것 — 추세추종은 원래 오르는 걸 사는 전략이다. 추세가 살아있으면(MA5·MA20 위, 거래량 동반) 분할로 따라붙고, 눌림목(단기 조정)이 오면 추가하라.\n"
@@ -1098,7 +1198,7 @@ def _consensus(claude_plan, deepseek_plan, positions=None, regime=None):
     consensus_log = []
     done_sell = set()   # 중복 매도 방지
     regime_label = (regime or {}).get("label", "")
-    defensive = regime_label in ("하락장/조정", "단기 약세")   # 방어 국면이면 솔로 진입 보수적
+    defensive = regime_label in ("하락장", "조정")   # 방어 국면이면 솔로 진입 보수적
 
     def _solo_lead_buy(x, sym, opponent_sells):
         # 한쪽 AI만 매수를 원할 때 소량 진입을 허용할지 판정.
@@ -1233,7 +1333,7 @@ def execute(decisions, account, positions, market, regime=None, block_buys=False
             is_lev = sym in LEVERAGE_TICKERS
             is_inv = sym in INVERSE_TICKERS
             regime_label = (regime or {}).get("label", "")
-            defensive = regime_label in ("하락장/조정", "단기 약세")
+            defensive = regime_label in ("하락장", "조정")
             if is_highrisk:
                 # ── 하이리스크 슬롯: 종목당 5% 고정, 하락장이어도 진입 허용(추세전환 판단은 AI가 함) ──
                 # 격리 예산(합계 20%)은 아래에서 별도 체크.
@@ -2048,8 +2148,8 @@ def main():
     except Exception as e:
         log(f"⚠️ 텐버거 후보 분석 실패: {e}")
 
-    # 시장 전체 국면 판단 (하락장 대응용)
-    regime = assess_regime()
+    # 시장 전체 국면 판단 (지수 + 시장 폭 종합 — 하락장/조정 대응용)
+    regime = assess_regime(market)
     log(f"✅ [3.5단계] 시장 국면: {regime.get('label')} — {regime.get('detail','')}")
 
     # 섹터 흐름(로테이션) 분석 — 돈이 어디로 도는지
@@ -2120,6 +2220,14 @@ def main():
         for ts in auto_sells:
             if str(ts["symbol"]).upper() not in ai_sell_syms:
                 decisions.append(ts)
+    # 하락장 자동 헷지: regime이 '하락장'이고 인버스 미보유면 코드로 강제 진입(AI 재량 아님).
+    # 조정 국면은 헷지 대신 현금 확보(execute에서 매수 축소)로 방어.
+    hedge = auto_hedge_decision(regime, positions, account, market)
+    if hedge:
+        already = {str(d.get("symbol", "")).upper() for d in decisions}
+        if hedge["symbol"].upper() not in already:
+            decisions.append(hedge)
+            log(f"🛡️ 하락장 자동 헷지 추가: {hedge['symbol']} {hedge['qty']}주")
     # 서킷브레이커: 계좌 전체가 고점 대비 크게 빠졌으면 신규 매수 중단(방어 최우선)
     block_buys, dd_pct, _peak = check_circuit_breaker(account.get("equity"))
     if block_buys:
