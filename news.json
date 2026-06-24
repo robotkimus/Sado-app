@@ -1,6 +1,44 @@
 {
- "updated": "2026-06-24 22:00",
+ "updated": "2026-06-24 22:42",
  "items": [
+  {
+   "headline": "What's Going On With Meta Platforms Stock Wednesday?",
+   "summary": "Meta Platforms shares are edging higher Wednesday as AI-agent debate over monetizing user behavior intensifies.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/06/60069401/whats-going-on-with-meta-platforms-stock-wednesday-3",
+   "created_at": "2026-06-24T13:39:03Z",
+   "symbols": [
+    "META"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/24/New-York--Usa---14-December-2024-Meta-Pl.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Reid Hoffman Questions Elon Musk's AI Strategy At SpaceX: 'You're A Premium-Priced CoreWeave'",
+   "summary": "Reid Hoffman criticized Elon Musk&#39;s AI strategy, calling xAI a &#34;train wreck&#34; and likening SpaceX to CoreWeave.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/06/60069095/reid-hoffman-questions-elon-musks-ai-strategy-at-spacex-youre-a-premium-priced-coreweave",
+   "created_at": "2026-06-24T13:33:16Z",
+   "symbols": [
+    "CRWV",
+    "GME",
+    "MSFT",
+    "SPCX"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/24/Paris--France---February-3--2026-A-Horiz.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Tesla, Sunrun Team Up To Use Home Batteries And Solar To Power AI Data Centers",
+   "summary": "Tesla, Sunrun and Renew Home plan to use home batteries, solar panels and smart devices to help power AI data centers amid rising energy demand.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/06/60068857/tesla-sunrun-team-up-to-use-home-batteries-and-solar-to-power-ai-data-centers",
+   "created_at": "2026-06-24T13:26:26Z",
+   "symbols": [
+    "NVDA",
+    "RUN",
+    "TSLA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/24/Modern-Data-Technology-Center-With-Serve.jpg?width=1024&height=768"
+  },
   {
    "headline": "Stock Market Today: Dow Jones, S&P 500 Futures Gain As Trump Targets Energy Firms Overcharging At The Pump— FedEx, Cerebras, Micron In Focus (UPDATED)",
    "summary": "U.S. stock futures pared earlier losses to advance on Wednesday, as the Dow Jones, Nasdaq 100 and S&amp;P 500 indices rose, following Tuesday&#39;s lower close.",
@@ -161,43 +199,172 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/06/24/Los-Angeles--California---24-January-202.jpg?width=1024&height=768"
   },
   {
-   "headline": "Elizabeth Warren Warns AI Could Eliminate Millions Of Jobs As Oracle Becomes Latest Big Tech To Reveal 21,000 Workforce Cuts: 'We Shouldn't Wait…'",
-   "summary": "Elizabeth Warren warned AI could eliminate millions of jobs after Oracle revealed 21,000 layoffs linked in part to AI adoption.",
+   "headline": "Bitcoin Plunges To $62,000: What Is Going On?",
+   "summary": "Julio Moreno says Bitcoin may be approaching a bear-market bottom, with its realized price near $53,000 acting as a historical &#34;value zone.&#34; However, Moreno cautions that on-chain demand remai",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/06/60061898/elizabeth-warren-warns-ai-could-eliminate-millions-of-jobs-after-oracles-latest-cuts",
-   "created_at": "2026-06-24T04:39:50Z",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/06/60069110/bitcoin-plunges-to-62000-what-is-going-on",
+   "created_at": "2026-06-24T13:34:44Z",
    "symbols": [
-    "COIN",
-    "CSCO",
+    "BTCUSD"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/24/Bitcoin-Digital-Cryptocurrency-Losing-Va.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Transcript: Crown Crafts Q4 2026 Earnings Conference Call",
+   "summary": "Crown Crafts (NASDAQ:CRWS) reported fourth-quarter financial results on Wednesday. The transcript from the company&#39;s fourth-quarter earnings call has been provided below.\nThis content is powered b",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/06/60068987/transcript-crown-crafts-q4-2026-earnings-conference-call",
+   "created_at": "2026-06-24T13:29:14Z",
+   "symbols": [
+    "CRWS"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_4.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Why Is Take-Two Interactive Stock Surging On Wednesday?",
+   "summary": "Take-Two Interactive stock trends higher after BTIG sets a $290 price forecast and Rockstar drops massive GTA 6 updates.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/06/60068939/why-is-take-two-interactive-stock-surging-on-wednesday",
+   "created_at": "2026-06-24T13:28:32Z",
+   "symbols": [
+    "TTWO"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/24/Kazan--Russia---August-19--2021-Take-two.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Icon Reports Q1 2026 Results: Full Earnings Call Transcript",
+   "summary": "Icon (NASDAQ:ICLR) held its first-quarter earnings conference call on Wednesday. Below is the complete transcript from the call.\nThis content is powered by Benzinga APIs. For comprehensive financial d",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/06/60068849/icon-reports-q1-2026-results-full-earnings-call-transcript",
+   "created_at": "2026-06-24T13:25:56Z",
+   "symbols": [
+    "ICLR"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_1.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Hertz Shares Slide After Announcing Unusual $100 Million Share Lending Offering",
+   "summary": "Hertz Global Holdings shares are trading lower Wednesday after the company announced a proposed offering of $100 million of common stock.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/06/60068681/hertz-shares-slide-after-announcing-unusual-100-million-share-lending-offering",
+   "created_at": "2026-06-24T13:23:35Z",
+   "symbols": [
+    "HTZ"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/24/Las-Vegas--Usa---April-13--2014-Hertz-Ca.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Pfizer Stock Trades Flat Following Mixed Phase 3 Lung Cancer Trial Data",
+   "summary": "Pfizer shares are trading flat in Wednesday&#39;s premarket as traders weigh mixed Phase 3 trial headlines alongside a firmer overnight tape.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/06/60068597/pfizer-stock-trades-flat-following-mixed-phase-3-lung-cancer-trial-data",
+   "created_at": "2026-06-24T13:20:25Z",
+   "symbols": [
+    "PFE"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/24/Pfizer-logo-on-building.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Worthington Enterprises Q4 2026 Earnings Call Transcript",
+   "summary": "Worthington Enterprises (NYSE:WOR) reported fourth-quarter financial results on Wednesday. The transcript from the company&#39;s fourth-quarter earnings call has been provided below.\nThis content is p",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/06/60068490/worthington-enterprises-q4-2026-earnings-call-transcript",
+   "created_at": "2026-06-24T13:15:38Z",
+   "symbols": [
+    "WOR"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_1.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Why Is Pulsenmore Stock Soaring Wednesday?",
+   "summary": "PLSM stock surges over 200% premarket as Pulsenmore partners with Ouma Health to bring FDA-authorized home ultrasound to the U.S.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/06/60068402/why-is-pulsenmore-stock-soaring-wednesday",
+   "created_at": "2026-06-24T13:12:24Z",
+   "symbols": [
+    "PLSM"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/24/Investors--Not-Corporations.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Leading And Lagging Sectors For June 24, 2026",
+   "summary": "Gainers\n\n\n\nSymbol\nName\nPrice\nChange ($)\nChange (%)\nVolume\n\n\n\n\n(NYSE:XLC)\nState Street Communication Services Select Sector SPDR ETF\n107.8400\n0.570\n0.53\n1.3K\n\n\n(NYSE:XLK)\nState Street Technology Select",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/etfs/sector-etfs/26/06/60068345/leading-and-lagging-sectors-june-24-2026",
+   "created_at": "2026-06-24T13:10:09Z",
+   "symbols": [
+    "XLB",
+    "XLC",
+    "XLE",
+    "XLF",
+    "XLI"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_3.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Absci Raises $100 Million In Equity To Fund AI-Designed Hair Loss And Endometriosis Program",
+   "summary": "Absci reported positive interim Phase 1 ABS-201 data and priced a $100 million stock offering to advance development.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/health-care/26/06/60068269/absci-raises-100-million-in-equity-to-fund-ai-designed-hair-loss-and-endometriosis-program",
+   "created_at": "2026-06-24T13:09:12Z",
+   "symbols": [
+    "ABSI"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/24/Balding-Man-Showing-His-Head-With-Thin-H.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "United Is About To Join American Airlines In An Exclusive Bullish Club Linked To Elon Musk",
+   "summary": "United Airlines is nearing a Golden Cross after accelerating its Starlink rollout. American Airlines has already joined the same club.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/technicals/26/06/60068254/united-is-about-to-join-american-airlines-in-an-exclusive-bullish-club-linked-to-elon-musk",
+   "created_at": "2026-06-24T13:08:09Z",
+   "symbols": [
+    "AAL",
+    "LUV",
+    "SPCX",
+    "UAL"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/24/Report-Flags-Starlink-Misuse.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "SpaceX: Has the Story Run Ahead Of The Stock — Or The Other Way Around?",
+   "summary": "SpaceX stock has become a battleground in just two weeks, with analysts divided on valuation and potential.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/06/60068127/spacex-has-the-story-run-ahead-of-the-stock-or-the-other-way-around",
+   "created_at": "2026-06-24T13:03:57Z",
+   "symbols": [
     "NET",
-    "NVDA",
-    "ORCL"
+    "PLTR",
+    "SPCX",
+    "TSLA"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/24/Arlington--Va---February-13--2020-Senato.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/24/Elon-Shadow-SPCX-SpaceX---EK.jpg?width=1024&height=768"
   },
   {
-   "headline": "Elon Musk's SpaceX Just Made Another Massive Fundraising Move After Its $86 Billion IPO Windfall",
-   "summary": "Elon Musk-led SpaceX raised $25B via unsecured notes weeks after $86B IPO amid Investor concerns over valuation.",
+   "headline": "Viking Advances New Amylin-Based Weight-Loss Drug Into Human Trials",
+   "summary": "Viking Therapeutics launches Phase 1 trial for obesity drug VK3019, a dual amylin/calcitonin receptor agonist. Read about the study.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/06/60061874/elon-musks-spacex-just-made-another-massive-fundraising-move-after-its-86-billion-ipo-windfall",
-   "created_at": "2026-06-24T04:24:06Z",
+   "url": "https://www.benzinga.com/news/health-care/26/06/60067991/viking-advances-new-amylin-based-weight-loss-drug-into-human-trials",
+   "created_at": "2026-06-24T13:01:21Z",
    "symbols": [
-    "NVDA",
-    "SPCX"
+    "VKTX"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/24/Spacex-Logo-On-A-Mobile-Phone-Screen-Wit.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/24/Woman-Stepping-On-Floor-Scale-And-Measur.jpg?width=1024&height=768"
   },
   {
-   "headline": "Cerebras CEO Says AI's Biggest Bottleneck Is No Longer Chips: 'Demand Is Not The Constraint. Supply Is Not The Constraint'",
-   "summary": "Cerebras CEO Andrew Feldman says data centers, not chips or demand, are AI&#39;s biggest bottleneck. ",
+   "headline": "This Nucor Analyst Turns Bullish; Here Are Top 4 Upgrades For Wednesday",
+   "summary": "Wall Street analysts upgraded various top stocks, including Nucor, Varonis, Invitation Homes, and Macerich. See what experts say about NUE.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/earnings/26/06/60061777/cerebras-ceo-says-ais-biggest-bottleneck-is-no-longer-chips",
-   "created_at": "2026-06-24T03:59:07Z",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/upgrades/26/06/60067802/this-nucor-analyst-turns-bullish-here-are-top-4-upgrades-for-wednesday",
+   "created_at": "2026-06-24T12:59:44Z",
    "symbols": [
-    "CBRS",
-    "META"
+    "INVH",
+    "MAC",
+    "NUE",
+    "OGE",
+    "PRCT"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/24/Paris--France---January-23--2026-The-Cer.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/24/Stuttgart--Germany---05-20-2022-Person-H.jpg?width=1024&height=768"
   },
   {
    "headline": "MoneyHero Q1 2026 Earnings Call: Complete Transcript",
@@ -330,184 +497,6 @@
     "CALC"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/06/24/Genetic-Research-And-Biotech-Science-Con.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "IAEA Chief Confirms Iran Nuclear Inspections Under US Deal Despite Tehran’s Pushback: ‘This Is Going To Happen’",
-   "summary": "IAEA chief Rafael Grossi confirmed inspections of Iran&#39;s nuclear sites will proceed under the interim US-Iran deal.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/06/60066810/iaea-chief-confirms-iran-nuclear-inspections-under-us-deal-despite-tehrans-pushback-this-is-going-to-happen",
-   "created_at": "2026-06-24T12:24:55Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/24/Nuclear-Power-Plant-And-Communication-Ne.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "'Dean Of Valuation' Aswath Damodaran Warns Private Credit Is 'Setting Itself Up For A Beating' Amid AI Data Center Lending Boom",
-   "summary": "NYU finance professor Aswath Damodaran slammed private credit lenders funding the artificial intelligence data-center boom, warning that the rapidly growing industry is becoming increasingly reckless ",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/private-markets/26/06/60066701/dean-of-valuation-aswath-damodaran-warns-private-credit-is-setting-itself-up-for-a-beating-amid-ai-data-center-lending-boom",
-   "created_at": "2026-06-24T12:23:23Z",
-   "symbols": [
-    "APO",
-    "BX"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/24/Private-Credit-Fund-Financing-Money-Loan.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Why Is Micron Technology Stock Surging Wednesday?",
-   "summary": "MU stock jumps premarket before Q3 results. Can Micron beat lofty expectations amid a tech rebound and soaring HBM demand?",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/06/60066684/why-is-micron-technology-stock-surging-wednesday",
-   "created_at": "2026-06-24T12:20:42Z",
-   "symbols": [
-    "MU"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/24/Micron-Technology-Logo-On-Circuit-Board.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "This Principal Financial Group Analyst Turns Bearish; Here Are Top 5 Downgrades For Wednesday",
-   "summary": "Top Wall Street analysts changed outlook on top names. View all changes on analyst ratings page. See what analysts think of these stocks.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/analyst-stock-ratings/downgrades/26/06/60066636/this-principal-financial-group-analyst-turns-bearish-here-are-top-5-downgrades-for-wednesday",
-   "created_at": "2026-06-24T12:17:50Z",
-   "symbols": [
-    "APGE",
-    "FTH",
-    "JD",
-    "NUVL",
-    "PFG"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/24/Analysts-Adjust-Progressive-Targets.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "EXCLUSIVE: AMASS Brands Targets THC Beverage Growth With Afterdream Investment",
-   "summary": "AMASS Brands enters a SAFE investment in Afterdream, securing rights to a 15.67% stake in the THC beverage brand.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/penny-stocks/26/06/60066626/exclusive-amass-brands-targets-thc-beverage-growth-with-afterdream-investment",
-   "created_at": "2026-06-24T12:16:47Z",
-   "symbols": [
-    "AMSS"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/24/Ice-Cold-Marijuana-Cannabis-Infused-Drin.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Trump’s DOGE Cuts Slashed Federal Student Aid Staff By 40%— And It's Raising Alarms Over America’s $1.7 Trillion Loan System",
-   "summary": "New watchdog report shows student aid staffing fell 40% during DOGE-era Education Department cuts.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/education/26/06/60066601/trumps-doge-cuts-slashed-federal-student-aid-staff-by-40-and-its-raising-alarms-over-americas-1-7-trillion-loan-system",
-   "created_at": "2026-06-24T12:16:01Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/24/Washington--Dc-Usa-September-5--2024-The.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "12 Consumer Discretionary Stocks Moving In Wednesday's Pre-Market Session",
-   "summary": "Gainers\n\nFort Technology (NASDAQ:FRTT) shares rose 59.9% to $2.83 during Wednesday&#39;s pre-market session. The company&#39;s market cap stands at $26.3 million. \nWendy&#39;s (NASDAQ:WEN) stock rose ",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/06/60066382/12-consumer-discretionary-stocks-moving-wednesday-s-pre-market-session",
-   "created_at": "2026-06-24T12:05:46Z",
-   "symbols": [
-    "AMBO",
-    "DHI",
-    "FRTT",
-    "GDHG",
-    "JZXN"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_1.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "12 Health Care Stocks Moving In Wednesday's Pre-Market Session",
-   "summary": "Gainers\n\nPulsenmore (NASDAQ:PLSM) stock increased by 152.0% to $8.59 during Wednesday&#39;s pre-market session. The company&#39;s market cap stands at $22.1 million. \nCatheter Precision (AMEX:VTAK) sh",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/06/60066381/12-health-care-stocks-moving-wednesday-s-pre-market-session",
-   "created_at": "2026-06-24T12:05:46Z",
-   "symbols": [
-    "ABSI",
-    "ANTX",
-    "ATLN",
-    "CUPR",
-    "EVGN"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_2.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "12 Industrials Stocks Moving In Wednesday's Pre-Market Session",
-   "summary": "Gainers\n\nMegan Holdings (NASDAQ:MGN) stock rose 49.0% to $0.26 during Wednesday&#39;s pre-market session. The market value of their outstanding shares is at $6.3 million. \nSunrun (NASDAQ:RUN) stock ro",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/06/60066380/12-industrials-stocks-moving-wednesday-s-pre-market-session",
-   "created_at": "2026-06-24T12:05:46Z",
-   "symbols": [
-    "BNC",
-    "CIIT",
-    "CLWT",
-    "FCEL",
-    "GPUS"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_2.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "12 Information Technology Stocks Moving In Wednesday's Pre-Market Session",
-   "summary": "Gainers\n\nWetouch Tech (NASDAQ:WETH) stock increased by 8.2% to $1.32 during Wednesday&#39;s pre-market session. The market value of their outstanding shares is at $14.5 million. \nBitzero Holdings (NAS",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/06/60066379/12-information-technology-stocks-moving-wednesday-s-pre-market-session",
-   "created_at": "2026-06-24T12:05:46Z",
-   "symbols": [
-    "AIBZ",
-    "CBRS",
-    "CEVA",
-    "CGTL",
-    "DAKT"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_4.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "FedEx, Cerebras Systems And Other Big Stocks Moving Lower In Wednesday’s Pre-Market Session",
-   "summary": "U.S. stock futures mixed, Nasdaq 100 up 100 points. FedEx falls after Q4 results, beating estimates but reporting reduced operating margin. Other stocks also down in pre-market.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/06/60066228/fedex-cerebras-systems-and-other-big-stocks-moving-lower-in-wednesdays-pre-market-session",
-   "created_at": "2026-06-24T12:03:03Z",
-   "symbols": [
-    "ANAB",
-    "CBRS",
-    "DHI",
-    "ECX",
-    "FDX"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/24/Budapest--Hungary---August-29--2014-Fede.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "EXCLUSIVE: Modular Medical Transitions To Commercial Stage With Pivot Insulin Pump Launch",
-   "summary": "Modular Medical launches Pivot tubeless insulin patch pump, marking first commercial rollout and real-world patient use.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/health-care/26/06/60066125/exclusive-modular-medical-transitions-to-commercial-stage-with-pivot-insulin-pump-launch",
-   "created_at": "2026-06-24T12:01:05Z",
-   "symbols": [
-    "MODD"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/24/Insulin-Pump-A-Small-Electronic-Device-T.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "FuelCell Energy Stock Jumps After Securing 380 MW Agreement With Fit Energy For Data Centers",
-   "summary": "FuelCell Energy shares are trading higher Wednesday after a strategic agreement with Fit Energy for up to 380 MW of data-center power.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/06/60065957/fuelcell-energy-stock-jumps-after-securing-380-mw-agreement-with-fit-energy-for-data-centers",
-   "created_at": "2026-06-24T11:59:12Z",
-   "symbols": [
-    "FCEL"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/24/Stuttgart--Germany---09-08-2023-Person-H.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "What's Going On With Super Micro Computer Stock Wednesday?",
-   "summary": "Super Micro (SMCI) stock gains premarket. Technical analysis shows stabilization as shares trade above 50-day and 100-day moving averages.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/06/60065791/whats-going-on-with-super-micro-computer-stock-wednesday-2",
-   "created_at": "2026-06-24T11:48:37Z",
-   "symbols": [
-    "FAB",
-    "FNDA",
-    "FTA",
-    "SMCI"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/24/Super-Micro-Computer.jpg?width=1024&height=768"
   }
  ]
 }

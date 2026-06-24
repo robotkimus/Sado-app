@@ -1,4 +1,63 @@
 {
- "updated": "2026-06-24 22:00",
- "candidates": []
+ "updated": "2026-06-24 22:41",
+ "candidates": [
+  {
+   "symbol": "NFLX",
+   "score": 4,
+   "price": 72.83,
+   "reasons": [
+    "52주고점 대비 -37%",
+    "RSI 21 과매도"
+   ]
+  },
+  {
+   "symbol": "FNGU",
+   "score": 4,
+   "price": 25.36,
+   "reasons": [
+    "52주고점 대비 -30%",
+    "PER 2(저평가)"
+   ]
+  },
+  {
+   "symbol": "BAC",
+   "score": 4,
+   "price": 57.85,
+   "reasons": [
+    "PER 11(저평가)",
+    "PBR 1.5",
+    "그레이엄 기준 충족"
+   ]
+  },
+  {
+   "symbol": "C",
+   "score": 4,
+   "price": 144.21,
+   "reasons": [
+    "PER 11(저평가)",
+    "PBR 1.3",
+    "그레이엄 기준 충족"
+   ]
+  },
+  {
+   "symbol": "COF",
+   "score": 4,
+   "price": 198.31,
+   "reasons": [
+    "PER 8(저평가)",
+    "PBR 1.1",
+    "그레이엄 기준 충족"
+   ]
+  },
+  {
+   "symbol": "TFC",
+   "score": 4,
+   "price": 49.83,
+   "reasons": [
+    "PER 10(저평가)",
+    "PBR 1.0",
+    "그레이엄 기준 충족"
+   ]
+  }
+ ]
 }
