@@ -538,8 +538,15 @@ def auto_hedge_decision(regime, positions, account, market):
     inv = next((m for m in market if m.get("symbol") == hedge_sym), None)
     if not inv or not inv.get("price"):
         return None
-    equity = account.get("equity", 0)
+    try:
+        equity = float(account.get("equity", 0) or 0)
+    except (TypeError, ValueError):
+        return None
     price = inv["price"]
+    try:
+        price = float(price)
+    except (TypeError, ValueError):
+        return None
     # 자산 3% 한도(분할 진입 — 한 번에 크게 헷지하지 않음), 최소 1주
     budget = equity * 0.03
     qty = int(budget / price) if price > 0 else 0
