@@ -1,33 +1,72 @@
 {
- "updated": "2026-06-24 23:02",
+ "updated": "2026-06-25 00:01",
  "candidates": [
   {
-   "symbol": "GIS",
+   "symbol": "CRM",
    "score": 6,
-   "price": 34.8,
+   "price": 154.89,
    "reasons": [
-    "52주고점 대비 -29%",
-    "PER 11(저평가)",
-    "시총 $18.6B(소형)"
+    "52주고점 대비 -42%",
+    "과매도 탈출+MA5 회복",
+    "PER 10(저평가)"
    ]
   },
   {
-   "symbol": "ZTS",
-   "score": 4,
-   "price": 78.22,
+   "symbol": "ADBE",
+   "score": 6,
+   "price": 199.89,
    "reasons": [
-    "52주고점 대비 -46%",
-    "PER 11(저평가)"
+    "52주고점 대비 -44%",
+    "과매도 탈출+MA5 회복",
+    "PER 7(저평가)"
    ]
   },
   {
-   "symbol": "OXY",
-   "score": 4,
-   "price": 51.05,
+   "symbol": "INTU",
+   "score": 6,
+   "price": 265.72,
    "reasons": [
-    "RSI 32 과매도",
-    "PER 13(저평가)",
+    "52주고점 대비 -61%",
+    "과매도 탈출+MA5 회복",
+    "PER 10(저평가)"
+   ]
+  },
+  {
+   "symbol": "ORCL",
+   "score": 5,
+   "price": 160.67,
+   "reasons": [
+    "52주고점 대비 -38%",
+    "RSI 34 과매도",
+    "PER 15(저평가)"
+   ]
+  },
+  {
+   "symbol": "PYPL",
+   "score": 5,
+   "price": 42.99,
+   "reasons": [
+    "52주고점 대비 -37%",
+    "PER 7(저평가)",
     "그레이엄 기준 충족"
+   ]
+  },
+  {
+   "symbol": "TEAM",
+   "score": 4,
+   "price": 82.01,
+   "reasons": [
+    "52주고점 대비 -53%",
+    "PER 13(저평가)"
+   ]
+  },
+  {
+   "symbol": "WDAY",
+   "score": 4,
+   "price": 119.06,
+   "reasons": [
+    "52주고점 대비 -50%",
+    "PER 9(저평가)"
    ]
   }
  ]
