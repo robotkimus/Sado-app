@@ -1,72 +1,44 @@
 {
- "updated": "2026-06-25 01:02",
+ "updated": "2026-06-25 02:02",
  "candidates": [
   {
-   "symbol": "FNGU",
-   "score": 4,
-   "price": 25.35,
+   "symbol": "ZTS",
+   "score": 6,
+   "price": 78.08,
    "reasons": [
-    "52주고점 대비 -30%",
-    "PER 2(저평가)"
+    "52주고점 대비 -46%",
+    "과매도 탈출+MA5 회복",
+    "PER 11(저평가)"
    ]
   },
   {
-   "symbol": "BAC",
+   "symbol": "GIS",
+   "score": 6,
+   "price": 35.05,
+   "reasons": [
+    "52주고점 대비 -28%",
+    "PER 11(저평가)",
+    "시총 $18.7B(소형)"
+   ]
+  },
+  {
+   "symbol": "OXY",
    "score": 4,
-   "price": 57.58,
+   "price": 51.13,
+   "reasons": [
+    "RSI 32 과매도",
+    "PER 13(저평가)",
+    "그레이엄 기준 충족"
+   ]
+  },
+  {
+   "symbol": "KHC",
+   "score": 4,
+   "price": 22.87,
    "reasons": [
     "PER 11(저평가)",
-    "PBR 1.5",
+    "PBR 0.6",
     "그레이엄 기준 충족"
-   ]
-  },
-  {
-   "symbol": "C",
-   "score": 4,
-   "price": 144.13,
-   "reasons": [
-    "PER 11(저평가)",
-    "PBR 1.3",
-    "그레이엄 기준 충족"
-   ]
-  },
-  {
-   "symbol": "COF",
-   "score": 4,
-   "price": 201.69,
-   "reasons": [
-    "PER 8(저평가)",
-    "PBR 1.2",
-    "그레이엄 기준 충족"
-   ]
-  },
-  {
-   "symbol": "TFC",
-   "score": 4,
-   "price": 50.22,
-   "reasons": [
-    "PER 10(저평가)",
-    "PBR 1.1",
-    "그레이엄 기준 충족"
-   ]
-  },
-  {
-   "symbol": "PFE",
-   "score": 4,
-   "price": 24.14,
-   "reasons": [
-    "RSI 28 과매도",
-    "PER 9(저평가)",
-    "그레이엄 기준 충족"
-   ]
-  },
-  {
-   "symbol": "ABT",
-   "score": 4,
-   "price": 90.87,
-   "reasons": [
-    "52주고점 대비 -30%",
-    "PER 15(저평가)"
    ]
   }
  ]
