@@ -1,17 +1,17 @@
 {
- "updated": "2026-06-25 05:01",
- "equity": 98432.87,
- "cash": 81361.68,
+ "updated": "2026-06-25 06:01",
+ "equity": 98551.17,
+ "cash": 83446.61,
  "base": 100000.0,
  "positions": [
   {
    "symbol": "AMAT",
    "qty": 1.0,
    "avg_cost": 592.54,
-   "now": 588.0,
-   "pnl_pct": -0.8,
-   "peak_pnl_pct": -0.1,
-   "drawdown_from_peak_pct": -0.7,
+   "now": 626.0,
+   "pnl_pct": 5.6,
+   "peak_pnl_pct": 6.0,
+   "drawdown_from_peak_pct": -0.4,
    "trailing_stop_triggered": false,
    "is_tenbagger": false,
    "stoploss_triggered": false
@@ -20,10 +20,10 @@
    "symbol": "AVGO",
    "qty": 1.0,
    "avg_cost": 385.91,
-   "now": 382.98,
-   "pnl_pct": -0.8,
-   "peak_pnl_pct": -0.0,
-   "drawdown_from_peak_pct": -0.8,
+   "now": 389.565,
+   "pnl_pct": 0.9,
+   "peak_pnl_pct": 1.2,
+   "drawdown_from_peak_pct": -0.3,
    "trailing_stop_triggered": false,
    "is_tenbagger": false,
    "stoploss_triggered": false
@@ -44,10 +44,10 @@
    "symbol": "META",
    "qty": 1.0,
    "avg_cost": 569.21,
-   "now": 558.9263,
-   "pnl_pct": -1.8,
+   "now": 558.1993,
+   "pnl_pct": -1.9,
    "peak_pnl_pct": 0.3,
-   "drawdown_from_peak_pct": -2.1,
+   "drawdown_from_peak_pct": -2.2,
    "trailing_stop_triggered": false,
    "is_tenbagger": false,
    "stoploss_triggered": false
@@ -56,10 +56,10 @@
    "symbol": "MSFT",
    "qty": 3.0,
    "avg_cost": 372.34,
-   "now": 366.49,
-   "pnl_pct": -1.6,
+   "now": 366.05,
+   "pnl_pct": -1.7,
    "peak_pnl_pct": 1.5,
-   "drawdown_from_peak_pct": -3.1,
+   "drawdown_from_peak_pct": -3.2,
    "trailing_stop_triggered": false,
    "is_tenbagger": false,
    "stoploss_triggered": false
@@ -68,10 +68,10 @@
    "symbol": "NVDA",
    "qty": 20.0,
    "avg_cost": 209.715,
-   "now": 199.68,
-   "pnl_pct": -4.8,
+   "now": 200.3,
+   "pnl_pct": -4.5,
    "peak_pnl_pct": 0.8,
-   "drawdown_from_peak_pct": -5.6,
+   "drawdown_from_peak_pct": -5.3,
    "trailing_stop_triggered": false,
    "is_tenbagger": false,
    "stoploss_triggered": false
@@ -80,10 +80,10 @@
    "symbol": "QQQ",
    "qty": 1.0,
    "avg_cost": 744.8,
-   "now": 713.72,
-   "pnl_pct": -4.2,
+   "now": 723.7096,
+   "pnl_pct": -2.8,
    "peak_pnl_pct": -0.8,
-   "drawdown_from_peak_pct": -3.4,
+   "drawdown_from_peak_pct": -2.0,
    "trailing_stop_triggered": false,
    "is_tenbagger": false,
    "stoploss_triggered": false
@@ -92,34 +92,22 @@
    "symbol": "SMH",
    "qty": 7.9286,
    "avg_cost": 652.678982,
-   "now": 624.0,
-   "pnl_pct": -4.4,
+   "now": 643.1599,
+   "pnl_pct": -1.5,
    "peak_pnl_pct": 0.5,
-   "drawdown_from_peak_pct": -4.9,
+   "drawdown_from_peak_pct": -2.0,
    "trailing_stop_triggered": false,
    "is_tenbagger": false,
    "stoploss_triggered": false
   },
   {
    "symbol": "SOXX",
-   "qty": 1.0,
-   "avg_cost": 603.2,
-   "now": 607.48,
-   "pnl_pct": 0.7,
-   "peak_pnl_pct": 2.0,
-   "drawdown_from_peak_pct": -1.3,
-   "trailing_stop_triggered": false,
-   "is_tenbagger": false,
-   "stoploss_triggered": false
-  },
-  {
-   "symbol": "SQQQ",
-   "qty": 71.0,
-   "avg_cost": 41.37,
-   "now": 39.92,
-   "pnl_pct": -3.5,
-   "peak_pnl_pct": -0.0,
-   "drawdown_from_peak_pct": -3.5,
+   "qty": 2.0,
+   "avg_cost": 616.3,
+   "now": 627.8469,
+   "pnl_pct": 1.9,
+   "peak_pnl_pct": 4.5,
+   "drawdown_from_peak_pct": -2.6,
    "trailing_stop_triggered": false,
    "is_tenbagger": false,
    "stoploss_triggered": false
@@ -128,139 +116,63 @@
    "symbol": "TNA",
    "qty": 5.0,
    "avg_cost": 74.03,
-   "now": 72.53,
-   "pnl_pct": -2.0,
+   "now": 73.056,
+   "pnl_pct": -1.3,
    "peak_pnl_pct": 0.1,
-   "drawdown_from_peak_pct": -2.1,
+   "drawdown_from_peak_pct": -1.4,
    "trailing_stop_triggered": false,
    "is_tenbagger": false,
    "stoploss_triggered": false
   }
  ],
  "trades": [
-  "🔴 매수 ⚡하이리스크 🌙애프터 SOXL 1.0주 (~$230) — 주도 섹터 반도체 레버리지 ETF, 장중 저점 대비 반등 +8.9%로 반등 신호 확인, 구름 위 추세 유지, 하이리스크 예산 내 진입"
+  "🔵 매도 🌙애프터 SQQQ 71.0주 (~$2,708) — stoploss_triggered=true, 손절선(-7%) 이탈 확정(-7.8%)이며 애프터마켓에서 SQQQ -5.7%(QQQ +2.1% 급등) — 인버스 헤지 근거 소멸, 즉시 손절.",
+  "🔴 매수 🌙애프터 SOXX 1.0주 (~$633) — 반도체 주도 섹터 추세추종: 애프터마켓 +5.3%, rebound_from_low +7.9%, 일목 above(+24.4%), MA20 위, RSI 55 중립권 — AMAT 실적 서프라이즈 반도체 섹터 확산 신호.",
+  "⛔ SMH 매수 보류 (현금/한도)"
  ],
- "market_view": "🤝 합의: SOXL 매수(DeepSeek주도·소량), SQQQ 매도 보류(DeepSeek만·손절선 위), MSFT 매도 보류(DeepSeek만·손절선 위), META 매도 보류(DeepSeek만·손절선 위), AMAT 매도 보류(DeepSeek만·손절선 위) | Claude: 현재 시장 국면은 '표면 아래 광범위 약세'다. SPY는 -1.7%로 MA20 아래이고 당일 하락 종목 78%, 신저가권 17%로 시장 폭이 붕괴된 상태다. 보유 포지션 전반이 소폭 손실(-0.1%~-5.3%) 중이나 아직 손절선(-7%)에 도달한 종목은 없어 강제 매도 없음. SQQQ(인버스 헷지)를 이미 보유 중이라 하락 방어는 갖춰져 있다. NVDA(-5.3%)와 SMH(-5.1%)가 손절선에 가장 근접해 있으나 구름 위(SOXX/SMH) 추세는 아직 살아있고 이 구간이 바닥 확인 중이므로 추가 매도보다 모니터링 유지 판단. AMAT는 disparity_ma20_pct +11.8%로 MA20 위 강세이고 일목 구름 위 40%로 추세 살아있어 보유 유지. SOXL은 rebound_from_low_pct +8.9%로 장중 강한 반등 신호가 나왔으나, 하락장 국면에서 애프터마켓에 레버리지를 신규 추가하는 건 위험 부담이 커 관망 유지. 현금 82%(~$81,361)는 하락장 방어에 적합하며 국면 전환 확인 전까지 추가 매수 자제, 관망이 최선이다. | DeepSeek: 현재 시장은 하락장(지수는 MA20 근처지만 시장 폭 붕괴, 78% 종목 하락)이지만 반도체·바이오 섹터는 강세를 유지 중(SOXX +5.5%, XBI +12.3%). 따라서 전체 포트폴리오는 방어 우선(현금 83% 유지)하되, 주도 섹터의 과도한 하락을 저가매수 기회로 활용. 보유 중인 MSFT/META/AVGO는 구름 아래 추세 약세로 일부 축소하고, 인버스 SQQQ는 헤지 효과 소멸로 정리. 반도체 섹터 레버리지 SOXL은 장중 저점 대비 반등 +8.9%로 명확한 반등 신호와 구름 위 추세 유지가 확인되어 하이리스크 예산 내 진입. TLT는 방어적 안전자산으로 하락장 헤지 및 금리 하락 기대에 매수. 전체 현금 비중은 약 83%로 높지만, 하락장 방어 원칙에 부합하며 반도체 강세 섹터 기회를 놓치지 않기 위해 소량 대응.",
+ "market_view": "🤝 합의: SQQQ 손절(Claude), SOXX 매수(Claude주도·소량), SMH 매수(Claude주도·소량), TQQQ 매수 보류(Claude만), META 매도 보류(DeepSeek만·손절선 위), NVDA 매도 보류(DeepSeek만·손절선 위), MSFT 매도 보류(DeepSeek만·손절선 위) | Claude: 애프터마켓에서 AMAT가 +6.5% 급등(실적 서프라이즈)하며 반도체 섹터 전반이 동반 급등(SOXX +5.3%, SMH +4.3%, SOXL +13.3%, TQQQ +5.7%)하는 결정적 반등 신호가 출현했다. 이는 단순 반등이 아니라 반도체 주도 섹터의 추세 재확인으로 판단한다 — SOXX·SMH 모두 일목 above, MA20 위, rebound_from_low 대폭 양수. 반면 SQQQ는 stoploss_triggered=true(-7.8%)이며 헤지 근거가 완전히 소멸했으므로 애프터마켓에서 즉각 손절한다(방어 우선 원칙). 시장 국면은 '하락장' 레이블이나 표면 지수(SPY 애프터 +0.7%, QQQ +2.1%)와 반도체 실적 서프라이즈가 단기 반전 신호를 제공 중이며, SOXX·SMH는 20일선 위를 유지 중인 주도 섹터다. NVDA(-4.4%)·MSFT(-1.7%)·META(-1.9%) 등 기존 보유 빅테크는 아직 손절선 위이므로 홀드하되 추가 매수는 보류한다. 현금은 SQQQ 매도 대금 포함 약 $85,000 수준으로 여전히 충분하며, 레버리지(TQQQ+기존TNA 등) 합산 비중은 15% 한도 이내로 유지된다. | DeepSeek: 오늘 시장 국면은 '하락장'이나 표면과 달리 섹터별 양극화가 심합니다: 반도체(SOXX +5.5%·above MA20·구름 위)와 바이오(XBI +12.3%) 등 주도 섹터는 강세를 유지하며 추세추종 기회를 제공합니다. 반면 임의소비재, 에너지 등 소외 섹터는 약세로 저가매수 신호가 아직 불명확합니다. 포트폴리오는 현금 비중 82.5%로 과도하게 안전하게 운용 중이며, 이는 상승·중립장 기준 기회손실로 이어질 수 있습니다. 따라서 오늘은 (1) 손실 종목(SQQQ -7.8%, META -1.9%, NVDA -4.4%, MSFT -1.7%)을 일부 정리·축소해 리스크를 낮추고, (2) 주도 섹터인 반도체·금융·중소형 레버리지(TNA)에 추세추종 매수를 실행해 현금을 생산적으로 활용하려 합니다. TNA는 ichimoku above, MA5 상회, 거래량 동반, RSI 58.9로 과열 아닌 추세 중간 구간이라 확신 high입니다. 단, 하락장이므로 인버스는 정리하고, 신규 매수는 분할로 진입하며, 애프터마켓 특성상 지정가 주문을 사용합니다. 목표 배분은 주도 섹터 중심으로 코어를 재편하고, 현금은 70%대로 낮추되 급락 시 추가 매수 여력을 남깁니다.",
  "chart_levels": {
-  "SPY": {
-   "price": 733.32,
+  "MSFT": {
+   "price": 366.12,
    "support": [
-    729.58,
-    711.58,
-    682.9,
-    652.64
+    356.77
    ],
    "resistance": [
-    754.19
+    370.87,
+    384.47,
+    410.71,
+    444.11
    ],
    "fib": {
-    "382": 710.83,
-    "500": 695.77,
-    "618": 680.71
+    "382": 421.72,
+    "500": 409.74,
+    "618": 397.76
    },
    "taco_zone": {
-    "low": 680.71,
-    "high": 729.58,
-    "basis": "지지대+피보 5.00+피보 6.18"
-   },
-   "in_taco_zone": false
-  },
-  "QQQ": {
-   "price": 711.89,
-   "support": [
-    697.61,
-    607.82,
-    558.28
-   ],
-   "resistance": [
-    719.79,
-    745.08
-   ],
-   "fib": {
-    "382": 674.39,
-    "500": 652.22,
-    "618": 630.05
-   },
-   "taco_zone": {
-    "low": 630.05,
-    "high": 697.61,
-    "basis": "지지대+피보 5.00+피보 6.18"
-   },
-   "in_taco_zone": false
-  },
-  "NVDA": {
-   "price": 198.94,
-   "support": [
-    198.23,
-    184.2,
-    171.84,
-    165.17
-   ],
-   "resistance": [
-    211.79,
-    216.61,
-    224.36,
-    235.74
-   ],
-   "fib": {
-    "382": 208.78,
-    "500": 200.46,
-    "618": 192.13
-   },
-   "taco_zone": {
-    "low": 192.13,
-    "high": 198.23,
-    "basis": "지지대+피보 6.18"
-   },
-   "in_taco_zone": false
-  },
-  "SQQQ": {
-   "price": 40.44,
-   "support": [
-    36.91,
-    36.31
-   ],
-   "resistance": [
-    41.07,
-    44.37,
-    45.25,
-    62.79
-   ],
-   "fib": {
-    "382": 56.6,
-    "500": 62.86,
-    "618": 69.13
-   },
-   "taco_zone": {
-    "low": 36.61,
-    "high": 37.21,
+    "low": 353.92,
+    "high": 359.62,
     "basis": "지지대"
    },
    "in_taco_zone": false
   },
-  "AVGO": {
-   "price": 382.06,
+  "TNA": {
+   "price": 72.5,
    "support": [
-    376.47,
-    346.58,
-    333.24,
-    323.44
+    69.81,
+    67.44,
+    62.29,
+    61.15
    ],
-   "resistance": [
-    401.39,
-    414.58,
-    430.0,
-    439.79
-   ],
+   "resistance": [],
    "fib": {
-    "382": 409.69,
-    "500": 387.49,
-    "618": 365.29
+    "382": 60.82,
+    "500": 56.84,
+    "618": 52.86
    },
    "taco_zone": {
-    "low": 365.29,
-    "high": 376.47,
-    "basis": "지지대+피보 6.18"
+    "low": 52.86,
+    "high": 69.81,
+    "basis": "지지대+피보 5.00+피보 6.18"
    },
    "in_taco_zone": false
   },
@@ -287,48 +199,6 @@
    },
    "in_taco_zone": false
   },
-  "AMAT": {
-   "price": 588.96,
-   "support": [
-    501.7,
-    453.95,
-    443.62,
-    417.04
-   ],
-   "resistance": [],
-   "fib": {
-    "382": 519.06,
-    "500": 481.65,
-    "618": 444.24
-   },
-   "taco_zone": {
-    "low": 444.24,
-    "high": 501.7,
-    "basis": "지지대+피보 5.00+피보 6.18"
-   },
-   "in_taco_zone": false
-  },
-  "TNA": {
-   "price": 72.5,
-   "support": [
-    69.81,
-    67.44,
-    62.29,
-    61.15
-   ],
-   "resistance": [],
-   "fib": {
-    "382": 60.82,
-    "500": 56.84,
-    "618": 52.86
-   },
-   "taco_zone": {
-    "low": 52.86,
-    "high": 69.81,
-    "basis": "지지대+피보 5.00+피보 6.18"
-   },
-   "in_taco_zone": false
-  },
   "BLK": {
    "price": 982.24,
    "support": [
@@ -351,8 +221,129 @@
    },
    "in_taco_zone": true
   },
+  "NVDA": {
+   "price": 200.16,
+   "support": [
+    198.23,
+    184.2,
+    171.84,
+    165.17
+   ],
+   "resistance": [
+    211.79,
+    216.61,
+    224.36,
+    235.74
+   ],
+   "fib": {
+    "382": 208.78,
+    "500": 200.46,
+    "618": 192.13
+   },
+   "taco_zone": {
+    "low": 192.13,
+    "high": 198.23,
+    "basis": "지지대+피보 6.18"
+   },
+   "in_taco_zone": false
+  },
+  "QQQ": {
+   "price": 725.61,
+   "support": [
+    697.61,
+    607.82,
+    558.28
+   ],
+   "resistance": [
+    719.79,
+    745.08
+   ],
+   "fib": {
+    "382": 674.39,
+    "500": 652.22,
+    "618": 630.05
+   },
+   "taco_zone": {
+    "low": 630.05,
+    "high": 697.61,
+    "basis": "지지대+피보 5.00+피보 6.18"
+   },
+   "in_taco_zone": false
+  },
+  "AVGO": {
+   "price": 392.71,
+   "support": [
+    376.47,
+    346.58,
+    333.24,
+    323.44
+   ],
+   "resistance": [
+    401.39,
+    414.58,
+    430.0,
+    439.79
+   ],
+   "fib": {
+    "382": 409.69,
+    "500": 387.49,
+    "618": 365.29
+   },
+   "taco_zone": {
+    "low": 365.29,
+    "high": 376.47,
+    "basis": "지지대+피보 6.18"
+   },
+   "in_taco_zone": false
+  },
+  "SOXX": {
+   "price": 633.13,
+   "support": [
+    570.09,
+    536.27,
+    495.87,
+    461.6
+   ],
+   "resistance": [
+    615.68
+   ],
+   "fib": {
+    "382": 523.14,
+    "500": 482.4,
+    "618": 441.66
+   },
+   "taco_zone": {
+    "low": 441.66,
+    "high": 570.09,
+    "basis": "지지대+피보 5.00+피보 6.18"
+   },
+   "in_taco_zone": false
+  },
+  "SPY": {
+   "price": 738.02,
+   "support": [
+    729.58,
+    711.58,
+    682.9,
+    652.64
+   ],
+   "resistance": [
+    754.19
+   ],
+   "fib": {
+    "382": 710.83,
+    "500": 695.77,
+    "618": 680.71
+   },
+   "taco_zone": {
+    "low": 680.71,
+    "high": 729.58,
+    "basis": "지지대+피보 5.00+피보 6.18"
+   },
+   "in_taco_zone": false
+  },
   "SMH": {
-   "price": 619.21,
+   "price": 645.57,
    "support": [
     602.14,
     578.34,
@@ -374,54 +365,29 @@
    },
    "in_taco_zone": false
   },
-  "MSFT": {
-   "price": 365.46,
+  "AMAT": {
+   "price": 627.52,
    "support": [
-    356.77
+    501.7,
+    453.95,
+    443.62,
+    417.04
    ],
-   "resistance": [
-    370.87,
-    384.47,
-    410.71,
-    444.11
-   ],
+   "resistance": [],
    "fib": {
-    "382": 421.72,
-    "500": 409.74,
-    "618": 397.76
+    "382": 519.06,
+    "500": 481.65,
+    "618": 444.24
    },
    "taco_zone": {
-    "low": 353.92,
-    "high": 359.62,
-    "basis": "지지대"
-   },
-   "in_taco_zone": false
-  },
-  "SOXX": {
-   "price": 601.98,
-   "support": [
-    570.09,
-    536.27,
-    495.87,
-    461.6
-   ],
-   "resistance": [
-    615.68
-   ],
-   "fib": {
-    "382": 523.14,
-    "500": 482.4,
-    "618": 441.66
-   },
-   "taco_zone": {
-    "low": 441.66,
-    "high": 570.09,
+    "low": 444.24,
+    "high": 501.7,
     "basis": "지지대+피보 5.00+피보 6.18"
    },
    "in_taco_zone": false
   }
  },
- "last_trade_time": "2026-06-25 05:01",
- "last_trade_count": 1,
- "last_hold_count": 0
+ "last_trade_time": "2026-06-25 06:01",
+ "last_trade_count": 2,
+ "last_hold_count": 1
 }
