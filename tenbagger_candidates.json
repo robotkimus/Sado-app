@@ -1,22 +1,22 @@
 {
- "updated": "2026-06-26 04:02",
+ "updated": "2026-06-26 04:31",
  "candidates": [
   {
    "symbol": "TEAM",
    "score": 6,
-   "price": 75.97,
+   "price": 75.21,
    "reasons": [
     "52주고점 대비 -54%",
     "PER 12(저평가)",
-    "시총 $19.3B(소형)"
+    "시총 $19.1B(소형)"
    ]
   },
   {
    "symbol": "CRM",
    "score": 5,
-   "price": 149.87,
+   "price": 150.62,
    "reasons": [
-    "52주고점 대비 -44%",
+    "52주고점 대비 -43%",
     "RSI 32 과매도",
     "PER 10(저평가)"
    ]
@@ -24,7 +24,7 @@
   {
    "symbol": "ADBE",
    "score": 5,
-   "price": 194.77,
+   "price": 194.35,
    "reasons": [
     "52주고점 대비 -46%",
     "RSI 29 과매도",
@@ -34,7 +34,7 @@
   {
    "symbol": "ORCL",
    "score": 5,
-   "price": 152.5,
+   "price": 152.14,
    "reasons": [
     "52주고점 대비 -39%",
     "RSI 31 과매도",
@@ -44,7 +44,7 @@
   {
    "symbol": "INTU",
    "score": 5,
-   "price": 255.23,
+   "price": 255.5,
    "reasons": [
     "52주고점 대비 -62%",
     "RSI 30 과매도",
@@ -54,7 +54,7 @@
   {
    "symbol": "PYPL",
    "score": 5,
-   "price": 42.52,
+   "price": 42.51,
    "reasons": [
     "52주고점 대비 -38%",
     "PER 7(저평가)",
@@ -64,7 +64,7 @@
   {
    "symbol": "WDAY",
    "score": 4,
-   "price": 114.49,
+   "price": 114.46,
    "reasons": [
     "52주고점 대비 -51%",
     "PER 9(저평가)"
