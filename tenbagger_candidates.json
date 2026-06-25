@@ -1,84 +1,83 @@
 {
- "updated": "2026-06-26 02:01",
+ "updated": "2026-06-26 03:01",
  "candidates": [
   {
-   "symbol": "CMCSA",
+   "symbol": "CERT",
    "score": 8,
-   "price": 22.86,
+   "price": 5.44,
+   "reasons": [
+    "52주고점 대비 -53%",
+    "PER 13(저평가)",
+    "PBR 0.8",
+    "그레이엄 기준 충족",
+    "시총 $0.8B(소형)"
+   ]
+  },
+  {
+   "symbol": "SERV",
+   "score": 6,
+   "price": 5.91,
+   "reasons": [
+    "52주고점 대비 -62%",
+    "RSI 31 과매도",
+    "PBR 1.4",
+    "시총 $0.5B(소형)"
+   ]
+  },
+  {
+   "symbol": "PATH",
+   "score": 6,
+   "price": 10.1,
+   "reasons": [
+    "52주고점 대비 -48%",
+    "PER 11(저평가)",
+    "시총 $5.2B(소형)"
+   ]
+  },
+  {
+   "symbol": "UPST",
+   "score": 6,
+   "price": 32.93,
+   "reasons": [
+    "52주고점 대비 -35%",
+    "PER 10(저평가)",
+    "시총 $3.2B(소형)"
+   ]
+  },
+  {
+   "symbol": "TEM",
+   "score": 4,
+   "price": 53.31,
+   "reasons": [
+    "52주고점 대비 -37%",
+    "시총 $9.6B(소형)"
+   ]
+  },
+  {
+   "symbol": "RXRX",
+   "score": 4,
+   "price": 3.35,
+   "reasons": [
+    "52주고점 대비 -33%",
+    "시총 $1.8B(소형)"
+   ]
+  },
+  {
+   "symbol": "HIMS",
+   "score": 4,
+   "price": 30.59,
    "reasons": [
     "52주고점 대비 -30%",
-    "과매도 탈출+MA5 회복",
-    "PER 6(저평가)",
-    "PBR 0.9",
-    "그레이엄 기준 충족"
+    "시총 $7.1B(소형)"
    ]
   },
   {
-   "symbol": "T",
-   "score": 6,
-   "price": 22.43,
-   "reasons": [
-    "과매도 탈출+MA5 회복",
-    "PER 9(저평가)",
-    "PBR 1.4",
-    "그레이엄 기준 충족"
-   ]
-  },
-  {
-   "symbol": "LUNR",
-   "score": 5,
-   "price": 18.77,
-   "reasons": [
-    "52주고점 대비 -59%",
-    "RSI 32 과매도",
-    "시총 $3.0B(소형)"
-   ]
-  },
-  {
-   "symbol": "PL",
-   "score": 5,
-   "price": 26.07,
-   "reasons": [
-    "52주고점 대비 -49%",
-    "RSI 31 과매도",
-    "시총 $9.3B(소형)"
-   ]
-  },
-  {
-   "symbol": "NOC",
+   "symbol": "IONQ",
    "score": 4,
-   "price": 502.5,
+   "price": 50.99,
    "reasons": [
-    "52주고점 대비 -34%",
-    "RSI 31 과매도"
-   ]
-  },
-  {
-   "symbol": "GM",
-   "score": 4,
-   "price": 79.12,
-   "reasons": [
-    "PER 6(저평가)",
-    "PBR 1.1",
-    "그레이엄 기준 충족"
-   ]
-  },
-  {
-   "symbol": "RIVN",
-   "score": 4,
-   "price": 14.47,
-   "reasons": [
-    "52주고점 대비 -36%",
-    "시총 $19.4B(소형)"
-   ]
-  },
-  {
-   "symbol": "RDW",
-   "score": 4,
-   "price": 10.6,
-   "reasons": [
-    "52주고점 대비 -59%",
-    "시총 $2.1B(소형)"
+    "52주고점 대비 -29%",
+    "시총 $19.0B(소형)"
    ]
   }
  ]
