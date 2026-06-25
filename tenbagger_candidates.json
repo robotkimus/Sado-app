@@ -1,4 +1,44 @@
 {
- "updated": "2026-06-25 22:00",
- "candidates": []
+ "updated": "2026-06-25 22:41",
+ "candidates": [
+  {
+   "symbol": "GIS",
+   "score": 6,
+   "price": 35.43,
+   "reasons": [
+    "52주고점 대비 -28%",
+    "PER 11(저평가)",
+    "시총 $18.9B(소형)"
+   ]
+  },
+  {
+   "symbol": "ZTS",
+   "score": 4,
+   "price": 79.3,
+   "reasons": [
+    "52주고점 대비 -40%",
+    "PER 11(저평가)"
+   ]
+  },
+  {
+   "symbol": "OXY",
+   "score": 4,
+   "price": 50.87,
+   "reasons": [
+    "RSI 32 과매도",
+    "PER 13(저평가)",
+    "그레이엄 기준 충족"
+   ]
+  },
+  {
+   "symbol": "KHC",
+   "score": 4,
+   "price": 23.59,
+   "reasons": [
+    "PER 11(저평가)",
+    "PBR 0.7",
+    "그레이엄 기준 충족"
+   ]
+  }
+ ]
 }
