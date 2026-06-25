@@ -1,83 +1,73 @@
 {
- "updated": "2026-06-26 03:01",
+ "updated": "2026-06-26 04:02",
  "candidates": [
   {
-   "symbol": "CERT",
-   "score": 8,
-   "price": 5.44,
+   "symbol": "TEAM",
+   "score": 6,
+   "price": 75.97,
    "reasons": [
-    "52주고점 대비 -53%",
-    "PER 13(저평가)",
-    "PBR 0.8",
-    "그레이엄 기준 충족",
-    "시총 $0.8B(소형)"
+    "52주고점 대비 -54%",
+    "PER 12(저평가)",
+    "시총 $19.3B(소형)"
    ]
   },
   {
-   "symbol": "SERV",
-   "score": 6,
-   "price": 5.91,
+   "symbol": "CRM",
+   "score": 5,
+   "price": 149.87,
+   "reasons": [
+    "52주고점 대비 -44%",
+    "RSI 32 과매도",
+    "PER 10(저평가)"
+   ]
+  },
+  {
+   "symbol": "ADBE",
+   "score": 5,
+   "price": 194.77,
+   "reasons": [
+    "52주고점 대비 -46%",
+    "RSI 29 과매도",
+    "PER 7(저평가)"
+   ]
+  },
+  {
+   "symbol": "ORCL",
+   "score": 5,
+   "price": 152.5,
+   "reasons": [
+    "52주고점 대비 -39%",
+    "RSI 31 과매도",
+    "PER 14(저평가)"
+   ]
+  },
+  {
+   "symbol": "INTU",
+   "score": 5,
+   "price": 255.23,
    "reasons": [
     "52주고점 대비 -62%",
-    "RSI 31 과매도",
-    "PBR 1.4",
-    "시총 $0.5B(소형)"
+    "RSI 30 과매도",
+    "PER 9(저평가)"
    ]
   },
   {
-   "symbol": "PATH",
-   "score": 6,
-   "price": 10.1,
+   "symbol": "PYPL",
+   "score": 5,
+   "price": 42.52,
    "reasons": [
-    "52주고점 대비 -48%",
-    "PER 11(저평가)",
-    "시총 $5.2B(소형)"
+    "52주고점 대비 -38%",
+    "PER 7(저평가)",
+    "그레이엄 기준 충족"
    ]
   },
   {
-   "symbol": "UPST",
-   "score": 6,
-   "price": 32.93,
-   "reasons": [
-    "52주고점 대비 -35%",
-    "PER 10(저평가)",
-    "시총 $3.2B(소형)"
-   ]
-  },
-  {
-   "symbol": "TEM",
+   "symbol": "WDAY",
    "score": 4,
-   "price": 53.31,
+   "price": 114.49,
    "reasons": [
-    "52주고점 대비 -37%",
-    "시총 $9.6B(소형)"
-   ]
-  },
-  {
-   "symbol": "RXRX",
-   "score": 4,
-   "price": 3.35,
-   "reasons": [
-    "52주고점 대비 -33%",
-    "시총 $1.8B(소형)"
-   ]
-  },
-  {
-   "symbol": "HIMS",
-   "score": 4,
-   "price": 30.59,
-   "reasons": [
-    "52주고점 대비 -30%",
-    "시총 $7.1B(소형)"
-   ]
-  },
-  {
-   "symbol": "IONQ",
-   "score": 4,
-   "price": 50.99,
-   "reasons": [
-    "52주고점 대비 -29%",
-    "시총 $19.0B(소형)"
+    "52주고점 대비 -51%",
+    "PER 9(저평가)"
    ]
   }
  ]
