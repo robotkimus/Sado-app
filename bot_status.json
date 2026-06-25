@@ -1,6 +1,7 @@
 {
- "updated": "2026-06-25 08:01",
- "equity": 98595.14,
+ "updated": "2026-06-25 09:00",
+ "session": "미국 장 마감 (거래 시간 외)",
+ "equity": 98600.05,
  "cash": 80363.9,
  "base": 100000.0,
  "positions": [
@@ -8,10 +9,10 @@
    "symbol": "AMAT",
    "qty": 1.0,
    "avg_cost": 592.54,
-   "now": 627.0,
-   "pnl_pct": 5.8,
-   "peak_pnl_pct": 6.0,
-   "drawdown_from_peak_pct": -0.2,
+   "now": 630.0,
+   "pnl_pct": 6.3,
+   "peak_pnl_pct": 6.3,
+   "drawdown_from_peak_pct": 0.0,
    "trailing_stop_triggered": false,
    "is_tenbagger": false,
    "stoploss_triggered": false
@@ -20,7 +21,7 @@
    "symbol": "AVGO",
    "qty": 1.0,
    "avg_cost": 385.91,
-   "now": 389.35,
+   "now": 389.55,
    "pnl_pct": 0.9,
    "peak_pnl_pct": 1.2,
    "drawdown_from_peak_pct": -0.3,
@@ -44,10 +45,10 @@
    "symbol": "META",
    "qty": 1.0,
    "avg_cost": 569.21,
-   "now": 559.857,
-   "pnl_pct": -1.6,
+   "now": 558.42,
+   "pnl_pct": -1.9,
    "peak_pnl_pct": 0.3,
-   "drawdown_from_peak_pct": -1.9,
+   "drawdown_from_peak_pct": -2.2,
    "trailing_stop_triggered": false,
    "is_tenbagger": false,
    "stoploss_triggered": false
@@ -56,7 +57,7 @@
    "symbol": "MSFT",
    "qty": 3.0,
    "avg_cost": 372.34,
-   "now": 365.56,
+   "now": 365.49,
    "pnl_pct": -1.8,
    "peak_pnl_pct": 1.5,
    "drawdown_from_peak_pct": -3.3,
@@ -68,10 +69,10 @@
    "symbol": "NVDA",
    "qty": 20.0,
    "avg_cost": 209.715,
-   "now": 199.84,
-   "pnl_pct": -4.7,
+   "now": 200.64,
+   "pnl_pct": -4.3,
    "peak_pnl_pct": 0.8,
-   "drawdown_from_peak_pct": -5.5,
+   "drawdown_from_peak_pct": -5.1,
    "trailing_stop_triggered": false,
    "is_tenbagger": false,
    "stoploss_triggered": false
@@ -80,10 +81,10 @@
    "symbol": "QQQ",
    "qty": 1.0,
    "avg_cost": 744.8,
-   "now": 723.34,
-   "pnl_pct": -2.9,
+   "now": 724.36,
+   "pnl_pct": -2.7,
    "peak_pnl_pct": -0.8,
-   "drawdown_from_peak_pct": -2.1,
+   "drawdown_from_peak_pct": -1.9,
    "trailing_stop_triggered": false,
    "is_tenbagger": false,
    "stoploss_triggered": false
@@ -92,10 +93,10 @@
    "symbol": "SMH",
    "qty": 7.9286,
    "avg_cost": 652.678982,
-   "now": 646.01,
-   "pnl_pct": -1.0,
+   "now": 647.0,
+   "pnl_pct": -0.9,
    "peak_pnl_pct": 0.5,
-   "drawdown_from_peak_pct": -1.5,
+   "drawdown_from_peak_pct": -1.4,
    "trailing_stop_triggered": false,
    "is_tenbagger": false,
    "stoploss_triggered": false
@@ -104,10 +105,10 @@
    "symbol": "SOXX",
    "qty": 3.0,
    "avg_cost": 621.866667,
-   "now": 631.0,
-   "pnl_pct": 1.5,
+   "now": 630.13,
+   "pnl_pct": 1.3,
    "peak_pnl_pct": 4.5,
-   "drawdown_from_peak_pct": -3.0,
+   "drawdown_from_peak_pct": -3.2,
    "trailing_stop_triggered": false,
    "is_tenbagger": false,
    "stoploss_triggered": false
@@ -116,10 +117,10 @@
    "symbol": "SQQQ",
    "qty": 64.6192,
    "avg_cost": 37.91,
-   "now": 38.3,
-   "pnl_pct": 1.0,
+   "now": 38.06,
+   "pnl_pct": 0.4,
    "peak_pnl_pct": 1.0,
-   "drawdown_from_peak_pct": 0.0,
+   "drawdown_from_peak_pct": -0.6,
    "trailing_stop_triggered": false,
    "is_tenbagger": false,
    "stoploss_triggered": false
@@ -128,298 +129,15 @@
    "symbol": "TNA",
    "qty": 5.0,
    "avg_cost": 74.03,
-   "now": 73.15,
-   "pnl_pct": -1.2,
+   "now": 72.47,
+   "pnl_pct": -2.1,
    "peak_pnl_pct": 0.1,
-   "drawdown_from_peak_pct": -1.3,
+   "drawdown_from_peak_pct": -2.2,
    "trailing_stop_triggered": false,
    "is_tenbagger": false,
    "stoploss_triggered": false
   }
  ],
- "trades": [],
- "market_view": "🤝 합의: SQQQ 매도 보류(Claude만·손절선 위), SOXX 매수 보류(Claude만), SMH 매수 보류(Claude만), TQQQ 매수 보류(Claude만) | Claude: 오늘 정규장은 시장폭 붕괴(5일선 위 33%·당일 하락 72%)의 전형적 표면 버팀 속 광범위 약세였으나, 애프터마켓에서 AMAT +6.5% 실적 서프라이즈를 기폭제로 반도체 전체가 강력 반등(SOXL +13.3%, SOXX +5.3%, SMH +4.3%, TQQQ +5.7%)하며 국면이 급격히 전환되는 신호가 나왔다. SQQQ 헤지는 이 반등으로 근거가 완전히 소멸했으므로 즉시 청산해 약 +1% 소익으로 마무리하고 자금을 회수한다. 반도체는 1개월 +5.5%·3개월 +74.2%의 압도적 주도 섹터이며 SOXX·SMH 모두 일목 구름 위 상승추세가 살아있어 이번 급반등은 추세추종 분할 진입의 적절한 자리로 판단한다. 다만 애프터마켓 호가가 얇아 체결 왜곡 위험이 있으므로 SOXX·SMH 각 1주, TQQQ 2주로 보수적 포지션을 유지하고 기존 보유분과 합산해 집중도를 관리한다. NVDA(-4.7%)·MSFT(-1.8%)·META(-1.6%) 등 기존 보유 종목은 손절선(-7%)에 미달하고 반도체 반등 시 동반 회복 기대가 있으므로 홀드 유지한다. TQQQ는 레버리지 하이리스크 슬롯으로 손절 -5%를 엄격히 지키며, 반등 확인이 되지 않으면 다음 정규장에서 즉시 정리한다. | DeepSeek: 시장 국면은 '하락장'이며 시장 폭 붕괴(5일선 위 33%·당일 하락 72%·신저가 17%)와 VIX 18.6으로 표면적 지수 방어와 달리 내부는 광범위 약세입니다. 주도 섹터(바이오 +12.3%, 반도체 +5.5%)는 강하지만 대부분 M7·QQQ 종목이 일목구름 아래에 있고 RSI 30~40대 과매도권에 근접해 '추세추종'보다 '저점매수' 자리를 기다리는 국면입니다. 애프터마켓에서 SOXL(+13.3%), SOXX(+5.3%), AMAT(+6.5%) 등 반도체가 급반등하며 rebound_from_low_pct가 높아 하이리스크 반등 신호가 보이나, 정규장 종가 기준으로 추세 전환(MA5 회복·일목구름 위 복귀)이 확인되지 않아 신규 매수는 보류합니다. 보유 포지션 중 손절선(-7%)에 근접한 종목(NVDA -4.7%)은 아직 안전하며, 분산(반도체·금융·인버스 헤지·소형주)과 현금 81.5%는 하락장 방어에 적절하나, 주도 섹터 추세가 명확해지면 현금을 무기로 삼되 기회손실을 피하기 위해 적극 진입할 준비를 하고 있습니다. 현 상황에서는 '기다리는 매매'가 최우선이며, 정규장에서 반등 신호(MA5 회복·거래량 동반)가 확인되면 반도체 ETF와 빅테크 저점매수를 재개할 계획입니다.",
- "chart_levels": {
-  "AVGO": {
-   "price": 392.71,
-   "support": [
-    376.47,
-    346.58,
-    333.24,
-    323.44
-   ],
-   "resistance": [
-    401.39,
-    414.58,
-    430.0,
-    439.79
-   ],
-   "fib": {
-    "382": 409.69,
-    "500": 387.49,
-    "618": 365.29
-   },
-   "taco_zone": {
-    "low": 365.29,
-    "high": 376.47,
-    "basis": "지지대+피보 6.18"
-   },
-   "in_taco_zone": false
-  },
-  "SMH": {
-   "price": 645.57,
-   "support": [
-    602.14,
-    578.34,
-    569.69,
-    543.96
-   ],
-   "resistance": [
-    637.9
-   ],
-   "fib": {
-    "382": 551.87,
-    "500": 515.72,
-    "618": 479.57
-   },
-   "taco_zone": {
-    "low": 479.57,
-    "high": 602.14,
-    "basis": "지지대+피보 5.00+피보 6.18"
-   },
-   "in_taco_zone": false
-  },
-  "NVDA": {
-   "price": 200.16,
-   "support": [
-    198.23,
-    184.2,
-    171.84,
-    165.17
-   ],
-   "resistance": [
-    211.79,
-    216.61,
-    224.36,
-    235.74
-   ],
-   "fib": {
-    "382": 208.78,
-    "500": 200.46,
-    "618": 192.13
-   },
-   "taco_zone": {
-    "low": 192.13,
-    "high": 198.23,
-    "basis": "지지대+피보 6.18"
-   },
-   "in_taco_zone": false
-  },
-  "MSFT": {
-   "price": 366.12,
-   "support": [
-    356.77
-   ],
-   "resistance": [
-    370.87,
-    384.47,
-    410.71,
-    444.11
-   ],
-   "fib": {
-    "382": 421.72,
-    "500": 409.74,
-    "618": 397.76
-   },
-   "taco_zone": {
-    "low": 353.92,
-    "high": 359.62,
-    "basis": "지지대"
-   },
-   "in_taco_zone": false
-  },
-  "SPY": {
-   "price": 738.02,
-   "support": [
-    729.58,
-    711.58,
-    682.9,
-    652.64
-   ],
-   "resistance": [
-    754.19
-   ],
-   "fib": {
-    "382": 710.83,
-    "500": 695.77,
-    "618": 680.71
-   },
-   "taco_zone": {
-    "low": 680.71,
-    "high": 729.58,
-    "basis": "지지대+피보 5.00+피보 6.18"
-   },
-   "in_taco_zone": false
-  },
-  "QQQ": {
-   "price": 725.61,
-   "support": [
-    697.61,
-    607.82,
-    558.28
-   ],
-   "resistance": [
-    719.79,
-    745.08
-   ],
-   "fib": {
-    "382": 674.39,
-    "500": 652.22,
-    "618": 630.05
-   },
-   "taco_zone": {
-    "low": 630.05,
-    "high": 697.61,
-    "basis": "지지대+피보 5.00+피보 6.18"
-   },
-   "in_taco_zone": false
-  },
-  "SQQQ": {
-   "price": 38.14,
-   "support": [
-    36.91,
-    36.31
-   ],
-   "resistance": [
-    41.07,
-    44.37,
-    45.25,
-    62.79
-   ],
-   "fib": {
-    "382": 56.6,
-    "500": 62.86,
-    "618": 69.13
-   },
-   "taco_zone": {
-    "low": 36.61,
-    "high": 37.21,
-    "basis": "지지대"
-   },
-   "in_taco_zone": false
-  },
-  "META": {
-   "price": 557.77,
-   "support": [
-    525.72
-   ],
-   "resistance": [
-    566.98,
-    579.23,
-    589.15,
-    641.26
-   ],
-   "fib": {
-    "382": 630.42,
-    "500": 612.46,
-    "618": 594.51
-   },
-   "taco_zone": {
-    "low": 521.51,
-    "high": 529.93,
-    "basis": "지지대"
-   },
-   "in_taco_zone": false
-  },
-  "TNA": {
-   "price": 72.5,
-   "support": [
-    69.81,
-    67.44,
-    62.29,
-    61.15
-   ],
-   "resistance": [],
-   "fib": {
-    "382": 60.82,
-    "500": 56.84,
-    "618": 52.86
-   },
-   "taco_zone": {
-    "low": 52.86,
-    "high": 69.81,
-    "basis": "지지대+피보 5.00+피보 6.18"
-   },
-   "in_taco_zone": false
-  },
-  "AMAT": {
-   "price": 627.52,
-   "support": [
-    501.7,
-    453.95,
-    443.62,
-    417.04
-   ],
-   "resistance": [],
-   "fib": {
-    "382": 519.06,
-    "500": 481.65,
-    "618": 444.24
-   },
-   "taco_zone": {
-    "low": 444.24,
-    "high": 501.7,
-    "basis": "지지대+피보 5.00+피보 6.18"
-   },
-   "in_taco_zone": false
-  },
-  "SOXX": {
-   "price": 633.13,
-   "support": [
-    570.09,
-    536.27,
-    495.87,
-    461.6
-   ],
-   "resistance": [
-    615.68
-   ],
-   "fib": {
-    "382": 523.14,
-    "500": 482.4,
-    "618": 441.66
-   },
-   "taco_zone": {
-    "low": 441.66,
-    "high": 570.09,
-    "basis": "지지대+피보 5.00+피보 6.18"
-   },
-   "in_taco_zone": false
-  },
-  "BLK": {
-   "price": 982.24,
-   "support": [
-    978.73,
-    928.38
-   ],
-   "resistance": [
-    1072.47,
-    1163.17
-   ],
-   "fib": {
-    "382": 1039.1,
-    "500": 1019.05,
-    "618": 998.99
-   },
-   "taco_zone": {
-    "low": 970.9,
-    "high": 986.56,
-    "basis": "지지대"
-   },
-   "in_taco_zone": true
-  }
- },
- "last_trade_time": "2026-06-25 07:01",
- "last_trade_count": 0,
- "last_hold_count": 0
+ "market_view": "[미국 장 마감 (거래 시간 외)] 미국 주식 거래 시간이 아니고 코인도 살 만한 신호가 없어 관망. (AI 판단 생략 — 비용 절감)",
+ "trades": []
 }
