@@ -1,83 +1,62 @@
 {
- "updated": "2026-06-25 23:03",
+ "updated": "2026-06-26 00:01",
  "candidates": [
   {
-   "symbol": "CMCSA",
-   "score": 8,
-   "price": 22.96,
+   "symbol": "NFLX",
+   "score": 4,
+   "price": 72.11,
    "reasons": [
-    "52주고점 대비 -29%",
-    "과매도 탈출+MA5 회복",
-    "PER 6(저평가)",
-    "PBR 0.9",
+    "52주고점 대비 -38%",
+    "RSI 22 과매도"
+   ]
+  },
+  {
+   "symbol": "FNGU",
+   "score": 4,
+   "price": 24.01,
+   "reasons": [
+    "52주고점 대비 -34%",
+    "PER 2(저평가)"
+   ]
+  },
+  {
+   "symbol": "C",
+   "score": 4,
+   "price": 147.26,
+   "reasons": [
+    "PER 12(저평가)",
+    "PBR 1.3",
     "그레이엄 기준 충족"
    ]
   },
   {
-   "symbol": "LUNR",
-   "score": 5,
-   "price": 18.13,
-   "reasons": [
-    "52주고점 대비 -60%",
-    "RSI 32 과매도",
-    "시총 $2.9B(소형)"
-   ]
-  },
-  {
-   "symbol": "PL",
-   "score": 5,
-   "price": 26.3,
-   "reasons": [
-    "52주고점 대비 -49%",
-    "RSI 32 과매도",
-    "시총 $9.4B(소형)"
-   ]
-  },
-  {
-   "symbol": "T",
+   "symbol": "COF",
    "score": 4,
-   "price": 22.58,
+   "price": 208.37,
    "reasons": [
     "PER 9(저평가)",
-    "PBR 1.4",
+    "PBR 1.2",
     "그레이엄 기준 충족"
    ]
   },
   {
-   "symbol": "GM",
+   "symbol": "TFC",
    "score": 4,
-   "price": 79.44,
+   "price": 50.96,
    "reasons": [
-    "PER 6(저평가)",
+    "PER 10(저평가)",
     "PBR 1.1",
     "그레이엄 기준 충족"
    ]
   },
   {
-   "symbol": "RIVN",
+   "symbol": "PFE",
    "score": 4,
-   "price": 14.48,
+   "price": 24.09,
    "reasons": [
-    "52주고점 대비 -36%",
-    "시총 $19.4B(소형)"
-   ]
-  },
-  {
-   "symbol": "RDW",
-   "score": 4,
-   "price": 10.52,
-   "reasons": [
-    "52주고점 대비 -59%",
-    "시총 $2.1B(소형)"
-   ]
-  },
-  {
-   "symbol": "AMBA",
-   "score": 4,
-   "price": 61.34,
-   "reasons": [
-    "52주고점 대비 -36%",
-    "시총 $2.7B(소형)"
+    "RSI 28 과매도",
+    "PER 9(저평가)",
+    "그레이엄 기준 충족"
    ]
   }
  ]
