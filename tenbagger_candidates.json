@@ -1,81 +1,83 @@
 {
- "updated": "2026-06-27 01:01",
+ "updated": "2026-06-27 02:01",
  "candidates": [
   {
-   "symbol": "CMCSA",
-   "score": 6,
-   "price": 23.17,
+   "symbol": "CERT",
+   "score": 8,
+   "price": 5.82,
    "reasons": [
-    "52주고점 대비 -29%",
-    "PER 6(저평가)",
+    "52주고점 대비 -50%",
+    "PER 14(저평가)",
     "PBR 0.9",
-    "그레이엄 기준 충족"
+    "그레이엄 기준 충족",
+    "시총 $0.9B(소형)"
    ]
   },
   {
-   "symbol": "PL",
+   "symbol": "SERV",
    "score": 6,
-   "price": 28.36,
+   "price": 5.96,
    "reasons": [
-    "52주고점 대비 -45%",
-    "과매도 탈출+MA5 회복",
-    "시총 $10.1B(소형)"
+    "52주고점 대비 -61%",
+    "RSI 31 과매도",
+    "PBR 1.4",
+    "시총 $0.5B(소형)"
    ]
   },
   {
-   "symbol": "NOC",
-   "score": 4,
-   "price": 504.46,
+   "symbol": "PATH",
+   "score": 6,
+   "price": 10.39,
+   "reasons": [
+    "52주고점 대비 -46%",
+    "PER 11(저평가)",
+    "시총 $5.4B(소형)"
+   ]
+  },
+  {
+   "symbol": "UPST",
+   "score": 6,
+   "price": 33.27,
    "reasons": [
     "52주고점 대비 -34%",
-    "RSI 33 과매도"
-   ]
-  },
-  {
-   "symbol": "T",
-   "score": 4,
-   "price": 22.58,
-   "reasons": [
-    "PER 9(저평가)",
-    "PBR 1.4",
-    "그레이엄 기준 충족"
-   ]
-  },
-  {
-   "symbol": "GM",
-   "score": 4,
-   "price": 79.09,
-   "reasons": [
-    "PER 6(저평가)",
-    "PBR 1.1",
-    "그레이엄 기준 충족"
-   ]
-  },
-  {
-   "symbol": "LUNR",
-   "score": 4,
-   "price": 19.97,
-   "reasons": [
-    "52주고점 대비 -56%",
+    "PER 10(저평가)",
     "시총 $3.2B(소형)"
    ]
   },
   {
-   "symbol": "RDW",
+   "symbol": "TEM",
    "score": 4,
-   "price": 11.08,
+   "price": 56.26,
    "reasons": [
-    "52주고점 대비 -57%",
-    "시총 $2.2B(소형)"
+    "52주고점 대비 -32%",
+    "시총 $10.1B(소형)"
    ]
   },
   {
-   "symbol": "AMBA",
+   "symbol": "RXRX",
    "score": 4,
-   "price": 61.9,
+   "price": 3.52,
    "reasons": [
-    "52주고점 대비 -35%",
-    "시총 $2.7B(소형)"
+    "52주고점 대비 -29%",
+    "시총 $1.9B(소형)"
+   ]
+  },
+  {
+   "symbol": "IONQ",
+   "score": 4,
+   "price": 51.52,
+   "reasons": [
+    "52주고점 대비 -28%",
+    "시총 $19.2B(소형)"
+   ]
+  },
+  {
+   "symbol": "RGTI",
+   "score": 4,
+   "price": 18.68,
+   "reasons": [
+    "52주고점 대비 -50%",
+    "시총 $6.2B(소형)"
    ]
   }
  ]
