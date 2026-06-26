@@ -1647,7 +1647,14 @@ def track_runners(positions):
         stopped = False
         if sym not in tenbaggers and not triggered:
             line = STOPLOSS_LEV_PCT if sym in LEVERAGE_TICKERS else STOPLOSS_PCT
-            if pnl <= line:
+            # 분할 착시 방어: 하루에 정상적으로 -35%를 넘는 손실은 거의 없다.
+            # 액면분할 후 Alpaca 평단가가 미조정돼 생기는 가짜 대손실로 멀쩡한 포지션을
+            # 손절하는 사고를 막는다. 이런 종목은 손절 보류 + 경고만(사람이 확인).
+            if pnl <= -35:
+                log(f"⚠️ {sym} 손실 {pnl:.1f}% — 비정상적으로 큼. 액면분할/데이터 오류 의심으로 "
+                    f"자동 손절 '보류'. 평단가를 직접 확인하세요(분할이면 정상 포지션).")
+                p["split_suspect"] = True
+            elif pnl <= line:
                 stopped = True
                 stoploss_sells.append({
                     "symbol": sym, "action": "sell",
