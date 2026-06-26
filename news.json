@@ -1,6 +1,35 @@
 {
- "updated": "2026-06-26 23:02",
+ "updated": "2026-06-27 00:02",
  "items": [
+  {
+   "headline": "One Chart Shows Nvidia's AI Monopoly Is Slowly Fading",
+   "summary": "Nvidia&#39;s performance relative to the SOXX semiconductor ETF is declining as investors broaden AI bets to Micron and Broadcom.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/06/60128112/one-chart-shows-nvidias-ai-monopoly-is-slowly-fading",
+   "created_at": "2026-06-26T14:31:49Z",
+   "symbols": [
+    "AVGO",
+    "MU",
+    "NVDA",
+    "SOXX"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/26/Bahia--Brazil---August-29--2025-Nvidia-L.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "What Is Going On With Broadcom Stock On Friday?",
+   "summary": "Broadcom (NASDAQ: AVGO) stock dipped nearly 4% in premarket trading as semiconductor investors locked in gains following a historic, sector-wide AI chip rally.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/06/60127352/what-is-going-on-with-broadcom-stock-on-friday",
+   "created_at": "2026-06-26T14:16:55Z",
+   "symbols": [
+    "AVGO",
+    "CIBR",
+    "IGM",
+    "MU",
+    "TDIV"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/26/Sunnyvale--Causa---March-1--2014-Broadco.jpg?width=1024&height=768"
+  },
   {
    "headline": "Jeff Bezos' 2016 'Lottery Ticket' Warning Comes True As Blue Origin Workers Miss Out On SpaceX-Style IPO Windfall",
    "summary": "SpaceX&#39;s blockbuster IPO rewarded employees as many former Blue Origin workers were left with worthless stock options.",
@@ -177,30 +206,198 @@
    "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/earnings_preview_5.jpg?width=1024&height=768"
   },
   {
-   "headline": "Why Apple Just Suffered Its Worst Crash In Over A Year",
-   "summary": "AAPL shares drop 6% in biggest slide since 2025 as Apple raises Mac and iPad prices to battle surging AI memory costs. Full analysis here.",
+   "headline": "SELLAS Stock Hits New Highs: What's Happening Today?",
+   "summary": "SELLAS Life Sciences Group Inc (NASDAQ: SLS) shares are pushing higher Friday morning, extending Thursday’s strong rally.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/06/60120292/why-apple-just-suffered-its-worst-crash-in-over-a-year",
-   "created_at": "2026-06-26T09:42:55Z",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/06/60129193/sellas-stock-hits-new-highs-whats-happening-today",
+   "created_at": "2026-06-26T14:54:17Z",
    "symbols": [
-    "AAPL",
-    "MSFT"
+    "SLS"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/26/Beijing--China---July-21--2023-Apple-Log.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/26/Trade-And-Finance-Concept--Dark-Forex-Ch.jpg?width=1024&height=768"
   },
   {
-   "headline": "Stock Market: Will S&P 500 Open Up Or Down Today?",
-   "summary": "June 26, 2026: Polymarket traders turn cautious on Friday as technology stocks slide despite Micron&#39;s blowout earnings and easing inflation concerns.",
+   "headline": "Nike Analyst Turns Bearish As Recovery Takes Longer Than Expected",
+   "summary": "KeyBanc downgraded Nike, citing slower-than-expected progress in its turnaround strategy and mounting competition from rival brands.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/prediction-markets/26/06/60120031/sp500-june-26-open-up-or-down-polymarket-tech-selloff-micron-ai-stocks",
-   "created_at": "2026-06-26T09:00:00Z",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/downgrades/26/06/60129177/nike-analyst-is-no-longer-bullish-says-recovery-may-take-longer-than-expected",
+   "created_at": "2026-06-26T14:53:54Z",
+   "symbols": [
+    "NKE",
+    "PFE"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/26/Kuala-Lumpur--Malaysia---August-28--2024.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "DraftKings Stock Emerges As 2026 World Cup Winner: Prediction Market, Sportsbook Break Records",
+   "summary": "The 2026 World Cup is seeing strong betting volume and prediction markets usage, helping to boost the numbers for DraftKings.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/06/60129130/draftkings-stock-emerges-as-2026-world-cup-winner-prediction-market-sportsbook-break-records",
+   "created_at": "2026-06-26T14:53:10Z",
+   "symbols": [
+    "DKNG"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/26/The-DraftKings-Trade.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "These Analysts Revise Their Forecasts On Synaptics",
+   "summary": "ON Semi to acquire Synaptics in all-stock deal, expanding capabilities in AI and edge-based applications. Analysts downgrade stock after deal.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/06/60124251/these-analysts-revise-their-forecasts-on-synaptics-after-better-than-expected-q3-results",
+   "created_at": "2026-06-26T13:20:43Z",
+   "symbols": [
+    "ON",
+    "SYNA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/26/Side-View-Of-Concentrated-Crypto-Trader-.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "The Memory Oligopoly: How Micron And 6 Other Names Now Set The Price For The AI Race",
+   "summary": "Micron&#39;s blowout earnings cap a year in which seven memory makers — the de-facto oligopoly behind DRAM and HBM — took control of what the AI race pays.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/06/60128618/memory-cartel-micron-ai-prices",
+   "created_at": "2026-06-26T14:42:15Z",
    "symbols": [
     "AAPL",
-    "MSFT",
     "MU",
-    "QCOM"
+    "NVDA",
+    "SNDK",
+    "STX"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/26/Cyberpunk-Photo-Of-An-Upward-trending-Sa.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/26/Blocks-Of-Computer-Memory-Sit-On-Top-Of-.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "These Analysts Revise Their Forecasts On McCormick After Q2 Results",
+   "summary": "McCormick (MKC) reports Q2 results above expectations, maintains FY guidance. Analysts raise price targets on the stock. Shares rise 5.4%.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/06/60128549/these-analysts-revise-their-forecasts-on-mccormick-after-q2-results",
+   "created_at": "2026-06-26T14:40:54Z",
+   "symbols": [
+    "MKC"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/26/London--On--Canada---August-30--2020-Clo.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "'There's An Execution Crisis In Ethereum': Is ETH Losing To Hotter Tech Trades Like MU And NVDA?",
+   "summary": "Bankless co-founder Ryan Adams says Ethereum has an execution crisis, not a funding crisis, as the Foundation cuts its 2026 budget 40%.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/06/60128408/theres-an-execution-crisis-in-ethereum-is-eth-losing-to-hotter-tech-trades-like-mu-and-nvda",
+   "created_at": "2026-06-26T14:38:06Z",
+   "symbols": [
+    "BMNR",
+    "ETHUSD",
+    "MU",
+    "NVDA",
+    "SBET"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/26/Eth-Coin-With-Blurred-Candlestick-Chart-.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Bloom Energy Shares Are Sliding Friday: What's Going On?",
+   "summary": "Bloom Energy shares are trading lower Friday as traders reassess positioning after the stock’s recent run to new highs.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/06/60128236/bloom-energy-shares-are-sliding-friday-whats-going-on",
+   "created_at": "2026-06-26T14:34:34Z",
+   "symbols": [
+    "BE"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/26/Bloom-Energy.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "These Analysts Boost Their Forecasts On TD Synnex After Upbeat Q2 Results",
+   "summary": "TD SYNNEX Corp (NYSE:SNX) reported strong Q2 results with revenue of $19.58B &amp; EPS of $4.85, beating estimates. Analysts raise price targets.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/06/60128214/these-analysts-boost-their-forecasts-on-td-synnex-after-upbeat-q2-results",
+   "created_at": "2026-06-26T14:34:07Z",
+   "symbols": [
+    "SNX"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/26/November-14--2022--Brazil--In-This-Photo.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Titan Mining Stock Is Moving Higher: What's Going On?",
+   "summary": "Titan Mining shares are rising Friday after subsidiary selected by US Army to build graphite processing facilities at two military sites.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/06/60127574/titan-mining-stock-is-moving-higher-whats-going-on",
+   "created_at": "2026-06-26T14:21:41Z",
+   "symbols": [
+    "TII"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/26/Growing-Stock-Market-Chart-With-Candlest.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Apogee Enterprises Posts Strong Q1 Earnings, Joins ACADIA Pharmaceuticals, Crocs And Other Big Stocks Moving Higher On Friday",
+   "summary": "Apogee Enterprises Inc (NASDAQ: APOG) rose sharply after the company reported better-than-expected first-quarter financial results. Other big gainers in today&#39;s session include FuelCell Energy Inc",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/06/60127443/apogee-enterprises-posts-strong-q1-earnings-joins-acadia-pharmaceuticals-crocs-and-other-big-stocks-moving-higher-on-friday",
+   "created_at": "2026-06-26T14:18:56Z",
+   "symbols": [
+    "ACAD",
+    "APOG",
+    "BB",
+    "BVC",
+    "CEPT"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/26/Display-Of-Stock-Market-Quotes.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "$1000 Invested In Adobe 15 Years Ago Would Be Worth This Much Today",
+   "summary": "Adobe (NASDAQ:ADBE) has outperformed the market over the past 15 years by 1.06% on an annualized basis producing an average annual return of 13.05%. Currently, Adobe has a market capitalization of $78",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/06/60127321/1000-invested-adobe-15-years-ago-would-be-worth-much-today",
+   "created_at": "2026-06-26T14:16:26Z",
+   "symbols": [
+    "ADBE"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_3.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Netflix Stock Edges Higher Friday: What's Driving The Move?",
+   "summary": "Netflix shares are trading higher Friday on live-sports push despite S&amp;P futures down 0.8% in risk-off backdrop.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/06/60127167/netflix-stock-edges-higher-friday-whats-driving-the-move",
+   "created_at": "2026-06-26T14:14:02Z",
+   "symbols": [
+    "NFLX"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/26/Netflix.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Can-Fite Stock Jumps After Japan Patent Boosts Obesity Drug Case",
+   "summary": "Can-Fite stock rises after Japan patent allowance strengthens Namodenoson’s obesity and metabolic disease opportunity.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/health-care/26/06/60126913/can-fite-stock-jumps-after-japan-patent-boosts-obesity-drug-case",
+   "created_at": "2026-06-26T14:08:27Z",
+   "symbols": [
+    "CANF"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/26/Financial-Graph-With-Uptrend-Line-Techno.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Nasdaq Falls Over 200 Points; US Goods Trade Gap Widens In May",
+   "summary": "US stocks traded lower, Nasdaq fell 200 pts, Dow down 0.31%, S&amp;P 500 dropped 0.50%. Health care shares rose 2.1%, tech stocks fell 1.8%.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/06/60126400/nasdaq-falls-over-200-points-us-goods-trade-gap-widens-in-may",
+   "created_at": "2026-06-26T14:00:44Z",
+   "symbols": [
+    "BTCT",
+    "CELZ",
+    "INLF",
+    "IVF",
+    "SCAG"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/26/Luminar-Technologies-Inc-NASDAQLAZR.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "What's Going On With IceCure Medical Stock On Friday?",
+   "summary": "IceCure Medical (NASDAQ: ICCM) has officially regained compliance with Nasdaq&#39;s minimum bid price requirement. Read the details.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/health-care/26/06/60126363/whats-going-on-with-icecure-medical-stock-on-friday",
+   "created_at": "2026-06-26T14:00:15Z",
+   "symbols": [
+    "ICCM"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/26/3D-Illustration-Depicting-Cancer-Cells-I.jpg?width=1024&height=768"
   },
   {
    "headline": "What's Going On With Catheter Precision Stock On Friday?",
@@ -305,190 +502,6 @@
     "DRI"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/06/26/Orlando--Fl--Usa---January-20--2022-Dard.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Cardano Down To Prices Seen In December 2020: What Went Wrong The Last 5 Years?",
-   "summary": "Cardano sees a spike in active addresses and social buzz even as ADA hits its lowest price since December 2020, hinting at a possible bounce.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/06/60124282/cardano-down-to-prices-seen-in-december-2020-what-went-wrong-the-last-5-years",
-   "created_at": "2026-06-26T13:21:31Z",
-   "symbols": [
-    "ADAUSD"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/26/Kaufbeuren--Germany---December-04--2021-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Americans Are Rushing Toward A Backup Plan As Citizenship Applications Hit Record High In This European Country",
-   "summary": "Americans are increasingly seeking Irish citizenship as economic and political anxiety rises.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/travel/26/06/60124272/americans-are-rushing-toward-a-backup-plan-as-citizenship-applications-hit-record-high-in-this-european-country",
-   "created_at": "2026-06-26T13:21:19Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/26/Ireland-On-Atlas-World-Map.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "These Analysts Revise Their Forecasts On Synaptics After Better-Than-Expected Q3 Results",
-   "summary": "ON Semi to acquire Synaptics in all-stock deal, expanding capabilities in AI and edge-based applications. Analysts downgrade stock after deal.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/06/60124251/these-analysts-revise-their-forecasts-on-synaptics-after-better-than-expected-q3-results",
-   "created_at": "2026-06-26T13:20:48Z",
-   "symbols": [
-    "ON",
-    "SYNA"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/26/Side-View-Of-Concentrated-Crypto-Trader-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Alibaba Stock Sinks To 52-Week Low - Here's Why",
-   "summary": "BABA stock drops as Anthropic accuses Alibaba of a massive campaign to &#34;distill&#34; capabilities from its Claude AI models.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/06/60124209/alibaba-stock-sinks-to-52-week-low-heres-why",
-   "created_at": "2026-06-26T13:19:52Z",
-   "symbols": [
-    "BABA"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/26/Shanghai--China--Mar-28--2024--Alibaba-G.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Full Transcript: Corus Entertainment Q3 2026 Earnings Call",
-   "summary": "On Friday, Corus Entertainment (TSX:CJR) discussed third-quarter financial results during its earnings call. The full transcript is provided below.\nBenzinga APIs provide real-time access to earnings c",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/06/60124206/full-transcript-corus-entertainment-q3-2026-earnings-call",
-   "created_at": "2026-06-26T13:19:31Z",
-   "symbols": [
-    "TSX:CJR"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_4.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Cineverse Q4 2026 Earnings Call: Complete Transcript",
-   "summary": "On Friday, Cineverse (NASDAQ:CNVS) discussed fourth-quarter financial results during its earnings call. The full transcript is provided below.\nThis transcript is brought to you by Benzinga APIs. For r",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/06/60124172/cineverse-q4-2026-earnings-call-complete-transcript",
-   "created_at": "2026-06-26T13:18:10Z",
-   "symbols": [
-    "CNVS"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_2.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "ON Semiconductor To Rally More Than 15%? Here Are 10 Top Analyst Forecasts For Friday",
-   "summary": "Top analysts change outlook on top names: BMO, Chardan, Rosenblatt, Susquehanna, Evercore, Deutsche Bank, Baird, Stephens &amp; Co.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/06/60124122/on-semiconductor-to-rally-more-than-15-here-are-10-top-analyst-forecasts-for-friday",
-   "created_at": "2026-06-26T13:15:58Z",
-   "symbols": [
-    "AVAV",
-    "DRI",
-    "ESTC",
-    "FDXF",
-    "MEI"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/26/Crypto-Trader-Investor-Broker-Using-Smar.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "What's Going On With Sunrun Stock Friday?",
-   "summary": "Sunrun shares are trading lower in Friday&#39;s premarket as risk appetite eases with S&amp;P futures off 0.7% and AI grid-support in focus.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/06/60124046/whats-going-on-with-sunrun-stock-friday",
-   "created_at": "2026-06-26T13:12:38Z",
-   "symbols": [
-    "RUN"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/26/Sunrun-Editorial--Illustrative-Photo-For.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Leading And Lagging Sectors For June 26, 2026",
-   "summary": "Gainers\n\n\n\nSymbol\nName\nPrice\nChange ($)\nChange (%)\nVolume\n\n\n\n\n(NYSE:XLP)\nState Street Consumer Staples Select Sector SPDR ETF\n84.73\n0.79\n0.94\n21.1K\n\n\n(NYSE:XLRE)\nState Street Real Estate Select Sector",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/etfs/sector-etfs/26/06/60124008/leading-and-lagging-sectors-june-26-2026",
-   "created_at": "2026-06-26T13:10:16Z",
-   "symbols": [
-    "XLB",
-    "XLC",
-    "XLE",
-    "XLF",
-    "XLI"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_3.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "This Nike Analyst Is No Longer Bullish; Here Are Top 5 Downgrades For Friday",
-   "summary": "Top analysts changed outlook on NKE, VC, SYNA, MEI, TMHC. See full list of rating changes and expert opinions on these stocks.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/analyst-stock-ratings/downgrades/26/06/60123830/this-nike-analyst-is-no-longer-bullish-here-are-top-5-downgrades-for-friday-4",
-   "created_at": "2026-06-26T13:01:32Z",
-   "symbols": [
-    "MEI",
-    "NKE",
-    "SYNA",
-    "TMHC",
-    "VC"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/26/Shanghai-china-july-2021-Large-Nike-Stor.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "What's Going On With Nokia Stock Friday?",
-   "summary": "Nokia shares are trading lower by almost 4% during Friday&#39;s premarket session as risk appetite cools with S&amp;P 500 futures down 0.7%.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/06/60123749/whats-going-on-with-nokia-stock-friday-2",
-   "created_at": "2026-06-26T12:59:55Z",
-   "symbols": [
-    "NOK"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/26/Nokia.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "This Robinhood Analyst Begins Coverage On A Bullish Note; Here Are Top 5 Initiations For Friday",
-   "summary": "Top analysts changed outlook on top names. For all changes, see analyst ratings page. See how analysts view HOOD, FXNC, NU, FTH, FRST.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/06/60123599/this-robinhood-analyst-begins-coverage-on-a-bullish-note-here-are-top-5-initiations-for-friday",
-   "created_at": "2026-06-26T12:58:27Z",
-   "symbols": [
-    "FRST",
-    "FTH",
-    "FXNC",
-    "HOOD",
-    "NU"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/26/Munich--Germany---January-28--2021robinh.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Top Wall Street Analyst Says This Quantum Computing Stock Is 'Meaningfully Mispriced'— Sees 25% Upside As Trump's Quantum Push Gathers Steam",
-   "summary": "A top Wall Street research firm said Infleqtion Inc (NYSE:INFQ) is “meaningfully mispriced” and is betting the quantum computing stock has more room to run.\n\n\n\nWedbush Securities initiated coverage of",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/analyst-stock-ratings/initiation/26/06/60123587/top-wall-street-analyst-says-this-quantum-computing-stock-is-meaningfully-mispriced-sees-25-upside-as-trumps-quantum-push-gathers-steam",
-   "created_at": "2026-06-26T12:58:08Z",
-   "symbols": [
-    "INFQ"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/26/Quantum-Computing-Concept-Revolutionizin.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Why Is ON Semiconductor Stock Falling On Friday?",
-   "summary": "ON Semiconductor stock drops while Synaptics jumps after announcing a massive $7B all-stock acquisition deal. Read the latest.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/06/60123546/why-is-on-semiconductor-stock-falling-on-friday",
-   "created_at": "2026-06-26T12:55:40Z",
-   "symbols": [
-    "ON",
-    "SYNA"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/26/ON-Semiconductor-Corp.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "This Essex Property Trust Analyst Turns Bullish; Here Are Top 4 Upgrades For Friday",
-   "summary": "Top Wall Street analysts changed outlooks on BNED, AMH, COLD, and ESS. Check analyst ratings page for upgrades, downgrades, and initiations.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/06/60123453/this-essex-property-trust-analyst-turns-bullish-here-are-top-4-upgrades-for-friday",
-   "created_at": "2026-06-26T12:48:30Z",
-   "symbols": [
-    "AMH",
-    "BNED",
-    "COLD",
-    "ESS"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/26/Analyst-Works-On-Personal-Computer-Showi.jpg?width=1024&height=768"
   }
  ]
 }
