@@ -1,10 +1,10 @@
 {
- "updated": "2026-06-27 04:02",
+ "updated": "2026-06-27 04:31",
  "candidates": [
   {
    "symbol": "NFLX",
    "score": 5,
-   "price": 73.92,
+   "price": 73.89,
    "reasons": [
     "52주고점 대비 -36%",
     "과매도 탈출+MA5 회복"
@@ -13,7 +13,7 @@
   {
    "symbol": "FNGU",
    "score": 4,
-   "price": 24.2,
+   "price": 24.17,
    "reasons": [
     "52주고점 대비 -33%",
     "PER 2(저평가)"
@@ -22,7 +22,7 @@
   {
    "symbol": "BAC",
    "score": 4,
-   "price": 57.81,
+   "price": 57.87,
    "reasons": [
     "PER 11(저평가)",
     "PBR 1.5",
@@ -32,7 +32,7 @@
   {
    "symbol": "C",
    "score": 4,
-   "price": 141.33,
+   "price": 141.51,
    "reasons": [
     "PER 11(저평가)",
     "PBR 1.3",
@@ -42,7 +42,7 @@
   {
    "symbol": "COF",
    "score": 4,
-   "price": 204.0,
+   "price": 203.88,
    "reasons": [
     "PER 8(저평가)",
     "PBR 1.2",
@@ -52,7 +52,7 @@
   {
    "symbol": "TFC",
    "score": 4,
-   "price": 50.23,
+   "price": 50.19,
    "reasons": [
     "PER 10(저평가)",
     "PBR 1.1",
@@ -62,9 +62,9 @@
   {
    "symbol": "PFE",
    "score": 4,
-   "price": 24.24,
+   "price": 24.15,
    "reasons": [
-    "RSI 35 과매도",
+    "RSI 34 과매도",
     "PER 9(저평가)",
     "그레이엄 기준 충족"
    ]
