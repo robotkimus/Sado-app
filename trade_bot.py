@@ -513,10 +513,55 @@ def summarize(sym, series):
     }
 
 
+HEDGE_STATE_FILE = "hedge_state.json"   # 헷지 진입/청산 시각 기록(휩쏘 방지)
+HEDGE_MIN_HOLD_HOURS = 6                # 한 번 헷지하면 최소 6시간 유지(잦은 진입·청산 차단)
+
+
+def _load_hedge_state():
+    try:
+        with open(HEDGE_STATE_FILE, encoding="utf-8") as f:
+            return json.load(f)
+    except Exception:
+        return {}
+
+
+def _save_hedge_state(state):
+    try:
+        with open(HEDGE_STATE_FILE, "w", encoding="utf-8") as f:
+            json.dump(state, f, ensure_ascii=False, indent=1)
+    except Exception as e:
+        log(f"⚠️ hedge_state 저장 실패: {e}")
+
+
+def _hours_since(iso_str):
+    """ISO 시각 문자열로부터 지금까지 몇 시간 지났는지. 파싱 실패 시 큰 값."""
+    try:
+        t = datetime.datetime.fromisoformat(iso_str)
+        now = datetime.datetime.now(t.tzinfo) if t.tzinfo else datetime.datetime.now()
+        return (now - t).total_seconds() / 3600
+    except Exception:
+        return 9999
+
+
+def hedge_can_exit(positions):
+    """현재 인버스를 청산해도 되는지(쿨다운 경과 여부). 휩쏘 방지용.
+    헷지 진입 후 HEDGE_MIN_HOLD_HOURS 안 지났으면 청산 금지."""
+    held = {str(p.get("symbol", "")).upper() for p in (positions or [])}
+    if not (held & INVERSE_TICKERS):
+        return True   # 인버스 없으면 청산할 것도 없음
+    state = _load_hedge_state()
+    entered = state.get("entered_at")
+    if not entered:
+        return True   # 진입 기록 없으면(과거 매수 등) 청산 허용
+    h = _hours_since(entered)
+    return h >= HEDGE_MIN_HOLD_HOURS
+
+
 def auto_hedge_decision(regime, positions, account, market):
     """하락장에서 인버스(SQQQ/SOXS) 헷지를 자동으로 넣는다(AI 재량이 아니라 코드로 강제).
     - 조정 국면: 헷지 안 함(현금 확보로 방어 — execute에서 매수 축소).
-    - 하락장 국면: 인버스 미보유 시 소량(자산 5%) 자동 진입.
+    - 하락장 국면: 인버스 미보유 + 쿨다운 경과 시 소량(자산 3%) 자동 진입.
+    휩쏘 방지: 청산 직후 재진입을 막기 위해 마지막 청산 후에도 쿨다운을 본다.
     반환: 헷지 매수 decision 또는 None."""
     label = (regime or {}).get("label", "")
     if label != "하락장":
@@ -524,6 +569,12 @@ def auto_hedge_decision(regime, positions, account, market):
     # 이미 인버스 보유 중이면 추가 안 함
     held = {str(p.get("symbol", "")).upper() for p in (positions or [])}
     if held & INVERSE_TICKERS:
+        return None
+    # 휩쏘 방지: 직전 청산 후 쿨다운(6시간) 안 지났으면 재진입 금지
+    state = _load_hedge_state()
+    exited = state.get("exited_at")
+    if exited and _hours_since(exited) < HEDGE_MIN_HOLD_HOURS:
+        log(f"⏸ 헷지 재진입 보류 — 직전 청산 후 {HEDGE_MIN_HOLD_HOURS}시간 미경과(휩쏘 방지)")
         return None
     # 헷지 대상 선택: 반도체가 더 약하면 SOXS, 아니면 SQQQ
     breadth = regime.get("breadth", {})
@@ -552,6 +603,12 @@ def auto_hedge_decision(regime, positions, account, market):
     qty = int(budget / price) if price > 0 else 0
     if qty < 1:
         return None
+    # 진입 시각 기록(청산 쿨다운 계산용)
+    state["entered_at"] = datetime.datetime.now(
+        datetime.timezone(datetime.timedelta(hours=9))).isoformat()
+    state["entered_sym"] = hedge_sym
+    state.pop("exited_at", None)
+    _save_hedge_state(state)
     return {
         "symbol": hedge_sym, "action": "buy", "qty": qty,
         "conviction": "normal",
@@ -1068,7 +1125,8 @@ def ask_claude(account, positions, market, regime=None, session="regular"):
         "규칙:\n"
         f"- 신규 매수 한도(종목당 총자산 대비): 확신이 보통이면 {int(MAX_POSITION_PCT*100)}%, 확신이 강하면 최대 {int(MAX_POSITION_HIGH*100)}%, 확신이 약하면 3% 이내\n"
         "- 각 주문에 \"conviction\" 필드를 넣으세요: \"high\"(강한 확신) | \"normal\"(보통) | \"low\"(시험적). 신호·펀더멘털·시장국면이 모두 우호적이고 자리가 분명할 때만 high.\n"
-        "- high(큰 포지션)는 신중히: 한 종목에 자산을 크게 싣는 건 위험합니다. 정말 확신이 설 때만, 그리고 분할로 나눠 사세요(한 번에 한도를 다 채우지 말고 여러 번에 걸쳐).\n"
+        "- ★ 매수 크기를 의미 있게: 진입할 거면 제대로 진입하라. high 확신이고 자리가 좋으면 첫 진입부터 한도의 절반 이상(자산 5~6%)을 담아라. normal이어도 최소 자산 2~3%는 들어가라. '1주씩 찔끔' 매수는 금지 — 이겨도 수익이 작아 다른 손실을 못 메운다. 단 한 종목 한도(normal 5%, high 12%)는 지킬 것.\n"
+        "- ★★ 진입 타이밍 엄격(눌림목·지지선에서만): 추격 매수 금지. 신규 매수는 다음 중 하나가 충족되는 '좋은 자리'에서만 하라 — ① RSI가 과매도권(40 이하)에서 반등 조짐, ② 일목균형표 구름 상단·지지선 근처로 눌린 자리, ③ MA20 위에서 MA5까지 되돌린 눌림목. 이미 단기 급등(5일 +10%↑)했거나 자리가 애매하면 아무리 좋은 종목이어도 '관망'하라. 좋은 종목을 나쁜 자리에 사면 물린다.\n"
         "- 인버스 종목과 하락장·조정 국면에서는 conviction과 무관하게 5% 이내로 제한됩니다(시스템이 강제). 레버리지는 확신이 강할 때만 최대 8%.\n"
         "- 매수는 관심종목 내에서만, 매도는 보유 종목만, 공매도 금지\n"
         "- 손실 중인 포지션이 -7% 이하면 손절을 적극 검토 (레버리지는 -5%)\n"
@@ -1325,6 +1383,9 @@ def execute(decisions, account, positions, market, regime=None, block_buys=False
             qty = 0
         action = d.get("action")
         reason = str(d.get("reason", ""))[:120]
+        # 자동 매도(손절·트레일링)인지 판별 — 인버스 쿨다운에서 예외 처리용
+        is_auto_sell = ("자동 손절" in reason or "트레일링" in reason
+                        or d.get("stoploss_triggered") or d.get("trailing_stop_triggered"))
         conviction = str(d.get("conviction", "normal")).lower()  # high | normal | low
         tier = str(d.get("tier", "core")).lower()                 # core | highrisk
         is_highrisk = (tier == "highrisk")
@@ -1357,6 +1418,18 @@ def execute(decisions, account, positions, market, regime=None, block_buys=False
             else:
                 pos_cap = MAX_POSITION_PCT                              # 5%
 
+            # ★ 최소 매수 보장: 일반주를 살 거면 '의미 있는 크기'로 산다(1주씩 찔끔 방지).
+            # AI가 너무 작게 주문하면 자산 2%까지 끌어올린다(단 한도 pos_cap 이내).
+            # 하이리스크·인버스·레버리지·코인은 위험하므로 제외(작게 사는 게 맞음).
+            MIN_BUY_PCT = 0.02
+            if (not is_highrisk and not is_inv and not is_lev and not crypto
+                    and not defensive and conviction in ("high", "normal")):
+                min_cost = equity * MIN_BUY_PCT
+                cap_cost = equity * pos_cap
+                if cost < min_cost and min_cost <= cap_cost and prices[sym] > 0:
+                    qty = round(min_cost / prices[sym], 4)
+                    cost = qty * prices[sym]
+
             # 애프터마켓 매수는 유동성·변동성 리스크로 한도를 절반으로 축소
             if not crypto and IS_AFTER_HOURS:
                 pos_cap *= 0.5
@@ -1386,6 +1459,12 @@ def execute(decisions, account, positions, market, regime=None, block_buys=False
                 highrisk_spent += cost  # 격리 예산 집행 누적
             side = "buy"
         elif action == "sell":
+            # 휩쏘 방지: 인버스(헷지)는 쿨다운(6시간) 안에 AI 재량으로 못 판다.
+            # 단 손절·트레일링(자동 매도)은 진짜 손실 방어이므로 통과시킨다.
+            if sym in INVERSE_TICKERS and not is_auto_sell:
+                if not hedge_can_exit(positions):
+                    results.append(f"⏸ {sym} 헷지 청산 보류 (최소 보유 {HEDGE_MIN_HOLD_HOURS}시간 미경과 — 휩쏘 방지)")
+                    continue
             if held.get(sym, 0) < qty:
                 qty = round(held.get(sym, 0), 6 if crypto else 4)
             if qty <= 0:
@@ -1419,6 +1498,13 @@ def execute(decisions, account, positions, market, regime=None, block_buys=False
                 order = {"symbol": to_alpaca_symbol(sym), "qty": str(qty),
                          "side": side, "type": "market", "time_in_force": "day"}
             alpaca("/v2/orders", method="POST", body=order)
+            # 인버스(헷지) 청산이면 시각 기록 → 재진입 쿨다운 계산용(휩쏘 방지)
+            if sym in INVERSE_TICKERS and side == "sell":
+                st = _load_hedge_state()
+                st["exited_at"] = datetime.datetime.now(
+                    datetime.timezone(datetime.timedelta(hours=9))).isoformat()
+                st.pop("entered_at", None)
+                _save_hedge_state(st)
             mark = "🔴 매수" if side == "buy" else "🔵 매도"
             hr_tag = " ⚡하이리스크" if (side == "buy" and is_highrisk) else ""
             ah_tag = " 🌙애프터" if (not crypto and IS_AFTER_HOURS) else ""
