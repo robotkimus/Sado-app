@@ -1,6 +1,36 @@
 {
- "updated": "2026-06-27 05:02",
+ "updated": "2026-06-27 06:01",
  "items": [
+  {
+   "headline": "Nancy Pelosi, Bill Ackman Bet On The Same 4 Stocks – Some Might Surprise You",
+   "summary": "A look at the stocks owned by both Nancy Pelosi and Bill Ackman.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/06/60142091/nancy-pelosi-bill-ackman-bet-on-the-same-4-stocks-some-might-surprise-you",
+   "created_at": "2026-06-26T20:27:33Z",
+   "symbols": [
+    "AMZN",
+    "GOOG",
+    "GOOGL",
+    "MSFT",
+    "PSUS"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/26/ackman-pelosi-dall-e.png?width=1024&height=768"
+  },
+  {
+   "headline": "Microsoft Has Worst Month Since 2000, Micron Delivers Memorable Beat: This Week On Wall Street",
+   "summary": "Microsoft heads for its worst June since 2000 as AI capex fears bite, while Micron delivers record revenue and EPS — the AI capex squeeze rewriting the trade.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/market-summary/26/06/60140539/microsoft-micron-ai-capex-squeeze-week-wall-street",
+   "created_at": "2026-06-26T20:00:42Z",
+   "symbols": [
+    "AAPL",
+    "MAGS",
+    "MSFT",
+    "MU",
+    "ORCL"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/26/Exterior-Of-New-York-Stock-Exchange--Lar.jpg?width=1024&height=768"
+  },
   {
    "headline": "Software ETFs Are Finally Catching An AI Tailwind",
    "summary": "Software ETFs surged while semiconductor funds fell as investors broadened the AI trade beyond chipmakers to enterprise software companies.",
@@ -185,33 +215,61 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/06/26/Santa-Clara--Ca--Usa---Nov-22--2023-Inte.jpg?width=1024&height=768"
   },
   {
-   "headline": "What's Going On With AMD Stock Friday?",
-   "summary": "AMD shares dip 4% in premarket trading as tech momentum cools. Read the technical analysis and key support levels here.",
+   "headline": "Aehr Test Systems Gets New 2X Leveraged ETF Amid AI Semiconductor Rally",
+   "summary": "Leverage Shares launched the AEHG ETF, giving active traders leveraged exposure to Aehr Test Systems as semiconductor demand remains high.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/06/60123966/whats-going-on-with-amd-stock-friday-5",
-   "created_at": "2026-06-26T13:08:18Z",
+   "url": "https://www.benzinga.com/etfs/new-etfs/26/06/60142653/aehr-test-systems-new-2x-leveraged-etf-ai-semiconductor-rally",
+   "created_at": "2026-06-26T20:44:27Z",
    "symbols": [
-    "AMD",
-    "ARKW",
-    "IVES",
-    "SOXX"
+    "AEHG",
+    "AEHR"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/26/Chipmakers-Rally-on-Clearance.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/26/AehrRichmond--Virginia--Usa---8-May-2019.jpg?width=1024&height=768"
   },
   {
-   "headline": "Stock Market Today: Dow Jones, S&P 500 And Nasdaq Futures Slip As Tech Selloff Gathers Pace— Apple, Beyond Air In Focus (UPDATED)",
-   "summary": "U.S. stock futures slipped on Friday after a mixed close on Thursday.",
+   "headline": "Cramer Says Investors Want a Strong Balance Sheet, Not A Cavaliers Deal",
+   "summary": "Jim Cramer is criticizing Blue Owl Capital for drifting from investor priorities as it considers a stake in the Cleveland Cavaliers.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/06/60120170/stock-market-today-dow-jones-inches-up-sp-500-and-nasdaq-futures-slip-as-tech-selloff-gathers-pace-apple-beyond-air-in-focus",
-   "created_at": "2026-06-26T12:54:38Z",
+   "url": "https://www.benzinga.com/markets/private-markets/26/06/60142595/cramer-says-investors-want-a-strong-balance-sheet-not-a-cavaliers-deal",
+   "created_at": "2026-06-26T20:41:07Z",
    "symbols": [
-    "AAPL",
-    "APOG",
-    "BTCUSD",
-    "CNVS",
-    "MU"
+    "OWL"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/26/Close-Up-Of-Wall-Street-Sign-With-Iconic.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/26/CNBC-Mad-Money-Host-Jim-Cramer.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Active Bond ETF Boom Continues With Two New Funds Targeting Bloomberg Aggregate",
+   "summary": "The active bond ETF market expands with two new fixed income funds by Natixis designed to outperform the Bloomberg U.S. Aggregate Bond Index.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/etfs/new-etfs/26/06/60142572/active-bond-etf-boom-continues-with-two-new-funds-targeting-bloomberg-aggregate",
+   "created_at": "2026-06-26T20:40:21Z",
+   "symbols": [
+    "JCPB",
+    "LSCP",
+    "LSTB",
+    "PYLD"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/26/Etf-Exchange-traded-Fund-Stock-Market-Tr.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "OpenAI Drops GPT-5.6 'Sol,' Calls It The Strongest Model Yet As AI Arms Race Escalates",
+   "summary": "OpenAI is launching a limited rollout of its GPT-5.6 lineup, while saying a wider release is expected in the coming weeks.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/private-markets/26/06/60141627/openai-chatgpt-gpt-5-6-sol-strongest-model-yet",
+   "created_at": "2026-06-26T20:16:07Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/26/Germany---January-24-2023-Smartphone-Wit.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Stock Of The Day: Is The Apple Sell-Off Over?",
+   "summary": "Apple (AAPL) shares are oversold and at support. These conditions could set the stage for a move higher. A new uptrend may form.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/technicals/26/06/60141295/stock-of-the-day-is-the-apple-sell-off-over",
+   "created_at": "2026-06-26T20:12:28Z",
+   "symbols": [
+    "AAPL"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/26/Apple-Logo-On-Apple-Store-In-Hong-Kong.jpg?width=1024&height=768"
   },
   {
    "headline": "'Bitcoin Is Dead' Predictions Grow, But A 2022 Bottom Signal Has Also Returned",
@@ -440,83 +498,6 @@
     "ULTA"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/06/26/Ulta-Beats-Expectations.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Why OpenAI's Listing Timeline Matters For SoftBank Stock",
-   "summary": "SoftBank Group Corp. (OTC:SFTBY) dropped Friday after Bloomberg reported citing NYT that OpenAI is planning to postpone its public offering until 2027.\n\n\n\nAs a result, the news hit SoftBank really har",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/Opinion/26/06/60135113/why-openais-listing-timeline-matters-for-softbank-stock",
-   "created_at": "2026-06-26T17:17:52Z",
-   "symbols": [
-    "SFTBY"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/26/SoftBank.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "EU Launches Antitrust Probe Into Sanofi Over Allegedly Misleading Flu Vaccine Claims",
-   "summary": "EU opens antitrust probe into Sanofi over claims it disparaged rival flu vaccine Fluad in Germany and France.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/health-care/26/06/60134999/eu-launches-antitrust-probe-into-sanofi-over-allegedly-misleading-flu-vaccine-claims",
-   "created_at": "2026-06-26T17:15:44Z",
-   "symbols": [
-    "CSLLY",
-    "SNY"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/26/Gentilly--France--March-21--2021-Sign-An.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Bipartisan Lawmakers Call For CFTC Investigation Into Polymarket Over Fake Bets Scheme",
-   "summary": "Sens. Curtis and Schiff called for a CFTC investigation into Polymarket after WSJ exposed fake betting videos and a lookalike &#34;Poiymarket&#34; website.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/prediction-markets/26/06/60134970/bipartisan-lawmakers-call-for-cftc-investigation-into-polymarket-over-fake-bets-scheme",
-   "created_at": "2026-06-26T17:14:57Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/26/Polymarket-Donates-1M.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "11 Communication Services Stocks Moving In Friday's Intraday Session",
-   "summary": "Gainers\n\nWeShop Holdings (NASDAQ:WSHP) stock rose 29.7% to $6.11 during Friday&#39;s regular session. The company&#39;s market cap stands at $51.6 million. \nCineverse (NASDAQ:CNVS) stock rose 22.38% t",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/06/60134674/11-communication-services-stocks-moving-friday-s-intraday-session",
-   "created_at": "2026-06-26T17:05:45Z",
-   "symbols": [
-    "ANGH",
-    "ANGI",
-    "CABO",
-    "CAST",
-    "CNVS"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_2.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "12 Health Care Stocks Moving In Friday's Intraday Session",
-   "summary": "Gainers\n\nINVO Fertility (NASDAQ:IVF) shares moved upwards by 67.3% to $2.08 during Friday&#39;s regular session. The market value of their outstanding shares is at $2.2 million. The company&#39;s, Q1 ",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/06/60134673/12-health-care-stocks-moving-friday-s-intraday-session",
-   "created_at": "2026-06-26T17:05:45Z",
-   "symbols": [
-    "ATLN",
-    "CALC",
-    "CCEL",
-    "CELZ",
-    "CRIS"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_1.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "12 Industrials Stocks Moving In Friday's Intraday Session",
-   "summary": "Gainers\n\nINLIF (NASDAQ:INLF) stock moved upwards by 61.3% to $0.05 during Friday&#39;s regular session. \nSouthland Holdings (AMEX:SLND) shares rose 27.3% to $0.84. The market value of their outstandin",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/06/60134672/12-industrials-stocks-moving-friday-s-intraday-session",
-   "created_at": "2026-06-26T17:05:45Z",
-   "symbols": [
-    "APOG",
-    "AUC",
-    "EHGO",
-    "FCEL",
-    "FJET"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_4.jpg?width=1024&height=768"
   }
  ]
 }
