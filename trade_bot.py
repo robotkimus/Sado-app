@@ -2244,7 +2244,9 @@ def main():
     # 체결(⛔ 제외)이 있었으면 포지션을 재조회해 '매도 전 스냅샷'이 아닌 최신 상태를 반영.
     # (예전엔 execute 전에 조회한 positions를 그대로 저장해, 방금 판 종목이 포트폴리오에
     #  남아 다음 실행에야 빠지는 '늦은 업데이트' 버그가 있었음.)
-    executed = [r for r in results if not r.startswith("⛔")]
+    # 실제 '체결'만 센다. ⛔(차단)·⏸(보류)는 체결이 아니므로 제외.
+    executed = [r for r in results
+                if not r.startswith("⛔") and not r.startswith("⏸")]
     if executed:
         time.sleep(3)  # 시장가 체결이 알파카에 반영될 시간을 잠깐 줌
         refreshed = fetch_positions()
