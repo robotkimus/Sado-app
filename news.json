@@ -1,6 +1,21 @@
 {
- "updated": "2026-06-28 03:01",
+ "updated": "2026-06-28 04:01",
  "items": [
+  {
+   "headline": "MAGS ETF: Magnificent 7 Outflows Surge as Investors Rotate Into DRAM",
+   "summary": "US investors are increasingly skeptical about the Magnificent 7, with most of these stocks still trading well below their all-time highs.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/etfs/sector-etfs/26/06/60146043/mags-etf-magnificent-7-outflows-surge-as-investors-rotate-into-dram",
+   "created_at": "2026-06-27T18:27:03Z",
+   "symbols": [
+    "AAPL",
+    "AMZN",
+    "DRAM",
+    "GOOG",
+    "MAGS"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/27/Wall-Street-Sign-With-American-Flag-On-T.jpg?width=1024&height=768"
+  },
   {
    "headline": "Top Personal Finance Expert Says The Viral Advice To Claim Social Security At 62 Is A Costly Mistake For Most Americans— Here's Why",
    "summary": "Suze Orman says claiming Social Security early out of fear could permanently reduce retirement income.",
@@ -191,19 +206,29 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/06/26/Openai-Ceo-Sam-Altman-Attends-The-Artifi.jpg?width=1024&height=768"
   },
   {
-   "headline": "Micron Rally Sparks Triple-Digit Fortunes, These ETFs Near 800% Gains In H1 2026",
-   "summary": "Micron&#39;s rally has sent leveraged ETFs MUU and MULL soaring nearly 1,000% so far in 2026, making them the year&#39;s top-performing funds.",
+   "headline": "XRP Hanging on a Thread as Ripple ETF Inflows Remain Steady",
+   "summary": "XRP is hanging on a thread above $1, a crucial support level as Ripple ETF inflows continue rising this month.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/etfs/sector-etfs/26/06/60133672/micron-rally-sparks-triple-digit-fortunes-these-etfs-near-800-gains-in-h1-2026",
-   "created_at": "2026-06-26T16:37:31Z",
+   "url": "https://www.benzinga.com/crypto/26/06/60146073/xrp-hanging-on-a-thread-as-ripple-etf-inflows-remain-steady",
+   "created_at": "2026-06-27T18:46:35Z",
    "symbols": [
-    "MU",
-    "MULL",
-    "MUU",
-    "SMH",
-    "SOXX"
+    "BTCUSD",
+    "ETHUSD",
+    "XRP",
+    "XRPUSD"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/26/Micron-Logo-Displayed-On-A-Smartphone-Sc.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/27/Kyiv--Ukraine---August-17--2024-Ripple-X.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Larry Ellison’s Net Worth Plunges $45 Billion as Oracle Stock Chart Signals More Downside",
+   "summary": "Larry Ellison&#39;s net worth has plunged by $45 billion this year, and a chart suggests that the Oracle stock price may drop further.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/06/60146056/larry-ellisons-net-worth-plunges-45-billion-as-oracle-stock-chart-signals-more-downside",
+   "created_at": "2026-06-27T18:31:20Z",
+   "symbols": [
+    "ORCL"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/27/Konskie--Poland---March-11--2024-Oracle-.jpg?width=1024&height=768"
   },
   {
    "headline": "The Zen of Jensen: Nvidia CEO Says ‘I Let the World Come to Me’",
@@ -439,43 +464,6 @@
     "PCLA"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_2.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Aehr Test Systems Gets New 2X Leveraged ETF Amid AI Semiconductor Rally",
-   "summary": "Leverage Shares launched the AEHG ETF, giving active traders leveraged exposure to Aehr Test Systems as semiconductor demand remains high.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/etfs/new-etfs/26/06/60142653/aehr-test-systems-new-2x-leveraged-etf-ai-semiconductor-rally",
-   "created_at": "2026-06-26T20:44:27Z",
-   "symbols": [
-    "AEHG",
-    "AEHR"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/26/AehrRichmond--Virginia--Usa---8-May-2019.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Cramer Says Investors Want a Strong Balance Sheet, Not A Cavaliers Deal",
-   "summary": "Jim Cramer is criticizing Blue Owl Capital for drifting from investor priorities as it considers a stake in the Cleveland Cavaliers.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/private-markets/26/06/60142595/cramer-says-investors-want-a-strong-balance-sheet-not-a-cavaliers-deal",
-   "created_at": "2026-06-26T20:41:07Z",
-   "symbols": [
-    "OWL"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/26/CNBC-Mad-Money-Host-Jim-Cramer.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Active Bond ETF Boom Continues With Two New Funds Targeting Bloomberg Aggregate",
-   "summary": "The active bond ETF market expands with two new fixed income funds by Natixis designed to outperform the Bloomberg U.S. Aggregate Bond Index.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/etfs/new-etfs/26/06/60142572/active-bond-etf-boom-continues-with-two-new-funds-targeting-bloomberg-aggregate",
-   "created_at": "2026-06-26T20:40:21Z",
-   "symbols": [
-    "JCPB",
-    "LSCP",
-    "LSTB",
-    "PYLD"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/26/Etf-Exchange-traded-Fund-Stock-Market-Tr.jpg?width=1024&height=768"
   }
  ]
 }
