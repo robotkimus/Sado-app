@@ -1,6 +1,20 @@
 {
- "updated": "2026-06-27 13:01",
+ "updated": "2026-06-27 14:01",
  "items": [
+  {
+   "headline": "Trump Threatens 100% Tariffs That Would ‘Supersede Trade Deals’ For Countries Taxing American Tech Giants Like Meta, Amazon And Alphabet",
+   "summary": "Trump threatened 100% tariffs on countries that impose digital taxes on U.S. tech giants like Meta, Amazon and Alphabet.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/06/60144501/trump-threatens-100-tariffs-that-would-supersede-trade-deals-for-countries-taxing-american-tech-giants-like-meta-amazon-and-alphabet",
+   "created_at": "2026-06-27T04:36:47Z",
+   "symbols": [
+    "AMZN",
+    "GOOG",
+    "GOOGL",
+    "META"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/27/Cupertino--Ca--Usa---Nov-28--2023-Google.jpg?width=1024&height=768"
+  },
   {
    "headline": "Apple Vision Pro Hardware Chief Reportedly Jumps To OpenAI As Sam Altman's AI Device Ambitions Gather Momentum",
    "summary": "Paul Meade is leaving Apple to join OpenAI&#39;s hardware division, adding to the AI company&#39;s growing roster of former Apple executives.",
@@ -199,19 +213,13 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/06/26/Beverly-Hills--Ca--March-12--2023-Jeff-B.jpg?width=1024&height=768"
   },
   {
-   "headline": "Magnificent Seven’s Black June Triggers $1 Billion Exodus From MAGS ETF",
-   "summary": "The Roundhill Magnificent Seven ETF (MAGS) is heading for its worst month since inception as all seven mega-caps fall and over $1 billion exits the fund.",
+   "headline": "Anthropic Gets US Green Light To Deploy Claude Mythos 5 To Trusted Partners But Fable 5 Access Still Blocked: Report",
+   "summary": "Anthropic received permission to release its Claude Mythos 5 model to about 100 companies and federal agencies.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/06/60124389/magnificent-seven-selloff-june-mags-etf-outflows",
-   "created_at": "2026-06-26T13:27:27Z",
-   "symbols": [
-    "AAPL",
-    "AMZN",
-    "GOOGL",
-    "MAGS",
-    "META"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/26/Magnificent-Seven-stocks.jpg?width=1024&height=768"
+   "url": "https://www.benzinga.com/markets/tech/26/06/60144514/anthropic-gets-us-green-light-to-deploy-claude-mythos-5-to-trusted-partners-but-fable-5-access-still-blocked-report",
+   "created_at": "2026-06-27T04:51:14Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/27/Bandung--Indonesia---October-1--2025-In-.jpg?width=1024&height=768"
   },
   {
    "headline": "FCC Tightens Screws On Huawei, ZTE And Other Chinese Telecom Giants With Broader Equipment Ban Set To Take Effect In July",
@@ -490,17 +498,6 @@
     "SOLUSD"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/06/26/Bitcoin-Gold-Coin--Cryptocurrency-Concep.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "The Perfect Storm: SpaceX Bond Traders Stunned As $305 Million Vanishes In Days",
-   "summary": "SpaceX bond traders face a &#34;perfect storm&#34; as $305M vanishes in days following an unprecedented investment-grade debt sell-off, while Polymarket bets stay bullish.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/prediction-markets/26/06/60136980/the-perfect-storm-spacex-bond-traders-stunned-as-305-million-vanishes-in-days",
-   "created_at": "2026-06-26T18:09:08Z",
-   "symbols": [
-    "SPCX"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/26/Elon-Musk--The-Ceo-Of-Tesla--Spacex--Pay.jpg?width=1024&height=768"
   }
  ]
 }
