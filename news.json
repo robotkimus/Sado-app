@@ -1,6 +1,21 @@
 {
- "updated": "2026-06-29 22:01",
+ "updated": "2026-06-29 22:42",
  "items": [
+  {
+   "headline": "Applied Materials To Rally Around 20%? Here Are 10 Top Analyst Forecasts For Monday",
+   "summary": "Top Wall Street analysts upgraded and downgraded several top companies, including Applied Materials, Robinhood, Liquidia, Airbnb, Praxis, Alnylam, and Uniqure.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/06/60154823/applied-materials-to-rally-around-20-here-are-10-top-analyst-forecasts-for-monday",
+   "created_at": "2026-06-29T13:05:05Z",
+   "symbols": [
+    "ABNB",
+    "ALNY",
+    "AMAT",
+    "HOOD",
+    "LQDA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/29/Santa-Clara--California---April-26--2018.jpg?width=1024&height=768"
+  },
   {
    "headline": "Stock Market Today: Nasdaq, Dow S&P 500 Futures Jump As Trump Admin Says US, Iran Will 'Stand Down' For Now— Verizon, HP, Universe Pharmaceuticals In Focus  (UPDATED)",
    "summary": "U.S. stock futures rose on Monday, as the Dow Jones, Nasdaq 100, and S&amp;P 500 indices rose, following Friday&#39;s mixed close.",
@@ -187,19 +202,140 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/06/29/Accounts-Grew--But-Gaps-Persist.jpg?width=1024&height=768"
   },
   {
-   "headline": "Stock Market: Will S&P 500 Open Up Or Down Today?",
-   "summary": "Polymarket odds for a June 29 S&amp;P 500 up open hit 86% as Trump officials report a U.S.-Iran de-escalation ahead of Tuesday&#39;s Doha summit.",
+   "headline": "Japan's Advantest Positioned To Benefit From Increasing Chip Complexity",
+   "summary": "Artificial intelligence has transformed the semiconductor industry into one of the fastest-growing corners of the global economy. Investors have poured capital into chip designers, GPU manufacturers, ",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/prediction-markets/26/06/60148258/stock-market-will-sp-500-open-up-or-down-today-5",
-   "created_at": "2026-06-29T05:48:47Z",
+   "url": "https://www.benzinga.com/Opinion/26/06/60156105/japans-advantest-positioned-to-benefit-from-increasing-chip-complexity",
+   "created_at": "2026-06-29T13:38:37Z",
    "symbols": [
-    "AAPL",
-    "GIS",
-    "MSFT",
-    "MU",
-    "NKE"
+    "ADTTF",
+    "ATEYY"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/29/Stock-S-And-P-500-Index-Fund-Symbol-Is-O.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/29/Japan-flag.png?width=1024&height=768"
+  },
+  {
+   "headline": "Airline Stocks Spent 6 Years Below Covid Highs: Hormuz Snapped That Trend In Two Months",
+   "summary": "The JETS ETF climbed above its pre-Covid highs for the first time as falling oil prices, disciplined capacity and resilient travel demand lifted airline stocks.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/travel/26/06/60155624/airline-etf-tops-covid-high-after-oil-price-collapse",
+   "created_at": "2026-06-29T13:31:18Z",
+   "symbols": [
+    "AAL",
+    "ALGT",
+    "ALK",
+    "DAL",
+    "JETS"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/29/Shouldve-Been-Caught-Years-Ago-Boeing-Fa.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Viridian Secures First FDA Approval, Sets Up Challenge To Amgen's Tepezza For Thyroid Eye Disease",
+   "summary": "FDA approves Viridian Therapeutics&#39; Lumvoa for thyroid eye disease. Immediate commercial launch scheduled with full patient support.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/fda/26/06/60155440/viridian-secures-first-fda-approval-sets-up-challenge-to-amgens-tepezza-for-thyroid-eye-disease",
+   "created_at": "2026-06-29T13:24:47Z",
+   "symbols": [
+    "AMGN",
+    "VRDN"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/29/Trump-Pressure-Adds-Backdrop.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Zymeworks Targets Long-Term Cash Generation Through Theravance Acquisition",
+   "summary": "Zymeworks will acquire Theravance Biopharma for $929 million, adding YUPELRI cash flows and expanding its portfolio.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/m-a/26/06/60155321/zymeworks-targets-long-term-cash-generation-through-theravance-acquisition",
+   "created_at": "2026-06-29T13:20:49Z",
+   "symbols": [
+    "RPRX",
+    "TBPH",
+    "ZYME"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/29/Business-Mergers-And-Acquisitions-Concep.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Rocket Lab Is Buying Iridium—Here's Why Investors Are Excited",
+   "summary": "Rocket Lab acquires Iridium for $8B to build a vertically integrated space powerhouse spanning launch, satellites, and global network.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/m-a/26/06/60155170/rocket-lab-is-buying-iridium-heres-why-investors-are-excited",
+   "created_at": "2026-06-29T13:15:13Z",
+   "symbols": [
+    "IRDM",
+    "RKLB"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/29/Iridium-Satellite-Network.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "EXCLUSIVE: Nobel Winner Alvin Roth Sizes Up Prediction Markets: 'I Don't Know If They Do Better On Elections Than Polls'",
+   "summary": "Alvin Roth, Nobel laureate, skeptical of prediction markets&#39; accuracy, says engineers&#39; knowledge can be used effectively in corps, but not in elections.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/06/60155180/exclusive-nobel-winner-alvin-roth-sizes-up-prediction-markets-i-dont-know-if-they-do-better-on-elections-than-polls",
+   "created_at": "2026-06-29T13:15:35Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/29/The-Growth-Of-Prediction-Markets.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Churchill Capital Stock Surges On $2.5B Merger With Agility Robotics: What Investors Need To Know",
+   "summary": "Shares of Churchill Capital Corp XI are trading higher Monday after announcing a $2.5 billion business combination with Agility Robotics.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/06/60155161/churchill-capital-stock-surges-on-2-5b-merger-with-agility-robotics-what-investors-need-to-know",
+   "created_at": "2026-06-29T13:15:04Z",
+   "symbols": [
+    "CCXI"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/29/Stock-Market-Trading-Graph--Investment-C.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Comcast To Separate Into Two Public Companies In Tax-Free NBCUniversal Spin-Off — Stock Rises",
+   "summary": "Comcast shares are trading higher Monday after announcing a tax-free spin-off to create two independent companies, NBCUniversal and Sky.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/06/60155050/comcast-to-separate-into-two-public-companies-in-tax-free-nbcuniversal-spin-off-stock-rises",
+   "created_at": "2026-06-29T13:10:54Z",
+   "symbols": [
+    "CMCSA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/29/Tucson--Ariz-usa-8519-Comcast-Corporatio.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Leading And Lagging Sectors For June 29, 2026",
+   "summary": "Gainers\n\n\n\nSymbol\nName\nPrice\nChange ($)\nChange (%)\nVolume\n\n\n\n\n(NYSE:XLC)\nState Street Communication Services Select Sector SPDR ETF\n108.5663\n2.386\n2.24\n3.2K\n\n\n(NYSE:XLK)\nState Street Technology Select",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/etfs/sector-etfs/26/06/60155040/leading-and-lagging-sectors-june-29-2026",
+   "created_at": "2026-06-29T13:10:16Z",
+   "symbols": [
+    "XLB",
+    "XLC",
+    "XLE",
+    "XLF",
+    "XLI"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_1.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Silver Just Hit A 'Now Or Never' Level: Which Miner Is Best Positioned If The Metal Bounces?",
+   "summary": "Silver is testing a key long-term support level. Here&#39;s how Wheaton Precious Metals, Pan American Silver, Coeur Mining, First Majestic and Hecla Mining compare.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/commodities/26/06/60154963/silver-just-hit-a-now-or-never-level-which-miner-is-best-positioned-if-the-metal-bounces",
+   "created_at": "2026-06-29T13:07:59Z",
+   "symbols": [
+    "AG",
+    "CDE",
+    "HL",
+    "PAAS",
+    "WPM"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/29/Stacked-Silver-Bars--Silver-Reserves--St.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Trump Says Iran Has 'Requested' Emergency Talks With US After Military Strikes — High-Stakes Meeting Set For Tomorrow In Doha",
+   "summary": "Trump announces June 30 Iran talks in Doha as oil and gas prices ease, signaling renewed diplomatic efforts.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/06/60154901/trump-says-iran-has-requested-emergency-talks-with-us-after-military-strikes-high-stakes-meeting-set-for-tomorrow-in-doha",
+   "created_at": "2026-06-29T13:06:37Z",
+   "symbols": [
+    "CVX"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/29/Joint-Filing-Submitted.jpg?width=1024&height=768"
   },
   {
    "headline": "Top 3 Financial Stocks That May Fall Off A Cliff In Q2",
@@ -373,145 +509,6 @@
     "VTAK"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/06/29/Volatility-Of-The-Cryptocurrency-Concept.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "12 Communication Services Stocks Moving In Monday's Pre-Market Session",
-   "summary": "Gainers\n\nTNL Mediagene (NASDAQ:TNMG) stock moved upwards by 35.2% to $0.66 during Monday&#39;s pre-market session. The market value of their outstanding shares is at $1.2 million. \nComcast (NASDAQ:CMC",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/06/60153030/12-communication-services-stocks-moving-monday-s-pre-market-session",
-   "created_at": "2026-06-29T12:05:48Z",
-   "symbols": [
-    "CAST",
-    "CHR",
-    "CHTR",
-    "CMCSA",
-    "CNET"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_2.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "12 Health Care Stocks Moving In Monday's Pre-Market Session",
-   "summary": "Gainers\n\nUniverse Pharmaceuticals (NASDAQ:UPC) stock moved upwards by 159.6% to $7.68 during Monday&#39;s pre-market session. The company&#39;s market cap stands at $1.9 million. \nDecoy Therapeutics (",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/06/60153029/12-health-care-stocks-moving-monday-s-pre-market-session",
-   "created_at": "2026-06-29T12:05:48Z",
-   "symbols": [
-    "BDRX",
-    "DCOY",
-    "IVF",
-    "JUNS",
-    "LRMR"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_3.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "12 Industrials Stocks Moving In Monday's Pre-Market Session",
-   "summary": "Gainers\n\nNN (NASDAQ:NNBR) stock increased by 50.4% to $4.15 during Monday&#39;s pre-market session. The company&#39;s market cap stands at $138.5 million. \nSurf Air Mobility (NYSE:SRFM) stock moved up",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/06/60153028/12-industrials-stocks-moving-monday-s-pre-market-session",
-   "created_at": "2026-06-29T12:05:48Z",
-   "symbols": [
-    "AQMS",
-    "AUC",
-    "EHGO",
-    "GWAV",
-    "INLF"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_4.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "12 Information Technology Stocks Moving In Monday's Pre-Market Session",
-   "summary": "Gainers\n\nSagtec Global (NASDAQ:SAGT) stock increased by 24.8% to $1.31 during Monday&#39;s pre-market session. The company&#39;s market cap stands at $18.7 million. \nResearch Frontiers (NASDAQ:REFR) s",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/06/60153027/12-information-technology-stocks-moving-monday-s-pre-market-session",
-   "created_at": "2026-06-29T12:05:47Z",
-   "symbols": [
-    "AIRE",
-    "FCUV",
-    "HKIT",
-    "LHSW",
-    "MVIS"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_4.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "CLARITY Act Is Only 50% To Pass In 2026, Galaxy Says: But Do Prediction Markets Agree?",
-   "summary": "Galaxy cuts Clarity Act passage odds to 50% as the bill stalls on the Senate calendar with no floor vote scheduled before the August recess.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/06/60152648/clarity-act-is-only-50-to-pass-in-2026-galaxy-says-but-do-prediction-markets-agree",
-   "created_at": "2026-06-29T12:00:45Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/29/Senate-Eyes-DHS-Short-Term-Extension.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "RKLB Stock Surges Over 11% in Monday Premarket: What’s Going On?",
-   "summary": "Rocket Lab jumps after announcing an $8 billion deal to acquire Iridium, expanding into space-based telecom and satellite services.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/m-a/26/06/60152421/rklb-stock-surges-over-11-in-monday-premarket-whats-going-on",
-   "created_at": "2026-06-29T11:47:42Z",
-   "symbols": [
-    "IRDM",
-    "RKLB"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/29/Long-Beach--Ca--Usa---July-10--2022-Rock.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Wall Street's Most Accurate Analysts Give Their Take On 3 Health Care Stocks Delivering High-Dividend Yields",
-   "summary": "Investors turn to dividend-yielding stocks in turbulent markets. Benzinga offers latest analyst ratings for high-yielding stocks, including accuracy rates.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/dividends/26/06/60152394/wall-streets-most-accurate-analysts-give-their-take-on-3-financial-stocks-delivering-high-dividend-yields-6",
-   "created_at": "2026-06-29T11:46:08Z",
-   "symbols": [
-    "GSK",
-    "MDT",
-    "VTRS"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/29/Healthcare-stocks.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Tesla Stock In Focus: Regulatory Twists, Q2 Delivery Countdown, 16 GW Energy Partnership",
-   "summary": "Tesla shares are in the spotlight Monday amid regulatory twists, delivery expectations and major energy partnership.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/06/60152354/tesla-stock-in-focus-regulatory-twists-q2-delivery-countdown-16-gw-energy-partnership",
-   "created_at": "2026-06-29T11:40:37Z",
-   "symbols": [
-    "TSLA"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/29/Close-Up-Of-Large-Red-Sign-With-White-Te.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Why Is Solidion Technology Stock Gaining Monday?",
-   "summary": "Solidion Technology (STI) stock jumps in Monday premarket after announcing plans to buy SpaceX shares as a strategic treasury asset.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/06/60152297/why-is-solidion-technology-stock-gaining-monday",
-   "created_at": "2026-06-29T11:34:55Z",
-   "symbols": [
-    "SPCX",
-    "STI"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/29/Stuttgart--Germany---07-16-2024-Mobile-P.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "What's Going On With AST SpaceMobile Stock Monday?",
-   "summary": "AST SpaceMobile stock jumps on SpaceX IPO filing and upcoming BlueBird satellite launch updates. Read the key levels to watch here.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/06/60151757/whats-going-on-with-ast-spacemobile-stock-monday-3",
-   "created_at": "2026-06-29T11:16:59Z",
-   "symbols": [
-    "ASTS"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/29/AST-SpaceMobile-5G-Cellular-Broadband-Sa.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "How To Earn $500 A Month From FactSet Research Stock Ahead Of Q3 Earnings",
-   "summary": "FactSet will release Q3 earnings on July 1. Dividend yield is 2%. To earn $500/month, investors need $299,640 or 1,293 shares.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/dividends/26/06/60151639/how-to-earn-500-a-month-from-factset-research-ahead-q3-earnings",
-   "created_at": "2026-06-29T11:12:23Z",
-   "symbols": [
-    "FDS"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/29/Konskie--Poland---January-31--2024-Facts.jpg?width=1024&height=768"
   }
  ]
 }
