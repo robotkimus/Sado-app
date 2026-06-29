@@ -1,43 +1,79 @@
 {
- "updated": "2026-06-29 23:02",
+ "updated": "2026-06-30 00:02",
  "candidates": [
   {
-   "symbol": "GIS",
+   "symbol": "INTU",
    "score": 6,
-   "price": 35.98,
+   "price": 272.66,
    "reasons": [
-    "52주고점 대비 -26%",
-    "PER 12(저평가)",
-    "시총 $19.2B(소형)"
-   ]
-  },
-  {
-   "symbol": "ZTS",
-   "score": 4,
-   "price": 75.89,
-   "reasons": [
-    "52주고점 대비 -42%",
+    "52주고점 대비 -60%",
+    "과매도 탈출+MA5 회복",
     "PER 10(저평가)"
    ]
   },
   {
-   "symbol": "OXY",
-   "score": 4,
-   "price": 50.18,
+   "symbol": "ORCL",
+   "score": 5,
+   "price": 148.44,
    "reasons": [
-    "RSI 31 과매도",
-    "PER 13(저평가)",
+    "52주고점 대비 -40%",
+    "RSI 30 과매도",
+    "PER 14(저평가)"
+   ]
+  },
+  {
+   "symbol": "PYPL",
+   "score": 5,
+   "price": 44.41,
+   "reasons": [
+    "52주고점 대비 -34%",
+    "PER 8(저평가)",
     "그레이엄 기준 충족"
    ]
   },
   {
-   "symbol": "KHC",
+   "symbol": "CRM",
    "score": 4,
-   "price": 23.91,
+   "price": 160.43,
    "reasons": [
-    "PER 11(저평가)",
-    "PBR 0.7",
-    "그레이엄 기준 충족"
+    "52주고점 대비 -40%",
+    "PER 10(저평가)"
+   ]
+  },
+  {
+   "symbol": "ADBE",
+   "score": 4,
+   "price": 207.12,
+   "reasons": [
+    "52주고점 대비 -42%",
+    "PER 8(저평가)"
+   ]
+  },
+  {
+   "symbol": "PLTR",
+   "score": 4,
+   "price": 117.54,
+   "reasons": [
+    "52주고점 대비 -39%",
+    "과매도 탈출+MA5 회복"
+   ]
+  },
+  {
+   "symbol": "TEAM",
+   "score": 4,
+   "price": 81.02,
+   "reasons": [
+    "52주고점 대비 -51%",
+    "PER 13(저평가)"
+   ]
+  },
+  {
+   "symbol": "WDAY",
+   "score": 4,
+   "price": 125.89,
+   "reasons": [
+    "52주고점 대비 -46%",
+    "PER 10(저평가)"
    ]
   }
  ]
