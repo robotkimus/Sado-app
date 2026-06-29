@@ -1,6 +1,21 @@
 {
- "updated": "2026-06-29 16:01",
+ "updated": "2026-06-29 17:01",
  "items": [
+  {
+   "headline": "Nasdaq 100 Flashes Warning Signs After 5-Day Slide: Is The Tech Rally Running Out Of Steam?",
+   "summary": "Nasdaq 100 flashes warning signs as QQQ tests crucial support. Tech volatility hits a 23-year high, but can strong earnings save the rally?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/etfs/broad-u-s-equity-etfs/26/06/60149061/nasdaq-100-flashes-warning-signs-after-5-day-slide-is-the-tech-rally-running-out-of-steam",
+   "created_at": "2026-06-29T07:49:09Z",
+   "symbols": [
+    "DIA",
+    "INTC",
+    "MU",
+    "QQQ",
+    "SNDK"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/29/New-York--Ny--Usa---August-21--2022-The-.jpg?width=1024&height=768"
+  },
   {
    "headline": "Will Nvidia Follow Amazon's Dot-Com Path? Jeremy Grantham Warns Of Brutal Tech Stock Reversal",
    "summary": "Billionaire Jeremy Grantham warns the AI stock bubble will burst, predicting a 70% market crash and an Amazon-like 92% drop for AI giants.",
@@ -191,17 +206,69 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/06/27/Stock-Market-Concepts-And-Cryptocurrency.jpg?width=1024&height=768"
   },
   {
-   "headline": "Elon Musk's SpaceX Scores Fast-Tracked Nasdaq-100 Entry After Stellar IPO With Billions In Passive Inflows Expected",
-   "summary": "SpaceX will join the Nasdaq-100 on July 7, a move expected to drive an estimated $4.3 billion in passive inflows.",
+   "headline": "RFK Jr. Broke Vaccine Promises, Built Public Health On 'Lies,' GOP Senator Who Helped Confirm Him Says",
+   "summary": "Bill Cassidy criticizes RFK Jr. for breaking commitments and building public health policy upon a foundation of lies.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/06/60144551/elon-musks-spacex-scores-fast-tracked-nasdaq-100-entry-after-stellar-ipo-with-billions-in-passive-inflows-expected",
-   "created_at": "2026-06-27T05:40:37Z",
+   "url": "https://www.benzinga.com/news/health-care/26/06/60149077/rfk-jr-broke-vaccine-promises-built-public-health-on-lies-gop-senator-who-helped-confirm-him-says",
+   "created_at": "2026-06-29T07:55:50Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/29/RFK-Jr.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Michael Saylor Destroyed Shareholder Value Instead Of Creating It, Says Peter Schiff: 'Bitcoin Is Overvalued'",
+   "summary": "Noted economist Peter Schiff stated on Sunday, June 28, that Michael Saylor destroyed shareholder value at his firm, Strategy Inc., allegedly by pursuing a flawed Bitcoin accumulation strategy.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/06/60148925/peter-schiff-says-michael-saylor-destroyed-shareholder-value-because-bitcoin-is-overvalued",
+   "created_at": "2026-06-29T07:25:22Z",
    "symbols": [
-    "QQQ",
-    "QQQM",
-    "SPCX"
+    "BTCUSD",
+    "MSTR"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/27/Paris--France---February-3--2026-A-Horiz.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/29/Bitcoin-Digital-Cryptocurrency-Losing-Va.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Ford 'Mistakenly' Thought It Could Produce 'High Quality' with AI, Now Its Reportedly Rehiring 350 Veteran Engineers: 'Results Were Not Good Enough'",
+   "summary": "Ford Motor Co. hired 350 veteran engineers to improve vehicle quality after Artificial Intelligence and automation systems failed.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/06/60148902/ford-reportedly-rehires-350-veteran-engineers-after-ai-quality-push-falls-short",
+   "created_at": "2026-06-29T07:19:21Z",
+   "symbols": [
+    "F"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/29/Sunnyvale--Ca--Usa---Nov-22--2023-A-Ford.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Samsung, SK Hynix To Build Four New Chip Plants As South Korea Unveils $520 Billion AI Push",
+   "summary": "Samsung, SK Hynix to build new chip fabs under South Korea&#39;s $520 billion AI semiconductor initiative to boost production.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/06/60148890/samsung-sk-hynix-to-build-four-new-chip-plants-as-south-korea-unveils-520-billion-ai-push",
+   "created_at": "2026-06-29T07:16:50Z",
+   "symbols": [
+    "AMD",
+    "GOOG",
+    "GOOGL",
+    "NVDA",
+    "SSNLF"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/29/Samsung-Photo-by-Arcansel-via-Shuttersto.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "'No Ceasefire In Cyberspace:' Israel Says Iran-Linked Cyberattacks Nearly Tripled In June",
+   "summary": "Israel&#39;s cyber agency reports a surge in hostile online activity linked to Iran since the US-Israel campaign against Iran.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/06/60148831/no-ceasefire-in-cyberspace-israel-says-iran-linked-cyberattacks-nearly-tripled-in-june",
+   "created_at": "2026-06-29T07:07:00Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/29/Israel-Vs-Iran-war-Crisis---Political-Co.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Mark Zandi Says US Economy Is Flashing 'Yellow Flares,' Warns Consumers Struggle Despite 2% Growth And AI Boom",
+   "summary": "Mark Zandi warns of “yellow flares” in the U.S. economy as weak consumer spending, falling income, and low savings raise growth concerns.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/06/60148821/mark-zandi-says-us-economy-is-flashing-yellow-flares-warns-consumers-struggle-despite-2-growth-and-ai-boom",
+   "created_at": "2026-06-29T07:06:39Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/29/DHS-Funded-Short-Term-As-Minneapolis-Kil.jpg?width=1024&height=768"
   },
   {
    "headline": "Nasdaq Falls For Fifth Session Amid Decline In Chip Shares: Fear & Greed Index In ‘Extreme Fear’ Zone",
@@ -412,86 +479,6 @@
     "SPCX"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/06/29/The-Spacex-Logo-Is-Displayed-On-A-Mobile.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Bitcoin, Ethereum, Dogecoin Slide, XRP Flat As US-Iran Tensions Escalate Over The Weekend: Analyst Notes 'Pretty Interesting Signal' About The BTC Market",
-   "summary": "Leading cryptocurrencies traded in the red overnight on Sunday, June 28, as renewed U.S.–Iran confrontations threatened a fragile ceasefire.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/06/60147856/bitcoin-ethereum-and-dogecoin-slide-as-us-iran-tensions-escalate-analyst-spots-interesting-bitcoin-signal",
-   "created_at": "2026-06-29T02:02:52Z",
-   "symbols": [
-    "BMNR",
-    "BTCUSD",
-    "DOGEUSD",
-    "ETHUSD",
-    "MSTR"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/29/Cryptocurrency--Focus-Bitcoin-On-Tablet-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Trump Administration Official Says US, Iran Will 'Stand Down' For Now And Vessels Can Move 'Freely': Oil Climbs To Nearly $70, Dow Futures Gain 127 Points",
-   "summary": "Trump administration said the U.S. and Iran would &#34;stand down for now,&#34; lifting stock futures even as oil prices climbed.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/06/60147825/trump-administration-official-says-us-and-iran-will-stand-down-for-now-as-oil-and-futures-rise",
-   "created_at": "2026-06-29T01:55:54Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/29/Poll-Shows-Iran-Advantage.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Private Credit Turmoil Hits Blue Owl, Apollo Global and Ares As Their Stocks Sink",
-   "summary": "Top private credit stocks like Blue Owl, Apollo Global and Ares Management have plunged this year as woes in the industry have continued.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/06/60147368/private-credit-turmoil-hits-blue-owl-apollo-global-and-ares-as-their-stocks-sink",
-   "created_at": "2026-06-28T20:56:05Z",
-   "symbols": [
-    "APO",
-    "ARES",
-    "BIZD",
-    "MS",
-    "OWL"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/28/Konskie--Poland---November-15--2024-Apol.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Bearish Bets Surge on Joby and Archer Aviation Ahead of Flying Car Rollout",
-   "summary": "Top flying car stocks like Joby Aviation and Archer Aviation have dropped sharply, while the short interest has spiked ahead of their launches.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/06/60147357/bearish-bets-surge-on-joby-and-archer-aviation-ahead-of-flying-car-rollout",
-   "created_at": "2026-06-28T20:46:39Z",
-   "symbols": [
-    "ACHR",
-    "JOBY"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/28/The-Archer-Aviation-Trade.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Here’s Why The Crypto Market Is Crashing This Year",
-   "summary": "The crypto market is crashing this year amid the ongoing rotation from cryptocurrencies to the stock market and woes in digital asset treasuries.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/06/60147290/heres-why-the-crypto-market-is-crashing-this-year",
-   "created_at": "2026-06-28T19:20:41Z",
-   "symbols": [
-    "BMNR",
-    "BTCUSD",
-    "ETHUSD",
-    "MSTR",
-    "SNDK"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/28/Bitcoin-Driven-Pullback.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Dow Jones and Nasdaq 100: Top 4 Events Investors Should Watch This Week",
-   "summary": "Here are the top four key catalysts that will drive the Dow Jones and Nasdaq 100 indices this week, including the US NFP data and Nike earnings",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/market-summary/26/06/60147274/dow-jones-and-nasdaq-100-top-4-events-investors-should-watch-this-week",
-   "created_at": "2026-06-28T19:16:03Z",
-   "symbols": [
-    "JPM",
-    "MU",
-    "NKE",
-    "SPCX"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/28/Wall-Street-Sign-With-American-Flag-On-T.jpg?width=1024&height=768"
   }
  ]
 }
