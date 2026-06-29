@@ -1,82 +1,81 @@
 {
- "updated": "2026-06-30 03:01",
+ "updated": "2026-06-30 04:01",
  "candidates": [
   {
-   "symbol": "T",
+   "symbol": "CERT",
    "score": 7,
-   "price": 21.77,
+   "price": 6.29,
+   "reasons": [
+    "52주고점 대비 -44%",
+    "PBR 0.9",
+    "그레이엄 기준 충족",
+    "시총 $1.0B(소형)"
+   ]
+  },
+  {
+   "symbol": "SERV",
+   "score": 6,
+   "price": 6.29,
+   "reasons": [
+    "52주고점 대비 -59%",
+    "과매도 탈출+MA5 회복",
+    "시총 $0.5B(소형)"
+   ]
+  },
+  {
+   "symbol": "PATH",
+   "score": 6,
+   "price": 10.8,
+   "reasons": [
+    "52주고점 대비 -44%",
+    "PER 12(저평가)",
+    "시총 $5.6B(소형)"
+   ]
+  },
+  {
+   "symbol": "UPST",
+   "score": 6,
+   "price": 35.21,
+   "reasons": [
+    "52주고점 대비 -30%",
+    "PER 10(저평가)",
+    "시총 $3.4B(소형)"
+   ]
+  },
+  {
+   "symbol": "RXRX",
+   "score": 4,
+   "price": 3.7,
    "reasons": [
     "52주고점 대비 -25%",
-    "RSI 34 과매도",
-    "PER 9(저평가)",
-    "PBR 1.4",
-    "그레이엄 기준 충족"
+    "시총 $2.0B(소형)"
    ]
   },
   {
-   "symbol": "LUNR",
-   "score": 6,
-   "price": 20.53,
-   "reasons": [
-    "52주고점 대비 -55%",
-    "과매도 탈출+MA5 회복",
-    "시총 $3.3B(소형)"
-   ]
-  },
-  {
-   "symbol": "NOC",
+   "symbol": "IONQ",
    "score": 4,
-   "price": 496.74,
+   "price": 53.17,
    "reasons": [
-    "52주고점 대비 -35%",
-    "RSI 30 과매도"
+    "52주고점 대비 -26%",
+    "시총 $19.9B(소형)"
    ]
   },
   {
-   "symbol": "CMCSA",
+   "symbol": "RGTI",
    "score": 4,
-   "price": 24.6,
+   "price": 19.11,
    "reasons": [
-    "PER 7(저평가)",
-    "PBR 1.0",
-    "그레이엄 기준 충족"
+    "52주고점 대비 -44%",
+    "시총 $6.4B(소형)"
    ]
   },
   {
-   "symbol": "GM",
+   "symbol": "QBTS",
    "score": 4,
-   "price": 78.25,
+   "price": 23.65,
    "reasons": [
-    "PER 6(저평가)",
-    "PBR 1.1",
-    "그레이엄 기준 충족"
-   ]
-  },
-  {
-   "symbol": "RDW",
-   "score": 4,
-   "price": 11.61,
-   "reasons": [
-    "52주고점 대비 -55%",
-    "시총 $2.3B(소형)"
-   ]
-  },
-  {
-   "symbol": "PL",
-   "score": 4,
-   "price": 31.0,
-   "reasons": [
-    "52주고점 대비 -40%",
-    "시총 $11.1B(소형)"
-   ]
-  },
-  {
-   "symbol": "AMBA",
-   "score": 4,
-   "price": 66.44,
-   "reasons": [
-    "52주고점 대비 -31%",
-    "시총 $2.9B(소형)"
+    "52주고점 대비 -26%",
+    "시총 $8.8B(소형)"
    ]
   }
  ]
