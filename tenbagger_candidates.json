@@ -1,31 +1,32 @@
 {
- "updated": "2026-06-30 22:41",
+ "updated": "2026-06-30 23:01",
  "candidates": [
   {
-   "symbol": "OXY",
-   "score": 6,
-   "price": 49.44,
+   "symbol": "T",
+   "score": 7,
+   "price": 20.93,
    "reasons": [
-    "52주고점 대비 -25%",
+    "52주고점 대비 -28%",
     "RSI 30 과매도",
-    "PER 12(저평가)",
+    "PER 8(저평가)",
+    "PBR 1.3",
     "그레이엄 기준 충족"
    ]
   },
   {
-   "symbol": "GIS",
+   "symbol": "LUNR",
    "score": 6,
-   "price": 35.85,
+   "price": 21.0,
    "reasons": [
-    "52주고점 대비 -27%",
-    "PER 11(저평가)",
-    "시총 $19.1B(소형)"
+    "52주고점 대비 -54%",
+    "과매도 탈출+MA5 회복",
+    "시총 $3.4B(소형)"
    ]
   },
   {
    "symbol": "ZTS",
    "score": 5,
-   "price": 72.25,
+   "price": 72.31,
    "reasons": [
     "52주고점 대비 -45%",
     "RSI 30 과매도",
@@ -33,31 +34,51 @@
    ]
   },
   {
-   "symbol": "COP",
-   "score": 4,
-   "price": 104.5,
+   "symbol": "NOC",
+   "score": 5,
+   "price": 502.02,
    "reasons": [
-    "RSI 32 과매도",
-    "PER 11(저평가)",
-    "그레이엄 기준 충족"
-   ]
-  },
-  {
-   "symbol": "NKE",
-   "score": 4,
-   "price": 41.4,
-   "reasons": [
-    "52주고점 대비 -39%",
+    "52주고점 대비 -35%",
     "과매도 탈출+MA5 회복"
    ]
   },
   {
-   "symbol": "KHC",
-   "score": 4,
-   "price": 24.14,
+   "symbol": "TMUS",
+   "score": 5,
+   "price": 166.37,
    "reasons": [
-    "PER 12(저평가)",
-    "PBR 0.7",
+    "52주고점 대비 -25%",
+    "RSI 30 과매도",
+    "PER 12(저평가)"
+   ]
+  },
+  {
+   "symbol": "VZ",
+   "score": 4,
+   "price": 42.41,
+   "reasons": [
+    "RSI 32 과매도",
+    "PER 8(저평가)",
+    "그레이엄 기준 충족"
+   ]
+  },
+  {
+   "symbol": "CMCSA",
+   "score": 4,
+   "price": 24.32,
+   "reasons": [
+    "PER 6(저평가)",
+    "PBR 1.0",
+    "그레이엄 기준 충족"
+   ]
+  },
+  {
+   "symbol": "F",
+   "score": 4,
+   "price": 14.07,
+   "reasons": [
+    "PER 8(저평가)",
+    "PBR 1.5",
     "그레이엄 기준 충족"
    ]
   }
