@@ -1,31 +1,32 @@
 {
- "updated": "2026-07-01 01:02",
+ "updated": "2026-07-01 02:02",
  "candidates": [
   {
-   "symbol": "OXY",
-   "score": 6,
-   "price": 49.33,
+   "symbol": "T",
+   "score": 7,
+   "price": 20.8,
    "reasons": [
-    "52주고점 대비 -26%",
+    "52주고점 대비 -28%",
     "RSI 29 과매도",
-    "PER 12(저평가)",
+    "PER 8(저평가)",
+    "PBR 1.3",
     "그레이엄 기준 충족"
    ]
   },
   {
-   "symbol": "GIS",
+   "symbol": "LUNR",
    "score": 6,
-   "price": 35.47,
+   "price": 21.32,
    "reasons": [
-    "52주고점 대비 -28%",
-    "PER 11(저평가)",
-    "시총 $18.9B(소형)"
+    "52주고점 대비 -53%",
+    "과매도 탈출+MA5 회복",
+    "시총 $3.4B(소형)"
    ]
   },
   {
    "symbol": "ZTS",
    "score": 5,
-   "price": 71.88,
+   "price": 71.53,
    "reasons": [
     "52주고점 대비 -45%",
     "RSI 29 과매도",
@@ -33,22 +34,51 @@
    ]
   },
   {
-   "symbol": "COP",
+   "symbol": "NOC",
+   "score": 5,
+   "price": 504.71,
+   "reasons": [
+    "52주고점 대비 -34%",
+    "과매도 탈출+MA5 회복"
+   ]
+  },
+  {
+   "symbol": "VZ",
    "score": 4,
-   "price": 104.47,
+   "price": 42.65,
    "reasons": [
     "RSI 32 과매도",
-    "PER 11(저평가)",
+    "PER 8(저평가)",
     "그레이엄 기준 충족"
    ]
   },
   {
-   "symbol": "KHC",
+   "symbol": "CMCSA",
    "score": 4,
-   "price": 24.11,
+   "price": 24.45,
    "reasons": [
-    "PER 12(저평가)",
-    "PBR 0.7",
+    "PER 7(저평가)",
+    "PBR 1.0",
+    "그레이엄 기준 충족"
+   ]
+  },
+  {
+   "symbol": "F",
+   "score": 4,
+   "price": 14.01,
+   "reasons": [
+    "PER 8(저평가)",
+    "PBR 1.5",
+    "그레이엄 기준 충족"
+   ]
+  },
+  {
+   "symbol": "GM",
+   "score": 4,
+   "price": 76.52,
+   "reasons": [
+    "PER 5(저평가)",
+    "PBR 1.1",
     "그레이엄 기준 충족"
    ]
   }
