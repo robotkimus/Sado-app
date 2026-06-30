@@ -444,6 +444,55 @@ def taco_zone(cur, sr, fib):
     return {"low": round(lo, 2), "high": round(hi, 2), "basis": basis}
 
 
+def adx_from_closes(closes, period=14):
+    """ADX(추세 강도) 근사 계산 — 종가만으로.
+    원래 ADX는 고가·저가(True Range)가 필요하지만, 데이터 소스가 종가만 안정적으로
+    주므로 일목균형표처럼 종가 변화로 근사한다. 추세의 '방향'보다 '강도'를 보는 용도.
+    값이 클수록(보통 25~30↑) 추세가 강함. 정밀도는 OHLC 버전보다 낮음(근사임).
+    반환: ADX 값(0~100) 또는 None."""
+    if len(closes) < period * 2:
+        return None
+    # +DM/-DM을 종가 변화로 근사 (고저 대신 종가 간 차이)
+    plus_dm, minus_dm, tr = [], [], []
+    for k in range(1, len(closes)):
+        ch = closes[k] - closes[k - 1]
+        plus_dm.append(max(ch, 0))      # 상승분
+        minus_dm.append(max(-ch, 0))    # 하락분
+        tr.append(abs(ch) or 1e-9)      # 변동폭 근사(0 방지)
+
+    def _smooth(arr):
+        # Wilder 평활
+        s = sum(arr[:period])
+        out = [s]
+        for x in arr[period:]:
+            s = s - (s / period) + x
+            out.append(s)
+        return out
+
+    if len(tr) < period:
+        return None
+    str_ = _smooth(tr)
+    sp = _smooth(plus_dm)
+    sm = _smooth(minus_dm)
+    dx = []
+    for i in range(len(str_)):
+        if str_[i] == 0:
+            continue
+        pdi = 100 * sp[i] / str_[i]
+        mdi = 100 * sm[i] / str_[i]
+        denom = pdi + mdi
+        if denom == 0:
+            continue
+        dx.append(100 * abs(pdi - mdi) / denom)
+    if len(dx) < period:
+        return round(sum(dx) / len(dx), 1) if dx else None
+    # ADX = DX의 평활 평균
+    adx = sum(dx[:period]) / period
+    for x in dx[period:]:
+        adx = (adx * (period - 1) + x) / period
+    return round(adx, 1)
+
+
 def summarize(sym, series):
     # 입력 방어: series가 비었거나 close가 없는 행이 섞여도 죽지 않게 정제
     series = [r for r in (series or []) if isinstance(r, dict) and r.get("close") is not None]
@@ -490,6 +539,17 @@ def summarize(sym, series):
     # 현재가가 TACO ZONE 안에 있는지 (저가매수 후보 진입 여부)
     in_taco = bool(tz and tz["low"] <= cur <= tz["high"])
     chg1 = (closes[-1] / closes[-2] - 1) * 100 if len(closes) >= 2 else 0
+    # ── 홀리 그레일(린다 라쉬케) 신호 — ADX 강추세 + 20일선 눌림목 ──
+    adx = adx_from_closes(closes)
+    holy_grail = None
+    if adx is not None and ma20 and ma5:
+        strong_trend = adx >= 30                       # 강한 추세 확정
+        near_ma20 = abs(cur / ma20 - 1) * 100 <= 2     # 20일선 ±2% 눌림목
+        uptrend = cur >= ma20 and ma5 >= ma20          # 상승 추세 구조
+        if strong_trend and near_ma20 and uptrend:
+            holy_grail = "long_setup"   # 강추세 상승 중 20일선 눌림목 = 매수 자리
+        elif strong_trend and near_ma20 and (cur < ma20 and ma5 < ma20):
+            holy_grail = "short_setup"  # 강추세 하락 중 20일선 반등 = (참고용)
     return {
         "symbol": sym,
         "price": round(cur, 2),
@@ -510,6 +570,8 @@ def summarize(sym, series):
         "in_taco_zone": in_taco,
         "off_52w_high_pct": off_52w,
         "ichimoku": ichimoku(closes),
+        "adx14": adx,                  # 추세 강도(근사) — 30↑ 강추세
+        "holy_grail": holy_grail,      # 린다 라쉬케 눌림목 신호
     }
 
 
@@ -1127,6 +1189,7 @@ def ask_claude(account, positions, market, regime=None, session="regular"):
         "- 각 주문에 \"conviction\" 필드를 넣으세요: \"high\"(강한 확신) | \"normal\"(보통) | \"low\"(시험적). 신호·펀더멘털·시장국면이 모두 우호적이고 자리가 분명할 때만 high.\n"
         "- ★ 매수 크기를 의미 있게: 진입할 거면 제대로 진입하라. high 확신이고 자리가 좋으면 첫 진입부터 한도의 절반 이상(자산 5~6%)을 담아라. normal이어도 최소 자산 2~3%는 들어가라. '1주씩 찔끔' 매수는 금지 — 이겨도 수익이 작아 다른 손실을 못 메운다. 단 한 종목 한도(normal 5%, high 12%)는 지킬 것.\n"
         "- ★★ 진입 타이밍 엄격(눌림목·지지선에서만): 추격 매수 금지. 신규 매수는 다음 중 하나가 충족되는 '좋은 자리'에서만 하라 — ① RSI가 과매도권(40 이하)에서 반등 조짐, ② 일목균형표 구름 상단·지지선 근처로 눌린 자리, ③ MA20 위에서 MA5까지 되돌린 눌림목. 이미 단기 급등(5일 +10%↑)했거나 자리가 애매하면 아무리 좋은 종목이어도 '관망'하라. 좋은 종목을 나쁜 자리에 사면 물린다.\n"
+        "- ★★★ 홀리 그레일 신호(린다 라쉬케 추세 눌림목): 종목 지표의 holy_grail='long_setup'은 'ADX 30↑ 강추세 + 20일선 눌림목'이 동시 충족된 최우선 매수 자리다(adx14로 추세 강도 확인). 이 신호가 뜬 종목은 추세가 강하면서 마침 눌린 것이라 가장 좋은 진입처다 — 발견 시 우선 고려하고 conviction을 높여 의미 있는 크기로 진입하라. 단 신호가 떠도 시장 국면이 하락장이면 신중히(방어 우선). adx14가 30 미만이면 추세가 약하니 추세추종 매수는 자제.\n"
         "- 인버스 종목과 하락장·조정 국면에서는 conviction과 무관하게 5% 이내로 제한됩니다(시스템이 강제). 레버리지는 확신이 강할 때만 최대 8%.\n"
         "- 매수는 관심종목 내에서만, 매도는 보유 종목만, 공매도 금지\n"
         "- 손실 중인 포지션이 -7% 이하면 손절을 적극 검토 (레버리지는 -5%)\n"
