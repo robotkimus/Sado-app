@@ -1,4 +1,65 @@
 {
- "updated": "2026-06-30 22:00",
- "candidates": []
+ "updated": "2026-06-30 22:41",
+ "candidates": [
+  {
+   "symbol": "OXY",
+   "score": 6,
+   "price": 49.44,
+   "reasons": [
+    "52주고점 대비 -25%",
+    "RSI 30 과매도",
+    "PER 12(저평가)",
+    "그레이엄 기준 충족"
+   ]
+  },
+  {
+   "symbol": "GIS",
+   "score": 6,
+   "price": 35.85,
+   "reasons": [
+    "52주고점 대비 -27%",
+    "PER 11(저평가)",
+    "시총 $19.1B(소형)"
+   ]
+  },
+  {
+   "symbol": "ZTS",
+   "score": 5,
+   "price": 72.25,
+   "reasons": [
+    "52주고점 대비 -45%",
+    "RSI 30 과매도",
+    "PER 10(저평가)"
+   ]
+  },
+  {
+   "symbol": "COP",
+   "score": 4,
+   "price": 104.5,
+   "reasons": [
+    "RSI 32 과매도",
+    "PER 11(저평가)",
+    "그레이엄 기준 충족"
+   ]
+  },
+  {
+   "symbol": "NKE",
+   "score": 4,
+   "price": 41.4,
+   "reasons": [
+    "52주고점 대비 -39%",
+    "과매도 탈출+MA5 회복"
+   ]
+  },
+  {
+   "symbol": "KHC",
+   "score": 4,
+   "price": 24.14,
+   "reasons": [
+    "PER 12(저평가)",
+    "PBR 0.7",
+    "그레이엄 기준 충족"
+   ]
+  }
+ ]
 }
