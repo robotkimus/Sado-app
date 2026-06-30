@@ -1057,6 +1057,7 @@ def _claude_call_with_retry(body, tries=2):
             return http_json(
                 "https://api.anthropic.com/v1/messages", method="POST",
                 headers={"x-api-key": ANTHROPIC_KEY, "anthropic-version": "2023-06-01",
+                         "anthropic-beta": "extended-cache-ttl-2025-04-11",
                          "content-type": "application/json"},
                 body=body)
         except urllib.error.HTTPError as e:
@@ -1163,14 +1164,6 @@ def ask_claude(account, positions, market, regime=None, session="regular"):
         f"- 각 주문에 \"tier\" 필드를 넣어라: \"core\"(일반 안전 매수) | \"highrisk\"(저평가·과매도 역추세). 미지정 시 core로 간주.\n"
         "- 하이리스크(저평가·과매도 역추세) 매수는 원칙적으로 두 AI 합의 시 실행하되, '격리 예산(작은 금액)'이라 한쪽 AI라도 high 확신이면 소량(절반) 시험 진입이 허용된다. 그러니 저평가 우량주에 확신이 서면 conviction을 'high'로 명확히 표하라. '많이 빠진 저평가 우량주'를 영영 안 사고 현금만 쌓는 것은 기회손실이다 — 하이리스크 예산 범위 안에서는 적극적으로 담아라.\n"
         "- 매도: 보유 손익이 손절선(-7%, 레버리지 -5%) 이하인 '진짜 손절'은 한쪽만 원해도 즉시 실행(방어 우선). 그러나 손절선 위인데 '리밸런싱·자금확보·약세' 같은 이유로 파는 '재량 매도'는 두 AI가 모두 동의해야 실행된다. 단순히 '주도섹터 자금 확보'를 위해 멀쩡한 보유 종목을 혼자 팔지 말 것 — 현금은 이미 충분하다.\n\n"
-        f"[현재 시장 국면] {json.dumps({k:v for k,v in regime.items() if k!='sectors'}, ensure_ascii=False) if regime else '판단 안 됨'}\n"
-        "  → 위 국면을 반드시 반영할 것. '하락장'이면 인버스 헷지+현금 우선, '조정'이면 신규 매수를 크게 줄이고 현금 확보 우선. '상승장'이면 정상 운용.\n"
-        + (f"[섹터 흐름] {(regime or {}).get('sectors',{}).get('summary','')}\n"
-           f"  섹터별 1·3개월 수익률: {json.dumps((regime or {}).get('sectors',{}).get('ranked',[]), ensure_ascii=False)}\n"
-           "  → ★ 돈이 도는 주도 섹터(강세)를 추세추종으로 적극 따라붙어라. 이게 이 봇의 핵심 수익원이다. 주도 섹터(예: 반도체 강세 사이클)면 그 섹터 ETF(SOXX/SMH 등)와 그 섹터 강한 개별 종목을 분할로 매수하라. '이미 많이 올랐다'는 이유만으로 주도 섹터를 통째로 회피하지 말 것 — 추세추종은 원래 오르는 걸 사는 전략이다. 추세가 살아있으면(MA5·MA20 위, 거래량 동반) 분할로 따라붙고, 눌림목(단기 조정)이 오면 추가하라.\n"
-           "  → 단 '과열 극단'에서만 신규 진입을 자제한다: RSI 75 이상 + 볼린저 상단 크게 초과(1.1+) + 거래량 급감 같은 명백한 과열 신호가 동시에 보일 때. 그 외 추세 중간 구간(RSI 55~72)은 추세추종 정상 매수 구간이다. 막연히 '많이 올랐다'로 멈추지 말고, 과열 지표가 실제로 극단인지 확인하라.\n"
-           "  → 소외 섹터(약세, 1개월 마이너스)는 신중히. 섹터 흐름은 개별 종목 신호·펀더멘털과 함께 종합 판단하되, 주도 섹터를 비우고 지수·빅테크만 도는 편향을 경계하라.\n\n"
-           if (regime or {}).get('sectors') else "\n")
         + ("수익 종목 다루는 법 (★ 수익은 길게 가져간다 — let winners run):\n"
            "- 손실은 빨리 자르되(손절 -7%), 수익 나는 종목은 섣불리 팔지 마라. 큰 수익(텐버거)은 끝까지 들고 가야 나온다.\n"
            "- ★ 러너 보호: 평단 대비 +15% 이상 수익 중인 종목은 'RSI 과매수' 하나만으로 절대 팔지 마라. RSI가 70~80이어도 추세(MA20 위, 상승 흐름)가 살아있으면 계속 보유한다. 과매수는 강세장에서 오래 지속될 수 있다.\n"
@@ -1181,11 +1174,7 @@ def ask_claude(account, positions, market, regime=None, session="regular"):
            "- 단 이건 '수익 종목'에만 적용. 손실 종목은 기존 손절 규칙(-7%)을 따른다. 또 개별 악재(실적 쇼크 등)로 펀더멘털이 망가지면 트레일링과 무관하게 매도 검토.\n"
            "- ★ 텐버거(장기보유) 종목: 보유 포지션 중 is_tenbagger=true인 종목은 '10배주 후보'로 확정된 장기보유 종목이다. 5~10년 보고 묻어두는 자리라 단기 손절(-7%)·트레일링·과매수 매도를 적용하지 마라. 일시적으로 마이너스여도 버틴다(엉덩이 싸움). 오직 '펀더멘털이 실제로 망가졌다'고 판단될 때만 매도를 검토하라.\n"
            "- ★ 텐버거 적립 원칙: 텐버거 종목은 종목 수 제한 없이 하이리스크 예산(20%) 안에서 '꾸준히 분할 적립'하는 게 목표다. 신규 편입 종목이나 기존 텐버거가 저가(눌림목·과매도)에 오면 소량씩 계속 모아가라. 한 번에 크게 사지 말고 시간을 두고 평단을 쌓는 적립식으로.\n\n")
-        + session_rule
-        + f"[계좌] 총자산 ${account['equity']}, 현금 ${account['cash']}\n"
-        f"[보유 포지션]\n{json.dumps(positions, ensure_ascii=False, indent=1)}\n\n"
-        f"[관심종목 지표]\n{json.dumps(market, ensure_ascii=False, indent=1)}\n\n"
-        "규칙:\n"
+        + "규칙:\n"
         f"- 신규 매수 한도(종목당 총자산 대비): 확신이 보통이면 {int(MAX_POSITION_PCT*100)}%, 확신이 강하면 최대 {int(MAX_POSITION_HIGH*100)}%, 확신이 약하면 3% 이내\n"
         "- 각 주문에 \"conviction\" 필드를 넣으세요: \"high\"(강한 확신) | \"normal\"(보통) | \"low\"(시험적). 신호·펀더멘털·시장국면이 모두 우호적이고 자리가 분명할 때만 high.\n"
         "- ★ 매수 크기를 의미 있게: 진입할 거면 제대로 진입하라. high 확신이고 자리가 좋으면 첫 진입부터 한도의 절반 이상(자산 5~6%)을 담아라. normal이어도 최소 자산 2~3%는 들어가라. '1주씩 찔끔' 매수는 금지 — 이겨도 수익이 작아 다른 손실을 못 메운다. 단 한 종목 한도(normal 5%, high 12%)는 지킬 것.\n"
@@ -1199,9 +1188,32 @@ def ask_claude(account, positions, market, regime=None, session="regular"):
         '{"decisions":[{"action":"buy|sell","symbol":"JPM","qty":3,"conviction":"normal","tier":"core","reason":"한 문장 근거"}],'
         '"market_view":"오늘 시장 국면 판단, 왜 매수/매도/관망했는지 핵심 근거, 포트폴리오 분산·레버리지·현금 비중에 대한 평가를 자세히. 나중에 사람이 봇의 판단을 복기할 수 있도록 솔직하고 구체적으로 충분히 설명하되, 5~8문장(800자 내외)을 넘지 말 것. 반드시 완결된 JSON으로 끝맺고 마지막 문장은 마침표로 끝낼 것."}'
     )
+    # ── 변동 데이터 블록 (매번 다름 — 캐싱 안 됨) ──
+    # 국면·섹터·세션·계좌·포지션·시세를 고정 규칙 뒤에 붙인다.
+    sector_block = ""
+    if (regime or {}).get("sectors"):
+        sector_block = (
+            f"[섹터 흐름] {(regime or {}).get('sectors',{}).get('summary','')}\n"
+            f"  섹터별 1·3개월 수익률: {json.dumps((regime or {}).get('sectors',{}).get('ranked',[]), ensure_ascii=False)}\n"
+            "  → ★ 돈이 도는 주도 섹터(강세)를 추세추종으로 적극 따라붙어라. 추세가 살아있으면(MA5·MA20 위) 분할 매수, 눌림목이 오면 추가. 단 RSI 75↑+볼린저 상단 크게 초과+거래량 급감이 동시에 보이는 '과열 극단'에서만 신규 진입 자제. 소외 섹터(약세)는 신중히.\n\n")
+    variable_block = (
+        f"[현재 시장 국면] {json.dumps({k:v for k,v in regime.items() if k!='sectors'}, ensure_ascii=False) if regime else '판단 안 됨'}\n"
+        "  → 위 국면을 반드시 반영할 것. '하락장'이면 인버스 헷지+현금 우선, '조정'이면 신규 매수를 크게 줄이고 현금 확보 우선. '상승장'이면 정상 운용.\n"
+        + sector_block
+        + session_rule
+        + f"[계좌] 총자산 ${account['equity']}, 현금 ${account['cash']}\n"
+        + f"[보유 포지션]\n{json.dumps(positions, ensure_ascii=False, indent=1)}\n\n"
+        + f"[관심종목 지표]\n{json.dumps(market, ensure_ascii=False, indent=1)}\n"
+    )
+    # ── 메시지 구성: 고정 규칙은 캐싱(90% 할인), 변동 데이터는 매번 전송 ──
+    # 고정 블록에 cache_control(1시간)을 붙여 매시간 반복되는 큰 규칙을 캐시한다.
     res = _claude_call_with_retry(
         body={"model": "claude-sonnet-4-6", "max_tokens": 4000,
-              "messages": [{"role": "user", "content": prompt}]})
+              "messages": [{"role": "user", "content": [
+                  {"type": "text", "text": prompt,
+                   "cache_control": {"type": "ephemeral", "ttl": "1h"}},
+                  {"type": "text", "text": variable_block},
+              ]}]})
     text = "".join(b.get("text", "") for b in res.get("content", []))
     claude_plan = _parse_ai_json(text, "Claude")
 
