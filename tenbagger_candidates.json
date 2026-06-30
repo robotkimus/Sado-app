@@ -1,85 +1,80 @@
 {
- "updated": "2026-07-01 02:02",
+ "updated": "2026-07-01 03:01",
  "candidates": [
   {
-   "symbol": "T",
+   "symbol": "CERT",
    "score": 7,
-   "price": 20.8,
+   "price": 6.45,
    "reasons": [
-    "52주고점 대비 -28%",
-    "RSI 29 과매도",
-    "PER 8(저평가)",
-    "PBR 1.3",
-    "그레이엄 기준 충족"
+    "52주고점 대비 -36%",
+    "PBR 1.0",
+    "그레이엄 기준 충족",
+    "시총 $1.0B(소형)"
    ]
   },
   {
-   "symbol": "LUNR",
+   "symbol": "PATH",
    "score": 6,
-   "price": 21.32,
+   "price": 10.73,
    "reasons": [
-    "52주고점 대비 -53%",
-    "과매도 탈출+MA5 회복",
+    "52주고점 대비 -44%",
+    "PER 12(저평가)",
+    "시총 $5.6B(소형)"
+   ]
+  },
+  {
+   "symbol": "UPST",
+   "score": 6,
+   "price": 35.37,
+   "reasons": [
+    "52주고점 대비 -30%",
+    "PER 10(저평가)",
     "시총 $3.4B(소형)"
    ]
   },
   {
-   "symbol": "ZTS",
-   "score": 5,
-   "price": 71.53,
-   "reasons": [
-    "52주고점 대비 -45%",
-    "RSI 29 과매도",
-    "PER 10(저평가)"
-   ]
-  },
-  {
-   "symbol": "NOC",
-   "score": 5,
-   "price": 504.71,
-   "reasons": [
-    "52주고점 대비 -34%",
-    "과매도 탈출+MA5 회복"
-   ]
-  },
-  {
-   "symbol": "VZ",
+   "symbol": "TEM",
    "score": 4,
-   "price": 42.65,
+   "price": 57.29,
    "reasons": [
-    "RSI 32 과매도",
-    "PER 8(저평가)",
-    "그레이엄 기준 충족"
+    "52주고점 대비 -27%",
+    "시총 $10.3B(소형)"
    ]
   },
   {
-   "symbol": "CMCSA",
+   "symbol": "RXRX",
    "score": 4,
-   "price": 24.45,
+   "price": 3.61,
    "reasons": [
-    "PER 7(저평가)",
-    "PBR 1.0",
-    "그레이엄 기준 충족"
+    "52주고점 대비 -27%",
+    "시총 $1.9B(소형)"
    ]
   },
   {
-   "symbol": "F",
+   "symbol": "IONQ",
    "score": 4,
-   "price": 14.01,
+   "price": 53.09,
    "reasons": [
-    "PER 8(저평가)",
-    "PBR 1.5",
-    "그레이엄 기준 충족"
+    "52주고점 대비 -26%",
+    "시총 $19.8B(소형)"
    ]
   },
   {
-   "symbol": "GM",
+   "symbol": "RGTI",
    "score": 4,
-   "price": 76.52,
+   "price": 19.19,
    "reasons": [
-    "PER 5(저평가)",
-    "PBR 1.1",
-    "그레이엄 기준 충족"
+    "52주고점 대비 -43%",
+    "시총 $6.4B(소형)"
+   ]
+  },
+  {
+   "symbol": "QBTS",
+   "score": 4,
+   "price": 23.71,
+   "reasons": [
+    "52주고점 대비 -26%",
+    "시총 $8.8B(소형)"
    ]
   }
  ]
