@@ -1,6 +1,21 @@
 {
- "updated": "2026-07-01 05:01",
+ "updated": "2026-07-01 06:01",
  "items": [
+  {
+   "headline": "Kalshi, Polymarket Could See Wave Of Cross-Industry M&A Bernstein Writes (CORRECTED)",
+   "summary": "Bernstein warns Kalshi and Polymarket face takeover risk as Robinhood, Coinbase, and DraftKings build their own prediction market exchanges.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/06/60164990/attention-kalshi-polymarket-robinhood-coinbase-draftkings-are-coming-for-your-lunch-bernstein-writes",
+   "created_at": "2026-06-29T16:38:43Z",
+   "symbols": [
+    "COIN",
+    "DKNG",
+    "FLUT",
+    "HOOD",
+    "META"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/30/The-Growth-Of-Prediction-Markets.jpg?width=1024&height=768"
+  },
   {
    "headline": "Astera Labs Stock Jumps as Chip Shares Rally",
    "summary": "Astera Labs shares are climbing Tuesday as chip stocks extend Monday’s rebound, with an added boost from Susquehanna&#39;s outlook on KLA.",
@@ -192,16 +207,146 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/06/30/Intel-Corporation.jpg?width=1024&height=768"
   },
   {
-   "headline": "As AI Fraud Explodes, New Report Says 15 Million Americans Were Scammed Last Year And Americans Lost About $68 Billion",
-   "summary": "Gallup survey shows AI and deepfakes fueled 12% of successful scams in 2025.",
+   "headline": "Sandisk Shares Rise 6% After Key Trading Signal",
+   "summary": "A key trading signal flashed for Sandisk shares at a price of $2143.88, after which SNDK rose 6% to an intraday high.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/06/60183272/as-ai-fraud-explodes-new-report-says-15-million-americans-were-scammed-last-year-and-americans-lost-about-68-billion",
-   "created_at": "2026-06-30T12:34:14Z",
+   "url": "https://www.benzinga.com/Opinion/26/06/60204533/sandisk-shares-rise-6-percent-after-key-trading-signal",
+   "created_at": "2026-06-30T20:50:29Z",
    "symbols": [
-    "META",
-    "PYPL"
+    "SNDK"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/30/Man-Interacting-With-A-Holographic-Touch.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/30/image.png?width=1024&height=768"
+  },
+  {
+   "headline": "Fourth Of July Inflation 'Shock'? 2026 BBQ Cost Hits Record",
+   "summary": "Cooking for friends and family for the Fourth of July in 2026 is likely more expensive than past years. Here&#39;s why.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/personal-finance/management/26/06/60204456/fourth-of-july-inflation-shock-2026-bbq-cost-hits-record",
+   "created_at": "2026-06-30T20:48:15Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/30/A-Close-Up-Shot-Of-Burger-Patties-Cookin.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "$1000 Invested In iShares Gold Trust Micro Shares 5 Years Ago Would Be Worth This Much Today",
+   "summary": "iShares Gold Trust Micro Shares (NYSE:IAUM) has outperformed the market over the past 5 years by 5.84% on an annualized basis producing an average annual return of 17.36%. Currently, iShares Gold Trus",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/06/60204382/1000-invested-ishares-gold-trust-micro-shares-5-years-ago-would-be-worth-much-today",
+   "created_at": "2026-06-30T20:45:41Z",
+   "symbols": [
+    "IAUM"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_1.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Bloom Energy Stock Rallies After The Bell — Here's Why",
+   "summary": "Bloom Energy shares rise on expanded partnership with Brookfield to finance $25B in AI infrastructure and data-center power projects",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/06/60204276/bloom-energy-stock-rallies-after-the-bell-heres-why",
+   "created_at": "2026-06-30T20:41:14Z",
+   "symbols": [
+    "BE"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/30/Paris--France---June-19--2026--Close-up-.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "The AI ETF Trade Has Evolved: Where Investors Put Their Money In H1",
+   "summary": "Investors didn&#39;t just buy AI, they bought what AI needs. AI infrastructure ETFs gained traction in H1 driven by demand in memory chips, power, HVAC, data center themes.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/etfs/sector-etfs/26/06/60204208/the-ai-etf-trade-has-evolved-where-investors-put-their-money-in-h1",
+   "created_at": "2026-06-30T20:39:37Z",
+   "symbols": [
+    "DRAM",
+    "DTCR",
+    "HVAC",
+    "IDGT"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/30/Ai-Technology-Bubble-Concept-Chip-Stock-.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Nike Stock Slides Despite Q4 Earnings Beat As Turnaround Drags On",
+   "summary": "Nike Inc (NYSE:NKE) announces fourth-quarter results for fiscal 2026 after the closing bell on Tuesday. Here&#39;s a rundown of the report.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/earnings/26/06/60204141/nike-stock-slides-despite-q4-earnings-beat-as-turnaround-drags-on",
+   "created_at": "2026-06-30T20:38:43Z",
+   "symbols": [
+    "NKE"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/30/Nike.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "If You Invested $100 In Fortinet Stock 15 Years Ago, You Would Have This Much Today",
+   "summary": "Fortinet (NASDAQ:FTNT) has outperformed the market over the past 15 years by 12.52% on an annualized basis producing an average annual return of 24.65%. Currently, Fortinet has a market capitalization",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/06/60203790/if-you-invested-100-fortinet-stock-15-years-ago-you-would-have-much-today",
+   "created_at": "2026-06-30T20:31:01Z",
+   "symbols": [
+    "FTNT"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_4.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Sandwich Attacks On The XRP Ledger? There's An Easy Fix, Ripple Exec Says",
+   "summary": "Ripple CTO Schwartz proposes a new reservation scheme to stop front-running and sandwich attacks on the XRP Ledger.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/06/60203664/sandwich-attacks-on-the-xrp-ledger-theres-an-easy-fix-ripple-exec-says",
+   "created_at": "2026-06-30T20:29:04Z",
+   "symbols": [
+    "XRPUSD"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/30/Kyrenia--Cyprus---November-8--2018-Rippl.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Constellation Brands Reports Better-Than-Expected Q1: Details",
+   "summary": "Here&#39;s a detailed look inside the Q1 earnings report from Constellation Brands.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/earnings/26/06/60203509/constellation-brands-reports-better-than-expected-q1-details",
+   "created_at": "2026-06-30T20:21:38Z",
+   "symbols": [
+    "STZ"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/30/Constellation-Brands.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Thrive Capital Eyes NBA As Joshua Kushner, Bob Iger Discuss Las Vegas Bid",
+   "summary": "Joshua Kushner and Bob Iger are holding discussions regarding a bid for the NBA&#39;s planned expansion franchise.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/private-markets/26/06/60203317/thrive-capital-eyes-nba-as-joshua-kushner-bob-iger-discuss-las-vegas-bid",
+   "created_at": "2026-06-30T20:18:49Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/30/Nba-Basketball-Court-With-Ball.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "$100 Invested In NVIDIA 20 Years Ago Would Be Worth This Much Today",
+   "summary": "NVIDIA (NASDAQ:NVDA) has outperformed the market over the past 20 years by 28.64% on an annualized basis producing an average annual return of 37.92%. Currently, NVIDIA has a market capitalization of ",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/06/60203217/100-invested-nvidia-20-years-ago-would-be-worth-much-today",
+   "created_at": "2026-06-30T20:15:47Z",
+   "symbols": [
+    "NVDA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_4.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "DigitalOcean Shares Surge On Russell 1000 Index Inclusion",
+   "summary": "DigitalOcean Holdings shares are trading higher by almost 5% on Tuesday after the company was added to the Russell 1000 Index, and a rally tracking a risk-on tape.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/06/60202380/digitalocean-shares-surge-on-russell-1000-index-inclusion",
+   "created_at": "2026-06-30T20:00:52Z",
+   "symbols": [
+    "DOCN"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/30/Futuristic-Stock-Exchange-Scene-With-Mob.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "If You Invested $1000 In Palantir Technologies Stock 5 Years Ago, You Would Have This Much Today",
+   "summary": "Palantir Technologies (NASDAQ:PLTR) has outperformed the market over the past 5 years by 24.92% on an annualized basis producing an average annual return of 36.45%. Currently, Palantir Technologies ha",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/06/60202356/if-you-invested-1000-palantir-technologies-stock-5-years-ago-you-would-have-much-today",
+   "created_at": "2026-06-30T20:00:40Z",
+   "symbols": [
+    "PLTR"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_2.jpg?width=1024&height=768"
   },
   {
    "headline": "Prediction Market ETFs Prompt SEC Review Of Fund Rules As Innovation Accelerates",
@@ -346,162 +491,6 @@
     "ONDS"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/06/30/Stuttgart--Germany---08-28-2025-Person-H.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Why Is PACS Group Stock Soaring Tuesday?",
-   "summary": "PACS Group stock jumps 7% after announcing the acquisition of 34 Eduro Healthcare skilled nursing facilities. Read the details.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/06/60198854/why-is-pacs-group-stock-soaring-tuesday",
-   "created_at": "2026-06-30T18:11:00Z",
-   "symbols": [
-    "PACS"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/30/Confident-Happy-Woman-Nurse-Smiling-With.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Marvell Technology Stock Is Climbing Tuesday: What's Driving The Move?",
-   "summary": "Marvell Technology shares are climbing Tuesday afternoon as chip stocks catch a risk-on bid. The sector may be experiencing a lift in response to Susquehanna raising its forecast for wafer fab equipme",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/06/60198600/marvell-technology-stock-is-climbing-tuesday-whats-driving-the-move",
-   "created_at": "2026-06-30T18:04:41Z",
-   "symbols": [
-    "MRVL"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/30/Marvell-Technology.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Why is Moleculin Stock Falling Today?",
-   "summary": "Moleculin reports interim Phase 2/3 trial data as Annamycin shows higher remission rates than control in relapsed or refractory acute myeloid leukemia",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/06/60198382/why-is-moleculin-stock-falling-today",
-   "created_at": "2026-06-30T18:00:10Z",
-   "symbols": [
-    "MBRX"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/30/A-Leukemia-Nurse-Holds-Her-Cancer-Treatm.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Tema Bets On AI's Next Bottlenecks With New Memory And Photonics ETFs",
-   "summary": "Tema ETFs launches the DISK and LAZR ETFs in partnership with SemiAnalysis, offering exposure to AI memory, photonics, and semiconductor infrastructure.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/etfs/new-etfs/26/06/60198344/tema-bets-on-ais-next-bottlenecks-with-new-memory-and-photonics-etfs",
-   "created_at": "2026-06-30T17:59:56Z",
-   "symbols": [
-    "DISK",
-    "LAZR"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/30/Ai-Technology-Bubble-Concept-Chip-Stock-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Tesla Stock: 73% Of Benzinga Viewers Have Owned It. Here's How Many Still Do.",
-   "summary": "A Benzinga poll asks what percentage of viewers have ever owned Tesla stock. Here are the surprising results.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/06/60198339/tesla-stock-73-of-benzinga-viewers-have-owned-it-heres-how-many-still-do",
-   "created_at": "2026-06-30T17:59:51Z",
-   "symbols": [
-    "SPCX",
-    "TSLA"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/30/Tesla-EV-electric-vehicle-Service-Center.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Why Is Rezolve AI Stock Gaining Tuesday?",
-   "summary": "Rezolve AI ($RZLV) shares jump 12% after shareholders approve a $300M buyback program. Get the full details on the stock&#39;s rally.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/buybacks/26/06/60198320/why-is-rezolve-ai-stock-gaining-tuesday",
-   "created_at": "2026-06-30T17:59:37Z",
-   "symbols": [
-    "RZLV"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/30/Cary--North-Carolina---August-12-2025-Re.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "AeroVironment Stock Soars As 80% Autonomous Systems Growth Outshines BlueHalo Weakness",
-   "summary": "AeroVironment&#39;s AxS delivers 80% year-over-year growth, while BlueHalo portfolio weighs on profits. What does an analyst think?",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/06/60198253/aerovironment-stock-soars-as-80-autonomous-systems-growth-outshines-bluehalo-weakness",
-   "created_at": "2026-06-30T17:58:35Z",
-   "symbols": [
-    "AVAV"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/30/AeroVironment--Inc.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "BeOne Medicines Advances Chemotherapy-Free Lymphoma Strategy",
-   "summary": "BeOne Medicines reported positive Phase 3 BRUKINSA data in mantle cell lymphoma, reducing progression or death risk by 43% ahead of planned filings.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/06/60197938/beone-medicines-advances-chemotherapy-free-lymphoma-strategy",
-   "created_at": "2026-06-30T17:51:19Z",
-   "symbols": [
-    "ONC"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/30/Sugary-Drinks-Raise-Cancer-Risk-Indirect.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Sharplink Bought 10,000 ETH, 2 Million SBET: What's Going On?",
-   "summary": "SharpLink buys 10,000 ETH for $16.1M, its first purchase since October, while repurchasing 2.13M shares amid stock weakness.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/06/60197880/sharplink-bought-10000-eth-2-million-sbet-whats-going-on",
-   "created_at": "2026-06-30T17:50:13Z",
-   "symbols": [
-    "BMNR",
-    "ETHUSD",
-    "SBET"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/30/Ethereum-Hits-New-Record--Ethereum-And-N.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Comcast’s NBCUniversal Spin-Off Increases Potential For Merger With This Telecom Giant",
-   "summary": "Comcast plans to split into two companies, with the spin-off of NBCUniversal. BofA Securities analyst views the decision positively.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/06/60197463/comcasts-nbcuniversal-spin-off-increases-potential-for-marger-with-this-telecom-giant",
-   "created_at": "2026-06-30T17:39:39Z",
-   "symbols": [
-    "CHTR",
-    "CMCSA"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/30/Tucson--Ariz-usa-8519-Comcast-Corporatio.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Sanofi Reports Data From Nexviazyme Study, Says It Meets All Endpoints",
-   "summary": "Sanofi says Nexviazyme met all Phase 3 trial endpoints in infantile Pompe disease, supporting a planned US label expansion filing in 2026.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/health-care/26/06/60197788/sanofi-reports-data-from-nexviazyme-study-says-it-meets-all-endpoints",
-   "created_at": "2026-06-30T17:47:32Z",
-   "symbols": [
-    "SNY"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/30/biotech-lab.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Why Is Circle Internet Group Stock Falling On Tuesday?",
-   "summary": "Circle Internet Group ($CRCL) stock plunges 16% as Open Standard launches Open USD stablecoin. Read about the new market competition.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/06/60197704/why-is-circle-internet-group-stock-falling-on-tuesday",
-   "created_at": "2026-06-30T17:45:46Z",
-   "symbols": [
-    "BTCUSD",
-    "COIN",
-    "CRCL",
-    "ETHUSD",
-    "USDCUSD"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/30/The-Circle-Trade.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "10 Consumer Discretionary Stocks With Whale Alerts In Today’s Session",
-   "summary": "This whale alert can help traders discover the next big trading opportunities.\nWhales are entities with large sums of money and we track their transactions here at Benzinga on our options activity sca",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/options/26/06/60197278/10-consumer-discretionary-stocks-whale-alerts-today-s-session",
-   "created_at": "2026-06-30T17:35:36Z",
-   "symbols": [
-    "BABA",
-    "BKNG",
-    "CZR",
-    "GENI",
-    "GM"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/aggregated_options_1.jpg?width=1024&height=768"
   }
  ]
 }
