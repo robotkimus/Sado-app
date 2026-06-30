@@ -1,6 +1,19 @@
 {
- "updated": "2026-06-30 16:01",
+ "updated": "2026-06-30 17:01",
  "items": [
+  {
+   "headline": "Roger Altman Says ‘Nobody Understands How To Value’ SpaceX Or Anthropic, Evercore Chair Warns Investors To Brace For ‘Lot Of Volatility'",
+   "summary": "Evercore&#39;s Roger Altman warns traditional valuation methods struggle to capture high-growth companies like SpaceX &amp; Anthropic.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/06/60178307/roger-altman-says-nobody-understands-how-to-value-spacex-or-anthropic-warns-of-volatility",
+   "created_at": "2026-06-30T07:33:41Z",
+   "symbols": [
+    "MSFT",
+    "NDAQ",
+    "SPCX"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/30/The-Spacex-Logo-Is-Displayed-On-A-Mobile.jpg?width=1024&height=768"
+  },
   {
    "headline": "Cathie Wood Loads Up On Amazon Stock After Record $26.4 Billion Prime Day, Bets Big On Palantir's AI Push — Keeps Dumping Alibaba",
    "summary": "Invest scooped up Amazon, Palantir and Coinbase shares Monday while dumping Alibaba stock on Monday, June 29, 2026.",
@@ -198,19 +211,61 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/06/29/Two-Diverse-Crypto-Traders-Brokers-Stock.jpg?width=1024&height=768"
   },
   {
-   "headline": "Big Tech Hasn't Looked This Risky Relative To S&P 500 In 23 Years",
-   "summary": "Nasdaq-100 Volatility Index and VIX spread has reached its widest level in at least 23 years, signaling more uncertainty into Big Tech than the broader S&amp;P 500.",
+   "headline": "Anthropic Eating Palantir's Lunch? Dan Ives Says Bears Are 'Way Wrong' On Alex Karp's PLTR",
+   "summary": "Wedbush&#39;s Dan Ives slams the &#34;fictional narrative&#34; that Anthropic threatens PLTR, defending Palantir&#39;s unmatched AI moat in the SaaS market.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/etfs/broad-u-s-equity-etfs/26/06/60162888/big-tech-hasnt-looked-this-risky-relative-to-sp-500-in-23-years",
-   "created_at": "2026-06-29T15:45:19Z",
+   "url": "https://www.benzinga.com/markets/equities/26/06/60178356/anthropic-eating-palantirs-lunch-dan-ives-says-bears-are-way-wrong-on-alex-karps-pltr",
+   "created_at": "2026-06-30T07:48:50Z",
+   "symbols": [
+    "PLTR"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/30/2--Palantir-Technologies-Inc.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Gavin Newsom Defends California Gas Tax, Blames 'GOP-Enabled Iran War' For $63 Billion In Higher Fuel Costs",
+   "summary": "Gavin Newsom criticizes Trump administration for profiting off high gas prices, defends California&#39;s gas tax.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/06/60178194/gavin-newsom-defends-california-gas-tax-blames-gop-enabled-iran-war-for-63-billion-in-higher-fuel-costs",
+   "created_at": "2026-06-30T07:32:42Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/30/Sacramento--Ca---Jan-10--2024-Governor-G.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Apple's iPhone 18 Pro Supply Chain Allegedly Exposed After Tata Electronics Hack Leaks Secret Maps And Internal Test Photos: Report",
+   "summary": "Hackers allegedly leaked confidential iPhone 18 Pro supply chain documents and prototype photos from Tata Electronics.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/06/60178174/apples-iphone-18-pro-supply-chain-allegedly-exposed-after-tata-electronics-hack-leaks-secret-maps-and-internal-test-photos-report",
+   "created_at": "2026-06-30T07:27:20Z",
+   "symbols": [
+    "AAPL"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/30/Apple-Ios-18-Logo-Is-Displayed-In-An-Iph.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Apple Supplier Luxshare Eyes $3.1 Billion In Hong Kong Share Sale To Diversify Beyond Consumer Electronics",
+   "summary": "Luxshare seeks $3.1 billion in a Hong Kong IPO to fund growth beyond Apple supply, expanding into automotive electronics.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/asia/26/06/60178141/apple-supplier-luxshare-eyes-3-1-billion-in-hong-kong-share-sale-to-diversify-beyond-consumer-electronics",
+   "created_at": "2026-06-30T07:18:59Z",
    "symbols": [
     "AAPL",
-    "AMZN",
-    "AVGO",
-    "GOOG",
-    "GOOGL"
+    "HNHAF",
+    "HNHPF",
+    "NVDA"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/29/Nzd-Jpy-Candlestick-Chart-Forex-Analysis.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/30/Cupertino--California--September-25--202.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Exclusive: Navellier Calls Nvidia 'Screaming Buy' As Tech Expert Says Cheaper AI Doesn't Just Boost Demand—It 'Detonates It'",
+   "summary": "Louis Navellier calls every Nvidia dip a &#34;screaming buy,&#34; while 3 tech analysts debate if its $1 trillion AI roadmap is already priced in.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/06/60178119/every-nvidia-dip-is-a-screaming-buy-says-louis-navellier-but-3-tech-analysts-debate-if-1-trillion-is-priced-in",
+   "created_at": "2026-06-30T07:16:24Z",
+   "symbols": [
+    "NVDA",
+    "PLTR"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/30/Jensen-Huang-Nvidias-Founder--President-.jpg?width=1024&height=768"
   },
   {
    "headline": "Tom Lee Tells Anthony Scaramucci That Michael Saylor's Bitcoin-Buying Firm Will Stage A 'Big Recovery,' But He Has These Words Of Advice",
@@ -440,60 +495,6 @@
     "TSLA"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/06/30/Hedging-Against-Volatility-Seen.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Trump Can't Fire Lisa Cook For Now, Rules Supreme Court: Fed Governor Says, 'Refused To Bow To Political Pressure'",
-   "summary": "The U.S. Supreme Court on Monday rejected President Donald Trump&#39;s bid to remove Fed Governor Lisa Cook for now.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/legal/26/06/60177023/supreme-court-says-trump-cant-fire-fed-governor-lisa-cook-for-now",
-   "created_at": "2026-06-30T02:54:07Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/30/Washington-D-c---Usa---February-4--2025-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Trump Warns Gasoline Retailers Of ‘Big Problems’ If They Don’t Lower Prices: President Acting Like Biden, Says Anthony Pompliano",
-   "summary": "President Donald Trump demands immediate gas price cuts, warns of &#39;big problems&#39; if not done. Urges retailers to target $2.50/gal.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/06/60177013/trump-warns-gasoline-retailers-to-cut-prices-as-anthony-pompliano-says-hes-acting-like-biden",
-   "created_at": "2026-06-30T02:49:52Z",
-   "symbols": [
-    "BNO",
-    "USO"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/30/Washington-dc--United-States--April-14-2.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Trump's Supreme Court Day Ends With Executive Power Win And Legal Setbacks In E. Jean Carroll, Mail-In Voting Cases: Here's What He Said",
-   "summary": "Trump scored a major Supreme Court win on presidential power but lost in the E. Jean Carroll and mail-in ballot cases.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/legal/26/06/60176934/trumps-supreme-court-day-ends-with-executive-power-win-and-setbacks-in-e-jean-carroll-mail-in-voting-cases",
-   "created_at": "2026-06-30T02:29:51Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/30/Officials-Thank-Trump-For-Fix.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Bitcoin, Ethereum Gain, XRP, Dogecoin Flat As Trump Announces Next Round Of US-Iran Talks: Analyst Flags Signal Marking 'Generational Buying Opportunities'",
-   "summary": "Leading cryptocurrencies pared losses Monday, June 29, while stocks closed higher as investors priced in a further easing of tensions between the U.S. and Iran following weekend hostilities.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/06/60176902/bitcoin-and-ethereum-gain-as-trump-announces-new-us-iran-talks-analyst-sees-generational-buying-signal",
-   "created_at": "2026-06-30T02:04:34Z",
-   "symbols": [
-    "BMNR",
-    "BTCUSD",
-    "DOGEUSD",
-    "ETHUSD",
-    "MSTR"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/30/Los-Angeles--California---July-10-2025-B.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Anthony Scaramucci Once Revealed The Warren Buffett Letter That Changed His Perspective On Life And Work: 'Be Young, Act Young'",
-   "summary": "Anthony Scaramucci said a 25-year-old letter about Warren Buffett changed his perspective on aging and success.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/06/60176711/anthony-scaramucci-reveals-the-warren-buffett-letter-that-changed-his-perspective-on-life-and-work",
-   "created_at": "2026-06-30T01:12:18Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/30/Scaramucci-Crowns-Blankfeins-Streetwise-.jpg?width=1024&height=768"
   }
  ]
 }
