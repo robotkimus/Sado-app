@@ -1047,9 +1047,10 @@ def market_is_open():
 
 
 # ── Claude에게 판단 요청 ──
-def _claude_call_with_retry(body, tries=4):
+def _claude_call_with_retry(body, tries=2):
     """Claude API 호출 + 529(Overloaded)·일시 오류 시 대기 후 재시도.
-    Anthropic 서버 혼잡으로 봇이 통째로 죽는 걸 막는다."""
+    Anthropic 서버 혼잡으로 봇이 통째로 죽는 걸 막는다.
+    재시도는 2회로 제한(비용 절감 — 529는 보통 1회 추가 시도로 풀림)."""
     last = None
     for attempt in range(tries):
         try:
@@ -2092,53 +2093,10 @@ def main():
         log(f"❌ [1단계] Alpaca 연결 오류: {e}")
         return 1
 
-    # ── 2단계: Anthropic(Claude) 연결 테스트 ──
-    # 529(Overloaded)·500대 일시 오류는 Anthropic 서버 혼잡이므로 몇 번 재시도한다.
-    ping_ok = False
-    last_err = ""
-    for attempt in range(4):
-        try:
-            ping = http_json(
-                "https://api.anthropic.com/v1/messages", method="POST",
-                headers={"x-api-key": ANTHROPIC_KEY, "anthropic-version": "2023-06-01",
-                         "content-type": "application/json"},
-                body={"model": "claude-sonnet-4-6", "max_tokens": 16,
-                      "messages": [{"role": "user", "content": "ping"}]})
-            log("✅ [2단계] Claude API 연결 성공")
-            ping_ok = True
-            break
-        except urllib.error.HTTPError as e:
-            detail = ""
-            try:
-                detail = e.read().decode("utf-8", "replace")[:300]
-            except Exception:
-                pass
-            last_err = f"HTTP {e.code} {detail}"
-            # 401(키 오류)·크레딧 부족은 재시도해도 소용없으니 즉시 중단
-            if e.code == 401:
-                log(f"❌ [2단계] Claude API 실패 ({last_err})")
-                log("   → API 키가 잘못됐어요. console.anthropic.com 에서 키를 재확인하세요.")
-                return 1
-            if e.code == 400 and "credit" in detail.lower():
-                log(f"❌ [2단계] Claude API 실패 ({last_err})")
-                log("   → 크레딧 부족이에요. Billing에서 충전 상태를 확인하세요.")
-                return 1
-            # 529(과부하)·500대 등 일시 오류 → 대기 후 재시도
-            wait = 5 * (attempt + 1)   # 5, 10, 15초
-            log(f"⏳ [2단계] Claude API 일시 오류({last_err}) — {wait}초 후 재시도 ({attempt+1}/4)")
-            time.sleep(wait)
-        except Exception as e:
-            last_err = str(e)
-            wait = 5 * (attempt + 1)
-            log(f"⏳ [2단계] Claude API 오류({last_err}) — {wait}초 후 재시도 ({attempt+1}/4)")
-            time.sleep(wait)
-
-    if not ping_ok:
-        # 4번 재시도도 실패: Anthropic 서버 혼잡일 가능성이 큼.
-        # 봇을 죽이지 않고 '이번 실행만 관망'으로 우아하게 종료(다음 시간에 재시도).
-        log(f"❌ [2단계] Claude API 연결 실패(재시도 소진): {last_err}")
-        log("   → Anthropic 서버 과부하일 수 있어요. 이번 실행은 건너뛰고 다음 시간에 재시도합니다.")
-        return 0   # exit 0: 워크플로 실패로 안 뜨게(빨간 X 방지)
+    # ── 2단계: Claude 연결은 별도 ping 없이 메인 판단에서 확인 ──
+    # (ping 테스트를 없애 매 실행 Claude 호출 1회를 절감. 연결·키·크레딧 오류는
+    #  실제 판단 호출 ask_claude에서 동일하게 감지된다.)
+    log("✅ [2단계] Claude 연결은 판단 단계에서 확인(ping 생략 — 비용 절감)")
 
 
     # ── 3단계: 관심종목 시세 ──
@@ -2368,10 +2326,27 @@ def main():
     try:
         plan = ask_claude(account, positions, market, regime, MARKET_SESSION)
         log("✅ [4단계] Claude 판단 수신")
+    except urllib.error.HTTPError as e:
+        # 401(키)·크레딧 부족은 진짜 오류 → 알림 후 종료
+        detail = ""
+        try:
+            detail = e.read().decode("utf-8", "replace")[:200]
+        except Exception:
+            pass
+        if e.code == 401:
+            log(f"❌ [4단계] Claude API 키 오류 (HTTP 401) — console.anthropic.com에서 키 확인")
+            send_push("🤝 컨센서스 봇 — API 키 오류", "Claude API 키를 확인하세요.", True)
+            return 1
+        if e.code == 400 and "credit" in detail.lower():
+            log(f"❌ [4단계] Claude 크레딧 부족 — Billing 확인")
+            send_push("🤝 컨센서스 봇 — 크레딧 부족", "Claude 크레딧을 충전하세요.", True)
+            return 1
+        # 529(과부하)·기타 일시 오류 → 봇 안 죽이고 이번 실행만 건너뜀(빨간X 방지)
+        log(f"⏳ [4단계] Claude 판단 실패(HTTP {e.code}) — 일시 오류로 이번 실행 건너뜀(다음 시간 재시도)")
+        return 0
     except Exception as e:
-        log(f"❌ [4단계] Claude 판단 실패: {e}")
-        send_push("🤝 컨센서스 봇 — 판단 실패", f"AI API 오류: {e}", True)
-        return 1
+        log(f"⏳ [4단계] Claude 판단 실패: {e} — 이번 실행 건너뜀(다음 시간 재시도)")
+        return 0
 
     decisions = plan.get("decisions", []) or []
     view = plan.get("market_view", "")
