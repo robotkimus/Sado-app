@@ -1,6 +1,46 @@
 {
- "updated": "2026-07-01 03:02",
+ "updated": "2026-07-01 05:01",
  "items": [
+  {
+   "headline": "Astera Labs Stock Jumps as Chip Shares Rally",
+   "summary": "Astera Labs shares are climbing Tuesday as chip stocks extend Monday’s rebound, with an added boost from Susquehanna&#39;s outlook on KLA.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/06/60200622/astera-labs-stock-jumps-as-chip-shares-rally",
+   "created_at": "2026-06-30T19:08:29Z",
+   "symbols": [
+    "ALAB",
+    "SOXX"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/30/Astera-Labs.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Stripe, Visa, BlackRock Back New Open USD Stablecoin In Bid To Challenge Tether, Circle",
+   "summary": "A consortium led by companies including Stripe, Visa, BlackRock, Bank of New York Mellon and Coinbase is launching Open USD.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/06/60199038/stripe-visa-blackrock-back-new-open-usd-stablecoin-in-bid-to-challenge-tether-circle",
+   "created_at": "2026-06-30T18:18:23Z",
+   "symbols": [
+    "BK",
+    "BLK",
+    "BNY",
+    "COIN",
+    "CRCL"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/30/Man-Clicks-On-The-Inscription-Stable-Coi.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Look Closer At SPY, QQQ: Investors Are Rigging A Safety Net Under The Stock Market",
+   "summary": "The stock market looks stable, but the plumbing tells a different story. Here&#39;s how investors are quietly using ETF options to build a hidden safety net.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/etfs/specialty-etfs/26/06/60198973/spy-qqq-investors-safety-net-under-stock-market",
+   "created_at": "2026-06-30T18:15:23Z",
+   "symbols": [
+    "HELO",
+    "QQQ",
+    "SPY"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/30/vix-ai.png?width=1024&height=768"
+  },
   {
    "headline": "10 Information Technology Stocks Whale Activity In Today’s Session",
    "summary": "This whale alert can help traders discover the next big trading opportunities.\nWhales are entities with large sums of money and we track their transactions here at Benzinga on our options activity sca",
@@ -164,46 +204,170 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/06/30/Man-Interacting-With-A-Holographic-Touch.jpg?width=1024&height=768"
   },
   {
-   "headline": "Stock Market Today: S&P 500, Dow, Nasdaq Futures Gain As Trump Demands Lower Gas Prices 'Immediately'— Vishay Intertechnology, AeroVironment, Nike In Focus (UPDATED)",
-   "summary": "U.S. stock futures declined on Tuesday, as the Dow Jones, Nasdaq 100, and S&amp;P 500 indices fell, following Monday&#39;s higher close.",
+   "headline": "Prediction Market ETFs Prompt SEC Review Of Fund Rules As Innovation Accelerates",
+   "summary": "The SEC is reviewing ETF rules as prediction market ETFs, crypto funds, and other innovative products reshape the industry&#39;s regulatory landscape.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/06/60179297/stock-market-today-sp-500-dow-futures-rise-as-trump-demands-lower-gas-prices-immediately-vishay-intertechnology-aerovironment-nike-in-focus",
-   "created_at": "2026-06-30T12:33:27Z",
+   "url": "https://www.benzinga.com/etfs/specialty-etfs/26/06/60201989/prediction-market-etfs-prompt-sec-review-of-fund-rules-as-innovation-accelerates",
+   "created_at": "2026-06-30T19:48:44Z",
+   "symbols": [
+    "GLD",
+    "IBIT",
+    "JEPI",
+    "JEPQ",
+    "MSTR"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/30/Sec-Securities-And-Exchange-Commission-I.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Private Equity’s Expansion Into Youth Sports Draws Bipartisan Concern",
+   "summary": "A committee met to discuss private equity’s growing footprint in youth sports, as lawmakers weigh whether federal action is needed.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/private-markets/26/06/60201892/private-equitys-expansion-into-youth-sports-draws-bipartisan-concern",
+   "created_at": "2026-06-30T19:46:45Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/30/Sports-Balls-On-White-Background.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Peter Schiff: Imagine How Much Weaker Bitcoin Will Still Be When Saylor Starts Selling",
+   "summary": "Schiff says Strategy&#39;s $17B in buying couldn&#39;t stop Bitcoin&#39;s 53% drop, questioning why $20,000 still sounds unrealistic to bulls.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/06/60201865/peter-schiff-imagine-how-much-weaker-bitcoin-will-still-be-when-saylor-starts-selling",
+   "created_at": "2026-06-30T19:46:18Z",
+   "symbols": [
+    "BTCUSD",
+    "MSTR"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/30/Bitcoin.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "What’s Driving Plug Power Stock Higher Tuesday?",
+   "summary": "Plug Power shares are trading higher Tuesday as traders react to progress in Europe and a risk-on tape that’s lifting growth-linked names.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/06/60201377/whats-driving-plug-power-stock-higher-tuesday",
+   "created_at": "2026-06-30T19:32:14Z",
+   "symbols": [
+    "PLUG"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/30/Stuttgart--Germany---03-17-2024-Mobile-P.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Chamath Palihapitiya Announces $135 Million Funding, Rare CEO Title For 8090: ‘AI Can Be The Grand Equalizer’",
+   "summary": "Chamath Palihapitiya announces funding for one of his companies and takes on the CEO role in a rare move.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/06/60201055/chamath-palihapitiya-announces-135-million-funding-rare-ceo-title-for-8090-ai-can-be-the-grand-equalizer",
+   "created_at": "2026-06-30T19:21:46Z",
+   "symbols": [
+    "CRM"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/30/David-Sacks--Chamath-Palihapitiya-Warn-P.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Strategy Stock Falls as Bitcoin Hits 2026 Lows",
+   "summary": "Strategy (NASDAQ: MSTR) shares are under pressure Tuesday as Bitcoin breaks below $59,000 and crypto‑related stocks weaken across the board.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/06/60200827/strategy-stock-falls-as-bitcoin-hits-2026-lows",
+   "created_at": "2026-06-30T19:13:44Z",
+   "symbols": [
+    "BTCUSD",
+    "MSTR"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/30/Strategy.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Epic Games, Apple Clash Reaches Supreme Court In Battle Over App Store Payment Rules",
+   "summary": "The U.S. Supreme Court has agreed to hear Apple’s appeal of a contempt ruling tied to its long-running antitrust battle with Epic Games.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/private-markets/26/06/60200726/epic-games-apple-clash-reaches-supreme-court-in-battle-over-app-store-payment-rules",
+   "created_at": "2026-06-30T19:10:57Z",
+   "symbols": [
+    "AAPL"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/30/West-Bangal--India---April-20--2022--Epi.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "As Stablecoins Lead Crypto Investment Themes, Bitcoin Is No Longer The Favorite Child",
+   "summary": "Have stablecoins taken the cryptocurrency story away from Bitcoin for good?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/Opinion/26/06/60200226/as-stablecoins-lead-crypto-investment-themes-bitcoin-is-no-longer-the-favorite-child",
+   "created_at": "2026-06-30T18:55:10Z",
+   "symbols": [
+    "ADAUSD",
+    "BTC",
+    "BTCUSD",
+    "DOGEUSD",
+    "ETH"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/30/Vs1.png?width=1024&height=768"
+  },
+  {
+   "headline": "California Expands AI Push With Statewide Anthropic Partnership",
+   "summary": "California struck a new deal with artificial intelligence company Anthropic that will give state agencies access to its Claude assistant.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/private-markets/26/06/60200161/california-expands-ai-push-with-statewide-anthropic-partnership",
+   "created_at": "2026-06-30T18:53:38Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/30/Sacramento--Ca---Oct-28--2025-Gavin-News.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Sandisk Stock Rallies Tuesday: What's Happening?",
+   "summary": "Sandisk shares are trading higher Tuesday after Bernstein boosted its outlook on the stock and issued a major price‑target increase.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/06/60199432/sandisk-stock-rallies-tuesday-whats-happening",
+   "created_at": "2026-06-30T18:29:38Z",
+   "symbols": [
+    "MU",
+    "SNDK"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/30/Sandisk-Company-Logo---EK.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Bitcoin Slips To $58,000 While Ethereum, XRP, Dogecoin Tumble More Than 3% On Continued Institutional Selling",
+   "summary": "Bitcoin slipped below $59,000 while Ethereum, XRP and Dogecoin fell more than 3% amid persistent ETF outflows and extreme fear in the crypto market. Analysts see the potential for a short-term July re",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/06/60198920/bitcoin-slips-to-58000-while-ethereum-xrp-dogecoin-tumble-more-than-3-on-continued-institutional-selling",
+   "created_at": "2026-06-30T18:13:32Z",
+   "symbols": [
+    "BTCUSD",
+    "DOGEUSD",
+    "ETHUSD",
+    "SHIBUSD",
+    "SOLUSD"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/30/Dogecoin-Doge-Group-Included-With-Crypto.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Ondas Stock Surges After AeroVironment's Strong Results",
+   "summary": "Ondas Holdings Inc (NASDAQ:ONDS) shares are trading higher Tuesday as investors rotate into drone and defense technology names following a sharp move in AeroVironment.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/06/60198915/ondas-stock-surges-after-aerovironments-strong-results",
+   "created_at": "2026-06-30T18:13:23Z",
    "symbols": [
     "AVAV",
-    "BTCUSD",
-    "JACK",
-    "NKE",
-    "QQQ"
+    "ONDS"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/30/Wall-Street-Sign-With-Christmas-Tree-Lig.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/30/Stuttgart--Germany---08-28-2025-Person-H.jpg?width=1024&height=768"
   },
   {
-   "headline": "IBM, Verizon, Corning And A Health Care Stock On CNBC’s ‘Final Trades’",
-   "summary": "Jim Lebenthal recommends Vertex Pharmaceuticals in the healthcare sector. Jenny Van Leeuwen picks Verizon, IBM is down 18%, Joseph Terranova chooses Corning.",
+   "headline": "Why Is PACS Group Stock Soaring Tuesday?",
+   "summary": "PACS Group stock jumps 7% after announcing the acquisition of 34 Eduro Healthcare skilled nursing facilities. Read the details.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/06/60181792/ibm-verizon-corning-and-a-health-care-stock-on-cnbcs-final-trades",
-   "created_at": "2026-06-30T11:50:24Z",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/06/60198854/why-is-pacs-group-stock-soaring-tuesday",
+   "created_at": "2026-06-30T18:11:00Z",
    "symbols": [
-    "AMZN",
-    "GLW",
-    "IBM",
-    "VRTX",
-    "VZ"
+    "PACS"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/30/Experts-Stress-Individual-Strategy.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/30/Confident-Happy-Woman-Nurse-Smiling-With.jpg?width=1024&height=768"
   },
   {
-   "headline": "Warren Buffett Breaks A 20-Year Tradition As Report Says His Gates Foundation Donation Is Suddenly On Hold Over Epstein Files Review",
-   "summary": "Warren Buffett reportedly delays his annual Gates Foundation donation pending a review of the charity&#39;s links to Jeffrey Epstein.",
+   "headline": "Marvell Technology Stock Is Climbing Tuesday: What's Driving The Move?",
+   "summary": "Marvell Technology shares are climbing Tuesday afternoon as chip stocks catch a risk-on bid. The sector may be experiencing a lift in response to Susquehanna raising its forecast for wafer fab equipme",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/06/60180734/warren-buffett-breaks-a-20-year-tradition-as-report-says-his-gates-foundation-donation-is-suddenly-on-hold-over-epstein-files-review",
-   "created_at": "2026-06-30T11:03:08Z",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/06/60198600/marvell-technology-stock-is-climbing-tuesday-whats-driving-the-move",
+   "created_at": "2026-06-30T18:04:41Z",
    "symbols": [
-    "BRK",
-    "MSFT"
+    "MRVL"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/30/Warren-Buffett--Chairman-And-Ceo-Of-Berk.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/06/30/Marvell-Technology.jpg?width=1024&height=768"
   },
   {
    "headline": "Why is Moleculin Stock Falling Today?",
@@ -338,188 +502,6 @@
     "GM"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/aggregated_options_1.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "10 Industrials Stocks With Whale Alerts In Today’s Session",
-   "summary": "This whale alert can help traders discover the next big trading opportunities.\nWhales are entities with large sums of money and we track their transactions here at Benzinga on our options activity sca",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/options/26/06/60197277/10-industrials-stocks-whale-alerts-today-s-session",
-   "created_at": "2026-06-30T17:35:35Z",
-   "symbols": [
-    "AVEX",
-    "BE",
-    "CAT",
-    "FCEL",
-    "HAWK"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/aggregated_options_2.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Penny Stock Vistagen Keeps Regulatory Plans Alive Despite Anxiety Study Miss",
-   "summary": "Vistagen&#39;s Phase 3 fasedienol trial missed its main endpoint, but the company found a severe-patient signal and plans an FDA meeting.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/health-care/26/06/60197274/penny-stock-vistagen-keeps-regulatory-plans-alive-despite-anxiety-study-miss",
-   "created_at": "2026-06-30T17:35:28Z",
-   "symbols": [
-    "VTGN"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/30/Anxiety-Over-Future-Cuts.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Why Is Credo Stock Surging On Tuesday?",
-   "summary": "Credo Technology Group (NASDAQ: CRDO) stock surges on Tuesday amid a broader technology sector rally and recent analyst upgrades. Read the market breakdown here.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/06/60197241/why-is-credo-stock-surging-on-tuesday",
-   "created_at": "2026-06-30T17:34:43Z",
-   "symbols": [
-    "CRDO",
-    "INTC"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/30/CredoSignSan-Jose--California-Us---Febru.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Why Is Enphase Energy Stock Gaining Tuesday?",
-   "summary": "Enphase Energy (ENPH) stock jumps 3% after joining the Open Compute Project to co-develop power standards for AI data centers. Read more.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/06/60197082/why-is-enphase-energy-stock-gaining-tuesday",
-   "created_at": "2026-06-30T17:30:14Z",
-   "symbols": [
-    "ENPH",
-    "ICLN",
-    "PSCT",
-    "TAN"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/30/Stuttgart--Germany---12-23-2022-Person-H.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "How to Recover Wrong Network Deposits From Crypto Exchanges",
-   "summary": "Exchanges offer varying recovery options for wrong-network crypto deposits, but success depends on compatibility and policies.\n",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/Opinion/26/06/60196827/how-to-recover-wrong-network-deposits-from-crypto-exchanges",
-   "created_at": "2026-06-30T17:22:00Z",
-   "symbols": [],
-   "image": ""
-  },
-  {
-   "headline": "Bitcoin Falls Below $59,000 As Bears Target Bottom Between $10,000 And $20,000",
-   "summary": "Peter Schiff and Mike McGlone offered sharply bearish outlooks for Bitcoin, with Schiff seeing potential downside to $20K–$30K.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/06/60196714/bitcoin-falls-below-59000-as-bears-target-bottom-between-10000-and-20000",
-   "created_at": "2026-06-30T17:18:49Z",
-   "symbols": [
-    "BTCUSD",
-    "MSTR",
-    "STRC"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/30/Bitcoin-Crash-Will-Hurt-Americans-Peter-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Rocket Lab Stock Rises As Iridium Deal Sparks Positive Analyst Response",
-   "summary": "Rocket Lab Corp (NASDAQ:RKLB) shares are moving higher Tuesday. Multiple analysts provided updates following the company&#39;s Iridium acquisition announcement.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/06/60196681/rocket-lab-stock-rises-as-iridium-deal-sparks-positive-analyst-response",
-   "created_at": "2026-06-30T17:17:32Z",
-   "symbols": [
-    "RKLB"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/30/Rocket-Lab-Corp.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Why Is Concentrix Stock Falling Tuesday?",
-   "summary": "Concentrix stock drops 15% on cut outlook. Canaccord lowers its PT to $45, but flags a compelling valuation and 50%+ FCF yield.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/analyst-stock-ratings/reiteration/26/06/60196658/why-is-concentrix-stock-falling-tuesday-2",
-   "created_at": "2026-06-30T17:17:11Z",
-   "symbols": [
-    "CNXC"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/30/Konskie--Poland---August-14--2025-Concen.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "AeroVironment's Q4 Blowout Triggers Drone Stock Melt-Up",
-   "summary": "AVAV&#39;s earnings triggers sector-wide rally in drone stocks. Ondas, Unusual Machines, Kratos, Draganfly, Red Cat and AIRO also see gains.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/06/60196369/aerovironments-q4-blowout-triggers-drone-stock-melt-up",
-   "created_at": "2026-06-30T17:10:19Z",
-   "symbols": [
-    "AIRO",
-    "AVAV",
-    "DPRO",
-    "KTOS",
-    "ONDS"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/30/Soldier-Uav-Operator-Launches-Army-Drone.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "12 Consumer Discretionary Stocks Moving In Tuesday's Intraday Session",
-   "summary": "Gainers\n\n707 Cayman Holdings (NASDAQ:JEM) stock increased by 181.9% to $3.04 during Tuesday&#39;s regular session. The market value of their outstanding shares is at $1.9 million. \nHesai Gr (NASDAQ:HS",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/06/60196208/12-consumer-discretionary-stocks-moving-tuesday-s-intraday-session",
-   "created_at": "2026-06-30T17:05:43Z",
-   "symbols": [
-    "AIIO",
-    "AMST",
-    "AZI",
-    "BYAH",
-    "HSAI"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_2.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "12 Health Care Stocks Moving In Tuesday's Intraday Session",
-   "summary": "Gainers\n\nCreative Medical Tech (NASDAQ:CELZ) stock moved upwards by 242.5% to $2.77 during Tuesday&#39;s regular session. The market value of their outstanding shares is at $2.9 million. \nCuprina Hold",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/06/60196206/12-health-care-stocks-moving-tuesday-s-intraday-session",
-   "created_at": "2026-06-30T17:05:43Z",
-   "symbols": [
-    "ABVX",
-    "BGMS",
-    "CCCC",
-    "CELZ",
-    "CUPR"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_2.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "12 Industrials Stocks Moving In Tuesday's Intraday Session",
-   "summary": "Gainers\n\nLucas GC (NASDAQ:LGCL) stock increased by 144.8% to $2.08 during Tuesday&#39;s regular session. The company&#39;s market cap stands at $36.4 million. \nBaiya International Group (NASDAQ:BIYA) ",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/06/60196205/12-industrials-stocks-moving-tuesday-s-intraday-session",
-   "created_at": "2026-06-30T17:05:42Z",
-   "symbols": [
-    "AIRJ",
-    "BIYA",
-    "CNXC",
-    "EHGO",
-    "FCEL"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_1.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "12 Information Technology Stocks Moving In Tuesday's Intraday Session",
-   "summary": "Gainers\n\nGen Digital Inc. - Contingent Value Rights (NASDAQ:GENVR) shares rose 125.0% to $2.88 during Tuesday&#39;s regular session. \nIntrusion (NASDAQ:INTZ) shares moved upwards by 44.86% to $0.99. T",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/06/60196204/12-information-technology-stocks-moving-tuesday-s-intraday-session",
-   "created_at": "2026-06-30T17:05:42Z",
-   "symbols": [
-    "AMBA",
-    "BTCT",
-    "CRCL",
-    "GENVR",
-    "IDAI"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_4.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "What's Going On With Apple Stock Tuesday?",
-   "summary": "Apple stock rebounds 2% as tech rallies. Can $AAPL navigate memory costs and short-term consolidation? Read the latest analysis.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/06/60195702/apple-stock-jumps-2-why-wall-street-insiders-are-urging-investors-to-buy-the-dip-now",
-   "created_at": "2026-06-30T16:52:38Z",
-   "symbols": [
-    "AAPL"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/30/Cupertino--California--September-25--202.jpg?width=1024&height=768"
   }
  ]
 }
