@@ -1,10 +1,10 @@
 {
- "updated": "2026-07-02 04:02",
+ "updated": "2026-07-02 04:31",
  "candidates": [
   {
    "symbol": "NFLX",
    "score": 5,
-   "price": 74.29,
+   "price": 73.96,
    "reasons": [
     "52주고점 대비 -36%",
     "과매도 탈출+MA5 회복"
@@ -13,7 +13,7 @@
   {
    "symbol": "FNGU",
    "score": 4,
-   "price": 27.06,
+   "price": 27.04,
    "reasons": [
     "52주고점 대비 -25%",
     "PER 2(저평가)"
@@ -22,7 +22,7 @@
   {
    "symbol": "C",
    "score": 4,
-   "price": 140.26,
+   "price": 140.1,
    "reasons": [
     "PER 11(저평가)",
     "PBR 1.2",
@@ -32,7 +32,7 @@
   {
    "symbol": "COF",
    "score": 4,
-   "price": 203.74,
+   "price": 205.13,
    "reasons": [
     "PER 8(저평가)",
     "PBR 1.2",
@@ -42,7 +42,7 @@
   {
    "symbol": "TFC",
    "score": 4,
-   "price": 50.67,
+   "price": 50.74,
    "reasons": [
     "PER 10(저평가)",
     "PBR 1.1",
@@ -52,7 +52,7 @@
   {
    "symbol": "PFE",
    "score": 4,
-   "price": 23.84,
+   "price": 23.78,
    "reasons": [
     "RSI 32 과매도",
     "PER 8(저평가)",

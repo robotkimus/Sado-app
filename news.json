@@ -1,6 +1,21 @@
 {
- "updated": "2026-07-02 04:02",
+ "updated": "2026-07-02 04:31",
  "items": [
+  {
+   "headline": "Nvidia, Tesla, Caterpillar: ETFs Most Exposed to Michael Burry's New Shorts",
+   "summary": "Michael Burry&#39;s latest shorts on Nvidia, Caterpillar, Tesla, and Applied Materials put AI, semiconductor, and industrial ETFs under the microscope.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/etfs/sector-etfs/26/07/60229915/nvidia-tesla-caterpillar-etfs-most-exposed-to-michael-burrys-new-shorts",
+   "created_at": "2026-07-01T19:07:54Z",
+   "symbols": [
+    "AMAT",
+    "CAT",
+    "DIA",
+    "DJIA",
+    "MAGS"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/01/Image-Of-Michael-Burry.jpg?width=1024&height=768"
+  },
   {
    "headline": "Meta Compute Could Trigger a 'Butterfly Effect' in AI Infrastructure — and Fuel a Mag 7 Bounce, Trader Says",
    "summary": "Meta Platforms Inc.’s reported AI cloud plans spark a &#34;butterfly effect&#34; sell-off in neocloud stocks like Nebius and CoreWeave while backing the MAGS bounce case.",
@@ -200,15 +215,62 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/07/01/August-21--2019-San-Francisco--Ca--Usa.jpg?width=1024&height=768"
   },
   {
-   "headline": "Meta Stock Rises on Reports the Company Is Building a Cloud Business to Sell Excess AI Compute",
-   "summary": "Meta Platforms shares are trading higher after reports suggest that the company is building a cloud business to sell excess AI compute.",
+   "headline": "Plug Power Stock Edges Lower Despite Milestone Hydrogen Handover in Denmark",
+   "summary": "Plug Power Inc (NASDAQ: PLUG) shares are trading lower Wednesday as traders continue to digest the latest Europe execution update.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60215464/meta-stock-rises-on-reports-the-company-is-building-a-cloud-business-to-sell-excess-ai-compute",
-   "created_at": "2026-07-01T13:22:40Z",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60230622/plug-power-stock-edges-lower-despite-milestone-hydrogen-handover-in-denmark",
+   "created_at": "2026-07-01T19:28:24Z",
    "symbols": [
-    "META"
+    "PLUG"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/01/Ljubljana--Slovenia---21-January-2023-Me.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/01/Stuttgart--Germany---03-17-2024-Mobile-P.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Robinhood Stock Is Rising: What's Happening Behind The Scenes?",
+   "summary": "Robinhood Markets shares are trading higher Wednesday. The company launched public mainnet for Robinhood Chain and is hosting a London event.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60230438/robinhood-stock-is-rising-whats-happening-behind-the-scenes",
+   "created_at": "2026-07-01T19:23:10Z",
+   "symbols": [
+    "HOOD"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/01/Robinhood-Trading-Application-On-Mobile-.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "APAC Private Capital Recovery Gains Momentum as Liquidity Improves",
+   "summary": "Private capital markets across Asia-Pacific continued to recover in the first half of 2026, with improving liquidity driving gains.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/private-markets/26/07/60230327/apac-private-capital-recovery-gains-momentum-as-liquidity-improves",
+   "created_at": "2026-07-01T19:19:37Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/01/Analyst.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "XRP ETFs Record Third Straight Positive Month Despite 18% Price Drop",
+   "summary": "XRP pulls $59.4M in June ETF inflows for a third straight month while testing a year-long trendline with a rare RSI divergence signal.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/07/60230220/xrp-etfs-record-third-straight-positive-month-despite-18-price-drop",
+   "created_at": "2026-07-01T19:16:15Z",
+   "symbols": [
+    "BTCUSD",
+    "ETHUSD",
+    "PURR",
+    "SOLUSD",
+    "XRPUSD"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/01/Heres-What-XRP-Would-Have-Returned.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "SanDisk’s Stock Supercycle Just Got Another Boost: BofA Raises Price Tag to $2,500",
+   "summary": "BofA&#39;s Wamsi Mohan sees SanDisk&#39;s NAND squeeze lasting through 2027, lifting his price target on stronger pricing and demand.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/07/60230022/sandisk-sndk-bofa-price-target-2500-nand-pricing",
+   "created_at": "2026-07-01T19:10:41Z",
+   "symbols": [
+    "MU",
+    "SNDK"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/01/SanDisk.jpg?width=1024&height=768"
   },
   {
    "headline": "Hims & Hers Stock Surges as Analysts Lift Price Targets",
@@ -472,79 +534,6 @@
     "PFE"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/07/01/Eli-Lilly-and-Co.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "12 Communication Services Stocks Moving In Wednesday's Intraday Session",
-   "summary": "Gainers\n\nToken Cat (NASDAQ:TC) shares increased by 193.3% to $5.43 during Wednesday&#39;s regular session. The company&#39;s market cap stands at $48.8 million. \nAmbitions Enterprise Mgmt (NASDAQ:AHMA",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60226029/12-communication-services-stocks-moving-wednesday-s-intraday-session",
-   "created_at": "2026-07-01T17:05:48Z",
-   "symbols": [
-    "AHMA",
-    "CAST",
-    "INTJ",
-    "MI",
-    "ONFO"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_1.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "12 Health Care Stocks Moving In Wednesday's Intraday Session",
-   "summary": "Gainers\n\nCan Fite Biopharma (AMEX:CANF) shares rose 43.8% to $4.27 during Wednesday&#39;s regular session. The company&#39;s market cap stands at $6.3 million. \nRegencell Bioscience (NASDAQ:RGC) stock",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60226028/12-health-care-stocks-moving-wednesday-s-intraday-session",
-   "created_at": "2026-07-01T17:05:48Z",
-   "symbols": [
-    "CANF",
-    "CELGR",
-    "CELZ",
-    "CRIS",
-    "CUPR"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_2.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "12 Industrials Stocks Moving In Wednesday's Intraday Session",
-   "summary": "Gainers\n\nEshallgo (NASDAQ:EHGO) stock rose 70.0% to $2.21 during Wednesday&#39;s regular session. The market value of their outstanding shares is at $2.8 million. \nWhere Food Comes From (NASDAQ:WFCF) ",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60226027/12-industrials-stocks-moving-wednesday-s-intraday-session",
-   "created_at": "2026-07-01T17:05:48Z",
-   "symbols": [
-    "EHGO",
-    "GVH",
-    "INLF",
-    "JLHL",
-    "LICN"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_2.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "12 Information Technology Stocks Moving In Wednesday's Intraday Session",
-   "summary": "Gainers\n\nPicoCELA (NASDAQ:PCLA) shares moved upwards by 32.5% to $6.2 during Wednesday&#39;s regular session. The market value of their outstanding shares is at $44.9 million. \nAMC Robotics (NASDAQ:AM",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60226026/12-information-technology-stocks-moving-wednesday-s-intraday-session",
-   "created_at": "2026-07-01T17:05:48Z",
-   "symbols": [
-    "AMCI",
-    "CHRN",
-    "GENVR",
-    "GLW",
-    "HKIT"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_2.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "EXCLUSIVE: Reddit Is Powering The World's AI Models — And Its Google, OpenAI Deals May Only Be The Start",
-   "summary": "Reddit landed early AI deals from OpenAI and Google. In an exclusive interview with Benzinga, Reddit&#39;s CFO shares why those deals are so important.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/07/60225995/reddit-powering-worlds-ai-models-google-openai-deals-may-be-the-start",
-   "created_at": "2026-07-01T17:05:08Z",
-   "symbols": [
-    "GOOG",
-    "GOOGL",
-    "RDDT"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/01/Reddit-Logo-On-Phone.jpg?width=1024&height=768"
   }
  ]
 }
