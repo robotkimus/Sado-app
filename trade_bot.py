@@ -2041,9 +2041,16 @@ def _has_crypto_opportunity(market, positions):
     - 그 외에는 False → AI 호출을 건너뛰어 비용 절감.
     두 AI는 매수의 마지막 조건으로 '반등 확인'을 요구하므로, 반등 신호 없이
     과매도/taco_zone만으로 부르면 100% 관망으로 끝나 토큰만 낭비됨. 그래서 반등 신호를 필수로 둠."""
-    # 보유 코인이 있으면 무조건 점검 필요(손절·트레일링)
-    if any(is_crypto(p.get("symbol", "")) for p in positions):
-        return True, "보유 코인 점검"
+    # 보유 코인 점검: 코인이 가장 활발한 시간은 미국 정규장이므로, 휴장·밤에는
+    # '급변(±5%↑)했을 때만' AI를 부른다. 손절(-7%)·트레일링은 track_runners가
+    # 코드로 24시간 자동 처리하므로 AI 없이도 방어는 유지된다. (비용 절감 핵심)
+    for p in positions:
+        if not is_crypto(p.get("symbol", "")):
+            continue
+        m = next((x for x in market if x.get("symbol") == p.get("symbol")), None)
+        chg = (m or {}).get("chg_1d_pct")
+        if chg is not None and abs(chg) >= 5:
+            return True, f"보유 코인 급변({chg:+.1f}%) 점검"
 
     for m in market:
         if not is_crypto(m.get("symbol", "")):
@@ -2299,6 +2306,16 @@ def main():
     if not STOCK_TRADABLE:
         has_opp, why = _has_crypto_opportunity(market, positions)
         if not has_opp:
+            # AI는 건너뛰지만, 자동 매도(손절·트레일링)는 코드로 계속 지킨다.
+            # 휴장엔 주식 주문이 안 나가니 코인(24시간 거래) 것만 실행됨.
+            crypto_auto = [ts for ts in (auto_sells or [])
+                           if is_crypto(ts.get("symbol", ""))]
+            skip_results = []
+            if crypto_auto:
+                log(f"🛡️ 휴장 중 코인 자동 매도 {len(crypto_auto)}건 실행 (AI 없이 코드로)")
+                skip_results = execute(crypto_auto, account, positions, market, regime, False)
+                for r in skip_results:
+                    log(f"  {r}")
             log("💤 코인 신호 없음 — AI 호출 건너뜀(비용 절감). 관망 기록만 저장.")
             now_str = datetime.datetime.now(
                 datetime.timezone(datetime.timedelta(hours=9))).strftime("%Y-%m-%d %H:%M")
@@ -2312,7 +2329,7 @@ def main():
                 "market_view": f"[{_SESSION_KR.get(MARKET_SESSION, MARKET_SESSION)}] "
                                "미국 주식 거래 시간이 아니고 코인도 살 만한 신호가 없어 관망. "
                                "(AI 판단 생략 — 비용 절감)",
-                "trades": [],
+                "trades": skip_results,
             }
             try:
                 with open("bot_status.json", "w", encoding="utf-8") as f:
