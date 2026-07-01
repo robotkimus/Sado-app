@@ -1,6 +1,50 @@
 {
- "updated": "2026-07-01 14:01",
+ "updated": "2026-07-01 15:01",
  "items": [
+  {
+   "headline": "'Big Short' Investor Michael Burry Reveals Tesla, Nvidia Shorts, Says Chip Boom Is 'Beginning of the End'",
+   "summary": "Michael Burry is shorting Tesla, Nvidia, and others including Caterpillar and Applied Materials amid bearish outlook on Semiconductors.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/07/60207524/big-short-investor-michael-burry-reveals-tesla-nvidia-shorts-says-chip-boom-is-beginning-of-the-end",
+   "created_at": "2026-07-01T05:38:38Z",
+   "symbols": [
+    "AMAT",
+    "CAT",
+    "NVDA",
+    "PLTR",
+    "SOXX"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/01/Elon-Musk--The-Ceo-Of-Tesla--Spacex--Pay.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Dan Ives Says SpaceX Looks Expensive, But Elon Musk-Led SPCX Could Become 'One of the Best AI Plays'",
+   "summary": "Wedbush&#39;s Dan Ives believes SpaceX could become a major AI infrastructure company and values it using a sum of the parts approach.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/space/26/07/60207512/dan-ives-says-spacex-looks-expensive-but-elon-musk-led-spcx-could-become-one-of-the-best-ai-plays",
+   "created_at": "2026-07-01T05:36:29Z",
+   "symbols": [
+    "GOOG",
+    "GOOGL",
+    "MSFT",
+    "ORCL",
+    "PLTR"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/01/Spacex-Logo-On-A-Mobile-Phone-Screen-Wit.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Anthropic Says 'We're Grateful' as Trump Administration Lifts Export Controls on Claude Fable 5 and Mythos 5 After AI Security Standoff",
+   "summary": "Anthropic resumed the global rollout of Claude Fable 5 and Mythos 5 after the Trump administration lifted export controls.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/07/60207443/anthropic-says-were-grateful-as-trump-administration-lifts-export-controls-on-claude-fable-5-and-mythos-5",
+   "created_at": "2026-07-01T05:29:07Z",
+   "symbols": [
+    "AMZN",
+    "GOOG",
+    "GOOGL",
+    "MSFT"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/01/Anthropic-Logo-Is-Displayed-On-The-Scree.jpg?width=1024&height=768"
+  },
   {
    "headline": "Microsoft to Announce Fresh Layoffs Impacting Thousands as AI Investment Surge Reshapes Workforce: Report",
    "summary": "Microsoft is reportedly planning to cut thousands of jobs across its sales, consulting and Xbox divisions as it ramps up AI investments.",
@@ -171,44 +215,38 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/06/30/Toronto--On--Canada--August-1--2024-View.jpg?width=1024&height=768"
   },
   {
-   "headline": "Forget Nvidia: Kerrisdale Says This Under-The-Radar AI Stock Could Rally 100% Or More",
-   "summary": "Kerrisdale Capital says Regal Rexnord is an overlooked AI infrastructure stock with growing exposure to data centers and robotics, and sees more than 100% upside.",
+   "headline": "INLIF Stock Falls After Hours After Company Announces 1-for-200 Share Combination: Here Is What Is Going On",
+   "summary": "INLIF stock drops after hours after announcing a 1-for-200 reverse stock split to maintain Nasdaq compliance.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/06/60190231/forget-nvidia-kerrisdale-says-this-under-the-radar-ai-stock-could-rally-100-or-more",
-   "created_at": "2026-06-30T14:50:39Z",
+   "url": "https://www.benzinga.com/markets/equities/26/07/60207433/inlif-stock-falls-after-hours-after-company-announces-1-for-200-reverse-stock-split",
+   "created_at": "2026-07-01T05:27:09Z",
    "symbols": [
-    "AVGO",
-    "MU",
-    "NVDA",
-    "RRX"
+    "INLF"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/30/AI--artificial-intelligence.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/01/Stock-Market-Crash-Background-With-Falli.jpg?width=1024&height=768"
   },
   {
-   "headline": "Stock Of The Day: Is This The Top For Applied Materials?",
-   "summary": "Applied Materials (AMAT) shares are the most overbought that they have ever been. There is a good chance a reversal occurs.",
+   "headline": "FCC Tightens Screws On Huawei, ZTE And Other Chinese Telecom Giants With Broader Equipment Ban Set To Take Effect In July (UPDATED)",
+   "summary": "The U.S. Federal Communications Commission expanded its restrictions on Chinese telecom and surveillance equipment to include older models.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/technicals/26/06/60189863/stock-of-the-day-is-this-the-top-for-applied-materials",
-   "created_at": "2026-06-30T14:44:01Z",
-   "symbols": [
-    "AMAT"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/30/Santa-Clara--California---April-26--2018.jpg?width=1024&height=768"
+   "url": "https://www.benzinga.com/markets/asia/26/06/60144341/fcc-tightens-screws-on-huawei-zte-and-other-chinese-telecom-giants-with-broader-equipment-ban-set-to-take-effect-in-july",
+   "created_at": "2026-06-27T02:18:12Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/01/April-29--2025-In-Shanghai-China-huawei-.jpg?width=1024&height=768"
   },
   {
-   "headline": "Nvidia Isn't The Expensive AI Stock Anymore—AMD, Palantir And ARM Are",
-   "summary": "Nvidia now trades at a lower earnings multiple than AMD, Palantir and Arm, raising questions about how Wall Street is pricing the next phase of the AI boom.",
+   "headline": "Gita Gopinath Says Stablecoins Held in 'Most Anonymous Form' — Warns Crypto Law Will Only Have 'Modest Effect' in Preventing Unlawful Activity",
+   "summary": "Economist Gita Gopinath said on Tuesday, June 30, that cryptocurrency legislation, including the GENIUS Act, will have limited success reducing illicit finance due to the large number of anonymous sta",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/06/60188138/nvidia-isnt-the-expensive-ai-stock-anymore-amd-palantir-and-arm-are",
-   "created_at": "2026-06-30T14:10:58Z",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/07/60207387/gita-gopinath-says-stablecoins-can-be-held-anonymously-warns-crypto-law-will-have-only-modest-impact-on-illicit-activity",
+   "created_at": "2026-07-01T05:01:51Z",
    "symbols": [
-    "AAPL",
-    "AMD",
-    "ARM",
-    "AVGO",
-    "GOOG"
+    "BNBUSD",
+    "COIN",
+    "USDCUSD",
+    "USDTUSD"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/30/Bahia--Brazil---August-29--2025-Nvidia-L.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/01/Top-Five-Cryptocurrency-Stablecoin-Token.jpg?width=1024&height=768"
   },
   {
    "headline": "Micron Joins Dell, SoFi and JPMorgan in Backing Trump Accounts Ahead of the Program's July 4 Nationwide Rollout",
@@ -444,50 +482,6 @@
    "created_at": "2026-06-30T22:30:46Z",
    "symbols": [
     "VST"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_3.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "$1000 Invested In AST SpaceMobile 5 Years Ago Would Be Worth This Much Today",
-   "summary": "AST SpaceMobile (NASDAQ:ASTS) has outperformed the market over the past 5 years by 34.19% on an annualized basis producing an average annual return of 45.71%. Currently, AST SpaceMobile has a market c",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/06/60205975/1000-invested-ast-spacemobile-5-years-ago-would-be-worth-much-today",
-   "created_at": "2026-06-30T22:15:42Z",
-   "symbols": [
-    "ASTS"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_3.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Papa John's Stock Slips On CFO Surprise Exit",
-   "summary": "Papa John&#39;s CFO Ravi Thanawala steps down, PZZA shares slip in after-hours trading.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/06/60205963/papa-johns-stock-slips-on-cfo-surprise-exit",
-   "created_at": "2026-06-30T22:13:03Z",
-   "symbols": [
-    "PZZA"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/06/30/A-Papa-Johns-Logo-Sign-Outside-A-Restaur.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Nike Q4 2026 Earnings Call: Complete Transcript",
-   "summary": "On Tuesday, Nike (NYSE:NKE) discussed fourth-quarter financial results during its earnings call. The full transcript is provided below.\nBenzinga APIs provide real-time access to earnings call transcri",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/06/60205949/nike-q4-2026-earnings-call-complete-transcript",
-   "created_at": "2026-06-30T22:09:16Z",
-   "symbols": [
-    "NKE"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_1.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "$1000 Invested In Home Depot 15 Years Ago Would Be Worth This Much Today",
-   "summary": "Home Depot (NYSE:HD) has outperformed the market over the past 15 years by 4.17% on an annualized basis producing an average annual return of 16.31%. Currently, Home Depot has a market capitalization ",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/06/60205871/1000-invested-home-depot-15-years-ago-would-be-worth-much-today",
-   "created_at": "2026-06-30T22:01:17Z",
-   "symbols": [
-    "HD"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_3.jpg?width=1024&height=768"
   }
