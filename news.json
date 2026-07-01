@@ -1,6 +1,21 @@
 {
- "updated": "2026-07-02 04:31",
+ "updated": "2026-07-02 05:01",
  "items": [
+  {
+   "headline": "Sony Ends Physical Discs For Games By 2028, Why GameStop Needs eBay Or Another Growth Plan",
+   "summary": "A change made by Sony and the PlayStation gaming segment could be more reason for GameStop to acquire eBay.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/gaming/26/07/60231279/sony-playstation-physical-discs-video-games-gamestop-ebay",
+   "created_at": "2026-07-01T19:44:14Z",
+   "symbols": [
+    "EBAY",
+    "GME",
+    "MSFT",
+    "SONY",
+    "TTWO"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/01/Riga--Latvia---November-23-2020-Sony-Pla.jpg?width=1024&height=768"
+  },
   {
    "headline": "Nvidia, Tesla, Caterpillar: ETFs Most Exposed to Michael Burry's New Shorts",
    "summary": "Michael Burry&#39;s latest shorts on Nvidia, Caterpillar, Tesla, and Applied Materials put AI, semiconductor, and industrial ETFs under the microscope.",
@@ -203,16 +218,28 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/07/01/Strategy-Inc.jpg?width=1024&height=768"
   },
   {
-   "headline": "Amazon's AWS Bets $1 Billion on New AI Engineering Unit Built Around a Strategy Palantir Pioneered More Than a Decade Ago",
-   "summary": "AWS unveils a $1 billion AI engineering unit to help customers deploy AI systems with thousands of Forward Deployed Engineers.",
+   "headline": "AI Boom Needs More Memory: KMEM ETF Aims to Cash in on the Bottleneck",
+   "summary": "Kurv launches the KMEM ETF, a fund targeting AI memory chip leaders, including SK hynix, Samsung, and Micron, as supply shortages persist.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/07/60215633/amazons-aws-bets-1-billion-on-new-ai-engineering-unit-built-around-a-strategy-palantir-pioneered-more-than-a-decade-ago",
-   "created_at": "2026-07-01T13:29:46Z",
+   "url": "https://www.benzinga.com/etfs/new-etfs/26/07/60231730/ai-boom-memory-kmem-etf-bottleneck",
+   "created_at": "2026-07-01T19:56:47Z",
    "symbols": [
-    "AMZN",
-    "PLTR"
+    "DISK",
+    "KMEM",
+    "MU"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/01/August-21--2019-San-Francisco--Ca--Usa.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/01/Los-Angeles--California---24-January-202.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Walmart Shares Slip Amid Sales Slowdown Concerns",
+   "summary": "Walmart shares are under pressure Wednesday as traders circulate a note suggesting domestic comparable sales growth may have lost some steam.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60231049/walmart-shares-slip-amid-sales-slowdown-concerns",
+   "created_at": "2026-07-01T19:38:01Z",
+   "symbols": [
+    "WMT"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/01/Walmart-Inc.jpg?width=1024&height=768"
   },
   {
    "headline": "Plug Power Stock Edges Lower Despite Milestone Hydrogen Handover in Denmark",
@@ -511,29 +538,6 @@
     "DOW"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/07/01/Kiev--Ukraine--May-3--2021--In-This-Phot.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Kratos Stock Surges as Analyst Frames Company as 'Misunderstood' Supplier to Entire US Defense Complex",
-   "summary": "Kratos Defense &amp; Security Solutions Inc (NASDAQ:KTOS) shares are flying Wednesday after Wedbush Securities began coverage with an Outperform rating and an $85 price target. Here&#39;s what you sho",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60226248/kratos-stock-surges-as-analyst-frames-company-as-misunderstood-supplier-to-entire-us-defense-complex",
-   "created_at": "2026-07-01T17:09:20Z",
-   "symbols": [
-    "KTOS"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/01/Kratos-Defense-And-Security-Solutions-Si.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Innovent, Eli Lilly Partner to Commercialize Breast Cancer Drug in China",
-   "summary": "Innovent and Eli Lilly sign a China commercialization deal for Verzenios, expanding patient access while Lilly retains manufacturing.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/health-care/26/07/60226245/innovent-eli-lilly-partner-to-commercialize-breast-cancer-drug-in-china",
-   "created_at": "2026-07-01T17:09:18Z",
-   "symbols": [
-    "LLY",
-    "PFE"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/01/Eli-Lilly-and-Co.jpg?width=1024&height=768"
   }
  ]
 }
