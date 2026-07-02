@@ -1,84 +1,80 @@
 {
- "updated": "2026-07-03 00:02",
+ "updated": "2026-07-03 01:01",
  "candidates": [
   {
-   "symbol": "T",
+   "symbol": "CERT",
    "score": 7,
-   "price": 20.53,
+   "price": 6.98,
+   "reasons": [
+    "52주고점 대비 -31%",
+    "PBR 1.1",
+    "그레이엄 기준 충족",
+    "시총 $1.1B(소형)"
+   ]
+  },
+  {
+   "symbol": "PATH",
+   "score": 6,
+   "price": 11.54,
+   "reasons": [
+    "52주고점 대비 -40%",
+    "PER 13(저평가)",
+    "시총 $6.0B(소형)"
+   ]
+  },
+  {
+   "symbol": "UPST",
+   "score": 6,
+   "price": 35.31,
+   "reasons": [
+    "52주고점 대비 -30%",
+    "PER 10(저평가)",
+    "시총 $3.4B(소형)"
+   ]
+  },
+  {
+   "symbol": "IONQ",
+   "score": 4,
+   "price": 49.78,
+   "reasons": [
+    "52주고점 대비 -31%",
+    "시총 $18.6B(소형)"
+   ]
+  },
+  {
+   "symbol": "RGTI",
+   "score": 4,
+   "price": 17.95,
+   "reasons": [
+    "52주고점 대비 -43%",
+    "시총 $6.0B(소형)"
+   ]
+  },
+  {
+   "symbol": "QBTS",
+   "score": 4,
+   "price": 22.73,
    "reasons": [
     "52주고점 대비 -29%",
-    "RSI 28 과매도",
-    "PER 8(저평가)",
-    "PBR 1.3",
-    "그레이엄 기준 충족"
+    "시총 $8.4B(소형)"
    ]
   },
   {
-   "symbol": "CMCSA",
-   "score": 6,
-   "price": 23.44,
-   "reasons": [
-    "52주고점 대비 -28%",
-    "PER 6(저평가)",
-    "PBR 0.9",
-    "그레이엄 기준 충족"
-   ]
-  },
-  {
-   "symbol": "VZ",
+   "symbol": "OKLO",
    "score": 4,
-   "price": 41.97,
+   "price": 52.24,
    "reasons": [
-    "RSI 31 과매도",
-    "PER 8(저평가)",
-    "그레이엄 기준 충족"
+    "52주고점 대비 -53%",
+    "시총 $9.1B(소형)"
    ]
   },
   {
-   "symbol": "F",
+   "symbol": "SMR",
    "score": 4,
-   "price": 13.4,
+   "price": 9.94,
    "reasons": [
-    "PER 7(저평가)",
-    "PBR 1.4",
-    "그레이엄 기준 충족"
-   ]
-  },
-  {
-   "symbol": "GM",
-   "score": 4,
-   "price": 74.89,
-   "reasons": [
-    "PER 5(저평가)",
-    "PBR 1.1",
-    "그레이엄 기준 충족"
-   ]
-  },
-  {
-   "symbol": "LUNR",
-   "score": 4,
-   "price": 20.27,
-   "reasons": [
-    "52주고점 대비 -56%",
-    "시총 $3.2B(소형)"
-   ]
-  },
-  {
-   "symbol": "RDW",
-   "score": 4,
-   "price": 11.81,
-   "reasons": [
-    "52주고점 대비 -54%",
-    "시총 $2.3B(소형)"
-   ]
-  },
-  {
-   "symbol": "PL",
-   "score": 4,
-   "price": 31.5,
-   "reasons": [
-    "52주고점 대비 -39%",
-    "시총 $11.2B(소형)"
+    "52주고점 대비 -63%",
+    "시총 $3.4B(소형)"
    ]
   }
  ]
