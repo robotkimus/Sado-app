@@ -1,6 +1,32 @@
 {
- "updated": "2026-07-03 01:02",
+ "updated": "2026-07-03 02:02",
  "items": [
+  {
+   "headline": "Dow Jones Hits Record High as Chip Bloodbath Sinks Nasdaq 100: Stock Market Today",
+   "summary": "The Dow hit a record after a weak June jobs report eased Fed rate-hike fears, but a sharp semiconductor rout dragged the Nasdaq 100 lower Thursday.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/market-summary/26/07/60252913/dow-jones-record-highs-nasdaq-100-sinks-chipmakers-selloff",
+   "created_at": "2026-07-02T16:56:22Z",
+   "symbols": [
+    "AAOI",
+    "AUGO",
+    "AVAV",
+    "BTCUSD",
+    "DIA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/02/NYSE-and-Wall-St.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Meta’s Potential AI Cloud Business Could Drive Higher Capex to Build Out Infrastructure, BofA Says",
+   "summary": "BofA Securities maintains a Buy rating on Meta Platforms Inc (NYSE: META) following reports of its planned cloud infrastructure business.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/reiteration/26/07/60251984/metas-potential-ai-cloud-business-could-drive-higher-capex-to-build-out-infrastructure-bofa-says",
+   "created_at": "2026-07-02T16:31:33Z",
+   "symbols": [
+    "META"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/02/Meta-Faces-Child-Safety-Case.jpg?width=1024&height=768"
+  },
   {
    "headline": "EXCLUSIVE: Top 12 Most-Searched Tickers in June on Benzinga Pro — SpaceX, Marvell Join List, Micron Stays On Top",
    "summary": "A look at the most searched tickers on Benzinga Pro for the month of June 2026, with new IPO SpaceX making the list in its first month.",
@@ -15,20 +41,6 @@
     "MRVL"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/07/02/Konskie--Poland---November-21--2024-Micr.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "What's Going on With AMD Stock Thursday?",
-   "summary": "AMD slips to $541.58, but a strong bullish trend remains. Get Jim Cramer&#39;s latest stance and the crucial technical levels to watch.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/07/60246316/whats-going-on-with-amd-stock-thursday-7",
-   "created_at": "2026-07-02T14:18:13Z",
-   "symbols": [
-    "AMD",
-    "ARKW",
-    "IVES",
-    "SOXX"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/02/Tech-CEOs-Briefed-On-Taiwan.jpg?width=1024&height=768"
   },
   {
    "headline": "From Nvidia's 'Godfather of AI' to Palantir's 'Messi of AI': Dan Ives' Stock Calls That Defined a Bull Market",
@@ -94,18 +106,17 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/07/02/Antalya--Turkey--June-4--2024-Whatsapp-M.jpg?width=1024&height=768"
   },
   {
-   "headline": "What Is Going On With Intel Stock On Thursday?",
-   "summary": "Intel (NASDAQ: INTC) stock rebounded over 2% premarket following a sharp correction, while investors digest reports of OpenAI exploring a historic 5% equity stake with the U.S. government.",
+   "headline": "Nvidia Is Making it Easier for AI Startups to Get Compute Power With a New Cloud and Revenue-Sharing Program",
+   "summary": "Nvidia launched a revenue-sharing AI infrastructure program to help startups access advanced GPU computing resources.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/07/60243854/what-is-going-on-with-intel-stock-on-thursday",
-   "created_at": "2026-07-02T13:31:06Z",
+   "url": "https://www.benzinga.com/markets/tech/26/07/60242874/nvidia-is-making-it-easier-for-ai-startups-to-get-compute-power-with-a-new-cloud-and-revenue-sharing-program",
+   "created_at": "2026-07-02T12:55:31Z",
    "symbols": [
-    "INTC",
-    "SOXX",
-    "TRFK",
-    "VLUE"
+    "GLW",
+    "IREN",
+    "NVDA"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/02/Intel-Corp.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/02/Bahia--Brazil---August-29--2025-Nvidia-L.jpg?width=1024&height=768"
   },
   {
    "headline": "Stock Market Today: Dow Jones, S&P 500 Futures Gain Despite Weak June Jobs Data — CoreWeave, Nebius, Micron, Franklin Covey In Focus (UPDATED)",
@@ -162,6 +173,18 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/07/02/CoreWeave-New-York-City--New-York---July.jpg?width=1024&height=768"
   },
   {
+   "headline": "Why Is Palantir Technologies Stock Surging Thursday?",
+   "summary": "Palantir stock jumps premarket as DA Davidson upgrades PLTR to Buy with a new $175 price forecast. Read the full market details.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60241011/why-is-palantir-technologies-stock-surging-thursday",
+   "created_at": "2026-07-02T11:48:13Z",
+   "symbols": [
+    "NVDA",
+    "PLTR"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/02/Palantir-Logo-At-Palo-Alto-Office.jpg?width=1024&height=768"
+  },
+  {
    "headline": "Amazon To Rally Over 29%? Here Are 10 Top Analyst Forecasts For Thursday",
    "summary": "Wall Street analysts updated ratings and price targets for top companies, including Robinhood, Westlake, Genmab, Levi Strauss, Generac, General Mills, and Amazon.",
    "source": "benzinga",
@@ -177,34 +200,200 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/07/02/USPS-Revenue-Reliant-on-Amazon.jpg?width=1024&height=768"
   },
   {
-   "headline": "Alphabet, Unum Group, JM Smucker And More: CNBC’s ‘Final Trades’",
-   "summary": "Unum Group gained 2.2% to close at $91.40 on Wednesday, while Alphabet shares gained 1.1% to close at $361.21 on Wednesday.",
+   "headline": "What's Going on With Super Micro Computer Stock Thursday?",
+   "summary": "Super Micro (SMCI) remains in a long-term downtrend, trading below key SMAs. Discover the critical support and resistance levels.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/07/60240485/alphabet-unum-group-jm-smucker-and-more-cnbcs-final-trades",
-   "created_at": "2026-07-02T11:31:37Z",
+   "url": "https://www.benzinga.com/markets/tech/26/07/60252661/whats-going-on-with-super-micro-computer-stock-thursday-3",
+   "created_at": "2026-07-02T16:48:42Z",
    "symbols": [
-    "GOOG",
-    "GOOGL",
-    "IGV",
-    "SJM",
-    "UNM"
+    "SMCI"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/02/Smartphone-Shows-Alphabet-Text-In-Front-.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/02/Supermicro-Computer-Logo-On-Smartphone-S.jpg?width=1024&height=768"
   },
   {
-   "headline": "Meta Could Crash the Neocloud Party, Analyst Says",
-   "summary": "Meta shares stabilize after a 9% surge as Evercore ISI&#39;s Mark Mahaney highlights Meta&#39;s massive, underappreciated AI potential.",
+   "headline": "Here’s How Much You Would Have Made Owning Texas Instruments Stock In The Last 15 Years",
+   "summary": "Texas Instruments (NASDAQ:TXN) has outperformed the market over the past 15 years by 3.6% on an annualized basis producing an average annual return of 15.68%. Currently, Texas Instruments has a market",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/07/60240335/meta-could-crash-the-neocloud-party-analyst-says",
-   "created_at": "2026-07-02T11:20:22Z",
+   "url": "https://www.benzinga.com/news/26/07/60252571/here-s-how-much-you-would-have-made-owning-texas-instruments-stock-last-15-years",
+   "created_at": "2026-07-02T16:45:48Z",
    "symbols": [
-    "AMZN",
-    "CRWV",
-    "META",
-    "MSFT",
-    "NBIS"
+    "TXN"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/02/High-tech-Bright-Data-Center-With-Comput.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_3.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Applied Optoelectronics Stock Plummets 15% Thursday as Investors Rotate Out of Unprofitable Tech",
+   "summary": "Applied Optoelectronics Inc (NASDAQ:AAOI) shares are trading sharply lower Thursday afternoon as high-beta tech winners cool off during a risk-off stretch for growth names.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60252482/applied-optoelectronics-stock-plummets-15-thursday-as-investors-rotate-out-of-unprofitable-tech",
+   "created_at": "2026-07-02T16:43:20Z",
+   "symbols": [
+    "AAOI"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/02/Ostrava--Czechia---August-25--2024-Websi.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Why Trump Accounts Picked IVV, VTI and SPYM: The ETF Strategy Behind America's New Child Investment Plan",
+   "summary": "Trump Accounts select BlackRock, Vanguard, and State Street ETFs for a $1,000 child investment program. Here&#39;s why.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/etfs/specialty-etfs/26/07/60252385/trump-accounts-ivv-vti-spym-new-child-investment-plan",
+   "created_at": "2026-07-02T16:40:36Z",
+   "symbols": [
+    "ITOT",
+    "IVV",
+    "SPTM",
+    "SPYM",
+    "VTI"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/02/Businessman-In-Suit-Is-Holding-Piggy-Ban.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Is This the Bitcoin Bottom at $61,000? Wait Until October for Confirmation, Cantor Fitzgerald Writes",
+   "summary": "Analysts at Cantor Fitzgerald believe Bitcoin is likely in the final stage of its current bear market.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/07/60252106/is-this-the-bitcoin-bottom-at-61000-wait-until-october-for-confirmation-cantor-fitzgerald-writes",
+   "created_at": "2026-07-02T16:35:29Z",
+   "symbols": [
+    "BTCUSD",
+    "ETHUSD",
+    "HYPEUSD",
+    "PURR",
+    "SOLUSD"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/02/Los-Angeles--California---July-10-2025-B.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "What's Going on With Apple Stock Thursday?",
+   "summary": "Apple stock beats the tech slump, rising 4%. BofA keeps a $380 price target on AI potential and App Store growth. Get the full analysis.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/reiteration/26/07/60252036/whats-going-on-with-apple-stock-thursday",
+   "created_at": "2026-07-02T16:33:36Z",
+   "symbols": [
+    "AAPL"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/02/Beijing--China---July-21--2023-Apple-Log.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "$100 Invested In Datadog 5 Years Ago Would Be Worth This Much Today",
+   "summary": "Datadog (NASDAQ:DDOG) has outperformed the market over the past 5 years by 7.57% on an annualized basis producing an average annual return of 19.01%. Currently, Datadog has a market capitalization of ",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/07/60251948/100-invested-datadog-5-years-ago-would-be-worth-much-today",
+   "created_at": "2026-07-02T16:30:48Z",
+   "symbols": [
+    "DDOG"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_3.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Infleqtion Stock Rises as Canaccord Sees 70% Upside",
+   "summary": "Infleqtion stock gains as Canaccord and Wedbush highlight quantum upside, policy support and its full-stack technology platform.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/07/60251806/infleqtion-stock-rises-as-canaccord-sees-70-upside",
+   "created_at": "2026-07-02T16:26:16Z",
+   "symbols": [
+    "INFQ"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/02/quantum-compute-two.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "MSC Industrial Analysts Boost Their Forecasts After Upbeat Q3 Results",
+   "summary": "MSC Industrial Direct (NYSE:MSM) reported strong Q3 results with earnings of $1.43 per share and revenue of $1.047 billion. Analysts raised price targets.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/07/60251721/msc-industrial-analysts-boost-their-forecasts-after-upbeat-q3-results",
+   "created_at": "2026-07-02T16:23:58Z",
+   "symbols": [
+    "MSM"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/02/Two-Diverse-Crypto-Traders-Brokers-Stock.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Lucid Shares Sink After CFO Change Despite Higher Vehicle Deliveries",
+   "summary": "Lucid shares decline despite reporting higher Q2 production and deliveries, as investors focused on the company&#39;s CFO change.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60251695/lucid-shares-sink-after-cfo-change-despite-higher-vehicle-deliveries",
+   "created_at": "2026-07-02T16:23:22Z",
+   "symbols": [
+    "HAIL",
+    "LCDL",
+    "LCID",
+    "LI",
+    "NIO"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/02/Denver--Co---May-15-2024-A-Lucid-Motors-.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "These Analysts Revise Their Forecasts On FactSet Research After Q3 Results",
+   "summary": "FactSet Research (NYSE:FDS) beats earnings and revenue estimates, maintains guidance. Analysts have mixed views on buying FDS stock.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/07/60251526/these-analysts-revise-their-forecasts-on-factset-research-after-q3-results",
+   "created_at": "2026-07-02T16:18:31Z",
+   "symbols": [
+    "FDS"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/02/Konskie--Poland---January-31--2024-Facts.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "If You Invested $100 In Analog Devices Stock 20 Years Ago, You Would Have This Much Today",
+   "summary": "Analog Devices (NASDAQ:ADI) has outperformed the market over the past 20 years by 8.01% on an annualized basis producing an average annual return of 17.24%. Currently, Analog Devices has a market capi",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/07/60251418/if-you-invested-100-analog-devices-stock-20-years-ago-you-would-have-much-today",
+   "created_at": "2026-07-02T16:15:42Z",
+   "symbols": [
+    "ADI"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_1.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Crude Oil Down Over 1%; US Initial Jobless Claims Fall",
+   "summary": " U.S. stocks traded higher on Thursday, with the Dow up 0.72%, NASDAQ down 0.90%, and S&amp;P 500 down 0.22%. Health care shares jumped 2.2%.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/market-summary/26/07/60251250/crude-oil-down-over-1-us-initial-jobless-claims-fall",
+   "created_at": "2026-07-02T16:11:39Z",
+   "symbols": [
+    "AIP",
+    "CWD",
+    "DXF",
+    "LHAI",
+    "RIVN"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/02/Brent-Crude-Oil-Price-Moving-Up.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Rivian Raises 2026 Delivery Outlook, Stock Jumps",
+   "summary": "Rivian ($RIVN) stock jumps 10%+ after beating Q2 delivery goals and raising its full-year 2026 delivery guidance.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/large-cap/26/07/60251006/rivian-raises-2026-delivery-outlook-stock-jumps",
+   "created_at": "2026-07-02T16:05:35Z",
+   "symbols": [
+    "LI",
+    "NIO",
+    "RIVN",
+    "TSLA",
+    "XPEV"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/02/Rivian-R1T-Electric-Pickup-Truck.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "FuelCell Energy Stock Is Sliding Thursday: What's Driving the Move?",
+   "summary": "FuelCell Energy shares are diving on Thursday as traders take profits after a sharp run tied to recent data-center and financing headlines.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60250960/fuelcell-energy-stock-is-sliding-thursday-whats-driving-the-move",
+   "created_at": "2026-07-02T16:03:57Z",
+   "symbols": [
+    "FCEL"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/02/FuelCell-Energy.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Here's How Much $100 Invested In Celsius Holdings 10 Years Ago Would Be Worth Today",
+   "summary": "Celsius Holdings (NASDAQ:CELH) has outperformed the market over the past 10 years by 33.16% on an annualized basis producing an average annual return of 46.69%. Currently, Celsius Holdings has a marke",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/07/60250828/here-s-how-much-100-invested-celsius-holdings-10-years-ago-would-be-worth-today",
+   "created_at": "2026-07-02T16:00:33Z",
+   "symbols": [
+    "CELH"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_1.jpg?width=1024&height=768"
   },
   {
    "headline": "General Mills Beats, But 'Less Bad' Outlook Leaves Analyst Unimpressed",
@@ -303,200 +492,6 @@
     "RDDT"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/07/02/Reddit-Inc.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Boeing Stock Surges On Thursday: Here's Why",
-   "summary": "Boeing stock rallies as traders weighed the MQ-28 Ghost Bat’s integration in Exercise Valiant Shield 2026 alongside upcoming earnings.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60249519/boeing-stock-surges-on-thursday-heres-why",
-   "created_at": "2026-07-02T15:27:04Z",
-   "symbols": [
-    "BA"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/02/Irving--Texas--Usa---March-20--2022-Clos.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "AT&T Waives $10.3M Charges In Revised SurgePays Deal",
-   "summary": "AT&amp;T modified its wholesale partnership with SurgePays, cutting minimum-spend requirements, improving pricing, and eliminating $10.3 million in charges.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/large-cap/26/07/60249194/att-waives-10-3m-charges-in-revised-surgepays-deal",
-   "created_at": "2026-07-02T15:19:19Z",
-   "symbols": [
-    "FCOM",
-    "RDIV",
-    "SURG",
-    "T",
-    "XLC"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/02/ATT-Photo-by-Jason-Taylor-AG-via-Shutter.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Kratos Rallies as Air Defense Demand Drives Fresh Contract Win",
-   "summary": "Kratos stock rises after a $36M air defense missile contract, with demand improving and analysts expecting higher earnings and revenue.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60249056/kratos-rallies-as-air-defense-demand-drives-fresh-contract-win",
-   "created_at": "2026-07-02T15:16:51Z",
-   "symbols": [
-    "ARKQ",
-    "KOMP",
-    "KTOS",
-    "XAR"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/02/Kratos-Defense-And-Security-Solutions-Si.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "$100 Invested In United Airlines Holdings 5 Years Ago Would Be Worth This Much Today",
-   "summary": "United Airlines Holdings (NASDAQ:UAL) has outperformed the market over the past 5 years by 9.72% on an annualized basis producing an average annual return of 21.26%. Currently, United Airlines Holding",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/07/60248999/100-invested-united-airlines-holdings-5-years-ago-would-be-worth-much-today",
-   "created_at": "2026-07-02T15:15:44Z",
-   "symbols": [
-    "UAL"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_3.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "America’s 250th Birthday Just Set a Silver World Record — Literally",
-   "summary": "A Texas company set a Guinness World Record with a 2,500-ounce silver coin honoring America&#39;s 250th anniversary, putting the spotlight back on silver.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/commodities/26/07/60248943/americas-250th-birthday-just-set-a-silver-world-record-literally",
-   "created_at": "2026-07-02T15:14:31Z",
-   "symbols": [
-    "AG",
-    "PAAS",
-    "SIL",
-    "SIVR",
-    "SLV"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/02/Texas-Precious-Metal-Guinness-World-Reco.png?width=1024&height=768"
-  },
-  {
-   "headline": "SpaceX Stock's Upcoming Catalyst",
-   "summary": "SpaceX (SPCX) just pulled off the biggest stock market debut in history. On June 12, 2026, the rocket and satellite company priced its IPO at $135 a share, opened at $150, and closed its first day up ",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/Opinion/26/07/60248904/spacex-stocks-upcoming-catalyst",
-   "created_at": "2026-07-02T15:13:42Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/02/Hawthorne-LA-CoSpaceX-Headquarters-locat.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Taiwan Says No US Chip Push Can Match Taiwan Semiconductor's Home Advantage",
-   "summary": "Taiwan to remain primary hub of Taiwan Semiconductor despite US expansion. Minister dismisses &#34;silicon shield&#34; threats.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/07/60248355/taiwan-says-no-us-chip-push-can-match-taiwan-semiconductors-home-advantage",
-   "created_at": "2026-07-02T15:01:28Z",
-   "symbols": [
-    "BLOX",
-    "GEME",
-    "OSEA",
-    "TSM"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/02/TSMC.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "If You Invested $100 In Fidelity Nasdaq Composite Index ETF Stock 10 Years Ago, You Would Have This Much Today",
-   "summary": "Fidelity Nasdaq Composite Index ETF (NASDAQ:ONEQ) has outperformed the market over the past 10 years by 4.71% on an annualized basis producing an average annual return of 18.27%. Currently, Fidelity N",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/07/60248306/if-you-invested-100-fidelity-nasdaq-composite-index-etf-stock-10-years-ago-you-would-have-much-today",
-   "created_at": "2026-07-02T15:00:47Z",
-   "symbols": [
-    "ONEQ"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_3.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Ohio Rep. David Taylor Bought Up to $30K Worth of Chevron Stock",
-   "summary": "An official report on July 1, 2026 reveals Representative David Taylor&#39;s recent purchase of Chevron (NYSE:CVX) stock, valued between $2,002 and $30,000. The transaction took place on June 15, 2026",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/government/26/07/60248279/ohio-rep-david-taylor-bought-30k-worth-chevron-stock",
-   "created_at": "2026-07-02T15:00:24Z",
-   "symbols": [
-    "CVX",
-    "GOOGL",
-    "IBP"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/insider_trade_2.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Ethereum ETFs Flash Warning Signal As $1.18 Billion Outflow Streak Clouds ETH Rebound",
-   "summary": "Ethereum rebounds, but spot Ethereum ETFs face a seven-week, $1.18 billion outflow streak, raising concerns over institutional demand.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/etfs/specialty-etfs/26/07/60248183/ethereum-etfs-flash-warning-signal-as-1-18-billion-outflow-streak-clouds-eth-rebound",
-   "created_at": "2026-07-02T14:58:10Z",
-   "symbols": [
-    "ETHA",
-    "ETHE",
-    "ETHV",
-    "ETHW",
-    "EZET"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/02/Ethereum-ETF.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "XRP Surges 5% Despite Two Days of ETF Outflows: What Is Happening?",
-   "summary": "XRP surges 5% and challenges its year-long descending trendline as open interest jumps 6.85% and $9M flows off exchanges in accumulation.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/07/60248139/xrp-surges-5-despite-two-days-of-etf-outflows-what-is-happening",
-   "created_at": "2026-07-02T14:57:12Z",
-   "symbols": [
-    "XRPUSD"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/02/Heres-What-XRP-Would-Have-Returned.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "SpaceX Stock Edges Higher Before Joining Nasdaq-100 Index on July 7",
-   "summary": "Space Exploration Technologies shares are trading marginally higher Thursday, in-line with the broader Industrials sector&#39;s 0.7% gain.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60247838/spacex-stock-edges-higher-before-joining-nasdaq-100-index-on-july-7",
-   "created_at": "2026-07-02T14:51:02Z",
-   "symbols": [
-    "SPCX"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/02/SpaceX.png?width=1024&height=768"
-  },
-  {
-   "headline": "$1000 Invested In TJX Companies 20 Years Ago Would Be Worth This Much Today",
-   "summary": "TJX Companies (NYSE:TJX) has outperformed the market over the past 20 years by 8.29% on an annualized basis producing an average annual return of 17.55%. Currently, TJX Companies has a market capitali",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/07/60247602/1000-invested-tjx-companies-20-years-ago-would-be-worth-much-today",
-   "created_at": "2026-07-02T14:45:49Z",
-   "symbols": [
-    "TJX"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_4.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Bayer Reorganizes US Glyphosate Business after Roundup Legal Win",
-   "summary": "Bayer launches Ruveon to oversee its U.S. glyphosate business, aiming for faster execution under its Crop Science Five-Year Framework.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/health-care/26/07/60247032/bayer-reorganizes-us-glyphosate-business-after-roundup-legal-win",
-   "created_at": "2026-07-02T14:32:59Z",
-   "symbols": [
-    "BAYRY"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/02/Basel--Switzerland---April-20--2024-Baye.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "What's Driving Velo3D Stock?",
-   "summary": "Velo3D shares are trading higher on Thursday as investors continue to recalibrate around the company’s recent production-expansion plans and the ongoing push-pull between bullish coverage and a short-",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60246920/whats-driving-velo3d-stock",
-   "created_at": "2026-07-02T14:31:16Z",
-   "symbols": [
-    "VELO"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/02/Velo3d.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "$1000 Invested In VanEck Uranium and Nuclear ETF 5 Years Ago Would Be Worth This Much Today",
-   "summary": "VanEck Uranium and Nuclear ETF (NYSE:NLR) has outperformed the market over the past 5 years by 6.06% on an annualized basis producing an average annual return of 17.7%. Currently, VanEck Uranium and N",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/07/60246895/1000-invested-vaneck-uranium-and-nuclear-etf-5-years-ago-would-be-worth-much-today",
-   "created_at": "2026-07-02T14:30:51Z",
-   "symbols": [
-    "NLR"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_2.jpg?width=1024&height=768"
   }
  ]
 }
