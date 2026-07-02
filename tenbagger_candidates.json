@@ -1,78 +1,53 @@
 {
- "updated": "2026-07-03 02:02",
+ "updated": "2026-07-03 03:01",
  "candidates": [
   {
-   "symbol": "ORCL",
+   "symbol": "PFE",
    "score": 5,
-   "price": 140.0,
+   "price": 24.26,
    "reasons": [
-    "52주고점 대비 -44%",
-    "RSI 27 과매도",
-    "PER 13(저평가)"
-   ]
-  },
-  {
-   "symbol": "PYPL",
-   "score": 5,
-   "price": 45.16,
-   "reasons": [
-    "52주고점 대비 -33%",
-    "PER 8(저평가)",
+    "과매도 탈출+MA5 회복",
+    "PER 9(저평가)",
     "그레이엄 기준 충족"
    ]
   },
   {
-   "symbol": "CRM",
+   "symbol": "FNGU",
    "score": 4,
-   "price": 166.1,
+   "price": 26.37,
    "reasons": [
-    "52주고점 대비 -38%",
-    "PER 11(저평가)"
+    "52주고점 대비 -27%",
+    "PER 2(저평가)"
    ]
   },
   {
-   "symbol": "ADBE",
+   "symbol": "C",
    "score": 4,
-   "price": 220.28,
+   "price": 138.4,
    "reasons": [
-    "52주고점 대비 -38%",
-    "PER 8(저평가)"
+    "PER 11(저평가)",
+    "PBR 1.2",
+    "그레이엄 기준 충족"
    ]
   },
   {
-   "symbol": "TEAM",
+   "symbol": "COF",
    "score": 4,
-   "price": 84.81,
+   "price": 203.31,
    "reasons": [
-    "52주고점 대비 -49%",
-    "PER 14(저평가)"
+    "PER 8(저평가)",
+    "PBR 1.2",
+    "그레이엄 기준 충족"
    ]
   },
   {
-   "symbol": "WDAY",
+   "symbol": "TFC",
    "score": 4,
-   "price": 134.44,
+   "price": 50.51,
    "reasons": [
-    "52주고점 대비 -42%",
-    "PER 11(저평가)"
-   ]
-  },
-  {
-   "symbol": "INTU",
-   "score": 4,
-   "price": 274.59,
-   "reasons": [
-    "52주고점 대비 -59%",
-    "PER 10(저평가)"
-   ]
-  },
-  {
-   "symbol": "HPQ",
-   "score": 4,
-   "price": 22.01,
-   "reasons": [
-    "52주고점 대비 -25%",
-    "PER 7(저평가)"
+    "PER 10(저평가)",
+    "PBR 1.1",
+    "그레이엄 기준 충족"
    ]
   }
  ]
