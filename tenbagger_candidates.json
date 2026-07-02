@@ -1,80 +1,69 @@
 {
- "updated": "2026-07-02 22:41",
+ "updated": "2026-07-02 23:01",
  "candidates": [
   {
-   "symbol": "CERT",
-   "score": 7,
-   "price": 6.93,
+   "symbol": "ORCL",
+   "score": 5,
+   "price": 145.79,
    "reasons": [
-    "52주고점 대비 -31%",
-    "PBR 1.0",
-    "그레이엄 기준 충족",
-    "시총 $1.1B(소형)"
+    "52주고점 대비 -41%",
+    "RSI 30 과매도",
+    "PER 13(저평가)"
    ]
   },
   {
-   "symbol": "PATH",
-   "score": 6,
-   "price": 11.63,
+   "symbol": "PYPL",
+   "score": 5,
+   "price": 45.09,
+   "reasons": [
+    "52주고점 대비 -33%",
+    "PER 8(저평가)",
+    "그레이엄 기준 충족"
+   ]
+  },
+  {
+   "symbol": "CRM",
+   "score": 4,
+   "price": 164.87,
+   "reasons": [
+    "52주고점 대비 -38%",
+    "PER 11(저평가)"
+   ]
+  },
+  {
+   "symbol": "ADBE",
+   "score": 4,
+   "price": 216.23,
    "reasons": [
     "52주고점 대비 -40%",
-    "PER 13(저평가)",
-    "시총 $6.0B(소형)"
+    "PER 8(저평가)"
    ]
   },
   {
-   "symbol": "UPST",
-   "score": 6,
-   "price": 36.59,
-   "reasons": [
-    "52주고점 대비 -28%",
-    "PER 11(저평가)",
-    "시총 $3.5B(소형)"
-   ]
-  },
-  {
-   "symbol": "IONQ",
+   "symbol": "TEAM",
    "score": 4,
-   "price": 52.04,
+   "price": 83.22,
    "reasons": [
-    "52주고점 대비 -28%",
-    "시총 $19.5B(소형)"
+    "52주고점 대비 -50%",
+    "PER 13(저평가)"
    ]
   },
   {
-   "symbol": "RGTI",
+   "symbol": "WDAY",
    "score": 4,
-   "price": 18.93,
+   "price": 131.54,
    "reasons": [
-    "52주고점 대비 -40%",
-    "시총 $6.3B(소형)"
+    "52주고점 대비 -44%",
+    "PER 10(저평가)"
    ]
   },
   {
-   "symbol": "QBTS",
+   "symbol": "INTU",
    "score": 4,
-   "price": 23.54,
+   "price": 271.24,
    "reasons": [
-    "52주고점 대비 -27%",
-    "시총 $8.7B(소형)"
-   ]
-  },
-  {
-   "symbol": "OKLO",
-   "score": 4,
-   "price": 54.2,
-   "reasons": [
-    "52주고점 대비 -52%",
-    "시총 $9.4B(소형)"
-   ]
-  },
-  {
-   "symbol": "SMR",
-   "score": 4,
-   "price": 10.29,
-   "reasons": [
-    "52주고점 대비 -61%",
-    "시총 $3.6B(소형)"
+    "52주고점 대비 -60%",
+    "PER 10(저평가)"
    ]
   }
  ]
