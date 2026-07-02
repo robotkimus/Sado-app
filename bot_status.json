@@ -1,6 +1,7 @@
 {
- "updated": "2026-07-02 18:11",
- "equity": 98256.97,
+ "updated": "2026-07-02 19:00",
+ "session": "미국 프리마켓(개장 전)",
+ "equity": 98233.49,
  "cash": 72439.63,
  "base": 100000.0,
  "positions": [
@@ -8,10 +9,10 @@
    "symbol": "AMAT",
    "qty": 1.0,
    "avg_cost": 592.54,
-   "now": 660.29,
-   "pnl_pct": 11.4,
+   "now": 650.49,
+   "pnl_pct": 9.8,
    "peak_pnl_pct": 23.7,
-   "drawdown_from_peak_pct": -12.3,
+   "drawdown_from_peak_pct": -13.9,
    "trailing_stop_triggered": false,
    "is_tenbagger": false,
    "stoploss_triggered": false
@@ -20,10 +21,10 @@
    "symbol": "AMZN",
    "qty": 5.0,
    "avg_cost": 239.57,
-   "now": 242.95,
-   "pnl_pct": 1.4,
+   "now": 242.32,
+   "pnl_pct": 1.1,
    "peak_pnl_pct": 7.1,
-   "drawdown_from_peak_pct": -5.7,
+   "drawdown_from_peak_pct": -6.0,
    "trailing_stop_triggered": false,
    "is_tenbagger": false,
    "stoploss_triggered": false
@@ -32,10 +33,10 @@
    "symbol": "AVGO",
    "qty": 7.3108,
    "avg_cost": 374.99032,
-   "now": 367.15,
-   "pnl_pct": -2.1,
+   "now": 366.0428,
+   "pnl_pct": -2.4,
    "peak_pnl_pct": 1.3,
-   "drawdown_from_peak_pct": -3.4,
+   "drawdown_from_peak_pct": -3.7,
    "trailing_stop_triggered": false,
    "is_tenbagger": false,
    "stoploss_triggered": false
@@ -56,10 +57,10 @@
    "symbol": "ETH-USD",
    "qty": 3.10323661,
    "avg_cost": 1562.455874661,
-   "now": 1620.51,
-   "pnl_pct": 3.7,
-   "peak_pnl_pct": 4.8,
-   "drawdown_from_peak_pct": -1.1,
+   "now": 1638.849,
+   "pnl_pct": 4.9,
+   "peak_pnl_pct": 4.9,
+   "drawdown_from_peak_pct": 0.0,
    "trailing_stop_triggered": false,
    "is_tenbagger": false,
    "stoploss_triggered": false
@@ -68,10 +69,10 @@
    "symbol": "IGV",
    "qty": 2.0,
    "avg_cost": 85.1,
-   "now": 93.81,
-   "pnl_pct": 10.2,
+   "now": 94.08,
+   "pnl_pct": 10.6,
    "peak_pnl_pct": 11.2,
-   "drawdown_from_peak_pct": -1.0,
+   "drawdown_from_peak_pct": -0.6,
    "trailing_stop_triggered": false,
    "is_tenbagger": false,
    "stoploss_triggered": false
@@ -92,7 +93,7 @@
    "symbol": "META",
    "qty": 2.0,
    "avg_cost": 557.685,
-   "now": 612.4169,
+   "now": 612.52,
    "pnl_pct": 9.8,
    "peak_pnl_pct": 11.9,
    "drawdown_from_peak_pct": -2.1,
@@ -104,10 +105,10 @@
    "symbol": "MSFT",
    "qty": 4.0,
    "avg_cost": 367.5625,
-   "now": 385.56,
-   "pnl_pct": 4.9,
+   "now": 385.35,
+   "pnl_pct": 4.8,
    "peak_pnl_pct": 5.5,
-   "drawdown_from_peak_pct": -0.6,
+   "drawdown_from_peak_pct": -0.7,
    "trailing_stop_triggered": false,
    "is_tenbagger": false,
    "stoploss_triggered": false
@@ -116,10 +117,10 @@
    "symbol": "QQQ",
    "qty": 2.0,
    "avg_cost": 729.51,
-   "now": 723.69,
-   "pnl_pct": -0.8,
+   "now": 722.48,
+   "pnl_pct": -1.0,
    "peak_pnl_pct": 1.0,
-   "drawdown_from_peak_pct": -1.8,
+   "drawdown_from_peak_pct": -2.0,
    "trailing_stop_triggered": false,
    "is_tenbagger": false,
    "stoploss_triggered": false
@@ -128,10 +129,10 @@
    "symbol": "SMH",
    "qty": 6.9286,
    "avg_cost": 648.995854,
-   "now": 616.5,
-   "pnl_pct": -5.0,
+   "now": 613.29,
+   "pnl_pct": -5.5,
    "peak_pnl_pct": 1.2,
-   "drawdown_from_peak_pct": -6.2,
+   "drawdown_from_peak_pct": -6.7,
    "trailing_stop_triggered": false,
    "is_tenbagger": false,
    "stoploss_triggered": false
@@ -140,10 +141,10 @@
    "symbol": "SOXX",
    "qty": 6.217,
    "avg_cost": 619.718319,
-   "now": 597.6,
-   "pnl_pct": -3.6,
+   "now": 592.17,
+   "pnl_pct": -4.4,
    "peak_pnl_pct": 4.5,
-   "drawdown_from_peak_pct": -8.1,
+   "drawdown_from_peak_pct": -8.9,
    "trailing_stop_triggered": false,
    "is_tenbagger": false,
    "stoploss_triggered": false
@@ -152,10 +153,10 @@
    "symbol": "TNA",
    "qty": 5.0,
    "avg_cost": 74.03,
-   "now": 74.47,
-   "pnl_pct": 0.6,
+   "now": 74.55,
+   "pnl_pct": 0.7,
    "peak_pnl_pct": 3.4,
-   "drawdown_from_peak_pct": -2.8,
+   "drawdown_from_peak_pct": -2.7,
    "trailing_stop_triggered": false,
    "is_tenbagger": false,
    "stoploss_triggered": false
@@ -164,10 +165,10 @@
    "symbol": "TQQQ",
    "qty": 3.0,
    "avg_cost": 74.763333,
-   "now": 76.89,
-   "pnl_pct": 2.8,
+   "now": 76.48,
+   "pnl_pct": 2.3,
    "peak_pnl_pct": 8.6,
-   "drawdown_from_peak_pct": -5.8,
+   "drawdown_from_peak_pct": -6.3,
    "trailing_stop_triggered": false,
    "is_tenbagger": false,
    "stoploss_triggered": false
@@ -185,35 +186,6 @@
    "stoploss_triggered": false
   }
  ],
- "trades": [],
- "market_view": "현재 미국 프리마켓(개장 전) 세션으로 미국 주식 거래 시간이 아니므로 주식 관련 모든 매매는 관망한다. 코인(ETH-USD)은 24시간 거래 가능하나, 현재 일목균형표상 구름 아래(pos=below, dist_to_cloud_pct=-12.8%)로 하락추세가 뚜렷하고 RSI 41.4로 과매도권 진입 전 중간 단계이며 ma20 대비 괴리율 -2.6%로 아직 충분한 과매도 수준이 아니다. in_taco_zone=true로 지지대(1607~1633) 내에 위치해 단기 지지는 확인되나, 구름까지 거리가 -12.8%로 반등하더라도 강한 저항이 많고 추세 자체가 아직 꺾인 상태라 추가 매수 확신이 부족하다. 보유 ETH-USD는 +3.7% 수익 중이고 현재 지지대에서 버티는 중이니 손절 기준(-7%)에 한참 여유가 있어 홀드 유지. 시장 국면은 중립/혼조이며 주도 섹터는 바이오(XBI +22.5%), 헬스케어(XLV +9.0%), 금융(XLF +6.5%)으로 기술·반도체는 소외 상태다. 보유 중인 SMH(-5.0%), SOXX(-3.6%)는 손절선에 아직 여유가 있으나 반도체 섹터 약세가 지속되고 있어 내일 정규장 개장 시 추가 지표 확인 후 대응 여부를 판단할 예정이다. 현금 비중이 $72,440(약 73.7%)으로 높은 편이나, 프리마켓이라 주식 신규 진입은 불가하며 정규장에서 바이오·헬스케어 주도 섹터 눌림목 진입 기회를 탐색할 것이다.",
- "chart_levels": {
-  "ETH-USD": {
-   "price": 1621.75,
-   "support": [
-    1620.14,
-    1566.79
-   ],
-   "resistance": [
-    1690.15,
-    1808.32,
-    1852.97,
-    1956.34
-   ],
-   "fib": {
-    "382": 1872.03,
-    "500": 1966.93,
-    "618": 2061.83
-   },
-   "taco_zone": {
-    "low": 1607.18,
-    "high": 1633.1,
-    "basis": "지지대"
-   },
-   "in_taco_zone": true
-  }
- },
- "last_trade_time": null,
- "last_trade_count": 0,
- "last_hold_count": 0
+ "market_view": "[미국 프리마켓(개장 전)] 미국 주식 거래 시간이 아니고 코인도 살 만한 신호가 없어 관망. (AI 판단 생략 — 비용 절감)",
+ "trades": []
 }
