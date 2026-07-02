@@ -1,10 +1,10 @@
 {
- "updated": "2026-07-03 04:01",
+ "updated": "2026-07-03 04:31",
  "candidates": [
   {
    "symbol": "ZTS",
    "score": 6,
-   "price": 74.81,
+   "price": 74.77,
    "reasons": [
     "52주고점 대비 -43%",
     "과매도 탈출+MA5 회복",
@@ -14,10 +14,10 @@
   {
    "symbol": "OXY",
    "score": 6,
-   "price": 48.56,
+   "price": 48.67,
    "reasons": [
-    "52주고점 대비 -27%",
-    "RSI 29 과매도",
+    "52주고점 대비 -26%",
+    "RSI 30 과매도",
     "PER 12(저평가)",
     "그레이엄 기준 충족"
    ]
@@ -25,7 +25,7 @@
   {
    "symbol": "CVX",
    "score": 4,
-   "price": 168.26,
+   "price": 168.72,
    "reasons": [
     "과매도 탈출+MA5 회복",
     "PER 13(저평가)"
@@ -34,7 +34,7 @@
   {
    "symbol": "XOM",
    "score": 4,
-   "price": 136.79,
+   "price": 136.66,
    "reasons": [
     "과매도 탈출+MA5 회복",
     "PER 13(저평가)"
@@ -43,9 +43,9 @@
   {
    "symbol": "COP",
    "score": 4,
-   "price": 103.84,
+   "price": 104.15,
    "reasons": [
-    "RSI 32 과매도",
+    "RSI 33 과매도",
     "PER 11(저평가)",
     "그레이엄 기준 충족"
    ]
@@ -53,7 +53,7 @@
   {
    "symbol": "KHC",
    "score": 4,
-   "price": 25.36,
+   "price": 25.44,
    "reasons": [
     "PER 12(저평가)",
     "PBR 0.7",
