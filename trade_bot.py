@@ -1079,6 +1079,31 @@ def _claude_call_with_retry(body, tries=2):
 
 
 def ask_claude(account, positions, market, regime=None, session="regular"):
+    # ── 시세 다이어트 (비용 절감): AI에게 전 종목 대신 '의미 있는 종목'만 보낸다 ──
+    # 보유·핵심ETF·인버스(헷지)·신호 뜬 종목(홀리그레일·과매도·눌림목·저가구간)만.
+    # 신호 없는 종목은 어차피 매수 후보가 아니므로 보내봐야 토큰 낭비.
+    held_syms = {str(p.get("symbol", "")).upper() for p in (positions or [])}
+    core_always = ({"SOXX", "SMH", "NVDA", "AVGO", "AMD", "MU", "QQQ"}  # 주도 코어
+                   | INVERSE_TICKERS | {"SPY", "IWM", "GLD", "TLT"} | CRYPTO)
+    slim = []
+    for m in market:
+        sym = str(m.get("symbol", "")).upper()
+        rsi = m.get("rsi14")
+        chg5 = m.get("chg_5d_pct")
+        keep = (
+            sym in held_syms                          # 보유 중 (매도 판단 필요)
+            or sym in core_always                     # 핵심 ETF·인버스·코인
+            or m.get("holy_grail")                    # 홀리 그레일 신호
+            or m.get("in_taco_zone")                  # 저가 구간
+            or (rsi is not None and rsi <= 42)        # 과매도권
+            or (chg5 is not None and chg5 <= -8)      # 단기 급락(눌림목 후보)
+        )
+        if keep:
+            slim.append(m)
+    # slim에는 최소한 보유·코어 ETF가 항상 포함되므로 그대로 사용(다이어트 상시 작동).
+    # 극단적으로 적으면(시세 수집 실패 등) 원본을 유지해 판단 재료를 보전.
+    if len(slim) >= 5:
+        market = slim
     session_kr = _SESSION_KR.get(session, session)
     # 세션별로 두 AI에 동일한 거래 규칙을 주입 (판단 통일의 핵심)
     if session == "regular":
@@ -1186,7 +1211,7 @@ def ask_claude(account, positions, market, regime=None, session="regular"):
         "- 거래할 이유가 약하면 빈 배열로 응답 (거래 안 함이 기본값)\n\n"
         "아래 JSON 형식으로만 응답하세요. 다른 텍스트, 마크다운 백틱 금지:\n"
         '{"decisions":[{"action":"buy|sell","symbol":"JPM","qty":3,"conviction":"normal","tier":"core","reason":"한 문장 근거"}],'
-        '"market_view":"오늘 시장 국면 판단, 왜 매수/매도/관망했는지 핵심 근거, 포트폴리오 분산·레버리지·현금 비중에 대한 평가를 자세히. 나중에 사람이 봇의 판단을 복기할 수 있도록 솔직하고 구체적으로 충분히 설명하되, 5~8문장(800자 내외)을 넘지 말 것. 반드시 완결된 JSON으로 끝맺고 마지막 문장은 마침표로 끝낼 것."}'
+        '"market_view":"오늘 시장 국면 판단, 왜 매수/매도/관망했는지 핵심 근거, 포트폴리오 분산·레버리지·현금 비중에 대한 평가를 자세히. 나중에 사람이 봇의 판단을 복기할 수 있도록 솔직하고 구체적으로 충분히 설명하되, 3~5문장(400자 내외)으로 간결하게 — 핵심 근거만. 반드시 완결된 JSON으로 끝맺고 마지막 문장은 마침표로 끝낼 것."}'
     )
     # ── 변동 데이터 블록 (매번 다름 — 캐싱 안 됨) ──
     # 국면·섹터·세션·계좌·포지션·시세를 고정 규칙 뒤에 붙인다.
@@ -1208,7 +1233,7 @@ def ask_claude(account, positions, market, regime=None, session="regular"):
     # ── 메시지 구성: 고정 규칙은 캐싱(90% 할인), 변동 데이터는 매번 전송 ──
     # 고정 블록에 cache_control(1시간)을 붙여 매시간 반복되는 큰 규칙을 캐시한다.
     res = _claude_call_with_retry(
-        body={"model": "claude-sonnet-4-6", "max_tokens": 4000,
+        body={"model": "claude-sonnet-4-6", "max_tokens": 2500,
               "messages": [{"role": "user", "content": [
                   {"type": "text", "text": prompt,
                    "cache_control": {"type": "ephemeral", "ttl": "1h"}},
@@ -1228,7 +1253,7 @@ def ask_claude(account, positions, market, regime=None, session="regular"):
             "https://api.deepseek.com/chat/completions", method="POST",
             headers={"Authorization": f"Bearer {DEEPSEEK_KEY}",
                      "content-type": "application/json"},
-            body={"model": "deepseek-chat", "max_tokens": 4000,
+            body={"model": "deepseek-chat", "max_tokens": 2500,
                   "messages": [{"role": "user", "content": prompt}]})
         ds_text = ds_res.get("choices", [{}])[0].get("message", {}).get("content", "")
         deepseek_plan = _parse_ai_json(ds_text, "DeepSeek")
