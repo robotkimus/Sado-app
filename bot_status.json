@@ -1,7 +1,7 @@
 {
- "updated": "2026-07-04 00:01",
+ "updated": "2026-07-04 01:01",
  "session": "미국 공휴일 휴장",
- "equity": 98354.21,
+ "equity": 98333.34,
  "cash": 72118.01,
  "base": 100000.0,
  "positions": [
@@ -45,10 +45,10 @@
    "symbol": "ETH-USD",
    "qty": 3.10323661,
    "avg_cost": 1562.455874661,
-   "now": 1736.1,
-   "pnl_pct": 11.1,
+   "now": 1729.375,
+   "pnl_pct": 10.7,
    "peak_pnl_pct": 11.8,
-   "drawdown_from_peak_pct": -0.7,
+   "drawdown_from_peak_pct": -1.1,
    "trailing_stop_triggered": false,
    "is_tenbagger": false,
    "stoploss_triggered": false
