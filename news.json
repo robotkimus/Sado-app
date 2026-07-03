@@ -1,6 +1,19 @@
 {
- "updated": "2026-07-03 19:00",
+ "updated": "2026-07-03 20:00",
  "items": [
+  {
+   "headline": "Amazon's Starlink Rival Leo Surpasses 390 Satellites After Atlas V Launch, Eyes Initial Service This Year",
+   "summary": "Amazon expects initial internet service with Leo satellite network this year after latest launch brings total satellites to 390.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/space/26/07/60265378/amazons-starlink-rival-leo-surpasses-390-satellites-after-atlas-v-launch-eyes-initial-service-this-year",
+   "created_at": "2026-07-03T10:44:57Z",
+   "symbols": [
+    "AMZN",
+    "DAL",
+    "SPCX"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/03/Toronto--Canada---December-21-2025-Amazo.jpg?width=1024&height=768"
+  },
   {
    "headline": "Comparing Microsoft With Industry Competitors In Software Industry",
    "summary": "In the ever-evolving and intensely competitive business landscape, conducting a thorough company analysis is of utmost importance for investors and industry followers. In this article, we will carry o",
@@ -175,18 +188,69 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/07/02/wall-street-ai3.jpg?width=1024&height=768"
   },
   {
-   "headline": "SOXX ETF's Worst 2-Day Drop in Over a Year: These 3 Chip Stocks Now Screen with 50% Upside",
-   "summary": "Semiconductors just posted their sharpest two-day slide since March 2025. The overbought signal that defined the rally has reset.",
+   "headline": "Trump's America250 Celebrations to Close Reagan National Airport for Nearly 15 Hours (UPDATED)",
+   "summary": "Trump&#39;s FAA announces closure of DC airport during July 4th celebrations for 15 hours as 250th Independence Day looms.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/etfs/sector-etfs/26/07/60257048/soxx-etf-selloff-semiconductors-nvidia-micron-broadcom-price-target-upside-potential",
-   "created_at": "2026-07-02T18:58:53Z",
+   "url": "https://www.benzinga.com/news/politics/26/07/60238040/trumps-america250-celebrations-to-close-reagan-national-airport-for-nearly-15-hours",
+   "created_at": "2026-07-02T12:04:22Z",
    "symbols": [
-    "AVGO",
-    "MU",
-    "NVDA",
-    "SOXX"
+    "AAL",
+    "BA",
+    "DAL",
+    "JBLU"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/02/Semiconductors.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/03/Rome--Georgia--Usa--March-9--2024--Donal.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Jack Smith Breaks Silence on Trump— Warns ‘Rule of Law’ is Under Attack and Says He's ‘Very Concerned’ About Midterm Election Integrity",
+   "summary": "Jack Smith warns the rule of law is under attack and says Trump&#39;s DOJ could indict him in a candid new interview.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/07/60265366/jack-smith-breaks-silence-on-trump-warns-rule-of-law-is-under-attack-and-says-hes-very-concerned-about-midterm-election-integrity",
+   "created_at": "2026-07-03T10:39:44Z",
+   "symbols": [
+    "TTE"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/03/Washington--Dc--January-22--2026-Former-.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Software Legend Kent Beck Says AI is Turning Coding Careers Into a ‘Cosmic Practical Joke’ as Soft Skills Become Critical",
+   "summary": "Kent Beck said AI is making communication and empathy increasingly important, arguing technical skill alone will no longer suffice.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/07/60265259/software-legend-kent-beck-says-ai-is-turning-coding-careers-into-a-cosmic-practical-joke-as-soft-skills-become-critical",
+   "created_at": "2026-07-03T10:30:53Z",
+   "symbols": [
+    "CRM"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/03/Ai-And-Data-Analysis-For-Financial-Repor.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Michael Burry Is Shorting Micron as a 'Destroyer Of Capital' Despite Trump's Praises and a 241% Rally— Here's Why",
+   "summary": "Michael Burry is shorting Micron (MU). See why the &#39;Big Short&#39; investor calls the AI chipmaker a &#34;capital destroyer&#34; nearing bubble peaks.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/short-ideas/26/07/60265248/michael-burry-is-shorting-micron-as-a-destroyer-of-capital-despite-trumps-praises-and-a-241-rally-heres-why",
+   "created_at": "2026-07-03T10:28:10Z",
+   "symbols": [
+    "MU"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/03/Image-Of-Michael-Burry.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Trump Once Said the US Did Not Need Canadian Goods— Now Mark Carney's New Oil Pipeline Could Open Exports Beyond US",
+   "summary": "Canada to build new oil pipeline to west coast for exports to Asia amid Alberta&#39;s target to produce 8 million barrels of oil per day.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/07/60265238/trump-once-said-the-us-did-not-need-canadian-goods-now-mark-carneys-new-oil-pipeline-could-open-exports-beyond-us",
+   "created_at": "2026-07-03T10:26:13Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/03/Canadas-Liberal-Party-Leader--Mark-Carne.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Trump Administration Targets Hospital Markups on Discounted Medicare Drugs, Says New Rule Could Save Patients $1.1 Billion Next Year: Report",
+   "summary": "The Trump administration proposed a rule to stop hospitals from overcharging Medicare patients for discounted drugs.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/health-care/26/07/60265203/trump-administration-targets-hospital-markups-on-discounted-medicare-drugs-says-new-rule-could-save-patients-1-1-billion-next-year-report",
+   "created_at": "2026-07-03T10:11:12Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/03/Medicare-Word-Written-On-Cube-Shape-Wood.jpg?width=1024&height=768"
   },
   {
    "headline": "Insights Into Coeur Mining's Performance Versus Peers In Metals &amp; Mining Sector",
@@ -380,82 +444,6 @@
     "ORLY"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/07/03/Germany---July-24--2024-In-This-Photo-Il.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Tesla Just Launched its Three-Row Model Y L in US— And it Comes With Free FSD, Supercharging and More",
-   "summary": "Tesla launches U.S.-spec Model Y L Premium with free 12-month FSD, 3 rows of seating and 325 miles of range.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/07/60264194/tesla-just-launched-its-three-row-model-y-l-in-us-and-it-comes-with-free-fsd-supercharging-and-more",
-   "created_at": "2026-07-03T06:02:53Z",
-   "symbols": [
-    "TSLA"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/03/Frankfurt--Germany---February-19-2024--T.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Why Is Avis Budget Group (CAR) Stock Trending Overnight? (CORRECTED)",
-   "summary": "Avis Budget Group shares were unchanged in after-hours trading after gaining 11.23% during the regular session.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/07/60263990/why-is-avis-budget-group-car-stock-trending-overnight",
-   "created_at": "2026-07-03T04:34:57Z",
-   "symbols": [
-    " MS",
-    " RY",
-    "CAR",
-    "JPM",
-    "MS"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/03/Avis-Budget-Group-Seattle---August-07--2.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Gary Black Says He Doesn't Believe Elon Musk Is Selling After Tesla Stock Drops Despite Massive Q2 Delivery Beat: Here's Why",
-   "summary": "The Future Fund LLC&#39;s Gary Black dismissed speculation that Elon Musk is selling Tesla shares, citing blackout-window rules.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/07/60264047/gary-black-says-he-doesnt-believe-elon-musk-is-selling-despite-tesla-stock-drop-after-q2-delivery-beat",
-   "created_at": "2026-07-03T05:04:01Z",
-   "symbols": [
-    "TSLA"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/03/Elon-Musk--The-Ceo-Of-Tesla--Spacex--Pay.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Gary Black Targets Elon Musk's Self-Driving Efforts as Rivian Stock Rally Shows no 'Newfound Infatuation' with Autonomous Vehicles, FSD",
-   "summary": "Gary Black reaffirms Tesla&#39;s FSD system has negligible impact on sales as company surpasses delivery estimates.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/07/60264011/gary-black-says-rivian-rally-shows-no-newfound-infatuation-with-autonomous-vehicles-targets",
-   "created_at": "2026-07-03T04:45:13Z",
-   "symbols": [
-    "RIVN",
-    "TSLA"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/03/Houston--Texas-Usa---August-26--2023-Tes.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Ross Gerber Slams Trump's Crypto 'Rug Pull,' Points to Report of 'Over 1 Million People' Losing Money While President Made a Fortune",
-   "summary": "Veteran investor Ross Gerber highlighted on Thursday, July 2, a report revealing that more than one million people lost money while President Donald Trump made a fortune from those same ventures.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/07/60263947/ross-gerber-slams-trumps-crypto-rug-pull-cites-report-of-over-1-million-people-losing-money",
-   "created_at": "2026-07-03T04:07:26Z",
-   "symbols": [
-    "BTCUSD",
-    "TRUMPUSD"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/03/Trump.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Donald Trump Signals Confidence Elon Musk Will Donate SpaceX Stock to Trump Accounts: 'I Have a Very Good Relationship With Elon'",
-   "summary": "President Donald Trump said he believes Elon Musk will donate Space Exploration Technologies Corp stock to the Trump Accounts program.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/07/60263893/trump-says-he-thinks-elon-musk-will-donate-spacex-stock-to-trump-accounts",
-   "created_at": "2026-07-03T03:28:07Z",
-   "symbols": [
-    "BNY",
-    "DELL",
-    "HOOD",
-    "JPM",
-    "MU"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/03/Washington-D-c---Usa---February-4--2025-.jpg?width=1024&height=768"
   }
  ]
 }
