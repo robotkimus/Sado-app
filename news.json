@@ -1,6 +1,17 @@
 {
- "updated": "2026-07-04 16:00",
+ "updated": "2026-07-04 17:00",
  "items": [
+  {
+   "headline": "Mark Cuban Tells Local Communities AI Firms Need Data Centers More Than Air— So Make Them Pay: 'If They Do Any Documentable Damage...'",
+   "summary": "Cuban urged communities to crack down on AI data centers that cause environmental damage after a reported Meta contractor wastewater incident.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/07/60268277/mark-cuban-tells-local-communities-ai-firms-need-data-centers-more-than-air-so-make-them-pay-if-they-do-any-documentable-damage",
+   "created_at": "2026-07-04T07:56:25Z",
+   "symbols": [
+    "META"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/04/Los-Angeles--Ca--March-11--2017-Business.jpg?width=1024&height=768"
+  },
   {
    "headline": "Trump Won't Create AI Regulator, Says Former White House Adviser Sriram Krishnan Amid Data Center Backlash: 'That Is Never, Never Going To Happen...'",
    "summary": "Former White House AI adviser Sriram Krishnan said the Trump administration will not create a centralized AI licensing agency.",
@@ -189,15 +200,22 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/07/03/A-Man-Forming-The-Acronym-Etf-For-Exchan.jpg?width=1024&height=768"
   },
   {
-   "headline": "Meta's Upcoming 'Watermelon' AI Model Matches OpenAI's GPT-5.5 on Key Benchmarks, Alexandr Wang Reportedly Tells Employees",
-   "summary": "Meta&#39;s upcoming Watermelon AI reportedly matches GPT-5.5 performance, says Superintelligence chief Alexandr Wang.",
+   "headline": "Scott Bessent Dismisses Criticism of Trump's $1 Billion Crypto Windfall— Says There's No 'Appearance Problem' With it: 'This is an Innovation Presidency'",
+   "summary": "Scott Bessent defended Donald Trump&#39;s $1 billion-plus crypto earnings, dismissing conflict-of-interest concerns despite renewed scrutiny.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/07/60264651/metas-upcoming-watermelon-ai-model-matches-openais-gpt-5-5-on-key-benchmarks-alexandr-wang-reportedly-tells-employees",
-   "created_at": "2026-07-03T07:43:22Z",
-   "symbols": [
-    "META"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/03/Dhaka-bangladesh-22-April-2024-Meta-Ai-L.jpg?width=1024&height=768"
+   "url": "https://www.benzinga.com/news/politics/26/07/60268266/scott-bessent-dismisses-criticism-of-trumps-1-billion-crypto-windfall-says-theres-no-appearance-problem-with-it-this-is-an-innovation-presidency",
+   "created_at": "2026-07-04T07:41:12Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/04/Us-Treasury-Secretary--Scott-Bessent-Wal.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Trump Has 'Promised' to Remove Colombian President Petro From US Sanctions List After Apparently Not Knowing He Was On it",
+   "summary": "Colombian President said President Donald Trump promised to act on removing him and his family from the U.S. Treasury OFAC sanctions list.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/07/60268253/trump-has-promised-to-remove-colombian-president-petro-from-us-sanctions-list-after-apparently-not-knowing-he-was-on-it",
+   "created_at": "2026-07-04T07:29:10Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/04/Rio-De-Janeiro--Brazil--November-19--202.jpg?width=1024&height=768"
   },
   {
    "headline": "Trump Jokes He Mostly Reads 'Stories About Myself' During Appearance On Second Lady Usha Vance's Children's Podcast",
@@ -450,36 +468,6 @@
     "RDDT"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/07/03/Reddit-Earnings-Surge.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "8 Health Care Stocks Whale Activity In Today’s Session",
-   "summary": "This whale alert can help traders discover the next big trading opportunities.\nWhales are entities with large sums of money and we track their transactions here at Benzinga on our options activity sca",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/options/26/07/60266616/8-health-care-stocks-whale-activity-today-s-session",
-   "created_at": "2026-07-03T17:35:24Z",
-   "symbols": [
-    "CI",
-    "CNC",
-    "DVA",
-    "ISRG",
-    "LLY"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/aggregated_options_1.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "10 Industrials Stocks Whale Activity In Today’s Session",
-   "summary": "This whale alert can help traders discover the next big trading opportunities.\nWhales are entities with large sums of money and we track their transactions here at Benzinga on our options activity sca",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/options/26/07/60266615/10-industrials-stocks-whale-activity-today-s-session",
-   "created_at": "2026-07-03T17:35:24Z",
-   "symbols": [
-    "AGX",
-    "BA",
-    "BE",
-    "CAR",
-    "CAT"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/aggregated_options_2.jpg?width=1024&height=768"
   }
  ]
 }
