@@ -1,6 +1,21 @@
 {
- "updated": "2026-07-05 21:01",
+ "updated": "2026-07-05 22:01",
  "items": [
+  {
+   "headline": "Meta Platforms, SpaceX, Micron Technology and More: 5 Stocks Investors Couldn't Stop Buzzing About This Week",
+   "summary": "Retail investors talked up five hot stocks in this week (June 29 to July 2) on X and Reddit&#39;s r/WallStreetBets: META, PLTR, MU, SPCX, AAPL.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/07/60269449/meta-platforms-spacex-micron-technology-and-more-5-stocks-investors-couldnt-stop-buzzing-about-this-week",
+   "created_at": "2026-07-05T12:01:47Z",
+   "symbols": [
+    "AAPL",
+    "META",
+    "MU",
+    "NVDA",
+    "PLTR"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/05/June-2026--Space-X-Shares-Page-On-A-Stoc.jpg?width=1024&height=768"
+  },
   {
    "headline": "Aaron Levie Says AI Is Entering a 'Battle for Context,' Argues 'Applied AI Layer Has a Lot More Value Than Just Being an LLM Wrapper'",
    "summary": "Aaron Levie believes that in the AI industry, success depends on capturing and applying context within real business workflows.",
@@ -198,16 +213,13 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/07/03/Heres-What-XRP-Would-Have-Returned.jpg?width=1024&height=768"
   },
   {
-   "headline": "Pennsylvania Rep. Daniel Meuser Bought Up to $50K Worth of SpaceX Stock",
-   "summary": "July 2, 2026 records indicate that Representative Daniel Meuser filed a purchase of SpaceX (NASDAQ:SPCX), valued between $15,001 and $50,000. According to the July filing, the transaction occurred on ",
+   "headline": "Weekend Round-Up: Amazon's Leo Satellites, Burry's Micron Short, Meta's AI Developments and More",
+   "summary": "Amazon expanded its Project Kuiper satellite network, Burry revealed a bet against Micron, Meta led this week&#39;s biggest tech headlines.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/government/26/07/60266081/pennsylvania-rep-daniel-meuser-bought-50k-worth-spacex-stock",
-   "created_at": "2026-07-03T15:00:32Z",
-   "symbols": [
-    "NVDA",
-    "SPCX"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/insider_trade_2.jpg?width=1024&height=768"
+   "url": "https://www.benzinga.com/markets/tech/26/07/60269482/weekend-round-up-amazons-leo-satellites-burrys-micron-short-metas-ai-developments-and-more",
+   "created_at": "2026-07-05T12:32:54Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/05/Micron-Logo-Displayed-On-A-Smartphone-Sc.jpg?width=1024&height=768"
   },
   {
    "headline": "Apple's Hardware Price Hikes, Elon Musk's SpaceX Denial, Epic Games Vs. Apple and More: This Week In Appleverse",
@@ -467,17 +479,6 @@
    "created_at": "2026-07-04T15:47:45Z",
    "symbols": [],
    "image": "https://cdn.benzinga.com/files/images/story/2026/07/04/French-Totalenergies-Fuel-And-Gas-Statio.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Under Which President Did Bitcoin Perform Best? The Answer May Surprise You",
-   "summary": "Benjamin Cowen says Bitcoin&#39;s performance under Donald Trump&#39;s second term closely mirrors its trajectory during Joe Biden&#39;s administration.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/07/60268619/under-which-president-did-bitcoin-perform-best-the-answer-may-surprise-you",
-   "created_at": "2026-07-04T14:47:45Z",
-   "symbols": [
-    "BTCUSD"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/04/Coins-Memcoin-Trump-Against-Other-Crypto.jpg?width=1024&height=768"
   }
  ]
 }
