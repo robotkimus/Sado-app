@@ -1,6 +1,21 @@
 {
- "updated": "2026-07-05 22:40",
+ "updated": "2026-07-05 23:01",
  "items": [
+  {
+   "headline": "Consumer Tech (June 29-July 2): Microsoft Announces Layoffs, Meta & Google Sued In Several States & More",
+   "summary": "Catch this week&#39;s biggest market-moving stories, including Nvidia&#39;s AI startup initiative, Tesla deliveries, Meta&#39;s legal challenges, Microsoft&#39;s layoffs, and Amazon&#39;s expanding AI",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/07/60269593/consumer-tech-june-29-july-2-microsoft-announces-layoffs-meta-google-sued-in-several-states-more",
+   "created_at": "2026-07-05T13:45:48Z",
+   "symbols": [
+    "AAPL",
+    "AMZN",
+    "AVAV",
+    "BABA",
+    "BOX"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/05/Modern-Data-Technology-Center-With-Serve.jpg?width=1024&height=768"
+  },
   {
    "headline": "Meta Platforms, SpaceX, Micron Technology and More: 5 Stocks Investors Couldn't Stop Buzzing About This Week",
    "summary": "Retail investors talked up five hot stocks in this week (June 29 to July 2) on X and Reddit&#39;s r/WallStreetBets: META, PLTR, MU, SPCX, AAPL.",
@@ -198,19 +213,15 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/07/03/Ai-And-Finance-Concept--Artificial-Intel.jpg?width=1024&height=768"
   },
   {
-   "headline": "XRP Crashed 70% in 1 Year While Ripple Was Doing Everything Right: What Happened?",
-   "summary": "XRP fell 70% from $3.65 despite Ripple&#39;s institutional wins as macro shocks, whale selling, and Bitcoin&#39;s gravity crushed the fundamentals.",
+   "headline": "This Week in Tesla: Tesla Stock Tumbles Despite Delivery Beat, New Model Y L and More",
+   "summary": "Mixed news for Tesla and Elon Musk as Q2 deliveries jump 25%, Ross Gerber comments on stock decline and Tesla launches new model.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/07/60266116/xrp-crashed-70-in-1-year-while-ripple-was-doing-everything-right-what-happened",
-   "created_at": "2026-07-03T15:01:08Z",
+   "url": "https://www.benzinga.com/markets/tech/26/07/60269583/this-week-in-tesla-tesla-stock-tumbles-despite-delivery-beat-new-model-y-l-and-more",
+   "created_at": "2026-07-05T13:43:57Z",
    "symbols": [
-    "BLK",
-    "BTCUSD",
-    "ETHUSD",
-    "MA",
-    "V"
+    "TSLA"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/03/Heres-What-XRP-Would-Have-Returned.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/05/Kaunas--Lithuania-2022---April-14-Tesla-.jpg?width=1024&height=768"
   },
   {
    "headline": "Weekend Round-Up: Tesla's Q2 Deliveries, Ford's EV Sales Dip, Lucid's CFO Change and More",
@@ -452,28 +463,6 @@
     "MSTR"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/07/04/Apex--North-Carolina---May-7-2025-Strate.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Bitcoin Price Attempts Recovery as ETF Outflows Suggest Rotation to Stocks",
-   "summary": "Bitcoin price is attempting its recovery this week as ETF outflows suggest that investors are rotating to the stock market amid the AI boom",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/26/07/60268771/bitcoin-price-attempts-recovery-as-etf-outflows-suggest-rotation-to-stocks",
-   "created_at": "2026-07-04T17:06:11Z",
-   "symbols": [
-    "BTCUSD",
-    "MSTR",
-    "VOO"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/04/Bitcoin-Cryptocurrency-Red-Light-Warning.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "France Deploys Naval Forces To Middle East To Support Europe’s Hormuz Policy Pivot",
-   "summary": "France has decided to bolster its naval forces in the Persian Gulf to secure navigation in one of the world’s most critical shipping routes.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/07/60268751/france-deploys-naval-forces-to-middle-east-to-support-europes-hormuz-policy-pivot",
-   "created_at": "2026-07-04T16:34:20Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/04/Navy-France--Flotilla-Of-French-Republic.jpg?width=1024&height=768"
   }
  ]
 }
