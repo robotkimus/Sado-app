@@ -1,6 +1,18 @@
 {
- "updated": "2026-07-05 17:01",
+ "updated": "2026-07-05 18:00",
  "items": [
+  {
+   "headline": "Aaron Levie Says AI Is Entering a 'Battle for Context,' Argues 'Applied AI Layer Has a Lot More Value Than Just Being an LLM Wrapper'",
+   "summary": "Aaron Levie believes that in the AI industry, success depends on capturing and applying context within real business workflows.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/07/60269287/aaron-levie-says-ai-is-entering-a-battle-for-context-argues-applied-ai-layer-has-a-lot-more-value-than-just-being-an-llm-wrapper",
+   "created_at": "2026-07-05T08:42:47Z",
+   "symbols": [
+    "BOX",
+    "META"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/05/Box-Headquarters-In-Redwood-City--Califo.jpg?width=1024&height=768"
+  },
   {
    "headline": "Data Center Leases Top $850 Billion as Meta, Microsoft, Oracle Lead Record AI Infrastructure Spending",
    "summary": "U.S. tech companies raised data center lease commitments to over $850 billion in the first quarter of 2026.",
@@ -198,17 +210,26 @@
    "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/insider_trade_2.jpg?width=1024&height=768"
   },
   {
-   "headline": "Palantir Thinks AI's Competitive Moat Is Moving Beyond OpenAI and Anthropic",
-   "summary": "An interview with Palantir CEO Alex Karp suggests the next AI competitive moat may lie in enterprise software rather than foundation models.",
+   "headline": "Jason Calacanis Calls Sundar Pichai 'an Amazing American,' Thanks Trump for Backing High-Skilled Immigration",
+   "summary": "Jason Calacanis praised Alphabet CEO Sundar Pichai and credited high skilled immigration with helping drive America&#39;s technology leadership.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/07/60266003/palantir-thinks-ais-competitive-moat-is-moving-beyond-openai-and-anthropic",
-   "created_at": "2026-07-03T14:30:40Z",
+   "url": "https://www.benzinga.com/news/politics/26/07/60269275/jason-calacanis-calls-sundar-pichai-an-amazing-american-thanks-trump-for-backing-high-skilled-immigration",
+   "created_at": "2026-07-05T08:27:13Z",
    "symbols": [
-    "NVDA",
-    "PLTR",
-    "SNOW"
+    "GOOG",
+    "GOOGL",
+    "TSLA"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/03/Bosnia-And-Hercegovina--Sarajevo--27-1-2.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/05/Sundar-Pichai.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "JD Vance Says Declaration of Independence's 'Self Evident' Truths Still Shape America",
+   "summary": "Vance highlights lasting significance of Declaration of Independence, saying its simple language shaped American identity without explanation.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/07/60269257/jd-vance-says-declaration-of-independences-self-evident-truths-still-shape-america",
+   "created_at": "2026-07-05T08:00:39Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/05/Washington-january-30-2025-Vice-Presiden.jpg?width=1024&height=768"
   },
   {
    "headline": "Trump Offers to Help Broker Ukraine Peace Deal in Nearly 90-Minute Call With Putin",
@@ -425,33 +446,6 @@
     "BTCUSD"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/07/04/Coins-Memcoin-Trump-Against-Other-Crypto.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Scott Bessent Dismisses Criticism of Trump's $1 Billion Crypto Windfall— Says There's No 'Appearance Problem' With it: 'This is an Innovation Presidency'",
-   "summary": "Scott Bessent defended Donald Trump&#39;s $1 billion-plus crypto earnings, dismissing conflict-of-interest concerns despite renewed scrutiny.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/07/60268266/scott-bessent-dismisses-criticism-of-trumps-1-billion-crypto-windfall-says-theres-no-appearance-problem-with-it-this-is-an-innovation-presidency",
-   "created_at": "2026-07-04T07:41:12Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/04/Us-Treasury-Secretary--Scott-Bessent-Wal.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Trump Has 'Promised' to Remove Colombian President Petro From US Sanctions List After Apparently Not Knowing He Was On it",
-   "summary": "Colombian President said President Donald Trump promised to act on removing him and his family from the U.S. Treasury OFAC sanctions list.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/07/60268253/trump-has-promised-to-remove-colombian-president-petro-from-us-sanctions-list-after-apparently-not-knowing-he-was-on-it",
-   "created_at": "2026-07-04T07:29:10Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/04/Rio-De-Janeiro--Brazil--November-19--202.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Trump Jokes He Mostly Reads 'Stories About Myself' During Appearance On Second Lady Usha Vance's Children's Podcast",
-   "summary": "Trump joked that he mostly reads &#34;stories about myself&#34; during an appearance on Second Lady Usha Vance&#39;s children&#39;s podcast.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/07/60268232/trump-jokes-he-mostly-reads-stories-about-myself-during-appearance-on-second-lady-usha-vances-childrens-podcast",
-   "created_at": "2026-07-04T06:46:59Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/04/Wilkes-barre--Pa---August-2--2018-Presid.jpg?width=1024&height=768"
   }
  ]
 }
