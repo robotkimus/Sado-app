@@ -1,6 +1,19 @@
 {
- "updated": "2026-07-06 07:01",
+ "updated": "2026-07-06 08:01",
  "items": [
+  {
+   "headline": "SCHD ETF Is Beating VOO and QQQ This Year Despite Limited AI Exposure",
+   "summary": "The SCHD ETF is doing better than S&amp;P 500&#39;s VOO and Nasdaq 100&#39;s QQQ this year despite having a limited exposure to the AI supercycle",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/etfs/sector-etfs/26/07/60270096/schd-etf-is-beating-voo-and-qqq-this-year-despite-limited-ai-exposure",
+   "created_at": "2026-07-05T22:16:41Z",
+   "symbols": [
+    "QQQ",
+    "SCHD",
+    "VOO"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/05/Wall-Street-Bull.jpg?width=1024&height=768"
+  },
   {
    "headline": "Top Three Catalysts That Could Move the S&P 500 and Dow This Week",
    "summary": "These are the top three catalysts that could move the S&amp;P 500 and Dow Jones this week, including falling crude oil prices and key earnings.",
@@ -204,15 +217,18 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/07/04/Syndication-USA-TODAY.jpg?width=1024&height=768"
   },
   {
-   "headline": "Mark Cuban Tells Local Communities AI Firms Need Data Centers More Than Air— So Make Them Pay: 'If They Do Any Documentable Damage...'",
-   "summary": "Cuban urged communities to crack down on AI data centers that cause environmental damage after a reported Meta contractor wastewater incident.",
+   "headline": "Goldman Sachs Names Top Undervalued Stocks to Buy Today",
+   "summary": "Goldman Sachs analysts have revealed some top undervalued stocks worth buying today, including popular names like NetEase and O&#39;Reilly",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/07/60268277/mark-cuban-tells-local-communities-ai-firms-need-data-centers-more-than-air-so-make-them-pay-if-they-do-any-documentable-damage",
-   "created_at": "2026-07-04T07:56:25Z",
+   "url": "https://www.benzinga.com/markets/equities/26/07/60270075/goldman-sachs-names-top-undervalued-stocks-to-buy-today",
+   "created_at": "2026-07-05T22:06:06Z",
    "symbols": [
-    "META"
+    "GS",
+    "NTES",
+    "ORLY",
+    "TW"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/04/Los-Angeles--Ca--March-11--2017-Business.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/05/Goldman-Sachs.jpg?width=1024&height=768"
   },
   {
    "headline": "Top Three Likely Outperformers BTIG Analysts Expect to Jump This Year",
@@ -434,24 +450,6 @@
    "created_at": "2026-07-05T08:00:39Z",
    "symbols": [],
    "image": "https://cdn.benzinga.com/files/images/story/2026/07/05/Washington-january-30-2025-Vice-Presiden.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Trump Offers to Help Broker Ukraine Peace Deal in Nearly 90-Minute Call With Putin",
-   "summary": "Trump offered to help broker a resolution to the Ukraine war during a nearly 90-minute call with Russian President Vladimir Putin on Saturday.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/07/60269231/trump-offers-to-help-broker-ukraine-peace-deal-in-nearly-90-minute-call-with-putin",
-   "created_at": "2026-07-05T06:50:06Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/05/Us-President-Donald-Trump-And-Russian-Pr.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Mark Kelly Marks 20th Anniversary of NASA's Only July 4 Shuttle Launch, Says 'Pretty Good Way to Spend Independence Day'",
-   "summary": "Mark Kelly reflects on historic STS-121 mission, the only shuttle launch on Independence Day. Proud of country&#39;s exploration achievements.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/space/26/07/60269220/mark-kelly-marks-20th-anniversary-of-nasas-only-july-4-shuttle-launch-says-pretty-good-way-to-spend-independence-day",
-   "created_at": "2026-07-05T06:45:37Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/05/NASA.jpg?width=1024&height=768"
   }
  ]
 }
