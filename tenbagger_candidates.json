@@ -1,4 +1,85 @@
 {
- "updated": "2026-07-06 22:01",
- "candidates": []
+ "updated": "2026-07-06 22:41",
+ "candidates": [
+  {
+   "symbol": "T",
+   "score": 7,
+   "price": 20.41,
+   "reasons": [
+    "52주고점 대비 -30%",
+    "RSI 28 과매도",
+    "PER 8(저평가)",
+    "PBR 1.3",
+    "그레이엄 기준 충족"
+   ]
+  },
+  {
+   "symbol": "CMCSA",
+   "score": 6,
+   "price": 23.61,
+   "reasons": [
+    "52주고점 대비 -27%",
+    "PER 6(저평가)",
+    "PBR 1.0",
+    "그레이엄 기준 충족"
+   ]
+  },
+  {
+   "symbol": "VZ",
+   "score": 4,
+   "price": 42.38,
+   "reasons": [
+    "RSI 34 과매도",
+    "PER 8(저평가)",
+    "그레이엄 기준 충족"
+   ]
+  },
+  {
+   "symbol": "F",
+   "score": 4,
+   "price": 13.6,
+   "reasons": [
+    "PER 7(저평가)",
+    "PBR 1.4",
+    "그레이엄 기준 충족"
+   ]
+  },
+  {
+   "symbol": "GM",
+   "score": 4,
+   "price": 77.05,
+   "reasons": [
+    "PER 5(저평가)",
+    "PBR 1.1",
+    "그레이엄 기준 충족"
+   ]
+  },
+  {
+   "symbol": "LUNR",
+   "score": 4,
+   "price": 19.45,
+   "reasons": [
+    "52주고점 대비 -57%",
+    "시총 $3.1B(소형)"
+   ]
+  },
+  {
+   "symbol": "RDW",
+   "score": 4,
+   "price": 11.39,
+   "reasons": [
+    "52주고점 대비 -56%",
+    "시총 $2.3B(소형)"
+   ]
+  },
+  {
+   "symbol": "PL",
+   "score": 4,
+   "price": 31.73,
+   "reasons": [
+    "52주고점 대비 -38%",
+    "시총 $11.3B(소형)"
+   ]
+  }
+ ]
 }
