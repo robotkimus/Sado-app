@@ -1,6 +1,20 @@
 {
- "updated": "2026-07-07 01:02",
+ "updated": "2026-07-07 02:02",
  "items": [
+  {
+   "headline": "Xbox in Chaos: Why Microsoft Just Axed 4,800 Jobs",
+   "summary": "MSFT stock falls 1% as Microsoft announces 4,800 job cuts, primarily hitting the Xbox division. Get the latest market update.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/07/60285905/worst-hardware-crisis-ever-why-microsoft-just-axed-4800-jobs",
+   "created_at": "2026-07-06T16:39:59Z",
+   "symbols": [
+    "EFIV",
+    "IWY",
+    "MSFT",
+    "VOOG"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/06/Xbox-shutterstock-2507081119.jpg?width=1024&height=768"
+  },
   {
    "headline": "The Chip Selloff Is A Bear Trap — These 7 Stocks Win The $1.5 Trillion AI Buildout",
    "summary": "Bank of America says the semiconductor selloff is a bear trap and names seven stocks poised to benefit from the $1.5 trillion AI buildout.",
@@ -188,19 +202,209 @@
    "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/earnings_preview_4.jpg?width=1024&height=768"
   },
   {
-   "headline": "US Tech Sector Pushes Back Against UK’s Child Safety Social Media Regulations",
-   "summary": "Britain’s plan to bar under‑16s from major social platforms has opened a new front in its increasingly strained relationship with Washington and the US tech sector.\n\n\n\nThe government has announced new",
+   "headline": "T-Mobile Gains After Analyst Calls the Market Too Bearish on Telecom Risks",
+   "summary": "T-Mobile US (NASDAQ: TMUS) stock rebounded over 2% after Bank of America upgraded the carrier to a Buy, calling the 15% year-to-date selloff a trough-valuation opportunity.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/Opinion/26/07/60272189/us-tech-sector-pushes-back-against-uk-child-safety-social-media-regulations",
-   "created_at": "2026-07-06T09:40:13Z",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/reiteration/26/07/60286605/t-mobile-gains-after-analyst-calls-the-market-too-bearish-on-telecom-risks",
+   "created_at": "2026-07-06T16:59:51Z",
    "symbols": [
-    "GOOGL",
-    "META",
-    "MSFT",
-    "RDDT",
-    "SNAP"
+    "BASV",
+    "FCOM",
+    "TMUS",
+    "XLC"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/06/UK-Flag.png?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/06/T-Mobile.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "What's Going on With Joby Aviation Stock Monday?",
+   "summary": "Joby Aviation, Inc. (NYSE: JOBY) stock jumps over 10%. Discover the key support and resistance levels to watch.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60286304/whats-going-on-with-joby-aviation-stock-monday",
+   "created_at": "2026-07-06T16:52:23Z",
+   "symbols": [
+    "JOBY",
+    "TM"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/06/Joby-Aviation-Logo-person-Holding-Smartp.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Dell Stock Rises After Trump Comments",
+   "summary": "Dell Technologies shares are surging Monday after President Donald Trump stood in the Oval Office and told people to buy a Dell computer.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60286278/dell-stock-rises-after-trump-comments",
+   "created_at": "2026-07-06T16:51:47Z",
+   "symbols": [
+    "DELL"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/06/Bucharest--Romania---16-03-2020-Close-up.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Here's How Much $1000 Invested In Lockheed Martin 15 Years Ago Would Be Worth Today",
+   "summary": "Lockheed Martin (NYSE:LMT) has outperformed the market over the past 15 years by 1.25% on an annualized basis producing an average annual return of 13.57%. Currently, Lockheed Martin has a market capi",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/07/60286123/here-s-how-much-1000-invested-lockheed-martin-15-years-ago-would-be-worth-today",
+   "created_at": "2026-07-06T16:47:44Z",
+   "symbols": [
+    "LMT"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_1.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Micron, Ford Deal Locks In Long-Term Memory Supply",
+   "summary": "Micron shares climbed after securing a strategic supply agreement with Ford backed by expanded DRAM production in Virginia.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/large-cap/26/07/60286084/micron-ford-deal-locks-in-long-term-memory-supply",
+   "created_at": "2026-07-06T16:46:10Z",
+   "symbols": [
+    "DAX",
+    "F",
+    "MU",
+    "SOXQ",
+    "SPMO"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/06/Micron-Logo-Displayed-On-A-Smartphone-Sc.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "TeraWulf Soars On $19 Billion Anthropic AI Infrastructure Deal",
+   "summary": "TeraWulf shares rose after signing a 20-year lease with Anthropic expected to generate $19 billion in contracted AI infrastructure revenue.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60285976/terawulf-soars-on-19-billion-anthropic-ai-infrastructure-deal",
+   "created_at": "2026-07-06T16:41:53Z",
+   "symbols": [
+    "BITQ",
+    "DAPP",
+    "WGMI",
+    "WULF"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/06/TeraWulf-Konskie--Poland---August-03--20.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Why Is Lemonade Stock Surging On Monday?",
+   "summary": "Lemonade stock surges on Monday after announcing a highly favorable reinsurance program renewal that lowers quota share cession to 18%.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60285785/why-is-lemonade-stock-surging-on-monday",
+   "created_at": "2026-07-06T16:35:31Z",
+   "symbols": [
+    "LMND"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/06/Businessmen-Investor-Stock-Market-Value-.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Here’s How Much You Would Have Made Owning Enphase Energy Stock In The Last 10 Years",
+   "summary": "Enphase Energy (NASDAQ:ENPH) has outperformed the market over the past 10 years by 23.05% on an annualized basis producing an average annual return of 36.38%. Currently, Enphase Energy has a market ca",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/07/60285672/here-s-how-much-you-would-have-made-owning-enphase-energy-stock-last-10-years",
+   "created_at": "2026-07-06T16:32:39Z",
+   "symbols": [
+    "ENPH"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_2.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Formula One Stock has ‘Significant Runaway For Growth’",
+   "summary": "Formula One has more sponsorship and licensing opportunities ahead, according to a new analyst report.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/07/60285430/formula-one-stock-has-significant-runaway-for-growth",
+   "created_at": "2026-07-06T16:24:39Z",
+   "symbols": [
+    "FWONA",
+    "FWONK"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/06/International-Markets-Make-Strategic-Sen.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Ripple Gets Full Regulatory Approval in EU: So Why's XRP Stuck At $1.15?",
+   "summary": "Ripple secures full MiCA authorization in Luxembourg, unlocking crypto services across 30 EEA countries as Binance is left without a license.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/07/60285354/ripple-gets-full-regulatory-approval-in-eu-so-whys-xrp-stuck-at-1-15",
+   "created_at": "2026-07-06T16:21:46Z",
+   "symbols": [
+    "COIN",
+    "XRPUSD"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/06/Heres-What-XRP-Would-Have-Returned.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "AI Power Demand Fuels New ETF: MWHS Brings Electricity Futures to Wall Street",
+   "summary": "The new Skylar Electricity Futures ETF (MWHS) launches, offering exposure to U.S. electricity futures as AI-driven power demand accelerates.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/etfs/new-etfs/26/07/60285271/ai-power-demand-fuels-new-etf-mwhs-electricity-futures-wall-street",
+   "created_at": "2026-07-06T16:18:48Z",
+   "symbols": [
+    "MWHS"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/06/High-Power-Electricity-grid.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "$100 Invested In iShares Russell 1000 Growth Fund 15 Years Ago Would Be Worth This Much Today",
+   "summary": "iShares Russell 1000 Growth Fund (NYSE:IWF) has outperformed the market over the past 15 years by 2.63% on an annualized basis producing an average annual return of 14.95%. Currently, iShares Russell ",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/07/60285151/100-invested-ishares-russell-1000-growth-fund-15-years-ago-would-be-worth-much-today",
+   "created_at": "2026-07-06T16:15:37Z",
+   "symbols": [
+    "IWF"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_3.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "What's Driving Palo Alto Networks Stock Higher as AI Security Spending Expands?",
+   "summary": "Palo Alto Networks shares are trading higher Monday afternoon as bullish analyst commentary keeps attention on AI-driven cybersecurity demand and the company’s recent CyberArk deal.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60285028/whats-driving-palo-alto-networks-stock-higher-as-ai-security-spending-expands",
+   "created_at": "2026-07-06T16:12:29Z",
+   "symbols": [
+    "PANW"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/06/Palo-AltoSanta-Clara--Ca--Usa---Apr-28--.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Autoliv Stock Rises As Great Wall Motor Deal Adds Global Growth Angle",
+   "summary": "Autoliv stock rises after a GWM partnership as investors watch earnings, analyst targets and weaker momentum signals.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/07/60284794/autoliv-stock-rises-as-great-wall-motor-deal-adds-global-growth-angle",
+   "created_at": "2026-07-06T16:07:25Z",
+   "symbols": [
+    "ALV"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/06/October-9--2020--Brazil--In-This-Photo-I.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Gold Moves Higher; ISM Services PMI Eases In June",
+   "summary": "The Dow fell 0.07% to 52,861.61 while the NASDAQ rose 1.36% to 26,183.03. Tech shares jumped 2% but consumer staples fell 1.9%. ISM services PMI declined to 54.0 in June.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/market-summary/26/07/60284611/gold-moves-higher-ism-services-pmi-eases-in-june",
+   "created_at": "2026-07-06T16:02:36Z",
+   "symbols": [
+    "ALAR",
+    "AXTI",
+    "KIDZ",
+    "REE",
+    "SOLS"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/06/Tallinn--Estonia---August-4th-2023---Scr.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Corning's AI Opportunity Is Only Getting Started: Analyst",
+   "summary": "BofA raises Corning (GLW) price target to $243, citing strong AI infrastructure demand and Optical Communications growth. Buy reiterated.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/07/60284610/cornings-ai-opportunity-is-only-getting-started-analyst",
+   "created_at": "2026-07-06T16:02:36Z",
+   "symbols": [
+    "GLW",
+    "LUMN"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/06/Person-Holding-Mobile-Phone-Displaying-C.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "IBM Stock Jumps as BofA Securities Flags Strong Q2, Potential 2026 Guidance Hike",
+   "summary": "BofA Securities boosts IBM price objective to $330, citing improving software mix and Confluent synergies ahead of fiscal Q2 earnings.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/07/60284598/ibm-stock-jumps-as-bofa-securities-flags-strong-q2-potential-2026-guidance-hike",
+   "created_at": "2026-07-06T16:02:18Z",
+   "symbols": [
+    "IBM"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/06/Dusseldorf--North-Rhine-westphalia--Germ.jpg?width=1024&height=768"
   },
   {
    "headline": "Here's How Much $100 Invested In ExxonMobil Holdings 5 Years Ago Would Be Worth Today",
@@ -300,214 +504,6 @@
     "XTL"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/07/06/Stuttgart--Germany---08-28-2025-Person-H.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "What's Going on With Arm Holdings Stock Monday?",
-   "summary": "ARM stock climbs 5% on Monday. Is Arm Holdings still a Buy? Check out the latest technical analysis, earnings outlook, and price targets.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/07/60283228/whats-going-on-with-arm-holdings-stock-monday-2",
-   "created_at": "2026-07-06T15:25:12Z",
-   "symbols": [
-    "AIPI",
-    "ARM",
-    "FPXI",
-    "SMHX"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/06/Arm-Holdings.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Calibercos Stock Slides as Chainlink Rally Quickly Loses Steam",
-   "summary": "CaliberCos Stock falls as the Chainlink rally fades, with investors watching key levels and execution beyond the headline.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/07/60283211/calibercos-stock-slides-as-chainlink-rally-quickly-loses-steam",
-   "created_at": "2026-07-06T15:24:52Z",
-   "symbols": [
-    "CWD"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/06/Business-Financial-Crisis--Stock-Market-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "TeraWulf and IREN Just Joined Anthropic's Growing Club of Former Bitcoin Miners",
-   "summary": "TeraWulf and IREN are the latest former Bitcoin miners tied to Anthropic&#39;s AI expansion, joining Hut 8 in a growing infrastructure trend.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60283173/terawulf-and-iren-just-joined-anthropics-growing-club-of-former-bitcoin-miners",
-   "created_at": "2026-07-06T15:23:44Z",
-   "symbols": [
-    "BTCUSD",
-    "HUT",
-    "IREN",
-    "WULF"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/06/Anthropic-logo-with-CEO-Dario-Amodei-in-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "What's Driving Strength in SoFi Stock?",
-   "summary": "SoFi shares are trading higher on Monday as investors digest operational developments that expand the company’s lending footprint.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60283053/whats-driving-strength-in-sofi-stock",
-   "created_at": "2026-07-06T15:20:03Z",
-   "symbols": [
-    "SOFI"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/06/San-Francisco--Ca--Usa---May-1--2022-Sof.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Nearly 1 Million Investors Lost $3.8 Billion on TRUMP Meme Coin, Blockchain Investigation Alleges",
-   "summary": "According to a report from Nansen, nearly 989,000 wallets holding Official Trump were collectively down $3.81 billion by the end of June, while Donald Trump reportedly earned about $636 million from t",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/07/60282892/nearly-1-million-investors-lost-3-8-billion-on-trump-meme-coin-blockchain-investigation-alleges",
-   "created_at": "2026-07-06T15:15:27Z",
-   "symbols": [
-    "TRUMPUSD"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/06/Trump-Made-57M-From-USD1-Firm--Denies-Me.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "$100 Invested In SPDR Gold Shares 5 Years Ago Would Be Worth This Much Today",
-   "summary": "SPDR Gold Shares (NYSE:GLD) has outperformed the market over the past 5 years by 6.06% on an annualized basis producing an average annual return of 17.55%. Currently, SPDR Gold Shares has a market cap",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/07/60282879/100-invested-spdr-gold-shares-5-years-ago-would-be-worth-much-today",
-   "created_at": "2026-07-06T15:15:16Z",
-   "symbols": [
-    "GLD"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_1.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Novartis Scoops up UK Biotech Myricx in $1.5 Billion Cancer Push",
-   "summary": "Novartis acquires Myricx Bio for up to $1.5B to boost its oncology pipeline with a novel next-gen ADC cancer platform. Read more.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/m-a/26/07/60282819/novartis-scoops-up-uk-biotech-myricx-in-1-5-billion-cancer-push",
-   "created_at": "2026-07-06T15:13:20Z",
-   "symbols": [
-    "NVS"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/06/Novartis--AG.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "What's Going on With PayPal Stock Monday?",
-   "summary": "PayPal falls near 3% as long-term moving averages flash bearish signals. Explore the key PYPL support and resistance levels.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60282535/whats-going-on-with-paypal-stock-monday",
-   "created_at": "2026-07-06T15:05:40Z",
-   "symbols": [
-    "BLOK",
-    "FDN",
-    "IPAY",
-    "PYPL"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/06/London--Uk---August-2021-Paypal-Finance-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Here's How Much $100 Invested In Invesco NASDAQ 100 ETF 5 Years Ago Would Be Worth Today",
-   "summary": "Invesco NASDAQ 100 ETF (NASDAQ:QQQM) has outperformed the market over the past 5 years by 3.53% on an annualized basis producing an average annual return of 15.0%. Currently, Invesco NASDAQ 100 ETF ha",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/07/60282295/here-s-how-much-100-invested-invesco-nasdaq-100-etf-5-years-ago-would-be-worth-today",
-   "created_at": "2026-07-06T15:00:13Z",
-   "symbols": [
-    "QQQM"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_2.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Why Did Core Natural Resources Stock Gain After DOE Grant?",
-   "summary": "Core Natural Resources gains after DOE grant selection as investors watch rare earth potential, key levels and August earnings.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60282218/why-did-core-natural-resources-stock-gain-after-doe-grant",
-   "created_at": "2026-07-06T14:58:26Z",
-   "symbols": [
-    "CNR",
-    "COAL",
-    "PSCE",
-    "XME"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/06/rare-earth-elements.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "EXCLUSIVE: Caterpillar Stock The ‘Gold Standard’ For AI, Market Expert Says ‘Pick And Shovels’ Play For Data Centers",
-   "summary": "Caterpillar stock has soared in 2026, a move that could be connected to the AI trade. Here&#39;s what one market expert tells Benzinga.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/07/60282215/caterpillar-stock-gold-standard-for-ai-market-expert-says-pick-and-shovels-play-for-data-centers",
-   "created_at": "2026-07-06T14:58:17Z",
-   "symbols": [
-    "CAT",
-    "DY",
-    "FIX",
-    "MTZ",
-    "URI"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/06/Caterpillar--Kuala-Lumpur--Malaysia---Ja.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Why ZIM Stock Is Falling on Hapag-Lloyd Merger Update",
-   "summary": "ZIM Integrated Shipping shares dropped as merger discussions with Hapag-Lloyd move through regulatory review stages ahead of a 2026 close.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60281802/why-zim-stock-is-falling-on-hapag-lloyd-merger-update",
-   "created_at": "2026-07-06T14:46:04Z",
-   "symbols": [
-    "ZIM"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/06/Odessa--Ukraine---August-16-2019-Transpo.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Bitmine Bought $74M in ETH as Strategy Sold $216M in BTC: What Is Happening?",
-   "summary": "Bitmine buys 42,197 ETH for $74M, reaching 95% of its 5% supply target as Strategy sells Bitcoin to fund dividends in the opposite direction.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/07/60281395/bitmine-bought-74m-in-eth-as-strategy-sold-216m-in-btc-what-is-happening",
-   "created_at": "2026-07-06T14:37:13Z",
-   "symbols": [
-    "BMNR",
-    "ETHUSD",
-    "MSTR",
-    "ORBS"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/06/The-Bitmine-Immersion-Trade.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "AdaptHealth Flags Material Breach After Threat Actor Accessed Patient Management Systems",
-   "summary": "AdaptHealth disclosed a material cyberattack involving patient data and insurance billing passwords while saying operations remain unaffected.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/health-care/26/07/60281288/adapthealth-flags-material-breach-after-threat-actor-accessed-patient-management-systems",
-   "created_at": "2026-07-06T14:34:50Z",
-   "symbols": [
-    "AHCO",
-    "NVO"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/06/Mental-Health-Leaves-Surge-Among-Employe.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Sadot Group Shares Rally Despite Fugazi Short Report: 'Zero Fundamental Value'",
-   "summary": "Sadot Group shares are trading higher Monday morning, even after Fugazi Research published a short report calling the company “uninvestable” and assigning the stock “zero fundamental value.”",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60281111/sadot-group-shares-rally-despite-fugazi-short-report-zero-fundamental-value",
-   "created_at": "2026-07-06T14:31:07Z",
-   "symbols": [
-    "SDOT"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/06/Trading-Investment-Charts--Investment-Fi.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "If You Invested $100 In iShares Silver Trust Stock 5 Years Ago, You Would Have This Much Today",
-   "summary": "iShares Silver Trust (NYSE:SLV) has outperformed the market over the past 5 years by 6.75% on an annualized basis producing an average annual return of 18.21%. Currently, iShares Silver Trust has a ma",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/07/60281074/if-you-invested-100-ishares-silver-trust-stock-5-years-ago-you-would-have-much-today",
-   "created_at": "2026-07-06T14:30:14Z",
-   "symbols": [
-    "SLV"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_3.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Greg Abel's Berkshire Exit From Constellation Brands Looks Timely As STZ Stock Flashes Death Cross",
-   "summary": "Constellation Brands beat earnings, but the STZ stock formed a Death Cross. Here&#39;s why Greg Abel&#39;s Berkshire exit is drawing attention.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/technicals/26/07/60280945/greg-abels-berkshire-exit-from-constellation-brands-timely-stz-stock-death-cross",
-   "created_at": "2026-07-06T14:27:42Z",
-   "symbols": [
-    "BRK",
-    "STZ"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/06/Los-Angeles--California--United-States--.jpg?width=1024&height=768"
   }
  ]
 }
