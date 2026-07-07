@@ -1,6 +1,19 @@
 {
- "updated": "2026-07-07 15:01",
+ "updated": "2026-07-07 16:01",
  "items": [
+  {
+   "headline": "Elon Musk Says Optimus, AI Will Enable 'Excellent' Healthcare—Cathie Wood Sees $50 Billion AI Compute Need",
+   "summary": "Tesla CEO Elon Musk believes robots &amp; AI will revolutionize healthcare in the future, while ARK touts $50 billion investment.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/07/60296473/elon-musk-optimus-ai-enable-excellent-healthcare-cathie-wood-50-billion-compute",
+   "created_at": "2026-07-07T06:30:20Z",
+   "symbols": [
+    "MSFT",
+    "ORCL",
+    "TSLA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/07/National-Harbor--Md--Usa--February-20-20.jpg?width=1024&height=768"
+  },
   {
    "headline": "Michael Burry Fires Back at AI Bear Critic: 'Most People Think in Three Dimensions. Bears Think in Six'",
    "summary": "Michael Burry said investors often misunderstand bears after an analyst questioned whether AI skeptics understand the technology.",
@@ -197,19 +210,93 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/07/06/Xbox-shutterstock-2507081119.jpg?width=1024&height=768"
   },
   {
-   "headline": "The Chip Selloff Is A Bear Trap — These 7 Stocks Win The $1.5 Trillion AI Buildout",
-   "summary": "Bank of America says the semiconductor selloff is a bear trap and names seven stocks poised to benefit from the $1.5 trillion AI buildout.",
+   "headline": "Trump Touts Walmart Price Cuts on White House Request to Mark America 250, Pushes Other Retailers to Follow 'Absolute Patriots'",
+   "summary": "Trump says Walmart will cut prices, including on ground beef, to mark America&#39;s 250th anniversary, urging other retailers to follow.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/07/60284519/chip-stocks-bear-trap-1-5-trillion-ai-buildout",
-   "created_at": "2026-07-06T16:00:05Z",
+   "url": "https://www.benzinga.com/news/politics/26/07/60296613/trump-touts-walmart-price-cuts-on-white-house-request-to-mark-america-250-pushes-other-retailers-to-follow-absolute-patriots",
+   "created_at": "2026-07-07T06:49:32Z",
    "symbols": [
-    "AMAT",
-    "AMD",
-    "CRDO",
-    "LRCX",
-    "MRVL"
+    "JBS",
+    "TSN",
+    "WMT"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/06/Businessman-Holding-Hologram-Ai-Chat-Sys.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/07/Nov-23--2019-Mountain-View--Ca-Usa---Peo.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Bonk Nosedives 8% After Attackers Rob $20 Million From Memecoin's Treasury — BonkDAO Says it's Working to 'Recover Funds'",
+   "summary": "Bonk plummeted on Monday, July 6, after hackers drained nearly $20 million worth of the memecoin from the project’s treasury.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/07/60296482/solana-based-bonk-nosedives-8-after-attackers-rob-20-million-from-memecoins-treasury-bonkdao",
+   "created_at": "2026-07-07T06:31:03Z",
+   "symbols": [
+    "BONKUSD",
+    "SOLUSD"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/07/Bonk-Coin-Cryptocurrency-Image-On-Digita.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "M&T Bank Likely To Report Higher Q2 Earnings; These Most Accurate Analysts Revise Forecasts Ahead Of Earnings Call",
+   "summary": "M&amp;T Bank (NYSE: MTB) to release Q2 earnings report on July 15, expected earnings of $4.67/share. Latest analyst ratings show mixed outlook.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/07/60296461/m-these-most-accurate-analysts-revise-forecasts-ahead-of-earnings-call-3",
+   "created_at": "2026-07-07T06:26:40Z",
+   "symbols": [
+    "MTB"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/07/Analyst-Works-On-Personal-Computer-Showi.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Fiserv Stock (FISV) Is Trending Overnight: Here's Why",
+   "summary": "Fiserv stock jumped after Reuters reported the company is exploring a sale of its STAR debit card network.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/07/60296437/fiserv-stock-fisv-is-trending-overnight-heres-why",
+   "created_at": "2026-07-07T06:22:39Z",
+   "symbols": [
+    "BAC",
+    "FISV",
+    "JPM",
+    "PFG",
+    "WFC"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/07/Trade-And-Finance-Concept--Dark-Forex-Ch.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Jim Cramer Calls Corona Beer Maker Constellation Brands a 'Steal' After Stock Drop",
+   "summary": "Jim Cramer calls Constellation Brands (STZ) a &#34;steal&#34; after its recent stock drop. Discover why he says the beverage giant is a strong buy.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/07/60296428/jim-cramer-calls-corona-beer-maker-constellation-brands-steal-after-stock-drop",
+   "created_at": "2026-07-07T06:22:21Z",
+   "symbols": [
+    "BRK",
+    "STZ"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/07/Constellation-Brands.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Can Fed Chair Kevin Warsh Ease the Squeeze? Small-Cap Debt Costs Hit 6-Year High",
+   "summary": "U.S. small-cap companies face their heaviest interest burden in six years as investors assess the Fed&#39;s rate path under Kevin Warsh.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/small-cap/26/07/60296343/can-fed-chair-kevin-warsh-ease-the-squeeze-small-cap-debt-costs-hit-6-year-high",
+   "created_at": "2026-07-07T06:08:34Z",
+   "symbols": [
+    "BE",
+    "CRDO",
+    "FN",
+    "IJR",
+    "IWM"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/07/Federal-Reserve-Chair-Kevin-Warsh-Delive.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Aligos Therapeutics Stock Is Trending Overnight: Here's What's Going On With ALGS Stock",
+   "summary": "Aligos Therapeutics stock rose in after-hours trading after a $25 million licensing payment and China Breakthrough Therapy designation.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/07/60296293/aligos-therapeutics-stock-is-trending-overnight-heres-whats-going-on-with-algs-stock",
+   "created_at": "2026-07-07T06:01:00Z",
+   "symbols": [
+    "ALGS"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/07/Planning-And-Strategy--Stock-Market--Bus.jpg?width=1024&height=768"
   },
   {
    "headline": "Anthropic's Mythos AI Reportedly Helping Find Weaknesses in US Government Software After Surviving Trump Admin Clash",
@@ -412,91 +499,6 @@
     "KTOS"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_1.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Congressman on Armed Services Committee Buys SpaceX Stock: Why the Trade Could Spark Backlash",
-   "summary": "A congressman on the Armed Services committee bought SpaceX stock shortly after IPO. Why the trade is drawing red flags.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/07/60294762/congressman-on-armed-services-committee-buys-spacex-stock-why-the-trade-could-spark-backlash",
-   "created_at": "2026-07-06T21:53:39Z",
-   "symbols": [
-    "SPCX"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/06/Elon-Shadow-SPCX-SpaceX---EK.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Rivian Stock Gets Rocked After the Bell: Here's Why",
-   "summary": "Rivian Automotive (NASDAQ:RIVN) shares are tumbling in extended trading Monday after the company announced a public offering.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60294725/rivian-stock-gets-rocked-after-the-bell-heres-why",
-   "created_at": "2026-07-06T21:48:41Z",
-   "symbols": [
-    "RIVN"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/06/Close-Up-Of-Rivian-Outdoor-Sign.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "If You Invested $1000 In T-Mobile US Stock 10 Years Ago, You Would Have This Much Today",
-   "summary": "T-Mobile US (NASDAQ:TMUS) has outperformed the market over the past 10 years by 2.01% on an annualized basis producing an average annual return of 15.34%. Currently, T-Mobile US has a market capitaliz",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/07/60294662/if-you-invested-1000-t-mobile-us-stock-10-years-ago-you-would-have-much-today",
-   "created_at": "2026-07-06T21:45:12Z",
-   "symbols": [
-    "TMUS"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_2.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Bitcoin's Role In Geopolitics Is Growing: Self-Custody May Be Why",
-   "summary": "Speakers at BTC Prague argued that Bitcoin&#39;s greatest strength is self-custody, with author Natalie Brunell describing it as a neutral, permissionless technology accessible to both individuals and",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/07/60294333/bitcoins-role-in-geopolitics-is-growing-self-custody-may-be-why",
-   "created_at": "2026-07-06T21:22:23Z",
-   "symbols": [
-    "BTCUSD"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/06/Cryptocurrency--Focus-Bitcoin-On-Tablet.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "If You Invested $1000 In IBM Stock 5 Years Ago, You Would Have This Much Today",
-   "summary": "IBM (NYSE:IBM) has outperformed the market over the past 5 years by 5.73% on an annualized basis producing an average annual return of 17.25%. Currently, IBM has a market capitalization of $280.89 bil",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/07/60294208/if-you-invested-1000-ibm-stock-5-years-ago-you-would-have-much-today",
-   "created_at": "2026-07-06T21:15:22Z",
-   "symbols": [
-    "IBM"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_1.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "11 Consumer Discretionary Stocks Moving In Monday's After-Market Session",
-   "summary": "Gainers\n\nJinxin Technology Holding (NASDAQ:NAMI) shares increased by 6.7% to $3.67 during Monday&#39;s after-market session. The company&#39;s market cap stands at $287.0 million. \nRedCloud Holdings (",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60293938/11-consumer-discretionary-stocks-moving-monday-s-after-market-session",
-   "created_at": "2026-07-06T21:05:35Z",
-   "symbols": [
-    "EPSM",
-    "KIDZ",
-    "KNDI",
-    "LOBO",
-    "NAMI"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_1.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "12 Health Care Stocks Moving In Monday's After-Market Session",
-   "summary": "Gainers\n\nVicore Pharma Holding (NASDAQ:VCRE) stock rose 149.8% to $42.47 during Monday&#39;s after-market session. \nCrinetics Pharmaceuticals (NASDAQ:CRNX) stock moved upwards by 99.85% to $84.0. The ",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60293937/12-health-care-stocks-moving-monday-s-after-market-session",
-   "created_at": "2026-07-06T21:05:35Z",
-   "symbols": [
-    "AKTS",
-    "ALGS",
-    "BJDX",
-    "CELU",
-    "CPHI"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_1.jpg?width=1024&height=768"
   }
  ]
 }
