@@ -1,6 +1,6 @@
 {
- "updated": "2026-07-08 05:03",
- "equity": 98519.58,
+ "updated": "2026-07-08 06:02",
+ "equity": 98494.2,
  "cash": 70931.55,
  "base": 100000.0,
  "positions": [
@@ -8,7 +8,7 @@
    "symbol": "AMZN",
    "qty": 5.0,
    "avg_cost": 239.57,
-   "now": 245.7671,
+   "now": 245.6841,
    "pnl_pct": 2.6,
    "peak_pnl_pct": 2.9,
    "drawdown_from_peak_pct": -0.3,
@@ -18,12 +18,12 @@
   },
   {
    "symbol": "AVGO",
-   "qty": 14.3108,
-   "avg_cost": 367.954918,
-   "now": 371.0,
-   "pnl_pct": 0.8,
+   "qty": 15.9382,
+   "avg_cost": 368.265841,
+   "now": 370.7,
+   "pnl_pct": 0.7,
    "peak_pnl_pct": 1.2,
-   "drawdown_from_peak_pct": -0.4,
+   "drawdown_from_peak_pct": -0.5,
    "trailing_stop_triggered": false,
    "is_tenbagger": false,
    "stoploss_triggered": false
@@ -43,11 +43,11 @@
   {
    "symbol": "ETH-USD",
    "qty": 3.10323661,
-   "avg_cost": 1562.455874661,
-   "now": 1788.63,
-   "pnl_pct": 14.5,
+   "avg_cost": 0.0,
+   "now": 1779.69,
+   "pnl_pct": 0.0,
    "peak_pnl_pct": 15.6,
-   "drawdown_from_peak_pct": -1.1,
+   "drawdown_from_peak_pct": -15.6,
    "trailing_stop_triggered": false,
    "is_tenbagger": false,
    "stoploss_triggered": false
@@ -56,10 +56,10 @@
    "symbol": "IGV",
    "qty": 2.0,
    "avg_cost": 85.1,
-   "now": 93.86,
-   "pnl_pct": 10.3,
+   "now": 94.35,
+   "pnl_pct": 10.9,
    "peak_pnl_pct": 12.6,
-   "drawdown_from_peak_pct": -2.3,
+   "drawdown_from_peak_pct": -1.7,
    "trailing_stop_triggered": false,
    "is_tenbagger": false,
    "stoploss_triggered": false
@@ -68,10 +68,10 @@
    "symbol": "LABU",
    "qty": 1.0,
    "avg_cost": 264.56,
-   "now": 322.62,
-   "pnl_pct": 21.9,
+   "now": 322.75,
+   "pnl_pct": 22.0,
    "peak_pnl_pct": 22.1,
-   "drawdown_from_peak_pct": -0.2,
+   "drawdown_from_peak_pct": -0.1,
    "trailing_stop_triggered": false,
    "is_tenbagger": false,
    "stoploss_triggered": false
@@ -80,10 +80,10 @@
    "symbol": "META",
    "qty": 2.0,
    "avg_cost": 557.685,
-   "now": 614.0033,
-   "pnl_pct": 10.1,
+   "now": 615.03,
+   "pnl_pct": 10.3,
    "peak_pnl_pct": 11.1,
-   "drawdown_from_peak_pct": -1.0,
+   "drawdown_from_peak_pct": -0.8,
    "trailing_stop_triggered": false,
    "is_tenbagger": false,
    "stoploss_triggered": false
@@ -92,10 +92,10 @@
    "symbol": "MSFT",
    "qty": 4.0,
    "avg_cost": 367.5625,
-   "now": 388.74,
-   "pnl_pct": 5.8,
+   "now": 389.13,
+   "pnl_pct": 5.9,
    "peak_pnl_pct": 7.2,
-   "drawdown_from_peak_pct": -1.4,
+   "drawdown_from_peak_pct": -1.3,
    "trailing_stop_triggered": false,
    "is_tenbagger": false,
    "stoploss_triggered": false
@@ -104,10 +104,10 @@
    "symbol": "NVDA",
    "qty": 8.0,
    "avg_cost": 196.105,
-   "now": 197.02,
-   "pnl_pct": 0.5,
+   "now": 196.6,
+   "pnl_pct": 0.3,
    "peak_pnl_pct": 0.8,
-   "drawdown_from_peak_pct": -0.3,
+   "drawdown_from_peak_pct": -0.5,
    "trailing_stop_triggered": false,
    "is_tenbagger": false,
    "stoploss_triggered": false
@@ -116,7 +116,7 @@
    "symbol": "QQQ",
    "qty": 2.0,
    "avg_cost": 729.51,
-   "now": 709.68,
+   "now": 710.0,
    "pnl_pct": -2.7,
    "peak_pnl_pct": -2.2,
    "drawdown_from_peak_pct": -0.5,
@@ -128,10 +128,10 @@
    "symbol": "SOXX",
    "qty": 9.0,
    "avg_cost": 558.336667,
-   "now": 551.888,
-   "pnl_pct": -1.2,
+   "now": 552.57,
+   "pnl_pct": -1.0,
    "peak_pnl_pct": -0.8,
-   "drawdown_from_peak_pct": -0.4,
+   "drawdown_from_peak_pct": -0.2,
    "trailing_stop_triggered": false,
    "is_tenbagger": false,
    "stoploss_triggered": false
@@ -140,10 +140,10 @@
    "symbol": "TNA",
    "qty": 5.0,
    "avg_cost": 74.03,
-   "now": 71.78,
-   "pnl_pct": -3.0,
+   "now": 71.73,
+   "pnl_pct": -3.1,
    "peak_pnl_pct": -1.6,
-   "drawdown_from_peak_pct": -1.4,
+   "drawdown_from_peak_pct": -1.5,
    "trailing_stop_triggered": false,
    "is_tenbagger": false,
    "stoploss_triggered": false
@@ -152,10 +152,10 @@
    "symbol": "TQQQ",
    "qty": 3.0,
    "avg_cost": 74.763333,
-   "now": 72.2701,
-   "pnl_pct": -3.3,
+   "now": 72.39,
+   "pnl_pct": -3.2,
    "peak_pnl_pct": -1.8,
-   "drawdown_from_peak_pct": -1.5,
+   "drawdown_from_peak_pct": -1.4,
    "trailing_stop_triggered": false,
    "is_tenbagger": false,
    "stoploss_triggered": false
@@ -173,158 +173,33 @@
    "stoploss_triggered": false
   }
  ],
- "trades": [
-  "🔴 매수 🌙애프터 AVGO 2.6274주 (~$974) — 주도 섹터 반도체 내 대형 우량주, MA20선까지 눌렸으며 holy_grail long_setup 신호 확인, 추세추종 진입",
-  "⛔ MU 건너뜀 (잘못된 주문)"
- ],
- "market_view": "🤝 합의: AVGO 매수(DeepSeek주도·소량), MU 매수(DeepSeek주도·소량), TSLQ 매도 보류(DeepSeek만·손절선 위) | Claude: 시장 국면은 중립/혼조(SPY MA20 대비 +0.9%, VIX 16.3)로 뚜렷한 방향성 없음. 주도 섹터는 바이오(XBI +27.3%)·헬스케어·금융이며, 기술·반도체는 소외(QQQ·SOXX MA20 하회). SOXX·SMH가 오늘 각각 -5.1%·-3.8% 급락했으나 아직 구름 위(above)를 유지 중이고 disparity가 -7.6%·-6.1%로 BNF 기준(−10%)에 못 미치며 반등 신호도 약함(rebound 2~3%, MA5 회복 미확인)으로 추가 확인 대기. 보유 포지션 전반 손절선(-7%, 레버리지 -5%) 미도달로 홀드 유지. LABU는 +21.9%·RSI 80·구름 위 +81.7%로 추세가 살아있고 트레일링 고점 대비 -0.2%p에 불과해 홀드 지속. 애프터마켓 세션 특성상 신규 매수는 보수적으로 판단하며, 반도체 반등 신호가 정규장에서 명확히 확인될 때까지 현금($71,906) 유지 및 관망이 최선으로 판단. | DeepSeek: 오늘 시장은 상승·중립 국면으로 판단, 주도 섹터 반도체의 강한 추세가 유지되며 눌림목 매수 기회 발생. AVGO는 holy_grail 신호로 최적 진입 타이밍, MU는 거래량 반등 확인되어 추세추종에 적합. 인버스 TSALQ는 하락 신호 소멸로 정리, 현금 비중 15% 내외로 적절히 유지하며 분산과 공격성을 균형. 추가 관종은 관망하며 기회를 기다림.",
+ "trades": [],
+ "market_view": "🤝 합의: 거래 없음 | Claude: 시장 국면은 중립/혼조이며 SPY는 MA20 위(+0.9%)로 나쁘지 않으나, 당일 하락 종목 72%·QQQ와 XLK가 MA20 아래로 빅테크·기술 섹터 조정이 진행 중이다. 주도 섹터는 바이오(XBI +27.4%)·헬스케어·금융이고, LABU는 이미 +22% 수익 중이며 RSI 80·disparity +38%로 과열 극단에 있어 신규 매수 불가(트레일링 스탑 미발동, 홀드 유지). SOXL은 오늘 -15% 급락에 rebound_from_low +10.8%로 반등 신호가 보이나 disparity -27.5%·구름 안·ADX 약하고 애프터마켓 특성상 호가가 얇아 확신 부족으로 관망한다. 보유 레버리지(TQQQ·TNA)는 -3%대로 손절선(-5%) 위이고 아직 추세 훼손이 확정적이지 않아 홀드하되, 추가 하락 시 빠르게 손절 검토할 것이다. 현금 $70,931(72%)으로 여유가 충분하니 좋은 자리가 명확히 올 때까지 기다리는 것이 최선이다. | DeepSeek: 오늘 시장은 중립 국면으로, 뚜렷한 방향성이 없어 관망이 최선이라고 판단했습니다. S&P 500과 나스닥은 20일선 위에서 횡보 중이나 거래량이 저조해 추세추종 진입을 확신하기 어렵고, 과매도 종목도 반등 신호가 명확하지 않아 저점매수 조건도 충족되지 않았습니다. 현금 비중은 약 40%로 충분히 유연하며, 레버리지와 하이리스크 슬롯은 비어 있어 급변 시 대응할 여력이 있습니다. 포트폴리오는 현재 M7과 SOXX 등 주도 섹터를 코어로 보유 중이며, 추가 진입 없이 신호가 확인될 때까지 기다리는 것이 복리의 비대칭을 고려할 때 가장 합리적인 선택입니다.",
  "chart_levels": {
-  "META": {
-   "price": 615.41,
+  "BLK": {
+   "price": 1008.26,
    "support": [
-    589.15,
-    579.23,
-    566.98,
-    542.87
+    973.97,
+    928.38
    ],
    "resistance": [
-    642.06,
-    738.31
+    1071.64,
+    1163.17
    ],
    "fib": {
-    "382": 598.52,
-    "500": 615.71,
-    "618": 632.9
+    "382": 1008.94,
+    "500": 1027.1,
+    "618": 1045.26
    },
    "taco_zone": {
-    "low": 584.44,
-    "high": 593.86,
-    "basis": "지지대"
-   },
-   "in_taco_zone": false
-  },
-  "LABU": {
-   "price": 324.5,
-   "support": [
-    210.82,
-    203.17,
-    195.23,
-    186.0
-   ],
-   "resistance": [],
-   "fib": {
-    "382": 259.07,
-    "500": 239.55,
-    "618": 220.03
-   },
-   "taco_zone": {
-    "low": 210.82,
-    "high": 239.55,
-    "basis": "지지대+피보 5.00+피보 6.18"
-   },
-   "in_taco_zone": false
-  },
-  "MSFT": {
-   "price": 388.69,
-   "support": [
-    384.47,
-    370.87,
-    354.8
-   ],
-   "resistance": [
-    410.71,
-    444.11,
-    460.52,
-    481.63
-   ],
-   "fib": {
-    "382": 393.97,
-    "500": 406.67,
-    "618": 419.38
-   },
-   "taco_zone": {
-    "low": 381.39,
-    "high": 387.55,
-    "basis": "지지대"
-   },
-   "in_taco_zone": false
-  },
-  "SOXX": {
-   "price": 550.63,
-   "support": [
-    536.27,
-    495.87,
-    461.6,
-    438.71
-   ],
-   "resistance": [
-    570.09,
-    589.94,
-    615.68,
-    640.76
-   ],
-   "fib": {
-    "382": 552.48,
-    "500": 520.81,
-    "618": 489.13
-   },
-   "taco_zone": {
-    "low": 489.13,
-    "high": 536.27,
-    "basis": "지지대+피보 5.00+피보 6.18"
-   },
-   "in_taco_zone": false
-  },
-  "QQQ": {
-   "price": 709.7,
-   "support": [
-    700.58,
-    607.71,
-    558.28
-   ],
-   "resistance": [
-    719.79,
-    742.19
-   ],
-   "fib": {
-    "382": 694.56,
-    "500": 678.61,
-    "618": 662.67
-   },
-   "taco_zone": {
-    "low": 662.67,
-    "high": 700.58,
-    "basis": "지지대+피보 5.00+피보 6.18"
-   },
-   "in_taco_zone": false
-  },
-  "ETH-USD": {
-   "price": 1789.1,
-   "support": [
-    1690.15,
-    1620.14,
-    1567.72
-   ],
-   "resistance": [
-    1808.32,
-    1852.97,
-    1956.34,
-    2098.0
-   ],
-   "fib": {
-    "382": 1872.03,
-    "500": 1966.93,
-    "618": 2061.83
-   },
-   "taco_zone": {
-    "low": 1676.63,
-    "high": 1703.67,
+    "low": 966.18,
+    "high": 981.76,
     "basis": "지지대"
    },
    "in_taco_zone": false
   },
   "AVGO": {
-   "price": 370.85,
+   "price": 371.02,
    "support": [
     365.02,
     353.37,
@@ -345,6 +220,30 @@
    "taco_zone": {
     "low": 362.1,
     "high": 367.94,
+    "basis": "지지대"
+   },
+   "in_taco_zone": false
+  },
+  "META": {
+   "price": 615.41,
+   "support": [
+    589.15,
+    579.23,
+    566.98,
+    542.87
+   ],
+   "resistance": [
+    642.06,
+    738.31
+   ],
+   "fib": {
+    "382": 598.52,
+    "500": 615.71,
+    "618": 632.9
+   },
+   "taco_zone": {
+    "low": 584.44,
+    "high": 593.86,
     "basis": "지지대"
    },
    "in_taco_zone": false
@@ -375,51 +274,6 @@
    },
    "in_taco_zone": true
   },
-  "BLK": {
-   "price": 1008.26,
-   "support": [
-    973.97,
-    928.38
-   ],
-   "resistance": [
-    1071.64,
-    1163.17
-   ],
-   "fib": {
-    "382": 1008.94,
-    "500": 1027.1,
-    "618": 1045.26
-   },
-   "taco_zone": {
-    "low": 966.18,
-    "high": 981.76,
-    "basis": "지지대"
-   },
-   "in_taco_zone": false
-  },
-  "TNA": {
-   "price": 71.86,
-   "support": [
-    69.81,
-    67.44,
-    62.29,
-    61.15
-   ],
-   "resistance": [
-    75.11
-   ],
-   "fib": {
-    "382": 66.04,
-    "500": 63.24,
-    "618": 60.43
-   },
-   "taco_zone": {
-    "low": 60.43,
-    "high": 69.81,
-    "basis": "지지대+피보 5.00+피보 6.18"
-   },
-   "in_taco_zone": false
-  },
   "IGV": {
    "price": 94.12,
    "support": [
@@ -446,24 +300,28 @@
    },
    "in_taco_zone": false
   },
-  "VRTX": {
-   "price": 522.22,
+  "MSFT": {
+   "price": 388.69,
    "support": [
-    495.82,
-    479.99,
-    454.73,
-    430.62
+    384.47,
+    370.87,
+    354.8
    ],
-   "resistance": [],
+   "resistance": [
+    410.71,
+    444.11,
+    460.52,
+    481.63
+   ],
    "fib": {
-    "382": 488.96,
-    "500": 476.42,
-    "618": 463.87
+    "382": 393.97,
+    "500": 406.67,
+    "618": 419.38
    },
    "taco_zone": {
-    "low": 463.87,
-    "high": 495.82,
-    "basis": "지지대+피보 5.00+피보 6.18"
+    "low": 381.39,
+    "high": 387.55,
+    "basis": "지지대"
    },
    "in_taco_zone": false
   },
@@ -493,8 +351,103 @@
    },
    "in_taco_zone": false
   },
+  "LABU": {
+   "price": 324.5,
+   "support": [
+    210.82,
+    203.17,
+    195.23,
+    186.0
+   ],
+   "resistance": [],
+   "fib": {
+    "382": 259.29,
+    "500": 239.73,
+    "618": 220.17
+   },
+   "taco_zone": {
+    "low": 210.82,
+    "high": 239.73,
+    "basis": "지지대+피보 5.00+피보 6.18"
+   },
+   "in_taco_zone": false
+  },
+  "QQQ": {
+   "price": 710.01,
+   "support": [
+    700.58,
+    607.71,
+    558.28
+   ],
+   "resistance": [
+    719.79,
+    742.19
+   ],
+   "fib": {
+    "382": 694.56,
+    "500": 678.61,
+    "618": 662.67
+   },
+   "taco_zone": {
+    "low": 662.67,
+    "high": 700.58,
+    "basis": "지지대+피보 5.00+피보 6.18"
+   },
+   "in_taco_zone": false
+  },
+  "SOXX": {
+   "price": 552.3,
+   "support": [
+    536.27,
+    495.87,
+    461.6,
+    438.71
+   ],
+   "resistance": [
+    570.09,
+    589.94,
+    615.68,
+    640.76
+   ],
+   "fib": {
+    "382": 552.48,
+    "500": 520.81,
+    "618": 489.13
+   },
+   "taco_zone": {
+    "low": 489.13,
+    "high": 536.27,
+    "basis": "지지대+피보 5.00+피보 6.18"
+   },
+   "in_taco_zone": false
+  },
+  "ETH-USD": {
+   "price": 1785.6,
+   "support": [
+    1690.15,
+    1620.14,
+    1567.72
+   ],
+   "resistance": [
+    1808.32,
+    1852.97,
+    1956.34,
+    2098.0
+   ],
+   "fib": {
+    "382": 1872.03,
+    "500": 1966.93,
+    "618": 2061.83
+   },
+   "taco_zone": {
+    "low": 1676.63,
+    "high": 1703.67,
+    "basis": "지지대"
+   },
+   "in_taco_zone": false
+  },
   "SPY": {
-   "price": 747.77,
+   "price": 747.49,
    "support": [
     729.38,
     711.58,
@@ -516,8 +469,52 @@
    },
    "in_taco_zone": false
   },
+  "VRTX": {
+   "price": 522.22,
+   "support": [
+    495.82,
+    479.99,
+    454.73,
+    430.62
+   ],
+   "resistance": [],
+   "fib": {
+    "382": 488.96,
+    "500": 476.42,
+    "618": 463.87
+   },
+   "taco_zone": {
+    "low": 463.87,
+    "high": 495.82,
+    "basis": "지지대+피보 5.00+피보 6.18"
+   },
+   "in_taco_zone": false
+  },
+  "TNA": {
+   "price": 71.86,
+   "support": [
+    69.81,
+    67.44,
+    62.29,
+    61.15
+   ],
+   "resistance": [
+    75.11
+   ],
+   "fib": {
+    "382": 66.04,
+    "500": 63.24,
+    "618": 60.43
+   },
+   "taco_zone": {
+    "low": 60.43,
+    "high": 69.81,
+    "basis": "지지대+피보 5.00+피보 6.18"
+   },
+   "in_taco_zone": false
+  },
   "TQQQ": {
-   "price": 72.19,
+   "price": 72.3,
    "support": [
     71.83,
     69.27,
@@ -544,6 +541,6 @@
   }
  },
  "last_trade_time": "2026-07-08 05:03",
- "last_trade_count": 1,
- "last_hold_count": 1
+ "last_trade_count": 0,
+ "last_hold_count": 0
 }
