@@ -1,6 +1,47 @@
 {
- "updated": "2026-07-08 03:02",
+ "updated": "2026-07-08 04:03",
  "items": [
+  {
+   "headline": "Samsung Selloff Sends Warning To US Investors; Amazon Enters AI Debt Binge",
+   "summary": "\n\n\n\nSamsung Warning\n\n\n\nPlease click here for an enlarged chart of Direxion Daily Semiconductor Bull 3X ETF (NYSE:SOXL).\n\n\n\nNote the following:\n\n\n\n\nSemiconductors are the leading sector that has been d",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/Opinion/26/07/60316637/samsung-selloff-sends-warning-to-us-investors-amazon-enters-ai-debt-binge-iran-hits-a-ship",
+   "created_at": "2026-07-07T18:18:01Z",
+   "symbols": [
+    "AAPL",
+    "AMZN",
+    "BTCUSD",
+    "DRAM",
+    "GOOG"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/07/Hawthorne-LA-CoSpaceX-Headquarters-locat.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Certara, Silo Pharma Advance AI Agent Strategies with Nvidia Initiatives",
+   "summary": "Nvidia expands its life sciences AI ecosystem through a Certara partnership and QwikAgents&#39; entry into its developer program.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/health-care/26/07/60316675/certara-silo-pharma-advance-ai-agent-strategies-with-nvidia-initiatives",
+   "created_at": "2026-07-07T18:18:56Z",
+   "symbols": [
+    "CERT",
+    "NVDA",
+    "SILO"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/07/Fears-Over-AI-And-Biotech.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Why Is Super Micro Computer Stock Falling on Tuesday?",
+   "summary": "Super Micro Computer Inc (NASDAQ:SMCI) stock falls Tuesday amid a broader chip sector downturn triggered by Samsung and rising short interest numbers.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60316222/why-is-super-micro-computer-stock-falling-on-tuesday",
+   "created_at": "2026-07-07T18:00:57Z",
+   "symbols": [
+    "NVDA",
+    "SMCI",
+    "SSNLF"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/07/Super-Micro-Computer-logo-on-smartphone.jpg?width=1024&height=768"
+  },
   {
    "headline": "10 Consumer Discretionary Stocks With Whale Alerts In Today’s Session",
    "summary": "This whale alert can help traders discover the next big trading opportunities.\nWhales are entities with large sums of money and we track their transactions here at Benzinga on our options activity sca",
@@ -166,42 +207,163 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/07/07/Expansion-Plans.jpg?width=1024&height=768"
   },
   {
-   "headline": "Stock Market Today: Dow Jones Futures Gain, S&P 500, Nasdaq 100 Slips As SpaceX Debuts On The Exchange—Rivian, Micron In Focus (UPDATED)",
-   "summary": "U.S. stock futures were mixed on Tuesday, as the Dow Jones index rose while the Nasdaq 100 and S&amp;P 500 indices fell.",
+   "headline": "HSBC Retreats From Higher-Risk Private Credit Bets",
+   "summary": "HSBC Holdings plc (NYSE: HSBC) told some customers that certain higher-risk private credit loans will not be extended.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/07/60297478/stock-market-today-dow-jones-futures-gain-nasdaq-100-slips-as-spacex-debuts-on-the-exchange-rivian-micron-in-focus",
-   "created_at": "2026-07-07T12:33:32Z",
+   "url": "https://www.benzinga.com/markets/private-markets/26/07/60317488/hsbc-retreats-from-higher-risk-private-credit-bets",
+   "created_at": "2026-07-07T18:44:17Z",
+   "symbols": [
+    "APO",
+    "HSBC"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/07/HSBC.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Why Is Sky Quarry Stock Rising On Tuesday?",
+   "summary": "Sky Quarry stock rises on Tuesday amid crude oil price gains from Strait of Hormuz shipping disruptions and elevated short interest.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60317148/why-is-sky-quarry-stock-rising-on-tuesday",
+   "created_at": "2026-07-07T18:33:36Z",
+   "symbols": [
+    "SKYQ"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/07/Planning-And-Strategy--Stock-Market--Bus.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Apple Stock Is Trending: A Key Level Just Came into Play",
+   "summary": "Apple shares are edging slightly lower Tuesday as big-cap tech names face a difficult session with the Nasdaq and the broader S&amp;P 500 down.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60316938/apple-stock-is-trending-a-key-level-just-came-into-play-2",
+   "created_at": "2026-07-07T18:28:05Z",
+   "symbols": [
+    "AAPL"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/07/A-Big-Step-Toward-Apples-Foldable-Future.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Why Is Agios Pharma Stock Soaring Tuesday?",
+   "summary": "Agios Pharma (AGIO) stock spikes 15% as FDA grants Priority Review for sickle cell disease drug mitapivat. Details here.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/fda/26/07/60316934/why-is-agios-pharma-stock-soaring-tuesday",
+   "created_at": "2026-07-07T18:27:54Z",
+   "symbols": [
+    "AGIO"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/07/Silver-Spring--Md--Usa---June-25--2022-T.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "CXMT IPO Tests China’s Chip Self-Sufficiency drive",
+   "summary": "The Hefei-based DRAM maker is heading to Shanghai’s STAR Market as AI demand and geopolitical tensions bring new urgency to China’s semiconductor self-sufficiency drive\n\n\n\n\n\n\n\nimage credit: Bamboo Wor",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/Opinion/26/07/60316858/cxmt-ipo-tests-chinas-chip-self-sufficiency-drive",
+   "created_at": "2026-07-07T18:25:21Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/07/7-7-2026-10567-thebambooworks-com.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Why DraftKings Stock Is Climbing as Traders Watch DKeX Prediction Markets Push",
+   "summary": "DraftKings shares are trading higher Tuesday despite no company-specific news, extending a 5% weekly gain on prediction products.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60316794/why-draftkings-stock-is-climbing-as-traders-watch-dkex-prediction-markets-push",
+   "created_at": "2026-07-07T18:22:43Z",
+   "symbols": [
+    "DKNG"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/07/DraftKings-Inc.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Teva Reports Early Skin Repigmentation Data, Sets Stage For Next Trial",
+   "summary": "Teva will advance TEV-&#39;408 into a Phase 2b vitiligo study after Phase 1b data showed skin pigmentation improvements and favorable safety.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/health-care/26/07/60316750/teva-reports-early-skin-repigmentation-data-sets-stage-for-next-trial",
+   "created_at": "2026-07-07T18:21:04Z",
+   "symbols": [
+    "RPRX",
+    "TEVA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/07/Teva-Pharmaceuticals.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Is Michael Saylor Selling Bullish for Bitcoin Bullish? The Answer May Surprise You",
+   "summary": "Strategy&#39;s sale of 3,588 Bitcoin should be viewed in the context of its much larger accumulation strategy, with Jesse Myers noting selling was only a small fraction. Experts broadly agreed that th",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/07/60316738/is-michael-saylor-selling-bullish-for-bitcoin-bullish-the-answer-may-surprise-you",
+   "created_at": "2026-07-07T18:20:39Z",
    "symbols": [
     "BTCUSD",
-    "F",
-    "MU",
-    "PENG",
-    "QQQ"
+    "MSTR"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/07/Close-Up-Of-Wall-Street-Sign-With-Iconic.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/07/Ross-Gerber-Slams-Michael-Saylors-Crazy-.jpg?width=1024&height=768"
   },
   {
-   "headline": "Nvidia Stock Drops on Reports That DeepSeek Is Quietly Developing Its Own AI Chip",
-   "summary": "Nvidia shares are trading lower following reports suggesting China&#39;s DeepSeek is developing AI chips for inference.",
+   "headline": "Why Is Turn Therapeutics Stock Trading Higher Today?",
+   "summary": "Turn Therapeutics expanded its GX-03 Phase 2 trial after interim data supported efficacy across a broader atopic dermatitis population.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60302152/nvidia-stock-drops-on-reports-that-deepseek-is-quietly-developing-its-own-ai-chip",
-   "created_at": "2026-07-07T12:25:50Z",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60316717/why-is-turn-therapeutics-stock-trading-higher-today",
+   "created_at": "2026-07-07T18:20:05Z",
    "symbols": [
-    "NVDA"
+    "TTRX"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/07/The-Modern-Nvidia-Logo-And-Company-Name-.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/07/Asian-Woman-Facial-Skin-With-Red-Spots-A.jpg?width=1024&height=768"
   },
   {
-   "headline": "Vertex Sees Over $5 Billion Peak Sales Potential From Crinetics Assets",
-   "summary": "Vertex to acquire Crinetics for $10 billion, adding approved acromegaly drug Palsonify and late-stage CAH candidate atumelnant to its rare disease portfolio.",
+   "headline": "Why Is Vera Therapeutics Stock Gaining Tuesday?",
+   "summary": "Vera Therapeutics (VERA) stock jumps 9% following FDA accelerated approval for its kidney disease drug Trutakna. Full analysis here.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/m-a/26/07/60302092/vertex-sees-over-5-billion-peak-sales-potential-from-crinetics-assets",
-   "created_at": "2026-07-07T12:24:14Z",
+   "url": "https://www.benzinga.com/news/fda/26/07/60316568/why-is-vera-therapeutics-stock-gaining-tuesday",
+   "created_at": "2026-07-07T18:15:10Z",
    "symbols": [
-    "CRNX",
-    "VRTX"
+    "VERA"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/07/Vertex-Pharmaceuticals-Incorporated--All.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/07/FDA-Warns-Check-Can-Codes.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Plug Power Wins Key Hydrogen Milestone with Orica Partnership",
+   "summary": "Plug Power stock is down after the Hunter Valley Hydrogen Hub reaches final investment decision, advancing Australia’s largest green hydrogen project with Orica.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/large-cap/26/07/60316271/plug-power-wins-key-hydrogen-milestone-with-orica-partnership",
+   "created_at": "2026-07-07T18:03:02Z",
+   "symbols": [
+    "ACES",
+    "CNRG",
+    "ICLN",
+    "PLUG"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/07/Plug-Power.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "What Strategy's July 6 Filing Actually Says About Its First Major Bitcoin Sale Since 2022",
+   "summary": "What Strategy’s July 6 Filing Actually Says About Its First Major Bitcoin Sale Since 2022\n\n\n\nOn July 6, Strategy Inc. (NASDAQ:MSTR) disclosed the sale of 3,588 bitcoin for about $216 million, the larg",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/Opinion/26/07/60316260/what-strategys-july-6-filing-actually-says-about-its-first-major-bitcoin-sale-since-2022",
+   "created_at": "2026-07-07T18:02:53Z",
+   "symbols": [
+    "MSTR"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/07/Bitcoin.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "T1 Energy Shares Slip Amid AI Stock Pressures",
+   "summary": "T1 Energy shares are sliding Tuesday as selling hits semiconductor and chip names amid questions over AI infrastructure demand.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60316257/t1-energy-shares-slip-amid-ai-stock-pressures",
+   "created_at": "2026-07-07T18:02:43Z",
+   "symbols": [
+    "SSNLF",
+    "TE"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/07/Trade-And-Finance-Concept--Dark-Forex-Ch.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Adobe Shares Defy Nasdaq Sell-Off Tuesday: What's Going On?",
+   "summary": "Adobe shares are trading higher by almost 5% on Tuesday as shares catch a bid following last week&#39;s bullish analyst tone shift.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60316162/adobe-shares-defy-nasdaq-sell-off-tuesday-whats-going-on",
+   "created_at": "2026-07-07T17:58:42Z",
+   "symbols": [
+    "ADBE"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/07/3D-Rendering-Of-The-Adobe-Inc--Logo.jpg?width=1024&height=768"
   },
   {
    "headline": "EXCLUSIVE: Alphabet Replaces Verizon, Here’s Who Market Expert Jay Woods Says Could Leave Dow Jones Next",
@@ -311,212 +473,6 @@
    "created_at": "2026-07-07T17:12:01Z",
    "symbols": [],
    "image": "https://cdn.benzinga.com/files/images/story/2026/07/07/7-7-2026-105342-thebambooworks-com.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Crude Oil Moves Higher; Rivian Automotive Shares Plunge",
-   "summary": "US stocks decline on Tuesday, with Nasdaq falling 0.61% and S&amp;P 500 dropping 0.24%. Consumer staples shares rise 1.8% while tech stocks fall 2.1%. Logistics Manager&#39;s Index records strongest g",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/market-summary/26/07/60314535/crude-oil-moves-higher-rivian-automotive-shares-plunge",
-   "created_at": "2026-07-07T17:06:31Z",
-   "symbols": [
-    "CRNX",
-    "DOCN",
-    "RIVN",
-    "SBEV",
-    "TDTH"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/07/Oil-Pump-Jacks-And-Refinery-Silhouettes-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "11 Consumer Discretionary Stocks Moving In Tuesday's Intraday Session",
-   "summary": "Gainers\n\nFort Technology (NASDAQ:FRTT) stock increased by 14.9% to $0.88 during Tuesday&#39;s regular session. The company&#39;s market cap stands at $8.7 million. \nNaas Technology (NASDAQ:NAAS) share",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60314476/11-consumer-discretionary-stocks-moving-tuesday-s-intraday-session",
-   "created_at": "2026-07-07T17:05:33Z",
-   "symbols": [
-    "CCHH",
-    "ENHA",
-    "FRTT",
-    "GMEX",
-    "JEM"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_3.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "11 Industrials Stocks Moving In Tuesday's Intraday Session",
-   "summary": "Gainers\n\nPhoenix Asia Hldgs (NASDAQ:PHOE) shares increased by 59.8% to $31.18 during Tuesday&#39;s regular session. The company&#39;s market cap stands at $421.4 million. \nCre8 Enterprise (NASDAQ:CRE)",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60314475/11-industrials-stocks-moving-tuesday-s-intraday-session",
-   "created_at": "2026-07-07T17:05:33Z",
-   "symbols": [
-    "ALIT",
-    "BYRN",
-    "CRE",
-    "CTAAR",
-    "EOSER"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_2.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "12 Health Care Stocks Moving In Tuesday's Intraday Session",
-   "summary": "Gainers\n\nCrinetics Pharmaceuticals (NASDAQ:CRNX) shares moved upwards by 98.7% to $83.53 during Tuesday&#39;s regular session. The company&#39;s market cap stands at $4.4 billion. \nTvardi Therapeutics",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60314474/12-health-care-stocks-moving-tuesday-s-intraday-session",
-   "created_at": "2026-07-07T17:05:32Z",
-   "symbols": [
-    "AGPU",
-    "AKTX",
-    "BJDX",
-    "BMGL",
-    "CLGN"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_1.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "12 Information Technology Stocks Moving In Tuesday's Intraday Session",
-   "summary": "Gainers\n\nClearOne (NASDAQ:CLRO) shares rose 85.7% to $13.0 during Tuesday&#39;s regular session. The company&#39;s market cap stands at $18.7 million. \nTrident Digital Tech (NASDAQ:TDTH) stock rose 44",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60314473/12-information-technology-stocks-moving-tuesday-s-intraday-session",
-   "created_at": "2026-07-07T17:05:32Z",
-   "symbols": [
-    "AMCI",
-    "AMPGR",
-    "AMPGZ",
-    "CLRO",
-    "FATN"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_2.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "TeraWulf Analysts Lift Targets After Anthropic Deal: 'Significant Positive'",
-   "summary": "TeraWulf shares are pulling back Tuesday, even as two analysts raised price targets following the company&#39;s $19 billion Anthropic deal.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60314448/terawulf-analysts-lift-targets-after-anthropic-deal-significant-positive",
-   "created_at": "2026-07-07T17:05:08Z",
-   "symbols": [
-    "WULF"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/07/TeraWulf-Konskie--Poland---August-03--20.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Figma Isn’t Losing To AI, It’s Winning Because of It: Analyst",
-   "summary": "Figma (NYSE: FIG) stock jumps 10% as BofA reinstates coverage with a Buy rating and $30 target, citing strong AI growth.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60314286/figma-isnt-losing-to-ai-its-winning-because-of-it-analyst",
-   "created_at": "2026-07-07T17:00:39Z",
-   "symbols": [
-    "FIG"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/07/Figma.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "5 Stocks That Pay You to Wait for Your Price",
-   "summary": "Every market cycle creates its own fashionable investment strategy. During the technology bubble, it was buying companies with no earnings because someone else would eventually pay more. During the ho",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/opinion/26/07/60314094/5-stocks-that-pay-you-to-wait-for-your-price",
-   "created_at": "2026-07-07T16:54:55Z",
-   "symbols": [
-    "ASO",
-    "EXE",
-    "MOMO",
-    "MOV",
-    "TS"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/07/Interest-Rate-And-Dividend-Concept--Busi.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Equifax Bets $750 Million on Mexico’s Fast-Growing Credit Market",
-   "summary": "Equifax Mexico Deal adds a fast-growing credit bureau, but EFX shares slipped as investors weigh growth, valuation, and key levels.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/m-a/26/07/60313940/equifax-bets-750-million-on-mexicos-fast-growing-credit-market",
-   "created_at": "2026-07-07T16:51:45Z",
-   "symbols": [
-    "EFX",
-    "MOTG"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/07/Konskie--Poland---January-24--2024-Equif.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Jim Cramer’s Take: GEV, CAT, INTC Still Have Room — But Today Is A Punisher",
-   "summary": "&#34;Mad Money&#34; host Jim Cramer notes Tuesday&#39;s brutal rotation for INTC, GEV, CAT as uptrends remain intact long-term.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60313837/jim-cramer-take-gev-cat-intc-have-room-today-is-a-punisher",
-   "created_at": "2026-07-07T16:49:09Z",
-   "symbols": [
-    "CAT",
-    "GEV",
-    "INTC"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/07/Jim-Cramer---AI-gen.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Why Is Kailera Therapeutics Stock Falling Tuesday?",
-   "summary": "Kailera Therapeutics oral GLP-1 meets Phase 3 targets for obesity and diabetes. KLRA stock falls 9% on reported GI side effects.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/health-care/26/07/60313706/why-is-kailera-therapeutics-stock-falling-tuesday",
-   "created_at": "2026-07-07T16:45:27Z",
-   "symbols": [
-    "KLRA"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/07/Weight-loss.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "SpaceX’s 91% Growth Forecast Isn’t Just a Rocket Story, JPMorgan Says",
-   "summary": "JPMorgan says SpaceX&#39;s projected 91% revenue CAGR is driven by AI infrastructure and orbital compute—not rocket launches alone.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/07/60313579/spacex-growth-forecast-not-just-about-rockets-jpmorgan",
-   "created_at": "2026-07-07T16:42:09Z",
-   "symbols": [
-    "SPCX"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/07/Cali--Colombia---May-6-2022-spacex-Logo-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Strategy Selling Bitcoin Isn't the Problem—It May Be the Solution, Grayscale Argues",
-   "summary": "Grayscale says Strategy&#39;s Bitcoin sales restore market confidence by rebuilding dividend coverage to 17 months as STRC recovers from its lows.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/07/60313402/strategy-selling-bitcoin-isnt-the-problem-it-may-be-the-solution-grayscale-argues",
-   "created_at": "2026-07-07T16:39:34Z",
-   "symbols": [
-    "BTCUSD",
-    "MSTR"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/07/Apex--North-Carolina---May-7-2025-Strate.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "What Is Going on with Shopify Stock on Tuesday?",
-   "summary": "Shopify (NASDAQ: SHOP) stock bucks a massive tech sector sell-off, gaining over 2% after BofA Securities initiated a Buy rating and an aggressive price forecast.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/analyst-stock-ratings/initiation/26/07/60313263/what-is-going-on-with-shopify-stock-on-tuesday",
-   "created_at": "2026-07-07T16:35:47Z",
-   "symbols": [
-    "ARKD",
-    "BCTK",
-    "SHOP"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/07/Strategic-Share-Sale.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Joby Aviation Stock Tests $8 Support Zone: What's Driving the Air Taxi Pullback?",
-   "summary": "Joby Aviation shares are trading lower Tuesday afternoon as traders fade some of the recent partnership-driven optimism and the tape stays risk-off.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60313259/joby-aviation-stock-tests-8-support-zone-whats-driving-the-air-taxi-pullback",
-   "created_at": "2026-07-07T16:35:40Z",
-   "symbols": [
-    "JOBY"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/07/Joby-Aviation-Photo-by-T--Schneider-via-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Stock Of The Day: Is This The Top For Apple?",
-   "summary": "Apple (AAPL) shares are overbought and at a resistance level. These are bearish dynamics and the shares may move lower.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/07/60313072/stock-of-the-day-is-this-the-top-for-apple",
-   "created_at": "2026-07-07T16:29:43Z",
-   "symbols": [
-    "AAPL"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/07/Cupertino--California--September-25--202.jpg?width=1024&height=768"
   }
  ]
 }
