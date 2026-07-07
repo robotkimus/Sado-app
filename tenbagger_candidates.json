@@ -1,83 +1,69 @@
 {
- "updated": "2026-07-08 01:01",
+ "updated": "2026-07-08 02:02",
  "candidates": [
   {
-   "symbol": "CERT",
-   "score": 7,
-   "price": 7.16,
-   "reasons": [
-    "52주고점 대비 -29%",
-    "PBR 1.1",
-    "그레이엄 기준 충족",
-    "시총 $1.1B(소형)"
-   ]
-  },
-  {
-   "symbol": "PATH",
-   "score": 6,
-   "price": 11.96,
-   "reasons": [
-    "52주고점 대비 -38%",
-    "PER 13(저평가)",
-    "시총 $6.2B(소형)"
-   ]
-  },
-  {
-   "symbol": "UPST",
-   "score": 6,
-   "price": 33.52,
-   "reasons": [
-    "52주고점 대비 -34%",
-    "PER 10(저평가)",
-    "시총 $3.2B(소형)"
-   ]
-  },
-  {
-   "symbol": "NVTS",
+   "symbol": "ORCL",
    "score": 5,
-   "price": 13.92,
+   "price": 140.95,
    "reasons": [
-    "52주고점 대비 -56%",
-    "RSI 34 과매도",
-    "시총 $3.4B(소형)"
+    "52주고점 대비 -43%",
+    "RSI 29 과매도",
+    "PER 13(저평가)"
    ]
   },
   {
-   "symbol": "OKLO",
+   "symbol": "PYPL",
    "score": 5,
-   "price": 47.74,
+   "price": 45.64,
    "reasons": [
-    "52주고점 대비 -57%",
-    "RSI 35 과매도",
-    "시총 $8.3B(소형)"
+    "52주고점 대비 -30%",
+    "PER 8(저평가)",
+    "그레이엄 기준 충족"
    ]
   },
   {
-   "symbol": "SERV",
-   "score": 5,
-   "price": 6.03,
-   "reasons": [
-    "52주고점 대비 -61%",
-    "PBR 1.4",
-    "시총 $0.5B(소형)"
-   ]
-  },
-  {
-   "symbol": "SITM",
+   "symbol": "CRM",
    "score": 4,
-   "price": 581.71,
+   "price": 172.13,
    "reasons": [
     "52주고점 대비 -35%",
-    "시총 $17.6B(소형)"
+    "PER 11(저평가)"
    ]
   },
   {
-   "symbol": "IONQ",
+   "symbol": "ADBE",
    "score": 4,
-   "price": 45.3,
+   "price": 228.16,
    "reasons": [
-    "52주고점 대비 -37%",
-    "시총 $16.9B(소형)"
+    "52주고점 대비 -36%",
+    "PER 8(저평가)"
+   ]
+  },
+  {
+   "symbol": "TEAM",
+   "score": 4,
+   "price": 90.14,
+   "reasons": [
+    "52주고점 대비 -45%",
+    "PER 14(저평가)"
+   ]
+  },
+  {
+   "symbol": "WDAY",
+   "score": 4,
+   "price": 143.23,
+   "reasons": [
+    "52주고점 대비 -39%",
+    "PER 11(저평가)"
+   ]
+  },
+  {
+   "symbol": "INTU",
+   "score": 4,
+   "price": 281.86,
+   "reasons": [
+    "52주고점 대비 -58%",
+    "PER 10(저평가)"
    ]
   }
  ]
