@@ -1721,12 +1721,35 @@ def _parse_positions(positions_raw):
 
 
 def fetch_positions():
-    """알파카 포지션을 조회해 파싱까지. 실패 시 빈 리스트."""
+    """알파카 포지션을 조회해 파싱까지. 실패 시 빈 리스트.
+    ★ 유령 숏 방어: 우리 봇은 공매도 금지인데 음수 수량이 보이면
+    (알파카 글리치·이중 체결 등) 즉시 경고하고 해당 숏을 커버(재매수)한다."""
     try:
-        return _parse_positions(alpaca("/v2/positions"))
+        positions = _parse_positions(alpaca("/v2/positions"))
     except Exception as e:
         log(f"⚠️ 포지션 조회 실패: {e}")
         return []
+    for p in positions:
+        try:
+            q = float(p.get("qty", 0))
+        except (TypeError, ValueError):
+            continue
+        if q < 0:
+            sym = p.get("symbol", "?")
+            log(f"🚨 유령 숏 감지: {sym} {q}주 — 봇은 공매도 금지인데 음수 포지션 존재!"
+                f" (알파카 이중체결/글리치 의심) 즉시 커버 매수로 청산 시도.")
+            try:
+                alpaca("/v2/orders", method="POST", body={
+                    "symbol": sym, "qty": str(abs(q)), "side": "buy",
+                    "type": "market", "time_in_force": "day"})
+                log(f"  → {sym} {abs(q)}주 커버 매수 주문 제출(숏 청산)")
+                send_push("🚨 유령 숏 감지·청산",
+                          f"{sym} {q}주 공매도 포지션이 발견돼 자동 커버했어요. "
+                          f"알파카 계좌 상태를 확인해주세요.", True)
+            except Exception as e:
+                log(f"  ⚠️ 커버 매수 실패: {e} — 알파카에서 직접 청산 필요")
+    # 음수 포지션은 판단 대상에서 제외(커버 주문 처리 중)
+    return [p for p in positions if float(p.get("qty", 0) or 0) >= 0]
 
 
 def _fill_price_for(sym, market):
