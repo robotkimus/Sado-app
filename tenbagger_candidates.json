@@ -1,4 +1,44 @@
 {
- "updated": "2026-07-08 22:41",
- "candidates": []
+ "updated": "2026-07-08 23:02",
+ "candidates": [
+  {
+   "symbol": "FNGU",
+   "score": 4,
+   "price": 26.74,
+   "reasons": [
+    "52주고점 대비 -26%",
+    "PER 2(저평가)"
+   ]
+  },
+  {
+   "symbol": "C",
+   "score": 4,
+   "price": 139.8,
+   "reasons": [
+    "PER 11(저평가)",
+    "PBR 1.2",
+    "그레이엄 기준 충족"
+   ]
+  },
+  {
+   "symbol": "COF",
+   "score": 4,
+   "price": 197.61,
+   "reasons": [
+    "PER 8(저평가)",
+    "PBR 1.1",
+    "그레이엄 기준 충족"
+   ]
+  },
+  {
+   "symbol": "TFC",
+   "score": 4,
+   "price": 50.14,
+   "reasons": [
+    "PER 10(저평가)",
+    "PBR 1.1",
+    "그레이엄 기준 충족"
+   ]
+  }
+ ]
 }

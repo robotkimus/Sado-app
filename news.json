@@ -1,6 +1,18 @@
 {
- "updated": "2026-07-08 22:42",
+ "updated": "2026-07-08 23:03",
  "items": [
+  {
+   "headline": "Apple Unveils $30 Billion Broadcom Deal",
+   "summary": "Apple announces a $30B+ multiyear deal with Broadcom to manufacture over 15 billion U.S.-made chips and wireless components.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/large-cap/26/07/60332308/apple-unveils-30-billion-broadcom-deal",
+   "created_at": "2026-07-08T13:57:17Z",
+   "symbols": [
+    "AAPL",
+    "AVGO"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/08/Beijing--China---July-21--2023-Apple-Log.jpg?width=1024&height=768"
+  },
   {
    "headline": "Apple Takes a Big Hit in Europe As Court Upholds App Store Crackdown Under Digital Markets Act",
    "summary": "Apple loses EU court challenge to DMA gatekeeper rules, keeping its App Store and iOS under tougher antitrust obligations.",
@@ -185,16 +197,26 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/07/08/Mark-Zuckerberg-Speaks-At-Georgetown-Uni.jpg?width=1024&height=768"
   },
   {
-   "headline": "Samsung Begins Mass Production of High-Speed AI SSD for Nvidia Vera Rubin, Strengthening Its Position in AI Memory Market",
-   "summary": "Samsung Electronics has begun mass-producing its PCIe 6.0 enterprise SSD for Nvidia&#39;s upcoming Vera Rubin AI platform.",
+   "headline": "SanDisk Shares Trade Below 50-Day Moving Average Amid Tech-Sector Volatility",
+   "summary": "Sandisk shares are edging higher Wednesday morning as traders weigh AI hardware and memory volatility against broader market weakness.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/07/60323075/samsung-begins-mass-production-of-high-speed-ai-ssd-for-nvidias-vera-rubin-platform",
-   "created_at": "2026-07-08T03:12:45Z",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60331771/sandisk-shares-trade-below-50-day-moving-average-amid-tech-sector-volatility",
+   "created_at": "2026-07-08T13:46:47Z",
    "symbols": [
-    "NVDA",
-    "SSNLF"
+    "SNDK"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/08/Modern-Office-Building-With-Large-Samsun.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/08/SanDisk-Bangkok--Thailand---February-05-.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Full Transcript: Helen Of Troy Q1 2027 Earnings Call",
+   "summary": "Helen Of Troy (NASDAQ:HELE) held its first-quarter earnings conference call on Wednesday. Below is the complete transcript from the call.\nThis transcript is brought to you by Benzinga APIs. For real-t",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/07/60331774/full-transcript-helen-troy-q1-2027-earnings-call",
+   "created_at": "2026-07-08T13:47:03Z",
+   "symbols": [
+    "HELE"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_3.jpg?width=1024&height=768"
   },
   {
    "headline": "XRP Plunges 4%: Why Is It Going Down Again?",
@@ -459,41 +481,6 @@
     "SBNY"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/07/08/Digital-Gold-Price-Stock-Market-Trading-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Small-Cap Rally Gets a Reality Check As Goldman Sachs Warns the 'Easy Money' Era is Over",
-   "summary": "Goldman Sachs warns &#34;easy money&#34; in small-cap stocks is gone. With AI exposure halved, see why the Russell 2000 rally depends on Fed rates.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/etfs/broad-u-s-equity-etfs/26/07/60328811/small-cap-rally-gets-a-reality-check-as-goldman-sachs-warns-the-easy-money-era-is-over",
-   "created_at": "2026-07-08T12:19:21Z",
-   "symbols": [
-    "IJR",
-    "IWM",
-    "VB"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/08/Concept-Of-Small---Cap-Write-On-Sticky-N.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Why Is Intel Stock Falling Wednesday?",
-   "summary": "Intel shares slide to $107.90 premarket. While short-term momentum fades, long-term support and a golden cross remain.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/07/60328699/why-is-intel-stock-falling-wednesday",
-   "created_at": "2026-07-08T12:15:56Z",
-   "symbols": [
-    "INTC"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/08/Intel-Corporation.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Penguin Solutions Reports Record Q3 Double Beat, Raises Full-Year Guidance — Stock Rises",
-   "summary": "Penguin Solutions shares are trading higher Wednesday after it announced better-than-expected Q3 results on Tuesday after the market closed.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60328648/penguin-solutions-reports-record-q3-double-beat-raises-full-year-guidance-stock-rises",
-   "created_at": "2026-07-08T12:13:10Z",
-   "symbols": [
-    "PENG"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/08/benzingaai2023-stock-market-trading-setu.png?width=1024&height=768"
   }
  ]
 }
