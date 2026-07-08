@@ -1,33 +1,41 @@
 {
- "updated": "2026-07-09 02:02",
+ "updated": "2026-07-09 03:02",
  "candidates": [
   {
-   "symbol": "C",
-   "score": 4,
-   "price": 138.23,
+   "symbol": "GIS",
+   "score": 6,
+   "price": 36.71,
    "reasons": [
+    "52주고점 대비 -25%",
     "PER 11(저평가)",
-    "PBR 1.2",
-    "그레이엄 기준 충족"
+    "시총 $19.6B(소형)"
    ]
   },
   {
-   "symbol": "COF",
+   "symbol": "ZTS",
    "score": 4,
-   "price": 196.3,
+   "price": 75.72,
    "reasons": [
-    "PER 8(저평가)",
-    "PBR 1.1",
-    "그레이엄 기준 충족"
+    "52주고점 대비 -42%",
+    "PER 10(저평가)"
    ]
   },
   {
-   "symbol": "TFC",
+   "symbol": "SLB",
    "score": 4,
-   "price": 49.58,
+   "price": 46.97,
    "reasons": [
-    "PER 10(저평가)",
-    "PBR 1.0",
+    "과매도 탈출+MA5 회복",
+    "PER 14(저평가)"
+   ]
+  },
+  {
+   "symbol": "KHC",
+   "score": 4,
+   "price": 25.09,
+   "reasons": [
+    "PER 12(저평가)",
+    "PBR 0.7",
     "그레이엄 기준 충족"
    ]
   }
