@@ -1,6 +1,34 @@
 {
- "updated": "2026-07-08 23:03",
+ "updated": "2026-07-09 00:02",
  "items": [
+  {
+   "headline": "Rocket Lab’s Mega Iridium Deal Kicks off Space Industry Consolidation",
+   "summary": "Rocket Lab’s $8B Iridium buyout signals a massive shift toward vertical integration in the space and satellite telecom industry.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/07/60334682/rocket-labs-mega-iridium-deal-kicks-off-space-industry-consolidation",
+   "created_at": "2026-07-08T14:46:50Z",
+   "symbols": [
+    "AMZN",
+    "ARKQ",
+    "ARKX",
+    "ASTS",
+    "GSAT"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/08/Space-Stocks---EK.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Why Is Super Micro Computer Stock Surging On Wednesday?",
+   "summary": "Super Micro Computer stock rises Wednesday following the launch of a validated Kubernetes Edge AI appliance with Red Hat and Everpure.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/previews/26/07/60333094/why-is-super-micro-computer-stock-surging-on-wednesday",
+   "created_at": "2026-07-08T14:10:01Z",
+   "symbols": [
+    "NVDA",
+    "SMCI",
+    "SSNLF"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/08/Super-Micro-Computer--Inc.jpg?width=1024&height=768"
+  },
   {
    "headline": "Apple Unveils $30 Billion Broadcom Deal",
    "summary": "Apple announces a $30B+ multiyear deal with Broadcom to manufacture over 15 billion U.S.-made chips and wireless components.",
@@ -171,30 +199,193 @@
    "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/earnings_preview_10.jpg?width=1024&height=768"
   },
   {
-   "headline": "Trump Declares Iran Ceasefire 'Over,' Says Talks Are 'a Waste of Time:' Report",
-   "summary": "President Trump declares the interim US-Iran peace accord &#39;over&#39; at the NATO summit amid fresh military strikes and a surge in oil prices.",
+   "headline": "Cloudflare Launches AI Search Research Pilot With OpenAI",
+   "summary": "Cloudflare and OpenAI are exploring how network intelligence can improve AI-generated answers, content discovery, and search efficiency.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/07/60324761/trump-declares-iran-ceasefire-over-says-talks-are-a-waste-of-time-report",
-   "created_at": "2026-07-08T09:23:49Z",
+   "url": "https://www.benzinga.com/markets/tech/26/07/60334909/cloudflare-launches-ai-search-research-pilot-with-openai",
+   "created_at": "2026-07-08T14:51:34Z",
    "symbols": [
-    "BNO",
-    "QQQ",
-    "SPY",
-    "USO"
+    "CIBR",
+    "HACK",
+    "NET",
+    "WCBR"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/08/President-Of-The-United-States-Donald-Tr.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/08/Cloudflare-Inc.jpg?width=1024&height=768"
   },
   {
-   "headline": "Chamath Palihapitiya Says Meta 'Completely Fumbled It' on AI: Why Mark Zuckerberg Missed Big Tech's Next Major Leap",
-   "summary": "Chamath Palihapitiya says Meta &#34;fumbled it&#34; on AI. Discover why the VC believes Mark Zuckerberg missed Big Tech&#39;s next major leap.",
+   "headline": "Dogecoin Drops 4% as House of Doge Publishes Ambitious Roadmap",
+   "summary": "House of Doge outlined plans to expand Dogecoin payments with a global debit card, its &#34;Such&#34; mobile app and blockchain-based sports initiatives following its Nasdaq merger. Meanwhile, on-chai",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/07/60324218/chamath-palihapitiya-says-meta-completely-fumbled-it-on-ai-why-mark-zuckerberg-missed-big-techs-next-major-leap",
-   "created_at": "2026-07-08T07:52:47Z",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/07/60334880/dogecoin-drops-4-as-house-of-doge-publishes-ambitious-roadmap",
+   "created_at": "2026-07-08T14:51:04Z",
    "symbols": [
-    "META",
-    "NVDA"
+    "DOGEUSD",
+    "HODO"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/08/Mark-Zuckerberg-Speaks-At-Georgetown-Uni.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/08/Dogecoin-Coin-Closeup-Isolated-On-White-.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "$100 Invested In Uranium Energy 10 Years Ago Would Be Worth This Much Today",
+   "summary": "Uranium Energy (AMEX:UEC) has outperformed the market over the past 10 years by 12.59% on an annualized basis producing an average annual return of 25.8%. Currently, Uranium Energy has a market capita",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/07/60334720/100-invested-uranium-energy-10-years-ago-would-be-worth-much-today",
+   "created_at": "2026-07-08T14:47:22Z",
+   "symbols": [
+    "UEC"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_2.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Why SRX Global Shares Are Trading Lower On Wednesday",
+   "summary": "SRX Global approved a special dividend of 5 cents per share as shares traded lower following the shareholder payout announcement.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60334535/why-srx-global-shares-are-trading-lower-on-wednesday",
+   "created_at": "2026-07-08T14:41:16Z",
+   "symbols": [
+    "SRXH"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/08/Ai-Circuit-Microchip-With-Glowing-Blue-L.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Dream Finders Pushes Beazer Board With a Bigger All-Cash Offer",
+   "summary": "Dream Finders Bid lifts Beazer shares as DFH raises its all-cash offer to $32 per share and presses for board engagement.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/m-a/26/07/60334460/dream-finders-pushes-beazer-board-with-a-bigger-all-cash-offer",
+   "created_at": "2026-07-08T14:39:52Z",
+   "symbols": [
+    "BZH",
+    "DFH"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/08/Business-Mergers-And-Acquisitions-Concep.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Figma Stock Battles 200-Day Moving Average: Is the BofA Buy Rating Enough?",
+   "summary": "Figma shares are trading lower Wednesday as risk appetite cools and traders digest a recent bullish analyst reset.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60334422/figma-stock-battles-200-day-moving-average-is-the-bofa-buy-rating-enough",
+   "created_at": "2026-07-08T14:38:57Z",
+   "symbols": [
+    "FIG"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/08/Figma.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "These Analysts Slash Their Forecasts On Kura Sushi Following Q3 Results",
+   "summary": "Kura Sushi (KRUS) reported mixed Q3 results, beating earnings but missing sales estimates. Cut FY2026 sales guidance. Analysts adjust price targets.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/07/60334375/these-analysts-slash-their-forecasts-on-kura-sushi-following-q3-results",
+   "created_at": "2026-07-08T14:38:17Z",
+   "symbols": [
+    "KRUS"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/08/Analysts-Adjust-Progressive-Targets.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Penguin Solutions, Beazer Homes, Alibaba And Other Big Stocks Moving Higher On Wednesday",
+   "summary": "U.S. stocks fell, Nasdaq down 100 points. Penguin Solutions Inc (PENG) rose 18.8% after better-than-expected earnings. Other big gainers: PRME, BZH, WULF, VRXA, BABA, ACDC, KC, PARR, SWMR, BBOT, KEX",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60333628/penguin-solutions-beazer-homes-alibaba-and-other-big-stocks-moving-higher-on-wednesday",
+   "created_at": "2026-07-08T14:18:27Z",
+   "symbols": [
+    "ACDC",
+    "AXTI",
+    "BABA",
+    "BBOT",
+    "BIDU"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/08/The-Real-Villains-No-Longer-Hide.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "AerCap’s Latest Freighter Lease Signals More Cargo Growth Ahead",
+   "summary": "AerCap Stock fell Wednesday as investors weighed a China Southern freighter lease deal, earnings outlook and key technical levels.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/07/60333601/aercaps-latest-freighter-lease-signals-more-cargo-growth-ahead",
+   "created_at": "2026-07-08T14:18:04Z",
+   "symbols": [
+    "AER"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/08/AerCap-Holdings.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Bitcoin Dumps on Trump Iran Comments but History Says July Should Be Green Anyways",
+   "summary": "Cowen says Bitcoin&#39;s four-year cycle points to a July counter-trend rally before a final drop later this year, mirroring 2018 and 2022.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/07/60333570/bitcoin-dumps-on-trump-iran-comments-but-history-says-july-should-be-green-anyways",
+   "created_at": "2026-07-08T14:17:45Z",
+   "symbols": [
+    "BTCUSD"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/08/Bitcoin-Digital-Cryptocurrency-Losing-Va.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "What's Going on With KIDZ AI Stock Wednesday?",
+   "summary": "KIDZ AI stock cools off Wednesday after a wild rally. Get the latest on the KIDZBot launch, short interest, and price action.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60333439/whats-going-on-with-kidz-ai-stock-wednesday",
+   "created_at": "2026-07-08T14:15:01Z",
+   "symbols": [
+    "KIDZ"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/08/Financial-Market-Bubble-Concept-And-Over.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Sino Biopharma Accelerates Global Growth With GSK, AstraZeneca Partnerships",
+   "summary": "Sino Biopharma expanded its GSK partnership in China and signed an AstraZeneca licensing deal worth up to $2.1 billion.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/health-care/26/07/60333436/sino-biopharma-accelerates-global-growth-with-gsk-astrazeneca-partnerships",
+   "created_at": "2026-07-08T14:14:59Z",
+   "symbols": [
+    "AZN",
+    "GSK",
+    "SNY"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/08/biotech-ai.png?width=1024&height=768"
+  },
+  {
+   "headline": "Trump Says Spain is ‘A Wasted Cause’ and Threatens To Kill All Trade After NATO Ally Refuses New Defense Spending Target",
+   "summary": "President Donald Trump threatened to end trade with Spain over their refusal to commit to NATO spending target.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/07/60333238/trump-says-spain-is-a-wasted-cause-and-threatens-to-kill-all-trade-after-nato-ally-refuses-new-defense-spending-target",
+   "created_at": "2026-07-08T14:11:47Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/08/Washington-Dc--2026-February-24--Preside.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "T1 Energy Stock Tests Critical Support: What's Driving the Volatility?",
+   "summary": "Shares of T1 Energy are trading flat Wednesday morning, mirroring volatility across AI-linked chip and technology names.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60332750/t1-energy-stock-tests-critical-support-whats-driving-the-volatility",
+   "created_at": "2026-07-08T14:04:52Z",
+   "symbols": [
+    "TE"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/08/Financial-Market-Crash-Concept-With-Red-.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Dow Falls 500 Points; Helen Of Troy Posts Q1 Profit",
+   "summary": "Dow Jones falls 1% on Wednesday, with NASDAQ and S&amp;P 500 also down. Energy shares rise, materials stocks fall. Helen of Troy reports upbeat results.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/market-summary/26/07/60332736/dow-falls-500-points-helen-of-troy-posts-q1-profit",
+   "created_at": "2026-07-08T14:04:38Z",
+   "symbols": [
+    "CPOP",
+    "EDBL",
+    "GIPR",
+    "HELE",
+    "IOTR"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/08/Portland--Or--Usa---Mar-12--2020-Dow-Jon.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Here's How Much $100 Invested In Royal Caribbean Group 15 Years Ago Would Be Worth Today",
+   "summary": "Royal Caribbean Group (NYSE:RCL) has outperformed the market over the past 15 years by 2.74% on an annualized basis producing an average annual return of 15.02%. Currently, Royal Caribbean Group has a",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/07/60332551/here-s-how-much-100-invested-royal-caribbean-group-15-years-ago-would-be-worth-today",
+   "created_at": "2026-07-08T14:01:38Z",
+   "symbols": [
+    "RCL"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_4.jpg?width=1024&height=768"
   },
   {
    "headline": "SanDisk Shares Trade Below 50-Day Moving Average Amid Tech-Sector Volatility",
@@ -304,183 +495,6 @@
     "XLI"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_2.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "The Future of Defense Tech Isn't Hardware. It's the 'Android of Robotics'",
-   "summary": "XTEND CEO Aviv Shapira says the next winner in defense tech won&#39;t be drone builders—but the software connecting them all.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/07/60330336/the-future-of-defense-tech-isnt-hardware-its-the-android-of-robotics",
-   "created_at": "2026-07-08T13:09:54Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/08/Engineer-Using-Laptop-For-Optimization-S.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Tesla FSD Could Get Smarter Neighborhood Navigation After Ashok Elluswamy Responds ‘Working On It’ to Voice Command Request",
-   "summary": "Tesla is working towards developing smarter voice commands for Full Self-Driving, targeting a familiar last-mile problem.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/07/60330309/tesla-fsd-could-get-smarter-neighborhood-navigation-after-ashok-elluswamy-responds-working-on-it-to-voice-command-request",
-   "created_at": "2026-07-08T13:09:21Z",
-   "symbols": [
-    "TSLA"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/08/Lviv--Ukraine---October-17--2022-Tesla-M.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Trump Makes Last-Ditch Bid to Freeze E. Jean Carroll's $5.8 Million Payout as Supreme Court Fight Continues",
-   "summary": "Trump asks a judge to freeze E. Jean Carroll&#39;s $5.8 million payout while the Supreme Court considers his renewed appeal.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/07/60330200/trump-makes-last-ditch-bid-to-freeze-e-jean-carrolls-5-8-million-payout-as-supreme-court-fight-continues",
-   "created_at": "2026-07-08T13:07:00Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/08/E--Jean-Carroll-Attends-Time100-Gala-At-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Top 3 Tech And Telecom Stocks That May Crash This Quarter",
-   "summary": "RSI is a momentum indicator that compares a stock&#39;s strength on up and down days, showing short-term performance. 3 overbought stocks in communication sector.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/short-ideas/26/07/60329969/top-3-tech-and-telecom-stocks-that-may-crash-this-quarter",
-   "created_at": "2026-07-08T13:02:05Z",
-   "symbols": [
-    "IDT",
-    "SIRI",
-    "TTWO"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/08/Space--Communication-Technology-For-Inte.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Teladoc in the Spotlight as Investors Refocus on Company's Walmart Better Care Partnership",
-   "summary": "Teladoc Health Inc. (NYSE: TDOC) shares are trending Wednesday as investors take a fresh look at the company.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60329708/teladoc-in-the-spotlight-as-investors-refocus-on-companys-walmart-better-care-partnership",
-   "created_at": "2026-07-08T12:58:22Z",
-   "symbols": [
-    "TDOC"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/08/Doctor-Looking-At-Human-Teeth-X-ray.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Trump’s Hormuz U-Turn Pushes Oil Prices To $75: How High Can Crude Go?",
-   "summary": "Crude jumped nearly 6% after the president declared the Iran ceasefire dead. Prediction markets now see 50% odds of $80 oil this month.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/07/60329705/trump-iran-ceasefire-crude-oil-prices-jump-75-polymarket-odds",
-   "created_at": "2026-07-08T12:58:12Z",
-   "symbols": [
-    "USO"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/08/U-S--President-Donald-Trump-in-the-backg.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "PNC Financial Gears Up For Q2 Print; Here Are The Recent Forecast Changes From Wall Street's Most Accurate Analysts",
-   "summary": "PNC Financial Services Group, Inc. (NYSE: PNC) will release Q2 earnings on July 15. Analysts expect $4.41 EPS and $6.39B revenue.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/07/60329697/pnc-financial-gears-up-for-q2-print-here-are-the-recent-forecast-changes-from-wall-streets-most-accurate-analysts",
-   "created_at": "2026-07-08T12:58:02Z",
-   "symbols": [
-    "PNC"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/08/Pittsburgh--Pennsylvania--Usa---January-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Plug Power Stock Retreats Under 50-Day Average Despite European Progress",
-   "summary": "Plug Power shares are trading lower in Wednesday&#39;s premarket as futures ease and a project milestone fails to spur sustained buying.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60329652/plug-power-stock-retreats-under-50-day-average-despite-european-progress",
-   "created_at": "2026-07-08T12:55:46Z",
-   "symbols": [
-    "PLUG"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/08/Stuttgart--Germany---03-17-2024-Mobile-P.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "UCB Data Reinforce Long-Term Promise For Weak Muscles Disorder",
-   "summary": "UCB presents data showing rozanolixizumab &amp; zilucoplan deliver sustained symptom relief for generalized myasthenia gravis (gMG).",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/health-care/26/07/60329471/ucb-data-reinforce-long-term-promise-for-weak-muscles-disorder",
-   "created_at": "2026-07-08T12:46:50Z",
-   "symbols": [
-    "UCBJF",
-    "UCBJY"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/08/Medical-Research.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Merck To Rally More Than 16%? Here Are 10 Top Analyst Forecasts For Wednesday",
-   "summary": "Wall St analysts changed outlook on top names. KBW cut AON PT to $400, Barclay&#39;s cut T PT to $24, MS cut ROL PT to $65, GS cut SAM PT to $169, BofA raised ALLY PT to $53, Citi raised EW PT to $110",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/07/60329297/merck-to-rally-more-than-16-here-are-10-top-analyst-forecasts-for-wednesday",
-   "created_at": "2026-07-08T12:40:20Z",
-   "symbols": [
-    "ALLY",
-    "AON",
-    "DLTR",
-    "ENVA",
-    "EW"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/08/Merck-Logo--Sign-At-Merck-Research-Labor.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Bitcoin Drops to $62,000 After Trump Declares Iran Negotiations a 'Waste of Time'",
-   "summary": "Bitcoin falls 2% after Trump declares the Iran ceasefire over, threatening to erase a three-day ETF inflow streak worth $509M.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/07/60329204/bitcoin-drops-to-62000-after-trump-declares-iran-negotiations-a-waste-of-time",
-   "created_at": "2026-07-08T12:36:33Z",
-   "symbols": [
-    "BTCUSD",
-    "ETHFIUSD",
-    "ETHUSD",
-    "JUPUSD",
-    "MORPHOUSD"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/08/Bitcoin.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Elon Musk Says ‘We’re Gonna Need A Bigger Rocket’ As SpaceX Asks FCC to Approve 100,000 Gen3 Starlink Satellites",
-   "summary": "SpaceX asks the FCC for permission to launch 100,000 satellites to meet faster broadband and AI data needs.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/07/60329127/elon-musk-says-were-gonna-need-a-bigger-rocket-as-spacex-asks-fcc-to-approve-100000-gen3-starlink-satellites",
-   "created_at": "2026-07-08T12:34:30Z",
-   "symbols": [
-    "SPCX"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/08/Paris--France---February-3--2026-A-Horiz.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Why Is American Airlines Stock Falling Wednesday?",
-   "summary": "American Airlines (AAL) stock drops amid a broader market pullback and a 6% surge in oil prices sparked by Middle East tensions. Read more.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60329094/why-is-american-airlines-stock-falling-wednesday",
-   "created_at": "2026-07-08T12:33:46Z",
-   "symbols": [
-    "AAL"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/08/American-Airlines.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "This HCA Healthcare Analyst Is No Longer Bullish; Here Are Top 5 Downgrades For Wednesday",
-   "summary": "Top Wall Street analysts changed outlook on top names, see all changes on analyst ratings page. HCA downgraded and price target slashed.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/analyst-stock-ratings/downgrades/26/07/60328883/this-hca-healthcare-analyst-is-no-longer-bullish-here-are-top-5-downgrades-for-wednesday",
-   "created_at": "2026-07-08T12:24:10Z",
-   "symbols": [
-    "AA",
-    "HCA",
-    "MEDP",
-    "TFC",
-    "TRV"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/08/HCA-Healthcare.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "The New York Fed Dug Through 3,000 Bank Runs and Found a Surprising Reason Banks Actually Fail",
-   "summary": "New York Fed research finds weak bank fundamentals, not bank runs alone, are the main driver of banking crises.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/financing/26/07/60328853/the-new-york-fed-dug-through-3000-bank-runs-and-found-a-surprising-reason-banks-actually-fail",
-   "created_at": "2026-07-08T12:21:07Z",
-   "symbols": [
-    "HSBC",
-    "SBNY"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/08/Digital-Gold-Price-Stock-Market-Trading-.jpg?width=1024&height=768"
   }
  ]
 }

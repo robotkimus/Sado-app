@@ -1,43 +1,83 @@
 {
- "updated": "2026-07-08 23:02",
+ "updated": "2026-07-09 00:02",
  "candidates": [
   {
-   "symbol": "FNGU",
+   "symbol": "CERT",
+   "score": 7,
+   "price": 6.67,
+   "reasons": [
+    "52주고점 대비 -34%",
+    "PBR 1.0",
+    "그레이엄 기준 충족",
+    "시총 $1.0B(소형)"
+   ]
+  },
+  {
+   "symbol": "SERV",
+   "score": 6,
+   "price": 5.84,
+   "reasons": [
+    "52주고점 대비 -62%",
+    "RSI 34 과매도",
+    "PBR 1.4",
+    "시총 $0.5B(소형)"
+   ]
+  },
+  {
+   "symbol": "PATH",
+   "score": 6,
+   "price": 11.35,
+   "reasons": [
+    "52주고점 대비 -41%",
+    "PER 13(저평가)",
+    "시총 $5.9B(소형)"
+   ]
+  },
+  {
+   "symbol": "UPST",
+   "score": 6,
+   "price": 31.52,
+   "reasons": [
+    "52주고점 대비 -38%",
+    "PER 9(저평가)",
+    "시총 $3.0B(소형)"
+   ]
+  },
+  {
+   "symbol": "OKLO",
+   "score": 5,
+   "price": 46.8,
+   "reasons": [
+    "52주고점 대비 -58%",
+    "RSI 34 과매도",
+    "시총 $8.1B(소형)"
+   ]
+  },
+  {
+   "symbol": "TEM",
    "score": 4,
-   "price": 26.74,
+   "price": 57.5,
    "reasons": [
     "52주고점 대비 -26%",
-    "PER 2(저평가)"
+    "시총 $10.3B(소형)"
    ]
   },
   {
-   "symbol": "C",
+   "symbol": "RXRX",
    "score": 4,
-   "price": 139.8,
+   "price": 3.7,
    "reasons": [
-    "PER 11(저평가)",
-    "PBR 1.2",
-    "그레이엄 기준 충족"
+    "52주고점 대비 -25%",
+    "시총 $2.0B(소형)"
    ]
   },
   {
-   "symbol": "COF",
+   "symbol": "IONQ",
    "score": 4,
-   "price": 197.61,
+   "price": 44.94,
    "reasons": [
-    "PER 8(저평가)",
-    "PBR 1.1",
-    "그레이엄 기준 충족"
-   ]
-  },
-  {
-   "symbol": "TFC",
-   "score": 4,
-   "price": 50.14,
-   "reasons": [
-    "PER 10(저평가)",
-    "PBR 1.1",
-    "그레이엄 기준 충족"
+    "52주고점 대비 -38%",
+    "시총 $16.8B(소형)"
    ]
   }
  ]
