@@ -1,10 +1,10 @@
 {
- "updated": "2026-07-09 04:02",
+ "updated": "2026-07-09 04:31",
  "candidates": [
   {
    "symbol": "T",
    "score": 8,
-   "price": 21.2,
+   "price": 21.12,
    "reasons": [
     "52주고점 대비 -27%",
     "과매도 탈출+MA5 회복",
@@ -16,7 +16,7 @@
   {
    "symbol": "CMCSA",
    "score": 6,
-   "price": 23.34,
+   "price": 23.35,
    "reasons": [
     "52주고점 대비 -28%",
     "PER 6(저평가)",
@@ -27,7 +27,7 @@
   {
    "symbol": "VZ",
    "score": 5,
-   "price": 42.69,
+   "price": 42.63,
    "reasons": [
     "과매도 탈출+MA5 회복",
     "PER 8(저평가)",
@@ -37,7 +37,7 @@
   {
    "symbol": "LUNR",
    "score": 5,
-   "price": 16.9,
+   "price": 16.98,
    "reasons": [
     "52주고점 대비 -63%",
     "RSI 32 과매도",
@@ -47,7 +47,7 @@
   {
    "symbol": "NVTS",
    "score": 5,
-   "price": 13.16,
+   "price": 13.09,
    "reasons": [
     "52주고점 대비 -59%",
     "RSI 32 과매도",
@@ -57,7 +57,7 @@
   {
    "symbol": "F",
    "score": 4,
-   "price": 13.44,
+   "price": 13.51,
    "reasons": [
     "PER 7(저평가)",
     "PBR 1.4",
@@ -67,7 +67,7 @@
   {
    "symbol": "GM",
    "score": 4,
-   "price": 75.62,
+   "price": 75.85,
    "reasons": [
     "PER 5(저평가)",
     "PBR 1.1",
@@ -77,9 +77,9 @@
   {
    "symbol": "RDW",
    "score": 4,
-   "price": 10.51,
+   "price": 10.54,
    "reasons": [
-    "52주고점 대비 -60%",
+    "52주고점 대비 -59%",
     "시총 $2.1B(소형)"
    ]
   }
