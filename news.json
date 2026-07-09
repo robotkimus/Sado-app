@@ -1,6 +1,21 @@
 {
- "updated": "2026-07-09 10:01",
+ "updated": "2026-07-09 11:01",
  "items": [
+  {
+   "headline": "Nvidia, Alibaba, Levi Strauss, MDA Space and Broadcom: Why These 5 Stocks Are on Investors' Radars Today",
+   "summary": "NVDA, BABA, LEVI, MDA, AVGO were among the stocks seen trending among investors on Wednesday, July 8, 2026.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/07/60348701/nvidia-alibaba-levi-strauss-mda-space-and-broadcom-why-these-5-stocks-are-on-investors-radars-today",
+   "created_at": "2026-07-09T01:35:23Z",
+   "symbols": [
+    "AVGO",
+    "BABA",
+    "LEVI",
+    "MDA",
+    "NVDA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/09/Trade-And-Finance-Concept--Dark-Forex-Ch.jpg?width=1024&height=768"
+  },
   {
    "headline": "OpenAI Unveils GPT-Live As Competition Heats Up Around AI Voice Assistants",
    "summary": "OpenAI has unveiled GPT-Live, a new generation of voice models, allowing AI assistants to partake in real-time conversation.",
@@ -198,16 +213,28 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/07/08/Super-Micro-Computer--Inc.jpg?width=1024&height=768"
   },
   {
-   "headline": "Apple Unveils $30 Billion Broadcom Deal",
-   "summary": "Apple announces a $30B+ multiyear deal with Broadcom to manufacture over 15 billion U.S.-made chips and wireless components.",
+   "headline": "Bitcoin, Ethereum, XRP, Dogecoin Slide as Trump Warns Iran Strikes Could Get 'Much Worse': Analyst Flags Major 'Wall' BTC Bulls Must Break",
+   "summary": "Leading cryptocurrencies fell alongside stocks on Wednesday, July 8, as the U.S. strikes against Iran threaten peace negotiations.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/large-cap/26/07/60332308/apple-unveils-30-billion-broadcom-deal",
-   "created_at": "2026-07-08T13:57:17Z",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/07/60348763/bitcoin-ethereum-xrp-and-dogecoin-slide-as-trump-warns-iran-strikes-could-get-much-worse",
+   "created_at": "2026-07-09T01:51:14Z",
    "symbols": [
-    "AAPL",
-    "AVGO"
+    "BMNR",
+    "BTCUSD",
+    "COIN",
+    "DOGEUSD",
+    "ETHUSD"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/08/Beijing--China---July-21--2023-Apple-Log.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/09/Cryptocurrency-Bitcoin-Coin-Over-Tablet-.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Trump Says Iran Accord Is 'Over' As US Launches New Strikes; Oil Tops $74 While Dow Futures Turn Higher",
+   "summary": "Trump declared the Iran accord &#34;over&#34; as the U.S. launched fresh strikes, sending oil above $74 while stock futures rose.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/07/60348679/trump-says-iran-accord-is-over-as-us-launches-new-strikes-oil-tops-74-while-dow-futures-higher",
+   "created_at": "2026-07-09T01:25:32Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/09/President-Of-The-United-States-Donald-Tr.jpg?width=1024&height=768"
   },
   {
    "headline": "Bill Ackman Says Next $1 Trillion Company Will Come From Israel – ‘Imagine if Silicon Valley Was a Country’",
@@ -484,32 +511,6 @@
    "created_at": "2026-07-08T19:13:27Z",
    "symbols": [],
    "image": "https://cdn.benzinga.com/files/images/story/2026/07/08/Private-Credit-Fund-Financing-Money-Loan.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Bitcoin, Ethereum, XRP, Dogecoin Retreat up to 6% on Escalating US-Iran Tensions",
-   "summary": "Bitcoin and major cryptocurrencies retreated as escalating U.S.-Iran tensions triggered a broader risk-off move across markets. Despite the near-term weakness, analysts continue to see longer-term acc",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/07/60343710/bitcoin-ethereum-xrp-dogecoin-retreat-up-to-6-on-escalating-us-iran-tensions",
-   "created_at": "2026-07-08T18:48:54Z",
-   "symbols": [
-    "BTCUSD",
-    "DOGEUSD",
-    "ETHUSD",
-    "SHIBUSD",
-    "SOLUSD"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/08/Bitcoin-Coins-On-Reflective-Black-Surfac.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "AMC Stock Surges as Macquarie Lifts Theater Box Office Outlook",
-   "summary": "AMC Entertainment Holdings shares are trading higher Wednesday after Macquarie cited stronger theater demand and raised its price target.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60343378/amc-stock-surges-as-macquarie-lifts-theater-box-office-outlook",
-   "created_at": "2026-07-08T18:35:21Z",
-   "symbols": [
-    "AMC"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/08/New-York--Usa---September-14--2023-Amc-S.jpg?width=1024&height=768"
   }
  ]
 }
