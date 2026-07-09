@@ -1,4 +1,35 @@
 {
- "updated": "2026-07-09 21:00",
- "candidates": []
+ "updated": "2026-07-09 22:41",
+ "candidates": [
+  {
+   "symbol": "C",
+   "score": 4,
+   "price": 138.29,
+   "reasons": [
+    "PER 11(저평가)",
+    "PBR 1.2",
+    "그레이엄 기준 충족"
+   ]
+  },
+  {
+   "symbol": "COF",
+   "score": 4,
+   "price": 194.07,
+   "reasons": [
+    "PER 8(저평가)",
+    "PBR 1.1",
+    "그레이엄 기준 충족"
+   ]
+  },
+  {
+   "symbol": "TFC",
+   "score": 4,
+   "price": 50.05,
+   "reasons": [
+    "PER 10(저평가)",
+    "PBR 1.1",
+    "그레이엄 기준 충족"
+   ]
+  }
+ ]
 }
