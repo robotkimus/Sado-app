@@ -1,6 +1,18 @@
 {
- "updated": "2026-07-09 15:06",
+ "updated": "2026-07-09 16:06",
  "items": [
+  {
+   "headline": "Micron vs. SK Hynix: Futurum's Shay Boloor Picks MU Over Nvidia's 'Biggest' Provider, Citing 'Wonky' Korean Markets",
+   "summary": "SK Hynix debuts on Nasdaq, but Futurum&#39;s Shay Boloor favors Micron (MU) over Nvidia&#39;s top memory supplier, citing &#39;wonky&#39; Korean markets.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/07/60349558/micron-vs-sk-hynix-futurums-shay-boloor-picks-mu-over-nvidias-biggest-provider-citing-wonky-korean-markets",
+   "created_at": "2026-07-09T06:30:23Z",
+   "symbols": [
+    "MU",
+    "NVDA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/09/Micron-Logo-Displayed-On-A-Smartphone-Sc.jpg?width=1024&height=768"
+  },
   {
    "headline": "Why Is Arista Networks (ANET) Stock Trending Overnight?",
    "summary": "Arista Networks shares rose 8.76% during regular trading and moved slightly higher after hours, with the stock trading near its 52-week high.",
@@ -199,19 +211,79 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/07/08/The-Strait-Of-Hormuz-Pinned-On-A-Map--Ap.jpg?width=1024&height=768"
   },
   {
-   "headline": "What Is Going on with NVIDIA Stock on Wednesday?",
-   "summary": "NVIDIA (NASDAQ: NVDA) stock edges higher on Wednesday as prominent tech experts reaffirm the multi-billion dollar AI infrastructure buildout is only in its &#34;third inning.&#34;",
+   "headline": "PepsiCo, Levi Strauss And 3 Stocks To Watch Heading Into Thursday",
+   "summary": "U.S. stock futures up, potential investor focus on PepsiCo, Honeywell, Simply Good Foods, Levi Strauss &amp; WD-40 earnings reports. #premarket",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/07/60337946/what-is-going-on-with-nvidia-stock-on-wednesday",
-   "created_at": "2026-07-08T15:59:24Z",
+   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/07/60349720/pepsico-levi-strauss-and-3-stocks-to-watch-heading-into-thursday",
+   "created_at": "2026-07-09T06:54:04Z",
    "symbols": [
-    "AIPI",
-    "BABA",
-    "NVDA",
-    "QYLD",
-    "SQS"
+    "HON",
+    "LEVI",
+    "PEP",
+    "SMPL",
+    "WDFC"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/08/Paris--France---January-23--2026-The-Nvi.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/09/Pepsi-Can-Black-Background-Isolated--Tor.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "AI Making Life More Expensive for You? Federal Reserve Says 'Upward Pressure' Likely to Sustain for Now",
+   "summary": "The Fed&#39;s June meeting minutes cited &#34;AI-related price pressures&#34; as one driver of higher core goods inflation.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/economic-data/26/07/60349604/ai-making-life-more-expensive-federal-reserve-says-upward-price-pressure-likely-to-persist",
+   "created_at": "2026-07-09T06:39:18Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/09/Minimum-Payments-Stretch-Debt-Longer.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Dow Dips Over 1% As Iran Ceasefire Sinks: Investor Sentiment Weakens, Greed Index Remains In ‘Fear’ Zone",
+   "summary": "Market sentiment declines as Fear &amp; Greed Index remains in Fear zone. Stocks fall on inflation fears and Iran tensions, while energy stocks rise.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/market-summary/26/07/60349569/dow-dips-over-1-as-iran-ceasefire-sinks-investor-sentiment-weakens-greed-index-remains-in-fear-zone",
+   "created_at": "2026-07-09T06:32:11Z",
+   "symbols": [
+    "FCEL",
+    "PENG",
+    "PEP",
+    "SMPL",
+    "WDFC"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/09/Fear-and-Greed.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Tesla Model Y Reclaims China's Best-Selling Vehicle Title in June",
+   "summary": "Tesla&#39;s Model Y emerged as the top-selling model in China in June, while Geely and Stellantis-backed Leapmotor took second and third place.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/asia/26/07/60349548/tesla-model-y-reclaims-chinas-best-selling-vehicle-title-in-june",
+   "created_at": "2026-07-09T06:25:36Z",
+   "symbols": [
+    "GELHY",
+    "GELYF",
+    "STLA",
+    "TSLA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/09/Kaunas--Lithuania-2022---April-14-Tesla-.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Sadot Group (SDOT) Stock Rises 17% After-Hours: Here's Why the Stock Is Trending Overnight",
+   "summary": "Sadot Group stock rises after hours after retiring $3.36 million in debt through stock-for-debt settlement agreements.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/07/60349518/sadot-group-sdot-stock-rises-17-after-hours-heres-why-the-stock-is-trending-overnight",
+   "created_at": "2026-07-09T06:21:31Z",
+   "symbols": [
+    "SDOT"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/09/Trading-Investment-Charts--Investment-Fi.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "BiomX (PHGE) Stock Soars Over 25% After-Hours: Here's Why it is Trending",
+   "summary": "BiomX shares jumped 25.24% after hours following news that its subsidiary signed a non-binding agreement to acquire a stake in Tsoock Defense.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/07/60349488/biomx-phge-stock-soars-over-25-after-hours-heres-why-it-is-trending",
+   "created_at": "2026-07-09T06:16:36Z",
+   "symbols": [
+    "PHGE"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/09/Planning-And-Strategy--Stock-Market--Bus.jpg?width=1024&height=768"
   },
   {
    "headline": "Will Trump Announce a Blockade Against Iran? Here’s What Prediction Market is Saying",
@@ -435,84 +507,6 @@
     "FLUT"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/07/08/Businessman-Holding-Large-Amount-Of-Bill.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "3 ETFs With a Perfect 10-Year Record Are All Pointing Bullish",
-   "summary": "There’s an old saying on Wall Street: don’t fight the tape. When the market is telling you where it wants to go, you listen.\n\n\n\nBut sometimes the tape isn’t the most interesting part. It’s the signals",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/opinion/26/07/60347738/3-etfs-with-a-perfect-10-year-record-are-all-pointing-bullish",
-   "created_at": "2026-07-08T21:31:31Z",
-   "symbols": [
-    "FAZ",
-    "XLF",
-    "XLY"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/08/Etf-Exchange-traded-Fund-Stock-Market-Tr.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "The Biggest Private Market Deals Reveal Where AI Investing Is Headed",
-   "summary": "AI dominated private capital markets during the second quarter, but the largest funding rounds reveal something bigger.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/private-markets/26/07/60347648/biggest-private-market-deals-reveal-where-ai-investing-is-headed",
-   "created_at": "2026-07-08T21:21:46Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/08/Ai-Technology-Bubble-Concept-Chip-Stock-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Bitcoin Is 'Anti-Fragile,' Says CFTC Chairman, Urges To Pass CLARITY Act",
-   "summary": "Michael Selig called Bitcoin an &#34;anti-fragile&#34; asset, arguing it has repeatedly emerged stronger after crises.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/07/60347523/bitcoin-is-anti-fragile-says-cftc-chairman-urges-to-pass-clarity-act",
-   "created_at": "2026-07-08T21:16:24Z",
-   "symbols": [
-    "BTCUSD"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/08/Walkinshaw-Heads-to-Congress.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "12 Consumer Discretionary Stocks Moving In Wednesday's After-Market Session",
-   "summary": "Gainers\n\nRaytech Holding (NASDAQ:RAY) stock increased by 14.1% to $3.16 during Wednesday&#39;s after-market session. \nNewton Golf Co (NASDAQ:NWTG) shares increased by 12.87% to $0.86. The market value",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60347306/12-consumer-discretionary-stocks-moving-wednesday-s-after-market-session",
-   "created_at": "2026-07-08T21:05:38Z",
-   "symbols": [
-    "DCX",
-    "EEIQ",
-    "GSUN",
-    "JEM",
-    "JL"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_2.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "12 Health Care Stocks Moving In Wednesday's After-Market Session",
-   "summary": "Gainers\n\nOSR Health (NASDAQ:OSRH) stock increased by 7.2% to $0.33 during Wednesday&#39;s after-market session. The company&#39;s market cap stands at $11.0 million. \nBioRestorative Therapies (NASDAQ:",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60347305/12-health-care-stocks-moving-wednesday-s-after-market-session",
-   "created_at": "2026-07-08T21:05:38Z",
-   "symbols": [
-    "APVO",
-    "BRTX",
-    "CBUS",
-    "DCOY",
-    "ICCM"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_2.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "12 Industrials Stocks Moving In Wednesday's After-Market Session",
-   "summary": "Gainers\n\nSUNation Energy (NASDAQ:SUNE) shares increased by 28.4% to $2.71 during Wednesday&#39;s after-market session. The company&#39;s market cap stands at $8.4 million. \nJulong Holding (NASDAQ:JLHL",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60347304/12-industrials-stocks-moving-wednesday-s-after-market-session",
-   "created_at": "2026-07-08T21:05:37Z",
-   "symbols": [
-    "AZZ",
-    "BWEN",
-    "EOSER",
-    "FGI",
-    "IPDN"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_2.jpg?width=1024&height=768"
   }
  ]
 }
