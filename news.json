@@ -1,6 +1,21 @@
 {
- "updated": "2026-07-11 04:02",
+ "updated": "2026-07-11 04:31",
  "items": [
+  {
+   "headline": "Billionaire Investor Retreats From Retail, Exits Alibaba Entirely, Cuts Amazon Stake 10%",
+   "summary": "Dan Loeb&#39;s Third Point LLC reduced exposure to retail in Q1 2026, selling 10% of Amazon and exiting Alibaba.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/large-cap/26/07/60398521/billionaire-investor-retreats-from-retail-exits-alibaba-entirely-cuts-amazon-stake-10",
+   "created_at": "2026-07-10T19:08:47Z",
+   "symbols": [
+    "AMZN",
+    "BABA",
+    "FFOG",
+    "LRGE",
+    "PNQI"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/10/Amazon.jpg?width=1024&height=768"
+  },
   {
    "headline": "Bill Ackman’s Big Bet On Meta Stock Is Finally Paying Off: Here’s The 2026 Gain So Far",
    "summary": "After taking a beating early in the year, Bill Ackman&#39;s massive Meta Platforms position has officially bounced back.",
@@ -191,18 +206,60 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/07/10/Intel-Logo-Displayed-On-Blue-Cube.jpg?width=1024&height=768"
   },
   {
-   "headline": "Elon Musk Confirms Starlink Can Deliver Reliable 10 Gigabit-a-Second Upload and Download Speeds Anywhere On Earth",
-   "summary": "Elon Musk announced Starlink can now provide 10 Gbps global connectivity, a key step in satellite internet&#39;s push to high-speed data service.",
+   "headline": "SpaceX IPO Pays Off For The Musks: Elon First Trillionaire, Kimbal A Billionaire Once Again",
+   "summary": "Elon Musk isn&#39;t the only member of his family who saw a net worth boost from the SpaceX IPO. Younger brother Kimbal Musk is now a billionaire.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/07/60380121/elon-musk-confirms-starlink-can-deliver-reliable-10-gigabit-a-second-upload-and-download-speeds-anywhere-on-earth",
-   "created_at": "2026-07-10T12:14:58Z",
+   "url": "https://www.benzinga.com/news/space/26/07/60399201/spacex-ipo-musk-elon-first-trillionaire-kimbal-billionaire-once-again",
+   "created_at": "2026-07-10T19:28:45Z",
    "symbols": [
-    "AMZN",
-    "IRMD",
-    "RKLB",
-    "SPCX"
+    "SPCX",
+    "TSLA"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/10/Toronto--Canada---November-16-2024-Starl.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/10/Cali--Colombia---May-6-2022-spacex-Logo-.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "AT&T Shares Pause Friday: What's Going On?",
+   "summary": "AT&amp;T shares are edging higher Friday afternoon as investors continue to digest early results from a breakthrough 5G mobility live trial.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60398967/att-shares-pause-friday-whats-going-on",
+   "created_at": "2026-07-10T19:22:39Z",
+   "symbols": [
+    "T"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/10/2017-ATT-JZ-OAKLAWN--4-1-compressed.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "New ETF Tracks Wall Street's Favorite Stocks Using TipRanks Analyst Consensus",
+   "summary": "Defiance has launched the RANK ETF, using TipRanks analyst ratings and stock momentum to select top U.S. large-cap stocks through a rules-based strategy.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/etfs/new-etfs/26/07/60398874/new-etf-tracks-wall-streets-favorite-stocks-using-tipranks-analyst-consensus",
+   "created_at": "2026-07-10T19:19:50Z",
+   "symbols": [
+    "RANK"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/10/Etf-Exchange-traded-Fund-Stock-Market-Tr.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Blue Owl Saw Investor Exodus After UBS Flaged Rising Private Credit Default Risk",
+   "summary": "Blue Owl faced a surge in withdrawal requests that intensified after a UBS research note raised alarms about stress in private credit.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/private-markets/26/07/60398726/blue-owl-saw-investor-exodus-after-ubs-flaged-rising-private-credit-default-risk",
+   "created_at": "2026-07-10T19:15:24Z",
+   "symbols": [
+    "APO",
+    "GS",
+    "OWL"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/10/Stuttgart--Germany---01-30-2025-Cellphon.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "New York Times-Led Publishers Escalate Copyright Fight, Seek Court Sanctions Against OpenAI",
+   "summary": "The New York Times and several other news organizations have intensified their copyright lawsuit against OpenAI.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/private-markets/26/07/60398590/new-york-times-led-publishers-escalate-copyright-fight-seek-court-sanctions-against-openai",
+   "created_at": "2026-07-10T19:10:52Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/10/Openai-Logo-Seen-On-The-Screen-Of-Smartp.jpg?width=1024&height=768"
   },
   {
    "headline": "ServiceNow Stock Falls Friday: What's Going On?",
@@ -464,53 +521,6 @@
     "GSK"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/07/10/Toronto--Ontario--Canada---February-14--.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Intuitive Machines Stock Extends Slide Below 200-Day Moving Average: What's Driving the Move?",
-   "summary": "Intuitive Machines shares are trading lower Friday afternoon as traders weigh a NASA win against a still selective tape.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60393962/intuitive-machines-stock-extends-slide-below-200-day-moving-average-whats-driving-the-move",
-   "created_at": "2026-07-10T16:59:21Z",
-   "symbols": [
-    "LUNR"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/10/Intuitive-Machines.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "WD-40 Greases Wheels For Another Rally, DA Davidson Sees More Upside",
-   "summary": "WD-40 stock rallies on strong Q3 results, revenue growth, and margin expansion. Analyst reaffirmed Buy rating and raised PT.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/07/60393505/wd-40-analyst-q3-beat-more-upside-decelerating-in-q4",
-   "created_at": "2026-07-10T16:46:34Z",
-   "symbols": [
-    "HD",
-    "WDFC"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/10/Miercurea-Ciuc--Romania--09-January-2022.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "SK Hynix IPO Could Drain AI Trade Liquidity — Micron Is Already Cracking",
-   "summary": "The SK Hynix IPO may have a ripple effect across the market as it leads to potential outflows and selling pressure in related holdings.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60393416/sk-hynix-ipo-could-drain-ai-trade-liquidity-micron-is-already-cracking",
-   "created_at": "2026-07-10T16:43:56Z",
-   "symbols": [
-    "EWY",
-    "MU",
-    "SKHYV"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/10/The-Sk-Hynix-Logo.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Why Is Ouster Stock Falling Friday?",
-   "summary": "Ouster (OUST) dips 7% after its public offering. Is this short-term dilution or a buying opportunity near key moving averages?",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60393374/why-is-ouster-stock-falling-friday",
-   "created_at": "2026-07-10T16:43:08Z",
-   "symbols": [
-    "OUST"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/10/Munich--Bavaria--Germany---March-31-2023.jpg?width=1024&height=768"
   }
  ]
 }
