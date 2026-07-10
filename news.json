@@ -1,6 +1,21 @@
 {
- "updated": "2026-07-11 03:02",
+ "updated": "2026-07-11 04:02",
  "items": [
+  {
+   "headline": "Bill Ackman’s Big Bet On Meta Stock Is Finally Paying Off: Here’s The 2026 Gain So Far",
+   "summary": "After taking a beating early in the year, Bill Ackman&#39;s massive Meta Platforms position has officially bounced back.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/07/60396393/bill-ackmans-big-bet-on-meta-stock-is-finally-paying-off-heres-the-2026-gain-so-far",
+   "created_at": "2026-07-10T18:00:21Z",
+   "symbols": [
+    "GOOG",
+    "GOOGL",
+    "META",
+    "MSFT",
+    "PS"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/10/Bill-Ackman.jpg?width=1024&height=768"
+  },
   {
    "headline": "10 Information Technology Stocks With Whale Alerts In Today’s Session",
    "summary": "This whale alert can help traders discover the next big trading opportunities.\nWhales are entities with large sums of money and we track their transactions here at Benzinga on our options activity sca",
@@ -190,18 +205,74 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/07/10/Toronto--Canada---November-16-2024-Starl.jpg?width=1024&height=768"
   },
   {
-   "headline": "Nvidia, Citigroup, Live Nation And A Real Estate Stock: CNBC’s ‘Final Trades’",
-   "summary": "CBRE Group shares rose 0.8% to close at $141.06 on Thursday while Nvidia shares fell 0.7% to settle at $202.78 during the session.",
+   "headline": "ServiceNow Stock Falls Friday: What's Going On?",
+   "summary": "ServiceNow Inc. (NYSE: NOW) shares are trading lower by almost 2% on Friday as investors continue to digest fresh AI partnership headlines.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/07/60379721/nvidia-citigroup-live-nation-and-a-real-estate-stock-cnbcs-final-trades",
-   "created_at": "2026-07-10T11:58:16Z",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60398250/servicenow-stock-falls-friday-whats-going-on",
+   "created_at": "2026-07-10T18:59:37Z",
    "symbols": [
-    "C",
-    "CBRE",
-    "LYV",
-    "NVDA"
+    "NOW"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/10/Los-Angeles--Ca--Usa---May-28--2023-Cbre.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/10/Servicenow-Office-Building-At-Their-Head.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Lucid Stock Is Sliding Friday: What's Driving the Action?",
+   "summary": "Lucid Group shares are trading lower by more than 4% on Friday as investors digest a fresh set of execution updates and leadership changes.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60397813/lucid-stock-is-sliding-friday-whats-driving-the-action",
+   "created_at": "2026-07-10T18:43:36Z",
+   "symbols": [
+    "LCID"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/10/Lucid-Showroom.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "EXCLUSIVE: Rackspace CFO Says AI Winners Will ‘Own The Outcome,’ Not the GPUs",
+   "summary": "Rackspace is shifting focus to AI outcomes rather than raw GPU capacity. CFO Mark Marino shares their strategy and partnerships.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/07/60397666/exclusive-rackspace-cfo-says-ai-winners-will-own-the-outcome-not-the-gpus",
+   "created_at": "2026-07-10T18:38:06Z",
+   "symbols": [
+    "AMD",
+    "PLTR",
+    "RBRK",
+    "RXT"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/10/3d-Rendering-Of-Futuristic-Server-Stack-.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Beyond SpaceX: First Trust Launches FSPC Space Economy ETF Focused on AI, Satellites, Launch Leaders",
+   "summary": "The FSPC Space Economy ETF, tracking the Bloomberg Space Economy Index with exposure to AI, satellites, launch services and space infrastructure.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/etfs/new-etfs/26/07/60397604/beyond-spacex-first-trust-launches-fspc-space-economy-etf-focused-on-ai-satellites-launch-leaders",
+   "created_at": "2026-07-10T18:36:51Z",
+   "symbols": [
+    "FSPC",
+    "LHX",
+    "RKLB",
+    "VSAT"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/10/Two-Rockets-Launch--In-The-Background-A-.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "AI Isn't The Real Reason Behind Layoffs, Says Agentic Trading Platform Co-Founder",
+   "summary": "The fear is everywhere. Scroll through LinkedIn on any given day, and you will find another post about AI replacing writers, analysts, coders, and customer service teams. The question of whether artif",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/Opinion/26/07/60396668/ai-isnt-the-real-reason-behind-layoffs-says-agentic-trading-platform-co-founder",
+   "created_at": "2026-07-10T18:06:25Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/10/image.png?width=1024&height=768"
+  },
+  {
+   "headline": "Sanofi Wins FDA Approval for Wearable Injector Form of Blood Cancer Drug",
+   "summary": "FDA approves Sanofi’s Sarclisa Escena, the first subcutaneous multiple myeloma treatment administered via a hands-free on-body injector.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/health-care/26/07/60396420/sanofi-wins-fda-approval-for-wearable-injector-form-of-blood-cancer-drug",
+   "created_at": "2026-07-10T18:00:58Z",
+   "symbols": [
+    "SNY"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/10/Gentilly--France--March-21--2021-Sign-An.jpg?width=1024&height=768"
   },
   {
    "headline": "What's Going on With CrowdStrike Stock Friday?",
@@ -440,87 +511,6 @@
     "OUST"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/07/10/Munich--Bavaria--Germany---March-31-2023.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Simply Good Foods Beats Q3 Estimates, But 'Under-Shipping' Plan Points To Softer Q4",
-   "summary": "SMPL exceeded Q3 expectations, driven by Quest and OWYN brands. Neutral rating maintained, PT cut to $14. Turnaround in early stage.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/07/60393235/simply-good-foods-beats-q3-estimates-but-under-shipping-plan-points-to-softer-q4",
-   "created_at": "2026-07-10T16:38:48Z",
-   "symbols": [
-    "SMPL"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/10/Munich--Bavaria--Germany---March-31-2023.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Here’s How Much You Would Have Made Owning Viking Therapeutics Stock In The Last 10 Years",
-   "summary": "Viking Therapeutics (NASDAQ:VKTX) has outperformed the market over the past 10 years by 26.85% on an annualized basis producing an average annual return of 40.15%. Currently, Viking Therapeutics has a",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/07/60392425/here-s-how-much-you-would-have-made-owning-viking-therapeutics-stock-last-10-years",
-   "created_at": "2026-07-10T16:18:09Z",
-   "symbols": [
-    "VKTX"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_1.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "AI Infrastructure Boom Fuels 280% Profit Surge At PCB Equipment Maker Han's CNC",
-   "summary": "The leading specialized PCB equipment maker said its revenue more than doubled in the first half of this year, while its profit rose by up to 280%\n\n\n\n\n\n\n\nimage credit: Bamboo Works\n\n\n\nKey Takeaways:\n\n",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/Opinion/26/07/60392416/ai-infrastructure-boom-fuels-280-profit-surge-at-pcb-equipment-maker-hans-cnc",
-   "created_at": "2026-07-10T16:17:54Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/10/10-7-2026-105346-thebambooworks-com.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Why Is Jiuzi Holdings Stock Gaining Friday?",
-   "summary": "Jiuzi Holdings (JZXN) shares skyrocket on AI expansion news amid high short interest volatility. Get the latest market updates here.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/penny-stocks/26/07/60391935/why-is-jiuzi-holdings-stock-gaining-friday",
-   "created_at": "2026-07-10T16:04:13Z",
-   "symbols": [
-    "JZXN"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/10/Stock-Graph-With-Green-Candle-Spike.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Analysts Turn Bullish on nLIGHT After $627M Defense Deal",
-   "summary": "Needham raised nLIGHT&#39;s price target to $90 after the company secured a JLWS contract worth up to $627 million with future development and production opportunities.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/07/60391260/analysts-turn-bullish-on-nlight-after-627m-defense-deal",
-   "created_at": "2026-07-10T15:49:22Z",
-   "symbols": [
-    "AFSM",
-    "FSML",
-    "HYP",
-    "LASR"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/10/Close-Up-Of-Laser-Beam-Isolated-On-Black.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "SK Hynix IPO Triggers Wall Street's Next Leveraged ETF Gold Rush",
-   "summary": "Ahead of the SK Hynix Nasdaq debut, ETF issuers are rolling out leveraged funds to capitalize on demand for AI memory and single-stock ETFs.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/etfs/specialty-etfs/26/07/60391214/sk-hynix-ipo-wall-street-next-leveraged-etf-gold-rush",
-   "created_at": "2026-07-10T15:48:36Z",
-   "symbols": [
-    "BABA",
-    "DRAM",
-    "MU",
-    "SKHX"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/10/The-Sk-Hynix-Logo.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "What's Going on With Sadot Group Stock Friday?",
-   "summary": "Sadot Group (SDOT) stock drops sharply amid dilution worries from a $3.36M debt settlement and a scathing &#34;uninvestable&#34; short report.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60390782/whats-going-on-with-sadot-group-stock-friday",
-   "created_at": "2026-07-10T15:41:40Z",
-   "symbols": [
-    "SDOT"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/10/Volatility-Of-The-Cryptocurrency-Concept.jpg?width=1024&height=768"
   }
  ]
 }
