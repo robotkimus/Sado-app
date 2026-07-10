@@ -1,6 +1,7 @@
 {
- "updated": "2026-07-10 08:01",
- "equity": 98994.52,
+ "updated": "2026-07-10 09:01",
+ "session": "미국 장 마감 (거래 시간 외)",
+ "equity": 98999.53,
  "cash": 70566.09,
  "base": 100000.0,
  "positions": [
@@ -8,10 +9,10 @@
    "symbol": "AMZN",
    "qty": 5.0,
    "avg_cost": 239.57,
-   "now": 246.74,
-   "pnl_pct": 3.0,
+   "now": 246.2,
+   "pnl_pct": 2.8,
    "peak_pnl_pct": 3.1,
-   "drawdown_from_peak_pct": -0.1,
+   "drawdown_from_peak_pct": -0.3,
    "trailing_stop_triggered": false,
    "is_tenbagger": false,
    "stoploss_triggered": false
@@ -20,10 +21,10 @@
    "symbol": "AVGO",
    "qty": 15.9382,
    "avg_cost": 368.265841,
-   "now": 401.71,
-   "pnl_pct": 9.1,
+   "now": 401.09,
+   "pnl_pct": 8.9,
    "peak_pnl_pct": 10.2,
-   "drawdown_from_peak_pct": -1.1,
+   "drawdown_from_peak_pct": -1.3,
    "trailing_stop_triggered": false,
    "is_tenbagger": false,
    "stoploss_triggered": false
@@ -44,7 +45,7 @@
    "symbol": "ETH-USD",
    "qty": 3.10323661,
    "avg_cost": 0.0,
-   "now": 1746.26,
+   "now": 1744.905,
    "pnl_pct": 0.0,
    "peak_pnl_pct": 15.6,
    "drawdown_from_peak_pct": -15.6,
@@ -56,10 +57,10 @@
    "symbol": "IGV",
    "qty": 2.0,
    "avg_cost": 85.1,
-   "now": 93.71,
-   "pnl_pct": 10.1,
+   "now": 93.88,
+   "pnl_pct": 10.3,
    "peak_pnl_pct": 12.6,
-   "drawdown_from_peak_pct": -2.5,
+   "drawdown_from_peak_pct": -2.3,
    "trailing_stop_triggered": false,
    "is_tenbagger": false,
    "stoploss_triggered": false
@@ -68,10 +69,10 @@
    "symbol": "LABU",
    "qty": 1.0,
    "avg_cost": 264.56,
-   "now": 324.1,
-   "pnl_pct": 22.5,
+   "now": 324.26,
+   "pnl_pct": 22.6,
    "peak_pnl_pct": 24.5,
-   "drawdown_from_peak_pct": -2.0,
+   "drawdown_from_peak_pct": -1.9,
    "trailing_stop_triggered": false,
    "is_tenbagger": false,
    "stoploss_triggered": false
@@ -80,9 +81,9 @@
    "symbol": "META",
    "qty": 2.0,
    "avg_cost": 557.685,
-   "now": 633.5,
-   "pnl_pct": 13.6,
-   "peak_pnl_pct": 13.6,
+   "now": 640.5,
+   "pnl_pct": 14.8,
+   "peak_pnl_pct": 14.8,
    "drawdown_from_peak_pct": 0.0,
    "trailing_stop_triggered": false,
    "is_tenbagger": false,
@@ -92,10 +93,10 @@
    "symbol": "MSFT",
    "qty": 4.0,
    "avg_cost": 367.5625,
-   "now": 383.85,
-   "pnl_pct": 4.4,
+   "now": 384.12,
+   "pnl_pct": 4.5,
    "peak_pnl_pct": 7.2,
-   "drawdown_from_peak_pct": -2.8,
+   "drawdown_from_peak_pct": -2.7,
    "trailing_stop_triggered": false,
    "is_tenbagger": false,
    "stoploss_triggered": false
@@ -104,7 +105,7 @@
    "symbol": "NVDA",
    "qty": 8.0,
    "avg_cost": 196.105,
-   "now": 202.3,
+   "now": 202.33,
    "pnl_pct": 3.2,
    "peak_pnl_pct": 4.9,
    "drawdown_from_peak_pct": -1.7,
@@ -116,8 +117,8 @@
    "symbol": "QQQ",
    "qty": 3.0,
    "avg_cost": 722.866667,
-   "now": 722.66,
-   "pnl_pct": -0.0,
+   "now": 722.94,
+   "pnl_pct": 0.0,
    "peak_pnl_pct": 0.1,
    "drawdown_from_peak_pct": -0.1,
    "trailing_stop_triggered": false,
@@ -128,10 +129,10 @@
    "symbol": "SOXX",
    "qty": 9.0,
    "avg_cost": 558.336667,
-   "now": 582.72,
-   "pnl_pct": 4.4,
+   "now": 583.29,
+   "pnl_pct": 4.5,
    "peak_pnl_pct": 6.2,
-   "drawdown_from_peak_pct": -1.8,
+   "drawdown_from_peak_pct": -1.7,
    "trailing_stop_triggered": false,
    "is_tenbagger": false,
    "stoploss_triggered": false
@@ -149,325 +150,6 @@
    "stoploss_triggered": false
   }
  ],
- "trades": [],
- "market_view": "🤝 합의: 거래 없음 | Claude: 상승장(VIX 15.8, SPY MA20 +1.3%) 환경에서 바이오(XBI +25%), 금융(XLF +5.9%), 헬스케어(XLV +4.9%)가 주도 섹터로 부상했다. 보유 LABU(+22.5%, ADX 36.5 강추세, RSI 78.4 과매수)는 peak 대비 drawdown -2%로 아직 홀드 유지, META(+13.6%, 오늘 +4.7% 급등·볼린저 상단 초과)는 단기 추격보다 눌림목 대기가 맞다. SOXX·SMH는 반도체 섹터가 MA20 아래(SOXX above_ma20 false)이고 일목 텐칸이 키준 밑으로 꺾인 상태라 추가 진입 자리가 아직 아니며, SOXL은 오늘 +10% 급반등했으나 rebound_from_low +1.7%에 불과하고 당일 고점 대비 -5.8% 밀려 있어 신뢰도 부족으로 보류한다. 현금 비중 71%는 애프터마켓 체결 불확실성과 오늘 다수 종목의 단기 과열(META·LABU)을 감안할 때 정규장 개장 후 주도 섹터 눌림목을 기다리는 것이 최선이다. | DeepSeek: 시장은 혼조세 속에서 반도체 섹터가 강세를 유지하며 SOXX가 20일선 위에서 안정적으로 움직이고 있습니다. VIX는 14.5로 낮은 수준을 유지하며 공포가 크지 않은 중립~상승 국면입니다. 주요 모멘텀 종목들이 이미 단기 급등한 상태로 눌림목을 기다리는 것이 우선이며, 하이리스크 슬롯에서 유의미한 과매도 신호가 나타난 종목이 현재 없습니다. 현금 비중은 40%로 적정하나, 기다리는 매매 원칙에 따라 신규 진입을 보류하고 관망합니다.",
- "chart_levels": {
-  "ETH-USD": {
-   "price": 1745.99,
-   "support": [
-    1690.15,
-    1620.14,
-    1567.72
-   ],
-   "resistance": [
-    1804.74,
-    1852.97,
-    1956.34,
-    2098.0
-   ],
-   "fib": {
-    "382": 1860.69,
-    "500": 1952.09,
-    "618": 2043.48
-   },
-   "taco_zone": {
-    "low": 1676.63,
-    "high": 1703.67,
-    "basis": "지지대"
-   },
-   "in_taco_zone": false
-  },
-  "BLK": {
-   "price": 1019.0,
-   "support": [
-    973.97,
-    928.38
-   ],
-   "resistance": [
-    1071.64,
-    1163.17
-   ],
-   "fib": {
-    "382": 1008.94,
-    "500": 1027.1,
-    "618": 1045.26
-   },
-   "taco_zone": {
-    "low": 966.18,
-    "high": 981.76,
-    "basis": "지지대"
-   },
-   "in_taco_zone": false
-  },
-  "SOXX": {
-   "price": 582.18,
-   "support": [
-    570.09,
-    536.27,
-    495.87,
-    461.6
-   ],
-   "resistance": [
-    589.94,
-    615.68,
-    640.76,
-    655.01
-   ],
-   "fib": {
-    "382": 558.07,
-    "500": 528.12,
-    "618": 498.18
-   },
-   "taco_zone": {
-    "low": 498.18,
-    "high": 570.09,
-    "basis": "지지대+피보 5.00+피보 6.18"
-   },
-   "in_taco_zone": false
-  },
-  "NVDA": {
-   "price": 202.69,
-   "support": [
-    200.05,
-    186.24,
-    171.84,
-    165.17
-   ],
-   "resistance": [
-    211.79,
-    216.61,
-    224.36,
-    235.74
-   ],
-   "fib": {
-    "382": 209.04,
-    "500": 214.14,
-    "618": 219.23
-   },
-   "taco_zone": {
-    "low": 198.45,
-    "high": 201.65,
-    "basis": "지지대"
-   },
-   "in_taco_zone": false
-  },
-  "MSFT": {
-   "price": 384.24,
-   "support": [
-    370.87,
-    354.8
-   ],
-   "resistance": [
-    384.47,
-    409.26,
-    444.11,
-    460.52
-   ],
-   "fib": {
-    "382": 393.97,
-    "500": 406.67,
-    "618": 419.38
-   },
-   "taco_zone": {
-    "low": 367.9,
-    "high": 373.84,
-    "basis": "지지대"
-   },
-   "in_taco_zone": false
-  },
-  "QQQ": {
-   "price": 723.0,
-   "support": [
-    719.79,
-    700.58,
-    607.71,
-    558.28
-   ],
-   "resistance": [
-    742.19
-   ],
-   "fib": {
-    "382": 701.25,
-    "500": 687.38,
-    "618": 673.51
-   },
-   "taco_zone": {
-    "low": 673.51,
-    "high": 719.79,
-    "basis": "지지대+피보 5.00+피보 6.18"
-   },
-   "in_taco_zone": false
-  },
-  "AMZN": {
-   "price": 246.96,
-   "support": [
-    246.59,
-    238.0,
-    232.4,
-    226.8
-   ],
-   "resistance": [
-    259.34,
-    263.99,
-    274.49
-   ],
-   "fib": {
-    "382": 245.34,
-    "500": 251.0,
-    "618": 256.66
-   },
-   "taco_zone": {
-    "low": 244.62,
-    "high": 248.56,
-    "basis": "지지대"
-   },
-   "in_taco_zone": true
-  },
-  "META": {
-   "price": 631.48,
-   "support": [
-    589.15,
-    579.23,
-    566.98,
-    542.87
-   ],
-   "resistance": [
-    642.06,
-    738.31
-   ],
-   "fib": {
-    "382": 598.52,
-    "500": 615.71,
-    "618": 632.9
-   },
-   "taco_zone": {
-    "low": 589.15,
-    "high": 615.71,
-    "basis": "지지대+피보 5.00"
-   },
-   "in_taco_zone": false
-  },
-  "IGV": {
-   "price": 94.01,
-   "support": [
-    92.68,
-    91.15,
-    88.44,
-    84.56
-   ],
-   "resistance": [
-    95.1,
-    98.81,
-    100.8,
-    102.62
-   ],
-   "fib": {
-    "382": 96.92,
-    "500": 93.59,
-    "618": 90.26
-   },
-   "taco_zone": {
-    "low": 90.26,
-    "high": 93.59,
-    "basis": "지지대+피보 5.00+피보 6.18"
-   },
-   "in_taco_zone": false
-  },
-  "SPY": {
-   "price": 751.55,
-   "support": [
-    729.38,
-    711.58,
-    683.76,
-    652.64
-   ],
-   "resistance": [
-    754.19
-   ],
-   "fib": {
-    "382": 734.7,
-    "500": 727.02,
-    "618": 719.33
-   },
-   "taco_zone": {
-    "low": 719.33,
-    "high": 729.38,
-    "basis": "지지대+피보 5.00+피보 6.18"
-   },
-   "in_taco_zone": false
-  },
-  "LABU": {
-   "price": 324.53,
-   "support": [
-    210.82,
-    203.17,
-    195.23,
-    186.0
-   ],
-   "resistance": [],
-   "fib": {
-    "382": 260.31,
-    "500": 240.55,
-    "618": 220.79
-   },
-   "taco_zone": {
-    "low": 210.82,
-    "high": 240.55,
-    "basis": "지지대+피보 5.00+피보 6.18"
-   },
-   "in_taco_zone": false
-  },
-  "VRTX": {
-   "price": 496.32,
-   "support": [
-    495.82,
-    479.99,
-    454.73,
-    431.49
-   ],
-   "resistance": [
-    529.59
-   ],
-   "fib": {
-    "382": 488.96,
-    "500": 476.42,
-    "618": 463.87
-   },
-   "taco_zone": {
-    "low": 463.87,
-    "high": 495.82,
-    "basis": "지지대+피보 5.00+피보 6.18"
-   },
-   "in_taco_zone": false
-  },
-  "AVGO": {
-   "price": 401.25,
-   "support": [
-    376.47,
-    362.74,
-    353.37,
-    343.3
-   ],
-   "resistance": [
-    401.39,
-    414.58,
-    430.0,
-    439.79
-   ],
-   "fib": {
-    "382": 406.72,
-    "500": 421.01,
-    "618": 435.3
-   },
-   "taco_zone": {
-    "low": 373.46,
-    "high": 379.48,
-    "basis": "지지대"
-   },
-   "in_taco_zone": false
-  }
- },
- "last_trade_time": "2026-07-09 22:42",
- "last_trade_count": 0,
- "last_hold_count": 0
+ "market_view": "[미국 장 마감 (거래 시간 외)] 미국 주식 거래 시간이 아니고 코인도 살 만한 신호가 없어 관망. (AI 판단 생략 — 비용 절감)",
+ "trades": []
 }
