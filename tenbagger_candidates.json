@@ -1,65 +1,87 @@
 {
- "updated": "2026-07-11 00:02",
+ "updated": "2026-07-11 01:01",
  "candidates": [
   {
-   "symbol": "COF",
-   "score": 5,
-   "ratio": 0.5,
+   "symbol": "GIS",
+   "score": 6,
+   "ratio": 0.6,
    "max": 10,
-   "price": 201.73,
+   "price": 36.16,
    "reasons": [
-    "고점 대비 -22% 조정",
-    "PER 8(저평가)",
-    "PBR 1.2",
-    "그레이엄 기준 충족"
-   ]
-  },
-  {
-   "symbol": "PFE",
-   "score": 5,
-   "ratio": 0.5,
-   "max": 10,
-   "price": 24.24,
-   "reasons": [
-    "고점 대비 -15% 조정",
-    "RSI 42 과매도권 접근",
-    "PER 9(저평가)",
-    "그레이엄 기준 충족"
-   ]
-  },
-  {
-   "symbol": "NFLX",
-   "score": 4,
-   "ratio": 0.4,
-   "max": 10,
-   "price": 73.04,
-   "reasons": [
-    "52주고점 대비 -36%",
-    "RSI 37 과매도권 접근",
-    "PER 19"
-   ]
-  },
-  {
-   "symbol": "C",
-   "score": 4,
-   "ratio": 0.4,
-   "max": 10,
-   "price": 140.46,
-   "reasons": [
+    "52주고점 대비 -26%",
     "PER 11(저평가)",
-    "PBR 1.3",
+    "시총 $19.3B(소형)"
+   ]
+  },
+  {
+   "symbol": "DIS",
+   "score": 5,
+   "ratio": 0.5,
+   "max": 10,
+   "price": 95.94,
+   "reasons": [
+    "고점 대비 -17% 조정",
+    "RSI 40 과매도권 접근",
+    "PER 13(저평가)",
     "그레이엄 기준 충족"
    ]
   },
   {
-   "symbol": "TFC",
+   "symbol": "ZTS",
    "score": 4,
    "ratio": 0.4,
    "max": 10,
-   "price": 51.74,
+   "price": 76.49,
    "reasons": [
-    "PER 10(저평가)",
-    "PBR 1.1",
+    "52주고점 대비 -42%",
+    "PER 10(저평가)"
+   ]
+  },
+  {
+   "symbol": "XOM",
+   "score": 4,
+   "ratio": 0.4,
+   "max": 10,
+   "price": 137.84,
+   "reasons": [
+    "고점 대비 -20% 조정",
+    "RSI 42 과매도권 접근",
+    "PER 13(저평가)"
+   ]
+  },
+  {
+   "symbol": "SLB",
+   "score": 4,
+   "ratio": 0.4,
+   "max": 10,
+   "price": 47.77,
+   "reasons": [
+    "고점 대비 -18% 조정",
+    "RSI 42 과매도권 접근",
+    "PER 14(저평가)"
+   ]
+  },
+  {
+   "symbol": "LOW",
+   "score": 4,
+   "ratio": 0.4,
+   "max": 10,
+   "price": 213.63,
+   "reasons": [
+    "52주고점 대비 -26%",
+    "RSI 43 과매도권 접근",
+    "PER 16"
+   ]
+  },
+  {
+   "symbol": "KHC",
+   "score": 4,
+   "ratio": 0.4,
+   "max": 10,
+   "price": 24.98,
+   "reasons": [
+    "PER 12(저평가)",
+    "PBR 0.7",
     "그레이엄 기준 충족"
    ]
   }
