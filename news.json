@@ -1,6 +1,21 @@
 {
- "updated": "2026-07-13 05:01",
+ "updated": "2026-07-13 06:01",
  "items": [
+  {
+   "headline": "Citi Analysts Name Three Tech Stocks to Buy Ahead of Earnings",
+   "summary": "Citi analysts believe that some of the top tech stocks to buy ahead of earnings are companies like Figma, Microsoft, and Palantir.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/07/60405605/citi-analysts-name-three-tech-stocks-to-buy-ahead-of-earnings",
+   "created_at": "2026-07-12T20:51:27Z",
+   "symbols": [
+    "C",
+    "FIG",
+    "MS",
+    "MSFT",
+    "PLTR"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/12/citigroup.jpg?width=1024&height=768"
+  },
   {
    "headline": "UnitedHealth Watch: Bearish Chart Pattern Raises Stakes for Q2 Earnings",
    "summary": "UnitedHealth stock price is on watch this week as key chart patterns point to a retreat after its Q2 earnings later this week.",
@@ -196,19 +211,27 @@
    "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/aggregated_options_1.jpg?width=1024&height=768"
   },
   {
-   "headline": "New 'Ex-Elon' ETFs Would Strip Musk's Tesla And SpaceX From Major Indexes",
-   "summary": "New Ex-Elon ETFs exclude companies linked to Elon Musk, underscoring founder concentration as a growing ETF theme.",
+   "headline": "Top S&P 500 Stocks to Watch This Week: Goldman Sachs, Netflix, GE Aerospace",
+   "summary": "Here are the top S&amp;P 500 Index stocks to watch this week, including popular names like Goldman Sachs, Netflix and GE Aerospace.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/etfs/new-etfs/26/07/60394461/new-ex-elon-etfs-would-strip-musks-tesla-and-spacex-from-major-indexes",
-   "created_at": "2026-07-10T17:13:46Z",
+   "url": "https://www.benzinga.com/markets/market-summary/26/07/60405615/top-sp-500-stocks-to-watch-this-week-goldman-sachs-netflix-ge-aerospace",
+   "created_at": "2026-07-12T20:56:02Z",
    "symbols": [
-    "QQQ",
-    "QQQM",
-    "RSP",
-    "SPCX",
-    "SPY"
+    "GE",
+    "GS",
+    "NFLX",
+    "SPCX"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/10/Paris--France---June-16--2023-Elon-Musk-.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/12/Wall-Street-Sign-With-American-Flag-On-T.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Trump Says He Spoke With Sen. Lindsey Graham Shortly Before His Sudden Death, Says He ‘Sounded a Little Tired’: Report",
+   "summary": "Trump says he spoke to Sen. Graham shortly before his death, discussing legislative work.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/07/60405586/trump-says-he-spoke-with-sen-lindsey-graham-shortly-before-his-sudden-death-says-he-sounded-a-little-tired-report",
+   "created_at": "2026-07-12T20:27:22Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/12/President-Donald-Trump-pauses-as-he-spea.jpg?width=1024&height=768"
   },
   {
    "headline": "Elon Musk Says Economy Will Be Measured in Energy, Not Money, as SpaceX Eyes Orbital Solar Power",
@@ -460,35 +483,6 @@
    "created_at": "2026-07-12T07:03:20Z",
    "symbols": [],
    "image": "https://cdn.benzinga.com/files/images/story/2026/07/12/Senator-Lindsey-Graham-speaks-at-a-Natio.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Gavin Newsom Calls Trump's Qatar Jet 'Air Fraud One,' Says He's 'the Most Corrupt President in American History'",
-   "summary": "Gov. Gavin Newsom accused Trump of corruption over a Qatari-donated jet as disputes over security and costs intensified.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/07/60404869/gavin-newsom-calls-trumps-qatar-jet-air-fraud-one-says-hes-the-most-corrupt-president-in-american-history",
-   "created_at": "2026-07-12T07:25:28Z",
-   "symbols": [
-    "BA"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/12/Sacramento--Ca---Jan-10--2024-Governor-G.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Elizabeth Warren Says Housing Affordability Bill Became Law While Trump 'Was Sleeping'",
-   "summary": "Warren celebrates new housing law, criticizes Trump for not signing. Law took effect as Trump missed deadline. Huge win for working people.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/07/60404833/elizabeth-warren-says-housing-affordability-bill-became-law-while-trump-was-sleeping",
-   "created_at": "2026-07-12T06:41:39Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/12/Elizabeth-Warren.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Pete Buttigieg Says Americans Who Back Affordable Health Care Are 'Part of a Powerful American Majority'",
-   "summary": "Pete Buttigieg says Americans who support expanded healthcare, education, and infrastructure are part of a broad majority.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/07/60404798/pete-buttigieg-says-americans-who-back-affordable-health-care-are-part-of-a-powerful-american-majority",
-   "created_at": "2026-07-12T04:42:09Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/12/Des-Moines--Iowa---September-21--2019-Pe.jpg?width=1024&height=768"
   }
  ]
 }
