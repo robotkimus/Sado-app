@@ -1,53 +1,103 @@
 {
- "updated": "2026-07-13 23:02",
+ "updated": "2026-07-14 00:01",
  "candidates": [
   {
-   "symbol": "COF",
+   "symbol": "CERT",
+   "score": 7,
+   "ratio": 0.7,
+   "max": 10,
+   "price": 7.0,
+   "reasons": [
+    "52주고점 대비 -31%",
+    "PER 17",
+    "PBR 1.1",
+    "그레이엄 기준 충족",
+    "시총 $1.1B(소형)"
+   ]
+  },
+  {
+   "symbol": "SERV",
+   "score": 6,
+   "ratio": 0.86,
+   "max": 7,
+   "price": 5.76,
+   "reasons": [
+    "52주고점 대비 -63%",
+    "RSI 34 과매도",
+    "PBR 1.4",
+    "시총 $0.5B(소형)"
+   ]
+  },
+  {
+   "symbol": "PATH",
+   "score": 6,
+   "ratio": 0.6,
+   "max": 10,
+   "price": 11.94,
+   "reasons": [
+    "52주고점 대비 -38%",
+    "PER 13(저평가)",
+    "시총 $6.2B(소형)"
+   ]
+  },
+  {
+   "symbol": "UPST",
+   "score": 6,
+   "ratio": 0.6,
+   "max": 10,
+   "price": 32.55,
+   "reasons": [
+    "52주고점 대비 -36%",
+    "PER 10(저평가)",
+    "시총 $3.1B(소형)"
+   ]
+  },
+  {
+   "symbol": "SITM",
    "score": 5,
    "ratio": 0.5,
    "max": 10,
-   "price": 204.05,
-   "reasons": [
-    "고점 대비 -21% 조정",
-    "PER 8(저평가)",
-    "PBR 1.2",
-    "그레이엄 기준 충족"
-   ]
-  },
-  {
-   "symbol": "NFLX",
-   "score": 4,
-   "ratio": 0.4,
-   "max": 10,
-   "price": 75.07,
+   "price": 610.99,
    "reasons": [
     "52주고점 대비 -32%",
-    "RSI 43 과매도권 접근",
-    "PER 20"
+    "RSI 44 과매도권 접근",
+    "시총 $18.4B(소형)"
    ]
   },
   {
-   "symbol": "C",
-   "score": 4,
-   "ratio": 0.4,
-   "max": 10,
-   "price": 138.78,
+   "symbol": "NTLA",
+   "score": 5,
+   "ratio": 0.71,
+   "max": 7,
+   "price": 13.21,
    "reasons": [
-    "PER 11(저평가)",
-    "PBR 1.2",
-    "그레이엄 기준 충족"
+    "52주고점 대비 -26%",
+    "RSI 38 과매도권 접근",
+    "시총 $1.8B(소형)"
    ]
   },
   {
-   "symbol": "TFC",
-   "score": 4,
-   "ratio": 0.4,
+   "symbol": "IONQ",
+   "score": 5,
+   "ratio": 0.5,
    "max": 10,
-   "price": 51.56,
+   "price": 40.55,
    "reasons": [
-    "PER 10(저평가)",
-    "PBR 1.1",
-    "그레이엄 기준 충족"
+    "52주고점 대비 -44%",
+    "RSI 31 과매도",
+    "시총 $15.1B(소형)"
+   ]
+  },
+  {
+   "symbol": "RGTI",
+   "score": 5,
+   "ratio": 0.71,
+   "max": 7,
+   "price": 15.79,
+   "reasons": [
+    "52주고점 대비 -47%",
+    "RSI 35 과매도권 접근",
+    "시총 $5.3B(소형)"
    ]
   }
  ]
