@@ -1,6 +1,19 @@
 {
- "updated": "2026-07-13 16:01",
+ "updated": "2026-07-13 17:01",
  "items": [
+  {
+   "headline": "Microsoft CEO Satya Nadella Says Businesses 'Pay for Intelligence Twice,' Warns AI Can Cost Companies Proprietary Knowledge",
+   "summary": "Microsoft CEO Satya Nadella warns that using AI can give away proprietary knowledge and companies should retain ownership of the learning.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/07/60407194/microsoft-ceo-satya-nadella-says-businesses-pay-for-intelligence-twice-warns-ai-can-cost-companies-proprietary-knowledge",
+   "created_at": "2026-07-13T07:53:01Z",
+   "symbols": [
+    "AMZN",
+    "MSFT",
+    "PLTR"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/13/Microsoft-CEO-Satya-Nadella-smiles-in-a-.jpg?width=1024&height=768"
+  },
   {
    "headline": "Dow Gains 150 Points But Records Weekly Loss: Investor Sentiment Improves, Fear & Greed Index Remains In ‘Neutral’ Zone",
    "summary": "The CNN Money Fear and Greed index improved, with US stocks rising on Friday. Tech stocks gained, while SK Hynix surged 13% in its US debut.",
@@ -197,15 +210,55 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/07/11/Flags-Of-Usa-And-Uae-Together-Against-Th.jpg?width=1024&height=768"
   },
   {
-   "headline": "Meta Pulls AI Image Feature After Privacy Backlash, Admits It 'Missed the Mark' Amid SAG-AFTRA Criticism",
-   "summary": "Meta discontinued its AI image-generation feature just days after launch, admitting it &#34;missed the mark&#34; following privacy backlash.",
+   "headline": "Elon Musk Says SpaceX Will Fly Orbital Data Centers Next Year—Jim Chanos Isn't Buying It",
+   "summary": "SpaceX CEO Elon Musk plans to launch orbital data centers as soon as next year, but short seller Jim Chanos remains skeptical.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/07/60402849/meta-pulls-ai-image-feature-after-privacy-backlash-admits-it-missed-the-mark-amid-sag-aftra-criticism",
-   "created_at": "2026-07-11T03:36:26Z",
+   "url": "https://www.benzinga.com/news/space/26/07/60407246/elon-musk-says-spacex-will-fly-orbital-data-centers-next-year-jim-chanos-isnt-buying-it",
+   "created_at": "2026-07-13T08:00:25Z",
    "symbols": [
-    "META"
+    "AAPL",
+    "SPCX"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/11/New-York--Usa---14-December-2024-Meta-Pl.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/13/Elon-Musk.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Bernie Sanders Says 'American Society Is in Decline,' Calls for Grassroots Movement",
+   "summary": "Sanders criticizes economic inequality, urges grassroots movement for an economy that benefits working families.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/07/60407164/bernie-sanders-says-american-society-is-in-decline-calls-for-grassroots-movement",
+   "created_at": "2026-07-13T07:45:59Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/13/Bernie-Sanders-speaks-to-universal-healt.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Sen. Lindsey Graham Dies at 71 After 'Brief and Sudden Illness'",
+   "summary": "Senator Lindsey Graham died after a brief, sudden illness, his office confirmed, with his family requesting privacy during mourning.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/07/60404855/sen-lindsey-graham-dies-at-71-after-brief-sudden-illness",
+   "created_at": "2026-07-12T07:03:20Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/13/Senator-Lindsey-Graham-speaks-at-a-Natio.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "US Households Sitting on 'Massive' $20 Trillion Cash Pile Despite Record Stock Exposure, Says Market Commentator",
+   "summary": "The Kobeissi Letter says U.S. households hold record cash, stocks and bonds, citing BofA Research data.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/bonds/26/07/60406993/us-households-hold-record-20t-in-cash",
+   "created_at": "2026-07-13T07:14:03Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/13/Only-16-Of-Americans-Feel-Financially-Fu.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Federal Health Watchdog Projects $5.56 Billion in Recoveries and Savings, Despite Enforcement Hitting Two-Year Low",
+   "summary": "HHS watchdog projected $5.56 billion in recoveries and savings over six months despite enforcement falling to a two-year low.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/health-care/26/07/60406980/federal-health-watchdog-projects-5-56-billion-in-recoveries-and-savings-despite-enforcement-hitting-two-year-low",
+   "created_at": "2026-07-13T07:09:09Z",
+   "symbols": [
+    "CVS",
+    "LLY"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/13/Closeup-one-hundred-US-dollar-bills-unde.jpg?width=1024&height=768"
   },
   {
    "headline": "Ross Gerber's 'Controversial' EV Opinion? He Prefers Tesla's Cybertruck Over His Rivian, but Criticizes FSD",
@@ -432,69 +485,6 @@
    "created_at": "2026-07-13T03:17:13Z",
    "symbols": [],
    "image": "https://cdn.benzinga.com/files/images/story/2026/07/13/January-30--2025---Washington-Dc-The-Sen.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Peter Schiff Says Conditions Ripe for a 'Huge Rally' in Gold As Iran War Escalates, Here Are Some ETFs to Watch",
-   "summary": "Veteran investor Peter Schiff on Sunday said traders were drawing the wrong lesson from gold&#39;s selloff amid the U.S.-Iran conflict.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/commodities/26/07/60406191/peter-schiff-says-conditions-ripe-for-a-huge-rally-in-gold-as-iran-war-escalates-here-are-some-etfs-to-watch",
-   "created_at": "2026-07-13T02:54:14Z",
-   "symbols": [
-    "GLD",
-    "GLDM",
-    "IAU",
-    "IAUM",
-    "SGOL"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/13/Digital-Gold-Price-Stock-Market-Trading-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Mitch McConnell Says He Won't Be Able to Return to Senate Floor 'Quite Yet' but Vows, 'I'm Not Taking a Break From Senate Business'",
-   "summary": "Mitch McConnell said he won&#39;t return to Senate votes yet as his recovery continues, leaving Republicans short-handed.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/07/60406151/mitch-mcconnell-says-he-wont-return-to-senate-floor-quite-yet",
-   "created_at": "2026-07-13T02:18:28Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/13/Washington--Dc-Us---Nov-15--2022-Us-Sena.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Bitcoin, Ethereum, XRP, Dogecoin Consolidate as US-Iran Tensions Escalate: Analyst Says People Will Be 'Surprised' by Upcoming Bull Cycle",
-   "summary": "Leading cryptocurrencies moved sideways, while stock futures slid on Sunday evening amid investor concerns over escalating U.S.-Iran tensions.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/07/60406116/bitcoin-ethereum-xrp-and-dogecoin-consolidate-as-us-iran-tensions-escalate",
-   "created_at": "2026-07-13T01:56:12Z",
-   "symbols": [
-    "BMNR",
-    "BTCUSD",
-    "DOGEUSD",
-    "ETHUSD",
-    "MSTR"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/13/Bitcoin-Coins-On-Reflective-Black-Surfac.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Trump Directs Fresh Strikes to 'Hold Iranian Forces Accountable,' Says CENTCOM; Oil Tops $74 as Dow Futures Fall Over 100 Points",
-   "summary": "Trump ordered fresh strikes on Iran, sending oil prices higher and U.S. stock futures lower as Strait of Hormuz tensions escalated.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/07/60406100/trump-orders-fresh-strikes-to-hold-iranian-forces-accountable-as-oil-tops-74-and-dow-futures-drop",
-   "created_at": "2026-07-13T01:37:21Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/13/Poll-Shows-Iran-Advantage.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Bank Earnings Week: Goldman, JPMorgan, Citi, BofA, Morgan Stanley Set to Deliver a Profit Bonanza",
-   "summary": "Top US banks like Goldman Sachs, JPMorgan, Citi, Bank of America, and Morgan Stanley are expected to report strong earnings this week",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/07/60405656/bank-earnings-week-goldman-jpmorgan-citi-bofa-morgan-stanley-set-to-deliver-a-profit-bonanza",
-   "created_at": "2026-07-12T21:31:27Z",
-   "symbols": [
-    "BAC",
-    "C",
-    "GS",
-    "JPM",
-    "MS"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/12/West-Bangal--India---April-20--2022--Gol.jpg?width=1024&height=768"
   }
  ]
 }
