@@ -1,84 +1,53 @@
 {
- "updated": "2026-07-14 01:02",
+ "updated": "2026-07-14 02:02",
  "candidates": [
   {
-   "symbol": "ORCL",
+   "symbol": "COF",
    "score": 5,
    "ratio": 0.5,
    "max": 10,
-   "price": 135.18,
+   "price": 203.66,
    "reasons": [
-    "52주고점 대비 -46%",
-    "RSI 28 과매도",
-    "PER 12(저평가)"
-   ]
-  },
-  {
-   "symbol": "PYPL",
-   "score": 5,
-   "ratio": 0.5,
-   "max": 10,
-   "price": 46.94,
-   "reasons": [
-    "52주고점 대비 -25%",
+    "고점 대비 -21% 조정",
     "PER 8(저평가)",
+    "PBR 1.2",
     "그레이엄 기준 충족"
    ]
   },
   {
-   "symbol": "QCOM",
+   "symbol": "NFLX",
    "score": 4,
    "ratio": 0.4,
    "max": 10,
-   "price": 185.93,
+   "price": 74.39,
    "reasons": [
-    "52주고점 대비 -26%",
-    "RSI 44 과매도권 접근",
-    "PER 17"
+    "52주고점 대비 -32%",
+    "RSI 41 과매도권 접근",
+    "PER 19"
    ]
   },
   {
-   "symbol": "CRM",
+   "symbol": "C",
    "score": 4,
    "ratio": 0.4,
    "max": 10,
-   "price": 171.75,
+   "price": 138.51,
    "reasons": [
-    "52주고점 대비 -36%",
-    "PER 11(저평가)"
+    "PER 11(저평가)",
+    "PBR 1.2",
+    "그레이엄 기준 충족"
    ]
   },
   {
-   "symbol": "ADBE",
+   "symbol": "TFC",
    "score": 4,
    "ratio": 0.4,
    "max": 10,
-   "price": 231.04,
+   "price": 51.74,
    "reasons": [
-    "52주고점 대비 -35%",
-    "PER 8(저평가)"
-   ]
-  },
-  {
-   "symbol": "WDAY",
-   "score": 4,
-   "ratio": 0.4,
-   "max": 10,
-   "price": 146.13,
-   "reasons": [
-    "52주고점 대비 -37%",
-    "PER 12(저평가)"
-   ]
-  },
-  {
-   "symbol": "INTU",
-   "score": 4,
-   "ratio": 0.4,
-   "max": 10,
-   "price": 291.12,
-   "reasons": [
-    "52주고점 대비 -57%",
-    "PER 11(저평가)"
+    "PER 10(저평가)",
+    "PBR 1.1",
+    "그레이엄 기준 충족"
    ]
   }
  ]
