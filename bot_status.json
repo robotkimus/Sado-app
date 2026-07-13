@@ -1,6 +1,7 @@
 {
- "updated": "2026-07-13 12:01",
- "equity": 98971.94,
+ "updated": "2026-07-13 13:01",
+ "session": "미국 프리마켓(개장 전)",
+ "equity": 98797.33,
  "cash": 70566.06,
  "base": 100000.0,
  "positions": [
@@ -8,10 +9,10 @@
    "symbol": "AMZN",
    "qty": 5.0,
    "avg_cost": 239.57,
-   "now": 244.4,
-   "pnl_pct": 2.0,
+   "now": 244.0,
+   "pnl_pct": 1.8,
    "peak_pnl_pct": 3.8,
-   "drawdown_from_peak_pct": -1.8,
+   "drawdown_from_peak_pct": -2.0,
    "trailing_stop_triggered": false,
    "is_tenbagger": false,
    "stoploss_triggered": false
@@ -20,10 +21,10 @@
    "symbol": "AVGO",
    "qty": 15.9382,
    "avg_cost": 368.265841,
-   "now": 393.97,
-   "pnl_pct": 7.0,
+   "now": 390.71,
+   "pnl_pct": 6.1,
    "peak_pnl_pct": 10.2,
-   "drawdown_from_peak_pct": -3.2,
+   "drawdown_from_peak_pct": -4.1,
    "trailing_stop_triggered": false,
    "is_tenbagger": false,
    "stoploss_triggered": false
@@ -44,7 +45,7 @@
    "symbol": "ETH-USD",
    "qty": 3.10323661,
    "avg_cost": 0.0,
-   "now": 1804.36,
+   "now": 1778.4,
    "pnl_pct": 0.0,
    "peak_pnl_pct": 15.6,
    "drawdown_from_peak_pct": -15.6,
@@ -56,7 +57,7 @@
    "symbol": "IGV",
    "qty": 2.0,
    "avg_cost": 85.1,
-   "now": 92.02,
+   "now": 92.0,
    "pnl_pct": 8.1,
    "peak_pnl_pct": 12.6,
    "drawdown_from_peak_pct": -4.5,
@@ -68,10 +69,10 @@
    "symbol": "LABU",
    "qty": 1.0,
    "avg_cost": 264.56,
-   "now": 287.0,
-   "pnl_pct": 8.5,
+   "now": 284.01,
+   "pnl_pct": 7.4,
    "peak_pnl_pct": 24.5,
-   "drawdown_from_peak_pct": -16.0,
+   "drawdown_from_peak_pct": -17.1,
    "trailing_stop_triggered": false,
    "is_tenbagger": false,
    "stoploss_triggered": false
@@ -80,10 +81,10 @@
    "symbol": "META",
    "qty": 2.0,
    "avg_cost": 557.685,
-   "now": 663.02,
-   "pnl_pct": 18.9,
+   "now": 659.11,
+   "pnl_pct": 18.2,
    "peak_pnl_pct": 20.6,
-   "drawdown_from_peak_pct": -1.7,
+   "drawdown_from_peak_pct": -2.4,
    "trailing_stop_triggered": false,
    "is_tenbagger": false,
    "stoploss_triggered": false
@@ -92,10 +93,10 @@
    "symbol": "MSFT",
    "qty": 4.0,
    "avg_cost": 367.5625,
-   "now": 384.23,
-   "pnl_pct": 4.5,
+   "now": 384.66,
+   "pnl_pct": 4.7,
    "peak_pnl_pct": 7.2,
-   "drawdown_from_peak_pct": -2.7,
+   "drawdown_from_peak_pct": -2.5,
    "trailing_stop_triggered": false,
    "is_tenbagger": false,
    "stoploss_triggered": false
@@ -104,10 +105,10 @@
    "symbol": "NVDA",
    "qty": 8.0,
    "avg_cost": 196.105,
-   "now": 207.69,
-   "pnl_pct": 5.9,
+   "now": 207.54,
+   "pnl_pct": 5.8,
    "peak_pnl_pct": 7.6,
-   "drawdown_from_peak_pct": -1.7,
+   "drawdown_from_peak_pct": -1.8,
    "trailing_stop_triggered": false,
    "is_tenbagger": false,
    "stoploss_triggered": false
@@ -116,10 +117,10 @@
    "symbol": "QQQ",
    "qty": 3.0,
    "avg_cost": 722.866667,
-   "now": 718.0,
-   "pnl_pct": -0.7,
+   "now": 716.93,
+   "pnl_pct": -0.8,
    "peak_pnl_pct": 0.5,
-   "drawdown_from_peak_pct": -1.2,
+   "drawdown_from_peak_pct": -1.3,
    "trailing_stop_triggered": false,
    "is_tenbagger": false,
    "stoploss_triggered": false
@@ -128,10 +129,10 @@
    "symbol": "SOXX",
    "qty": 9.0,
    "avg_cost": 558.336667,
-   "now": 567.67,
-   "pnl_pct": 1.7,
+   "now": 564.72,
+   "pnl_pct": 1.1,
    "peak_pnl_pct": 6.2,
-   "drawdown_from_peak_pct": -4.5,
+   "drawdown_from_peak_pct": -5.1,
    "trailing_stop_triggered": false,
    "is_tenbagger": false,
    "stoploss_triggered": false
@@ -149,37 +150,6 @@
    "stoploss_triggered": false
   }
  ],
- "trades": [],
- "market_view": "🤝 합의: 거래 없음 | Claude: 현재 미국 주식 시장은 주말 휴장 상태로 주식 관련 거래는 일절 없음. ETH-USD는 현재 $1,805 수준으로 MA5($1,775) 위에 안착해 있고 RSI 58.4로 중립권, taco_zone(지지대 $1,782~$1,811) 안에 위치해 있으나 일목균형표상 구름 안(pos=in)에 머물며 구름 상단($1,969)까지 저항이 두텁고 ADX 19.6으로 추세 강도가 약해 추세추종 근거가 미약함. 이미 3.1ETH를 보유 중이며 고점 대비 -15.6%p 눌린 상태(peak_pnl_pct 15.6%)이나 구름 돌파 전까지는 추가 매수 자리가 아님. 주도 섹터(바이오+23.4%, 반도체+7.4%)와 보유 포지션(META +18.9%, AVGO +7.0%, LABU +8.5%)은 전반적으로 양호하나, LABU가 고점 대비 -16%p 하락 중이라 월요일 개장 시 트레일링 스탑 접근 여부를 주시할 필요 있음. 현금 $70,566(71%)로 충분한 화력이 있으니 월요일 정규장에서 바이오(XBI/LABU 추가 또는 다른 바이오 대장주)·반도체 눌림목 자리를 적극 검토할 예정. | DeepSeek: 현재 시장은 상승장/중립 국면으로 판단되나, 뚜렷한 주도 섹터의 추세추종 진입 자리가 명확하지 않고 대형주들의 일목균형표 구름 상단 눌림목이나 홀리그레일 신호가 당장 포착되지 않아 관망을 유지합니다. 포트폴리오 내 코어(QQQ, SOXX, M7)와 텐버거(TSM) 보유분은 추세가 살아있어 홀드하며, 현금 비중은 약 30%로 추가 급락 시 저점매수 기회를 대기 중입니다. 레버리지 비중은 0%로 변동성 리스크를 피하고 있으며, 하이리스크 슬롯 예산은 현재 저평가·과매도 신호가 분명한 종목이 없어 비워둡니다. 기다리는 매매 원칙에 따라 애매한 상황에서는 거래하지 않는 것이 최선의 결정입니다.",
- "chart_levels": {
-  "ETH-USD": {
-   "price": 1805.5,
-   "support": [
-    1796.27,
-    1742.68,
-    1690.15,
-    1620.14
-   ],
-   "resistance": [
-    1852.97,
-    1956.34,
-    2098.0,
-    2269.81
-   ],
-   "fib": {
-    "382": 1838.37,
-    "500": 1922.88,
-    "618": 2007.38
-   },
-   "taco_zone": {
-    "low": 1781.9,
-    "high": 1810.64,
-    "basis": "지지대"
-   },
-   "in_taco_zone": true
-  }
- },
- "last_trade_time": null,
- "last_trade_count": 0,
- "last_hold_count": 0
+ "market_view": "[미국 프리마켓(개장 전)] 미국 주식 거래 시간이 아니고 코인도 살 만한 신호가 없어 관망. (AI 판단 생략 — 비용 절감)",
+ "trades": []
 }
