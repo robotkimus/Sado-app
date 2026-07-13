@@ -1,6 +1,36 @@
 {
- "updated": "2026-07-13 15:01",
+ "updated": "2026-07-13 16:01",
  "items": [
+  {
+   "headline": "Dow Gains 150 Points But Records Weekly Loss: Investor Sentiment Improves, Fear & Greed Index Remains In ‘Neutral’ Zone",
+   "summary": "The CNN Money Fear and Greed index improved, with US stocks rising on Friday. Tech stocks gained, while SK Hynix surged 13% in its US debut.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/market-summary/26/07/60406946/dow-gains-150-points-but-records-weekly-loss-investor-sentiment-improves-fear-greed-index-remains-in-neutral-zone",
+   "created_at": "2026-07-13T07:00:34Z",
+   "symbols": [
+    "FBK",
+    "LGPS",
+    "META",
+    "NVDA",
+    "SKHYV"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/13/Market-sentiment---Fear-and-Greed.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Nvidia, Micron, Broadcom, Applied Materials Set to Generate $430 Billion in Free Cash Flow as Tech Giants Bleed Cash",
+   "summary": "AI chipmakers are set to generate record cash flow while hyperscalers burn through record capital on AI infrastructure.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/07/60406621/nvidia-micron-broadcom-and-applied-materials-set-to-generate-430-billion-in-free-cash-flow",
+   "created_at": "2026-07-13T06:09:27Z",
+   "symbols": [
+    "AMAT",
+    "AMZN",
+    "AVGO",
+    "GOOG",
+    "GOOGL"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/13/Blocks-Of-Computer-Memory-Sit-On-Top-Of-.jpg?width=1024&height=768"
+  },
   {
    "headline": "Mark Zuckerberg’s Net Worth Jumps as Meta Stock Gains Momentum",
    "summary": "The ongoing Meta stock price rebound has boosted Mark Zuckerberg&#39;s net worth to $237 billion, making him the fifth-richest person.",
@@ -178,34 +208,77 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/07/11/New-York--Usa---14-December-2024-Meta-Pl.jpg?width=1024&height=768"
   },
   {
-   "headline": "Billionaire Investor Retreats From Retail, Exits Alibaba Entirely, Cuts Amazon Stake 10%",
-   "summary": "Dan Loeb&#39;s Third Point LLC reduced exposure to retail in Q1 2026, selling 10% of Amazon and exiting Alibaba.",
+   "headline": "Ross Gerber's 'Controversial' EV Opinion? He Prefers Tesla's Cybertruck Over His Rivian, but Criticizes FSD",
+   "summary": "Ross Gerber of Gerber Kawasaki says that he likes Tesla&#39;s Cybertruck more than his Rivian EV, but FSD still is not good enough.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/large-cap/26/07/60398521/billionaire-investor-retreats-from-retail-exits-alibaba-entirely-cuts-amazon-stake-10",
-   "created_at": "2026-07-10T19:08:47Z",
+   "url": "https://www.benzinga.com/markets/tech/26/07/60406882/ross-gerbers-controversial-ev-opinion-he-prefers-teslas-cybertruck-over-his-rivian-but-criticizes-fsd",
+   "created_at": "2026-07-13T06:52:17Z",
    "symbols": [
-    "AMZN",
-    "BABA",
-    "FFOG",
-    "LRGE",
-    "PNQI"
+    "F",
+    "RIVN",
+    "TSLA"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/10/Amazon.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/13/Cybertruck-Shutterstock.jpg?width=1024&height=768"
   },
   {
-   "headline": "Bill Ackman’s Big Bet On Meta Stock Is Finally Paying Off: Here’s The 2026 Gain So Far",
-   "summary": "After taking a beating early in the year, Bill Ackman&#39;s massive Meta Platforms position has officially bounced back.",
+   "headline": "Samsung Speeds Up Yongin Chip Plant Launch to 2029 amid AI Memory Boom",
+   "summary": "Samsung will open its first Yongin AI chip fab by 2029, accelerating production amid booming AI memory demand.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/07/60396393/bill-ackmans-big-bet-on-meta-stock-is-finally-paying-off-heres-the-2026-gain-so-far",
-   "created_at": "2026-07-10T18:00:21Z",
+   "url": "https://www.benzinga.com/markets/tech/26/07/60406872/samsung-brings-forward-yongin-ai-chip-fab-launch-to-2029",
+   "created_at": "2026-07-13T06:48:35Z",
    "symbols": [
-    "GOOG",
-    "GOOGL",
-    "META",
-    "MSFT",
-    "PS"
+    "SKHYV",
+    "SSNFL"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/10/Bill-Ackman.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/13/Modern-Office-Building-With-Large-Samsun.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Michael Saylor Hints at More Bitcoin Purchases With 'Orange Dots'  — Analyst Sees 'Great Opportunity' in MSTR Despite the 'Mocking'",
+   "summary": "Popular cryptocurrency analyst Michaël van de Poppe flagged on Sunday, July 12, a &#34;great opportunity&#34; to buy into Strategy Inc. and Bitcoin, likening the setup to the 2022 bear market bottom.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/07/60406851/michael-saylor-hints-at-more-bitcoin-purchases-with-orange-dots",
+   "created_at": "2026-07-13T06:36:54Z",
+   "symbols": [
+    "BTCUSD",
+    "MSTR"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/13/Los-Angeles--California---July-10-2025-B.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "FB Financial, Smith Micro Software And 3 Stocks To Watch Heading Into Monday",
+   "summary": "U.S. stock futures down today, FB Financial, Smith Micro Software, LogProstyle, Veraxa Biotech, and Q32 Bio among stocks to watch. More premarket coverage at Benzinga.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/07/60406840/fb-financial-smith-micro-software-and-3-stocks-to-watch-heading-into-monday",
+   "created_at": "2026-07-13T06:35:58Z",
+   "symbols": [
+    "FBK",
+    "LGPS",
+    "QTTB",
+    "SMSI",
+    "VRXA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/13/Stocks-May-Not-Provide-Income.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Netanyahu Calls Israel a 'Country of Laws' as Ro Khanna Says IDF Soldiers Unlawfully Detained Him, Other US Citizens",
+   "summary": "Netanyahu defended Israel’s West Bank law enforcement after Ro Khanna accused settlers and IDF soldiers of detaining Americans during a visit.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/07/60406707/netanyahu-defends-israels-country-of-laws-after-ro-khanna-accuses-idf",
+   "created_at": "2026-07-13T06:25:21Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/13/Washington-D-c---Usa---April-7--2025-Isr.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Oil Rallies 4% as Mohamed El-Erian Warns of 'Significant Intensification' in US-Iran War",
+   "summary": "Oil jumps 4% as US-Iran skirmishes escalate. Mohamed El-Erian warns of &#39;significant intensification&#39; that could push crude to the mid-$80s.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/etfs/sector-etfs/26/07/60406643/oil-rallies-4-as-mohamed-el-erian-warns-of-significant-intensification-in-us-iran-war",
+   "created_at": "2026-07-13T06:14:19Z",
+   "symbols": [
+    "BNO",
+    "USO"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/13/Oil-Trend-Up--Crude-Oil-Price-Stock-Exch.jpg?width=1024&height=768"
   },
   {
    "headline": "Fresh US-Iran Strikes Slash Strait of Hormuz De-escalation Odds by 50%",
@@ -422,77 +495,6 @@
     "MS"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/07/12/West-Bangal--India---April-20--2022--Gol.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Top S&P 500 Stocks to Watch This Week: Goldman Sachs, Netflix, GE Aerospace",
-   "summary": "Here are the top S&amp;P 500 Index stocks to watch this week, including popular names like Goldman Sachs, Netflix and GE Aerospace.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/market-summary/26/07/60405615/top-sp-500-stocks-to-watch-this-week-goldman-sachs-netflix-ge-aerospace",
-   "created_at": "2026-07-12T20:56:02Z",
-   "symbols": [
-    "GE",
-    "GS",
-    "NFLX",
-    "SPCX"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/12/Wall-Street-Sign-With-American-Flag-On-T.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Trump Says He Spoke With Sen. Lindsey Graham Shortly Before His Sudden Death, Says He ‘Sounded a Little Tired’: Report",
-   "summary": "Trump says he spoke to Sen. Graham shortly before his death, discussing legislative work.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/07/60405586/trump-says-he-spoke-with-sen-lindsey-graham-shortly-before-his-sudden-death-says-he-sounded-a-little-tired-report",
-   "created_at": "2026-07-12T20:27:22Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/12/President-Donald-Trump-pauses-as-he-spea.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Elon Musk Says Economy Will Be Measured in Energy, Not Money, as SpaceX Eyes Orbital Solar Power",
-   "summary": "Elon Musk envisions a future where space-based solar energy and orbital computing could transform the economy and surpass Earth&#39;s economy.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/space/26/07/60405564/elon-musk-says-economy-will-be-measured-in-energy-not-money-as-spacex-eyes-orbital-solar-power",
-   "created_at": "2026-07-12T19:58:23Z",
-   "symbols": [
-    "SPCX"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/12/Elon-Musk-Listens-As-U-s--President-elec.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "S&P 500 Index Forms Highly Bullish Pattern as Analysts Warn of Earnings Bubble",
-   "summary": "The S&amp;P 500 Index has formed the highly bullish chart pattern as Wall Street analysts have warned of a potential earnings bubble",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/07/60405549/sp-500-index-forms-highly-bullish-pattern-as-analysts-warn-of-earnings-bubble",
-   "created_at": "2026-07-12T19:31:09Z",
-   "symbols": [
-    "FDS",
-    "GS",
-    "JPM",
-    "MS",
-    "MU"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/12/Wall-Street-Sign-With-American-Flag-On-T.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Sam Altman Says He's ‘Not Afraid of Apple,’ Has ‘Tremendous Respect’ for iPhone Maker Amid Trade Secret Lawsuit",
-   "summary": "OpenAI&#39;s Sam Altman praises Apple, despite ongoing legal battle over alleged theft of confidential information.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/07/60405536/sam-altman-not-afraid-apple-theft-trade-secrets-lawsuit",
-   "created_at": "2026-07-12T19:19:18Z",
-   "symbols": [
-    "AAPL",
-    "GOOG",
-    "GOOGL"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/12/Sam-Altman.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Crude Oil Eyes Rebound as US-Iran Attacks Pick Up Amid Falling Inventories",
-   "summary": "WTI and Brent crude oil are eying a rebound as US-Iran attacks restart amid falling inventories in the US and other countries.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/commodities/26/07/60405516/crude-oil-eyes-rebound-as-us-iran-attacks-pick-up-amid-falling-inventories",
-   "created_at": "2026-07-12T18:56:02Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/12/Oil-Pump-In-The-Desert-Of-Bahrain--Middl.jpg?width=1024&height=768"
   }
  ]
 }
