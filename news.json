@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-13 22:01",
+ "updated": "2026-07-13 22:42",
  "items": [
   {
    "headline": "Stock Market Today: Dow Jones, Nasdaq 100, S&P 500 Futures Slips as US and Iran Exchange Strikes— Saratoga, Exxon Mobil, Levi's Strauss In Focus (UPDATED)",
@@ -207,11 +207,136 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/07/12/Mark-Zuckerberg-Speaks-At-Georgetown-Uni.jpg?width=1024&height=768"
   },
   {
-   "headline": "Plug Power Makes Another Big Move To Shore Up Liquidity",
+   "headline": "Nuburu Targets Defense Expansion With New Public Offering",
+   "summary": "Nuburu announced a proposed $38 million public offering priced at a 5% premium to reduce debt and support strategic Defense &amp; Security initiatives.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/small-cap/26/07/60414187/nuburu-targets-defense-expansion-with-new-public-offering",
+   "created_at": "2026-07-13T13:40:22Z",
+   "symbols": [
+    "BURU"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/13/Nuburu-Stock-Surges.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Why Is Rivian Automotive Stock Falling on Monday?",
+   "summary": "Rivian Automotive Inc. (NASDAQ: RIVN) shares declined Monday due to a discounted 75-million-share public offering. Read the financial details here.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60414134/why-is-rivian-automotive-stock-falling-on-monday",
+   "created_at": "2026-07-13T13:39:33Z",
+   "symbols": [
+    "RIVN",
+    "TSLA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/13/Rivian-Automotive.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Why Is Intel Stock Falling Monday?",
+   "summary": "INTC drops 3% in a market pull-back. With earnings in 10 days, will Intel hold critical support at $102.50? Read the full analysis.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/07/60414058/why-is-intel-stock-falling-monday",
+   "created_at": "2026-07-13T13:38:05Z",
+   "symbols": [
+    "AAPL",
+    "IGPT",
+    "INTC",
+    "SMH",
+    "XNTK"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/13/Intel-Corp.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Trump Floats Permanent Hormuz Control as 'Guardian Angel' and Get 'Reimbursed' by Wealthy Allies: 'Can't be Expected to do it For Nothing'",
+   "summary": "Trump says the U.S. could take control of the Strait of Hormuz permanently and wants allies to pay for securing the vital waterway.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/07/60413886/trump-floats-permanent-hormuz-control-as-guardian-angel-and-get-paid-by-wealthy-allies-cant-be-expected-to-do-it-for-nothing",
+   "created_at": "2026-07-13T13:35:41Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/13/Washington-dc--United-States--April-14-2.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Strategy Raised $467M, Bought No Bitcoin As MSTR Slides Toward $90",
+   "summary": "MSTR stock nears $90 after Strategy sells $466.7M in shares, raises its cash reserve and skips a Bitcoin purchase.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/07/60413946/strategy-raised-467m-bought-no-bitcoin-as-mstr-slides-toward-90",
+   "created_at": "2026-07-13T13:36:50Z",
+   "symbols": [
+    "BTCUSD",
+    "MSTR"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/13/Apex--North-Carolina---May-7-2025-Strate.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Bloom Energy Stock in the Spotlight After a Week of Short-Seller Reports, Analyst Commentary",
+   "summary": "Bloom Energy shares are in the spotlight Monday after a volatile week marked by short-seller reports and a wave of analyst commentary.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60413546/bloom-energy-stock-in-the-spotlight-after-a-week-of-short-seller-reports-analyst-commentary",
+   "created_at": "2026-07-13T13:27:20Z",
+   "symbols": [
+    "BE"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/13/Bloom-Energy.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Incyte Says Early Data Points To Promise For Once-Monthly Preventive Treatment For Inherited Blood Disorder",
+   "summary": "Incyte reports Phase 1/2 latarcibart data showing lower bleeding rates and favorable safety in patients with von Willebrand disease.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/health-care/26/07/60413498/incyte-says-early-data-points-to-promise-for-once-monthly-preventive-treatment-for-inherited-blood-disorder",
+   "created_at": "2026-07-13T13:25:08Z",
+   "symbols": [
+    "INCY"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/13/Blood-Test--Doctor-Working-With-Patients.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "AI Isn't The Real Reason Behind Layoffs, Says Agentic Trading Platform COO & Co-Founder",
+   "summary": "The fear is everywhere. Scroll through LinkedIn on any given day, and you will find another post about AI replacing writers, analysts, coders, and customer service teams. The question of whether artif",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/Opinion/26/07/60396668/ai-isnt-the-real-reason-behind-layoffs-says-agentic-trading-platform-co-founder",
+   "created_at": "2026-07-10T18:06:23Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/13/image.png?width=1024&height=768"
+  },
+  {
+   "headline": "Northern Oil and Gas Ramps Up Share Repurchases, Keeps 2026 Production Forecast Intact",
+   "summary": "Northern Oil and Gas ($NOG) jumps 2.5% premarket after keeping 2026 targets and boosting buybacks. Is the technical outlook turning?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/guidance/26/07/60413473/northern-oil-and-gas-ramps-up-share-repurchases-keeps-2026-production-forecast-intact",
+   "created_at": "2026-07-13T13:24:01Z",
+   "symbols": [
+    "NOG"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/13/Oil-Pump-In-The-Desert-Of-Bahrain--Middl.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Mike Waltz Calls Cuba a ‘National Security Threat,’ Accuses China and Russia Of Collecting Information Around US Bases",
+   "summary": "UN Ambassador Mike Waltz warns of Cuba national security threat fueled by China and Russia, as Trump administration takes hard line approach.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/07/60413445/mike-waltz-calls-cuba-a-national-security-threat-accuses-china-and-russia-of-collecting-information-around-us-bases",
+   "created_at": "2026-07-13T13:23:01Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/13/Syndication-USA-TODAY.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Leading And Lagging Sectors For July 13, 2026",
+   "summary": "Gainers\n\n\n\nSymbol\nName\nPrice\nChange ($)\nChange (%)\nVolume\n\n\n\n\n(NYSE:XLE)\nState Street Energy Select Sector SPDR ETF\n55.8609\n0.781\n1.41\n305.4K\n\n\n(NYSE:XLV)\nState Street Health Care Select Sector SPDR",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/etfs/sector-etfs/26/07/60413185/leading-and-lagging-sectors-july-13-2026",
+   "created_at": "2026-07-13T13:10:02Z",
+   "symbols": [
+    "XLB",
+    "XLC",
+    "XLE",
+    "XLF",
+    "XLI"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_4.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Plug Power Makes Another Big Move To Shore up Liquidity",
    "summary": "PLUG stock falls premarket amid market selloff. Inside Plug Power&#39;s new liquidity boost, key support levels, and analyst updates.",
    "source": "benzinga",
    "url": "https://www.benzinga.com/markets/asset-sales/26/07/60412895/plug-power-makes-another-big-move-to-shore-up-liquidity",
-   "created_at": "2026-07-13T13:00:48Z",
+   "created_at": "2026-07-13T13:00:43Z",
    "symbols": [
     "ACES",
     "CNRG",
@@ -367,153 +492,6 @@
    "created_at": "2026-07-13T12:21:42Z",
    "symbols": [],
    "image": "https://cdn.benzinga.com/files/images/story/2026/07/13/Dave-Ramsey-Rejects-Credit-Cards.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Why Merck Stock Is in the Spotlight Today",
-   "summary": "Merck &amp; Co. shares are in focus Monday after a wave of analyst activity capped by a new FDA approval for its cancer drug Keytruda.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60411581/why-merck-stock-is-in-the-spotlight-today",
-   "created_at": "2026-07-13T12:20:39Z",
-   "symbols": [
-    "MRK"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/13/Merck-Chooses-Switzerland.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "GSK's Jemperli May Help Some Rectal Cancer Patients Avoid Surgery",
-   "summary": "GSK Jemperli shows sustained complete responses in dMMR/MSI-H rectal cancer, potentially eliminating the need for surgery or chemo.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/health-care/26/07/60411513/gsks-jemperli-may-help-some-rectal-cancer-patients-avoid-surgery",
-   "created_at": "2026-07-13T12:16:53Z",
-   "symbols": [
-    "GSK"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/13/Rueil-malmaison--France---August-13--202.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Keysight To Rally Over 24%? Here Are 10 Top Analyst Forecasts For Monday",
-   "summary": "Wall Street analysts change outlook on top names. Complete view of analyst rating changes including upgrades/downgrades. See analyst ratings page.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/07/60411428/keysight-to-rally-over-24-here-are-10-top-analyst-forecasts-for-monday",
-   "created_at": "2026-07-13T12:11:06Z",
-   "symbols": [
-    "AFL",
-    "BBIO",
-    "COF",
-    "COIN",
-    "CRL"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/13/Beijing--China---June-4--2023-Keysight-S.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "What’s Going on Sky Quarry Stock on Monday?",
-   "summary": "Sky Quarry shares gained as oil prices climbed amid Middle East tensions after the company appointed refining veteran Ray Hansen to lead Foreland Refining.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60411250/whats-going-on-sky-quarry-stock-on-monday",
-   "created_at": "2026-07-13T12:06:37Z",
-   "symbols": [
-    "CVI",
-    "PBF",
-    "SKYQ"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/13/Oil-Field--Falling-Chart-And-Petroleum-R.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "12 Communication Services Stocks Moving In Monday's Pre-Market Session",
-   "summary": "Gainers\n\nFast Track Group (NASDAQ:FTRK) stock increased by 45.4% to $0.58 during Monday&#39;s pre-market session. The market value of their outstanding shares is at $8.6 million. \nQuantum X Labs (NASD",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60411193/12-communication-services-stocks-moving-monday-s-pre-market-session",
-   "created_at": "2026-07-13T12:05:32Z",
-   "symbols": [
-    "FTRK",
-    "GMM",
-    "GOAI",
-    "HAO",
-    "JFU"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_3.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "12 Health Care Stocks Moving In Monday's Pre-Market Session",
-   "summary": "Gainers\n\nPulsenmore (NASDAQ:PLSM) shares increased by 171.2% to $10.47 during Monday&#39;s pre-market session. The company&#39;s market cap stands at $25.1 million. \nQ32 Bio (NASDAQ:QTTB) stock rose 6",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60411192/12-health-care-stocks-moving-monday-s-pre-market-session",
-   "created_at": "2026-07-13T12:05:32Z",
-   "symbols": [
-    "AGEN",
-    "ARAY",
-    "BJDX",
-    "BMGL",
-    "BNBX"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_2.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "12 Industrials Stocks Moving In Monday's Pre-Market Session",
-   "summary": "Gainers\n\nMint (NASDAQ:MIMI) stock rose 32.5% to $2.85 during Monday&#39;s pre-market session. The market value of their outstanding shares is at $5.9 million. \nEshallgo (NASDAQ:EHGO) shares moved upwa",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60411191/12-industrials-stocks-moving-monday-s-pre-market-session",
-   "created_at": "2026-07-13T12:05:31Z",
-   "symbols": [
-    "BNRG",
-    "BTOC",
-    "EHGO",
-    "ELPW",
-    "FGI"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_4.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "12 Information Technology Stocks Moving In Monday's Pre-Market Session",
-   "summary": "Gainers\n\nSobr Safe (NASDAQ:SOBR) shares moved upwards by 19.0% to $0.52 during Monday&#39;s pre-market session. The company&#39;s market cap stands at $1.2 million. \nBraiin (NASDAQ:BRAI) stock rose 12",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60411190/12-information-technology-stocks-moving-monday-s-pre-market-session",
-   "created_at": "2026-07-13T12:05:31Z",
-   "symbols": [
-    "AMOD",
-    "BGDE",
-    "BGIN",
-    "BNZI",
-    "BOXL"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_3.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Stellantis Shipments Climb 10% As North America Powers Growth",
-   "summary": "Stellantis Q2 vehicle shipments jump 10% to 1.6M units, driven by North American and European growth. STLA shares rise on the news.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60411112/stellantis-shipments-climb-10-as-north-america-powers-growth",
-   "created_at": "2026-07-13T12:04:21Z",
-   "symbols": [
-    "STLA"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/13/Turin--Italy---February-13--2024-The-Ste.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Porch Group, Micron And Other Big Stocks Moving Lower In Monday’s Pre-Market Session",
-   "summary": "U.S. stock futures lower, Porch Group Inc (NASDAQ: PRCH) downgraded, pre-market trading sees several other stocks declining.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60411047/porch-group-micron-and-other-big-stocks-moving-lower-in-mondays-pre-market-session",
-   "created_at": "2026-07-13T12:03:06Z",
-   "symbols": [
-    "AVR",
-    "COHU",
-    "DCX",
-    "FIZZ",
-    "GMM"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/13/Display-Of-Stock-Market-Quotes.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Elon Musk's First SpaceX Hire Tom Mueller Says Moon is ‘More Important Than Mars’ in Near Term For This Key Reason",
-   "summary": "SpaceX&#39;s first employee Tom Mueller believes the Moon is more important than Mars due to its potential as a source of raw materials.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/space/26/07/60410571/elon-musks-first-spacex-hire-tom-mueller-says-moon-is-more-important-than-mars-in-near-term-for-this-key-reason",
-   "created_at": "2026-07-13T11:50:46Z",
-   "symbols": [
-    "SPCX"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/13/View-Of-Moon-Limb-With-Earth-Rising-On-T.jpg?width=1024&height=768"
   }
  ]
 }
