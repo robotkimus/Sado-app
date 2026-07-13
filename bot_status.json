@@ -1,7 +1,6 @@
 {
- "updated": "2026-07-13 20:01",
- "session": "미국 프리마켓(개장 전)",
- "equity": 98958.09,
+ "updated": "2026-07-13 21:01",
+ "equity": 98914.5,
  "cash": 70566.06,
  "base": 100000.0,
  "positions": [
@@ -9,10 +8,10 @@
    "symbol": "AMZN",
    "qty": 5.0,
    "avg_cost": 239.57,
-   "now": 245.5,
-   "pnl_pct": 2.5,
+   "now": 244.6,
+   "pnl_pct": 2.1,
    "peak_pnl_pct": 3.8,
-   "drawdown_from_peak_pct": -1.3,
+   "drawdown_from_peak_pct": -1.7,
    "trailing_stop_triggered": false,
    "is_tenbagger": false,
    "stoploss_triggered": false
@@ -21,10 +20,10 @@
    "symbol": "AVGO",
    "qty": 15.9382,
    "avg_cost": 368.265841,
-   "now": 395.5,
-   "pnl_pct": 7.4,
+   "now": 394.25,
+   "pnl_pct": 7.1,
    "peak_pnl_pct": 10.2,
-   "drawdown_from_peak_pct": -2.8,
+   "drawdown_from_peak_pct": -3.1,
    "trailing_stop_triggered": false,
    "is_tenbagger": false,
    "stoploss_triggered": false
@@ -45,7 +44,7 @@
    "symbol": "ETH-USD",
    "qty": 3.10323661,
    "avg_cost": 0.0,
-   "now": 1777.0,
+   "now": 1782.602,
    "pnl_pct": 0.0,
    "peak_pnl_pct": 15.6,
    "drawdown_from_peak_pct": -15.6,
@@ -57,10 +56,10 @@
    "symbol": "IGV",
    "qty": 2.0,
    "avg_cost": 85.1,
-   "now": 93.0,
-   "pnl_pct": 9.3,
+   "now": 92.75,
+   "pnl_pct": 9.0,
    "peak_pnl_pct": 12.6,
-   "drawdown_from_peak_pct": -3.3,
+   "drawdown_from_peak_pct": -3.6,
    "trailing_stop_triggered": false,
    "is_tenbagger": false,
    "stoploss_triggered": false
@@ -81,10 +80,10 @@
    "symbol": "META",
    "qty": 2.0,
    "avg_cost": 557.685,
-   "now": 667.781,
-   "pnl_pct": 19.7,
+   "now": 663.41,
+   "pnl_pct": 19.0,
    "peak_pnl_pct": 20.6,
-   "drawdown_from_peak_pct": -0.9,
+   "drawdown_from_peak_pct": -1.6,
    "trailing_stop_triggered": false,
    "is_tenbagger": false,
    "stoploss_triggered": false
@@ -93,10 +92,10 @@
    "symbol": "MSFT",
    "qty": 4.0,
    "avg_cost": 367.5625,
-   "now": 387.7,
-   "pnl_pct": 5.5,
+   "now": 386.83,
+   "pnl_pct": 5.2,
    "peak_pnl_pct": 7.2,
-   "drawdown_from_peak_pct": -1.7,
+   "drawdown_from_peak_pct": -2.0,
    "trailing_stop_triggered": false,
    "is_tenbagger": false,
    "stoploss_triggered": false
@@ -105,10 +104,10 @@
    "symbol": "NVDA",
    "qty": 8.0,
    "avg_cost": 196.105,
-   "now": 208.47,
-   "pnl_pct": 6.3,
+   "now": 208.05,
+   "pnl_pct": 6.1,
    "peak_pnl_pct": 7.6,
-   "drawdown_from_peak_pct": -1.3,
+   "drawdown_from_peak_pct": -1.5,
    "trailing_stop_triggered": false,
    "is_tenbagger": false,
    "stoploss_triggered": false
@@ -117,10 +116,10 @@
    "symbol": "QQQ",
    "qty": 3.0,
    "avg_cost": 722.866667,
-   "now": 719.54,
-   "pnl_pct": -0.5,
+   "now": 718.21,
+   "pnl_pct": -0.6,
    "peak_pnl_pct": 0.5,
-   "drawdown_from_peak_pct": -1.0,
+   "drawdown_from_peak_pct": -1.1,
    "trailing_stop_triggered": false,
    "is_tenbagger": false,
    "stoploss_triggered": false
@@ -129,10 +128,10 @@
    "symbol": "SOXX",
    "qty": 9.0,
    "avg_cost": 558.336667,
-   "now": 568.0,
-   "pnl_pct": 1.7,
+   "now": 565.59,
+   "pnl_pct": 1.3,
    "peak_pnl_pct": 6.2,
-   "drawdown_from_peak_pct": -4.5,
+   "drawdown_from_peak_pct": -4.9,
    "trailing_stop_triggered": false,
    "is_tenbagger": false,
    "stoploss_triggered": false
@@ -150,6 +149,37 @@
    "stoploss_triggered": false
   }
  ],
- "market_view": "[미국 프리마켓(개장 전)] 미국 주식 거래 시간이 아니고 코인도 살 만한 신호가 없어 관망. (AI 판단 생략 — 비용 절감)",
- "trades": []
+ "trades": [],
+ "market_view": "🤝 합의: 거래 없음 | Claude: 현재 미국 프리마켓(개장 전) 세션으로 미국 주식 거래 시간이 아니므로 주식 관련 결정은 전량 보류한다. ETH-USD는 현재 $1,810 수준으로 일목균형표상 구름 안(pos=in)에 위치해 방향성이 불명확하고, RSI 58.9로 중립권이며 볼린저 포지션 0.8로 다소 상단에 치우쳐 있어 추가 매수 자리로 보기 애매하다. 또한 보유 ETH-USD의 peak 대비 drawdown이 -15.6%p로 트레일링 임계(-20%p)에 근접 중이므로 추가 매수보다 기존 포지션 모니터링이 우선이다. 주식 포트폴리오는 바이오(XBI +23.4%)·반도체·금융이 주도하는 상승장 국면이며 현금 비중이 약 71%로 여전히 높아 정규장 개장 후 주도 섹터 눌림목 진입 기회를 적극 모색할 계획이다. | DeepSeek: 오늘 시장은 혼조세로, 확실한 추세나 과매도 반등 신호가 포착되지 않았습니다. 주요 지표들이 방향성을 보여주지 않아 관망하며 현금 비중을 유지하는 것이 적절하다고 판단했습니다. 포트폴리오 내 보유 종목들은 손절선이나 트레일링 스탑 조건에 걸리지 않아 현재 상태를 유지합니다. 현금 비중은 상승장에 대비해 과도하지 않게, 그러나 불확실성에 대비해 충분히 확보된 상태입니다.",
+ "chart_levels": {
+  "ETH-USD": {
+   "price": 1810.44,
+   "support": [
+    1796.27,
+    1742.68,
+    1690.15,
+    1620.14
+   ],
+   "resistance": [
+    1852.97,
+    1956.34,
+    2098.0,
+    2269.81
+   ],
+   "fib": {
+    "382": 1816.37,
+    "500": 1894.07,
+    "618": 1971.78
+   },
+   "taco_zone": {
+    "low": 1781.9,
+    "high": 1810.64,
+    "basis": "지지대"
+   },
+   "in_taco_zone": true
+  }
+ },
+ "last_trade_time": null,
+ "last_trade_count": 0,
+ "last_hold_count": 0
 }
