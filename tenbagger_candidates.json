@@ -1,52 +1,76 @@
 {
- "updated": "2026-07-14 02:02",
+ "updated": "2026-07-14 03:02",
  "candidates": [
   {
-   "symbol": "COF",
+   "symbol": "ZTS",
    "score": 5,
    "ratio": 0.5,
    "max": 10,
-   "price": 203.66,
+   "price": 75.17,
    "reasons": [
-    "고점 대비 -21% 조정",
-    "PER 8(저평가)",
-    "PBR 1.2",
-    "그레이엄 기준 충족"
-   ]
-  },
-  {
-   "symbol": "NFLX",
-   "score": 4,
-   "ratio": 0.4,
-   "max": 10,
-   "price": 74.39,
-   "reasons": [
-    "52주고점 대비 -32%",
+    "52주고점 대비 -43%",
     "RSI 41 과매도권 접근",
-    "PER 19"
+    "PER 10(저평가)"
    ]
   },
   {
-   "symbol": "C",
-   "score": 4,
-   "ratio": 0.4,
+   "symbol": "DIS",
+   "score": 5,
+   "ratio": 0.5,
    "max": 10,
-   "price": 138.51,
+   "price": 96.21,
    "reasons": [
-    "PER 11(저평가)",
-    "PBR 1.2",
+    "고점 대비 -17% 조정",
+    "RSI 41 과매도권 접근",
+    "PER 13(저평가)",
     "그레이엄 기준 충족"
    ]
   },
   {
-   "symbol": "TFC",
+   "symbol": "GIS",
+   "score": 5,
+   "ratio": 0.5,
+   "max": 10,
+   "price": 36.89,
+   "reasons": [
+    "고점 대비 -25% 조정",
+    "PER 11(저평가)",
+    "시총 $19.7B(소형)"
+   ]
+  },
+  {
+   "symbol": "SLB",
    "score": 4,
    "ratio": 0.4,
    "max": 10,
-   "price": 51.74,
+   "price": 47.76,
    "reasons": [
-    "PER 10(저평가)",
-    "PBR 1.1",
+    "고점 대비 -18% 조정",
+    "RSI 42 과매도권 접근",
+    "PER 14(저평가)"
+   ]
+  },
+  {
+   "symbol": "LOW",
+   "score": 4,
+   "ratio": 0.4,
+   "max": 10,
+   "price": 208.5,
+   "reasons": [
+    "52주고점 대비 -27%",
+    "RSI 38 과매도권 접근",
+    "PER 15"
+   ]
+  },
+  {
+   "symbol": "KHC",
+   "score": 4,
+   "ratio": 0.4,
+   "max": 10,
+   "price": 25.22,
+   "reasons": [
+    "PER 12(저평가)",
+    "PBR 0.7",
     "그레이엄 기준 충족"
    ]
   }
