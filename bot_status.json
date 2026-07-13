@@ -1,6 +1,6 @@
 {
- "updated": "2026-07-13 09:01",
- "equity": 99166.17,
+ "updated": "2026-07-13 10:01",
+ "equity": 99121.39,
  "cash": 70566.06,
  "base": 100000.0,
  "positions": [
@@ -8,10 +8,10 @@
    "symbol": "AMZN",
    "qty": 5.0,
    "avg_cost": 239.57,
-   "now": 245.7,
-   "pnl_pct": 2.6,
+   "now": 244.2,
+   "pnl_pct": 1.9,
    "peak_pnl_pct": 3.8,
-   "drawdown_from_peak_pct": -1.2,
+   "drawdown_from_peak_pct": -1.9,
    "trailing_stop_triggered": false,
    "is_tenbagger": false,
    "stoploss_triggered": false
@@ -20,10 +20,10 @@
    "symbol": "AVGO",
    "qty": 15.9382,
    "avg_cost": 368.265841,
-   "now": 397.0,
-   "pnl_pct": 7.8,
+   "now": 394.59,
+   "pnl_pct": 7.1,
    "peak_pnl_pct": 10.2,
-   "drawdown_from_peak_pct": -2.4,
+   "drawdown_from_peak_pct": -3.1,
    "trailing_stop_triggered": false,
    "is_tenbagger": false,
    "stoploss_triggered": false
@@ -44,7 +44,7 @@
    "symbol": "ETH-USD",
    "qty": 3.10323661,
    "avg_cost": 0.0,
-   "now": 1805.23,
+   "now": 1824.52,
    "pnl_pct": 0.0,
    "peak_pnl_pct": 15.6,
    "drawdown_from_peak_pct": -15.6,
@@ -56,10 +56,10 @@
    "symbol": "IGV",
    "qty": 2.0,
    "avg_cost": 85.1,
-   "now": 92.41,
-   "pnl_pct": 8.6,
+   "now": 92.32,
+   "pnl_pct": 8.5,
    "peak_pnl_pct": 12.6,
-   "drawdown_from_peak_pct": -4.0,
+   "drawdown_from_peak_pct": -4.1,
    "trailing_stop_triggered": false,
    "is_tenbagger": false,
    "stoploss_triggered": false
@@ -80,7 +80,7 @@
    "symbol": "META",
    "qty": 2.0,
    "avg_cost": 557.685,
-   "now": 664.5,
+   "now": 665.04,
    "pnl_pct": 19.2,
    "peak_pnl_pct": 20.6,
    "drawdown_from_peak_pct": -1.4,
@@ -92,7 +92,7 @@
    "symbol": "MSFT",
    "qty": 4.0,
    "avg_cost": 367.5625,
-   "now": 384.0,
+   "now": 384.17,
    "pnl_pct": 4.5,
    "peak_pnl_pct": 7.2,
    "drawdown_from_peak_pct": -2.7,
@@ -104,10 +104,10 @@
    "symbol": "NVDA",
    "qty": 8.0,
    "avg_cost": 196.105,
-   "now": 209.58,
-   "pnl_pct": 6.9,
+   "now": 209.2,
+   "pnl_pct": 6.7,
    "peak_pnl_pct": 7.6,
-   "drawdown_from_peak_pct": -0.7,
+   "drawdown_from_peak_pct": -0.9,
    "trailing_stop_triggered": false,
    "is_tenbagger": false,
    "stoploss_triggered": false
@@ -116,10 +116,10 @@
    "symbol": "QQQ",
    "qty": 3.0,
    "avg_cost": 722.866667,
-   "now": 721.75,
-   "pnl_pct": -0.2,
+   "now": 720.24,
+   "pnl_pct": -0.4,
    "peak_pnl_pct": 0.5,
-   "drawdown_from_peak_pct": -0.7,
+   "drawdown_from_peak_pct": -0.9,
    "trailing_stop_triggered": false,
    "is_tenbagger": false,
    "stoploss_triggered": false
@@ -128,10 +128,10 @@
    "symbol": "SOXX",
    "qty": 9.0,
    "avg_cost": 558.336667,
-   "now": 578.86,
-   "pnl_pct": 3.7,
+   "now": 573.0,
+   "pnl_pct": 2.6,
    "peak_pnl_pct": 6.2,
-   "drawdown_from_peak_pct": -2.5,
+   "drawdown_from_peak_pct": -3.6,
    "trailing_stop_triggered": false,
    "is_tenbagger": false,
    "stoploss_triggered": false
@@ -149,11 +149,13 @@
    "stoploss_triggered": false
   }
  ],
- "trades": [],
- "market_view": "🤝 합의: ETH-USD 매수 보류(Claude만) | Claude: 현재 미국 주식 시장은 주말 휴장으로 주식 거래 불가 — 주식 관련 결정은 모두 관망. 코인만 판단: ETH는 현재가 1803이 taco_zone(1781~1810) 안에 있고 MA5(1774) 위를 유지하며 단기 지지를 확인 중이나, 일목구름 내부(pos=in)·거래량 0.57배 저조·ADX 19.6 약추세로 추세 확신이 낮아 low 확신 소량 추가에 그침. 기존 보유(3.10 ETH)가 peak 대비 -15.6%p 눌렸으나 52주 고점 대비 -25.5%로 저가권, 현금 $70.5k(71%)로 여유 충분해 소량 적립 수준으로 대응. 주식 포트폴리오는 META(+19.2%)·AVGO(+7.8%)·LABU(+11.1%) 모두 추세 양호하며, 주도 섹터 바이오·반도체가 강세인 상승장이므로 다음 개장 시 XBI·LABU 추가·SOXX 눌림목 매수 등 적극 진입 검토 예정. | DeepSeek: 현재 시장은 상승 추세가 명확한 국면입니다. S&P 500과 나스닥은 20일선 위에서 안정적인 흐름을 보이며, 반도체 섹터(SOXX, NVDA, AVGO)가 강한 주도력을 유지하고 있습니다. VIX는 15 이하로 낮아 공포보다는 탐욕이 우세한 상태입니다. 이에 따라 '하락장에 덜 잃는다'는 원칙보다는 '상승장에 적극 참여한다'는 원칙을 적용해야 합니다. 다만 현재 보유 포트폴리오가 이미 주도 섹터(반도체, 빅테크, 레버리지 일부)에 적절히 배분되어 있고, 현금 비중(약 25%)도 충분해 급할 이유는 없습니다. 모든 매수 조건(눌림목, 지지선 근접, 반등 신호 등)과 부합하는 '기다리던 좋은 자리'가 나타난 종목이 현재 관심종목 내에 없습니다. 따라서 관망하며 다음 눌림목이나 돌파 기회를 기다리는 것이 현명합니다. 추가 매수를 위해 억지로 자리를 만들지 않고, 기다리는 매매 철학을 지켜 현금 보유와 포트폴리오 균형을 유지하기로 결정했습니다.",
+ "trades": [
+  "⏸ AVGO 보류 (미국 주말 휴장 — 정규장에 재검토)"
+ ],
+ "market_view": "🤝 합의: ETH-USD 매수 보류(Claude만), AVGO 매수(DeepSeek주도·소량) | Claude: 현재 미국 주식 시장은 주말 휴장 상태로 주식 관련 매수·매도는 일체 보류한다. 코인은 24시간 거래 가능하므로 ETH-USD만 검토했으며, 현재가 1810달러로 타코존(1781~1810) 내에 위치하고 MA5(1776)를 상회 중이라 소량 적립 진입을 결정했다. 다만 일목균형표상 구름 안(pos=in)으로 방향이 불명확하고 거래량이 20일 평균의 61% 수준으로 약해 확신은 낮은(low) 수준이며, 하이리스크 슬롯 5% 한도 내 소량(0.15 ETH)으로 제한한다. 보유 포지션 전반은 META +19.2%, LABU +11.1%, AVGO +7.1% 등 수익 중으로 양호하며, 현금 비중이 총자산의 71%($70,566)로 여전히 높아 다음 정규 거래일 주도 섹터(바이오·반도체) 눌림목 진입 기회를 적극 모색할 계획이다. | DeepSeek: 시장은 중립~상승 국면으로, 반도체 섹터(SOXX/SMH)가 여전히 주도하며 NVDA/AVGO 등 대형주 추세가 견고합니다. 현금 비중은 25%로 충분하나, 지나친 관망보다는 주도 섹터 눌림목에서 분할 진입이 맞다고 판단해 AVGO를 핵심 코어로 편입했습니다. 하이리스크 슬롯(저평가·과매도)에 해당하는 유의미한 신호는 아직 없어 추가 매수 없이 관망합니다. 포트폴리오 내 레버리지·인버스 비중은 10%로 한도 내에서 안정적이며, 손실 종목은 -7% 이하 없어 손절 필요 없습니다.",
  "chart_levels": {
   "ETH-USD": {
-   "price": 1803.85,
+   "price": 1810.0,
    "support": [
     1796.27,
     1742.68,
@@ -181,5 +183,5 @@
  },
  "last_trade_time": null,
  "last_trade_count": 0,
- "last_hold_count": 0
+ "last_hold_count": 1
 }
