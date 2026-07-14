@@ -1,6 +1,6 @@
 {
- "updated": "2026-07-14 09:01",
- "equity": 98477.67,
+ "updated": "2026-07-14 10:01",
+ "equity": 98657.51,
  "cash": 70834.52,
  "base": 100000.0,
  "positions": [
@@ -8,10 +8,10 @@
    "symbol": "AMZN",
    "qty": 5.0,
    "avg_cost": 239.57,
-   "now": 246.4,
-   "pnl_pct": 2.9,
+   "now": 246.7,
+   "pnl_pct": 3.0,
    "peak_pnl_pct": 3.8,
-   "drawdown_from_peak_pct": -0.9,
+   "drawdown_from_peak_pct": -0.8,
    "trailing_stop_triggered": false,
    "is_tenbagger": false,
    "stoploss_triggered": false
@@ -20,10 +20,10 @@
    "symbol": "AVGO",
    "qty": 15.9382,
    "avg_cost": 368.265841,
-   "now": 383.85,
-   "pnl_pct": 4.2,
+   "now": 386.0,
+   "pnl_pct": 4.8,
    "peak_pnl_pct": 10.2,
-   "drawdown_from_peak_pct": -6.0,
+   "drawdown_from_peak_pct": -5.4,
    "trailing_stop_triggered": false,
    "is_tenbagger": false,
    "stoploss_triggered": false
@@ -44,7 +44,7 @@
    "symbol": "ETH-USD",
    "qty": 3.10323661,
    "avg_cost": 0.0,
-   "now": 1771.837,
+   "now": 1785.34,
    "pnl_pct": 0.0,
    "peak_pnl_pct": 15.6,
    "drawdown_from_peak_pct": -15.6,
@@ -68,10 +68,10 @@
    "symbol": "META",
    "qty": 2.0,
    "avg_cost": 557.685,
-   "now": 655.16,
-   "pnl_pct": 17.5,
+   "now": 655.72,
+   "pnl_pct": 17.6,
    "peak_pnl_pct": 20.8,
-   "drawdown_from_peak_pct": -3.3,
+   "drawdown_from_peak_pct": -3.2,
    "trailing_stop_triggered": false,
    "is_tenbagger": false,
    "stoploss_triggered": false
@@ -80,10 +80,10 @@
    "symbol": "MSFT",
    "qty": 4.0,
    "avg_cost": 367.5625,
-   "now": 387.8,
-   "pnl_pct": 5.5,
+   "now": 389.8,
+   "pnl_pct": 6.0,
    "peak_pnl_pct": 7.2,
-   "drawdown_from_peak_pct": -1.7,
+   "drawdown_from_peak_pct": -1.2,
    "trailing_stop_triggered": false,
    "is_tenbagger": false,
    "stoploss_triggered": false
@@ -92,10 +92,10 @@
    "symbol": "NVDA",
    "qty": 8.0,
    "avg_cost": 196.105,
-   "now": 203.25,
-   "pnl_pct": 3.6,
+   "now": 205.0,
+   "pnl_pct": 4.5,
    "peak_pnl_pct": 7.6,
-   "drawdown_from_peak_pct": -4.0,
+   "drawdown_from_peak_pct": -3.1,
    "trailing_stop_triggered": false,
    "is_tenbagger": false,
    "stoploss_triggered": false
@@ -104,10 +104,10 @@
    "symbol": "QQQ",
    "qty": 3.0,
    "avg_cost": 722.866667,
-   "now": 711.0,
-   "pnl_pct": -1.6,
+   "now": 713.05,
+   "pnl_pct": -1.4,
    "peak_pnl_pct": 0.5,
-   "drawdown_from_peak_pct": -2.1,
+   "drawdown_from_peak_pct": -1.9,
    "trailing_stop_triggered": false,
    "is_tenbagger": false,
    "stoploss_triggered": false
@@ -116,10 +116,10 @@
    "symbol": "SOXX",
    "qty": 9.0,
    "avg_cost": 558.336667,
-   "now": 551.7,
-   "pnl_pct": -1.2,
+   "now": 559.8,
+   "pnl_pct": 0.3,
    "peak_pnl_pct": 6.2,
-   "drawdown_from_peak_pct": -7.4,
+   "drawdown_from_peak_pct": -5.9,
    "trailing_stop_triggered": false,
    "is_tenbagger": false,
    "stoploss_triggered": false
@@ -137,8 +137,11 @@
    "stoploss_triggered": false
   }
  ],
- "trades": [],
- "market_view": "🤝 합의: ETH-USD 매수 보류(Claude만) | Claude: 현재 미국 주식 정규장 마감 후 거래 시간 외라 주식 매수·매도는 전면 관망한다. 코인(ETH-USD)만 검토: ETH는 현재 1805달러로 taco_zone(1781~1810) 안에 있고 MA5(1775) 위를 유지 중이며 RSI 58로 중립, 일목 구름 하단(1774)에 바짝 붙은 'in' 상태라 지지 여부를 테스트 중이다. 구름 하단이 지지가 되면 반등 여지가 있으나 구름 위까지 올리려면 상당한 모멘텀이 필요하고 ADX 19.6으로 추세가 약해 확신은 낮다. 기존 ETH 보유(3.1개, 고점 대비 -15.6%)가 있어 추가 매수는 소량(0.3개)으로 제한하고, 총 코인 비중은 5% 이내에서 관리한다. 섹터 흐름상 바이오·금융·헬스케어가 주도이며 기술·반도체는 소외돼 있어, 내일 정규장 개장 시 XBI·XLF·XLV 관련 추세추종 매수 기회를 우선 검토할 예정이다. | DeepSeek: 현재 시장 국면은 혼조·불명확 상태로, 주요 지수(SPY, QQQ)가 20일선 부근에서 등락 중이며 명확한 상승/하락 추세가 확인되지 않습니다. 기술적 지표(ADX 20 미만, RSI 중립권)가 추세 약화를 가리키고 있어, 주도 섹터(반도체)도 일목균형표 구름 안에서 방향을 탐색 중입니다. 이에 따라 '기다리는 매매' 철학에 따라 신규 진입을 보류하고 관망하는 것이 최선이라고 판단했습니다. 포트폴리오 내 현금 비중(약 40%)은 적절하며, 확실한 눌림목 또는 추세 전환 신호가 나올 때까지 기회를 기다리는 것이 하락장에 덜 잃는 전략에 부합합니다.",
+ "trades": [
+  "⏸ NVDA 보류 (미국 장 마감 (거래 시간 외) — 정규장에 재검토)",
+  "⏸ SOXX 보류 (미국 장 마감 (거래 시간 외) — 정규장에 재검토)"
+ ],
+ "market_view": "🤝 합의: ETH-USD 매수 보류(Claude만), NVDA 매수(DeepSeek주도·소량), SOXX 매수(DeepSeek주도·소량), TQQQ 매도 보류(DeepSeek만·손절선 위) | Claude: 현재 미국 장 마감 세션으로 주식 거래 불가, 코인(ETH-USD)만 검토. 시장 국면은 중립/혼조로 VIX 17.2, SPY는 MA20 대비 +0.6%로 방향성 불명확. 섹터 흐름상 바이오(+17%), 금융(+6.6%), 헬스케어(+4.8%)가 주도하고 반도체(-5.7%)·기술(-1.1%)은 소외 중이나 주식은 장외라 관망. ETH는 현재 taco_zone 내 위치하며 MA5 위 회복, 구름 하단 지지 테스트 중이나 일목 구름 안(in)으로 추세 불명확하고 거래량이 20일 평균의 57% 수준으로 약해 큰 진입보다 소량 적립에 그침. 기존 보유 포지션은 META(+17.6%)·BLK(+6.5%)·IGV(+8.9%) 양호하며 VRTX(-4.1%, 고점 대비 -10%p)는 아직 손절선(-7%) 미도달이나 추가 하락 시 경계 필요. | DeepSeek: 오늘 시장은 상승·중립 국면으로 판단. 반도체(SOXX·NVDA)가 주도 섹터로 강세 흐름 유지 중이며, M7 내 빅테크도 견조한 눌림목을 보여 추세추종 진입에 적합한 환경. 코어 포트폴리오는 반도체 ETF와 대장주를 중심으로 추세추종하고, 분산 차원에서 AMZN·META 소량 추가. 레버리지(TQQQ)는 변동성 잠식 리스크와 하이리스크 예산 여유를 위해 일부 축소. 현금 비중은 약 15%로 적정 수준 유지 — 과도한 현금 보유 없이 주도 섹터에 충분히 노출된 상태. 하이리스크 슬롯은 현재 급락한 과매도 우량주가 뚜렷하지 않아 추가 진입보다 기존 텐버거 적립 기회 관망 중.",
  "chart_levels": {
   "ETH-USD": {
    "price": 1805.79,
@@ -169,5 +172,5 @@
  },
  "last_trade_time": "2026-07-13 22:42",
  "last_trade_count": 0,
- "last_hold_count": 0
+ "last_hold_count": 2
 }
