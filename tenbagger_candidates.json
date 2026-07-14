@@ -1,95 +1,79 @@
 {
- "updated": "2026-07-15 00:02",
+ "updated": "2026-07-15 01:02",
  "candidates": [
   {
-   "symbol": "ORCL",
+   "symbol": "C",
    "score": 5,
    "ratio": 0.5,
    "max": 10,
-   "price": 129.52,
+   "price": 134.96,
    "reasons": [
-    "52주고점 대비 -48%",
-    "RSI 26 과매도",
-    "PER 12(저평가)"
-   ]
-  },
-  {
-   "symbol": "PYPL",
-   "score": 5,
-   "ratio": 0.5,
-   "max": 10,
-   "price": 46.75,
-   "reasons": [
-    "52주고점 대비 -26%",
-    "PER 8(저평가)",
+    "RSI 44 과매도권 접근",
+    "PER 11(저평가)",
+    "PBR 1.2",
     "그레이엄 기준 충족"
    ]
   },
   {
-   "symbol": "QCOM",
-   "score": 4,
-   "ratio": 0.4,
+   "symbol": "COF",
+   "score": 5,
+   "ratio": 0.5,
    "max": 10,
-   "price": 182.6,
+   "price": 204.22,
    "reasons": [
-    "52주고점 대비 -27%",
-    "RSI 42 과매도권 접근",
-    "PER 17"
+    "고점 대비 -21% 조정",
+    "PER 8(저평가)",
+    "PBR 1.2",
+    "그레이엄 기준 충족"
    ]
   },
   {
-   "symbol": "CRM",
-   "score": 4,
-   "ratio": 0.4,
+   "symbol": "PFE",
+   "score": 5,
+   "ratio": 0.5,
    "max": 10,
-   "price": 168.5,
+   "price": 24.27,
    "reasons": [
-    "52주고점 대비 -37%",
-    "PER 11(저평가)"
+    "고점 대비 -15% 조정",
+    "RSI 44 과매도권 접근",
+    "PER 9(저평가)",
+    "그레이엄 기준 충족"
    ]
   },
   {
-   "symbol": "ADBE",
-   "score": 4,
-   "ratio": 0.4,
+   "symbol": "ABT",
+   "score": 5,
+   "ratio": 0.5,
    "max": 10,
-   "price": 222.74,
+   "price": 89.36,
    "reasons": [
-    "52주고점 대비 -38%",
-    "PER 8(저평가)"
-   ]
-  },
-  {
-   "symbol": "TEAM",
-   "score": 4,
-   "ratio": 0.4,
-   "max": 10,
-   "price": 90.74,
-   "reasons": [
-    "52주고점 대비 -45%",
+    "52주고점 대비 -31%",
+    "RSI 43 과매도권 접근",
     "PER 15(저평가)"
    ]
   },
   {
-   "symbol": "WDAY",
+   "symbol": "NFLX",
    "score": 4,
    "ratio": 0.4,
    "max": 10,
-   "price": 138.4,
+   "price": 73.55,
    "reasons": [
-    "52주고점 대비 -41%",
-    "PER 11(저평가)"
+    "52주고점 대비 -33%",
+    "RSI 39 과매도권 접근",
+    "PER 19"
    ]
   },
   {
-   "symbol": "INTU",
+   "symbol": "TFC",
    "score": 4,
    "ratio": 0.4,
    "max": 10,
-   "price": 283.1,
+   "price": 52.03,
    "reasons": [
-    "52주고점 대비 -58%",
-    "PER 10(저평가)"
+    "PER 10(저평가)",
+    "PBR 1.1",
+    "그레이엄 기준 충족"
    ]
   }
  ]
