@@ -1,77 +1,106 @@
 {
- "updated": "2026-07-15 02:02",
+ "updated": "2026-07-15 03:01",
  "candidates": [
   {
-   "symbol": "GIS",
+   "symbol": "T",
+   "score": 8,
+   "ratio": 0.8,
+   "max": 10,
+   "price": 21.28,
+   "reasons": [
+    "52주고점 대비 -27%",
+    "과매도 탈출+MA5 회복",
+    "PER 8(저평가)",
+    "PBR 1.4",
+    "그레이엄 기준 충족"
+   ]
+  },
+  {
+   "symbol": "VZ",
    "score": 6,
    "ratio": 0.6,
    "max": 10,
-   "price": 36.54,
-   "reasons": [
-    "52주고점 대비 -25%",
-    "PER 11(저평가)",
-    "시총 $19.5B(소형)"
-   ]
-  },
-  {
-   "symbol": "ZTS",
-   "score": 5,
-   "ratio": 0.5,
-   "max": 10,
-   "price": 74.08,
-   "reasons": [
-    "52주고점 대비 -44%",
-    "RSI 39 과매도권 접근",
-    "PER 10(저평가)"
-   ]
-  },
-  {
-   "symbol": "DIS",
-   "score": 5,
-   "ratio": 0.5,
-   "max": 10,
-   "price": 96.52,
+   "price": 42.42,
    "reasons": [
     "고점 대비 -17% 조정",
-    "RSI 42 과매도권 접근",
-    "PER 13(저평가)",
+    "과매도 탈출+MA5 회복",
+    "PER 8(저평가)",
     "그레이엄 기준 충족"
    ]
   },
   {
-   "symbol": "SLB",
-   "score": 4,
-   "ratio": 0.4,
+   "symbol": "CMCSA",
+   "score": 6,
+   "ratio": 0.6,
    "max": 10,
-   "price": 47.47,
-   "reasons": [
-    "고점 대비 -18% 조정",
-    "RSI 41 과매도권 접근",
-    "PER 14(저평가)"
-   ]
-  },
-  {
-   "symbol": "LOW",
-   "score": 4,
-   "ratio": 0.4,
-   "max": 10,
-   "price": 208.06,
+   "price": 23.5,
    "reasons": [
     "52주고점 대비 -28%",
-    "RSI 38 과매도권 접근",
-    "PER 15"
+    "PER 6(저평가)",
+    "PBR 1.0",
+    "그레이엄 기준 충족"
    ]
   },
   {
-   "symbol": "KHC",
-   "score": 4,
-   "ratio": 0.4,
+   "symbol": "F",
+   "score": 5,
+   "ratio": 0.5,
    "max": 10,
-   "price": 25.04,
+   "price": 13.81,
    "reasons": [
-    "PER 12(저평가)",
-    "PBR 0.7",
+    "고점 대비 -21% 조정",
+    "PER 8(저평가)",
+    "PBR 1.5",
     "그레이엄 기준 충족"
+   ]
+  },
+  {
+   "symbol": "GM",
+   "score": 5,
+   "ratio": 0.5,
+   "max": 10,
+   "price": 76.32,
+   "reasons": [
+    "RSI 43 과매도권 접근",
+    "PER 5(저평가)",
+    "PBR 1.1",
+    "그레이엄 기준 충족"
+   ]
+  },
+  {
+   "symbol": "LUNR",
+   "score": 5,
+   "ratio": 0.71,
+   "max": 7,
+   "price": 15.16,
+   "reasons": [
+    "52주고점 대비 -67%",
+    "RSI 29 과매도",
+    "시총 $2.4B(소형)"
+   ]
+  },
+  {
+   "symbol": "RDW",
+   "score": 5,
+   "ratio": 0.71,
+   "max": 7,
+   "price": 9.91,
+   "reasons": [
+    "52주고점 대비 -62%",
+    "RSI 37 과매도권 접근",
+    "시총 $2.4B(소형)"
+   ]
+  },
+  {
+   "symbol": "PL",
+   "score": 5,
+   "ratio": 0.5,
+   "max": 10,
+   "price": 25.84,
+   "reasons": [
+    "52주고점 대비 -50%",
+    "RSI 35 과매도권 접근",
+    "시총 $9.2B(소형)"
    ]
   }
  ]
