@@ -1,77 +1,95 @@
 {
- "updated": "2026-07-14 23:02",
+ "updated": "2026-07-15 00:02",
  "candidates": [
   {
-   "symbol": "GIS",
-   "score": 6,
-   "ratio": 0.6,
-   "max": 10,
-   "price": 35.97,
-   "reasons": [
-    "52주고점 대비 -27%",
-    "PER 11(저평가)",
-    "시총 $19.2B(소형)"
-   ]
-  },
-  {
-   "symbol": "ZTS",
+   "symbol": "ORCL",
    "score": 5,
    "ratio": 0.5,
    "max": 10,
-   "price": 74.43,
+   "price": 129.52,
    "reasons": [
-    "52주고점 대비 -43%",
-    "RSI 40 과매도권 접근",
+    "52주고점 대비 -48%",
+    "RSI 26 과매도",
+    "PER 12(저평가)"
+   ]
+  },
+  {
+   "symbol": "PYPL",
+   "score": 5,
+   "ratio": 0.5,
+   "max": 10,
+   "price": 46.75,
+   "reasons": [
+    "52주고점 대비 -26%",
+    "PER 8(저평가)",
+    "그레이엄 기준 충족"
+   ]
+  },
+  {
+   "symbol": "QCOM",
+   "score": 4,
+   "ratio": 0.4,
+   "max": 10,
+   "price": 182.6,
+   "reasons": [
+    "52주고점 대비 -27%",
+    "RSI 42 과매도권 접근",
+    "PER 17"
+   ]
+  },
+  {
+   "symbol": "CRM",
+   "score": 4,
+   "ratio": 0.4,
+   "max": 10,
+   "price": 168.5,
+   "reasons": [
+    "52주고점 대비 -37%",
+    "PER 11(저평가)"
+   ]
+  },
+  {
+   "symbol": "ADBE",
+   "score": 4,
+   "ratio": 0.4,
+   "max": 10,
+   "price": 222.74,
+   "reasons": [
+    "52주고점 대비 -38%",
+    "PER 8(저평가)"
+   ]
+  },
+  {
+   "symbol": "TEAM",
+   "score": 4,
+   "ratio": 0.4,
+   "max": 10,
+   "price": 90.74,
+   "reasons": [
+    "52주고점 대비 -45%",
+    "PER 15(저평가)"
+   ]
+  },
+  {
+   "symbol": "WDAY",
+   "score": 4,
+   "ratio": 0.4,
+   "max": 10,
+   "price": 138.4,
+   "reasons": [
+    "52주고점 대비 -41%",
+    "PER 11(저평가)"
+   ]
+  },
+  {
+   "symbol": "INTU",
+   "score": 4,
+   "ratio": 0.4,
+   "max": 10,
+   "price": 283.1,
+   "reasons": [
+    "52주고점 대비 -58%",
     "PER 10(저평가)"
-   ]
-  },
-  {
-   "symbol": "DIS",
-   "score": 5,
-   "ratio": 0.5,
-   "max": 10,
-   "price": 95.47,
-   "reasons": [
-    "고점 대비 -18% 조정",
-    "RSI 39 과매도권 접근",
-    "PER 13(저평가)",
-    "그레이엄 기준 충족"
-   ]
-  },
-  {
-   "symbol": "SLB",
-   "score": 4,
-   "ratio": 0.4,
-   "max": 10,
-   "price": 47.61,
-   "reasons": [
-    "고점 대비 -18% 조정",
-    "RSI 41 과매도권 접근",
-    "PER 14(저평가)"
-   ]
-  },
-  {
-   "symbol": "LOW",
-   "score": 4,
-   "ratio": 0.4,
-   "max": 10,
-   "price": 209.19,
-   "reasons": [
-    "52주고점 대비 -27%",
-    "RSI 40 과매도권 접근",
-    "PER 16"
-   ]
-  },
-  {
-   "symbol": "KHC",
-   "score": 4,
-   "ratio": 0.4,
-   "max": 10,
-   "price": 25.0,
-   "reasons": [
-    "PER 12(저평가)",
-    "PBR 0.7",
-    "그레이엄 기준 충족"
    ]
   }
  ]
