@@ -1,6 +1,7 @@
 {
- "updated": "2026-07-14 11:01",
- "equity": 98592.59,
+ "updated": "2026-07-14 12:00",
+ "session": "미국 장 마감 (거래 시간 외)",
+ "equity": 98530.05,
  "cash": 70834.52,
  "base": 100000.0,
  "positions": [
@@ -8,10 +9,10 @@
    "symbol": "AMZN",
    "qty": 5.0,
    "avg_cost": 239.57,
-   "now": 246.35,
-   "pnl_pct": 2.8,
+   "now": 246.0,
+   "pnl_pct": 2.7,
    "peak_pnl_pct": 3.8,
-   "drawdown_from_peak_pct": -1.0,
+   "drawdown_from_peak_pct": -1.1,
    "trailing_stop_triggered": false,
    "is_tenbagger": false,
    "stoploss_triggered": false
@@ -20,10 +21,10 @@
    "symbol": "AVGO",
    "qty": 15.9382,
    "avg_cost": 368.265841,
-   "now": 385.55,
-   "pnl_pct": 4.7,
+   "now": 384.15,
+   "pnl_pct": 4.3,
    "peak_pnl_pct": 10.2,
-   "drawdown_from_peak_pct": -5.5,
+   "drawdown_from_peak_pct": -5.9,
    "trailing_stop_triggered": false,
    "is_tenbagger": false,
    "stoploss_triggered": false
@@ -44,7 +45,7 @@
    "symbol": "ETH-USD",
    "qty": 3.10323661,
    "avg_cost": 0.0,
-   "now": 1786.549,
+   "now": 1781.865,
    "pnl_pct": 0.0,
    "peak_pnl_pct": 15.6,
    "drawdown_from_peak_pct": -15.6,
@@ -68,10 +69,10 @@
    "symbol": "META",
    "qty": 2.0,
    "avg_cost": 557.685,
-   "now": 654.81,
-   "pnl_pct": 17.4,
+   "now": 655.7,
+   "pnl_pct": 17.6,
    "peak_pnl_pct": 20.8,
-   "drawdown_from_peak_pct": -3.4,
+   "drawdown_from_peak_pct": -3.2,
    "trailing_stop_triggered": false,
    "is_tenbagger": false,
    "stoploss_triggered": false
@@ -80,10 +81,10 @@
    "symbol": "MSFT",
    "qty": 4.0,
    "avg_cost": 367.5625,
-   "now": 389.0,
-   "pnl_pct": 5.8,
+   "now": 389.48,
+   "pnl_pct": 6.0,
    "peak_pnl_pct": 7.2,
-   "drawdown_from_peak_pct": -1.4,
+   "drawdown_from_peak_pct": -1.2,
    "trailing_stop_triggered": false,
    "is_tenbagger": false,
    "stoploss_triggered": false
@@ -92,10 +93,10 @@
    "symbol": "NVDA",
    "qty": 8.0,
    "avg_cost": 196.105,
-   "now": 204.05,
-   "pnl_pct": 4.1,
+   "now": 203.4,
+   "pnl_pct": 3.7,
    "peak_pnl_pct": 7.6,
-   "drawdown_from_peak_pct": -3.5,
+   "drawdown_from_peak_pct": -3.9,
    "trailing_stop_triggered": false,
    "is_tenbagger": false,
    "stoploss_triggered": false
@@ -104,10 +105,10 @@
    "symbol": "QQQ",
    "qty": 3.0,
    "avg_cost": 722.866667,
-   "now": 711.53,
-   "pnl_pct": -1.6,
+   "now": 709.66,
+   "pnl_pct": -1.8,
    "peak_pnl_pct": 0.5,
-   "drawdown_from_peak_pct": -2.1,
+   "drawdown_from_peak_pct": -2.3,
    "trailing_stop_triggered": false,
    "is_tenbagger": false,
    "stoploss_triggered": false
@@ -116,10 +117,10 @@
    "symbol": "SOXX",
    "qty": 9.0,
    "avg_cost": 558.336667,
-   "now": 555.11,
-   "pnl_pct": -0.6,
+   "now": 553.24,
+   "pnl_pct": -0.9,
    "peak_pnl_pct": 6.2,
-   "drawdown_from_peak_pct": -6.8,
+   "drawdown_from_peak_pct": -7.1,
    "trailing_stop_triggered": false,
    "is_tenbagger": false,
    "stoploss_triggered": false
@@ -137,37 +138,6 @@
    "stoploss_triggered": false
   }
  ],
- "trades": [],
- "market_view": "🤝 합의: ETH-USD 매수 보류(Claude만) | Claude: 현재 미국 주식 거래 시간이 아닌 장 마감 후 세션이므로 주식 관련 신규 매수·매도는 전면 관망한다. 시장 국면은 중립/혼조(VIX 17.2, SPY MA20 대비 +0.6%)이며, 섹터 흐름상 바이오(+17%)·금융(+6.6%)이 주도하고 반도체(-5.7%)·기술(-1.1%)은 소외 중 — 보유 중인 SOXX·NVDA·QQQ가 MA20 아래에 있어 주의가 필요하나 손절선(-7%)에는 미치지 않아 홀드 유지. ETH는 taco_zone 안에서 소폭 반등 중이나 일목 구름 내부(pos=in)·거래량 부진으로 추세 불명확해 소량(0.15 ETH, 총자산의 약 0.27%)만 시험 진입하고 추가 매수는 구름 돌파 시 재검토한다. | DeepSeek: 오늘 시장은 중립적 혼조 국면으로 판단됩니다. S&P 500과 나스닥이 20일선 부근에서 등락하며 방향성이 불명확합니다. 현재 주요 기술주들의 일목균형표가 구름 위에 위치해 상승추세는 유지 중이나 RSI가 50~60대로 과매수도 과매도도 아닌 애매한 구간입니다. 반도체 섹터(SOXX)가 최근 강세를 보였으나 단기 급등 후 눌림목이 덜 와서 진입하기 좋은 자리가 아닙니다. 하이리스크 슬롯 후보 중에서도 명확한 과매도 반등 신호(MA5 회복, 거래량 동반)가 나온 종목이 없습니다. 따라서 약한 확신으로 무리하게 진입하기보다는 관망하며 더 좋은 자리(일목 균형표 구름 상단 눌림목, RSI 40 이하 과매도권 반등 등)가 오기를 기다리는 것이 합리적입니다. 현금 비중은 약 25%로 적절히 유지되며, 추세가 명확해지면 즉시 진입할 준비가 되어 있습니다.",
- "chart_levels": {
-  "ETH-USD": {
-   "price": 1805.79,
-   "support": [
-    1796.27,
-    1742.68,
-    1690.15,
-    1620.14
-   ],
-   "resistance": [
-    1852.97,
-    1956.34,
-    2098.0,
-    2269.81
-   ],
-   "fib": {
-    "382": 1838.37,
-    "500": 1922.88,
-    "618": 2007.38
-   },
-   "taco_zone": {
-    "low": 1781.9,
-    "high": 1810.64,
-    "basis": "지지대"
-   },
-   "in_taco_zone": true
-  }
- },
- "last_trade_time": "2026-07-13 22:42",
- "last_trade_count": 0,
- "last_hold_count": 0
+ "market_view": "[미국 장 마감 (거래 시간 외)] 미국 주식 거래 시간이 아니고 코인도 살 만한 신호가 없어 관망. (AI 판단 생략 — 비용 절감)",
+ "trades": []
 }
