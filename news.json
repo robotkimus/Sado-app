@@ -1,6 +1,17 @@
 {
- "updated": "2026-07-15 11:01",
+ "updated": "2026-07-15 12:01",
  "items": [
+  {
+   "headline": "Meta Employees Sue Over AI-Assisted Layoffs, Claim Workers on 'Protected' Medical Leave Were 'Disproportionately Selected'",
+   "summary": "Meta faces a lawsuit alleging AI-assisted layoff systems disproportionately affected workers with disabilities and medical leave.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/07/60459809/meta-employees-sue-over-alleged-ai-assisted-layoffs",
+   "created_at": "2026-07-15T02:05:05Z",
+   "symbols": [
+    "META"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/15/Ljubljana--Slovenia---21-January-2023-Me.jpg?width=1024&height=768"
+  },
   {
    "headline": "Chamath Palihapitiya on IBM Stock Drop, AI Spending Concerns: ‘You’re Starting to See a Little Bit of the Wheels Come Off’",
    "summary": "Chamath Palihapitiya said AI spending is not keeping up with AI productivity, a warning sign for what&#39;s to come.",
@@ -199,17 +210,19 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/07/14/Konskie--Poland---March-11--2024-Oracle-.jpg?width=1024&height=768"
   },
   {
-   "headline": "Cooler CPI, Hotter Risk Appetite: Data Slams Door on July Fed Rate Hike",
-   "summary": "June&#39;s CPI surprises to the downside, giving the Fed room to keep rates steady and boosting stocks.",
+   "headline": "Bitcoin, Ethereum, XRP, Dogecoin Jump as Softer Inflation Dims Rate Hike Odds: Analyst Sees 'Bullish Case' Amid Muted Crypto Chatter",
+   "summary": "Leading cryptocurrencies rallied alongside stocks on Tuesday following cooler-than-expected inflation numbers, despite elevated geopolitical tensions remaining in place.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/economic-data/26/07/60446797/cooler-cpi-hotter-risk-appetite-data-slams-door-on-july-fed-rate-hike",
-   "created_at": "2026-07-14T15:22:29Z",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/07/60459769/bitcoin-ethereum-xrp-dogecoin-jump-as-softer-inflation-dims-rate-cut-hopes",
+   "created_at": "2026-07-15T01:59:43Z",
    "symbols": [
-    "DIA",
-    "QQQ",
-    "SPY"
+    "BMNR",
+    "BTCUSD",
+    "DOGEUSD",
+    "ETHUSD",
+    "MSTR"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/14/Inflation-Increases--Commodities-With-Fi.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/15/Bitcoin-Gold-Coin--Cryptocurrency-Concep.jpg?width=1024&height=768"
   },
   {
    "headline": "IBM, CrowdStrike, SK Hynix, AEHR Test Systems and Lucid: Why These 5 Stocks Are on Investors' Radars Today",
@@ -492,32 +505,6 @@
     "ERIC"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/07/14/Stockholm--Sweden---October-8--2021-An-O.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Nikola's Bankruptcy And What The Settlement Means For Investors",
-   "summary": "Nikola Corporation (OTC:NKLAQ) was once one of Wall Street’s most closely watched electric-vehicle startups. After going public through a SPAC merger in 2020, the hydrogen-truck developer briefly reac",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/Opinion/26/07/60454509/nikolas-bankruptcy-and-what-the-settlement-means-for-investors",
-   "created_at": "2026-07-14T18:49:27Z",
-   "symbols": [
-    "NKLAQ"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/14/Nikola.png?width=1024&height=768"
-  },
-  {
-   "headline": "Bitcoin, Ethereum, XRP, Dogecoin Rally up to 6% as Cooler Inflation Boosts Risk Appetite",
-   "summary": "Bitcoin climbed back above $64,000 after softer U.S. inflation boosted risk appetite and reduced expectations of prolonged Federal Reserve tightening. Analysts say improving technical signals, includi",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/07/60454358/bitcoin-ethereum-xrp-dogecoin-rally-up-to-6-as-cooler-inflation-boosts-risk-appetite",
-   "created_at": "2026-07-14T18:44:54Z",
-   "symbols": [
-    "BTCUSD",
-    "DOGEUSD",
-    "ETHUSD",
-    "SHIBUSD",
-    "SOLUSD"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/14/Horizontal-View-Of-Cryptocurrency-Tokens.jpg?width=1024&height=768"
   }
  ]
 }
