@@ -1,4 +1,78 @@
 {
- "updated": "2026-07-15 22:00",
- "candidates": []
+ "updated": "2026-07-15 22:48",
+ "candidates": [
+  {
+   "symbol": "GIS",
+   "score": 6,
+   "ratio": 0.6,
+   "max": 10,
+   "price": 36.34,
+   "reasons": [
+    "52주고점 대비 -26%",
+    "PER 11(저평가)",
+    "시총 $19.4B(소형)"
+   ]
+  },
+  {
+   "symbol": "ZTS",
+   "score": 5,
+   "ratio": 0.5,
+   "max": 10,
+   "price": 75.55,
+   "reasons": [
+    "52주고점 대비 -42%",
+    "RSI 44 과매도권 접근",
+    "PER 10(저평가)"
+   ]
+  },
+  {
+   "symbol": "DIS",
+   "score": 5,
+   "ratio": 0.5,
+   "max": 10,
+   "price": 96.66,
+   "reasons": [
+    "고점 대비 -17% 조정",
+    "RSI 43 과매도권 접근",
+    "PER 13(저평가)",
+    "그레이엄 기준 충족"
+   ]
+  },
+  {
+   "symbol": "SLB",
+   "score": 4,
+   "ratio": 0.4,
+   "max": 10,
+   "price": 47.74,
+   "reasons": [
+    "고점 대비 -18% 조정",
+    "RSI 42 과매도권 접근",
+    "PER 14(저평가)"
+   ]
+  },
+  {
+   "symbol": "LOW",
+   "score": 4,
+   "ratio": 0.4,
+   "max": 10,
+   "price": 210.34,
+   "reasons": [
+    "52주고점 대비 -27%",
+    "RSI 41 과매도권 접근",
+    "PER 16"
+   ]
+  },
+  {
+   "symbol": "KHC",
+   "score": 4,
+   "ratio": 0.4,
+   "max": 10,
+   "price": 25.49,
+   "reasons": [
+    "PER 12(저평가)",
+    "PBR 0.7",
+    "그레이엄 기준 충족"
+   ]
+  }
+ ]
 }
