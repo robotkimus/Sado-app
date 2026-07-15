@@ -1,6 +1,105 @@
 {
- "updated": "2026-07-16 02:02",
+ "updated": "2026-07-16 03:02",
  "items": [
+  {
+   "headline": "Taiwan Semiconductor Manufacturing Q2 Preview: Analysts Expect Record Revenue, Could Stock Hit New All-Time Highs?",
+   "summary": "Taiwan Semiconductor reports Q2 results Thursday. A look at the key items to watch.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/previews/26/07/60480445/taiwan-semiconductor-manufacturing-q2-preview-analysts-expect-record-revenue-could-stock-hit-new-all-time-highs",
+   "created_at": "2026-07-15T17:54:36Z",
+   "symbols": [
+    "AAPL",
+    "AMD",
+    "NVDA",
+    "TSM"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/15/Taiwan-Semiconductor.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Blackrock CEO Says Client Demand Has ‘Never Been Greater’ as Assets Reach Record $15.3 Trillion",
+   "summary": "BlackRock (NYSE: BLK) stock rallies premarket after Q2 earnings smash Wall Street estimates on record inflows and $15.3T AUM. Read more.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/large-cap/26/07/60466095/blackrock-ceo-says-client-demand-has-never-been-greater-as-assets-reach-record-15-3-trillion",
+   "created_at": "2026-07-15T12:24:57Z",
+   "symbols": [
+    "BLK"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/15/BlackRock.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "57 Economists Wrong On Inflation; ASML Earnings Bring Optimism To AI Trade",
+   "summary": "\n\n\n\nCooler PPI\n\n\n\nPlease click here for an enlarged chart of ASML Holding NV (NASDAQ:ASML).\n\n\n\nNote the following:\n\n\n\n\nThis article is about the big picture, not an individual stock.  The chart of ASM",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/Opinion/26/07/60479835/57-economists-wrong-on-inflation-asml-earnings-bring-optimism-to-ai-trade",
+   "created_at": "2026-07-15T17:38:47Z",
+   "symbols": [
+    "AAPL",
+    "AMZN",
+    "ASML",
+    "BTCUSD",
+    "GOOG"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/15/Chip.png?width=1024&height=768"
+  },
+  {
+   "headline": "10 Information Technology Stocks Whale Activity In Today’s Session",
+   "summary": "This whale alert can help traders discover the next big trading opportunities.\nWhales are entities with large sums of money and we track their transactions here at Benzinga on our options activity sca",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/options/26/07/60479697/10-information-technology-stocks-whale-activity-today-s-session",
+   "created_at": "2026-07-15T17:35:20Z",
+   "symbols": [
+    "AAPL",
+    "AMD",
+    "ASML",
+    "CRWV",
+    "IREN"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/aggregated_options_3.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "JPMorgan, Goldman Sachs, BlackRock, Vanguard Tokenize Real Stocks for the First Time",
+   "summary": "DTCC completes its first live blockchain trades in tokenized stocks and Treasurys with JPMorgan, BlackRock and nearly 40 institutions.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/07/60479088/jpmorgan-goldman-sachs-blackrock-vanguard-tokenize-real-stocks-for-the-first-time",
+   "created_at": "2026-07-15T17:17:14Z",
+   "symbols": [
+    "BLK",
+    "CRCL",
+    "GS",
+    "HOOD",
+    "JPM"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/15/JPMorgan-headquarters-glass-building-con.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "AMD’s MI450 Could Finally Challenge Nvidia at the Rack Level",
+   "summary": "AMD&#39;s MI450 accelerators and Helios rack-scale architecture present a credible challenge to Nvidia&#39;s rack dominance.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/07/60478921/amds-mi450-could-finally-challenge-nvidia-at-the-rack-level",
+   "created_at": "2026-07-15T17:12:39Z",
+   "symbols": [
+    "AMD",
+    "AVGO",
+    "META",
+    "NVDA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/15/Advanced-Micro-Devices-Inc.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "BlackRock's Bitcoin, Ethereum Holdings Value Sees 39% Decrease Despite ETF Inflow Boom",
+   "summary": "BlackRock crypto assets fall 39% to $48.8B as $45.8B in market losses overwhelm $15.1B in investor inflows.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/07/60478797/blackrocks-bitcoin-ethereum-holdings-value-sees-39-decrease-despite-etf-inflow-boom",
+   "created_at": "2026-07-15T17:08:44Z",
+   "symbols": [
+    "BITY",
+    "BLK",
+    "BTCUSD",
+    "CRCL",
+    "ETHUSD"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/15/BlackRock.jpg?width=1024&height=768"
+  },
   {
    "headline": "Memory-Chip Selloff Drags Nasdaq 100 Lower, SanDisk Sinks 13%: Stock Market Today",
    "summary": "A brutal semiconductor and memory selloff dragged the Nasdaq and tech sector lower, even as soft June PPI and strong bank earnings steadied the broader tape.",
@@ -108,99 +207,237 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/07/15/Ai-Technology-Bubble-Concept-Chip-Stock-.jpg?width=1024&height=768"
   },
   {
-   "headline": "Apple Intelligence Finally Cleared for China: Here's Which Stocks Are Popping on the News",
-   "summary": "China approved Apple Intelligence Wednesday, sending Alibaba stock higher as its Qwen AI model powers the long-delayed rollout on iPhones.",
+   "headline": "Analysts React on IBM's Worst Day on Record: What History Says Happens Next",
+   "summary": "IBM stock suffered its worst trading day on record after weak preliminary earnings. Here&#39;s why shares plunged, what Wall Street says, and what history suggests.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/prediction-markets/26/07/60470681/apple-intelligence-finally-cleared-for-china-heres-which-stocks-are-popping-on-the-news",
-   "created_at": "2026-07-15T14:08:31Z",
+   "url": "https://www.benzinga.com/markets/tech/26/07/60480452/ibm-international-business-machines-25-percent-drop-worst-day-ever-wall-street-analyst-reaction-statistical-historical-performance-after-drops",
+   "created_at": "2026-07-15T17:54:45Z",
    "symbols": [
-    "AAPL",
-    "BABA",
-    "NVDA"
+    "IBM"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/15/AAPL-Price-Action-Apple-shares-were-down.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/15/Ibm-Logo-On-Smartphone-Screen-With-Stock.jpg?width=1024&height=768"
   },
   {
-   "headline": "These 10 Stocks Rallied as Producer Inflation Plunged: Here's Why",
-   "summary": "PPI fell 0.3% in June, the softest since April 2025. Gold miners, BlackRock and Bank of Nova Scotia topped the large-cap pre-market board. Here&#39;s why.",
+   "headline": "Why Is Linkhome Stock Falling on Wednesday?",
+   "summary": "Linkhome Holdings Inc. (NASDAQ: LHAI) stock experiences a Wednesday pullback. Read how day trader profit-taking impacted the stock after Tuesday&#39;s major OpenLink AI launch.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/07/60468522/10-stocks-rally-after-ppi-report-gold-miners-semiconductors",
-   "created_at": "2026-07-15T13:29:44Z",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60480423/why-is-linkhome-stock-falling-on-wednesday",
+   "created_at": "2026-07-15T17:54:04Z",
    "symbols": [
-    "AEM",
-    "B",
-    "BE",
-    "BLK",
-    "BNS"
+    "LHAI",
+    "XLRE"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/15/Investors-Show-Virtual-Screen-Stock-Mark.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/15/Close-Up-Of-Stock-Market-Candlestick-Cha.jpg?width=1024&height=768"
   },
   {
-   "headline": "Stock Market Today: Dow, S&P 500, Nasdaq 100 Futures Gain as Trump Vows 'Very Hard' Hits on Iran— Pentair, ASML Holding, Intel in Focus (UPDATED)",
-   "summary": "U.S. stock futures were higher on Wednesday, as the Dow Jones, Nasdaq 100 and S&amp;P 500 indices rose, following Tuesday&#39;s higher close.",
+   "headline": "Veradermics' Oral Hair Loss Drug for Women Shows Results In Just 2 Months",
+   "summary": "Veradermics reported positive phase 2 data for VDPHL01, showing hair growth and favorable safety in women with pattern hair loss.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/07/60461692/stock-market-today-dow-jones-sp-500-futures-gain-as-trump-vows-very-hard-strikes-on-iran-pentair-asml-holding-intel-in-focus",
-   "created_at": "2026-07-15T13:24:31Z",
+   "url": "https://www.benzinga.com/news/health-care/26/07/60480147/veradermics-oral-hair-loss-drug-for-women-shows-results-in-just-2-months",
+   "created_at": "2026-07-15T17:47:44Z",
    "symbols": [
-    "AEHR",
-    "ASML",
+    "MANE"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/15/Portrait--Hair-Care-And-Woman-With-Healt.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Why Gorilla Technology Stock Is Falling Wednesday",
+   "summary": "Gorilla Technology (GRRR) stock plunges 27% following the pricing of a $125M private offering of senior convertible notes.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60479817/why-gorilla-technology-stock-is-falling-wednesday",
+   "created_at": "2026-07-15T17:38:34Z",
+   "symbols": [
+    "GRRR"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/15/Financial-Market-Crash-Concept-With-Red-.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Perfect Stocks Portfolio: July 2026 Edition",
+   "summary": "Perfect Stocks in a Very Imperfect World\n\n\n\nThe last month has been another reminder that the world does not exist for the convenience of economists, market strategists, television personalities, or i",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/opinion/26/07/60479767/perfect-stocks-portfolio-july-2026-edition",
+   "created_at": "2026-07-15T17:37:02Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/15/highlowchart.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "10 Financials Stocks With Whale Alerts In Today’s Session",
+   "summary": "This whale alert can help traders discover the next big trading opportunities.\nWhales are entities with large sums of money and we track their transactions here at Benzinga on our options activity sca",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/options/26/07/60479700/10-financials-stocks-whale-alerts-today-s-session",
+   "created_at": "2026-07-15T17:35:21Z",
+   "symbols": [
+    "BX",
+    "GS",
+    "HAPN",
+    "HOOD",
+    "JPM"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/aggregated_options_2.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "10 Industrials Stocks Whale Activity In Today’s Session",
+   "summary": "This whale alert can help traders discover the next big trading opportunities.\nWhales are entities with large sums of money and we track their transactions here at Benzinga on our options activity sca",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/options/26/07/60479699/10-industrials-stocks-whale-activity-today-s-session",
+   "created_at": "2026-07-15T17:35:21Z",
+   "symbols": [
+    "AMPX",
+    "AVAV",
+    "CBZ",
+    "GE",
+    "GEV"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/aggregated_options_3.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Easy Income Portfolio: July 2026 Edition",
+   "summary": "Income Is Still Available, but Selectivity Matters More Than Ever\n\n\n\nThe financial markets continue to provide plenty of noise, drama and breathless predictions, which is fortunate for the financial m",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/opinion/26/07/60479524/easy-income-portfolio-july-2026-edition",
+   "created_at": "2026-07-15T17:31:21Z",
+   "symbols": [
+    "BANX",
+    "BIZD",
+    "BNDS",
+    "CEFS",
+    "DMLP"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/15/moneyshuffle.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Alphabet Stock Is Moving Higher as Buffett Regrets Google Miss",
+   "summary": "Alphabet shares are rising Wednesday after Buffett said he pushed Berkshire to buy the stock, admitting he should have done so earlier.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60479523/alphabet-stock-is-moving-higher-as-buffett-regrets-google-miss",
+   "created_at": "2026-07-15T17:31:18Z",
+   "symbols": [
+    "BRK",
+    "BRK/A",
+    "GOOG"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/15/Alphabet-Company-Logo-On-Screen.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Merck Says Blockbuster Keytruda Outperforms Chemotherapy in Advanced Endometrial Cancer",
+   "summary": "Merck&#39;s Phase 3 KEYNOTE-C93 trial showed Keytruda improved progression-free survival over chemotherapy in advanced endometrial cancer.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60479337/merck-says-blockbuster-keytruda-outperforms-chemotherapy-in-advanced-endometrial-cancer",
+   "created_at": "2026-07-15T17:25:15Z",
+   "symbols": [
+    "MRK"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/15/Merck.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "What's Going on With Dell Technologies Stock Wednesday?",
+   "summary": "DELL shares slide 13% to $397. Is the long-term uptrend still intact? Key support and resistance levels to watch right now.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60479249/whats-going-on-with-dell-technologies-stock-wednesday-2",
+   "created_at": "2026-07-15T17:22:48Z",
+   "symbols": [
+    "DELL",
+    "HPE",
+    "SMCI"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/15/Dell-Technologies.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Treasury Secretary Bessent Unveils $1 Trump Coin: What Do Prediction Markets Say About It?",
+   "summary": "Treasury Secretary Scott Bessent unveiled a new $1 Trump coin, but an 1866 law and lawsuits could block it. See how Kalshi prediction markets are pricing the odds.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/07/60479043/treasury-secretary-bessent-unveils-1-trump-coin-what-do-prediction-markets-say-about-it",
+   "created_at": "2026-07-15T17:15:39Z",
+   "symbols": [
+    "DJT",
+    "GLD",
+    "TRUMPUSD"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/15/Bribery-And-Corruption-Haunt-Trump-2-0.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Strategy CEO Says Debt Is Safe Unless Bitcoin Falls to $8,000",
+   "summary": "Strategy Inc. prioritizes balance sheet strength over BTC accumulation, but CEO Phong Le says long-term strategy unchanged.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/07/60478695/strategy-ceo-says-debt-is-safe-unless-bitcoin-falls-to-8000",
+   "created_at": "2026-07-15T17:06:15Z",
+   "symbols": [
     "BTCUSD",
-    "IBM",
-    "INTC"
+    "MSTR",
+    "STRC"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/15/Wall-Street.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/15/Strategy-Inc.jpg?width=1024&height=768"
   },
   {
-   "headline": "Morgan Stanley, JPMorgan, Invesco and a Key Tech Stock on CNBC’s ‘Final Trades’",
-   "summary": "Joshua Brown chooses JPMorgan Chase &amp; Co. as his final trade on CNBC&#39;s Halftime Report. Morgan Stanley, Invesco, and NVIDIA also discussed.",
+   "headline": "10 Consumer Discretionary Stocks Moving In Wednesday's Intraday Session",
+   "summary": "Gainers\n\nLucid Group (NASDAQ:LCID) stock moved upwards by 19.1% to $5.5 during Wednesday&#39;s regular session. The market value of their outstanding shares is at $1.6 billion. \nRobo.ai (NASDAQ:AIIO) ",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/07/60468386/morgan-stanley-jpmorgan-invesco-and-a-key-tech-stock-on-cnbcs-final-trades",
-   "created_at": "2026-07-15T13:23:12Z",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60478647/10-consumer-discretionary-stocks-moving-wednesday-s-intraday-session",
+   "created_at": "2026-07-15T17:05:41Z",
    "symbols": [
-    "IVZ",
-    "JPM",
-    "MS",
-    "NVDA"
+    "AIIO",
+    "BYAH",
+    "CURV",
+    "JZ",
+    "LCID"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/15/Experts-Warn-On-Costly-Attacks.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_3.jpg?width=1024&height=768"
   },
   {
-   "headline": "Masayoshi Son Predicts AI Will Replace Roughly 20% of Global GDP By 2040 as He Scoffs at Bubble Warnings: ‘Those Who Refuse to Evolve Are…’",
-   "summary": "SoftBank CEO Masayoshi Son Calls AI Bubble Fears &#39;Foolish,&#39; Predicts $5 Trillion Annual AI Investment Boom",
+   "headline": "12 Health Care Stocks Moving In Wednesday's Intraday Session",
+   "summary": "Gainers\n\nChina Pharma Holding (AMEX:CPHI) shares moved upwards by 67.6% to $1.03 during Wednesday&#39;s regular session. The market value of their outstanding shares is at $24.9 million. \nConexeu Scie",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/07/60468207/masayoshi-son-predicts-ai-will-replace-roughly-20-of-global-gdp-by-2040-as-he-scoffs-at-bubble-warnings-those-who-refuse-to-evolve-are",
-   "created_at": "2026-07-15T13:15:18Z",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60478646/12-health-care-stocks-moving-wednesday-s-intraday-session",
+   "created_at": "2026-07-15T17:05:41Z",
    "symbols": [
-    "NVDA"
+    "AEON",
+    "APLM",
+    "BMGL",
+    "CELC",
+    "CNXU"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/15/Taipei-City--Taiwan---Jun-22--2019masayo.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_2.jpg?width=1024&height=768"
   },
   {
-   "headline": "Why Is Twin Vee Powercats Stock Surging on Wednesday?",
-   "summary": "Twin Vee PowerCats Co. (NASDAQ:VEEE) stock surges following a strategic merger with a USFM Corporation subsidiary and the privatization of its marine business.",
+   "headline": "12 Industrials Stocks Moving In Wednesday's Intraday Session",
+   "summary": "Gainers\n\nNuvve Holding (NASDAQ:NVVE) shares rose 67.0% to $26.38 during Wednesday&#39;s regular session. The company&#39;s market cap stands at $8.2 million. \nElectrovaya (NASDAQ:ELVA) stock increased",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60468167/why-is-twin-vee-powercats-stock-surging-on-wednesday",
-   "created_at": "2026-07-15T13:14:01Z",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60478645/12-industrials-stocks-moving-wednesday-s-intraday-session",
+   "created_at": "2026-07-15T17:05:41Z",
    "symbols": [
-    "AAPL",
-    "BABA",
-    "BIDU",
-    "NVDA",
-    "TCEHY"
+    "ELVA",
+    "EOSER",
+    "FBYD",
+    "FRGT",
+    "IPW"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/15/Financial-Market-Bubble-Concept-And-Over.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_2.jpg?width=1024&height=768"
   },
   {
-   "headline": "CoreWeave Stock Trending Lower as Meta Cloud Threat, DeepSeek Chip Concerns Mount",
-   "summary": "CoreWeave has had a rough few weeks, with shares down 30% over the past month and 11% in the past week amid AI buildout doubts.",
+   "headline": "12 Information Technology Stocks Moving In Wednesday's Intraday Session",
+   "summary": "Gainers\n\nSobr Safe (NASDAQ:SOBR) shares rose 47.9% to $1.73 during Wednesday&#39;s regular session. The market value of their outstanding shares is at $3.3 million. \nThe Growhub (NASDAQ:TGHL) stock in",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60467050/coreweave-stock-trending-lower-as-meta-cloud-threat-deepseek-chip-concerns-mount",
-   "created_at": "2026-07-15T12:49:51Z",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60478644/12-information-technology-stocks-moving-wednesday-s-intraday-session",
+   "created_at": "2026-07-15T17:05:41Z",
    "symbols": [
-    "CRWV",
-    "META"
+    "AAOI",
+    "AEHR",
+    "AMPGZ",
+    "CHRN",
+    "CLRO"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/15/Close-Up-Of-CoreWeave-Logo-And-Name-On-S.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_4.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "GE Aerospace Could Raise 2026 Guidance by $500 Million, RBC Says Ahead of Earnings",
+   "summary": "RBC Capital Markets raises GE Aerospace (NYSE: GE) price forecast, predicting a $500M EBIT guidance raise driven by commercial services capacity constraints.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/07/60478595/ge-aerospace-could-raise-2026-guidance-by-500-million-rbc-says-ahead-of-earnings",
+   "created_at": "2026-07-15T17:04:41Z",
+   "symbols": [
+    "GE"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/15/Beavercreek---May-31--2024-Ge-Aerospace-.jpg?width=1024&height=768"
   },
   {
    "headline": "Oracle Stock Is Climbing Today: What's Going On?",
@@ -236,270 +473,6 @@
     "USDCUSD"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/07/15/Usdc-Usd-Coin-Stablecoin-Cryptocurrency-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Private Equity Finds Its Next Target: Firms Powering AI, Energy, Industrial Growth",
-   "summary": "Private equity is moving beyond software and consumer brands to the companies building America’s next wave of infrastructure.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/private-markets/26/07/60477766/private-equity-finds-its-next-target-firms-powering-ai-energy-industrial-growth",
-   "created_at": "2026-07-15T16:42:42Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/15/A-Big-Bet-on-AI-and-Tech-Infrastructure.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Why Is Q32 Bio Stock Falling Wednesday?",
-   "summary": "Q32 Bio (QTTB) stock slips after pricing a $200M public offering at $18.25. Get the details on the deal and share reaction.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/offerings/26/07/60477544/why-is-q32-bio-stock-falling-wednesday",
-   "created_at": "2026-07-15T16:36:35Z",
-   "symbols": [
-    "QTTB"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/15/Genetic-Research-And-Biotech-Science-Con.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Marine Corps Expands Redwire Stalker Drone Orders",
-   "summary": "Redwire Defense Orders reached $21.5 million in Q2, lifting first-half AIR PMO awards to $41.5 million as RDW shares gained.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60477520/marine-corps-expands-redwire-stalker-drone-orders",
-   "created_at": "2026-07-15T16:35:53Z",
-   "symbols": [
-    "JEDI",
-    "MNVT",
-    "RDW"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/15/RedwireStuttgart--Germany---09-04-2022-S.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Trump Wants To Guard Hormuz. The UAE Wants To Bypass It.",
-   "summary": "Trump pledged to guard the Strait of Hormuz while the UAE is reportedly building around it. What it means for investors.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/07/60477469/trump-wants-to-guard-hormuz-the-uae-wants-to-bypass-it",
-   "created_at": "2026-07-15T16:34:32Z",
-   "symbols": [
-    "ASC",
-    "FLR",
-    "FRO",
-    "INSW",
-    "J"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/15/U-s--President-Donald-Trump-Appears-On-S.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Citigroup Delivers ‘Rare Clean Sweep’ With Best Quarterly Revenue in a Decade, Says Analyst",
-   "summary": "Citigroup share price rose after strong Q2 results and positive analyst ratings. Revenue grew and expenses expected to increase slightly.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/07/60477343/citigroup-delivers-rare-clean-sweep-with-best-quarterly-revenue-in-a-decade-says-analyst",
-   "created_at": "2026-07-15T16:32:21Z",
-   "symbols": [
-    "C"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/15/Hong-Kong---May-3--2015-Citibank-Sign-In.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Private Equity’s Housing Gold Rush Faces Regulatory Reckoning",
-   "summary": "A new federal law restricting large private equity firms from purchasing additional single-family homes marks a big policy challenge.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/private-markets/26/07/60477301/private-equitys-housing-gold-rush-faces-regulatory-reckoning",
-   "created_at": "2026-07-15T16:31:17Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/15/Property-Management-Concept--Real-Estate.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "If You Invested $1000 In Eli Lilly Stock 5 Years Ago, You Would Have This Much Today",
-   "summary": "Eli Lilly (NYSE:LLY) has outperformed the market over the past 5 years by 25.47% on an annualized basis producing an average annual return of 37.22%. Currently, Eli Lilly has a market capitalization o",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/07/60477266/if-you-invested-1000-eli-lilly-stock-5-years-ago-you-would-have-much-today",
-   "created_at": "2026-07-15T16:30:29Z",
-   "symbols": [
-    "LLY"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_2.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Netflix Q2 Preview: Stock Hasn't Been This Cheap in 21 Months, But Analysts Are Growing Cautious",
-   "summary": "Netflix stock trades near two-year lows ahead of Q2 earnings. Here&#39;s what experts are saying and what to watch for in the report.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/previews/26/07/60477201/netflix-q2-preview-stock-hasnt-been-this-cheap-in-21-months-but-analysts-are-growing-cautious",
-   "created_at": "2026-07-15T16:29:17Z",
-   "symbols": [
-    "NFLX"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/15/Who-Gets-The-Netflix-Password-In-A-Divor.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "What Is Going on With Rivian Stock on Wednesday?",
-   "summary": "Rivian Automotive (NASDAQ: RIVN) stock rallies nearly 5% on Wednesday after the electric vehicle manufacturer smashed second-quarter delivery projections and raised its full-year output forecast.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60477102/what-is-going-on-with-rivian-stock-on-wednesday",
-   "created_at": "2026-07-15T16:26:18Z",
-   "symbols": [
-    "BYDDF",
-    "BYDDY",
-    "EUSA",
-    "F",
-    "GM"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/15/Rivian.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Cintas Says Massive Untapped Market Leaves ‘Virtually Endless’ Growth Opportunities",
-   "summary": "Cintas (CTAS) shares jump as Q4 earnings and revenue beat Wall Street estimates, driven by record margins and strong 2027 guidance.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/earnings/26/07/60476883/cintas-says-massive-untapped-market-leaves-virtually-endless-growth-opportunities",
-   "created_at": "2026-07-15T16:20:17Z",
-   "symbols": [
-    "CTAS",
-    "UNF"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/15/Cintas-Facility-Services-Van--Manassas--.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "$1000 Invested In State Street Technology Select Sector SPDR ETF 20 Years Ago Would Be Worth This Much Today",
-   "summary": "State Street Technology Select Sector SPDR ETF (NYSE:XLK) has outperformed the market over the past 20 years by 6.42% on an annualized basis producing an average annual return of 15.76%. Currently, St",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/07/60476727/1000-invested-state-street-technology-select-sector-spdr-etf-20-years-ago-would-be-worth-much-today",
-   "created_at": "2026-07-15T16:15:54Z",
-   "symbols": [
-    "XLK"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_1.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Conagra Brands Q4 2026 Earnings Call: Complete Transcript",
-   "summary": "Conagra Brands (NYSE:CAG) held its fourth-quarter earnings conference call on Wednesday. Below is the complete transcript from the call.\nThis transcript is brought to you by Benzinga APIs. For real-ti",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/07/60476643/conagra-brands-q4-2026-earnings-call-complete-transcript",
-   "created_at": "2026-07-15T16:13:44Z",
-   "symbols": [
-    "CAG"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_2.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Morgan Stanley Says AI Spending Boom Is Only 10%-15% Complete",
-   "summary": "Morgan Stanley tops Q2 2026 estimates with record $21.35B revenue and $3.46 EPS, driven by surging investment banking and equity trading.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/earnings/26/07/60476588/morgan-stanley-says-ai-spending-boom-is-only-10-15-complete",
-   "created_at": "2026-07-15T16:12:51Z",
-   "symbols": [
-    "MS"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/15/London--United-Kingdom---February-26--20.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "JPMorgan Chase Posts Record Q2 Earnings, Could Continue Generating ‘Above-Average Profitability’ Says Analyst",
-   "summary": "JPM shares rally after posting strong Q2 results. Analyst raises price target and highlights record earnings and market performance.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/07/60476508/jpmorgan-chase-posts-record-q2-earnings-could-continue-generating-above-average-profitability-says-analyst",
-   "created_at": "2026-07-15T16:11:06Z",
-   "symbols": [
-    "JPM",
-    "V"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/15/JPMorgan-headquarters-glass-building-con.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Crude Oil Moves Lower; US Producer Prices Fall 0.3% In June",
-   "summary": "Dow gains over 150 points, NASDAQ and S&amp;P 500 also up. Consumer discretionary shares jump 1.2%, energy stocks fall 0.5%. Producer price index falls below expectations.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/market-summary/26/07/60476239/crude-oil-moves-lower-us-producer-prices-fall-0-3-in-june",
-   "created_at": "2026-07-15T16:03:07Z",
-   "symbols": [
-    "AEHR",
-    "CRDF",
-    "ELVA",
-    "GRRR",
-    "PYPL"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/15/Brent-Crude-Oil-Price-Moving-Up--Increas.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Here’s How Much You Would Have Made Owning Advanced Micro Devices Stock In The Last 15 Years",
-   "summary": "Advanced Micro Devices (NASDAQ:AMD) has outperformed the market over the past 15 years by 21.73% on an annualized basis producing an average annual return of 33.9%. Currently, Advanced Micro Devices h",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/07/60476100/here-s-how-much-you-would-have-made-owning-advanced-micro-devices-stock-last-15-years",
-   "created_at": "2026-07-15T16:00:34Z",
-   "symbols": [
-    "AMD"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_2.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Stripe Proposes $53 Billion PayPal Acquisition: What Do Prediction Markets Say About the Deal?",
-   "summary": "Stripe’s $53B buyout offer for PayPal (PYPL) faces pushback from Michael Burry, but Polymarket odds just hit 79%. Will the fintech megadeal go through?",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/prediction-markets/26/07/60476060/stripe-proposes-53-billion-paypal-acquisition-what-do-prediction-markets-say-about-the-deal",
-   "created_at": "2026-07-15T15:59:31Z",
-   "symbols": [
-    "BTCUSD",
-    "MA",
-    "PYPL",
-    "TKR",
-    "TSLA"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/15/London--Uk---August-2021-Paypal-Finance-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Apple Stock Hits 52-Week High - Here's Why",
-   "summary": "AAPL jumps 4% to a new 52-week high after China greenlights Apple Intelligence. Discover how Baidu &amp; Alibaba will power the rollout.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/07/60476015/apple-stock-hits-52-week-high-heres-why",
-   "created_at": "2026-07-15T15:58:48Z",
-   "symbols": [
-    "AAPL",
-    "BABA",
-    "BIDU"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/15/Apple-Inc.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Cannara Biotech Reports Q3 2026 Results: Full Earnings Call Transcript",
-   "summary": "Cannara Biotech (TSX:LOVE) released third-quarter financial results and hosted an earnings call on Wednesday. Read the complete transcript below.\nThis content is powered by Benzinga APIs. For comprehe",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/07/60476012/cannara-biotech-reports-q3-2026-results-full-earnings-call-transcript",
-   "created_at": "2026-07-15T15:58:43Z",
-   "symbols": [
-    "TSX:LOVE"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_4.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Transcript: PNC Financial Services Gr Q2 2026 Earnings Conference Call",
-   "summary": "PNC Financial Services Gr (NYSE:PNC) held its second-quarter earnings conference call on Wednesday. Below is the complete transcript from the call.\nBenzinga APIs provide real-time access to earnings c",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/07/60475847/transcript-pnc-financial-services-gr-q2-2026-earnings-conference-call",
-   "created_at": "2026-07-15T15:53:57Z",
-   "symbols": [
-    "PNC"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_3.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "ASML Still Gets One-Fifth of Revenue from China Despite the Chip War",
-   "summary": "ASML still gets one-fifth of its revenue from China despite U.S. export controls, showing the chip war hasn&#39;t slowed demand.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/07/60475817/asml-still-gets-one-fifth-of-revenue-from-china-despite-the-chip-war",
-   "created_at": "2026-07-15T15:53:17Z",
-   "symbols": [
-    "ASML"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/15/Veldhoven--Netherlands--July-20--2023-As.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Why Is Lionsgate Studios Stock Surging on Wednesday?",
-   "summary": "Lionsgate Studios Corp. (NYSE: LION) shares surge as acquisition interest from Bollore Group and Banijay surfaces amid accelerating media industry consolidation.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60474001/why-is-lionsgate-studios-stock-surging-on-wednesday",
-   "created_at": "2026-07-15T15:13:11Z",
-   "symbols": [
-    "FOX",
-    "LION",
-    "NFLX",
-    "ROKU",
-    "WBD"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/15/Planning-And-Strategy--Stock-Market--Bus.jpg?width=1024&height=768"
   }
  ]
 }
