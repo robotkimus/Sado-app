@@ -2172,19 +2172,37 @@ def main():
           f"ANTHROPIC 앞 7자: {ANTHROPIC_KEY[:7]}...)")
 
     # ── 1단계: Alpaca 모의계좌 연결 테스트 ──
-    try:
-        account = alpaca("/v2/account")
-        log(f"✅ [1단계] Alpaca 연결 성공 — 총자산 ${account['equity']}, 현금 ${account['cash']}")
-    except urllib.error.HTTPError as e:
-        log(f"❌ [1단계] Alpaca 인증 실패 (HTTP {e.code})")
-        if e.code in (401, 403):
-            log("   → 키가 틀렸거나, 모의계좌(Paper)가 아닌 키일 가능성이 커요.")
-            log("   → 알파카 대시보드 왼쪽 위가 'Paper Trading'인 상태에서 키를 재생성하고,")
-            log("     GitHub Secret 값을 새로 붙여넣어 주세요 (앞뒤 공백·따옴표 없이).")
-        return 1
-    except Exception as e:
-        log(f"❌ [1단계] Alpaca 연결 오류: {e}")
-        return 1
+    # 504(Gateway Timeout)·5xx는 Alpaca 서버 일시 장애이므로 재시도한다.
+    # 401/403(키 오류)은 재시도해도 소용없으니 즉시 중단.
+    account = None
+    last_err = ""
+    for attempt in range(3):
+        try:
+            account = alpaca("/v2/account")
+            log(f"✅ [1단계] Alpaca 연결 성공 — 총자산 ${account['equity']}, 현금 ${account['cash']}")
+            break
+        except urllib.error.HTTPError as e:
+            if e.code in (401, 403):
+                log(f"❌ [1단계] Alpaca 인증 실패 (HTTP {e.code})")
+                log("   → 키가 틀렸거나, 모의계좌(Paper)가 아닌 키일 가능성이 커요.")
+                log("   → 알파카 대시보드 왼쪽 위가 'Paper Trading'인 상태에서 키를 재생성하고,")
+                log("     GitHub Secret 값을 새로 붙여넣어 주세요 (앞뒤 공백·따옴표 없이).")
+                return 1
+            last_err = f"HTTP {e.code}"
+            if attempt < 2:
+                wait = 5 * (attempt + 1)
+                log(f"⏳ [1단계] Alpaca 일시 오류({last_err}) — {wait}초 후 재시도 ({attempt+1}/3)")
+                time.sleep(wait)
+        except Exception as e:
+            last_err = str(e)
+            if attempt < 2:
+                wait = 5 * (attempt + 1)
+                log(f"⏳ [1단계] Alpaca 연결 오류({last_err}) — {wait}초 후 재시도 ({attempt+1}/3)")
+                time.sleep(wait)
+    if account is None:
+        log(f"❌ [1단계] Alpaca 연결 실패(재시도 소진): {last_err}")
+        log("   → Alpaca 서버 일시 장애일 수 있어요. 이번 실행은 건너뛰고 다음 시간에 재시도합니다.")
+        return 0   # exit 0: 워크플로 실패로 안 뜨게(빨간 X 방지)
 
     # ── 2단계: Claude 연결은 별도 ping 없이 메인 판단에서 확인 ──
     # (ping 테스트를 없애 매 실행 Claude 호출 1회를 절감. 연결·키·크레딧 오류는
