@@ -1,103 +1,65 @@
 {
- "updated": "2026-07-15 23:01",
+ "updated": "2026-07-16 00:01",
  "candidates": [
   {
-   "symbol": "T",
-   "score": 7,
-   "ratio": 0.7,
-   "max": 10,
-   "price": 21.6,
-   "reasons": [
-    "52주고점 대비 -26%",
-    "RSI 43 과매도권 접근",
-    "PER 8(저평가)",
-    "PBR 1.4",
-    "그레이엄 기준 충족"
-   ]
-  },
-  {
-   "symbol": "CMCSA",
-   "score": 6,
-   "ratio": 0.6,
-   "max": 10,
-   "price": 23.62,
-   "reasons": [
-    "52주고점 대비 -27%",
-    "PER 6(저평가)",
-    "PBR 1.0",
-    "그레이엄 기준 충족"
-   ]
-  },
-  {
-   "symbol": "VZ",
+   "symbol": "C",
    "score": 5,
    "ratio": 0.5,
    "max": 10,
-   "price": 43.06,
+   "price": 133.85,
    "reasons": [
-    "고점 대비 -16% 조정",
     "RSI 42 과매도권 접근",
-    "PER 8(저평가)",
+    "PER 11(저평가)",
+    "PBR 1.2",
     "그레이엄 기준 충족"
    ]
   },
   {
-   "symbol": "LUNR",
-   "score": 5,
-   "ratio": 0.71,
-   "max": 7,
-   "price": 15.19,
-   "reasons": [
-    "52주고점 대비 -67%",
-    "RSI 30 과매도",
-    "시총 $2.4B(소형)"
-   ]
-  },
-  {
-   "symbol": "RDW",
-   "score": 5,
-   "ratio": 0.71,
-   "max": 7,
-   "price": 9.94,
-   "reasons": [
-    "52주고점 대비 -62%",
-    "RSI 37 과매도권 접근",
-    "시총 $2.4B(소형)"
-   ]
-  },
-  {
-   "symbol": "PL",
+   "symbol": "COF",
    "score": 5,
    "ratio": 0.5,
    "max": 10,
-   "price": 25.77,
+   "price": 209.16,
    "reasons": [
-    "52주고점 대비 -50%",
-    "RSI 35 과매도권 접근",
-    "시총 $9.2B(소형)"
+    "고점 대비 -19% 조정",
+    "PER 9(저평가)",
+    "PBR 1.2",
+    "그레이엄 기준 충족"
    ]
   },
   {
-   "symbol": "NVTS",
+   "symbol": "ABT",
    "score": 5,
-   "ratio": 0.71,
-   "max": 7,
-   "price": 13.22,
+   "ratio": 0.5,
+   "max": 10,
+   "price": 89.6,
    "reasons": [
-    "52주고점 대비 -58%",
-    "RSI 35 과매도",
-    "시총 $3.2B(소형)"
+    "52주고점 대비 -30%",
+    "RSI 43 과매도권 접근",
+    "PER 15(저평가)"
    ]
   },
   {
-   "symbol": "F",
+   "symbol": "NFLX",
    "score": 4,
    "ratio": 0.4,
    "max": 10,
-   "price": 14.16,
+   "price": 74.37,
    "reasons": [
-    "고점 대비 -19% 조정",
-    "PER 8(저평가)",
+    "52주고점 대비 -32%",
+    "RSI 41 과매도권 접근",
+    "PER 19"
+   ]
+  },
+  {
+   "symbol": "TFC",
+   "score": 4,
+   "ratio": 0.4,
+   "max": 10,
+   "price": 52.85,
+   "reasons": [
+    "PER 10(저평가)",
+    "PBR 1.1",
     "그레이엄 기준 충족"
    ]
   }
