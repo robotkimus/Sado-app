@@ -1,76 +1,103 @@
 {
- "updated": "2026-07-15 22:48",
+ "updated": "2026-07-15 23:01",
  "candidates": [
   {
-   "symbol": "GIS",
-   "score": 6,
-   "ratio": 0.6,
+   "symbol": "T",
+   "score": 7,
+   "ratio": 0.7,
    "max": 10,
-   "price": 36.34,
+   "price": 21.6,
    "reasons": [
     "52주고점 대비 -26%",
-    "PER 11(저평가)",
-    "시총 $19.4B(소형)"
-   ]
-  },
-  {
-   "symbol": "ZTS",
-   "score": 5,
-   "ratio": 0.5,
-   "max": 10,
-   "price": 75.55,
-   "reasons": [
-    "52주고점 대비 -42%",
-    "RSI 44 과매도권 접근",
-    "PER 10(저평가)"
-   ]
-  },
-  {
-   "symbol": "DIS",
-   "score": 5,
-   "ratio": 0.5,
-   "max": 10,
-   "price": 96.66,
-   "reasons": [
-    "고점 대비 -17% 조정",
     "RSI 43 과매도권 접근",
-    "PER 13(저평가)",
+    "PER 8(저평가)",
+    "PBR 1.4",
     "그레이엄 기준 충족"
    ]
   },
   {
-   "symbol": "SLB",
-   "score": 4,
-   "ratio": 0.4,
+   "symbol": "CMCSA",
+   "score": 6,
+   "ratio": 0.6,
    "max": 10,
-   "price": 47.74,
-   "reasons": [
-    "고점 대비 -18% 조정",
-    "RSI 42 과매도권 접근",
-    "PER 14(저평가)"
-   ]
-  },
-  {
-   "symbol": "LOW",
-   "score": 4,
-   "ratio": 0.4,
-   "max": 10,
-   "price": 210.34,
+   "price": 23.62,
    "reasons": [
     "52주고점 대비 -27%",
-    "RSI 41 과매도권 접근",
-    "PER 16"
+    "PER 6(저평가)",
+    "PBR 1.0",
+    "그레이엄 기준 충족"
    ]
   },
   {
-   "symbol": "KHC",
+   "symbol": "VZ",
+   "score": 5,
+   "ratio": 0.5,
+   "max": 10,
+   "price": 43.06,
+   "reasons": [
+    "고점 대비 -16% 조정",
+    "RSI 42 과매도권 접근",
+    "PER 8(저평가)",
+    "그레이엄 기준 충족"
+   ]
+  },
+  {
+   "symbol": "LUNR",
+   "score": 5,
+   "ratio": 0.71,
+   "max": 7,
+   "price": 15.19,
+   "reasons": [
+    "52주고점 대비 -67%",
+    "RSI 30 과매도",
+    "시총 $2.4B(소형)"
+   ]
+  },
+  {
+   "symbol": "RDW",
+   "score": 5,
+   "ratio": 0.71,
+   "max": 7,
+   "price": 9.94,
+   "reasons": [
+    "52주고점 대비 -62%",
+    "RSI 37 과매도권 접근",
+    "시총 $2.4B(소형)"
+   ]
+  },
+  {
+   "symbol": "PL",
+   "score": 5,
+   "ratio": 0.5,
+   "max": 10,
+   "price": 25.77,
+   "reasons": [
+    "52주고점 대비 -50%",
+    "RSI 35 과매도권 접근",
+    "시총 $9.2B(소형)"
+   ]
+  },
+  {
+   "symbol": "NVTS",
+   "score": 5,
+   "ratio": 0.71,
+   "max": 7,
+   "price": 13.22,
+   "reasons": [
+    "52주고점 대비 -58%",
+    "RSI 35 과매도",
+    "시총 $3.2B(소형)"
+   ]
+  },
+  {
+   "symbol": "F",
    "score": 4,
    "ratio": 0.4,
    "max": 10,
-   "price": 25.49,
+   "price": 14.16,
    "reasons": [
-    "PER 12(저평가)",
-    "PBR 0.7",
+    "고점 대비 -19% 조정",
+    "PER 8(저평가)",
     "그레이엄 기준 충족"
    ]
   }
