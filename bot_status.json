@@ -1,6 +1,7 @@
 {
- "updated": "2026-07-15 15:01",
- "equity": 99355.21,
+ "updated": "2026-07-15 16:01",
+ "session": "미국 프리마켓(개장 전)",
+ "equity": 99403.4,
  "cash": 70834.5,
  "base": 100000.0,
  "positions": [
@@ -8,7 +9,7 @@
    "symbol": "AMZN",
    "qty": 5.0,
    "avg_cost": 239.57,
-   "now": 248.25,
+   "now": 248.21,
    "pnl_pct": 3.6,
    "peak_pnl_pct": 3.8,
    "drawdown_from_peak_pct": -0.2,
@@ -20,10 +21,10 @@
    "symbol": "AVGO",
    "qty": 15.9382,
    "avg_cost": 368.265841,
-   "now": 394.77,
-   "pnl_pct": 7.2,
+   "now": 396.47,
+   "pnl_pct": 7.7,
    "peak_pnl_pct": 10.2,
-   "drawdown_from_peak_pct": -3.0,
+   "drawdown_from_peak_pct": -2.5,
    "trailing_stop_triggered": false,
    "is_tenbagger": false,
    "stoploss_triggered": false
@@ -44,7 +45,7 @@
    "symbol": "ETH-USD",
    "qty": 3.10323661,
    "avg_cost": 0.0,
-   "now": 1871.464,
+   "now": 1880.46,
    "pnl_pct": 0.0,
    "peak_pnl_pct": 15.6,
    "drawdown_from_peak_pct": -15.6,
@@ -56,10 +57,10 @@
    "symbol": "IGV",
    "qty": 2.0,
    "avg_cost": 85.1,
-   "now": 93.68,
-   "pnl_pct": 10.1,
+   "now": 93.34,
+   "pnl_pct": 9.7,
    "peak_pnl_pct": 12.6,
-   "drawdown_from_peak_pct": -2.5,
+   "drawdown_from_peak_pct": -2.9,
    "trailing_stop_triggered": false,
    "is_tenbagger": false,
    "stoploss_triggered": false
@@ -68,10 +69,10 @@
    "symbol": "META",
    "qty": 2.0,
    "avg_cost": 557.685,
-   "now": 661.0,
-   "pnl_pct": 18.5,
+   "now": 660.4,
+   "pnl_pct": 18.4,
    "peak_pnl_pct": 20.8,
-   "drawdown_from_peak_pct": -2.3,
+   "drawdown_from_peak_pct": -2.4,
    "trailing_stop_triggered": false,
    "is_tenbagger": false,
    "stoploss_triggered": false
@@ -80,10 +81,10 @@
    "symbol": "MSFT",
    "qty": 4.0,
    "avg_cost": 367.5625,
-   "now": 386.0,
-   "pnl_pct": 5.0,
+   "now": 384.0,
+   "pnl_pct": 4.5,
    "peak_pnl_pct": 7.2,
-   "drawdown_from_peak_pct": -2.2,
+   "drawdown_from_peak_pct": -2.7,
    "trailing_stop_triggered": false,
    "is_tenbagger": false,
    "stoploss_triggered": false
@@ -92,10 +93,10 @@
    "symbol": "NVDA",
    "qty": 8.0,
    "avg_cost": 196.105,
-   "now": 212.77,
-   "pnl_pct": 8.5,
+   "now": 212.3,
+   "pnl_pct": 8.3,
    "peak_pnl_pct": 8.7,
-   "drawdown_from_peak_pct": -0.2,
+   "drawdown_from_peak_pct": -0.4,
    "trailing_stop_triggered": false,
    "is_tenbagger": false,
    "stoploss_triggered": false
@@ -104,7 +105,7 @@
    "symbol": "QQQ",
    "qty": 3.0,
    "avg_cost": 722.866667,
-   "now": 725.75,
+   "now": 725.48,
    "pnl_pct": 0.4,
    "peak_pnl_pct": 0.5,
    "drawdown_from_peak_pct": -0.1,
@@ -116,10 +117,10 @@
    "symbol": "SOXX",
    "qty": 9.0,
    "avg_cost": 558.336667,
-   "now": 581.13,
-   "pnl_pct": 4.1,
+   "now": 582.0,
+   "pnl_pct": 4.2,
    "peak_pnl_pct": 6.2,
-   "drawdown_from_peak_pct": -2.1,
+   "drawdown_from_peak_pct": -2.0,
    "trailing_stop_triggered": false,
    "is_tenbagger": false,
    "stoploss_triggered": false
@@ -137,37 +138,6 @@
    "stoploss_triggered": false
   }
  ],
- "trades": [],
- "market_view": "🤝 합의: 거래 없음 | Claude: 현재 미국 프리마켓(개장 전) 세션으로 주식 거래 시간이 아니므로 주식 관련 결정은 전혀 내리지 않는다. 코인(ETH-USD)은 현재 $1,881 수준으로 1일 +6.1%, 20일 +16.1% 상승하며 모멘텀이 강하나, 일목균형표상 구름 안(in) 위치이고 볼린저 포지션 0.93으로 상단 근접, RSI 63.9로 과열 직전, 타코존 이탈 상태라 추가 매수 자리로는 애매하다. 보유 중인 3.1 ETH는 고점 대비 -15.6% 빠진 상태이나 최근 반등세로 단기 트레일링 손절 기준(-20%p)에는 미달하므로 홀드 유지가 맞다. 시장 국면은 중립/혼조이며, 주도 섹터는 바이오·금융·헬스케어로 반도체·기술은 MA20 하회 중 — 정규장 개시 후 XBI·XLF 등 주도 섹터 눌림목 진입을 모니터링할 예정이다. | DeepSeek: 현재 시장은 상승장 국면으로, 주요 지수(SPY/QQQ)가 20일선 위에서 안정적인 추세를 유지하고 있으며 반도체 섹터(SOXX)가 강세를 주도하고 있습니다. 그러나 포트폴리오 내 코어 보유 종목들이 이미 적절히 분산되어 있고, 당일 하이리스크 슬롯에서 저평가 우량주를 발굴할 만한 분명한 과매도 신호나 일목균형표 구름 지지선 눌림목이 포착되지 않아 신규 매수 자리가 불명확합니다. RSI 30 이하 과매도 종목이 없고, BNF 역추세 조건인 20일선 괴리 -10% 이상을 충족하는 우량주도 없으며, 추세추종 진입을 위한 눌림목(MA5/MA20 회복 신호)도 확인되지 않아 기다리는 것이 합리적입니다. 현금 비중은 적정 수준이며, 주도 섹터(반도체) 노출도 이미 코어에 SOXX/SMH와 NVDA 등으로 확보되어 있어 무리한 추격 매수보다 관망으로 일관합니다. 만약 반도체 섹터에서 단기 급락 후 반등 신호(rebound_from_low_pct 5% 이상)가 나오면 하이리스크 슬롯으로 소량 진입할 준비는 되어 있습니다.",
- "chart_levels": {
-  "ETH-USD": {
-   "price": 1881.25,
-   "support": [
-    1852.97,
-    1796.27,
-    1742.68,
-    1690.15
-   ],
-   "resistance": [
-    1956.34,
-    2098.0,
-    2269.81,
-    2366.32
-   ],
-   "fib": {
-    "382": 1799.72,
-    "500": 1872.28,
-    "618": 1944.85
-   },
-   "taco_zone": {
-    "low": 1852.97,
-    "high": 1872.28,
-    "basis": "지지대+피보 5.00"
-   },
-   "in_taco_zone": false
-  }
- },
- "last_trade_time": null,
- "last_trade_count": 0,
- "last_hold_count": 0
+ "market_view": "[미국 프리마켓(개장 전)] 미국 주식 거래 시간이 아니고 코인도 살 만한 신호가 없어 관망. (AI 판단 생략 — 비용 절감)",
+ "trades": []
 }
