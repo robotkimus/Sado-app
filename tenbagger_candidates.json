@@ -1,51 +1,102 @@
 {
- "updated": "2026-07-17 00:02",
+ "updated": "2026-07-17 01:02",
  "candidates": [
   {
-   "symbol": "ZTS",
-   "score": 4,
-   "ratio": 0.4,
+   "symbol": "CMCSA",
+   "score": 6,
+   "ratio": 0.6,
    "max": 10,
-   "price": 76.52,
+   "price": 23.91,
    "reasons": [
-    "52주고점 대비 -42%",
-    "PER 10(저평가)"
-   ]
-  },
-  {
-   "symbol": "SLB",
-   "score": 4,
-   "ratio": 0.4,
-   "max": 10,
-   "price": 47.1,
-   "reasons": [
-    "고점 대비 -19% 조정",
-    "RSI 39 과매도권 접근",
-    "PER 14(저평가)"
-   ]
-  },
-  {
-   "symbol": "DIS",
-   "score": 4,
-   "ratio": 0.4,
-   "max": 10,
-   "price": 98.21,
-   "reasons": [
-    "고점 대비 -15% 조정",
-    "PER 13(저평가)",
+    "52주고점 대비 -26%",
+    "PER 6(저평가)",
+    "PBR 1.0",
     "그레이엄 기준 충족"
    ]
   },
   {
-   "symbol": "KHC",
-   "score": 4,
-   "ratio": 0.4,
+   "symbol": "T",
+   "score": 5,
+   "ratio": 0.5,
    "max": 10,
-   "price": 25.89,
+   "price": 21.91,
    "reasons": [
-    "PER 12(저평가)",
-    "PBR 0.7",
+    "고점 대비 -25% 조정",
+    "PER 9(저평가)",
+    "PBR 1.4",
     "그레이엄 기준 충족"
+   ]
+  },
+  {
+   "symbol": "LUNR",
+   "score": 5,
+   "ratio": 0.71,
+   "max": 7,
+   "price": 13.62,
+   "reasons": [
+    "52주고점 대비 -70%",
+    "RSI 26 과매도",
+    "시총 $2.2B(소형)"
+   ]
+  },
+  {
+   "symbol": "RDW",
+   "score": 5,
+   "ratio": 0.71,
+   "max": 7,
+   "price": 8.61,
+   "reasons": [
+    "52주고점 대비 -67%",
+    "RSI 32 과매도",
+    "시총 $2.1B(소형)"
+   ]
+  },
+  {
+   "symbol": "PL",
+   "score": 5,
+   "ratio": 0.5,
+   "max": 10,
+   "price": 21.87,
+   "reasons": [
+    "52주고점 대비 -57%",
+    "RSI 28 과매도",
+    "시총 $7.8B(소형)"
+   ]
+  },
+  {
+   "symbol": "AMBA",
+   "score": 5,
+   "ratio": 0.5,
+   "max": 10,
+   "price": 65.03,
+   "reasons": [
+    "52주고점 대비 -31%",
+    "RSI 43 과매도권 접근",
+    "시총 $2.8B(소형)"
+   ]
+  },
+  {
+   "symbol": "NVTS",
+   "score": 5,
+   "ratio": 0.71,
+   "max": 7,
+   "price": 11.96,
+   "reasons": [
+    "52주고점 대비 -62%",
+    "RSI 32 과매도",
+    "시총 $2.9B(소형)"
+   ]
+  },
+  {
+   "symbol": "INDI",
+   "score": 5,
+   "ratio": 0.5,
+   "max": 10,
+   "price": 3.85,
+   "reasons": [
+    "52주고점 대비 -28%",
+    "RSI 45 과매도권 접근",
+    "시총 $0.8B(소형)"
    ]
   }
  ]
