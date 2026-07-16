@@ -1,12 +1,24 @@
 {
- "updated": "2026-07-17 04:01",
+ "updated": "2026-07-17 04:31",
  "candidates": [
+  {
+   "symbol": "NFLX",
+   "score": 5,
+   "ratio": 0.5,
+   "max": 10,
+   "price": 73.69,
+   "reasons": [
+    "52주고점 대비 -33%",
+    "과매도 탈출+MA5 회복",
+    "PER 19"
+   ]
+  },
   {
    "symbol": "C",
    "score": 5,
    "ratio": 0.5,
    "max": 10,
-   "price": 131.96,
+   "price": 132.06,
    "reasons": [
     "RSI 40 과매도권 접근",
     "PER 10(저평가)",
@@ -19,7 +31,7 @@
    "score": 5,
    "ratio": 0.5,
    "max": 10,
-   "price": 210.6,
+   "price": 210.92,
    "reasons": [
     "고점 대비 -18% 조정",
     "PER 9(저평가)",
@@ -28,23 +40,11 @@
    ]
   },
   {
-   "symbol": "NFLX",
-   "score": 4,
-   "ratio": 0.4,
-   "max": 10,
-   "price": 74.37,
-   "reasons": [
-    "52주고점 대비 -32%",
-    "RSI 42 과매도권 접근",
-    "PER 19"
-   ]
-  },
-  {
    "symbol": "TFC",
    "score": 4,
    "ratio": 0.4,
    "max": 10,
-   "price": 53.7,
+   "price": 53.67,
    "reasons": [
     "PER 11(저평가)",
     "PBR 1.1",
