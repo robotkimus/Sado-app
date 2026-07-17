@@ -1,6 +1,19 @@
 {
- "updated": "2026-07-18 04:31",
+ "updated": "2026-07-18 05:01",
  "items": [
+  {
+   "headline": "David Sacks, Bill Ackman Sound the Alarm on China's Kimi K3 as Nvidia, Micron Slide",
+   "summary": "China&#39;s Kimi K3 has Sacks and Ackman sounding the alarm and chip stocks slipping. But Polymarket traders still give US labs the edge over Moonshot.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/07/60537191/david-sacks-bill-ackman-sound-the-alarm-on-chinas-kimi-k3-as-nvidia-micron-slide",
+   "created_at": "2026-07-17T19:46:50Z",
+   "symbols": [
+    "MU",
+    "NVDA",
+    "SPCX"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/17/bill-ackman-midjourney-dall-e.jpg?width=1024&height=768"
+  },
   {
    "headline": "Why Is Cadence Design Systems Stock Sinking Friday?",
    "summary": "Why did Cadence (CDNS) stock drop 10% on Friday? Inside the broader tech rout, AI disruption fears, and upcoming earnings expectations.",
@@ -187,17 +200,52 @@
    "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/insider_trade_2.jpg?width=1024&height=768"
   },
   {
-   "headline": "Texas Rep. Dan Crenshaw Sold Up to $90K Worth of Alphabet Stock",
-   "summary": "July 16, 2026 records indicate that Representative Dan Crenshaw filed a sale of Alphabet (NASDAQ:GOOG), valued between $6,006 and $90,000. According to the July filing, the transaction occurred on Jun",
+   "headline": "Stripe’s PayPal Bid Shows Private Fintech Has Become Powerful Enough To Buy Public Giants",
+   "summary": "Stripe’s bid for PayPal signals a fintech shift: private companies are becoming powerful enough to acquire public-market leaders.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/government/26/07/60527211/texas-rep-dan-crenshaw-sold-90k-worth-alphabet-stock",
-   "created_at": "2026-07-17T15:00:28Z",
+   "url": "https://www.benzinga.com/markets/private-markets/26/07/60537258/stripes-paypal-bid-shows-private-fintech-has-become-powerful-enough-to-buy-public-giants",
+   "created_at": "2026-07-17T19:48:39Z",
    "symbols": [
-    "AAPL",
-    "AMZN",
-    "GOOG"
+    "PYPL"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/insider_trade_3.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/17/PayPal-Logo-And-Sign-In-Front-Of-PayPal-.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Senator Who Opposes Ban on Congress Trading Discloses First Trades of 2026: Here’s What He’s Selling",
+   "summary": "Sen. Tommy Tuberville is cashing out of stocks in 2026. Here&#39;s the list.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/07/60537231/senator-who-opposes-ban-on-congress-trading-discloses-first-trades-of-2026-heres-what-hes-selling",
+   "created_at": "2026-07-17T19:48:09Z",
+   "symbols": [
+    "ACN",
+    "AWK",
+    "CSX",
+    "DUK",
+    "LMT"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/17/Us-Senator-Tommy-Tuberville-Speaks-On-Th.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Tesla’s Robotaxi Land Grab: Miami Added, Texas Fleet Grows",
+   "summary": "Tesla&#39;s push for autonomy is paying off as it adds new markets and vehicles quickly. Bank of America maintains a buy rating and $460 price target.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/07/60536701/teslas-robotaxi-land-grab-miami-added-texas-fleet-grows",
+   "created_at": "2026-07-17T19:31:46Z",
+   "symbols": [
+    "TSLA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/17/Tesla-robotaxi-Cybercab-and-Robovan-on-p.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Apple Widens Trade Secrets Fight With OpenAI, Targets Former Employees",
+   "summary": "Apple Inc. (NASDAQ: AAPL) has sent preservation notices to roughly 40 former Apple employees now working at OpenAI.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/private-markets/26/07/60536666/apple-widens-trade-secrets-fight-with-openai-targets-former-employees",
+   "created_at": "2026-07-17T19:30:49Z",
+   "symbols": [
+    "AAPL"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/17/Beijing--China---July-21--2023-Apple-Log.jpg?width=1024&height=768"
   },
   {
    "headline": "Stock of the Day: Where Is the Bottom for Rocket Lab?",
@@ -458,62 +506,6 @@
     "JXG"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_2.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "12 Health Care Stocks Moving In Friday's Intraday Session",
-   "summary": "Gainers\n\nJasper Therapeutics (NASDAQ:JSPR) stock moved upwards by 19.2% to $0.92 during Friday&#39;s regular session. The company&#39;s market cap stands at $21.6 million. \nKalaris Therapeutics (NASDA",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60531891/12-health-care-stocks-moving-friday-s-intraday-session",
-   "created_at": "2026-07-17T17:05:40Z",
-   "symbols": [
-    "AMWL",
-    "APLM",
-    "ATPC",
-    "DRTS",
-    "ESLA"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_4.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "12 Industrials Stocks Moving In Friday's Intraday Session",
-   "summary": "Gainers\n\nSouthland Holdings (AMEX:SLND) shares rose 71.7% to $1.17 during Friday&#39;s regular session. The market value of their outstanding shares is at $36.9 million. \nCallan Jmb (NASDAQ:CJMB) stoc",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60531889/12-industrials-stocks-moving-friday-s-intraday-session",
-   "created_at": "2026-07-17T17:05:40Z",
-   "symbols": [
-    "BIYA",
-    "BNRG",
-    "BURU",
-    "CJMB",
-    "CYCU"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_1.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "12 Information Technology Stocks Moving In Friday's Intraday Session",
-   "summary": "Gainers\n\nSemiLEDs (NASDAQ:LEDS) shares moved upwards by 20.6% to $2.96 during Friday&#39;s regular session. The company&#39;s market cap stands at $20.2 million. As per the news, the Q3 earnings repor",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60531888/12-information-technology-stocks-moving-friday-s-intraday-session",
-   "created_at": "2026-07-17T17:05:40Z",
-   "symbols": [
-    "AMPG",
-    "AMPGR",
-    "CDNS",
-    "CSAI",
-    "FEIM"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_3.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "QUICK SPARK: SpaceX Stock Attracts Short Sellers on the Way Down",
-   "summary": "SpaceX faces increased bearish pressure as short sellers ramp up bets against the company. SPCX&#39;s stock has fallen below its IPO price.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60531753/spacex-stock-short-sellers",
-   "created_at": "2026-07-17T17:03:13Z",
-   "symbols": [
-    "SPCX"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/17/Benzinga-Quick-Spark.jpg?width=1024&height=768"
   }
  ]
 }
