@@ -1,6 +1,7 @@
 {
- "updated": "2026-07-17 10:01",
- "equity": 98520.77,
+ "updated": "2026-07-17 11:01",
+ "session": "미국 장 마감 (거래 시간 외)",
+ "equity": 98380.34,
  "cash": 70765.75,
  "base": 100000.0,
  "positions": [
@@ -8,10 +9,10 @@
    "symbol": "AMZN",
    "qty": 5.0,
    "avg_cost": 239.57,
-   "now": 250.0,
-   "pnl_pct": 4.4,
+   "now": 248.8,
+   "pnl_pct": 3.9,
    "peak_pnl_pct": 7.5,
-   "drawdown_from_peak_pct": -3.1,
+   "drawdown_from_peak_pct": -3.6,
    "trailing_stop_triggered": false,
    "is_tenbagger": false,
    "stoploss_triggered": false
@@ -20,10 +21,10 @@
    "symbol": "AVGO",
    "qty": 15.9382,
    "avg_cost": 368.265841,
-   "now": 374.7,
-   "pnl_pct": 1.7,
+   "now": 372.19,
+   "pnl_pct": 1.1,
    "peak_pnl_pct": 10.2,
-   "drawdown_from_peak_pct": -8.5,
+   "drawdown_from_peak_pct": -9.1,
    "trailing_stop_triggered": false,
    "is_tenbagger": false,
    "stoploss_triggered": false
@@ -32,10 +33,10 @@
    "symbol": "BLK",
    "qty": 2.0,
    "avg_cost": 968.415,
-   "now": 1085.0,
-   "pnl_pct": 12.0,
+   "now": 1081.5,
+   "pnl_pct": 11.7,
    "peak_pnl_pct": 14.5,
-   "drawdown_from_peak_pct": -2.5,
+   "drawdown_from_peak_pct": -2.8,
    "trailing_stop_triggered": false,
    "is_tenbagger": false,
    "stoploss_triggered": false
@@ -44,7 +45,7 @@
    "symbol": "ETH-USD",
    "qty": 3.10323661,
    "avg_cost": 0.0,
-   "now": 1862.797,
+   "now": 1855.73,
    "pnl_pct": 0.0,
    "peak_pnl_pct": 15.6,
    "drawdown_from_peak_pct": -15.6,
@@ -56,7 +57,7 @@
    "symbol": "IGV",
    "qty": 2.0,
    "avg_cost": 85.1,
-   "now": 93.07,
+   "now": 93.11,
    "pnl_pct": 9.4,
    "peak_pnl_pct": 12.6,
    "drawdown_from_peak_pct": -3.2,
@@ -68,10 +69,10 @@
    "symbol": "META",
    "qty": 2.0,
    "avg_cost": 557.685,
-   "now": 665.0,
-   "pnl_pct": 19.2,
+   "now": 661.2,
+   "pnl_pct": 18.6,
    "peak_pnl_pct": 23.2,
-   "drawdown_from_peak_pct": -4.0,
+   "drawdown_from_peak_pct": -4.6,
    "trailing_stop_triggered": false,
    "is_tenbagger": false,
    "stoploss_triggered": false
@@ -80,10 +81,10 @@
    "symbol": "MSFT",
    "qty": 4.0,
    "avg_cost": 367.5625,
-   "now": 400.0,
-   "pnl_pct": 8.8,
+   "now": 397.37,
+   "pnl_pct": 8.1,
    "peak_pnl_pct": 10.4,
-   "drawdown_from_peak_pct": -1.6,
+   "drawdown_from_peak_pct": -2.3,
    "trailing_stop_triggered": false,
    "is_tenbagger": false,
    "stoploss_triggered": false
@@ -92,10 +93,10 @@
    "symbol": "NVDA",
    "qty": 8.0,
    "avg_cost": 196.105,
-   "now": 205.65,
-   "pnl_pct": 4.9,
+   "now": 204.6,
+   "pnl_pct": 4.3,
    "peak_pnl_pct": 8.7,
-   "drawdown_from_peak_pct": -3.8,
+   "drawdown_from_peak_pct": -4.4,
    "trailing_stop_triggered": false,
    "is_tenbagger": false,
    "stoploss_triggered": false
@@ -104,10 +105,10 @@
    "symbol": "QQQ",
    "qty": 3.0,
    "avg_cost": 722.866667,
-   "now": 702.46,
-   "pnl_pct": -2.8,
+   "now": 700.51,
+   "pnl_pct": -3.1,
    "peak_pnl_pct": 0.5,
-   "drawdown_from_peak_pct": -3.3,
+   "drawdown_from_peak_pct": -3.6,
    "trailing_stop_triggered": false,
    "is_tenbagger": false,
    "stoploss_triggered": false
@@ -116,10 +117,10 @@
    "symbol": "SOXX",
    "qty": 9.0,
    "avg_cost": 558.336667,
-   "now": 527.07,
-   "pnl_pct": -5.6,
+   "now": 523.35,
+   "pnl_pct": -6.3,
    "peak_pnl_pct": 6.2,
-   "drawdown_from_peak_pct": -11.8,
+   "drawdown_from_peak_pct": -12.5,
    "trailing_stop_triggered": false,
    "is_tenbagger": false,
    "stoploss_triggered": false
@@ -137,37 +138,6 @@
    "stoploss_triggered": false
   }
  ],
- "trades": [],
- "market_view": "🤝 합의: 거래 없음 | Claude: 현재 미국 주식 장 마감(거래 시간 외)으로 주식 관련 매수·매도는 전면 보류한다. 코인(ETH-USD)은 현재가 $1,863.93으로 taco_zone(1,835~1,865) 내 위치하고 피보 50%(1,848) 지지대 근처이나, 일목균형표상 구름 안(in)에 위치하고 ADX 20.4로 추세 강도가 약하며 RSI 59.6으로 중립권이라 추가 매수의 명확한 근거가 부족하다. 보유 중인 ETH(3.1주, peak 대비 -15.6% drawdown)는 손절선(-7%) 미도달 상태이고 5일 수익 +4.2%로 단기 반등 중이나, 구름 아래로 떨어질 위험이 있어 현 보유는 유지하되 신규 추가는 반등 신호 재확인 후로 미룬다. 주식 포트폴리오는 반도체(SOXX -5.6%) 부진 속 바이오·헬스케어·금융 섹터가 주도하는 혼조 국면으로, 내일 정규장에서 XLV·XLF 등 주도 섹터 추세추종 진입 기회를 검토할 예정이다. | DeepSeek: 시장 국면은 혼조·명확한 주도 섹터 부재로 관망이 최선이다. 현재 다우지수와 나스닥이 엇갈린 움직임을 보이며 방향성이 없고, VIX가 15~20대 중립 수준에 머물러 있어 공포도 과열도 아니다. 기술적 지표상 추세추종을 할 만한 강한 추세(ADX 30↑)나 저점매수를 할 과매도 구간(RSI 30↓)이 모두 보이지 않아, '기다리는 매매' 원칙에 따라 신규 진입을 보류한다. 현금 비중은 70% 내외로 적정하며, 불확실한 환경에서 무리한 진입은 손실로 이어질 가능성이 높다. 포트폴리오 분산 측면에서도 주도 섹터가 없어 코어 구조를 변경할 필요가 없다.",
- "chart_levels": {
-  "ETH-USD": {
-   "price": 1863.93,
-   "support": [
-    1852.97,
-    1788.68,
-    1742.68,
-    1690.15
-   ],
-   "resistance": [
-    1956.34,
-    2062.34,
-    2141.17,
-    2269.81
-   ],
-   "fib": {
-    "382": 1781.26,
-    "500": 1848.11,
-    "618": 1914.97
-   },
-   "taco_zone": {
-    "low": 1835.74,
-    "high": 1865.34,
-    "basis": "지지대+피보 5.00"
-   },
-   "in_taco_zone": true
-  }
- },
- "last_trade_time": "2026-07-17 02:02",
- "last_trade_count": 0,
- "last_hold_count": 0
+ "market_view": "[미국 장 마감 (거래 시간 외)] 미국 주식 거래 시간이 아니고 코인도 살 만한 신호가 없어 관망. (AI 판단 생략 — 비용 절감)",
+ "trades": []
 }
