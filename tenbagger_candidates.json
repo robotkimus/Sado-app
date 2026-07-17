@@ -1,104 +1,96 @@
 {
- "updated": "2026-07-18 01:01",
+ "updated": "2026-07-18 02:02",
  "candidates": [
   {
-   "symbol": "CERT",
-   "score": 7,
-   "ratio": 0.7,
-   "max": 10,
-   "price": 6.88,
-   "reasons": [
-    "52주고점 대비 -32%",
-    "PER 17",
-    "PBR 1.0",
-    "그레이엄 기준 충족",
-    "시총 $1.1B(소형)"
-   ]
-  },
-  {
-   "symbol": "UPST",
-   "score": 7,
-   "ratio": 0.7,
-   "max": 10,
-   "price": 29.4,
-   "reasons": [
-    "52주고점 대비 -42%",
-    "RSI 39 과매도권 접근",
-    "PER 9(저평가)",
-    "시총 $2.8B(소형)"
-   ]
-  },
-  {
-   "symbol": "SERV",
-   "score": 6,
-   "ratio": 0.86,
-   "max": 7,
-   "price": 5.18,
-   "reasons": [
-    "52주고점 대비 -66%",
-    "RSI 29 과매도",
-    "PBR 1.2",
-    "시총 $0.4B(소형)"
-   ]
-  },
-  {
-   "symbol": "PATH",
-   "score": 6,
-   "ratio": 0.6,
-   "max": 10,
-   "price": 12.12,
-   "reasons": [
-    "52주고점 대비 -37%",
-    "PER 13(저평가)",
-    "시총 $6.3B(소형)"
-   ]
-  },
-  {
-   "symbol": "SITM",
+   "symbol": "MU",
    "score": 5,
    "ratio": 0.5,
    "max": 10,
-   "price": 565.47,
+   "price": 897.57,
    "reasons": [
-    "52주고점 대비 -37%",
-    "RSI 39 과매도권 접근",
-    "시총 $16.9B(소형)"
+    "52주고점 대비 -26%",
+    "RSI 45 과매도권 접근",
+    "PER 6(저평가)"
    ]
   },
   {
-   "symbol": "TEM",
+   "symbol": "ORCL",
    "score": 5,
-   "ratio": 0.71,
-   "max": 7,
-   "price": 51.9,
+   "ratio": 0.5,
+   "max": 10,
+   "price": 128.34,
+   "reasons": [
+    "52주고점 대비 -48%",
+    "RSI 31 과매도",
+    "PER 12(저평가)"
+   ]
+  },
+  {
+   "symbol": "QCOM",
+   "score": 4,
+   "ratio": 0.4,
+   "max": 10,
+   "price": 170.6,
+   "reasons": [
+    "52주고점 대비 -32%",
+    "RSI 37 과매도권 접근",
+    "PER 15"
+   ]
+  },
+  {
+   "symbol": "CRM",
+   "score": 4,
+   "ratio": 0.4,
+   "max": 10,
+   "price": 171.03,
+   "reasons": [
+    "52주고점 대비 -36%",
+    "PER 11(저평가)"
+   ]
+  },
+  {
+   "symbol": "ADBE",
+   "score": 4,
+   "ratio": 0.4,
+   "max": 10,
+   "price": 237.61,
    "reasons": [
     "52주고점 대비 -33%",
-    "RSI 45 과매도권 접근",
-    "시총 $9.3B(소형)"
+    "PER 9(저평가)"
    ]
   },
   {
-   "symbol": "RXRX",
-   "score": 5,
-   "ratio": 0.71,
-   "max": 7,
-   "price": 2.96,
+   "symbol": "WDAY",
+   "score": 4,
+   "ratio": 0.4,
+   "max": 10,
+   "price": 143.94,
    "reasons": [
-    "52주고점 대비 -40%",
-    "RSI 36 과매도권 접근",
-    "시총 $1.6B(소형)"
+    "52주고점 대비 -38%",
+    "PER 11(저평가)"
    ]
   },
   {
-   "symbol": "NTLA",
-   "score": 5,
-   "ratio": 0.71,
-   "max": 7,
-   "price": 11.71,
+   "symbol": "INTU",
+   "score": 4,
+   "ratio": 0.4,
+   "max": 10,
+   "price": 291.59,
    "reasons": [
-    "52주고점 대비 -34%",
+    "52주고점 대비 -57%",
+    "PER 11(저평가)"
+   ]
+  },
+  {
+   "symbol": "IBM",
+   "score": 4,
+   "ratio": 0.4,
+   "max": 10,
+   "price": 213.7,
+   "reasons": [
+    "52주고점 대비 -35%",
     "RSI 32 과매도",
-    "시총 $1.6B(소형)"
+    "PER 16"
    ]
   }
  ]
