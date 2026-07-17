@@ -1,64 +1,62 @@
 {
- "updated": "2026-07-18 03:02",
+ "updated": "2026-07-18 04:01",
  "candidates": [
   {
-   "symbol": "C",
-   "score": 5,
-   "ratio": 0.5,
+   "symbol": "ZTS",
+   "score": 4,
+   "ratio": 0.4,
    "max": 10,
-   "price": 129.98,
+   "price": 76.32,
    "reasons": [
-    "RSI 38 과매도권 접근",
-    "PER 10(저평가)",
-    "PBR 1.1",
-    "그레이엄 기준 충족"
+    "52주고점 대비 -42%",
+    "PER 10(저평가)"
    ]
   },
   {
-   "symbol": "COF",
-   "score": 5,
-   "ratio": 0.5,
+   "symbol": "SLB",
+   "score": 4,
+   "ratio": 0.4,
    "max": 10,
-   "price": 209.0,
+   "price": 46.84,
    "reasons": [
     "고점 대비 -19% 조정",
-    "PER 9(저평가)",
-    "PBR 1.2",
+    "RSI 38 과매도권 접근",
+    "PER 14(저평가)"
+   ]
+  },
+  {
+   "symbol": "DIS",
+   "score": 4,
+   "ratio": 0.4,
+   "max": 10,
+   "price": 97.18,
+   "reasons": [
+    "고점 대비 -16% 조정",
+    "PER 13(저평가)",
     "그레이엄 기준 충족"
    ]
   },
   {
-   "symbol": "NFLX",
+   "symbol": "LOW",
    "score": 4,
    "ratio": 0.4,
    "max": 10,
-   "price": 69.07,
+   "price": 209.69,
    "reasons": [
-    "52주고점 대비 -37%",
-    "RSI 31 과매도",
-    "PER 18"
+    "52주고점 대비 -27%",
+    "RSI 43 과매도권 접근",
+    "PER 16"
    ]
   },
   {
-   "symbol": "FNGU",
-   "score": 4,
-   "ratio": 0.67,
-   "max": 6,
-   "price": 27.07,
-   "reasons": [
-    "52주고점 대비 -25%",
-    "PER 2(저평가)"
-   ]
-  },
-  {
-   "symbol": "TFC",
+   "symbol": "KHC",
    "score": 4,
    "ratio": 0.4,
    "max": 10,
-   "price": 52.74,
+   "price": 25.91,
    "reasons": [
-    "PER 10(저평가)",
-    "PBR 1.1",
+    "PER 12(저평가)",
+    "PBR 0.7",
     "그레이엄 기준 충족"
    ]
   }
