@@ -1,6 +1,32 @@
 {
- "updated": "2026-07-18 05:01",
+ "updated": "2026-07-18 06:01",
  "items": [
+  {
+   "headline": "Bitcoin Breaks Tech Stocks Correlation: Will BTC Now Follow in Gold's Footsteps?",
+   "summary": "Bitcoin ETFs may be following gold’s boom-bust cycle, with IBIT’s pullback signaling a long recovery before the next record high.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/07/60538851/bitcoin-breaks-tech-stocks-correlation-will-btc-now-follow-in-golds-footsteps",
+   "created_at": "2026-07-17T20:41:11Z",
+   "symbols": [
+    "BLK",
+    "BTCUSD",
+    "ETHUSD",
+    "GLD",
+    "IBIT"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/17/Golden-Bitcoin-Coin-Is-In-Red-And-Blue-S.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Jensen Huang's Leather Jacket Was Supposed to Sell for $40,000 — It Went for 24 Times That",
+   "summary": "A leather jacket worn by Nvidia CEO Jensen Huang was auctioned off and the final price is surprising.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/entertainment/26/07/60538552/jensen-huangs-leather-jacket-was-supposed-to-sell-for-40000-it-went-for-24-times-that",
+   "created_at": "2026-07-17T20:30:38Z",
+   "symbols": [
+    "NVDA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/17/Taipei--Taiwan-On-June-1--2023--Jen-hsun.jpg?width=1024&height=768"
+  },
   {
    "headline": "David Sacks, Bill Ackman Sound the Alarm on China's Kimi K3 as Nvidia, Micron Slide",
    "summary": "China&#39;s Kimi K3 has Sacks and Ackman sounding the alarm and chip stocks slipping. But Polymarket traders still give US labs the edge over Moonshot.",
@@ -174,30 +200,99 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/07/17/Paris--France---February-20-2026-The-Mic.jpg?width=1024&height=768"
   },
   {
-   "headline": "Tom Lee Says 'People Are Rage Quitting at the Bottom,' Compares Ethereum to Amazon, Nvidia, JPMorgan",
-   "summary": "Tom Lee says Ethereum investors are selling near the bottom as Robinhood Chain, tokenization and AI strengthen ETH demand.",
+   "headline": "$1000 Invested In Energy Transfer 5 Years Ago Would Be Worth This Much Today",
+   "summary": "Energy Transfer (NYSE:ET) has outperformed the market over the past 5 years by 4.26% on an annualized basis producing an average annual return of 15.77%. Currently, Energy Transfer has a market capita",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/07/60527869/tom-lee-says-people-are-rage-quitting-at-the-bottom-compares-ethereum-to-amazon-nvidia-jpmorgan",
-   "created_at": "2026-07-17T15:12:49Z",
+   "url": "https://www.benzinga.com/news/26/07/60538890/1000-invested-energy-transfer-5-years-ago-would-be-worth-much-today",
+   "created_at": "2026-07-17T20:45:36Z",
    "symbols": [
-    "AMZN",
-    "BLK",
-    "BMNR",
-    "ETHUSD",
-    "HOOD"
+    "ET"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/17/Ethereum-Hits-New-Record--Ethereum-And-N.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_4.jpg?width=1024&height=768"
   },
   {
-   "headline": "Rep. Cleo Fields Has Bought Up to $45K Worth Of NVIDIA Stock: Here’s What You Should Know",
-   "summary": "A report on July 16, 2026 shows that Representative Cleo Fields from Louisiana purchase stock in NVIDIA (NASDAQ:NVDA), valued between $3,003 and $45,000. According to the July filing, the transaction ",
+   "headline": "$1000 Invested In AXT 5 Years Ago Would Be Worth This Much Today",
+   "summary": "AXT (NASDAQ:AXTI) has outperformed the market over the past 5 years by 25.49% on an annualized basis producing an average annual return of 37.01%. Currently, AXT has a market capitalization of $2.97 b",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/government/26/07/60527212/rep-cleo-fields-has-bought-45k-worth-nvidia-stock-here-s-what-you-should-know",
-   "created_at": "2026-07-17T15:00:28Z",
+   "url": "https://www.benzinga.com/news/26/07/60538540/1000-invested-axt-5-years-ago-would-be-worth-much-today",
+   "created_at": "2026-07-17T20:30:26Z",
    "symbols": [
-    "NVDA"
+    "AXTI"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/insider_trade_2.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_1.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "This New ETF Targets AI Memory Leaders and Weekly Cash Payouts",
+   "summary": "XFUNDS launches the Memory Income ETF (DRMY), targeting AI-driven memory semiconductor companies while seeking weekly income through an options strategy.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/etfs/new-etfs/26/07/60538435/this-new-etf-targets-ai-memory-leaders-and-weekly-cash-payouts",
+   "created_at": "2026-07-17T20:23:29Z",
+   "symbols": [
+    "DRMY",
+    "MU",
+    "SKHY",
+    "STX"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/17/Semiconductor-Or-Microchip-Concepts-tech.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Solana Is 'Massively Underpriced,' Says Industry Expert—Yet 1 Other Coin  Is Just as Juicy",
+   "summary": "Helius CEO Mert Mumtaz highlights Solana, Zcash, and Near Protocol as undervalued crypto assets due to overlooking long-term factors and strong fundamentals.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/07/60538381/solana-is-massively-underpriced-says-industry-expert-yet-1-other-coin-is-just-as-juicy",
+   "created_at": "2026-07-17T20:21:05Z",
+   "symbols": [
+    "NEARUSD",
+    "SOLUSD",
+    "ZECUSD"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/17/Close-Up-Of-Golden-Solana-Cryptocurrency.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "S&P Global Launches ETF Intelligence to Decode Flows, Themes and Market Risk",
+   "summary": "S&amp;P Global Market Intelligence launched ETF Intelligence, offering 150+ daily metrics across more than 15,000 global ETFs.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/07/60538317/sp-global-launches-etf-intelligence-to-decode-flows-themes-and-market-risk",
+   "created_at": "2026-07-17T20:17:34Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/17/Financial-Etf-Concept-With-Glowing-Data-.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Here's How Much $1000 Invested In AbbVie 10 Years Ago Would Be Worth Today",
+   "summary": "AbbVie (NYSE:ABBV) has outperformed the market over the past 10 years by 1.69% on an annualized basis producing an average annual return of 14.83%. Currently, AbbVie has a market capitalization of $45",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/07/60538248/here-s-how-much-1000-invested-abbvie-10-years-ago-would-be-worth-today",
+   "created_at": "2026-07-17T20:15:50Z",
+   "symbols": [
+    "ABBV"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_4.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Here’s How Much You Would Have Made Owning Vanguard Mega Cap Growth ETF Stock In The Last 15 Years",
+   "summary": "Vanguard Mega Cap Growth ETF (NYSE:MGK) has outperformed the market over the past 15 years by 3.24% on an annualized basis producing an average annual return of 15.35%. Currently, Vanguard Mega Cap Gr",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/07/60537702/here-s-how-much-you-would-have-made-owning-vanguard-mega-cap-growth-etf-stock-last-15-years",
+   "created_at": "2026-07-17T20:00:44Z",
+   "symbols": [
+    "MGK"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_1.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Inflation Broke Lower, The AI Trade Broke with It: The Week on Wall Street",
+   "summary": "Technology stocks fell 5.9% this week and IBM posted its worst day on record, even as June inflation cooled to 3.5%. Here is what drove the AI selloff.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/market-summary/26/07/60537669/ai-selloff-wall-street-inflation-cooled-week",
+   "created_at": "2026-07-17T20:00:14Z",
+   "symbols": [
+    "IBM",
+    "SKHY",
+    "SMH",
+    "SNDK",
+    "WDC"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/17/New-York-Ny-Usa-march-21--2024-The-New-Y.jpg?width=1024&height=768"
   },
   {
    "headline": "Stripe’s PayPal Bid Shows Private Fintech Has Become Powerful Enough To Buy Public Giants",
@@ -407,105 +502,6 @@
     "GEV"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/aggregated_options_1.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Why Is Kalaris Therapeutics Stock Gaining Friday?",
-   "summary": "Kalaris Therapeutics (NASDAQ: KLRS) stock jumps 18% after releasing expanded Phase 1a data for its AMD treatment, TH103.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/health-care/26/07/60532843/why-is-kalaris-therapeutics-stock-gaining-friday",
-   "created_at": "2026-07-17T17:31:48Z",
-   "symbols": [
-    "KLRS"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/17/Close-Up-Hands-Of-Ophthalmologist-With-E.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Bitcoin Traders Bet on Upside as Crucial Options Ratio Hits 6-Month Low: Glassnode",
-   "summary": "Bitcoin options turn bullish as the put/call ratio hits a six-month low and traders rebuild upside exposure near $65,000.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/07/60532623/bitcoin-traders-bet-on-upside-as-crucial-options-ratio-hits-6-month-low-glassnode",
-   "created_at": "2026-07-17T17:25:32Z",
-   "symbols": [
-    "BTCUSD"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/17/Bitcoin-Digital-Cryptocurrency-Losing-Va.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "GOP Congressman Says CLARITY Act Passes Next Week: What Do Prediction Markets Say?",
-   "summary": "Rep. Bryan Steil says the Senate will pass the CLARITY Act next week, but Polymarket traders have cut the crypto bill&#39;s odds of becoming law in 2026 to 35%.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/prediction-markets/26/07/60532569/gop-congressman-says-clarity-act-passes-next-week-what-do-prediction-markets-say",
-   "created_at": "2026-07-17T17:23:47Z",
-   "symbols": [
-    "COIN",
-    "HOOD"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/17/Senate-Eyes-DHS-Short-Term-Extension.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Why Is Paramount Skydance Stock Falling on Friday?",
-   "summary": "Paramount Skydance Corporation (PSKY) stock is falling Friday on legal roadblocks surrounding its $110 billion WBD merger and a streaming sector slowdown driven by Netflix.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60532483/why-is-paramount-skydance-stock-falling-on-friday",
-   "created_at": "2026-07-17T17:21:19Z",
-   "symbols": [
-    "NFLX",
-    "PSKY",
-    "WBD"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/17/View-Of-Entrance-To-Paramount-Office-Bui.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Deal Dispatch: Uber Buys Delivery Hero For $14.8 Billion, Eli Lilly Acquires AtaiBeckley, Lulu’s Fashion Considers Strategic Alternatives",
-   "summary": "Deal Dispatch features companies for sale or bought — also off the block — and what bankruptcies are happening.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/m-a/26/07/60532385/deal-dispatch-uber-buys-delivery-hero-for-14-8-billion-eli-lilly-acquires-ataibeckley-lulus-fashion-considers-strategic-alternatives",
-   "created_at": "2026-07-17T17:18:32Z",
-   "symbols": [
-    "ATAI",
-    "FERG",
-    "FHB",
-    "JSPR",
-    "LDI"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/17/benzinga-deal-dispatch2.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Oral Psoriasis Drug From Takeda Demonstrates Strong Skin Clearance in Trials",
-   "summary": "Takeda shares positive Phase 3 data for its oral psoriasis drug zasocitinib, showing high skin clearance ahead of its planned FDA filing.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60532056/oral-psoriasis-drug-from-takeda-demonstrates-strong-skin-clearance-in-trials",
-   "created_at": "2026-07-17T17:08:29Z",
-   "symbols": [
-    "TAK"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/17/Takeda-Pharmaceutical-Company.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Jasper Closes Kira Deal, Extends Cash Runway",
-   "summary": "Jasper Therapeutics (JSPR) acquires Kira Pharma &amp; raises $132M, extending its cash runway into 2028. Shares surge 20%+.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/m-a/26/07/60532037/jasper-closes-kira-deal-extends-cash-runway",
-   "created_at": "2026-07-17T17:08:07Z",
-   "symbols": [
-    "JSPR"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/17/Biotechnology-Research-Laboratory-Female.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "12 Consumer Discretionary Stocks Moving In Friday's Intraday Session",
-   "summary": "Gainers\n\nEnhanced Group (NYSE:ENHA) shares increased by 15.9% to $2.92 during Friday&#39;s regular session. The market value of their outstanding shares is at $324.2 million. \nWorksport (NASDAQ:WKSP) ",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60531893/12-consumer-discretionary-stocks-moving-friday-s-intraday-session",
-   "created_at": "2026-07-17T17:05:41Z",
-   "symbols": [
-    "BYAH",
-    "CRMT",
-    "ENHA",
-    "FFAI",
-    "JXG"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_2.jpg?width=1024&height=768"
   }
  ]
 }
