@@ -1,6 +1,36 @@
 {
- "updated": "2026-07-19 05:00",
+ "updated": "2026-07-19 06:00",
  "items": [
+  {
+   "headline": "Bill Ackman Losing Winning Streak as Pershing Square's Core Holdings Falter",
+   "summary": "Bill Ackman is having a bad year as some of the top Pershing Square portfolio stocks drop, dragging his returns vs the broader market.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/hedge-funds/26/07/60542110/bill-ackman-losing-winning-streak-as-pershing-squares-core-holdings-falter",
+   "created_at": "2026-07-18T20:55:35Z",
+   "symbols": [
+    "AMZN",
+    "BN",
+    "CMG",
+    "MSFT",
+    "PS"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/18/Bill-Ackman.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Cathie Wood's ARK Innovation ETF Bleeds Assets as Investors Lose Patience",
+   "summary": "ARKK ETF, the flagsfhip fund for Cathie Wood&#39;s company, is losing assets as investors dump after years of underperformance.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/etfs/sector-etfs/26/07/60542086/cathie-woods-ark-innovation-etf-bleeds-assets-as-investors-lose-patience",
+   "created_at": "2026-07-18T20:36:18Z",
+   "symbols": [
+    "AMD",
+    "ARKK",
+    "NVDA",
+    "QQQ",
+    "SHOP"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/18/ARK-Invest-Photo-Cathie-Wood-3.png?width=1024&height=768"
+  },
   {
    "headline": "Maria Sharapova Once Revealed Her 'Steely Mentality' Made People Uncomfortable— It Also Built a Tennis Dynasty and a Portfolio of Winning Bets",
    "summary": "Tennis great Maria Sharapova refused to apologize for her ruthless mentality on the court and carried that discipline into business ventures.",
@@ -173,30 +203,41 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/07/17/The-Spacex-Logo-Is-Displayed-On-A-Mobile.jpg?width=1024&height=768"
   },
   {
-   "headline": "If You Invested $1000 In Microsoft Stock 15 Years Ago, You Would Have This Much Today",
-   "summary": "Microsoft (NASDAQ:MSFT) has outperformed the market over the past 15 years by 7.13% on an annualized basis producing an average annual return of 19.26%. Currently, Microsoft has a market capitalizatio",
+   "headline": "Earnings Season is Booming, So Why Are S&P 500 and Nasdaq 100 Falling?",
+   "summary": "The earnings season is off to a good start, but the S&amp;P 500 and Nasdaq 100 indices are still on a strong downward trend.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/07/60529570/if-you-invested-1000-microsoft-stock-15-years-ago-you-would-have-much-today",
-   "created_at": "2026-07-17T16:00:28Z",
+   "url": "https://www.benzinga.com/markets/equities/26/07/60542098/earnings-season-is-booming-so-why-are-sp-500-and-nasdaq-100-falling",
+   "created_at": "2026-07-18T20:45:37Z",
    "symbols": [
-    "MSFT"
+    "FDS",
+    "IBM",
+    "NFLX"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_4.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/18/Wall-Street-Bull.jpg?width=1024&height=768"
   },
   {
-   "headline": "Chip Stocks Are Having Their Worst Month Since 2008: This Analyst Says Buy the Reset",
-   "summary": "The iShares Semiconductor ETF is down 18.6% in July, its worst month since 2008. BofA&#39;s Vivek Arya calls it a summer reset, not a reversal.",
+   "headline": "XRP Price on Edge Above $1 as Wall Street Accumulation Resumes",
+   "summary": "XRP price has held steady above the important support level of $1 as Wall Street investors start buying Ripple ETFs",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/07/60529071/chip-stocks-worst-month-since-2008-bofa-vivek-arya-bullish",
-   "created_at": "2026-07-17T15:42:19Z",
+   "url": "https://www.benzinga.com/crypto/26/07/60541340/xrp-price-on-edge-above-1-as-wall-street-accumulation-resumes",
+   "created_at": "2026-07-18T20:30:31Z",
    "symbols": [
-    "AVGO",
-    "CRDO",
-    "KLAC",
-    "LRCX",
-    "MRVL"
+    "BTC",
+    "BTCUSD",
+    "ETH",
+    "ETHUSD",
+    "XRP"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/17/AI-chips.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/18/Heres-What-XRP-Would-Have-Returned.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Iranian Missile Attacks Kill Two US Service Members in Jordan, One Remains Missing",
+   "summary": "Iranian strikes on Friday killed two US service members in Jordan, as US Central Command and partner forces defended against ballistic‑missile and drone attacks.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/events/26/07/60541329/iranian-missile-attacks-kill-two-us-service-members-in-jordan-one-remains-missing",
+   "created_at": "2026-07-18T20:27:10Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/18/Is-Trump-Responsible-For-Global-Oil-Shoc.jpg?width=1024&height=768"
   },
   {
    "headline": "US Airstrikes Trigger Iran Freeze on MoU Deal; Kuwait Oil Site Hit",
@@ -428,52 +469,6 @@
    "created_at": "2026-07-18T02:19:16Z",
    "symbols": [],
    "image": "https://cdn.benzinga.com/files/images/story/2026/07/18/World-Map-Of-Middle-East-Countries--Turk.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Trump Memecoin Trader on President's $1 Billion Crypto Fortune: 'Absurd,' 'Mind-Blowing' — And His Locked WLFI is 'Worth Zero'",
-   "summary": "An individual who leverages the Official Trump memecoin to score invitations to events hosted by President Donald Trump found disclosure of his billion-dollar cryptocurrency profits “absurd” and “mind",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/07/60518912/intel-google-cloud-gemini-enterprise-chip-design-partnership-2",
-   "created_at": "2026-07-17T11:00:00Z",
-   "symbols": [
-    "BTCUSD",
-    "TRUMPUSD",
-    "ZECUSD"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/18/Washington-dc--United-States--April-14-2.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Here’s How Much You Would Have Made Owning iShares PHLX SOX Semiconductor Sector Index Fund Stock In The Last 20 Years",
-   "summary": "iShares PHLX SOX Semiconductor Sector Index Fund (NASDAQ:SOXX) has outperformed the market over the past 20 years by 15.85% on an annualized basis producing an average annual return of 25.1%. Currentl",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/07/60540028/here-s-how-much-you-would-have-made-owning-ishares-phlx-sox-semiconductor-sector-index-fund-stock-la",
-   "created_at": "2026-07-17T23:45:29Z",
-   "symbols": [
-    "SOXX"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_1.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Here's How Much $100 Invested In Amphenol 5 Years Ago Would Be Worth Today",
-   "summary": "Amphenol (NYSE:APH) has outperformed the market over the past 5 years by 23.02% on an annualized basis producing an average annual return of 34.54%. Currently, Amphenol has a market capitalization of ",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/07/60539999/here-s-how-much-100-invested-amphenol-5-years-ago-would-be-worth-today",
-   "created_at": "2026-07-17T23:30:34Z",
-   "symbols": [
-    "APH"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_1.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "$1000 Invested In Howmet Aerospace 5 Years Ago Would Be Worth This Much Today",
-   "summary": "Howmet Aerospace (NYSE:HWM) has outperformed the market over the past 5 years by 42.06% on an annualized basis producing an average annual return of 53.57%. Currently, Howmet Aerospace has a market ca",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/07/60539961/1000-invested-howmet-aerospace-5-years-ago-would-be-worth-much-today",
-   "created_at": "2026-07-17T23:15:26Z",
-   "symbols": [
-    "HWM"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_4.jpg?width=1024&height=768"
   }
  ]
 }
