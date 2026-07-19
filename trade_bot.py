@@ -576,6 +576,37 @@ def summarize(sym, series):
 
 
 HEDGE_STATE_FILE = "hedge_state.json"   # 헷지 진입/청산 시각 기록(휩쏘 방지)
+STOPLOSS_COOLDOWN_H = 24                # 손절된 종목 재매수 금지 시간(손절 반복 방지)
+STOPLOSS_HIST_FILE = "stoploss_history.json"
+
+
+def record_stoploss(sym):
+    """손절 체결 시각 기록 — 재진입 쿨다운 판정용."""
+    try:
+        try:
+            with open(STOPLOSS_HIST_FILE, encoding="utf-8") as f:
+                h = json.load(f)
+        except Exception:
+            h = {}
+        h[str(sym).upper()] = datetime.datetime.now(
+            datetime.timezone(datetime.timedelta(hours=9))).isoformat()
+        with open(STOPLOSS_HIST_FILE, "w", encoding="utf-8") as f:
+            json.dump(h, f, ensure_ascii=False, indent=1)
+    except Exception as e:
+        log(f"⚠️ 손절 기록 실패: {e}")
+
+
+def stoploss_cooldown_active(sym):
+    """이 종목이 손절 후 쿨다운(24h) 중인지. 손절→재진입→재손절 반복을 막는다."""
+    try:
+        with open(STOPLOSS_HIST_FILE, encoding="utf-8") as f:
+            h = json.load(f)
+    except Exception:
+        return False
+    t = h.get(str(sym).upper())
+    if not t:
+        return False
+    return _hours_since(t) < STOPLOSS_COOLDOWN_H
 HEDGE_MIN_HOLD_HOURS = 6                # 한 번 헷지하면 최소 6시간 유지(잦은 진입·청산 차단)
 
 
@@ -1057,7 +1088,7 @@ def _claude_call_with_retry(body, tries=2):
             return http_json(
                 "https://api.anthropic.com/v1/messages", method="POST",
                 headers={"x-api-key": ANTHROPIC_KEY, "anthropic-version": "2023-06-01",
-                         "anthropic-beta": "extended-cache-ttl-2025-04-11",
+                         
                          "content-type": "application/json"},
                 body=body)
         except urllib.error.HTTPError as e:
@@ -1101,9 +1132,18 @@ def ask_claude(account, positions, market, regime=None, session="regular"):
         if keep:
             slim.append(m)
     # slim에는 최소한 보유·코어 ETF가 항상 포함되므로 그대로 사용(다이어트 상시 작동).
-    # 극단적으로 적으면(시세 수집 실패 등) 원본을 유지해 판단 재료를 보전.
+    # 조정장엔 과매도 종목이 폭증해 slim이 커지므로 우선순위 정렬 후 상한 25종목 컷:
+    # 보유 > 코어 > 홀리그레일 > 나머지 신호 순.
     if len(slim) >= 5:
-        market = slim
+        def _prio(m):
+            s = str(m.get("symbol", "")).upper()
+            if s in held_syms: return 0
+            if s in core_always: return 1
+            if m.get("holy_grail"): return 2
+            r = m.get("rsi14")
+            return 3 + (0 if (r is not None and r <= 35) else 1)
+        slim.sort(key=_prio)
+        market = slim[:25]
     session_kr = _SESSION_KR.get(session, session)
     # 세션별로 두 AI에 동일한 거래 규칙을 주입 (판단 통일의 핵심)
     if session == "regular":
@@ -1223,22 +1263,19 @@ def ask_claude(account, positions, market, regime=None, session="regular"):
             "  → ★ 돈이 도는 주도 섹터(강세)를 추세추종으로 적극 따라붙어라. 추세가 살아있으면(MA5·MA20 위) 분할 매수, 눌림목이 오면 추가. 단 RSI 75↑+볼린저 상단 크게 초과+거래량 급감이 동시에 보이는 '과열 극단'에서만 신규 진입 자제. 소외 섹터(약세)는 신중히.\n\n")
     variable_block = (
         f"[현재 시장 국면] {json.dumps({k:v for k,v in regime.items() if k!='sectors'}, ensure_ascii=False) if regime else '판단 안 됨'}\n"
-        "  → 위 국면을 반드시 반영할 것. '하락장'이면 인버스 헷지+현금 우선, '조정'이면 신규 매수를 크게 줄이고 현금 확보 우선. '상승장'이면 정상 운용.\n"
+        "  → 위 국면을 반드시 반영할 것. '하락장'이면 인버스 헷지+현금 우선, '조정'이면 신규 매수를 크게 줄이고 현금 확보 우선. '상승장'이면 현금을 30~40%까지 단계적으로 투입해 공격 전환하라(눌림목·홀리그레일 자리 위주 2~3회 분할, 몰빵 금지). 현금 70%+를 상승장에 놀리는 것도 손실이다.\n"
         + sector_block
         + session_rule
         + f"[계좌] 총자산 ${account['equity']}, 현금 ${account['cash']}\n"
         + f"[보유 포지션]\n{json.dumps(positions, ensure_ascii=False, indent=1)}\n\n"
         + f"[관심종목 지표]\n{json.dumps(market, ensure_ascii=False, indent=1)}\n"
     )
-    # ── 메시지 구성: 고정 규칙은 캐싱(90% 할인), 변동 데이터는 매번 전송 ──
-    # 고정 블록에 cache_control(1시간)을 붙여 매시간 반복되는 큰 규칙을 캐시한다.
+    # ── 메시지 구성: 캐싱 제거 — cron 간격이 캐시 TTL(1h)과 어긋나 히트가 불안정,
+    # 미스 시 '쓰기 2배 단가'만 손해라 단순 전송이 더 싸다. 출력도 1800으로 제한.
     res = _claude_call_with_retry(
-        body={"model": "claude-sonnet-4-6", "max_tokens": 2500,
-              "messages": [{"role": "user", "content": [
-                  {"type": "text", "text": prompt,
-                   "cache_control": {"type": "ephemeral", "ttl": "1h"}},
-                  {"type": "text", "text": variable_block},
-              ]}]})
+        body={"model": "claude-sonnet-4-6", "max_tokens": 1800,
+              "messages": [{"role": "user",
+                            "content": prompt + "\n\n" + variable_block}]})
     text = "".join(b.get("text", "") for b in res.get("content", []))
     claude_plan = _parse_ai_json(text, "Claude")
 
@@ -1253,7 +1290,7 @@ def ask_claude(account, positions, market, regime=None, session="regular"):
             "https://api.deepseek.com/chat/completions", method="POST",
             headers={"Authorization": f"Bearer {DEEPSEEK_KEY}",
                      "content-type": "application/json"},
-            body={"model": "deepseek-chat", "max_tokens": 2500,
+            body={"model": "deepseek-chat", "max_tokens": 1800,
                   "messages": [{"role": "user", "content": prompt}]})
         ds_text = ds_res.get("choices", [{}])[0].get("message", {}).get("content", "")
         deepseek_plan = _parse_ai_json(ds_text, "DeepSeek")
@@ -1499,6 +1536,11 @@ def execute(decisions, account, positions, market, regime=None, block_buys=False
             continue
         cost = qty * prices[sym]
         if action == "buy":
+            # 손절 재진입 쿨다운: 손절된 종목은 24시간 재매수 금지(손절 반복 방지).
+            # 텐버거(장기 적립)는 예외.
+            if stoploss_cooldown_active(sym) and sym not in load_tenbaggers():
+                results.append(f"⏸ {sym} 재진입 보류 (손절 후 {STOPLOSS_COOLDOWN_H}시간 쿨다운 — 반복 손절 방지)")
+                continue
             is_lev = sym in LEVERAGE_TICKERS
             is_inv = sym in INVERSE_TICKERS
             regime_label = (regime or {}).get("label", "")
@@ -1599,6 +1641,9 @@ def execute(decisions, account, positions, market, regime=None, block_buys=False
                 order = {"symbol": to_alpaca_symbol(sym), "qty": str(qty),
                          "side": side, "type": "market", "time_in_force": "day"}
             alpaca("/v2/orders", method="POST", body=order)
+            # 손절 매도 성공 → 재진입 쿨다운 기록(24h 재매수 금지)
+            if side == "sell" and "자동 손절" in reason:
+                record_stoploss(sym)
             # 인버스(헷지) 청산이면 시각 기록 → 재진입 쿨다운 계산용(휩쏘 방지)
             if sym in INVERSE_TICKERS and side == "sell":
                 st = _load_hedge_state()
@@ -1657,19 +1702,33 @@ def format_view_for_push(mv):
 
 def send_discord(title, message, urgent):
     """디스코드 웹훅으로 알림 전송(임베드 카드). 색: 긴급=빨강, 일반=청록.
+    4,000자 초과 시 잘라내지 않고 여러 임베드로 분할해 전문을 보낸다(최대 10개).
     웹훅이 설정 안 됐으면 조용히 건너뜀. 실패해도 봇 진행에 지장 없게 예외 흡수."""
     if not DISCORD_WEBHOOK:
         return
-    # 디스코드 임베드 description은 4096자 제한 → 넉넉히 자름
-    desc = message if len(message) <= 4000 else message[:3990] + "…"
     color = 0xE74C3C if urgent else 0x1ABC9C   # 빨강 / 청록
-    payload = json.dumps({
-        "embeds": [{
-            "title": title[:256],
-            "description": desc,
-            "color": color,
-        }],
-    }).encode("utf-8")
+    # 문단(빈 줄) 경계 우선으로 4,000자 조각으로 분할 — 문장 중간 끊김 방지
+    chunks = []
+    rest = message
+    while rest:
+        if len(rest) <= 4000:
+            chunks.append(rest)
+            break
+        cut = rest.rfind("\n\n", 0, 4000)
+        if cut < 2000:                      # 문단 경계가 너무 앞이면 줄 경계로
+            cut = rest.rfind("\n", 0, 4000)
+        if cut < 2000:                      # 그마저 없으면 하드 컷
+            cut = 4000
+        chunks.append(rest[:cut])
+        rest = rest[cut:].lstrip("\n")
+    chunks = chunks[:10]                    # 디스코드 임베드 상한
+    embeds = []
+    for i, ch in enumerate(chunks):
+        e = {"description": ch, "color": color}
+        if i == 0:
+            e["title"] = title[:256]
+        embeds.append(e)
+    payload = json.dumps({"embeds": embeds}).encode("utf-8")
     try:
         req = urllib.request.Request(
             DISCORD_WEBHOOK, data=payload,
