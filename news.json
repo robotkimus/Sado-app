@@ -1,6 +1,17 @@
 {
- "updated": "2026-07-21 05:01",
+ "updated": "2026-07-21 06:01",
  "items": [
+  {
+   "headline": "OpenAI Warns Autonomous AI Agents Could Learn To Bypass Safeguards",
+   "summary": "OpenAI temporarily halted internal access to a long-running AI model after testing revealed unexpected behavior.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/private-markets/26/07/60565989/openai-warns-autonomous-ai-agents-could-learn-to-bypass-safeguards",
+   "created_at": "2026-07-20T20:26:39Z",
+   "symbols": [
+    "MSFT"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/20/Openai-Logo-Seen-On-The-Screen-Of-Smartp.jpg?width=1024&height=768"
+  },
   {
    "headline": "IREN Stock Rally Sparks 40% Surge in Leveraged ETFs After $2.8 Billion AI Deal Win",
    "summary": "IREN stock surges 20% after raising its AI cloud revenue outlook, sending these leveraged ETFs soaring nearly 40%.",
@@ -200,19 +211,102 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/07/20/Brooklyn--Ny--Usa--11-22-20-Sam-Altman-A.jpg?width=1024&height=768"
   },
   {
-   "headline": "What's Going on With NVIDIA Stock Monday?",
-   "summary": "NVIDIA stock gains 1%. As AMD looks to chip away at NVDA&#39;s data center dominance with Helios, here are the key technical levels to watch.",
+   "headline": "QUICK SPARK: Andreessen Horowitz Adds Army Veteran To Defense Investment Team",
+   "summary": "Venture Capital firm Andreessen Horowitz has added military veteran and investor Connor Love to its roster.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/07/60556527/whats-going-on-with-nvidia-stock-monday-9",
-   "created_at": "2026-07-20T15:34:22Z",
+   "url": "https://www.benzinga.com/markets/private-markets/26/07/60566627/quick-spark-andreessen-horowitz-adds-army-veteran-to-defense-investment-team",
+   "created_at": "2026-07-20T20:49:45Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/20/Benzinga-Quick-Spark.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Here’s How Much You Would Have Made Owning Marvell Technology Stock In The Last 10 Years",
+   "summary": "Marvell Technology (NASDAQ:MRVL) has outperformed the market over the past 10 years by 19.46% on an annualized basis producing an average annual return of 32.55%. Currently, Marvell Technology has a m",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/07/60566578/here-s-how-much-you-would-have-made-owning-marvell-technology-stock-last-10-years",
+   "created_at": "2026-07-20T20:45:26Z",
    "symbols": [
-    "AIPI",
-    "AMD",
-    "META",
-    "MSFT",
-    "NVDA"
+    "MRVL"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/20/Nvidia-Logo-On-Smartphone-Screen-And-Amd.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_4.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "AMC Stock Soars on Q2 Results: CEO Says ‘I Think We’ve Won That Fight’ Against At‑Home Viewing",
+   "summary": "AMC stock soared on Q2 financial results. A look at how &#34;The Odyssey&#34; could impact Q3 results and beyond.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60566484/amc-stock-soars-on-q2-results-ceo-says-i-think-weve-won-that-fight-against-at%e2%80%91home-viewing",
+   "created_at": "2026-07-20T20:40:07Z",
+   "symbols": [
+    "AMC"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/20/New-York-Ny-Usa-march-3--2021-The-Closed.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Cracker Barrel Stock Jumps After The Close: Here's Why",
+   "summary": "Cracker Barrel shares are trading higher after the company announced strategic actions and updated its fiscal 2026 outlook.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60566250/cracker-barrel-stock-jumps-after-the-close-heres-why",
+   "created_at": "2026-07-20T20:34:59Z",
+   "symbols": [
+    "CBRL"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/20/Cracker-Barrel-Old-Country-Store.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "If You Invested $100 In Apple Stock 10 Years Ago, You Would Have This Much Today",
+   "summary": "Apple (NASDAQ:AAPL) has outperformed the market over the past 10 years by 16.64% on an annualized basis producing an average annual return of 29.74%. Currently, Apple has a market capitalization of $4",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/07/60566069/if-you-invested-100-apple-stock-10-years-ago-you-would-have-much-today",
+   "created_at": "2026-07-20T20:30:28Z",
+   "symbols": [
+    "AAPL"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_2.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Chamath Says Stripe's PayPal Deal Is 'a Shot Across the Bow' for Visa and Mastercard",
+   "summary": "Chamath Palihapitiya says a Stripe-PayPal tie-up is &#34;a shot across the bow&#34; for Visa and Mastercard. Here&#39;s what prediction markets say about the $53B deal.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/large-cap/26/07/60565924/chamath-stripe-paypal-deal-shot-across-the-bow-for-visa-mastercard",
+   "created_at": "2026-07-20T20:23:36Z",
+   "symbols": [
+    "MA",
+    "PYPL",
+    "V",
+    "XYZ"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/20/Los-Angeles---Apr-15-Chamath-Palihapitiy.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "If You Invested $100 In Alphabet Stock 10 Years Ago, You Would Have This Much Today",
+   "summary": "Alphabet (NASDAQ:GOOGL) has outperformed the market over the past 10 years by 11.87% on an annualized basis producing an average annual return of 24.97%. Currently, Alphabet has a market capitalizatio",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/07/60565652/if-you-invested-100-alphabet-stock-10-years-ago-you-would-have-much-today",
+   "created_at": "2026-07-20T20:15:20Z",
+   "symbols": [
+    "GOOGL"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_2.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Applied Intuition Unveils ‘Drone Stack’ as AI Redefines the Future of Warfare",
+   "summary": "Applied Intuition has introduced a new autonomy software platform to help military and commercial drone operators deploy AI capabilities.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/private-markets/26/07/60565485/applied-intuition-unveils-drone-stack-as-ai-redefines-the-future-of-warfare",
+   "created_at": "2026-07-20T20:09:26Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/20/Military-Kamikaze-Drones-With-Aerial-Bom.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Here's How Much $1000 Invested In Vanguard Growth ETF 15 Years Ago Would Be Worth Today",
+   "summary": "Vanguard Growth ETF (NYSE:VUG) has outperformed the market over the past 15 years by 2.5% on an annualized basis producing an average annual return of 14.63%. Currently, Vanguard Growth ETF has a mark",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/07/60565102/here-s-how-much-1000-invested-vanguard-growth-etf-15-years-ago-would-be-worth-today",
+   "created_at": "2026-07-20T20:00:22Z",
+   "symbols": [
+    "VUG"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_3.jpg?width=1024&height=768"
   },
   {
    "headline": "International Stocks Are Back. Harding Loevner's New LOEV ETF Wants In",
@@ -411,113 +505,6 @@
     "SNPS"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/07/20/Konskie--Poland---November-15--2024-Syno.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Why Is Neuronetics Stock Soaring Monday?",
-   "summary": "BTIG initiates coverage on Neuronetics (STIM) with a Buy rating and $5 target as shares surge 28%. Read the details here.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/analyst-stock-ratings/initiation/26/07/60561983/why-is-neuronetics-stock-soaring-monday",
-   "created_at": "2026-07-20T18:21:17Z",
-   "symbols": [
-    "CMPS",
-    "STIM"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/20/Agitated-Depression-Mentioned.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Databricks CEO Says GPU Shortages Are Fueling AI Fundraising",
-   "summary": "Databricks CEO said surging demand for AI infrastructure and a global shortage of the computing power are driving fundraising efforts.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/private-markets/26/07/60561744/databricks-ceo-says-gpu-shortages-are-fueling-ai-fundraising",
-   "created_at": "2026-07-20T18:14:51Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/20/Mountain-View--Ca-Us---March-9--2025-Dat.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Bitcoin to $40,000, Then $250,000? Peter Brandt Maps BTC's Next Cycle",
-   "summary": "Peter Brandt sees Bitcoin falling below $50,000 before an October bottom, then rallying above $250,000 by 2029.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/07/60561629/bitcoin-40000-then-250000-peter-brandt-maps-btc-next-cycle",
-   "created_at": "2026-07-20T18:11:49Z",
-   "symbols": [
-    "ADAUSD",
-    "BTCUSD",
-    "ETHUSD",
-    "MSTR"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/20/Bitcoin-Btc-Virtual-Cryptocurrency-In-Fr.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Exclusive: EisnerAmper Partner Says 401(k)s, AI Will Reshape Private Markets",
-   "summary": "Private markets are chasing two major growth opportunities: potential 401(k) allocations and the next wave of AI-driven investments.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/private-markets/26/07/60561299/exclusive-eisneramper-partner-401ks-ai-will-reshape-private-markets",
-   "created_at": "2026-07-20T18:01:58Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/20/401k-Plan-Concept--A-Mature-Individual-R.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Bond ETFs See $300 Billion Inflows as Higher Yields Draw Investors Back to Fixed Income",
-   "summary": "Bond ETFs saw more than $300 billion in inflows in the first half of 2026 as higher yields drew investors back to fixed income. Here&#39;s where the money is going.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/etfs/specialty-etfs/26/07/60561262/bond-etfs-see-300-billion-inflows-as-higher-yields-draw-investors-back-to-fixed-income",
-   "created_at": "2026-07-20T18:01:24Z",
-   "symbols": [
-    "AGG",
-    "BND",
-    "EMB",
-    "HYG",
-    "JAAA"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/20/Businessman-Clicks-Inscription-Bonds--Bo.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Bitcoin Whales Accumulate But Mid-Size Holders Sell – Is This Potentially Constructive?",
-   "summary": "Bitcoin sees divergence in investor behavior, with larger whales accumulating while mid-sized holders sell. Despite weakening spot demand, Bitcoin&#39;s price has remained relatively stable.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/07/60561228/bitcoin-divergence-whales-accumulate-mid-size-holders-sell",
-   "created_at": "2026-07-20T18:00:54Z",
-   "symbols": [
-    "BTCUSD"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/20/Bitcoin.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Why Is TeraWulf Stock Surging Monday?",
-   "summary": "TeraWulf (WULF) stock surges on Monday as a massive $9.8B Hut 8 peer contract reignites investor confidence in AI data infrastructure.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60560890/why-is-terawulf-stock-surging-monday",
-   "created_at": "2026-07-20T17:49:54Z",
-   "symbols": [
-    "BITQ",
-    "BLOK",
-    "BTCUSD",
-    "DAPP",
-    "HUT"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/20/TeraWulf.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Why Is Belite Bio Stock Gaining Monday?",
-   "summary": "Belite Bio (BLTE) stock jumps 3% on positive Phase 3 DRAGON trial data for its Stargardt disease drug candidate tinlarebant.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/health-care/26/07/60560414/why-is-belite-bio-stock-gaining-monday",
-   "created_at": "2026-07-20T17:35:38Z",
-   "symbols": [
-    "BLTE"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/20/Eye-In-Close-Up-With-Light-Blue-Iris-Det.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "CoreWeave Stock Moves Higher: What's Happening Today?",
-   "summary": "CoreWeave Inc (NASDAQ:CRWV) shares are advancing Monday. A Wall Street analyst stood firmly behind the AI cloud infrastructure company, raising his spending estimate and pushing back against the compe",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60560396/coreweave-stock-moves-higher-whats-happening-today",
-   "created_at": "2026-07-20T17:35:27Z",
-   "symbols": [
-    "CRWV"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/20/Close-Up-Of-CoreWeave-Logo-And-Name-On-S.jpg?width=1024&height=768"
   }
  ]
 }
