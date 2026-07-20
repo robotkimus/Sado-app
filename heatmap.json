@@ -1,467 +1,467 @@
 {
- "updated": "2026-07-21 02:02",
+ "updated": "2026-07-21 03:01",
  "items": [
   {
    "sym": "NVDA",
    "sector": "반도체",
-   "chg": 0.48,
-   "mcap": 4935755235328,
-   "price": 203.78
+   "chg": 0.91,
+   "mcap": 4957067542528,
+   "price": 204.6599
   },
   {
    "sym": "AVGO",
    "sector": "반도체",
-   "chg": 2.89,
-   "mcap": 1815254663168,
-   "price": 381.55
+   "chg": 3.07,
+   "mcap": 1818466189312,
+   "price": 382.225
   },
   {
    "sym": "AMD",
    "sector": "반도체",
-   "chg": 2.74,
+   "chg": 3.83,
    "mcap": null,
-   "price": 509.33
+   "price": 514.76
   },
   {
    "sym": "TSM",
    "sector": "반도체",
-   "chg": 1.39,
-   "mcap": 2094765047808,
-   "price": 403.89
+   "chg": 1.26,
+   "mcap": 2092145836032,
+   "price": 403.385
   },
   {
    "sym": "ASML",
    "sector": "반도체",
-   "chg": -0.6,
-   "mcap": 667250851840,
-   "price": 1737.18
+   "chg": -0.5,
+   "mcap": 667855814656,
+   "price": 1738.755
   },
   {
    "sym": "MU",
    "sector": "반도체",
-   "chg": 4.63,
+   "chg": 4.56,
    "mcap": null,
-   "price": 888.23
+   "price": 887.66
   },
   {
    "sym": "INTC",
    "sector": "반도체",
-   "chg": 3.72,
-   "mcap": 495462580224,
-   "price": 98.5799
+   "chg": 3.77,
+   "mcap": 495664136192,
+   "price": 98.62
   },
   {
    "sym": "QCOM",
    "sector": "반도체",
-   "chg": 0.05,
-   "mcap": 181140439040,
-   "price": 171.86
+   "chg": 0.08,
+   "mcap": 181203681280,
+   "price": 171.92
   },
   {
    "sym": "TXN",
    "sector": "반도체",
-   "chg": 1.33,
-   "mcap": 261933809664,
-   "price": 287.81
+   "chg": 1.31,
+   "mcap": 261865537536,
+   "price": 287.735
   },
   {
    "sym": "AMAT",
    "sector": "반도체",
-   "chg": 0.25,
-   "mcap": 421576572928,
-   "price": 530.98
+   "chg": 0.15,
+   "mcap": 421179588608,
+   "price": 530.48
   },
   {
    "sym": "LRCX",
    "sector": "반도체",
-   "chg": -1.25,
-   "mcap": 386914025472,
-   "price": 309.3899
+   "chg": -1.35,
+   "mcap": 386513993728,
+   "price": 309.07
   },
   {
    "sym": "KLAC",
    "sector": "반도체",
-   "chg": -1.22,
-   "mcap": 274513723392,
-   "price": 210.15
+   "chg": -1.41,
+   "mcap": 273997758464,
+   "price": 209.755
   },
   {
    "sym": "ADI",
    "sector": "반도체",
-   "chg": 0.49,
+   "chg": 0.44,
    "mcap": null,
-   "price": 377.21
+   "price": 377.005
   },
   {
    "sym": "MRVL",
    "sector": "반도체",
-   "chg": 4.81,
-   "mcap": 177489412096,
-   "price": 197.75
+   "chg": 4.66,
+   "mcap": 177247076352,
+   "price": 197.48
   },
   {
    "sym": "NXPI",
    "sector": "반도체",
-   "chg": 1.96,
-   "mcap": 68611543040,
-   "price": 271.76
+   "chg": 1.65,
+   "mcap": 68401987584,
+   "price": 270.93
   },
   {
    "sym": "MCHP",
    "sector": "반도체",
-   "chg": 0.9,
-   "mcap": 44358356992,
-   "price": 81.69
+   "chg": 0.91,
+   "mcap": 44363784192,
+   "price": 81.7
   },
   {
    "sym": "ON",
    "sector": "반도체",
-   "chg": 0.52,
-   "mcap": 34180225024,
-   "price": 87.825
+   "chg": 0.41,
+   "mcap": 34143254528,
+   "price": 87.73
   },
   {
    "sym": "ARM",
    "sector": "반도체",
-   "chg": 1.72,
-   "mcap": 290287779840,
-   "price": 271.785
+   "chg": 2.25,
+   "mcap": 291806380032,
+   "price": 273.2068
   },
   {
    "sym": "SMCI",
    "sector": "반도체",
-   "chg": 0.25,
-   "mcap": 15680201728,
-   "price": 24.24
+   "chg": 0.81,
+   "mcap": 15767529472,
+   "price": 24.375
   },
   {
    "sym": "MSFT",
    "sector": "기술",
-   "chg": 1.84,
-   "mcap": 2979173761024,
-   "price": 401.05
+   "chg": 2.03,
+   "mcap": 2984967929856,
+   "price": 401.83
   },
   {
    "sym": "AAPL",
    "sector": "기술",
-   "chg": -2.79,
-   "mcap": 4765018750976,
-   "price": 324.43
+   "chg": -2.57,
+   "mcap": 4775593639936,
+   "price": 325.15
   },
   {
    "sym": "ORCL",
    "sector": "기술",
-   "chg": -3.39,
-   "mcap": 351791906816,
-   "price": 122.13
+   "chg": -2.53,
+   "mcap": 354917220352,
+   "price": 123.215
   },
   {
    "sym": "CRM",
    "sector": "기술",
-   "chg": 1.31,
+   "chg": 2.13,
    "mcap": null,
-   "price": 173.015
+   "price": 174.41
   },
   {
    "sym": "ADBE",
    "sector": "기술",
-   "chg": -1.39,
-   "mcap": 92999106560,
-   "price": 233.96
+   "chg": -0.89,
+   "mcap": 93468147712,
+   "price": 235.14
   },
   {
    "sym": "NOW",
    "sector": "기술",
-   "chg": 0.62,
-   "mcap": 107132272640,
-   "price": 103.88
+   "chg": 1.54,
+   "mcap": 108112125952,
+   "price": 104.8301
   },
   {
    "sym": "INTU",
    "sector": "기술",
-   "chg": 0.38,
-   "mcap": 79927508992,
-   "price": 292.2
+   "chg": 1.21,
+   "mcap": 80583999488,
+   "price": 294.6
   },
   {
    "sym": "IBM",
    "sector": "기술",
-   "chg": 1.31,
-   "mcap": 202507960320,
-   "price": 215.4603
+   "chg": 1.43,
+   "mcap": 202742661120,
+   "price": 215.71
   },
   {
    "sym": "CSCO",
    "sector": "기술",
-   "chg": -0.21,
-   "mcap": 440297652224,
-   "price": 111.71
+   "chg": -0.29,
+   "mcap": 439903518720,
+   "price": 111.61
   },
   {
    "sym": "ACN",
    "sector": "기술",
-   "chg": 0.36,
-   "mcap": 88171675648,
-   "price": 144.085
+   "chg": 1.0,
+   "mcap": 88737718272,
+   "price": 145.01
   },
   {
    "sym": "PLTR",
    "sector": "기술",
-   "chg": 1.68,
-   "mcap": 322702180352,
-   "price": 134.61
+   "chg": 2.92,
+   "mcap": 326633029632,
+   "price": 136.2497
   },
   {
    "sym": "PANW",
    "sector": "기술",
-   "chg": -0.09,
-   "mcap": 292063379456,
-   "price": 358.36
+   "chg": 0.2,
+   "mcap": 292910989312,
+   "price": 359.4
   },
   {
    "sym": "CRWD",
    "sector": "기술",
-   "chg": 0.63,
-   "mcap": 208081289216,
-   "price": 204.35
+   "chg": 0.61,
+   "mcap": 208045637632,
+   "price": 204.315
   },
   {
    "sym": "ANET",
    "sector": "기술",
-   "chg": 1.3,
-   "mcap": 215059841024,
-   "price": 170.795
+   "chg": 1.41,
+   "mcap": 215295934464,
+   "price": 170.9825
   },
   {
    "sym": "SNPS",
    "sector": "기술",
-   "chg": -1.32,
-   "mcap": 72608006144,
-   "price": 379.195
+   "chg": -0.88,
+   "mcap": 72936390656,
+   "price": 380.91
   },
   {
    "sym": "CDNS",
    "sector": "기술",
-   "chg": 0.67,
-   "mcap": 91656413184,
-   "price": 332.31
+   "chg": 0.81,
+   "mcap": 91788812288,
+   "price": 332.79
   },
   {
    "sym": "FTNT",
    "sector": "기술",
-   "chg": 0.79,
-   "mcap": 119333773312,
-   "price": 162.88
+   "chg": 1.0,
+   "mcap": 119590191104,
+   "price": 163.23
   },
   {
    "sym": "DELL",
    "sector": "기술",
-   "chg": -1.99,
-   "mcap": 251002093568,
-   "price": 388.4625
+   "chg": -2.22,
+   "mcap": 250412482560,
+   "price": 387.55
   },
   {
    "sym": "WDAY",
    "sector": "기술",
-   "chg": 1.1,
-   "mcap": 36149506048,
-   "price": 146.37
+   "chg": 1.7,
+   "mcap": 36364374016,
+   "price": 147.24
   },
   {
    "sym": "GOOGL",
    "sector": "커뮤니케이션",
-   "chg": 2.04,
-   "mcap": 4318002151424,
-   "price": 353.86
+   "chg": 1.88,
+   "mcap": 4310951788544,
+   "price": 353.2822
   },
   {
    "sym": "META",
    "sector": "커뮤니케이션",
-   "chg": 0.83,
-   "mcap": 1653452832768,
-   "price": 651.37
+   "chg": 0.38,
+   "mcap": 1646027866112,
+   "price": 648.445
   },
   {
    "sym": "NFLX",
    "sector": "커뮤니케이션",
-   "chg": -1.89,
-   "mcap": 284860547072,
-   "price": 67.65
+   "chg": -2.2,
+   "mcap": 283955200000,
+   "price": 67.435
   },
   {
    "sym": "DIS",
    "sector": "커뮤니케이션",
-   "chg": -0.95,
+   "chg": -1.23,
    "mcap": null,
-   "price": 96.74
+   "price": 96.4701
   },
   {
    "sym": "CMCSA",
    "sector": "커뮤니케이션",
-   "chg": 0.15,
-   "mcap": 85108350976,
-   "price": 23.825
+   "chg": 0.53,
+   "mcap": 85429854208,
+   "price": 23.915
   },
   {
    "sym": "TMUS",
    "sector": "커뮤니케이션",
-   "chg": 0.91,
-   "mcap": 210142494720,
-   "price": 194.18
+   "chg": 1.01,
+   "mcap": 210358943744,
+   "price": 194.38
   },
   {
    "sym": "VZ",
    "sector": "커뮤니케이션",
-   "chg": -0.36,
-   "mcap": 181365407744,
-   "price": 43.435
+   "chg": -0.1,
+   "mcap": 181824700416,
+   "price": 43.545
   },
   {
    "sym": "T",
    "sector": "커뮤니케이션",
-   "chg": 0.37,
-   "mcap": 152099127296,
-   "price": 21.89
+   "chg": 0.64,
+   "mcap": 152516034560,
+   "price": 21.95
   },
   {
    "sym": "CHTR",
    "sector": "커뮤니케이션",
-   "chg": -1.02,
-   "mcap": 20373671936,
-   "price": 130.035
+   "chg": -1.12,
+   "mcap": 20351737856,
+   "price": 129.895
   },
   {
    "sym": "EA",
    "sector": "커뮤니케이션",
    "chg": 0.08,
    "mcap": null,
-   "price": 209.06
+   "price": 209.065
   },
   {
    "sym": "AMZN",
    "sector": "임의소비재",
-   "chg": 1.83,
-   "mcap": 2708156186624,
-   "price": 251.755
+   "chg": 1.4,
+   "mcap": 2696807448576,
+   "price": 250.7
   },
   {
    "sym": "TSLA",
    "sector": "임의소비재",
-   "chg": -2.09,
-   "mcap": 1400396709888,
-   "price": 372.87
+   "chg": -1.96,
+   "mcap": 1402293321728,
+   "price": 373.375
   },
   {
    "sym": "HD",
    "sector": "임의소비재",
-   "chg": -1.55,
+   "chg": -1.81,
    "mcap": null,
-   "price": 333.63
+   "price": 332.745
   },
   {
    "sym": "MCD",
    "sector": "임의소비재",
-   "chg": -0.27,
+   "chg": -0.33,
    "mcap": null,
-   "price": 266.98
+   "price": 266.83
   },
   {
    "sym": "NKE",
    "sector": "임의소비재",
-   "chg": -1.11,
-   "mcap": 64194699264,
-   "price": 43.2725
+   "chg": -1.22,
+   "mcap": 64124231680,
+   "price": 43.225
   },
   {
    "sym": "LOW",
    "sector": "임의소비재",
-   "chg": -1.73,
+   "chg": -1.98,
    "mcap": null,
-   "price": 205.11
+   "price": 204.59
   },
   {
    "sym": "SBUX",
    "sector": "임의소비재",
-   "chg": -1.74,
-   "mcap": 118129901568,
-   "price": 103.65
+   "chg": -0.78,
+   "mcap": 119286702080,
+   "price": 104.665
   },
   {
    "sym": "BKNG",
    "sector": "임의소비재",
-   "chg": -1.04,
-   "mcap": 139315396608,
-   "price": 179.79
+   "chg": -1.65,
+   "mcap": 138455285760,
+   "price": 178.68
   },
   {
    "sym": "TJX",
    "sector": "임의소비재",
    "chg": 0.58,
-   "mcap": 171626872832,
-   "price": 155.36
+   "mcap": 171615830016,
+   "price": 155.35
   },
   {
    "sym": "GM",
    "sector": "임의소비재",
-   "chg": -0.18,
+   "chg": -0.66,
    "mcap": null,
-   "price": 75.93
+   "price": 75.57
   },
   {
    "sym": "F",
    "sector": "임의소비재",
-   "chg": -1.23,
+   "chg": -1.3,
    "mcap": null,
-   "price": 14.055
+   "price": 14.045
   },
   {
    "sym": "ABNB",
    "sector": "임의소비재",
-   "chg": -0.44,
-   "mcap": 86259998720,
-   "price": 145.34
+   "chg": -0.3,
+   "mcap": 86381666304,
+   "price": 145.545
   },
   {
    "sym": "MAR",
    "sector": "임의소비재",
-   "chg": -0.14,
+   "chg": -0.31,
    "mcap": null,
-   "price": 365.73
+   "price": 365.105
   },
   {
    "sym": "ORLY",
    "sector": "임의소비재",
-   "chg": -1.5,
-   "mcap": 70241894400,
-   "price": 84.76
+   "chg": -1.57,
+   "mcap": 70192160768,
+   "price": 84.7
   },
   {
    "sym": "CMG",
    "sector": "임의소비재",
-   "chg": -3.91,
+   "chg": -3.67,
    "mcap": null,
-   "price": 33.095
+   "price": 33.175
   },
   {
    "sym": "WMT",
    "sector": "필수소비재",
-   "chg": -1.43,
-   "mcap": 896159252480,
-   "price": 112.61
+   "chg": -1.66,
+   "mcap": 894050369536,
+   "price": 112.345
   },
   {
    "sym": "COST",
    "sector": "필수소비재",
-   "chg": -0.48,
-   "mcap": 415258050560,
-   "price": 936.365
+   "chg": -0.62,
+   "mcap": 414665998336,
+   "price": 935.03
   },
   {
    "sym": "PG",
    "sector": "필수소비재",
-   "chg": -0.67,
+   "chg": -0.65,
    "mcap": null,
-   "price": 148.9801
+   "price": 149.01
   },
   {
    "sym": "KO",
@@ -473,625 +473,625 @@
   {
    "sym": "PEP",
    "sector": "필수소비재",
-   "chg": -1.95,
-   "mcap": 183658692608,
-   "price": 134.45
+   "chg": -1.84,
+   "mcap": 183856775168,
+   "price": 134.595
   },
   {
    "sym": "PM",
    "sector": "필수소비재",
-   "chg": -0.49,
+   "chg": -0.05,
    "mcap": null,
-   "price": 192.03
+   "price": 192.88
   },
   {
    "sym": "MO",
    "sector": "필수소비재",
-   "chg": -0.36,
+   "chg": 0.27,
    "mcap": null,
-   "price": 73.94
+   "price": 74.41
   },
   {
    "sym": "MDLZ",
    "sector": "필수소비재",
-   "chg": -1.92,
-   "mcap": 76800770048,
-   "price": 59.83
+   "chg": -1.25,
+   "mcap": 77327065088,
+   "price": 60.24
   },
   {
    "sym": "CL",
    "sector": "필수소비재",
-   "chg": -1.1,
+   "chg": -1.09,
    "mcap": null,
-   "price": 91.435
+   "price": 91.44
   },
   {
    "sym": "KHC",
    "sector": "필수소비재",
-   "chg": 0.27,
-   "mcap": 30770931712,
-   "price": 25.95
+   "chg": 0.85,
+   "mcap": 30948798464,
+   "price": 26.1
   },
   {
    "sym": "TGT",
    "sector": "필수소비재",
-   "chg": 0.44,
+   "chg": 0.09,
    "mcap": null,
-   "price": 140.21
+   "price": 139.73
   },
   {
    "sym": "KDP",
    "sector": "필수소비재",
-   "chg": -1.23,
-   "mcap": 41537880064,
-   "price": 30.53
+   "chg": -1.07,
+   "mcap": 41605910528,
+   "price": 30.58
   },
   {
    "sym": "BRK-B",
    "sector": "금융",
-   "chg": 0.1,
-   "mcap": 1059910320128,
-   "price": 491.415
+   "chg": 0.09,
+   "mcap": 1059791634432,
+   "price": 491.36
   },
   {
    "sym": "JPM",
    "sector": "금융",
-   "chg": -0.32,
+   "chg": -0.56,
    "mcap": null,
-   "price": 340.005
+   "price": 339.205
   },
   {
    "sym": "V",
    "sector": "금융",
-   "chg": 0.72,
+   "chg": 1.08,
    "mcap": null,
-   "price": 361.15
+   "price": 362.425
   },
   {
    "sym": "MA",
    "sector": "금융",
-   "chg": 0.43,
+   "chg": 0.6,
    "mcap": null,
-   "price": 545.92
+   "price": 546.85
   },
   {
    "sym": "BAC",
    "sector": "금융",
-   "chg": -0.75,
+   "chg": -1.02,
    "mcap": null,
-   "price": 60.81
+   "price": 60.645
   },
   {
    "sym": "WFC",
    "sector": "금융",
-   "chg": -0.77,
-   "mcap": 265746841600,
-   "price": 86.84
+   "chg": -1.09,
+   "mcap": 264889991168,
+   "price": 86.56
   },
   {
    "sym": "GS",
    "sector": "금융",
-   "chg": -0.72,
+   "chg": -0.53,
    "mcap": null,
-   "price": 1057.55
+   "price": 1059.55
   },
   {
    "sym": "MS",
    "sector": "금융",
-   "chg": -1.91,
-   "mcap": 332305072128,
-   "price": 211.39
+   "chg": -1.93,
+   "mcap": 332226461696,
+   "price": 211.34
   },
   {
    "sym": "AXP",
    "sector": "금융",
-   "chg": -0.47,
-   "mcap": 241325211648,
-   "price": 353.68
+   "chg": -0.55,
+   "mcap": 241140989952,
+   "price": 353.41
   },
   {
    "sym": "C",
    "sector": "금융",
-   "chg": 0.29,
-   "mcap": 217609109504,
-   "price": 129.73
+   "chg": 0.19,
+   "mcap": 217391054848,
+   "price": 129.6
   },
   {
    "sym": "SCHW",
    "sector": "금융",
-   "chg": 0.34,
-   "mcap": 177235296256,
-   "price": 101.91
+   "chg": 1.04,
+   "mcap": 178461376512,
+   "price": 102.615
   },
   {
    "sym": "BLK",
    "sector": "금융",
-   "chg": -0.99,
+   "chg": -1.09,
    "mcap": null,
-   "price": 1061.545
+   "price": 1060.54
   },
   {
    "sym": "SPGI",
    "sector": "금융",
-   "chg": 0.23,
-   "mcap": 133756477440,
-   "price": 451.88
+   "chg": 0.07,
+   "mcap": 133540397056,
+   "price": 451.15
   },
   {
    "sym": "PGR",
    "sector": "금융",
-   "chg": 0.7,
-   "mcap": 121748062208,
-   "price": 209.405
+   "chg": 0.75,
+   "mcap": 121814933504,
+   "price": 209.52
   },
   {
    "sym": "CB",
    "sector": "금융",
-   "chg": 0.24,
-   "mcap": 136910733312,
-   "price": 352.99
+   "chg": 0.06,
+   "mcap": 136666374144,
+   "price": 352.36
   },
   {
    "sym": "LLY",
    "sector": "헬스케어",
-   "chg": -0.88,
+   "chg": -1.65,
    "mcap": null,
-   "price": 1168.6978
+   "price": 1159.63
   },
   {
    "sym": "UNH",
    "sector": "헬스케어",
-   "chg": -1.16,
-   "mcap": 382455939072,
-   "price": 421.14
+   "chg": -0.22,
+   "mcap": 386115764224,
+   "price": 425.17
   },
   {
    "sym": "JNJ",
    "sector": "헬스케어",
-   "chg": -0.85,
-   "mcap": 603922563072,
-   "price": 250.88
+   "chg": -1.29,
+   "mcap": 601262587904,
+   "price": 249.775
   },
   {
    "sym": "ABBV",
    "sector": "헬스케어",
-   "chg": -0.28,
-   "mcap": 448388530176,
-   "price": 253.7867
+   "chg": -0.33,
+   "mcap": 448129335296,
+   "price": 253.64
   },
   {
    "sym": "MRK",
    "sector": "헬스케어",
-   "chg": -1.44,
+   "chg": -1.82,
    "mcap": null,
-   "price": 125.67
+   "price": 125.185
   },
   {
    "sym": "TMO",
    "sector": "헬스케어",
-   "chg": -0.8,
+   "chg": -0.48,
    "mcap": null,
-   "price": 528.24
+   "price": 529.93
   },
   {
    "sym": "ABT",
    "sector": "헬스케어",
-   "chg": 1.21,
+   "chg": 1.63,
    "mcap": null,
-   "price": 101.9
+   "price": 102.325
   },
   {
    "sym": "DHR",
    "sector": "헬스케어",
-   "chg": -0.89,
-   "mcap": 142974976000,
-   "price": 202.0075
+   "chg": -0.56,
+   "mcap": 143450947584,
+   "price": 202.68
   },
   {
    "sym": "PFE",
    "sector": "헬스케어",
-   "chg": -0.5,
+   "chg": -0.74,
    "mcap": null,
-   "price": 24.925
+   "price": 24.865
   },
   {
    "sym": "AMGN",
    "sector": "헬스케어",
-   "chg": 0.01,
-   "mcap": 197716738048,
-   "price": 366.34
+   "chg": -0.37,
+   "mcap": 196958437376,
+   "price": 364.935
   },
   {
    "sym": "BMY",
    "sector": "헬스케어",
-   "chg": -0.12,
-   "mcap": 123892465664,
-   "price": 60.67
+   "chg": -0.27,
+   "mcap": 123698470912,
+   "price": 60.575
   },
   {
    "sym": "CVS",
    "sector": "헬스케어",
-   "chg": 0.04,
-   "mcap": 137174949888,
-   "price": 107.51
+   "chg": 0.22,
+   "mcap": 137430130688,
+   "price": 107.71
   },
   {
    "sym": "GILD",
    "sector": "헬스케어",
-   "chg": -0.28,
-   "mcap": 166252412928,
-   "price": 133.905
+   "chg": -0.58,
+   "mcap": 165743378432,
+   "price": 133.495
   },
   {
    "sym": "MDT",
    "sector": "헬스케어",
-   "chg": 0.69,
+   "chg": 0.88,
    "mcap": null,
-   "price": 83.775
+   "price": 83.93
   },
   {
    "sym": "ISRG",
    "sector": "헬스케어",
-   "chg": 2.05,
-   "mcap": 124840632320,
-   "price": 352.495
+   "chg": 2.25,
+   "mcap": 125085007872,
+   "price": 353.185
   },
   {
    "sym": "VRTX",
    "sector": "헬스케어",
-   "chg": 0.04,
-   "mcap": 123311366144,
-   "price": 485.85
+   "chg": -0.72,
+   "mcap": 122376093696,
+   "price": 482.165
   },
   {
    "sym": "GE",
    "sector": "산업재",
-   "chg": -2.25,
-   "mcap": 353798422528,
-   "price": 340.99
+   "chg": -1.76,
+   "mcap": 355562291200,
+   "price": 342.69
   },
   {
    "sym": "CAT",
    "sector": "산업재",
-   "chg": -1.14,
+   "chg": -1.27,
    "mcap": null,
-   "price": 868.6
+   "price": 867.45
   },
   {
    "sym": "RTX",
    "sector": "산업재",
-   "chg": 1.53,
-   "mcap": 264576155648,
-   "price": 196.465
+   "chg": 1.6,
+   "mcap": 264764686336,
+   "price": 196.605
   },
   {
    "sym": "HON",
    "sector": "산업재",
-   "chg": 0.57,
+   "chg": 1.08,
    "mcap": null,
-   "price": 226.31
+   "price": 227.44
   },
   {
    "sym": "UNP",
    "sector": "산업재",
-   "chg": -0.75,
-   "mcap": 177817108480,
-   "price": 299.5
+   "chg": -1.5,
+   "mcap": 176472342528,
+   "price": 297.235
   },
   {
    "sym": "BA",
    "sector": "산업재",
-   "chg": -2.04,
-   "mcap": 165283348480,
-   "price": 209.67
+   "chg": -1.59,
+   "mcap": 166032228352,
+   "price": 210.62
   },
   {
    "sym": "DE",
    "sector": "산업재",
-   "chg": -1.55,
-   "mcap": 158712430592,
-   "price": 587.96
+   "chg": -1.77,
+   "mcap": 158366892032,
+   "price": 586.68
   },
   {
    "sym": "LMT",
    "sector": "산업재",
-   "chg": 0.29,
-   "mcap": 117639323648,
-   "price": 510.225
+   "chg": 0.66,
+   "mcap": 118083158016,
+   "price": 512.15
   },
   {
    "sym": "UPS",
    "sector": "산업재",
-   "chg": -3.36,
+   "chg": -3.47,
    "mcap": null,
-   "price": 113.77
+   "price": 113.64
   },
   {
    "sym": "ETN",
    "sector": "산업재",
-   "chg": 0.66,
+   "chg": 0.82,
    "mcap": null,
-   "price": 402.61
+   "price": 403.25
   },
   {
    "sym": "ADP",
    "sector": "산업재",
-   "chg": -0.31,
-   "mcap": 101724372992,
-   "price": 254.48
+   "chg": -0.14,
+   "mcap": 101898256384,
+   "price": 254.915
   },
   {
    "sym": "NOC",
    "sector": "산업재",
-   "chg": 1.55,
+   "chg": 2.06,
    "mcap": null,
-   "price": 529.64
+   "price": 532.3
   },
   {
    "sym": "GD",
    "sector": "산업재",
-   "chg": 1.0,
-   "mcap": 100671692800,
-   "price": 372.265
+   "chg": 0.99,
+   "mcap": 100663574528,
+   "price": 372.235
   },
   {
    "sym": "EMR",
    "sector": "산업재",
-   "chg": -1.83,
-   "mcap": 76722487296,
-   "price": 136.98
+   "chg": -2.08,
+   "mcap": 76532056064,
+   "price": 136.64
   },
   {
    "sym": "CSX",
    "sector": "산업재",
-   "chg": -1.0,
-   "mcap": 93352902656,
-   "price": 50.24
+   "chg": -1.62,
+   "mcap": 92777062400,
+   "price": 49.9301
   },
   {
    "sym": "NSC",
    "sector": "산업재",
-   "chg": -0.21,
+   "chg": -1.25,
    "mcap": null,
-   "price": 339.44
+   "price": 335.91
   },
   {
    "sym": "XOM",
    "sector": "에너지",
-   "chg": 1.03,
+   "chg": 0.99,
    "mcap": null,
-   "price": 148.885
+   "price": 148.825
   },
   {
    "sym": "CVX",
    "sector": "에너지",
-   "chg": 1.4,
-   "mcap": 378408534016,
-   "price": 190.0025
+   "chg": 1.49,
+   "mcap": 378752106496,
+   "price": 190.175
   },
   {
    "sym": "COP",
    "sector": "에너지",
-   "chg": 1.54,
-   "mcap": 141906886656,
-   "price": 116.48
+   "chg": 1.4,
+   "mcap": 141711966208,
+   "price": 116.32
   },
   {
    "sym": "SLB",
    "sector": "에너지",
-   "chg": -0.28,
-   "mcap": 70058401792,
-   "price": 46.86
+   "chg": -0.49,
+   "mcap": 69908897792,
+   "price": 46.76
   },
   {
    "sym": "EOG",
    "sector": "에너지",
-   "chg": 1.0,
-   "mcap": 75252424704,
-   "price": 141.285
+   "chg": 1.05,
+   "mcap": 75289706496,
+   "price": 141.355
   },
   {
    "sym": "MPC",
    "sector": "에너지",
-   "chg": 1.73,
-   "mcap": 92835848192,
-   "price": 318.0
+   "chg": 1.99,
+   "mcap": 93078151168,
+   "price": 318.83
   },
   {
    "sym": "PSX",
    "sector": "에너지",
-   "chg": 1.57,
-   "mcap": 84240457728,
-   "price": 210.11
+   "chg": 1.84,
+   "mcap": 84462968832,
+   "price": 210.665
   },
   {
    "sym": "WMB",
    "sector": "에너지",
-   "chg": 1.34,
-   "mcap": 90942152704,
-   "price": 74.36
+   "chg": 1.55,
+   "mcap": 91137826816,
+   "price": 74.52
   },
   {
    "sym": "OXY",
    "sector": "에너지",
-   "chg": 1.29,
-   "mcap": 55266873344,
-   "price": 55.565
+   "chg": 1.1,
+   "mcap": 55167414272,
+   "price": 55.465
   },
   {
    "sym": "VLO",
    "sector": "에너지",
-   "chg": 1.68,
-   "mcap": 93492248576,
-   "price": 314.86
+   "chg": 2.08,
+   "mcap": 93854507008,
+   "price": 316.08
   },
   {
    "sym": "LIN",
    "sector": "필수재",
-   "chg": -0.13,
-   "mcap": 236971474944,
-   "price": 512.54
+   "chg": -0.33,
+   "mcap": 236511543296,
+   "price": 511.5452
   },
   {
    "sym": "SHW",
    "sector": "필수재",
-   "chg": -1.28,
-   "mcap": 80669573120,
-   "price": 327.08
+   "chg": -1.46,
+   "mcap": 80521601024,
+   "price": 326.48
   },
   {
    "sym": "APD",
    "sector": "필수재",
-   "chg": 0.25,
+   "chg": 0.21,
    "mcap": null,
-   "price": 296.365
+   "price": 296.24
   },
   {
    "sym": "ECL",
    "sector": "필수재",
-   "chg": -1.27,
-   "mcap": 75810816000,
-   "price": 269.37
+   "chg": -1.4,
+   "mcap": 75709505536,
+   "price": 269.01
   },
   {
    "sym": "FCX",
    "sector": "필수재",
-   "chg": 0.95,
+   "chg": 0.87,
    "mcap": null,
-   "price": 58.935
+   "price": 58.89
   },
   {
    "sym": "NEM",
    "sector": "필수재",
-   "chg": 0.27,
-   "mcap": 96015695872,
-   "price": 89.94
+   "chg": 0.37,
+   "mcap": 96111771648,
+   "price": 90.03
   },
   {
    "sym": "DOW",
    "sector": "필수재",
-   "chg": 1.39,
-   "mcap": 21863690240,
-   "price": 30.335
+   "chg": 1.32,
+   "mcap": 21849276416,
+   "price": 30.315
   },
   {
    "sym": "DD",
    "sector": "필수재",
-   "chg": 1.49,
+   "chg": 1.47,
    "mcap": null,
-   "price": 137.31
+   "price": 137.285
   },
   {
    "sym": "NEE",
    "sector": "유틸리티",
-   "chg": -0.99,
+   "chg": -0.93,
    "mcap": null,
-   "price": 87.925
+   "price": 87.975
   },
   {
    "sym": "SO",
    "sector": "유틸리티",
-   "chg": -0.62,
+   "chg": -0.58,
    "mcap": null,
-   "price": 94.71
+   "price": 94.75
   },
   {
    "sym": "DUK",
    "sector": "유틸리티",
-   "chg": 0.26,
-   "mcap": 97710694400,
-   "price": 125.335
+   "chg": 0.5,
+   "mcap": 97944576000,
+   "price": 125.635
   },
   {
    "sym": "CEG",
    "sector": "유틸리티",
-   "chg": 0.8,
-   "mcap": 90850328576,
-   "price": 254.41
+   "chg": 0.62,
+   "mcap": 90689634304,
+   "price": 253.96
   },
   {
    "sym": "AEP",
    "sector": "유틸리티",
-   "chg": -0.98,
-   "mcap": 71196147712,
-   "price": 130.85
+   "chg": -0.95,
+   "mcap": 71212466176,
+   "price": 130.88
   },
   {
    "sym": "D",
    "sector": "유틸리티",
-   "chg": -0.96,
-   "mcap": 61878104064,
-   "price": 70.355
+   "chg": -0.98,
+   "mcap": 61869309952,
+   "price": 70.345
   },
   {
    "sym": "EXC",
    "sector": "유틸리티",
-   "chg": -0.85,
+   "chg": -0.8,
    "mcap": null,
-   "price": 45.865
+   "price": 45.89
   },
   {
    "sym": "SRE",
    "sector": "유틸리티",
-   "chg": -1.31,
+   "chg": -1.34,
    "mcap": null,
-   "price": 91.045
+   "price": 91.01
   },
   {
    "sym": "PLD",
    "sector": "부동산",
-   "chg": -1.86,
+   "chg": -1.42,
    "mcap": null,
-   "price": 147.0
+   "price": 147.665
   },
   {
    "sym": "AMT",
    "sector": "부동산",
-   "chg": -1.33,
-   "mcap": 78179180544,
-   "price": 167.805
+   "chg": -1.66,
+   "mcap": 77915955200,
+   "price": 167.24
   },
   {
    "sym": "EQIX",
    "sector": "부동산",
-   "chg": -0.23,
-   "mcap": 100362502144,
-   "price": 1017.625
+   "chg": 0.17,
+   "mcap": 100768833536,
+   "price": 1021.745
   },
   {
    "sym": "WELL",
    "sector": "부동산",
-   "chg": 0.07,
-   "mcap": 171826626560,
-   "price": 243.41
+   "chg": 0.35,
+   "mcap": 172306644992,
+   "price": 244.09
   },
   {
    "sym": "SPG",
    "sector": "부동산",
-   "chg": -0.21,
+   "chg": -0.11,
    "mcap": null,
-   "price": 228.23
+   "price": 228.44
   },
   {
    "sym": "O",
    "sector": "부동산",
-   "chg": -0.93,
+   "chg": -0.77,
    "mcap": null,
-   "price": 65.0959
+   "price": 65.205
   },
   {
    "sym": "DLR",
    "sector": "부동산",
-   "chg": 1.12,
-   "mcap": 66159378432,
-   "price": 175.83
+   "chg": 1.15,
+   "mcap": 66178191360,
+   "price": 175.88
   },
   {
    "sym": "PSA",
    "sector": "부동산",
-   "chg": -1.41,
-   "mcap": 55051243520,
-   "price": 313.54
+   "chg": -1.04,
+   "mcap": 55258427392,
+   "price": 314.72
   }
  ]
 }
