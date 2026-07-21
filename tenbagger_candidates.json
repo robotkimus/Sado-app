@@ -1,65 +1,103 @@
 {
- "updated": "2026-07-22 00:01",
+ "updated": "2026-07-22 01:01",
  "candidates": [
   {
-   "symbol": "ZTS",
-   "score": 5,
-   "ratio": 0.5,
+   "symbol": "CMCSA",
+   "score": 6,
+   "ratio": 0.6,
    "max": 10,
-   "price": 75.17,
+   "price": 23.76,
    "reasons": [
-    "52주고점 대비 -43%",
-    "RSI 43 과매도권 접근",
-    "PER 10(저평가)"
-   ]
-  },
-  {
-   "symbol": "DIS",
-   "score": 5,
-   "ratio": 0.5,
-   "max": 10,
-   "price": 96.28,
-   "reasons": [
-    "고점 대비 -17% 조정",
-    "RSI 43 과매도권 접근",
-    "PER 13(저평가)",
+    "52주고점 대비 -27%",
+    "PER 6(저평가)",
+    "PBR 1.0",
     "그레이엄 기준 충족"
    ]
   },
   {
-   "symbol": "GIS",
+   "symbol": "LUNR",
+   "score": 6,
+   "ratio": 0.86,
+   "max": 7,
+   "price": 14.81,
+   "reasons": [
+    "52주고점 대비 -68%",
+    "과매도 탈출+MA5 회복",
+    "시총 $2.4B(소형)"
+   ]
+  },
+  {
+   "symbol": "RDW",
+   "score": 6,
+   "ratio": 0.86,
+   "max": 7,
+   "price": 9.37,
+   "reasons": [
+    "52주고점 대비 -64%",
+    "과매도 탈출+MA5 회복",
+    "시총 $2.2B(소형)"
+   ]
+  },
+  {
+   "symbol": "PL",
+   "score": 6,
+   "ratio": 0.6,
+   "max": 10,
+   "price": 23.18,
+   "reasons": [
+    "52주고점 대비 -55%",
+    "과매도 탈출+MA5 회복",
+    "시총 $8.3B(소형)"
+   ]
+  },
+  {
+   "symbol": "NVTS",
+   "score": 6,
+   "ratio": 0.86,
+   "max": 7,
+   "price": 12.56,
+   "reasons": [
+    "52주고점 대비 -60%",
+    "과매도 탈출+MA5 회복",
+    "시총 $3.1B(소형)"
+   ]
+  },
+  {
+   "symbol": "T",
    "score": 5,
    "ratio": 0.5,
    "max": 10,
-   "price": 37.32,
+   "price": 22.0,
    "reasons": [
     "고점 대비 -24% 조정",
-    "PER 12(저평가)",
-    "시총 $19.9B(소형)"
+    "PER 9(저평가)",
+    "PBR 1.4",
+    "그레이엄 기준 충족"
    ]
   },
   {
-   "symbol": "SLB",
-   "score": 4,
-   "ratio": 0.4,
+   "symbol": "VZ",
+   "score": 5,
+   "ratio": 0.5,
    "max": 10,
-   "price": 45.93,
+   "price": 43.35,
    "reasons": [
-    "고점 대비 -21% 조정",
-    "RSI 34 과매도",
-    "PER 14(저평가)"
+    "고점 대비 -16% 조정",
+    "RSI 45 과매도권 접근",
+    "PER 8(저평가)",
+    "그레이엄 기준 충족"
    ]
   },
   {
-   "symbol": "LOW",
+   "symbol": "LMT",
    "score": 4,
    "ratio": 0.4,
    "max": 10,
-   "price": 202.33,
+   "price": 505.09,
    "reasons": [
-    "52주고점 대비 -30%",
-    "RSI 36 과매도권 접근",
-    "PER 15"
+    "52주고점 대비 -25%",
+    "RSI 42 과매도권 접근",
+    "PER 16"
    ]
   }
  ]
