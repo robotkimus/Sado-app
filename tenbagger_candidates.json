@@ -1,95 +1,66 @@
 {
- "updated": "2026-07-22 03:02",
+ "updated": "2026-07-22 04:01",
  "candidates": [
   {
-   "symbol": "ORCL",
-   "score": 6,
-   "ratio": 0.6,
-   "max": 10,
-   "price": 126.81,
-   "reasons": [
-    "52주고점 대비 -49%",
-    "과매도 탈출+MA5 회복",
-    "PER 12(저평가)"
-   ]
-  },
-  {
-   "symbol": "QCOM",
+   "symbol": "C",
    "score": 5,
    "ratio": 0.5,
    "max": 10,
-   "price": 173.01,
+   "price": 132.79,
    "reasons": [
-    "52주고점 대비 -31%",
-    "과매도 탈출+MA5 회복",
-    "PER 16"
+    "RSI 44 과매도권 접근",
+    "PER 10(저평가)",
+    "PBR 1.2",
+    "그레이엄 기준 충족"
    ]
   },
   {
-   "symbol": "CRM",
-   "score": 4,
-   "ratio": 0.4,
+   "symbol": "COF",
+   "score": 5,
+   "ratio": 0.5,
    "max": 10,
-   "price": 170.09,
+   "price": 206.12,
    "reasons": [
-    "52주고점 대비 -36%",
-    "PER 11(저평가)"
+    "고점 대비 -20% 조정",
+    "PER 9(저평가)",
+    "PBR 1.2",
+    "그레이엄 기준 충족"
    ]
   },
   {
-   "symbol": "ADBE",
+   "symbol": "NFLX",
    "score": 4,
    "ratio": 0.4,
    "max": 10,
-   "price": 226.56,
+   "price": 67.69,
    "reasons": [
-    "52주고점 대비 -37%",
-    "PER 8(저평가)"
+    "52주고점 대비 -38%",
+    "RSI 29 과매도",
+    "PER 18"
    ]
   },
   {
-   "symbol": "TEAM",
+   "symbol": "TFC",
    "score": 4,
    "ratio": 0.4,
    "max": 10,
-   "price": 90.12,
+   "price": 51.29,
    "reasons": [
-    "52주고점 대비 -45%",
-    "PER 15(저평가)"
+    "PER 10(저평가)",
+    "PBR 1.1",
+    "그레이엄 기준 충족"
    ]
   },
   {
-   "symbol": "WDAY",
+   "symbol": "DHR",
    "score": 4,
    "ratio": 0.4,
    "max": 10,
-   "price": 141.29,
+   "price": 177.86,
    "reasons": [
-    "52주고점 대비 -37%",
-    "PER 11(저평가)"
-   ]
-  },
-  {
-   "symbol": "INTU",
-   "score": 4,
-   "ratio": 0.4,
-   "max": 10,
-   "price": 289.51,
-   "reasons": [
-    "52주고점 대비 -57%",
-    "PER 11(저평가)"
-   ]
-  },
-  {
-   "symbol": "IBM",
-   "score": 4,
-   "ratio": 0.4,
-   "max": 10,
-   "price": 211.84,
-   "reasons": [
-    "52주고점 대비 -36%",
-    "RSI 31 과매도",
-    "PER 16"
+    "52주고점 대비 -26%",
+    "RSI 37 과매도권 접근",
+    "PER 19"
    ]
   }
  ]
