@@ -1,6 +1,21 @@
 {
- "updated": "2026-07-22 04:02",
+ "updated": "2026-07-22 04:31",
  "items": [
+  {
+   "headline": "SpaceX Millionaires Fuel Mark Cuban's Stock Ownership Case—and These ETFs Stand to Benefit",
+   "summary": "Mark Cuban says every worker should own stock. SpaceX&#39;s IPO shows why. Here&#39;s how ETFs offer exposure to America&#39;s biggest wealth creators.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/etfs/specialty-etfs/26/07/60592484/spacex-millionaires-fuel-mark-cubans-stock-ownership-case-and-these-etfs-stand-to-benefit",
+   "created_at": "2026-07-21T19:15:50Z",
+   "symbols": [
+    "AAPL",
+    "AMZN",
+    "AVGO",
+    "GOOGL",
+    "MSFT"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/21/Los-Angeles---Jan-8-Mark-Cuban-At-The-Sp.jpg?width=1024&height=768"
+  },
   {
    "headline": "Why Is Western Digital Stock Surging on Tuesday?",
    "summary": "Western Digital Corp stock climbed on Tuesday as a sector-wide tech recovery and bullish analyst commentary on memory pricing buoyed investor sentiment ahead of major tech earnings.",
@@ -203,19 +218,36 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/07/21/Google-Warns-AI-Is-Helping-Hackers.jpg?width=1024&height=768"
   },
   {
-   "headline": "Alphabet Q2 Preview: Stock on Sale? Analyst Says ‘Attractive Entry’ Ahead of Earnings",
-   "summary": "A recent pullback in Alphabet stock could be a buying point ahead of earnings, an analyst says.",
+   "headline": "What's Going On With the Jump in LightPath Stock Today?",
+   "summary": "LightPath Technologies shares are bouncing Tuesday as momentum returns to a stock still up about 300% from a year ago despite recent losses.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/previews/26/07/60585922/alphabet-q2-preview-stock-on-sale-analyst-says-attractive-entry-ahead-of-earnings",
-   "created_at": "2026-07-21T16:18:35Z",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60592423/whats-going-on-with-the-jump-in-lightpath-stock-today",
+   "created_at": "2026-07-21T19:13:50Z",
    "symbols": [
-    "DIA",
-    "GOOG",
-    "GOOGL",
-    "QQQ",
-    "SPY"
+    "LPTH"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/21/Smartphone-Shows-Alphabet-Text-In-Front-.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/21/Stock-Market-Analysis-With-Candlestick-C.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Cipher Stock Surges as Bitcoin Rises on CLARITY Act",
+   "summary": "Cipher Mining shares are climbing Tuesday as AI infrastructure stocks rebound, aided by optimism in crypto legislation.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60592289/cipher-stock-surges-as-bitcoin-rises-on-clarity-act",
+   "created_at": "2026-07-21T19:09:57Z",
+   "symbols": [
+    "BTCUSD",
+    "CIFR"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/21/Cipher-Mining--Inc.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "OpenAI's Altman to Brief Trump Administration Ahead of New Model Launch",
+   "summary": "Sam Altman is heading to Washington next week to meet with the Trump Administration and U.S. lawmakers to discuss new AI models.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/private-markets/26/07/60591910/openai-altman-trump-adminstration-new-model-launch",
+   "created_at": "2026-07-21T19:00:10Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/21/Brooklyn--Ny--Usa--11-22-20-Sam-Altman-A.jpg?width=1024&height=768"
   },
   {
    "headline": "Halliburton Stock Slides as Regional Pressure Squeezes Middle East Revenue",
@@ -430,33 +462,6 @@
     "SPCX"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/07/21/SpaceX---EK.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Coinbase Stock Soars as Bitcoin Rises on Clarity Act Momentum",
-   "summary": "Coinbase shares are surging Tuesday as Treasury Secretary Scott Bessent&#39;s comments about the Clarity Act&#39;s imminent passage ignited fresh optimism across the crypto market.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60588879/coinbase-stock-soars-as-bitcoin-rises-on-clarity-act-momentum",
-   "created_at": "2026-07-21T17:36:57Z",
-   "symbols": [
-    "BTCUSD",
-    "COIN"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/21/Coinbase-Logo-Displayed-On-A-Smartphone-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "10 Health Care Stocks With Whale Alerts In Today’s Session",
-   "summary": "This whale alert can help traders discover the next big trading opportunities.\nWhales are entities with large sums of money and we track their transactions here at Benzinga on our options activity sca",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/options/26/07/60588786/10-health-care-stocks-whale-alerts-today-s-session",
-   "created_at": "2026-07-21T17:35:12Z",
-   "symbols": [
-    "ABVX",
-    "AGIO",
-    "GKOS",
-    "HUM",
-    "IOVA"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/aggregated_options_2.jpg?width=1024&height=768"
   }
  ]
 }
