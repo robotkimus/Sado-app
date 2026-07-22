@@ -1,6 +1,39 @@
 {
- "updated": "2026-07-23 03:02",
+ "updated": "2026-07-23 04:02",
  "items": [
+  {
+   "headline": "Bessent Wants Chinese AI Sanctioned, But Jensen Huang Says Distillation Is Learning",
+   "summary": "Treasury threatens sanctions over Chinese AI &#34;theft,&#34; but Nvidia CEO Jensen Huang says distillation is just learning. Prediction markets side with his calm.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/07/60620441/bessent-wants-chinese-ai-sanctioned-but-jensen-huang-says-distillation-is-learning",
+   "created_at": "2026-07-22T18:53:36Z",
+   "symbols": [
+    "NVDA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/22/Us-Treasury-Secretary--Scott-Bessent-Wal.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Analysts Say Microsoft Stock is Deeply Undervalued Ahead of Q4 Earnings",
+   "summary": "Microsoft shares are trading lower Wednesday as analysts say prolonged underperformance has left it deeply oversold ahead of Q4 earnings.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60620160/analysts-say-microsoft-stock-is-deeply-undervalued-ahead-of-q4-earnings",
+   "created_at": "2026-07-22T18:45:27Z",
+   "symbols": [
+    "MSFT"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/22/Kharkov--Ukraine---January-19--2021-Micr.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Meta AI Splurge Puts Monetization Gap In Focus Ahead Of Q2 Earnings: Wedbush",
+   "summary": "Wedbush Securities previews Meta AI initiatives, including capex spend guidance and advertising business growth.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/07/60618973/meta-ai-spending-monetization-gap-q2-earnings-wedbush-says",
+   "created_at": "2026-07-22T18:15:45Z",
+   "symbols": [
+    "META"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/22/New-York--Usa---14-December-2024-Meta-Pl.jpg?width=1024&height=768"
+  },
   {
    "headline": "Twitter Founder Jack Dorsey is Making a New Slack — Should Salesforce Investors Be Worried?",
    "summary": "Slack was worth $28 billion to Salesforce. Jack Dorsey is ready to disrupt their acquisition.",
@@ -170,45 +203,165 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/07/22/Facebook-And-Instagram-Apps-Seen-On-The-.jpg?width=1024&height=768"
   },
   {
-   "headline": "Google Earnings Prediction Market Preview: What Will Sundar Pichai Say?",
-   "summary": "Alphabet reports Q2 earnings today. Kalshi traders are betting on which words Pichai says, from Gemini to Nano Banana",
+   "headline": "American Airlines Earnings Prediction Market Preview: What Will Robert Isom Say?",
+   "summary": "American Airlines (NASDAQ: AAL) reports Q2 earnings Thursday. Here is what Kalshi prediction markets expect management to say—and skip—on the call.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/prediction-markets/26/07/60606219/google-earnings-prediction-market-preview-what-will-sundar-pichai-say",
-   "created_at": "2026-07-22T13:26:38Z",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/07/60620622/american-airlines-earnings-prediction-market-preview-what-will-robert-isom-say",
+   "created_at": "2026-07-22T18:58:25Z",
    "symbols": [
-    "GOOG",
-    "GOOGL",
-    "NVDA"
+    "AAL",
+    "T",
+    "UAL"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/22/Sundar-Pichai-Is-An-Indian-american-Busi.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/22/American-Airlines-Deal-With-Amazon.jpg?width=1024&height=768"
   },
   {
-   "headline": "The Nvidia-Led AI Supercycle Is Accelerating — and Taiwan Just Confirmed It",
-   "summary": "Taiwan&#39;s export orders surged 59.4% to a record $95.26 billion in June, confirming the Nvidia-led AI supercycle. The Taiwan ETF is up 56% in 2026.",
+   "headline": "After Trump's $2.3B Crypto Boom, Senate GOP Adds Ethics Limits To CLARITY Act",
+   "summary": "Revised CLARITY Act prohibits U.S. President and other covered officials from issuing or sponsoring digital assets for compensation.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/07/60605369/nvidia-ai-supercycle-taiwan-export-orders-record",
-   "created_at": "2026-07-22T13:03:44Z",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/07/60620499/senate-gop-adds-ethics-limits-clarity-act-trump-crypto-boom",
+   "created_at": "2026-07-22T18:54:54Z",
    "symbols": [
-    "EWT",
-    "NVDA",
-    "TSM"
+    "ABTC",
+    "AIFC"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/22/TSMC--Photo-by-Sundry-Photography-on-Shu.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/22/Focus-On-The-Clarity-Act.jpg?width=1024&height=768"
   },
   {
-   "headline": "Alphabet, Microsoft, Meta Earnings Will Spotlight AI Spending — But the Bigger Story May Be In The Footnotes",
-   "summary": "Ahead of Alphabet, Microsoft and Meta earnings, Wall Street is looking beyond AI capex to purchase commitments disclosed in footnotes.",
+   "headline": "InMed Pharmaceuticals Merger Partner Raises $200 Million To Boost Migraine Pipeline",
+   "summary": "Mentari Therapeutics secures $200 million in private financing before merging with InMed Pharmaceuticals to fund migraine therapies.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/07/60605323/alphabet-microsoft-meta-earnings-will-spotlight-ai-spending-but-the-bigger-story-may-be-in-the-footnotes",
-   "created_at": "2026-07-22T13:02:51Z",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60620216/inmed-pharmaceuticals-merger-partner-raises-200-million-to-boost-migraine-pipeline",
+   "created_at": "2026-07-22T18:46:56Z",
    "symbols": [
-    "AMZN",
-    "GOOG",
-    "GOOGL",
-    "META",
-    "MSFT"
+    "INM"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/22/Big-Five-Companies--Big-Tech-Company-Log.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/22/MA.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Preferred Bank Q2 2026 Earnings Call Transcript",
+   "summary": "Preferred Bank (NASDAQ:PFBC) reported second-quarter financial results on Wednesday. The transcript from the company&#39;s second-quarter earnings call has been provided below.\nThis content is powered",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/07/60620159/preferred-bank-q2-2026-earnings-call-transcript",
+   "created_at": "2026-07-22T18:45:37Z",
+   "symbols": [
+    "PFBC"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_4.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Coinbase Settles Records Lawsuit With the SEC: $150,000 and a Retention Overhaul",
+   "summary": "Coinbase wins $150,000 and SEC records reforms as Brian Armstrong says the Clarity Act is near the finish line.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/07/60619902/coinbase-settles-records-lawsuit-with-the-sec-150000-and-a-retention-overhaul",
+   "created_at": "2026-07-22T18:40:25Z",
+   "symbols": [
+    "COIN"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/22/Coinbase-Logo-Displayed-On-A-Smartphone-.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Why Is Infleqtion Stock Gaining Wednesday?",
+   "summary": "Infleqtion (NYSE: INFQ) stock rallies after winning 3 U.S. DOE quantum awards. Read our full analysis on INFQ&#39;s price movement &amp; technicals.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60619664/why-is-infleqtion-stock-gaining-wednesday",
+   "created_at": "2026-07-22T18:34:25Z",
+   "symbols": [
+    "INFQ"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/22/quantum-compute-two.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Crypto Jobs Pay Twice the US Median, Report Says: But Who's Actually Counted?",
+   "summary": "US crypto industry supports 232,000 jobs and adds $55B to GDP, though most roles reflect broader economic multiplier effects.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/07/60619663/crypto-jobs-pay-twice-the-us-median-report-says-but-whos-actually-counted",
+   "created_at": "2026-07-22T18:34:24Z",
+   "symbols": [
+    "XRPUSD"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/22/U-S--jobs-data.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Shield AI's Secondary Market Price Climbs as Investors Double Down on Defense Tech",
+   "summary": "Private investors are continuing to bid up Shield AI&#39;s stock, underscoring growing enthusiasm for defense technology.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/private-markets/26/07/60619467/shield-ais-secondary-market-price-climbs-as-investors-double-down-on-defense-tech",
+   "created_at": "2026-07-22T18:29:47Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/22/Hundreds-Of-Drones-Intercepted.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "3 Semiconductor Stocks to Buy After the Selloff — Bank of America’s Picks",
+   "summary": "Bank of America says the sharp July selloff in Applied Materials, Lam Research and KLA is a buying opportunity as chip equipment spending accelerates.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/07/60619308/semiconductor-stocks-buy-selloff-bank-of-america-picks",
+   "created_at": "2026-07-22T18:25:49Z",
+   "symbols": [
+    "AMAT",
+    "KLAC",
+    "LRCX"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/22/Santa-Clara--California---April-26--2018.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Arrowhead Drug Shows Strong Efficacy In Cutting Blood Fat",
+   "summary": "The latest Arrowhead drug study showed positive results, with significant triglyceride and pancreatitis reductions.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/health-care/26/07/60619285/arrowhead-drug-shows-strong-efficacy-in-cutting-blood-fat",
+   "created_at": "2026-07-22T18:25:17Z",
+   "symbols": [
+    "ARWR"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/22/Stuttgart--Germany---09-14-2022-Person-H.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "What's Going on With SoFi Technologies Stock Wednesday?",
+   "summary": "SoFi stock fell 3% ahead of Q2 earnings on July 29. See Wall Street expectations, revenue estimates, and valuation insights.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60619190/whats-going-on-with-sofi-technologies-stock-wednesday-3",
+   "created_at": "2026-07-22T18:23:08Z",
+   "symbols": [
+    "ARKF",
+    "FINX",
+    "GRNJ",
+    "SOFI"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/22/San-Francisco--Ca--Usa---May-1--2022-Sof.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Why Dr. Reddy's Sank: Profit Plunge, Semaglutide Setback And Trump's Tariff Threat",
+   "summary": "Dr. Reddy&#39;s (RDY) stock drops after missing Q1 FY27 earnings &amp; revenue estimates. Semaglutide issues &amp; Trump tariff plans weigh on shares.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/earnings/26/07/60618843/why-dr-reddys-sank-profit-plunge-semaglutide-setback-and-trumps-tariff-threat",
+   "created_at": "2026-07-22T18:12:24Z",
+   "symbols": [
+    "RDY"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/22/Pill-Bottle-And-Pills-On-Blue-Background.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "GE Vernova Says It's 'Mostly Sold Out' Through 2030",
+   "summary": "GE Vernova says it&#39;s &#34;mostly sold out&#34; through 2030 as AI, grid modernization and electricity demand fuel a multiyear boom in gas turbine orders.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/07/60618792/ge-vernova-says-its-mostly-sold-out-through-2030",
+   "created_at": "2026-07-22T18:11:29Z",
+   "symbols": [
+    "GEV"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/22/GE-Vernova-Inc.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "AirJoule Jumps As Kubota Partnership Signals Near-Term Commercial Potential",
+   "summary": "AIRJ stock surge follows Kubota’s system purchase, exclusive sales deal and potential broader U.S. rollout.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/technicals/26/07/60618607/airjoule-jumps-as-kubota-partnership-signals-near-term-commercial-potential",
+   "created_at": "2026-07-22T18:04:58Z",
+   "symbols": [
+    "AIRJ",
+    "KUBTY"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/22/Financial-Graph-With-Uptrend-Line-Techno.jpg?width=1024&height=768"
   },
   {
    "headline": "SpaceX Stock Faces an Ugly 25-Year Market Pattern Post-IPO",
@@ -345,178 +498,6 @@
     "CRWD"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/07/22/CrowdStrike.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "FDA Approves Johnson & Johnson Table-Integrated OTTAVA Robotic Surgery System",
-   "summary": "FDA grants De Novo authorization for Johnson &amp; Johnson&#39;s OTTAVA robotic surgical system for general surgery procedures.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/fda/26/07/60616434/fda-approves-johnson-johnson-table-integrated-ottava-robotic-surgery-system",
-   "created_at": "2026-07-22T17:08:03Z",
-   "symbols": [
-    "JNJ"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/22/JohnsonandJohnson-New-York--Usa---May-9-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "SMCX Pops 50% As Super Micro Shocks Wall Street With AI Margin Windfall",
-   "summary": "While SMCI jumped 26% on stronger-than-expected margins and a record AI order pipeline, SMCX emerged as a top-performing leveraged ETF.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/etfs/specialty-etfs/26/07/60616334/smcx-pops-50-as-super-micro-shocks-wall-street-with-ai-margin-windfall",
-   "created_at": "2026-07-22T17:05:52Z",
-   "symbols": [
-    "SMCI",
-    "SMCX"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/22/Super-micro-Company-Logo-Displayed.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "12 Consumer Discretionary Stocks Moving In Wednesday's Intraday Session",
-   "summary": "Gainers\n\nZHONGCHAO (NASDAQ:ZCMD) stock increased by 255.1% to $5.22 during Wednesday&#39;s regular session. The market value of their outstanding shares is at $1.7 million. \nAsiaStrategy (NASDAQ:SORA)",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60616323/12-consumer-discretionary-stocks-moving-wednesday-s-intraday-session",
-   "created_at": "2026-07-22T17:05:43Z",
-   "symbols": [
-    "BYAH",
-    "EZGO",
-    "GSUN",
-    "JZXN",
-    "LVLU"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_2.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "12 Health Care Stocks Moving In Wednesday's Intraday Session",
-   "summary": "Gainers\n\nAdvanced Biomed (NASDAQ:ADVB) shares moved upwards by 108.6% to $14.77 during Wednesday&#39;s regular session. The company&#39;s market cap stands at $11.5 million. \nLakewood-Amedex (NASDAQ:L",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60616322/12-health-care-stocks-moving-wednesday-s-intraday-session",
-   "created_at": "2026-07-22T17:05:43Z",
-   "symbols": [
-    "ADVB",
-    "AGPU",
-    "ARWR",
-    "CPHI",
-    "INM"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_4.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "12 Industrials Stocks Moving In Wednesday's Intraday Session",
-   "summary": "Gainers\n\nKnightscope (NASDAQ:KSCP) stock rose 54.5% to $2.21 during Wednesday&#39;s regular session. The market value of their outstanding shares is at $24.6 million. \nINLIF (NASDAQ:INLF) stock moved ",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60616321/12-industrials-stocks-moving-wednesday-s-intraday-session",
-   "created_at": "2026-07-22T17:05:43Z",
-   "symbols": [
-    "AIRJ",
-    "CJMB",
-    "ENRD",
-    "INLF",
-    "KSCP"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_3.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "12 Information Technology Stocks Moving In Wednesday's Intraday Session",
-   "summary": "Gainers\n\nKustom Entertainment (NASDAQ:KUST) shares moved upwards by 38.5% to $1.33 during Wednesday&#39;s regular session. \nMicware Co (NASDAQ:MWC) shares moved upwards by 25.22% to $1.39. The company",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60616320/12-information-technology-stocks-moving-wednesday-s-intraday-session",
-   "created_at": "2026-07-22T17:05:43Z",
-   "symbols": [
-    "ADTN",
-    "BMI",
-    "CHAI",
-    "KUST",
-    "MF"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_2.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Curis Strengthens Oncology Pipeline Outlook With Strong TakeAim Lymphoma Response Rates",
-   "summary": "Curis shares positive updated clinical data for emavusertib and increases its year-end guidance for the TakeAim CLL study.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60616250/curis-strengthens-oncology-pipeline-outlook-with-strong-takeaim-lymphoma-response-rates",
-   "created_at": "2026-07-22T17:04:16Z",
-   "symbols": [
-    "CRIS"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/22/Doctor--health-care.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "KKR Real Estate Finance Reports Q2 2026 Results: Full Earnings Call Transcript",
-   "summary": "KKR Real Estate Finance (NYSE:KREF) released second-quarter financial results and hosted an earnings call on Wednesday. Read the complete transcript below.\nThis transcript is brought to you by Benzing",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/07/60616013/kkr-real-estate-finance-reports-q2-2026-results-full-earnings-call-transcript",
-   "created_at": "2026-07-22T16:58:30Z",
-   "symbols": [
-    "KREF"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_4.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Dell Stock Surges as Super Micro Signals Strong New Order Growth",
-   "summary": "Dell Technologies Inc (NYSE:DELL) shares are advancing Wednesday as a blockbuster preliminary update from Super Micro Computer sent a bullish signal through the AI server space, lifting names tied to ",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60615993/dell-stock-surges-as-super-micro-signals-strong-new-order-growth",
-   "created_at": "2026-07-22T16:58:06Z",
-   "symbols": [
-    "DELL",
-    "SMCI"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/22/dell.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Alaska Air Gr Reports Q2 2026 Results: Full Earnings Call Transcript",
-   "summary": "Alaska Air Gr (NYSE:ALK) reported second-quarter financial results on Wednesday. The transcript from the company&#39;s second-quarter earnings call has been provided below.\nThis transcript is brought ",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/07/60615980/alaska-air-gr-reports-q2-2026-results-full-earnings-call-transcript",
-   "created_at": "2026-07-22T16:57:34Z",
-   "symbols": [
-    "ALK"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_2.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "GM Has A $6.3 Billion Asset Investors May Be Ignoring",
-   "summary": "GM&#39;s $6.3 billion deferred revenue balance is quietly becoming one of its biggest growth assets, fueled by software subscriptions, OnStar and Super Cruise.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/07/60615871/gm-has-a-6-3-billion-asset-investors-may-be-ignoring",
-   "created_at": "2026-07-22T16:53:52Z",
-   "symbols": [
-    "GM"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/22/GM-recall-spans-multiple-models.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Here’s How Much You Would Have Made Owning State Street Energy Select Sector SPDR ETF Stock In The Last 5 Years",
-   "summary": "State Street Energy Select Sector SPDR ETF (NYSE:XLE) has outperformed the market over the past 5 years by 7.85% on an annualized basis producing an average annual return of 19.15%. Currently, State S",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/07/60615657/here-s-how-much-you-would-have-made-owning-state-street-energy-select-sector-spdr-etf-stock-last-5-y",
-   "created_at": "2026-07-22T16:45:34Z",
-   "symbols": [
-    "XLE"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_3.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Tesla Q2: The Delivery Jump Was Nice — But Did Any Profit Show Up?",
-   "summary": "Tesla delivered record units in Q2, but whether that translated into profit remains to be seen due to thin matgins and cash burn.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/previews/26/07/60615575/tesla-q2-the-delivery-jump-was-nice-but-did-any-profit-show-up",
-   "created_at": "2026-07-22T16:42:45Z",
-   "symbols": [
-    "TSLA"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/22/Tesla-Company-Logo-Seen-On-Smarphone-Pla.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Why Is Palantir Stock Falling on Wednesday?",
-   "summary": "Palantir Technologies Inc. (PLTR) stock falls today amid UK NHS data contract scrutiny by the Office for Statistics Regulation and valuation anxiety.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60615389/why-is-palantir-stock-falling-on-wednesday",
-   "created_at": "2026-07-22T16:38:46Z",
-   "symbols": [
-    "PLTR"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/22/New-York-City--New-York---July-14-2025-P.jpg?width=1024&height=768"
   }
  ]
 }

@@ -1,30 +1,41 @@
 {
- "updated": "2026-07-23 03:01",
+ "updated": "2026-07-23 04:02",
  "candidates": [
   {
-   "symbol": "C",
+   "symbol": "ZTS",
    "score": 5,
    "ratio": 0.5,
    "max": 10,
-   "price": 132.9,
+   "price": 74.39,
    "reasons": [
-    "RSI 44 과매도권 접근",
-    "PER 10(저평가)",
-    "PBR 1.2",
+    "52주고점 대비 -43%",
+    "RSI 41 과매도권 접근",
+    "PER 10(저평가)"
+   ]
+  },
+  {
+   "symbol": "DIS",
+   "score": 5,
+   "ratio": 0.5,
+   "max": 10,
+   "price": 96.14,
+   "reasons": [
+    "고점 대비 -17% 조정",
+    "RSI 43 과매도권 접근",
+    "PER 13(저평가)",
     "그레이엄 기준 충족"
    ]
   },
   {
-   "symbol": "COF",
+   "symbol": "GIS",
    "score": 5,
    "ratio": 0.5,
    "max": 10,
-   "price": 201.54,
+   "price": 36.84,
    "reasons": [
-    "고점 대비 -22% 조정",
-    "PER 8(저평가)",
-    "PBR 1.2",
-    "그레이엄 기준 충족"
+    "고점 대비 -25% 조정",
+    "PER 11(저평가)",
+    "시총 $19.7B(소형)"
    ]
   },
   {
@@ -32,7 +43,7 @@
    "score": 4,
    "ratio": 0.5,
    "max": 8,
-   "price": 88.79,
+   "price": 88.95,
    "reasons": [
     "고점 대비 -19% 조정",
     "RSI 40 과매도권 접근",
@@ -41,50 +52,51 @@
    ]
   },
   {
-   "symbol": "NFLX",
+   "symbol": "SLB",
    "score": 4,
    "ratio": 0.4,
    "max": 10,
-   "price": 69.17,
+   "price": 47.46,
    "reasons": [
-    "52주고점 대비 -37%",
-    "RSI 34 과매도",
+    "고점 대비 -18% 조정",
+    "RSI 44 과매도권 접근",
+    "PER 14(저평가)"
+   ]
+  },
+  {
+   "symbol": "NKE",
+   "score": 4,
+   "ratio": 0.4,
+   "max": 10,
+   "price": 42.06,
+   "reasons": [
+    "52주고점 대비 -38%",
+    "RSI 44 과매도권 접근",
     "PER 18"
    ]
   },
   {
-   "symbol": "FNGU",
-   "score": 4,
-   "ratio": 0.67,
-   "max": 6,
-   "price": 27.06,
-   "reasons": [
-    "52주고점 대비 -25%",
-    "PER 2(저평가)"
-   ]
-  },
-  {
-   "symbol": "TFC",
+   "symbol": "LOW",
    "score": 4,
    "ratio": 0.4,
    "max": 10,
-   "price": 51.72,
+   "price": 204.13,
    "reasons": [
-    "PER 10(저평가)",
-    "PBR 1.1",
+    "52주고점 대비 -29%",
+    "RSI 38 과매도권 접근",
+    "PER 15"
+   ]
+  },
+  {
+   "symbol": "KHC",
+   "score": 4,
+   "ratio": 0.4,
+   "max": 10,
+   "price": 25.9,
+   "reasons": [
+    "PER 12(저평가)",
+    "PBR 0.7",
     "그레이엄 기준 충족"
-   ]
-  },
-  {
-   "symbol": "DHR",
-   "score": 4,
-   "ratio": 0.4,
-   "max": 10,
-   "price": 177.46,
-   "reasons": [
-    "52주고점 대비 -27%",
-    "RSI 37 과매도권 접근",
-    "PER 19"
    ]
   }
  ]
