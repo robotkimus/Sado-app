@@ -1,101 +1,16 @@
 {
- "updated": "2026-07-23 04:31",
+ "updated": "2026-07-23 05:01",
  "candidates": [
-  {
-   "symbol": "ZTS",
-   "score": 5,
-   "ratio": 0.5,
-   "max": 10,
-   "price": 73.91,
-   "reasons": [
-    "52주고점 대비 -44%",
-    "RSI 40 과매도권 접근",
-    "PER 10(저평가)"
-   ]
-  },
-  {
-   "symbol": "DIS",
-   "score": 5,
-   "ratio": 0.5,
-   "max": 10,
-   "price": 95.89,
-   "reasons": [
-    "고점 대비 -17% 조정",
-    "RSI 42 과매도권 접근",
-    "PER 13(저평가)",
-    "그레이엄 기준 충족"
-   ]
-  },
-  {
-   "symbol": "GIS",
-   "score": 5,
-   "ratio": 0.5,
-   "max": 10,
-   "price": 36.86,
-   "reasons": [
-    "고점 대비 -25% 조정",
-    "PER 11(저평가)",
-    "시총 $19.7B(소형)"
-   ]
-  },
   {
    "symbol": "IGV",
    "score": 4,
    "ratio": 0.5,
    "max": 8,
-   "price": 88.94,
+   "price": 89.08,
    "reasons": [
     "고점 대비 -19% 조정",
     "RSI 41 과매도권 접근",
     "PBR 0.2",
-    "그레이엄 기준 충족"
-   ]
-  },
-  {
-   "symbol": "SLB",
-   "score": 4,
-   "ratio": 0.4,
-   "max": 10,
-   "price": 47.55,
-   "reasons": [
-    "고점 대비 -18% 조정",
-    "RSI 44 과매도권 접근",
-    "PER 14(저평가)"
-   ]
-  },
-  {
-   "symbol": "NKE",
-   "score": 4,
-   "ratio": 0.4,
-   "max": 10,
-   "price": 42.19,
-   "reasons": [
-    "52주고점 대비 -38%",
-    "RSI 44 과매도권 접근",
-    "PER 18"
-   ]
-  },
-  {
-   "symbol": "LOW",
-   "score": 4,
-   "ratio": 0.4,
-   "max": 10,
-   "price": 203.5,
-   "reasons": [
-    "52주고점 대비 -29%",
-    "RSI 37 과매도권 접근",
-    "PER 15"
-   ]
-  },
-  {
-   "symbol": "KHC",
-   "score": 4,
-   "ratio": 0.4,
-   "max": 10,
-   "price": 25.92,
-   "reasons": [
-    "PER 12(저평가)",
-    "PBR 0.7",
     "그레이엄 기준 충족"
    ]
   }
