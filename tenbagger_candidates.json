@@ -1,16 +1,90 @@
 {
- "updated": "2026-07-22 23:02",
+ "updated": "2026-07-23 00:02",
  "candidates": [
   {
-   "symbol": "ORCL",
+   "symbol": "CMCSA",
    "score": 6,
    "ratio": 0.6,
    "max": 10,
-   "price": 128.44,
+   "price": 23.82,
    "reasons": [
-    "52주고점 대비 -48%",
+    "52주고점 대비 -27%",
+    "PER 6(저평가)",
+    "PBR 1.0",
+    "그레이엄 기준 충족"
+   ]
+  },
+  {
+   "symbol": "LUNR",
+   "score": 6,
+   "ratio": 0.86,
+   "max": 7,
+   "price": 14.14,
+   "reasons": [
+    "52주고점 대비 -69%",
     "과매도 탈출+MA5 회복",
-    "PER 12(저평가)"
+    "시총 $2.3B(소형)"
+   ]
+  },
+  {
+   "symbol": "RDW",
+   "score": 6,
+   "ratio": 0.86,
+   "max": 7,
+   "price": 9.27,
+   "reasons": [
+    "52주고점 대비 -64%",
+    "과매도 탈출+MA5 회복",
+    "시총 $2.2B(소형)"
+   ]
+  },
+  {
+   "symbol": "PL",
+   "score": 6,
+   "ratio": 0.6,
+   "max": 10,
+   "price": 22.67,
+   "reasons": [
+    "52주고점 대비 -56%",
+    "과매도 탈출+MA5 회복",
+    "시총 $8.1B(소형)"
+   ]
+  },
+  {
+   "symbol": "NVTS",
+   "score": 6,
+   "ratio": 0.86,
+   "max": 7,
+   "price": 12.88,
+   "reasons": [
+    "52주고점 대비 -60%",
+    "과매도 탈출+MA5 회복",
+    "시총 $3.1B(소형)"
+   ]
+  },
+  {
+   "symbol": "T",
+   "score": 5,
+   "ratio": 0.5,
+   "max": 10,
+   "price": 22.98,
+   "reasons": [
+    "고점 대비 -21% 조정",
+    "PER 9(저평가)",
+    "PBR 1.5",
+    "그레이엄 기준 충족"
+   ]
+  },
+  {
+   "symbol": "INDI",
+   "score": 5,
+   "ratio": 0.5,
+   "max": 10,
+   "price": 3.83,
+   "reasons": [
+    "52주고점 대비 -28%",
+    "RSI 45 과매도권 접근",
+    "시총 $0.8B(소형)"
    ]
   },
   {
@@ -18,80 +92,12 @@
    "score": 4,
    "ratio": 0.5,
    "max": 8,
-   "price": 90.62,
+   "price": 89.55,
    "reasons": [
-    "고점 대비 -18% 조정",
-    "RSI 44 과매도권 접근",
+    "고점 대비 -19% 조정",
+    "RSI 42 과매도권 접근",
     "PBR 0.2",
     "그레이엄 기준 충족"
-   ]
-  },
-  {
-   "symbol": "QCOM",
-   "score": 4,
-   "ratio": 0.4,
-   "max": 10,
-   "price": 175.57,
-   "reasons": [
-    "52주고점 대비 -30%",
-    "RSI 42 과매도권 접근",
-    "PER 16"
-   ]
-  },
-  {
-   "symbol": "CRM",
-   "score": 4,
-   "ratio": 0.4,
-   "max": 10,
-   "price": 167.07,
-   "reasons": [
-    "52주고점 대비 -37%",
-    "PER 11(저평가)"
-   ]
-  },
-  {
-   "symbol": "ADBE",
-   "score": 4,
-   "ratio": 0.4,
-   "max": 10,
-   "price": 225.37,
-   "reasons": [
-    "52주고점 대비 -37%",
-    "PER 8(저평가)"
-   ]
-  },
-  {
-   "symbol": "NOW",
-   "score": 4,
-   "ratio": 0.4,
-   "max": 10,
-   "price": 98.9,
-   "reasons": [
-    "52주고점 대비 -43%",
-    "RSI 43 과매도권 접근",
-    "PER 20"
-   ]
-  },
-  {
-   "symbol": "TEAM",
-   "score": 4,
-   "ratio": 0.4,
-   "max": 10,
-   "price": 87.64,
-   "reasons": [
-    "52주고점 대비 -47%",
-    "PER 14(저평가)"
-   ]
-  },
-  {
-   "symbol": "WDAY",
-   "score": 4,
-   "ratio": 0.4,
-   "max": 10,
-   "price": 137.3,
-   "reasons": [
-    "52주고점 대비 -39%",
-    "PER 11(저평가)"
    ]
   }
  ]
