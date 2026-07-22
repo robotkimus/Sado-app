@@ -1,6 +1,33 @@
 {
- "updated": "2026-07-23 00:03",
+ "updated": "2026-07-23 01:02",
  "items": [
+  {
+   "headline": "Nvidia vs. AMD: The Next AI Battle Targets a $170 Billion Prize",
+   "summary": "Bank of America says the next AI war isn&#39;t about GPUs anymore. Nvidia and AMD are competing to define the future of a $170 billion server CPU market.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/07/60612967/nvidia-amd-agentic-ai-server-cpu-debate-bank-of-america",
+   "created_at": "2026-07-22T15:39:30Z",
+   "symbols": [
+    "AMD",
+    "NVDA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/22/Modern-Data-Technology-Center-With-Serve.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Oracle Faces Pressure: Data Center Costs and OpenAI Exposure Weigh on Stock",
+   "summary": "Oracle (NYSE: ORCL) stock fell on Wednesday as traders highlighted massive data center cost overruns, credit default risk, and heavy exposure to OpenAI.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/07/60611503/oracle-faces-pressure-data-center-costs-and-openai-exposure-weigh-on-stock",
+   "created_at": "2026-07-22T15:09:57Z",
+   "symbols": [
+    "AMZN",
+    "GOOGL",
+    "IGV",
+    "MSFT",
+    "ORCL"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/22/Oracle.jpg?width=1024&height=768"
+  },
   {
    "headline": "SPY, QQQ And SOXL Power ETF Trading To New Record",
    "summary": "Leveraged ETFs joined SPY and QQQ in driving ETF trading to a record high, reflecting the rising influence of leveraged and index ETFs.",
@@ -180,33 +207,238 @@
    "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/earnings_preview_4.jpg?width=1024&height=768"
   },
   {
-   "headline": "Elizabeth Warren Says 'AI Companies Don’t Get to Call All the Shots,' Demands More Oversight of Big Tech Data Centers",
-   "summary": "Senator Elizabeth Warren calls for oversight of AI infrastructure, arguing for community involvement in decision-making and prioritizing public interests over Big Tech&#39;s growth.",
+   "headline": "Zhengye Biotechnology Stock Plunges Following 322% Rally In Volatile Reversal",
+   "summary": "Zhengye Biotechnology stock plunges after a 322% rally as the company finds no undisclosed catalyst and contacts Nasdaq.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/07/60599996/elizabeth-warren-says-ai-companies-dont-get-to-call-all-the-shots-demands-more-oversight-of-big-tech-data-centers",
-   "created_at": "2026-07-22T09:28:27Z",
+   "url": "https://www.benzinga.com/news/health-care/26/07/60613755/zhengye-biotechnology-stock-plunges-following-322-rally-in-volatile-reversal",
+   "created_at": "2026-07-22T15:59:50Z",
    "symbols": [
-    "AMZN",
-    "CRWV",
-    "GOOG",
-    "GOOGL",
-    "META"
+    "ZYBT"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/22/Hollis--Nh---September-27--2019-Democrat.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/22/Business-Financial-Crisis--Stock-Market-.jpg?width=1024&height=768"
   },
   {
-   "headline": "Michael Burry Mocks Need for a Humanoid Robotics 'ChatGPT Moment,' Says AI's Biggest Breakthrough Was Making 'Cheating In School A Literal No-Brainer'",
-   "summary": "Michael Burry says humanoid robots don&#39;t need a &#34;ChatGPT moment&#34; as Tesla and other companies bet big on physical AI.",
+   "headline": "America Movil Q2 2026 Earnings Call: Complete Transcript",
+   "summary": "America Movil (NYSE:AMX) released second-quarter financial results and hosted an earnings call on Wednesday. Read the complete transcript below.\nBenzinga APIs provide real-time access to earnings call",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/07/60599910/michael-burry-mocks-need-for-a-humanoid-robotics-chatgpt-moment-says-ais-biggest-breakthrough-was-making-cheating-in-school-a-literal-no-brainer",
-   "created_at": "2026-07-22T09:10:30Z",
+   "url": "https://www.benzinga.com/news/26/07/60613752/america-movil-q2-2026-earnings-call-complete-transcript",
+   "created_at": "2026-07-22T15:59:50Z",
    "symbols": [
-    "HYMLF",
-    "NVDA",
-    "SSNLF",
+    "AMX"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_3.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Ondas Expands Military Tech Pipeline with $70M in New Autonomous Orders",
+   "summary": "Ondas shares rise after securing $70 million in new defense orders, strengthening its autonomous technology platform across unmanned systems and ISR solutions.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60613654/ondas-expands-military-tech-pipeline-with-70m-in-new-autonomous-orders",
+   "created_at": "2026-07-22T15:57:55Z",
+   "symbols": [
+    "DRNZ",
+    "JEDI",
+    "ONDG",
+    "ONDS"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/22/Modern-Drone-With-Reset-Device-For-Bomb-.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "These Analysts Cut Their Forecasts On Halliburton Following Q2 Results",
+   "summary": "Halliburton (HAL) beat Q2 earnings estimates with adjusted EPS of 55 cents and revenue of $5.714 billion. CEO expects revenue growth and margin expansion.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/07/60613553/these-analysts-cut-their-forecasts-on-halliburton-following-q2-results",
+   "created_at": "2026-07-22T15:56:16Z",
+   "symbols": [
+    "HAL"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/22/Milan--Italy---August-10--2017-Halliburt.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Controladora Vuela Reports Q2 2026 Results: Full Earnings Call Transcript",
+   "summary": "Controladora Vuela (NYSE:VLRS) released second-quarter financial results and hosted an earnings call on Wednesday. Read the complete transcript below.\nThis transcript is brought to you by Benzinga API",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/07/60613464/controladora-vuela-reports-q2-2026-results-full-earnings-call-transcript",
+   "created_at": "2026-07-22T15:52:57Z",
+   "symbols": [
+    "VLRS"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_1.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "MSCI Analysts Slash Their Forecasts After Q2 Earnings",
+   "summary": "MSCI (NYSE:MSCI) reported strong Q2 earnings and sales, beating analyst estimates. Share price rose 1.2% to $568.28. Analysts lower price targets.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/07/60613413/msci-analysts-slash-their-forecasts-after-q2-earnings",
+   "created_at": "2026-07-22T15:51:35Z",
+   "symbols": [
+    "MSCI"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/22/Financial-Analysts.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "If You Invested $100 In State Street SPDR Portfolio S&P 500 Growth ETF Stock 15 Years Ago, You Would Have This Much Today",
+   "summary": "State Street SPDR Portfolio S&amp;P 500 Growth ETF (NYSE:SPYG) has outperformed the market over the past 15 years by 2.35% on an annualized basis producing an average annual return of 14.72%. Currentl",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/07/60613232/if-you-invested-100-state-street-spdr-portfolio-s-p-500-growth-etf-stock-15-years-ago-you-would-have",
+   "created_at": "2026-07-22T15:46:38Z",
+   "symbols": [
+    "SPYG"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_3.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "CLARITY Act Breakthrough As Trump Accepts Ethics Guardrails, But Crypto Assets Need Much More Than Headline Help",
+   "summary": "CLARITY Act likely needs to become law before market gets interested in crypto assets again.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/Opinion/26/07/60613059/clarity-act-breakthrough-as-trump-accepts-ethics-guardrails-but-crypto-assets-need-much-more-than-headline-help",
+   "created_at": "2026-07-22T15:41:03Z",
+   "symbols": [
+    "BTC",
+    "BTCUSD",
+    "CIFR",
+    "COIN",
+    "GOMININGUSD"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/22/CLARITY-Act-cover.png?width=1024&height=768"
+  },
+  {
+   "headline": "QUICK SPARK: SpaceX To Report First Public Earnings On August 4 — Details And Estimates Inside",
+   "summary": "Elon Musk&#39;s SpaceX will release its first public earnings report and hold a conference call on August 4, 2026.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60612760/quick-spark-spacex-to-report-first-public-earnings-on-august-4-details-and-estimates-inside",
+   "created_at": "2026-07-22T15:33:20Z",
+   "symbols": [
+    "SPCX"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/22/Benzinga-Quick-Spark.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Bitcoin Fell 50% and MSTR, BMNR, BSTR Are Paying the Price: What's Happening?",
+   "summary": "Bitcoin treasury companies face massive unrealized losses as the crypto downturn crushes leveraged balance sheets and derails SPAC deals.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/07/60612680/bitcoin-fell-50-and-mstr-bmnr-bstr-are-paying-the-price-whats-happening",
+   "created_at": "2026-07-22T15:31:37Z",
+   "symbols": [
+    "AVAT",
+    "BMNR",
+    "BTCUSD",
+    "DFDV",
+    "MSTR"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/22/Bitcoin-Digital-Cryptocurrency-Losing-Va.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "If You Invested $1000 In Global X Uranium ETF Stock 5 Years Ago, You Would Have This Much Today",
+   "summary": "Global X Uranium ETF (NYSE:URA) has outperformed the market over the past 5 years by 5.11% on an annualized basis producing an average annual return of 16.38%. Currently, Global X Uranium ETF has a ma",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/07/60612667/if-you-invested-1000-global-x-uranium-etf-stock-5-years-ago-you-would-have-much-today",
+   "created_at": "2026-07-22T15:31:14Z",
+   "symbols": [
+    "URA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_2.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "RPM Intl Reports Q4 2026 Results: Full Earnings Call Transcript",
+   "summary": "RPM Intl (NYSE:RPM) reported fourth-quarter financial results on Wednesday. The transcript from the company&#39;s fourth-quarter earnings call has been provided below.\nThis content is powered by Benzi",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/07/60612611/rpm-intl-reports-q4-2026-results-full-earnings-call-transcript",
+   "created_at": "2026-07-22T15:29:35Z",
+   "symbols": [
+    "RPM"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_2.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Tesla's Hottest Growth Story? Readers Say It Walks, Not Drives",
+   "summary": "Tesla is focused on robots and autonomous vehicles moving forward. Here&#39;s what Benzinga viewers said was most important for the company.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/07/60612444/teslas-hottest-growth-story-readers-say-it-walks-not-drives",
+   "created_at": "2026-07-22T15:25:24Z",
+   "symbols": [
     "TSLA"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/22/3d-Render-Industrial-Ai-Transformation-A.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/22/Kaunas--Lithuania-2022---April-14-Tesla-.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Alphabet Earnings Jitters: The Greatest Cash Machine Ever Still Doesn't Have Enough",
+   "summary": "The market is anxious about Alphabet&#39;s earnings, wondering if record profits are still enough for its ambitious plans.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/07/60612181/alphabet-earnings-jitters-the-greatest-cash-machine-ever-still-doesnt-have-enough",
+   "created_at": "2026-07-22T15:20:15Z",
+   "symbols": [
+    "GOOG",
+    "GOOGL"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/22/Cramer-Thinks-That-Market-Reaction-Was-M.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Here's How Much $1000 Invested In Chipotle Mexican Grill 20 Years Ago Would Be Worth Today",
+   "summary": "Chipotle Mexican Grill (NYSE:CMG) has outperformed the market over the past 20 years by 9.58% on an annualized basis producing an average annual return of 18.82%. Currently, Chipotle Mexican Grill has",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/07/60611933/here-s-how-much-1000-invested-chipotle-mexican-grill-20-years-ago-would-be-worth-today",
+   "created_at": "2026-07-22T15:16:05Z",
+   "symbols": [
+    "CMG"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_1.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Infleqtion CEO On Google And Microsoft Validating His Neutral-Atom Quantum Bet",
+   "summary": "\n\n\n\nCredit: Anna Tutova(Founder AI Crypto Minds) with Matt Kinsella(CEO Infleqtion) at The Economist Commercializing Quantum Global conference in London.\n\n\n\nHow Matt Kinsella went from Silicon Valley ",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/Opinion/26/07/60611882/infleqtion-ceo-on-google-and-microsoft-validating-his-neutral-atom-quantum-bet",
+   "created_at": "2026-07-22T15:15:24Z",
+   "symbols": [
+    "INFQ"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/22/Matt-Kinsella-Infleqtion.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Tesla Earnings Prediction Market Preview: What Will Elon Musk Say?",
+   "summary": "Kalshi traders bet on which words Elon Musk will say on Tesla&#39;s Q2 earnings call, with &#34;Cybercab&#34; at 98% and &#34;Merger&#34; at just 34%.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/07/60611413/tesla-earnings-prediction-market-preview-what-will-elon-musk-say-2",
+   "created_at": "2026-07-22T15:08:02Z",
+   "symbols": [
+    "INTC",
+    "TSLA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/22/Focused-Shot-Capturing-Elon-Musk-Alongsi.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Full Transcript: National Bank Holdings Q2 2026 Earnings Call",
+   "summary": "National Bank Holdings (NYSE:NBHC) reported second-quarter financial results on Wednesday. The transcript from the company&#39;s second-quarter earnings call has been provided below.\nBenzinga APIs pro",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/07/60611363/full-transcript-national-bank-holdings-q2-2026-earnings-call",
+   "created_at": "2026-07-22T15:07:06Z",
+   "symbols": [
+    "NBHC"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_1.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Why Is Sandisk Stock Falling on Wednesday?",
+   "summary": "Sandisk Corporation (NASDAQ: SNDK) stock traded lower on Wednesday due to broader market profit-taking and lower index futures following a Tuesday memory-chip rally.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60611171/why-is-sandisk-stock-falling-on-wednesday",
+   "created_at": "2026-07-22T15:03:31Z",
+   "symbols": [
+    "SKHY",
+    "SNDK"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/22/Milpitas--Ca---Feb--12--2017-Sandisk---A.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "$1000 Invested In Cadence Design Systems 10 Years Ago Would Be Worth This Much Today",
+   "summary": "Cadence Design Systems (NASDAQ:CDNS) has outperformed the market over the past 10 years by 17.1% on an annualized basis producing an average annual return of 30.27%. Currently, Cadence Design Systems ",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/07/60611106/1000-invested-cadence-design-systems-10-years-ago-would-be-worth-much-today",
+   "created_at": "2026-07-22T15:01:53Z",
+   "symbols": [
+    "CDNS"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_4.jpg?width=1024&height=768"
   },
   {
    "headline": "This Senator Just Bought Up To $65K In Berkshire Hathaway Inc. New Common Stock Stock",
@@ -262,239 +494,6 @@
     "ONB"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_2.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Globavend Targets $11 Billion Micro Drama Market With New Deal",
-   "summary": "GVH partnered with DramaBox to distribute its original AI-produced series and tap into the growing micro drama market.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60610754/globavend-targets-11-billion-micro-drama-market-with-new-deal",
-   "created_at": "2026-07-22T14:55:16Z",
-   "symbols": [
-    "GVH"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/22/Commerce-Ministry-Data-Released.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "What's Going On With Nu Shares On Wednesday?",
-   "summary": "Nu’s Nubank unit will acquire Banco Porto Real, adding a banking license while maintaining existing products, services and customer experience.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/mid-cap/26/07/60610441/whats-going-on-with-nu-shares-on-wednesday",
-   "created_at": "2026-07-22T14:49:01Z",
-   "symbols": [
-    "EMQQ",
-    "ILF",
-    "NU",
-    "OTGL"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/22/Dollar-Money-And-American-Flag--Bankrupt.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "GE Vernova Stock Falls After Profit Miss, Wind Unit Remains a Drag",
-   "summary": "GE Vernova stock dips as Q2 earnings miss estimates despite a 22% revenue surge to $11.1B. Get the latest Q2 breakdown.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/earnings/26/07/60610400/ge-vernova-stock-falls-after-profit-miss-wind-unit-remains-a-drag",
-   "created_at": "2026-07-22T14:47:49Z",
-   "symbols": [
-    "GEV"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/22/GE-Vernova-Inc.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Here’s How Much You Would Have Made Owning STMicroelectronics Stock In The Last 15 Years",
-   "summary": "STMicroelectronics (NYSE:STM) has outperformed the market over the past 15 years by 2.81% on an annualized basis producing an average annual return of 15.16%. Currently, STMicroelectronics has a marke",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/07/60610292/here-s-how-much-you-would-have-made-owning-stmicroelectronics-stock-last-15-years",
-   "created_at": "2026-07-22T14:45:58Z",
-   "symbols": [
-    "STM"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_4.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Full Transcript: Norwood Financial Q2 2026 Earnings Call",
-   "summary": "Norwood Financial (NASDAQ:NWFL) released second-quarter financial results and hosted an earnings call on Wednesday. Read the complete transcript below.\nThis transcript is brought to you by Benzinga AP",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/07/60610287/full-transcript-norwood-financial-q2-2026-earnings-call",
-   "created_at": "2026-07-22T14:45:52Z",
-   "symbols": [
-    "NWFL"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_3.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Northpointe Bancshares Reports Q2 2026 Results: Full Earnings Call Transcript",
-   "summary": "On Wednesday, Northpointe Bancshares (NYSE:NPB) discussed second-quarter financial results during its earnings call. The full transcript is provided below.\nThis content is powered by Benzinga APIs. Fo",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/07/60610153/northpointe-bancshares-reports-q2-2026-results-full-earnings-call-transcript",
-   "created_at": "2026-07-22T14:43:05Z",
-   "symbols": [
-    "NPB"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_1.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Full Transcript: First BanCorp Q2 2026 Earnings Call",
-   "summary": "First BanCorp (NYSE:FBP) released second-quarter financial results and hosted an earnings call on Wednesday. Read the complete transcript below.\nThis content is powered by Benzinga APIs. For comprehen",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/07/60609955/full-transcript-first-bancorp-q2-2026-earnings-call",
-   "created_at": "2026-07-22T14:40:39Z",
-   "symbols": [
-    "FBP"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_1.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Transcript: Range Resources Q2 2026 Earnings Conference Call",
-   "summary": "Range Resources (NYSE:RRC) held its second-quarter earnings conference call on Wednesday. Below is the complete transcript from the call.\nThis transcript is brought to you by Benzinga APIs. For real-t",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/07/60609946/transcript-range-resources-q2-2026-earnings-conference-call",
-   "created_at": "2026-07-22T14:40:31Z",
-   "symbols": [
-    "RRC"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_3.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Stifel Financial Q2 2026 Earnings Call Transcript",
-   "summary": "Stifel Financial (NYSE:SF) held its second-quarter earnings conference call on Wednesday. Below is the complete transcript from the call.\nBenzinga APIs provide real-time access to earnings call transc",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/07/60609894/stifel-financial-q2-2026-earnings-call-transcript",
-   "created_at": "2026-07-22T14:39:43Z",
-   "symbols": [
-    "SF"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_1.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Philip Morris Intl Q2 2026 Earnings Call: Complete Transcript",
-   "summary": "Philip Morris Intl (NYSE:PM) held its second-quarter earnings conference call on Wednesday. Below is the complete transcript from the call.\nThis transcript is brought to you by Benzinga APIs. For real",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/07/60609568/philip-morris-intl-q2-2026-earnings-call-complete-transcript",
-   "created_at": "2026-07-22T14:33:22Z",
-   "symbols": [
-    "PM"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_2.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Full Transcript: BankUnited Q2 2026 Earnings Call",
-   "summary": "BankUnited (NYSE:BKU) reported second-quarter financial results on Wednesday. The transcript from the company&#39;s second-quarter earnings call has been provided below.\nBenzinga APIs provide real-tim",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/07/60609449/full-transcript-bankunited-q2-2026-earnings-call",
-   "created_at": "2026-07-22T14:30:48Z",
-   "symbols": [
-    "BKU"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_1.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Here’s How Much You Would Have Made Owning Visa Stock In The Last 15 Years",
-   "summary": "Visa (NYSE:V) has outperformed the market over the past 15 years by 8.14% on an annualized basis producing an average annual return of 20.5%. Currently, Visa has a market capitalization of $679.89 bil",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/07/60609443/here-s-how-much-you-would-have-made-owning-visa-stock-last-15-years",
-   "created_at": "2026-07-22T14:30:44Z",
-   "symbols": [
-    "V"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_3.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "ADTRAN Shares Tumble As Preliminary Results Miss Guidance and Estimates",
-   "summary": "ADTN stock drop follows a Preliminary revenue miss, weaker margins and Q3 sales guidance below analyst expectations.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/guidance/26/07/60609192/adtran-shares-tumble-as-preliminary-results-miss-guidance-and-estimates",
-   "created_at": "2026-07-22T14:25:30Z",
-   "symbols": [
-    "ADTN",
-    "AZTD"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/22/4-Stocks-Could-Be-Big-Winners-With-Earni.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Bitcoin Bear Market Over? Not Quite. Analyst Says $83,000 Is The Real Test",
-   "summary": "It&#39;s too early to declare the Bitcoin bear market bottom, but $83,000 could confirm a trend change, one analyst says.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/07/60609023/bitcoin-bear-market-over-not-quite-analyst-says-83000-is-the-real-test",
-   "created_at": "2026-07-22T14:20:42Z",
-   "symbols": [
-    "BTCUSD"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/22/Bitcoin-Digital-Cryptocurrency-Losing-Va.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "What's Going on With American Airlines Stock Wednesday?",
-   "summary": "American Airlines (AAL) shares fell 1.28% ahead of Q2 earnings. See key revenue forecasts, analyst ratings, and technical analysis.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60608928/whats-going-on-with-american-airlines-stock-wednesday-2",
-   "created_at": "2026-07-22T14:19:08Z",
-   "symbols": [
-    "AAL",
-    "AIRL",
-    "FTXR",
-    "RWK"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/22/American-Airlines.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Reddit Stock Tumbles Wednesday: What's Happening?",
-   "summary": "Reddit shares are falling Wednesday after a report suggested the company has discussed shutting off Google&#39;s access to its content.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60608851/reddit-stock-tumbles-wednesday-whats-happening",
-   "created_at": "2026-07-22T14:16:16Z",
-   "symbols": [
-    "GOOG",
-    "RDDT"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/22/The-Reddit-Trade.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Here's How Much $100 Invested In Enphase Energy 10 Years Ago Would Be Worth Today",
-   "summary": "Enphase Energy (NASDAQ:ENPH) has outperformed the market over the past 10 years by 23.5% on an annualized basis producing an average annual return of 36.7%. Currently, Enphase Energy has a market capi",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/07/60608817/here-s-how-much-100-invested-enphase-energy-10-years-ago-would-be-worth-today",
-   "created_at": "2026-07-22T14:15:43Z",
-   "symbols": [
-    "ENPH"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_3.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Dogecoin Sets 65-Day Bearish Record: Is the Broader Crypto Rally Incomplete?",
-   "summary": "Dogecoin logs a record 65 closes below its 20-day average as weak volume and heavy long positioning show retail remains absent.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/07/60608779/dogecoin-sets-65-day-bearish-record-is-the-broader-crypto-rally-incomplete",
-   "created_at": "2026-07-22T14:15:06Z",
-   "symbols": [
-    "BTCUSD",
-    "DOGEUSD"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/22/Dogecoin-Golden-Cryptocurrency-And-Blue-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Cal-Maine Foods Reports Q4 2026 Results: Full Earnings Call Transcript",
-   "summary": "Cal-Maine Foods (NASDAQ:CALM) reported fourth-quarter financial results on Wednesday. The transcript from the company&#39;s fourth-quarter earnings call has been provided below.\nThis transcript is bro",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/07/60608677/cal-maine-foods-reports-q4-2026-results-full-earnings-call-transcript",
-   "created_at": "2026-07-22T14:12:27Z",
-   "symbols": [
-    "CALM"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_3.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "QUICK SPARK: China's EV Price War Can't Last Forever– 'Unsustainable' GM CEO Says",
-   "summary": "GM CEO Mary Barra called China&#39;s EV price war &#34;unsustainable,&#34; arguing the market needs consolidation - why Tesla investors should care..",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/07/60608592/quick-spark-chinas-ev-price-war-cant-last-forever-unsustainable-gm-ceo-says",
-   "created_at": "2026-07-22T14:11:02Z",
-   "symbols": [
-    "BYDDF",
-    "F",
-    "GM",
-    "LI",
-    "NIO"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/22/Benzinga-Quick-Spark.jpg?width=1024&height=768"
   }
  ]
 }
