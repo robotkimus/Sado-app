@@ -1,6 +1,20 @@
 {
- "updated": "2026-07-22 14:00",
+ "updated": "2026-07-22 15:00",
  "items": [
+  {
+   "headline": "SK Hynix Dismisses Intel Ohio Buyout Report: 'We Have No Plans for an Acquisition' (UPDATED)",
+   "summary": "SK hynix denied a report it was in talks to buy Intel&#39;s Ohio chip campus, saying it has neither pursued nor decided on a deal.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/07/60598297/sk-hynix-denies-intel-ohio-buyout-report",
+   "created_at": "2026-07-22T03:20:18Z",
+   "symbols": [
+    "INTC",
+    "MU",
+    "NVDA",
+    "SKHY"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/22/Sk-Hynix-America-Headquarters-In-San-Jos.jpg?width=1024&height=768"
+  },
   {
    "headline": "Elon Musk Denies Report Claiming Foxconn Won $52 Billion SpaceX AI Server Deal: 'This Is Fake News'",
    "summary": "Elon Musk rejected claims SpaceX awarded Foxconn a $52B billion AI server contract, saying the report was &#34;fake news.&#34;",
@@ -30,20 +44,6 @@
     "NVDA"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/07/22/Jim-Cramer.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "SK Hynix Dismisses Intel Ohio Buyout Report: 'We Have No Plans for an Acquisition'",
-   "summary": "SK hynix denied a report it was in talks to buy Intel&#39;s Ohio chip campus, saying it has neither pursued nor decided on a deal.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/07/60598297/sk-hynix-denies-intel-ohio-buyout-report",
-   "created_at": "2026-07-22T03:20:29Z",
-   "symbols": [
-    "INTC",
-    "MU",
-    "NVDA",
-    "SKHY"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/22/Sk-Hynix-America-Headquarters-In-San-Jos.jpg?width=1024&height=768"
   },
   {
    "headline": "If You Invested $1000 In Direxion Daily Semiconductor Bull 3X ETF Stock 15 Years Ago, You Would Have This Much Today",
@@ -209,6 +209,75 @@
     "COHR"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/07/21/Donald-Trump.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Chuck Schumer Slams Trump After President Says Iran Conflict Had '18 Dead,' Accuses Him of 'Bragging' About US Military Losses",
+   "summary": "Schumer criticized Trump for highlighting 18 U.S. deaths in the Iran conflict, calling the war reckless and condemning his casualty comparison.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/07/60598724/chuck-schumer-trump-iran-war-military-losses",
+   "created_at": "2026-07-22T05:57:35Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/22/Lviv--Ukraine---Februrary-23--2024-Us-Se.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Dyne Therapeutics Stock Tumbles After Hours: Here's Why",
+   "summary": "Dyne Therapeutics stock fell after hours after pricing an upsized $375M public offering of common stock.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/07/60598714/dyne-therapeutics-stock-tumbles-after-hours-heres-why",
+   "created_at": "2026-07-22T05:52:23Z",
+   "symbols": [
+    "DYN",
+    "JEF",
+    "MS",
+    "RJF"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/22/Candlestick-Chart-Showing-Falling-Stock-.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Elon Musk Needs to 'Shore Up Credibility,' Stop Making 'Outlandish' Promises, Says Gary Black Ahead of Tesla's Q2 Earnings",
+   "summary": "Investor Gary Black slams Tesla CEO Elon Musk&#39;s Robotaxi promises, says company needs better communication and credibility.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/07/60598691/elon-musk-needs-to-shore-up-credibility-stop-making-outlandish-promises-says-gary-black-ahead-of-teslas-q2-earnings",
+   "created_at": "2026-07-22T05:40:49Z",
+   "symbols": [
+    "F",
+    "GM",
+    "TSLA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/22/Focused-Shot-Capturing-Elon-Musk-Alongsi.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Core AI Holdings (CHAI) Stock Rallies Nearly 132% After Hours: Here's Why it is Trending",
+   "summary": "Core AI Holdings shares surged 131.75% after hours after declining 13.22% during Wednesday’s regular trading session.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/07/60598653/core-ai-holdings-chai-stock-rallies-nearly-132-after-hours-heres-why-it-is-trending",
+   "created_at": "2026-07-22T05:28:11Z",
+   "symbols": [
+    "CHAI"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/22/Planning-And-Strategy--Stock-Market--Bus.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Illinois Man Sentenced to Over Six Years for Hacking 517 Snapchat Accounts, Stealing and Selling Intimate Photos of Women",
+   "summary": "An Illinois man was sentenced for hacking more than 500 women&#39;s Snapchat accounts through a phishing scheme.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/legal/26/07/60598589/illinois-man-sentenced-snapchat-hack-intimate-photos",
+   "created_at": "2026-07-22T05:05:26Z",
+   "symbols": [
+    "SNAP"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/22/Oxford--Uk---December-5th-2016-Snapchat-.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Lisata Therapeutics Stock Falls After Hours: Here's Why",
+   "summary": "Lisata Therapeutics stock fell after hours after updating investors on its pending acquisition and tender offer.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/07/60598579/lisata-therapeutics-stock-falls-after-hours-heres-why",
+   "created_at": "2026-07-22T05:03:08Z",
+   "symbols": [
+    "LSTA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/22/Stock-Market-Crash-Background-With-Falli.jpg?width=1024&height=768"
   },
   {
    "headline": "Bernie Sanders Slams Trump’s Unconstitutional War in Iran—Hakeem Jeffries Decries High Gas Prices, Troops Killed",
@@ -425,73 +494,6 @@
     "ACHR"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/07/21/Archer-Aviationbu023-129ev.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Here’s How Much You Would Have Made Owning Nebius Group Stock In The Last 5 Years",
-   "summary": "Nebius Group (NASDAQ:NBIS) has outperformed the market over the past 5 years by 14.3% on an annualized basis producing an average annual return of 25.46%. Currently, Nebius Group has a market capitali",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/07/60597297/here-s-how-much-you-would-have-made-owning-nebius-group-stock-last-5-years",
-   "created_at": "2026-07-21T22:15:36Z",
-   "symbols": [
-    "NBIS"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_2.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "AAR Q4 2026 Earnings Call Transcript",
-   "summary": "On Tuesday, AAR (NYSE:AIR) discussed fourth-quarter financial results during its earnings call. The full transcript is provided below.\nBenzinga APIs provide real-time access to earnings call transcrip",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/07/60597168/aar-q4-2026-earnings-call-transcript",
-   "created_at": "2026-07-21T22:02:13Z",
-   "symbols": [
-    "AIR"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_4.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Here's How Much $1000 Invested In United States Oil Fund 5 Years Ago Would Be Worth Today",
-   "summary": "United States Oil Fund (NYSE:USO) has outperformed the market over the past 5 years by 9.85% on an annualized basis producing an average annual return of 21.0%. Currently, United States Oil Fund has a",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/07/60597154/here-s-how-much-1000-invested-united-states-oil-fund-5-years-ago-would-be-worth-today",
-   "created_at": "2026-07-21T22:00:26Z",
-   "symbols": [
-    "USO"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_3.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "QUICK SPARK: Jim Cramer Flags Dell as the Next Winner After SMCI Preliminary Results",
-   "summary": "Jim Cramer says Dell could have a strong performance based on Super Micro&#39;s preliminary results.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60597130/quick-spark-jim-cramer-flags-dell-as-the-next-winner-after-smci-preliminary-results",
-   "created_at": "2026-07-21T21:57:01Z",
-   "symbols": [
-    "DELL",
-    "SMCI"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/21/Benzinga-Quick-Spark.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "East West Bancorp Q2 2026 Earnings Call Transcript",
-   "summary": "On Tuesday, East West Bancorp (NASDAQ:EWBC) discussed second-quarter financial results during its earnings call. The full transcript is provided below.\nThis content is powered by Benzinga APIs. For co",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/07/60597103/east-west-bancorp-q2-2026-earnings-call-transcript",
-   "created_at": "2026-07-21T21:52:03Z",
-   "symbols": [
-    "EWBC"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_1.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Rocket Lab Stock Rises After the Bell: Here's Why",
-   "summary": "Rocket Lab shares are rising in extended trading Tuesday after the company was awarded a $266 million defense contract for suborbital launch.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60597077/rocket-lab-stock-rises-after-the-bell-heres-why",
-   "created_at": "2026-07-21T21:47:29Z",
-   "symbols": [
-    "RKLB"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/21/Rocket-LabELaNa19-liftoff-Photo-credit-T.jpg?width=1024&height=768"
   }
  ]
 }
