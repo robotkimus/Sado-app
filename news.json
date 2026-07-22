@@ -1,6 +1,36 @@
 {
- "updated": "2026-07-22 13:00",
+ "updated": "2026-07-22 14:00",
  "items": [
+  {
+   "headline": "Elon Musk Denies Report Claiming Foxconn Won $52 Billion SpaceX AI Server Deal: 'This Is Fake News'",
+   "summary": "Elon Musk rejected claims SpaceX awarded Foxconn a $52B billion AI server contract, saying the report was &#34;fake news.&#34;",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/07/60598541/elon-musk-denies-foxconn-spacex-ai-server-deal",
+   "created_at": "2026-07-22T04:58:10Z",
+   "symbols": [
+    "DELL",
+    "HNHPF",
+    "NVDA",
+    "SMCI",
+    "SPCX"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/22/Paris--France---February-3--2026-A-Horiz.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Jim Cramer Picks Micron, Applied Materials And Intel Or AMD As Top Semiconductor Bets After AI Selloff, Says Supermicro Is 'Great For Nvidia'",
+   "summary": "Jim Cramer picked Micron, AMAT, and Intel or AMD as his top semiconductor stocks after the AI-driven tech selloff.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/07/60598362/jim-cramer-top-semiconductor-stocks-ai-selloff",
+   "created_at": "2026-07-22T04:02:00Z",
+   "symbols": [
+    "AMAT",
+    "AMD",
+    "INTC",
+    "MU",
+    "NVDA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/22/Jim-Cramer.jpg?width=1024&height=768"
+  },
   {
    "headline": "SK Hynix Dismisses Intel Ohio Buyout Report: 'We Have No Plans for an Acquisition'",
    "summary": "SK hynix denied a report it was in talks to buy Intel&#39;s Ohio chip campus, saying it has neither pursued nor decided on a deal.",
@@ -181,32 +211,36 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/07/21/Donald-Trump.jpg?width=1024&height=768"
   },
   {
-   "headline": "Larry Fink Says AI Needs More Electricity. Google Is Trying To Need Less Of It.",
-   "summary": "Larry Fink says electricity will determine the AI race. Google&#39;s reported Frozen v2 chip highlights improving AI efficiency as important.",
+   "headline": "Bernie Sanders Slams Trump’s Unconstitutional War in Iran—Hakeem Jeffries Decries High Gas Prices, Troops Killed",
+   "summary": "Bernie Sanders, Hakeem Jeffries criticize the &#39;unconstitutional&#39; war with Iran, citing rising gas prices and innocent casualties.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/07/60589472/larry-fink-says-ai-needs-more-electricity-google-is-trying-to-need-less-of-it",
-   "created_at": "2026-07-21T17:49:47Z",
-   "symbols": [
-    "BLK",
-    "GOOG",
-    "GOOGL"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/21/Larry-Fink-Is-An-American-Billionaire-Bu.jpg?width=1024&height=768"
+   "url": "https://www.benzinga.com/news/politics/26/07/60598500/bernie-sanders-slams-trumps-unconstitutional-war-in-iran-hakeem-jeffries-decries-high-gas-prices-troops-killed",
+   "created_at": "2026-07-22T04:49:34Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/22/United-States-President-Donald-Trump-mee.jpg?width=1024&height=768"
   },
   {
-   "headline": "Micron Leads Memory-Stock Rally, Nasdaq 100 Tops 29,000: Stock Market Today",
-   "summary": "Semiconductors led a broad rebound Tuesday as Micron, Western Digital and Sandisk surged. Nasdaq 100 rallies past 29,000 points.",
+   "headline": "Anthony Scaramucci Explains Why He's Long Bitcoin and Gold: 'Imagine an American President...Sitting in Front of a $55 Trillion Deficit'",
+   "summary": "SkyBridge Capital founder Anthony Scaramucci positioned Bitcoin and gold as &#34;part of the answer&#34; to a changing monetary system under strain from fiscal pressures and declining purchasing power",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/market-summary/26/07/60589094/chips-power-micron-rallies-12-percent-nasdaq-100-markets-tuesday",
-   "created_at": "2026-07-21T17:40:08Z",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/07/60598465/anthony-scaramucci-bitcoin-gold-55-trillion-deficit",
+   "created_at": "2026-07-22T04:41:09Z",
    "symbols": [
-    "AAOI",
-    "AMZN",
-    "BE",
     "BTCUSD",
-    "CIEN"
+    "JPM"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/21/Los-Angeles--California---24-January-202.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/22/Scaramucci-Launches-The-Resilience-Lab-T.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Cyclospora Cases Rise to 4,173 as Recalled Lettuce Outbreak Spreads Across 41 States, Even as Robert F. Kennedy Jr. Says Situation 'Under Control'",
+   "summary": "CDC confirms 4,173 U.S. Cyclospora cases as it investigates a lettuce-linked outbreak. More than 7,400 additional reports remain under review.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/health-care/26/07/60598388/cdc-confirms-4173-cyclospora-cases-as-recalled-lettuce-outbreak-spreads",
+   "created_at": "2026-07-22T04:10:20Z",
+   "symbols": [
+    "SYY"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/22/January-29--2025---Washington-Dc-Senate-.jpg?width=1024&height=768"
   },
   {
    "headline": "Bernie Sanders Says Critics Were Wrong After Report Reveals US-China AI Talks: 'Better Late Than Never'",
@@ -458,39 +492,6 @@
     "RKLB"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/07/21/Rocket-LabELaNa19-liftoff-Photo-credit-T.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Transcript: Hanmi Financial Q2 2026 Earnings Conference Call",
-   "summary": "Hanmi Financial (NASDAQ:HAFC) released second-quarter financial results and hosted an earnings call on Tuesday. Read the complete transcript below.\nThis transcript is brought to you by Benzinga APIs. ",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/07/60597041/transcript-hanmi-financial-q2-2026-earnings-conference-call",
-   "created_at": "2026-07-21T21:44:16Z",
-   "symbols": [
-    "HAFC"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_3.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "$100 Invested In Vistra 5 Years Ago Would Be Worth This Much Today",
-   "summary": "Vistra (NYSE:VST) has outperformed the market over the past 5 years by 42.26% on an annualized basis producing an average annual return of 53.42%. Currently, Vistra has a market capitalization of $54.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/07/60596857/100-invested-vistra-5-years-ago-would-be-worth-much-today",
-   "created_at": "2026-07-21T21:31:43Z",
-   "symbols": [
-    "VST"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_3.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Full Transcript: Interactive Brokers Group Q2 2026 Earnings Call",
-   "summary": "On Tuesday, Interactive Brokers Group (NASDAQ:IBKR) discussed second-quarter financial results during its earnings call. The full transcript is provided below.\nThis transcript is brought to you by Ben",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/07/60596812/full-transcript-interactive-brokers-group-q2-2026-earnings-call",
-   "created_at": "2026-07-21T21:31:08Z",
-   "symbols": [
-    "IBKR"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_4.jpg?width=1024&height=768"
   }
  ]
 }
