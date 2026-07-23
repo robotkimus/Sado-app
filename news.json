@@ -1,6 +1,35 @@
 {
- "updated": "2026-07-24 04:02",
+ "updated": "2026-07-24 04:32",
  "items": [
+  {
+   "headline": "NVIDIA's Next Breakout? Market Veteran Sees Plenty of Fuel Left in the AI Leader",
+   "summary": "Market experts highlight fresh buying in NVIDIA (NVDA) as technical breakout patterns align with strong AI GPU dominance.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/07/60653023/nvidias-next-breakout-market-veteran-sees-plenty-of-fuel-left-in-the-ai-leader",
+   "created_at": "2026-07-23T19:13:27Z",
+   "symbols": [
+    "AAPL",
+    "AMD",
+    "AVGO",
+    "GLW",
+    "GOOGL"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/23/Bet-Against-Nvidia.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "SPY Could Be Poised for a Post-Midterm Rally if 70 Years of History Repeats",
+   "summary": "70 years of S&amp;P 500 post-midterm performance history suggests SPY, VOO and IVV could ride a post-election rally. Here&#39;s what market data shows.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/etfs/sector-etfs/26/07/60652897/spy-could-be-poised-for-a-post-midterm-rally-if-70-years-of-history-repeats",
+   "created_at": "2026-07-23T19:11:20Z",
+   "symbols": [
+    "IVV",
+    "QQQ",
+    "SPY",
+    "VOO"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/23/Midterm-Stakes-Highlighted.jpg?width=1024&height=768"
+  },
   {
    "headline": "Bitcoin Outpaces Semiconductor Stocks by 25% as VanEck's Matthew Sigel Sees Path Back to $100,000",
    "summary": "Bitcoin has outperformed semiconductor stocks by 25% this month. VanEck&#39;s Matthew Sigel believes it could return to $100,000 within a year.",
@@ -183,32 +212,59 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/07/23/Jensen-Huang--Nvidia-Founder-And-Ceo-And.jpg?width=1024&height=768"
   },
   {
-   "headline": "Alphabet Just Took Its AI Chip Offensive Directly to Nvidia",
-   "summary": "Alphabet&#39;s Google starts selling its own AI chips to compete with Nvidia in on-premises market, with revenue impacts expected in 2027.",
+   "headline": "QUICK SPARK: Martin Shkreli Shorts Hims & Hers Stock, Says 'Peptides Are Fake Medicine'",
+   "summary": "Martin Shkreli shorts Hims &amp; Hers stock, calling its peptides fake medicine.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/07/60642385/alphabet-just-took-its-ai-chip-offensive-directly-to-nvidia",
-   "created_at": "2026-07-23T14:47:49Z",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60653079/quick-spark-martin-shkreli-shorts-hims-hers-stock-says-peptides-are-fake-medicine",
+   "created_at": "2026-07-23T19:15:47Z",
    "symbols": [
-    "GOOG",
-    "GOOGL",
-    "NVDA"
+    "HIMS"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/23/Nvidia-Alphabet-dall-e.png?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/23/Benzinga-Quick-Spark.jpg?width=1024&height=768"
   },
   {
-   "headline": "Tesla's AI Bet Flounders As Alphabet's Gemini Shines — What It Means For AI ETFs",
-   "summary": "Tesla (TSLA) and Alphabet&#39;s (GOOGL) earnings highlighted a growing divide. Here&#39;s what it means for AI ETFs as investors weigh AI profits vs future potential.",
+   "headline": "Opendoor Stock Is On The Move: The Chart Tells An Interesting Story",
+   "summary": "Opendoor Technologies Inc. (NASDAQ: OPEN) shares are tumbling Thursday as a broad market selloff hits high-beta names hardest.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/etfs/sector-etfs/26/07/60641820/teslas-ai-bet-flounders-as-alphabets-gemini-shines-what-it-means-for-ai-etfs",
-   "created_at": "2026-07-23T14:37:29Z",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60652903/opendoor-stock-is-on-the-move-the-chart-tells-an-interesting-story",
+   "created_at": "2026-07-23T19:11:32Z",
    "symbols": [
-    "GGLL",
-    "GGLS",
-    "GOOGL",
-    "IYW",
-    "QQQ"
+    "OPEN"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/23/Mountain-View--Ca--Usa---12-09-2023-Goog.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/23/Opendoor-Technologies-Inc.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Thermo Fisher Points to Improving End-Market Activity",
+   "summary": "Thermo Fisher beat second-quarter earnings and revenue estimates, raised 2026 guidance, and cited stronger customer activity across key end markets.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/earnings/26/07/60652769/thermo-fisher-points-to-improving-end-market-activity",
+   "created_at": "2026-07-23T19:07:13Z",
+   "symbols": [
+    "TMO"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/23/Thermo-Fisher-Scientific--Inc.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Musk Touted Data Centers in Space to SpaceX IPO Investors. Peter Zeihan Calls the Idea 'So Many Levels of Dumb'",
+   "summary": "SpaceX pitched orbital data centers to IPO investors, but analyst Peter Zeihan says the physics don&#39;t add up. Kalshi traders lean his way.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/07/60652706/musk-touted-data-centers-in-space-to-spacex-ipo-investors-peter-zeihan-calls-the-idea-so-many-levels-of-dumb",
+   "created_at": "2026-07-23T19:05:11Z",
+   "symbols": [
+    "SPCX"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/23/Cali--Colombia---May-6-2022-spacex-Logo-.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Celsius Stock Broke Through a Key Level — What Traders Are Watching Now",
+   "summary": "Celsius Holdings shares are hitting a fresh 52-week low Thursday as the downtrend persists ahead of its upcoming earnings report.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60652686/celsius-stock-broke-through-a-key-level-what-traders-are-watching-now",
+   "created_at": "2026-07-23T19:04:23Z",
+   "symbols": [
+    "CELH"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/23/Miami-Beach--Florida---July-02--2024-Cel.jpg?width=1024&height=768"
   },
   {
    "headline": "Why Is Walt Disney Stock Falling Thursday?",
@@ -438,69 +494,6 @@
     "WBUY"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/07/23/Travel-By-Plane--Woman-Passenger-Waiting.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Blackstone CEO Says AI Megatrend Is Creating 'Extraordinary' Growth Opportunities",
-   "summary": "Blackstone (NYSE: BX) beats Q2 estimates with $1.52 EPS and $3.80B revenue, driven by strong fee-related earnings.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/earnings/26/07/60651015/blackstone-ceo-says-ai-megatrend-is-creating-extraordinary-growth-opportunities",
-   "created_at": "2026-07-23T18:15:58Z",
-   "symbols": [
-    "BX",
-    "GOOGL"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/23/Blackstone.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Medpace Soars After Q2 Beat, Strong Backlog Fuels Higher 2026 Outlook",
-   "summary": "Medpace says second-quarter earnings and revenue beat estimates, backed by stronger bookings, backlog growth and higher 2026 guidance.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/earnings/26/07/60650999/medpace-q2-beat-2026-outlook",
-   "created_at": "2026-07-23T18:15:41Z",
-   "symbols": [
-    "MEDP"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/23/Medpace-Holdings-Inc.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Why Is CrowdStrike Stock Falling on Thursday?",
-   "summary": "CrowdStrike Holdings Inc (NASDAQ: CRWD) stock drops on Thursday due to tech sector pressure, profit-taking, and lingering legal liability concerns.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60650798/why-is-crowdstrike-stock-falling-on-thursday",
-   "created_at": "2026-07-23T18:09:42Z",
-   "symbols": [
-    "AAL",
-    "CRWD",
-    "DAL",
-    "GOOG",
-    "GOOGL"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/23/Crowdstrike-Sign-And-Logo-At-Headquarter.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Norfolk Southern Stock Rises as Revenue Surge Offsets Margin Compression",
-   "summary": "Norfolk Southern earnings beat estimates as record revenue, intermodal growth and cost cuts helped lift the stock.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/earnings/26/07/60650616/norfolk-southern-stock-rises-as-revenue-surge-offsets-margin-compression",
-   "created_at": "2026-07-23T18:04:21Z",
-   "symbols": [
-    "NSC"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/23/Stanwood--Wa--Usa---February-7--2024-Nor.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Why Is Super Micro Computer Stock Surging on Thursday?",
-   "summary": "Super Micro Computer Inc. (NASDAQ: SMCI) stock surged following preliminary Q4 updates highlighting expanded gross margins and $60 billion in new AI orders.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60650400/why-is-super-micro-computer-stock-surging-on-thursday",
-   "created_at": "2026-07-23T17:59:11Z",
-   "symbols": [
-    "ANET",
-    "DELL",
-    "SMCI",
-    "VRT"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/23/Supermicro-Computer.jpg?width=1024&height=768"
   }
  ]
 }
