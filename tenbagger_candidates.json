@@ -1,52 +1,54 @@
 {
- "updated": "2026-07-23 22:41",
+ "updated": "2026-07-23 23:02",
  "candidates": [
   {
-   "symbol": "CRM",
+   "symbol": "NFLX",
    "score": 5,
    "ratio": 0.5,
    "max": 10,
-   "price": 159.74,
+   "price": 68.6,
    "reasons": [
-    "52주고점 대비 -40%",
+    "52주고점 대비 -37%",
+    "과매도 탈출+MA5 회복",
+    "PER 18"
+   ]
+  },
+  {
+   "symbol": "FNGU",
+   "score": 5,
+   "ratio": 0.83,
+   "max": 6,
+   "price": 25.73,
+   "reasons": [
+    "52주고점 대비 -29%",
+    "RSI 44 과매도권 접근",
+    "PER 2(저평가)"
+   ]
+  },
+  {
+   "symbol": "C",
+   "score": 5,
+   "ratio": 0.5,
+   "max": 10,
+   "price": 131.17,
+   "reasons": [
     "RSI 42 과매도권 접근",
-    "PER 10(저평가)"
+    "PER 10(저평가)",
+    "PBR 1.1",
+    "그레이엄 기준 충족"
    ]
   },
   {
-   "symbol": "ADBE",
+   "symbol": "COF",
    "score": 5,
    "ratio": 0.5,
    "max": 10,
-   "price": 216.38,
+   "price": 198.04,
    "reasons": [
-    "52주고점 대비 -40%",
-    "RSI 45 과매도권 접근",
-    "PER 8(저평가)"
-   ]
-  },
-  {
-   "symbol": "ORCL",
-   "score": 5,
-   "ratio": 0.5,
-   "max": 10,
-   "price": 122.94,
-   "reasons": [
-    "52주고점 대비 -50%",
-    "RSI 31 과매도",
-    "PER 11(저평가)"
-   ]
-  },
-  {
-   "symbol": "TEAM",
-   "score": 5,
-   "ratio": 0.5,
-   "max": 10,
-   "price": 83.72,
-   "reasons": [
-    "52주고점 대비 -49%",
-    "RSI 45 과매도권 접근",
-    "PER 14(저평가)"
+    "고점 대비 -23% 조정",
+    "PER 8(저평가)",
+    "PBR 1.1",
+    "그레이엄 기준 충족"
    ]
   },
   {
@@ -54,47 +56,24 @@
    "score": 4,
    "ratio": 0.5,
    "max": 8,
-   "price": 88.27,
+   "price": 88.71,
    "reasons": [
-    "고점 대비 -20% 조정",
-    "RSI 39 과매도권 접근",
+    "고점 대비 -19% 조정",
+    "RSI 40 과매도권 접근",
     "PBR 0.2",
     "그레이엄 기준 충족"
    ]
   },
   {
-   "symbol": "QCOM",
+   "symbol": "TFC",
    "score": 4,
    "ratio": 0.4,
    "max": 10,
-   "price": 172.98,
+   "price": 50.69,
    "reasons": [
-    "52주고점 대비 -31%",
-    "RSI 40 과매도권 접근",
-    "PER 16"
-   ]
-  },
-  {
-   "symbol": "NOW",
-   "score": 4,
-   "ratio": 0.4,
-   "max": 10,
-   "price": 95.14,
-   "reasons": [
-    "52주고점 대비 -46%",
-    "RSI 39 과매도권 접근",
-    "PER 19"
-   ]
-  },
-  {
-   "symbol": "WDAY",
-   "score": 4,
-   "ratio": 0.4,
-   "max": 10,
-   "price": 130.53,
-   "reasons": [
-    "52주고점 대비 -42%",
-    "PER 10(저평가)"
+    "PER 10(저평가)",
+    "PBR 1.1",
+    "그레이엄 기준 충족"
    ]
   }
  ]
