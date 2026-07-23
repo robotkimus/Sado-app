@@ -1,6 +1,20 @@
 {
- "updated": "2026-07-23 16:00",
+ "updated": "2026-07-23 17:00",
  "items": [
+  {
+   "headline": "IBM's Q2 Deal Slippage Is a 'Temporary Speed Bump,' Says Michael Lee as CEO Arvind Krishna Says Delayed Deals Are Closing",
+   "summary": "IBM&#39;s Q2 revenue faced a &#39;temporary speed bump&#39; from delayed deals. Experts weigh in on the recovery, AI demand, and impact on the DOW 30.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/earnings/26/07/60629046/ibms-q2-deal-slippage-is-a-temporary-speed-bump-says-michael-lee-as-ceo-arvind-krishna-says-delayed-deals-are-closing",
+   "created_at": "2026-07-23T07:08:33Z",
+   "symbols": [
+    "GOOG",
+    "GOOGL",
+    "IBM",
+    "META"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/23/Las-Vegas--Nv---Oct-27--2009-General-Man.jpg?width=1024&height=768"
+  },
   {
    "headline": "Alphabet Spending Too Much on AI? Wall Street Sees Both Opportunity and Risk After Earnings: 'The Cloud Number Is the Most Important Number'",
    "summary": "Alphabet earnings split Wall Street as strong Cloud growth offset concerns over higher AI spending and negative free cash flow.",
@@ -185,19 +199,83 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/07/22/Crude-Oil-Price-Hike-Graph-Chart--Stock-.jpg?width=1024&height=768"
   },
   {
-   "headline": "CoreWeave Stock Jumps as Power Access And AI Demand Lift Growth Hopes",
-   "summary": "CoreWeave Stock rises as analysts back its growth, Helios power access and expanding real-time AI inference business.",
+   "headline": "Elon Musk Says Customers Aren’t Just Buying Teslas—They’re 'Actually Buying...'",
+   "summary": "Tesla Inc CEO Elon Musk highlights surging Full Self Dricing adoption in the U.S. and the potential for wider rollout.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/07/60615412/coreweave-stock-jumps-as-power-access-and-ai-demand-lift-growth-hopes",
-   "created_at": "2026-07-22T16:39:32Z",
+   "url": "https://www.benzinga.com/markets/equities/26/07/60629456/elon-musk-says-customers-arent-just-buying-teslas-theyre-actually-buying",
+   "created_at": "2026-07-23T07:55:14Z",
    "symbols": [
-    "ARKW",
-    "ARTY",
-    "CRWV",
-    "GLXY",
-    "META"
+    "TSLA"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/22/Los-Angeles--California---July-7-2025-Co.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/23/Elon-Musk--founder--CEO--and-chief-engin.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Nasdaq Falls Over 100 Points As Oil Prices Surge: Investor Sentiment Edges Lower, Greed Index Remains In ‘Fear’ Zone",
+   "summary": "CNN Fear &amp; Greed index showed slight decline in market sentiment as crude oil prices rose. GEV &amp; PEGA stocks fell, while T stock gained.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/market-summary/26/07/60629250/nasdaq-falls-over-100-points-as-oil-prices-surge-investor-sentiment-edges-lower-greed-index-remains-in-fear-zone",
+   "created_at": "2026-07-23T07:30:58Z",
+   "symbols": [
+    "GEV",
+    "HON",
+    "LMT",
+    "PEGA",
+    "T"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/23/Fear-and-Greed.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Intel CFO David Zinsner Said Supply Would Improve 'Through the Rest of the Year' — Q2 Earnings Will Test That",
+   "summary": "Intel reports Q2 Thursday as investors watch for signs AI-related supply constraints that hurt Q1 revenue have started to ease.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/earnings/26/07/60629240/intel-q2-earnings-david-zinsner-supply-outlook",
+   "created_at": "2026-07-23T07:29:30Z",
+   "symbols": [
+    "INTC",
+    "MU",
+    "SKHY"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/23/Santa-Clara--Ca--Usa---Feb-20--2024-Low-.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Elon Musk Says Tesla's Spending Spree Is the 'Fastest Industrial Scale-Up Since World War II' as 2026 Shapes Up To Be a 'Massive CapEx Year'",
+   "summary": "Elon Musk calls Tesla&#39;s growth the fastest since World War II as CFO Vaibhav Taneja signals a massive 2026 CapEx push.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/07/60629217/elon-musk-says-teslas-spending-spree-is-the-fastest-industrial-scale-up-since-world-war-ii-as-2026-shapes-up-to-be-a-massive-capex-year",
+   "created_at": "2026-07-23T07:25:28Z",
+   "symbols": [
+    "MU",
+    "NIO",
+    "SPCX",
+    "TSLA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/23/Sunnyvale--Ca--Usa---May-3--2022-Closeup.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Alphabet, Tesla And 3 Stocks To Watch Heading Into Thursday",
+   "summary": "Summary: US stock futures down, focus on HON, TSLA, LMT, GOOG, TMUS earnings. HON, LMT up in after-hours, TSLA, GOOG down. TMUS to release earnings.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/07/60629162/alphabet-tesla-and-3-stocks-to-watch-heading-into-thursday-2",
+   "created_at": "2026-07-23T07:13:50Z",
+   "symbols": [
+    "GOOG",
+    "GOOGL",
+    "HON",
+    "LMT",
+    "TMUS"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/23/Alphabet-Company-Logo-On-Screen.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Top Wall Street Forecasters Revamp Honeywell Expectations Ahead Of Q2 Earnings",
+   "summary": "Honeywell (HON) to report Q2 earnings on July 23, expected EPS of $1.81, revenue at $5.02B. Analysts have mixed ratings, accuracy rates from 61-81%.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/07/60629011/top-wall-street-forecasters-revamp-honeywell-expectations-ahead-of-q2-earnings",
+   "created_at": "2026-07-23T07:03:11Z",
+   "symbols": [
+    "HON"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/23/Honeywell.jpg?width=1024&height=768"
   },
   {
    "headline": "Bitcoin is a Bubble? Anthony Pompliano Will Host His 'Crazy Uncle' Peter Schiff to Give Him the 'Intellectual Beatdown He Deserves'",
@@ -434,76 +512,6 @@
     "NOW"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_4.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Alphabet Q2 2026 Earnings Call Transcript (CORRECTED)",
-   "summary": "Alphabet (NASDAQ:GOOGL) released second-quarter financial results and hosted an earnings call on Wednesday. Read the complete transcript below.\nBenzinga APIs provide real-time access to earnings call ",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/earnings/26/07/60626962/alphabet-q2-2026-earnings-call-transcript",
-   "created_at": "2026-07-22T22:15:54Z",
-   "symbols": [
-    "GOOGL"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/22/Google.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Transcript: IBM Q2 2026 Earnings Conference Call",
-   "summary": "IBM (NYSE:IBM) held its second-quarter earnings conference call on Wednesday. Below is the complete transcript from the call.\nThis content is powered by Benzinga APIs. For comprehensive financial data",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/07/60627176/transcript-ibm-q2-2026-earnings-conference-call",
-   "created_at": "2026-07-22T22:12:04Z",
-   "symbols": [
-    "IBM"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_2.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Alphabet CFO Says Demand Still Outpaces Capacity: AI Infrastructure Stocks Rise",
-   "summary": "Ai Infrastructure stocks are getting a boost in after-hours trading Wednesday following Alphabet&#39;s quarterly earnings call.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60627122/alphabet-cfo-says-demand-still-outpaces-capacity-ai-infrastructure-stocks-rise",
-   "created_at": "2026-07-22T22:08:35Z",
-   "symbols": [
-    "APLD",
-    "CIFR",
-    "CRWV",
-    "GLXY",
-    "GOOG"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/22/Modern-Data-Center-With-Ai-Server-Racks-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Texas Capital Bancshares Q2 2026 Earnings Call: Complete Transcript",
-   "summary": "On Wednesday, Texas Capital Bancshares (NASDAQ:TCBI) discussed second-quarter financial results during its earnings call. The full transcript is provided below.\nBenzinga APIs provide real-time access ",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/07/60627108/texas-capital-bancshares-q2-2026-earnings-call-complete-transcript",
-   "created_at": "2026-07-22T22:06:18Z",
-   "symbols": [
-    "TCBI"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_4.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "QuantumScape Q2 2026 Earnings Call Transcript",
-   "summary": "On Wednesday, QuantumScape (NYSE:QS) discussed second-quarter financial results during its earnings call. The full transcript is provided below.\nThis transcript is brought to you by Benzinga APIs. For",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/07/60627085/quantumscape-q2-2026-earnings-call-transcript",
-   "created_at": "2026-07-22T22:03:19Z",
-   "symbols": [
-    "QS"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_2.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "If You Invested $1000 In Home Depot Stock 15 Years Ago, You Would Have This Much Today",
-   "summary": "Home Depot (NYSE:HD) has outperformed the market over the past 15 years by 3.78% on an annualized basis producing an average annual return of 16.14%. Currently, Home Depot has a market capitalization ",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/07/60627076/if-you-invested-1000-home-depot-stock-15-years-ago-you-would-have-much-today",
-   "created_at": "2026-07-22T22:03:04Z",
-   "symbols": [
-    "HD"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_2.jpg?width=1024&height=768"
   }
  ]
 }
