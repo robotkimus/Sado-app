@@ -144,6 +144,19 @@
     padding:2px 9px; border-radius:13px;}
   .nthumb{width:64px; height:64px; border-radius:10px; object-fit:cover;
     flex-shrink:0; background:var(--card2);}
+  /* ── 실적발표 검색 카드 ── */
+  .excard-hd{display:flex; justify-content:space-between; align-items:center; gap:10px; margin-bottom:4px;}
+  .exdday{font-size:12.5px; font-weight:800; padding:5px 12px; border-radius:999px;
+    background:rgba(255,77,94,.14); color:var(--buy); white-space:nowrap; flex-shrink:0;}
+  .exmeta{font-size:11.5px; color:var(--dim); margin-top:3px; line-height:1.5;}
+  .exrow{display:flex; justify-content:space-between; align-items:center; gap:10px;
+    padding:11px 0; border-top:1px solid var(--line);}
+  .exrow:first-child{border-top:none;}
+  .exq{font-size:13px; font-weight:700; color:var(--text);}
+  .exeps{font-size:11.5px; color:var(--dim); margin-top:3px;}
+  .exsur{font-size:12.5px; font-weight:800; padding:4px 10px; border-radius:9px; white-space:nowrap; flex-shrink:0;}
+  .exsur.beat{background:rgba(255,77,94,.14); color:var(--buy);}
+  .exsur.miss{background:rgba(77,140,255,.14); color:var(--sell);}
 </style>
 <script>
   (function(){ try{ if(localStorage.getItem("theme")==="light") document.documentElement.classList.add("_light_pending"); }catch(e){} })();
@@ -250,6 +263,11 @@
     <div id="newsList"><div class="muted">상단에서 미국/국내를 고르고, 종목을 검색해보세요.</div></div>
   </div>
 
+  <div class="card" id="earningsCard" style="display:none;">
+    <div class="sec-title">📅 실적발표</div>
+    <div id="earningsBody"><div class="muted">미국 종목을 검색하면 다음 실적일과 최근 실적을 보여드려요.</div></div>
+  </div>
+
   <div class="card" id="dartCard" style="display:none;">
     <div class="sec-title">📋 DART 공시</div>
     <div id="dartList"></div>
@@ -302,6 +320,7 @@ function setMarket(m){
   document.getElementById("tgKR").className = "tg" + (m==="KR"?" on":"");
   document.getElementById("dartRow").style.display = (m==="KR") ? "flex" : "none";
   document.getElementById("dartCard").style.display = "none";
+  document.getElementById("earningsCard").style.display = "none";
   document.getElementById("q").placeholder = m==="US" ? "티커 검색 (예: NVDA)" : "종목명 검색 (예: 삼성전자)";
   renderChips();
 }
@@ -467,6 +486,90 @@ async function loadDart(code){
   }
 }
 
+/* ── 실적발표 검색 (Yahoo Finance quoteSummary, 기존 프록시 체인 재사용) ── */
+async function proxyFetchJSON(url){
+  const enc = encodeURIComponent(url);
+  const tries = [url, "https://corsproxy.io/?url="+enc, "https://api.allorigins.win/raw?url="+enc,
+    "https://api.codetabs.com/v1/proxy/?quest="+enc];
+  for(const u of tries){
+    try{
+      const r = await fetch(u, {signal:AbortSignal.timeout(10000)});
+      if(r.ok) return await r.json();
+    }catch(e){}
+  }
+  return null;
+}
+function exFmtDate(ts){
+  const d = new Date(ts*1000);
+  return `${d.getMonth()+1}월 ${d.getDate()}일`;
+}
+function exDday(ts){
+  const now = new Date(); now.setHours(0,0,0,0);
+  const d = new Date(ts*1000); d.setHours(0,0,0,0);
+  const diff = Math.round((d-now)/86400000);
+  if(diff === 0) return "D-DAY";
+  if(diff > 0) return "D-"+diff;
+  return Math.abs(diff)+"일 전";
+}
+async function loadEarnings(symRaw){
+  const sym = (symRaw||"").trim().toUpperCase();
+  const card = document.getElementById("earningsCard");
+  const body = document.getElementById("earningsBody");
+  if(!sym){ card.style.display = "none"; return; }
+  card.style.display = "block";
+  body.innerHTML = '<div class="muted"><span class="spin"></span> 실적 정보 불러오는 중...</div>';
+  const ylink = `https://finance.yahoo.com/quote/${encodeURIComponent(sym)}/`;
+  try{
+    const url = `https://query1.finance.yahoo.com/v10/finance/quoteSummary/${encodeURIComponent(sym)}?modules=calendarEvents,earningsHistory`;
+    const j = await proxyFetchJSON(url);
+    const res = j && j.quoteSummary && j.quoteSummary.result && j.quoteSummary.result[0];
+    if(!res) throw new Error("no result");
+    const cal = res.calendarEvents && res.calendarEvents.earnings;
+    const hist = (res.earningsHistory && res.earningsHistory.history) || [];
+
+    let nextHtml = "";
+    if(cal && cal.earningsDate && cal.earningsDate.length && cal.earningsDate[0].raw){
+      const ts = cal.earningsDate[0].raw;
+      const estBadge = cal.isEarningsDateEstimate ? " (추정)" : "";
+      const epsAvg = cal.earningsAverage && cal.earningsAverage.fmt;
+      const revAvg = cal.revenueAverage && cal.revenueAverage.fmt;
+      nextHtml = `<div class="excard-hd">
+        <div><div style="font-size:15px; font-weight:800;">${sym} 다음 실적</div>
+        <div class="exmeta">${exFmtDate(ts)}${estBadge}${epsAvg?` · EPS 예상 $${epsAvg}`:""}${revAvg?` · 매출 예상 ${revAvg}`:""}</div></div>
+        <div class="exdday">${exDday(ts)}</div>
+      </div>`;
+    } else {
+      nextHtml = `<div class="muted" style="margin-bottom:10px;">다음 실적일 정보를 아직 못 받아왔어요.</div>`;
+    }
+
+    let histHtml = "";
+    if(hist.length){
+      histHtml = hist.slice(0,4).map(h=>{
+        const q = h.quarter && h.quarter.raw;
+        const qs = q ? exFmtDate(q) : "-";
+        const epsA = h.epsActual && h.epsActual.fmt;
+        const epsE = h.epsEstimate && h.epsEstimate.fmt;
+        const surV = h.surprisePercent && h.surprisePercent.raw;
+        const surF = h.surprisePercent && h.surprisePercent.fmt;
+        const beat = surV != null && surV >= 0;
+        return `<div class="exrow">
+          <div><div class="exq">${qs} 분기</div>
+          <div class="exeps">EPS 실제 ${epsA!=null?"$"+epsA:"-"} / 예상 ${epsE!=null?"$"+epsE:"-"}</div></div>
+          ${surF!=null ? `<span class="exsur ${beat?"beat":"miss"}">${beat?"▲":"▼"} ${surF}</span>` : ""}
+        </div>`;
+      }).join("");
+    } else {
+      histHtml = `<div class="muted">최근 실적 이력을 못 받아왔어요.</div>`;
+    }
+
+    body.innerHTML = nextHtml + histHtml +
+      `<a href="${ylink}" target="_blank" rel="noopener" class="item" style="text-align:center; font-weight:800; color:var(--sell); border-top:1px solid var(--line); margin-top:8px;">🔗 Yahoo Finance에서 ${sym} 전체 보기 →</a>`;
+  }catch(e){
+    body.innerHTML = `<div class="muted" style="margin-bottom:8px;">실적 정보를 불러오지 못했어요 (무료 경로 제한이거나 상장 티커가 아닐 수 있어요).</div>
+      <a href="${ylink}" target="_blank" rel="noopener" class="item" style="text-align:center; font-weight:800; color:var(--sell);">🔗 Yahoo Finance에서 ${sym} 확인하기 →</a>`;
+  }
+}
+
 async function search(krCode){
   const q = document.getElementById("q").value.trim();
   if(!q){ return; }
@@ -510,8 +613,10 @@ async function search(krCode){
     }
     if(code) loadDart(code);
     else { document.getElementById("dartCard").style.display = "none"; }
+    document.getElementById("earningsCard").style.display = "none";
   } else {
     document.getElementById("dartCard").style.display = "none";
+    loadEarnings(q);
   }
 }
 
