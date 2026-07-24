@@ -6,7 +6,7 @@
   "peak_pnl_pct": 6.5
  },
  "BLK": {
-  "peak_pnl_pct": 7.6
+  "peak_pnl_pct": 8.4
  },
  "ETH-USD": {
   "peak_pnl_pct": 0.0
@@ -21,7 +21,7 @@
   "peak_pnl_pct": 5.0
  },
  "NVDA": {
-  "peak_pnl_pct": 1.8
+  "peak_pnl_pct": 2.2
  },
  "QQQ": {
   "peak_pnl_pct": -3.9
@@ -33,6 +33,9 @@
   "peak_pnl_pct": 5.2
  },
  "VRTX": {
-  "peak_pnl_pct": -4.3
+  "peak_pnl_pct": -4.2
+ },
+ "CVS": {
+  "peak_pnl_pct": -0.0
  }
 }

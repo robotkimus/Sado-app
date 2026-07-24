@@ -1,52 +1,41 @@
 {
- "updated": "2026-07-25 00:01",
+ "updated": "2026-07-25 02:01",
  "candidates": [
   {
-   "symbol": "CRM",
+   "symbol": "GIS",
+   "score": 6,
+   "ratio": 0.6,
+   "max": 10,
+   "price": 35.98,
+   "reasons": [
+    "52주고점 대비 -27%",
+    "PER 11(저평가)",
+    "시총 $19.2B(소형)"
+   ]
+  },
+  {
+   "symbol": "ZTS",
    "score": 5,
    "ratio": 0.5,
    "max": 10,
-   "price": 162.35,
+   "price": 75.24,
    "reasons": [
-    "52주고점 대비 -40%",
+    "52주고점 대비 -43%",
     "RSI 45 과매도권 접근",
     "PER 10(저평가)"
    ]
   },
   {
-   "symbol": "ORCL",
+   "symbol": "DIS",
    "score": 5,
    "ratio": 0.5,
    "max": 10,
-   "price": 118.33,
+   "price": 95.5,
    "reasons": [
-    "52주고점 대비 -53%",
-    "RSI 28 과매도",
-    "PER 11(저평가)"
-   ]
-  },
-  {
-   "symbol": "TEAM",
-   "score": 5,
-   "ratio": 0.5,
-   "max": 10,
-   "price": 83.19,
-   "reasons": [
-    "52주고점 대비 -50%",
+    "고점 대비 -18% 조정",
     "RSI 44 과매도권 접근",
-    "PER 13(저평가)"
-   ]
-  },
-  {
-   "symbol": "IBM",
-   "score": 5,
-   "ratio": 0.5,
-   "max": 10,
-   "price": 213.3,
-   "reasons": [
-    "52주고점 대비 -36%",
-    "과매도 탈출+MA5 회복",
-    "PER 16"
+    "PER 13(저평가)",
+    "그레이엄 기준 충족"
    ]
   },
   {
@@ -54,47 +43,48 @@
    "score": 4,
    "ratio": 0.5,
    "max": 8,
-   "price": 88.02,
+   "price": 88.08,
    "reasons": [
     "고점 대비 -20% 조정",
-    "RSI 39 과매도권 접근",
+    "RSI 40 과매도권 접근",
     "PBR 0.2",
     "그레이엄 기준 충족"
    ]
   },
   {
-   "symbol": "QCOM",
+   "symbol": "NKE",
    "score": 4,
    "ratio": 0.4,
    "max": 10,
-   "price": 168.15,
+   "price": 41.83,
    "reasons": [
-    "52주고점 대비 -33%",
-    "RSI 37 과매도권 접근",
+    "52주고점 대비 -38%",
+    "RSI 44 과매도권 접근",
+    "PER 18"
+   ]
+  },
+  {
+   "symbol": "LOW",
+   "score": 4,
+   "ratio": 0.4,
+   "max": 10,
+   "price": 206.59,
+   "reasons": [
+    "52주고점 대비 -28%",
+    "RSI 43 과매도권 접근",
     "PER 15"
    ]
   },
   {
-   "symbol": "ON",
+   "symbol": "KHC",
    "score": 4,
    "ratio": 0.4,
    "max": 10,
-   "price": 87.2,
+   "price": 25.5,
    "reasons": [
-    "52주고점 대비 -35%",
-    "RSI 40 과매도권 접근",
-    "PER 20"
-   ]
-  },
-  {
-   "symbol": "ADBE",
-   "score": 4,
-   "ratio": 0.4,
-   "max": 10,
-   "price": 221.82,
-   "reasons": [
-    "52주고점 대비 -38%",
-    "PER 8(저평가)"
+    "PER 12(저평가)",
+    "PBR 0.7",
+    "그레이엄 기준 충족"
    ]
   }
  ]
