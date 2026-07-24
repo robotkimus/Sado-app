@@ -1,6 +1,18 @@
 {
- "updated": "2026-07-24 15:00",
+ "updated": "2026-07-24 16:00",
  "items": [
+  {
+   "headline": "AMD Stock Could Surge 48% as Daniel Newman Calls It a 'Top Conviction'—Patrick Moorhead Sees $200 Billion Server CPU Market",
+   "summary": "AMD stock could see 48% upside to $800 as Futurum calls it a &#39;top conviction,&#39; while Patrick Moorhead projects a $200B+ server CPU market.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/07/60660114/amd-stock-could-surge-48-as-daniel-newman-calls-it-a-top-conviction-patrick-moorhead-sees-200-billion-server-cpu-market",
+   "created_at": "2026-07-24T06:50:10Z",
+   "symbols": [
+    "AMD",
+    "MSFT"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/24/Shanghai-china-nov-22nd-2025-Amd-Company.jpg?width=1024&height=768"
+  },
   {
    "headline": "Nvidia Partnership Gets Amkor Technology (AMKR) Stock Trending: Here's What You Should Know",
    "summary": "Amkor Technology shares surged 12.2% after hours after securing a multi-year AI semiconductor packaging partnership with Nvidia.",
@@ -201,18 +213,67 @@
    "image": ""
   },
   {
-   "headline": "SpaceX Stock’s Hidden Risk Isn’t Rockets — It’s AI Spending",
-   "summary": "SpaceX stock faces risks as Starship reaches launchpad, but the bigger threat may be AI spending.",
+   "headline": "Nasdaq Tumbles Over 2% Amid Higher Oil Prices: Investor Sentiment Weakens, Greed Index Remains In ‘Fear’ Zone",
+   "summary": "Market sentiment declines, Nasdaq falls 2%, Trump warns Iran, Tesla and T-Mobile stock drops, while Dow closes lower by 507 points.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/07/60646239/spacex-stocks-hidden-risk-isnt-rockets-its-ai-spending",
-   "created_at": "2026-07-23T16:08:22Z",
+   "url": "https://www.benzinga.com/markets/market-summary/26/07/60660103/nasdaq-tumbles-over-2-amid-higher-oil-prices-investor-sentiment-weakens-greed-index-remains-in-fear-zone",
+   "created_at": "2026-07-24T06:47:03Z",
    "symbols": [
+    "AXP",
     "GOOG",
     "GOOGL",
-    "MSFT",
-    "SPCX"
+    "HCA",
+    "TMUS"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/23/The-Spacex-Logo-Is-Displayed-On-A-Mobile.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/24/Fear-and-Greed.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Top Wall Street Forecasters Revamp American Express Expectations Ahead Of Q2 Earnings",
+   "summary": "American Express (NYSE: AXP) will release Q2 earnings on July 24, with analysts expecting $4.40 EPS and $19.7B in revenue. Analyst ratings and target prices available on Benzinga.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/07/60660017/top-wall-street-forecasters-revamp-american-express-expectations-ahead-of-q2-earnings-2",
+   "created_at": "2026-07-24T06:41:03Z",
+   "symbols": [
+    "AXP"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/24/Financial-Analysts.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Safety Insurance Group (SAFT) Stock Soars Over 37% After Hours: Here's Why",
+   "summary": "Safety Insurance Group Inc. (NASDAQ:SAFT) shares jumped 37.58% to $100.35 in after-hours trading on Thursday after the Massachusetts-based insurer announced a definitive agreement to be acquired by an",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/07/60660007/safety-insurance-group-saft-stock-soars-over-37-after-hours-heres-why",
+   "created_at": "2026-07-24T06:38:06Z",
+   "symbols": [
+    "SAFT"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/24/Growing-Stock-Market-Chart-With-Candlest.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "American Express, Deckers Outdoor And 3 Stocks To Watch Heading Into Friday",
+   "summary": "US stock futures mixed, focus on companies like American Express, Deckers, Verizon, Edwards Lifesciences, and HCA Healthcare for today&#39;s trading.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/07/60659926/american-express-deckers-outdoor-and-3-stocks-to-watch-heading-into-friday",
+   "created_at": "2026-07-24T06:16:21Z",
+   "symbols": [
+    "AXP",
+    "DECK",
+    "EW",
+    "HCA",
+    "VZ"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/24/American-Express-Platinum-amex-Platinum-.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Charter Communications Earnings Are Imminent; These Most Accurate Analysts Revise Forecasts Ahead Of Earnings Call",
+   "summary": "Charter Communications (NASDAQ: CHTR) is expected to report Q2 earnings of $10/share and revenue of $13.51B on July 24. Analysts have mixed views.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/07/60659916/charter-communications-earnings-are-imminent-these-most-accurate-analysts-revise-forecasts-ahead-of-earnings-call",
+   "created_at": "2026-07-24T06:15:03Z",
+   "symbols": [
+    "CHTR"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/24/Konskie--Poland---August-11--2018-Charte.jpg?width=1024&height=768"
   },
   {
    "headline": "SLB Likely To Report Lower Q2 Earnings; These Most Accurate Analysts Revise Forecasts Ahead Of Earnings Call",
@@ -453,61 +514,6 @@
     "SSNC"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_2.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Robert Half Q2 2026 Earnings Call: Complete Transcript",
-   "summary": "Robert Half (NYSE:RHI) released second-quarter financial results and hosted an earnings call on Thursday. Read the complete transcript below.\nThis content is powered by Benzinga APIs. For comprehensiv",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/07/60658360/robert-half-q2-2026-earnings-call-complete-transcript",
-   "created_at": "2026-07-23T21:55:11Z",
-   "symbols": [
-    "RHI"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_1.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Jakks Pacific Reports Q2 2026 Results: Full Earnings Call Transcript",
-   "summary": "Jakks Pacific (NASDAQ:JAKK) held its second-quarter earnings conference call on Thursday. Below is the complete transcript from the call.\nThis content is powered by Benzinga APIs. For comprehensive fi",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/07/60658307/jakks-pacific-reports-q2-2026-results-full-earnings-call-transcript",
-   "created_at": "2026-07-23T21:50:35Z",
-   "symbols": [
-    "JAKK"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_3.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Scholastic Q4 2026 Earnings Call Transcript",
-   "summary": "Scholastic (NASDAQ:SCHL) held its fourth-quarter earnings conference call on Thursday. Below is the complete transcript from the call.\nThis transcript is brought to you by Benzinga APIs. For real-time",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/07/60658299/scholastic-q4-2026-earnings-call-transcript",
-   "created_at": "2026-07-23T21:48:22Z",
-   "symbols": [
-    "SCHL"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_2.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Full Transcript: AppFolio Q2 2026 Earnings Call",
-   "summary": "AppFolio (NASDAQ:APPF) reported second-quarter financial results on Thursday. The transcript from the company&#39;s second-quarter earnings call has been provided below.\nThis content is powered by Ben",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/07/60658266/full-transcript-appfolio-q2-2026-earnings-call",
-   "created_at": "2026-07-23T21:45:59Z",
-   "symbols": [
-    "APPF"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_2.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "AtriCure Reports Q2 2026 Results: Full Earnings Call Transcript",
-   "summary": "AtriCure (NASDAQ:ATRC) reported second-quarter financial results on Thursday. The transcript from the company&#39;s second-quarter earnings call has been provided below.\nThis transcript is brought to ",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/07/60658149/atricure-reports-q2-2026-results-full-earnings-call-transcript",
-   "created_at": "2026-07-23T21:39:23Z",
-   "symbols": [
-    "ATRC"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_4.jpg?width=1024&height=768"
   }
  ]
 }
