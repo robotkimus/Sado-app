@@ -1,6 +1,34 @@
 {
- "updated": "2026-07-25 03:02",
+ "updated": "2026-07-25 04:01",
  "items": [
+  {
+   "headline": "Intel Slides Despite Strong Quarter as Street Weighs $20 Billion Capex Plan",
+   "summary": "Intel posted its strongest revenue growth in 15 years, but INTC stock fell as a $20 billion capex plan and negative free cash flow spooked investors.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/07/60678955/intel-slides-despite-strong-quarter-as-street-weighs-20-billion-capex-plan",
+   "created_at": "2026-07-24T18:47:29Z",
+   "symbols": [
+    "AMD",
+    "GOOGL",
+    "INTC",
+    "NVDA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/24/New-York-City--New-York---September-18-2.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Why Is Nebius Stock Falling on Friday?",
+   "summary": "Nebius Group N.V. (NASDAQ: NBIS) stock traded lower on Friday amid a market rotation out of AI infrastructure companies. Read the latest analysis and context.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60678143/why-is-nebius-stock-falling-on-friday-2",
+   "created_at": "2026-07-24T18:25:11Z",
+   "symbols": [
+    "CRWV",
+    "GOOG",
+    "META",
+    "NBIS"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/24/Nebius-Group.jpg?width=1024&height=768"
+  },
   {
    "headline": "S&P 500 Rises As Oil Sinks On Iran Talk Hopes: Stock Market Today",
    "summary": "Crude fell about 4% on renewed US-Iran talk hopes, easing yields and fueling a broad rally in real estate, homebuilders and airlines.",
@@ -187,30 +215,172 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/07/24/Tim-Cook-Apple.jpg?width=1024&height=768"
   },
   {
-   "headline": "QUICK SPARK: Nvidia CEO Jensen Huang Makes First Post on X",
-   "summary": "Nvidia CEO Jensen Huang posts on X, advocating for frontier open AI models alongside closed models as a pillar of safety, innovation and sovereignty.",
+   "headline": "QUICK SPARK: RTX Is Prioritizing Broken Engines Over New Planes",
+   "summary": "RTX is sending more engine materials to repair shops instead of new engine sales as it works to return grounded aircraft to service faster.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60668859/quick-spark-nvidia-ceo-jensen-huang-makes-first-post-on-x",
-   "created_at": "2026-07-24T14:22:59Z",
+   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/07/60679382/quick-spark-rtx-is-prioritizing-broken-engines-over-new-planes",
+   "created_at": "2026-07-24T18:59:11Z",
    "symbols": [
-    "NVDA"
+    "RTX"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/07/24/Benzinga-Quick-Spark.jpg?width=1024&height=768"
   },
   {
-   "headline": "Why Wall Street May Be Mispricing Qualcomm's AI Future, Citrini Says",
-   "summary": "Citrini Research says Qualcomm is stuck in the wrong category. Its High Bandwidth Compute architecture takes aim at AI&#39;s costliest bottleneck.",
+   "headline": "Bitcoin, Ethereum, XRP, Dogecoin End Week Quietly as Analyst Predicts 'One Last Leg Lower'",
+   "summary": "Bitcoin holds steady despite tech stock selloff triggered by weak earnings. Bitcoin may see final leg down before bear market bottom, says analyst. Market nears bottom from timing perspective.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/07/60668110/qualcomm-qcom-citrini-research-memory-wall-ai-thesis",
-   "created_at": "2026-07-24T14:13:20Z",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/07/60679346/bitcoin-ethereum-xrp-dogecoin-end-week-quietly-as-analyst-predicts-one-last-leg-lower",
+   "created_at": "2026-07-24T18:58:13Z",
    "symbols": [
-    "AVGO",
-    "MSFT",
-    "MU",
-    "NVDA",
-    "QCOM"
+    "BTCUSD",
+    "DOGEUSD",
+    "ETHUSD",
+    "SHIBUSD",
+    "SOLUSD"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/24/Qualcomm-Inc.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/24/Crypto-tokens.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Wall Street's New ETF Strategy? Copy, Paste, Repeat—and Hope for the Next DRAM",
+   "summary": "Everyone wants the next DRAM. See why ETF issuers are cloning winning AI and semiconductor themes—and what it means for investors.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/etfs/sector-etfs/26/07/60679318/wall-streets-new-etf-strategy-copy-paste-repeat-and-hope-for-the-next-dram",
+   "created_at": "2026-07-24T18:57:39Z",
+   "symbols": [
+    "DRAM",
+    "DRMY",
+    "IBIT",
+    "MU",
+    "RAML"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/24/Etf-Investment--Exchange-traded-Funds--R.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "QUICK SPARK: Elon Musk Loses $80 Billion In A Single Week",
+   "summary": "Elon Musk lost $80 billion this week, bringing his net worth down to $712.5 billion. Tesla and SpaceX&#39;s decline contributed to the drop.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/movers-shakers/26/07/60679173/quick-spark-elon-musk-loses-80-billion-in-a-single-week",
+   "created_at": "2026-07-24T18:53:07Z",
+   "symbols": [
+    "SPCX",
+    "TSLA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/24/Benzinga-Quick-Spark.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "AI Ships, American Steel: Saronic and Samsung Partner to Rebuild U.S. Maritime Power",
+   "summary": "Saronic Technologies and Samsung Heavy Industries are partnering in a move aimed at accelerating autonomy-ready maritime technology.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/private-markets/26/07/60679121/saronic-samsung-partner-to-rebuild-maritime-power",
+   "created_at": "2026-07-24T18:52:25Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/24/Corsair-Saronic-Pair.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Stripe Eyes OpenRouter in Potential $10 Billion AI Infrastructure Deal",
+   "summary": "Stripe is exploring a potential acquisition of OpenRouter that could value the AI routing platform at nearly $10 billion.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/private-markets/26/07/60678706/stripe-eyes-openrouter-in-potential-10-billion-ai-infrastructure-deal",
+   "created_at": "2026-07-24T18:40:45Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/24/MA-Businessman-Handshake.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "QUICK SPARK: RTX Just Received Its First US Patriot Order in 30 Years",
+   "summary": "RTX received its first domestic GEM-T Patriot production order in more than 30 years as global demand for air defense systems accelerates.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/07/60678424/quick-spark-rtx-just-received-its-first-us-patriot-order-in-30-years",
+   "created_at": "2026-07-24T18:33:14Z",
+   "symbols": [
+    "RTX"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/24/Benzinga-Quick-Spark.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "QUICK SPARK: Tesla Stock Heads For Worst Week Since March 2020",
+   "summary": "Tesla posted record second-quarter revenue but missed on profit. The stock is down about 19% this week, its steepest weekly drop since March 2020.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/07/60678354/tesla-stock-worst-week-since-march-2020",
+   "created_at": "2026-07-24T18:31:23Z",
+   "symbols": [
+    "TSLA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/24/Benzinga-Quick-Spark.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Billionaire Investor Dumps Thermo Fisher, Cuts Danaher As He Pares Life Sciences Tools Bets",
+   "summary": "Dan Loeb reduced his Danaher stake and exited Thermo Fisher in Q1 2026 as the billionaire investor trimmed life sciences exposure.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/large-cap/26/07/60678101/billionaire-investor-dumps-thermo-fisher-cuts-danaher-as-he-pares-life-sciences-tools-bets",
+   "created_at": "2026-07-24T18:23:19Z",
+   "symbols": [
+    "DHR",
+    "EAGL",
+    "LRGG",
+    "PRCS",
+    "TMO"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/24/West-Bangal--India---April-20--2022--Dan.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Tenet's Blockbuster Quarter Sends Stock Flying, 2026 Outlook Gets Major Upgrade",
+   "summary": "Tenet Healthcare lifted its 2026 outlook after beating Q2 estimates, citing hospital growth, expense control and M&amp;A momentum.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/earnings/26/07/60678075/tenets-blockbuster-quarter-sends-stock-flying-2026-outlook-gets-major-upgrade",
+   "created_at": "2026-07-24T18:22:27Z",
+   "symbols": [
+    "THC"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/24/Germany---January-24--2026-In-This-Photo.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Sanofi Drops Dupixent Successor Candidate After Assessing Data",
+   "summary": "Sanofi discontinued amlitelimab for atopic dermatitis after reviewing phase 3 efficacy and safety data, ending plans for regulatory filings.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/health-care/26/07/60677726/sanofi-drops-dupixent-successor-candidate-after-assessing-data",
+   "created_at": "2026-07-24T18:10:30Z",
+   "symbols": [
+    "REGN",
+    "SNY"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/24/Gentilly--France--March-21--2021-Sign-An.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "FDA Approves Mannkind's At-Home Treatment Option for Heart Failure or Kidney Disease",
+   "summary": "MannKind stock rose after the FDA approved Furoscix ReadyFlow, as the company also announced a $50 million private placement financing.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/fda/26/07/60677559/fda-approves-mannkinds-at-home-treatment-option-for-heart-failure-or-kidney-disease",
+   "created_at": "2026-07-24T18:06:27Z",
+   "symbols": [
+    "MNKD"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/24/Silver-Spring--Md--Usa---June-25--2022-T.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Curis Gains As Blood Cancer Drug Progresses, December Readout in Focus",
+   "summary": "Curis gained attention after positive emavusertib data as analyst raised its price target to $43 and highlighted upcoming trial catalysts.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/07/60677442/curis-gains-as-blood-cancer-drug-progresses-december-readout-in-focus",
+   "created_at": "2026-07-24T18:03:48Z",
+   "symbols": [
+    "CRIS"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/24/Acute-Myeloid-Leukemia-Is-A-Subtype-Of-B.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Samsung Eyes First-Mover Edge, Adds Stablecoins to Wallet: 'Expand Beyond Cash and Savings'",
+   "summary": "Samsung announces native support for stablecoins in Samsung Wallet at Galaxy Unpacked event. Launch details are not yet disclosed.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/07/60677417/samsung-eyes-first-mover-edge-adds-stablecoins-to-wallet-expand-beyond-cash-and-savings",
+   "created_at": "2026-07-24T18:03:23Z",
+   "symbols": [
+    "BTCUSD",
+    "CRCL",
+    "ETHUSD",
+    "SSNLF",
+    "TRXUSD"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/24/3d-Letter-Samsung-In-High-Technology.jpg?width=1024&height=768"
   },
   {
    "headline": "Gentex Warns China Sales Will Keep Falling Through 2027",
@@ -311,201 +481,6 @@
     "UTZ"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/07/24/benzinga-deal-dispatch2.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Clarity Act Is in 'Hail Mary Territory' as Odds Drop to 30%: 'The Calendar Is Now the Enemy'",
-   "summary": "Clarity Act odds fall to 30% as Galaxy warns Senate leaders have just days to secure votes before the August recess.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/07/60675746/clarity-act-is-in-hail-mary-territory-as-odds-drop-to-30-the-calendar-is-now-the-enemy",
-   "created_at": "2026-07-24T17:13:49Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/24/Senate-Eyes-DHS-Short-Term-Extension.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "12 Communication Services Stocks Moving In Friday's Intraday Session",
-   "summary": "Gainers\n\nNIP Group (NASDAQ:NIPG) stock increased by 25.8% to $13.25 during Friday&#39;s regular session. The company&#39;s market cap stands at $1.2 billion. \nZW Data Action Tech (NASDAQ:CNET) shares ",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60675462/12-communication-services-stocks-moving-friday-s-intraday-session",
-   "created_at": "2026-07-24T17:05:39Z",
-   "symbols": [
-    "AEHL",
-    "AHMA",
-    "BAOS",
-    "CNET",
-    "GOAI"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_4.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "12 Health Care Stocks Moving In Friday's Intraday Session",
-   "summary": "Gainers\n\nTenet Healthcare (NYSE:THC) stock increased by 17.3% to $233.54 during Friday&#39;s regular session. The market value of their outstanding shares is at $17.4 billion. The company&#39;s, Q2 ea",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60675461/12-health-care-stocks-moving-friday-s-intraday-session",
-   "created_at": "2026-07-24T17:05:38Z",
-   "symbols": [
-    "CDXS",
-    "GDTC",
-    "HOWL",
-    "HYFT",
-    "JUNS"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_2.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "12 Industrials Stocks Moving In Friday's Intraday Session",
-   "summary": "Gainers\n\nQuhuo (NASDAQ:QH) stock rose 18.5% to $5.5 during Friday&#39;s regular session. \nIntercont (Cayman) (NASDAQ:NCT) shares moved upwards by 17.64% to $3.6. The company&#39;s market cap stands at",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60675460/12-industrials-stocks-moving-friday-s-intraday-session",
-   "created_at": "2026-07-24T17:05:38Z",
-   "symbols": [
-    "BIYA",
-    "CISS",
-    "CTNT",
-    "EHGO",
-    "LSH"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_3.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "12 Information Technology Stocks Moving In Friday's Intraday Session",
-   "summary": "Gainers\n\nWearable Devices (NASDAQ:WLDS) shares rose 26.4% to $2.82 during Friday&#39;s regular session. The company&#39;s market cap stands at $4.8 million. \nRingCentral (NYSE:RNG) stock moved upwards",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60675459/12-information-technology-stocks-moving-friday-s-intraday-session",
-   "created_at": "2026-07-24T17:05:38Z",
-   "symbols": [
-    "AMPG",
-    "AMPGZ",
-    "ANY",
-    "CLPS",
-    "FORTY"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_4.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "This Dover Analyst Turns Bulish; Here Are Top 5 Upgrades For Friday",
-   "summary": "Wall Street analysts upgraded DOV and PGR. Find out more on our analyst ratings page.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/analyst-stock-ratings/upgrades/26/07/60675210/this-dover-analyst-turns-bulish-here-are-top-5-upgrades-for-friday",
-   "created_at": "2026-07-24T16:57:43Z",
-   "symbols": [
-    "CLF",
-    "DLR",
-    "DOV",
-    "FLYW",
-    "PGR"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/24/Dover-Corporation.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Surgery Partners Monetizes Idaho Assets As It Chases Faster Growth",
-   "summary": "Surgery Partners rises after agreeing to sell Idaho Falls hospital stakes for $795 million while reaffirming its 2026 outlook",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/asset-sales/26/07/60675140/surgery-partners-monetizes-idaho-assets-as-it-chases-faster-growth",
-   "created_at": "2026-07-24T16:56:15Z",
-   "symbols": [
-    "SGRY"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/24/Surgery-Rates-Fall-Sharply.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Crude Oil Down Over 4%; Verizon Raises Earnings Forecast",
-   "summary": "Dow up 0.20%, NASDAQ down 0.13%, S&amp;P 500 up 0.04%. Real estate shares up 2.3%. Verizon beats earnings, raises guidance. Equities up/down.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/market-summary/26/07/60675119/crude-oil-down-over-4-verizon-raises-earnings-forecast",
-   "created_at": "2026-07-24T16:55:39Z",
-   "symbols": [
-    "CDXS",
-    "MXL",
-    "RBNE",
-    "RNG",
-    "SAFT"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/24/Oil-Pump-In-The-Desert-Of-Bahrain--Middl.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Zevra Therapeutics Stock Down — European Panel Slams Arimoclomol Bid for Niemann-Pick Type C",
-   "summary": "The CHMP issues a negative opinion on Zevra Therapeutics&#39; arimoclomol for Niemann-Pick disease type C, prompting a re-examination request.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/health-care/26/07/60674830/zevra-therapeutics-stock-down-european-panel-slams-arimoclomol-bid-for-niemann-pick-type-c",
-   "created_at": "2026-07-24T16:47:17Z",
-   "symbols": [
-    "ZVRA"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/24/Woman-Hand-Holding-Healthcare-Medical-Ic.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Palmer Luckey's Anduril Explores Funding Round at $100B Valuation",
-   "summary": "Anduril Industries is exploring a new funding round that could value the defense technology startup at roughly $100 billion.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/private-markets/26/07/60674813/palmer-luckeys-anduril-explores-funding-round-at-100b-valuation",
-   "created_at": "2026-07-24T16:47:00Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/24/Santa-Ana--Ca--Usa---May-9--2022-Anduril.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "MicroPort MedBot To Report First-Ever Profit On Booming Exports",
-   "summary": "The medical robot maker expects to report a profit of 28 million yuan to 40 million yuan for the first half of 2026, reversing years of losses\n\n\n\n\n\n\n\nimage credit: Bamboo Works\n\n\n\nKey Takeaways:\n\n\n\n\nM",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/Opinion/26/07/60674717/microport-medbot-to-report-first-ever-profit-in-h1-on-booming-exports",
-   "created_at": "2026-07-24T16:44:48Z",
-   "symbols": [
-    "MDT",
-    "SYK"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/24/24-7-2026-111735-thebambooworks-com.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "T-Mobile’s Stock Recovers After 11% Decline On Mixed Results, Outlook",
-   "summary": "T-Mobile US (TMUS) stock rallies after tanking on Q2 results; KeyBanc and Benchmark analysts cut price targets.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/07/60674581/t-mobile-stock-recovers-11-percent-decline-mixed-results",
-   "created_at": "2026-07-24T16:43:26Z",
-   "symbols": [
-    "TMUS"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/24/Los-Angeles--California--May-20--2024-T-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "SLB Says Energy Security Is Reigniting Global Oil Investment",
-   "summary": "SLB stock surges 10% on Q2 earnings beat, driven by strong North America sales and Digital growth. See full Q2 results &amp; outlook.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/earnings/26/07/60673911/slb-says-energy-security-is-reigniting-global-oil-investment",
-   "created_at": "2026-07-24T16:24:50Z",
-   "symbols": [
-    "SLB"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/24/Stuttgart--Germany---03-09-2023-Person-H.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "What's Going on With Super Micro Computer Stock Friday?",
-   "summary": "Super Micro (SMCI) stock consolidates after a massive 25% AI-driven rally. Read the latest technical setup, support levels, and more.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60674467/whats-going-on-with-super-micro-computer-stock-friday-3",
-   "created_at": "2026-07-24T16:40:18Z",
-   "symbols": [
-    "SMCI"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/24/Super-Micro-Computer--Inc.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "FS.com Rides High-speed AI Networks To Higher Profits",
-   "summary": "The provider of network equipment and solutions has flagged up a jump in first-half earnings, driven by demand for high-density AI computing\n\n\n\n\n\n\n\nimage credit: Bamboo Works\n\n\n\nKey Takeaways:\n\n\n\n\nThe",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/Opinion/26/07/60674425/fs-com-rides-high-speed-ai-networks-to-higher-profits",
-   "created_at": "2026-07-24T16:39:38Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/24/24-7-2026-104347-thebambooworks-com.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Why Is ServiceNow Stock Surging On Friday?",
-   "summary": "ServiceNow stock advances after beating Q2 earnings estimates, raising full-year guidance, and receiving updated Wall Street analyst targets.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60674379/why-is-servicenow-stock-surging-on-friday",
-   "created_at": "2026-07-24T16:38:20Z",
-   "symbols": [
-    "NOW"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/24/Servicenow-Office-Building-At-Their-Head.jpg?width=1024&height=768"
   }
  ]
 }
