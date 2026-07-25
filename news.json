@@ -1,6 +1,21 @@
 {
- "updated": "2026-07-25 21:00",
+ "updated": "2026-07-25 22:00",
  "items": [
+  {
+   "headline": "Benzinga Bulls and Bears: IBM, Super Micro, Tesla",
+   "summary": "Benzinga examined the prospects for many investors’ favorite stocks over the last week — here’s a look at some of our top stories.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/market-summary/26/07/60684165/benzinga-bulls-and-bears-ibm-super-micro-tesla",
+   "created_at": "2026-07-25T12:00:37Z",
+   "symbols": [
+    "ARKK",
+    "GOOG",
+    "IBM",
+    "LUV",
+    "MSFT"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/25/Bulls-and-Bears-1.jpg?width=1024&height=768"
+  },
   {
    "headline": "Elon Musk, Mark Zuckerberg, Satya Nadella Show 'Overwhelming Support' for Open-Weight AI Models as OpenAI, Anthropic Stay Silent",
    "summary": "Elon Musk joined Satya Nadella and Mark Zuckerberg in backing open-weight AI as tech leaders urged U.S. support for open models.",
@@ -200,18 +215,19 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/07/24/Gav-Blaxberg.jpg?width=1024&height=768"
   },
   {
-   "headline": "What's Going on With Broadcom Stock Friday?",
-   "summary": "AVGO trades below its 50-day moving average as momentum neutralizes. See key resistance at $414 and support levels for Broadcom stock.",
+   "headline": "Intel, Tesla, IBM And More: 5 Stocks Investors Couldn't Stop Buzzing About This Week",
+   "summary": "Retail investors talked up five hot stocks during July 20 to July 24 on X and Reddit&#39;s r/WallStreetBets: INTC, TSLA, GOOG, IBM, NOW.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/07/60673102/whats-going-on-with-broadcom-stock-friday-5",
-   "created_at": "2026-07-24T16:01:58Z",
+   "url": "https://www.benzinga.com/markets/equities/26/07/60684194/intel-tesla-ibm-and-more-5-stocks-investors-couldnt-stop-buzzing-about-this-week",
+   "created_at": "2026-07-25T12:30:14Z",
    "symbols": [
-    "AVGO",
-    "SOXQ",
-    "TDIV",
-    "TDVI"
+    "FTNT",
+    "GOOG",
+    "GOOGL",
+    "IBM",
+    "INTC"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/24/Broadcom.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/25/Vinnytsia--Ukraine-April-10--2026--Close.jpg?width=1024&height=768"
   },
   {
    "headline": "Trump Wears a 'Trump 2028' Hat At Correspondents' Dinner, Jokes He's Owed a 'Fourth Term' Over 'Rigged' 2020 Election Claims: 'I'm Pleased To Announce...'",
@@ -483,20 +499,6 @@
     "XMRUSD"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/07/24/Cryptocurrency-Coins-Displaying-XRP--Sol.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "New AI ETF Bets on Healthcare's $9 Trillion Opportunity",
-   "summary": "Tema&#39;s new Healthcare AI ETF (HLTH), targets AI-powered drug discovery, diagnostics, robotics and patient care.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/etfs/new-etfs/26/07/60679617/new-ai-etf-bets-on-healthcares-9-trillion-opportunity",
-   "created_at": "2026-07-24T19:08:09Z",
-   "symbols": [
-    "CYTK",
-    "HLTH",
-    "ILMN",
-    "TXG"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/24/Health-care.jpg?width=1024&height=768"
   }
  ]
 }
