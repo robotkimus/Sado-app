@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-25 22:00",
+ "updated": "2026-07-25 22:40",
  "items": [
   {
    "headline": "Benzinga Bulls and Bears: IBM, Super Micro, Tesla",
@@ -213,6 +213,21 @@
     "MSFT"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/07/24/Gav-Blaxberg.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Benzinga's 'Stock Whisper' Index: 5 Stocks Investors Secretly Monitor But Don't Talk About Yet",
+   "summary": "The Benzinga Stock Whisper Index highlights five stocks seeing increased investor interest during the week and looks at the catalysts driving attention",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/07/60684215/benzingas-stock-whisper-index-5-stocks-investors-secretly-monitor-but-dont-talk-about-yet-119",
+   "created_at": "2026-07-25T13:00:23Z",
+   "symbols": [
+    "AAL",
+    "AGPU",
+    "NOK",
+    "PATH",
+    "PSNY"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/25/Stock-Whisper-Index.jpg?width=1024&height=768"
   },
   {
    "headline": "Intel, Tesla, IBM And More: 5 Stocks Investors Couldn't Stop Buzzing About This Week",
@@ -484,21 +499,6 @@
    "created_at": "2026-07-24T19:24:22Z",
    "symbols": [],
    "image": "https://cdn.benzinga.com/files/images/story/2026/07/24/Claude-AI-Chatbot-By-Anthropic.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Forget Bitcoin, XRP: These 3 Altcoins Are Set Up for Big Moves Right Now",
-   "summary": "Three altcoins to watch as Hyperliquid tests support, Uniswap breaks out and Monero approaches a key technical trigger.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/07/60679707/forget-bitcoin-xrp-these-3-altcoins-are-set-up-for-big-moves-right-now",
-   "created_at": "2026-07-24T19:10:46Z",
-   "symbols": [
-    "BTCUSD",
-    "HYPEUSD",
-    "PURR",
-    "UNIUSD",
-    "XMRUSD"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/24/Cryptocurrency-Coins-Displaying-XRP--Sol.jpg?width=1024&height=768"
   }
  ]
 }
