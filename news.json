@@ -1,6 +1,19 @@
 {
- "updated": "2026-07-25 12:00",
+ "updated": "2026-07-25 13:00",
  "items": [
+  {
+   "headline": "Sam Altman's Eye-Scanning ID Startup World Just Raised $52.5 Million, Even as Nvidia Chip Shortages Slow Its Rollout",
+   "summary": "Sam Altman-backed World raised $52.5 million through a Worldcoin token sale backed by major crypto investors under lockup.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/private-markets/26/07/60683746/sam-altmans-eye-scanning-id-startup-world-just-raised-52-5-million-even-as-nvidia-chip-shortages-slow-its-rollout",
+   "created_at": "2026-07-25T03:54:00Z",
+   "symbols": [
+    "NVDA",
+    "ORBS",
+    "ZM"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/25/Openai-Ceo-Sam-Altman-Attends-The-Artifi.jpg?width=1024&height=768"
+  },
   {
    "headline": "Trump Official Slams Anthropic Days After It Backed White House's Moonshot AI Theft Allegations: 'No AI Company More Hostile to the Warfighter'",
    "summary": "A Trump defense official criticized Anthropic days after it backed White House claims that China&#39;s Moonshot AI stole U.S. AI capabilities.",
@@ -201,17 +214,16 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/07/24/Large-Language-Model-Llm-Processing-Data.jpg?width=1024&height=768"
   },
   {
-   "headline": "This \"BOGO Strategy\" Can Get You 3 Stocks at a Discount",
-   "summary": "Most investors know which stocks they’d like to own. The harder part is deciding when, and at what price, to buy them.\n\n\n\nBuy too soon, and you risk overpaying. Wait too long, and the opportunity may ",
+   "headline": "Trump Defends DOJ's New York Times Reporter Subpoenas as Google Is Drawn Into Air Force One Leak Investigation: 'We're After Leakers'",
+   "summary": "Donald Trump defended the DOJ&#39;s Air Force One leak probe as court filings revealed Google was also subpoenaed.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/opinion/26/07/60672851/this-bogo-strategy-can-get-you-3-stocks-at-a-discount",
-   "created_at": "2026-07-24T15:55:27Z",
+   "url": "https://www.benzinga.com/news/legal/26/07/60683728/trump-defends-dojs-new-york-times-reporter-subpoenas-as-google-is-drawn-into-air-force-one-leak-investigation-were-after-leakers",
+   "created_at": "2026-07-25T03:45:42Z",
    "symbols": [
-    "HCA",
-    "META",
-    "STT"
+    "GOOG",
+    "GOOGL"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/24/Trade-Business-Analytics-Graph-And-Finan.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/25/Washington-Dc--United-States--August-11-.jpg?width=1024&height=768"
   },
   {
    "headline": "Bahrain and Kuwait Reportedly Struck Iran Directly for the First Time— With UAE Providing Intelligence and Air Cover",
@@ -498,26 +510,6 @@
    "created_at": "2026-07-24T18:52:25Z",
    "symbols": [],
    "image": "https://cdn.benzinga.com/files/images/story/2026/07/24/Corsair-Saronic-Pair.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Stripe Eyes OpenRouter in Potential $10 Billion AI Infrastructure Deal",
-   "summary": "Stripe is exploring a potential acquisition of OpenRouter that could value the AI routing platform at nearly $10 billion.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/private-markets/26/07/60678706/stripe-eyes-openrouter-in-potential-10-billion-ai-infrastructure-deal",
-   "created_at": "2026-07-24T18:40:45Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/24/MA-Businessman-Handshake.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "QUICK SPARK: RTX Just Received Its First US Patriot Order in 30 Years",
-   "summary": "RTX received its first domestic GEM-T Patriot production order in more than 30 years as global demand for air defense systems accelerates.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/07/60678424/quick-spark-rtx-just-received-its-first-us-patriot-order-in-30-years",
-   "created_at": "2026-07-24T18:33:14Z",
-   "symbols": [
-    "RTX"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/24/Benzinga-Quick-Spark.jpg?width=1024&height=768"
   }
  ]
 }
