@@ -1,6 +1,21 @@
 {
- "updated": "2026-07-26 14:00",
+ "updated": "2026-07-26 15:00",
  "items": [
+  {
+   "headline": "Demis Hassabis Backs Jensen Huang's AI Vision, Says 'A Strong and Secure Open Ecosystem Is Important' for Global AI Growth",
+   "summary": "Demis Hassabis backs open AI models as Nvidia’s Jensen Huang says the future needs both open and closed frontier AI systems.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/07/60685609/demis-hassabis-backs-jensen-huangs-ai-vision-says-a-strong-and-secure-open-ecosystem-is-important-for-global-ai-growth",
+   "created_at": "2026-07-26T05:48:08Z",
+   "symbols": [
+    "AMZN",
+    "GOOG",
+    "GOOGL",
+    "IBM",
+    "META"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/26/Deepmind-Logo-Displayed-On-A-Smartphone-.jpg?width=1024&height=768"
+  },
   {
    "headline": "Tesla, Intel, Google All Dropped After Earnings - Will Microsoft, Amazon, Meta Follow?",
    "summary": "Top tech stocks like Tesla, Intel, and Google dropped after earnings. So, what will Microsoft, Meta, and Amazon do after results?",
@@ -197,19 +212,22 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/07/24/Los-Angeles--California---July-3-2025-Me.jpg?width=1024&height=768"
   },
   {
-   "headline": "Intel's $90 Billion Wipeout Sparks 20% Crash In These ETFs",
-   "summary": "Intel stock erased a $90 billion rally, sending LINT and INTW ETFs down more than 20% and highlighting the risks of leveraged investing.",
+   "headline": "Hugging Face CEO Urges OpenAI to Release Rogue AI Logs, Commit $100 Million in Compute After Breach",
+   "summary": "Hugging Face CEO urged OpenAI to release breach logs and provide $100 million in compute for cybersecurity research.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/etfs/specialty-etfs/26/07/60676469/intels-90-billion-wipeout-sparks-20-crash-in-these-etfs",
-   "created_at": "2026-07-24T17:36:56Z",
-   "symbols": [
-    "INTC",
-    "INTW",
-    "LINT",
-    "SMH",
-    "SOXL"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/24/Intel.jpg?width=1024&height=768"
+   "url": "https://www.benzinga.com/markets/tech/26/07/60685593/hugging-face-ceo-urges-openai-to-release-rogue-ai-logs-commit-100-million-in-compute-after-breach",
+   "created_at": "2026-07-26T05:39:08Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/26/Openai-Logo-Seen-On-The-Screen-Of-Smartp.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Anthony Scaramucci Says 'There Are Really Two Americas Right Now' as He Warns of Deep Political Divide",
+   "summary": "Scaramucci warns of a growing divide between “two Americas,” saying a leader who addresses populist anger and restores trust could win voters.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/07/60685584/anthony-scaramucci-says-there-are-really-two-americas-right-now-as-he-warns-of-deep-political-divide",
+   "created_at": "2026-07-26T05:38:43Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/26/Washington--Dcusa---April-26--2018-Antho.jpg?width=1024&height=768"
   },
   {
    "headline": "Treasury Sanctions Iranian Financier Babak Zanjani's 'Dot One' Network Over Alleged Sanctions Evasion",
@@ -470,28 +488,6 @@
    "created_at": "2026-07-25T06:16:02Z",
    "symbols": [],
    "image": "https://cdn.benzinga.com/files/images/story/2026/07/25/The-Strait-Of-Hormuz-Pinned-On-A-Map--Ap.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Bahrain and Kuwait Reportedly Struck Iran Directly for the First Time— With UAE Providing Intelligence and Air Cover",
-   "summary": "Bahrain and Kuwait reportedly launched their first direct strikes on Iranian military targets as Gulf tensions sharply escalated.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/07/60683694/bahrain-and-kuwait-reportedly-struck-iran-directly-for-the-first-time-with-uae-providing-intelligence-and-air-cover",
-   "created_at": "2026-07-25T02:31:43Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/25/Fired-Missiles-Fly-To-The-Target--Missil.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Waymo Eyes Uber Exit as Robotaxi Rivalry Heats Up: Report",
-   "summary": "Waymo plans an independent Austin and Atlanta expansion after ending its Uber partnership, reshaping the autonomous ride-hailing landscape.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/07/60683788/waymo-eyes-uber-exit-as-robotaxi-rivalry-heats-up-report",
-   "created_at": "2026-07-25T04:52:16Z",
-   "symbols": [
-    "GOOG",
-    "GOOGL",
-    "UBER"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/25/Phoenix--Arizona---September-1-2022-Auto.jpg?width=1024&height=768"
   }
  ]
 }
