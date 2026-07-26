@@ -1,6 +1,36 @@
 {
- "updated": "2026-07-26 22:00",
+ "updated": "2026-07-26 22:40",
  "items": [
+  {
+   "headline": "Consumer Tech (July 20-24): AI Boom Drives Big Tech Earnings, Oracle Grabs $7B Defense Deal & More",
+   "summary": "Oracle, Salesforce, Nvidia and leading technology companies announce major AI, cloud, defense and semiconductor developments shaping the future of enterprise innovation.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/07/60686015/consumer-tech-july-20-24-ai-boom-drives-big-tech-earnings-oracle-grabs-7b-defense-deal-more",
+   "created_at": "2026-07-26T13:30:08Z",
+   "symbols": [
+    "AMD",
+    "AMKR",
+    "BTCUSD",
+    "CBRS",
+    "CMCSA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/26/Abstract-System-Of-Quantum-Computing--Th.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Intel Layoffs, Musk's Micron Moment, $200 Billion Samsung-Broadcom Pact and More: This Week in Tech",
+   "summary": "This week’s tech roundup covers AI infrastructure deals, chip industry changes, investor warnings and major semiconductor partnerships.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/07/60685961/intel-layoffs-musks-micron-moment-200-billion-samsung-broadcom-pact-and-more-this-week-in-tech",
+   "created_at": "2026-07-26T13:00:28Z",
+   "symbols": [
+    " MU",
+    "AVGO",
+    "INTC",
+    "JPM",
+    "MU"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/26/Intel-Logo-Displayed-On-Blue-Cube.jpg?width=1024&height=768"
+  },
   {
    "headline": "Earnings Volatility Watch: 12 Stocks With Double-Digit Implied Moves This Week",
    "summary": "Apple, Microsoft, Amazon and Meta report this week, but options traders expect bigger swings from Bloom Energy, KLA and 10 other names.",
@@ -187,34 +217,54 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/07/25/Anthropic-Logo-Is-Displayed-On-A-Smartph.jpg?width=1024&height=768"
   },
   {
-   "headline": "Pantera, Bain Bet $52.5M That ‘Proof Of Human’ Will Become The Internet’s Next Infrastructure Layer",
-   "summary": "AI is making intelligence abundant while making authenticated humanity a new market. ",
+   "headline": "Tesla's Q2 Earnings, Musk's Robotaxi Bets, SpaceX Merger on the Horizon and More: This Week in Mobility",
+   "summary": "This week’s Tesla roundup covers earnings, rising FSD adoption, robotaxi competition and renewed speculation about a potential SpaceX merger.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/Opinion/26/07/60682962/pantera-bain-bet-52-5m-that-proof-of-human-will-become-the-internets-next-infrastructure-layer",
-   "created_at": "2026-07-24T21:27:26Z",
+   "url": "https://www.benzinga.com/markets/tech/26/07/60686016/teslas-q2-earnings-musks-robotaxi-bets-spacex-merger-on-the-horizon-and-more-this-week-in-mobility",
+   "created_at": "2026-07-26T13:30:33Z",
    "symbols": [
-    "DOCU",
-    "NVDA",
-    "OKTA",
-    "ORBS",
-    "ZM"
+    "GOOG",
+    "GOOGL",
+    "SPCX",
+    "TSLA",
+    "UBER"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/24/White-Modern-Stylish-Photo-Save-The-Date.png?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/26/Woodbury--Mn--Usa---April-14--2024-Tesla.jpg?width=1024&height=768"
   },
   {
-   "headline": "Oil Broke $100, Alphabet's AI Bill Scares Investors: What Moved Wall Street This Week",
-   "summary": "Brent crude topped $100 as Middle East tensions escalated while Alphabet and Tesla sold off on surging AI spending.",
+   "headline": "Iraq Advances Gas Field Deal With ConocoPhillips, Moves Forward With Mediterranean Pipeline To Bypass Hormuz Risks",
+   "summary": "Iraq Advances Gas Field Deal With ConocoPhillips, Moves Forward With Mediterranean Pipeline To Bypass Hormuz Risks ",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/07/60681323/oil-tops-100-alphabet-tesla-capex-weekly-market-wrap",
-   "created_at": "2026-07-24T20:03:18Z",
+   "url": "https://www.benzinga.com/markets/commodities/26/07/60686004/iraq-advances-gas-field-deal-with-conocophillips-moves-forward-with-mediterranean-pipeline-to-bypass-hormuz-risks",
+   "created_at": "2026-07-26T13:29:22Z",
    "symbols": [
-    "AAPL",
-    "AMZN",
-    "BAC",
-    "COP",
-    "CVX"
+    "BP",
+    "COP"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/24/Alphabet-Company-Logo-On-Screen.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/26/Oil-Prices-Move-Higher.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "US Pauses Iran Strikes Again As Blockade Tightens; Brent Crude Near $97",
+   "summary": "A pause in US strikes, continued blockade pressure, rising oil prices, and fresh Iran–Oman talks reshape the latest US‑Iran crisis dynamics",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/commodities/26/07/60685992/us-pauses-iran-strikes-again-as-blockade-tightens-brent-crude-near-97",
+   "created_at": "2026-07-26T13:26:43Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/26/US-and-Iran-flags-on-a-cracked-backgroun.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Musk's Net Worth Down By More Than $600 Billion as SpaceX, Tesla Woes Mount",
+   "summary": "Elon Musk has seen his net worth plunge by $601 billion as top stocks like SpaceX and Tesla challenges continue their challenges.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/07/60685982/musks-net-worth-down-by-more-than-600-billion-as-spacex-tesla-woes-mount",
+   "created_at": "2026-07-26T13:25:00Z",
+   "symbols": [
+    "MORN",
+    "RKLB",
+    "SPCX",
+    "TSLA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/26/Elon-Musk--The-Ceo-Of-Tesla--Spacex--Pay.jpg?width=1024&height=768"
   },
   {
    "headline": "Bitcoin Holds Ground, Meme Coins Diverge, CLARITY Act Looms Large and More: This Week in Crypto",
@@ -393,69 +443,6 @@
    "created_at": "2026-07-25T18:44:01Z",
    "symbols": [],
    "image": "https://cdn.benzinga.com/files/images/story/2026/07/25/US-and-Iran-flags-on-a-cracked-backgroun.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Micron Stuck in a Bear Market: Will it Rebound or Crash Further?",
-   "summary": "Micron stock has pulled back in the past few weeks and moved into a bear market as analysts remain optimistic about the company",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/07/60685302/micron-stuck-in-a-bear-market-will-it-rebound-or-crash-further",
-   "created_at": "2026-07-25T18:43:16Z",
-   "symbols": [
-    "DRAM",
-    "GOOG",
-    "MU",
-    "SNDK",
-    "TSLA"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/25/Micron-Technology-Office-Campus-In-Silic.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "PayPal Stock Braces for Volatility as Earnings, Buyout Decision Loom",
-   "summary": "PayPal stock is bracing for volatility as its second-quarter earnings and the buyout decision from Stripe and Advent loom",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/07/60685295/paypal-stock-braces-for-volatility-as-earnings-buyout-decision-loom",
-   "created_at": "2026-07-25T18:43:11Z",
-   "symbols": [
-    "PYPL"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/25/PayPal-Logo-And-Sign-In-Front-Of-PayPal-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Bitcoin Price Drops as ETF Outflows Resume Amid CLARITY Act Woes",
-   "summary": "Bitcoin price dropped after hitting a key resistance level as BTC ETF outflows continue and as CLARITY odds drop",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/26/07/60685290/bitcoin-price-drops-as-etf-outflows-resume-amid-clarity-act-woes",
-   "created_at": "2026-07-25T18:43:00Z",
-   "symbols": [
-    "BTCUSD"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/25/Bitcoin-Btc-Virtual-Cryptocurrency-In-Fr.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Behind the Gold Price Drop? Falling ETF Inflows as US Bond Yields Jump",
-   "summary": "Gold price has dropped in the past few days as data shows that top gold ETFs like GLD and IAU are seeing strong outflows",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/commodities/26/07/60685283/behind-the-gold-price-drop-falling-etf-inflows-as-us-bond-yields-jump",
-   "created_at": "2026-07-25T18:42:47Z",
-   "symbols": [
-    "DRAM",
-    "GLD",
-    "GLDM",
-    "IAU"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/25/Digital-Gold-Price-Stock-Market-Trading-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Shiba Inu Fights Back to Top 31: Is It Safe to Buy SHIB Now?",
-   "summary": "Shiba Inu climbs to No. 31 as Coinbase moves 1.16 trillion SHIB internally and signs emerge that selling pressure is easing.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/07/60685257/shiba-inu-fights-back-to-top-31-is-it-safe-to-buy-shib-now",
-   "created_at": "2026-07-25T17:30:28Z",
-   "symbols": [
-    "COIN",
-    "SHIBUSD"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/25/Kaufbeuren--Germany---November-17--2021-.jpg?width=1024&height=768"
   }
  ]
 }
