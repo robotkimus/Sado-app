@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-27 00:00",
+ "updated": "2026-07-27 01:00",
  "items": [
   {
    "headline": "Consumer Tech (July 20-24): AI Boom Drives Big Tech Earnings, Oracle Grabs $7B Defense Deal & More",
@@ -217,6 +217,29 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/07/25/Anthropic-Logo-Is-Displayed-On-A-Smartph.jpg?width=1024&height=768"
   },
   {
+   "headline": "Robinhood Chain Metrics Surge Ahead of HOOD Earnings",
+   "summary": "Third-party data show that the Robinhood Chain metrics are soaring ahead of HOOD&#39;s earnings report.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/earnings/26/07/60686137/robinhood-chain-metrics-surge-ahead-of-hood-earnings",
+   "created_at": "2026-07-26T15:41:47Z",
+   "symbols": [
+    "ADAUSD",
+    "ETHUSD",
+    "HOOD",
+    "SOLUSD"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/26/The-Robinhood-Trade.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "EXCLUSIVE: US-Iran De-Escalation Is the Only Way to Lower Gas Prices, Analyst Says",
+   "summary": "Rising tensions in the US-Iran war will see gas prices surging for the next week or two, according to this analyst.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/commodities/26/07/60686098/exclusive-us-iran-de-escalation-is-the-only-way-to-lower-gas-prices-analyst-says",
+   "created_at": "2026-07-26T15:00:41Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/26/Concept-Of-Geopolitical-Conflict-Between.jpg?width=1024&height=768"
+  },
+  {
    "headline": "Tesla's Q2 Earnings, Musk's Robotaxi Bets, SpaceX Merger on the Horizon and More: This Week in Mobility",
    "summary": "This week’s Tesla roundup covers earnings, rising FSD adoption, robotaxi competition and renewed speculation about a potential SpaceX merger.",
    "source": "benzinga",
@@ -423,26 +446,6 @@
     "XRP"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/07/25/Heres-What-XRP-Would-Have-Returned.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Crypto Trader Sells $2.5M In Ferraris To Buy More Bitcoin",
-   "summary": "Trader Carl Runefelt sold $2.5 million in Ferraris to increase his BTC exposure based on 200-week moving average price analysis. He views current dip as rare accumulation opportunity.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/07/60685348/crypto-trader-sells-2-5m-in-ferraris-to-buy-more-bitcoin",
-   "created_at": "2026-07-25T20:00:14Z",
-   "symbols": [
-    "BTCUSD"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/25/Ferrari-Logo.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "US Pauses Iran Strikes As Hormuz Shipping Plunges 60%; IRGC Claims Attacks On US Aircraft",
-   "summary": "The US military halted strikes against Iran as Oman and Qatar pursue a diplomatic pause to hostilities in the Middle East. \n\n\n\nUS Central Command (CENTCOM) did not announce military operations against",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/events/26/07/60685322/us-pauses-iran-strikes-as-hormuz-shipping-plunges-60-irgc-claims-attacks-on-us-aircraft",
-   "created_at": "2026-07-25T18:44:01Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/25/US-and-Iran-flags-on-a-cracked-backgroun.jpg?width=1024&height=768"
   }
  ]
 }
