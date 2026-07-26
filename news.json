@@ -1,6 +1,21 @@
 {
- "updated": "2026-07-26 17:00",
+ "updated": "2026-07-26 18:00",
  "items": [
+  {
+   "headline": "David Sacks Warns Anthropic Doesn't Want Competition: 'You're Going to Basically Put a Dagger Through the Heart of the Entire American Open Source Ecosystem'",
+   "summary": "Sacks accuses Anthropic of stifling competition in the AI industry, warns against restricting open-source models as it could harm US ecosystem.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/07/60685709/david-sacks-warns-anthropic-doesnt-want-competition-youre-going-to-basically-put-a-dagger-through-the-heart-of-the-entire-american-open-source-ecosystem",
+   "created_at": "2026-07-26T08:46:08Z",
+   "symbols": [
+    "IBM",
+    "META",
+    "MSFT",
+    "NVDA",
+    "PLTR"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/26/Anthropic-logo-with-CEO-Dario-Amodei-in-.jpg?width=1024&height=768"
+  },
   {
    "headline": "Samsung, Broadcom Ink $200 Billion AI Chip Pact Through 2030 as Foundry Race With TSMC Heats Up",
    "summary": "Samsung and Broadcom signed a partnership projected above $200 billion to advance AI chips, memory and semiconductor manufacturing.",
@@ -200,19 +215,31 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/07/24/Nebius-Group.jpg?width=1024&height=768"
   },
   {
-   "headline": "S&P 500 Rises As Oil Sinks On Iran Talk Hopes: Stock Market Today",
-   "summary": "Crude fell about 4% on renewed US-Iran talk hopes, easing yields and fueling a broad rally in real estate, homebuilders and airlines.",
+   "headline": "Bernie Sanders Calls Gulf Monarchs 'Billionaire Dictators,' Says They're Trump's 'Best Friends'",
+   "summary": "Sanders questions Trump&#39;s relationships with Gulf monarchies, calling them billionaire dictators with close ties to the US president.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/07/60677278/stock-market-today-oil-wall-street-nasdaq-dow-sp-friday-rally",
-   "created_at": "2026-07-24T17:59:57Z",
-   "symbols": [
-    "AAOI",
-    "ALAB",
-    "AXP",
-    "BAH",
-    "CHRW"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/24/People-Silhouettes-Over-SP-500-Index.jpg?width=1024&height=768"
+   "url": "https://www.benzinga.com/news/politics/26/07/60685655/billionaire-dictators-trumps-best-friends-bernie-sanders-slams-the-presidents-close-relationships-with-gulf-monarchies",
+   "created_at": "2026-07-26T07:33:02Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/26/President-Donald-Trump-waits-outside-of-.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Mark Cuban Says CEOs are 'Shocked' by Hidden Healthcare Costs, Urges Companies to Use AI to Find Where They Are Being Ripped Off",
+   "summary": "Cuban urges CEOs to use AI tools like ChatGPT and Claude to uncover hidden healthcare costs, arguing companies may be overpaying insurers.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/health-care/26/07/60685693/mark-cuban-says-ceos-are-shocked-by-hidden-healthcare-costs-urges-companies-to-use-ai-to-find-where-they-are-being-ripped-off",
+   "created_at": "2026-07-26T08:17:36Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/26/Los-Angeles---Jan-8-Mark-Cuban-At-The-Sp.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "JD Vance, Joint Chiefs Chairman Warn Trump Against Wider Iran War as US Pauses Airstrikes: Report",
+   "summary": "Vance and Gen. Dan Caine urged Trump to avoid escalating Iran as the U.S. paused strikes and pursued diplomacy.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/07/60685680/jd-vance-joint-chiefs-chairman-warn-trump-against-wider-iran-war-as-us-pauses-airstrikes-report",
+   "created_at": "2026-07-26T07:59:30Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/26/Vice-President-JD-vance-attends-an-event.jpg?width=1024&height=768"
   },
   {
    "headline": "Elon Musk Says Mars Could Shield Humanity From Deadly Pandemics, Rogue AI — And Maybe Even Lead Us to Aliens",
@@ -224,15 +251,6 @@
     "SPCX"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/07/26/Elon-Musk.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "'Billionaire Dictators: Trump’s Best Friends': Bernie Sanders Slams the President’s Close Relationships With Gulf Monarchies",
-   "summary": "Sanders questions Trump&#39;s relationships with Gulf monarchies, calling them billionaire dictators with close ties to the US president.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/07/60685655/billionaire-dictators-trumps-best-friends-bernie-sanders-slams-the-presidents-close-relationships-with-gulf-monarchies",
-   "created_at": "2026-07-26T07:33:06Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/26/President-Donald-Trump-waits-outside-of-.jpg?width=1024&height=768"
   },
   {
    "headline": "Hugging Face CEO Urges OpenAI to Release Rogue AI Logs, Commit $100 Million in Compute After Breach",
@@ -460,30 +478,6 @@
     "PSNY"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/07/25/Stock-Whisper-Index.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Intel, Tesla, IBM And More: 5 Stocks Investors Couldn't Stop Buzzing About This Week",
-   "summary": "Retail investors talked up five hot stocks during July 20 to July 24 on X and Reddit&#39;s r/WallStreetBets: INTC, TSLA, GOOG, IBM, NOW.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/07/60684194/intel-tesla-ibm-and-more-5-stocks-investors-couldnt-stop-buzzing-about-this-week",
-   "created_at": "2026-07-25T12:30:14Z",
-   "symbols": [
-    "FTNT",
-    "GOOG",
-    "GOOGL",
-    "IBM",
-    "INTC"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/25/Vinnytsia--Ukraine-April-10--2026--Close.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Trump Wears a 'Trump 2028' Hat At Correspondents' Dinner, Jokes He's Owed a 'Fourth Term' Over 'Rigged' 2020 Election Claims: 'I'm Pleased To Announce...'",
-   "summary": "President Donald Trump joked about seeking a fourth term while wearing a &#34;Trump 2028&#34; hat at the correspondents&#39; dinner.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/07/60684009/trump-wears-a-trump-2028-hat-at-correspondents-dinner-jokes-hes-owed-a-fourth-term-over-rigged-2020-election-claims-im-pleased-to-announce",
-   "created_at": "2026-07-25T08:22:01Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/25/Washington-dc--United-States--April-14-2.jpg?width=1024&height=768"
   }
  ]
 }
