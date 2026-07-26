@@ -1,6 +1,21 @@
 {
- "updated": "2026-07-27 04:00",
+ "updated": "2026-07-27 04:30",
  "items": [
+  {
+   "headline": "Top Three ETFs to Watch This Week: TQQQ, MAGS, SCHD",
+   "summary": "ETFs are having a strong year, with inflows surpassing $1 trillion and total assets under management steadily approaching the $16 trillion mark. ",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/etfs/sector-etfs/26/07/60686287/top-three-etfs-to-watch-this-week-tqqq-mags-schd",
+   "created_at": "2026-07-26T19:25:34Z",
+   "symbols": [
+    "AAPL",
+    "AMZN",
+    "GOOG",
+    "INTC",
+    "MAGS"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/26/Wall-Street-Sign-With-American-Flag-On-T.jpg?width=1024&height=768"
+  },
   {
    "headline": "Consumer Tech (July 20-24): AI Boom Drives Big Tech Earnings, Oracle Grabs $7B Defense Deal & More",
    "summary": "Oracle, Salesforce, Nvidia and leading technology companies announce major AI, cloud, defense and semiconductor developments shaping the future of enterprise innovation.",
@@ -206,15 +221,13 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/07/25/Openai-Ceo-Sam-Altman-Attends-The-Artifi.jpg?width=1024&height=768"
   },
   {
-   "headline": "Trump Official Slams Anthropic Days After It Backed White House's Moonshot AI Theft Allegations: 'No AI Company More Hostile to the Warfighter'",
-   "summary": "A Trump defense official criticized Anthropic days after it backed White House claims that China&#39;s Moonshot AI stole U.S. AI capabilities.",
+   "headline": "Netanyahu Warns Iran of ‘Forceful’ Response if Attacked as US Pauses Strikes To Give Talks ‘Some Space’",
+   "summary": "Israeli Prime Minister Benjamin Netanyahu warned on Sunday that any Iranian attack on Israel would prompt a powerful military response, whether direct or carried out through proxies.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/07/60683709/trump-official-slams-anthropic-days-after-it-backed-white-houses-moonshot-ai-theft-allegations-no-ai-company-more-hostile-to-the-warfighter",
-   "created_at": "2026-07-25T02:53:50Z",
-   "symbols": [
-    "NVDA"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/25/Anthropic-Logo-Is-Displayed-On-A-Smartph.jpg?width=1024&height=768"
+   "url": "https://www.benzinga.com/news/events/26/07/60686277/netanyahu-warns-iran-of-forceful-response-if-attacked-as-us-pauses-strikes-to-give-talks-some-space",
+   "created_at": "2026-07-26T19:19:30Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/26/Israel-Vs-Iran-war-Crisis---Political-Co.jpg?width=1024&height=768"
   },
   {
    "headline": "Americans Kept Saving For Retirement Even As Markets Got Rocky",
@@ -433,26 +446,6 @@
    "created_at": "2026-07-26T01:46:53Z",
    "symbols": [],
    "image": "https://cdn.benzinga.com/files/images/story/2026/07/26/United-States-President-Donald-Trump-mee.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Crude Oil Trading Isn't Trading Higher Despite Iran and Ukraine Wars",
-   "summary": "Crude oil price is not trading as higher as what analysts would have expected because of the fading China demand and hopes of a deal",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/commodities/26/07/60685408/crude-oil-trading-isnt-trading-higher-despite-iran-and-ukraine-wars",
-   "created_at": "2026-07-25T21:34:59Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/25/Oil-Pump-In-The-Desert-Of-Bahrain--Middl.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Why is Salesforce the Worst-Performing Dow Jones Stock?",
-   "summary": "Salesforce stock has plunged sharply in the past few years and is the top laggard in the Dow Jones Index as growth concerns remain",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/07/60685389/why-is-salesforce-the-worst-performing-dow-jones-stock",
-   "created_at": "2026-07-25T21:34:37Z",
-   "symbols": [
-    "CRM"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/25/Salesforce.jpg?width=1024&height=768"
   }
  ]
 }
