@@ -1,6 +1,21 @@
 {
- "updated": "2026-07-27 07:00",
+ "updated": "2026-07-27 08:00",
  "items": [
+  {
+   "headline": "Top Four Magnificent 7 Stocks to Watch This Week: Apple, Microsoft, Meta, Amazon",
+   "summary": "The top Magnificent 7 stocks to watch this week include popular names like Apple, Microsoft, Meta and Amazon.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/07/60686454/top-four-magnificent-7-stocks-to-watch-this-week-apple-microsoft-meta-amazon",
+   "created_at": "2026-07-26T22:53:43Z",
+   "symbols": [
+    "AAPL",
+    "AMZN",
+    "GOOG",
+    "MAGS",
+    "META"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/26/Bangkok--Thailand---October-22--2023---A.jpg?width=1024&height=768"
+  },
   {
    "headline": "Top Three Catalysts for VOO, QQQ and DIA ETFs This Week",
    "summary": "Here are the top three catalysts that may drive the VOO, QQQ, and DIA ETFs this week, including earnings, Federal Reserve, and US-Iran war.",
@@ -207,19 +222,19 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/07/25/Gradient-Of-Fabric-Usa-American-And-Eu-E.jpg?width=1024&height=768"
   },
   {
-   "headline": "Benzinga Bulls and Bears: IBM, Super Micro, Tesla",
-   "summary": "Benzinga examined the prospects for many investors’ favorite stocks over the last week — here’s a look at some of our top stories.",
+   "headline": "BitMine Nearing Inflection Point as Ethereum Buying Nears Key Target",
+   "summary": "BitMine stock is nearing an inflection point as Ethereum buying nears its important target of 6 million ETH tokens.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/market-summary/26/07/60684165/benzinga-bulls-and-bears-ibm-super-micro-tesla",
-   "created_at": "2026-07-25T12:00:37Z",
+   "url": "https://www.benzinga.com/markets/equities/26/07/60686464/bitmine-nearing-inflection-point-as-ethereum-buying-nears-key-target",
+   "created_at": "2026-07-26T22:56:14Z",
    "symbols": [
-    "ARKK",
-    "GOOG",
-    "IBM",
-    "LUV",
-    "MSFT"
+    "BMNR",
+    "BTCUSD",
+    "ETHUSD",
+    "MSTR",
+    "ORBS"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/25/Bulls-and-Bears-1.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/26/Eth-Coin-With-Blurred-Candlestick-Chart-.jpg?width=1024&height=768"
   },
   {
    "headline": "Rocket Lab Stock Has Plunged 60% From YTD High",
@@ -429,15 +444,6 @@
     "SPCX"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/07/26/Elon-Musk.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Hugging Face CEO Urges OpenAI to Release Rogue AI Logs, Commit $100 Million in Compute After Breach",
-   "summary": "Hugging Face CEO urged OpenAI to release breach logs and provide $100 million in compute for cybersecurity research.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/07/60685593/hugging-face-ceo-urges-openai-to-release-rogue-ai-logs-commit-100-million-in-compute-after-breach",
-   "created_at": "2026-07-26T05:39:08Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/26/Openai-Logo-Seen-On-The-Screen-Of-Smartp.jpg?width=1024&height=768"
   }
  ]
 }
