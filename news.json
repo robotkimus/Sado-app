@@ -1,6 +1,21 @@
 {
- "updated": "2026-07-26 19:00",
+ "updated": "2026-07-26 20:00",
  "items": [
+  {
+   "headline": "Samsung Cuts US Jobs, Tariff Wars Escalate and More: This Week in Economics",
+   "summary": "This week’s economic roundup covers Samsung layoffs, tariff disputes, oil markets, regulatory shifts, and global trade developments.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/macro-economic-events/26/07/60685788/samsung-cuts-us-jobs-tariff-wars-escalate-and-mamdani-taps-big-tech-critic-lina-khan-this-week-in-economics",
+   "created_at": "2026-07-26T10:00:18Z",
+   "symbols": [
+    "AMZN",
+    "BNO",
+    "META",
+    "SPY",
+    "SSNLF"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/26/Mamdani-Floats-Tax-Hike-Plan.jpg?width=1024&height=768"
+  },
   {
    "headline": "Iran War Escalates, Political Divides Deepen and Streaming Giants Face World Cup Roadblock and More: This Week in Politics",
    "summary": "This week’s political roundup covers Iran tensions, Trump’s statements, Treasury sanctions, and debates over media rights.",
@@ -200,20 +215,6 @@
     "META"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/07/24/Large-Language-Model-Llm-Processing-Data.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Intel Slides Despite Strong Quarter as Street Weighs $20 Billion Capex Plan",
-   "summary": "Intel posted its strongest revenue growth in 15 years, but INTC stock fell as a $20 billion capex plan and negative free cash flow spooked investors.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/prediction-markets/26/07/60678955/intel-slides-despite-strong-quarter-as-street-weighs-20-billion-capex-plan",
-   "created_at": "2026-07-24T18:47:29Z",
-   "symbols": [
-    "AMD",
-    "GOOGL",
-    "INTC",
-    "NVDA"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/24/New-York-City--New-York---September-18-2.jpg?width=1024&height=768"
   },
   {
    "headline": "Bernie Sanders Calls Gulf Monarchs 'Billionaire Dictators,' Says They're Trump's 'Best Friends'",
@@ -455,15 +456,6 @@
     "KKR"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/07/25/Alaska-Pipeline-Near-Delta-Junction-With.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Saudi-Led Coalition Strikes Houthi Targets In Response to Militia Attacks; Energy Markets Brace for Volatility",
-   "summary": "Saudi Arabia issued emergency alerts after Houthi missile attacks on Jazan and Yanbu, disrupting Red Sea shipping and adding fresh volatility to global energy markets as tankers divert and crude price",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/commodities/26/07/60684338/saudi-led-coalition-strikes-houthi-targets-in-response-to-militia-attacks-energy-markets-brace-for-volatility",
-   "created_at": "2026-07-25T14:57:48Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/25/Iran-Proposal-Mentioned.jpg?width=1024&height=768"
   }
  ]
 }
