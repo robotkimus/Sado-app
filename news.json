@@ -1,6 +1,17 @@
 {
- "updated": "2026-07-27 17:00",
+ "updated": "2026-07-27 18:00",
  "items": [
+  {
+   "headline": "Former Microsoft President Jeff Raikes Says AI Could Create a 'Talent Debt' by Replacing Entry-Level Work",
+   "summary": "Former Microsoft President Jeff Raikes warns AI could create a talent debt by weakening critical thinking and worker development.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/07/60688069/former-microsoft-president-jeff-raikes-says-ai-could-create-a-talent-debt-by-replacing-entry-level-work",
+   "created_at": "2026-07-27T08:06:23Z",
+   "symbols": [
+    "MSFT"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/27/AI-Trends.jpg?width=1024&height=768"
+  },
   {
    "headline": "Kevin O'Leary Says 'Fear of China, Not Politics' Will Bring North America Together as AI, Energy and Critical Minerals Competition Intensifies",
    "summary": "O&#39;Leary predicts competition with China will bring North America closer together economically despite political differences.",
@@ -201,19 +212,33 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/07/26/Mamdani-Floats-Tax-Hike-Plan.jpg?width=1024&height=768"
   },
   {
-   "headline": "Iran War Escalates, Political Divides Deepen and Streaming Giants Face World Cup Roadblock and More: This Week in Politics",
-   "summary": "This week’s political roundup covers Iran tensions, Trump’s statements, Treasury sanctions, and debates over media rights.",
+   "headline": "Kalshi Traders See Democrats Sweeping the White House and Congress in 2028, Give GOP Just 20% Odds",
+   "summary": "Kalshi now gives Democrats a 49% chance of sweeping the White House and Congress in 2028, more than double of a Republican sweep.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/07/60685724/iran-war-escalates-political-divides-deepen-and-streaming-giants-face-world-cup-roadblock-this-week-in-politics",
-   "created_at": "2026-07-26T09:00:22Z",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/07/60688239/kalshi-traders-see-democrats-sweeping-the-white-house-and-congress-in-2028-give-gop-just-20-odds",
+   "created_at": "2026-07-27T08:52:43Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/27/Democrats.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Sam Altman Shuts Down Hopes of an AI-Led 4-Day Workweek Anytime Soon: 'Competition Drives the Economy'",
+   "summary": "Sam Altman says AI will boost productivity but won&#39;t bring a four-day workweek as people always find more work to do.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/07/60688184/sam-altman-shuts-down-hopes-of-an-ai-led-4-day-workweek-anytime-soon-competition-drives-the-economy",
+   "created_at": "2026-07-27T08:42:00Z",
    "symbols": [
-    "AMZN",
-    "CMCSA",
-    "DIS",
-    "FOXA",
-    "NFLX"
+    "JPM"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/26/United-States-Of-America-Vs-Iran---Crack.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/27/Sam-Altman.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Richard Blumenthal Questions Whether Taylor Farms' Trump Donations Weakened CDC Response to Cyclospora Outbreak",
+   "summary": "Richard Blumenthal questions whether Taylor Farms&#39; Trump donations weakened the CDC&#39;s Cyclospora response.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/health-care/26/07/60688131/richard-blumenthal-questions-whether-taylor-farms-trump-donations-weakened-cdc-response-to-cyclospora-outbreak",
+   "created_at": "2026-07-27T08:23:48Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/27/CDC.jpg?width=1024&height=768"
   },
   {
    "headline": "Former Netflix Exec Sues After Losing a $1.1 Million Job, Says Medically Prescribed Ketamine Disclosure Led to His Firing",
@@ -457,47 +482,6 @@
    "created_at": "2026-07-27T03:08:09Z",
    "symbols": [],
    "image": "https://cdn.benzinga.com/files/images/story/2026/07/27/President-Of-The-United-States-Donald-Tr.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Peter Schiff Warns Japan Could Be the Pin That Pricks an 'Even Bigger' US Bubble",
-   "summary": "Peter Schiff warns Japan&#39;s debt crisis could trigger the next global meltdown as the &#34;pin that pricks our bubble.&#34;",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/economic-data/26/07/60686917/peter-schiff-japan-us-market-bubble-warning",
-   "created_at": "2026-07-27T02:29:07Z",
-   "symbols": [
-    "FXY"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/27/An-Image-Of-A-Japanese-Money-5-000-Yen-N.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Bitcoin, Ethereum, XRP, Dogecoin Rise as US-Iran Hold Off Strikes: Analyst Says 'Very Likely' Bottom is in, Bets Most on This Coin",
-   "summary": "Leading cryptocurrencies lifted late on Sunday, July 26, alongside stock futures as investors weighed the pause in hostilities between the U.S. and Iran.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/07/60686873/bitcoin-ethereum-xrp-dogecoin-us-iran-ceasefire-crypto-bottom",
-   "created_at": "2026-07-27T01:51:45Z",
-   "symbols": [
-    "BMNR",
-    "BTCUSD",
-    "DOGEUSD",
-    "ETHUSD",
-    "MSTR"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/27/Cryptocurrency-Bitcoin-Coin-Over-Tablet-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "BitMine Nearing Inflection Point as Ethereum Buying Nears Key Target",
-   "summary": "BitMine stock is nearing an inflection point as Ethereum buying nears its important target of 6 million ETH tokens.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/07/60686464/bitmine-nearing-inflection-point-as-ethereum-buying-nears-key-target",
-   "created_at": "2026-07-26T22:56:14Z",
-   "symbols": [
-    "BMNR",
-    "BTCUSD",
-    "ETHUSD",
-    "MSTR",
-    "ORBS"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/26/Eth-Coin-With-Blurred-Candlestick-Chart-.jpg?width=1024&height=768"
   }
  ]
 }
