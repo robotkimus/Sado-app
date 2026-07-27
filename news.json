@@ -1,6 +1,21 @@
 {
- "updated": "2026-07-27 10:00",
+ "updated": "2026-07-27 11:00",
  "items": [
+  {
+   "headline": "Nvidia Reportedly Moves to Backstop $250 Billion in OpenAI Data Center Financing, Michael Burry Says, 'Around and Around We Go'",
+   "summary": "Michael Burry and Ed Zitron questioned Nvidia&#39;s reported $250 billion financing backstop for OpenAI, warning of rising AI bubble risks.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/07/60686864/nvidia-openai-data-center-financing-michael-burry",
+   "created_at": "2026-07-27T01:50:59Z",
+   "symbols": [
+    "GOOG",
+    "GOOGL",
+    "MSFT",
+    "NVDA",
+    "SFTBF"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/27/Porto--Portugal---October-28th--2024--Si.jpg?width=1024&height=768"
+  },
   {
    "headline": "Top Four Magnificent 7 Stocks to Watch This Week: Apple, Microsoft, Meta, Amazon",
    "summary": "The top Magnificent 7 stocks to watch this week include popular names like Apple, Microsoft, Meta and Amazon.",
@@ -208,18 +223,19 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/07/25/Jamie-Dimon-Speaks-During-Ceremony-For-F.jpg?width=1024&height=768"
   },
   {
-   "headline": "Trump Slams EU’s Billion‑Dollar Tech Penalties Targeting US Companies",
-   "summary": "US President Donald Trump has warned the European Union (EU) that it will &#34;pay a very big price&#34; for fining American tech companies.  \n\n\n\n&#34;The European Union is at it again and, as usual, ",
+   "headline": "Bitcoin, Ethereum, XRP, Dogecoin Rise as US-Iran Hold Off Strikes: Analyst Says 'Very Likely' Bottom is in, Bets Most on This Coin",
+   "summary": "Leading cryptocurrencies lifted late on Sunday, July 26, alongside stock futures as investors weighed the pause in hostilities between the U.S. and Iran.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/07/60684362/trump-slams-eus-billion%e2%80%91dollar-tech-penalties-targeting-us-companies",
-   "created_at": "2026-07-25T14:58:27Z",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/07/60686873/bitcoin-ethereum-xrp-dogecoin-us-iran-ceasefire-crypto-bottom",
+   "created_at": "2026-07-27T01:51:45Z",
    "symbols": [
-    "AAPL",
-    "AMZN",
-    "GOOGL",
-    "META"
+    "BMNR",
+    "BTCUSD",
+    "DOGEUSD",
+    "ETHUSD",
+    "MSTR"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/25/Gradient-Of-Fabric-Usa-American-And-Eu-E.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/27/Cryptocurrency-Bitcoin-Coin-Over-Tablet-.jpg?width=1024&height=768"
   },
   {
    "headline": "BitMine Nearing Inflection Point as Ethereum Buying Nears Key Target",
@@ -433,17 +449,6 @@
    "created_at": "2026-07-26T07:59:30Z",
    "symbols": [],
    "image": "https://cdn.benzinga.com/files/images/story/2026/07/26/Vice-President-JD-vance-attends-an-event.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Elon Musk Says Mars Could Shield Humanity From Deadly Pandemics, Rogue AI — And Maybe Even Lead Us to Aliens",
-   "summary": "Elon Musk argues that Mars can serve as a buffer against Earth threats, with SpaceX&#39;s goal to make space travel accessible to all.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/07/60685670/elon-musk-mars-humanity-shield-pandemics-rogue-ai",
-   "created_at": "2026-07-26T07:52:24Z",
-   "symbols": [
-    "SPCX"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/26/Elon-Musk.jpg?width=1024&height=768"
   }
  ]
 }
