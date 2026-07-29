@@ -1,6 +1,17 @@
 {
- "updated": "2026-07-29 13:00",
+ "updated": "2026-07-29 14:00",
  "items": [
+  {
+   "headline": "Microsoft Earnings ‘Don’t Matter,’ Says Gene Munster Because 'Battle With the Bots' Just Beginning, Analyst Sounds 'Value Trap' Warning",
+   "summary": "Gene Munster said Microsoft&#39;s earnings are secondary to its AI battle, warning the stock could become a &#34;value trap.&#34;",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/07/60749172/microsoft-stock-earnings-gene-munster-ai-bots-value-trap-warning",
+   "created_at": "2026-07-29T04:34:59Z",
+   "symbols": [
+    "MSFT"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/29/Microsoft-Logo-Displayed.jpg?width=1024&height=768"
+  },
   {
    "headline": "Trump Administration Bans New Chinese AI Robots and Power Inverters Over National Security Fears: 'These Devices Could Create Supply Chain Vulnerabilities'",
    "summary": "The Trump administration banned new Chinese AI robots and power inverters over national security and cybersecurity concerns.",
@@ -195,19 +206,63 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/07/28/In-This-Photo-The-Logo-Of-Microsoft-Is-D.jpg?width=1024&height=768"
   },
   {
-   "headline": "SK Hynix, SanDisk Crash 15% as CXMT Frenzy Sparks Worst KOSPI Selloff — Memory ETFs Face Fresh Test",
-   "summary": "SK Hynix and Samsung plunged as China&#39;s CXMT IPO intensified memory-chip competition fears, putting ETFs exposed to the memory market under pressure.",
+   "headline": "Dogecoin, Shiba Inu Wins 'Good for Every Legitimate Meme Project,' Says Analyst: 'Ecosystem Has a Better Chance of Winning'",
+   "summary": "Cryptocurrency commentator David Gokhshtein said on Tuesday that strong performance from Dogecoin and would boost the broader memecoin ecosystem.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/etfs/sector-etfs/26/07/60724276/sk-hynix-sandisk-crash-15-as-cxmt-frenzy-sparks-worst-kospi-selloff-memory-etfs-face-fresh-test",
-   "created_at": "2026-07-28T13:24:40Z",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/07/60749136/dogecoin-shiba-inu-meme-coin-ecosystem-analyst",
+   "created_at": "2026-07-29T04:21:22Z",
    "symbols": [
-    "DRAM",
-    "MU",
-    "NVDA",
-    "RAM",
-    "SKHY"
+    "BTCUSD",
+    "DOGEUSD",
+    "ETHUSD",
+    "SHIBUSD",
+    "ZECUSD"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/28/National-Flag-Of-South-Korea-On-Satin--D.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/29/Hand-Or-Fingers-Picking-Shiba-Coin-Group.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Betting Against Elon Musk's SpaceX Has Cleared More Than $7 Billion, Says Research Firm",
+   "summary": "Shorting SpaceX has cleared over $7 billion for short-sellers, making it the second most profitable company to short this year.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/07/60749087/short-sellers-profits-spacex-research-firm-betting-elon-musk-7-billion",
+   "created_at": "2026-07-29T04:16:12Z",
+   "symbols": [
+    "SPCX",
+    "TSLA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/29/Spacex-Logo-On-A-Mobile-Phone-Screen-Wit.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Tilray Brands (TLRY) Stock Is Trending: Here's What You Should Know",
+   "summary": "Tilray Brands shares jumped 2.23% after hours as quarterly revenue beat estimates, despite earnings per share missing expectations.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/07/60749077/tilray-brands-tlry-stock-is-trending-heres-what-you-should-know",
+   "created_at": "2026-07-29T04:14:59Z",
+   "symbols": [
+    "TLRY"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/29/Cannabis-Rally.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Mike Johnson’s Defense of Failed Congressional Stock Trading Ban Challenged by Thomas Massie: 'Political Gimmick' With a 'Poison Pill'",
+   "summary": "Thomas Massie criticized Mike Johnson over the failed stock trading ban vote, saying GOP leaders added a “poison pill” by including voter ID.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/07/60749063/mike-johnson-thomas-massie-congressional-stock-trading-ban",
+   "created_at": "2026-07-29T04:10:03Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/29/shutterstock-2586169413.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Gary Black Warns Tesla Stock Could Break Below $300, SpaceX Below $100 As AI Valuations Come Under Pressure",
+   "summary": "Gary Black sees Tesla below $300 and SpaceX under $100, calling both stocks excessively valued as AI valuations unwind.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/07/60749040/gary-black-tesla-spacex-stock-price-ai-valuation-pressure",
+   "created_at": "2026-07-29T04:04:40Z",
+   "symbols": [
+    "SPCX",
+    "TSLA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/29/New-York--Usa--20-Mar-2025-Selective-Foc.jpg?width=1024&height=768"
   },
   {
    "headline": "Trump 'Exploiting' Crypto's Legal Loopholes and Enforcement Weakness, Says Richard Blumenthal: Demands First Family Divest All Digital Assets",
@@ -457,59 +512,6 @@
     "F"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/07/28/Sunnyvale--Ca--Usa---Nov-22--2023-Ford-L.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Seagate Stock Rallies After Q4 Earnings: Record Cash Flow, Strong Margins",
-   "summary": "Here&#39;s a detailed look inside the Q4 earnings report from Seagate Technology.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/earnings/26/07/60745085/seagate-stock-rallies-after-q4-earnings-record-cash-flow-strong-margins",
-   "created_at": "2026-07-28T20:24:24Z",
-   "symbols": [
-    "STX"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/28/Seagate-Logo-Is.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "OpenAI, Anthropic Workers Sound Alarm on AI Risks as Companies Race Toward Next-Gen Models",
-   "summary": "Employees at OpenAI and Anthropic have started a petition asking the U.S. government to support a system to help slow down AI development.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/private-markets/26/07/60744967/openai-anthropic-workers-sound-alarm-on-ai-risks-as-companies-race-toward-next-gen-models",
-   "created_at": "2026-07-28T20:21:34Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/28/Artificial-Intelligence-ai-machine-Learn.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Bloom Energy Blows Past Q2 Estimates, Shares Jump",
-   "summary": "Bloom Energy reports financial results for the second quarter on Tuesday after the closing bell. Here&#39;s a rundown of the report.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/earnings/26/07/60744590/bloom-energy-blows-past-q2-estimates-shares-jump",
-   "created_at": "2026-07-28T20:17:09Z",
-   "symbols": [
-    "BE"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/28/Bloom-Energy-Logo-At-Their-Headquarters-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Gaxos.ai (GXAI) Stock Slides Tuesday: What's Driving the Action?",
-   "summary": "Shares of Gaxos.ai are trading lower Tuesday afternoon, underperforming the broader market despite the company outlining a post-divestiture operational strategy and posting strong first-quarter revenu",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60743784/gaxos-ai-gxai-stock-slides-tuesday-whats-driving-the-action",
-   "created_at": "2026-07-28T20:08:50Z",
-   "symbols": [
-    "GXAI"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/28/A-Detailed-Stock-Market-Chart-Featuring-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Stock of the Day: Where Will the Autodesk Rally End?",
-   "summary": "Autodesk (ADSK) shares are overbought and approaching a possible resistance level. This means there is a chance he rally ends.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/technicals/26/07/60743253/stock-of-the-day-where-will-the-autodesk-rally-end",
-   "created_at": "2026-07-28T20:04:58Z",
-   "symbols": [
-    "ADSK"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/28/Autodesk--Inc.jpg?width=1024&height=768"
   }
  ]
 }
