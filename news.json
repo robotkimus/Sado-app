@@ -1,6 +1,21 @@
 {
- "updated": "2026-07-30 11:00",
+ "updated": "2026-07-30 12:00",
  "items": [
+  {
+   "headline": "Meta Platforms, Qualcomm, Robinhood, Microsoft and Chipotle: Why These 5 Stock Are on Investors' Radars Today",
+   "summary": "Major U.S. indices ended the session lower, with the Dow Jones Industrial Average falling 2.19% to 51,594.14.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/07/60786380/meta-platforms-qualcomm-robinhood-microsoft-and-chipotle-why-these-5-stock-are-on-investors-radars-today",
+   "created_at": "2026-07-30T02:06:58Z",
+   "symbols": [
+    "CMG",
+    "HOOD",
+    "META",
+    "MSFT",
+    "QCOM"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/30/A-Detailed-Stock-Market-Chart-Featuring-.jpg?width=1024&height=768"
+  },
   {
    "headline": "Congressman Makes First Stock Trade in Office: Here’s The Magnificent Seven Name He Sold",
    "summary": "A congressman made his first public stock trade since taking office. The sale may be surprising to some.",
@@ -182,19 +197,32 @@
    "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/aggregated_options_2.jpg?width=1024&height=768"
   },
   {
-   "headline": "QUICK SPARK: Google, Amazon, Nvidia Among 2026's Top 10 Most-Shorted Stocks",
-   "summary": "Investors are making bearish bets on hyperscalers and key chipmakers this year, pushing these stocks into the market’s most-shorted ranks.",
+   "headline": "Samsung Stock Jumps Over 6% In Seoul as AI Memory Business Delivers Record Profit: 'Supply Constraints' Expected to Continue",
+   "summary": "Samsung shares rose after record Q2 operating profit beat estimates as AI memory demand offset weakness in its mobile business.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/07/60771518/quick-spark-google-amazon-nvidia-among-2026s-top-10-most-shorted-stocks",
-   "created_at": "2026-07-29T17:25:23Z",
+   "url": "https://www.benzinga.com/markets/earnings/26/07/60786499/samsung-stock-ai-memory-record-profit-supply-constraints",
+   "created_at": "2026-07-30T02:22:39Z",
    "symbols": [
-    "AMZN",
-    "AVGO",
-    "GOOG",
-    "GOOGL",
-    "META"
+    "MU",
+    "SKHY",
+    "SSNLF"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/29/Benzinga-Quick-Spark.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/30/Modern-Office-Building-With-Large-Samsun.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Bitcoin, Ethereum, XRP, Dogecoin Flat as US Resumes Iran Strikes: 'Whales Are Buying the Dip,' Says This Analyst",
+   "summary": "Leading cryptocurrencies traded flat, while stocks sold off on Wednesday , July 29, as investors digested the Federal Reserve’s policy decision and renewed Middle East hostilities.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/07/60786391/bitcoin-ethereum-xrp-dogecoin-iran-strikes-whales-buy-dip",
+   "created_at": "2026-07-30T02:10:05Z",
+   "symbols": [
+    "BMNR",
+    "BTCUSD",
+    "DOGEUSD",
+    "ETHUSD",
+    "MSTR"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/30/Cryptocurrency--Focus-Bitcoin-On-Tablet-.jpg?width=1024&height=768"
   },
   {
    "headline": "Trump Orders Strikes on Iran After Missile Attack: Dow Futures Gain 94 Points, Brent Hovers Near $90",
@@ -455,26 +483,6 @@
     "IREN"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/07/29/Konskie--Poland---August-03--2025-Bloom-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "T3 Defense Stock Soars: What's Driving the Micro-Cap Surge?",
-   "summary": "T3 Defense shares are trading higher by over 80% on Wednesday as traders keep chasing a low-float squeeze setup after the company’s recent reverse split.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60777925/t3-defense-stock-soars-whats-driving-the-micro-cap-surge",
-   "created_at": "2026-07-29T19:54:26Z",
-   "symbols": [
-    "DFNS"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/29/A-Detailed-Stock-Market-Chart-Featuring-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Kraken Valuation Takes Hit: Secondary Market Investors Mark Down Crypto Exchange Ahead of Public Debut",
-   "summary": "Kraken’s long-awaited push toward an IPO is facing a new test: private investors appear to be cooling on the exchange’s valuation.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/private-markets/26/07/60777875/kraken-valuation-takes-hit-secondary-market-investors-mark-down-crypto-exchange-ahead-of-public-debut",
-   "created_at": "2026-07-29T19:52:42Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/29/Dhaka--Bangladesh-13-Dec-2024kraken-Is-C.jpg?width=1024&height=768"
   }
  ]
 }
