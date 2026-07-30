@@ -1,6 +1,34 @@
 {
- "updated": "2026-07-30 15:00",
+ "updated": "2026-07-30 16:00",
  "items": [
+  {
+   "headline": "Intel Gives Little-Known Stealth Startup Access to Atom Chip Technology in Deal Linked to CEO Lip-Bu Tan’s Former Business Partner: Report",
+   "summary": "Intel reportedly gave startup RosaicLabs rare access to its Atom chip technology, signalling a potential shift in its licensing strategy.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/07/60787498/intel-atom-chip-stealth-startup-lip-bu-tan-report",
+   "created_at": "2026-07-30T06:45:41Z",
+   "symbols": [
+    "INTC",
+    "META",
+    "QCOM"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/30/Intel-Logo-Displayed-On-A-Smartphone-Scr.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Dow Records Worst Session Since April 2025; Investor Sentiment Weakens, Greed Index Remains In ‘Fear’ Zone",
+   "summary": "The CNN Money Fear and Greed index showed a sharp decline in market sentiment as stocks fell and oil prices rose due to US-Iran tensions.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/market-summary/26/07/60787300/dow-records-worst-session-since-april-2025-investor-sentiment-weakens-greed-index-remains-in-fear-zone",
+   "created_at": "2026-07-30T06:20:05Z",
+   "symbols": [
+    "AAPL",
+    "AMZN",
+    "BMY",
+    "GD",
+    "KLAC"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/30/Fear-and-Greed.jpg?width=1024&height=768"
+  },
   {
    "headline": "Apple, Microsoft And 3 Stocks To Watch Heading Into Thursday",
    "summary": "U.S. stock futures trading higher, focus on Apple, Microsoft, Amazon earnings. Meta posts mixed results, Bristol-Myers Squibb to release earnings.",
@@ -172,30 +200,84 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/07/29/Artificial-Intelligence--Electronic-Chip.jpg?width=1024&height=768"
   },
   {
-   "headline": "Apple Could Swing $170 Billion In Value After Earnings",
-   "summary": "Apple Inc., Mastercard Inc., and The Southern Company all reported earnings, with the options market predicting a 3.04-3.79% move in their stock prices.",
+   "headline": "A Phone? Glasses? A Pin?  Prediction Markets Buzzing About Jony Ive and OpenAI's First Device",
+   "summary": "OpenAI&#39;s first hardware device is speculated to be a clip-on device, earbuds/headphones, necklace, computer, phone, or glasses.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/options/26/07/60777143/apple-could-swing-170-billion-in-value-after-earnings",
-   "created_at": "2026-07-29T19:31:13Z",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/07/60787623/a-phone-glasses-a-pin-prediction-markets-buzzing-about-jony-ive-and-openais-first-device",
+   "created_at": "2026-07-30T06:53:16Z",
    "symbols": [
-    "AAPL",
-    "AMZN",
-    "BMY",
-    "MA",
-    "MO"
+    "AAPL"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/29/Quarterly-Results-Sales-Profits-Earnings.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/30/Brooklyn--Ny--Usa--11-22-20-Sam-Altman-A.jpg?width=1024&height=768"
   },
   {
-   "headline": "Dan Ives Says Even Nvidia's 'Third-Rate' Chips Beat Huawei",
-   "summary": "Dan Ives says Nvidia remains years ahead of Huawei, arguing even the company&#39;s lower-end AI chips outperform China&#39;s leading domestic alternative.",
+   "headline": "Corcept Therapeutics (CORT) Stock Soars 22% After Hours: Here's What You Need To Know",
+   "summary": "Corcept Therapeutics shares soared 21.95% after hours as strong quarterly results and raised guidance boosted investor confidence.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/07/60776960/dan-ives-says-even-nvidias-third-rate-chips-beat-huawei",
-   "created_at": "2026-07-29T19:26:02Z",
+   "url": "https://www.benzinga.com/markets/equities/26/07/60787510/corcept-therapeutics-shares-surge-after-hours-q2-results-raised-guidance",
+   "created_at": "2026-07-30T06:48:53Z",
    "symbols": [
-    "NVDA"
+    "CORT"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/29/Shanghai-china-march-15th-2026-Nvidia-Br.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/30/Finger-To-The-Graph-On-The-Monitor--Team.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Gary Black Pegs TSLA's Fair Value at $312, Says 'Don't Fall in Love With the Stock'",
+   "summary": "Investor Gary Black says his buying price for Tesla would be below $300, reaffirming concerns with the EV maker&#39;s valuation.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/07/60787487/gary-black-pegs-tsla-fair-value-at-312",
+   "created_at": "2026-07-30T06:44:56Z",
+   "symbols": [
+    "GOOG",
+    "GOOGL",
+    "SPCX",
+    "TSLA",
+    "UBER"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/30/Kaunas--Lithuania-2022---April-14-Tesla-.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Robinhood’s AI Trading Agents Have Over 100,000 Users— but CEO Vlad Tenev Admits the Models Sometimes ‘Fights You’ When Asked to Trade",
+   "summary": "Robinhood CEO Vlad Tenev says AI agents are gaining users fast, but the models sometimes &#34;fight you&#34; on trade requests.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/07/60787475/robinhoods-ai-trading-agents-have-over-100000-users-but-ceo-vlad-tenev-admits-the-models-sometimes-fights-you-when-asked-to-trade",
+   "created_at": "2026-07-30T06:43:29Z",
+   "symbols": [
+    "HOOD"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/30/Proprietary-Firm-Day-Trader-Surprised-By.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Inovio Stock Falls 21% After Hours: Here's What's Going On",
+   "summary": "Inovio stock fell after hours after pricing a $20 million public offering of common stock and warrants.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/07/60787434/inovio-stock-after-hours",
+   "created_at": "2026-07-30T06:31:49Z",
+   "symbols": [
+    "INO",
+    "PIPR"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/30/Financial-Market-Crash-Concept-With-Red-.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Scott Bessent Hits Iran-Backed Maritime Network With Sanctions, Says US Won’t Let Tehran 'Hold Global Commerce Hostage'",
+   "summary": "Treasury sanctions Iran-linked firms over an alleged IRGC shipping scheme as Scott Bessent accuses Tehran of using global commerce to fund aggression.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/07/60787288/scott-bessent-iran-sanctions-treasury-global-commerce",
+   "created_at": "2026-07-30T06:15:20Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/30/January-16--2025---Washington-Dc-The-Sen.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Li Bang Stock Plunges 23% After Hours: Here's What's Going On",
+   "summary": "Li Bang stock fell after hours after the company announced a 1-for-200 reverse stock split to maintain Nasdaq listing compliance.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/07/60787265/li-bang-stock-falls",
+   "created_at": "2026-07-30T06:08:24Z",
+   "symbols": [
+    "LBGJ"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/30/Stock-Market-Graph-Trading-Analysis-Inve.jpg?width=1024&height=768"
   },
   {
    "headline": "Mastercard Gears Up For Q2 Print; Here Are The Recent Forecast Changes From Wall Street's Most Accurate Analysts",
@@ -341,121 +423,6 @@
     "ARES"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/07/29/Private-Credit-Fund-Financing-Money-Loan.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "FormFactor Stock Surges on Better-Than-Expected Q2 Earnings",
-   "summary": "FormFactor Inc (NASDAQ:FORM) shares are rising in extended trading Wednesday after the company posts better-than-expected results for the second quarter and issued strong guidance.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60784410/formfactor-stock-surges-on-better-than-expected-q2-earnings",
-   "created_at": "2026-07-29T21:18:29Z",
-   "symbols": [
-    "FORM"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/29/Chips--semiconductor-shutterstock-219855.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Warsh Triggers Market Roller-Coaster As Hawkish Inflation Vow Hits Stocks",
-   "summary": "Kevin Warsh kept rates unchanged, but his rejection of a &#34;soft&#34; inflation target and new approach to Fed communication sent stocks, bonds, gold and the dollar swinging.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/economic-data/26/07/60784249/warsh-fed-market-reactions-meeting-wednesday-july-29",
-   "created_at": "2026-07-29T21:13:27Z",
-   "symbols": [
-    "SPY"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/29/Federal-Reserve-Chair-Kevin-Warsh-Delive.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Arm Delivers a Record Q1 — Earnings, Revenues Beat Estimates (CORRECTED)",
-   "summary": "Here&#39;s a look inside the Q1 earnings report from Arm Holdings.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/earnings/26/07/60782135/arm-delivers-a-record-q1-earnings-revenues-beat-estimates",
-   "created_at": "2026-07-29T21:11:18Z",
-   "symbols": [
-    "ARM"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/29/Arm-Company-Logo-Seen-On-Stm32-Microchip.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "L3Harris Shares Slip Despite Q2 Earnings Beat: Details",
-   "summary": "Here&#39;s a detailed look inside the Q2 earnings report from L3Harris Technologies.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/earnings/26/07/60784052/l3harris-shares-slip-despite-q2-earnings-beat-details",
-   "created_at": "2026-07-29T21:07:55Z",
-   "symbols": [
-    "LHX"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/29/Konskie--Poland---November-19--2024-L3ha.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "12 Consumer Discretionary Stocks Moving In Wednesday's After-Market Session",
-   "summary": "Gainers\n\nLinkage Global (NASDAQ:UZX) stock increased by 9277.8% to $21.25 during Wednesday&#39;s after-market session. The market value of their outstanding shares is at $14.4 million. \nDigital Curren",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60783918/12-consumer-discretionary-stocks-moving-wednesday-s-after-market-session",
-   "created_at": "2026-07-29T21:06:05Z",
-   "symbols": [
-    "CHDN",
-    "COUR",
-    "CVNA",
-    "CWH",
-    "DCX"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_3.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "12 Health Care Stocks Moving In Wednesday's After-Market Session",
-   "summary": "Gainers\n\nNuwellis (NASDAQ:NUWE) stock rose 40.2% to $2.65 during Wednesday&#39;s after-market session. \nOnconetix (NASDAQ:ONCO) shares moved upwards by 27.46% to $0.96. The company&#39;s market cap st",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60783917/12-health-care-stocks-moving-wednesday-s-after-market-session",
-   "created_at": "2026-07-29T21:06:04Z",
-   "symbols": [
-    "ASBP",
-    "BDRX",
-    "CORT",
-    "CTXR",
-    "INO"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_3.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "12 Industrials Stocks Moving In Wednesday's After-Market Session",
-   "summary": "Gainers\n\nZenta Group Co (NASDAQ:ZTG) stock rose 13.1% to $3.1 during Wednesday&#39;s after-market session. The market value of their outstanding shares is at $31.2 million. \nPN Smart Energy (NASDAQ:PN",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60783916/12-industrials-stocks-moving-wednesday-s-after-market-session",
-   "created_at": "2026-07-29T21:06:04Z",
-   "symbols": [
-    "AGRZ",
-    "ATXG",
-    "CLVT",
-    "CMPR",
-    "CRE"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_1.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "12 Information Technology Stocks Moving In Wednesday's After-Market Session",
-   "summary": "Gainers\n\nT3 Defense (NASDAQ:DFNS) shares moved upwards by 88.0% to $94.42 during Wednesday&#39;s after-market session. The market value of their outstanding shares is at $24.2 million. \nPorch Group (N",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60783915/12-information-technology-stocks-moving-wednesday-s-after-market-session",
-   "created_at": "2026-07-29T21:06:04Z",
-   "symbols": [
-    "AIXI",
-    "DFNS",
-    "FCUV",
-    "FICO",
-    "FIEE"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_4.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Lam Research Stock Rises on Q4 Earnings Beat, Strong Outlook",
-   "summary": "Lam Research Corp (NASDAQ:LRCX) reports strong results for the fourth quarter of fiscal 2026 after the closing bell on Wednesday.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/earnings/26/07/60783767/lam-research-stock-rises-on-q4-earnings-beat-strong-outlook",
-   "created_at": "2026-07-29T21:03:18Z",
-   "symbols": [
-    "LRCX"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/29/Lam-Research-Corp.jpg?width=1024&height=768"
   }
  ]
 }
