@@ -1,6 +1,47 @@
 {
- "updated": "2026-07-30 14:00",
+ "updated": "2026-07-30 15:00",
  "items": [
+  {
+   "headline": "Apple, Microsoft And 3 Stocks To Watch Heading Into Thursday",
+   "summary": "U.S. stock futures trading higher, focus on Apple, Microsoft, Amazon earnings. Meta posts mixed results, Bristol-Myers Squibb to release earnings.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/07/60787028/apple-microsoft-and-3-stocks-to-watch-heading-into-thursday-2",
+   "created_at": "2026-07-30T05:34:13Z",
+   "symbols": [
+    "AAPL",
+    "AMZN",
+    "BMY",
+    "META",
+    "MSFT"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/30/Cupertino--California--September-25--202.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Mark Zuckerberg Says Can't Rely on Open Source AI Models Right Now: 'We Think That There's Some Risk…'",
+   "summary": "Meta CEO Mark Zuckerberg says the company won&#39;t rely on open-source AI models right now despite backing open-source AI.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/earnings/26/07/60786995/mark-zuckerberg-open-source-ai-models-risk-meta-stock-pops",
+   "created_at": "2026-07-30T05:30:51Z",
+   "symbols": [
+    "CRWD",
+    "IBM",
+    "META",
+    "MSFT",
+    "NVDA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/30/Mark-Zuckerberg.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Microsoft’s AI CapEx Is Surging, but CFO Amy Hood Says the Company Can Hit the Brakes on GPU Spending if Demand Cools: ‘You Just Slow Down’",
+   "summary": "MSFT says its surging AI spending remains flexible, allowing it to slow GPU investments if demand cools while continuing to expand capacity.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/earnings/26/07/60786971/microsoft-stock-ai-capex-amy-hood-gpu-spending-surges-after-hours",
+   "created_at": "2026-07-30T05:25:43Z",
+   "symbols": [
+    "MSFT"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/30/Milan--Italy--June-1--2024-Microsoft-Sig.jpg?width=1024&height=768"
+  },
   {
    "headline": "China Says US Humanoid Robot Ban 'Severely Damages' Relations—Here's How It Could Affect Elon Musk's Optimus: 'China Makes Half…'",
    "summary": "Chinese authorities criticize Trump&#39;s restrictions on foreign humanoid robots, saying it damages trade relations.",
@@ -157,44 +198,26 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/07/29/Shanghai-china-march-15th-2026-Nvidia-Br.jpg?width=1024&height=768"
   },
   {
-   "headline": "Hims & Hers May Face FTC Lawsuit for Allegedly Sharing Sensitive User Data With Advertisers: Report",
-   "summary": "The FTC is suing Hims &amp; Hers for allegedly sharing user health data with advertisers and engaging in deceptive billing practices.",
+   "headline": "Mastercard Gears Up For Q2 Print; Here Are The Recent Forecast Changes From Wall Street's Most Accurate Analysts",
+   "summary": "Mastercard (MA) to report Q2 earnings on July 30, analysts expect $4.78 EPS and $9.08B revenue. Recently announced collaboration with VEON to expand financial services. Stock rose 0.1% to $563.32. See",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/news/legal/26/07/60776021/hims-hers-face-ftc-lawsuit-allegedly-sharing-sensitive-user-data-with-advertisers",
-   "created_at": "2026-07-29T19:06:00Z",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/07/60787163/mastercard-gears-up-for-q2-print-here-are-the-recent-forecast-changes-from-wall-streets-most-accurate-analysts-2",
+   "created_at": "2026-07-30T05:55:10Z",
    "symbols": [
-    "HIMS",
-    "META",
-    "SNAP"
+    "MA"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/29/Hims--Hers.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/30/Mahmutlar--Turkey---June-01--2019-Master.jpg?width=1024&height=768"
   },
   {
-   "headline": "Apple Q3 Preview: Stock Hits All-Time Highs, Will Earnings Justify the Momentum?",
-   "summary": "Apple stock hits all-time highs ahead of Q3 earnings. Here&#39;s a look at what analysts are saying and top items to watch ahead of the report.",
+   "headline": "Digital Currency X Technology (DCX) Stock Rallies Over 31% After Hours: Here's What Is Going On",
+   "summary": "Digital Currency X shares jumped over 31% after hours following a $20 million AI education platform investment agreement.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/previews/26/07/60775030/apple-q3-preview-stock-hits-all-time-highs-will-earnings-justify-the-momentum",
-   "created_at": "2026-07-29T18:45:39Z",
+   "url": "https://www.benzinga.com/markets/equities/26/07/60787017/digital-currency-x-shares-jump-after-hours-20-million-ai-platform-deal",
+   "created_at": "2026-07-30T05:33:06Z",
    "symbols": [
-    "AAPL",
-    "DIA",
-    "QQQ",
-    "SPY"
+    "DCX"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/29/Apple-Ceo-Tim-Cook-Smiles-And-Claps-Duri.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Nvidia's Next AI Upgrade Could Be Better Storage, Seagate Says",
-   "summary": "Seagate says smarter storage architecture can help reduce recomputation, freeing Nvidia GPUs for additional AI workloads and efficiency.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/07/60774387/nvidias-next-ai-upgrade-could-be-better-storage-seagate-says",
-   "created_at": "2026-07-29T18:30:22Z",
-   "symbols": [
-    "NVDA",
-    "SKHY",
-    "STX"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/29/Seagate-Logo-Is.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/30/Concept-Of-Stock-Market-And-Fintech--Blu.jpg?width=1024&height=768"
   },
   {
    "headline": "Robinhood CEO Vlad Tenev Says Trump Administration Crypto-Friendly, But Regulatory Clarity Needed So That the Floor Doesn't Shift 'Every Four Years'",
@@ -433,61 +456,6 @@
     "LRCX"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/07/29/Lam-Research-Corp.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "If You Invested $1000 In Sony Group Stock 10 Years Ago, You Would Have This Much Today",
-   "summary": "Sony Group (NYSE:SONY) has outperformed the market over the past 10 years by 1.01% on an annualized basis producing an average annual return of 13.97%. Currently, Sony Group has a market capitalizatio",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/07/60783651/if-you-invested-1000-sony-group-stock-10-years-ago-you-would-have-much-today",
-   "created_at": "2026-07-29T21:01:25Z",
-   "symbols": [
-    "SONY"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_3.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Why Teladoc Stock is Getting Crushed Wednesday After Hours",
-   "summary": "Teladoc stock is sinking Wednesday after the company reported Q2 results and updated guidance. Here are the key figures to know.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/earnings/26/07/60783579/why-teladoc-stock-is-getting-crushed-wednesday-after-hours",
-   "created_at": "2026-07-29T21:00:42Z",
-   "symbols": [
-    "TDOC"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/29/Doctor-Looking-At-Human-Teeth-X-ray.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Chipotle Stock Rips Higher After Q2 Earnings — Here's Why",
-   "summary": "Here&#39;s a look inside the Q2 earnings report from Chipotle Mexican Grill.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/earnings/26/07/60783019/chipotle-stock-rips-higher-after-q2-earnings-heres-why",
-   "created_at": "2026-07-29T20:47:48Z",
-   "symbols": [
-    "CMG"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/29/San-Francisco--Ca--Usa---May-1--2022-Chi.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Carvana's Q2 Collision: Stock Tumbles Despite Earnings Beat",
-   "summary": "Carvana Co (NYSE:CVNA) reports second-quarter financial results after the market close on Wednesday. Here&#39;s a rundown of the report.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/earnings/26/07/60782871/carvanas-q2-collision-stock-tumbles-despite-earnings-beat",
-   "created_at": "2026-07-29T20:43:22Z",
-   "symbols": [
-    "CVNA"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/29/Carvana.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Fortinet Stock Soars on Q2 Results, Guidance: What Investors Need to Know",
-   "summary": "Fortinet stock is trading higher Wednesday. Here&#39;s why.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/earnings/26/07/60782672/fortinet-stock-soars-on-q2-results-guidance-what-investors-need-to-know",
-   "created_at": "2026-07-29T20:40:08Z",
-   "symbols": [
-    "FTNT"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/29/Konskie--Poland---November-18--2024-Fort.jpg?width=1024&height=768"
   }
  ]
 }
