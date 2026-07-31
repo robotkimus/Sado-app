@@ -1,6 +1,49 @@
 {
- "updated": "2026-07-31 18:00",
+ "updated": "2026-07-31 19:00",
  "items": [
+  {
+   "headline": "Apple Stock Is Sinking Friday: What's Going On?",
+   "summary": "Apple drops 7% premarket after Q3 earnings beat. Analysts highlight Siri AI rollout, China demand, and memory cost risks.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/07/60830088/apple-stock-is-sinking-friday-whats-going-on",
+   "created_at": "2026-07-31T09:50:27Z",
+   "symbols": [
+    "AAPL",
+    "BABA",
+    "BIDU",
+    "META",
+    "OEF"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/31/Apple-Inc.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Stock Market Today: S&P 500, Dow Jones Futures Rise After Cooler June PCE Inflation Data—Apple, Amazon, Coinbase in Focus",
+   "summary": "U.S. stock futures rose on Friday, as the Dow Jones, S&amp;P 500, and Nasdaq 100 indices advanced, following Thursday&#39;s higher close.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/07/60829644/stock-market-today-sp-500-dow-jones-futures-rise-after-cooler-june-pce-inflation-data-apple-amazon-coinbase-in-focus",
+   "created_at": "2026-07-31T09:13:45Z",
+   "symbols": [
+    "AAPL",
+    "AMZN",
+    "BTCUSD",
+    "COIN",
+    "MSTR"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/31/Wall-Street-New-York-Stock-Exchange.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Bernie Sanders Mocks Meta CEO Mark Zuckerberg Over Potential $10.5 Billion Tax Bill in California: 'How Will He Survive?'",
+   "summary": "Bernie Sanders says California&#39;s billionaire tax could fund healthcare while raising billions from Mark Zuckerberg.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/07/60829469/bernie-sanders-california-billionaire-wealth-tax-zuckerberg",
+   "created_at": "2026-07-31T08:57:34Z",
+   "symbols": [
+    "AMZN",
+    "META",
+    "PLTR"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/31/New-York--Ny---April-5--2019-Democratic-.jpg?width=1024&height=768"
+  },
   {
    "headline": "TSMC Is Reportedly Developing Advanced Chip Packaging Tech to Challenge Intel's Dominance",
    "summary": "TSMC is reportedly developing EMIB-like chip packaging, potentially challenging Intel&#39;s edge as Nvidia evaluates EMIB.",
@@ -172,46 +215,73 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/07/31/Amazon-Bets-On-Streaming--Not-Theaters.jpg?width=1024&height=768"
   },
   {
-   "headline": "Trump's DOT Introduces Changes to 'Accelerate' AV Deployment, Directs NHTSA to Grant Zoox Temporary Exemption",
-   "summary": "Trump admin changes DOT regulations for AV development, grants Amazon&#39;s Zoox exemption as NHTSA updates deployment guidance.",
+   "headline": "Trump Hails 'Historic' Hamas Disarmament Agreement as Israel Remains Skeptical",
+   "summary": "Trump said the Board of Peace reached a historic Gaza disarmament agreement, though Israel and Hamas have yet to fully endorse it.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/07/60827752/trumps-dot-introduces-changes-to-accelerate-av-deployment-directs-nhtsa-to-grant-zoox-temporary-exemption",
-   "created_at": "2026-07-31T05:54:16Z",
-   "symbols": [
-    "AMZN",
-    "GOOG",
-    "GOOGL",
-    "TSLA"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/31/Zoox.jpg?width=1024&height=768"
+   "url": "https://www.benzinga.com/news/politics/26/07/60830033/trump-board-of-peace-gaza-disarmament-roadmap-israel-hamas",
+   "created_at": "2026-07-31T09:44:50Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/31/President-Donald-Trump-waits-outside-of-.jpg?width=1024&height=768"
   },
   {
-   "headline": "Gary Black Says Meta Stock Could Mirror Alphabet's Post-Earnings Recovery: Here's Why the Analyst Calls Google 'The Better Business'",
-   "summary": "Gary Black says Meta&#39;s post-earnings selloff could mirror Alphabet&#39;s rebound as investors look past guidance and one-time items.",
+   "headline": "Ukraine's Envoy to US Warns Kyiv Can't Wait Years for Defenses as Russian Attacks Intensify, Says 'We Need the Missiles' Before Winter",
+   "summary": "Ukraine needs urgent anti-ballistic missiles before winter as Russia intensifies attacks. Domestic production takes too long.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/07/60827677/gary-black-meta-stock-alphabet-recovery-google-business",
-   "created_at": "2026-07-31T05:33:52Z",
+   "url": "https://www.benzinga.com/news/politics/26/07/60830023/ukraines-envoy-to-us-warns-kyiv-cant-wait-years-for-defenses-as-russian-attacks-intensify-says-we-need-the-missiles-before-winter",
+   "created_at": "2026-07-31T09:43:01Z",
+   "symbols": [
+    "LMT",
+    "RTX"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/31/Rockets-In-The-Winter-Forest--Ground-to-.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Trump Administration Unveils $874 Million CHIPS Act AI Push, With GlobalFoundries Securing Top Award",
+   "summary": "Trump administration unveils $874 million CHIPS Act funding for AI chips, led by GlobalFoundries and advanced computing firms.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/07/60830001/trump-administration-unveils-874-million-chips-act-ai-push-with-globalfoundries-securing-top-award",
+   "created_at": "2026-07-31T09:38:04Z",
+   "symbols": [
+    "GFS",
+    "IBM",
+    "INFQ",
+    "QBTS",
+    "RGTI"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/31/Konskie--Poland---January-22--2024-Globa.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Apple's Services Slowdown Has a Weird Culprit: No F1 Movie This Year",
+   "summary": "Apple&#39;s Services division slowed in fiscal Q3 due to currency effects &amp; lack of blockbuster F1 movie release. CFO explains on earnings call.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/07/60829738/apples-services-slowdown-has-a-weird-culprit-no-f1-movie-this-year",
+   "created_at": "2026-07-31T09:22:00Z",
+   "symbols": [
+    "AAPL"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/31/Formula-One-Lenovo-Grand-Prix-Du-Canada-.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "After the H-1B Fee Attempt, Trump Is Now Reportedly Weighing a $100,000 Charge on International Graduates Who Want to Stay and Work in US",
+   "summary": "Trump administration is considering a $100K OPT fee for international graduates.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/education/26/07/60829541/trump-administration-100k-opt-fee-international-students-report",
+   "created_at": "2026-07-31T09:08:00Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/31/Hug--Graduation-And-Graduate--Women-And-.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Reddit Stock Tumbles as CEO Says Google Search Referrals Were 'Choppy,' Pushes Users to Its App",
+   "summary": "Reddit pushes users beyond Google Search after CEO says referrals turned &#34;choppy,&#34; sending shares down 10% after earnings.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/earnings/26/07/60829501/reddit-stock-tumbles-as-ceo-pushes-users-to-app-amid-choppy-google-search-referrals",
+   "created_at": "2026-07-31T09:02:20Z",
    "symbols": [
     "GOOG",
     "GOOGL",
-    "META"
+    "RDDT"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/31/Penang--Malaysia---18-Dec-2021-Meta-Plat.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Cathie Wood Snaps Up $14.3 Million of Meta Stock After Post-Earnings Selloff, Ark Sheds Caterpillar Shares",
-   "summary": "Ark Invest added to its Meta stake on Thursday, July 30, 2026 as the stock slid on earnings.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/etfs/broad-u-s-equity-etfs/26/07/60827179/cathie-wood-snaps-up-14-3-million-of-meta-stock-after-post-earnings-selloff-ark-sheds-caterpillar-shares",
-   "created_at": "2026-07-31T03:10:19Z",
-   "symbols": [
-    "ARKF",
-    "ARKK",
-    "ARKW",
-    "CAT",
-    "META"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/31/Palantir--Teradyne--Caterpillar--NXP-Sem.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/31/Reddit-Inc.jpg?width=1024&height=768"
   },
   {
    "headline": "Trump's Iran War Support Collapses to 28% as GOP Voters Turn Sour Over Rising Gas Prices, Lack of Transparency: 'Buried Into This Mess...'",
@@ -311,86 +381,6 @@
     "ZECUSD"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/07/31/Telegram-App-Logo-On-Smartphone-Screen-W.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "AutoNation Gears Up For Q2 Print; Here Are The Recent Forecast Changes From Wall Street's Most Accurate Analysts",
-   "summary": "AutoNation, Inc (NYSE: AN) will release Q2 earnings on July 31. Analysts expect $5.46 EPS and $7B revenue. Stock fell 6.7%. Analysts have mixed ratings.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/07/60828148/autonation-gears-up-for-q2-print-here-are-the-recent-forecast-changes-from-wall-streets-most-accurate-analysts",
-   "created_at": "2026-07-31T06:31:49Z",
-   "symbols": [
-    "AN"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/31/Konskie--Poland---March-16--2024-Autonat.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Elon Musk Dismisses Report Tesla Could Sell Chinese Business for SpaceX Merger: 'Absurdly Fake News'",
-   "summary": "Tesla CEO Elon Musk has slammed rumors of a potential Chinese business sale, says it has never been discussed.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/07/60828099/elon-musk-dismisses-report-tesla-could-sell-chinese-business-for-spacex-merger-absurdly-fake-news",
-   "created_at": "2026-07-31T06:25:44Z",
-   "symbols": [
-    "SPCX",
-    "TSLA"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/31/Elon-Musk-is-a-businessman-known-for-his.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Kustom Entertainment (KUST) Stock is Trending Overnight — Here's Why it Spiked Over 53% in After-Hours Session",
-   "summary": "Kustom Entertainment shares surged after hours as elevated short interest and improved Cycurion deal terms drew investor attention.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/07/60828098/kustom-entertainment-shares-surge-after-hours-short-interest-cycurion-deal",
-   "created_at": "2026-07-31T06:25:41Z",
-   "symbols": [
-    "CYCU",
-    "KUST"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/31/Investors-Analyze-The-Data-Stock-Market-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Elon Musk Won't 'Forget' About Mars—But Will SpaceX Land There Before 2030? Prediction Market Bets Reveal This",
-   "summary": "Elon Musk&#39;s compensation package for SpaceX includes the target establishing a permanent human colony on Mars.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/prediction-markets/26/07/60827904/elon-musk-wont-forget-about-mars-but-will-spacex-land-there-before-2030-prediction-market-bets-reveal-this",
-   "created_at": "2026-07-31T06:08:01Z",
-   "symbols": [
-    "SPCX"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/31/Paris--France---February-3--2026-A-Horiz.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "iPhone Prices to Go up as Memory Chip Costs Keep Climbing? Tim Cook Says Apple Is 'Evaluating All Options'",
-   "summary": "Apple is evaluating options as rising memory costs pressure its business, while iPhone prices remain unchanged for now.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/07/60827845/apple-stock-slide-tim-cook-memory-costs-rising",
-   "created_at": "2026-07-31T05:57:03Z",
-   "symbols": [
-    "AAPL",
-    "SKHY"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/31/AAPL-Price-Action-Apple-shares-were-down.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Myriad Genetics Stock Drops Sharply After Hours: What Investors Need to Know",
-   "summary": "Myriad Genetics stock fell after hours after weak Q2 results, lower guidance and an operating loss.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/07/60827699/myriad-genetics-stock-second-quarter-results",
-   "created_at": "2026-07-31T05:48:38Z",
-   "symbols": [
-    "MYGN"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/31/Stock-Market-Crash-Background-With-Falli.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Splash Beverage Group (SBEV) Stock Is Trending Overnight— Here's Why It Jumped 64% After Hours",
-   "summary": "Splash Beverage Group shares climbed 64.10% after hours following expansion of its CannEpil license into veterinary applications.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/07/60827687/splash-beverage-group-shares-climb-after-hours-cannepil-veterinary-expansion",
-   "created_at": "2026-07-31T05:35:27Z",
-   "symbols": [
-    "SBEV"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/31/Concept-Of-Stock-Market-And-Fintech--Blu.jpg?width=1024&height=768"
   }
  ]
 }
