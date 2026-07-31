@@ -1,6 +1,35 @@
 {
- "updated": "2026-07-31 16:00",
+ "updated": "2026-07-31 17:00",
  "items": [
+  {
+   "headline": "Amazon Already Knows What 2028 Looks Like: CEO Andy Jassy Says the Demand Is 'Striking' as AWS Races to Add Capacity",
+   "summary": "Amazon CEO Andy Jassy says the company already sees &#34;striking&#34; AI demand for 2028 as it expands infrastructure.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/earnings/26/07/60828608/amazon-andy-jassy-aws-ai-demand-capacity-2028",
+   "created_at": "2026-07-31T07:27:51Z",
+   "symbols": [
+    "AMZN",
+    "MU",
+    "SKHY",
+    "SNDK"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/31/Greenwood---Circa-July-2019-Amazon-Recei.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Nasdaq Jumps Over 600 Points as MSFT Shares Surge: Investor Sentiment Improves, but Greed Index Remains in 'Fear' Zone",
+   "summary": "Improvement in market sentiment according to CNN Money Fear and Greed index. Dow Jones gains 600+ points, while Nasdaq ends losing streak.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/market-summary/26/07/60828427/nasdaq-jumps-over-600-points-as-msft-shares-surge-investor-sentiment-improves-but-greed-index-remains-in-fear-zone",
+   "created_at": "2026-07-31T07:07:17Z",
+   "symbols": [
+    "CL",
+    "CVX",
+    "META",
+    "MSFT",
+    "XOM"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/31/Market-sentiment---Fear-and-Greed.jpg?width=1024&height=768"
+  },
   {
    "headline": "SK Hynix Stock Just Hit Its Daily Limit in South Korea for the First Time Ever, Surging Nearly 30% as Asian Chip Stocks Recover",
    "summary": "SK Hynix shares hit their first-ever daily price limit with a nearly 30% surge, while the U.S.-listed ADR gained after hours.",
@@ -185,34 +214,60 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/07/30/Amazon-logo-on-building.jpg?width=1024&height=768"
   },
   {
-   "headline": "Microsoft's AI Pivot Could Be Bigger Win for AI Infrastructure ETFs Than OpenAI Bets",
-   "summary": "Microsoft’s multi-model AI strategy can benefit AI infrastructure, cloud computing and semiconductor ETFs.",
+   "headline": "Rivian CEO Explains Why Chinese EV Makers Are So Hard to Beat: 'The Capital Cost Is Zero'",
+   "summary": "Rivian CEO explains why it&#39;s hard to compete with Chinese auto companies due to their lower cost structure.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/etfs/sector-etfs/26/07/60819982/microsofts-ai-pivot-could-be-bigger-win-for-ai-infrastructure-etfs-than-openai-bets",
-   "created_at": "2026-07-30T20:02:58Z",
+   "url": "https://www.benzinga.com/markets/tech/26/07/60828701/rivian-ceo-explains-why-chinese-ev-makers-are-so-hard-to-beat-the-capital-cost-is-zero",
+   "created_at": "2026-07-31T07:47:28Z",
    "symbols": [
-    "AIQ",
-    "AMD",
-    "AMZN",
-    "AVGO",
-    "DRAM"
+    "RIVN",
+    "UBER"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/30/New-York--Usa---July-17--2025-Microsoft-.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/31/Rivian-Logo-Is-Displayed-On-A-Smartphone.jpg?width=1024&height=768"
   },
   {
-   "headline": "Samsung Profits Surge 1300%; 30-Year Bond Yield Highest Since 2007; Momo's Favorite Semi ETF Loses 70%",
-   "summary": "\n\n\n\nEgypt Fear\n\n\n\nPlease click here for an enlarged chart of Direxion Daily Semiconductor Bull 3X ETF (NYSE:SOXL).\n\n\n\nNote the following:\n\n\n\n\nSemiconductors are the leading sector that drove the stock",
+   "headline": "Citadel Buys AI Fund Situational Awareness' Portfolio After Forced Unwind: Ross Gerber Says 'Leverage Will Kill and Bury You'",
+   "summary": "Citadel reportedly bought most of AI fund Situational Awareness&#39; portfolio, sparking debate after its Fed hike call. ",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/Opinion/26/07/60818678/samsung-profits-surge-1300-percent-30-year-bond-yield-highest-since-2007-momos-favorite-semi-etf-loses-70",
-   "created_at": "2026-07-30T19:35:14Z",
+   "url": "https://www.benzinga.com/markets/hedge-funds/26/07/60828689/citadel-deal-for-ai-fund-situational-awareness-draws-focus-to-surprise-rate-hike-call",
+   "created_at": "2026-07-31T07:45:47Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/31/Kyiv--Ukraine---February-23--2021-In-Thi.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Brian Armstrong Isn't Losing Sleep Over Crypto Act Not Passing Before August Recess: Here's Why the Coinbase CEO Isn't Worried",
+   "summary": "Coinbase Global Inc. CEO Brian Armstrong said on Thursday, July 30, that he&#39;s optimistic about the Clarity Act&#39;s prospects, but stressed it would be “business as usual” for the company even if",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/07/60828664/brian-armstrong-crypto-act-august-recess-coinbase",
+   "created_at": "2026-07-31T07:37:42Z",
    "symbols": [
-    "AAPL",
-    "AMZN",
     "BTCUSD",
-    "GLD",
-    "GOOG"
+    "COIN",
+    "ZECUSD"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/30/Samsung-Korean-Electronics.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/31/Coinbase-Logo-Displayed-On-A-Smartphone-.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "T. Rowe Price Likely To Report Higher Q2 Earnings; These Most Accurate Analysts Revise Forecasts Ahead Of Earnings Call",
+   "summary": "T. Rowe Price Group (TROW) to release Q2 earnings on July 31 with expected EPS of $2.52/share and revenue of $1.92B. Analysts have mixed ratings.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/07/60828387/t-rowe-price-likely-to-report-higher-q2-earnings-these-most-accurate-analysts-revise-forecasts-ahead-of-earnings-call",
+   "created_at": "2026-07-31T07:01:59Z",
+   "symbols": [
+    "TROW"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/31/Analyst-Woman-Working-With-Information-D.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Apple Underestimated Its Own Customers: AAPL CEO Tim Cook Blames 'Demand Forecast Issue' for Q4 Supply Bottlenecks",
+   "summary": "Apple underestimated its customers. Outgoing CEO Tim Cook blames a &#39;demand forecast issue&#39; for Q4 supply bottlenecks despite record Q3 beat.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/earnings/26/07/60828386/apple-underestimated-its-own-customers-aapl-ceo-tim-cook-blames-demand-forecast-issue-for-q4-supply-bottlenecks",
+   "created_at": "2026-07-31T07:01:49Z",
+   "symbols": [
+    "AAPL"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/31/Tim-Cook-Apple.jpg?width=1024&height=768"
   },
   {
    "headline": "Lear Earnings Are Imminent; These Most Accurate Analysts Revise Forecasts Ahead Of Earnings Call",
@@ -420,26 +475,6 @@
     "ZECUSD"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/07/31/Elizabeth-Warren.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Scott Bessent Presses Senate On 'Floor-Ready' CLARITY Act, Tom Lee Agrees: 'This Needs to Be Passed'",
-   "summary": "Treasury Secretary Bessent urges Senate to vote on CLARITY Act, critical for U.S. to lead digital asset industry. He calls out Dems for delaying.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/07/60825966/scott-bessent-presses-senate-on-floor-ready-clarity-act-tom-lee-agrees-this-needs-to-be-passed",
-   "created_at": "2026-07-30T21:55:16Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/30/Scott-Bessent.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "First Solar Shares Climb After Mixed Q2 Report — Details",
-   "summary": "Here&#39;s a detailed look inside the Q2 earnings report from First Solar.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/earnings/26/07/60825620/first-solar-shares-climb-after-mixed-q2-report-details",
-   "created_at": "2026-07-30T21:31:05Z",
-   "symbols": [
-    "FSLR"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/30/Large-scale-Solar-Farm-At-Sunrise--Solar.jpg?width=1024&height=768"
   }
  ]
 }
