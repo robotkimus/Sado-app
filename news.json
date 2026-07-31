@@ -1,6 +1,51 @@
 {
- "updated": "2026-07-31 11:00",
+ "updated": "2026-07-31 12:00",
  "items": [
+  {
+   "headline": "Amazon Stock Pops 9.5% After-Hours as AWS Fuels Earnings Beat: Jim Cramer Calls it 'Astonishing'",
+   "summary": "Amazon shares jumped after an earnings beat as investors hailed AWS profitability as proof AI investments are starting to pay off. ",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/earnings/26/07/60827112/amazon-stock-aws-earnings-beat-jim-cramer",
+   "created_at": "2026-07-31T02:32:40Z",
+   "symbols": [
+    "AMZN",
+    "MSFT",
+    "MU",
+    "SKHY",
+    "SNDK"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/31/Chinas-Exports-Surge-Despite-US-Shortfal.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "SK Hynix Stock Soars 22%, Samsung Jumps 19% as Kospi Hits Trading Halt: Dow Futures Climb 151 Points",
+   "summary": "Iran&#39;s FM Abbas Araghchi warned of alleged Israeli “plots” after an Egypt tanker attack raised Suez Canal concerns.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/07/60827094/samsung-skhynix-spark-kospi-surge",
+   "created_at": "2026-07-31T02:26:40Z",
+   "symbols": [
+    "AAPL",
+    "AMZN",
+    "MSFT",
+    "SKHY",
+    "SOXX"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/31/South-Korea-Stock-Market-Rising-Trend-4k.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Bitcoin, Ethereum Spike, XRP and Dogecoin Climb Amid Sharp Crypto Recovery: Analyst Says 'Don't Fear' BTC Dropping to $60,000",
+   "summary": "Leading cryptocurrencies staged a sharp recovery alongside stocks on Thursday, July 30, reversing a Federal Reserve-driven sell-off the day before.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/07/60827004/bitcoin-ethereum-xrp-spike-dogecoin-flat-amid-sharp-crypto-recovery",
+   "created_at": "2026-07-31T02:17:29Z",
+   "symbols": [
+    "BMNR",
+    "BTCUSD",
+    "DOGEUSD",
+    "ETHUSD",
+    "MSFT"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/07/31/Golden-Bitcoin-Coin-In-Red-And-Blue-Smok.jpg?width=1024&height=768"
+  },
   {
    "headline": "Apple, Amazon, Reddit, Rivian and Cycurion: Why These 5 Stocks Are on Investors Radars' Today",
    "summary": "Major U.S. indexes closed higher on Friday, with the Dow Jones Industrial Average climbing 1.19% to 52,208.06.",
@@ -158,47 +203,6 @@
     "SSNLF"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/07/30/AMD.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "This Micron ETF Lost Half its Value In a Month, but Is Still Up Almost 2,500% in a Year",
-   "summary": "Direxion&#39;s MUU ETF plunged 53% in a month but remains up 2,300% over the past year. Here&#39;s what drove the wild swings and the latest rebound.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/etfs/specialty-etfs/26/07/60815304/this-micron-etf-lost-half-its-value-in-a-month-but-is-still-up-almost-2500-in-a-year",
-   "created_at": "2026-07-30T18:22:03Z",
-   "symbols": [
-    "LRCX",
-    "MSFT",
-    "MU",
-    "MUU"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/30/Los-Angeles--California---24-January-202.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Nasdaq 100's Best Day Since May 2025: 10 Stocks Driving the Move",
-   "summary": "A day after entering correction, the Nasdaq 100 rose 3.5%. Microsoft, Micron and eight others produced 88% of the move. The full contribution ranking",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/large-cap/26/07/60814238/nasdaq-100-best-session-since-may-2025-microsoft-earnings-lam-research-10-stocks-contribution",
-   "created_at": "2026-07-30T17:56:53Z",
-   "symbols": [
-    "AAPL",
-    "AMAT",
-    "AMD",
-    "AMZN",
-    "AVGO"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/30/Nasdaq-Inscription-Next-To-Us-Dollars--T.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Microsoft CEO Satya Nadella Says 'Every Model Is Substitutable' — What That Means For OpenAI",
-   "summary": "Microsoft CEO Satya Nadella says &#34;every model is substitutable.&#34; Here&#39;s what the AI strategy shift means for OpenAI and Microsoft&#39;s Azure platform.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/07/60813371/microsoft-ceo-satya-nadella-says-every-model-is-substitutable-what-that-means-for-openai",
-   "created_at": "2026-07-30T17:35:55Z",
-   "symbols": [
-    "LEVI",
-    "MSFT"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/30/New-York--Ny--Usa---July-5--2022-Microso.jpg?width=1024&height=768"
   },
   {
    "headline": "Scott Bessent Presses Senate On 'Floor-Ready' CLARITY Act, Tom Lee Agrees: 'This Needs to Be Passed'",
@@ -466,31 +470,6 @@
     "OWL"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/07/30/Stuttgart--Germany---01-30-2025-Cellphon.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Tesla and BYD Ride Global EV Boom — Five Countries See Growth More Than Double as Gas Prices Spike",
-   "summary": "Global EV sales were up big in the second quarter. Tesla and BYD appear to the be the big winners based on the regions seeing the biggest growth.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/07/60820068/tesla-and-byd-ride-global-ev-boom-five-countries-see-growth-more-than-double-as-gas-prices-spike",
-   "created_at": "2026-07-30T20:03:29Z",
-   "symbols": [
-    "BYDDF",
-    "BYDDY",
-    "TSLA",
-    "VFS"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/30/BYD-Tesla-Shutterstock.png?width=1024&height=768"
-  },
-  {
-   "headline": "Nuwellis Stock Explodes Thursday: What's Driving the Action?",
-   "summary": "Nuwellis shares are surging Thursday afternoon as traders react to new pediatric data tied to the company’s Aquadex ultrafiltration therapy.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60819734/nuwellis-stock-explodes-thursday-whats-driving-the-action",
-   "created_at": "2026-07-30T20:01:42Z",
-   "symbols": [
-    "NUWE"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/30/Close-Up-Of-Stock-Market-Candlestick-Cha.jpg?width=1024&height=768"
   }
  ]
 }
