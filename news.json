@@ -1,6 +1,21 @@
 {
- "updated": "2026-08-02 06:00",
+ "updated": "2026-08-02 07:00",
  "items": [
+  {
+   "headline": "DRAM Jumps After Situational Awareness Rescue as Analysts Caution Memory Stocks May Fall Further",
+   "summary": "DRAM ETF staged a cautious comeback as investors focused on the latest Situational Awereness rescue as analysts warn on memory stocks",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/08/60861246/dram-jumps-after-situational-awareness-rescue-as-analysts-caution-memory-stocks-may-fall-further",
+   "created_at": "2026-08-01T21:13:52Z",
+   "symbols": [
+    "AAPL",
+    "AMZN",
+    "DRAM",
+    "MSFT",
+    "MU"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/01/Los-Angeles--California---24-January-202.jpg?width=1024&height=768"
+  },
   {
    "headline": "Steve Jobs Once Told Bill Gates Microsoft Had 'Absolutely No Taste' and the Tech Boss Fired Back, Saying the iPad Was Just a 'Nice Reader' — Years Later, One of Them Was Very Wrong",
    "summary": "Steve Jobs once blasted Microsoft, while Bill Gates dismissed the iPad before Apple&#39;s tablet became a global success.",
@@ -189,21 +204,6 @@
     "MSFT"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/07/31/News-Martin-Shkreli-Jury-Selection.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Ethra Invest Founder's Take On Maritime RWA",
-   "summary": "Dubai asset manager pitches vessel-backed debt to traditional institutions and crypto traders following the RWA trend.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/Opinion/26/07/60852391/vessels-cash-flow-and-blockchain-ethra-invest-founder-pragmatic-take-on-maritime-rwa",
-   "created_at": "2026-07-31T18:32:25Z",
-   "symbols": [
-    "BLK",
-    "BTC",
-    "BTCUSD",
-    "ETH",
-    "ETHUSD"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/31/White-Modern-Stylish-Photo-Save-The-Date.png?width=1024&height=768"
   },
   {
    "headline": "Elon Musk's Net Worth Down Nearly $700 Billion Amid Tesla, SpaceX Merger Rumors",
@@ -431,17 +431,6 @@
    "created_at": "2026-08-01T02:21:21Z",
    "symbols": [],
    "image": "https://cdn.benzinga.com/files/images/story/2026/08/01/The-base-of-the-Lincoln-Memorial-Reflect.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "$1000 Invested In Home Depot 15 Years Ago Would Be Worth This Much Today",
-   "summary": "Home Depot (NYSE:HD) has outperformed the market over the past 15 years by 4.2% on an annualized basis producing an average annual return of 17.67%. Currently, Home Depot has a market capitalization o",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/07/60858957/1000-invested-home-depot-15-years-ago-would-be-worth-much-today",
-   "created_at": "2026-07-31T23:45:28Z",
-   "symbols": [
-    "HD"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_2.jpg?width=1024&height=768"
   }
  ]
 }
