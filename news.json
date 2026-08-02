@@ -1,6 +1,21 @@
 {
- "updated": "2026-08-02 21:00",
+ "updated": "2026-08-02 22:00",
  "items": [
+  {
+   "headline": "Consumer Tech (July 27-31): AI Boom Drives Tech Earnings As Apple, Amazon Lead Markets & More",
+   "summary": "AI infrastructure spending dominates markets as Apple, Amazon, Microsoft and semiconductor companies report strong earnings amid rising memory demand.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/08/60861868/consumer-tech-july-27-31-ai-boom-drives-tech-earnings-as-apple-amazon-lead-markets-more",
+   "created_at": "2026-08-02T12:00:30Z",
+   "symbols": [
+    "AAPL",
+    "AMZN",
+    "AXTI",
+    "BIDU",
+    "BTCUSD"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/02/Financial-Technology-Investment--Hands-C.jpg?width=1024&height=768"
+  },
   {
    "headline": "Wall Street Is Falling Out of Love With the AI Trade — Here's Why",
    "summary": "JPMorgan Private Bank&#39;s global investment strategist Kriti Gupta explains that the S&amp;P 500 is undergoing a significant internal reshuffle.",
@@ -190,21 +205,6 @@
     "XOM"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/07/31/Ray-Dalio.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Michael Burry Just Turned His Guns on Nvidia, Micron and SOXX — ETF Investors Are Watching the Fallout",
-   "summary": "Michael Burry adds Nvidia puts and expanded bearish bets on Micron and SOXX. Here&#39;s what his latest portfolio moves mean for semiconductor ETFs.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/etfs/sector-etfs/26/07/60855638/michael-burry-bearish-on-nvidia-micron-soxx-qqq-etfs-in-focus",
-   "created_at": "2026-07-31T20:00:57Z",
-   "symbols": [
-    "AMD",
-    "AVGO",
-    "MU",
-    "NVDA",
-    "QCOM"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/31/michael-burry-ai.png?width=1024&height=768"
   },
   {
    "headline": "Trump's Trade War, Gas Prices, Japan's Debt Crisis and More: This Week in Economy",
@@ -425,21 +425,6 @@
    "created_at": "2026-08-01T13:00:24Z",
    "symbols": [],
    "image": "https://cdn.benzinga.com/files/images/story/2026/08/01/National-Harbor--Md--Usa--February-20-20.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Benzinga's 'Stock Whisper' Index: 5 Stocks Investors Secretly Monitor But Don't Talk About Yet",
-   "summary": "The Benzinga Stock Whisper Index highlights five stocks seeing increased investor interest during the week and looks at the catalysts driving attention.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/08/60859935/benzingas-stock-whisper-index-5-stocks-investors-secretly-monitor-but-dont-talk-about-yet-120",
-   "created_at": "2026-08-01T13:00:22Z",
-   "symbols": [
-    "HAWK",
-    "HOG",
-    "LVWR",
-    "NVEC",
-    "ONDS"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/01/Stock-Whisper-Index.jpg?width=1024&height=768"
   }
  ]
 }
