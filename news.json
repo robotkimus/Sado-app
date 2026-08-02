@@ -1,6 +1,34 @@
 {
- "updated": "2026-08-02 20:00",
+ "updated": "2026-08-02 21:00",
  "items": [
+  {
+   "headline": "Wall Street Is Falling Out of Love With the AI Trade — Here's Why",
+   "summary": "JPMorgan Private Bank&#39;s global investment strategist Kriti Gupta explains that the S&amp;P 500 is undergoing a significant internal reshuffle.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/08/60861854/wall-street-is-falling-out-of-love-with-the-ai-trade-heres-why",
+   "created_at": "2026-08-02T11:56:23Z",
+   "symbols": [
+    "AMZN",
+    "M",
+    "MSFT",
+    "QQQ",
+    "SPY"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/02/Close-Up-Of-Wall-Street-Sign-With-Iconic.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Gene Munster Sees AAPL Stock Slump as Temporary, Steve Jobs' Critique of Microsoft and More: This Week in Appleverse",
+   "summary": "Apple delivered record quarterly results, but cautious guidance and emerging challenges sparked investor concerns and pressured shares.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/08/60861817/apple-weekly-roundup-q3-results-stock-outlook",
+   "created_at": "2026-08-02T11:00:36Z",
+   "symbols": [
+    "AAPL",
+    "MCD",
+    "MSFT"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/02/Beijing--China---July-21--2023-Apple-Log.jpg?width=1024&height=768"
+  },
   {
    "headline": "DRAM Jumps After Situational Awareness Rescue as Analysts Caution Memory Stocks May Fall Further",
    "summary": "DRAM ETF staged a cautious comeback as investors focused on the latest Situational Awereness rescue as analysts warn on memory stocks",
@@ -177,33 +205,6 @@
     "QCOM"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/07/31/michael-burry-ai.png?width=1024&height=768"
-  },
-  {
-   "headline": "Fed's Warsh Sparks Bond Selloff, Apple Warns of '100-Year' Memory Flood: What Moved Markets This Week",
-   "summary": "Three Fed officials voted to hike, the 30-year yield hit a 19-year high and Big Tech earnings split the AI trade. What moved markets this week.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/market-summary/26/07/60855602/fed-hawks-big-tech-split-what-moved-markets-this-week",
-   "created_at": "2026-07-31T20:00:27Z",
-   "symbols": [
-    "AAPL",
-    "AMZN",
-    "INTC",
-    "META",
-    "MSFT"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/31/wall-street-ai17.png?width=1024&height=768"
-  },
-  {
-   "headline": "Martin Shkreli Warns AI Bulls: Peak Earnings Won’t Last Forever",
-   "summary": "Martin Shkreli says AI infrastructure stocks only look cheap at the peak, warns against extending record earnings forever, and calls Meta a buy after its 9% drop.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/prediction-markets/26/07/60853427/martin-shkreli-warns-ai-bulls-peak-earnings-wont-last-forever",
-   "created_at": "2026-07-31T19:04:11Z",
-   "symbols": [
-    "META",
-    "MSFT"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/07/31/News-Martin-Shkreli-Jury-Selection.jpg?width=1024&height=768"
   },
   {
    "headline": "Trump's Trade War, Gas Prices, Japan's Debt Crisis and More: This Week in Economy",
@@ -439,21 +440,6 @@
     "ONDS"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/08/01/Stock-Whisper-Index.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Elon Musk Plans $100 Million Republican Midterm Push, Despite Earlier Political Fallout for Tesla",
-   "summary": "Tesla CEO Elon Musk plans to spend at least $100-$120 million on GOP candidates in the upcoming midterm elections.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/08/60859905/elon-musk-plans-100-million-republican-midterm-push-despite-earlier-political-fallout-for-tesla",
-   "created_at": "2026-08-01T12:30:21Z",
-   "symbols": [
-    "BYDDF",
-    "BYDDY",
-    "LCID",
-    "RIVN",
-    "SPCX"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/01/Elon-Musk-Owns-Tesla--Spacex--X-formerly.jpg?width=1024&height=768"
   }
  ]
 }
