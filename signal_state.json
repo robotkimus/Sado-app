@@ -1,14 +1,14 @@
 {
   "AAPL": "hold",
-  "NVDA": "sell",
+  "NVDA": "hold",
   "TSLA": "hold",
   "MSFT": "hold",
   "AMZN": "hold",
-  "GOOGL": "buy",
-  "META": "hold",
+  "GOOGL": "hold",
+  "META": "sell",
   "005930.KS": "hold",
   "000660.KS": "hold",
-  "373220.KS": "hold",
-  "207940.KS": "hold",
+  "373220.KS": "buy",
+  "207940.KS": "buy",
   "005380.KS": "hold"
 }
