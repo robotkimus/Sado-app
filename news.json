@@ -1,6 +1,33 @@
 {
- "updated": "2026-08-03 16:00",
+ "updated": "2026-08-03 17:01",
  "items": [
+  {
+   "headline": "Ross Gerber Invokes the Tortoise and the Hare to Explain Difference Between Investing and Betting Amid AI Fund Collapse: 'It Is About Understanding Risk'",
+   "summary": "Investor Ross Gerber said the AI fund collapse highlighted the dangers of leverage, not a failure of the AI investment thesis.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/08/60864492/ross-gerber-investing-vs-betting-ai-fund-collapse",
+   "created_at": "2026-08-03T07:41:34Z",
+   "symbols": [
+    "AMZN",
+    "MU",
+    "SKHY",
+    "SNDK"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/03/Investment-Stock-Market-Entrepreneur-Bus.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "US Businesses Could Face $12 Billion in Higher Costs Annually Under Potential Chinese AI Model Ban: Report",
+   "summary": "A potential U.S. ban on Chinese open AI models could cost the economy up to $12 billion, raising AI expenses for businesses.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/08/60864220/us-businesses-could-face-12-billion-in-higher-costs-annually-under-potential-chinese-ai-model-ban-report",
+   "created_at": "2026-08-03T07:14:52Z",
+   "symbols": [
+    "META",
+    "NVDA",
+    "PLTR"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/03/Usa-And-China-Flags-Painted-On-Cracked-W.jpg?width=1024&height=768"
+  },
   {
    "headline": "Tyson Foods, Marriott And 3 Stocks To Watch Heading Into Monday",
    "summary": "U.S. stock futures up, focus on earnings from Tyson Foods, Marriott, Universal Logistics, Williams Companies, and Vertex Pharmaceuticals.",
@@ -193,34 +220,60 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/08/01/Wall-Street-Bull.jpg?width=1024&height=768"
   },
   {
-   "headline": "SK Hynix, Meta, Apple, and More: 5 Stocks Investors Couldn't Stop Buzzing About this Week",
-   "summary": "Retail investors talked up 5 hot stocks during the week (July 27 to July 31) on X and Reddit&#39;s r/WallStreetBets: AAPL, MSFT, META, AMZN, SKHY",
+   "headline": "Moody's Mark Zandi Warns Fed's Lack of Forward Guidance Could Trigger a Serious Market Sell-Off",
+   "summary": "Mark Zandi warns the Fed’s lack of policy guidance could fuel market volatility, trigger a sell-off and put the U.S. economy at risk.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/market-summary/26/08/60859915/sk-hynix-meta-apple-and-more-5-stocks-investors-couldnt-stop-buzzing-about-this-week",
-   "created_at": "2026-08-01T12:32:13Z",
-   "symbols": [
-    "AAPL",
-    "AMZN",
-    "META",
-    "MSFT",
-    "SKHY"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/01/Cheongju--Chungcheongbuk-do--South-Korea.jpg?width=1024&height=768"
+   "url": "https://www.benzinga.com/markets/economic-data/26/08/60864481/mark-zandi-warns-fed-policy-uncertainty-could-trigger-a-market-selloff",
+   "created_at": "2026-08-03T07:38:28Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/03/Headquarters-Of-The-Federal-Reserve-In-W.jpg?width=1024&height=768"
   },
   {
-   "headline": "Benzinga Bulls And Bears: Amazon, Microsoft, SpaceX",
-   "summary": "Benzinga examined the prospects for many investors’ favorite stocks over the last week — here’s a look at some of our top stories.",
+   "headline": "AMD Earnings on Deck: Prediction Market Bettors Weigh Odds Data Center Revenue Clears $6.5 Billion",
+   "summary": "Advanced Micro Devices, Inc.’s AI-driven data center growth has traders betting on Q2 revenue topping $6 billion.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/market-summary/26/08/60859854/benzinga-bulls-and-bears-amazon-microsoft-spacex",
-   "created_at": "2026-08-01T12:00:35Z",
+   "url": "https://www.benzinga.com/markets/tech/26/08/60864465/amd-earnings-prediction-market-data-center-revenue",
+   "created_at": "2026-08-03T07:35:19Z",
    "symbols": [
-    "AAPL",
-    "AMAT",
-    "AMD",
-    "AMZN",
-    "APLD"
+    "AMD"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/01/Bulls-and-Bears-1.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/03/Jakarta-May-02-2024-Advanced-Micro-Devic.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "DRAM ETF Sinks Nearly 32% as Margin Calls Hit Memory Stock Investors: Charlie Bilello Warns 'That Almost Never Ends Well'",
+   "summary": "DRAM ETF plunges 32% as margin calls crush over-leveraged memory stock investors. Charlie Bilello warns this mania never ends well.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/etfs/broad-u-s-equity-etfs/26/08/60864263/dram-etf-sinks-nearly-32-as-margin-calls-hit-memory-stock-investors-charlie-bilello-warns-that-almost-never-ends-well",
+   "created_at": "2026-08-03T07:20:55Z",
+   "symbols": [
+    "DRAM",
+    "SKHY"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/03/Chips--semiconductor-shutterstock-219855.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Cardano Tops Weekly Crypto Gainer Charts as ADA Soars 11% Over 7 Days — Bitcoin, Dogecoin Left in the Dust",
+   "summary": "Cardano emerged as the best-performing large-cap token last week, defying losses among the market’s heavyweights.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/08/60864187/cardano-ada-weekly-gains-bitcoin-dogecoin",
+   "created_at": "2026-08-03T07:11:21Z",
+   "symbols": [
+    "ADAUSD",
+    "BTCUSD",
+    "ETHUSD",
+    "XRPUSD",
+    "ZECUSD"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/03/Cardano-Cryptocurrencies-And-Graph-Stati.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "States Expand Student Loan Programs as Trump's Federal Borrowing Caps Leave Funding Gaps",
+   "summary": "States are expanding student loan programs after new federal borrowing caps took effect, but experts warn of trade-offs.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/education/26/08/60864082/state-student-loan-programs",
+   "created_at": "2026-08-03T07:02:44Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/03/Two-Main-Paths-Remain.jpg?width=1024&height=768"
   },
   {
    "headline": "Ross Gerber Says Tesla's FSD 'Almost' Caused an Accident While Passing Emergency Vehicles: 'Still Has Major Issues'",
@@ -456,64 +509,6 @@
     "XRPUSD"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/08/03/Cryptocurrency--Focus-Bitcoin-On-Tablet-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Trump Calls Off ‘Massive Attack’ on Iran as Talks Resume: Dow Futures Gain 204 Points, Oil Plunges Nearly 5%",
-   "summary": "Late Sunday, U.S. futures rose and oil plunged after Donald Trump called off a planned Iran attack and resumed talks.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/08/60862777/trump-calls-off-massive-attack-on-iran-as-talks-resume",
-   "created_at": "2026-08-03T01:13:30Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/03/President-Of-The-United-States-Donald-Tr.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "SanDisk Stock is Down 50% From the YTD High: Will Earnings Spark a Rebound?",
-   "summary": "SanDisk stock has plunged by 50% from its highest level this year, with investors focusing on the upcoming earnings this week.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/08/60862411/sandisk-stock-is-down-50-from-the-ytd-high-will-earnings-spark-a-rebound",
-   "created_at": "2026-08-02T22:55:15Z",
-   "symbols": [
-    "DRAM",
-    "SNDK",
-    "STX"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/02/Sandisk-Company-Logo---EK.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "AMC Stock Forms Golden Cross as Newest 'Spider-Man' Sets Eyes Opening Day Record",
-   "summary": "AMC stock has formed a golden cross pattern as investors focus on the ongoing opening weekend for Spider-Man: Brand New Day.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/08/60862398/amc-stock-forms-golden-cross-as-spider-man-brand-new-day-eyes-opening-record",
-   "created_at": "2026-08-02T22:45:14Z",
-   "symbols": [
-    "AMC"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/02/New-York-Ny-Usa-march-3--2021-The-Closed.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "AMD Stock Rally Stalls Ahead of Earnings as Options Predict a 12% Move",
-   "summary": "The AMD stock rally has stalled ahead of its earnings, as investors brace for volatility ahead of its second quarter earnings report.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/08/60862387/amd-stock-rally-stalls-ahead-of-earnings-as-options-predict-a-12-move",
-   "created_at": "2026-08-02T22:35:14Z",
-   "symbols": [
-    "AMD",
-    "GOOG",
-    "INTC"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/02/Charlotte--North-Carolina---November-11-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "AstraZeneca, Bristol Myers Squibb Reportedly in Talks for $400 Billion Merger",
-   "summary": "AstraZeneca in talks to merge with Bristol Myers Squibb, creating $400B pharma giant, while talks ongoing for months, antitrust scrutiny is expected.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/08/60862279/astrazeneca-bristol-myers-squibb-reportedly-in-talks-for-400-billion-merger",
-   "created_at": "2026-08-02T20:12:52Z",
-   "symbols": [
-    "AZN",
-    "BMY"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/02/AstraZeneca-plc-company-logo-displayed-o.jpg?width=1024&height=768"
   }
  ]
 }
