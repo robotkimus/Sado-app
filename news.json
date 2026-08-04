@@ -1,6 +1,21 @@
 {
- "updated": "2026-08-04 11:00",
+ "updated": "2026-08-04 12:00",
  "items": [
+  {
+   "headline": "Palantir Stock Soars Nearly 15% After Hours as Company 'Smoked Expectations' on Earnings, but Jim Cramer Questions if 'Old Days' Still Viable",
+   "summary": "Palantir surged nearly 15% after hours after a strong Q2 beat and raised outlook, while Jim Cramer questioned whether its rally can last.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/08/60894831/palantir-stock-earnings-jim-cramer-after-hours",
+   "created_at": "2026-08-04T02:38:46Z",
+   "symbols": [
+    "AMZN",
+    "GOOG",
+    "GOOGL",
+    "META",
+    "MSFT"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/04/Palantir-Technologies-Artificial.jpg?width=1024&height=768"
+  },
   {
    "headline": "Congressman Who Spent Millions on Magnificent Seven Stocks Just Bought Another Tech Giant",
    "summary": "Rep. Cleo Fields spent millions on Magnificent Seven stocks over the last year. The latest purchase in a large tech firm not in that popular basket.",
@@ -205,19 +220,28 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/08/03/CoreWeave.jpg?width=1024&height=768"
   },
   {
-   "headline": "Trump Warns Oil Executives: 'Get Your Retail Prices Down, NOW!'",
-   "summary": "Trump demands oil companies lower retail gas prices now. His comments follow Chevron CEO&#39;s interview on strong performance.",
+   "headline": "Elizabeth Warren Accuses Senate GOP Of Shielding Trump Family From Tax Audits: 'Republicans Are Caving On A Deal'",
+   "summary": "Elizabeth Warren accused Senate Republicans of preserving Trump family tax audit protections after DOJ scrapped a $1.8B fund.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/08/60878073/trump-warns-oil-executives-get-your-retail-prices-down-now",
-   "created_at": "2026-08-03T15:29:08Z",
+   "url": "https://www.benzinga.com/news/politics/26/08/60894703/elizabeth-warren-senate-gop-trump-family-tax-audits",
+   "created_at": "2026-08-04T02:29:20Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/04/Arlington--Va---February-13--2020-Senato.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Bitcoin, Dogecoin Gain; Ethereum, XRP Slide Amid Trump's Latest Warning to Iran: Analyst Says BTC 'Bottom' Not Yet Confirmed",
+   "summary": "Leading cryptocurrencies lacked momentum on Monday, August 3, as traders balanced geopolitical risk from Iran against selling pressure from large corporate Bitcoin treasuries.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/08/60894690/bitcoin-dogecoin-ethereum-xrp-trump-latest-warning-to-iran",
+   "created_at": "2026-08-04T02:22:03Z",
    "symbols": [
-    "BP",
-    "CVX",
-    "QQQ",
-    "SHEL",
-    "SPY"
+    "BMNR",
+    "BTCUSD",
+    "DOGEUSD",
+    "ETHUSD",
+    "MSTR"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/03/President-Donald-J--Trump-Oversees-Opera.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/04/Bitcoin-Coins-On-Reflective-Black-Surfac.jpg?width=1024&height=768"
   },
   {
    "headline": "Trump Calls Iran Deal a ‘Last Chance’ as Tehran Denies Talks; Dow Futures Gain 95 Points, Oil Prices Climb Above $80",
@@ -488,28 +512,6 @@
     "MSTR"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_4.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Jim Cramer Called the Situational Awareness Blowup a 'Clearing Event:' Is That Why SNDK, NBIS Bounced?",
-   "summary": "Jim Cramer says the Situational Awareness liquidation could mark a bottom for AI stocks. The Archegos precedent suggests dip buyers may wait years.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/prediction-markets/26/08/60891485/jim-cramer-called-the-situational-awareness-blowup-a-clearing-event-is-that-why-sndk-nbis-bounced",
-   "created_at": "2026-08-03T20:42:36Z",
-   "symbols": [
-    "BE",
-    "NBIS",
-    "SNDK"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/03/Jim-Cramer---AI-gen.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "QUICK SPARK: Databricks Finalizes Panther Acquisition to Bolster AI Cybersecurity Push",
-   "summary": "Databricks has finalized its acquisition of Panther, an AI-powered security operations platform, strengthening its cybersecurity offerings.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/private-markets/26/08/60891395/quick-spark-databricks-finalizes-panther-acquisition-bolster-ai-cybersecurity-push",
-   "created_at": "2026-08-03T20:40:17Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/03/Benzinga-Quick-Spark.jpg?width=1024&height=768"
   }
  ]
 }
