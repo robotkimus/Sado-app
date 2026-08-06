@@ -1,6 +1,21 @@
 {
- "updated": "2026-08-06 12:00",
+ "updated": "2026-08-06 13:00",
  "items": [
+  {
+   "headline": "Cathie Wood Buys $17.6 Million of Nvidia Stock as SpaceX's GPU Bet Fuels Optimism, Dumps Palantir Stock as Michael Burry's Short Bet Lingers",
+   "summary": "Ark Invest bought SpaceX shares despite a post-earnings selloff while adding to its Nvidia stake on Wednesday, Aug. 5, 2026.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/etfs/broad-u-s-equity-etfs/26/08/60981051/cathie-wood-buys-17-6-million-of-nvidia-stock-as-spacexs-gpu-bet-fuels-optimism-dumps-palantir-stock-as-michael-burrys-short-bet-lingers",
+   "created_at": "2026-08-06T03:21:11Z",
+   "symbols": [
+    "ARKF",
+    "ARKK",
+    "ARKQ",
+    "ARKW",
+    "ARKX"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/06/Cathie-Wood-Goes-Big-On-Alibaba-With-25-.jpg?width=1024&height=768"
+  },
   {
    "headline": "Meta Joins OpenAI and Anthropic in AI Cybersecurity Scare After Model Hacks Third Party: 'We Are Currently Investigating…'",
    "summary": "On Wednesday, Meta’s AI model accessed another company’s systems after a testing error gave it unintended internet access.",
@@ -194,16 +209,54 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/08/05/The-Shopify-Trade.jpg?width=1024&height=768"
   },
   {
-   "headline": "AMD Stock Hit By Musk’s Nvidia Bet: BofA Says 'Ignore the Noise'",
-   "summary": "AMD stock fell after Elon Musk backed Nvidia, but BofA sees Helios driving $30-plus EPS as AMD captures a larger AI market.",
+   "headline": "SurgePays (SURG) Stock Surges 60% After Hours: Why is it Moving?",
+   "summary": "SurgePays Shares surged 59.76% after hours following the launch of Redline Wireless Group to expand prepaid wireless distribution.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/08/60956830/amd-stock-musk-nvidia-bofa-ignore-noise-ai-helios",
-   "created_at": "2026-08-05T15:35:22Z",
+   "url": "https://www.benzinga.com/markets/equities/26/08/60981120/surgepays-shares-surge-after-hours-redline-wireless-joint-venture",
+   "created_at": "2026-08-06T03:56:17Z",
    "symbols": [
-    "AMD",
-    "NVDA"
+    " T",
+    "SURG",
+    "T"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/05/The-AMD-Trade.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/06/Glowing-Orange-Candlestick-And-Line-Char.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "SanDisk Stock Falls 7.96% After Hours as Memory Chip Company Crushes Earnings, but Analyst Says Investors Need a 'Leap of Faith'",
+   "summary": "SanDisk posted a quarterly earnings beat, but cautious guidance and margin concerns pushed the stock lower after hours.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/earnings/26/08/60981104/sandisk-stock-earnings-after-hours-analyst-leap-of-faith",
+   "created_at": "2026-08-06T03:52:03Z",
+   "symbols": [
+    "SNDK"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/06/Sandisk.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "ClearOne (CLRO) Stock Soars Over 98% After Hours: Here's What You Need To Know",
+   "summary": "ClearOne Shares surged 98.37% after hours after a key shareholder approved merger-related share issuance, advancing the Cortigent transaction.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/08/60981063/clearone-shares-jump-after-hours-merger-shareholder-approval",
+   "created_at": "2026-08-06T03:28:13Z",
+   "symbols": [
+    "CLRO"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/06/Richmond--Virginia--Usa---27-July-2019-I.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Raoul Pal Says Most People Think Crypto Is About Tokens Going Up and Down, but Today It Is About 'Owning' the Operating System of the Next Economy",
+   "summary": "Macro investor Raoul Pal said on Wednesday, August 5, that cryptocurrency&#39;s real significance lies in enabling AI agentic finance, rather than token price moves.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/08/60981027/raoul-pal-crypto-next-economy-operating-system",
+   "created_at": "2026-08-06T03:14:04Z",
+   "symbols": [
+    "BTCUSD",
+    "COIN",
+    "ETHUSD",
+    "SOLUSD",
+    "ZECUSD"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/06/Person-Holds-Futuristic-Digital-Icons-Re.jpg?width=1024&height=768"
   },
   {
    "headline": "Gary Black Says Retail Investors Buying the SpaceX Stock Dip 'Makes No Sense' as Float Set To Double on Thursday",
@@ -446,50 +499,6 @@
     "ZG"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/08/05/Portland--Or--Usa---Nov-11--2024-Zillow-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "SpaceX Is Quietly Becoming a 'Neocloud,' Veteran Analyst Says: Here's What That Means",
-   "summary": "SpaceX is becoming a neocloud, an analyst says, as weaker Grok revenue pushes Elon Musk to rent AI chips to OpenAI and Anthropic rivals.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/prediction-markets/26/08/60978070/spacex-is-quietly-becoming-a-neocloud-veteran-analyst-says-heres-what-that-means",
-   "created_at": "2026-08-05T21:30:03Z",
-   "symbols": [
-    "SPCX"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/05/Paris--France---June-16--2023-Elon-Musk-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Why HubSpot Shares are Trading Lower Wednesday After Q2 Results",
-   "summary": "A double beat in the second quarter isn&#39;t saving HubSpot stock Wednesday. Here&#39;s why shares are falling rapidly.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/earnings/26/08/60977923/why-hubspot-shares-are-trading-lower-wednesday-after-q2-results",
-   "created_at": "2026-08-05T21:24:58Z",
-   "symbols": [
-    "HUBS"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/05/HubSpot.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Sunrun Stock Plunges After Q2 Report — Details",
-   "summary": "Here&#39;s a look at why Sunrun stock is down after reporting Q2 earnings.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/earnings/26/08/60977912/sunrun-stock-plunges-after-q2-report-details",
-   "created_at": "2026-08-05T21:24:44Z",
-   "symbols": [
-    "RUN"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/05/Sunrun-Editorial--Illustrative-Photo-For.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Here’s How Much You Would Have Made Owning Ross Stores Stock In The Last 10 Years",
-   "summary": "Ross Stores (NASDAQ:ROST) has outperformed the market over the past 10 years by 1.9% on an annualized basis producing an average annual return of 15.33%. Currently, Ross Stores has a market capitaliza",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/08/60977473/here-s-how-much-you-would-have-made-owning-ross-stores-stock-last-10-years",
-   "created_at": "2026-08-05T21:15:49Z",
-   "symbols": [
-    "ROST"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_1.jpg?width=1024&height=768"
   }
  ]
 }
