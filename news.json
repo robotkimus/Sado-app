@@ -1,6 +1,19 @@
 {
- "updated": "2026-08-07 17:00",
+ "updated": "2026-08-07 18:00",
  "items": [
+  {
+   "headline": "Apollo's Torsten Slok Says AI Capex Boom Is Growing Nearly Twice as Fast as the Mid-2000s Housing Bubble",
+   "summary": "Apollo&#39;s Torsten Slok warns the AI capex boom is building twice as fast as the housing bubble, posing severe macro risks if demand falters.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/economic-data/26/08/61030324/apollos-torsten-slok-says-ai-capex-boom-is-growing-nearly-twice-as-fast-as-the-mid-2000s-housing-bubble",
+   "created_at": "2026-08-07T08:22:43Z",
+   "symbols": [
+    "DIA",
+    "QQQ",
+    "SPY"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/07/Artificial-Intelligence-Makes-The-Task-E.jpg?width=1024&height=768"
+  },
   {
    "headline": "Jane Street Eyes $11 Billion Private Credit Refinance to Support AI Investments: Report",
    "summary": "Jane Street is reportedly seeking an $11 billion private credit deal with Pimco and other investors to expand its AI investments.",
@@ -203,19 +216,63 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/08/06/Artificial-Intelligence--Electronic-Chip.jpg?width=1024&height=768"
   },
   {
-   "headline": "Stock Market Today: Dow Futures Gain, Nasdaq 100 Tumbles as Hormuz Deal Talks Progress—SpaceX, SanDisk, Applovin in Focus (UPDATED)",
-   "summary": "U.S. stock futures were mixed on Thursday, as the Dow Jones and S&amp;P 500 indices rose and the Nasdaq 100 index declined.",
+   "headline": "Michael Saylor Says ChatGPT Helped Strategy Raise $15 Billion for Bitcoin Purchases: 'They Never Thought to Do It'",
+   "summary": "On Thursday, Michael Saylor said ChatGPT helped Strategy raise $15 billion to fund additional Bitcoin purchases.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/08/60983262/stock-market-today-dow-futures-gain-nasdaq-100-slips-as-hormuz-deal-talks-progress-spacex-sandisk-applovin-in-focus",
-   "created_at": "2026-08-06T12:36:50Z",
+   "url": "https://www.benzinga.com/crypto/26/08/61030537/michael-saylor-says-chatgpt-helped-strategy-raise-15-billion-for-bitcoin-purchases-they-never-thought-to-do-it",
+   "created_at": "2026-08-07T08:55:01Z",
    "symbols": [
-    "APP",
     "BTCUSD",
-    "CRCL",
-    "HUBS",
-    "QQQ"
+    "MSTR",
+    "STRK"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/06/Close-Up-Of-Wall-Street-Sign-With-Iconic.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/07/Strategy-Inc.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "American Airlines Just Made Elite Upgrades Harder— Some Fliers Will Get Premium Economy Instead of Business on Key Routes",
+   "summary": "American Airlines will end complimentary business class upgrades for elite members on select routes starting Aug. 25.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/travel/26/08/61030510/american-airlines-just-made-elite-upgrades-harder-some-fliers-will-get-premium-economy-instead-of-business-on-key-routes",
+   "created_at": "2026-08-07T08:49:15Z",
+   "symbols": [
+    "AAL"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/07/Miami--Florida--Usa---Jan-10-2023-Americ.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "QuinStreet Stock Jumps Over 25% Overnight: Here's Why",
+   "summary": "QuinStreet shares jumped 27.53% after hours after fourth-quarter revenue and earnings exceeded analyst estimates.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/08/61030498/quinstreet-shares-jump-after-hours-q4-earnings-guidance",
+   "created_at": "2026-08-07T08:46:56Z",
+   "symbols": [
+    "QNST"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/07/Economic-And-Market-Recovery-Concept--A-.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Market Strategist James Thorne Says Iran 'Isn't the Prize'—Trump's Real Contest Is With China",
+   "summary": "James Thorne said Trump&#39;s Iran strategy is less about Tehran and more about long-term strategic competition with China.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/08/61030362/market-strategist-james-thorne-says-trumps-iran-strategy-is-really-a-china-strategy",
+   "created_at": "2026-08-07T08:33:57Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/07/President-Donald-Trump-waits-outside-of-.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Why Atlassian Shares Are Trading Higher By More Than 30%; Here Are 20 Stocks Moving Premarket",
+   "summary": "Atlassian Corp (NASDAQ: TEAM) reported strong Q4 results, beating revenue and earnings estimates. Stock jumped 30.7% in pre-market trading.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/08/61030351/why-atlassian-shares-are-trading-higher-by-more-than-30-here-are-20-stocks-moving-premarket",
+   "created_at": "2026-08-07T08:33:05Z",
+   "symbols": [
+    "ARDX",
+    "BAER",
+    "CPOP",
+    "CVRX",
+    "DOCS"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/07/Atlassian-Logo-At-Hq-Of-Australian-Enter.jpg?width=1024&height=768"
   },
   {
    "headline": "Homeowners Insurance Premiums Have Risen Up to 43% Since 2018— And Insurers Are Now Dropping Policies At An Alarming Rate",
@@ -440,69 +497,6 @@
     "TSLA"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/08/07/Elon-Musk--founder--CEO--and-chief-engin.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Warner Bros. Discovery Says Disney Bundle Is Delivering: ‘Proof Is in the Data’ as Churn Falls, Subscriber Growth Improves",
-   "summary": "Warner Bros. Discovery said its Disney streaming bundle is lowering churn and driving subscriber growth despite a second-quarter revenue miss.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/08/61028815/warner-bros-discovery-says-disney-bundle-is-delivering-proof-is-in-the-data-as-churn-falls-subscriber-growth-improves",
-   "created_at": "2026-08-07T04:42:30Z",
-   "symbols": [
-    "DIS",
-    "NFLX",
-    "PSKY",
-    "VZ",
-    "WBD"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/07/Warsaw--Poland--21-May-2021--Sign-Warner.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Iran-Oman Hormuz Management Agreement by This Date? Prediction Market Odds Surge",
-   "summary": "Iran &amp; Oman are working on an agreement for managing the Strait of Hormuz. Predictions show a 84% chance of a deal by Aug 15, up by 20%.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/prediction-markets/26/08/61028602/iran-oman-hormuz-management-agreement-by-this-date-prediction-market-odds-surge",
-   "created_at": "2026-08-07T03:35:54Z",
-   "symbols": [
-    "POLUSD",
-    "USDCUSD"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/07/The-Iranian-Flag-Is-Visible-On-The-Scree.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "First Solar Stock Is Trending Overnight—Here's Why It Jumped Nearly 8%",
-   "summary": "First Solar shares surged 7.73% after hours after backing a Trump administration trade action targeting China&#39;s polysilicon imports.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/08/61028723/first-solar-shares-jump-after-hours-trump-polysilicon-trade-action",
-   "created_at": "2026-08-07T04:26:44Z",
-   "symbols": [
-    " C",
-    "C",
-    "FSLR",
-    "GOF"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/07/Growing-Stock-Market-Chart-With-Candlest.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "T1 Energy Stock Jumps Nearly 12% After Hours: Why It Is Trending",
-   "summary": "T1 Energy shares jumped 11.71% after hours after the company scheduled its second-quarter earnings release for Aug. 12.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/08/61028591/t1-energy-stock-jumps-nearly-12-after-hours-why-it-is-trending",
-   "created_at": "2026-08-07T03:35:23Z",
-   "symbols": [
-    "TE"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/07/Financial-Market-Bubble-Concept-And-Over.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Eric Trump Defends SpaceX After Bloomberg Op-Ed Slams Starlink as 'Overpromising and Underdelivering'— Elon Musk Backs Him Up",
-   "summary": "Eric Trump defended SpaceX against a Opinion critique of Starlink, with Elon Musk backing him as the company reported strong results.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/08/61028568/eric-trump-defends-spacex-after-bloomberg-op-ed-slams-starlink-as-overpromising-and-underdelivering-elon-musk-backs-him-up",
-   "created_at": "2026-08-07T03:18:47Z",
-   "symbols": [
-    "SPCX"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/07/Milwaukee--Wisconsin---July-15--2024-Eri.jpg?width=1024&height=768"
   }
  ]
 }
