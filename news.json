@@ -1,6 +1,36 @@
 {
- "updated": "2026-08-07 18:00",
+ "updated": "2026-08-07 19:00",
  "items": [
+  {
+   "headline": "Stock Market Today: Dow Jones Futures Slip, S&P 500 Gains Ahead of July Jobs Report—Atlassian, Trade Desk, Cloudflare in Focus",
+   "summary": "U.S. stock futures were mixed on Friday, as the Dow Jones index slipped and the S&amp;P 500 and Nasdaq 100 indices rose.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/08/61031224/stock-market-today-dow-jones-futures-slip-sp-500-gains-ahead-of-july-jobs-report-atlassian-trade-desk-cloudflare-in-focus",
+   "created_at": "2026-08-07T09:55:22Z",
+   "symbols": [
+    "BTCUSD",
+    "DOCS",
+    "NET",
+    "QQQ",
+    "SEZL"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/07/Wall-Street-New-York-Stock-Exchange.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "What's Going On With NVIDIA Stock Friday?",
+   "summary": "NVDA ticks up in Friday premarket trading. Counterpoint report shows NVIDIA leads sovereign AI with 92% share. See key technical levels.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/08/61031005/whats-going-on-with-nvidia-stock-friday-7",
+   "created_at": "2026-08-07T09:38:13Z",
+   "symbols": [
+    "AMD",
+    "AMZN",
+    "CBRS",
+    "FFOG",
+    "GOOGL"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/07/Kyiv--Ukraine---January-29--2025-Nvidia-.jpg?width=1024&height=768"
+  },
   {
    "headline": "Apollo's Torsten Slok Says AI Capex Boom Is Growing Nearly Twice as Fast as the Mid-2000s Housing Bubble",
    "summary": "Apollo&#39;s Torsten Slok warns the AI capex boom is building twice as fast as the housing bubble, posing severe macro risks if demand falters.",
@@ -186,34 +216,22 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/08/06/Circle-Internet-Group-Inc.jpg?width=1024&height=768"
   },
   {
-   "headline": "Steve Eisman Pushes Back on Michael Burry's Market Top Call: 'I Think It's Premature'",
-   "summary": "Two investors who bet against 2008 housing collapse disagree on whether it&#39;s time to bet against AI. Burry says yes, Eisman says wait for price war.",
+   "headline": "Ex-Counterterrorism Chief Warns US Risks Being Pulled Back Into War, Says Leaving Would Prevent Iran From Imposing Strait of Hormuz Tolls",
+   "summary": "Trump&#39;s former Counterterrorism Chief Joe Kent reaffirms his stance, agrees that the U.S. should exit the Strait of Hormuz.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/prediction-markets/26/08/60998326/steve-eisman-pushes-back-on-michael-burrys-market-top-call-i-think-its-premature",
-   "created_at": "2026-08-06T14:01:32Z",
-   "symbols": [
-    "AMZN",
-    "MSFT",
-    "MU",
-    "NVDA",
-    "PLTR"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/06/burry-tesla-dall-e.jpg?width=1024&height=768"
+   "url": "https://www.benzinga.com/news/politics/26/08/61030859/ex-counterterrorism-chief-warns-us-risks-being-pulled-back-into-war-says-leaving-would-prevent-iran-from-imposing-strait-of-hormuz-tolls",
+   "created_at": "2026-08-07T09:26:47Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/07/US-and-Iran-flags-on-a-cracked-backgroun.jpg?width=1024&height=768"
   },
   {
-   "headline": "AI Hyperscaler Spending Is Entering Uncharted Territory: 3x the Telecom Boom",
-   "summary": "US hyperscaler AI capex could hit $916 billion and exceed $1.17 trillion next year, nearly tripling the telecom boom as a share of GDP.",
+   "headline": "Stock Market: Will S&P 500 Open Up or Down Today?",
+   "summary": "Polymarket traders remain bullish ahead of Friday&#39;s jobs report as investors balance earnings optimism against renewed Middle East uncertainty and oil prices.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/08/60997436/ai-capex-1-trillion-as-percentage-of-gdp-hyperscaler-telecom-boom",
-   "created_at": "2026-08-06T13:49:52Z",
-   "symbols": [
-    "AMZN",
-    "GOOGL",
-    "META",
-    "MSFT",
-    "ORCL"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/06/Artificial-Intelligence--Electronic-Chip.jpg?width=1024&height=768"
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/08/61030573/will-sp500-open-up-or-down-aug-7-polymarket-jobs-report-strait-of-hormuz",
+   "created_at": "2026-08-07T09:04:38Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/07/Stock-S-And-P-500-Index-Fund-Symbol-Is-O.jpg?width=1024&height=768"
   },
   {
    "headline": "Michael Saylor Says ChatGPT Helped Strategy Raise $15 Billion for Bitcoin Purchases: 'They Never Thought to Do It'",
@@ -476,27 +494,6 @@
    "created_at": "2026-08-07T05:04:16Z",
    "symbols": [],
    "image": "https://cdn.benzinga.com/files/images/story/2026/08/07/Federal-Reserve-Chair-Kevin-Warsh-Delive.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Iran Seeks 5%-7% Strait of Hormuz Toll, Oman Backs 3% as Officials Deny Trump Deal Is Imminent: Report (UPDATED)",
-   "summary": "Iran seeks 5-7% toll on ships in Strait of Hormuz amid talks with Oman as Trump&#39;s potential deal with Tehran faces pushback from officials.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/08/60981546/iran-seeks-5-7-strait-of-hormuz-toll-oman-backs-3-as-officials-deny-trump-deal-is-imminent-report",
-   "created_at": "2026-08-06T05:56:43Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/07/The-Iranian-Flag-Is-Visible-On-The-Scree.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Elon Musk Says SpaceX Will Consume Three Times More Terafab AI Compute Than Tesla",
-   "summary": "Elon Musk says Terafab will serve Tesla&#39;s Optimus robot and SpaceX&#39;s rockets. Facility to create 3000 jobs in phase 1",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/08/61028816/elon-musk-says-spacex-will-consume-three-times-more-terafab-ai-compute-than-tesla",
-   "created_at": "2026-08-07T04:42:39Z",
-   "symbols": [
-    "SPCX",
-    "TSLA"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/07/Elon-Musk--founder--CEO--and-chief-engin.jpg?width=1024&height=768"
   }
  ]
 }
