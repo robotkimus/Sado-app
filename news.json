@@ -1,6 +1,30 @@
 {
- "updated": "2026-08-11 13:00",
+ "updated": "2026-08-11 14:00",
  "items": [
+  {
+   "headline": "AMZN Stock to Close Above $300 by August End? Crypto Punters Bet on the Possibility Following Amazon's Impressive Q2 Performance",
+   "summary": "Cryptocurrency bettors are skeptical that Amazon.com Inc will reach $300 or higher by the end of August, despite the stock’s strong start to the month.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/08/61098898/amzn-stock-polymarket-prediction-price-amazon-q2",
+   "created_at": "2026-08-11T04:36:25Z",
+   "symbols": [
+    "AMZN",
+    "BTCUSD",
+    "ZECUSD"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/11/Los-Angeles-California---February-14-202.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Zohran Mamdani Wants Amazon to Follow 'the Rules' as He Demands 'Accountability,' Backs Delivery Protection Act (UPDATED)",
+   "summary": "Mamdani backed a bill to strengthen delivery worker protections, while Amazon warned it could put more than 5,000 local jobs at risk.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/08/61098533/zohran-mamdani-amazon-delivery-protection-act-accountability",
+   "created_at": "2026-08-11T02:01:05Z",
+   "symbols": [
+    "AMZN"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/11/Nyc-Mayoral-Candidate-Zohran-Mamdani-Spe.jpg?width=1024&height=768"
+  },
   {
    "headline": "Nvidia CEO Jensen Huang Says 'First Time' That Chips Have Become An Investable Asset Class as BlackRock, Blackstone and Others Join $500 Billion AI Push",
    "summary": "Nvidia and six Wall Street giants are targeting $500 billion to finance AI infrastructure as Jensen Huang pitches chips as a new asset class.",
@@ -41,17 +65,6 @@
     "ARKX"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/08/11/Cathie-Wood-Doubles-Down-On-Bitcoin-ETF-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Zohran Mamdani Wants Amazon to Follow 'the Rules' as He Demands 'Accountability,' Backs Delivery Protection Act",
-   "summary": "Mamdani backed a bill to strengthen delivery worker protections, while Amazon warned it could put more than 5,000 local jobs at risk.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/08/61098533/zohran-mamdani-amazon-delivery-protection-act-accountability",
-   "created_at": "2026-08-11T02:01:13Z",
-   "symbols": [
-    "AMZN"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/11/Nyc-Mayoral-Candidate-Zohran-Mamdani-Spe.jpg?width=1024&height=768"
   },
   {
    "headline": "Bill Ackman Backs Vivek Ramaswamy’s Data-Center Plan: 'Interesting Idea'",
@@ -192,16 +205,39 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/08/10/Oil-Pump-Jacks-And-Refinery-Silhouettes-.jpg?width=1024&height=768"
   },
   {
-   "headline": "Elon Musk Joked About Buying Manchester United — Now Jeff Bezos Is Buying Into Its Biggest Rival",
-   "summary": "The list of celebrities and rich people buying soccer team stakes could go up with English team Liverpool nearing a big announcement.",
+   "headline": "Elizabeth Warren Blasts ‘Trump Math’ as Oil Giants That Put $5 Million Into His Inauguration Fund See '$23 Billion in Excess War Profits’",
+   "summary": "Sen. Elizabeth Warren slams Trump for aiding oil companies&#39; $23B profits during Iran war as Gas prices remain high.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/news/sports/26/08/61083632/elon-musk-joked-about-buying-manchester-united-now-jeff-bezos-is-buying-into-its-biggest-rival",
-   "created_at": "2026-08-10T16:56:06Z",
+   "url": "https://www.benzinga.com/news/politics/26/08/61098931/elizabeth-warren-blasts-trump-math-as-oil-giants-that-put-5-million-into-his-inauguration-fund-see-23-billion-in-excess-war-profits",
+   "created_at": "2026-08-11T04:44:12Z",
    "symbols": [
-    "AMZN",
-    "MANU"
+    "COP",
+    "CVX",
+    "USO",
+    "XOM"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/10/An-Oil-Painting-style-Portrait-Of-Elon-M.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/11/President-Donald-Trump-waits-outside-of-.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Colombia Magnitude 7.4 Earthquake Kills 132, Leaves Hundreds Injured as Buildings Collapse and Rescue Teams Search for Survivors",
+   "summary": "Colombia’s magnitude 7.4 earthquake killed at least 132 people, injured 480 and collapsed buildings as rescuers searched for survivors trapped under rubble.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/08/61098868/colombia-earthquake-132-killed-rescue-survivors",
+   "created_at": "2026-08-11T04:21:19Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/11/View-Of-The-Downtown-Center-In-Santa-Fe-.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Elon Musk Says China is 'Awesome' as Cathie Wood's Ark Expects Hurdles but Sees Tesla-SpaceX Deal Coming in 2026",
+   "summary": "Elon Musk said China is “awesome” as Tesla’s China operations remain a key question in speculation over a potential Tesla-SpaceX merger.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/08/61098865/elon-musk-praises-china-as-ark-invest-predicts-tesla-spacex-deal",
+   "created_at": "2026-08-11T04:21:03Z",
+   "symbols": [
+    "SPCX",
+    "TSLA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/11/Paris--France---June-16--2023-Elon-Musk-.jpg?width=1024&height=768"
   },
   {
    "headline": "Trump Media Expands Bitcoin Holdings to $900 Million While Reporting H1 Unrealized Losses — What to Know About Truth Social Owner's BTC Stash",
@@ -460,50 +496,6 @@
     "FBP"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_3.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "'Everything Except Bitcoin Is Dead'? No, Watch ETH and SOL, Industry Veterans Say",
-   "summary": "Veterans skeptical of altcoin market, see Ethereum &amp; Solana as valuable long-term assets. Bitcoin remains core holding, while others may struggle to justify existence.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/08/61095811/everything-except-bitcoin-is-dead-no-watch-eth-and-sol-industry-veterans-say",
-   "created_at": "2026-08-10T21:07:18Z",
-   "symbols": [
-    "BTCUSD",
-    "ETHUSD",
-    "NEARUSD",
-    "SOLUSD"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/10/Horizontal-View-Of-Cryptocurrency-Tokens.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "12 Communication Services Stocks Moving In Monday's After-Market Session",
-   "summary": "Gainers\n\nHWH Intl (NASDAQ:HWH) shares moved upwards by 41.8% to $2.05 during Monday&#39;s after-market session. The company&#39;s market cap stands at $11.5 million. \nNIQ Global Intelligence (NYSE:NIQ",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/08/61095738/12-communication-services-stocks-moving-monday-s-after-market-session",
-   "created_at": "2026-08-10T21:06:23Z",
-   "symbols": [
-    "AREN",
-    "EVC",
-    "GAIA",
-    "GAME",
-    "GETY"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_3.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "12 Health Care Stocks Moving In Monday's After-Market Session",
-   "summary": "Gainers\n\nP3 Health Partners (NASDAQ:PIII) shares increased by 24.1% to $15.92 during Monday&#39;s after-market session. The market value of their outstanding shares is at $38.5 million. As per the pre",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/08/61095737/12-health-care-stocks-moving-monday-s-after-market-session",
-   "created_at": "2026-08-10T21:06:23Z",
-   "symbols": [
-    "ALC",
-    "DH",
-    "EVH",
-    "HOWL",
-    "IRIX"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_3.jpg?width=1024&height=768"
   }
  ]
 }
