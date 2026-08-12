@@ -1,12 +1,47 @@
 {
- "updated": "2026-08-12 19:00",
+ "updated": "2026-08-12 20:00",
  "items": [
+  {
+   "headline": "FLY Stock Climbs Over 4% During Wednesday Pre-Market: What's Going On?",
+   "summary": "Firefly Aerospace shares rise after record Q2 revenue jumps 659% to $117.7 million, beating estimates on NASA and defense contracts.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/space/26/08/61136077/fly-stock-climbs-over-4-during-wednesday-pre-market-whats-going-on",
+   "created_at": "2026-08-12T10:44:48Z",
+   "symbols": [
+    "FLY",
+    "NVDA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/12/Financial-Market-Bubble-Concept-And-Over.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Mark Warner Says ‘We Can’t Put AI Back in the Bottle,’ Urges Congress to Act on Jobs, National Security and US Competitiveness",
+   "summary": "Sen. Mark Warner urges Congress to act quickly on AI to manage economic and security risks and maintain US&#39;s technological edge.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/08/61135949/mark-warner-says-we-cant-put-ai-back-in-the-bottle-urges-congress-to-act-on-jobs-national-security-and-us-competitiveness",
+   "created_at": "2026-08-12T10:37:43Z",
+   "symbols": [
+    "JPM",
+    "META"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/12/Artificial-Intelligence-Makes-Tasks-Easi.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Michael Burry Calls Nvidia’s $500 Billion AI Financing Push a ‘Wall Street Stunt’: ‘Meet the New Boss…'",
+   "summary": "Michael Burry slams Nvidia’s $500B AI deal as a &#39;Wall Street stunt,&#39; warning of hidden risks in private credit schemes.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/08/61135655/michael-burry-calls-nvidias-500-billion-ai-financing-push-a-wall-street-stunt-meet-the-new-boss",
+   "created_at": "2026-08-12T10:25:02Z",
+   "symbols": [
+    "NVDA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/12/Jensen-Huang-Nvidias-Founder--President-.jpg?width=1024&height=768"
+  },
   {
    "headline": "Why Is CoreWeave Stock Soaring Wednesday?",
    "summary": "CoreWeave (CRWV) stock jumped in premarket trading after raising 2026 revenue guidance to $13.2B on strong AI demand and higher prices.",
    "source": "benzinga",
    "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/08/61134422/why-is-coreweave-stock-soaring-wednesday",
-   "created_at": "2026-08-12T09:40:29Z",
+   "created_at": "2026-08-12T09:40:23Z",
    "symbols": [
     "CRWV",
     "CWVX",
@@ -15,6 +50,57 @@
     "MSFT"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/08/12/CoreWeaveApex--North-Carolina---April-2-.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Quantinuum Strikes Oracle Deal as Quantum Cloud Race Heats Up: ‘Next Phase of Enterprise Computing’",
+   "summary": "Quantinuum and Oracle announced a multi-year deal bringing Helios quantum computing to Oracle Cloud, alongside GPU and HPC infrastructure",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/08/61135132/oracle-bets-big-on-quantum-computing-with-quantinuum-deal",
+   "created_at": "2026-08-12T10:06:38Z",
+   "symbols": [
+    "AMZN",
+    "MSFT",
+    "ORCL",
+    "QNT"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/12/Oracle--Silver-Lake-Lead.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Exploring The Competitive Space: Microsoft Versus Industry Peers In Software",
+   "summary": "In today&#39;s rapidly changing and highly competitive business world, it is imperative for investors and industry observers to carefully assess companies before making investment choices. In this art",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/08/61134602/exploring-competitive-space-microsoft-versus-industry-peers-software",
+   "created_at": "2026-08-12T09:58:41Z",
+   "symbols": [
+    "MSFT"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/earnings_preview_4.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "In-Depth Analysis: NVIDIA Versus Competitors In Semiconductors &amp; Semiconductor Equipment Industry",
+   "summary": "In today&#39;s rapidly evolving and fiercely competitive business landscape, it is crucial for investors and industry analysts to conduct comprehensive company evaluations. In this article, we will un",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/08/61134595/depth-analysis-nvidia-versus-competitors-semiconductors-amp-semiconductor-equipment-industry",
+   "created_at": "2026-08-12T09:58:33Z",
+   "symbols": [
+    "NVDA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/earnings_preview_1.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Stock Market Today: S&P 500, Nasdaq 100 Futures Rise Ahead of July CPI Print—CoreWeave, Nebius, Super Micro, Lumentum in Focus",
+   "summary": "U.S. stock futures were higher on Wednesday, as the Dow Jones, Nasdaq 100 and S&amp;P 500 indices rose, following Tuesday&#39;s lower close.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/08/61134588/stock-market-today-sp-500-nasdaq-100-futures-rise-ahead-of-july-cpi-print-coreweave-nebius-super-micro-lumentum-in-focus",
+   "created_at": "2026-08-12T09:58:23Z",
+   "symbols": [
+    "BTCUSD",
+    "CRWV",
+    "CSCO",
+    "LITE",
+    "NBIS"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/12/Wall-Street.jpg?width=1024&height=768"
   },
   {
    "headline": "Jensen Huang’s $500 Billion Nvidia AI Financing Bet Faces a China Problem—Could Cheaper Chinese Chips Sink GPU Values?",
@@ -112,98 +198,159 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/08/12/Chinas-Exports-Surge-Despite-US-Shortfal.jpg?width=1024&height=768"
   },
   {
-   "headline": "NVIDIA to Report Q2 Earnings Later in August—Crypto Prediction Market Wagers on NVDA Closing Above $250 by Month-End",
-   "summary": "Even as NVIDIA Corp.&#39;s shares surge in August, cryptocurrency punters remain skeptical that the stock will finish the month at or above $250.",
+   "headline": "Sandisk Stock Is Gaining Wednesday: What's Going On?",
+   "summary": "Sandisk (SNDK) stock rose 4%+ premarket on AI storage demand signals. See key technical analysis, analyst price targets, and ETF exposure.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/08/61132379/nvidia-q2-earnings-august-2026-nvda-250-prediction-market",
-   "created_at": "2026-08-12T04:34:18Z",
-   "symbols": [
-    "BTCUSD",
-    "NVDA",
-    "ZECUSD"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/12/Bahia--Brazil---August-28--2025-Nvidia-L.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "CoreWeave Stock Surges Nearly 16% After Earnings, Analyst Says Old Nvidia GPUs Can 'Still Generate Revenue Nearly a Decade Later'",
-   "summary": "CoreWeave shares surged nearly 16% after earnings as analysts highlighted its $104 billion backlog and a 2029 Nvidia A100 contract.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/08/61132121/coreweave-stock-16-percent-earnings-nvidia-gpus-revenue",
-   "created_at": "2026-08-12T02:17:18Z",
+   "url": "https://www.benzinga.com/markets/tech/26/08/61136004/sandisk-stock-is-gaining-wednesday-whats-going-on",
+   "created_at": "2026-08-12T10:39:45Z",
    "symbols": [
     "CRWV",
-    "NVDA"
+    "FPX",
+    "MU",
+    "QYLD",
+    "RPG"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/12/New-York-City--New-York---July-14-2025-C.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/12/Sandisk-Company-Logo---EK.jpg?width=1024&height=768"
   },
   {
-   "headline": "If You Invested $100 In BlackRock Stock 20 Years Ago, You Would Have This Much Today",
-   "summary": "BlackRock (NYSE:BLK) has outperformed the market over the past 20 years by 2.1% on an annualized basis producing an average annual return of 11.38%. Currently, BlackRock has a market capitalization of",
+   "headline": "Coherent Likely To Report Higher Q4 Earnings; These Most Accurate Analysts Revise Forecasts Ahead Of Earnings Call",
+   "summary": "Coherent Corp. (COHR) to release Q4 earnings on Aug. 12. Analysts expect earnings of $1.62/share and revenue of $1.98B.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/08/61131275/if-you-invested-100-blackrock-stock-20-years-ago-you-would-have-much-today",
-   "created_at": "2026-08-11T23:15:18Z",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/08/61135909/coherent-likely-to-report-higher-q4-earnings-these-most-accurate-analysts-revise-forecasts-ahead-of-earnings-call-2",
+   "created_at": "2026-08-12T10:36:03Z",
    "symbols": [
-    "BLK"
+    "COHR"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_4.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/12/Coherent.jpg?width=1024&height=768"
   },
   {
-   "headline": "Nebius Earnings Preview: Michael Burry Is Short but Prediction Markets See Nvidia, Meta Taking Center Stage",
-   "summary": "Nebius reports Q2 earnings Wednesday as Kalshi traders bet on whether Arkady Volozh will mention Nvidia, Meta, Vera Rubin, cash and more.",
+   "headline": "Trump Says He’s Exploring Federal Action to Block Zohran Mamdani’s Luxury Second-Home Tax, Calls It a ‘Dangerous Political Experiment’",
+   "summary": "Trump considers challenging NYC pied-à-terre tax, calling it dangerous political &#39;experiment&#39; that could harm the city.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/prediction-markets/26/08/61129443/nebius-earnings-prediction-market-preview",
-   "created_at": "2026-08-11T21:02:24Z",
-   "symbols": [
-    "CRWV",
-    "GOOGL",
-    "META",
-    "MSFT",
-    "NBIS"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/11/Nebius-Group.jpg?width=1024&height=768"
+   "url": "https://www.benzinga.com/news/politics/26/08/61135872/trump-says-hes-exploring-federal-action-to-block-zohran-mamdanis-luxury-second-home-tax-calls-it-a-dangerous-political-experiment",
+   "created_at": "2026-08-12T10:34:30Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/12/President-Donald-Trump-waits-outside-of-.jpg?width=1024&height=768"
   },
   {
-   "headline": "Small‑Cap Stocks Got a Payrolls Boost — But CPI Is the Real Test",
-   "summary": "Small‑cap stocks rallied after a surprise payrolls drop eased near‑term rate‑hike pressure, but Wednesday’s CPI will determine whether the rebound can last.",
+   "headline": "Starlink Will Help Spain’s Flag Carrier Livestream the Total Solar Eclipse With Scientists as Airlines Charge Up to $1,200 For Special Seats",
+   "summary": "Elon Musk&#39;s Starlink internet service will livestream the Solar Eclipse on a dedicated flight with Iberia airline.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/08/61128023/small%e2%80%91cap-stocks-got-payrolls-boost-cpi-is-real-test",
-   "created_at": "2026-08-11T20:33:46Z",
+   "url": "https://www.benzinga.com/news/travel/26/08/61135707/starlink-will-help-spains-flag-carrier-livestream-the-total-solar-eclipse-with-scientists-as-airlines-charge-up-to-1200-for-special-seats",
+   "created_at": "2026-08-12T10:28:52Z",
    "symbols": [
-    "IWM",
-    "QQQ",
-    "SPY"
+    "AAL",
+    "ALK",
+    "DAL",
+    "EADSF",
+    "EADSY"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/11/Russell-2000-Index--Text-On-Notebook-Wit.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/12/Starlink-is-a-satellite-internet-constel.jpg?width=1024&height=768"
   },
   {
-   "headline": "Polymarket Loads Up on Robinhood, Coinbase, Nasdaq Veterans Ahead of Its Biggest US Test",
-   "summary": "Polymarket is hiring veterans of Robinhood, Coinbase and Nasdaq as it prepares for a major U.S. test against Kalshi during NFL season.",
+   "headline": "Lumentum Sees ‘Incredibly Strong’ 2027 Demand",
+   "summary": "Lumentum (NASDAQ: LITE) stock jumped premarket after smashing Q4 earnings and revenue estimates, fueled by massive AI optical demand.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/prediction-markets/26/08/61122981/polymarket-us-robinhood-coinbase-nasdaq-hires",
-   "created_at": "2026-08-11T18:46:37Z",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/08/61135555/lumentum-sees-incredibly-strong-2027-demand",
+   "created_at": "2026-08-12T10:20:12Z",
    "symbols": [
-    "COIN",
-    "HOOD",
-    "LYFT",
-    "NDAQ",
-    "NVDA"
+    "LITE"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/11/Denver--Colorado---June-18-2025-Polymark.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/12/Lumentum-Logo-And-Sign-At-The-Corporate-.jpg?width=1024&height=768"
   },
   {
-   "headline": "Nvidia's Chip Boom Is Spreading: JPMorgan Says These 6 Stocks Could Ride It",
-   "summary": "JPMorgan predicts a $2.25 trillion global semiconductor industry by 2027, with growth now spreading beyond memory chips and AI to other categories.",
+   "headline": "Top 3 Tech And Telecom Stocks That Are Set To Fly This Quarter",
+   "summary": "Buy undervalued communication services stocks with RSI near or below 30. PLTK, TTD, and APP are major oversold players in this sector with significant price drops.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/08/61122617/nvidia-chip-boom-spreading-six-stocks-to-watch",
-   "created_at": "2026-08-11T18:35:13Z",
+   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/08/61135432/top-3-tech-and-telecom-stocks-that-are-set-to-fly-this-quarter",
+   "created_at": "2026-08-12T10:16:05Z",
    "symbols": [
-    "AMD",
-    "AVGO",
-    "INTC",
-    "MRVL",
-    "MU"
+    "APP",
+    "PLTK",
+    "TTD"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/11/Krugman-Questions-AI-Stocks.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/12/Portland--Or--Usa---Jan-21--2021-The-Tra.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "SMCI Stock Surges 9% During Wednesday Pre-Market: What's Going On?",
+   "summary": "Super Micro shares jump 8.85% as record AI server backlog and $65B-$72B FY2027 revenue forecast fuel investor optimism.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/08/61135387/smci-stock-surges-9-during-wednesday-pre-market-whats-going-on",
+   "created_at": "2026-08-12T10:11:58Z",
+   "symbols": [
+    "SMCI"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/12/Super-Micro-Computer-SMCI.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "The Dollar Doesn't Need to Die for Gold to Win",
+   "summary": "Dollar doom narratives miss how the monetary system actually works. Brent Johnson explains why gold and a strong dollar rise together.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/commodities/26/08/61135236/the-dollar-doesnt-need-to-die-for-gold-to-win",
+   "created_at": "2026-08-12T10:08:58Z",
+   "symbols": [
+    "CORN",
+    "DBA",
+    "GLD",
+    "IAU",
+    "SOYB"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/12/Gold-Bullion-On-100-Us-Dollar-Note.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Social Security Adds 14 Conditions to Disability Benefits Fast-Track List: Here’s What Changed",
+   "summary": "Social Security adds 14 conditions to its Compassionate Allowances list, bringing the total to 314 for faster disability processing.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/health-care/26/08/61135211/social-security-adds-14-conditions-to-disability-benefits-fast-track-list-heres-what-changed",
+   "created_at": "2026-08-12T10:08:15Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/12/Social-Security-Checks-Could-Jump-In-202.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Investigating Apple's Standing In Technology Hardware, Storage &amp; Peripherals Industry Compared To Competitors",
+   "summary": "In the ever-evolving and intensely competitive business landscape, conducting a thorough company analysis is of utmost importance for investors and industry followers. In this article, we will carry o",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/08/61134600/investigating-apple-s-standing-technology-hardware-storage-amp-peripherals-industry-compared-competi",
+   "created_at": "2026-08-12T09:58:38Z",
+   "symbols": [
+    "AAPL"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/earnings_preview_12.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Jason Calacanis Says Starlink Now Determines Which Flights He Books: ‘Not Total Time, Route or Price’",
+   "summary": "Starlink&#39;s high-speed internet now matters more than travel time, route, or price for investor and All-In podcast host Jason Calacanis.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/08/61134590/jason-calacanis-says-starlink-now-determines-which-flights-he-books-not-total-time-route-or-price",
+   "created_at": "2026-08-12T09:58:30Z",
+   "symbols": [
+    "AAL",
+    "SPCX",
+    "UAL"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/12/Starlink-Expands-United-Deal.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Analyzing Shopify In Comparison To Competitors In IT Services Industry",
+   "summary": "In today&#39;s fast-paced and competitive business landscape, it is essential for investors and industry enthusiasts to thoroughly analyze companies before making investment decisions. In this article",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/08/61134589/analyzing-shopify-comparison-competitors-it-services-industry",
+   "created_at": "2026-08-12T09:58:27Z",
+   "symbols": [
+    "SHOP"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/earnings_preview_14.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Assessing Palantir Technologies's Performance Against Competitors In Software Industry",
+   "summary": "In today&#39;s fast-paced and competitive business landscape, it is essential for investors and industry enthusiasts to thoroughly analyze companies before making investment decisions. In this article",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/08/61134586/assessing-palantir-technologies-s-performance-against-competitors-software-industry",
+   "created_at": "2026-08-12T09:58:13Z",
+   "symbols": [
+    "PLTR"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/earnings_preview_11.jpg?width=1024&height=768"
   },
   {
    "headline": "Why Is Micron Technology Stock Gaining Wednesday?",
@@ -302,184 +449,6 @@
     "ZECUSD"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/08/12/Tim-Draper-Headshot-v4.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Why CoreWeave Shares Are Trading Higher By Over 17%; Here Are 20 Stocks Moving Premarket",
-   "summary": "CRWV shares rose in pre-market trading after reporting better-than-expected Q2 results. BAOS, BOXL, DOGZ, DRMA, ZBAO, HYLN, XHLD, VELO, and HRB also saw gains.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/08/61133967/why-coreweave-shares-are-trading-higher-by-over-17-here-are-20-stocks-moving-premarket",
-   "created_at": "2026-08-12T08:51:54Z",
-   "symbols": [
-    "AIFA",
-    "BAOS",
-    "BORR",
-    "BOXL",
-    "CCEL"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/12/CoreWeave.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Elissa Slotkin Says Trump Could ‘Manufacture Doubt’ in Elections to Justify Federal Control at Polls",
-   "summary": "Rep. Slotkin accuses Trump of undermining election trust to justify federal intervention at polls. Introduces bill to prevent this.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/08/61133846/elissa-slotkin-says-trump-could-manufacture-doubt-in-elections-to-justify-federal-control-at-polls",
-   "created_at": "2026-08-12T08:44:17Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/12/President-Donald-Trump-delivering-his-fi.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Trump Accounts Just Became More Attractive to Working Parents: Employers Can Contribute $2,500 Tax-Free Under New Treasury Guidance",
-   "summary": "Treasury proposes rules allowing pretax paycheck contributions and employer funding for Trump Accounts.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/financing/26/08/61133819/trump-accounts-pretax-contributions-employers",
-   "created_at": "2026-08-12T08:37:05Z",
-   "symbols": [
-    "MSTR"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/12/Young-Teacher-Counting-Group-Of-Kids-Pup.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Elon Musk Makes Bold Promise on Flying Cars: ‘You Will Get...’",
-   "summary": "Tesla CEO Elon Musk teases flying cars with a short social media comment, reigniting speculation about the long-awaited Roadster.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/08/61133804/elon-musk-makes-bold-promise-on-flying-cars-you-will-get",
-   "created_at": "2026-08-12T08:33:54Z",
-   "symbols": [
-    "SPCX",
-    "TSLA"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/12/Elon-Musk--founder--CEO--and-chief-engin.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "HYLN Stock Is Trending—Here’s Why It Spiked Over 17% in Pre-Market",
-   "summary": "Hyliion Holdings Corp. shares surged 17.19% in Wednesday pre-market after reporting a revenue beat and a $41.7 million contract.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/08/61133764/hyliion-holdings-shares-jump-after-hours-revenue-beat",
-   "created_at": "2026-08-12T08:24:58Z",
-   "symbols": [
-    "HYLN"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/12/A-Detailed-Stock-Market-Chart-Featuring-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Americans’ Credit Card Debt Climbs to $1.26 Trillion as K-Shaped Economy Widens Consumer Divide",
-   "summary": "U.S. credit card debt reaches $1.26 trillion as the K-shaped economy keeps households under uneven financial pressure.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/financing/26/08/61133748/credit-card-debt-k-shaped-economy",
-   "created_at": "2026-08-12T08:16:48Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/12/Stuttgart--Germany---May-1--2024-Credit-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "US Drops Key Business Ownership Reporting Rule for Americans as Scott Bessent Hails 'Victory' for Small Businesses—'Gift to ‌Cartels,' Warns Elizabeth Warren",
-   "summary": "Treasury exempts US firms and individuals from FinCEN ownership reporting, with Scott Bessent calling it a win for small businesses.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/legal/26/08/61133693/us-drops-key-business-ownership-reporting-rule-for-americans-as-scott-bessent-hails-victory-for-small-businesses-gift-to-cartels-warns-elizabeth-warren",
-   "created_at": "2026-08-12T08:14:42Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/12/Us-Treasury-Secretary--Scott-Bessent-Wal.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Energy Secretary Chris Wright Says Hormuz Oil Flows Surpass Prewar Levels as US, Gulf Allies Step Up Coordination—Trump Claims ‘100% Control’ of the Strait",
-   "summary": "Chris Wright says oil flows through the Strait of Hormuz surged beyond prewar levels, with exports topping 20 million barrels a day.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/08/61133492/energy-secretary-chris-wright-says-hormuz-oil-flows-surpass-prewar-levels-as-us-gulf-allies-step-up-coordination-trump-claims-100-control-of-the-strait",
-   "created_at": "2026-08-12T07:43:31Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/12/U-S--President-Donald-Trump-in-the-backg.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Anthony Scaramucci Knew Abigail Johnson Before She Ran Fidelity — the Quiet Introvert Had What It Took to Reinvent the $13 Billion Financial Empire",
-   "summary": "Anthony Scaramucci recalls Abigail Johnson’s quiet Harvard days and how she later reinvented Fidelity’s $13 trillion empire.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/08/61133479/anthony-scaramucci-abigail-johnson-fidelity-13-billion-empire",
-   "created_at": "2026-08-12T07:40:52Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/12/Washington--Dcusa---April-26--2018-Antho.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Rand Paul Says ‘Affordability’ Crisis Is Really Inflation, Blames $2 Trillion Deficit and Fed Money Creation for Rising Costs",
-   "summary": "Paul blames inflation for rising costs. He argues that federal deficit and Fed&#39;s monetary policy contribute to declining purchasing power.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/economic-data/26/08/61133430/rand-paul-says-affordability-crisis-is-really-inflation-blames-2-trillion-deficit-and-fed-money-creation-for-rising-costs",
-   "created_at": "2026-08-12T07:33:09Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/12/Kentucky-Senator-Rand-Paul-Makes-A-Speec.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Elon Musk Wants Moon Travel to Become Something ‘Anyone’ Can Do as Starship Targets 100-Ton Deliveries to the Lunar Surface",
-   "summary": "Elon Musk aims for accessible Moon travel for all through Starship&#39;s refueling system, allowing 100 tons of cargo to reach surface.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/space/26/08/61133304/elon-musk-wants-moon-travel-to-become-something-anyone-can-do-as-starship-targets-100-ton-deliveries-to-the-lunar-surface",
-   "created_at": "2026-08-12T07:18:41Z",
-   "symbols": [
-    "SPCX"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/12/Paris--France---February-3--2026-A-Horiz.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Performance Food Group, Super Micro Computer and 3 Stocks to Watch Heading Into Wednesday",
-   "summary": "U.S. stock futures are up this morning, with attention on earnings from Brinker, CoreWeave, Cisco, Super Micro, and Performance Food. #stockmarket",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/08/61133181/performance-food-group-super-micro-computer-and-3-stocks-to-watch-heading-into-wednesday",
-   "created_at": "2026-08-12T07:11:14Z",
-   "symbols": [
-    "CRWV",
-    "CSCO",
-    "EAT",
-    "PFGC",
-    "SMCI"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/12/Super-Micro-Computer--Inc.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Velo3D CEO Says Space Race Is ‘Pushing the Limits’ on Production as Demand Surges",
-   "summary": "Velo3D CEO says demand for additive manufacturing is growing due to space race. Existing customers moving to production.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/earnings/26/08/61133192/velo3d-ceo-says-space-race-is-pushing-the-limits-on-production-as-demand-surges",
-   "created_at": "2026-08-12T07:11:59Z",
-   "symbols": [
-    "SPCX",
-    "VELO"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/12/Velo3d-Sign-Of-Velo3d-Is-A-Metal-Additiv.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "S&P 500 Falls for Second Session Ahead of Inflation Report: Investor Sentiment Weakens, Fear & Greed Index Remains in ‘Greed’ Zone",
-   "summary": "CNN Fear &amp; Greed Index: Market sentiment declined, but remained in Greed zone on Tuesday. Stocks closed lower.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/market-summary/26/08/61133100/sp-500-falls-for-second-session-ahead-of-inflation-report-investor-sentiment-weakens-fear-greed-index-remains-in-greed-zone",
-   "created_at": "2026-08-12T06:57:27Z",
-   "symbols": [
-    "CAH",
-    "CSCO",
-    "EAT",
-    "PFGC",
-    "QMCO"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/12/Market-sentiment---Fear-and-Greed.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Top Wall Street Forecasters Revamp Brinker International Expectations Ahead Of Q4 Earnings",
-   "summary": "Brinker Int&#39;l (NYSE: EAT) will release Q4 earnings on Aug. 12. Analysts expect $3.08 EPS and $1.53B revenue. Previous quarter beat expectations.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/08/61132979/top-wall-street-forecasters-revamp-brinker-international-expectations-ahead-of-q4-earnings-2",
-   "created_at": "2026-08-12T06:37:02Z",
-   "symbols": [
-    "EAT"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/12/Stuttgart--Germany---07-05-2024-Person-H.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Iran’s New Security Chief Mohsen Razaei Sets Conditions for Reopening Strait of Hormuz: ‘Message Is Clear’",
-   "summary": "Iran&#39;s new security chief demands region-wide ceasefire, warns Strait of Hormuz will remain closed until US meets conditions.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/08/61132945/irans-new-security-chief-mohsen-razaei-sets-conditions-for-reopening-strait-of-hormuz-message-is-clear",
-   "created_at": "2026-08-12T06:34:17Z",
-   "symbols": [
-    "USO"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/12/The-Iranian-Flag-Is-Visible-On-The-Scree.jpg?width=1024&height=768"
   }
  ]
 }
