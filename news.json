@@ -1,6 +1,29 @@
 {
- "updated": "2026-08-12 15:00",
+ "updated": "2026-08-12 16:00",
  "items": [
+  {
+   "headline": "Bernie Sanders Backs Mamdani’s Amazon Fight, Says Company Made $92 Billion in First Half While Using 'Legal Loopholes' to Deny Workers Their Rights",
+   "summary": "Sanders backed Mamdani’s NYC delivery worker bill targeting Amazon, while the company warned it could put more than 5,000 jobs at risk.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/08/61132944/bernie-sanders-mamdani-amazon-worker-rights",
+   "created_at": "2026-08-12T06:34:12Z",
+   "symbols": [
+    "AMZN"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/12/New-York--Usa---April-14--2016-President.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Elizabeth Warren Probes 'Cartoonish Corruption' After Accusing Belgium Diamond Industry of Gifting Trump a Diamond-Encrusted Ring",
+   "summary": "Sen. Elizabeth Warren accuses Belgium&#39;s diamond industry of buying favor with Trump via $1M gold ring ahead of a tariff exemption weeks later.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/08/61132923/elizabeth-warren-probes-belgium-1m-gold-ring-gift-to-trump",
+   "created_at": "2026-08-12T06:32:34Z",
+   "symbols": [
+    "AAPL",
+    "NVDA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/12/Arlington--Va---February-13--2020-Senato.jpg?width=1024&height=768"
+  },
   {
    "headline": "Jim Cramer Asks if Wall Street's 'Long Knives' for Nvidia Should Stay Sheathed as CoreWeave Powers Neocloud Optimism",
    "summary": "Jim Cramer said CoreWeave&#39;s strength is lifting the broader neocloud group, questioning whether bearish sentiment toward Nvidia can hold.",
@@ -179,31 +202,65 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/08/11/CoreWeave.jpg?width=1024&height=768"
   },
   {
-   "headline": "Zuckerberg Wants AI for All — This CEO Says Open Models Are Making It Real",
-   "summary": "DigitalOcean CEO Paddy Srinivasan says cheaper open-weight models could make Zuckerberg&#39;s vision of broadly accessible AI more realistic.",
+   "headline": "S&P 500 Falls for Second Session Ahead of Inflation Report: Investor Sentiment Weakens, Fear & Greed Index Remains in ‘Greed’ Zone",
+   "summary": "CNN Fear &amp; Greed Index: Market sentiment declined, but remained in Greed zone on Tuesday. Stocks closed lower.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/08/61119208/zuckerberg-wants-ai-for-all-ceo-open-models-making-real",
-   "created_at": "2026-08-11T17:03:13Z",
+   "url": "https://www.benzinga.com/markets/market-summary/26/08/61133100/sp-500-falls-for-second-session-ahead-of-inflation-report-investor-sentiment-weakens-fear-greed-index-remains-in-greed-zone",
+   "created_at": "2026-08-12T06:57:27Z",
    "symbols": [
-    "DOCN",
-    "META"
+    "CAH",
+    "CSCO",
+    "EAT",
+    "PFGC",
+    "QMCO"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/11/Mark-Zuckerberg-Speaks-At-Georgetown-Uni.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/12/Market-sentiment---Fear-and-Greed.jpg?width=1024&height=768"
   },
   {
-   "headline": "Nvidia's Masterstroke To Turn Itself Into An Asset Class—Characterizing This As Circular Financing Is Flawed",
-   "summary": "\n\n\n\nMasterstroke Creates More Risk\n\n\n\nPlease click here for an enlarged chart of NVIDIA Corp (NASDAQ:NVDA).\n\n\n\nNote the following:\n\n\n\n\nThis article is about the big picture, not an individual stock.  ",
+   "headline": "Top Wall Street Forecasters Revamp Brinker International Expectations Ahead Of Q4 Earnings",
+   "summary": "Brinker Int&#39;l (NYSE: EAT) will release Q4 earnings on Aug. 12. Analysts expect $3.08 EPS and $1.53B revenue. Previous quarter beat expectations.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/Opinion/26/08/61119053/nvidia-masterstroke-to-turn-itself-into-an-asset-class-characterizing-this-as-circular-financing-is-flawed",
-   "created_at": "2026-08-11T16:59:02Z",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/08/61132979/top-wall-street-forecasters-revamp-brinker-international-expectations-ahead-of-q4-earnings-2",
+   "created_at": "2026-08-12T06:37:02Z",
    "symbols": [
-    "AAOI",
-    "AAPL",
-    "AMD",
-    "AMZN",
-    "ARM"
+    "EAT"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/11/Nvidia-office-building--Taipei--Taiwan.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/12/Stuttgart--Germany---07-05-2024-Person-H.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Iran’s New Security Chief Mohsen Razaei Sets Conditions for Reopening Strait of Hormuz: ‘Message Is Clear’",
+   "summary": "Iran&#39;s new security chief demands region-wide ceasefire, warns Strait of Hormuz will remain closed until US meets conditions.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/08/61132945/irans-new-security-chief-mohsen-razaei-sets-conditions-for-reopening-strait-of-hormuz-message-is-clear",
+   "created_at": "2026-08-12T06:34:17Z",
+   "symbols": [
+    "USO"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/12/The-Iranian-Flag-Is-Visible-On-The-Scree.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Barack Obama Jokes About Trump’s Gold Oval Office Sign: ‘I Can’t Believe I Didn’t Think of That’",
+   "summary": "Former President Barack Obama jokes about Trump&#39;s gold-heavy Oval Office makeover while touring replica of his own workspace.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/08/61132886/barack-obama-jokes-about-trumps-gold-oval-office-sign-i-cant-believe-i-didnt-think-of-that",
+   "created_at": "2026-08-12T06:21:32Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/12/Barack-Obama.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Dogecoin Says Putting a 'Dog on the Money' Was One of the Internet’s 'More Reasonable Ideas' — The 12802% Lifetime Gain Isn't Bad Either",
+   "summary": "Dogecoin&#39;s official X account reflected on its canine origins on Tuesday, August 11, adding that featuring a &#34;dog meme on currency was one of the internet&#39;s smarter ideas.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/08/61132756/dogecoin-doge-on-money-12802-percent-lifetime-gain",
+   "created_at": "2026-08-12T06:01:17Z",
+   "symbols": [
+    "BTCUSD",
+    "DOGEUSD",
+    "DPZ",
+    "GDOG",
+    "TDOG"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/12/Dogecoin-Doge-Isolated-On-White-Backgrou.jpg?width=1024&height=768"
   },
   {
    "headline": "Trimble Gears Up For Q2 Print; Here Are The Recent Forecast Changes From Wall Street's Most Accurate Analysts",
@@ -437,61 +494,6 @@
     "SMCI"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/08/12/Investors-Analyze-The-Data-Stock-Market-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Here's How Much $100 Invested In Phillips 66 5 Years Ago Would Be Worth Today",
-   "summary": "Phillips 66 (NYSE:PSX) has outperformed the market over the past 5 years by 14.38% on an annualized basis producing an average annual return of 25.89%. Currently, Phillips 66 has a market capitalizati",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/08/61131419/here-s-how-much-100-invested-phillips-66-5-years-ago-would-be-worth-today",
-   "created_at": "2026-08-11T23:45:42Z",
-   "symbols": [
-    "PSX"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_2.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "If You Invested $100 In F5 Stock 20 Years Ago, You Would Have This Much Today",
-   "summary": "F5 (NASDAQ:FFIV) has outperformed the market over the past 20 years by 5.82% on an annualized basis producing an average annual return of 15.09%. Currently, F5 has a market capitalization of $23.44 bi",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/08/61131385/if-you-invested-100-f5-stock-20-years-ago-you-would-have-much-today",
-   "created_at": "2026-08-11T23:30:15Z",
-   "symbols": [
-    "FFIV"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_3.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Here's How Much $1000 Invested In Imperial Oil 10 Years Ago Would Be Worth Today",
-   "summary": "Imperial Oil (AMEX:IMO) has outperformed the market over the past 10 years by 1.68% on an annualized basis producing an average annual return of 15.14%. Currently, Imperial Oil has a market capitaliza",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/08/61131221/here-s-how-much-1000-invested-imperial-oil-10-years-ago-would-be-worth-today",
-   "created_at": "2026-08-11T23:00:15Z",
-   "symbols": [
-    "IMO"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_2.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "If You Invested $1000 In JPMorgan Chase Stock 10 Years Ago, You Would Have This Much Today",
-   "summary": "JPMorgan Chase (NYSE:JPM) has outperformed the market over the past 10 years by 5.15% on an annualized basis producing an average annual return of 18.61%. Currently, JPMorgan Chase has a market capita",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/08/61131129/if-you-invested-1000-jpmorgan-chase-stock-10-years-ago-you-would-have-much-today",
-   "created_at": "2026-08-11T22:45:31Z",
-   "symbols": [
-    "JPM"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_4.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "If You Invested $1000 In Goldman Sachs Group Stock 15 Years Ago, You Would Have This Much Today",
-   "summary": "Goldman Sachs Group (NYSE:GS) has outperformed the market over the past 15 years by 2.4% on an annualized basis producing an average annual return of 15.62%. Currently, Goldman Sachs Group has a marke",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/08/61131074/if-you-invested-1000-goldman-sachs-group-stock-15-years-ago-you-would-have-much-today",
-   "created_at": "2026-08-11T22:30:20Z",
-   "symbols": [
-    "GS"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_1.jpg?width=1024&height=768"
   }
  ]
 }
