@@ -1,6 +1,49 @@
 {
- "updated": "2026-08-13 18:00",
+ "updated": "2026-08-13 19:00",
  "items": [
+  {
+   "headline": "Oracle Weighs Another Round of Job Cuts This Month as AI Infrastructure Spending Drives Debt: Report",
+   "summary": "Oracle reportedly plans another round of job cuts as massive AI infrastructure spending adds to its growing debt burden.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/08/61166275/oracle-weighs-another-round-of-job-cuts-this-month-as-ai-infrastructure-spending-drives-debt-report",
+   "created_at": "2026-08-13T09:42:08Z",
+   "symbols": [
+    "META",
+    "MSFT",
+    "ORCL"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/13/Konskie--Poland---September-07--2025-Ora.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Stock Market Today: S&P 500, Dow Futures Rise as July Inflation Cools—Cisco Systems, Netflix, Applied Materials in Focus",
+   "summary": "U.S. stock futures were higher on Thursday, as the Dow Jones, Nasdaq 100 and S&amp;P 500 indices rose, following Wednesday&#39;s lower close.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/08/61166181/stock-market-today-sp-500-dow-futures-rise-as-july-inflation-cools-cisco-systems-netflix-applied-materials-in-focus",
+   "created_at": "2026-08-13T09:30:27Z",
+   "symbols": [
+    "AMAT",
+    "BTCUSD",
+    "CBRS",
+    "CSCO",
+    "INFQ"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/13/Wall-Street-New-York-Stock-Exchange.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Jensen Huang Says Nvidia’s 2020 A100 GPUs Can Stay ‘Mission-Capable’ Through 2029—Here’s Why It Matters for the AI Boom",
+   "summary": "Jensen Huang says Nvidia’s A100 GPUs can remain profitable through 2029, challenging fears of rapid AI chip obsolescence.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/08/61166040/jensen-huang-says-nvidias-2020-a100-gpus-can-stay-mission-capable-through-2029-heres-why-it-matters-for-the-ai-boom",
+   "created_at": "2026-08-13T09:18:08Z",
+   "symbols": [
+    "APO",
+    "BAM",
+    "BLK",
+    "BX",
+    "CRWV"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/13/Jensen-Huang-Nvidias-Founder--President-.jpg?width=1024&height=768"
+  },
   {
    "headline": "Vinod Khosla Says AI Is Creating a ‘Hyperabundance’ of New Drugs, but Testing Is Still ‘18th-Century’",
    "summary": "Vinod Khosla says AI is revolutionizing drug discovery, but drug testing needs to catch up with more human-relevant methods.",
@@ -168,48 +211,156 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/08/12/Ljubljana--Slovenia---21-January-2023-Me.jpg?width=1024&height=768"
   },
   {
-   "headline": "Can The AI Adoption Boom Send S&P 500 To 9,000?",
-   "summary": "Even as the US benchmark ticks towards 8,000, the full potential of the artificial intelligence boom still appears to be undervalued on Wall Street. \n\n\n\nAgainst the backdrop of exceptionally high leve",
+   "headline": "Uber's Tokyo Robotaxi Plans Strengthen Its Japan Push",
+   "summary": "Uber Robotaxi Pilot plans in Tokyo draw investor attention as UBER rises premarket and analysts remain bullish.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/Opinion/26/08/61154819/can-the-ai-adoption-boom-send-sp500-to-9000",
-   "created_at": "2026-08-12T18:45:52Z",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/08/61166457/ubers-tokyo-robotaxi-plans-strengthen-its-japan-push",
+   "created_at": "2026-08-13T09:50:40Z",
    "symbols": [
-    "AMZN",
-    "GOOG",
-    "META",
-    "MSFT"
+    "BUL",
+    "PFOE",
+    "PNQI",
+    "UBER"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/12/AI.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/13/Aachen--Germany-September-2019-Uber-Driv.jpg?width=1024&height=768"
   },
   {
-   "headline": "Applied Materials Q3 Preview: Stock Up 105% YTD, but Down 25% From June All-Time Highs, What Happens Next",
-   "summary": "Analysts want record revenue from Applied Materials. Here&#39;s the key items to watch.",
+   "headline": "Anthony Scaramucci Calls Mutual Funds a ‘Relic’ for the ‘Museum of Natural History,’ Says ETFs Are the Future",
+   "summary": "SkyBridge Capital founder Anthony Scaramucci said mutual funds are a dying relic, with ETFs now taking their place.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/previews/26/08/61154248/applied-materials-q3-preview-stock-up-105-ytd-but-down-25-from-june-all-time-highs-what-happens-next",
-   "created_at": "2026-08-12T18:25:08Z",
+   "url": "https://www.benzinga.com/markets/equities/26/08/61166435/anthony-scaramucci-says-mutual-funds-are-a-relic-headed-for-the-museum-of-natural-history-while-etfs-take-over",
+   "created_at": "2026-08-13T09:49:42Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/13/Anthony-Scaramucci--former-White-House-C.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "SanDisk, Kioxia Unveil AI-Ready Flash Tech With 33% Speed Boost",
+   "summary": "SNDK stock trades near $1,325 support as Sandisk unveils new 2TB QLC flash memory for AI. Check technical analysis and ratings.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/08/61166300/sandisk-kioxia-unveil-ai-ready-flash-tech-with-33-speed-boost",
+   "created_at": "2026-08-13T09:46:17Z",
    "symbols": [
+    "FPX",
+    "QYLD",
+    "RPG",
+    "SNDK"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/13/Sandisk-Company-Logo---EK.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Applied Materials Earnings Are Imminent; These Most Accurate Analysts Revise Forecasts Ahead Of Earnings Call",
+   "summary": "Applied Materials (NASDAQ: AMAT) will release Q3 earnings on Aug. 13. Analysts expect $3.39 EPS and $9B revenue.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/08/61166264/applied-materials-earnings-are-imminent-these-most-accurate-analysts-revise-forecasts-ahead-of-earnings-call-5",
+   "created_at": "2026-08-13T09:41:41Z",
+   "symbols": [
+    "AMAT"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/13/Santa-Clara--California---April-26--2018.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Republican States Race to Cut Property Taxes Ahead of November Elections as Homeowners Demand Relief",
+   "summary": "Republican-led states are pushing property tax cuts as homeowners face rising bills and local governments warn of revenue losses.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/real-estate/26/08/61166228/republican-states-race-to-cut-property-taxes-ahead-of-november-elections-as-homeowners-demand-relief",
+   "created_at": "2026-08-13T09:37:18Z",
+   "symbols": [
+    "TSLA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/13/Ramsey-Warns-on-Mortgage-Risk.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Apple, Samsung Can Absorb the Smartphone Cost Shock — Smaller Rivals May Not Be so Lucky",
+   "summary": "Rising component costs and memory inflation trigger smartphone price hikes and falling sales in the U.S. and China, per Counterpoint.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/08/61166199/apple-samsung-can-absorb-the-smartphone-cost-shock-smaller-rivals-may-not-be-so-lucky",
+   "created_at": "2026-08-13T09:33:05Z",
+   "symbols": [
+    "AAPL",
+    "GOOGL",
+    "SSNLF",
+    "XIACY"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/13/Group-Of-Friends-Watching-Smart-Mobile-P.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Why Omeros Shares Are Trading Higher By Over 17%; Here Are 20 Stocks Moving Premarket",
+   "summary": "Omeros Corp (OMER) shares rose 17.2% in pre-market trading after reporting better-than-expected Q2 results. Other gainers include FRGT, SFHG, GXAI, CURI, HLIT, HHS, IVDA, NEXN, GO.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/08/61166018/why-omeros-shares-are-trading-higher-by-over-17-here-are-20-stocks-moving-premarket",
+   "created_at": "2026-08-13T09:16:53Z",
+   "symbols": [
+    "AOSL",
+    "BOXL",
+    "CBRS",
+    "CURI",
+    "FRGT"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/13/The-Real-Villains-No-Longer-Hide.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Bitcoin Faces Brutal 2026 Bet: Polymarket Traders See $40,000 More Likely Than a Return to $100,000",
+   "summary": "Cryptocurrency bettors are tempering expectations about Bitcoin reclaiming $100,000 in 2026.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/08/61166007/bitcoin-more-likely-to-crash-below-40000-than-to-reclaim-100000-in-2026-if-polymarket-punters-are-to-be-believed",
+   "created_at": "2026-08-13T09:15:36Z",
+   "symbols": [
+    "BTCUSD",
+    "MSTR",
+    "ZECUSD"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/13/Close-Up-Shot-Of-A-Golden-Bitcoin-In-A-S.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Chuck Schumer and Others Slam Trump’s $900 Million White House Construction Plan: ‘$0 to Lower Your Costs’",
+   "summary": "Chuck Schumer slammed Trump’s $900 million White House project, urging the administration to focus on Americans’ rising costs.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/08/61165981/chuck-schumer-and-others-slam-trumps-900-million-white-house-construction-plan-0-to-lower-your-costs",
+   "created_at": "2026-08-13T09:09:53Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/13/New-York--Ny--June-13-Senate-Majority-Le.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "North American EV Sales Fall 27% in July as Discounts Shrink, Global Sales Grow 9% Led by Europe",
+   "summary": "US EV sales drop amid a lack of incentives &amp; Trump admin&#39;s pro-fossil-fuel policies as Europe leads with 33% YoY growth.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/08/61165932/north-american-ev-sales-fall-27-in-july-as-discounts-shrink-global-sales-grow-9-led-by-europe",
+   "created_at": "2026-08-13T09:07:07Z",
+   "symbols": [
+    "LCID",
+    "RIVN",
+    "TSLA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/13/Electric-Cars-Are-Being-Charged-At-Elect.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Nasdaq Gains Over 100 Points Following Inflation Data: Investor Sentiment Edges Higher, Fear Index Remains in ‘Greed’ Zone",
+   "summary": "Index shows improvement in market sentiment, Nasdaq up 100 points on inflation data. NFIB and home sales rise.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/market-summary/26/08/61165920/nasdaq-gains-over-100-points-following-inflation-data-investor-sentiment-edges-higher-fear-index-remains-in-greed-zone",
+   "created_at": "2026-08-13T09:06:43Z",
+   "symbols": [
+    "AIT",
     "AMAT",
-    "QQQ",
-    "SMH",
-    "SOXX",
-    "SPY"
+    "CRWV",
+    "DDS",
+    "PFGC"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/12/Santa-Clara--California---April-26--2018.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/13/Fear-and-Greed.jpg?width=1024&height=768"
   },
   {
-   "headline": "8 Consumer Discretionary Stocks With Whale Alerts In Today’s Session",
-   "summary": "This whale alert can help traders discover the next big trading opportunities.\nWhales are entities with large sums of money and we track their transactions here at Benzinga on our options activity sca",
+   "headline": "Cisco CFO Mark Patterson Calls Price Hikes ‘a Last Resort’ That Fuel Revenue Growth, Says Customers ‘Understand It’s an Industry Issue’",
+   "summary": "Cisco raised prices on parts of its hardware in fiscal 2026, boosting revenue, even as CFO Mark Patterson called the move &#34;a last resort.&#34;",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/options/26/08/61152682/8-consumer-discretionary-stocks-whale-alerts-today-s-session",
-   "created_at": "2026-08-12T17:35:15Z",
+   "url": "https://www.benzinga.com/markets/earnings/26/08/61165866/cisco-cfo-calls-price-hikes-a-last-resort-as-rising-memory-costs-fuel-revenue-growth",
+   "created_at": "2026-08-13T08:57:09Z",
    "symbols": [
-    "ABNB",
-    "AMZN",
-    "CVNA",
-    "EXPE",
-    "GAP"
+    "CRWV",
+    "CSCO",
+    "SKHY",
+    "SNDK"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/aggregated_options_2.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/13/Parallels-To-Cisco-During-The-Dot-Com-Bu.jpg?width=1024&height=768"
   },
   {
    "headline": "Early Tesla Investor Steve Jurvetson Bets on SpaceX Alumni to Solve AI’s Power Problem: ‘The Endgame for Datacenter...'",
@@ -329,162 +480,6 @@
     "AIT"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/08/13/Operations-Research-Analysts.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Intuitive Machines Gears Up For Q2 Print; Here Are The Recent Forecast Changes From Wall Street's Most Accurate Analysts",
-   "summary": "Intuitive Machines (NASDAQ: LUNR) to report Q2 earnings on Aug. 13. Analysts expect $221.12M in revenue and a loss of 7 cents per share.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/08/61164754/intuitive-machines-gears-up-for-q2-print-here-are-the-recent-forecast-changes-from-wall-streets-most-accurate-analysts",
-   "created_at": "2026-08-13T06:17:57Z",
-   "symbols": [
-    "LUNR"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/13/Financial-Analysts.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Securitize (SECZ) Shares Tumble 22% After Hours: Here's What's Driving the Move",
-   "summary": "Securitize stock fell 22% after hours after reporting Q2 revenue and earnings results.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/08/61164715/securitize-secz-shares-tumble-22-after-hours-heres-whats-driving-the-move",
-   "created_at": "2026-08-13T06:09:27Z",
-   "symbols": [
-    "SECZ"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/13/Concept-Of-Stock-Market-And-Fintech--Blu.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Elon Musk's Tesla Weighs $10.1 Billion Solar Plant, Chamath Palihapitiya Calls It a Bet on Nuclear: Here's Why",
-   "summary": "Chamath Palihapitiya said Tesla&#39;s expansion into solar manufacturing was a bet on nuclear power, as the automaker weighs a $10.1B plant.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/08/61164704/elon-musk-tesla-10-1-billion-solar-plant-chamath-nuclear-bet",
-   "created_at": "2026-08-13T06:06:26Z",
-   "symbols": [
-    "SPCX",
-    "TSLA"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/13/Paris--France---June-16--2023-Elon-Musk-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Virgin Galactic Sees a Massive Opportunity in Doubling Its Fleet, But There’s a Catch",
-   "summary": "Virgin Galactic expects $1 billion revenue boost by doubling its fleet and using two spaceports, but CEO warns of challenges ahead.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/earnings/26/08/61164692/virgin-galactic-sees-a-massive-opportunity-in-doubling-its-fleet-but-theres-a-catch",
-   "created_at": "2026-08-13T06:05:21Z",
-   "symbols": [
-    "RKLB",
-    "SPCE",
-    "VELO"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/13/Virgin-Galactic-Holdings-Inc.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "CuriosityStream (CURI) Stock Soars 42% After-Hours: Here's What's Going On",
-   "summary": "CuriosityStream shares soared 42.14% after hours Wednesday after the company reported second-quarter results that beat analyst estimates.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/08/61164669/curiositystream-shares-soar-after-hours-q2-results",
-   "created_at": "2026-08-13T06:01:22Z",
-   "symbols": [
-    "CURI"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/13/Denver--Colorado---June-15-2025-Curiosit.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Leslie’s (LESL) Stock Falls 44% After Hours: What's Going On?",
-   "summary": "Leslie’s stock plunged 44% after hours following weak results, withdrawn guidance and strategic financing concerns.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/08/61164611/leslies-stock-falls-44-percent-after-hours",
-   "created_at": "2026-08-13T05:56:48Z",
-   "symbols": [
-    "LESL"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/13/Stock-Market-Graph-Trading-Analysis-Inve.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Stock Market: Will S&P 500 Open Up or Down Today?",
-   "summary": "Will the S&amp;P 500 open higher? Polymarket odds lean bullish as Wall Street digests cooling CPI data against the ongoing Middle East impasse.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/prediction-markets/26/08/61164563/stock-market-will-sp-500-open-up-or-down-today-15",
-   "created_at": "2026-08-13T05:41:06Z",
-   "symbols": [
-    "AMAT",
-    "BN",
-    "CRWV",
-    "JD",
-    "LITE"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/13/Stock-S-And-P-500-Index-Fund-Symbol-Is-O.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Magic Johnson Congratulates Good Friends Bob Iger and Josh Kushner on Buying the Lakers: Is the Franchise Headed for a Shakeup?",
-   "summary": "On Wednesday, Bob Iger and Josh Kushner’s $12.5 billion Lakers takeover could trigger a major leadership shake-up.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/sports/26/08/61164495/magic-johnson-bob-iger-josh-kushner-lakers-ownership-shakeup",
-   "created_at": "2026-08-13T05:16:46Z",
-   "symbols": [
-    "DIS"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/13/Earvin-Magic-Johnson-Attends-Opening-Nig.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "MyPillow Founder Mike Lindell Refuses to Concede Minnesota GOP Primary Loss as Lisa Demuth Celebrates Victory",
-   "summary": "Lindell refuses to concede his Minnesota GOP primary loss to Demuth, questioning the vote count as Demuth claims victory and looks ahead to November.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/08/61164479/mike-lindell-minnesota-gop-primary-loss-lisa-demuth-victory",
-   "created_at": "2026-08-13T05:14:44Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/13/Dallas--Tx---August-5--2022-Political-Ac.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Trump Says Karoline Leavitt Will Leave White House to Focus on Family but Remain ‘One of My Top Outside Advisors’",
-   "summary": "President Donald Trump announces White House Press Secretary Karoline Leavitt&#39;s August departure to focus on family.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/08/61164412/trump-says-karoline-leavitt-will-leave-white-house-to-focus-on-family-but-remain-one-of-my-top-outside-advisors",
-   "created_at": "2026-08-13T05:06:32Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/13/Jan-31th-2025-The-Secend-White-House-Pre.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Trump Says US Has ‘Total Control’ of Strait of Hormuz, Iran’s PGSA Says Waterway Remains 'Blocked'",
-   "summary": "The PGSA has refuted President Trump&#39;s claims that the US controls the Strait of Hormuz, stating it remains closed.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/08/61164394/trump-says-us-has-total-control-of-strait-of-hormuz-irans-pgsa-says-waterway-remains-blocked",
-   "created_at": "2026-08-13T05:03:57Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/13/President-Of-The-United-States-Donald-Tr.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Iveda Solutions (IVDA) Stock Is Trending Overnight—Here's Why It Jumped Over 37% After Hours",
-   "summary": "Iveda Solutions shares jumped 37.17% after hours Wednesday after announcing a strategic government partnership with GlobalMed.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/08/61164347/iveda-solutions-shares-jump-after-hours-globalmed-partnership",
-   "created_at": "2026-08-13T04:55:21Z",
-   "symbols": [
-    "IVDA"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/13/Stock-Trading-Analysis-Concept-With-Inve.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Delta Probes Unauthorized Wi-Fi Network on Flight Carrying DEF CON Passengers: Report (UPDATED)",
-   "summary": "Unauthorized Wi-Fi network detected on Delta flight from Las Vegas to Atlanta, temporarily disabled for safety.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/travel/26/08/61134360/delta-probes-unauthorized-wi-fi-network-on-flight-carrying-def-con-passengers-report",
-   "created_at": "2026-08-12T09:34:16Z",
-   "symbols": [
-    "AAL",
-    "BA",
-    "DAL",
-    "UAL"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/13/Delta-Air-Lines.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Kevin Warsh's Fed Faces Split Verdict on Inflation Data: Sahm Notes 'Good News,' Schiff Says Calls Out 'Misleading' CPI Rise",
-   "summary": "The July CPI report meant different things to economists on Wednesday, fueling debate over disinflation, Fed policy and trust in the data.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/economic-data/26/08/61164234/kevin-warsh-fed-inflation-cpi-sahm-schiff",
-   "created_at": "2026-08-13T04:02:38Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/13/Federal-Reserve-Chair-Kevin-Warsh-Delive.jpg?width=1024&height=768"
   }
  ]
 }
