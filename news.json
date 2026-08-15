@@ -1,6 +1,19 @@
 {
- "updated": "2026-08-15 23:00",
+ "updated": "2026-08-16 00:00",
  "items": [
+  {
+   "headline": "EXCLUSIVE: Ross Gerber Says SPCX Valuation Reflects the ‘Elon Premium,’ But Remains Skeptical of Musk’s Timelines: ‘I Don’t Trust…’",
+   "summary": "Investor Ross Gerber, in conversation with Benzinga, lays down his thoughts on Elon Musk-led SpaceX following its IPO and volatility.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/08/61235361/exclusive-ross-gerber-says-spcx-valuation-reflects-the-elon-premium-but-remains-skeptical-of-musks-timelines-i-dont-trust",
+   "created_at": "2026-08-15T14:31:23Z",
+   "symbols": [
+    "AAPL",
+    "AMZN",
+    "SPCX"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/15/Paris--France---February-3--2026-A-Horiz.jpg?width=1024&height=768"
+  },
   {
    "headline": "Consumer Tech (Aug 10-14): Trump Faces Federal Lawsuits, Apple & Alibaba To Create AI Model For China & More",
    "summary": "AI spending continues reshaping technology as Nvidia, AMD, Cisco, Intel and semiconductor companies announce new investments, partnerships and infrastructure initiatives.",
@@ -199,17 +212,30 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/08/14/Wall-street-shutter3.jpg?width=1024&height=768"
   },
   {
-   "headline": "Broadcom Plunges 5% as Its AI Boom Faces a $370 Billion Financing Question",
-   "summary": "Broadcom stock fell 6% as BofA estimated an AI chip-financing vehicle could reach $370 billion in senior debt by mid-2029.",
+   "headline": "Tariffs, Pentagon Task Force Signal Major Shift In US Drone Warfare and Industrial Policy",
+   "summary": "The White House rolled out new drone tariffs as the Pentagon launched a multinational task force, signaling a major shift in U.S. warfare strategy and industrial policy. Defense stocks rallied on the ",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/prediction-markets/26/08/61219624/broadcom-ai-financing-370-billion",
-   "created_at": "2026-08-14T17:08:42Z",
+   "url": "https://www.benzinga.com/markets/tech/26/08/61235396/tariffs-pentagon-task-force-signal-major-shift-in-us-drone-warfare-and-industrial-policy",
+   "created_at": "2026-08-15T14:53:23Z",
    "symbols": [
-    "APO",
-    "AVGO",
-    "BX"
+    "AVAV",
+    "KTOS",
+    "ONDS",
+    "RCAT",
+    "UMAC"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/14/Broadcom.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/15/Drone-Attacks-Launched.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Elon Musk Recalls SpaceX's Bizarre Seal Experiment: 'Kidnap a Seal, Strap It to a Board'",
+   "summary": "Elon Musk recalls bizarre seal testing requirement at SpaceX&#39;s Vandenberg site, highlighting regulatory friction in rocket operations.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/space/26/08/61235362/elon-musk-recalls-spacexs-bizarre-seal-experiment-kidnap-a-seal-strap-it-to-a-board",
+   "created_at": "2026-08-15T14:31:25Z",
+   "symbols": [
+    "SPCX"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/15/Paris--France---February-3--2026-A-Horiz.jpg?width=1024&height=768"
   },
   {
    "headline": "Earnings Volatility Watch: Wolfspeed and 9 Other Stocks Could Swing Up to 17% this Week",
@@ -471,32 +497,6 @@
     "CRL"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_4.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Here's How Much $1000 Invested In Gold Fields 10 Years Ago Would Be Worth Today",
-   "summary": "Gold Fields (NYSE:GFI) has outperformed the market over the past 10 years by 6.65% on an annualized basis producing an average annual return of 20.15%. Currently, Gold Fields has a market capitalizati",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/08/61232609/here-s-how-much-1000-invested-gold-fields-10-years-ago-would-be-worth-today",
-   "created_at": "2026-08-14T22:00:41Z",
-   "symbols": [
-    "GFI"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_1.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Crypto Bear Market Shows ‘Attributes of a Real Bottom’ With Wall Street Behind It, Bitwise's Matt Hougan Says",
-   "summary": "Bitwise CIO Matt Hougan notes institutions&#39; growing interest in crypto despite its weak price. Bitcoin&#39;s low volatility may signal a bottom.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/08/61232607/crypto-bear-market-shows-attributes-of-a-real-bottom-with-wall-street-behind-it-bitwises-matt-hougan-says",
-   "created_at": "2026-08-14T22:00:36Z",
-   "symbols": [
-    "AAVEUSD",
-    "BTCUSD",
-    "ETHUSD",
-    "HYPEUSD",
-    "LINKUSD"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/14/Bitcoin.jpg?width=1024&height=768"
   }
  ]
 }
