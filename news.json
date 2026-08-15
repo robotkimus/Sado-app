@@ -1,6 +1,21 @@
 {
- "updated": "2026-08-16 01:00",
+ "updated": "2026-08-16 02:00",
  "items": [
+  {
+   "headline": "These Three Metrics Explain Why S&P 500 Index Has Hit Record High",
+   "summary": "The S&amp;P 500 Index has jumped to a record high, and some crucial metrics show that it has more upside to go in the near term",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/08/61235562/these-three-metrics-explain-why-the-sp-500-index-has-hit-a-record-high",
+   "created_at": "2026-08-15T16:51:20Z",
+   "symbols": [
+    "AMZN",
+    "C",
+    "FDS",
+    "GS",
+    "JPM"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/15/Wall-Street-Bull.jpg?width=1024&height=768"
+  },
   {
    "headline": "EXCLUSIVE: Ross Gerber Says SPCX Valuation Reflects the ‘Elon Premium,’ But Remains Skeptical of Musk’s Timelines: ‘I Don’t Trust…’",
    "summary": "Investor Ross Gerber, in conversation with Benzinga, lays down his thoughts on Elon Musk-led SpaceX following its IPO and volatility.",
@@ -197,19 +212,25 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/08/14/Pelosi-Datebricks-Shuttestock-WOod-ARK.png?width=1024&height=768"
   },
   {
-   "headline": "Russell 2000 Extends Records, SanDisk Rallies 7%: Stock Market Today",
-   "summary": "Small caps hit fresh highs Friday as soft retail sales and weak sentiment stalled the S&amp;P 500, while crude climbed and SanDisk extended its post-Investor Day run.",
+   "headline": "Trump Will ‘Never Apologize’ for Rising Gas Prices: ‘You’re at $4. It’s Ok.’",
+   "summary": "President Trump said Friday evening that he will &#34;never apologize&#34; for the average price of gasoline rising above $4 per gallon.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/market-summary/26/08/61220081/russell-2000-record-highs-sandisk-corp-stocks-rallies-friday",
-   "created_at": "2026-08-14T17:22:50Z",
+   "url": "https://www.benzinga.com/markets/commodities/26/08/61235551/trump-defends-rising-gas-prices-amid-escalating-us-iran-war",
+   "created_at": "2026-08-15T16:51:01Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/15/Screenshot-2026-08-15-124928.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Joe Rogan Hits at Trump’s Crypto Billions, Says ‘Shady’ Family Deals Could Trigger Arrests: 'Who's Telling Him...'",
+   "summary": "Joe Rogan criticizes Trump and his family over alleged billions in crypto gains, raising concerns about politics and business.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/08/61235535/joe-rogan-hits-at-trumps-crypto-billions-says-shady-family-deals-could-trigger-arrests-whos-telling-him",
+   "created_at": "2026-08-15T16:31:26Z",
    "symbols": [
-    "AAOI",
-    "ALM",
-    "AMAT",
-    "AVB",
-    "AVGO"
+    "DJT",
+    "TRUMPUSD"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/14/Wall-street-shutter3.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/15/Trump-Warns-Zohran-Mamdani-on-NYC-Tax-Pl.jpg?width=1024&height=768"
   },
   {
    "headline": "Michael Saylor Says Bitcoin Is 'Digital Empowerment' and Will Only Grow Stronger in an AI World",
@@ -476,28 +497,6 @@
     "SIDU"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_1.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "$1000 Invested In Rambus 10 Years Ago Would Be Worth This Much Today",
-   "summary": "Rambus (NASDAQ:RMBS) has outperformed the market over the past 10 years by 8.72% on an annualized basis producing an average annual return of 22.22%. Currently, Rambus has a market capitalization of $",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/08/61232812/1000-invested-rambus-10-years-ago-would-be-worth-much-today",
-   "created_at": "2026-08-14T22:30:38Z",
-   "symbols": [
-    "RMBS"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_4.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Transcript: RFA Financial Q2 2026 Earnings Conference Call",
-   "summary": "RFA Financial (TSX:RFA) released second-quarter financial results and hosted an earnings call on Friday. Read the complete transcript below.\nBenzinga APIs provide real-time access to earnings call tra",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/08/61232724/transcript-rfa-financial-q2-2026-earnings-conference-call",
-   "created_at": "2026-08-14T22:21:06Z",
-   "symbols": [
-    "TSX:RFA"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_3.jpg?width=1024&height=768"
   }
  ]
 }
