@@ -1,6 +1,17 @@
 {
- "updated": "2026-08-17 13:00",
+ "updated": "2026-08-17 14:00",
  "items": [
+  {
+   "headline": "Jeff Bezos Sailed on His $500 Million Yacht to His $55 Million Venice Wedding —Bernie Sanders Says After Paying 5% Wealth Tax He'd Still Have $240 Billion 'Left Over'",
+   "summary": "On Sunday, Bernie Sanders says Jeff Bezos should pay $12.7 billion under his proposed 5% billionaire wealth tax.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/08/61238263/jeff-bezos-500-million-yacht-55-million-venice-wedding-wealth-tax",
+   "created_at": "2026-08-17T04:33:58Z",
+   "symbols": [
+    "AMZN"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/17/Amazon-Founder-Jeff-Bezos-Walks-With-Lau.jpg?width=1024&height=768"
+  },
   {
    "headline": "Harvard Reveals $2.2 Billion SpaceX Stake, Its Largest Public Equity Holding: University's Bet on Elon Musk-led Company Outshines Amazon and Nvidia",
    "summary": "Harvard disclosed a $2.2 billion stake in SpaceX, an early bet on Musk&#39;s rocket company that has grown since its June debut. ",
@@ -189,17 +200,28 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/08/15/Wall-Street-Bull.jpg?width=1024&height=768"
   },
   {
-   "headline": "EXCLUSIVE: Ross Gerber Says SPCX Valuation Reflects the ‘Elon Premium,’ But Remains Skeptical of Musk’s Timelines: ‘I Don’t Trust…’",
-   "summary": "Investor Ross Gerber, in conversation with Benzinga, lays down his thoughts on Elon Musk-led SpaceX following its IPO and volatility.",
+   "headline": "Ross Gerber Questions Bitcoin's Everyday Use Despite 'Endless Promise' Of Its Utility: Tesla Investor Says Haven't Sold Any BTC Unlike Michael Saylor",
+   "summary": "Veteran investor Ross Gerber questioned on Sunday, August 16, whether Bitcoin has genuine everyday practicality despite the &#34;endless promises of its use cases.&#34;",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/08/61235361/exclusive-ross-gerber-says-spcx-valuation-reflects-the-elon-premium-but-remains-skeptical-of-musks-timelines-i-dont-trust",
-   "created_at": "2026-08-15T14:31:23Z",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/08/61238339/ross-gerber-bitcoin-everyday-use-tesla-investor-michael-saylor",
+   "created_at": "2026-08-17T04:45:56Z",
    "symbols": [
-    "AAPL",
-    "AMZN",
-    "SPCX"
+    "BTCUSD",
+    "MA",
+    "MSTR",
+    "V",
+    "ZECUSD"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/15/Paris--France---February-3--2026-A-Horiz.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/17/Golden-Bitcoin-Coin-In-Red-And-Blue-Smok.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Trump Touts 'Very Good Relationship' With Kim Jong Un, Asks Hegseth to 'Substantially Reduce' Military Exercises With South Korea",
+   "summary": "Trump orders the Pentagon to substantially reduce U.S.-South Korea military drills, citing costs, Seoul’s Iran stance and his relationship with Kim Jong Un.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/08/61238243/trump-kim-jong-un-south-korea-military-exercises-hegseth",
+   "created_at": "2026-08-17T04:24:18Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/17/Washington-D-c---Usa---February-4--2025-.jpg?width=1024&height=768"
   },
   {
    "headline": "Elon Musk Says Tesla Is ‘Most Made in America’ Car Brand as Trump Tariffs Shake Up Auto Industry",
@@ -474,26 +496,6 @@
     "TSLA"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/08/16/Tesla-EV-electric-vehicle-Service-Center.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "PayPal's Stripe Talks, Anthropic's $200 Billion Bet and More: This Week In Tech",
-   "summary": "This week’s top stories covered PayPal’s sale talks, Anthropic’s valuation, Meta’s Australia crackdown and Tesla-SpaceX speculation.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/08/61236870/top-stories-week-paypal-anthropic-druckenmiller-meta-tesla-spacex",
-   "created_at": "2026-08-16T14:00:15Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/16/Ai-The-Concept-Of-Controlling-Technology.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Trump Approval Rating Takes Hit Across Key Metrics",
-   "summary": "President Trump’s approval rating is falling across key demographics, with some surveys putting his overall approval as low as 32% to 34%.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/08/61236742/trump-approval-rating-takes-a-hit-across-key-metrics-new-poll-finds",
-   "created_at": "2026-08-16T13:42:13Z",
-   "symbols": [
-    "DJT"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/16/Trump-Warns-Zohran-Mamdani-on-NYC-Tax-Pl.jpg?width=1024&height=768"
   }
  ]
 }
