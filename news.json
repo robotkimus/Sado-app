@@ -1,6 +1,21 @@
 {
- "updated": "2026-08-18 18:00",
+ "updated": "2026-08-18 19:00",
  "items": [
+  {
+   "headline": "Stock Market Today: Dow Jones, S&P 500 Futures Fall as Trump Rejects Extending Ceasefire With Iran—Home Depot, Super League, Flexsteel in Focus",
+   "summary": "U.S. stock futures were lower on Monday, as the Dow Jones, Nasdaq 100 and S&amp;P 500 indices fell, following Monday&#39;s lower close.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/08/61266417/stock-market-today-dow-jones-sp-500-futures-fall-as-trump-rejects-extending-ceasefire-with-iran-home-depot-super-league-flexsteel-in-focus",
+   "created_at": "2026-08-18T09:53:41Z",
+   "symbols": [
+    "BTCUSD",
+    "DUOT",
+    "FLXS",
+    "FN",
+    "HD"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/18/Close-Up-Of-Wall-Street-Sign-With-Iconic.jpg?width=1024&height=768"
+  },
   {
    "headline": "JPMorgan's Bill Eigen Warns the AI Boom Is Starting to Resemble the 2008 Housing Crash: 'What I'm Terrified of Is…'",
    "summary": "J.P. Morgan&#39;s Bill Eigen said the AI boom shows the same warning signs as 2008&#39;s real estate crash, not a typical tech cycle.",
@@ -198,17 +213,124 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/08/17/Mark-Zuckerberg.jpg?width=1024&height=768"
   },
   {
-   "headline": "Why Is Target Stock Falling on Monday?",
-   "summary": "Target Corp. (NYSE: TGT) stock dipped Monday as investors exercised caution ahead of Q2 earnings and weighed weak July retail sales data.",
+   "headline": "Trump Energy Secretary Chris Wright Says Clean Energy Policies Are ‘At Least as Responsible’ for High Prices as Iran War—Touts Texas Oil Boom",
+   "summary": "Biden policies partly to blame for high gas prices, says Energy Sec Wright. Schumer slams Trump&#39;s Iran MOU as failure.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/08/61257111/why-is-target-stock-falling-on-monday",
-   "created_at": "2026-08-17T17:56:36Z",
+   "url": "https://www.benzinga.com/news/politics/26/08/61266429/trump-energy-secretary-chris-wright-says-clean-energy-policies-are-at-least-as-responsible-for-high-prices-as-iran-war-touts-texas-oil-boom",
+   "created_at": "2026-08-18T09:55:54Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/18/United-States-President-Donald-Trump-mee.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "The Copper Goldmine: Why BHP Just Smashed Profit Forecasts",
+   "summary": "BHP beats full-year estimates with $13.2B profit as copper overtakes iron ore as its top profit driver. Dividend hits a 4-year high.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/earnings/26/08/61266381/the-copper-goldmine-why-bhp-just-smashed-profit-forecasts",
+   "created_at": "2026-08-18T09:46:44Z",
    "symbols": [
-    "AMZN",
-    "TGT",
-    "WMT"
+    "BHP"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/17/7f6b86b91eedcef05ada1255cebb33b8.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/18/Stuttgart--Germany---03-06-2021-Person-H.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "China Slashes US Treasury Holdings to 18-Year Low as 30-Year Treasury Yield Hits 19-Year High",
+   "summary": "China cuts U.S. Treasury holdings to an 18-year low as yields hit 5.31%, while Beijing boosts gold reserves amid rising risks.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/macro-economic-events/26/08/61266367/china-slashes-us-treasury-holdings-to-18-year-low-as-30-year-treasury-yield-hits-19-year-high",
+   "created_at": "2026-08-18T09:43:27Z",
+   "symbols": [
+    "TLT"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/18/Hangzhou--China---Sept--4--2016---Chines.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "ChronicleBio Cofounder Fidji Simo Says AI Could Transform Disease Treatment, But Smarter Models Aren’t Enough",
+   "summary": "Fidji Simo says AI could cure all diseases, but better biological data and infrastructure are needed to turn models into treatments.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/health-care/26/08/61266354/fidji-simo-ai-cures",
+   "created_at": "2026-08-18T09:40:36Z",
+   "symbols": [
+    "SPCX",
+    "TSLA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/18/Artificial-Intelligence-Simplifying-Task.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Cathie Wood Endorses ‘Best Way’ to Invest in This Crypto Cycle: ‘Get as Close to the End User as Possible’",
+   "summary": "Ark Invest CEO Cathie Wood endorsed on Monday, August 17, a detailed analysis by her colleague on where value is actually being captured in the cryptocurrency market.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/08/61266171/cathie-wood-endorses-finding-on-the-best-way-to-invest-in-a-crypto-cycle",
+   "created_at": "2026-08-18T09:22:10Z",
+   "symbols": [
+    "BTCUSD",
+    "ZECUSD"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/18/Bitcoin-Gold-Coin--Cryptocurrency-Concep.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Peter Schiff Says Treasury Yields Are Headed Higher After 19-Year High, Mohamed El-Erian Warns Housing Could Feel the Pain",
+   "summary": "Economists Peter Schiff and Mohamed El-Erian flagged the 30-year Treasury yield&#39;s climb, warning of pressure on housing and borrowing costs.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/economic-data/26/08/61266124/peter-schiff-warns-treasury-yields-climb-isnt-over-at-a-19-year-high-while-mohamed-el-erian-flags-risk-to-housing",
+   "created_at": "2026-08-18T09:14:41Z",
+   "symbols": [
+    "EDV",
+    "TLT",
+    "UTHY"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/18/GOP-Pushes-Sweeping-Property-Tax-Changes.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "SPCX's AI Dreams Hinge on One Huge Starship Test, Bernstein Says: Full Reusability Is ‘Absolutely Central’ to Long-Term Valuation Upside",
+   "summary": "Bernstein analyst says SpaceX&#39;s long-term AI upside depends on solving the challenge of Starship&#39;s full and rapid reusability.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/space/26/08/61266063/spcxs-ai-dreams-hinge-on-one-huge-starship-test-bernstein-says-full-reusability-is-absolutely-central-to-long-term-valuation-upside",
+   "created_at": "2026-08-18T09:10:07Z",
+   "symbols": [
+    "SPCX"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/18/Paris--France---February-3--2026-A-Horiz.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Palmer Luckey Fires Back at Former Taco Bell CEO Greg Creed Over McDonald’s Drinks Criticism: ‘What a Loser’",
+   "summary": "Last week, Palmer Luckey slammed former Taco Bell CEO Greg Creed over his criticism of McDonald’s beverage strategy.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/08/61266022/palmer-luckey-fires-back-at-former-taco-bell-ceo-greg-creed-over-mcdonalds-drinks-criticism-what-a-loser",
+   "created_at": "2026-08-18T09:05:05Z",
+   "symbols": [
+    "MCD",
+    "QSR",
+    "SBUX",
+    "YUM"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/18/Mcdonalds-Ptt-Nakornchaisri-Bang-Kaeo-Su.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Why Flexsteel Industries Shares Are Trading Higher By 9%; Here Are 20 Stocks Moving Premarket",
+   "summary": "Flexsteel Industries Inc (FLXS) reported better-than-expected Q4 results, with shares jumping 9% in pre-market trading. Other gainers include PFSA, EJH, XOS, WETO, SGLY, VOGX, WFF, AMLX, and ENRD. Los",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/08/61265928/why-flexsteel-industries-shares-are-trading-higher-by-9-here-are-20-stocks-moving-premarket",
+   "created_at": "2026-08-18T09:01:30Z",
+   "symbols": [
+    "AMLX",
+    "AXTI",
+    "BTAI",
+    "EJH",
+    "ENRD"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/18/The-Real-Villains-No-Longer-Hide.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Paramount Demands Up to $1.9 Billion Bond From 12 States, WGA as Warner Bros. Deal Faces Costly Delays",
+   "summary": "Paramount urges 12 states and WGA to post up to $1.9 billion bond as lawsuits delay the Warner Bros. merger deal.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/m-a/26/08/61265896/paramount-demands-up-to-1-9-billion-bond-from-12-states-wga-as-warner-bros-deal-faces-costly-delays",
+   "created_at": "2026-08-18T08:56:54Z",
+   "symbols": [
+    "PSKY",
+    "WBD"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/18/View-Of-Entrance-To-Paramount-Office-Bui.jpg?width=1024&height=768"
   },
   {
    "headline": "Vinod Khosla Says ‘We Will Likely Predict Disease Before It Happens’ as AI Could Transform Medicine by 2035",
@@ -395,116 +517,6 @@
     "FN"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/08/18/Stock-Market-Crash-Background-With-Falli.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Anthropic to Make Its Public Debut? Prediction Market Odds Decline",
-   "summary": "Anthropic&#39;s odds of going public soon have declined, as prediction markets reassess the timing of the AI startup&#39;s potential IPO.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/prediction-markets/26/08/61265032/anthropic-to-make-its-public-debut-prediction-market-odds-decline",
-   "created_at": "2026-08-18T06:24:38Z",
-   "symbols": [
-    "POLUSD",
-    "USDCUSD"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/18/Anthropic-logo-with-CEO-Dario-Amodei-in-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Marjorie Taylor Greene Says Congress Knows Who Is Driving Up Drug Prices, Urges Lawmakers to Stop 'Fighting Like Drunk Football Fans'",
-   "summary": "Marjorie Taylor Greene backed Mark Cuban’s PBM reform plan, accusing Congress of ignoring America’s drug-pricing problem.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/health-care/26/08/61264998/marjorie-taylor-greene-congress-drug-prices-lawmakers",
-   "created_at": "2026-08-18T06:21:43Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/18/Greene-At-The-2023-CPAC.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Marjorie Taylor Greene Claims Trump Officials Are Discussing Nuclear Strikes on Iran: ‘It’s Pure Evil’ (UPDATED)",
-   "summary": "Marjorie Taylor Greene claims U.S. officials are discussing a nuclear strike on Iran, warning of catastrophic consequences.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/08/61243115/marjorie-taylor-greene-claims-trump-officials-are-discussing-nuclear-strikes-on-iran-its-pure-evil",
-   "created_at": "2026-08-17T12:01:09Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/18/Marjorie-Taylor-Greene-Issues-Stark-Soci.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Trump Calls USS Abraham Lincoln Conditions Reports ‘Fake,’ Says Carrier Is ‘Beautifully Maintained and Beautifully Taken Care Of’",
-   "summary": "Trump denies poor conditions on USS Lincoln, citing retired admiral&#39;s praise. Pentagon defends crew while lawmakers express concern.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/08/61264987/trump-calls-uss-abraham-lincoln-conditions-reports-fake-says-carrier-is-beautifully-maintained-and-beautifully-taken-care-of",
-   "created_at": "2026-08-18T06:20:11Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/18/President-Donald-Trump-waits-outside-of-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Shiba Inu Says Even Ghosts Need a 'Guard Dog,' Then Casually Auditions Its Canine Mascot as the Ultimate Spirit Guardian",
-   "summary": "Shiba Inu token&#39;s official X account dropped a witty Hungry Ghost Festival reference on Monday, August 17, positioning the Shiba Inu as the ghosts’ loyal guard dog.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/08/61264974/shiba-inu-ghosts-guard-dog-canine-mascot",
-   "created_at": "2026-08-18T06:14:43Z",
-   "symbols": [
-    "BTCUSD",
-    "DOGEUSD",
-    "SHIBUSD",
-    "ZECUSD"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/18/Shiba-Inu-Coin-On-The-Red-Sateen-Backgro.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Bernie Sanders Highlights Report Finding 57 Trump Officials Worth at Least $100 Million: 'Government Of The Rich, By The Rich, For The Rich'",
-   "summary": "Sen. Bernie Sanders criticizes wealthy Trump administration, referencing report of 57 officials worth at least $100 million.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/08/61264951/bernie-sanders-trump-officials-57-worth-100-million",
-   "created_at": "2026-08-18T06:11:04Z",
-   "symbols": [
-    "DAL",
-    "TM",
-    "UAL"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/18/New-York--Ny---April-5--2019-Democratic-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Xos (XOS) Stock Rallies Over 86% After Hours: Here’s What’s Happening",
-   "summary": "Xos stock jumps after hours after securing a prototype U.S. Air Force contract for mobile charging technology.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/08/61264874/xos-air-force-contract",
-   "created_at": "2026-08-18T06:04:10Z",
-   "symbols": [
-    "XOS"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/18/Using-A-Mobile-Phone-To-View-Stocks-And-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Jim Cramer Has This ‘Great Long-Term’ Ride-Hailing Stock on His Radar: ‘I Am a Buyer’",
-   "summary": "Jim Cramer recommends buying this ride-hailing company for long-term investment on Mad Money Lightning Round.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/08/61264731/jim-cramer-has-this-great-long-term-ride-hailing-stock-on-his-radar-i-am-a-buyer",
-   "created_at": "2026-08-18T05:51:15Z",
-   "symbols": [
-    "LYFT",
-    "PONY",
-    "UBER"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/18/Buenos-Aires--Argentina---December-19--2.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Elon Musk Responds After Former Ukrainian Defense Minister Credits SpaceX With Saving Thousands of Lives",
-   "summary": "Elon Musk responds to Ukraine&#39;s praise for SpaceX&#39;s intervention in blocking Russian use of Starlink, saving lives and aiding defense.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/space/26/08/61264672/elon-musk-responds-after-former-ukrainian-defense-minister-credits-spacex-with-saving-thousands-of-lives",
-   "created_at": "2026-08-18T05:29:04Z",
-   "symbols": [
-    "SPCX"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/18/Starlink-is-a-satellite-internet-constel.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Chuck Schumer Slams Trump’s Iran MoU as ‘Utter Failure’ as Gas Prices Top $4: ‘One of the Greatest Foreign Policy Fiascos’",
-   "summary": "Chuck Schumer slammed President Trump on rising fuel costs and US-Iran tensions, calling the MoU an utter failure.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/08/61264541/chuck-schumer-slams-trumps-iran-mou-as-utter-failure-as-gas-prices-top-4-one-of-the-greatest-foreign-policy-fiascos",
-   "created_at": "2026-08-18T04:40:24Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/18/President-Donald-Trump-pauses-as-he-spea.jpg?width=1024&height=768"
   }
  ]
 }
