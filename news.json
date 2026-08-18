@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-18 16:00",
+ "updated": "2026-08-18 17:00",
  "items": [
   {
    "headline": "Stock Market: Will S&P 500 Open Up or Down Today?",
@@ -207,6 +207,110 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/08/17/Nvidia-office-building--Taipei--Taiwan.jpg?width=1024&height=768"
   },
   {
+   "headline": "RTX’s Raytheon Lands $22.9 Billion Tomahawk Deal as US Rushes to Rebuild Missile Stockpiles Depleted by Iran War",
+   "summary": "RTX Corp. unit Raytheon wins $22.9B contract to boost Tomahawk missile production for US Navy amid global conflicts.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/08/61265483/rtxs-raytheon-lands-22-9-billion-tomahawk-deal-as-us-rushes-to-rebuild-missile-stockpiles-depleted-by-iran-war",
+   "created_at": "2026-08-18T07:48:31Z",
+   "symbols": [
+    "RTX"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/18/Arleigh-Burke-class-Guided-missile-Destr.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Jane Street's Q2 Filing Reveals Nearly $1 Billion Bet on These Bitcoin ETFs — and a Major Stake in Michael Saylor's MSTR",
+   "summary": "Quantitative trading giant Jane Street revealed over $1 billion in Bitcoin exchange-traded fund holdings in the second quarter, according to its latest 13F filing released Friday, August 14.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/08/61265471/jane-street-q2-bitcoin-etfs-mstr-michael-saylor",
+   "created_at": "2026-08-18T07:40:27Z",
+   "symbols": [
+    "ARCA",
+    "BTCUSD",
+    "ETHA",
+    "ETHUSD",
+    "FBTC"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/18/Los-Angeles--California---July-10-2025-B.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Dow Tumbles Over 250 Points Amid Rising Iran Concerns: Investor Sentiment Weakens, But Fear Index Remains In ‘Greed’ Zone",
+   "summary": "The CNN Fear &amp; Greed Index tracks market sentiment using 7 indicators, currently showing a decline but remaining in the Greed zone at 59.9.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/market-summary/26/08/61265422/dow-tumbles-over-250-points-amid-rising-iran-concerns-investor-sentiment-weakens-but-fear-index-remains-in-greed-zone",
+   "created_at": "2026-08-18T07:32:02Z",
+   "symbols": [
+    "AS",
+    "HD",
+    "IVF",
+    "TOL"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/18/Fear-and-Greed.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Google Plans to Pull All Pixel Production Out of China by 2027 Amid US-China Tensions: Report",
+   "summary": "Google reportedly plans to move all Pixel production out of China by 2027, to India and Vietnam, amid U.S.-China tensions.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/08/61265398/google-plans-to-pull-all-pixel-production-out-of-china-by-2027-amid-us-china-tensions-report",
+   "created_at": "2026-08-18T07:27:26Z",
+   "symbols": [
+    "AAPL",
+    "GOOG",
+    "GOOGL",
+    "MU",
+    "SKHY"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/18/Mountain-View--California--April-10--201.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Home Depot, Toll Brothers And 3 Stocks To Watch Heading Into Tuesday",
+   "summary": "Some stocks that may gain investor attention today are Home Depot Inc (HD), Flexsteel Industries Inc (FLXS), Amer Sports Inc (AS), Duos Technologies Group Inc (DUOT), and Toll Brothers Inc (TOL). Home",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/08/61265304/home-depot-toll-brothers-and-3-stocks-to-watch-heading-into-tuesday-2",
+   "created_at": "2026-08-18T07:19:10Z",
+   "symbols": [
+    "AS",
+    "DUOT",
+    "FLXS",
+    "HD",
+    "TOL"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/18/The-Home-Depot.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Anthropic Hits $65 Billion Annualized Revenue Run Rate as Claude Drives Explosive Growth Ahead of Potential IPO: Report",
+   "summary": "Anthropic’s revenue run rate surged to $65 billion as strong enterprise demand for Claude fuels rapid growth and IPO ambitions.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/08/61265293/anthropic-65-billion-annualized-revenue-claude-ipo",
+   "created_at": "2026-08-18T07:18:47Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/18/Los-Angeles--California---March-29--2024.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Gavin Newsom Touts Rideshare Drivers Union in California, Praises Push to Represent Uber, Lyft Drivers — Slams Trump for Attacking ‘Workers’ Rights’",
+   "summary": "Gavin Newsom applauds unionization of Uber and Lyft drivers in California, stating it as a win for workers&#39; rights against Trump&#39;s policies.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/08/61265277/gavin-newsom-touts-rideshare-drivers-union-in-california-praises-push-to-represent-uber-lyft-drivers-slams-trump-for-attacking-workers-rights",
+   "created_at": "2026-08-18T07:12:38Z",
+   "symbols": [
+    "GOOG",
+    "GOOGL",
+    "LYFT",
+    "UBER"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/18/Sacramento--Ca---Oct-28--2025-Gavin-News.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Top Wall Street Forecasters Revamp Toll Brothers Expectations Ahead Of Q3 Earnings",
+   "summary": "Toll Brothers, Inc. (NYSE: TOL) will report Q3 earnings on Aug. 18. Expected EPS of $2.93 and revenue of $2.62B. Analysts have mixed opinions.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/08/61265234/top-wall-street-forecasters-revamp-toll-brothers-expectations-ahead-of-q3-earnings",
+   "created_at": "2026-08-18T06:57:37Z",
+   "symbols": [
+    "TOL"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/18/Feb-4--2020-Santa-Clara--Ca--Usa.jpg?width=1024&height=768"
+  },
+  {
    "headline": "Gold Gains 1%; US Home-Builder Sentiment Edges Higher In August",
    "summary": "US stocks mixed, S&amp;P 500 drops 0.2%. Dow down 0.34%, NASDAQ up 0.04%. Industrials up 0.2%, consumer staples down 1%. NY Fed&#39;s Empire State Index at 20.6.",
    "source": "benzinga",
@@ -402,106 +506,6 @@
     "MSTR"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/08/18/Elon-Musk--The-Ceo-Of-Tesla--Spacex--Pay.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Tesla Cybercab Launch Could Begin In This City Soon as Elon Musk-Led Company Prepares Driverless Vehicles for Public Roads: Report",
-   "summary": "Tesla could begin rolling out its Cybercab robotaxi in Austin this month, as the company ramps up testing and prepares to challenge Waymo.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/08/61264352/tesla-cybercab-austin-launch-driverless-vehicles-public-roads",
-   "created_at": "2026-08-18T03:05:49Z",
-   "symbols": [
-    "GOOG",
-    "GOOGL",
-    "TSLA"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/18/Tesla-Cybercab-Automobile-At-The-2025-Ca.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Stripe Nears $7 Billion-Plus OpenRouter Acquisition as Payments Giant Deepens AI Push: Report (UPDATED)",
-   "summary": "Stripe has reportedly finalized a more than $7 billion deal to acquire OpenRouter, one of its biggest moves yet into AI infrastructure.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/08/61240916/stripe-reportedly-nears-over-7-billion-deal-for-ai-startup-openrouter",
-   "created_at": "2026-08-17T10:27:05Z",
-   "symbols": [
-    "GOOG",
-    "GOOGL",
-    "PYPL"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/18/Porto--Portugal---October-30th--2024--Si.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Google is Paying $10 Million for Bankrupt Spirit Airlines' Old Emails and Spreadsheets: Here's Why",
-   "summary": "Alphabet&#39;s Google agrees to buy Spirit Airlines&#39; internal data for $10 million for product development and AI training.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/08/61264177/google-spirit-airlines-10-million-data-ai-training",
-   "created_at": "2026-08-18T02:11:15Z",
-   "symbols": [
-    "EADSY",
-    "GOOG",
-    "GOOGL",
-    "JBLU",
-    "ULCC"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/18/Mountain-View--Ca---December-27--2025-Go.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Bitcoin, Ethereum, Dogecoin Rise, XRP Flat as Trump Prepares to Host White House Crypto Summit: Analyst Says BTC 'High-Momentum Uptrend' Unlikely Until This Happens",
-   "summary": "Leading cryptocurrencies rose on Monday, August 17, even as stalled talks between the U.S. and Iran kept investors on edge.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/08/61264164/bitcoin-ethereum-dogecoin-xrp-trump-white-house-crypto-summit",
-   "created_at": "2026-08-18T02:08:24Z",
-   "symbols": [
-    "BMNR",
-    "BTCUSD",
-    "DOGEUSD",
-    "ETHUSD",
-    "MSTR"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/18/Cryptocurrency-Bitcoin-Coin-Over-Tablet-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Trump Rejects Iran Ceasefire Extension as Tehran Threatens ‘Fully Offensive’ Posture: Brent Trades At $91",
-   "summary": "Trump’s Iran ceasefire rejection and Tehran’s military threats are raising Hormuz supply concerns, lifting oil prices.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/08/61264134/trump-rejects-iran-ceasefire-tehran-offensive-brent-91",
-   "created_at": "2026-08-18T01:57:43Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/18/Poll-Shows-Iran-Advantage.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Anthony Scaramucci Says He Was 'Rolled in Broken Glass' and Put Through a 'Sausage Grinder' After Being Fired by Trump: His One Rule for Bouncing Back",
-   "summary": "Anthony Scaramucci reflected on his 11-day White House stint and other setbacks, urging people to ignore the haters.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/08/61263831/anthony-scaramucci-fired-by-trump-bouncing-back-rule",
-   "created_at": "2026-08-18T00:50:05Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/18/Washington--Dcusa---April-26--2018-Antho.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Walmart Could Swing $42.1 Billion In Value After Earnings",
-   "summary": "Earnings season starts next week with volatile earnings expected. Walmart, Home Depot, TJX Companies are among the top watchlist picks.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/08/61263779/walmart-could-swing-42-1-billion-in-value-after-earnings",
-   "created_at": "2026-08-18T00:30:29Z",
-   "symbols": [
-    "ADI",
-    "DE",
-    "HD",
-    "LOW",
-    "TJX"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/18/Quarterly-Results-Sales-Profits-Earnings.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Here’s How Much You Would Have Made Owning CrowdStrike Holdings Stock In The Last 5 Years",
-   "summary": "CrowdStrike Holdings (NASDAQ:CRWD) has outperformed the market over the past 5 years by 17.43% on an annualized basis producing an average annual return of 29.18%. Currently, CrowdStrike Holdings has ",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/08/61263513/here-s-how-much-you-would-have-made-owning-crowdstrike-holdings-stock-last-5-years",
-   "created_at": "2026-08-17T23:45:32Z",
-   "symbols": [
-    "CRWD"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_1.jpg?width=1024&height=768"
   }
  ]
 }
