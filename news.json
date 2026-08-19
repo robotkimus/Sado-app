@@ -1,6 +1,21 @@
 {
- "updated": "2026-08-19 20:00",
+ "updated": "2026-08-19 21:00",
  "items": [
+  {
+   "headline": "Jim Cramer Slams Data Center Reliance on Leveraged Retail-Driven SK Hynix, Samsung Stocks: 'Decided By Them, Not Us'",
+   "summary": "Jim Cramer slams data center reliance on retail-driven SK Hynix and Samsung stocks as SKHY unveils a massive $29 billion buyback plan.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/asia/26/08/61296207/jim-cramer-slams-data-center-reliance-on-leveraged-retail-driven-sk-hynix-samsung-stocks-decided-by-them-not-us",
+   "created_at": "2026-08-19T11:28:41Z",
+   "symbols": [
+    "ANDK",
+    "MU",
+    "NVDA",
+    "SKHY",
+    "WDC"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/19/Jim-Cramer-At-The-Cable-Show-2010-An-Eve.jpg?width=1024&height=768"
+  },
   {
    "headline": "Chamath Palihapitiya Says Mark Zuckerberg Knows ‘Great Engineers’ Want to Join ‘Space/Search/AI’ Companies, Not Meta’s Advertising Machine",
    "summary": "Chamath Palihapitiya believes Mark Zuckerberg doesn&#39;t talk about Meta&#39;s ad identity because top engineers prefer to work for tech leaders.",
@@ -182,18 +197,166 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/08/19/Anthropic-Logo-Is-Displayed-On-A-Smartph.jpg?width=1024&height=768"
   },
   {
-   "headline": "Cerebras Stock Takes a Hit as New AI Server Targets Nvidia With Giant Chips and Faster Chatbot Queries",
-   "summary": "Cerebras unveiled its CS-4 to challenge Nvidia in AI inference as its stock tumbled despite strong core revenue growth.",
+   "headline": "This Alnylam Pharmaceuticals Analyst Begins Coverage On A Bullish Note; Here Are Top 5 Initiations For Wednesday",
+   "summary": "Top analysts change outlook on ALNY, AGMB, BMRN, BEKE, and IONS with ratings and price targets. Check out opinions and coverage on Benzinga. ",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/08/61292603/cerebras-stock-hit-ai-server-nvidia-giant-chips-chatbot-speed",
-   "created_at": "2026-08-19T06:32:43Z",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/initiation/26/08/61296696/this-alnylam-pharmaceuticals-analyst-begins-coverage-on-a-bullish-note-here-are-top-5-initiations-for-wednesday",
+   "created_at": "2026-08-19T11:55:12Z",
    "symbols": [
-    "AMZN",
-    "CBRS",
-    "NVDA",
+    "AGMB",
+    "ALNY",
+    "BEKE",
+    "BMRN",
+    "IONS"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/19/Analysts-Debate-Depreciation-Impact.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Jim Cramer: United Microelectronics Is A ‘Tough’ One, Pass On This Industrial Stock",
+   "summary": "Cramer says no to UMC, calls Avnet a good stock. Recommends avoiding Archer Aviation and highlights its recent sales and acquisitions.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/08/61296632/jim-cramer-united-microelectronics-is-a-tough-one",
+   "created_at": "2026-08-19T11:50:29Z",
+   "symbols": [
+    "ACHR",
+    "AVT",
+    "UMC"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/19/Jim-Cramer.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Why Apple Is the Blueprint for SK Hynix's AI Cash Mountain",
+   "summary": "SK Hynix&#39;s record $28.6 billion buyback is more than a shareholder payout. It signals an Apple-style capital allocation strategy fueled by booming AI memory profits.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/08/61296614/apple-blueprint-sk-hynix-ai-cash-mountain",
+   "created_at": "2026-08-19T11:48:50Z",
+   "symbols": [
+    "AAPL",
+    "SKHY",
+    "SSNLF"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/19/Sk-Hynix-America-Headquarters-In-San-Jos.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Netflix, Eli Lilly, Elanco Animal Health And More Stock On CNBC’s ‘Final Trades’",
+   "summary": "Bryn Talkington picked Horizon Kinetics, Stephanie Link chose Elanco Animal Health, and Jason Snipe recommended Netflix.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/08/61296551/netflix-eli-lilly-elanco-animal-health-and-more-stock-on-cnbc-final-trades",
+   "created_at": "2026-08-19T11:46:02Z",
+   "symbols": [
+    "ELAN",
+    "INFL",
+    "LLY",
+    "NFLX"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/19/Netflix-Clause-Added.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "How To Earn $500 A Month From Deere Stock Ahead Of Q3 Earnings",
+   "summary": "Deere &amp; Co. (NYSE: DE) to release Q3 earnings on Aug. 20. Analysts expect $4.70 EPS and $10.73B revenue. JPMorgan maintains Neutral rating.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/dividends/26/08/61296461/how-to-earn-500-month-deere-dividends-stock-ahead-q3-earnings-2",
+   "created_at": "2026-08-19T11:41:11Z",
+   "symbols": [
+    "DE"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/19/John-Deere.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Merck and Moderna Release Landmark Personalized Cancer Therapy Trial Success, Stocks Soar",
+   "summary": "Merck and Moderna report positive Phase 3 results for their mRNA cancer therapy combined with Keytruda in melanoma patients.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/08/61296452/merck-and-moderna-release-landmark-personalized-cancer-therapy-trial-success-stocks-soar",
+   "created_at": "2026-08-19T11:40:56Z",
+   "symbols": [
+    "MRK",
+    "MRNA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/19/Cancer---Heart-Shape-To-Represent-Medica.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "What's Going On With Taiwan Semiconductor Stock Wednesday?",
+   "summary": "Taiwan Semiconductor stock edges higher in premarket trading after a drop. Explore key support levels, price targets, and technical outlook.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/08/61296346/whats-going-on-with-taiwan-semiconductor-stock-wednesday-5",
+   "created_at": "2026-08-19T11:33:24Z",
+   "symbols": [
+    "BLOX",
+    "EMKT",
+    "SMH",
     "TSM"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/19/Paris--France---January-23--2026-The-Cer.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/19/Hsinchu-City--Taiwan--June-24--2024-Clos.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Wall Street's Most Accurate Analysts Weigh In On 3 Tech And Telecom Stocks With Over 3% Dividend Yields",
+   "summary": "Investors turn to dividend-yielding stocks in turbulent markets. Benzinga provides latest analyst takes and ratings for high-yielding stocks in communication services.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/dividends/26/08/61296080/wall-streets-most-accurate-analysts-weigh-in-on-3-tech-and-telecom-stocks-with-over-3-dividend-yields-3",
+   "created_at": "2026-08-19T11:25:06Z",
+   "symbols": [
+    "NCMI",
+    "RCI",
+    "VZ"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/19/Dividends-Stock-Payment--Passive-Income-.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Goldman Sachs Sounds New AI Jobs Alarm — Entry-Level Workers Are Already Feeling the Pressure as AI Adoption Hits 20%",
+   "summary": "Goldman Sachs finds AI is putting pressure on labor markets, with entry-level workers facing greater hiring risks.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/08/61296043/goldman-ai-labor-market",
+   "created_at": "2026-08-19T11:23:20Z",
+   "symbols": [
+    "BAH",
+    "CSX",
+    "GOOG",
+    "GOOGL",
+    "GS"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/19/Overjoyed-Diverse-Coworkers-Celebrating-.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "These Analysts Raise Their Forecasts On Mercury Systems After Q4 Results",
+   "summary": "Mercury Systems Inc (MRCY) reported mixed Q4 results, missing earnings but beating sales estimates. Analysts expect low double-digit revenue growth.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/08/61295995/these-analysts-raise-their-forecasts-on-mercury-systems-after-q4-results",
+   "created_at": "2026-08-19T11:20:58Z",
+   "symbols": [
+    "MRCY"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/19/Analyst-Works-On-Personal-Computer-Showi.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Iran 'Partially Lost Control' on Strait of Hormuz as US Navy Gains Upper Hand, Analysts Say—'They Were Never Completely in Control'",
+   "summary": "US Navy tightens its grip on the Strait of Hormuz as Iran’s influence wanes, with 80% of tanker traffic using the Omani route.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/08/61295979/iran-partially-lost-control-on-strait-of-hormuz-as-us-navy-gains-upper-hand-analysts-say-they-were-never-completely-in-control",
+   "created_at": "2026-08-19T11:18:49Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/19/US-Navy-Officers-Fate-Remains-Unknown-Af.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Kingsoft's AI Cloud Billings Jump 82%, Stock Soars",
+   "summary": "Kingsoft Cloud (KC) stock jumped as Q2 2026 results beat estimates, driven by a 30.8% YoY revenue rise and strong AI cloud demand.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/earnings/26/08/61295924/kingsofts-ai-cloud-billings-jump-82-stock-soars",
+   "created_at": "2026-08-19T11:14:26Z",
+   "symbols": [
+    "KC"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/19/Kingsoft-Cloud--Inc.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "XRP Open Interest Hits 2-Month High: Is That Bullish?",
+   "summary": "XRP derivatives activity is increasing with the highest open interest in two months. On-chain data shows growing activity during &#39;banker hours&#39;.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/08/61295912/xrp-open-interest-hits-two-month-high",
+   "created_at": "2026-08-19T11:13:49Z",
+   "symbols": [
+    "XRPUSD"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/19/Heres-What-XRP-Would-Have-Returned.jpg?width=1024&height=768"
   },
   {
    "headline": "Klarna Stock Tries to Stabilize After 23% Plunge As German Shoppers Spoil the Party",
@@ -323,98 +486,6 @@
     "SONY"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/08/19/Netflix-Inc.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Comparing Apple With Industry Competitors In Technology Hardware, Storage &amp; Peripherals Industry",
-   "summary": "In the ever-changing and fiercely competitive business landscape, conducting thorough company analysis is crucial for investors and industry experts. In this article, we will undertake a comprehensive",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/08/61294106/comparing-apple-industry-competitors-technology-hardware-storage-amp-peripherals-industry",
-   "created_at": "2026-08-19T09:58:35Z",
-   "symbols": [
-    "AAPL"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/earnings_preview_7.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Kura Sushi, the Chain Trump Invested in Despite Hating Sushi, Is Expanding Fast in the US: Report",
-   "summary": "Kura Sushi is racing toward its 100th U.S. store, aiming for 300, after Trump disclosed a stake despite hating sushi.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/08/61294013/kura-sushi-reportedly-plans-fast-expansion-across-us-locations-and-one-of-its-investors-is-trump",
-   "created_at": "2026-08-19T09:56:15Z",
-   "symbols": [
-    "KRUS"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/19/President-Donald-Trump-waits-outside-of-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "What's Going On With Micron Technology Stock Wednesday?",
-   "summary": "Micron stock rebounds in premarket trading after a 7% drop as Cathie Wood warns high-bandwidth memory prices face cyclical risks.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/08/61293989/whats-going-on-with-micron-technology-stock-wednesday-5",
-   "created_at": "2026-08-19T09:53:09Z",
-   "symbols": [
-    "CBRS",
-    "IGPT",
-    "MU",
-    "SOXQ",
-    "XNTK"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/19/Micron.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Venezuela's Gold Held in the UK Could Soon Land in US Treasury Accounts: Report",
-   "summary": "Venezuela&#39;s gold reserves at the Bank of England will reportedly be deposited into U.S. Treasury accounts under a new reconstruction plan.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/08/61293967/venezuelas-gold-at-the-bank-of-england-could-reportedly-land-in-u-s-treasury-accounts",
-   "created_at": "2026-08-19T09:46:40Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/19/Gold-Bars--Precious-Metals--Gold-Reserve.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "From Commodity to Cash Machine? Sandisk Targets 80% Margins in AI Storage Boom",
-   "summary": "Sandisk bets on AI storage demand and multi-year supply contracts to reshape its business model and smooth out NAND market volatility.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/08/61293946/from-commodity-to-cash-machine-sandisk-targets-80-margins-in-ai-storage-boom",
-   "created_at": "2026-08-19T09:39:57Z",
-   "symbols": [
-    "FPX",
-    "PTF",
-    "RPG",
-    "SNDK"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/19/Sandisk-Company-Logo---EK.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Bitcoin Whales Just Went on a Buying Spree Worth Billions—Are ‘Conviction Buyers’ Calling the Bottom?",
-   "summary": "Whales have loaded Bitcoin worth billions in recent months, indicating that deep-pocketed investors view current price levels as attractive.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/08/61293745/bitcoin-whales-accumulate-btc-worth-billions-in-two-months-market-bottom",
-   "created_at": "2026-08-19T09:27:24Z",
-   "symbols": [
-    "BTCUSD",
-    "ZECUSD"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/19/Golden-Bitcoin-Coin-Is-In-Red-And-Blue-S.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Disney Takes Trump’s FCC to Court Over ABC Probe as Mouse House Alleges ‘Extraordinary Assault’ on Free Speech — Adam Schiff Warns of First Amendment Harm",
-   "summary": "Disney sues Trump’s FCC over alleged ABC retaliation, citing First Amendment violations and pressure to censor ‘The View.’",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/legal/26/08/61293721/disney-takes-trumps-fcc-to-court-over-abc-probe-as-mouse-house-alleges-extraordinary-assault-on-free-speech-adam-schiff-warns-of-first-amendment-harm",
-   "created_at": "2026-08-19T09:22:04Z",
-   "symbols": [
-    "DIS"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/19/ESPN-Cleared-for-NFL-Deal.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Steve Hilton Warns California Wealth Tax Could Drive Silicon Valley Talent, Investment Out of State: ‘Economic Suicide’",
-   "summary": "Hilton warns a proposed California wealth tax could drive $1 trillion in wealth out of state, hurt Silicon Valley and trigger an exodus of top talent.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/08/61293675/steve-hilton-warns-california-wealth-tax-could-drive-silicon-valley-talent-investment-out-of-state-economic-suicide",
-   "created_at": "2026-08-19T09:18:34Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/19/Billionaires-Income-Tax--Pile-Of-Us-Doll.jpg?width=1024&height=768"
   }
  ]
 }
