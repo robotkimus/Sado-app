@@ -1,6 +1,63 @@
 {
- "updated": "2026-08-19 21:00",
+ "updated": "2026-08-19 22:00",
  "items": [
+  {
+   "headline": "Nvidia Gets a Limited China Break — H200 Chips Reach ByteDance, Tencent as Beijing Eases AI Curbs: Report (UPDATED)",
+   "summary": "China approves limited Nvidia H200 chip shipments to ByteDance and Tencent as Beijing cautiously eases AI hardware restrictions.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/08/61293582/nvidias-h200-chips-are-flowing-into-china-again-bytedance-tencent-get-around-10000-each-report-says",
+   "created_at": "2026-08-19T12:57:13Z",
+   "symbols": [
+    "AMD",
+    "BABA",
+    "NVDA",
+    "TCEHY"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/19/Jensen-Huang-Nvidias-Founder--President-.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Stock Market Futures Mixed: Dow Jones Gains, Nasdaq 100 Drops as Trump Says 'No Talks' Are Happening With Iran— Keysight Technologies, Mercury Systems, SK Hynix in Focus (UPDATED)",
+   "summary": "U.S. stock futures were higher on Wednesday, as the Dow Jones, S&amp;P 500, and Nasdaq 100 indices rose, following Tuesday&#39;s lower close.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/08/61293924/stock-market-today-sp-500-nasdaq-100-futures-rise-as-trump-says-no-talks-are-happening-with-iran-keysight-technologies-mercury-systems-sk-hynix-in-focus",
+   "created_at": "2026-08-19T12:32:40Z",
+   "symbols": [
+    "BTCUSD",
+    "KEYS",
+    "MRCY",
+    "QQQ",
+    "SHEL"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/19/Wall-Street-New-York-Stock-Exchange.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "SK Hynix vs. Micron: One AI Memory Leader Is Trading at Half the Multiple",
+   "summary": "SK Hynix trades at roughly half Micron&#39;s trailing valuation. Here&#39;s why investors are watching the surprising gap.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/08/61297682/sk-hynix-vs-micron-ai-memory-valuation",
+   "created_at": "2026-08-19T12:25:08Z",
+   "symbols": [
+    "MU",
+    "NVDA",
+    "SKHY"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/19/Paris--France---February-20-2026-The-Sk-.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "3 Sectors Investors Should Buy Now as S&P 500 Stumbles — Strategist Sees 15%-18% Upside",
+   "summary": "Target an 18% S&amp;P 500 gain: Ryan Detrick reveals why tech, financials, and industrials are the exact 3 sectors you need to buy right now.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/08/61297459/3-sectors-investors-should-buy-now-as-sp-500-stumbles-strategist-sees-15-18-upside",
+   "created_at": "2026-08-19T12:11:45Z",
+   "symbols": [
+    "AMZN",
+    "DIA",
+    "GOOG",
+    "GOOGL",
+    "KBE"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/19/Crypto-Trader-Investor-Analyst-Looking-A.jpg?width=1024&height=768"
+  },
   {
    "headline": "Jim Cramer Slams Data Center Reliance on Leveraged Retail-Driven SK Hynix, Samsung Stocks: 'Decided By Them, Not Us'",
    "summary": "Jim Cramer slams data center reliance on retail-driven SK Hynix and Samsung stocks as SKHY unveils a massive $29 billion buyback plan.",
@@ -102,21 +159,6 @@
    "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/earnings_preview_11.jpg?width=1024&height=768"
   },
   {
-   "headline": "Stock Market Today: S&P 500, Nasdaq 100 Futures Rise as Trump Says 'No Talks' Are Happening With Iran—Keysight Technologies, Mercury Systems, SK Hynix in Focus",
-   "summary": "U.S. stock futures were higher on Wednesday, as the Dow Jones, S&amp;P 500, and Nasdaq 100 indices rose, following Tuesday&#39;s lower close.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/08/61293924/stock-market-today-sp-500-nasdaq-100-futures-rise-as-trump-says-no-talks-are-happening-with-iran-keysight-technologies-mercury-systems-sk-hynix-in-focus",
-   "created_at": "2026-08-19T09:37:25Z",
-   "symbols": [
-    "BTCUSD",
-    "KEYS",
-    "MRCY",
-    "QQQ",
-    "SHEL"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/19/Wall-Street-New-York-Stock-Exchange.jpg?width=1024&height=768"
-  },
-  {
    "headline": "Intel Eyes an Opening in Taiwan Semiconductor’s AI Packaging Fortress",
    "summary": "Intel (INTC) targets a $2T AI hardware boom by challenging Taiwan Semiconductor (TSM) in advanced packaging.",
    "source": "benzinga",
@@ -157,44 +199,248 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/08/19/Chinas-Exports-Surge-Despite-US-Shortfal.jpg?width=1024&height=768"
   },
   {
-   "headline": "Nvidia’s H200 Chips Are Flowing Into China Again: ByteDance, Tencent Get Around 10,000 Each, Report Says",
-   "summary": "China approves limited Nvidia H200 chip shipments to ByteDance and Tencent as Beijing cautiously eases AI hardware restrictions.",
+   "headline": "This Baidu Analyst Turns Bearish; Here Are Top 5 Downgrades For Wednesday",
+   "summary": "Wall Street analysts change outlook on top stocks, including BIDU and BMO. See their ratings and price targets on Benzinga&#39;s analyst page.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/08/61293582/nvidias-h200-chips-are-flowing-into-china-again-bytedance-tencent-get-around-10000-each-report-says",
-   "created_at": "2026-08-19T09:02:21Z",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/downgrades/26/08/61298425/this-baidu-analyst-turns-bearish-here-are-top-5-downgrades-for-wednesday",
+   "created_at": "2026-08-19T12:52:50Z",
+   "symbols": [
+    "BEKE",
+    "BIDU",
+    "BMO",
+    "BMRN",
+    "CCOI"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/19/Beijing--China-january-8--2019-Baidu-Inc.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Top 2 Utilities Stocks That May Crash In Q3",
+   "summary": "Warning for momentum investors: The RSI indicator shows that York Water and UGI Corp are overbought. Both stocks have seen recent gains and high RSI values.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/short-ideas/26/08/61298345/top-2-utilities-stocks-that-may-crash-in-q3",
+   "created_at": "2026-08-19T12:46:04Z",
+   "symbols": [
+    "KKR",
+    "UGI",
+    "YORW"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/19/High-Voltage-Electricity-Towers-At-A-Sub.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Cathie Wood Says Investors Should Avoid Memory Chip Stocks: Micron, SK Hynix in Focus (UPDATED)",
+   "summary": "Cathie Wood said she&#39;s avoiding memory-dependent AI chip stocks, calling the memory shortage a warning sign rather than a buy signal.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/08/61292472/cathie-wood-sk-hynix-micron-memory-price-surge-semiconductors",
+   "created_at": "2026-08-19T12:42:01Z",
    "symbols": [
     "AMD",
-    "BABA",
-    "NVDA",
-    "TCEHY"
+    "CBRS",
+    "MU",
+    "SKHY",
+    "SSNLF"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/19/Jensen-Huang-Nvidias-Founder--President-.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/19/Blocks-Of-Computer-Memory-Sit-On-Top-Of-.jpg?width=1024&height=768"
   },
   {
-   "headline": "Exclusive: Marjorie Taylor Greene Warns Social Security Will Go ‘Bankrupt’—But Wall Street CIO Backs Scott Bessent Amid 30-Year Yield Surge",
-   "summary": "Marjorie Taylor Greene warns Social Security will go bankrupt, while Wall Street CIO Louis Navellier trusts Scott Bessent on 30-year yields.",
+   "headline": "Lowe’s CEO Flags ‘Pressure in Discretionary DIY Spending’",
+   "summary": "Lowe&#39;s (LOW) stock drops in premarket trading after Q2 earnings beat estimates, but revenue and updated full-year guidance fall short.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/economic-data/26/08/61293347/exclusive-marjorie-taylor-greene-warns-social-security-will-go-bankrupt-but-wall-street-cio-backs-scott-bessent-amid-30-year-yield-surge",
-   "created_at": "2026-08-19T08:29:59Z",
+   "url": "https://www.benzinga.com/markets/earnings/26/08/61298257/lowes-ceo-flags-pressure-in-discretionary-diy-spending",
+   "created_at": "2026-08-19T12:42:00Z",
    "symbols": [
-    "DIA",
-    "QQQ",
-    "SPY",
-    "TLT"
+    "LOW"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/19/Greene-Speaks-To-Reporters-In-Washington.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/19/Lowes.jpg?width=1024&height=768"
   },
   {
-   "headline": "Anthropic CEO Borrowing a Page From Mark Zuckerberg and Elon Musk's Playbook? Dario Amodei Could Reportedly Get Super-Voting Shares Ahead of IPO",
-   "summary": "Anthropic may give Dario Amodei super-voting shares ahead of its potential IPO to strengthen founder control.",
+   "headline": "EXCLUSIVE: Sunshine Biopharma Secures Canadian Approval for Generic Hypertension Drug",
+   "summary": "Sunshine Biopharma secures Canadian regulatory approval for generic Enalapril tablets to treat high blood pressure by 2026.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/08/61293111/anthropic-ceo-dario-amodei-super-voting-shares-ipo-zuckerberg-musk",
-   "created_at": "2026-08-19T07:44:05Z",
+   "url": "https://www.benzinga.com/news/health-care/26/08/61297933/exclusive-sunshine-biopharma-secures-canadian-approval-for-generic-hypertension-drug",
+   "created_at": "2026-08-19T12:30:23Z",
    "symbols": [
-    "META",
-    "SPCX"
+    "SBFM"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/19/Anthropic-Logo-Is-Displayed-On-A-Smartph.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/19/Stage-2-Hypertension-Favors-Combo-First.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Education Department Walks Back $0 Income Claims in Student-Loan Case — Says Database Glitch Erased Borrowers’ Older Income Data",
+   "summary": "Education Department corrected a student-loan filing after an income-data error affected borrowers in the SAVE lawsuit.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/legal/26/08/61297853/education-department-walks-back-0-income-claims-in-student-loan-case-says-database-glitch-erased-borrowers-older-income-data",
+   "created_at": "2026-08-19T12:29:17Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/19/Borrowers-Urged-To-Seek-Alternatives.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Analog Devices Sees Momentum Stretching Into 2027 After 40% Revenue Surge",
+   "summary": "Analog Devices (NASDAQ: ADI) beats Q3 estimates with $4.02B revenue and issues strong Q4 guidance. Shares rise in premarket trading.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/earnings/26/08/61297838/analog-devices-sees-momentum-stretching-into-2027-after-40-revenue-surge",
+   "created_at": "2026-08-19T12:29:00Z",
+   "symbols": [
+    "ADI"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/19/July-30--2019-Santa-Clara--Ca--Usa.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Iran Reportedly Plans Strikes on US Targets in Europe—NATO Says Prepared to 'Address any Threat'",
+   "summary": "Iran reportedly weighs strikes on U.S. military targets in Europe as tensions with Trump escalate, raising fears of a wider conflict.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/08/61297829/iran-reportedly-plans-strikes-on-us-targets-in-europe-nato-says-prepared-to-address-any-threat",
+   "created_at": "2026-08-19T12:28:39Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/19/Iran-Approval-Also-Weak.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Palo Alto To Rally Around 14%? Here Are 10 Top Analyst Forecasts For Wednesday",
+   "summary": "Analysts changed outlook on top names. Piper Sandler raises Mercury Systems&#39; target price, Ascendiant Capital boosts Alzamend Neuro&#39;s target price, BTIG raises Henry Schein&#39;s target price,",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/08/61297667/palo-alto-to-rally-around-14-here-are-10-top-analyst-forecasts-for-wednesday",
+   "created_at": "2026-08-19T12:23:07Z",
+   "symbols": [
+    "ALZN",
+    "BIDU",
+    "CRWD",
+    "DCI",
+    "HSIC"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/19/Palo-Alto-Networks-Inc.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Rocket Lab Lands $12 Million Deal To Advance US Military Space Network",
+   "summary": "Rocket Lab joins the U.S. Space Force Space Data Network Consortium and wins two delivery orders worth $12 million for secure optical communications.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/08/61297639/rocket-lab-lands-12-million-deal-to-advance-us-military-space-network",
+   "created_at": "2026-08-19T12:21:27Z",
+   "symbols": [
+    "ARKQ",
+    "PPA",
+    "RKLB",
+    "UFOX"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/19/Rocket-Lab-Beats-Q3-Revenue-Expectations.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Eshallgo Locks Up Exclusive North America Rights For Chinese Printing Supplies Maker",
+   "summary": "Eshallgo Inc. (EHGO) stock rose 20% premarket following an exclusive North American printer consumables distribution deal.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/08/61297505/eshallgo-locks-up-exclusive-north-america-rights-for-chinese-printing-supplies-maker",
+   "created_at": "2026-08-19T12:13:51Z",
+   "symbols": [
+    "EHGO"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/19/Investors-Show-Virtual-Screen-Stock-Mark.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "12 Communication Services Stocks Moving In Wednesday's Pre-Market Session",
+   "summary": "Gainers\n\nLiberty Capital (NASDAQ:GLIBA) shares moved upwards by 8.2% to $28.7 during Wednesday&#39;s pre-market session. The company&#39;s market cap stands at $1.0 billion. \nOnfolio Holdings (NASDAQ:",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/08/61297310/12-communication-services-stocks-moving-wednesday-s-pre-market-session",
+   "created_at": "2026-08-19T12:07:04Z",
+   "symbols": [
+    "ANGH",
+    "BAOS",
+    "CAST",
+    "CNET",
+    "GDC"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_2.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "12 Health Care Stocks Moving In Wednesday's Pre-Market Session",
+   "summary": "Gainers\n\nTenon Medical (NASDAQ:TNON) stock rose 122.5% to $12.13 during Wednesday&#39;s pre-market session. The market value of their outstanding shares is at $3.6 million. As per the news, the Q2 ear",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/08/61297309/12-health-care-stocks-moving-wednesday-s-pre-market-session",
+   "created_at": "2026-08-19T12:07:04Z",
+   "symbols": [
+    "AEON",
+    "AIXC",
+    "AKAN",
+    "ARCT",
+    "BIAF"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_4.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "12 Industrials Stocks Moving In Wednesday's Pre-Market Session",
+   "summary": "Gainers\n\nSKK Holdings (NASDAQ:SKK) shares increased by 47.1% to $6.18 during Wednesday&#39;s pre-market session. The market value of their outstanding shares is at $10.2 million. \nEshallgo (NASDAQ:EHG",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/08/61297308/12-industrials-stocks-moving-wednesday-s-pre-market-session",
+   "created_at": "2026-08-19T12:07:03Z",
+   "symbols": [
+    "BRNX",
+    "CDTG",
+    "EHGO",
+    "HCAI",
+    "KITT"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_1.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "12 Information Technology Stocks Moving In Wednesday's Pre-Market Session",
+   "summary": "Gainers\n\nPowerCompute (NASDAQ:PWCM) stock rose 16.0% to $1.58 during Wednesday&#39;s pre-market session. The company&#39;s market cap stands at $1.2 million. As per the press release, Q2 earnings came",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/08/61297307/12-information-technology-stocks-moving-wednesday-s-pre-market-session",
+   "created_at": "2026-08-19T12:07:03Z",
+   "symbols": [
+    "AMOD",
+    "DAIC",
+    "DVLT",
+    "GGRP",
+    "KC"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_4.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Trump Pauses 50% Canada Tariffs Just Hours Before They Hit — Says US and Canada ‘Have a DEAL’ Pending Final Paperwork With Mark Carney (UPDATED)",
+   "summary": "Trump announces 3-day tariff pause with Canada, citing deal pending final paperwork. Canada PM Carney cautions important work remains.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/08/61292050/trump-delays-50-canada-tariffs-at-the-last-minute-says-we-have-a-deal-with-carney",
+   "created_at": "2026-08-19T12:05:37Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/19/President-Donald-Trump-waits-outside-of-.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Mercury Systems Posts Mixed Q4 Results, Joins WhiteFiber And Other Big Stocks Moving Lower In Wednesday’s Pre-Market Session",
+   "summary": "US stock futures mixed, Nasdaq up 0.1%. Mercury Systems Inc down 10.6%, other stocks also falling. Companies report mixed quarterly results.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/08/61297163/mercury-systems-posts-mixed-q4-results-joins-whitefiber-and-other-big-stocks-moving-lower-in-wednesdays-pre-market-session",
+   "created_at": "2026-08-19T12:04:01Z",
+   "symbols": [
+    "AHG",
+    "CCOI",
+    "CRON",
+    "CXAI",
+    "DCX"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/19/The-Real-Villains-No-Longer-Hide.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Bitcoin ETFs See $486M Inflows in 2 Days: Could This Be the Best Week Since January?",
+   "summary": "Bitcoin ETFs pull in $486.85M in two days, putting a $1B week within reach as CryptoQuant flags a bullish spot demand signal.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/08/61297128/bitcoin-etfs-see-486m-inflows-in-2-days-could-this-be-the-best-week-since-january",
+   "created_at": "2026-08-19T12:03:34Z",
+   "symbols": [
+    "BTCUSD",
+    "IBIT",
+    "MARA",
+    "MSTR",
+    "SPY"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/19/Etf-Btc---Bitcoin-Exchange-Traded-Fund--.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Viking’s Booking Haul Shows Cruise Travelers Aren’t Closing Their Wallets",
+   "summary": "Viking Holdings stock jumped after Q2 2026 earnings beat estimates with $2.19B revenue, high demand, and strong 2026-2027 bookings.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/earnings/26/08/61297040/vikings-booking-haul-shows-cruise-travelers-arent-closing-their-wallets",
+   "created_at": "2026-08-19T12:01:36Z",
+   "symbols": [
+    "VIK"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/19/Viking-Cruise-Photo-by-dreakrawi-via-Shu.jpg?width=1024&height=768"
   },
   {
    "headline": "This Alnylam Pharmaceuticals Analyst Begins Coverage On A Bullish Note; Here Are Top 5 Initiations For Wednesday",
@@ -273,219 +519,6 @@
     "MRNA"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/08/19/Cancer---Heart-Shape-To-Represent-Medica.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "What's Going On With Taiwan Semiconductor Stock Wednesday?",
-   "summary": "Taiwan Semiconductor stock edges higher in premarket trading after a drop. Explore key support levels, price targets, and technical outlook.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/08/61296346/whats-going-on-with-taiwan-semiconductor-stock-wednesday-5",
-   "created_at": "2026-08-19T11:33:24Z",
-   "symbols": [
-    "BLOX",
-    "EMKT",
-    "SMH",
-    "TSM"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/19/Hsinchu-City--Taiwan--June-24--2024-Clos.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Wall Street's Most Accurate Analysts Weigh In On 3 Tech And Telecom Stocks With Over 3% Dividend Yields",
-   "summary": "Investors turn to dividend-yielding stocks in turbulent markets. Benzinga provides latest analyst takes and ratings for high-yielding stocks in communication services.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/dividends/26/08/61296080/wall-streets-most-accurate-analysts-weigh-in-on-3-tech-and-telecom-stocks-with-over-3-dividend-yields-3",
-   "created_at": "2026-08-19T11:25:06Z",
-   "symbols": [
-    "NCMI",
-    "RCI",
-    "VZ"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/19/Dividends-Stock-Payment--Passive-Income-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Goldman Sachs Sounds New AI Jobs Alarm — Entry-Level Workers Are Already Feeling the Pressure as AI Adoption Hits 20%",
-   "summary": "Goldman Sachs finds AI is putting pressure on labor markets, with entry-level workers facing greater hiring risks.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/08/61296043/goldman-ai-labor-market",
-   "created_at": "2026-08-19T11:23:20Z",
-   "symbols": [
-    "BAH",
-    "CSX",
-    "GOOG",
-    "GOOGL",
-    "GS"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/19/Overjoyed-Diverse-Coworkers-Celebrating-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "These Analysts Raise Their Forecasts On Mercury Systems After Q4 Results",
-   "summary": "Mercury Systems Inc (MRCY) reported mixed Q4 results, missing earnings but beating sales estimates. Analysts expect low double-digit revenue growth.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/08/61295995/these-analysts-raise-their-forecasts-on-mercury-systems-after-q4-results",
-   "created_at": "2026-08-19T11:20:58Z",
-   "symbols": [
-    "MRCY"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/19/Analyst-Works-On-Personal-Computer-Showi.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Iran 'Partially Lost Control' on Strait of Hormuz as US Navy Gains Upper Hand, Analysts Say—'They Were Never Completely in Control'",
-   "summary": "US Navy tightens its grip on the Strait of Hormuz as Iran’s influence wanes, with 80% of tanker traffic using the Omani route.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/08/61295979/iran-partially-lost-control-on-strait-of-hormuz-as-us-navy-gains-upper-hand-analysts-say-they-were-never-completely-in-control",
-   "created_at": "2026-08-19T11:18:49Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/19/US-Navy-Officers-Fate-Remains-Unknown-Af.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Kingsoft's AI Cloud Billings Jump 82%, Stock Soars",
-   "summary": "Kingsoft Cloud (KC) stock jumped as Q2 2026 results beat estimates, driven by a 30.8% YoY revenue rise and strong AI cloud demand.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/earnings/26/08/61295924/kingsofts-ai-cloud-billings-jump-82-stock-soars",
-   "created_at": "2026-08-19T11:14:26Z",
-   "symbols": [
-    "KC"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/19/Kingsoft-Cloud--Inc.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "XRP Open Interest Hits 2-Month High: Is That Bullish?",
-   "summary": "XRP derivatives activity is increasing with the highest open interest in two months. On-chain data shows growing activity during &#39;banker hours&#39;.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/08/61295912/xrp-open-interest-hits-two-month-high",
-   "created_at": "2026-08-19T11:13:49Z",
-   "symbols": [
-    "XRPUSD"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/19/Heres-What-XRP-Would-Have-Returned.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Klarna Stock Tries to Stabilize After 23% Plunge As German Shoppers Spoil the Party",
-   "summary": "Klarna stock edges up post-selloff after topping Q2 profit expectations. Discover details on revenue, Apple deal, and 2026 guidance.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/08/61295420/klarna-stock-tries-to-stabilize-after-23-plunge-as-german-shoppers-spoil-the-party",
-   "created_at": "2026-08-19T10:56:12Z",
-   "symbols": [
-    "AAPL",
-    "KLAR"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/19/Klarna--Shanghai-china-march-12th-2024-K.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Patty Murray Rips Truth Social Play: ‘There Is No Get-Rich-Quick Scheme Trump Won’t Try’",
-   "summary": "Murray accuses Trump of “BLATANT CORRUPTION” over a Truth Social plan to sell early access to his presidential posts.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/08/61295397/patty-murray-rips-truth-social-play-there-is-no-get-rich-quick-scheme-trump-wont-try",
-   "created_at": "2026-08-19T10:54:34Z",
-   "symbols": [
-    "DJT"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/19/President-Donald-Trump-pauses-as-he-spea.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Ross Gerber Rips Trump as Oil Soars: Iran Knows He Has ‘No Support’ Ahead of Midterms",
-   "summary": "Investor Ross Gerber slams Trump&#39;s handling of Iran war, says he has no support ahead of midterms in November.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/commodities/26/08/61295154/ross-gerber-rips-trump-as-oil-soars-iran-knows-he-has-no-support-ahead-of-midterms",
-   "created_at": "2026-08-19T10:42:06Z",
-   "symbols": [
-    "USO"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/19/President-Of-The-United-States-Donald-Tr.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Stop Buying Gold Miners Until You Check This Metric",
-   "summary": "Compare gold miners using net cash, company value per annual ounce, and AISC margin. Discover why Kinross stands out on risk-adjusted value.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/commodities/26/08/61295128/stop-buying-gold-miners-until-you-check-this-metric",
-   "created_at": "2026-08-19T10:41:05Z",
-   "symbols": [
-    "AEM",
-    "AGI",
-    "BTG",
-    "GDX",
-    "GDXJ"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/19/Gold-Mining.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Google’s $10 Million Spirit Airlines Data Deal Faces Roadblock as Union Raises Privacy Objections: ‘We Will Fight This Every Way Possible’",
-   "summary": "Google’s $10 million Spirit Airlines data deal is delayed after flight attendants raise concerns over sensitive employee information.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/legal/26/08/61295060/googles-10-million-spirit-airlines-data-deal-faces-roadblock-as-union-raises-privacy-objections-we-will-fight-this-every-way-possible",
-   "created_at": "2026-08-19T10:35:38Z",
-   "symbols": [
-    "FLYYQ",
-    "GOOG",
-    "GOOGL"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/19/Los-Angeles--Ca--Usa---December-28--2024.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "The Iran War Sent Gas Prices Skyrocketing, but the US Now Faces a Diesel Problem",
-   "summary": "Diesel Crack Spread recently reached a record high of $102/bbl amid U.S. refineries prioritizing exports over domestic supply.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/commodities/26/08/61295028/the-iran-war-sent-gas-prices-skyrocketing-but-the-us-now-faces-a-diesel-problem",
-   "created_at": "2026-08-19T10:34:44Z",
-   "symbols": [
-    "BAC"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/19/US-and-Iran-flags-on-a-cracked-backgroun.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Top 3 Health Care Stocks That Could Blast Off This Month",
-   "summary": "The health care sector&#39;s oversold stocks present buying opportunities for undervalued companies. RSI compares stock strength on up and down days, with an RSI below 30 considered oversold.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/08/61294911/top-3-health-care-stocks-that-could-blast-off-this-month-3",
-   "created_at": "2026-08-19T10:30:04Z",
-   "symbols": [
-    "AHG",
-    "INGN",
-    "LLY",
-    "VCYT"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/19/Healthcare-stocks.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Peter Schiff Says Gold Traders ‘Don’t Understand What’s Happening’ as Bond Yields Rise: ‘They’ll Drive More Money Into Gold’",
-   "summary": "Schiff says rising bond yields could drive investors into gold as inflation erodes bond values and boosts demand for an alternative store of value.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/08/61294711/peter-schiff-says-gold-traders-dont-understand-whats-happening-as-bond-yields-rise-theyll-drive-more-money-into-gold",
-   "created_at": "2026-08-19T10:19:43Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/19/Bonds.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Waymo Pioneer Sebastian Thrun Is Quietly Building a New Robotics Startup",
-   "summary": "Sebastian Thrun is developing Dulo, a stealth robotics startup focused on hardware design and faster manufacturing.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/08/61294575/sebastian-thrun-dulo-robotics-startup-hardware-design",
-   "created_at": "2026-08-19T10:12:21Z",
-   "symbols": [
-    "GOOG",
-    "GOOGL"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/19/Man-Using-Artificial-Intelligence-Techno.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "‘Exhaustion, Acute Distress’: JB Pritzker Sounds Alarm Over USS Abraham Lincoln Sailors’ Mental Health After Reports of Overboard Incidents",
-   "summary": "Pritzker raises concerns over sailor mental health and prolonged deployment of USS Abraham Lincoln. Demands answers from Pentagon.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/08/61294442/exhaustion-acute-distress-jb-pritzker-sounds-alarm-over-uss-abraham-lincoln-sailors-mental-health-after-reports-of-overboard-incidents",
-   "created_at": "2026-08-19T10:06:15Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/19/Illinois-Governor-JB-Pritzker-at-the-Dem.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Netflix Co-Founder Reed Hastings Says Companies Aren’t Families: ‘You Would Never Lay Off Two of Your Kids’",
-   "summary": "Reed Hastings explains why companies should operate like teams, not families, after Netflix’s 2001 mass layoff.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/personal-finance/management/26/08/61294395/reed-hastings-companies-not-families-netflix-layoffs",
-   "created_at": "2026-08-19T10:05:08Z",
-   "symbols": [
-    "NFLX",
-    "SONY"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/19/Netflix-Inc.jpg?width=1024&height=768"
   }
  ]
 }
