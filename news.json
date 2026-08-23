@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-23 20:00",
+ "updated": "2026-08-23 21:00",
  "items": [
   {
    "headline": "Paul Graham Reveals His ‘Secret’ Startup Success Metric: ‘What’s Their Growth Rate?’",
@@ -196,6 +196,18 @@
     "MSFT"
    ],
    "image": ""
+  },
+  {
+   "headline": "Congressman’s Buying Spree, AAPL Stock Gains and More: This Week in Appleverse",
+   "summary": "Apple dominated weekend headlines with stories spanning Steve Jobs, congressional stock buying, buybacks and a major analyst upgrade.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/08/61372557/apple-weekend-news-steve-jobs-stock-upgrade",
+   "created_at": "2026-08-23T11:01:16Z",
+   "symbols": [
+    "AAPL",
+    "SKHY"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/23/Hong-Kong--China---December-10--2016-App.jpg?width=1024&height=768"
   },
   {
    "headline": "JPMorgan Predicts Global Food Crisis, Scott Bessent's Budget Deficit Forecast and More: This Week in Economy",
@@ -443,15 +455,6 @@
     "ULTA"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/08/22/Stock-Whisper-Index.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Ahead of Xi-Trump Meeting, US Navy Transits Taiwan Strait as Beijing Tracks Flight: 'In Accordance With International Law'",
-   "summary": "A U.S. Navy P-8A Poseidon aircraft transited the Taiwan Strait, prompting China to track the flight amid tensions over Taiwan.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/08/61371322/us-navy-p8a-poseidon-taiwan-strait-china",
-   "created_at": "2026-08-22T08:48:07Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/22/Usa-Flag-And-China-Flag-Print-Screen-On-.jpg?width=1024&height=768"
   }
  ]
 }
