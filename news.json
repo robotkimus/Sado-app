@@ -1,6 +1,21 @@
 {
- "updated": "2026-08-24 00:00",
+ "updated": "2026-08-24 01:00",
  "items": [
+  {
+   "headline": "Marvell Cools After 178% Rally as Valuation Faces Thursday Earnings Test",
+   "summary": "Marvell stock has cooled after a 178% rally this year as its rich valuation meets its earnings next week, which will provide color on its growth.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/08/61372851/marvell-stock-cools-after-178-rally-as-rich-valuation-meets-aug-27-earnings-test",
+   "created_at": "2026-08-23T15:31:55Z",
+   "symbols": [
+    "AMZN",
+    "GOOG",
+    "META",
+    "MRVL",
+    "MU"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/23/Marvell.jpg?width=1024&height=768"
+  },
   {
    "headline": "This Week in Tesla: Ross Gerber's Self-Driving Question, Cybercab Boost And More",
    "summary": "Tesla and CEO Elon Musk make headlines as skepticism over FSD capabilities, focus on Cybercab take center stage.",
@@ -181,21 +196,6 @@
     "SPY"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/08/21/The-US-Economy-Looks-Great.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Investors Build a Barbell: Big Tech On One End, Short-Term Bonds On The Other",
-   "summary": "ETF investors are buying stocks and bonds as Treasury yields rise, with large-cap funds leading inflows ahead of Nvidia’s earnings report.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/etfs/sector-etfs/26/08/61363845/investors-build-a-barbell-big-tech-on-one-end-short-term-bonds-on-the-other",
-   "created_at": "2026-08-21T17:50:46Z",
-   "symbols": [
-    "IVV",
-    "IWM",
-    "NVDA",
-    "QQQ",
-    "SGOV"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/21/Magnifying-Glass-On-Spreadsheet-And-Grap.jpg?width=1024&height=768"
   },
   {
    "headline": "Exclusive: US Auto Industry Has a Big Software Problem—and China Is Pulling Ahead, Expert Warns",
@@ -445,20 +445,6 @@
     "BTCUSD"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/08/22/Cryptocurrency--Focus-Bitcoin-On-Tablet-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Tom Lee's BitMine Stock Surges as Ethereum DCA Strategy Finally Pays Off",
-   "summary": "BitMine stock has soared in the past few days, as Tom Lee&#39;s Ethereum dollar-cost averaging (DCA) starts to pay off this month",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/08/61371843/tom-lees-bitmine-stock-surges-as-ethereum-dca-strategy-finally-pays-off",
-   "created_at": "2026-08-22T17:24:38Z",
-   "symbols": [
-    "BMNR",
-    "BTCUSD",
-    "ETH",
-    "ETHUSD"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/22/tom-lee-dall-e.png?width=1024&height=768"
   }
  ]
 }
