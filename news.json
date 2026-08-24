@@ -1,6 +1,20 @@
 {
- "updated": "2026-08-24 12:00",
+ "updated": "2026-08-24 13:00",
  "items": [
+  {
+   "headline": "Remember Hugging Face? The AI Hub Hit by an OpenAI Security Breach Is Reportedly Exploring a $13 Billion Sale",
+   "summary": "Hugging Face is reportedly exploring a sale that could value the open-source AI platform at $13 billion or more.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/08/61374037/hugging-face-thirteen-billion-sale-openai-security-breach",
+   "created_at": "2026-08-24T03:00:24Z",
+   "symbols": [
+    "CRM",
+    "GOOG",
+    "GOOGL",
+    "NVDA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/24/West-Bangal--India---July-5--2023--Huggi.jpg?width=1024&height=768"
+  },
   {
    "headline": "Zoom Communications Stock Rally Faces Its Biggest Test",
    "summary": "The Zoom Communications stock has been in a strong rally this month, but is set to face a major test ahead of the second quarter earnings",
@@ -191,19 +205,26 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/08/22/Warren-Buffett-wears-a-Miami-Dolphins--N.jpg?width=1024&height=768"
   },
   {
-   "headline": "Benzinga Bulls and Bears: Ross, Moderna, Webull",
-   "summary": "Benzinga examined the prospects for many investors’ favorite stocks over the last week — here’s a look at some of our top stories.",
+   "headline": "Trump Memecoin Explodes 80% in a Week, Trades among Biggest Gainers After White House Crypto Summit",
+   "summary": "A renewed rally in the cryptocurrency market has fueled sharp gains in the Official Trump memecoin.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/market-summary/26/08/61371513/benzinga-bulls-and-bears-ross-moderna-webull",
-   "created_at": "2026-08-22T12:01:13Z",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/08/61374121/donald-trump-memecoin-weekly-gainers-white-house-crypto-summit",
+   "created_at": "2026-08-24T03:52:14Z",
    "symbols": [
-    "AMLX",
-    "BRK",
-    "BULL",
-    "DAL",
-    "DHI"
+    "BTCUSD",
+    "TRUMPUSD",
+    "ZECUSD"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/22/Bulls-and-Bears-1.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/24/Coins-Memcoin-Trump-Against-Other-Crypto.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Trump's 'Self-Defeating' Canada Tariff War Will Only Raise US Prices, Warns Adam Schiff: 'Dysfunctional Government,' Says Bernie Sanders",
+   "summary": "Sen. Adam Schiff and economists warn that the collapse of U.S.-Canada trade talks will cost American families and businesses.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/08/61374109/trump-canada-tariff-war-adam-schiff-bernie-sanders-us-prices",
+   "created_at": "2026-08-24T03:51:05Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/24/Washington-dc--United-States--April-14-2.jpg?width=1024&height=768"
   },
   {
    "headline": "Michael Burry Says He 'Flipped' His Alibaba Stock into JD and Won't Be Flipping Back — Hong Kong-Listed Stock Falls Nearly 10% on $10B Raise",
@@ -421,33 +442,6 @@
     "TSLA"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/08/23/Usa-And-China-Flags-Painted-On-Cracked-W.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Weekend Round-Up: Bitcoin's Best Week Since 2023, Coinbase CEO's Bullish Outlook and More",
-   "summary": "Bitcoin posted its best week since 2023, while crypto leaders and analysts turned bullish on Bitcoin, Ethereum and the broader market.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/08/61372762/weekend-round-up-bitcoins-best-week-since-2023-coinbase-ceos-bullish-outlook-and-more",
-   "created_at": "2026-08-23T14:01:06Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/23/Bitcoin-Btc-Virtual-Cryptocurrency-In-Fr.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Weekend Round-Up: Pony AI's Earnings, Ferrari's Auction, Tesla's Recall, Waymo's Expansion and Tesla's Cybercab",
-   "summary": "Ferrari, Tesla and Waymo made headlines with mixed earnings, a $40 million Ferrari EV auction, Tesla’s massive China recall and more.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/08/61372727/weekend-round-up-pony-ais-earnings-ferraris-auction-teslas-recall-waymos-expansion-and-teslas-cybercab",
-   "created_at": "2026-08-23T13:30:54Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/23/Phoenix--Arizona---September-1-2022-Auto.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Weekend Round-Up: Social Media Companies Dodge Lawsuit; Google Faces India's Ire; SK Hynix Eyes Japan; Alibaba's Old Nvidia GPUs Still Going Strong",
-   "summary": "Meta, Google dodge a lawsuit as Google faces scrutiny in India, SK hynix eyes Japan expansion and Alibaba keeps Nvidia’s older GPUs running.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/08/61372678/weekend-round-up-social-media-companies-dodge-lawsuit-google-faces-indias-ire-sk-hynix-eyes-japan-alibabas-old-nvidia-gpus-still-going-strong",
-   "created_at": "2026-08-23T13:00:32Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/23/The-Technician-Repairing-The-Motherboard.jpg?width=1024&height=768"
   }
  ]
 }
