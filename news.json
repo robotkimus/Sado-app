@@ -1,6 +1,20 @@
 {
- "updated": "2026-08-24 17:00",
+ "updated": "2026-08-24 18:00",
  "items": [
+  {
+   "headline": "Uber Faces Nearly $1 Billion in Fines From Dutch Regulators Over Driver Suspensions Using Automation: Report",
+   "summary": "Uber ordered to pay $966 million fine for automated deactivation of drivers&#39; accounts in the Netherlands, violating GDPR.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/08/61375522/uber-faces-nearly-1-billion-in-fines-from-dutch-regulators-over-driver-suspensions-using-automation-report",
+   "created_at": "2026-08-24T08:48:05Z",
+   "symbols": [
+    "BIDU",
+    "LYFT",
+    "META",
+    "UBER"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/24/A-driver-using-the-Uber-app-in-a-car.jpg?width=1024&height=768"
+  },
   {
    "headline": "Trump Says Communities Rejecting Data Centers Are ‘Making a Mistake,’ Says US Leads China In AI ‘By a Lot’",
    "summary": "President Donald Trump defends the US data-center boom, says communities rejecting projects are making a mistake.",
@@ -191,19 +205,61 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/08/23/Marvell.jpg?width=1024&height=768"
   },
   {
-   "headline": "This Week in Tesla: Ross Gerber's Self-Driving Question, Cybercab Boost And More",
-   "summary": "Tesla and CEO Elon Musk make headlines as skepticism over FSD capabilities, focus on Cybercab take center stage.",
+   "headline": "Claude Turns 2-Year Wi-Fi Headache Into 10-Minute Fix After Finding 3 Hidden Problems, Boosting Speeds From 90 Mbps to 292 Mbps",
+   "summary": "LinkedIn user reports Claude from Anthropic improved his wifi speed from 90 Mbps to 292 Mbps in 10 minutes.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/08/61372801/this-week-in-tesla-ross-gerbers-self-driving-question-cybercab-boost-and-more",
-   "created_at": "2026-08-23T14:11:19Z",
+   "url": "https://www.benzinga.com/markets/tech/26/08/61375432/claude-turns-2-year-wi-fi-headache-into-10-minute-fix-after-finding-3-hidden-problems-boosting-speeds-from-90-mbps-to-292-mbps",
+   "created_at": "2026-08-24T08:37:18Z",
    "symbols": [
-    "AMZN",
-    "ENRD",
-    "GOOG",
-    "GOOGL",
-    "JPM"
+    "AAPL",
+    "CRM",
+    "CSCO"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/23/Kaunas--Lithuania-2022---April-14-Tesla-.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/24/Representative-image-of-Wi-Fi-at-home.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Steve Hanke Says AI Cheating Is ‘Very Easy’ to Spot When Student Work Suddenly Looks Too Good",
+   "summary": "Steve Hanke says AI-generated student work is easy to spot when writing and knowledge don&#39;t match.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/education/26/08/61375411/steve-hanke-ai-cheating",
+   "created_at": "2026-08-24T08:30:04Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/24/Teacher-Giving-Computer-Science-Lecture.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Long Beach Power Outage Leaves 22,000+ Customers Without Electricity Amid Extreme Heat: SoCal Edison Says 'Focused on Restoring Power as Quickly and Safely as Possible'",
+   "summary": "About 22,000 Long Beach residents lost power due to extreme heat, with only 14,057 affected by 11 p.m. PDT.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/08/61374789/long-beach-power-outage-leaves-22000-customers-without-electricity-amid-extreme-heat-socal-edison-says-focused-on-restoring-power-as-quickly-and-safely-as-possible",
+   "created_at": "2026-08-24T06:46:10Z",
+   "symbols": [
+    "EIX"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/24/Representative-image-of-a-power-outage.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Scott Bessent Predicted a Potentially Gold-Backed Renminbi in 2023: Now, China Has Quietly Acquired ‘Far More Gold’ Than Reported",
+   "summary": "As gold tops $4,700, China is acquiring &#39;far more gold&#39; than reported, fulfilling Scott Bessent&#39;s 2023 gold-backed Renminbi prediction.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/commodities/26/08/61375392/scott-bessent-predicted-a-potentially-gold-backed-renminbi-in-2023-now-china-has-quietly-acquired-far-more-gold-than-reported",
+   "created_at": "2026-08-24T08:18:30Z",
+   "symbols": [
+    "GDX",
+    "GDXJ",
+    "GLD",
+    "GLDM",
+    "IAU"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/24/US-Treasury-Secretary-Scott-Bessent-walk.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Greg Abbott Says AI Data Centers ‘Dug Their Own Grave’ as Backlash Over Power Bills, Water Use and Local Development Explodes",
+   "summary": "Texas Gov. Greg Abbott is tightening AI data center rules as public backlash over power, water and infrastructure costs grows.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/08/61375250/greg-abbott-says-ai-data-centers-dug-their-own-grave-as-backlash-over-power-bills-water-use-and-local-development-explodes",
+   "created_at": "2026-08-24T07:59:02Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/24/Aerial-view-of-a-data-center.jpg?width=1024&height=768"
   },
   {
    "headline": "US Homebuyers Are ‘Quitting’ as Sellers Outnumber Buyers by 51.3%: Buyer Count Hits Record Low",
@@ -242,17 +298,6 @@
     "SPCX"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/08/24/Volodymyr-Zelensky--President-of-Ukraine.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Long Beach Power Outage Leaves 22,000+ Customers Without Electricity Amid Extreme Heat: SoCal Edison Says 'Focused on Restoring Power as Quickly and Safely as Possible'",
-   "summary": "22,000 Long Beach residents lost power due to extreme heat, with only 14,057 affected by 11 p.m. SCE working to restore electricity.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/08/61374789/long-beach-power-outage-leaves-22000-customers-without-electricity-amid-extreme-heat-socal-edison-says-focused-on-restoring-power-as-quickly-and-safely-as-possible",
-   "created_at": "2026-08-24T06:46:17Z",
-   "symbols": [
-    "EIX"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/24/Representative-image-of-a-power-outage.jpg?width=1024&height=768"
   },
   {
    "headline": "Dow Jumps Over 500 Points But Records Weekly Loss: Investor Sentiment Improves, Fear & Greed Index In ‘Neutral’ Zone",
@@ -406,57 +451,6 @@
    "created_at": "2026-08-24T03:51:05Z",
    "symbols": [],
    "image": "https://cdn.benzinga.com/files/images/story/2026/08/24/Washington-dc--United-States--April-14-2.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Michael Burry Says He 'Flipped' His Alibaba Stock into JD and Won't Be Flipping Back — Hong Kong-Listed Stock Falls Nearly 10% on $10B Raise",
-   "summary": "Michael Burry said he has no plans to move his JD.com stake back to Alibaba after its $10 billion share sale sank shares nearly 10%.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/08/61373980/michael-burry-alibaba-jd-ten-billion-raise-stock-falls",
-   "created_at": "2026-08-24T02:21:45Z",
-   "symbols": [
-    "BABA",
-    "JD"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/24/Alibaba.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Bitcoin, Ethereum Gain, XRP, Dogecoin Slide as Crypto Market Takes a Breather: Analyst Predicts 'Little Dip' Before BTC Hits 'New Highs'",
-   "summary": "Leading cryptocurrencies pulled back on Sunday, August 23, after a sharp rally earlier in the week as geopolitical tensions tempered risk appetite.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/08/61373914/bitcoin-ethereum-xrp-dogecoin-crypto-market-dip-new-highs",
-   "created_at": "2026-08-24T01:57:11Z",
-   "symbols": [
-    "BMNR",
-    "BTCUSD",
-    "DOGEUSD",
-    "ETHUSD",
-    "MSTR"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/24/Bitcoin-Coins-On-Reflective-Black-Surfac.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Bernie Sanders Says He Was Labeled 'Radical,' 'Crazy' and an Extremist for His Data Center Moratorium Push: 'Today 75% of Americans Agree'",
-   "summary": "Bernie Sanders says growing public opposition to AI data centers validates his and AOC’s moratorium push as Trump defends expansion.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/08/61373888/bernie-sanders-data-center-moratorium-75-percent-americans",
-   "created_at": "2026-08-24T01:46:42Z",
-   "symbols": [
-    "SPCX",
-    "TSLA"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/24/New-York--Ny---April-5--2019-Democratic-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Affirm Stock Wavers Ahead of Earnings: Will it Fall Like Klarna?",
-   "summary": "Affirm stock is on the cusp of a strong bullish breakout as it publishes its financial results later this week. These numbers come after the recent Klarna earnings",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/08/61373229/affirm-stock-wavers-ahead-of-earnings-will-it-fall-like-klarna",
-   "created_at": "2026-08-23T21:41:07Z",
-   "symbols": [
-    "AFRM",
-    "KLAR"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/23/Affirm.jpg?width=1024&height=768"
   }
  ]
 }
