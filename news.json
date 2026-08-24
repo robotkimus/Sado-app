@@ -1,6 +1,18 @@
 {
- "updated": "2026-08-24 14:00",
+ "updated": "2026-08-24 15:00",
  "items": [
+  {
+   "headline": "Elon Musk Weighs In As Atreides CIO Gavin Baker Warns of 'Compute Inequality,' Sees His Firm's AI Spending Double Monthly",
+   "summary": "Gavin Baker says AI spending is soaring as compute becomes a competitive necessity, drawing an “Interesting” response from Elon Musk.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/08/61374431/elon-musk-gavin-baker-compute-inequality-ai-spending-atreides",
+   "created_at": "2026-08-24T05:54:10Z",
+   "symbols": [
+    "BLK",
+    "SPCX"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/24/Paris--France---June-16--2023-Elon-Musk-.jpg?width=1024&height=768"
+  },
   {
    "headline": "Nvidia Is Coming for OpenAI and DeepSeek With $6 Billion Poolside Deal to Build a Powerful Open-Weight AI Model: Report",
    "summary": "Nvidia is spending $7 billion on Poolside to build open-weight AI models that challenge OpenAI, Anthropic, DeepSeek and Kimi.",
@@ -190,15 +202,52 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/08/23/Rep--Ro-Khanna-speaks-on-camera-about-th.jpg?width=1024&height=768"
   },
   {
-   "headline": "Elon Musk Doesn't 'Really Buy Stocks' — but He Named 3 Things He Looks For in a Company",
-   "summary": "In a November 2025 interview, Elon Musk shared 3 keys to look for before investing in a company.",
+   "headline": "Suze Orman Warns 'Danger' Is Rising As Over Half of US Workers Lack $500 Emergency Savings",
+   "summary": "More than half of U.S. workers cannot cover a $500 emergency as inflation, debt and rising costs pressure household finances.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/08/61371856/elon-musk-doesnt-really-buy-stocks-but-he-named-3-things-he-looks-for-in-a-company",
-   "created_at": "2026-08-22T17:31:07Z",
+   "url": "https://www.benzinga.com/markets/macro-economic-events/26/08/61374418/suze-orman-emergency-savings-500-us-workers",
+   "created_at": "2026-08-24T05:46:36Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/24/Record-Tax-Frustration-Slams-Trump-On-Sp.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Micron Sees 'No End' to AI Memory Supply Crunch: CEO Sanjay Mehrotra Says 'Nothing Ever Goes in a Straight Line'",
+   "summary": "Micron CEO Sanjay Mehrotra said memory supply shows no sign of catching up with AI-driven demand, citing long-term customer deals.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/08/61374343/micron-ai-memory-supply-crunch-sanjay-mehrotra",
+   "created_at": "2026-08-24T05:35:39Z",
    "symbols": [
-    "NVDA"
+    "MU",
+    "SKHY"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/22/Paris--France---June-16--2023-Elon-Musk-.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/24/Micron-Logo-Displayed-On-A-Smartphone-Sc.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Elon Musk's Tesla Has 'Massive Advantage' Before Selling Optimus in the Market, Says This Analyst — Crypto Prediction Market Weighs 2026 Launch Odds",
+   "summary": "Cryptocurrency bettors have significantly lowered the odds that Tesla Inc. will commercially launch the Optimus humanoid robot in 2026.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/08/61374326/elon-musk-tesla-optimus-2026-launch-crypto-prediction-market",
+   "created_at": "2026-08-24T05:29:28Z",
+   "symbols": [
+    "BTCUSD",
+    "POLUSD",
+    "TSLA",
+    "ZECUSD"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/24/Optimus-Faces-Technical-Hurdles.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Dr. Oz Says The MMR Vaccine Is Not 'Lethal' as Trump Administration Faces Questions Over Vaccine Policy",
+   "summary": "Oz says the MMR vaccine is “not a lethal vaccine” after Trump warned the combined shot could be “quite lethal” amid vaccine policy scrutiny.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/health-care/26/08/61374304/dr-oz-mmr-vaccine-trump-administration-policy",
+   "created_at": "2026-08-24T05:19:50Z",
+   "symbols": [
+    "GSK",
+    "MRK",
+    "SNY"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/24/Oz-Touts-One-More-Working-Year.jpg?width=1024&height=768"
   },
   {
    "headline": "Sean Duffy Calls Canada’s Trade War With Trump ‘Foolish,’ Says Carney Will ‘Come To The Table’ Amid 50% Tariffs",
@@ -402,60 +451,6 @@
    "created_at": "2026-08-23T19:01:30Z",
    "symbols": [],
    "image": "https://cdn.benzinga.com/files/images/story/2026/08/23/Young-Teacher-Counting-Group-Of-Kids-Pup.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "$219,000 to $60,000: Investor's MSTR Bet for Kids Takes a Big Hit, but Bitcoin Bull Michael Saylor Isn't Sugarcoating It: 'Be Prepared' for Difficult Years",
-   "summary": "Strategy Inc. executives moved to reassure an investor whose stake lost significant value during the current bear market.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/08/61372994/mstr-investment-michael-saylor-bitcoin-difficult-years",
-   "created_at": "2026-08-23T18:01:24Z",
-   "symbols": [
-    "BTCUSD",
-    "MSTR",
-    "ZECUSD"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/23/Bitcoin-Digital-Cryptocurrency-Losing-Va.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "SanDisk, Micron, Western Digital Remain Cheap as Cyclical and AI Bubble Concerns Remain",
-   "summary": "Here&#39;s why top memory stocks like SanDisk, Micron, and Western Digital are still cheap despite elevated cyclical and AI bubble worries.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/08/61372957/sandisk-micron-western-digital-stocks-remain-cheap-as-cyclical-and-ai-bubble-concerns-remain",
-   "created_at": "2026-08-23T17:31:32Z",
-   "symbols": [
-    "DRAM",
-    "MU",
-    "SNDK",
-    "WDC"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/23/Paris--France---February-20-2026-The-Mic.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Musk’s Net Worth Claws Back Up to $851 Billion as Analysts See More Tesla, SpaceX Upside",
-   "summary": "Elon Musk&#39;s net worth jumped to $851 billion, bringing him close to trillionaire status as analysts remain optimistic on Tesla and SpaceX.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/08/61372917/elon-musks-net-worth-hits-851-billion-as-analysts-see-more-tesla-spacex-upside",
-   "created_at": "2026-08-23T16:30:19Z",
-   "symbols": [
-    "SPCX",
-    "TSLA"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/23/Paris--France---June-16--2023-Elon-Musk-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Tom Lee Named BMNR, MSTR, COIN as Top Picks for Fresh Crypto Bull Run",
-   "summary": "Tom Lee names BMNR, MSTR and Coinbase as top crypto proxies as Bitcoin hits one of its 10 most important days of the year.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/08/61372878/tom-lee-names-bmnr-mstr-coin-as-top-picks",
-   "created_at": "2026-08-23T15:58:40Z",
-   "symbols": [
-    "BMNR",
-    "BTCUSD",
-    "COIN",
-    "ETHUSD",
-    "MSTR"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/23/Cryptocurrency-Coins-Displaying-XRP--Sol.jpg?width=1024&height=768"
   }
  ]
 }
