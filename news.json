@@ -1,6 +1,17 @@
 {
- "updated": "2026-08-24 13:00",
+ "updated": "2026-08-24 14:00",
  "items": [
+  {
+   "headline": "Nvidia Is Coming for OpenAI and DeepSeek With $6 Billion Poolside Deal to Build a Powerful Open-Weight AI Model: Report",
+   "summary": "Nvidia is spending $7 billion on Poolside to build open-weight AI models that challenge OpenAI, Anthropic, DeepSeek and Kimi.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/08/61374193/nvidia-poolside-6-billion-openai-deepseek-ai-model",
+   "created_at": "2026-08-24T04:21:55Z",
+   "symbols": [
+    "NVDA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/24/Bahia--Brazil---August-28--2025-Nvidia-L.jpg?width=1024&height=768"
+  },
   {
    "headline": "Remember Hugging Face? The AI Hub Hit by an OpenAI Security Breach Is Reportedly Exploring a $13 Billion Sale",
    "summary": "Hugging Face is reportedly exploring a sale that could value the open-source AI platform at $13 billion or more.",
@@ -190,19 +201,37 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/08/22/Paris--France---June-16--2023-Elon-Musk-.jpg?width=1024&height=768"
   },
   {
-   "headline": "Billionaire Activist Investor Dan Loeb’s Anti-Buffett Trade — Third Point Buys This Stock as Berkshire Hathaway Slashes Its Major Stake",
-   "summary": "Dan Loeb increased his Capital One stake as Warren Buffett&#39;s Berkshire Hathaway sharply reduced its position during the second quarter.",
+   "headline": "Sean Duffy Calls Canada’s Trade War With Trump ‘Foolish,’ Says Carney Will ‘Come To The Table’ Amid 50% Tariffs",
+   "summary": "Canada is foolish to think it can win the trade war with President Trump, says US Transport Secretary Sean Duffy.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/08/61371589/dan-loeb-capital-one-berkshire-hathaway-stake",
-   "created_at": "2026-08-22T13:01:16Z",
+   "url": "https://www.benzinga.com/news/politics/26/08/61374257/sean-duffy-calls-canadas-trade-war-with-trump-foolish-says-carney-will-come-to-the-table-amid-50-tariffs",
+   "created_at": "2026-08-24T04:44:55Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/24/Sean-Duffy--Transportation-Secretary--sp.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Iran Vows ‘Not a Single Drop Of Oil’ Will Flow Through Strait Of Hormuz, Persian Gulf Amid Trump’s Economic Restrictions—Former General Warns US Has ‘Permanently’ Lost Access To Bases",
+   "summary": "Iran&#39;s security chief warns against participating in Trump&#39;s economic measures, saying oil won&#39;t flow if war continues.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/08/61374211/iran-vows-not-a-single-drop-of-oil-will-flow-through-strait-of-hormuz-persian-gulf-amid-trumps-economic-restrictions-former-general-warns-us-has-permanentl",
+   "created_at": "2026-08-24T04:30:07Z",
    "symbols": [
-    " MA",
-    " V",
-    "ALLY",
-    "BAC",
-    "BRK"
+    "USO"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/22/Warren-Buffett-wears-a-Miami-Dolphins--N.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/24/President-Of-The-United-States-Donald-Tr.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Peter Schiff Says Hitching Bitcoin to Artificial Intelligence Wagon is a Mistake: AI Isn't 'Bullish' for BTC, It's a 'Threat'",
+   "summary": "Economist Peter Schiff said on Sunday, August 23, that AI is a threat to Bitcoin, rather than serving as a positive catalyst for the cryptocurrency.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/08/61374134/peter-schiff-bitcoin-ai-threat-artificial-intelligence",
+   "created_at": "2026-08-24T03:59:03Z",
+   "symbols": [
+    "BTCUSD",
+    "MARA",
+    "ZECUSD"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/24/The-Image-Illustrates-The-Intersection-O.jpg?width=1024&height=768"
   },
   {
    "headline": "Trump Memecoin Explodes 80% in a Week, Trades among Biggest Gainers After White House Crypto Summit",
@@ -427,21 +456,6 @@
     "MSTR"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/08/23/Cryptocurrency-Coins-Displaying-XRP--Sol.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Exclusive: US Auto Industry Has a Big Software Problem—and China Is Pulling Ahead, Expert Warns",
-   "summary": "Auto industry is facing a software integration overhaul, as risk for legacy players losing ground to newer entrants grows.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/08/61372786/exclusive-us-auto-industry-has-a-big-software-problem-and-china-is-pulling-ahead-expert-warns",
-   "created_at": "2026-08-23T14:06:04Z",
-   "symbols": [
-    "BYDDF",
-    "BYDDY",
-    "F",
-    "GM",
-    "TSLA"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/23/Usa-And-China-Flags-Painted-On-Cracked-W.jpg?width=1024&height=768"
   }
  ]
 }
