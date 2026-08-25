@@ -1,6 +1,21 @@
 {
- "updated": "2026-08-25 17:00",
+ "updated": "2026-08-25 18:00",
  "items": [
+  {
+   "headline": "Top Analyst Says Nvidia Earnings Could Reveal If AI Infrastructure Boom Has Finally Peaked: ‘The Biggest Thing I Am Watching…’",
+   "summary": "Nvidia’s earnings could reveal whether AI infrastructure demand is nearing a peak, with revenue growth and customer diversification in focus.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/08/61401219/top-analyst-says-nvidia-earnings-could-reveal-if-ai-infrastructure-boom-has-finally-peaked-the-biggest-thing-i-am-watching",
+   "created_at": "2026-08-25T08:23:11Z",
+   "symbols": [
+    "AMZN",
+    "GOOG",
+    "GOOGL",
+    "META",
+    "MSFT"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/25/Jensen-Huang-Nvidias-Founder--President-.jpg?width=1024&height=768"
+  },
   {
    "headline": "Trump Administration Proposes Over $100,000 H-1B Fee After Court Struck Down $100,000 Levy",
    "summary": "DHS proposes a $103,265 H-1B visa fee for cap-subject workers, with companies and workers given 30 days to comment.",
@@ -197,26 +212,100 @@
    "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/aggregated_options_3.jpg?width=1024&height=768"
   },
   {
-   "headline": "Memory Stocks Slide as Trump Threatens 50% Tariffs on Canadian Autos, Steel in 2027: Stock Market Today",
-   "summary": "US equities mixed as tech stocks drag Nasdaq 100 lower, Trump escalates trade fight with Canada, and Fed Chair Warsh speaks at Jackson Hole.",
+   "headline": "Transcript: Intelligent Protection Q2 2026 Earnings Conference Call",
+   "summary": "Intelligent Protection (NASDAQ:IPM) reported second-quarter financial results on Tuesday. The transcript from the company&#39;s second-quarter earnings call has been provided below.\nThis transcript is",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/market-summary/26/08/61390668/memory-stocks-crater-trump-50-percent-canada-tariffs-markets-monday",
-   "created_at": "2026-08-24T17:16:56Z",
+   "url": "https://www.benzinga.com/news/26/08/61401443/transcript-intelligent-protection-q2-2026-earnings-conference-call",
+   "created_at": "2026-08-25T08:55:47Z",
    "symbols": [
-    "AAOI",
-    "AMD",
-    "ASTS",
-    "BMNR",
-    "BTCUSD"
+    "IPM"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/24/US-Canada.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_1.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "FTC Moves to Unwind Zillow’s $100 Million Redfin Deal, Requires Rival to Reenter Rental Market",
+   "summary": "FTC order requires Zillow and Redfin to restore competition after a $100M rental-listing agreement.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/real-estate/26/08/61401430/zillow-redfin-ftc-antitrust-rental-agreement",
+   "created_at": "2026-08-25T08:52:27Z",
+   "symbols": [
+    "Z"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/25/FTC-Accuses-Instacart-of-Deceptive-Pract.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Transcript: CI&T Q2 2026 Earnings Conference Call",
+   "summary": "On Tuesday, CI&amp;T (NYSE:CINT) discussed second-quarter financial results during its earnings call. The full transcript is provided below.\nThis transcript is brought to you by Benzinga APIs. For rea",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/08/61401418/transcript-ci-t-q2-2026-earnings-conference-call",
+   "created_at": "2026-08-25T08:51:27Z",
+   "symbols": [
+    "CINT"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_1.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Transcript: JBS Q2 2026 Earnings Conference Call",
+   "summary": "JBS (NYSE:JBS) released second-quarter financial results and hosted an earnings call on Tuesday. Read the complete transcript below.\nThis transcript is brought to you by Benzinga APIs. For real-time a",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/08/61401319/transcript-jbs-q2-2026-earnings-conference-call",
+   "created_at": "2026-08-25T08:40:18Z",
+   "symbols": [
+    "JBS"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_3.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Consolidated Water Co Q2 2026 Earnings Call Transcript",
+   "summary": "Consolidated Water Co (NASDAQ:CWCO) held its second-quarter earnings conference call on Tuesday. Below is the complete transcript from the call.\nThis transcript is brought to you by Benzinga APIs. For",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/08/61401306/consolidated-water-co-q2-2026-earnings-call-transcript",
+   "created_at": "2026-08-25T08:37:33Z",
+   "symbols": [
+    "CWCO"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_1.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Elon Musk’s xAI Sounds Alarm Over Power Shutdown: Grok Could ‘Largely Cease to Function’",
+   "summary": "xAI warns that shutting down gas turbines could cripple Grok, disrupt AI services used by millions worldwide.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/08/61401275/elon-musks-xai-sounds-alarm-over-power-shutdown-grok-could-largely-cease-to-function",
+   "created_at": "2026-08-25T08:33:11Z",
+   "symbols": [
+    "SPCX"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/25/San-Francisco--California---07-November-.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Transcript: Ceragon Networks Q2 2026 Earnings Conference Call",
+   "summary": "Ceragon Networks (NASDAQ:CRNT) released second-quarter financial results and hosted an earnings call on Tuesday. Read the complete transcript below.\nThis transcript is brought to you by Benzinga APIs.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/08/61401255/transcript-ceragon-networks-q2-2026-earnings-conference-call",
+   "created_at": "2026-08-25T08:28:59Z",
+   "symbols": [
+    "CRNT"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_4.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "SK Hynix Workers Reject Wage Deal, Triggering Fresh Negotiations: Report",
+   "summary": "SK Hynix workers reject a wage deal, forcing renewed talks over pay and performance-based incentives after a union vote.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/08/61401230/sk-hynix-workers-reject-wage-deal-triggering-fresh-negotiations-report",
+   "created_at": "2026-08-25T08:23:49Z",
+   "symbols": [
+    "SKHY",
+    "SSNLF"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/25/Paris--France---May-14--2026-The-Sk-Hyni.jpg?width=1024&height=768"
   },
   {
    "headline": "Nasdaq Tumbles 200 Points as Chip Stocks Slide: Fear & Greed Index Remains In ‘Neutral’ Zone",
    "summary": "Fear &amp; Greed Index shows no change in market sentiment on Monday, with most stocks recording losses last week. It measures current market sentiment based on 7 indicators, with 0 representing maxim",
    "source": "benzinga",
    "url": "https://www.benzinga.com/markets/market-summary/26/08/61401099/nasdaq-tumbles-200-points-as-chip-stocks-slide-fear-greed-index-remains-in-neutral-zone",
-   "created_at": "2026-08-25T07:52:25Z",
+   "created_at": "2026-08-25T07:52:14Z",
    "symbols": [
     "AAOI",
     "AMD",
@@ -225,6 +314,35 @@
     "MU"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/08/25/Fear-and-Greed.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Dick's Sporting Goods, Intuit And 3 Stocks To Watch Heading Into Tuesday",
+   "summary": "US stock futures mixed as investors focus on earnings from Dick&#39;s Sporting Goods, Trade Desk, Intuit, Longeveron, and Zoom Communications.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/08/61401151/dicks-sporting-goods-intuit-and-3-stocks-to-watch-heading-into-tuesday",
+   "created_at": "2026-08-25T08:02:23Z",
+   "symbols": [
+    "DKS",
+    "INTU",
+    "LGVN",
+    "TTD",
+    "ZM"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/25/Mason---November-23--2023-Dicks-Sporting.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Schumer, Pritzker and Others Slam Trump’s Canada Tariffs: ‘Economic Warfare’ Could Raise Costs for Americans",
+   "summary": "Schumer warned Trump’s Canada tariffs could raise costs for American families and manufacturers, urging Republicans to challenge the trade policy.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/08/61401124/schumer-pritzker-and-others-slam-trumps-canada-tariffs-economic-warfare-could-raise-costs-for-americans",
+   "created_at": "2026-08-25T07:59:40Z",
+   "symbols": [
+    "CLF",
+    "GM",
+    "NUE",
+    "STLD"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/25/New-York--Ny--June-13-Senate-Majority-Le.jpg?width=1024&height=768"
   },
   {
    "headline": "IRS Moves to Make 401(k) Rollovers Easier, But Experts Warn: ‘You Can’t Go Back’",
@@ -377,91 +495,6 @@
     "BF"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/08/25/Democrats-Say-Hardship-Is-Growing.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Hakeem Jeffries Defends Jared Kushner Meeting Ahead Of Midterms, Vows To ‘Hold Every Single Member Of The Trump Cartel Accountable’",
-   "summary": "Hakeem Jeffries met with Jared Kushner to discuss affordability, but warned they&#39;ll hold Trump accountable if Dems win House.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/08/61400030/hakeem-jeffries-defends-jared-kushner-meeting-ahead-of-midterms-vows-to-hold-every-single-member-of-the-trump-cartel-accountable",
-   "created_at": "2026-08-25T04:28:04Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/25/Brussels--Belgium--4th-June-2019--Jared-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Trump Going to TACO on Canada is 'Most Likely Scenario,' Says Anthony Scaramucci: Crypto Punters Weigh Trade Deal Odds",
-   "summary": "Cryptocurrency punters are skeptical that the U.S. will lower tariffs on Canada by the end of August, even as Skybridge Capital founder Anthony Scaramucci predicts the two countries will reach a deal ",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/prediction-markets/26/08/61399995/trump-canada-taco-anthony-scaramucci-trade-deal-odds",
-   "created_at": "2026-08-25T04:18:54Z",
-   "symbols": [
-    "BTCUSD",
-    "POLUSD",
-    "ZECUSD"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/25/Washington-Dc--United-States--August-11-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Trump Coin, Pudgy Penguins, Pepe Among Top Gainers Last Week, But This One Coin Ran Up Over 100%: What You Should Know",
-   "summary": "The cryptocurrency market staged a remarkable recovery last week, with several coins posting double-digit gains. Stacks, a Bitcoin Layer-2 token, outperformed them all.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/08/61399879/trump-coin-pudgy-penguins-pepe-top-gainers-100-percent-coin",
-   "created_at": "2026-08-25T03:01:07Z",
-   "symbols": [
-    "BTCUSD",
-    "DOGEUSD",
-    "ETHUSD",
-    "PEPEUSD",
-    "SOLUSD"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/25/Bitcoin-Gold-Coin--Cryptocurrency-Concep.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Bitcoin Hits $80,000 for the First Time Since May, Apex Crypto Up 25% in a Week",
-   "summary": "Bitcoin crossed the $80,000 threshold for the first time in more than three months, driven by optimism around cryptocurrency legislation and market reaction to Treasury buyback plans.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/08/61399818/bitcoin-80000-first-time-since-may-apex-crypto-25-percent-week",
-   "created_at": "2026-08-25T02:28:49Z",
-   "symbols": [
-    "BTCUSD",
-    "ZECUSD"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/25/Bitcoin-Coins-On-Reflective-Black-Surfac.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Bitcoin Hovers Near $80,000, Ethereum, XRP Spike, but Dogecoin Slips As Crypto Rally Gains Steam: Analyst Spots This New Bullish Signal for BTC",
-   "summary": "Leading cryptocurrencies and adjacent equities climbed on Monday, August 24, as sustained demand continued to drive the ongoing rally.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/08/61399681/bitcoin-80000-ethereum-xrp-dogecoin-crypto-rally-bullish-signal",
-   "created_at": "2026-08-25T02:06:34Z",
-   "symbols": [
-    "BMNR",
-    "BTCUSD",
-    "DOGEUSD",
-    "ETHUSD",
-    "MSTR"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/25/Data-Analyzing-In-Exchange-Stock-Market-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "SK Hynix Drops 5% in Seoul, KOSPI Drops 3% Amid Reported US Pressure for Korean Chipmakers to Invest in America; Brent Slips as Iran Tensions Rise",
-   "summary": "SK Hynix and Samsung slid as South Korean stocks fell amid U.S. investment pressure and escalating Iran tensions.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/08/61399647/sk-hynix-kospi-korean-chipmakers-us-investment-iran-tensions",
-   "created_at": "2026-08-25T01:48:02Z",
-   "symbols": [
-    "SKHY",
-    "SSNLF"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/25/Paris--France---May-14--2026-The-Sk-Hyni.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Jensen Huang Once Revealed He 'Wasn't A Particularly Good Kid' but One That 'Just Turned Out Good' — Here's Something Today's Nvidia CEO Knew Even at a Young Age",
-   "summary": "Jensen Huang once opened up about his mischievous childhood and how his love of math led him to engineering and Nvidia.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/08/61399459/jensen-huang-nvidia-ceo-childhood-wasnt-good-kid",
-   "created_at": "2026-08-25T01:01:15Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/25/Taipei--Taiwan-On-June-1--2023--Jen-hsun.jpg?width=1024&height=768"
   }
  ]
 }
