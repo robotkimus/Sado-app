@@ -1,6 +1,152 @@
 {
- "updated": "2026-08-25 21:00",
+ "updated": "2026-08-25 22:00",
  "items": [
+  {
+   "headline": "Stanley Druckenmiller Slams Scott Bessent’s Bond Buybacks: ‘This Wasn’t Liquidity Management, It Was Price Management’ (UPDATED)",
+   "summary": "Stanley Druckenmiller slams Scott Bessent&#39;s bond buybacks as artificial &#39;price management,&#39; urging the Treasury to let the bond market speak.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/bonds/26/08/61400895/stanley-druckenmiller-slams-scott-bessents-4-billion-treasury-buybacks-this-wasnt-liquidity-management-it-was-price-management",
+   "created_at": "2026-08-25T12:54:44Z",
+   "symbols": [
+    "DIA",
+    "QQQ",
+    "SPY",
+    "TLT"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/25/Us-Treasury-Secretary--Scott-Bessent-Wal.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "This Treasury Strategy Could Backfire on Fed — Top Economists Warn Scott Bessent Is Mucking With a Critical Market Signal",
+   "summary": "Jeremy Siegel warns of the &#39;Bessent Twist&#39; in Treasury buybacks, while Ed Yardeni says the intervention will &#39;muck up things&#39; for the Fed.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/bonds/26/08/61406310/this-treasury-strategy-could-backfire-on-fed-top-economists-warn-scott-bessent-is-mucking-with-a-critical-market-signal",
+   "created_at": "2026-08-25T12:44:25Z",
+   "symbols": [
+    "DIA",
+    "QQQ",
+    "SPY",
+    "TLT"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/25/Scott-Bessent-Arrives-At-Palm-Beach-Inte.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "This Chip Stock Could Overtake Intel by 2027—Wall Street Sees 40% Upside as AI Agents Reshape the CPU Market",
+   "summary": "Raymond James upgrades AMD to Strong Buy, sees it overtaking Intel by 2027 as agentic AI drives CPU market growth.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/08/61405744/this-chip-stock-could-overtake-intel-by-2027-wall-street-sees-40-upside-as-ai-agents-reshape-the-cpu-market",
+   "created_at": "2026-08-25T12:30:24Z",
+   "symbols": [
+    "AMD",
+    "ARM",
+    "INTC",
+    "META",
+    "NVDA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/25/Futuristic-Ai-Microchip-Processor-With-G.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Stock Market Today: Dow Jones, S&P 500, Nasdaq 1000 Futures Advance as Scott Bessent Expands Sanctions on Iran—NTS, GRRR, REAX, ZM, LGVN in Focus (UPDATED)",
+   "summary": "U.S. stock futures advanced on Tuesday, as the Dow Jones, S&amp;P 500 and Nasdaq 100 indices rose, following Monday&#39;s mixed close.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/08/61401802/stock-market-today-dow-jones-sp-500-futures-advance-as-scott-bessent-expands-sanctions-on-iran-navitas-semiconductor-gorilla-technology-real-brokerage-in-focus",
+   "created_at": "2026-08-25T12:28:15Z",
+   "symbols": [
+    "BTCUSD",
+    "GRRR",
+    "LGVN",
+    "NVTS",
+    "QQQ"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/25/Wall-Street-New-York-Stock-Exchange.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "What's Going On With AMD Stock Tuesday?",
+   "summary": "AMD gains premarket as risk assets bounce. Analyze key moving averages, tech ETF exposure, and recent analyst upgrades from Raymond James.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/08/61405415/whats-going-on-with-amd-stock-tuesday-11",
+   "created_at": "2026-08-25T12:14:19Z",
+   "symbols": [
+    "AMD",
+    "ARKW",
+    "SOXX",
+    "USMD"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/25/Amd-Chip-On-A-Dark--Intricate-Circuit-Bo.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "SanDisk Could Benefit as Amazon and Microsoft See AI Investments Start to Pay Off",
+   "summary": "JPMorgan says improving AI returns at Amazon and Microsoft could extend demand for memory, benefiting SanDisk.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/08/61405295/sandisk-ai-investments-payoff",
+   "created_at": "2026-08-25T12:12:10Z",
+   "symbols": [
+    "AMZN",
+    "GOOG",
+    "GOOGL",
+    "MSFT",
+    "SNDK"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/25/Berlin-Germany---June-10--2019-Sandisk-M.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "QUICK SPARK: Gold ETF Leads Inflows as Investors Pull Billions From Mega-Cap ETFs in One Day",
+   "summary": "GLD led ETF inflows with $1.19 billion, while QQQ, IVV and SPY shed a combined $4.35 billion as investors rotated across gold, value and defensive ETFs.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/etfs/broad-u-s-equity-etfs/26/08/61405273/quick-spark-gold-etf-leads-inflows-as-investors-pull-billions-from-mega-cap-etfs-in-one-day",
+   "created_at": "2026-08-25T12:10:52Z",
+   "symbols": [
+    "AVLV",
+    "FAUG",
+    "GLD",
+    "IVV",
+    "QQQ"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/25/Benzinga-Quick-Spark.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Nvidia Earnings Could Trigger a Chilling Reality Check For $1 Trillion AI Boom, Says Analyst: 'Biggest Thing I Am Watching...' (UPDATED)",
+   "summary": "Nvidia’s earnings could reveal whether AI infrastructure demand is nearing a peak, with revenue growth and customer diversification in focus.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/08/61401219/top-analyst-says-nvidia-earnings-could-reveal-if-ai-infrastructure-boom-has-finally-peaked-the-biggest-thing-i-am-watching",
+   "created_at": "2026-08-25T12:10:02Z",
+   "symbols": [
+    "AMZN",
+    "GOOG",
+    "GOOGL",
+    "META",
+    "MSFT"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/25/Jensen-Huang-Nvidias-Founder--President-.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "China Is Winning Big From Trump’s 'Self-Inflicted Quagmire' in Iran, Paul Krugman Warns: ‘...Smell the Scent of Desperation’",
+   "summary": "Economist Paul Krugman explains why China is the true winner of Trump&#39;s &#34;self-inflicted quagmire&#34; in Iran and why U.S. sanctions will fail.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/economic-data/26/08/61405003/china-is-winning-big-from-trumps-self-inflicted-quagmire-in-iran-paul-krugman-warns-smell-the-scent-of-desperation",
+   "created_at": "2026-08-25T12:03:53Z",
+   "symbols": [
+    "BNO",
+    "DIA",
+    "QQQ",
+    "SPY",
+    "USO"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/25/Usa-And-Iran-Flags-Overlapping-A-Middle-.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "BlackRock, Charles Schwab, Dick's Sporting And More On CNBC’s ‘Final Trades’",
+   "summary": "Stephen Weiss picks Dick&#39;s Sporting Goods, supported by Wells Fargo&#39;s upgrade. Jim Lebenthal&#39;s final trade is BlackRock, recommended by Evercore ISI&#39;s analyst upgrade. Shannon Saccocia",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/08/61404798/blackrock-charles-schwab-dicks-sporting-and-more-on-cnbcs-final-trades",
+   "created_at": "2026-08-25T12:01:14Z",
+   "symbols": [
+    "BLK",
+    "DKS",
+    "IYJ",
+    "SCHW"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/25/Experts-Urge-Careful-Record-Keeping.jpg?width=1024&height=768"
+  },
   {
    "headline": "Nvidia To Rally More Than 8%? Here Are 10 Top Analyst Forecasts For Tuesday",
    "summary": "\nTop Wall Street analysts upgraded and raised price targets for FLNC, DT, NVDA, SNOW, TFX, COIN, and EXPE. See how other analysts view these stocks.",
@@ -74,365 +220,275 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/08/25/Bet-Against-Nvidia.jpg?width=1024&height=768"
   },
   {
-   "headline": "In-Depth Analysis: Amazon.com Versus Competitors In Broadline Retail Industry",
-   "summary": "In the dynamic and fiercely competitive business environment, conducting a thorough analysis of companies is crucial for investors and industry enthusiasts. In this article, we will perform an extensi",
+   "headline": "Court Rejects Merck’s Challenge to Medicare Drug Price Negotiation Program",
+   "summary": "Court rejects Merck&#39;s lawsuit against Medicare drug price negotiations. Penalties for noncompliance include steep excise taxes.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/08/61402025/depth-analysis-amazon-com-versus-competitors-broadline-retail-industry",
-   "created_at": "2026-08-25T09:58:50Z",
+   "url": "https://www.benzinga.com/news/health-care/26/08/61406550/court-rejects-merck-challenge-to-medicare-drug-price-negotiation-program",
+   "created_at": "2026-08-25T12:52:57Z",
    "symbols": [
-    "AMZN"
+    "MRK"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/earnings_preview_10.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/25/Merck.jpg?width=1024&height=768"
   },
   {
-   "headline": "Exploring The Competitive Space: Broadcom Versus Industry Peers In Semiconductors &amp; Semiconductor Equipment",
-   "summary": "In today&#39;s fast-paced and highly competitive business world, it is crucial for investors and industry followers to conduct comprehensive company evaluations. In this article, we will delve into an",
+   "headline": "XRP Builds Momentum Toward $2 as Active Addresses Surge 654%",
+   "summary": "XRP surges towards $2 as network activity spikes and Gemini&#39;s expanded offering in Singapore adds momentum.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/08/61402013/exploring-competitive-space-broadcom-versus-industry-peers-semiconductors-amp-semiconductor-equipmen",
-   "created_at": "2026-08-25T09:58:39Z",
-   "symbols": [
-    "AVGO"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/earnings_preview_7.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Understanding Microsoft's Position In Software Industry Compared To Competitors",
-   "summary": "In today&#39;s fast-paced and competitive business landscape, it is essential for investors and industry enthusiasts to thoroughly analyze companies before making investment decisions. In this article",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/08/61402011/understanding-microsoft-s-position-software-industry-compared-competitors",
-   "created_at": "2026-08-25T09:58:29Z",
-   "symbols": [
-    "MSFT"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/earnings_preview_11.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Performance Comparison: NVIDIA And Competitors In Semiconductors &amp; Semiconductor Equipment Industry",
-   "summary": "In the dynamic and fiercely competitive business environment, conducting a thorough analysis of companies is crucial for investors and industry enthusiasts. In this article, we will perform an extensi",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/08/61402010/performance-comparison-nvidia-and-competitors-semiconductors-amp-semiconductor-equipment-industry",
-   "created_at": "2026-08-25T09:58:25Z",
-   "symbols": [
-    "NVDA"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/earnings_preview_1.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Bitcoin Beats Nvidia to Become Top-Performing Major Asset Over 10 Years as BTC Surges Above $80,000",
-   "summary": "Bitcoin reclaimed its top spot as the best-performing asset over the past decade, surging past Nvidia Corp.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/08/61401997/bitcoin-nvidia-10-year-returns",
-   "created_at": "2026-08-25T09:56:43Z",
-   "symbols": [
-    "AMZN",
-    "BTCUSD",
-    "MSFT",
-    "NVDA",
-    "ZECUSD"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/25/Golden-Bitcoin-Coin-Is-In-Red-And-Blue-S.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Meta Reportedly Readies Hatch AI Platform, With Premium Plans Near $200 a Month",
-   "summary": "META stock gains premarket as Meta readies its Hatch AI agent platform, WhatsApp rollout, and October launch for &#39;Watermelon.&#39;",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/08/61401824/meta-reportedly-readies-hatch-ai-platform-with-premium-plans-near-200-a-month",
-   "created_at": "2026-08-25T09:40:27Z",
-   "symbols": [
-    "FDN",
-    "IGPT",
-    "META",
-    "SOCL"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/25/Meta-Platforms-Menlo-Park--Ca--Usa---Apr.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Stock Market Today: Dow Jones, S&P 500 Futures Advance as Scott Bessent Expands Sanctions on Iran—Navitas Semiconductor, Gorilla Technology, Real Brokerage in Focus",
-   "summary": "U.S. stock futures advanced on Tuesday, as the Dow Jones, S&amp;P 500 and Nasdaq 100 indices rose, following Monday&#39;s mixed close.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/08/61401802/stock-market-today-dow-jones-sp-500-futures-advance-as-scott-bessent-expands-sanctions-on-iran-navitas-semiconductor-gorilla-technology-real-brokerage-in-focus",
-   "created_at": "2026-08-25T09:38:48Z",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/08/61406426/xrp-builds-momentum-toward-2-as-active-addresses-surge-654",
+   "created_at": "2026-08-25T12:47:55Z",
    "symbols": [
     "BTCUSD",
-    "GRRR",
-    "LGVN",
-    "NVTS",
-    "QQQ"
+    "ETHUSD",
+    "GUSDUSD",
+    "USDTUSD",
+    "XRPUSD"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/25/Wall-Street-New-York-Stock-Exchange.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/25/Heres-What-XRP-Would-Have-Returned.jpg?width=1024&height=768"
   },
   {
-   "headline": "Nvidia Manager Named ‘Key Figure’ in Alleged B300 GPU Smuggling to China, 8 Others Indicted in Taiwan Probe",
-   "summary": "Nvidia manager named a key figure in alleged illicit B300 GPU exports to China as Taiwan indicts nine in AI chip probe.",
+   "headline": "What's Going On With Marvell Technology Stock Tuesday?",
+   "summary": "Marvell Technology (MRVL) gains 4% premarket ahead of Q2 earnings. See key support, resistance levels &amp; analyst forecasts before Aug 27.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/08/61401674/nvidia-manager-named-key-figure-in-alleged-b300-gpu-smuggling-to-china-8-others-indicted-in-taiwan-probe",
-   "created_at": "2026-08-25T09:15:26Z",
+   "url": "https://www.benzinga.com/markets/tech/26/08/61406309/whats-going-on-with-marvell-technology-stock-tuesday-3",
+   "created_at": "2026-08-25T12:44:20Z",
    "symbols": [
-    "NVDA",
-    "SMCI"
+    "AIQ",
+    "MRVL",
+    "SOXQ",
+    "XNTK"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/25/Shanghai-china-nov-22nd-2025-Nvidia-Corp.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/25/Marvell-Technology-Group-Company---EK.jpg?width=1024&height=768"
   },
   {
-   "headline": "Top Analyst Says Nvidia Earnings Could Reveal If AI Infrastructure Boom Has Finally Peaked: ‘The Biggest Thing I Am Watching…’",
-   "summary": "Nvidia’s earnings could reveal whether AI infrastructure demand is nearing a peak, with revenue growth and customer diversification in focus.",
+   "headline": "Dycom Earnings Are Imminent; These Most Accurate Analysts Revise Forecasts Ahead Of Earnings Call",
+   "summary": "Dycom Industries, Inc. (NYSE: DY) will report Q2 earnings on Aug. 26. Analysts expect earnings of $4.72/share and revenue of $1.98B.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/08/61401219/top-analyst-says-nvidia-earnings-could-reveal-if-ai-infrastructure-boom-has-finally-peaked-the-biggest-thing-i-am-watching",
-   "created_at": "2026-08-25T08:23:11Z",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/08/61406121/dycom-earnings-are-imminent-these-most-accurate-analysts-revise-forecasts-ahead-of-earnings-call",
+   "created_at": "2026-08-25T12:41:02Z",
    "symbols": [
-    "AMZN",
-    "GOOG",
-    "GOOGL",
-    "META",
-    "MSFT"
+    "DY"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/25/Jensen-Huang-Nvidias-Founder--President-.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/25/Munich--Bavaria--Germany---March-31-2023.jpg?width=1024&height=768"
   },
   {
-   "headline": "Trump Administration Proposes Over $100,000 H-1B Fee After Court Struck Down $100,000 Levy",
-   "summary": "DHS proposes a $103,265 H-1B visa fee for cap-subject workers, with companies and workers given 30 days to comment.",
+   "headline": "What's Going On With Western Digital Stock Tuesday?",
+   "summary": "WDC stock rebounds over 3% in premarket trading. Read key technical levels and moving averages for Western Digital.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/08/61401078/trump-administration-proposes-over-100000-h-1b-fee-after-court-struck-down-100000-levy",
-   "created_at": "2026-08-25T07:46:59Z",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/08/61406068/whats-going-on-with-western-digital-stock-tuesday-3",
+   "created_at": "2026-08-25T12:38:28Z",
    "symbols": [
-    "AMZN",
-    "GOOG",
-    "GOOGL",
-    "META",
-    "MSFT"
+    "ATFV",
+    "CNEQ",
+    "PTF",
+    "WDC"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/25/H-1b-Visa-Application-Concept-Usa-H-1b-V.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/25/Mobile-Phone-Displaying-Western-Digital-.jpg?width=1024&height=768"
   },
   {
-   "headline": "Jim Cramer: Williams Companies Is 'Terrific,' This Tech Company Had An ‘Amazing’ Quarter",
-   "summary": "Jim Cramer shares his opinions on Rocket Lab, Canadian Natural Resources, Palantir, IBM and Williams Companies on Mad Money Lightning Round.",
+   "headline": "Top 3 Energy Stocks That May Keep You Up At Night In Q3",
+   "summary": "As of Aug. 25, 2026, three warning stocks in energy sector for momentum traders. RSI indicator shows overbought asset. Stocks: TK, PSX, BTU.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/08/61404270/jim-cramer-williams-companies-is-terrific-this-tech-company-had-an-amazing-quarter",
-   "created_at": "2026-08-25T11:34:08Z",
+   "url": "https://www.benzinga.com/trading-ideas/short-ideas/26/08/61405979/top-3-energy-stocks-that-may-keep-you-up-at-night-in-q3",
+   "created_at": "2026-08-25T12:35:03Z",
    "symbols": [
-    "CNQ",
-    "HAWK",
-    "IBM",
-    "PLTR",
-    "RKLB"
+    "BTU",
+    "PSX",
+    "TK"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/25/Jim-Cramer-Lauds-Trumps-Tariff-Playbook.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/25/Nvidia--Nokia--Bloom-Energy--Visa-And-Ca.jpg?width=1024&height=768"
   },
   {
-   "headline": "Wall Street's Most Accurate Analysts Spotlight On 3 Health Care Stocks Delivering High-Dividend Yields",
-   "summary": "Benzinga readers can review the latest analyst takes on high-yielding stocks in health care sector. Top analysts &amp; recent news on PRGO, PFE, BMY.",
+   "headline": "Estee Lauder Cos Q4 2026 Earnings Call: Complete Transcript",
+   "summary": "On Wednesday, Estee Lauder Cos (NYSE:EL) discussed fourth-quarter financial results during its earnings call. The full transcript is provided below.\nThis transcript is brought to you by Benzinga APIs.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/dividends/26/08/61404361/wall-streets-most-accurate-analysts-spotlight-on-3-health-care-stocks-delivering-high-dividend-yields-14",
-   "created_at": "2026-08-25T11:39:24Z",
+   "url": "https://www.benzinga.com/news/26/08/61405930/estee-lauder-cos-q4-2026-earnings-call-complete-transcript",
+   "created_at": "2026-08-25T12:34:06Z",
    "symbols": [
-    "BMY",
-    "PFE",
-    "PRGO",
-    "VALN"
+    "EL"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/25/United-States-Treasury-Check-Surrounded-.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_1.jpg?width=1024&height=768"
   },
   {
-   "headline": "Top Wall Street Forecasters Revamp Kohl's Expectations Ahead Of Q2 Earnings",
-   "summary": "Kohl&#39;s (KSS) to report Q2 earnings on Aug. 26. Expected EPS of $0.57, revenue of $3.4B. Dividend declared. Analyst ratings and target prices listed.",
+   "headline": "Real REMAX Launches Post-Merger Stock Buyback of up to $450 Million",
+   "summary": "Real and RE/MAX complete business combination to form Real REMAX Group (REAX), authorizing a $450M stock repurchase.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/08/61404187/top-wall-street-forecasters-revamp-kohls-expectations-ahead-of-q2-earnings",
-   "created_at": "2026-08-25T11:32:02Z",
+   "url": "https://www.benzinga.com/m-a/26/08/61405851/real-remax-launches-post-merger-stock-buyback-of-up-to-450-million",
+   "created_at": "2026-08-25T12:32:33Z",
    "symbols": [
-    "KSS"
+    "REAX"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/25/Sep-16--2019-Milpitas-----Ca-----Usa---K.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/25/Large-Residential-Homes-In-Southwest-Flo.jpg?width=1024&height=768"
   },
   {
-   "headline": "How To Earn $500 A Month From JM Smucker Stock Ahead Of Q1 Earnings",
-   "summary": "The J.M. Smucker Company will release Q1 earnings on Aug. 26. Analysts expect $2.22 EPS and $2.13B revenue. Dividend yield is 3.56%.",
+   "headline": "Bausch + Lomb Advances Two Eye Therapies With Blockbuster Sales Potential",
+   "summary": "Bausch + Lomb (NYSE: BLCO) advances two first-in-class eye drugs to advanced clinical testing, eyeing $2B+ in peak sales.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/dividends/26/08/61404132/how-to-earn-500-a-month-from-jm-smucker-stock-ahead-of-q1-earnings",
-   "created_at": "2026-08-25T11:28:58Z",
+   "url": "https://www.benzinga.com/news/health-care/26/08/61405592/bausch-lomb-advances-two-eye-therapies-with-blockbuster-sales-potential",
+   "created_at": "2026-08-25T12:23:51Z",
    "symbols": [
-    "SJM"
+    "BLCO"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/25/New-York--Usa---15-February-2021-The-Jm-.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/25/Eye-In-Close-Up-With-Light-Blue-Iris-Det.jpg?width=1024&height=768"
   },
   {
-   "headline": "Navitas Accelerates AI Power Push With Claros Acquisition, Eyes $8 Billion Market",
-   "summary": "Navitas Claros Acquisition could more than double its 2030 market opportunity to over $8 billion as shares rise premarket.",
+   "headline": "Johnson & Johnson Secures FDA Approval For First Rare Anemia Treatment",
+   "summary": "Johnson &amp; Johnson secured FDA approval for IMAAVY, the first targeted therapy to treat warm autoimmune hemolytic anemia in adults and youth.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/m-a/26/08/61403800/navitas-accelerates-ai-power-push-with-claros-acquisition-eyes-8-billion-market",
-   "created_at": "2026-08-25T11:11:49Z",
+   "url": "https://www.benzinga.com/news/fda/26/08/61405567/johnson-johnson-secures-fda-approval-for-first-rare-anemia-treatment",
+   "created_at": "2026-08-25T12:22:53Z",
    "symbols": [
-    "NVTS"
+    "JNJ"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/25/Navitas-Semiconductor-Corp-NASDAQNVTS.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/25/Exterior-Shot-Of-The-Johnson-Johnson-Cor.jpg?width=1024&height=768"
   },
   {
-   "headline": "OnlyFans Owner Took More Than $700 Million in Dividends Before His Death as Platform’s Profit Hit $715 Million: Report",
-   "summary": "OnlyFans owner Leonid Radvinsky received over $700 million in dividends before his death as revenue rose 10% to $1.6 billion in 2025.",
+   "headline": "Full Transcript: Constellation Brands Q1 2027 Earnings Call",
+   "summary": "Constellation Brands (NYSE:STZ) released first-quarter financial results and hosted an earnings call on Wednesday. Read the complete transcript below.\nThis content is powered by Benzinga APIs. For com",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/private-markets/26/08/61403738/onlyfans-owner-took-more-than-700-million-in-dividends-before-his-death-as-platforms-profit-hit-715-million-report",
-   "created_at": "2026-08-25T11:10:24Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/25/Onlyfans-App-On-The-Smartphone-Screen-On.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Vipshop Loses Shoppers, Orders and Momentum in a Tough Chinese Retail Market",
-   "summary": "Vipshop (VIPS) stock drops after Q2 adjusted earnings miss estimates and lower Q3 guidance signals weak consumer demand.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/earnings/26/08/61403697/vipshop-loses-shoppers-orders-and-momentum-in-a-tough-chinese-retail-market",
-   "created_at": "2026-08-25T11:09:18Z",
+   "url": "https://www.benzinga.com/news/26/08/61405552/full-transcript-constellation-brands-q1-2027-earnings-call",
+   "created_at": "2026-08-25T12:21:10Z",
    "symbols": [
-    "VIPS"
+    "STZ"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/25/Vipshop-Holdings-Photo-by-Bangla-press-v.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_1.jpg?width=1024&height=768"
   },
   {
-   "headline": "JD Vance Says Trump Administration Backs Companies That ‘Buy American’ and ‘Hire American:’ ‘We Are on Your Side’",
-   "summary": "Vance says the Trump administration backs businesses that buy American, hire U.S. workers and invest in local communities.",
+   "headline": "Why The Toughest Iran Sanctions On Record Sent Oil Lower, Not Higher",
+   "summary": "WTI crude fell 3% to $82 after reports Washington offered to lift Iran sanctions and the naval blockade in exchange for reopening the Strait of Hormuz.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/08/61403259/jd-vance-says-trump-administration-backs-companies-that-buy-american-and-hire-american-we-are-on-your-side",
-   "created_at": "2026-08-25T10:56:03Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/25/Vice-President-JD-vance-attends-an-event.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "More Than 1.2 Million GM, Ford Vehicles Face Regulatory Scrutiny After Brake Failures and Engine Problems Surface",
-   "summary": "NHTSA probes GM and Ford vehicles for reported brake failures &amp; engine issues, multiple model lines affected.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/08/61403256/more-than-1-2-million-gm-ford-vehicles-face-regulatory-scrutiny-after-brake-failures-and-engine-problems-surface",
-   "created_at": "2026-08-25T10:55:55Z",
+   "url": "https://www.benzinga.com/markets/commodities/26/08/61405540/oil-price-drops-82-iran-sanctions-relief-hormuz",
+   "created_at": "2026-08-25T12:20:41Z",
    "symbols": [
-    "F",
-    "GM",
-    "HMC"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/25/Lafayette---Circa-April-2018-Local-Ford-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Boeing Wins Major F-15 Contract With $131 Billion Ceiling",
-   "summary": "Boeing (NYSE: BA) rises premarket on a massive $131B F-15 defense contract. See technical levels, key resistance, and analyst targets.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/large-cap/26/08/61403199/boeing-wins-major-f-15-contract-with-131-billion-ceiling",
-   "created_at": "2026-08-25T10:53:11Z",
-   "symbols": [
-    "AV",
-    "BA",
-    "ITA",
-    "PPA"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/25/Irving--Texas--Usa---March-20--2022-Clos.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "South Korea Vows to Help Trump Restart North Korea Talks Despite Pyongyang's Reluctance: Report",
-   "summary": "South Korea pledges to help Trump restart North Korea talks as Seoul and Washington deepen cooperation on Pyongyang’s nuclear threat.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/08/61402895/south-korea-vows-to-help-trump-restart-north-korea-talks-despite-pyongyangs-reluctance-report",
-   "created_at": "2026-08-25T10:36:00Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/25/President-Trump-Meets-With-Chairman-Kim-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Elon Musk's Tesla Hikes Cybertruck Prices by More Than 7% Despite Sluggish Sales",
-   "summary": "Tesla raised Cybertruck prices in the U.S. for some trim levels, with the entry-level trim now priced $15,000 higher than at launch.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/08/61402775/elon-musks-tesla-hikes-cybertruck-prices-by-more-than-7-despite-sluggish-sales",
-   "created_at": "2026-08-25T10:29:44Z",
-   "symbols": [
-    "JPM",
-    "TSLA"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/25/Cybertruck-Shutterstock.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Raoul Pal Says AI Agents Could Run Their Own Treasuries and Chase DeFi Yields: ‘We Built the Financial System Agents Needed’",
-   "summary": "Raoul Pal says AI agents could manage their own treasuries, make investment decisions and use DeFi to power autonomous businesses.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/08/61402706/raoul-pal-says-ai-agents-could-run-their-own-treasuries-and-chase-defi-yields-we-built-the-financial-system-agents-needed",
-   "created_at": "2026-08-25T10:23:26Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/25/Close--Up-Of-Computer-Chip-With-Ai-Sign-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Canada Threatens Trump’s Industrial Achilles' Heel",
-   "summary": "U.S.-Canada trade war escalates as Ontario threatens to cut critical mineral and power exports over 50% tariffs.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/commodities/26/08/61402638/canada-threatens-trumps-industrial-achilles-heel",
-   "created_at": "2026-08-25T10:20:15Z",
-   "symbols": [
-    "CARZ",
-    "CCJ",
-    "COPX",
-    "DRIV",
-    "EWC"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/25/Strained-US-Canada-Trade-Relations.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Top 3 Real Estate Stocks Which Could Rescue Your Portfolio This Month",
-   "summary": "The real estate sector&#39;s most oversold stocks present buying opportunities due to undervaluation - RSI below 30. WHLR, CHGA, and SQFT have the lowest RSI values and potential for short term perfor",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/08/61402635/top-3-real-estate-stocks-which-could-rescue-your-portfolio-this-month-3",
-   "created_at": "2026-08-25T10:20:07Z",
-   "symbols": [
-    "CHGA",
-    "SQFT",
-    "WHLR"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/25/Miniature-House-Models-On-Graph-Indicati.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Adam Schiff Slams Trump’s Freedom 250 Race as ‘Spectacle’ Amid $4 Gas, Graham Rahal Fires Back",
-   "summary": "Schiff accuses Trump of using IndyCar race as a political distraction from gas prices. Rahal defends race as privately funded and unifying.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/08/61402621/adam-schiff-slams-trumps-freedom-250-race-as-spectacle-amid-4-gas-graham-rahal-fires-back",
-   "created_at": "2026-08-25T10:19:16Z",
-   "symbols": [
-    "BA",
     "DAL",
+    "OXY",
+    "SPY",
+    "USO",
+    "XLE"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/25/Oil-Price-Fall-Indication--Barrel-Focuse.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Why BTC Digital Stock Is Surging On Tuesday",
+   "summary": "BTC Digital signed an MOU to evaluate a Hai Phong AI data center project in Vietnam with a planned power load of about 300 MW.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/08/61405528/why-btc-digital-stock-is-surging-on-tuesday",
+   "created_at": "2026-08-25T12:19:45Z",
+   "symbols": [
+    "BTCT"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/25/Bitcoin-Btc-Cryptocurrency-Coin-With-Alt.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "This Agomab Therapeutics Analyst Begins Coverage On A Bullish Note; Here Are Top 5 Initiations For Tuesday",
+   "summary": "Analysts change outlook on top names. See all rating changes, including upgrades/downgrades/initiations. Coverage initiated on various stocks.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/initiation/26/08/61405248/this-agomab-therapeutics-analyst-begins-coverage-on-a-bullish-note-here-are-top-5-initiations-for-tuesday",
+   "created_at": "2026-08-25T12:10:07Z",
+   "symbols": [
+    "AGMB",
+    "APMD",
+    "JBTM",
+    "JMKE",
+    "KDK"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/25/Operations-Research-Analysts.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "JPMorgan Picks 5 AI-Fueled Consumer Tech Stocks: These ETFs Could Ride the Next Digital Transformation Wave",
+   "summary": "JPMorgan’s latest consumer-tech picks highlight AI and digital transformation winners. Here are 4 ETFs offering exposure to the next wave of tech growth.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/etfs/sector-etfs/26/08/61405224/jpmorgan-picks-5-ai-fueled-consumer-tech-stocks-these-etfs-could-ride-the-next-digital-transformation-wave",
+   "created_at": "2026-08-25T12:09:20Z",
+   "symbols": [
+    "EVER",
+    "GENZ",
+    "IHAK",
+    "PRNT",
+    "SHOP"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/25/The-Shopify-Trade.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Does Bitcoin at $79,000 Mean a Bull Run Has Started? Experts Say 'It's Complicated'",
+   "summary": "Bitcoin surged 24% with $2.6 billion returning to crypto products. Oversold conditions, forced liquidations &amp; ETF inflows may have triggered the rally.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/08/61405158/does-bitcoin-at-79000-mean-a-bull-run-has-started",
+   "created_at": "2026-08-25T12:07:02Z",
+   "symbols": [
+    "BTCUSD"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/25/Etf-Btc---Bitcoin-Exchange-Traded-Fund--.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "12 Consumer Discretionary Stocks Moving In Tuesday's Pre-Market Session",
+   "summary": "Gainers\n\n707 Cayman Holdings (NASDAQ:JEM) shares moved upwards by 36.6% to $5.22 during Tuesday&#39;s pre-market session. The market value of their outstanding shares is at $2.5 million. \nEpicQuest Ed",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/08/61405112/12-consumer-discretionary-stocks-moving-tuesday-s-pre-market-session",
+   "created_at": "2026-08-25T12:06:08Z",
+   "symbols": [
+    "BGI",
+    "CCHH",
+    "DKS",
+    "EEIQ",
+    "INEO"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_4.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "12 Health Care Stocks Moving In Tuesday's Pre-Market Session",
+   "summary": "Gainers\n\nAutonomix Medical (NASDAQ:AMIX) shares moved upwards by 35.9% to $7.3 during Tuesday&#39;s pre-market session. The market value of their outstanding shares is at $5.2 million. \nBiodexa Pharma",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/08/61405111/12-health-care-stocks-moving-tuesday-s-pre-market-session",
+   "created_at": "2026-08-25T12:06:08Z",
+   "symbols": [
+    "AMIX",
+    "BDRX",
+    "DTIL",
+    "KURA",
+    "LUCY"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_4.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "12 Industrials Stocks Moving In Tuesday's Pre-Market Session",
+   "summary": "Gainers\n\nSwvl Holdings (NASDAQ:SWVL) shares moved upwards by 51.7% to $2.23 during Tuesday&#39;s pre-market session. The market value of their outstanding shares is at $14.6 million. \nOFA (NASDAQ:OFAL",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/08/61405110/12-industrials-stocks-moving-tuesday-s-pre-market-session",
+   "created_at": "2026-08-25T12:06:08Z",
+   "symbols": [
+    "BRNX",
+    "CIIT",
+    "FLNC",
+    "FLZH",
+    "ITG"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_3.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "12 Information Technology Stocks Moving In Tuesday's Pre-Market Session",
+   "summary": "Gainers\n\nXIAO-I (NASDAQ:AIXI) shares moved upwards by 212.5% to $1.43 during Tuesday&#39;s pre-market session. The market value of their outstanding shares is at $6.0 million. \nCID Holdco (NASDAQ:DAIC",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/08/61405109/12-information-technology-stocks-moving-tuesday-s-pre-market-session",
+   "created_at": "2026-08-25T12:06:07Z",
+   "symbols": [
+    "AIXI",
+    "BTCT",
+    "DAIC",
+    "DFNS",
+    "FOXX"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_2.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "SpaceX's AI Push Comes Into Focus as JPMorgan Sees Nearly 80% Upside",
+   "summary": "Grok&#39;s functions—including its lack of safeguards—have received significant industry backlash. Still, JPMorgan remains bullish.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/08/61405068/spacex-ai-jpmorgan-upside",
+   "created_at": "2026-08-25T12:04:49Z",
+   "symbols": [
     "SPCX"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/25/President-Donald-Trump-waits-outside-of-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Former IRS Acting Commissioner Warns DOGE Cuts Could Weaken Tax Enforcement Over Time",
-   "summary": "Former IRS official Douglas O’Donnell warns DOGE cuts could weaken tax enforcement, services and modernization over time.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/macro-economic-events/26/08/61402401/former-irs-chief-warns-doge-cuts-long-term-risks",
-   "created_at": "2026-08-25T10:10:52Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/25/DOGE.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Heico Gears Up For Q3 Print; Here Are The Recent Forecast Changes From Wall Street's Most Accurate Analysts",
-   "summary": "HEICO Corp (HEI) to release Q3 earnings on Aug. 25. Analysts expect earnings of $1.51/share, up from $1.26/share last year.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/08/61402402/heico-gears-up-for-q3-print-here-are-the-recent-forecast-changes-from-wall-streets-most-accurate-analysts-2",
-   "created_at": "2026-08-25T10:11:05Z",
-   "symbols": [
-    "HEI"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/25/July-1--2023--Brazil--In-This-Photo-Illu.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Why Is Gorilla Technology Stock Falling Tuesday?",
-   "summary": "Gorilla Tech (GRRR) stock drops premarket despite beating H1 revenue as light 2027 revenue guidance weighs on investor sentiment.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/08/61402353/why-is-gorilla-technology-stock-falling-tuesday",
-   "created_at": "2026-08-25T10:07:34Z",
-   "symbols": [
-    "GRRR"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/25/Concept-Of-Stock-Market-And-Fintech--Blu.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Competitor Analysis: Evaluating Apple And Competitors In Technology Hardware, Storage &amp; Peripherals Industry",
-   "summary": "In the fast-paced and cutthroat world of business, conducting thorough company analysis is essential for investors and industry experts. In this article, we will undertake a comprehensive industry com",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/08/61402012/competitor-analysis-evaluating-apple-and-competitors-technology-hardware-storage-amp-peripherals-ind",
-   "created_at": "2026-08-25T09:58:34Z",
-   "symbols": [
-    "AAPL"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/earnings_preview_9.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/25/Paris--France---February-3--2026-The-Spa.jpg?width=1024&height=768"
   }
  ]
 }
