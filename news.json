@@ -1,6 +1,29 @@
 {
- "updated": "2026-08-25 13:00",
+ "updated": "2026-08-25 14:00",
  "items": [
+  {
+   "headline": "Elon Musk Says SpaceX Targeting Q4 2027 Launch for Nvidia-Powered AI System—Touts ‘Lower Cost, Denser and Lighter’ Design",
+   "summary": "SpaceX CEO Elon Musk touts cost-effective design after chipmaker NVIDIA reveals Vera CPU, optimized for orbital AI compute.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/08/61400018/elon-musk-says-spacex-targeting-q4-2027-launch-for-nvidia-powered-ai-system-touts-lower-cost-denser-and-lighter-design",
+   "created_at": "2026-08-25T04:24:33Z",
+   "symbols": [
+    "NVDA",
+    "SPCX"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/25/Paris--France---February-3--2026-A-Horiz.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Elizabeth Warren Says if Jensen Huang Has Time for $1 Million Mar-a-Lago Dinner, He Can 'Find Time to Testify' and Explain Nvidia Tech in Russian Drones",
+   "summary": "Elizabeth Warren presses Jensen Huang to testify after Nvidia AI computers were reportedly found in Russian drones.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/08/61400006/elizabeth-warren-jensen-huang-one-million-mar-a-lago-nvidia-russian-drones",
+   "created_at": "2026-08-25T04:23:03Z",
+   "symbols": [
+    "NVDA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/25/New-York-City---September-16--2019-Presi.jpg?width=1024&height=768"
+  },
   {
    "headline": "Trump Snapped Up SpaceX Shares 11 Days After $1.77 Trillion IPO: Here's What Else He Purchased",
    "summary": "Trump bought up to $50,000 in SpaceX shares as his administration advances policies that could benefit the company.",
@@ -184,29 +207,37 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/08/24/Nvidia-AI.jpg?width=1024&height=768"
   },
   {
-   "headline": "What's Going on With Nebius Shares on Monday?",
-   "summary": "Nebius shares fell 4% after the company upsized its convertible notes offering to $5 billion to fund AI infrastructure expansion.",
+   "headline": "Trump Moves Toward 7.5% Tariff on China for Flooding Global Markets With Cheap Goods Ahead of Xi Meeting",
+   "summary": "Trump considers 7.5% tariff on Chinese goods targeting excess industrial capacity, while trying to maintain trade truce with China.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/large-cap/26/08/61388992/whats-going-on-with-nebius-shares-on-monday",
-   "created_at": "2026-08-24T16:28:02Z",
+   "url": "https://www.benzinga.com/news/politics/26/08/61400051/trump-china-tariff-cheap-goods-xi-meeting",
+   "created_at": "2026-08-25T04:36:05Z",
    "symbols": [
-    "MSFT",
-    "NBIG",
-    "NBIS",
-    "XLK"
+    "BF"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/24/Nebius--Inc.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/25/Democrats-Say-Hardship-Is-Growing.jpg?width=1024&height=768"
   },
   {
-   "headline": "Nvidia Earnings Preview: Stock Has Dropped After 5 of Last 6 Reports, and 'A Simple Beat May Not Be Enough'",
-   "summary": "Nvidia has beaten analyst estimates fairly consistently in recent years, but sometimes that&#39;s not enough to move the stock price.",
+   "headline": "Hakeem Jeffries Defends Jared Kushner Meeting Ahead Of Midterms, Vows To ‘Hold Every Single Member Of The Trump Cartel Accountable’",
+   "summary": "Hakeem Jeffries met with Jared Kushner to discuss affordability, but warned they&#39;ll hold Trump accountable if Dems win House.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/previews/26/08/61388955/nvidia-earnings-preview-stock-has-dropped-after-5-of-last-6-reports-and-a-simple-beat-may-not-be-enough",
-   "created_at": "2026-08-24T16:27:23Z",
+   "url": "https://www.benzinga.com/news/politics/26/08/61400030/hakeem-jeffries-defends-jared-kushner-meeting-ahead-of-midterms-vows-to-hold-every-single-member-of-the-trump-cartel-accountable",
+   "created_at": "2026-08-25T04:28:04Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/25/Brussels--Belgium--4th-June-2019--Jared-.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Trump Going to TACO on Canada is 'Most Likely Scenario,' Says Anthony Scaramucci: Crypto Punters Weigh Trade Deal Odds",
+   "summary": "Cryptocurrency punters are skeptical that the U.S. will lower tariffs on Canada by the end of August, even as Skybridge Capital founder Anthony Scaramucci predicts the two countries will reach a deal ",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/08/61399995/trump-canada-taco-anthony-scaramucci-trade-deal-odds",
+   "created_at": "2026-08-25T04:18:54Z",
    "symbols": [
-    "NVDA"
+    "BTCUSD",
+    "POLUSD",
+    "ZECUSD"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/24/Kyiv--Ukraine---January-29--2025-Nvidia-.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/25/Washington-Dc--United-States--August-11-.jpg?width=1024&height=768"
   },
   {
    "headline": "Trump Coin, Pudgy Penguins, Pepe Among Top Gainers Last Week, But This One Coin Ran Up Over 100%: What You Should Know",
@@ -455,38 +486,6 @@
     "MRCY"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_1.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "BlackRock Puts TCP Capital's $671 Million of Loans on the Block",
-   "summary": "BlackRock is exploring a potential sale of its loan portfolio owned by TCP Capital Corp. in an effort to reshape the private credit vehicle. ",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/private-markets/26/08/61397783/blackrock-puts-tcp-capitals-671-million-of-loans-on-the-block",
-   "created_at": "2026-08-24T21:11:14Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/24/Konskie--Poland---November-12--2024-Blac.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Bitcoin's Bounce Is a 'Gift To Sell,' Bloomberg's McGlone Cautions",
-   "summary": "Bitcoin rebound may be a selling opportunity, Mike McGlone warns, as 30-year Treasury yields hit their highest since 2007.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/08/61397763/bitcoins-bounce-is-a-gift-to-sell-bloombergs-mcglone-cautions",
-   "created_at": "2026-08-24T21:09:34Z",
-   "symbols": [
-    "BTCUSD",
-    "SPY"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/24/Bitcoin-Cryptocurrency-Red-Light-Warning.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Congresswoman Vs. Hedge Fund: One Throws in the Towel on Peloton Stock, the Other is Buying",
-   "summary": "A big investor is done betting on Peloton stock after several years. Here&#39;s the member of congress who has bought shares in 2026.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/hedge-funds/26/08/61397718/congresswoman-vs-hedge-fund-one-throws-in-the-towel-on-peloton-stock-the-other-is-buying",
-   "created_at": "2026-08-24T21:07:04Z",
-   "symbols": [
-    "PTON"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/24/London-Uk--March-9--2024-Close-Up-Shot-O.jpg?width=1024&height=768"
   }
  ]
 }
