@@ -1,6 +1,21 @@
 {
- "updated": "2026-08-26 14:00",
+ "updated": "2026-08-26 15:00",
  "items": [
+  {
+   "headline": "Stock Market: Will S&P 500 Open Up or Down Today?",
+   "summary": "Will the S&amp;P 500 open higher? Polymarket odds are split at 50% as traders await Nvidia earnings, PCE inflation data, and Hormuz updates.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/08/61425878/stock-market-will-sp-500-open-up-or-down-today-24",
+   "created_at": "2026-08-26T05:05:36Z",
+   "symbols": [
+    "CRM",
+    "CRWD",
+    "DIA",
+    "HPQ",
+    "NVDA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/26/SP-500.jpg?width=1024&height=768"
+  },
   {
    "headline": "Jim Cramer Sees 'No Real Competitors' to Nvidia, Even as Sam Altman Says OpenAI 'Made a Chip and It Is Fast'",
    "summary": "OpenAI says its Jalapeño chip could lower AI costs with significantly better efficiency and faster inference than Nvidia’s chips.",
@@ -195,18 +210,59 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/08/25/Golden-Bitcoin-Coin-In-Red-And-Blue-Smok.jpg?width=1024&height=768"
   },
   {
-   "headline": "What Is Going on With Oracle Stock on Tuesday?",
-   "summary": "Oracle stock gained over 2% as tech stocks rallied, though aggressive AI infrastructure spending and project delays keep investor focus on long-term cash flow.",
+   "headline": "Iran Parliament Speaker Mocks Scott Bessent’s 'Economic D-Day' — 'Sir This Ain't Normandy, This is Improv Night and You Forgot Your Own Script'",
+   "summary": "Iranian Parliament Speaker Mohammad Bagher Ghalibaf mocked Treasury Secretary Scott Bessent’s &#34;economic D-Day&#34; warning after Bessent defended Washington’s decision to give countries time to ch",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/08/61416176/what-is-going-on-with-oracle-stock-on-tuesday",
-   "created_at": "2026-08-25T16:50:20Z",
+   "url": "https://www.benzinga.com/news/politics/26/08/61426059/iran-speaker-mocks-scott-bessent-economic-d-day-normandy-improv",
+   "created_at": "2026-08-26T05:49:22Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/26/January-16--2025---Washington-Dc-The-Sen.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Williams-Sonoma Gears Up For Q2 Print; Here Are The Recent Forecast Changes From Wall Street's Most Accurate Analysts",
+   "summary": "WSM to release Q2 earnings on Aug. 26. Analysts expect $2.06 EPS and $1.93B revenue. Recent ratings show mostly positive outlook for WSM stock.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/08/61426047/williams-sonoma-gears-up-for-q2-print-here-are-the-recent-forecast-changes-from-wall-streets-most-accurate-analysts",
+   "created_at": "2026-08-26T05:45:06Z",
    "symbols": [
-    "IGV",
-    "ORCL",
-    "TDIV",
-    "TDVI"
+    "WSM"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/25/Jim-Cramer-Links-Oracles-455B-Backlog-To.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/26/Toronto--Canada---November-9--2020-Willi.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Pudgy Penguins Freezes Out Dogecoin and Pepe: Here's Why PENGU Took Flight",
+   "summary": "Memecoins posted strong gains over the past week, with the Pudgy Penguins token outperforming more valuable and popular cryptocurrencies.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/08/61425943/pudgy-penguins-pengu-dogecoin-pepe-crypto-rally",
+   "created_at": "2026-08-26T05:27:07Z",
+   "symbols": [
+    "BONKUSD",
+    "BTCUSD",
+    "DOGEUSD",
+    "PEPEUSD",
+    "SHIBUSD"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/26/Quito--Ecuador---Oct-28-2025--Dogecoin-I.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Trump Says Hormuz Mines Were Cleared, Gavin Newsom Revisits Earlier Claim: 'Was He Lying Then?'",
+   "summary": "Gavin Newsom questions Trump&#39;s claim that the Strait of Hormuz was free of mines as tensions continue to brew with Iran.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/08/61425932/trump-says-hormuz-mines-were-cleared-gavin-newsom-revisits-earlier-claim-was-he-lying-then",
+   "created_at": "2026-08-26T05:26:06Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/26/President-Donald-Trump-waits-outside-of-.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "YY Group (YYGH) Stock Jumps 90% After Hours: Here's Why",
+   "summary": "YY Group shares surged 90% after hours after canceling a $5.94M financing tranche and all outstanding warrants.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/08/61425909/yy-group-yygh-stock-jumps-after-hours",
+   "created_at": "2026-08-26T05:16:37Z",
+   "symbols": [
+    "YYGH"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/26/Glowing-Orange-Candlestick-And-Line-Char.jpg?width=1024&height=768"
   },
   {
    "headline": "Pete Hegseth Launches WWII-Inspired Defense Manufacturing Commission, Says Small Businesses Can Deliver ‘Generational’ Battlefield Advantage",
@@ -440,63 +496,6 @@
     "WTS"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_1.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "$1000 Invested In Valero Energy 5 Years Ago Would Be Worth This Much Today",
-   "summary": "Valero Energy (NYSE:VLO) has outperformed the market over the past 5 years by 27.71% on an annualized basis producing an average annual return of 38.82%. Currently, Valero Energy has a market capitali",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/08/61424045/1000-invested-valero-energy-5-years-ago-would-be-worth-much-today",
-   "created_at": "2026-08-25T21:45:37Z",
-   "symbols": [
-    "VLO"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_4.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Semtech Reports Q2 2027 Results: Full Earnings Call Transcript",
-   "summary": "Semtech (NASDAQ:SMTC) reported second-quarter financial results on Tuesday. The transcript from the company&#39;s second-quarter earnings call has been provided below.\nThis content is powered by Benzi",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/08/61423979/semtech-reports-q2-2027-results-full-earnings-call-transcript",
-   "created_at": "2026-08-25T21:43:08Z",
-   "symbols": [
-    "SMTC"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_4.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Electromed Q4 2026 Earnings Call: Complete Transcript",
-   "summary": "Electromed (AMEX:ELMD) held its fourth-quarter earnings conference call on Tuesday. Below is the complete transcript from the call.\nBenzinga APIs provide real-time access to earnings call transcripts ",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/08/61423928/electromed-q4-2026-earnings-call-complete-transcript",
-   "created_at": "2026-08-25T21:35:39Z",
-   "symbols": [
-    "ELMD"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_2.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Here’s How Much You Would Have Made Owning SPX Technologies Stock In The Last 15 Years",
-   "summary": "SPX Technologies (NYSE:SPXC) has outperformed the market over the past 15 years by 6.24% on an annualized basis producing an average annual return of 19.25%. Currently, SPX Technologies has a market c",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/08/61423847/here-s-how-much-you-would-have-made-owning-spx-technologies-stock-last-15-years",
-   "created_at": "2026-08-25T21:30:49Z",
-   "symbols": [
-    "SPXC"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_2.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Tom Lee Sees ETH 'Easily' Hitting $10,000, Says BitMine Could Buy More Than 5%",
-   "summary": "BitMine Immersion is close to owning 5% of ETH&#39;s total supply, with potential to own more. AI and tokenization could drive ETH above $10,000.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/08/61423846/tom-lee-sees-eth-easily-hitting-10000-says-bitmine-could-buy-more-than-5",
-   "created_at": "2026-08-25T21:30:43Z",
-   "symbols": [
-    "BMNR",
-    "ETHUSD",
-    "SOLUSD"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/25/Digital-3d-Illustration-Of-An-Ethereum-C.jpg?width=1024&height=768"
   }
  ]
 }
