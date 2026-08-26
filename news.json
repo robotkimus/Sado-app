@@ -1,6 +1,17 @@
 {
- "updated": "2026-08-26 11:00",
+ "updated": "2026-08-26 12:00",
  "items": [
+  {
+   "headline": "Meta Talking With States to Settle Landmark Lawsuit That Claims Facebook and Instagram Were Designed to Be Addictive to Kids: Report",
+   "summary": "Meta is reportedly discussing a settlement with states over allegations that Facebook and Instagram were designed to be addictive to kids.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/legal/26/08/61425592/meta-settlement-talks-states-social-media-addiction-lawsuit-facebook-instagram-kids",
+   "created_at": "2026-08-26T02:47:13Z",
+   "symbols": [
+    "META"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/26/This-Illustrates-Digital-Connectivity-Wi.jpg?width=1024&height=768"
+  },
   {
    "headline": "Wintermute: Bitcoin, XRP, Gold Benefited From 'Debasement Board' Last Week",
    "summary": "Bitcoin posts its best week since March 2024 as crypto and gold surge together, prompting Wintermute to flag a debasement trade.",
@@ -194,19 +205,33 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/08/25/Gevorg-Grigoryan.png?width=1024&height=768"
   },
   {
-   "headline": "What's Going On With Dell Technologies Stock Tuesday?",
-   "summary": "Dell stock spikes 4%+ as it unveils hybrid AI strategies, enterprise PC growth, and high-performance tech partnerships.",
+   "headline": "Trump Memecoin Rally Loses Steam, Drops 11% — What You Should Know",
+   "summary": "The Official Trump memecoin pulled back sharply on Tuesday, April 25, after a week of solid gains.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/08/61413880/whats-going-on-with-dell-technologies-stock-tuesday",
-   "created_at": "2026-08-25T15:44:31Z",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/08/61425559/trump-memecoin-rally-loses-steam-drops-11-percent",
+   "created_at": "2026-08-26T02:38:41Z",
    "symbols": [
-    "ACSI",
-    "AMD",
-    "DELL",
-    "DLLL",
-    "INTC"
+    "BTCUSD",
+    "ETHUSD",
+    "TRUMPUSD",
+    "ZECUSD"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/25/Dell-Technologies-Inc.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/26/Memcoin-Trump-Coin-Among-Other-Cryptocur.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Cathie Wood Loads Up on Cerebras Systems Stock as AI Chip Race With Nvidia Heats Up — Ark Keeps on Dumping AMD Shares",
+   "summary": "Ark Invest bought roughly $17 million in Cerebras shares Tuesday, Aug. 25, 2026, while trimming its Tempus AI and AMD positions",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/etfs/broad-u-s-equity-etfs/26/08/61425534/cathie-wood-loads-up-on-cerebras-systems-stock-as-ai-chip-race-with-nvidia-heats-up-ark-keeps-on-dumping-amd-shares",
+   "created_at": "2026-08-26T02:25:19Z",
+   "symbols": [
+    "AMD",
+    "ARKK",
+    "ARKW",
+    "CBRS",
+    "TEM"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/26/ARK-Invest-Logo-And-Name-On-White-Tablet.jpg?width=1024&height=768"
   },
   {
    "headline": "Bitcoin, Ethereum, XRP, Dogecoin Retreat Even as 'Greed' Sentiment Prevails: Analyst Charts Two Possible Scenarios for BTC",
@@ -472,36 +497,6 @@
     "KNRX"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_1.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "12 Health Care Stocks Moving In Tuesday's After-Market Session",
-   "summary": "Gainers\n\nAlector (NASDAQ:ALEC) shares increased by 9.7% to $2.59 during Tuesday&#39;s after-market session. The company&#39;s market cap stands at $256.8 million. \nNeuroSense Therapeutics (NASDAQ:NRSN",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/08/61423365/12-health-care-stocks-moving-tuesday-s-after-market-session",
-   "created_at": "2026-08-25T21:06:09Z",
-   "symbols": [
-    "AKAN",
-    "ALEC",
-    "BDRX",
-    "DCGO",
-    "KMTS"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_1.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "12 Industrials Stocks Moving In Tuesday's After-Market Session",
-   "summary": "Gainers\n\nYY Group Holding (NASDAQ:YYGH) shares rose 39.1% to $1.6 during Tuesday&#39;s after-market session. The market value of their outstanding shares is at $3.8 million. \nExpion Energy (NASDAQ:XPO",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/08/61423364/12-industrials-stocks-moving-tuesday-s-after-market-session",
-   "created_at": "2026-08-25T21:06:08Z",
-   "symbols": [
-    "CDTG",
-    "CIIT",
-    "ETS",
-    "FLZH",
-    "GFAI"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_3.jpg?width=1024&height=768"
   }
  ]
 }
