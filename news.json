@@ -1,6 +1,20 @@
 {
- "updated": "2026-08-26 17:00",
+ "updated": "2026-08-26 18:00",
  "items": [
+  {
+   "headline": "Microsoft’s Internal Pay Spreadsheet Shows Cloud and AI Workers Reporting Stock Awards as High as $1.4 Million: Report",
+   "summary": "Microsoft employees report record stock awards up to $1.4 million in Cloud + AI organization, amid intense AI talent battle.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/08/61426839/microsofts-internal-pay-spreadsheet-shows-cloud-and-ai-workers-reporting-stock-awards-as-high-as-1-4-million-report",
+   "created_at": "2026-08-26T08:04:15Z",
+   "symbols": [
+    "GOOG",
+    "GOOGL",
+    "META",
+    "MSFT"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/26/Mountain-View--California-Us---March-24-.jpg?width=1024&height=768"
+  },
   {
    "headline": "Dow Gains for Third Session as Treasury Yields Fall: Investor Sentiment Improves, Fear Index Remains in ‘Greed’ Zone",
    "summary": "\nThe CNN Money Fear and Greed index measures market sentiment, with higher fear causing stocks to decline and higher greed leading to gains.",
@@ -193,19 +207,33 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/08/25/Kyiv--Ukraine---January-29--2025-Nvidia-.jpg?width=1024&height=768"
   },
   {
-   "headline": "Nvidia's AI Chips Are Making Liquid Cooling the New Standard as Cisco Expands Its AI Bet",
-   "summary": "Cisco&#39;s expanded Nvidia partnership highlights why liquid cooling is becoming the new standard for AI infrastructure.",
+   "headline": "Trump Sends Saudi Nuclear Deal to Congress as Expert Warns of 'Slippery Slope' Toward Wider Nuclear Proliferation",
+   "summary": "Trump sends Saudi civilian nuclear deal to Congress for review as expert warns it could weaken U.S. nonproliferation safeguards.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/08/61419008/nvidia-liquid-cooling",
-   "created_at": "2026-08-25T18:38:37Z",
+   "url": "https://www.benzinga.com/news/politics/26/08/61427010/trump-sends-saudi-nuclear-deal-to-congress-as-expert-warns-of-slippery-slope-toward-wider-nuclear-proliferation",
+   "created_at": "2026-08-26T08:39:20Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/26/United-States-President-Donald-Trump-mee.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Apple Unveils New Mac mini and Mac Studio With M6 and M5 Ultra Chips—There’s a Surprising $9 Twist Too",
+   "summary": "Apple upgraded its Mac mini and Mac Studio with faster M-series chips while cutting its Polishing Cloth price to $9.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/08/61426957/apple-unveils-new-mac-mini-and-mac-studio-with-m6-and-m5-ultra-chips-theres-a-surprising-9-twist-too",
+   "created_at": "2026-08-26T08:24:10Z",
    "symbols": [
-    "AMD",
-    "CSCO",
-    "GOOG",
-    "GOOGL",
-    "NVDA"
+    "AAPL"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/25/AI-Stocks-Challenge-Valuation.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/26/Beijing--China---July-21--2023-Apple-Log.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Four Gazprombank Executives Could Have Made €9 Million Buying Discounted Bonds Before Swap Announcements: Report",
+   "summary": "Four Gazprombank Luxembourg executives could have made more than €9M from discounted Russian bonds after 2022 sanctions.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/commodities/26/08/61426869/gazprombank-executives-russian-bond-swaps-sanctions",
+   "created_at": "2026-08-26T08:14:33Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/26/Kiev-Ukraine---August-14--2018-Gazpromba.jpg?width=1024&height=768"
   },
   {
    "headline": "Bath & Body Works Earnings Are Imminent; These Most Accurate Analysts Revise Forecasts Ahead Of Earnings Call",
@@ -396,60 +424,6 @@
     "ZECUSD"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/08/26/Memcoin-Trump-Coin-Among-Other-Cryptocur.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Cathie Wood Loads Up on Cerebras Systems Stock as AI Chip Race With Nvidia Heats Up — Ark Keeps on Dumping AMD Shares",
-   "summary": "Ark Invest bought roughly $17 million in Cerebras shares Tuesday, Aug. 25, 2026, while trimming its Tempus AI and AMD positions",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/etfs/broad-u-s-equity-etfs/26/08/61425534/cathie-wood-loads-up-on-cerebras-systems-stock-as-ai-chip-race-with-nvidia-heats-up-ark-keeps-on-dumping-amd-shares",
-   "created_at": "2026-08-26T02:25:19Z",
-   "symbols": [
-    "AMD",
-    "ARKK",
-    "ARKW",
-    "CBRS",
-    "TEM"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/26/ARK-Invest-Logo-And-Name-On-White-Tablet.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Bitcoin, Ethereum, XRP, Dogecoin Retreat Even as 'Greed' Sentiment Prevails: Analyst Charts Two Possible Scenarios for BTC",
-   "summary": "Leading cryptocurrencies pulled back on Tuesday, August 25, as investors locked in profits from the recent rally.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/08/61425396/bitcoin-ethereum-xrp-dogecoin-retreat-greed-btc-two-scenarios",
-   "created_at": "2026-08-26T01:54:28Z",
-   "symbols": [
-    "BMNR",
-    "BTCUSD",
-    "DOGEUSD",
-    "ETHUSD",
-    "MSTR"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/26/Cryptocurrency-Bitcoin-Coin-Over-Tablet-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Iran Restarts Strait of Hormuz Talks With Oman While Trump Says All Mines Have Been Cleared: Brent Crude At $86",
-   "summary": "Iran and Oman discuss reopening the Strait of Hormuz as Trump says mines are cleared, sending Brent crude lower.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/08/61425372/iran-oman-strait-hormuz-talks-trump-mines-cleared-brent",
-   "created_at": "2026-08-26T01:47:09Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/26/Deal-Reopened-Key-Waterway.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Intuit, DICK'S Sporting Goods, Zoom, Oklo and Rezolve AI: Why These 5 Stocks Are on Investors' Radars Today",
-   "summary": "INTU, DKS, ZM, OKLO, RZLV were among the stocks seen trending on Tuesday, Aug. 25, 2026.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/08/61425286/intuit-dicks-sporting-goods-zoom-oklo-and-rezolve-ai-why-these-5-stocks-are-on-investors-radars-today",
-   "created_at": "2026-08-26T01:41:34Z",
-   "symbols": [
-    "DKS",
-    "INTU",
-    "OKLO",
-    "RZLV",
-    "ZM"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/26/Trading-Investment-Charts--Investment-Fi.jpg?width=1024&height=768"
   }
  ]
 }
