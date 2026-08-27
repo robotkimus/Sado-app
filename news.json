@@ -1,6 +1,94 @@
 {
- "updated": "2026-08-27 21:00",
+ "updated": "2026-08-27 22:00",
  "items": [
+  {
+   "headline": "Why Is Nebius Group Stock Soaring Thursday?",
+   "summary": "Nebius (NBIS) stock surges 6% premarket after NVIDIA names it as the first customer for its upcoming Groq 3 LPX hardware.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/08/61460237/why-is-nebius-group-stock-soaring-thursday",
+   "created_at": "2026-08-27T12:53:28Z",
+   "symbols": [
+    "NBIG",
+    "NBIS",
+    "NVDA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/27/Nebius-Group.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "NVIDIA’s Biggest AI Bottleneck Isn’t Demand—It’s Memory",
+   "summary": "Micron and SK Hynix shares jumped after NVIDIA earnings signaled surging demand and tight supply for AI-driven memory.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/08/61459844/nvidias-biggest-ai-bottleneck-isnt-demand-its-memory",
+   "created_at": "2026-08-27T12:43:01Z",
+   "symbols": [
+    "MU",
+    "NVDA",
+    "SKHY",
+    "SSNLF"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/27/Paris--France---February-20-2026-The-Mic.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Mark Zuckerberg’s Meta Agreed to a $17 Billion Settlement—Bernie Sanders Calls It a ‘Good Step Forward,’ But Says 'Much More Needs to Be Done' (UPDATED)",
+   "summary": "Meta agreed to pay up to $17 billion to settle claims it designed platforms to addict children, drawing mixed reactions.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/legal/26/08/61453043/bernie-sanders-meta-settlement-mark-zuckerberg",
+   "created_at": "2026-08-27T12:41:12Z",
+   "symbols": [
+    "META"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/27/New-York--Ny---April-5--2019-Democratic-.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Jim Cramer Has a Message for Nvidia Investors After the Earnings Blowout: ‘Don’t Let the Bears Deceive You’ Into Selling NVDA",
+   "summary": "Jim Cramer warns investors &#39;don&#39;t let the bears deceive you&#39; after Nvidia&#39;s record Q2, as CEO Jensen Huang declares AI is at &#39;full steam&#39;.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/08/61459773/jim-cramer-has-a-message-for-nvidia-investors-after-the-earnings-blowout-dont-let-the-bears-deceive-you-into-selling-nvda",
+   "created_at": "2026-08-27T12:41:03Z",
+   "symbols": [
+    "NVDA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/27/Jim-Cramer-At-The-Cable-Show-2010-An-Eve.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Nvidia Surges 6% Premarket—These ETFs Are Amplifying the AI Trade",
+   "summary": "Nvidia’s 6% premarket surge is putting a spotlight on the leveraged ETF trade, with traders looking for ways to magnify the AI chip giant’s latest move.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/etfs/specialty-etfs/26/08/61458742/nvidia-surges-6-premarket-these-etfs-are-amplifying-the-ai-trade",
+   "created_at": "2026-08-27T12:11:23Z",
+   "symbols": [
+    "NVDA",
+    "NVDB",
+    "NVDL",
+    "NVDU",
+    "NVDX"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/27/The-modern-Nvidia-logo-and-company-name-.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Elon Musk May Be Quietly Becoming One of Nvidia’s Biggest Customers—Gene Munster Says SpaceX Accounts for 5% of NVDA Revenue (UPDATED)",
+   "summary": "SpaceX now accounts for 5% of Nvidia&#39;s revenue, up from 3%, with Deepwater Asset Management’s Gene Munster estimating $4.8B in sales.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/08/61454239/elon-musks-spcx-now-accounts-for-5-of-nvidia-revenue-gene-munster-says-the-script-has-flipped",
+   "created_at": "2026-08-27T12:10:13Z",
+   "symbols": [
+    "NVDA",
+    "SPCX"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/27/Paris--France---February-3--2026-A-Horiz.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Why Is Sandisk Stock Surging on Thursday?",
+   "summary": "Sandisk Corporation (NASDAQ: SNDK) stock gains on Thursday as semiconductor memory makers move higher following Nvidia’s Q2 financial results.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/08/61457915/why-is-sandisk-stock-surging-on-thursday-3",
+   "created_at": "2026-08-27T11:58:34Z",
+   "symbols": [
+    "NVDA",
+    "SNDK"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/27/Sandisk-Company-Logo---EK.jpg?width=1024&height=768"
+  },
   {
    "headline": "NVDA Downplays 'Circular Financing' Concerns Days After Michael Burry Called it a Wall Street Stunt: 'We See it Differently'",
    "summary": "Nvidia CEO Jensen Huang pushes back on &#39;circular financing&#39; claims surrounding its $500B AI push as Michael Burry warns of risks for NVDA.",
@@ -108,91 +196,227 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/08/27/Close-Up-Of-Wall-Street-Sign-With-Iconic.jpg?width=1024&height=768"
   },
   {
-   "headline": "NVIDIA Is Still the AI Bellwether—And Rivals Aren’t Close",
-   "summary": "NVDA jumps 7% on earnings beat. Analysts weigh in: Is NVIDIA still an AI bellwether or is hypergrowth slowing down?",
+   "headline": "Trump Trade Chief Greer Says Canada Was Offered ‘Best Deal’ in the World, but Talks Hit a Wall Over Truck Tariffs: ‘We Don’t Have Open Channels’",
+   "summary": "Jamieson Greer believes the US offered the best deal to Canada in tariff negotiations, but Canada wants more.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/08/61454764/nvidia-is-still-the-ai-bellwether-and-rivals-arent-close",
-   "created_at": "2026-08-27T09:59:09Z",
-   "symbols": [
-    "FFOG",
-    "ILDR",
-    "NVDA",
-    "SQS"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/27/The-Modern-Nvidia-Logo-And-Company-Name-.jpg?width=1024&height=768"
+   "url": "https://www.benzinga.com/news/politics/26/08/61453595/trump-trade-chief-greer-says-canada-was-offered-best-deal-in-the-world-but-talks-hit-a-wall-over-truck-tariffs-we-dont-have-open-channels",
+   "created_at": "2026-08-27T07:16:11Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/27/U-S--Trade-Representative-Jamieson-Greer.jpg?width=1024&height=768"
   },
   {
-   "headline": "Industry Comparison: Evaluating Amazon.com Against Competitors In Broadline Retail Industry",
-   "summary": "In today&#39;s rapidly evolving and fiercely competitive business landscape, it is crucial for investors and industry analysts to conduct comprehensive company evaluations. In this article, we will un",
+   "headline": "Great Elm Group Reports Q4 2026 Results: Full Earnings Call Transcript",
+   "summary": "Great Elm Group (NASDAQ:GEG) reported fourth-quarter financial results on Thursday. The transcript from the company&#39;s fourth-quarter earnings call has been provided below.\nBenzinga APIs provide re",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/08/61454753/industry-comparison-evaluating-amazon-com-against-competitors-broadline-retail-industry",
-   "created_at": "2026-08-27T09:58:45Z",
+   "url": "https://www.benzinga.com/news/26/08/61460214/great-elm-group-reports-q4-2026-results-full-earnings-call-transcript",
+   "created_at": "2026-08-27T12:52:34Z",
    "symbols": [
-    "AMZN"
+    "GEG"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/earnings_preview_10.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_4.jpg?width=1024&height=768"
   },
   {
-   "headline": "Comparing Broadcom With Industry Competitors In Semiconductors &amp; Semiconductor Equipment Industry",
-   "summary": "In today&#39;s rapidly changing and highly competitive business world, it is imperative for investors and industry observers to carefully assess companies before making investment choices. In this art",
+   "headline": "Top 3 Health Care Stocks That May Keep You Up At Night In Q3",
+   "summary": "As of Aug. 27, 2026, three health care stocks are overbought and could be giving a real warning to momentum investors, according to the RSI indicator.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/08/61454741/comparing-broadcom-industry-competitors-semiconductors-amp-semiconductor-equipment-industry",
-   "created_at": "2026-08-27T09:58:38Z",
+   "url": "https://www.benzinga.com/trading-ideas/short-ideas/26/08/61459962/top-3-health-care-stocks-that-may-keep-you-up-at-night-in-q3",
+   "created_at": "2026-08-27T12:46:03Z",
    "symbols": [
-    "AVGO"
+    "PLSE",
+    "RVMD",
+    "VEEV"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/earnings_preview_1.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/27/Healthcare-stocks.jpg?width=1024&height=768"
   },
   {
-   "headline": "Understanding Microsoft's Position In Software Industry Compared To Competitors",
-   "summary": "In the dynamic and cutthroat world of business, conducting thorough company analysis is essential for investors and industry experts. In this article, we will undertake a comprehensive industry compar",
+   "headline": "Gaotu Techedu Q2 2026 Earnings Call Transcript",
+   "summary": "Gaotu Techedu (NYSE:GOTU) released second-quarter financial results and hosted an earnings call on Thursday. Read the complete transcript below.\nThis transcript is brought to you by Benzinga APIs. For",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/08/61454739/understanding-microsoft-s-position-software-industry-compared-competitors",
-   "created_at": "2026-08-27T09:58:27Z",
+   "url": "https://www.benzinga.com/news/26/08/61459895/gaotu-techedu-q2-2026-earnings-call-transcript",
+   "created_at": "2026-08-27T12:44:51Z",
    "symbols": [
-    "MSFT"
+    "GOTU"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/earnings_preview_6.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_1.jpg?width=1024&height=768"
   },
   {
-   "headline": "Evaluating NVIDIA Against Peers In Semiconductors &amp; Semiconductor Equipment Industry",
-   "summary": "In today&#39;s fast-paced and highly competitive business world, it is crucial for investors and industry followers to conduct comprehensive company evaluations. In this article, we will delve into an",
+   "headline": "Scott Bessent (Un)Intentionally Made Two of Bitcoin's Strongest Arguments, Bitwise Exec Says",
+   "summary": "U.S. Treasury intervention and Iran sanctions may have strengthened Bitcoin&#39;s case as a neutral, scarce asset. This could increase demand for BTC.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/08/61454738/evaluating-nvidia-against-peers-semiconductors-amp-semiconductor-equipment-industry",
-   "created_at": "2026-08-27T09:58:23Z",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/08/61459561/scott-bessent-unintentionally-made-two-of-bitcoins-strongest-arguments",
+   "created_at": "2026-08-27T12:37:17Z",
    "symbols": [
-    "NVDA"
+    "BTCUSD"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/earnings_preview_12.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/27/Scott-Bessent.jpg?width=1024&height=768"
   },
   {
-   "headline": "Nvidia CEO Jensen Huang Jokes His Dinner Plans Can Double a Stock—His Track Record Says He’s Not Wrong",
-   "summary": "Nvidia CEO Jensen Huang has learned that a single sentence from him can move billions in market value.",
+   "headline": "California’s Billionaire Tax Faces a Chilling Warning: Former White House Adviser Says It Could Actually Cost the State More Money Than It Raises",
+   "summary": "California wealth tax could drive wealthy residents and businesses away",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/earnings/26/08/61454688/nvidia-ceo-jensen-huang-jokes-his-dinner-plans-can-double-a-stock-his-track-record-says-hes-not-wrong",
-   "created_at": "2026-08-27T09:51:56Z",
+   "url": "https://www.benzinga.com/markets/macro-economic-events/26/08/61459489/california-wealth-tax",
+   "created_at": "2026-08-27T12:34:46Z",
    "symbols": [
-    "IGV",
-    "IONQ",
-    "MRVL",
-    "NVDA",
-    "QBTS"
+    "GOOG",
+    "GOOGL"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/27/Jensen-Huang-Nvidias-Founder--President-.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/27/California-Billionaire-Tax-Proposal.jpg?width=1024&height=768"
   },
   {
-   "headline": "Why Is Salesforce Stock Soaring Thursday?",
-   "summary": "Salesforce shares surge 13% on Q2 earnings beat, soaring AI Agentforce usage, and an expanded Anthropic AI partnership.",
+   "headline": "Memory Inflation Is Coming for HP’s Margins — Q4 Could Mark the Bottom",
+   "summary": "HP shares fall despite record Q3 revenue and raised guidance as investors worry about rising PC memory costs and shrinking margins.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/08/61454526/why-is-salesforce-stock-soaring-wednesday",
-   "created_at": "2026-08-27T09:33:37Z",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/08/61459153/memory-inflation-is-coming-for-hps-margins-q4-could-mark-the-bottom",
+   "created_at": "2026-08-27T12:29:23Z",
    "symbols": [
-    "CRM",
-    "FDN",
-    "IGV",
-    "MRAD"
+    "HPQ"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/27/Salesforce.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/27/HP-IncMunich--Germany-Bavaria---February.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Baozun Q2 2026 Earnings Call: Complete Transcript",
+   "summary": "On Thursday, Baozun (NASDAQ:BZUN) discussed second-quarter financial results during its earnings call. The full transcript is provided below.\nThis transcript is brought to you by Benzinga APIs. For re",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/08/61458988/baozun-q2-2026-earnings-call-complete-transcript",
+   "created_at": "2026-08-27T12:20:56Z",
+   "symbols": [
+    "BZUN"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_1.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Hyperliquid Shares Jump After Fiscal-Year Results; HYPE Treasury Tops 29M Tokens",
+   "summary": "Hyperliquid Strategies shares are trading higher after the company reported financial results for the fiscal-year ended June 30, 2026.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/08/61458987/hyperliquid-shares-jump-after-fiscal-year-results-hype-treasury-tops-29m-tokens",
+   "created_at": "2026-08-27T12:20:51Z",
+   "symbols": [
+    "PURR"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/27/Stock-chartbenzingaai2023-stock-market-c.png?width=1024&height=768"
+  },
+  {
+   "headline": "Dell Beat Last Quarter's EPS Estimate by 65% — Can It Repeat That Next Time?",
+   "summary": "Dell Technologies shares are in focus Thursday with earnings due, analyst activity, 200‑day average nearly 95% above trend and Edge Rankings.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/08/61458815/dell-beat-last-quarters-eps-estimate-by-65-can-it-repeat-that-next-time",
+   "created_at": "2026-08-27T12:14:12Z",
+   "symbols": [
+    "CRWV",
+    "DELL",
+    "SPCX"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/27/Bucharest--Romania---16-03-2020-Close-up.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Synopsys Boosts Annual Outlook as AI Complexity Drives Demand",
+   "summary": "Synopsys reported strong third-quarter results, with revenue up 42%, AI-driven demand accelerating and FY2026 revenue and EPS guidance raised.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/large-cap/26/08/61458771/synopsys-boosts-annual-outlook-as-ai-complexity-drives-demand",
+   "created_at": "2026-08-27T12:12:15Z",
+   "symbols": [
+    "SNPS"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/27/Synopsys--Inc.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "HP, Best Buy Dollar Tree And Other Big Stocks Moving Lower In Thursday’s Pre-Market Session",
+   "summary": "U.S. stock futures mixed, HP Inc shares fall in pre-market trading after beating earnings estimates and raising guidance. Other stocks also down.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/08/61458706/hp-best-buy-dollar-tree-and-other-big-stocks-moving-lower-in-thursdays-pre-market-session",
+   "created_at": "2026-08-27T12:10:49Z",
+   "symbols": [
+    "ADV",
+    "AXG",
+    "BBW",
+    "BBY",
+    "CSIQ"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/27/Display-Of-Stock-Market-Quotes.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Bitcoin's Big Test: The Supply Wall Between $81,000 and $86,000",
+   "summary": "Bitcoin faces a major $81,000 to $86,000 supply wall after a record short squeeze drove a 26% rally from mid-August lows.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/08/61458549/bitcoins-big-test-the-supply-wall-between-81000-and-86000",
+   "created_at": "2026-08-27T12:08:53Z",
+   "symbols": [
+    "BTCUSD"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/27/Bitcoin-Btc-Virtual-Cryptocurrency-In-Fr.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "12 Consumer Discretionary Stocks Moving In Thursday's Pre-Market Session",
+   "summary": "Gainers\n\nWorksport (NASDAQ:WKSP) shares increased by 20.0% to $0.61 during Thursday&#39;s pre-market session. The company&#39;s market cap stands at $7.8 million. \nMalibu Boats (NASDAQ:MBUU) shares in",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/08/61458378/12-consumer-discretionary-stocks-moving-thursday-s-pre-market-session",
+   "created_at": "2026-08-27T12:05:56Z",
+   "symbols": [
+    "BBW",
+    "BGI",
+    "DBGI",
+    "FNKO",
+    "GOTU"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_2.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "12 Health Care Stocks Moving In Thursday's Pre-Market Session",
+   "summary": "Gainers\n\nVolitionRX (AMEX:VNRX) shares increased by 102.2% to $0.69 during Thursday&#39;s pre-market session. The company&#39;s market cap stands at $4.8 million. \nNewcelX (NASDAQ:NCEL) shares increas",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/08/61458377/12-health-care-stocks-moving-thursday-s-pre-market-session",
+   "created_at": "2026-08-27T12:05:56Z",
+   "symbols": [
+    "AAPG",
+    "ACIU",
+    "ALPS",
+    "BCAB",
+    "BMGL"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_2.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "12 Industrials Stocks Moving In Thursday's Pre-Market Session",
+   "summary": "Gainers\n\nStar Equity Holdings (NASDAQ:STRRP) stock increased by 61.6% to $16.0 during Thursday&#39;s pre-market session. The market value of their outstanding shares is at $23.4 million. \nMint (NASDAQ",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/08/61458376/12-industrials-stocks-moving-thursday-s-pre-market-session",
+   "created_at": "2026-08-27T12:05:55Z",
+   "symbols": [
+    "CISS",
+    "CRE",
+    "CRGO",
+    "FGL",
+    "HDSN"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_4.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "12 Information Technology Stocks Moving In Thursday's Pre-Market Session",
+   "summary": "Gainers\n\nYouxin Technology (NASDAQ:YAAS) stock rose 34.2% to $3.38 during Thursday&#39;s pre-market session. The company&#39;s market cap stands at $11.4 million. As per the press release, H1 earnings",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/08/61458375/12-information-technology-stocks-moving-thursday-s-pre-market-session",
+   "created_at": "2026-08-27T12:05:55Z",
+   "symbols": [
+    "AIXI",
+    "BTCT",
+    "CSIQ",
+    "DAIC",
+    "HPQ"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_2.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "AstraZeneca, Amgen Score Phase 3 Win in Debilitating Swallowing Disease",
+   "summary": "AstraZeneca &amp; Amgen’s Tezspire achieves significant Phase 3 CROSSING trial results in eosinophilic esophagitis (EoE) treatment.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/health-care/26/08/61458158/astrazeneca-amgen-score-phase-3-win-in-debilitating-swallowing-disease",
+   "created_at": "2026-08-27T12:02:08Z",
+   "symbols": [
+    "AMGN",
+    "AZN",
+    "PLC"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/27/X-ray-Anterior-Or-Front-View-Of-The-Esop.jpg?width=1024&height=768"
   },
   {
    "headline": "Trump Says He’s ‘Not in a Hurry’ for Iran Talks—Says US ‘Winning Very Big’ as Conflict Drags On",
@@ -242,209 +466,6 @@
     "QXO"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/08/27/Jim-Cramer.png?width=1024&height=768"
-  },
-  {
-   "headline": "Saratoga Investment Pushes Debt Maturity To 2031, But Dividend Coverage Remains Under Pressure",
-   "summary": "The Print\n\n\n\nSaratoga Investment Corp. (NYSE:SAR) has pushed one large 2027 maturity out to 2031, but the refinancing does not remove the pressure visible in its latest dividend math.\n\n\n\nThe business ",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/Opinion/26/08/61457452/saratoga-investment-pushes-debt-maturity-to-2031-but-dividend-coverage-remains-under-pressure",
-   "created_at": "2026-08-27T11:36:13Z",
-   "symbols": [
-    "SAR"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/27/Dividends.png?width=1024&height=768"
-  },
-  {
-   "headline": "Penny Stock VolitionRx Expands Addressable Markets With Key Diagnostic Validations",
-   "summary": "VolitionRx reports 112% revenue growth in H1 2026 while advancing its Nu.Q diagnostic platforms across sepsis and oncology markets.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/08/61457413/penny-stock-volitionrx-expands-addressable-markets-with-key-diagnostic-validations",
-   "created_at": "2026-08-27T11:35:08Z",
-   "symbols": [
-    "VNRX"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/27/Infection-Control--shutterstock-24767179.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "CoreWeave Stock Trending as Company Lands Deals With Hudson River Trading, Rescale",
-   "summary": "CoreWeave Inc. (NASDAQ: CRWV) is trending Thursday after a busy stretch that included new partnerships with Hudson River Trading and Rescale.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/08/61457200/coreweave-stock-trending-as-company-lands-deals-with-hudson-river-trading-rescale",
-   "created_at": "2026-08-27T11:28:57Z",
-   "symbols": [
-    "CRWV"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/27/Close-Up-Of-CoreWeave-Logo-And-Name-On-S.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Cancer Drug Sales Power Up Kelun-Biotech’s Profit Engine",
-   "summary": "The firm made more money from precision oncology treatments than from licensing deals in the first half, after gaining insurance coverage for its core drugs in China\n\n\n\n\n\n\n\nimage credit: Bamboo Works\n",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/Opinion/26/08/61457127/cancer-drug-sales-power-up-kelun-biotechs-profit-engine",
-   "created_at": "2026-08-27T11:22:59Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/27/27-8-2026-102135-thebambooworks-com.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "How To Earn $500 A Month From Gap Stock Ahead Of Q2 Earnings",
-   "summary": "Gap will report Q2 earnings on Aug. 27. Analysts predict 49 cents/share, down from 57 cents last year. Annual dividend yield is 3.31%.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/dividends/26/08/61457111/how-to-earn-500-a-month-from-gap-stock-ahead-of-q2-earnings",
-   "created_at": "2026-08-27T11:22:08Z",
-   "symbols": [
-    "GAP"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/27/The-Gap-Hanging-Sign-On-The-Building-At-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Okta CEO Says AI Agent Security Could Become Cyber’s Biggest New Market",
-   "summary": "Okta (OKTA) stock jumped 19% premarket after beating Q2 estimates, securing key AI deals, and raising its full-year revenue outlook.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/08/61457082/okta-ceo-says-ai-agent-security-could-become-cybers-biggest-new-market",
-   "created_at": "2026-08-27T11:20:13Z",
-   "symbols": [
-    "OKTA"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/27/Okta-Sign-Building-In-Soma-District--Okt.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Jinxin Fertility Back In Black As US Progeny Gains Traction",
-   "summary": "The assisted reproduction services provider posted a net profit of 110 million yuan in the first half of 2026, as its revenue rose 6.6%\n\n\n\n\n\n\n\nimage credit: Bamboo Works\n\n\n\nJinxin Fertility Group Ltd.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/Opinion/26/08/61457068/jinxin-fertility-back-in-black-as-us-progeny-gains-traction",
-   "created_at": "2026-08-27T11:19:51Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/27/27-8-2026-10169-thebambooworks-com.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Autodesk Likely To Report Higher Q2 Earnings; These Most Accurate Analysts Revise Forecasts Ahead Of Earnings Call",
-   "summary": "Autodesk (ADSK) to release Q2 earnings on Aug 27. Analysts predict $3.12 EPS and $2.01B revenue. Recent results and analyst ratings available.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/08/61456986/autodesk-likely-to-report-higher-q2-earnings-these-most-accurate-analysts-revise-forecasts-ahead-of-earnings-call",
-   "created_at": "2026-08-27T11:14:06Z",
-   "symbols": [
-    "ADSK"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/27/Autodesk--Konskie--Poland---November-18-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Ulta Beauty Has Topped EPS Estimates for Four Straight Quarters — What About Thursday?",
-   "summary": "Ulta Beauty shares are in the spotlight, with earnings due today, a test of the 200-day average and Edge Rankings all drawing attention.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/08/61456974/ulta-beauty-has-topped-eps-estimates-for-four-straight-quarters-what-about-thursday",
-   "created_at": "2026-08-27T11:13:23Z",
-   "symbols": [
-    "ULTA"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/27/Ulta-Beats-Expectations.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Elon Musk Calls Gavin Newsom's California High-Speed Rail Project a 'Big Scam' as Ron DeSantis Says Cost Is 'Mind Blowing'",
-   "summary": "Gov. Ron DeSantis and Elon Musk criticize Gavin Newsom&#39;s high speed rail project in California, citing its estimated cost of $231 billion.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/08/61456735/elon-musk-calls-gavin-newsoms-california-high-speed-rail-project-a-big-scam-as-ron-desantis-says-cost-is-mind-blowing",
-   "created_at": "2026-08-27T11:05:15Z",
-   "symbols": [
-    "TSLA"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/27/Elon-Musk-Owns-Tesla--Spacex--X-formerly.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "What's Going On With Accenture Stock Thursday?",
-   "summary": "Accenture (NYSE: ACN) acquires Tokyo-based COMWARE to expand AI and cloud services for midsize firms, boosting premarket momentum. Read more.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/08/61456667/whats-going-on-with-accenture-stock-thursday-2",
-   "created_at": "2026-08-27T11:03:49Z",
-   "symbols": [
-    "ACN",
-    "DIVN",
-    "SDY",
-    "VFLO"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/27/Accenture.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Affirm Beat Last Quarter's EPS Estimate by 76% — Can It Repeat That Thursday?",
-   "summary": "Affirm Holdings shares are in focus Thursday, with earnings on deck, analyst activity, 50-day support and Edge Rankings drawing attention.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/08/61456338/affirm-beat-last-quarters-eps-estimate-by-76-can-it-repeat-that-thursday",
-   "created_at": "2026-08-27T10:51:25Z",
-   "symbols": [
-    "AFRM",
-    "KLAR"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/27/Affirm.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Robert Reich Calls Trump’s Canada Trade War ‘Irrational’—Warns Tariffs Could Make US Housing Even Worse",
-   "summary": "Robert Reich warns that Trump&#39;s trade war with Canada is irrational and could worsen the already struggling US housing market.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/08/61456309/robert-reich-calls-trumps-canada-trade-war-irrational-warns-tariffs-could-make-us-housing-even-worse",
-   "created_at": "2026-08-27T10:50:30Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/27/Berkeley--Ca-Usa--April-17--2025-Robert-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "What's Going On With Marvell Technology Stock Thursday?",
-   "summary": "Marvell stock gains 5% as tech stocks rally. Learn key moving averages, ETF exposure, resistance at $300, and Wall Street price targets.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/08/61456036/whats-going-on-with-marvell-technology-stock-thursday-5",
-   "created_at": "2026-08-27T10:41:44Z",
-   "symbols": [
-    "FTXL",
-    "MRVL",
-    "SOXQ",
-    "XNTK"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/27/Marvell.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "CrowdStrike's Business Is Booming Thanks to Rogue AI Agents: CEO George Kurtz Calls Them 'Friend and Foe'",
-   "summary": "CrowdStrike says AI agents are now attacking on their own, and defending against them delivered its best quarter yet.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/earnings/26/08/61455935/crowdstrike-cashes-in-rogue-ai-agents-record-earnings-quarter",
-   "created_at": "2026-08-27T10:36:07Z",
-   "symbols": [
-    "CRWD"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/27/Market-Reaction.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Zohran Mamdani Cracks Down on NYC Car Rental Companies, Issues 56 Summonses Over Hidden Fees: Warns Businesses to Tell People the 'Real Price'",
-   "summary": "NYC Mayor Mamdani warns car rental companies against consumer protection probe, urges them to be transparent about pricing policies.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/08/61455576/zohran-mamdani-cracks-down-on-nyc-car-rental-companies-issues-56-summonses-over-hidden-fees-warns-businesses-to-tell-people-the-real-price",
-   "created_at": "2026-08-27T10:22:35Z",
-   "symbols": [
-    "CAR",
-    "HTZ"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/27/Zohran-Mamdani-Who-Is-Likely-To-Become-N.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Elon Musk Just Made a Wild Promise to User Willing to Give Grok Their Bank Account, Promises ‘We Will Make You Whole’ If It Messes Up",
-   "summary": "Elon Musk promotes Grok Bot, offering a popular X account user to cover financial losses if the AI makes a mistake.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/08/61455209/elon-musk-just-made-a-wild-promise-to-user-willing-to-give-grok-their-bank-account-promises-we-will-make-you-whole-if-it-messes-up",
-   "created_at": "2026-08-27T10:14:50Z",
-   "symbols": [
-    "SPCX",
-    "TSLA"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/27/Elon-Musk-xAI-Grok.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Top 3 Tech And Telecom Stocks You'll Regret Missing This Month",
-   "summary": "Find opportunities in oversold stocks in communication services: RSI indicator measures strength &amp; price action to predict short-term performance.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/08/61455093/top-3-tech-and-telecom-stocks-youll-regret-missing-this-month-2",
-   "created_at": "2026-08-27T10:11:33Z",
-   "symbols": [
-    "GAME",
-    "HAO",
-    "YHC"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/27/Space--Communication-Technology-For-Inte.jpg?width=1024&height=768"
   }
  ]
 }
