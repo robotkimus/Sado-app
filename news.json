@@ -1,6 +1,36 @@
 {
- "updated": "2026-08-28 15:00",
+ "updated": "2026-08-28 16:00",
  "items": [
+  {
+   "headline": "Nasdaq Jumps Over 400 Points As Nvidia Shares Surge: Investor Sentiment Improves, Fear & Greed Index Moves To ‘Greed’ Zone",
+   "summary": "Market sentiment improved as CNN Money Fear and Greed Index moved to Greed zone, driven by strong performance of stocks like NVIDIA, Dollar General, and Veeva Systems.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/market-summary/26/08/61486045/nasdaq-jumps-over-400-points-as-nvidia-shares-surge-investor-sentiment-improves-fear-greed-index-moves-to-greed-zone",
+   "created_at": "2026-08-28T06:45:58Z",
+   "symbols": [
+    "DG",
+    "FRO",
+    "MNSO",
+    "NVDA",
+    "VEEV"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/28/Market-sentiment---Fear-and-Greed.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Stock Market: Will S&P 500 Open Up or Down Today?",
+   "summary": "Will the S&amp;P 500 open higher? Polymarket odds dip to 47% as Wall Street weighs AI boom against an escalating U.S.-Iran economic war.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/08/61486034/stock-market-will-sp-500-open-up-or-down-today-26",
+   "created_at": "2026-08-28T06:43:21Z",
+   "symbols": [
+    "BWLP",
+    "CHA",
+    "DIA",
+    "FRO",
+    "NVDA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/28/Close-Up-Of-Wall-Street-Sign-With-Iconic.jpg?width=1024&height=768"
+  },
   {
    "headline": "Rivian Stock Slips After Hours as CFO Claire McDonough Steps Down After Nearly 6 Years",
    "summary": "Rivian CFO Claire McDonough has departed the company and will be replaced by VP of Finance Derek Mulvey as the interim CFO.",
@@ -162,28 +192,43 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/08/27/In-This-Photo-The-Logo-Of-Microsoft-Is-D.jpg?width=1024&height=768"
   },
   {
-   "headline": "Nvidia Stock 'Valuation Remains Conservative': Early 2028 Guidance Has Analysts Increasing Price Targets",
-   "summary": "Nvidia&#39;s early look at 2028 guidance surprises analysts and has them looking to even more upside in the stock.",
+   "headline": "Marvell Technology, Ulta Beauty And 3 Stocks To Watch Heading Into Friday",
+   "summary": "U.S. stock futures mixed, MINISO, Marvell, Ulta, and Gap report earnings. Ulta raises guidance, Gap jumps 15%. Analysts expect Frontline earnings.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/08/61475969/nvidia-stock-valuation-remains-conservative-early-2028-guidance-has-analysts-increasing-price-targets",
-   "created_at": "2026-08-27T18:12:58Z",
+   "url": "https://www.benzinga.com/markets/equities/26/08/61486059/marvell-technology-ulta-beauty-and-3-stocks-to-watch-heading-into-friday",
+   "created_at": "2026-08-28T06:52:15Z",
    "symbols": [
-    "NVDA"
+    "FRO",
+    "GAP",
+    "MNSO",
+    "MRVL",
+    "ULTA"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/27/In-This-Photographic-Illustration--The-N.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/28/Marvell-Technology-Group-Company---EK.jpg?width=1024&height=768"
   },
   {
-   "headline": "Why Is Micron Stock Falling on Thursday?",
-   "summary": "Micron Technology stock declined on Thursday amid profit-taking, Nvidia&#39;s margin disclosures, and potential U.S. chip tariffs.",
+   "headline": "SpaceX's Cursor AI Helped 'Russian-Speaking' Hackers Breach More Than 20 Companies Across Nine Countries",
+   "summary": "Elon Musk&#39;s SpaceX-owned AI coding assistant Cursor was used by a Russian-speaking ransomware group to hack dozens of organizations.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/08/61474888/why-is-micron-stock-falling-on-thursday",
-   "created_at": "2026-08-27T17:40:06Z",
+   "url": "https://www.benzinga.com/markets/tech/26/08/61485936/spacex-cursor-ai-russian-speaking-hackers-20-companies-nine-countries",
+   "created_at": "2026-08-28T06:38:31Z",
    "symbols": [
-    "MU",
-    "NVDA",
-    "SKHY"
+    "SPCX"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/27/Micron-Technology-Logo-Displayed-On-A-Mo.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/28/The-Spacex-Logo-Is-Displayed-On-A-Mobile.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Howard Lutnick Says Mark Carney Ended US-Canada Trade Talks To Garner Political Support: 'We're Just Being Used…'",
+   "summary": "Trump&#39;s Commerce Secretary Howard Lutnick says Canada used the U.S. for political purposes during trade negotiations.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/08/61485821/howard-lutnick-mark-carney-us-canada-trade-talks-political-support",
+   "created_at": "2026-08-28T06:08:45Z",
+   "symbols": [
+    "F",
+    "GS",
+    "TM"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/28/Washington--January-29-2025-Howard-Lutni.jpg?width=1024&height=768"
   },
   {
    "headline": "Elon Musk Touts $3.5 Trillion Revenue For SpaceX By 2033, Seven Years Earlier Than Morgan Stanley's Prediction",
@@ -413,61 +458,6 @@
     "RBRK"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_4.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Gap Reports Q2 2026 Results: Full Earnings Call Transcript",
-   "summary": "On Thursday, Gap (NYSE:GAP) discussed second-quarter financial results during its earnings call. The full transcript is provided below.\nThis content is powered by Benzinga APIs. For comprehensive fina",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/08/61483818/gap-reports-q2-2026-results-full-earnings-call-transcript",
-   "created_at": "2026-08-27T22:03:40Z",
-   "symbols": [
-    "GAP"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_1.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Here's How Much $100 Invested In Travelers Companies 15 Years Ago Would Be Worth Today",
-   "summary": "Travelers Companies (NYSE:TRV) has outperformed the market over the past 15 years by 1.09% on an annualized basis producing an average annual return of 14.43%. Currently, Travelers Companies has a mar",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/08/61483781/here-s-how-much-100-invested-travelers-companies-15-years-ago-would-be-worth-today",
-   "created_at": "2026-08-27T22:00:56Z",
-   "symbols": [
-    "TRV"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_2.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Transcript: Key Tronic Q4 2026 Earnings Conference Call",
-   "summary": "On Thursday, Key Tronic (NASDAQ:KTCC) discussed fourth-quarter financial results during its earnings call. The full transcript is provided below.\nThis content is powered by Benzinga APIs. For comprehe",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/08/61483747/transcript-key-tronic-q4-2026-earnings-conference-call",
-   "created_at": "2026-08-27T21:53:44Z",
-   "symbols": [
-    "KTCC"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_1.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Transcript: Marvell Tech Q2 2027 Earnings Conference Call",
-   "summary": "On Thursday, Marvell Tech (NASDAQ:MRVL) discussed second-quarter financial results during its earnings call. The full transcript is provided below.\nThis transcript is brought to you by Benzinga APIs. ",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/08/61483703/transcript-marvell-tech-q2-2027-earnings-conference-call",
-   "created_at": "2026-08-27T21:48:44Z",
-   "symbols": [
-    "MRVL"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_4.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "If You Invested $100 In Welltower Stock 20 Years Ago, You Would Have This Much Today",
-   "summary": "Welltower (NYSE:WELL) has outperformed the market over the past 20 years by 3.33% on an annualized basis producing an average annual return of 12.57%. Currently, Welltower has a market capitalization ",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/08/61483674/if-you-invested-100-welltower-stock-20-years-ago-you-would-have-much-today",
-   "created_at": "2026-08-27T21:45:31Z",
-   "symbols": [
-    "WELL"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_1.jpg?width=1024&height=768"
   }
  ]
 }
