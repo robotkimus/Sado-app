@@ -1,6 +1,18 @@
 {
- "updated": "2026-08-29 14:00",
+ "updated": "2026-08-29 15:00",
  "items": [
+  {
+   "headline": "Trump Signs Order to Create US Space Academy, Eyes Moon Landing Before End of Presidency",
+   "summary": "Trump signed an order establishing a U.S. Space Academy to train future astronauts, engineers and scientists amid growing talent shortages.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/space/26/08/61510581/trump-establishes-us-space-academy",
+   "created_at": "2026-08-29T05:48:13Z",
+   "symbols": [
+    "AMZN",
+    "SPCX"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/29/Washington-Dc--2026-February-24--Preside.jpg?width=1024&height=768"
+  },
   {
    "headline": "Walmart Agrees to $50 Million Settlement With DOJ Over Alleged Opioid Prescription Violations, Calls Payout ‘Immaterial’",
    "summary": "Walmart agreed to pay $50 million to settle a DOJ lawsuit alleging its pharmacies unlawfully filled opioid prescriptions.",
@@ -183,15 +195,24 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/08/28/Sandisk.jpg?width=1024&height=768"
   },
   {
-   "headline": "Nvidia Stock at Crossroads: Expert Says Shares ‘Could Double’ or AI Bubble Could Pop",
-   "summary": "A former hedge fund manager sees two extremes for Nvidia stock. The stock could double or the AI bubble could burst and hurt shares.",
+   "headline": "Elon Musk’s SpaceX Faces OpenAI Snub as ChatGPT Maker Cuts Ties With Cursor Over Contract Compliance Concerns: 'Cannot Be Confident'",
+   "summary": "OpenAI will cut off Cursor’s direct access to its AI models, giving developers until Nov. 12 to transition to other options.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/08/61495853/nvidia-stock-at-crossroads-expert-says-shares-could-double-or-ai-bubble-could-pop",
-   "created_at": "2026-08-28T14:52:46Z",
+   "url": "https://www.benzinga.com/markets/tech/26/08/61510492/openai-ends-cursor-model-access-november-12",
+   "created_at": "2026-08-29T05:26:09Z",
    "symbols": [
-    "NVDA"
+    "SPCX"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/28/Shanghai-china-march-15th-2026-Nvidia-Br.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/29/Paris--France---June-16--2023-Elon-Musk-.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Iran Tells Trump ‘Pressure Doesn’t Work,’ Calls on Countries to Reject US Sanctions as Tehran Sets Conditions for Reopening Strait of Hormuz",
+   "summary": "Iran urges countries to reject U.S. sanctions, tying Hormuz’s reopening to eased pressure and renewed diplomacy.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/08/61510472/iran-tells-trump-pressure-doesnt-work-calls-on-countries-to-reject-us-sanctions-as-tehran-sets-conditions-for-reopening-strait-of-hormuz",
+   "created_at": "2026-08-29T05:09:59Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/29/Iran-Iranian-Vs-Us-Usa-United-State-Amer.jpg?width=1024&height=768"
   },
   {
    "headline": "Scott Bessent Blasts Elizabeth Warren, Says She Knows ‘Even Less’ About Forex Than Banking — Senator Fires Back: ‘Trump's Economy Is Crushing Families’",
@@ -459,32 +480,6 @@
     "KLC"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/08/28/Children-Choose-Their-Markers-To-Decorat.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "If You Invested $1000 In First Citizens BancShares Stock 10 Years Ago, You Would Have This Much Today",
-   "summary": "First Citizens BancShares (NASDAQ:FCNCA) has outperformed the market over the past 10 years by 9.17% on an annualized basis producing an average annual return of 22.64%. Currently, First Citizens Banc",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/08/61507439/if-you-invested-1000-first-citizens-bancshares-stock-10-years-ago-you-would-have-much-today",
-   "created_at": "2026-08-28T20:15:45Z",
-   "symbols": [
-    "FCNCA"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_2.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Trump’s Grid Security Order Could Put These ETFs on the Power-Equipment Watchlist",
-   "summary": "Trump’s grid security order could boost U.S. power equipment and infrastructure. Here are the ETFs with exposure to potential beneficiaries.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/etfs/sector-etfs/26/08/61507026/trumps-grid-security-order-could-put-these-etfs-on-the-power-equipment-watchlist",
-   "created_at": "2026-08-28T20:03:23Z",
-   "symbols": [
-    "ETN",
-    "GEV",
-    "GRID",
-    "POWR",
-    "PWR"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/28/Washington-Dc--United-States--August-11-.jpg?width=1024&height=768"
   }
  ]
 }
