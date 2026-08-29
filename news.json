@@ -1,6 +1,21 @@
 {
- "updated": "2026-08-29 21:00",
+ "updated": "2026-08-29 22:00",
  "items": [
+  {
+   "headline": "Benzinga Bulls and Bears: Nvidia, CrowdStrike, Intuit",
+   "summary": "Benzinga examined the prospects for many investors’ favorite stocks over the last week — here’s a look at some of our top stories.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/market-summary/26/08/61510910/benzinga-bulls-and-bears-nvidia-crowdstrike-intuit",
+   "created_at": "2026-08-29T12:01:13Z",
+   "symbols": [
+    "CRM",
+    "CRWD",
+    "INTU",
+    "IREN",
+    "MRVL"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/29/Bulls-and-Bears-1.jpg?width=1024&height=768"
+  },
   {
    "headline": "Hugging Face’s $399 Robot Ducks Racks Up $2.6 Million in Sales as Nvidia Deal Buzz Grows",
    "summary": "Hugging Face’s Microduck robot generated more than $2.6 million in orders within 24 hours, highlighting surging interest in AI robotics.",
@@ -185,15 +200,19 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/08/28/Amd-Chip-On-A-Dark--Intricate-Circuit-Bo.jpg?width=1024&height=768"
   },
   {
-   "headline": "Jensen Huang Rejects Bill Gates’ AI Jobs Warning: ‘I Don’t See What He Sees’",
-   "summary": "Jensen Huang rejects Bill Gates’ AI jobs warning, saying AI will create more work as traders see little risk of 5% unemployment.",
+   "headline": "Benzinga's 'Stock Whisper' Index: 5 Stocks Investors Secretly Monitor But Don't Talk About Yet",
+   "summary": "The Benzinga Stock Whisper Index highlights five unique stocks each week that attract high reader and investor interest.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/prediction-markets/26/08/61498729/jensen-huang-bill-gates-ai-jobs",
-   "created_at": "2026-08-28T15:51:56Z",
+   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/08/61510950/benzingas-stock-whisper-index-5-stocks-investors-secretly-monitor-but-dont-talk-about-yet-124",
+   "created_at": "2026-08-29T12:31:08Z",
    "symbols": [
-    "NVDA"
+    "AGX",
+    "BE",
+    "BJ",
+    "HEI",
+    "IESC"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/28/Jensen-Huang.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/29/Stock-Whisper-Index.jpg?width=1024&height=768"
   },
   {
    "headline": "Rob Bonta Warns Trump Administration Over Reports of Yosemite Land Transfer to Private Developer: 'National Parks Belong to the People'",
@@ -469,17 +488,6 @@
     "SCHW"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_2.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Here’s How Much You Would Have Made Owning O'Reilly Automotive Stock In The Last 20 Years",
-   "summary": "O&#39;Reilly Automotive (NASDAQ:ORLY) has outperformed the market over the past 20 years by 11.59% on an annualized basis producing an average annual return of 20.82%. Currently, O&#39;Reilly Automoti",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/08/61508012/here-s-how-much-you-would-have-made-owning-o-reilly-automotive-stock-last-20-years",
-   "created_at": "2026-08-28T20:30:48Z",
-   "symbols": [
-    "ORLY"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_4.jpg?width=1024&height=768"
   }
  ]
 }
