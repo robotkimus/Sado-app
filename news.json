@@ -1,6 +1,21 @@
 {
- "updated": "2026-08-31 04:00",
+ "updated": "2026-08-31 04:30",
  "items": [
+  {
+   "headline": "S&P 500 and Dow Jones Outlook: Top Three Catalysts This Week",
+   "summary": "This S&amp;P 500 and Dow Jones outlook explains the top three catalysts that will move US stocks this week.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/08/61512611/sp-500-and-dow-jones-outlook-top-3-catalysts-for-us-stocks-this-week",
+   "created_at": "2026-08-30T19:16:19Z",
+   "symbols": [
+    "AVGO",
+    "DELL",
+    "FDS",
+    "GOOG",
+    "MSFT"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/08/30/Wall-Street-Sign-With-American-Flag-On-T.jpg?width=1024&height=768"
+  },
   {
    "headline": "SCHD to Become King of Dividend ETFs? Aims to Overtake VIG in Key Milestone",
    "summary": "The SCHD ETF is set to become the next king of dividend ETFs as it overtakes VIG in the assets under management (AUM).",
@@ -193,21 +208,6 @@
     "MRVL"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/08/29/The-Modern-Nvidia-Logo-And-Company-Name-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Benzinga Bulls and Bears: Nvidia, CrowdStrike, Intuit",
-   "summary": "Benzinga examined the prospects for many investors’ favorite stocks over the last week — here’s a look at some of our top stories.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/market-summary/26/08/61510910/benzinga-bulls-and-bears-nvidia-crowdstrike-intuit",
-   "created_at": "2026-08-29T12:01:13Z",
-   "symbols": [
-    "CRM",
-    "CRWD",
-    "INTU",
-    "IREN",
-    "MRVL"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/29/Bulls-and-Bears-1.jpg?width=1024&height=768"
   },
   {
    "headline": "US Debt Hits $40 Trillion: What It Means For Your Money",
@@ -438,18 +438,6 @@
    "created_at": "2026-08-30T05:06:18Z",
    "symbols": [],
    "image": "https://cdn.benzinga.com/files/images/story/2026/08/30/Rep--Ro-Khanna-speaks-on-camera-about-th.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Sony Music, Warner Chappell Sue Anthropic Over Alleged Mass Copyright Infringement, Seek up to $150,000 per Song (UPDATED)",
-   "summary": "Sony Music Publishing and Warner Chappell sue Anthropic over alleged copyright infringement involving songs used to train Claude.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/08/61511686/sony-warner-chappell-sue-anthropic-copyright-songs",
-   "created_at": "2026-08-30T03:41:41Z",
-   "symbols": [
-    "SONY",
-    "WMG"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/30/Anthropic-logo-with-CEO-Dario-Amodei-in-.jpg?width=1024&height=768"
   }
  ]
 }
