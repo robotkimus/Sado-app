@@ -1,6 +1,19 @@
 {
- "updated": "2026-09-01 14:02",
+ "updated": "2026-09-01 15:00",
  "items": [
+  {
+   "headline": "Meta Pulls Dozens of Facebook, Instagram Ads After India Finds Porn-Bait Scam Designed to Steal Bank Credentials",
+   "summary": "Meta removed dozens of Facebook and Instagram ads after Indian authorities flagged a malware scam using explicit content.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/09/61539225/meta-facebook-instagram-india-porn-bait-scam-bank-credentials-ads",
+   "created_at": "2026-09-01T05:26:32Z",
+   "symbols": [
+    "GOOG",
+    "GOOGL",
+    "META"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/01/Blue-Illuminated-Meta-Logo-On-Electronic.jpg?width=1024&height=768"
+  },
   {
    "headline": "Nvidia's Rubin CPX Back From the Dead? Ming-Chi Kuo Says AI Chip Back With Major Redesign",
    "summary": "Ming-Chi Kuo says Nvidia has revived its redesigned Rubin CPX AI accelerator, with production expected to begin in Q1 2027.",
@@ -196,15 +209,65 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/08/31/Large-Aws-Sign--Amazon-Web-Services-aws-.jpg?width=1024&height=768"
   },
   {
-   "headline": "Nvidia's $3.5 Billion MediaTek Deal Revives the 'Circular Financing' Debate",
-   "summary": "Nvidia&#39;s $3.5 billion MediaTek deal has revived the circular financing debate, with one portfolio manager offering a different perspective.",
+   "headline": "Peter Schiff Says 8% Treasury Yield Is Coming — And It Would Mean 10% Mortgage Rates for Homeowners",
+   "summary": "Veteran investor Peter Schiff said Monday that the bond market has entered a structural bear market with yields headed far higher.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/08/61528919/nvidia-mediatek-financing-debate",
-   "created_at": "2026-08-31T16:55:53Z",
+   "url": "https://www.benzinga.com/markets/economic-data/26/09/61539349/peter-schiff-8-percent-treasury-yield-10-percent-mortgage-rates",
+   "created_at": "2026-09-01T05:55:38Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/01/Rich-Paying-Too-Little-Rankles.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Trump Says Iran Is 'Totally Defeated,' Rules Out Nuclear Strikes: 'There’s No Reason for It'",
+   "summary": "Trump rules out nuclear weapons against Iran, calls the question “stupid” and vows a forceful U.S. response after retaliatory strikes.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/09/61539289/trump-iran-totally-defeated-rules-out-nuclear-strikes",
+   "created_at": "2026-09-01T05:45:53Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/01/Poll-Shows-Iran-Advantage.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "GitLab Gears Up For Q2 Print; Here Are The Recent Forecast Changes From Wall Street's Most Accurate Analysts",
+   "summary": "GitLab Inc. (NASDAQ:GTLB) will release its second quarter earnings report after the closing bell on Tuesday, Sept. 1.\n\n\n\nAnalysts expect the San Francisco, California-based company to report quarterly",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/09/61539276/gitlab-gears-up-for-q2-print-here-are-the-recent-forecast-changes-from-wall-streets-most-accurate-analysts",
+   "created_at": "2026-09-01T05:40:12Z",
    "symbols": [
-    "NVDA"
+    "GOOGL",
+    "GTLB"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/31/In-This-Photographic-Illustration--The-N.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/01/Gitlab.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Elon Musk Recalls SpaceX Nearly Failing After 3 Rocket Launches: ‘If the 4th Launch Had Failed, SpaceX Would Not Exist’",
+   "summary": "The Falcon 1 rocket, SpaceX&#39;s first spacecraft, was launched a total of five times before it was sunsetted.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/space/26/09/61539264/elon-musk-recalls-spacex-nearly-failing-after-3-rocket-launches-if-the-4th-launch-had-failed-spacex-would-not-exist",
+   "created_at": "2026-09-01T05:39:53Z",
+   "symbols": [
+    "SPCX"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/01/Paris--France---February-3--2026-A-Horiz.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Markiplier Investment-Fueled Go Pro Rally Intact After Hours: GPRO Stock Up 52%",
+   "summary": "GoPro stock surges after hours on Markiplier stake.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/09/61539250/markiplier-gopro-rally-gpro-stock-52-percent-after-hours",
+   "created_at": "2026-09-01T05:34:25Z",
+   "symbols": [
+    "GPRO"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/01/Action-Camera-Gopro-Hero-10-Black-On-Whi.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Hakeem Jeffries Raises ‘Serious Concerns’ Over Russia Sanctions Bill, Warns Trump Could ‘Abuse’ New Tariff and Sanctions Authority",
+   "summary": "Jeffries backs continued pressure on Russia but says Democrats need to weigh whether the bill gives Trump too much discretion over tariffs.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/09/61539128/hakeem-jeffries-raises-serious-concerns-over-russia-sanctions-bill-warns-trump-could-abuse-new-tariff-and-sanctions-authority",
+   "created_at": "2026-09-01T05:01:48Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/01/Us-President-Donald-Trump-And-Russian-Pr.jpg?width=1024&height=768"
   },
   {
    "headline": "Analyst Slams Trump’s Energy Promises, Strait of Hormuz Claims: ‘A Painful New Record…’",
@@ -419,74 +482,6 @@
     "NPO"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_4.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "If You Invested $100 In Herc Holdings Stock 10 Years Ago, You Would Have This Much Today",
-   "summary": "Herc Holdings (NYSE:HRI) has outperformed the market over the past 10 years by 2.55% on an annualized basis producing an average annual return of 15.9%. Currently, Herc Holdings has a market capitaliz",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/08/61537518/if-you-invested-100-herc-holdings-stock-10-years-ago-you-would-have-much-today",
-   "created_at": "2026-08-31T22:01:29Z",
-   "symbols": [
-    "HRI"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_2.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "$1000 Invested In CACI International 10 Years Ago Would Be Worth This Much Today",
-   "summary": "CACI International (NYSE:CACI) has outperformed the market over the past 10 years by 6.63% on an annualized basis producing an average annual return of 19.98%. Currently, CACI International has a mark",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/08/61537330/1000-invested-caci-international-10-years-ago-would-be-worth-much-today",
-   "created_at": "2026-08-31T21:45:19Z",
-   "symbols": [
-    "CACI"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_1.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Here’s How Much You Would Have Made Owning Allstate Stock In The Last 15 Years",
-   "summary": "Allstate (NYSE:ALL) has outperformed the market over the past 15 years by 3.61% on an annualized basis producing an average annual return of 16.97%. Currently, Allstate has a market capitalization of ",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/08/61537244/here-s-how-much-you-would-have-made-owning-allstate-stock-last-15-years",
-   "created_at": "2026-08-31T21:30:30Z",
-   "symbols": [
-    "ALL"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_4.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Partners Group Faces $7 Billion Debt Wall as 3 Portfolio Companies Near Crisis",
-   "summary": "Partners Group is facing mounting pressure to refinance roughly $7 billion(€6 billion) in debt across three struggling portfolio companies",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/financing/26/08/61537201/partners-group-faces-7-billion-debt-wall-as-3-portfolio-companies-near-crisis",
-   "created_at": "2026-08-31T21:28:34Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/08/31/Debt-Risks-Trigger-Long-Term-Crisis.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "$1000 Invested In Veeva Systems 10 Years Ago Would Be Worth This Much Today",
-   "summary": "Veeva Systems (NYSE:VEEV) has outperformed the market over the past 10 years by 8.18% on an annualized basis producing an average annual return of 21.53%. Currently, Veeva Systems has a market capital",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/08/61536871/1000-invested-veeva-systems-10-years-ago-would-be-worth-much-today",
-   "created_at": "2026-08-31T21:15:33Z",
-   "symbols": [
-    "VEEV"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_3.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "12 Consumer Discretionary Stocks Moving In Monday's After-Market Session",
-   "summary": "Gainers\n\nGoPro (NASDAQ:GPRO) shares rose 21.0% to $1.06 during Monday&#39;s after-market session. The company&#39;s market cap stands at $110.6 million. \nGolden Sun Technology (NASDAQ:GSUN) shares ros",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/08/61536710/12-consumer-discretionary-stocks-moving-monday-s-after-market-session",
-   "created_at": "2026-08-31T21:06:13Z",
-   "symbols": [
-    "FMFC",
-    "GPRO",
-    "GSUN",
-    "INEO",
-    "MSN"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_4.jpg?width=1024&height=768"
   }
  ]
 }
