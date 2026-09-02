@@ -1,6 +1,21 @@
 {
- "updated": "2026-09-02 17:00",
+ "updated": "2026-09-02 18:00",
  "items": [
+  {
+   "headline": "Jensen Huang Sees a $50 Trillion Physical AI Opportunity — Here Are 4 ‘Picks and Shovels’ Stocks That Should Be on Investors’ Radar",
+   "summary": "Jensen Huang sees a $50T robotics market. Discover how actuator stocks like MOG.A, MP, SYM, and KOID power physical AI.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/09/61567697/jensen-huang-sees-a-50-trillion-physical-ai-opportunity-here-are-4-picks-and-shovels-stocks-that-should-be-on-investors-radar",
+   "created_at": "2026-09-02T08:18:18Z",
+   "symbols": [
+    "KOID",
+    "MOG",
+    "MP",
+    "NVDA",
+    "SYM"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/02/Jensen-Huang-Nvidias-Founder--President-.jpg?width=1024&height=768"
+  },
   {
    "headline": "Elizabeth Warren Slams Trump’s AI Data Center Push, Says It Could Leave Americans With Higher Power Bills After President Calls Opponents 'Backwards and Poor'",
    "summary": "Warren slammed Trump’s AI data center push, warning families should not pay higher electricity bills to fuel Big Tech’s AI expansion.",
@@ -191,19 +206,73 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/09/01/Konskie--Poland---November-13--2024-Orac.jpg?width=1024&height=768"
   },
   {
-   "headline": "SpaceX Stock Rockets 32% in August: Inside the Turnaround",
-   "summary": "SpaceX stock gains 32% in August. Here&#39;s a look back at the catalysts that contributed to the monthly gain.",
+   "headline": "Why Dell Shares Are Trading Higher By Around 10%; Here Are 20 Stocks Moving Premarket",
+   "summary": "Dell Technologies (DELL) stock jumps in pre-market trading after reporting better-than-expected Q2 results and raising FY27 guidance. Other gainers include UPC, GTLB, VIVK, UFG, MLEC, FFAI, GPUS, NCPL",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/09/61553404/spacex-stock-rockets-32-in-august-inside-the-turnaround",
-   "created_at": "2026-09-01T15:48:18Z",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/09/61567909/why-dell-shares-are-trading-higher-by-around-10-here-are-20-stocks-moving-premarket",
+   "created_at": "2026-09-02T08:57:21Z",
    "symbols": [
-    "AMD",
+    "AMOD",
+    "CDT",
+    "CRDO",
+    "DELL",
+    "FFAI"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/02/Bucharest--Romania---16-03-2020-Close-up.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "IRS Audit Revenue Just Collapsed 35%—And Thousands of Enforcement Jobs Are Gone, Treasury Watchdog Finds",
+   "summary": "IRS audit revenue fell 35% as workforce reductions cut examination activity and staffing in fiscal 2025.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/macro-economic-events/26/09/61567898/irs-audit-revenue-just-collapsed-35-and-thousands-of-enforcement-jobs-are-gone-treasury-watchdog-finds",
+   "created_at": "2026-09-02T08:54:07Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/02/Shapley--Koopman-Take-Key-IRS-Roles.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Elon Musk Says Google and Anthropic Turned to SpaceX For AI Compute Because Power is Tight, Says SPCX Built its Own Plants to Move Faster",
+   "summary": "Elon Musk warns AI power crunch is here, citing challenges with power and tight supplies. SpaceX turns power bottleneck into major business.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/09/61567812/elon-musk-says-google-and-anthropic-turned-to-spacex-for-ai-compute-because-power-is-tight-says-spcx-built-its-own-plants-to-move-faster",
+   "created_at": "2026-09-02T08:42:28Z",
+   "symbols": [
     "GOOG",
     "GOOGL",
-    "NVDA",
     "SPCX"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/01/Rocket-Launch-A-Spacex-Falcon-Heavy-Rock.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/02/Elon-Musk-is-the-founder--CEO--and-Chief.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "NIO CEO William Li Touts ‘iPhone-Like’ Firefly Strategy as EV Maker Plots New Tech Upgrades, Battery Swapping for Robotaxis",
+   "summary": "NIO plans software-focused update cycle for Firefly brand EVs, similar to Apple&#39;s iPhone approach, CEO William Li says.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/09/61567800/nio-ceo-william-li-touts-iphone-like-firefly-strategy-as-ev-maker-plots-new-tech-upgrades-battery-swapping-for-robotaxis",
+   "created_at": "2026-09-02T08:41:17Z",
+   "symbols": [
+    "AAPL",
+    "NIO"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/02/Logo-And-Name-Of-NIO-Inc--Mounted-On-A-T.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Trump Administration Eyes New Passport Rule Requiring Parents to Prove Citizenship Status: Here's What It Means",
+   "summary": "U.S. parents may face new passport rules requiring proof of citizenship or immigration status under Trump’s birthright citizenship push.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/09/61567786/trump-administration-eyes-new-passport-rule-requiring-parents-to-prove-citizenship-status-heres-what-it-means",
+   "created_at": "2026-09-02T08:34:43Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/02/President-Donald-Trump-waits-outside-of-.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Palo Alto CEO Warns ‘Major Breaches’ Are Coming as Companies Fall Years Behind on Cybersecurity — And Now AI Agents Are Making It Easier to Find and Exploit Those Gaps",
+   "summary": "Palo Alto CEO Nikesh Arora warns major breaches are coming as enterprises lag on security fixes while AI makes exploiting gaps easier.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/earnings/26/09/61567684/palo-alto-ceo-breaches-rogue-ai-agents-hugging-face",
+   "created_at": "2026-09-02T08:12:01Z",
+   "symbols": [
+    "PANW"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/02/Nikesh-Arora-arrives-at-2023-Asia-Societ.jpg?width=1024&height=768"
   },
   {
    "headline": "Dell Bets on a $1 Trillion AI Boom as AI Agents Set to Reshape Data Centers: COO Jeff Clarke Says ‘Scale of Our Deployment Capabilities Is Unmatched’",
@@ -416,70 +485,6 @@
     "INTC"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/09/02/August-5--2019-Palo-Alto--Ca--Usa.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Trump Goes ‘Tanker for Tanker’ on Iran: US Strikes 2 Iranian Oil Tankers Amid Hormuz Escalation",
-   "summary": "Trump uses tanker for tanker policy against Iran after missile strikes as US attacks 2 Iranian tankers. Iran slams US for atrocities.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/09/61566363/trump-goes-tanker-for-tanker-on-iran-us-strikes-2-iranian-oil-tankers-amid-hormuz-escalation",
-   "created_at": "2026-09-02T04:40:51Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/02/President-Of-The-United-States-Donald-Tr.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Trump Taps ‘True Warrior’ Hung Cao As Navy Secretary: Urges Senate To Confirm Him ‘ASAP’",
-   "summary": "Trump nominates Hung Cao as permanent Navy Secretary. Believes Cao&#39;s naval experience will help with shipbuilding push.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/09/61566351/trump-hung-cao-navy-secretary-tells-senate-to-confirm-this-warfighter",
-   "created_at": "2026-09-02T04:37:17Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/02/President-Donald-Trump-pauses-as-he-spea.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Majority of Americans Reject Trump’s Canada Trade War as 57% Oppose More Tariffs and 63% Say No to 'Lake America' Rename",
-   "summary": "Americans oppose Trump’s new Canada tariffs and Lake Ontario renaming, favoring trade compromise over confrontation.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/09/61566337/trump-canada-trade-war-lake-america-rename-majority-americans-poll",
-   "created_at": "2026-09-02T04:33:39Z",
-   "symbols": [
-    "BF"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/02/Washington-dc--United-States--April-14-2.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Nauticus Robotics (KITT) Stock Jumps Over 24% After Hours: Why It Is Trending",
-   "summary": "Nauticus Robotics shares jumped 24.67% after hours after both Comanche ROV systems began commercial offshore projects.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/09/61566291/nauticus-robotics-shares-comanche-rov-commercial-offshore-projects",
-   "created_at": "2026-09-02T04:16:58Z",
-   "symbols": [
-    "KITT"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/02/Glowing-Orange-Candlestick-And-Line-Char.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Tim Cook Gets $47 Million to Stick Around as Apple Chair: His New Pay Check Nearly Matches New CEO John Ternus’ Package",
-   "summary": "Tim Cook’s $47 million compensation package as Apple executive chairman nearly matches new CEO John Ternus’ $58 million deal.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/09/61566277/tim-cook-47-million-apple-chair-pay-nearly-matches-john-ternus-ceo-package",
-   "created_at": "2026-09-02T04:12:26Z",
-   "symbols": [
-    "AAPL"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/02/Apple-Ceo-Tim-Cook-Attends-The-Grand-Ope.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Dogecoin's $15 Price Target 'Never' Based on Speculation, Says Popular Analyst: Here's The New 'Possible' Level",
-   "summary": "Leading crypto analyst Ali Martinez retracted on Tuesday, September 1, their earlier forecast that Dogecoin would hit $15, citing changes in the coin’s technical structure.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/09/61566254/dogecoins-15-price-target-never-based-on-speculation-says-popular-analyst-heres-the-new-possible-level",
-   "created_at": "2026-09-02T04:03:27Z",
-   "symbols": [
-    "BTCUSD",
-    "DOGEUSD",
-    "ZECUSD"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/02/October-13--2021--Izmir--Turkey--Virtual.jpg?width=1024&height=768"
   }
  ]
 }
