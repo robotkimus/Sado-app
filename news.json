@@ -1,6 +1,20 @@
 {
- "updated": "2026-09-03 16:00",
+ "updated": "2026-09-03 17:00",
  "items": [
+  {
+   "headline": "Why Broadcom CEO Hock Tan Called Anthropic and OpenAI 'Two Geniuses in the Middle of Mongolia'",
+   "summary": "Broadcom CEO Hock Tan has an odd way of explaining why the firm is financing Anthropic and OpenAI: geniuses stuck in Mongolia.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/earnings/26/09/61594764/broadcom-ceo-hock-tan-anthropic-openai-two-geniuses-outer-mongolia",
+   "created_at": "2026-09-03T07:22:32Z",
+   "symbols": [
+    "AVGO",
+    "GOOG",
+    "GOOGL",
+    "SPCX"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/03/Claude-By-Anthropic-And-Chatgpt-By-Opena.jpg?width=1024&height=768"
+  },
   {
    "headline": "Broadcom CEO Hock Tan Says Anthropic 'On Track to Become Our Largest XPU Customer' as Google TPU Orders Explode",
    "summary": "Broadcom is poised for major AI-chip growth as Google ramps next-gen TPUs and Anthropic plans 5 GW of deployments in 2027.",
@@ -196,19 +210,64 @@
    "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/aggregated_options_1.jpg?width=1024&height=768"
   },
   {
-   "headline": "Broadcom Is Top Pick For AI’s Next Big Shift: Analyst",
-   "summary": "Broadcom (AVGO) holds flat ahead of Q3 earnings on Sept 2. Analysts project EPS of $3.24 on $29.43B revenue.",
+   "headline": "Wall Street Grilled This CEO on Whether AI Growth Is Real or Just Hype — Here’s What He Said as the Stock Popped 23%",
+   "summary": "Snowflake Inc.&#39;s (NYSE: SNOW) was upbeat about AI driving growth but stopped short of disclosing dollar uplift numbers for customers adopting AI.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/09/61584383/broadcom-is-top-pick-for-ais-next-big-shift-analyst",
-   "created_at": "2026-09-02T17:28:32Z",
+   "url": "https://www.benzinga.com/markets/tech/26/09/61594999/wall-street-grilled-this-ceo-on-whether-ai-growth-is-real-or-just-hype-heres-what-he-said-as-the-stock-popped-23",
+   "created_at": "2026-09-03T07:54:24Z",
    "symbols": [
-    "AVGO",
-    "IGM",
-    "NVDA",
-    "SOXQ",
-    "SOXX"
+    "SNOW"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/02/Broadcom--Kaufbeuren--Germany---April-26.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/03/Snowflake-Logo-And-Sign-At-The-Company-C.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Michael Burry Warns of a Private Credit 'Shell Game' That Could Leave Taxpayers on the Hook: APO, KKR, OWL In Focus",
+   "summary": "Michael Burry warns of a private equity &#39;shell game&#39; where giants like Apollo, KKR, and Blue Owl use life insurers to socialize credit risk.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/private-markets/26/09/61594844/michael-burry-warns-of-a-private-credit-shell-game-that-could-leave-taxpayers-on-the-hook-apo-kkr-owl-in-focus",
+   "created_at": "2026-09-03T07:47:43Z",
+   "symbols": [
+    "APO",
+    "ATH",
+    "BIZD",
+    "BX",
+    "KKR"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/03/Michael-Burry-Predicts-Trouble-In-Market.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Paul Atkins Says CLARITY Act Passage Crucial to SEC's New Crypto Rules, Stresses Importance of 'Statutory Grounding'",
+   "summary": "SEC Chair Paul Atkins said on Wednesday, Sept. 2, that the agency&#39;s new cryptocurrency regulation proposal aligns with the agency’s belief that the CLARITY Act will be enacted into law.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/09/61594817/paul-atkins-clarity-act-sec-crypto-rules-statutory-grounding",
+   "created_at": "2026-09-03T07:38:32Z",
+   "symbols": [
+    "BTCUSD",
+    "ZECUSD"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/03/Washington--Dc--Usa---June-23--2022-Clos.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "AI Coming for SaaS? Snowflake CEO Says Data, Not Software, Will Define the Next Era: ‘Owning the User Experience Is Critical’",
+   "summary": "Snowflake CEO says AI will make enterprise data more valuable as the company expands beyond traditional software.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/09/61594806/snowflake-ai-saas-disruption-ceo-data-software-user-experience",
+   "created_at": "2026-09-03T07:37:35Z",
+   "symbols": [
+    "SNOW"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/03/Warsaw--Poland--31-July-2024--Wola-Busin.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Trump Wants More Refineries Amid Iran War Oil Shocks, $4 Gas—It May Not Be As Simple",
+   "summary": "Trump pushes oil producers to expand refineries to cut fuel costs, but projects take years and capacity is tight.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/commodities/26/09/61594650/trump-wants-more-refineries-amid-iran-war-oil-shocks-4-gas-it-may-not-be-as-simple",
+   "created_at": "2026-09-03T07:13:32Z",
+   "symbols": [
+    "CVX"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/03/President-Donald-Trump-pauses-as-he-spea.jpg?width=1024&height=768"
   },
   {
    "headline": "ChargePoint Stock Makes A Sharp 19% Move After Hours: Here's Why",
@@ -389,59 +448,6 @@
     "SNOW"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/09/03/Chinas-Exports-Surge-Despite-US-Shortfal.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Jeff Bezos’ Father Fled Cuba Alone at 16 — His Mother Made Him a Heavy Coat From Cleaning Rags: 'My Dad's Story Really Shows That People Help Each Other'",
-   "summary": "Jeff Bezos&#39; father Mike Bezos fled Cuba alone at 16 with a handmade coat and overcame language and financial hardships.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/09/61593300/jeff-bezos-father-fled-cuba-alone-at-16-mother-heavy-coat-cleaning-rags",
-   "created_at": "2026-09-03T00:46:49Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/03/New-York--Ny---May-15--2019-Jeff-Bezos-A.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "$1000 Invested In Baidu 20 Years Ago Would Be Worth This Much Today",
-   "summary": "Baidu (NASDAQ:BIDU) has outperformed the market over the past 20 years by 7.88% on an annualized basis producing an average annual return of 17.13%. Currently, Baidu has a market capitalization of $32",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/09/61593084/1000-invested-baidu-20-years-ago-would-be-worth-much-today",
-   "created_at": "2026-09-02T23:45:22Z",
-   "symbols": [
-    "BIDU"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_4.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Here’s How Much You Would Have Made Owning Warrior Met Coal Stock In The Last 5 Years",
-   "summary": "Warrior Met Coal (NYSE:HCC) has outperformed the market over the past 5 years by 22.59% on an annualized basis producing an average annual return of 33.71%. Currently, Warrior Met Coal has a market ca",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/09/61593048/here-s-how-much-you-would-have-made-owning-warrior-met-coal-stock-last-5-years",
-   "created_at": "2026-09-02T23:30:23Z",
-   "symbols": [
-    "HCC"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_1.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Here's How Much $1000 Invested In Hewlett Packard 10 Years Ago Would Be Worth Today",
-   "summary": "Hewlett Packard (NYSE:HPE) has outperformed the market over the past 10 years by 1.84% on an annualized basis producing an average annual return of 15.17%. Currently, Hewlett Packard has a market capi",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/09/61592923/here-s-how-much-1000-invested-hewlett-packard-10-years-ago-would-be-worth-today",
-   "created_at": "2026-09-02T23:15:24Z",
-   "symbols": [
-    "HPE"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_1.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "$1000 Invested In nVent Electric 5 Years Ago Would Be Worth This Much Today",
-   "summary": "nVent Electric (NYSE:NVT) has outperformed the market over the past 5 years by 23.61% on an annualized basis producing an average annual return of 34.74%. Currently, nVent Electric has a market capita",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/09/61592874/1000-invested-nvent-electric-5-years-ago-would-be-worth-much-today",
-   "created_at": "2026-09-02T23:00:33Z",
-   "symbols": [
-    "NVT"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_4.jpg?width=1024&height=768"
   }
  ]
 }
