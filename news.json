@@ -1,6 +1,32 @@
 {
- "updated": "2026-09-03 14:00",
+ "updated": "2026-09-03 15:00",
  "items": [
+  {
+   "headline": "Nvidia's 8% Grip on the S&P 500 Is Unlike Anything Wall Street Has Seen: Jensen Huang-Led Chipmaker is 'Making History,' Says This Commentator",
+   "summary": "Nvidia accounts for roughly 8% of the S&amp;P 500&#39;s total market cap, outweighing five of the index&#39;s 11 sectors combined.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/09/61594124/nvidia-8-percent-sp-500-grip-jensen-huang-making-history-commentator",
+   "created_at": "2026-09-03T05:34:16Z",
+   "symbols": [
+    "AAPL",
+    "MSFT",
+    "NVDA",
+    "QQQ",
+    "SMH"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/03/Shanghai-china-nov-22nd-2025-Nvidia-Corp.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Nvidia CEO Jensen Huang Says the ‘Single Worst Outcome’ for Any Country Is Being Left Behind in AI: Don't Regulate 'Theoretical Harm'",
+   "summary": "On Wednesday, Jensen Huang warned G20 countries that failing to embrace AI infrastructure is the “single worst outcome.”",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/09/61594003/nvidia-jensen-huang-single-worst-outcome-country-left-behind-ai-regulation-theoretical-harm",
+   "created_at": "2026-09-03T05:02:58Z",
+   "symbols": [
+    "NVDA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/03/Taipei--Taiwan-On-June-1--2023--Jen-hsun.jpg?width=1024&height=768"
+  },
   {
    "headline": "Ross Gerber Calls Uber's 3,300 Job Cuts ‘First Victims of the AI Era’—One Day Before Tesla Cybercab Launch",
    "summary": "Ross Gerber links ride-hailing giant Uber’s 10% layoffs to AI and its autonomous push, timed with Tesla’s Cybercab launch.",
@@ -180,33 +206,44 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/09/02/New-York-City--Usa---June-12--2023-Charg.jpg?width=1024&height=768"
   },
   {
-   "headline": "Salesforce Customers Are Burning Through AI Credits — and That’s Great News for Revenue",
-   "summary": "JPMorgan reiterates an Overweight rating on Salesforce (CRM) as AI-powered Agentforce drives consumption, upsells, and monetization.",
+   "headline": "Tillys (TLYS) Shares Jump 36% After Hours: Here's Why",
+   "summary": "Tillys shares jump after strong quarterly results and outlook.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/09/61578471/salesforce-customers-are-burning-through-ai-credits-and-thats-great-news-for-revenue",
-   "created_at": "2026-09-02T14:43:34Z",
+   "url": "https://www.benzinga.com/markets/equities/26/09/61594199/tillys-shares-jump-after-hours-strong-quarterly-results",
+   "created_at": "2026-09-03T05:53:07Z",
    "symbols": [
-    "CRM",
-    "FDN",
-    "IGV",
-    "MRAD"
+    "TLYS"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/02/Salesforce--Inc.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/03/Costa-Mesa--Ca--Usa---February-15-2023-A.jpg?width=1024&height=768"
   },
   {
-   "headline": "BlackRock: AI Boom Still in Phase 1 as Amazon, Google, Microsoft Fuel 'Massive Build-Out'",
-   "summary": "BlackRock’s Wei Li says AI is still in Phase 1 despite nearly $600 billion in Big Tech spending, with adoption and productivity still ahead.",
+   "headline": "FAA Proposes Permanent Airspace Restrictions Around Trump's Mar-a-Lago, Citing National Security",
+   "summary": "FAA proposes permanent airspace restrictions over Mar-a-Lago at the Secret Service’s request, citing security concerns for Trump.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/prediction-markets/26/09/61578412/blackrock-ai-boom-phase-1-big-tech",
-   "created_at": "2026-09-02T14:42:36Z",
+   "url": "https://www.benzinga.com/news/politics/26/09/61594136/faa-proposes-permanent-airspace-restrictions-around-trumps-mar-a-lago-citing-national-security",
+   "created_at": "2026-09-03T05:35:37Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/03/United-States-President-Donald-Trump-mee.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Ciena Gears Up For Q3 Print; Here Are The Recent Forecast Changes From Wall Street's Most Accurate Analysts",
+   "summary": "Ciena Corp (CIEN) to report Q3 earnings on Sept. 3. Analysts expect $1.73 EPS and $1.64B revenue. Analysts&#39; ratings and targets available.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/09/61594102/ciena-gears-up-for-q3-print-here-are-the-recent-forecast-changes-from-wall-streets-most-accurate-analysts-2",
+   "created_at": "2026-09-03T05:24:04Z",
    "symbols": [
-    "AMZN",
-    "BLK",
-    "GOOGL",
-    "MSFT",
-    "NVDA"
+    "CIEN"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/02/BlackRock.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/03/Cellphone-Displaying-Ciena-Corporation-L.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Scott Bessent Blames ‘Energy Shock’ Partly on Ukraine, Says Kyiv ‘Wants to Blow Up Russian Energy Assets’ as Iran War Keeps Oil Prices Elevated",
+   "summary": "Scott Bessent blames Ukraine’s strikes and the U.S.-Iran war for high global energy prices, but Ukrainian officials say otherwise.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/09/61594021/scott-bessent-blames-energy-shock-partly-on-ukraine-says-kyiv-wants-to-blow-up-russian-energy-assets-as-iran-war-keeps-oil-prices-elevated",
+   "created_at": "2026-09-03T05:13:24Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/03/Us-Treasury-Secretary--Scott-Bessent-Wal.jpg?width=1024&height=768"
   },
   {
    "headline": "Trump Suggests Renaming Strait of Hormuz to 'Trump Strait'; Bernie Sanders Says: 'You're the President, Not a Mad King'",
@@ -437,50 +474,6 @@
     "BTCUSD"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/09/02/Bitcoin-Souvenir-Coins--Cryptocurrency-G.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Full Transcript: Five Below Q2 2026 Earnings Call",
-   "summary": "On Wednesday, Five Below (NASDAQ:FIVE) discussed second-quarter financial results during its earnings call. The full transcript is provided below.\nThis transcript is brought to you by Benzinga APIs. F",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/09/61592419/full-transcript-five-below-q2-2026-earnings-call",
-   "created_at": "2026-09-02T21:51:08Z",
-   "symbols": [
-    "FIVE"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_3.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "If You Invested $1000 In Ultra Clean Hldgs Stock 20 Years Ago, You Would Have This Much Today",
-   "summary": "Ultra Clean Hldgs (NASDAQ:UCTT) has outperformed the market over the past 20 years by 1.31% on an annualized basis producing an average annual return of 10.56%. Currently, Ultra Clean Hldgs has a mark",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/09/61592330/if-you-invested-1000-ultra-clean-hldgs-stock-20-years-ago-you-would-have-much-today",
-   "created_at": "2026-09-02T21:45:32Z",
-   "symbols": [
-    "UCTT"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_2.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Hewlett Packard Q3 2026 Earnings Call Transcript",
-   "summary": "On Wednesday, Hewlett Packard (NYSE:HPE) discussed third-quarter financial results during its earnings call. The full transcript is provided below.\nBenzinga APIs provide real-time access to earnings c",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/09/61592313/hewlett-packard-q3-2026-earnings-call-transcript",
-   "created_at": "2026-09-02T21:43:15Z",
-   "symbols": [
-    "HPE"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_2.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Argan Reports Q2 2026 Results: Full Earnings Call Transcript",
-   "summary": "Argan (NYSE:AGX) released second-quarter financial results and hosted an earnings call on Wednesday. Read the complete transcript below.\nThis content is powered by Benzinga APIs. For comprehensive fin",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/09/61592291/argan-reports-q2-2026-results-full-earnings-call-transcript",
-   "created_at": "2026-09-02T21:41:41Z",
-   "symbols": [
-    "AGX"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_2.jpg?width=1024&height=768"
   }
  ]
 }
