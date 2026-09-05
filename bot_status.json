@@ -1,7 +1,7 @@
 {
- "updated": "2026-09-05 12:00",
- "session": "미국 공휴일 휴장",
- "equity": 100111.66,
+ "updated": "2026-09-05 13:00",
+ "session": "미국 주말 휴장",
+ "equity": 100116.95,
  "cash": 61822.33,
  "base": 100000.0,
  "positions": [
@@ -57,7 +57,7 @@
    "symbol": "ETH-USD",
    "qty": 3.10323661,
    "avg_cost": 0.0,
-   "now": 2453.384,
+   "now": 2455.09,
    "pnl_pct": 0.0,
    "peak_pnl_pct": 0.0,
    "drawdown_from_peak_pct": 0.0,
@@ -162,6 +162,6 @@
    "stoploss_triggered": false
   }
  ],
- "market_view": "[미국 공휴일 휴장] 미국 주식 거래 시간이 아니고 코인도 살 만한 신호가 없어 관망. (AI 판단 생략 — 비용 절감)",
+ "market_view": "[미국 주말 휴장] 미국 주식 거래 시간이 아니고 코인도 살 만한 신호가 없어 관망. (AI 판단 생략 — 비용 절감)",
  "trades": []
 }
