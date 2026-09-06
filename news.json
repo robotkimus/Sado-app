@@ -1,6 +1,20 @@
 {
- "updated": "2026-09-07 01:01",
+ "updated": "2026-09-07 02:00",
  "items": [
+  {
+   "headline": "Jensen Huang's Net Worth Up $36 Billion as Nvidia Stock Eyes Surge to Record High",
+   "summary": "The ongoing Nvidia stock surge has pushed Jensen Huang&#39;s net worth by over $48 billion and is the eighth-richest man in the world.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/09/61644761/jensen-huang-net-worth-is-up-36-billion-as-nvidia-stock-eyes-a-surge-to-record-high",
+   "created_at": "2026-09-06T16:54:40Z",
+   "symbols": [
+    "CRWV",
+    "INTC",
+    "NBIS",
+    "NVDA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/06/Jensen-Huang--Nvidia-Founder-And-Ceo-And.jpg?width=1024&height=768"
+  },
   {
    "headline": "Consumer Tech (Aug 31-Sep 4): NVIDIA Buys World's Largest Open AI Developer, Trump Claims Total Control On Hormuz & More",
    "summary": "President Donald Trump recently claimed the U.S. has “total control” over the Strait. NVIDIA acquire Hugging Face for $12.93 billion.",
@@ -199,17 +213,28 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/09/05/President-Donald-J--Trump-Signs-An-Execu.jpg?width=1024&height=768"
   },
   {
-   "headline": "Investors Put $182.6 Billion Into ETFs in August — but Pulled Money Out of Chip Funds",
-   "summary": "A closer look at where ETF money went in August reveals a surprising shift beneath the market’s biggest investment trends.",
+   "headline": "Zcash Jumps to Record High, Enters Crypto Top 10 List",
+   "summary": "Zcash has jumped to a record high and entered a top 10 of the biggest cryptocurrencies as institutional demand rises.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/etfs/sector-etfs/26/09/61641352/investors-put-182-6-billion-into-etfs-in-august-but-pulled-money-out-of-chip-funds",
-   "created_at": "2026-09-04T20:50:53Z",
+   "url": "https://www.benzinga.com/crypto/26/09/61644740/zcash-jumps-to-a-record-high-enters-crypto-top-10-list-amid-institutional-demand",
+   "created_at": "2026-09-06T16:30:22Z",
    "symbols": [
-    "SMH",
-    "SOXX",
-    "XLK"
+    "BTCUSD",
+    "ETHUSD",
+    "ZECUSD"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/04/Dubai-Bank-Example.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/06/Coin-Cryptocurrency-Zcash-On-The-Backgro.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Maye Musk Recounts 'Strange' Experience With Tesla's Cybercab Without a Steering Wheel And Pedals in 2024 Amid Austin Rollout: 'It Will Free Up…'",
+   "summary": "Tesla CEO Elon Musk&#39;s mother Maye Musk recalls Cybercab’s steering wheel-free ride as strange amid the EV&#39;s launch.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/09/61644713/maye-musk-recounts-strange-experience-with-teslas-cybercab-without-a-steering-wheel-and-pedals-in-2024-amid-austin-rollout-it-will-free-up",
+   "created_at": "2026-09-06T16:00:17Z",
+   "symbols": [
+    "TSLA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/06/Almaty--Kazakhstan---10-17-2024--Maye-Mu.jpg?width=1024&height=768"
   },
   {
    "headline": "Arbitrum's ARB Token Hits Eight-Month High as Robinhood Chain Metrics Surge",
@@ -414,32 +439,6 @@
     "GOOGL"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/09/05/Elon-Musk--founder--CEO--and-chief-engin.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Polymarket and Kalshi Traders Boost Fed Rate Hike Odds as US Inflation Report Looms",
-   "summary": "Traders on Polymarket are betting that the Federal Reserve will hike interest rates before the year ends as the US inflation report looms",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/09/61643866/polymarket-and-kalshi-traders-boost-fed-rate-hike-odds-as-us-inflation-report-looms",
-   "created_at": "2026-09-05T19:10:07Z",
-   "symbols": [
-    "CME"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/05/Mirans-Fed-Term-Extended.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Dash, Monero, Zcash Prices Soar as Crypto Investors Rotate to Privacy Coins",
-   "summary": "Top privacy coins like Dash, Monero, and Zcash prices jumped sharply and outperformed other coins as investors rotated to privacy coins.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/26/09/61643834/dash-monero-zcash-prices-soar-as-crypto-investors-rotate-to-privacy-coins",
-   "created_at": "2026-09-05T18:40:06Z",
-   "symbols": [
-    "BTCUSD",
-    "DASH",
-    "DASHUSD",
-    "ETHUSD",
-    "XMRUSD"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/05/Coin-Cryptocurrency-Zcash-On-The-Backgro.jpg?width=1024&height=768"
   }
  ]
 }
