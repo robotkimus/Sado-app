@@ -1,6 +1,19 @@
 {
- "updated": "2026-09-07 21:00",
+ "updated": "2026-09-07 22:00",
  "items": [
+  {
+   "headline": "Top Economist Fires Back at JD Vance Over Milton Friedman — ‘If He Bothered to Listen to Friedman, He Might Learn a Thing or Two’",
+   "summary": "Economist Steve Hanke defends Milton Friedman’s free-market legacy, telling VP JD Vance to &#34;stick to knitting&#34; over his Hamiltonian shift.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/macro-economic-events/26/09/61647702/top-economist-fires-back-at-jd-vance-over-milton-friedman-if-he-bothered-to-listen-to-friedman-he-might-learn-a-thing-or-two",
+   "created_at": "2026-09-07T12:13:16Z",
+   "symbols": [
+    "DIA",
+    "QQQ",
+    "SPY"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/07/Vice-President-JD-vance-attends-an-event.jpg?width=1024&height=768"
+  },
   {
    "headline": "Labor Market Red Flags: June Layoffs Revised Up by 19,000 While Hires Sink by 16,000",
    "summary": "June JOLTS data reveals US labor market red flags as layoffs are revised up by 19,000 and hires sink by 16,000 amid massive vacancy drops.",
@@ -181,19 +194,28 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/09/07/Wall-Street.jpg?width=1024&height=768"
   },
   {
-   "headline": "Amazon, Meta Are Now Serious Competition to Uncle Sam: Big Tech's AI Debt Boom 'Driving' Treasury Yields Higher, Says Market Commentator",
-   "summary": "Combined bond issuance from Big Tech companies is projected to surge to a record $320 billion this year, 70% of Treasury issuance.",
+   "headline": "OpenAI, Anthropic IPOs Could Spark a Selloff in These Struggling Stocks — IBM, Tesla, AppLovin Among Names at Risk",
+   "summary": "Post-Labor Day selling could pressure IBM, Tesla, AppLovin and other stocks as investors make room for AI IPOs.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/bonds/26/09/61646239/amazon-meta-big-tech-ai-debt-boom-treasury-yields-uncle-sam-competition",
-   "created_at": "2026-09-07T06:56:54Z",
+   "url": "https://www.benzinga.com/markets/equities/26/09/61647784/openai-anthropic-ipos-could-spark-a-selloff-in-these-struggling-stocks-ibm-tesla-applovin-among-names-at-risk",
+   "created_at": "2026-09-07T12:49:38Z",
    "symbols": [
-    "AMZN",
-    "GOOG",
-    "GOOGL",
-    "META",
-    "ORCL"
+    "APP",
+    "ASTS",
+    "FICO",
+    "FIS",
+    "FSLR"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/07/Rich-Paying-Too-Little-Rankles.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/07/Wall-Street-Sign-With-American-Flag-On-T.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "US Schools Are Pushing Back on AI as New York, Los Angeles and Chicago Consider Sweeping Restrictions",
+   "summary": "AI restrictions are spreading across U.S. schools as districts debate student safety, learning outcomes and classroom benefits.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/macro-economic-events/26/09/61647646/ai-restrictions-spreading-us-schools-student-classroom-use",
+   "created_at": "2026-09-07T12:04:46Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/07/Schools-Warn-Of-Hiring-Strain.jpg?width=1024&height=768"
   },
   {
    "headline": "Anthony Pompliano Raises Alarm Over August Jobs Report, Points to ‘Underlying Immigration Story’ — ‘You Don’t Get Such Significantly Skewed Results’",
@@ -337,33 +359,6 @@
    "created_at": "2026-09-07T07:10:51Z",
    "symbols": [],
    "image": "https://cdn.benzinga.com/files/images/story/2026/09/07/Prime-Minister-Of-Israel-Benjamin-Netany.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Kevin O'Leary Says Entrepreneurs Must Do One Thing to Survive: Listen to the Market",
-   "summary": "O’Leary warns entrepreneurs that rigid focus can become a weakness, urging them to listen to market signals, adapt and pivot to avoid failure.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/personal-finance/financial-advisors/26/09/61646218/kevin-oleary-warns-entrepreneurs-if-you-cant-pivot-you-will-fail",
-   "created_at": "2026-09-07T06:55:43Z",
-   "symbols": [
-    "COIN",
-    "MSFT"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/07/No-Near-Term-Cuts.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Cathie Wood Says AI Revolution Could Supercharge Global Growth — TSLA, COIN and CRSP Stocks Are Among Her Top Bets",
-   "summary": "Cathie Wood explains why Tesla, Coinbase, and CRISPR lead her &#34;Rapid Real Growth&#34; thesis as 5 tech platforms transform global GDP.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/09/61646202/cathie-wood-says-ai-revolution-could-supercharge-global-growth-tsla-coin-and-crsp-stocks-are-among-her-top-bets",
-   "created_at": "2026-09-07T06:46:44Z",
-   "symbols": [
-    "ARKK",
-    "BTCUSD",
-    "COIN",
-    "CRSP",
-    "TSLA"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/07/Cathie-Woods-Ark-Bets-Big-On-Solana-Trea.jpg?width=1024&height=768"
   }
  ]
 }
