@@ -1,6 +1,19 @@
 {
- "updated": "2026-09-08 01:00",
+ "updated": "2026-09-08 02:00",
  "items": [
+  {
+   "headline": "Tokenized Nvidia and Tesla Are Becoming Trending Crypto Trades, CoinMarketCap Says",
+   "summary": "CoinMarketCap says tokenized Nvidia and Tesla are trending alongside memecoins as retail investors blur asset-class boundaries.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/09/61648570/nvidia-tesla-crypto-trades",
+   "created_at": "2026-09-07T16:15:36Z",
+   "symbols": [
+    "BTCUSD",
+    "NVDA",
+    "TSLA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/07/Sorkin-compares-tokenization-to-1920s-tr.jpg?width=1024&height=768"
+  },
   {
    "headline": "Nvidia Isn't Just Buying Hugging Face—It's Expanding AI's Front Door",
    "summary": "Nvidia&#39;s Hugging Face acquisition may be less about AI models and more about expanding its reach across the AI developer ecosystem.",
@@ -178,16 +191,81 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/09/07/US-Treasury-Secretary-Scott-Bessent-walk.jpg?width=1024&height=768"
   },
   {
-   "headline": "Economist Robin Brooks Sounds Alarm on Treasury Market, Says Its Real Problem Is 'Worse Than Meets the Eye' as Yields Surge Amid Weak Data",
-   "summary": "Economist Robin Brooks said the Treasury market&#39;s underlying dynamic is more troubling than investors realize, as yields keep climbing.",
+   "headline": "Brent Jumps to $97, German AfD Party Wins Big: Stock Market Today",
+   "summary": "Europe closed mixed as the AfD&#39;s Saxony-Anhalt landslide and $97 Brent lifted bond yields, and Wall Street sat out Labor Day.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/economic-data/26/09/61646624/robin-brooks-says-the-treasury-market-is-worse-than-you-think-despite-weak-economic-data",
-   "created_at": "2026-09-07T08:31:48Z",
+   "url": "https://www.benzinga.com/markets/market-summary/26/09/61648701/brent-98-afd-saxony-anhalt-bund-yields-ecb-markets-monday-labor-day",
+   "created_at": "2026-09-07T16:46:53Z",
    "symbols": [
-    "QQQ",
-    "SPY"
+    "ASML",
+    "BP",
+    "IFNNY",
+    "LGRDY",
+    "NVS"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/07/United-States-Treasury-Check-Surrounded-.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/07/Brent-Crude-Oil-Price-Moving-Up--Increas.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Elon Musk’s Boring Company Has an Unusual Requirement for Its New Funding Round",
+   "summary": "Elon Musk&#39;s Boring Company reportedly asked some investors to help recruit talent and support business development in its latest funding round.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/private-markets/26/09/61648691/boring-company-funding-round",
+   "created_at": "2026-09-07T16:46:27Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/07/The-Boring-Company.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "$100 Invested In UnitedHealth Group 20 Years Ago Would Be Worth This Much Today",
+   "summary": "UnitedHealth Group (NYSE:UNH) has outperformed the market over the past 20 years by 1.51% on an annualized basis producing an average annual return of 10.72%. Currently, UnitedHealth Group has a marke",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/09/61648678/100-invested-unitedhealth-group-20-years-ago-would-be-worth-much-today",
+   "created_at": "2026-09-07T16:45:30Z",
+   "symbols": [
+    "UNH"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_2.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Big Tech Looks To Argentina As US Data Center Projects Face Resistance",
+   "summary": "Argentina’s Patagonia is attracting data center investors with cool temperatures, renewable energy, shale gas, vast land and improving economic conditions.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/large-cap/26/09/61648667/big-tech-looks-to-argentina-as-us-data-center-projects-face-resistance",
+   "created_at": "2026-09-07T16:45:05Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/07/Modern-Data-Technology-Center-With-Serve.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Here's How Much $1000 Invested In Spotify Technology 5 Years Ago Would Be Worth Today",
+   "summary": "Spotify Technology (NYSE:SPOT) has outperformed the market over the past 5 years by 5.39% on an annualized basis producing an average annual return of 16.97%. Currently, Spotify Technology has a marke",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/09/61648598/here-s-how-much-1000-invested-spotify-technology-5-years-ago-would-be-worth-today",
+   "created_at": "2026-09-07T16:30:29Z",
+   "symbols": [
+    "SPOT"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_1.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "If You Invested $100 In First Citizens BancShares Stock 15 Years Ago, You Would Have This Much Today",
+   "summary": "First Citizens BancShares (NASDAQ:FCNCA) has outperformed the market over the past 15 years by 6.06% on an annualized basis producing an average annual return of 19.4%. Currently, First Citizens BancS",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/09/61648559/if-you-invested-100-first-citizens-bancshares-stock-15-years-ago-you-would-have-much-today",
+   "created_at": "2026-09-07T16:15:23Z",
+   "symbols": [
+    "FCNCA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_3.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Here’s How Much You Would Have Made Owning MasTec Stock In The Last 15 Years",
+   "summary": "MasTec (NYSE:MTZ) has outperformed the market over the past 15 years by 4.56% on an annualized basis producing an average annual return of 17.91%. Currently, MasTec has a market capitalization of $18.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/09/61648441/here-s-how-much-you-would-have-made-owning-mastec-stock-last-15-years",
+   "created_at": "2026-09-07T16:00:32Z",
+   "symbols": [
+    "MTZ"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_4.jpg?width=1024&height=768"
   },
   {
    "headline": "Oracle's Biggest AI Risk May No Longer Be Spending",
@@ -381,85 +459,6 @@
    "created_at": "2026-09-07T13:12:12Z",
    "symbols": [],
    "image": "https://cdn.benzinga.com/files/images/story/2026/09/07/Norway-Flag-And-Big-Amount-Of-Golden-Bit.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Leading And Lagging Sectors For September 7, 2026",
-   "summary": "Gainers\n\n\n\nSymbol\nName\nPrice\nChange ($)\nChange (%)\nVolume\n\n\n\n\n(NYSE:XLK)\nState Street Technology Select Sector SPDR ETF\n186.95\n0.98\n0.52\n65.1K\n\n\n(NYSE:XLI)\nState Street Industrial Select Sector SPDR",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/etfs/sector-etfs/26/09/61647833/leading-and-lagging-sectors-september-7-2026",
-   "created_at": "2026-09-07T13:10:03Z",
-   "symbols": [
-    "XLB",
-    "XLC",
-    "XLE",
-    "XLF",
-    "XLI"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_1.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Goldman Sachs Flags $120 Oil Risk As Middle East Attacks Intensify",
-   "summary": "Goldman Sachs says oil could reach $120 a barrel if Middle East shipping attacks escalate, while favoring natural gas and diesel positions.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/events/26/09/61647821/goldman-sachs-flags-120-oil-risk-as-middle-east-attacks-intensify",
-   "created_at": "2026-09-07T13:09:01Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/07/Brent-Crude-Oil-Price-Moving-Up--Increas.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "OpenAI, Anthropic IPOs Could Spark a Selloff in These Struggling Stocks — IBM, Tesla, AppLovin Among Names at Risk",
-   "summary": "Post-Labor Day selling could pressure IBM, Tesla, AppLovin and other stocks as investors make room for AI IPOs.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/09/61647784/openai-anthropic-ipos-could-spark-a-selloff-in-these-struggling-stocks-ibm-tesla-applovin-among-names-at-risk",
-   "created_at": "2026-09-07T12:49:38Z",
-   "symbols": [
-    "APP",
-    "ASTS",
-    "FICO",
-    "FIS",
-    "FSLR"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/07/Wall-Street-Sign-With-American-Flag-On-T.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "US Schools Are Pushing Back on AI as New York, Los Angeles and Chicago Consider Sweeping Restrictions",
-   "summary": "AI restrictions are spreading across U.S. schools as districts debate student safety, learning outcomes and classroom benefits.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/macro-economic-events/26/09/61647646/ai-restrictions-spreading-us-schools-student-classroom-use",
-   "created_at": "2026-09-07T12:04:46Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/07/Schools-Warn-Of-Hiring-Strain.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Anthony Pompliano Raises Alarm Over August Jobs Report, Points to ‘Underlying Immigration Story’ — ‘You Don’t Get Such Significantly Skewed Results’",
-   "summary": "U.S. added 162,000 jobs in August, beating estimates, with 98% of gains going to women; Anthony Pompliano flags possible immigration-driven labor trends.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/economic-data/26/09/61647450/anthony-pompliano-raises-alarm-over-august-jobs-report-points-to-underlying-immigration-story-you-dont-get-such-significantly-skewed-results",
-   "created_at": "2026-09-07T11:02:34Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/07/Gen-X-Faces-Tougher-Layoffs--Thinner-Saf.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "TSLA Critic Gordon Johnson Rips Cybercab Launch After Elon Musk's ‘Storm of Cybercabs’ Promise: ‘The Robotaxi Story Was Never About Robotaxis'",
-   "summary": "Gordon Johnson says Tesla’s Cybercab launch fell short, with limited rides, no Musk or pricing, a 6% stock drop and an immediate NHTSA probe.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/09/61647406/tsla-critic-gordon-johnson-rips-cybercab-launch-after-elon-musks-storm-of-cybercabs-promise-the-robotaxi-story-was-never-about-robotaxis",
-   "created_at": "2026-09-07T10:47:41Z",
-   "symbols": [
-    "GOOG",
-    "GOOGL",
-    "TSLA"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/07/Cybercab-Spotted-Testing-In-Texas-and-Ca.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Iran, Oman Near ‘Safe Route’ Deal in Strait of Hormuz: Report",
-   "summary": "Iran and Oman are nearing a deal on safe shipping routes through the Strait of Hormuz amid rising U.S.-Iran tensions.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/09/61647388/iran-oman-near-safe-route-deal-in-strait-of-hormuz-report",
-   "created_at": "2026-09-07T10:44:21Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/07/Usa-And-Iran-Flags-Overlapping-A-Middle-.jpg?width=1024&height=768"
   }
  ]
 }
