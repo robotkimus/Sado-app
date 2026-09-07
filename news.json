@@ -1,6 +1,17 @@
 {
- "updated": "2026-09-07 14:00",
+ "updated": "2026-09-07 15:00",
  "items": [
+  {
+   "headline": "Ted Lieu Says Trump Administration Let AI Industry 'Run Wild’ as Survey Says 81% of Americans Demand AI Regulation: 'November Is Coming'",
+   "summary": "Rep. Ted Lieu warns that AI is fueling voter backlash as 81% of Americans say the government isn&#39;t doing enough to regulate it.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/09/61645878/ted-lieu-trump-administration-ai-industry-run-wild-81-percent-americans-ai-regulation",
+   "created_at": "2026-09-07T05:32:36Z",
+   "symbols": [
+    "NVDA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/07/Washington--Dc---March-13--2024-U-s--Rep.jpg?width=1024&height=768"
+  },
   {
    "headline": "Prime Air Boeing 767 Crashes While Landing at Miami Airport, Killing 5: Amazon Says 'Heartbroken' by Accident",
    "summary": "On Sunday, Amazon Prime Air&#39;s Boeing 767 crashed at Miami airport, killing five and critically injuring three.",
@@ -196,19 +207,31 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/09/05/Golden-Bitcoin-Coin-Is-In-Red-And-Blue-S.jpg?width=1024&height=768"
   },
   {
-   "headline": "Venice Token, Near Protocol, Worldcoin Tokens Jump as AI Tailwinds Rise",
-   "summary": "Here&#39;s why top AI tokens like Venice Token (VVV), Near Protocol (NEAR), and Worldcoin (WLD) are in a strong rally this year.",
+   "headline": "'Increasingly Difficult to Read With Confidence': Market Watcher Says on US Jobs Data After 3rd Downward Revision",
+   "summary": "Kobeissi Letter flags repeated downward JOLTS revisions, raising fresh concerns about U.S. labor market data.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/26/09/61643806/venice-token-near-protocol-worldcoin-tokens-jump-as-ai-tailwinds-rise",
-   "created_at": "2026-09-05T18:20:17Z",
-   "symbols": [
-    "GOOG",
-    "MSFT",
-    "NEAR",
-    "NEARUSD",
-    "NVDA"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/05/Majenang--Indonesia---August-3--2023-Wor.jpg?width=1024&height=768"
+   "url": "https://www.benzinga.com/markets/economic-data/26/09/61645946/kobeissi-letter-us-job-market-jolts-revisions",
+   "created_at": "2026-09-07T05:55:12Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/07/DoorDash.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Elizabeth Warren Says Republicans Will 'Outspend' and Trump Will 'Throw Dirt,' but Democrats Have What GOP Doesn't: 'That's How We Win'",
+   "summary": "Warren says Democrats can overcome Republican spending and attacks by investing in grassroots organizing, outreach and mobilizing supporters.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/09/61645932/elizabeth-warren-republicans-outspend-trump-throw-dirt-democrats-win",
+   "created_at": "2026-09-07T05:45:50Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/07/Arlington--Va---February-13--2020-Senato.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Trump Calls Dollar-Loonie Gap 'Unacceptable' and Says 'It Has Been That Way for Years'",
+   "summary": "President Trump said the exchange rate between the U.S. and Canadian dollar is &#39;unacceptable,&#39; two days before new tariffs take effect.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/09/61645855/trump-calls-canadas-currency-imbalance-unacceptable-amid-escalating-tariff-fight-with-carney",
+   "created_at": "2026-09-07T05:28:26Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/07/Washington--Dc--On-June-18--2025--Us-Pre.jpg?width=1024&height=768"
   },
   {
    "headline": "Dash Beat Bitcoin, Ethereum and Solana Last Week and Sprang to Take Place in Top 3 Gainers: Here's the Coin on the Top",
@@ -459,44 +482,6 @@
     "SPY"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/09/06/Wall-Street-New-York-Stock-Exchange.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Zcash Jumps to Record High, Enters Crypto Top 10 List",
-   "summary": "Zcash has jumped to a record high and entered a top 10 of the biggest cryptocurrencies as institutional demand rises.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/26/09/61644740/zcash-jumps-to-a-record-high-enters-crypto-top-10-list-amid-institutional-demand",
-   "created_at": "2026-09-06T16:30:22Z",
-   "symbols": [
-    "BTCUSD",
-    "ETHUSD",
-    "ZECUSD"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/06/Coin-Cryptocurrency-Zcash-On-The-Backgro.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Maye Musk Recounts 'Strange' Experience With Tesla's Cybercab Without a Steering Wheel And Pedals in 2024 Amid Austin Rollout: 'It Will Free Up…'",
-   "summary": "Tesla CEO Elon Musk&#39;s mother Maye Musk recalls Cybercab’s steering wheel-free ride as strange amid the EV&#39;s launch.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/09/61644713/maye-musk-recounts-strange-experience-with-teslas-cybercab-without-a-steering-wheel-and-pedals-in-2024-amid-austin-rollout-it-will-free-up",
-   "created_at": "2026-09-06T16:00:17Z",
-   "symbols": [
-    "TSLA"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/06/Almaty--Kazakhstan---10-17-2024--Maye-Mu.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Arbitrum's ARB Token Hits Eight-Month High as Robinhood Chain Metrics Surge",
-   "summary": "Robinhood Chain is seeing a surge in metrics, which is helping fuel the Arbitrum ARB token, which has soared to its highest point since January.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/26/09/61644687/arbitrums-arb-token-hits-january-highs-as-robinhood-chain-metrics-surge",
-   "created_at": "2026-09-06T15:30:41Z",
-   "symbols": [
-    "ARB",
-    "ARBUSD",
-    "HOOD",
-    "USDCUSD"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/06/Robinhood-Mobile-App-Icon-On-Smartphone-.jpg?width=1024&height=768"
   }
  ]
 }
