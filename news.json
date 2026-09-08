@@ -1,6 +1,33 @@
 {
- "updated": "2026-09-08 20:00",
+ "updated": "2026-09-08 21:00",
  "items": [
+  {
+   "headline": "Why Is Oracle Stock Surging on Tuesday?",
+   "summary": "Oracle Corp. (NYSE: ORCL) stock surges on Tuesday amid excitement over its upcoming Q1 earnings report and expanding AI infrastructure partnerships.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/09/61654486/why-is-oracle-stock-surging-on-tuesday-2",
+   "created_at": "2026-09-08T11:55:45Z",
+   "symbols": [
+    "META",
+    "ORCL",
+    "SPCX"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/08/Konskie--Poland---November-13--2024-Orac.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Nvidia, Oracle, KLA And An Industrial Stock: CNBC’s ‘Final Trades’",
+   "summary": "CNBC traders picked FTAI Aviation, KLA and Oracle as final trades, while praising NVIDIA’s Hugging Face deal.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/09/61653579/nvidia-oracle-kla-ftai-avaiation-cnbc-final-trades",
+   "created_at": "2026-09-08T11:11:15Z",
+   "symbols": [
+    "FTAI",
+    "KLAC",
+    "NVDA",
+    "ORCL"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/08/Logo-For-FTAI-Aviation-Ltd.jpg?width=1024&height=768"
+  },
   {
    "headline": "'Black Swan' Investor Agrees With Michael Burry on AI Risks — But His $20 Billion Hedge Fund Actually Wants Investors to Stay Bullish",
    "summary": "Black Swan chief Mark Spitznagel agrees with Michael Burry on AI risks, but predicts one final euphoric market rally before a historic crash.",
@@ -170,34 +197,97 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/09/08/New-York--Ny---April-5--2019-Democratic-.jpg?width=1024&height=768"
   },
   {
-   "headline": "Nvidia's 3-Year-Old H100 Chip Is Still Getting the Market to Pay Up, Jensen Huang Says Compute Is 'Fungible, Durable and Highly Rentable'",
-   "summary": "Huang says Nvidia’s older AI chips are holding their value, bolstering the case for treating GPUs as productive assets.",
+   "headline": "Nebius Just Became Palantir’s Preferred Sovereign AI Infrastructure Partner",
+   "summary": "Nebius (NBIS) stock jumps 3% premarket after partnering with Palantir (PLTR) for sovereign AI infrastructure. Technicals stay bullish.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/09/61649815/nvidia-h100-3-year-old-chip-jensen-huang-compute-fungible-durable-rentable",
-   "created_at": "2026-09-08T02:44:01Z",
+   "url": "https://www.benzinga.com/markets/tech/26/09/61654365/nebius-just-became-palantirs-preferred-sovereign-ai-partner",
+   "created_at": "2026-09-08T11:51:37Z",
    "symbols": [
-    "APO",
-    "BAM",
-    "BLK",
-    "BX",
-    "GS"
+    "NBIG",
+    "NBIS",
+    "PLTR"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/08/Taipei--Taiwan-On-June-1--2023--Jen-hsun.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/08/Austin--Usa---September-13--2025-Nebius-.jpg?width=1024&height=768"
   },
   {
-   "headline": "10 Consumer Discretionary Stocks With Whale Alerts In Today’s Session",
-   "summary": "This whale alert can help traders discover the next big trading opportunities.\nWhales are entities with large sums of money and we track their transactions here at Benzinga on our options activity sca",
+   "headline": "D-Wave Secures up to $100 Million in US Funding",
+   "summary": "D-Wave Quantum Inc. (NASDAQ: QBTS) stock rebounds after finalizing $100M U.S. deal for next-gen quantum systems.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/options/26/09/61648802/10-consumer-discretionary-stocks-whale-alerts-today-s-session",
-   "created_at": "2026-09-07T17:35:15Z",
+   "url": "https://www.benzinga.com/markets/tech/26/09/61654128/d-wave-secures-up-to-100-million-in-us-funding",
+   "created_at": "2026-09-08T11:39:01Z",
    "symbols": [
-    "ABNB",
-    "AMZN",
-    "BABA",
-    "DASH",
-    "EXPE"
+    "QBTS",
+    "QBTX",
+    "WQTM",
+    "XQTM"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/aggregated_options_1.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/08/D-Wave.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Wall Street's Most Accurate Analysts Spotlight On 3 Health Care Stocks Delivering High-Dividend Yields",
+   "summary": "Analyst ratings and news for high-yield healthcare stocks Medtronic (3.06%), Smith &amp; Nephew (2.74%) and GSK (3.65%).",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/dividends/26/09/61653991/wall-streets-most-accurate-analysts-spotlight-on-3-health-care-stocks-delivering-high-dividend-yields-15",
+   "created_at": "2026-09-08T11:33:06Z",
+   "symbols": [
+    "GSK",
+    "MDT",
+    "SNN"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/08/Defensive-Stocks-Puzzle-Utilities-Health.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "AI Could Eventually Crack Cancer and Drug Discovery, Says Arm CEO — But This Is What’s Holding It Back",
+   "summary": "Arm Holdings PLC (NASDAQ: ARM) CEO Rene Haas said AI could help find a cure for cancer within our lifetime, but warned that chip shortages are limiting the expansion of AI infrastructure.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/09/61653857/ai-could-eventually-crack-cancer-and-drug-discovery-says-arm-ceo-but-this-is-whats-holding-it-back",
+   "created_at": "2026-09-08T11:29:57Z",
+   "symbols": [
+    "TSM"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/08/Doctor-Using-A-Tablet-With-Ai--Medical-C.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "How To Earn $500 A Month From Signet Jewelers Stock Ahead Of Q2 Earnings",
+   "summary": "Signet Jewelers reports Q2 results Sept. 9; analysts expect $1.74 EPS and $1.53B revenue. Its 1.64% yield requires $365,596 for $500 monthly.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/dividends/26/09/61653763/how-to-earn-500-a-month-from-signet-jewelers-stock-ahead-of-q2-earnings",
+   "created_at": "2026-09-08T11:18:07Z",
+   "symbols": [
+    "SIG"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/08/Coppell--Tx--Usa---March-19--2022-Signet.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "ZIM Stock Jumps Nearly 7% Premarket: What's Going On?",
+   "summary": "ZIM shares jumped nearly 6% premarket as Hapag-Lloyd &amp; FIMI revised their $4.2B acquisition bid to address Israeli security concerns.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/09/61653353/zim-stock-jumps-nearly-7-premarket-whats-going-on",
+   "created_at": "2026-09-08T11:03:10Z",
+   "symbols": [
+    "ZIM"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/08/New-York--Ny--Usa---11-05-2024-Wall-Stre.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Kevin O’Leary Shares the One Rule From His Mother He’s Followed His Entire Life: 'People May Not Like Me for It'",
+   "summary": "Kevin O’Leary says his mother’s advice to always tell the truth shaped his blunt communication, even when honesty makes him unpopular.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/personal-finance/financial-advisors/26/09/61653226/kevin-oleary-shares-the-one-rule-from-his-mother-hes-followed-his-entire-life-people-may-not-like-me-for-it",
+   "created_at": "2026-09-08T11:00:36Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/08/OLeary-Warns-on-Credit-Debt.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Top Economist Slams Trump’s Venezuela Oil Deal ‘Theft’ — ‘Toppled Their Leader’ and ‘Had Him Sign Over Billions’",
+   "summary": "Economist Justin Wolfers calls Trump’s Venezuela oil deal “theft,” criticizing regime change and the transfer of oil rights.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/09/61653110/top-economist-slams-trumps-venezuela-oil-deal-theft-toppled-their-leader-and-had-him-sign-over-billions",
+   "created_at": "2026-09-08T10:58:08Z",
+   "symbols": [
+    "CVX"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/08/Venezuela-Oil-Crude-Petroleum-Fuel-Barre.jpg?width=1024&height=768"
   },
   {
    "headline": "Faraday Future Posts Best-Ever Month for Robot Sales",
@@ -372,108 +462,6 @@
     "SPRX"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/09/08/Nokia.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Taiwan Semiconductor, ASML Join Forces to Make Advanced Chips Cheaper, Faster",
-   "summary": "Taiwan Semiconductor partners with ASML on 12-inch EUV photomasks to boost productivity, cut costs, and power next-gen AI tech.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/09/61651703/taiwan-semiconductor-asml-join-forces-to-make-advanced-chips-cheaper-faster",
-   "created_at": "2026-09-08T09:28:41Z",
-   "symbols": [
-    "ASML",
-    "BAFE",
-    "OSEA",
-    "SMH",
-    "TSM"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/08/Tainan--Taiwan--September-30--2021-Taiwa.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Raoul Pal Says There’s ‘Almost No Way’ AI Data Centers Don’t Trigger a Supercycle — 3 Stocks Positioned to Benefit",
-   "summary": "Data centers are being built at less than a third of the pace the AI race demands, says macro investor Raoul Pal.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/09/61651775/raoul-pal-says-data-centers-are-only-30-percent-built-and-calls-it-an-inevitable-supercycle",
-   "created_at": "2026-09-08T09:39:59Z",
-   "symbols": [
-    "ACM",
-    "EME",
-    "PWR",
-    "STRL"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/08/Modern-Data-Center-With-Computer-Servers.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Elon Musk Says ‘Pretty Much’ After Meme Mocks Waymo’s Sensor-Packed Robotaxi, as Self-Driving Rivalry Heats Up",
-   "summary": "Elon Musk endorsed a meme on X mocking Waymo’s sensor-laden robotaxis, highlighting Tesla’s camera-and-AI approach.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/09/61651756/elon-musk-says-pretty-much-after-meme-mocks-waymos-sensor-packed-robotaxi-as-self-driving-rivalry-heats-up",
-   "created_at": "2026-09-08T09:35:19Z",
-   "symbols": [
-    "GOOG",
-    "GOOGL",
-    "TSLA",
-    "VOLVF"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/08/Bellevue--Wa--Usa---Dec-5--2024-The-Cybe.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Apple's 'Surprise and Shine' Launch: From iPhone 18 Pro to the First Foldable iPhone and Next-Gen Apple Watch, Here's What to Expect",
-   "summary": "Apple’s Sept. 9 event may unveil iPhone 18 Pro, a foldable iPhone Ultra, new Apple Watches and AirPods, and CEO succession.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/09/61651680/apples-surprise-and-shine-launch-from-iphone-18-pro-to-the-first-foldable-iphone-and-next-gen-apple-watch-heres-what-to-expect",
-   "created_at": "2026-09-08T09:26:08Z",
-   "symbols": [
-    "AAPL",
-    "SSNLF"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/08/Cupertino--California--September-25--202.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "China’s Record Trade Surplus Is Becoming a Global Problem, Former US Trade Chief Warns: ‘Chinese Overcapacity is Approaching a Breaking Point’",
-   "summary": "China’s export surplus is nearing global limits, raising risks for trade, manufacturing and economies dependent on Chinese demand.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/macro-economic-events/26/09/61651669/chinas-record-trade-surplus-is-becoming-a-global-problem-former-us-trade-chief-warns-chinese-overcapacity-is-approaching-a-breaking-point",
-   "created_at": "2026-09-08T09:25:22Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/08/Us-China-Trade-War-Containers.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Canada Claps Back at Trump With Retaliatory Tariffs on More Than $20 Billion of US Goods, Hitting Steel, Milk and More",
-   "summary": "Canada’s new tariffs on over $20 billion of U.S. goods take effect, targeting steel, milk, apparel and other imports.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/macro-notification/26/09/61651457/canada-claps-back-at-trump-with-retaliatory-tariffs-on-more-than-20-billion-of-us-goods-hitting-steel-milk-and-more",
-   "created_at": "2026-09-08T09:06:16Z",
-   "symbols": [
-    "CAT",
-    "DE",
-    "NUE",
-    "TGT",
-    "WMT"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/08/The-Canadian-Financial-Data-Display-Feat.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Academy Sports Likely To Report Higher Q2 Earnings; These Most Accurate Analysts Revise Forecasts Ahead Of Earnings Call",
-   "summary": "Academy Sports is expected to post higher Q2 earnings and revenue, while analysts recently trimmed price targets and maintained mixed ratings.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/09/61651454/academy-sports-likely-to-report-higher-q2-earnings-these-most-accurate-analysts-revise-forecasts-ahead-of-earnings-call",
-   "created_at": "2026-09-08T09:06:09Z",
-   "symbols": [
-    "ASO"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/08/Morgan-Stanley-strategist-Denny-Galindo-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Claudia Sahm Now Sees Fed Rate Hike As the ‘Appropriate Policy,’ Says She’s ‘No Longer Confident’ Inflation Will Return to 2%",
-   "summary": "Former Fed economist Claudia Sahm views a rate hike as &#39;appropriate policy&#39; for next week&#39;s Fed meeting.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/economic-data/26/09/61651428/claudia-sahm-views-a-fed-rate-hike-as-appropriate-policy-ahead-of-next-weeks-meeting",
-   "created_at": "2026-09-08T09:03:11Z",
-   "symbols": [
-    "IEF",
-    "TLT"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/08/Federal-Reserve.jpg?width=1024&height=768"
   }
  ]
 }
