@@ -1,6 +1,21 @@
 {
- "updated": "2026-09-10 16:00",
+ "updated": "2026-09-10 17:00",
  "items": [
+  {
+   "headline": "Forget NVDA: Peter Thiel's New $419 Million Portfolio Bets Big on the Power Behind AI",
+   "summary": "Peter Thiel skipped chipmakers to make a concentrated $419M bet on AI power grid utilities and energy infrastructure. See his Q2 holdings.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/hedge-funds/26/09/61705655/forget-nvda-peter-thiels-new-419-million-portfolio-bets-big-on-the-power-behind-ai",
+   "created_at": "2026-09-10T07:56:17Z",
+   "symbols": [
+    "AEP",
+    "AMZN",
+    "CMS",
+    "DTE",
+    "FE"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/10/Cleveland--Ohio--Usa--July-21--2016-Pete.jpg?width=1024&height=768"
+  },
   {
    "headline": "Stock Market: Will S&P 500 Open Up or Down Today?",
    "summary": "Will the S&amp;P 500 open higher? Polymarket odds jump to 70% as Wall Street awaits key PPI inflation data, tech earnings, and $100 Brent crude.",
@@ -197,19 +212,97 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/09/09/Konskie--Poland---May-03--2025-Nebius-Gr.jpg?width=1024&height=768"
   },
   {
-   "headline": "Oil Tops $100, Meta and Cloudflare Jump On AI Breakthroughs: Stock Market Today",
-   "summary": "Brent crude pushes above $100 a barrel for the first time since July as US-Iran strikes escalated, equities slip broadly.",
+   "headline": "TSMC August Revenue Surges 53% as AI Chip Demand Powers Record Sales",
+   "summary": "TSMC August revenue hit a record $16.35 billion, surging 53% year over year as AI chip demand drives growth.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/09/61694601/oil-tops-100-meta-cloudflare-jump-ai-breakthroughs-markets-wednesday",
-   "created_at": "2026-09-09T17:04:58Z",
+   "url": "https://www.benzinga.com/markets/tech/26/09/61705564/tsmc-august-revenue-surges-53-as-ai-chip-demand-powers-record-sales",
+   "created_at": "2026-09-10T07:45:10Z",
    "symbols": [
-    "AKAM",
-    "ALAB",
-    "CASY",
-    "CHWY",
-    "DDOG"
+    "TSMC"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/09/Markets-up.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/10/Tsmc-taiwan-Semiconductor-Manufacturing-.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Investors Showing 'Complacency' Even as Geopolitical, Economic Risks On the Rise, Says UBS CEO:",
+   "summary": "UBS Group AG&#39;s (NYSE:UBS) CEO Sergio Ermotti warned that investors have grown complacent, in spite of rising geopolitical and economic risks.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/09/61705563/investors-showing-complacency-even-as-geopolitical-economic-risks-on-the-rise-says-ubs-ceo",
+   "created_at": "2026-09-10T07:45:04Z",
+   "symbols": [
+    "UBS"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/10/Two-Diverse-Crypto-Traders-Brokers-Stock.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Scott Bessent's Treasury Getting a Fight From the Bond Market Despite $6 Billion Buyback: Market Watcher Says Borrowers 'in for a Rude Awakening'",
+   "summary": "The bond market is defying the Treasury as yields rallied even after it tripled its long-term bond buyback to $6 billion.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/economic-data/26/09/61705465/scott-bessent-treasury-bond-market-6-billion-buyback-rude-awakening",
+   "created_at": "2026-09-10T07:40:37Z",
+   "symbols": [
+    "IEF",
+    "TLT"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/10/Us-Treasury-Secretary--Scott-Bessent-Wal.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Kevin O'Leary Wants 5% of His Portfolio in One Unusual Asset Class: ‘It's a Real Problem’",
+   "summary": "Kevin O&#39;Leary details his card-collecting strategy and the story behind an $11 million Ohtani gold logoman card.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/personal-finance/financial-advisors/26/09/61705441/kevin-oleary-wants-5-of-his-portfolio-in-one-unusual-asset-class-its-a-real-problem",
+   "created_at": "2026-09-10T07:39:19Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/10/OLeary-Credits-Wifes-Rule-For-His-Wealth.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Greenwave Technology Stock Jumps Over 16% After Hours on CEO's $8 Million Insider Stock Deal",
+   "summary": "Greenwave Technology Solutions shares gained after hours Wednesday after its CEO acquired over 2.1 million shares through a debt settlement.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/09/61705407/greenwave-technology-shares-gain-after-hours-ceo-insider-trade",
+   "created_at": "2026-09-10T07:34:37Z",
+   "symbols": [
+    "GWAV"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/10/Creative-Glowing-Candlestick-Forex-Chart.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "iPhone 18 Pro Debuts C2 Modem As Apple Keeps Weaning Off Qualcomm — Pro Max Isn't Ready to Let Go",
+   "summary": "Apple is reducing Qualcomm dependence with its C2 modem in new hardware devices while the Pro Max keeps Qualcomm.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/09/61705356/iphone-18-pro-c2-modem-pro-max-qualcomm-apple-weaning-off",
+   "created_at": "2026-09-10T07:29:24Z",
+   "symbols": [
+    "AAPL",
+    "INTC",
+    "QCOM"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/10/iPhone-18-Pro-Colours.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Cathie Wood is Optimistic About Blockchains — Ark Analyst Explains Why The Tech Underpinning Bitcoin Has Parallels With Fast Food Chains",
+   "summary": "Renowned investor Cathie Wood noted on Wednesday, September 9, that blockchains have existed for a long time and that new launches will keep coming.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/09/61705304/cathie-wood-blockchain-bitcoin-fast-food-chains-ark-analyst",
+   "created_at": "2026-09-10T07:21:11Z",
+   "symbols": [
+    "BTCUSD",
+    "CMG",
+    "ETHUSD",
+    "HYPEUSD",
+    "MCD"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/10/Handsome-Man-Sitting-In-Cafe-Near-The-Wi.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Ted Cruz Warns ‘Whole World Is in Trouble’ if China Leads AI, Says ‘We Need Guardrails’",
+   "summary": "Cruz warns AI’s rapid growth could bring catastrophic risks, urging U.S. safeguards while maintaining leadership to prevent China from dominating.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/09/61705191/ted-cruz-warns-whole-world-is-in-trouble-if-china-leads-ai-urges-us-to-act-on-dangerous-and-frightening-risks",
+   "created_at": "2026-09-10T07:11:51Z",
+   "symbols": [
+    "SPCX"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/10/Ted-Cruz.jpg?width=1024&height=768"
   },
   {
    "headline": "Elon Musk Says Anthropic’s 15% US GDP Growth Scenario Will 'Certainly Be True’ Once Humanoid Robots Reach Volume Production",
@@ -400,79 +493,6 @@
     "UFG"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/09/10/Acciones.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Elon Musk Says Autopilot Wasn’t in Use During Tesla Crash, Slams ‘Legacy Media’",
-   "summary": "Elon Musk says Autopilot wasn’t involved in a fatal Tesla crash, slams Legacy Media&#39;s coverage of Tesla incidents.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/09/61704395/elon-musk-says-autopilot-wasnt-in-use-during-tesla-crash-slams-legacy-media",
-   "created_at": "2026-09-10T03:57:37Z",
-   "symbols": [
-    "SPCX",
-    "TSLA"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/10/Elon-Musk-Is-A-Businessman-Known-For-His.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Trump Says Iran War Will End 'Immediately After' the Midterms, Peter Schiff Calls It His 'Latest Lie': Economist Warns of 'Upward Pressure' on Oil Prices",
-   "summary": "President Trump said that the war with Iran will end immediately after the midterm elections, while investor Peter Schiff called it his &#34;latest lie.&#34;",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/economic-data/26/09/61704383/trump-iran-war-midterms-peter-schiff-latest-lie-oil-prices",
-   "created_at": "2026-09-10T03:53:40Z",
-   "symbols": [
-    "BNO",
-    "UCO",
-    "USO"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/10/Trump.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Hunter Biden Should 'Go Back to Painting,' Says Eric Trump as LAPTOP Coin Sinks 98% Soon After Launch",
-   "summary": "Hunter Biden addressed the controversy over the launch of his LAPTOP memecoin, which crashed 98% within an hour of going live on Wednesday, September 9,",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/09/61704294/eric-trump-hunter-biden-laptop-coin-98-percent-crash-go-back-to-painting",
-   "created_at": "2026-09-10T03:04:58Z",
-   "symbols": [
-    "BTCUSD",
-    "TRUMPUSD",
-    "ZECUSD"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/10/Hunter-Biden-Addressed-The-Media-On-Dece.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Scott Bessent Says Asian Scam Centers 'Steal Billions' From Americans Each Year: Treasury Will 'Disrupt' the Networks Behind 'Egregious Fraud'",
-   "summary": "Scott Bessent said scam centers in Southeast Asia steal billions from Americans, as Treasury sanctioned Xinbi Guarantee.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/09/61704186/scott-bessent-asian-scam-centers-steal-billions-americans-treasury-disrupt-fraud-networks",
-   "created_at": "2026-09-10T02:16:07Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/10/January-16--2025---Washington-Dc-The-Sen.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Gene Munster Says Apple Regained 'Device Design Mojo' With $1,999 iPhone Duo: 'They're Going to Sell More Than I Thought'",
-   "summary": "On Wednesday, Apple Inc. (NASDAQ:AAPL) unveiled the iPhone Duo at its first major product event under CEO John Ternus, marking the company’s entry into the foldable smartphone market.\n\n\n\niPhone Duo Ge",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/09/61704086/gene-munster-apple-iphone-duo-1999-device-design-mojo-sales",
-   "created_at": "2026-09-10T02:06:29Z",
-   "symbols": [
-    "AAPL"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/10/Apple-iPhone-Duo.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Bitcoin, Ethereum, XRP, Dogecoin Dip: Top Analyst Says BTC Whales 'Staying on Sidelines' as CPI Data, Fed Move on Interest Rates Loom",
-   "summary": "Leading cryptocurrencies declined on Wednesday as investors reacted to a spike in Treasury yields and rising tensions between the U.S. and Iran.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/09/61704051/bitcoin-ethereum-xrp-dogecoin-dip-btc-whales-sidelines-cpi-fed-rates",
-   "created_at": "2026-09-10T01:50:01Z",
-   "symbols": [
-    "BMNR",
-    "BTCUSD",
-    "DOGEUSD",
-    "ETHUSD",
-    "MSTR"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/10/Bitcoin-Coins-On-Reflective-Black-Surfac.jpg?width=1024&height=768"
   }
  ]
 }
