@@ -1,6 +1,21 @@
 {
- "updated": "2026-09-11 15:00",
+ "updated": "2026-09-11 16:00",
  "items": [
+  {
+   "headline": "Nvidia CEO Jensen Huang Said Nvidia Compute Is 'Fungible, Durable and Highly Rentable' — Now Oracle CEO Stands Impressed as 4-Year Old GPUs Fetch 20% Premium",
+   "summary": "Oracle says four-year-old GPUs are being renewed or resold at a 20% premium, backing Jensen Huang’s bullish view on AI hardware longevity.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/09/61732096/nvidia-jensen-huang-compute-fungible-durable-rentable-oracle",
+   "created_at": "2026-09-11T06:47:52Z",
+   "symbols": [
+    "APO",
+    "BAM",
+    "BLK",
+    "BX",
+    "GS"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/11/Warsaw--Poland--28-September-2018--Sign-.jpg?width=1024&height=768"
+  },
   {
    "headline": "Stock Market: Will S&P 500 Open Up or Down Today?",
    "summary": "Will the S&amp;P 500 open higher? Polymarket odds balance bullish at 64% as Wall Street awaits crucial CPI data and monitors Red Sea escalations.",
@@ -190,19 +205,58 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/09/10/Semiconductor-Or-Microchip-Concepts-tech.jpg?width=1024&height=768"
   },
   {
-   "headline": "Trump’s $5K Free Money Could Be A Market Bonanza; China, Russia, Iran Leaders Meet In India; PPI Pushes Fed Rate-Hike Odds To 70%",
-   "summary": "\n\n\n\nFree Money Proposal\n\n\n\nPlease click here for an enlarged chart of Invesco QQQ Trust Series 1 (NASDAQ:QQQ).\n\n\n\nNote the following:\n\n\n\n\nThe chart shows QQQ has been vacillating between zone 1 (resis",
+   "headline": "Josh Hawley Says OpenAI Knew AI Agents Were Exhibiting ‘Rogue Behavior’ But ‘Let The Evaluations Continue Anyway’ After Hugging Face Breach",
+   "summary": "Sen. Hawley demanded OpenAI records, accusing it of continuing tests after AI agents went rogue, breached Hugging Face and evaded safeguards.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/Opinion/26/09/61717941/trumps-5k-free-money-could-be-a-market-bonanza-china-russia-iran-leaders-meet-in-india-ppi-pushes-fed-rate-hike-odds-to-70",
-   "created_at": "2026-09-10T15:08:13Z",
+   "url": "https://www.benzinga.com/markets/tech/26/09/61732113/josh-hawley-says-openai-knew-ai-agents-were-exhibiting-rogue-behavior-but-let-the-evaluations-continue-anyway-after-hugging-face-breach",
+   "created_at": "2026-09-11T06:55:14Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/11/Brooklyn--Ny--Usa--11-22-20-Sam-Altman-A.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "SpaceX Closes $1.11 Billion-a-Month Compute Deal as CFO Doubles Down on $100 Billion ARR Target",
+   "summary": "SpaceX CFO says a new AI compute deal adds $13B+ annual recurring revenue for the company, bolstering its $100B ARR goal.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/09/61731919/spacex-closes-1-11-billion-a-month-compute-deal-as-cfo-doubles-down-on-100-billion-arr-target",
+   "created_at": "2026-09-11T06:39:33Z",
    "symbols": [
-    "AAPL",
-    "AMZN",
-    "BTCUSD",
     "GOOG",
-    "META"
+    "GOOGL",
+    "GS",
+    "SPCX"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/10/Donald-Trump.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/11/Paris--France---February-3--2026-A-Horiz.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "XORTX Therapeutics (XRTX) Stock Climbs 16% After Hours: Here's What You Need to Know",
+   "summary": "XORTX Therapeutics shares rose 16.11% after hours after the biotech announced a key manufacturing milestone for its lead gout program.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/09/61731887/xortx-therapeutics-shares-rise-after-hours-manufacturing-milestone-gout-program",
+   "created_at": "2026-09-11T06:37:15Z",
+   "symbols": [
+    "XRTX"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/11/Medication-In-Transparent-Capsules-On-A-.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "China Says US Tariff Cuts Could Come ‘At an Early Date’ as Trump, Xi Gear Up for Washington Summit",
+   "summary": "China seeks early reciprocal tariff cuts on $30B in goods ahead of the Trump-Xi Sept. 24 summit, alongside agriculture and trade commitments.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/09/61731868/china-says-us-tariff-cuts-could-come-at-an-early-date-as-trump-xi-gear-up-for-washington-summit",
+   "created_at": "2026-09-11T06:25:09Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/11/Usa-And-China-Flags-Painted-On-Cracked-W.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "CPI Card Group (PMTS) Shares Tumble After Hours: Here's Why",
+   "summary": "CPI Card Group stock drops after hours following a secondary offering by a major stockholder.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/09/61731591/cpi-card-group-pmts-shares-tumble-after-hours-heres-why",
+   "created_at": "2026-09-11T06:00:08Z",
+   "symbols": [
+    "PMTS"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/11/Red-Arrow-And-Falling-Financial-Charts-O.jpg?width=1024&height=768"
   },
   {
    "headline": "Frequency Electronics (FEIM) Stock Climbs Over 29% After Hours: Here's Why",
@@ -417,68 +471,6 @@
    "created_at": "2026-09-11T01:43:06Z",
    "symbols": [],
    "image": "https://cdn.benzinga.com/files/images/story/2026/09/11/Aerial-Front-View-Of-A-Chemical-Goods-Or.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Oracle, Adobe, RH, Copart and GameStop: Why These 5 Stocks Are on Investors' Radars Today",
-   "summary": "Major U.S. indices closed lower on Thursday, with the Dow Jones Industrial Average falling 0.6% to 52,064.10.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/09/61730785/oracle-adobe-rh-copart-and-gamestop-why-these-5-stocks-are-on-investors-radars-today",
-   "created_at": "2026-09-11T01:29:09Z",
-   "symbols": [
-    "ADBE",
-    "CPRT",
-    "GME",
-    "ORCL",
-    "RH"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/11/Acciones.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Here’s How Much You Would Have Made Owning Casey's General Stores Stock In The Last 5 Years",
-   "summary": "Casey&#39;s General Stores (NASDAQ:CASY) has outperformed the market over the past 5 years by 15.55% on an annualized basis producing an average annual return of 26.83%. Currently, Casey&#39;s General",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/09/61730452/here-s-how-much-you-would-have-made-owning-casey-s-general-stores-stock-last-5-years",
-   "created_at": "2026-09-10T23:45:24Z",
-   "symbols": [
-    "CASY"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_2.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "If You Invested $1000 In Delta Air Lines Stock 15 Years Ago, You Would Have This Much Today",
-   "summary": "Delta Air Lines (NYSE:DAL) has outperformed the market over the past 15 years by 3.06% on an annualized basis producing an average annual return of 16.04%. Currently, Delta Air Lines has a market capi",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/09/61730409/if-you-invested-1000-delta-air-lines-stock-15-years-ago-you-would-have-much-today",
-   "created_at": "2026-09-10T23:30:43Z",
-   "symbols": [
-    "DAL"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_3.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Congresswoman Bets on Elon Musk, Warren Buffett: Here’s the Latest Stock Transactions",
-   "summary": "A congresswoman recently bought stocks connected to Warren Buffett and Elon Musk.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/09/61730264/congresswoman-bets-on-elon-musk-warren-buffett-heres-the-latest-stock-transactions",
-   "created_at": "2026-09-10T23:03:54Z",
-   "symbols": [
-    "BRK",
-    "MRK",
-    "MRNA",
-    "SPCX"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/10/Buffett-Musk-Shutterstock.png?width=1024&height=768"
-  },
-  {
-   "headline": "Here's How Much $100 Invested In Williams-Sonoma 15 Years Ago Would Be Worth Today",
-   "summary": "Williams-Sonoma (NYSE:WSM) has outperformed the market over the past 15 years by 5.78% on an annualized basis producing an average annual return of 18.76%. Currently, Williams-Sonoma has a market capi",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/09/61730242/here-s-how-much-100-invested-williams-sonoma-15-years-ago-would-be-worth-today",
-   "created_at": "2026-09-10T23:00:28Z",
-   "symbols": [
-    "WSM"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_1.jpg?width=1024&height=768"
   }
  ]
 }
