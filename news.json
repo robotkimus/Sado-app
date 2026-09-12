@@ -1,6 +1,21 @@
 {
- "updated": "2026-09-12 21:00",
+ "updated": "2026-09-12 22:00",
  "items": [
+  {
+   "headline": "Benzinga Bulls and Bears: GameStop, Marvell, Robinhood",
+   "summary": "Benzinga examined the prospects for many investors’ favorite stocks over the last week — here’s a look at some of our top stories.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/market-summary/26/09/61754044/benzinga-bulls-and-bears-gamestop-marvell-robinhood",
+   "created_at": "2026-09-12T12:49:43Z",
+   "symbols": [
+    "AAPL",
+    "AMGN",
+    "AVAV",
+    "CASY",
+    "GME"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/12/Bulls-and-Bears-1.jpg?width=1024&height=768"
+  },
   {
    "headline": "David Sacks Slams 'Whistleblower' Jacob Coxon’s Claims on AI Risk to Humans, Raises Questions Ahead of Anthropic IPO",
    "summary": "David Sacks accuses former Anthropic researcher Jacob Coxon of orchestrating a publicity campaign around his AI safety warnings.",
@@ -195,19 +210,19 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/09/11/Microsoft.jpg?width=1024&height=768"
   },
   {
-   "headline": "Iran War, Inflation Fears Trigger $40 Billion Large-Cap Exodus — But VOO, QQQ Buck the Trend",
-   "summary": "Iran war and $100 oil drive large-cap outflows, but investors keep buying VOO, QQQ and semiconductor ETFs.",
+   "headline": "GameStop, Oracle, Apple and More: Five Stocks Investors Couldn't Stop Buzzing About This Week",
+   "summary": "Retail investors talked up 5 hot stocks during week (Sept. 7 to Sept. 11) on X and Reddit&#39;s r/WallStreetBets: GME, AAPL, ADBE, ORCL, CASY.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/etfs/broad-u-s-equity-etfs/26/09/61743428/iran-war-inflation-fears-trigger-40-billion-large-cap-exodus-but-voo-qqq-buck-trend",
-   "created_at": "2026-09-11T15:28:20Z",
+   "url": "https://www.benzinga.com/markets/equities/26/09/61754055/gamestop-oracle-apple-and-more-5-stocks-investors-couldnt-stop-buzzing-about-this-week",
+   "created_at": "2026-09-12T12:50:59Z",
    "symbols": [
-    "QQQ",
-    "SMH",
-    "SOXX",
-    "SPY",
-    "VOO"
+    "AAPL",
+    "ADBE",
+    "CASY",
+    "GME",
+    "ORCL"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/11/Producer-Price-INflation.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/12/Crypto-Trader-Investor-Analyst-Looking-A.jpg?width=1024&height=768"
   },
   {
    "headline": "Benzinga's 'Stock Whisper' Index: 5 Stocks Investors Secretly Monitor But Don't Talk About Yet",
@@ -473,21 +488,6 @@
     "CRBP"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_1.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "12 Industrials Stocks Moving In Friday's After-Market Session",
-   "summary": "Gainers\n\nIntercont (Cayman) (NASDAQ:NCT) shares rose 32.6% to $0.4 during Friday&#39;s after-market session. The company&#39;s market cap stands at $2.8 million. \nNixxy (NASDAQ:NIXX) shares moved upwa",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/09/61751530/12-industrials-stocks-moving-friday-s-after-market-session",
-   "created_at": "2026-09-11T21:06:38Z",
-   "symbols": [
-    "AGRZ",
-    "BEEM",
-    "CTNT",
-    "FGL",
-    "HKPD"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_2.jpg?width=1024&height=768"
   }
  ]
 }
