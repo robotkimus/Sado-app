@@ -1,6 +1,19 @@
 {
- "updated": "2026-09-14 13:00",
+ "updated": "2026-09-14 14:01",
  "items": [
+  {
+   "headline": "Anthropic Picks Nasdaq for Its $2 Trillion IPO, Tells Investors It Expects a Second Consecutive Profitable Quarter: Reports",
+   "summary": "Anthropic has reportedly selected Nasdaq for its IPO and expects positive operating income for a second straight quarter.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/09/61756404/anthropic-nasdaq-2-trillion-ipo-second-consecutive-profitable-quarter",
+   "created_at": "2026-09-14T04:43:45Z",
+   "symbols": [
+    "AMZN",
+    "MSFT",
+    "SPCX"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/14/Anthropic-Ipo-Initial-Public-Offering-On.jpg?width=1024&height=768"
+  },
   {
    "headline": "Trump Pushes Back on AI Slowdown, Says 'Whoever Wins With AI Wins,' Microsoft CEO Satya Nadella Says Tech Must Stay 'Under Human Control'",
    "summary": "President Trump said the U.S. shouldn&#39;t slow AI development, arguing &#39;whoever wins with AI wins&#39; matters more than regulation.",
@@ -192,18 +205,35 @@
    "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_2.jpg?width=1024&height=768"
   },
   {
-   "headline": "CPI Inflation Came Hot: Watch These Stocks If Kevin Warsh Hikes Next Week",
-   "summary": "Bank of America and Schwab could benefit from a Fed hike, while Nvidia and D.R. Horton face a tougher setup as odds climb above 80%.",
+   "headline": "Trump Tells Zelenskyy to Stop Hitting Russian Diesel as US Prices Hit Record Highs: ‘That’s Hurting the World’",
+   "summary": "Trump urges Zelenskyy to halt strikes on Russian refineries amid diesel shortages as Iran mocks high fuel prices.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/prediction-markets/26/09/61749417/fed-rate-hike-stocks-warsh",
-   "created_at": "2026-09-11T19:34:19Z",
+   "url": "https://www.benzinga.com/news/politics/26/09/61756392/trump-tells-zelenskyy-to-stop-hitting-russian-diesel-as-us-prices-hit-record-highs-thats-hurting-the-world",
+   "created_at": "2026-09-14T04:40:09Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/14/President-Donald-Trump-pauses-as-he-spea.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Trump Says It's 'Easy' to Handle $5,000 Payments if Republicans Win 2026 Midterms: 'We're Taking in So Much Money'",
+   "summary": "Trump says $5,000 checks for every U.S. adult would be affordable if Republicans win the midterms, but Congress must approve the payments.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/09/61756362/trump-5000-payments-republicans-win-2026-midterms-taking-in-so-much-money",
+   "created_at": "2026-09-14T04:23:52Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/14/Policy-Changes-Add-Pressure.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Elizabeth Warren Says Trump Selling Meme Tokens, Trading Stocks While Americans Choose 'Between Paying Rent and Buying Groceries'",
+   "summary": "Sen. Elizabeth Warren said on Sunday, September 13, that President Donald Trump has prioritized his own financial activities, such as selling memecoins, over efforts to ease the cost of living for Ame",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/09/61756325/elizabeth-warren-trump-meme-tokens-stock-trading-rent-groceries",
+   "created_at": "2026-09-14T04:01:55Z",
    "symbols": [
-    "BAC",
-    "DHI",
-    "NVDA",
-    "SCHW"
+    "BTCUSD",
+    "TRUMPUSD",
+    "ZECUSD"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/11/Federal-Reserve-Chair-Kevin-Warsh-Delive.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/14/Elizabeth-Warren.jpg?width=1024&height=768"
   },
   {
    "headline": "Democrats Reportedly Prepping to Discuss CLARITY Act Stuck in Senate Over Trump's Crypto Dealings",
@@ -439,36 +469,6 @@
    "created_at": "2026-09-13T13:00:23Z",
    "symbols": [],
    "image": "https://cdn.benzinga.com/files/images/story/2026/09/13/Bitcoin-Digital-Cryptocurrency-Losing-Va.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Elon Musk Renews AI Risk Warning Amid Calls From Sam Altman, Dario Amodei to ‘Pace The Frontier’ — ‘Sounding The Alarm on AI…’",
-   "summary": "Elon Musk renewed warnings that AGI could pose greater risks than nuclear weapons, backing calls from AI leaders to slow frontier development.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/09/61755090/elon-musk-renews-ai-risk-warning-amid-calls-from-sam-altman-dario-amodei-to-pace-the-frontier-sounding-the-alarm-on-ai",
-   "created_at": "2026-09-13T12:48:42Z",
-   "symbols": [
-    "SPCX",
-    "TSLA"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/13/Elon-Musk-xAI-Grok.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Weekend Round-Up: Amazon's Fatal Crash, Ford's China Ties, Tesla's Autopilot Controversy and More",
-   "summary": "Amazon’s fatal crash, Ford’s China ties and Tesla’s Autopilot and Cybercab controversies dominated the week’s top stories.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/09/61755051/weekend-round-up-amazons-fatal-crash-fords-china-ties-teslas-autopilot-controversy-and-more",
-   "created_at": "2026-09-13T12:00:08Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/13/Miami--Fl---Feb-7-2026-Waymo-Autonomous-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Weekend Round-Up: Nvidia's Bold Claims, Oracle's Earnings Pop and Apple's New iPhone Launches",
-   "summary": "Top tech stories included Nvidia’s bullish AI outlook and potential Anthropic investment, Oracle’s earnings and Apple’s new iPhone launches.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/09/61754997/weekend-round-up-nvidias-bold-claims-oracles-earnings-pop-and-apples-new-iphone-launches",
-   "created_at": "2026-09-13T11:00:13Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/13/Analysts-Use-Computers-To-Analyze-Data-U.jpg?width=1024&height=768"
   }
  ]
 }
