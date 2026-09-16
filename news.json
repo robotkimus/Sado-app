@@ -1,6 +1,34 @@
 {
- "updated": "2026-09-16 17:00",
+ "updated": "2026-09-16 18:00",
  "items": [
+  {
+   "headline": "OpenAI, Anthropic Slowdown Call Won't Derail AI Infrastructure Demand, Why One Fund Manager Sees No Spending Pause in Sight",
+   "summary": "Gabelli Funds PM Hendi Susanto says AI infrastructure demand remains strong despite slowdown calls, with supply tight through 2027.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/09/61808976/openai-anthropic-slowdown-call-wont-derail-ai-infrastructure-demand-why-one-fund-manager-sees-no-spending-pause-in-sight",
+   "created_at": "2026-09-16T08:41:08Z",
+   "symbols": [
+    "AMD",
+    "ANET",
+    "ARM",
+    "COHR",
+    "INTC"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/16/White-Ai-Letters-On-Dollar-Bills-On-A-Me.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "S&P 500 Has Delivered ‘Muted Returns’ During Fed Cycles With More Than 5 Rate Hikes, Says Ryan Detrick",
+   "summary": "S&amp;P 500 faces &#34;muted returns&#34; if the Fed executes 5+ rate hikes in a cycle, per Ryan Detrick. See historical data and expert market outlook.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/economic-data/26/09/61808884/sp-500-has-delivered-muted-returns-during-fed-cycles-with-more-than-5-rate-hikes-says-ryan-detrick",
+   "created_at": "2026-09-16T08:29:28Z",
+   "symbols": [
+    "DIA",
+    "QQQ",
+    "SPY"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/16/Headquarters-Of-The-Federal-Reserve-In-W.jpg?width=1024&height=768"
+  },
   {
    "headline": "Daniel Newman Praises Zuckerberg For 'Doing The Right Thing' With Muse AI Safety Despite Investor Pressure: 'Didn’t Feel The Need to Bring Bernie Sanders Into' This",
    "summary": "Futurum CEO Daniel Newman praises META CEO Mark Zuckerberg for prioritizing Muse AI safety despite investor pressure and Llama’s setbacks.",
@@ -173,28 +201,55 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/09/15/West-Bangal--India---July-5--2024-Sk-Hyn.jpg?width=1024&height=768"
   },
   {
-   "headline": "Amazon Stock Slides: What's Happening?",
-   "summary": "Amazon.com Inc (NASDAQ:AMZN) shares are slipping Tuesday along with the broader tech sector as investors brace for Wednesday&#39;s Federal Reserve rate decision, with markets pricing in a rate hike.",
+   "headline": "Ross Gerber Says There’s ‘No Excuse’ to Not Own an EV Amid High Gas Prices: ‘Plenty of Affordable…’",
+   "summary": "Ross Gerber urges drivers to switch to affordable EVs, saying Iran war-driven gas price shocks make gasoline cars too costly.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/09/61800228/amazon-stock-slides-whats-happening",
-   "created_at": "2026-09-15T17:59:18Z",
+   "url": "https://www.benzinga.com/markets/tech/26/09/61809007/ross-gerber-says-theres-no-excuse-to-not-own-an-ev-amid-high-gas-prices-plenty-of-affordable",
+   "created_at": "2026-09-16T08:57:25Z",
    "symbols": [
-    "AMZN"
+    "BYDDF",
+    "BYDDY",
+    "F",
+    "GM",
+    "TSLA"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/15/View-at-the-Amazon-store-sign-at-the-Dow.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/16/Electric-car-EV-charging.jpg?width=1024&height=768"
   },
   {
-   "headline": "Nvidia, Broadcom Just Helped Break a 90-Year Earnings Trend—Now Comes the Hard Part",
-   "summary": "Nvidia and Broadcom show the AI trade is alive and well. How alive? Well, the S&amp;P 500 is doing something it has not done in 90 years.",
+   "headline": "DataMEDS AI Stock Soars 65% Pre-market: Here's What You Need to Know",
+   "summary": "DataMEDS AI shares jumped 8.02% in overnight session Tuesday after the company completed its $1.5 million Helomics acquisition.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/09/61800060/nvidia-broadcom-just-helped-break-a-90-year-earnings-trend-now-comes-the-hard-part",
-   "created_at": "2026-09-15T17:53:42Z",
+   "url": "https://www.benzinga.com/markets/equities/26/09/61808961/datameds-ai-stock-jumps-after-hours-helomics-acquisition",
+   "created_at": "2026-09-16T08:38:24Z",
    "symbols": [
-    "AVGO",
-    "NVDA",
-    "SPY"
+    "AGPU",
+    "MEDS"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/15/Two-Rockets-Launch--In-The-Background-A-.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/16/Investor-Planning-And-Strategy--Stock-Ma.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Iran-Linked Transactions on Binance: Co-CEO Declares ‘Zero Tolerance’ for Sanctions Violations as DOJ Seeks $61 Million Crypto Forfeiture",
+   "summary": "Binance Co-CEO Richard Teng said on Tuesday, September 15, that the company holds &#34;zero tolerance&#34; for sanctions violations after the DOJ sought forfeiture of $61 million in cryptocurrency tie",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/09/61808855/iran-linked-transactions-on-binance-ceo-declares-zero-tolerance-for-sanctions-violations-as-doj-seeks-61-million-crypto-forfeiture",
+   "created_at": "2026-09-16T08:16:14Z",
+   "symbols": [
+    "BNBUSD",
+    "BTCUSD",
+    "ZECUSD"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/16/Kyiv--Ukraine---March-15--2024-Binance-L.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Trump Accounts Face Dec. 31 Deadline — But Employer Contributions Could Create New Tax Planning Trap",
+   "summary": "Trump Account contributions face a Dec. 31 deadline as employer deposits count toward the annual limit.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/personal-finance/tax/26/09/61808828/trump-accounts-face-dec-31-deadline-but-employer-contributions-could-create-new-tax-planning-trap",
+   "created_at": "2026-09-16T08:07:07Z",
+   "symbols": [
+    "AAL"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/16/Washington-Dc--2026-January-28--Presiden.jpg?width=1024&height=768"
   },
   {
    "headline": "Cathie Wood Sees $1 Billion Revenue Potential From ‘Each Starship Launch’ and $10 Trillion Annually by 2030, Elon Musk Says ‘It’s Not Impossible’",
@@ -400,64 +455,6 @@
    "created_at": "2026-09-16T05:19:24Z",
    "symbols": [],
    "image": "https://cdn.benzinga.com/files/images/story/2026/09/16/Artificial-Intelligence-Simplifying-Task.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "YYForce (YFOR) Stock Soars Over 37% After Hours: Why is it Moving?",
-   "summary": "YYForce Inc. shares jumped 37.14% after hours Tuesday after reporting improved first-half 2026 financial metrics and stronger net assets.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/09/61807659/yyforce-shares-jump-37-14-after-hours-improved-financial-metrics",
-   "created_at": "2026-09-16T05:17:45Z",
-   "symbols": [
-    "YFOR"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/16/A-Detailed-Stock-Market-Chart-Featuring-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Chuck Schumer Says Trump Blames Ukraine for High Gas Prices Even as It 'Comes Out' Putin-Linked Oligarch Paid for Son's Wedding: 'Shameless'",
-   "summary": "Chuck Schumer says Trump blaming Ukraine for record diesel prices, the same day a Putin-tied oligarch&#39;s gift to Don Jr. surfaced, is telling.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/09/61807615/chuck-schumer-trump-ukraine-high-gas-prices-putin-linked-oligarch-wedding",
-   "created_at": "2026-09-16T04:59:42Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/16/Washington--Dc-Us---Mar-9--2023-Us-Senat.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Saudi Pipeline Closure Is ‘Temporary Interruption,’ Says Energy Secretary—Expert Warns, ‘It Will Take Months to Repair’",
-   "summary": "Saudi oil pipeline closure is temporary, says Chris Wright, but an expert warns repairs could take months amid attack damage.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/09/61807601/saudi-pipeline-closure-is-temporary-interruption-says-energy-secretary-expert-warns-it-will-take-months-to-repair",
-   "created_at": "2026-09-16T04:54:37Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/16/Platteville--Colorado--March-9--2026-Ene.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Robinhood Employees Charged For Allegedly Using 'Confidential Business Information' to Trade Crypto Futures",
-   "summary": "The Justice Department charged two engineers from Robinhood Markets, Inc. on Tuesday, September 15, over an alleged insider trading scheme involving cryptocurrencies.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/09/61807589/robinhood-employees-charged-confidential-business-information-crypto-futures-trading",
-   "created_at": "2026-09-16T04:46:52Z",
-   "symbols": [
-    "BTCUSD",
-    "HOOD",
-    "HYPEUSD",
-    "POLUSD",
-    "ZECUSD"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/16/Robinhood-Robinhood-Mobile-Icon-App-On-A.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Bernie Sanders Sends 'Message' to Tech CEOs: 'Stop Pouring' Hundreds of Millions to Defeat Congress Members Fighting for AI Guardrails",
-   "summary": "On Tuesday, Bernie Sanders accused AI executives of hypocrisy over their political spending while warning about AI risks.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/09/61807527/bernie-sanders-tech-ceos-ai-guardrails-congress-members",
-   "created_at": "2026-09-16T04:20:47Z",
-   "symbols": [
-    "GOOG",
-    "GOOGL",
-    "SPCX",
-    "TSLA"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/16/Philadelphia--Pa--Usa---May-1--2025-Sena.jpg?width=1024&height=768"
   }
  ]
 }
