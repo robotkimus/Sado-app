@@ -1,6 +1,21 @@
 {
- "updated": "2026-09-17 12:00",
+ "updated": "2026-09-17 13:00",
  "items": [
+  {
+   "headline": "OpenAI Reveals 6 Cases of AI Models Hiding Mistakes, Making Up Data and Taking Unauthorized Actions: Alignment and Monitoring Not Solved to 'Sufficient Degree'",
+   "summary": "OpenAI revealed six AI misalignment incidents, fueling concerns over AI safety and the need for stronger safeguards.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/09/61832844/openai-ai-models-hiding-mistakes-making-up-data-unauthorized-actions-alignment-monitoring",
+   "created_at": "2026-09-17T03:11:22Z",
+   "symbols": [
+    "GOOG",
+    "GOOGL",
+    "META",
+    "NVDA",
+    "SPCX"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/17/Paris--France---January-16--2026-The-Log.jpg?width=1024&height=768"
+  },
   {
    "headline": "Anthropic Made a ‘Mistake’ Teaching Claude About Consciousness: Microsoft AI Chief Mustafa Suleyman Warns It’s Now ‘A Lot Harder to Turn It Off’",
    "summary": "Microsoft AI chief Mustafa Suleyman says Anthropic erred by teaching Claude about AI consciousness, making it harder to control.",
@@ -197,17 +212,27 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/09/16/ARK-Invest-Photo-Cathie-Wood-3.png?width=1024&height=768"
   },
   {
-   "headline": "Nvidia Is Fighting the AI Slowdown Narrative—With Power as Its Next Problem",
-   "summary": "Nvidia is pushing back on calls to slow AI as its new energy alliance tackles the power constraints facing AI data centers.",
+   "headline": "Bitcoin Reserve Bill Clearing House Committee a 'Historic Step,' Says This Advocate: Holding BTC a 'Common-Sense Policy'",
+   "summary": "Conner Brown, Executive Director at the Bitcoin Policy Institute, welcomed the House Financial Services Committee’s advancement of the Strategic Bitcoin Reserve Bill on Wednesday, September 16,",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/09/61821456/nvidia-ai-power-grid",
-   "created_at": "2026-09-16T16:12:19Z",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/09/61832881/bitcoin-reserve-bill-house-committee-historic-step-holding-btc-common-sense-policy",
+   "created_at": "2026-09-17T03:31:04Z",
    "symbols": [
-    "CRM",
-    "GOOG",
-    "NVDA"
+    "BTCUSD",
+    "ZECUSD"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/16/Nvidia.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/17/Bitcoin-Btc-Virtual-Cryptocurrency-In-Fr.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Antelope Enterprise Holdings (AEHL) Stock Jumps 20% After Hours: Why It Is Trending",
+   "summary": "Antelope Enterprise shares surged 19.85% after hours Wednesday after the company announced a $6 million convertible note offering.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/09/61832859/antelope-enterprise-shares-after-hours-6-million-offering",
+   "created_at": "2026-09-17T03:18:49Z",
+   "symbols": [
+    "AEHL"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/17/Stock-And-Securities-Trading-Data.jpg?width=1024&height=768"
   },
   {
    "headline": "Iran's Speaker Mocks Kevin Warsh-led Fed's Rate Hike: 'You Can't 25bp a Chokepoint' — Tehran Says It Sets the Risk Premium",
@@ -487,30 +512,6 @@
     "ALSN"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_1.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Fed Rate Hikes Won’t Trigger Private Credit Default Wave: PGIM",
-   "summary": "Private credit will be fine, according to a private credit asset manager. Yet, the U.S. Private Credit Default Rate just hit a record high.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/private-markets/26/09/61829547/fed-rate-hikes-wont-trigger-private-credit-default-wave-pgim",
-   "created_at": "2026-09-16T20:21:55Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/16/Coins-stacked-iwht-a-financial-chart-in-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Chips, Asset Managers and Consumer Names Slide After Warsh's Press Conference: The 10 Biggest Losers",
-   "summary": "ON Semiconductor, Carlyle and Coeur Mining led decliners in the hour after the Fed chair spoke. Economists split on whether October or December brings another hike.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/large-cap/26/09/61829461/10-stocks-falling-most-after-warsh-press-conference-fed-hawkish-dot-plot",
-   "created_at": "2026-09-16T20:18:39Z",
-   "symbols": [
-    "ARES",
-    "BA",
-    "CDE",
-    "CG",
-    "CVNA"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/16/fed-ai6.png?width=1024&height=768"
   }
  ]
 }
