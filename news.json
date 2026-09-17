@@ -1,6 +1,49 @@
 {
- "updated": "2026-09-17 14:00",
+ "updated": "2026-09-17 15:00",
  "items": [
+  {
+   "headline": "Fluence Energy, Lennar and 3 Stocks to Watch Heading Into Thursday",
+   "summary": "Stocks in focus: Generac surged 32.5% on Amazon deal; Fluence fell 15.9% on weak guidance; Lennar missed estimates and dropped 2.1%.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/09/61833243/fluence-energy-lennar-and-3-stocks-to-watch-heading-into-thursday",
+   "created_at": "2026-09-17T05:55:20Z",
+   "symbols": [
+    "AMZN",
+    "FLNC",
+    "GNRC",
+    "IHT",
+    "LEN"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/17/Using-A-Mobile-Phone-To-View-Stocks-And-.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Google Dodges Ad Tech Breakup But Judge Orders Changes to Auction Rules and Appoint Antitrust Monitor — Tech Giant Plans to Appeal: Report",
+   "summary": "A judge ordered Google to overhaul ad tech practices and appoint an antitrust compliance monitor, declining to force a breakup of the business.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/09/61833217/google-ordered-to-relax-ad-tech-rules-and-appoint-antitrust-monitor",
+   "created_at": "2026-09-17T05:49:14Z",
+   "symbols": [
+    "GOOG",
+    "GOOGL",
+    "META"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/17/Mountain-View--Ca---December-27--2025-Go.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "House Passes Bipartisan Bill to Shield Americans From Higher Electricity Costs as AI Data Centers Drive Massive Power Demand",
+   "summary": "House passes a bipartisan bill urging data centers to cover added power costs, aiming to protect Americans from higher electricity bills.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/09/61833062/house-passes-bipartisan-bill-to-shield-americans-from-higher-electricity-costs-as-ai-data-centers-drive-massive-power-demand",
+   "created_at": "2026-09-17T05:06:33Z",
+   "symbols": [
+    "AMZN",
+    "GOOG",
+    "GOOGL",
+    "META",
+    "MSFT"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/17/Modern-Data-Center-With-Ai-Server-Racks-.jpg?width=1024&height=768"
+  },
   {
    "headline": "OpenAI Reveals 6 Cases of AI Models Hiding Mistakes, Making Up Data and Taking Unauthorized Actions: Alignment and Monitoring Not Solved to 'Sufficient Degree'",
    "summary": "OpenAI revealed six AI misalignment incidents, fueling concerns over AI safety and the need for stronger safeguards.",
@@ -174,42 +217,82 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/09/16/fed-ai3.png?width=1024&height=768"
   },
   {
-   "headline": "Why Is IREN Stock Surging Wednesday?",
-   "summary": "IREN stock surged as JPMorgan upgraded the shares to $65 and ERCOT power developments sparked broader AI infrastructure optimism.",
+   "headline": "Longeveron (LGVN) Shares Slide 59% After Hours: Here's Why",
+   "summary": "Longeveron shares fell 59% after hours after its ELPIS II trial missed its primary endpoint.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/09/61822125/why-is-iren-stock-surging-wednesday",
-   "created_at": "2026-09-16T16:33:23Z",
+   "url": "https://www.benzinga.com/markets/equities/26/09/61833267/longeveron-lgvn-shares-slide-59-after-hours-heres-why",
+   "created_at": "2026-09-17T05:59:43Z",
    "symbols": [
-    "CIFR",
-    "CORZ",
-    "IREN",
-    "NVDA"
+    "LGVN"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/16/IREN.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/17/Candlestick-Chart-Showing-Falling-Stock-.jpg?width=1024&height=768"
   },
   {
-   "headline": "What's Going On With Amazon Stock Today?",
-   "summary": "Amazon.com Inc (NASDAQ:AMZN) shares are dipping Wednesday. The company announced a major round of pay increases and new benefits for its U.S. workforce.",
+   "headline": "Dow Tumbles Over 600 Points as Fed Raises Rates: Investor Sentiment Weakens, Greed Index Remains in ‘Fear’ Zone",
+   "summary": "Market fear deepened as CNN’s index fell to 26; stocks mostly declined after the Fed’s rate hike, with the Dow dropping 631 points.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/09/61822025/whats-going-on-with-amazon-stock-today-5",
-   "created_at": "2026-09-16T16:31:14Z",
+   "url": "https://www.benzinga.com/markets/market-summary/26/09/61833256/dow-tumbles-over-600-points-as-fed-raises-rates-investor-sentiment-weakens-greed-index-remains-in-fear-zone",
+   "created_at": "2026-09-17T05:59:06Z",
    "symbols": [
-    "AMZN"
+    "LUXE",
+    "MEDS",
+    "UPXI"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/16/Amazon-Layoff-Expansion.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/17/Market-sentiment---Fear-and-Greed.jpg?width=1024&height=768"
   },
   {
-   "headline": "Cathie Wood Says SpaceX Didn't Need an IPO—Until Data Centers in Space Came Along",
-   "summary": "Cathie Wood says Elon Musk’s orbital AI ambitions changed SpaceX’s capital needs and made public markets far more important.",
+   "headline": "Hackers Take Apart Flock Camera and Expose Massive Vehicle Surveillance Data Collection: Why Destroy When You Can 'Reverse Engineer'",
+   "summary": "Hackers found Flock cameras capture about 28 images per vehicle, generating 1.6 million images in 21 days and raising privacy concerns.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/prediction-markets/26/09/61821858/cathie-wood-spacex-orbital-ai-public-markets",
-   "created_at": "2026-09-16T16:27:09Z",
+   "url": "https://www.benzinga.com/markets/tech/26/09/61833229/hackers-flock-camera-reverse-engineer-vehicle-surveillance-data-collection",
+   "created_at": "2026-09-17T05:53:46Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/17/Oneonta--Al--Usa-7-12-2026-Flock-Securit.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "SK Hynix, Intel Mull Memory Chip Making Deal in Ohio as US Pushes Semiconductor Production: Report (UPDATED)",
+   "summary": "SK Hynix is exploring leasing or partnering at Intel’s Ohio plant to make AI memory chips, but South Korea may review the deal for technology risks.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/09/61809557/sk-hynix-intel-mull-memory-chip-making-deal-in-ohio-as-us-pushes-semiconductor-production-report",
+   "created_at": "2026-09-17T05:46:11Z",
    "symbols": [
-    "MSFT",
-    "NVDA",
+    "INTC",
+    "SKHY"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/17/Sk-Hynix-America-Headquarters-In-San-Jos.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Elon Musk Says SPCX's Starship Could Deliver Up to 10 Million Tons to Orbit Every Year",
+   "summary": "Elon Musk says Starship could deliver 1M–10M tons of payload to orbit annually, with its first orbital launch set for September 22.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/space/26/09/61833148/elon-musk-says-spcxs-starship-could-deliver-up-to-10-million-tons-to-orbit-every-year",
+   "created_at": "2026-09-17T05:31:18Z",
+   "symbols": [
     "SPCX"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/16/ARK-Invest-Photo-Cathie-Wood-3.png?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/17/Elon-Musk-is-the-founder--CEO--and-Chief.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Kaixin Holdings (KXIN) Stock Soars 138% After Hours On 600% Revenue Jump",
+   "summary": "Kaixin Holdings shares soared 138% in after-hours trading Wednesday following a 602% revenue jump in first-half 2026 results.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/09/61833129/kaixin-holdings-stock-soars-after-hours-revenue-surge",
+   "created_at": "2026-09-17T05:26:18Z",
+   "symbols": [
+    "KXIN"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/17/Stock-Trading-Analysis-Concept-With-Inve.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Reitar Logtech (RITR) Shares Tumble 69% After Hours: Here's Why",
+   "summary": "Reitar Logtech shares fell 69% after hours after Nasdaq issued a delisting determination.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/09/61833101/reitar-logtech-ritr-shares-tumble-69-after-hours-heres-why",
+   "created_at": "2026-09-17T05:12:43Z",
+   "symbols": [
+    "RITR"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/17/Glowing-Orange-Candlestick-And-Line-Char.jpg?width=1024&height=768"
   },
   {
    "headline": "Anthony Scaramucci Says Trump Got the Rate Hike ‘His Policies and War Demanded’ — Here’s What Crypto Bettors Expect for Inflation in 2026",
@@ -412,99 +495,6 @@
     "ALMU"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_4.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "If You Invested $100 In Simpson Manufacturing Co Stock 10 Years Ago, You Would Have This Much Today",
-   "summary": "Simpson Manufacturing Co (NYSE:SSD) has outperformed the market over the past 10 years by 1.04% on an annualized basis producing an average annual return of 14.5%. Currently, Simpson Manufacturing Co ",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/09/61831539/if-you-invested-100-simpson-manufacturing-co-stock-10-years-ago-you-would-have-much-today",
-   "created_at": "2026-09-16T21:46:34Z",
-   "symbols": [
-    "SSD"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_4.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Here’s How Much You Would Have Made Owning Reinsurance Group Stock In The Last 5 Years",
-   "summary": "Reinsurance Group (NYSE:RGA) has outperformed the market over the past 5 years by 6.57% on an annualized basis producing an average annual return of 18.27%. Currently, Reinsurance Group has a market c",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/09/61831353/here-s-how-much-you-would-have-made-owning-reinsurance-group-stock-last-5-years",
-   "created_at": "2026-09-16T21:30:32Z",
-   "symbols": [
-    "RGA"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_4.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Here’s How Much You Would Have Made Owning Revvity Stock In The Last 15 Years",
-   "summary": "Revvity (NYSE:RVTY) has outperformed the market over the past 15 years by 1.11% on an annualized basis producing an average annual return of 14.61%. Currently, Revvity has a market capitalization of $",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/09/61831139/here-s-how-much-you-would-have-made-owning-revvity-stock-last-15-years",
-   "created_at": "2026-09-16T21:15:21Z",
-   "symbols": [
-    "RVTY"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_2.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "12 Communication Services Stocks Moving In Wednesday's After-Market Session",
-   "summary": "Gainers\n\nGiftify (NASDAQ:GIFT) stock rose 27.7% to $0.82 during Wednesday&#39;s after-market session. The company&#39;s market cap stands at $24.7 million. \nStar Fashion Culture (NASDAQ:STFS) shares r",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/09/61830879/12-communication-services-stocks-moving-wednesday-s-after-market-session",
-   "created_at": "2026-09-16T21:06:06Z",
-   "symbols": [
-    "AEHL",
-    "CAST",
-    "DRCT",
-    "GIFT",
-    "HAO"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_1.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "12 Health Care Stocks Moving In Wednesday's After-Market Session",
-   "summary": "Gainers\n\nBasel Medical Group (NASDAQ:BMGL) stock moved upwards by 14.1% to $4.68 during Wednesday&#39;s after-market session. The market value of their outstanding shares is at $8.3 million. \nAlaunos ",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/09/61830878/12-health-care-stocks-moving-wednesday-s-after-market-session",
-   "created_at": "2026-09-16T21:06:06Z",
-   "symbols": [
-    "ALPS",
-    "ATHE",
-    "BCDA",
-    "BMGL",
-    "GNTA"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_4.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "12 Industrials Stocks Moving In Wednesday's After-Market Session",
-   "summary": "Gainers\n\nGenerac Holdings (NYSE:GNRC) stock increased by 40.5% to $246.07 during Wednesday&#39;s after-market session. The market value of their outstanding shares is at $10.3 billion. \nZenta Group Co",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/09/61830877/12-industrials-stocks-moving-wednesday-s-after-market-session",
-   "created_at": "2026-09-16T21:06:05Z",
-   "symbols": [
-    "EXYN",
-    "FBDT",
-    "FLNC",
-    "FRGT",
-    "GFAI"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_1.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "12 Information Technology Stocks Moving In Wednesday's After-Market Session",
-   "summary": "Gainers\n\nDatasea Intelligent Tech (NASDAQ:DTSS) shares increased by 51.4% to $0.9 during Wednesday&#39;s after-market session. The company&#39;s market cap stands at $6.6 million. \nIntegrated Media Te",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/09/61830875/12-information-technology-stocks-moving-wednesday-s-after-market-session",
-   "created_at": "2026-09-16T21:06:05Z",
-   "symbols": [
-    "AIMD",
-    "ALMU",
-    "CYAB",
-    "DSP",
-    "DTSS"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_1.jpg?width=1024&height=768"
   }
  ]
 }
