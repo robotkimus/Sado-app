@@ -1,6 +1,92 @@
 {
- "updated": "2026-09-18 19:00",
+ "updated": "2026-09-18 20:00",
  "items": [
+  {
+   "headline": "AMD Says AI Adoption Is Still Early, Sees No Slowdown in Demand",
+   "summary": "AMD stock rises as CTO Mark Papermaster signals surging AI demand, shift to inference, and new system-level integration.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/09/61863429/amd-says-ai-adoption-is-still-early-sees-no-slowdown-in-demand",
+   "created_at": "2026-09-18T10:33:59Z",
+   "symbols": [
+    "AMD",
+    "FTXL",
+    "SOXX",
+    "TRFK"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/18/Amd-Chip-On-A-Dark--Intricate-Circuit-Bo.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Agentforce Triggers Renewal Surge, Sparking Salesforce AI Boom: Analyst",
+   "summary": "BNP Paribas maintains a $265 price forecast on Salesforce as expanding Agentforce AI monetization and share repurchases support a Q3 revenue reacceleration.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/09/61863232/agentforce-triggers-renewal-surge-sparking-salesforce-ai-boom-analyst",
+   "created_at": "2026-09-18T10:21:17Z",
+   "symbols": [
+    "CRM",
+    "FDN",
+    "IGV",
+    "PKW"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/18/Salesforce-AI-Partnership.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Charlie Bilello Warns of $100 Billion Iran War Fuel Shock as $4.43 Gas Prices Show the ‘Inflation Problem’ Isn’t Over",
+   "summary": "Charlie Bilello explains how record $4.43 gas prices act as a $100 billion tax on consumers, proving the inflation problem is far from over.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/commodities/26/09/61862668/charlie-bilello-warns-of-100-billion-iran-war-fuel-shock-as-4-43-gas-prices-show-the-inflation-problem-isnt-over",
+   "created_at": "2026-09-18T09:59:47Z",
+   "symbols": [
+    "DIA",
+    "QQQ",
+    "SPY",
+    "TLT"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/18/Hand-holding-a-yellow-gas-pump-nozzle-ov.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Market Analysis: Broadcom And Competitors In Semiconductors &amp; Semiconductor Equipment Industry",
+   "summary": "In today&#39;s fast-paced and highly competitive business world, it is crucial for investors and industry followers to conduct comprehensive company evaluations. In this article, we will delve into an",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/09/61862617/market-analysis-broadcom-and-competitors-semiconductors-amp-semiconductor-equipment-industry",
+   "created_at": "2026-09-18T09:58:40Z",
+   "symbols": [
+    "AVGO"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/earnings_preview_7.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Insights Into Amazon.com's Performance Versus Peers In Broadline Retail Sector",
+   "summary": "In the ever-evolving and intensely competitive business landscape, conducting a thorough company analysis is of utmost importance for investors and industry followers. In this article, we will carry o",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/09/61862613/insights-amazon-com-s-performance-versus-peers-broadline-retail-sector",
+   "created_at": "2026-09-18T09:58:34Z",
+   "symbols": [
+    "AMZN"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/earnings_preview_7.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Industry Comparison: Evaluating Microsoft Against Competitors In Software Industry",
+   "summary": "In the ever-evolving and intensely competitive business landscape, conducting a thorough company analysis is of utmost importance for investors and industry followers. In this article, we will carry o",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/09/61862612/industry-comparison-evaluating-microsoft-against-competitors-software-industry",
+   "created_at": "2026-09-18T09:58:30Z",
+   "symbols": [
+    "MSFT"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/earnings_preview_11.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Exploring The Competitive Space: NVIDIA Versus Industry Peers In Semiconductors &amp; Semiconductor Equipment",
+   "summary": "Amidst the fast-paced and highly competitive business environment of today, conducting comprehensive company analysis is essential for investors and industry enthusiasts. In this article, we will delv",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/09/61862610/exploring-competitive-space-nvidia-versus-industry-peers-semiconductors-amp-semiconductor-equipment",
+   "created_at": "2026-09-18T09:58:22Z",
+   "symbols": [
+    "NVDA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/earnings_preview_7.jpg?width=1024&height=768"
+  },
   {
    "headline": "Nvidia CEO Jensen Huang Expects Chip Sales To Double Next Year as He Downplays AI Slowdown Calls: 'When a Product is Not Safe...'",
    "summary": "Nvidia CEO Jensen Huang expects chip sales to double next year as AI demand surges, while discussing AI safety at a U.K. summit.",
@@ -112,106 +198,239 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/09/17/Stack-Of-Bitcoins-And-Handcuffs-Over-Bla.jpg?width=1024&height=768"
   },
   {
-   "headline": "Trump's Inflation Approval Slumps to 19%: What Do Prediction Markets Say About the Midterms?",
-   "summary": "Trump’s inflation approval fell to 19% as prediction markets moved toward Democrats ahead of the midterms.",
+   "headline": "Ituran Location & Control Reports Q2 2026 Results: Full Earnings Call Transcript",
+   "summary": "Ituran Location &amp; Control (NASDAQ:ITRN) held its second-quarter earnings conference call on Wednesday. Below is the complete transcript from the call.\nThis content is powered by Benzinga APIs. For",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/prediction-markets/26/09/61854623/trump-inflation-approval-midterms-democrats-polymarket",
-   "created_at": "2026-09-17T19:18:35Z",
+   "url": "https://www.benzinga.com/news/26/09/61863837/ituran-location-control-reports-q2-2026-results-full-earnings-call-transcript",
+   "created_at": "2026-09-18T10:57:28Z",
    "symbols": [
-    "GS",
-    "QQQ",
-    "SPY"
+    "ITRN"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/17/Washington--January-30-2025-President-Do.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_1.jpg?width=1024&height=768"
   },
   {
-   "headline": "Why Is IonQ Stock Surging Thursday?",
-   "summary": "IonQ (NYSE: IONQ) surged 9% following award-winning quantum research with NVIDIA and Synopsys. Read the full analysis.",
+   "headline": "Transcript: Zoom Communications Q2 2027 Earnings Conference Call",
+   "summary": "Zoom Communications (NASDAQ:ZM) held its second-quarter earnings conference call on Tuesday. Below is the complete transcript from the call.\nThis transcript is brought to you by Benzinga APIs. For rea",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/09/61853199/why-is-ionq-stock-surging-thursday",
-   "created_at": "2026-09-17T18:11:42Z",
+   "url": "https://www.benzinga.com/news/26/09/61863804/transcript-zoom-communications-q2-2027-earnings-conference-call",
+   "created_at": "2026-09-18T10:55:35Z",
    "symbols": [
-    "IONQ",
-    "NVDA",
-    "SNPS",
-    "WQTM",
-    "XITK"
+    "ZM"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/17/IonQ.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_3.jpg?width=1024&height=768"
   },
   {
-   "headline": "10 Consumer Discretionary Stocks With Whale Alerts In Today’s Session",
-   "summary": "This whale alert can help traders discover the next big trading opportunities.\nWhales are entities with large sums of money and we track their transactions here at Benzinga on our options activity sca",
+   "headline": "SK hynix’s Solidigm Eyes New York for US Chip Factory",
+   "summary": "SK hynix shares rose 1%+ after reports that subsidiary Solidigm is considering a new U.S. NAND factory in Upstate New York.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/options/26/09/61852092/10-consumer-discretionary-stocks-whale-alerts-today-s-session",
-   "created_at": "2026-09-17T17:35:24Z",
+   "url": "https://www.benzinga.com/markets/tech/26/09/61863145/sk-hynixs-solidigm-eyes-new-york-for-us-chip-factory",
+   "created_at": "2026-09-18T10:15:32Z",
    "symbols": [
-    "AMZN",
-    "BABA",
-    "CROX",
-    "DECK",
-    "DKNG"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/aggregated_options_1.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "10 Information Technology Stocks With Whale Alerts In Today’s Session",
-   "summary": "This whale alert can help traders discover the next big trading opportunities.\nWhales are entities with large sums of money and we track their transactions here at Benzinga on our options activity sca",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/options/26/09/61852090/10-information-technology-stocks-whale-alerts-today-s-session",
-   "created_at": "2026-09-17T17:35:23Z",
-   "symbols": [
-    "AMD",
-    "CORZ",
+    "EGGQ",
+    "EGGS",
+    "EGGY",
     "INTC",
-    "KLAC",
-    "MU"
+    "SKHY"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/aggregated_options_2.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/18/The-Sk-Hynix-Logo.jpg?width=1024&height=768"
   },
   {
-   "headline": "Triple Witching, Falling Oil, and Fed Hopium Drive Up Stocks, But Downside Risks Remain",
-   "summary": "\n\n\n\nTriple Witching\n\n\n\nPlease click here for an enlarged chart of SPDR S&amp;P 500 ETF Trust (NYSE:SPY) which represents the benchmark stock market index S&amp;P 500 (SPX).\n\n\n\nNote the following:\n\n\n\n\n",
+   "headline": "Health Catalyst Reports Q2 2026 Results: Full Earnings Call Transcript",
+   "summary": "Health Catalyst (NASDAQ:HCAT) held its second-quarter earnings conference call on Thursday. Below is the complete transcript from the call.\nBenzinga APIs provide real-time access to earnings call tran",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/Opinion/26/09/61851724/triple-witching-falling-oil-and-fed-hopium-drive-up-stocks-but-downside-risks-remain",
-   "created_at": "2026-09-17T17:18:45Z",
+   "url": "https://www.benzinga.com/news/26/09/61863677/health-catalyst-reports-q2-2026-results-full-earnings-call-transcript",
+   "created_at": "2026-09-18T10:47:11Z",
    "symbols": [
-    "AAPL",
-    "AMZN",
-    "BTCUSD",
-    "CRWV",
-    "GOOG"
+    "HCAT"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/17/Donald-Trump.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_2.jpg?width=1024&height=768"
   },
   {
-   "headline": "Nasdaq 100 Rallies as Oil Slides, Yields Retreat: Stock Market Today",
-   "summary": "Wall Street snapped a two-day losing streak Thursday as oil retreated from its geopolitical spike and the 10-year Treasury yield slipped back below 5%. Chipmakers led the rebound, with Intel, AMD and ",
+   "headline": "CoreWeave Becomes First to Deploy Vera Rubin — Here's What Else Happened This Week",
+   "summary": "CoreWeave shares are trending Friday after a busy week with a new AI cluster deployment, a major data center lease and a large capital raise.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/09/61851798/nasdaq-100-rallies-as-oil-slides-yields-retreat-stock-market-today",
-   "created_at": "2026-09-17T17:22:35Z",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/09/61863629/coreweave-becomes-first-to-deploy-vera-rubin-heres-what-else-happened-this-week",
+   "created_at": "2026-09-18T10:40:57Z",
    "symbols": [
-    "AMD",
-    "AN",
-    "ATI",
+    "CRWV"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/18/New-York-City--New-York---July-14-2025-C.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Meet the New Boss, Same as The Old Boss’: James Thorne Says Kevin Warsh Failed His First Fed Test After Rate Hike, Warns Another Increase in October",
+   "summary": "James Thorne said Fed Chair Kevin Warsh failed the test, as Wednesday&#39;s rate hike shows no real policy change.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/economic-data/26/09/61863463/james-thorne-says-kevin-warsh-has-failed-the-test-meet-the-new-boss-same-as-the-old-boss",
+   "created_at": "2026-09-18T10:34:57Z",
+   "symbols": [
+    "BNO",
+    "UCO",
+    "USO"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/18/Us-Federal-Reserve-System-Fed-Interest-R.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Transcript: Navient Q2 2026 Earnings Conference Call",
+   "summary": "Navient (NASDAQ:NAVI) held its second-quarter earnings conference call on Thursday. Below is the complete transcript from the call.\nBenzinga APIs provide real-time access to earnings call transcripts ",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/09/61863370/transcript-navient-q2-2026-earnings-conference-call",
+   "created_at": "2026-09-18T10:29:07Z",
+   "symbols": [
+    "NAVI"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_3.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "SpaceX Wins FCC Nod for Global Starlink Mobile Services as It Targets 5G Connectivity From Space",
+   "summary": "FCC approves SpaceX’s global telecom authority, supporting Starlink Mobile’s expansion toward direct-to-phone 5G and broader connectivity.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/09/61863322/spacex-wins-fcc-nod-for-global-starlink-mobile-services-as-it-targets-5g-connectivity-from-space",
+   "created_at": "2026-09-18T10:27:26Z",
+   "symbols": [
+    "SPCX",
+    "TMUS"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/18/Starlink-is-a-satellite-internet-constel.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Why Is Hyperliquid Stock Surging On Friday?",
+   "summary": "Hyperliquid Strategies shares rise almost 8% premarket after the SEC issued an Innovation Exemption covering tokenized U.S. stock trading on public blockchains.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/mid-cap/26/09/61863287/why-is-hyperliquid-stock-surging-on-friday",
+   "created_at": "2026-09-18T10:25:26Z",
+   "symbols": [
+    "BHYP",
+    "BITW",
+    "HYPG",
+    "PURR"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/18/Hyperliquid-Logo-And-Coins--3d-Render.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Top 3 Financial Stocks That Are Preparing To Pump In Q3",
+   "summary": "Financial stocks FNF, GBCI and APAM are oversold with RSI near or below 30, potentially offering undervalued buying opportunities.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/09/61863276/top-3-financial-stocks-that-are-preparing-to-pump-in-q3",
+   "created_at": "2026-09-18T10:25:11Z",
+   "symbols": [
+    "APAM",
+    "FNF",
+    "GBCI"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/18/Financial-chart.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Expensify Reports Q2 2026 Results: Full Earnings Call Transcript",
+   "summary": "Expensify (NASDAQ:EXFY) released second-quarter financial results and hosted an earnings call on Thursday. Read the complete transcript below.\nThis transcript is brought to you by Benzinga APIs. For r",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/09/61863247/expensify-reports-q2-2026-results-full-earnings-call-transcript",
+   "created_at": "2026-09-18T10:22:37Z",
+   "symbols": [
+    "EXFY"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_2.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "BREAKING: Warren Buffett Steps Down as Berkshire's Chair — Son Howard Takes to Succeed, Greg Abel Remains CEO",
+   "summary": "Warren Buffett steps down as Berkshire Hathaway chairman, becoming chairman emeritus. His son Howard succeeds him; Greg Abel remains CEO.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/09/61863097/warren-buffett-steps-down-as-berkshires-chair-son-howard-takes-to-succeed-greg-abel-remains-ceo",
+   "created_at": "2026-09-18T10:13:32Z",
+   "symbols": [
+    "BRK"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/18/Ackman-Mimics-Buffett-Strategy.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Canadian Pacific Kansas Q2 2026 Earnings Call: Complete Transcript",
+   "summary": "Canadian Pacific Kansas (NYSE:CP) held its second-quarter earnings conference call on Wednesday. Below is the complete transcript from the call.\nThis content is powered by Benzinga APIs. For comprehen",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/09/61863094/canadian-pacific-kansas-q2-2026-earnings-call-complete-transcript",
+   "created_at": "2026-09-18T10:13:36Z",
+   "symbols": [
+    "CP"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_2.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Ardelyx Q2 2026 Earnings Call Transcript",
+   "summary": "Ardelyx (NASDAQ:ARDX) released second-quarter financial results and hosted an earnings call on Thursday. Read the complete transcript below.\nThis transcript is brought to you by Benzinga APIs. For rea",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/09/61863093/ardelyx-q2-2026-earnings-call-transcript",
+   "created_at": "2026-09-18T10:13:36Z",
+   "symbols": [
+    "ARDX"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_1.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Aware Q2 2026 Earnings Call: Complete Transcript",
+   "summary": "Aware (NASDAQ:AWRE) reported second-quarter financial results on Wednesday. The transcript from the company&#39;s second-quarter earnings call has been provided below.\nBenzinga APIs provide real-time ",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/09/61863064/aware-q2-2026-earnings-call-complete-transcript",
+   "created_at": "2026-09-18T10:12:57Z",
+   "symbols": [
+    "AWRE"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_3.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Transcript: Clipper Realty Q2 2026 Earnings Conference Call",
+   "summary": "Clipper Realty (NYSE:CLPR) held its second-quarter earnings conference call on Thursday. Below is the complete transcript from the call.\nBenzinga APIs provide real-time access to earnings call transcr",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/09/61863039/transcript-clipper-realty-q2-2026-earnings-conference-call",
+   "created_at": "2026-09-18T10:12:38Z",
+   "symbols": [
+    "CLPR"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_2.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Trump's F-35 Push for Saudi Arabia Moves Forward as US Clears Potential $24.3 Billion Fighter Jet Sale: Lockheed Martin, RTX Set to Gain?",
+   "summary": "U.S. approves potential $24.3B Saudi F-35 deal with Lockheed Martin, including 48 jets and 49 Pratt &amp; Whitney engines.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/contracts/26/09/61862871/trumps-f-35-push-for-saudi-arabia-moves-forward-as-us-clears-potential-24-3-billion-fighter-jet-sale-lockheed-martin-rtx-set-to-gain",
+   "created_at": "2026-09-18T10:04:29Z",
+   "symbols": [
     "BA",
-    "DIA"
+    "LMT",
+    "RTX"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/17/3d-Render-Closeup-Of-Computer-Keyboard-W.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/18/shutterstock-2666470957.jpg?width=1024&height=768"
   },
   {
-   "headline": "Why Is Salesforce Stock Falling Thursday?",
-   "summary": "Salesforce (CRM) dips 3% despite raising FY27 revenue outlook. Analysts remain bullish, citing strong AI growth.",
+   "headline": "Red Cat Hldgs Q2 2026 Earnings Call Transcript",
+   "summary": "Red Cat Hldgs (NASDAQ:RCAT) held its second-quarter earnings conference call on Thursday. Below is the complete transcript from the call.\nThis transcript is brought to you by Benzinga APIs. For real-t",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/09/61851358/why-is-salesforce-stock-falling-thursday",
-   "created_at": "2026-09-17T17:06:41Z",
+   "url": "https://www.benzinga.com/news/26/09/61862721/red-cat-hldgs-q2-2026-earnings-call-transcript",
+   "created_at": "2026-09-18T10:02:29Z",
    "symbols": [
-    "CRM",
-    "FDN",
-    "IGV",
-    "PKW"
+    "RCAT"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/17/Salesforce.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_3.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Top Wall Street Forecasters Revamp Costco Expectations Ahead Of Q4 Earnings",
+   "summary": "Costco will report Q4 earnings Sept. 24, with analysts expecting $6.53 EPS and $94.89B revenue; analysts maintain bullish ratings and targets.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/09/61862702/top-wall-street-forecasters-revamp-costco-expectations-ahead-of-q4-earnings-2",
+   "created_at": "2026-09-18T10:02:10Z",
+   "symbols": [
+    "COST",
+    "DASH"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/18/Costco-Sign-At-The-Entrance-Of-A-Store-I.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Performance Comparison: Apple And Competitors In Technology Hardware, Storage &amp; Peripherals Industry",
+   "summary": "In today&#39;s rapidly changing and highly competitive business world, it is imperative for investors and industry observers to carefully assess companies before making investment choices. In this art",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/09/61862611/performance-comparison-apple-and-competitors-technology-hardware-storage-amp-peripherals-industry",
+   "created_at": "2026-09-18T09:58:27Z",
+   "symbols": [
+    "AAPL"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/earnings_preview_13.jpg?width=1024&height=768"
   },
   {
    "headline": "$105 Oil Is Quietly Engineering Its Own Demise",
@@ -252,248 +471,6 @@
     "FOXF"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_4.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "PubMatic Reports Q2 2026 Results: Full Earnings Call Transcript",
-   "summary": "On Thursday, PubMatic (NASDAQ:PUBM) discussed second-quarter financial results during its earnings call. The full transcript is provided below.\nBenzinga APIs provide real-time access to earnings call ",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/09/61862467/pubmatic-reports-q2-2026-results-full-earnings-call-transcript",
-   "created_at": "2026-09-18T09:46:41Z",
-   "symbols": [
-    "PUBM"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_1.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Why Is Oklo Stock Gaining Thursday?",
-   "summary": "Oklo stock rises premarket as AI energy demand and the Ratepayer Protection Act drive nuclear market attention.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/09/61862439/why-is-oklo-stock-gaining-thursday",
-   "created_at": "2026-09-18T09:42:40Z",
-   "symbols": [
-    "OKLO",
-    "URA",
-    "URAN"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/18/Konskie--Poland---August-03--2025-Oklo-C.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "SentinelOne Reports Q2 2027 Results: Full Earnings Call Transcript",
-   "summary": "SentinelOne (NYSE:S) reported second-quarter financial results on Thursday. The transcript from the company&#39;s second-quarter earnings call has been provided below.\nThis transcript is brought to yo",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/09/61862287/sentinelone-reports-q2-2027-results-full-earnings-call-transcript",
-   "created_at": "2026-09-18T09:37:56Z",
-   "symbols": [
-    "S"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_1.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Transcript: Canadian Imperial Bank Q3 2026 Earnings Conference Call",
-   "summary": "Canadian Imperial Bank (NYSE:CM) held its third-quarter earnings conference call on Thursday. Below is the complete transcript from the call.\nThis transcript is brought to you by Benzinga APIs. For re",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/09/61862280/transcript-canadian-imperial-bank-q3-2026-earnings-conference-call",
-   "created_at": "2026-09-18T09:37:35Z",
-   "symbols": [
-    "CM"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_2.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Canadian Imperial Bank Q3 2026 Earnings Call: Complete Transcript",
-   "summary": "Canadian Imperial Bank (TSX:CM) held its third-quarter earnings conference call on Thursday. Below is the complete transcript from the call.\nThis transcript is brought to you by Benzinga APIs. For rea",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/09/61862279/canadian-imperial-bank-q3-2026-earnings-call-complete-transcript",
-   "created_at": "2026-09-18T09:37:28Z",
-   "symbols": [
-    "TSX:CM"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_2.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Transcript: CMB.Tech Q2 2026 Earnings Conference Call",
-   "summary": "CMB.Tech (NYSE:CMBT) reported second-quarter financial results on Thursday. The transcript from the company&#39;s second-quarter earnings call has been provided below.\nThis content is powered by Benzi",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/09/61862249/transcript-cmb-tech-q2-2026-earnings-conference-call",
-   "created_at": "2026-09-18T09:35:48Z",
-   "symbols": [
-    "CMBT"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_3.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "PagerDuty Reports Q2 2027 Results: Full Earnings Call Transcript",
-   "summary": "On Thursday, PagerDuty (NYSE:PD) discussed second-quarter financial results during its earnings call. The full transcript is provided below.\nBenzinga APIs provide real-time access to earnings call tra",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/09/61862239/pagerduty-reports-q2-2027-results-full-earnings-call-transcript",
-   "created_at": "2026-09-18T09:34:57Z",
-   "symbols": [
-    "PD"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_3.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "MINISO Group Holding Reports Q2 2026 Results: Full Earnings Call Transcript",
-   "summary": "On Friday, MINISO Group Holding (NYSE:MNSO) discussed second-quarter financial results during its earnings call. The full transcript is provided below.\nThis content is powered by Benzinga APIs. For co",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/09/61862221/miniso-group-holding-reports-q2-2026-results-full-earnings-call-transcript",
-   "created_at": "2026-09-18T09:32:47Z",
-   "symbols": [
-    "MNSO"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_3.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Gavin Newsom Fires Back at Trump’s $5,000 Dividend Plan, Says Americans Should Get Paid Back for $108 Billion Iran War Fuel Costs: 'If Republicans Really Want...'",
-   "summary": "Gavin Newsom criticized Trump’s proposed $5,000 dividend, saying Americans should instead get back billions in war-driven fuel costs.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/09/61862178/gavin-newsom-fires-back-at-trumps-5000-dividend-plan-says-americans-should-get-paid-back-for-108-billion-iran-war-fuel-costs-if-republicans-really-want",
-   "created_at": "2026-09-18T09:29:04Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/18/Larkspur--Ca---April-16--2024-Governor-G.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "NASA Picks SpaceX to Hunt Cosmic Explosions With StarBurst — Here’s What Scientists Are Looking For",
-   "summary": "NASA selected SpaceX to launch StarBurst, helping detect gamma-ray bursts from neutron-star mergers and advance multimessenger astronomy.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/space/26/09/61862169/nasa-picks-spacex-to-hunt-cosmic-explosions-with-starburst-heres-what-scientists-are-looking-for",
-   "created_at": "2026-09-18T09:28:35Z",
-   "symbols": [
-    "SPCX"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/18/SpaceX-logo-on-the-smartphone-screen-and.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Aethlon Medical Q1 2027 Earnings Call Transcript",
-   "summary": "Aethlon Medical (NASDAQ:AEMD) held its first-quarter earnings conference call on Thursday. Below is the complete transcript from the call.\nThis content is powered by Benzinga APIs. For comprehensive f",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/09/61862162/aethlon-medical-q1-2027-earnings-call-transcript",
-   "created_at": "2026-09-18T09:28:25Z",
-   "symbols": [
-    "AEMD"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_3.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "BW LPG Reports Q2 2026 Results: Full Earnings Call Transcript",
-   "summary": "On Friday, BW LPG (NYSE:BWLP) discussed second-quarter financial results during its earnings call. The full transcript is provided below.\nThis transcript is brought to you by Benzinga APIs. For real-t",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/09/61862156/bw-lpg-reports-q2-2026-results-full-earnings-call-transcript",
-   "created_at": "2026-09-18T09:28:05Z",
-   "symbols": [
-    "BWLP"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_3.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Full Transcript: Hafnia Q2 2026 Earnings Call",
-   "summary": "On Friday, Hafnia (NYSE:HAFN) discussed second-quarter financial results during its earnings call. The full transcript is provided below.\nThis transcript is brought to you by Benzinga APIs. For real-t",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/09/61862145/full-transcript-hafnia-q2-2026-earnings-call",
-   "created_at": "2026-09-18T09:27:15Z",
-   "symbols": [
-    "HAFN"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_1.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Banco BBVA Argentina Q2 2026 Earnings Call: Complete Transcript",
-   "summary": "Banco BBVA Argentina (NYSE:BBAR) held its second-quarter earnings conference call on Friday. Below is the complete transcript from the call.\nThis content is powered by Benzinga APIs. For comprehensive",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/09/61862135/banco-bbva-argentina-q2-2026-earnings-call-complete-transcript",
-   "created_at": "2026-09-18T09:25:45Z",
-   "symbols": [
-    "BBAR"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_4.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "FitLife Brands Q2 2026 Earnings Call: Complete Transcript",
-   "summary": "FitLife Brands (NASDAQ:FTLF) reported second-quarter financial results on Thursday. The transcript from the company&#39;s second-quarter earnings call has been provided below.\nBenzinga APIs provide re",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/09/61862120/fitlife-brands-q2-2026-earnings-call-complete-transcript",
-   "created_at": "2026-09-18T09:20:41Z",
-   "symbols": [
-    "FTLF"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_2.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Transcript: Western Forest Products Q2 2026 Earnings Conference Call",
-   "summary": "Western Forest Products (TSX:WEF) held its second-quarter earnings conference call on Thursday. Below is the complete transcript from the call.\nBenzinga APIs provide real-time access to earnings call ",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/09/61862077/transcript-western-forest-products-q2-2026-earnings-conference-call",
-   "created_at": "2026-09-18T09:15:52Z",
-   "symbols": [
-    "TSX:WEF"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_2.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Transcript: BBB Foods Q2 2026 Earnings Conference Call",
-   "summary": "BBB Foods (NYSE:TBBB) reported second-quarter financial results on Thursday. The transcript from the company&#39;s second-quarter earnings call has been provided below.\nThis content is powered by Benz",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/09/61862076/transcript-bbb-foods-q2-2026-earnings-conference-call",
-   "created_at": "2026-09-18T09:15:38Z",
-   "symbols": [
-    "TBBB"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_4.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Full Transcript: Security National Finl Q2 2026 Earnings Call",
-   "summary": "Security National Finl (NASDAQ:SNFCA) held its second-quarter earnings conference call on Thursday. Below is the complete transcript from the call.\nThis transcript is brought to you by Benzinga APIs. ",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/09/61861937/full-transcript-security-national-finl-q2-2026-earnings-call",
-   "created_at": "2026-09-18T09:09:58Z",
-   "symbols": [
-    "SNFCA"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_2.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Kolibri Global Energy Reports Q2 2026 Results: Full Earnings Call Transcript",
-   "summary": "On Thursday, Kolibri Global Energy (NASDAQ:KGEI) discussed second-quarter financial results during its earnings call. The full transcript is provided below.\nThis transcript is brought to you by Benzin",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/09/61861876/kolibri-global-energy-reports-q2-2026-results-full-earnings-call-transcript",
-   "created_at": "2026-09-18T09:07:00Z",
-   "symbols": [
-    "KGEI"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_2.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Full Transcript: So-Young Intl Q2 2026 Earnings Call",
-   "summary": "So-Young Intl (NASDAQ:SY) held its second-quarter earnings conference call on Monday. Below is the complete transcript from the call.\nThis content is powered by Benzinga APIs. For comprehensive financ",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/09/61861867/full-transcript-so-young-intl-q2-2026-earnings-call",
-   "created_at": "2026-09-18T09:06:25Z",
-   "symbols": [
-    "SY"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_1.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Transcript: Kolibri Global Energy Q2 2026 Earnings Conference Call",
-   "summary": "On Thursday, Kolibri Global Energy (TSX:KEI) discussed second-quarter financial results during its earnings call. The full transcript is provided below.\nThis content is powered by Benzinga APIs. For c",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/09/61861865/transcript-kolibri-global-energy-q2-2026-earnings-conference-call",
-   "created_at": "2026-09-18T09:06:15Z",
-   "symbols": [
-    "TSX:KEI"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_4.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "PRO REIT Reports Q2 2026 Results: Full Earnings Call Transcript",
-   "summary": "PRO REIT (TSX:PRV) held its second-quarter earnings conference call on Thursday. Below is the complete transcript from the call.\nBenzinga APIs provide real-time access to earnings call transcripts and",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/09/61861853/pro-reit-reports-q2-2026-results-full-earnings-call-transcript",
-   "created_at": "2026-09-18T09:04:36Z",
-   "symbols": [
-    "TSX:PRV"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_1.jpg?width=1024&height=768"
   }
  ]
 }
