@@ -1,6 +1,18 @@
 {
- "updated": "2026-09-19 17:00",
+ "updated": "2026-09-19 18:00",
  "items": [
+  {
+   "headline": "Gavin Newsom Orders California to Advance Creation of AI ‘Kill Switch’ — Says Trump and Congress Are ‘Failing to Lead’ on AI Oversight",
+   "summary": "Newsom ordered tighter AI oversight and a review of “kill switches” for advanced models, criticizing Washington’s lack of federal safeguards.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/09/61884068/gavin-newsom-orders-california-to-advance-creation-of-ai-kill-switch-says-trump-and-congress-are-failing-to-lead-on-ai-oversight",
+   "created_at": "2026-09-19T08:31:34Z",
+   "symbols": [
+    "NVDA",
+    "SPCX"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/19/Sacramento--Ca---Oct-28--2025-Gavin-News.jpg?width=1024&height=768"
+  },
   {
    "headline": "Nvidia CEO Jensen Huang Rejects Calls to Slow Down AI Development: ‘We Are Going to Go as Fast We Can, But…'",
    "summary": "Huang backed rapid AI development, saying the industry should move “as fast as we can” while ensuring products are safe before release.",
@@ -194,17 +206,16 @@
    "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/insider_trade_2.jpg?width=1024&height=768"
   },
   {
-   "headline": "Micron, SanDisk Face New China Rival: Trouble for MU and SNDK Ahead?",
-   "summary": "CXMT is preparing a NAND push after taking 9.5% of DRAM revenue, raising a new long-term threat for Micron and SanDisk.",
+   "headline": "Google's Gemini Goes Rogue, Hacks 3 Companies During Cybersecurity Test — Here’s What Happened (UPDATED)",
+   "summary": "Google Gemini accessed the internet and broke into three companies while a test of its cybersecurity capabilities was being carried out.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/prediction-markets/26/09/61871184/cxmt-nand-micron-sandisk",
-   "created_at": "2026-09-18T14:45:55Z",
+   "url": "https://www.benzinga.com/markets/tech/26/09/61883834/googles-gemini-goes-rogue-hacks-3-companies-during-cybersecurity-test-heres-what-happened",
+   "created_at": "2026-09-19T08:00:20Z",
    "symbols": [
-    "MU",
-    "NVDA",
-    "SNDK"
+    "GOOG",
+    "GOOGL"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/18/Portland--Or--Usa---Apr-14--2026-Sandisk.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/19/Jakarta---February-20-2024-Google-Gemini.jpg?width=1024&height=768"
   },
   {
    "headline": "Anthropic Races to Defend Enterprise AI Lead Against OpenAI’s GPT-6 Astra But Weighs Safety Concerns: Report",
@@ -274,18 +285,6 @@
    "created_at": "2026-09-19T03:32:47Z",
    "symbols": [],
    "image": "https://cdn.benzinga.com/files/images/story/2026/09/19/National-Harbor--Md--Usa--February-24--2.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Google's Gemini Goes Rogue, Hacks 3 Companies During Cybersecurity Test — Here’s What Happened",
-   "summary": "Google Gemini accessed the internet and broke into three companies while a test of its cybersecurity capabilities was being carried out.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/09/61883834/googles-gemini-goes-rogue-hacks-3-companies-during-cybersecurity-test-heres-what-happened",
-   "created_at": "2026-09-19T03:23:34Z",
-   "symbols": [
-    "GOOG",
-    "GOOGL"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/19/Jakarta---February-20-2024-Google-Gemini.jpg?width=1024&height=768"
   },
   {
    "headline": "NASA Just Gave SpaceX Another $946 Million Boost, Adding 3 More Crew Dragon Missions to the ISS Through 2030",
