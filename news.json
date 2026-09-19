@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-19 22:00",
+ "updated": "2026-09-19 22:40",
  "items": [
   {
    "headline": "Intel, Apple, Nvidia and More: 5 Stocks Investors Couldn't Stop Buzzing About This Week",
@@ -210,6 +210,48 @@
     "SNDK"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/09/18/Sandisk-Company-Logo---EK.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Bitcoin, Zcash, Hyperliquid in Focus as Industry Expert Sees Crypto Nearing a 'Major Turning Point'",
+   "summary": "Crypto may be nearing a cyclical bottom as volumes slump; analysts favor Bitcoin, Ethereum and Dogecoin, while privacy coin Zcash gains attention.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/09/61884376/bitcoin-zcash-hyperliquid-in-focus-as-industry-expert-sees-crypto-nearing-a-major-turning-point",
+   "created_at": "2026-09-19T13:31:30Z",
+   "symbols": [
+    "BTCUSD",
+    "DOGEUSD",
+    "ETHUSD",
+    "PURR",
+    "ZECUSD"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/19/Crypto-Trader-Investor-Analyst-Looking-A.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Consumer Tech News (Sep 14-Sep 18): DOE Backs Quantum Computer With Self-Correcting Errors, OpenAI Faces AI Security Concerns & More",
+   "summary": "The DOE is putting up to $215 million toward developing a quantum computer capable of correcting its own errors and performing useful science by 2028.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/09/61884356/consumer-tech-news-sep-14-sep-18-doe-backs-quantum-computer-with-self-correcting-errors-openai-faces-ai-security-concerns-more",
+   "created_at": "2026-09-19T13:11:13Z",
+   "symbols": [
+    "NOK",
+    "SKHY",
+    "SNAP",
+    "XPEV"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/19/Artificial-Intelligence-And-Technology--.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "This Week in TSLA: Elon Musk Touts Roadster Debut, Fuels SpaceX Merger  Talks and More",
+   "summary": "From the Terafab lawsuit, to a lower Q3 delivery forecast by a major investment bank, here are some of Tesla&#39;s top stories for the week.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/09/61884324/this-week-in-tsla-elon-musk-touts-roadster-debut-fuels-spacex-merger-talks-and-more",
+   "created_at": "2026-09-19T13:00:39Z",
+   "symbols": [
+    "GS",
+    "SPCX",
+    "TSLA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/19/Elon-Musk-Silhouette-With-Tesla-Logo-In-.jpg?width=1024&height=768"
   },
   {
    "headline": "Google's Gemini Goes Rogue, Hacks 3 Companies During Cybersecurity Test — Here’s What Happened (UPDATED)",
@@ -455,51 +497,6 @@
     "GOVX"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_2.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "12 Industrials Stocks Moving In Friday's After-Market Session",
-   "summary": "Gainers\n\nEastern International (NASDAQ:ELOG) shares rose 54.1% to $0.81 during Friday&#39;s after-market session. The company&#39;s market cap stands at $6.9 million. \nOlenox Industries (NASDAQ:OLOX) ",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/09/61882606/12-industrials-stocks-moving-friday-s-after-market-session",
-   "created_at": "2026-09-18T21:06:15Z",
-   "symbols": [
-    "AUC",
-    "ELOG",
-    "OLOX",
-    "PDC",
-    "RAYA"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_3.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "12 Information Technology Stocks Moving In Friday's After-Market Session",
-   "summary": "Gainers\n\nBlack Titan (NASDAQ:BTTC) shares rose 66.3% to $0.61 during Friday&#39;s after-market session. The company&#39;s market cap stands at $5.1 million. \n908 Devices (NASDAQ:MASS) stock rose 9.21%",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/09/61882605/12-information-technology-stocks-moving-friday-s-after-market-session",
-   "created_at": "2026-09-18T21:06:15Z",
-   "symbols": [
-    "ABTS",
-    "ACN",
-    "ADBT",
-    "BKYI",
-    "BTTC"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_4.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Cybersecurity Rally Hits a Valuation Reality Check. These ETFs Face the Fallout",
-   "summary": "Cybersecurity ETFs are sliding as CrowdStrike, Palo Alto Networks and Okta face valuation concerns after a rally. Here’s what it means for the AI-driven trade.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/etfs/sector-etfs/26/09/61882563/cybersecurity-rally-hits-a-valuation-reality-check-these-etfs-face-the-fallout",
-   "created_at": "2026-09-18T21:05:07Z",
-   "symbols": [
-    "BUG",
-    "CIBR",
-    "CRWD",
-    "OKTA",
-    "PANW"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/18/Endpoint-Security---Endpoint-Protection-.jpg?width=1024&height=768"
   }
  ]
 }
