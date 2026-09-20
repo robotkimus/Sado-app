@@ -1,6 +1,20 @@
 {
- "updated": "2026-09-21 02:00",
+ "updated": "2026-09-21 03:00",
  "items": [
+  {
+   "headline": "Micron Stock Eyes a Big Move as Closely Watched Q4 Earnings Report Nears",
+   "summary": "Micron stock may be on the cusp of a strong bullish breakout as the company prepares to publish its fourth quarter earnings report.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/09/61885704/micron-stock-eyes-a-big-move-as-closely-watched-q4-earnings-report-nears",
+   "created_at": "2026-09-20T17:45:09Z",
+   "symbols": [
+    "MU",
+    "NVDA",
+    "SNDK",
+    "WDC"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/20/Konskie--Poland---November-21--2024-Micr.jpg?width=1024&height=768"
+  },
   {
    "headline": "Broadcom Stock Remains in Bear Territory as Analysts Signal a Floor",
    "summary": "Broadcom stock has fallen about 28% over the past three months, from a record high of $494 to $357 at Friday&#39;s close.",
@@ -188,19 +202,28 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/09/18/Benzinga-Quick-Spark.jpg?width=1024&height=768"
   },
   {
-   "headline": "$3.2T Chip Boom: Which Semiconductor ETFs Get The Biggest Slice?",
-   "summary": "Bank of America sees the semiconductor market reaching $3.2T by 2030. Here’s how AI, memory and chip-equipment ETFs could benefit.",
+   "headline": "VOO & Chill: Why Vanguard’s S&P 500 ETF is Beating SPY and IVV",
+   "summary": "VOO ETF has continued to have substantial inflows this year and is continuing to beat popular funds like SPY and IVV",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/etfs/sector-etfs/26/09/61879307/3-2t-chip-boom-which-semiconductor-etfs-get-the-biggest-slice",
-   "created_at": "2026-09-18T19:15:33Z",
+   "url": "https://www.benzinga.com/etfs/sector-etfs/26/09/61885678/voo-chill-why-vanguards-sp-500-etf-is-beating-spy-and-ivv",
+   "created_at": "2026-09-20T17:31:05Z",
    "symbols": [
-    "AMAT",
-    "AMD",
-    "AVGO",
-    "KLAC",
-    "LRCX"
+    "FDS",
+    "IVV",
+    "SPY",
+    "SPYM",
+    "VOO"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/18/Futuristic-Ai-Microchip-Processor-With-G.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/20/Wall-Street-Bull.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Fidelity: Retirement Accounts Just Hit Record Highs",
+   "summary": "What a difference a few months can make.\n\n\n\nAfter a brutal first quarter, investors had plenty of reasons to second-guess their retirement plans as markets tumbled amid the war with Iran. But most ret",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/personal-finance/financial-advisors/26/09/61885646/fidelity-retirement-accounts-just-hit-record-highs",
+   "created_at": "2026-09-20T17:00:08Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/20/Financial-Advisory-Services--Asian-Advis.jpg?width=1024&height=768"
   },
   {
    "headline": "Bitcoin Price Stabilizes Above $80,000 as ETF Inflows Jump, Bullish Patterns Form",
@@ -447,30 +470,6 @@
     "UNIUSD"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/09/19/Hyperliquid-Hype-Crypto-Tokens-Lying-On-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Bitcoin Bull Says Cancer Took Both Parents By 18, Thought He’d Die Young Too—Until He 'Uncovered a Hack' to Living Well",
-   "summary": "Willy Woo, a well-known Bitcoin advocate and cryptocurrency analyst, recounted how nonstop world travel after a tough chapter altered his view of life.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/09/61884640/bitcoin-advocate-cancer-parents-died-young-living-well-hack",
-   "created_at": "2026-09-19T17:31:09Z",
-   "symbols": [
-    "BTCUSD",
-    "ZECUSD"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/19/Unknown-Businesswoman-Sit-At-Desk-Workin.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Solana Price Forms Bullish Flag as ETF and Staking Inflows Jump",
-   "summary": "Solana has formed a bullish flag pattern, pointing to more gains, as the SOL ETF and staking inflows jump.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/26/09/61884616/solana-price-forms-bullish-flag-as-etf-and-staking-inflows-jump",
-   "created_at": "2026-09-19T16:45:09Z",
-   "symbols": [
-    "SOL",
-    "SOLUSD"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/19/Solana-Logo-And-Coin-With-Shiny-Elements.jpg?width=1024&height=768"
   }
  ]
 }
