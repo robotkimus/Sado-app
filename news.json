@@ -1,6 +1,34 @@
 {
- "updated": "2026-09-21 05:00",
+ "updated": "2026-09-21 06:00",
  "items": [
+  {
+   "headline": "Nvidia Stock Keeps Failing to Retest Its Record High as Headwinds Rise",
+   "summary": "Nvidia stock has slumped and is struggling to retest its all-time high as it faces some major technical and fundamental headwinds.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/09/61885915/nvidia-stock-keeps-failing-to-retest-its-record-high-as-headwinds-rise",
+   "created_at": "2026-09-20T20:45:54Z",
+   "symbols": [
+    "AMZN",
+    "AVGO",
+    "MSFT",
+    "NVDA",
+    "ORCL"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/20/Jensen-Huang-Nvidias-Founder--President-.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Shorts Prevail as Oklo and NuScale Stocks Dive as SMR Risks Rise",
+   "summary": "Oklo and NuScale stocks have plunged this year, with short sellers making billions of dollars as risks in the SMR industry rise.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/09/61885903/shorts-prevail-as-oklo-and-nuscale-stocks-dive-as-smr-risks-rise",
+   "created_at": "2026-09-20T20:41:10Z",
+   "symbols": [
+    "META",
+    "OKLO",
+    "SMR"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/20/Konskie--Poland---August-03--2025-Oklo-C.jpg?width=1024&height=768"
+  },
   {
    "headline": "Bessent Meets Chinese Vice Premier He Lifeng Ahead of High-Stakes Trump-Xi Summit",
    "summary": "Bessent and China’s He Lifeng met in New York ahead of the Trump-Xi summit, focusing on AI, tariffs, rare earths and trade tensions.",
@@ -181,31 +209,35 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/09/19/Sacramento--Ca---Oct-28--2025-Gavin-News.jpg?width=1024&height=768"
   },
   {
-   "headline": "Nvidia CEO Jensen Huang Rejects Calls to Slow Down AI Development: ‘We Are Going to Go as Fast We Can, But…'",
-   "summary": "Huang backed rapid AI development, saying the industry should move “as fast as we can” while ensuring products are safe before release.",
+   "headline": "Boeing Stock Falls Again Ahead of Trump and Xi Talks and a Possible Big China Order",
+   "summary": "Boeing stock remains under pressure as traders predict a huge Chinese order when Trump-Xi meet in Washington this week",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/09/61884010/nvidia-ceo-jensen-huang-rejects-calls-to-slow-down-ai-development-we-are-going-to-go-as-fast-we-can-but",
-   "created_at": "2026-09-19T07:21:05Z",
+   "url": "https://www.benzinga.com/markets/equities/26/09/61885927/boeing-stock-falls-again-ahead-of-trump-and-xi-talks-and-a-possible-big-china-order",
+   "created_at": "2026-09-20T20:47:13Z",
    "symbols": [
-    "META",
-    "NVDA"
+    "BA"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/19/Jensen-Huang-Nvidias-Founder--President-.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/20/Boeing.jpg?width=1024&height=768"
   },
   {
-   "headline": "Fed Raises Rates, Yields Hit 2007 Highs as Fuel Costs Set Records: This Week On Wall Street",
-   "summary": "The Fed hiked for the first time since 2023; the 10-year yield touched 5.04%, and record diesel prices hit truckers and automakers.",
+   "headline": "SCHD ETF Loses Momentum as Key Indicators Point to More Downside",
+   "summary": "The SCHD ETF has lost momentum as key PPO and the Relative Strength Index (RSI) points to more downside in the coming weeks.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/commodities/26/09/61881343/fed-raises-rates-yields-2007-highs-fuel-costs-records-this-week-wall-street",
-   "created_at": "2026-09-18T20:11:49Z",
+   "url": "https://www.benzinga.com/etfs/sector-etfs/26/09/61885878/schd-etf-loses-momentum-as-key-indicators-point-to-more-downside",
+   "created_at": "2026-09-20T20:15:06Z",
    "symbols": [
-    "AMZN",
-    "BLSH",
-    "BTCUSD",
-    "CHTR",
-    "COIN"
+    "SCHD"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/18/Diesel-Prices-Cross-6.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/20/Wall-Street-Bull.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Trump Reportedly in ‘Deciding Mode’ on Iran, Contemplates Drastic Measures As Tensions Rise, Putting Pressure on Energy Prices: ‘They Better Behave’",
+   "summary": "Trump weighs military action, economic pressure or a deal with Iran as Gulf leaders prepare to discuss the conflict and rising energy costs.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/09/61885864/trump-reportedly-in-deciding-mode-on-iran-contemplates-drastic-measures-as-tensions-rise-putting-pressure-on-energy-prices-they-better-behave",
+   "created_at": "2026-09-20T20:08:04Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/20/President-Of-The-United-States-Donald-Tr.jpg?width=1024&height=768"
   },
   {
    "headline": "Costco Stock Nears Bear Market: Can Earnings Turn It Around?",
@@ -425,55 +457,6 @@
    "created_at": "2026-09-20T07:40:16Z",
    "symbols": [],
    "image": "https://cdn.benzinga.com/files/images/story/2026/09/20/Emmanuel-Macron-During-The-Rugby-World-C.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Raoul Pal Says AI Will ‘Slip’ Its Creators’ Constraints and ‘Seek Its Own Goals:’ ‘You Can’t Stop It’",
-   "summary": "Raoul Pal says AI will eventually escape human constraints, develop its own goals and represent a new layer of universal intelligence.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/09/61885021/raoul-pal-says-ai-will-slip-its-creators-constraints-and-seek-its-own-goals-you-cant-stop-it",
-   "created_at": "2026-09-20T06:32:11Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/20/Creative-Ai-Background-With-Forex-Chart-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Trump Says Son Donald Trump Jr. ‘Paid’ Russian Boxing Chief Umar Kremlev Over Bahamas Wedding Gift",
-   "summary": "Trump confirms son Don Jr. repaid Russian boxing chief Umar Kremlev for lavish Bahamas wedding gifts amid ethics scrutiny.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/09/61885005/trump-don-jr-repays-umar-kremlev-bahamas-wedding-gifts",
-   "created_at": "2026-09-20T06:02:29Z",
-   "symbols": [
-    " BA",
-    "AAPL",
-    "BA"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/20/Donald-Trump-Jr--Broadcasts-From-The-1st.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Elissa Slotkin Calls for ‘Legal, Vetted Immigrants’ to Help US Economy: ‘We’re Getting Older’",
-   "summary": "Slotkin urged immigration reform aligned with U.S. economic needs, saying legal, vetted immigrants can address aging and workforce challenges.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/09/61884993/elissa-slotkin-calls-for-legal-vetted-immigrants-to-help-us-economy-were-getting-older",
-   "created_at": "2026-09-20T05:58:06Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/20/A-Detailed-Stock-Market-Chart-Featuring-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Sanders, Pelosi, Newsom Slam Trump's White House Press Ban: ‘We Will Not Accept Authoritarianism’",
-   "summary": "Trump bars CNN, Politico and MS NOW from the White House, drawing sharp criticism from Sanders, Pelosi and press advocates.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/09/61884935/sanders-pelosi-newsom-slam-trump-ban-cnn-politico-ms-now-white-house",
-   "created_at": "2026-09-20T03:59:33Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/20/Des-Moines--Iowa---September-21--2019-Be.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Kash Patel Says FBI Used AI to Stop ‘About Half a Dozen’ School Shootings, Claims Over 600% Surge in AI Use",
-   "summary": "FBI Director Kash Patel says AI helped stop six school shootings as agency use jumped 605% under his leadership.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/09/61884921/kash-patel-says-fbi-used-ai-to-stop-about-half-a-dozen-school-shootings-claims-over-600-surge-in-ai-use",
-   "created_at": "2026-09-20T03:42:07Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/20/National-Harbor--Md-Us---Mar-3--2023-Kas.jpg?width=1024&height=768"
   }
  ]
 }
