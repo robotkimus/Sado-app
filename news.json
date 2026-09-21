@@ -1,6 +1,20 @@
 {
- "updated": "2026-09-21 14:00",
+ "updated": "2026-09-21 15:00",
  "items": [
+  {
+   "headline": "Stock Market: Will S&P 500 Open Up or Down Today?",
+   "summary": "Will S&amp;P 500 open higher? Polymarket odds reach 81% as Wall Street digests cooling oil prices, Trump&#39;s Iran warnings, and retail earnings.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/09/61886941/stock-market-will-sp-500-open-up-or-down-today-41",
+   "created_at": "2026-09-21T05:58:17Z",
+   "symbols": [
+    "DIA",
+    "POLUSD",
+    "QQQ",
+    "SPY"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/21/Stock-S-And-P-500-Index-Fund-Symbol-Is-O.jpg?width=1024&height=768"
+  },
   {
    "headline": "Nvidia Stock Keeps Failing to Retest Its Record High as Headwinds Rise",
    "summary": "Nvidia stock has slumped and is struggling to retest its all-time high as it faces some major technical and fundamental headwinds.",
@@ -197,16 +211,57 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/09/19/Ipo---Acronym-From-Wooden-Blocks-With-Le.jpg?width=1024&height=768"
   },
   {
-   "headline": "Gavin Newsom Orders California to Advance Creation of AI ‘Kill Switch’ — Says Trump and Congress Are ‘Failing to Lead’ on AI Oversight",
-   "summary": "Newsom ordered tighter AI oversight and a review of “kill switches” for advanced models, criticizing Washington’s lack of federal safeguards.",
+   "headline": "Michael Saylor Says, 'A Little More Orange': Will Strategy Report BTC Purchases After Hitting Pause for 3 Weeks?",
+   "summary": "Strategy Inc. Chair Michael Saylor indicated on Sunday, September 20, that the firm could announce Bitcoin purchases, following the cryptocurrency’s upward momentum last week.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/09/61884068/gavin-newsom-orders-california-to-advance-creation-of-ai-kill-switch-says-trump-and-congress-are-failing-to-lead-on-ai-oversight",
-   "created_at": "2026-09-19T08:31:34Z",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/09/61886896/michael-saylor-strategy-bitcoin-purchases-three-week-pause",
+   "created_at": "2026-09-21T05:52:19Z",
    "symbols": [
-    "NVDA",
-    "SPCX"
+    "BTCUSD",
+    "MSTR",
+    "ZECUSD"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/19/Sacramento--Ca---Oct-28--2025-Gavin-News.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/21/Bitcoin-Btc-Virtual-Cryptocurrency-In-Fr.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Tesla Reopens Roadster Reservations Ahead of Oct. 1 Reveal: Here’s What You Need to Know",
+   "summary": "Tesla reopens Roadster reservations ahead of its Oct. 1 launch, requiring $5,000 upfront plus $45,000 by wire.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/09/61886877/tesla-reopens-roadster-reservations-ahead-of-oct-1-reveal-heres-what-you-need-to-know",
+   "created_at": "2026-09-21T05:46:46Z",
+   "symbols": [
+    "TSLA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/21/Tesla-EV-electric-vehicle-Service-Center.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Peter Schiff Says Trump 'Gave Up' on Greenland and His Deal Only Lasts Until NATO 'Remains in Place': 'He Settled For...'",
+   "summary": "Schiff said Trump effectively “gave up” on acquiring Greenland, while Burry emphasized the Arctic island’s strategic value.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/09/61886797/peter-schiff-trump-greenland-deal-nato-remains-in-place-settled-for",
+   "created_at": "2026-09-21T05:14:19Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/21/Greenland-Denmark-And-Usa-Relation--Unit.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Bessent Proposes US-China AI Alert System Ahead of Trump-Xi Summit: ‘We Want a Shared Vision’",
+   "summary": "US and China propose sharing AI security incident alerts and broaden trade talks ahead of the Trump-Xi summit.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/09/61886786/bessent-proposes-us-china-ai-alert-system-ahead-of-trump-xi-summit-we-want-a-shared-vision",
+   "created_at": "2026-09-21T05:09:37Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/21/President-Donald-J--Trump-participates-i.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Iran’s Ghalibaf Warns Trump Over Strait of Hormuz: ‘Trying to Suffocate Iran Without Blowback’ Is ‘Impossible’",
+   "summary": "Iranian Parliament Speaker Ghalibaf warns that targeting Iran via the Strait of Hormuz would trigger unavoidable blowback.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/09/61886742/irans-ghalibaf-warns-trump-over-strait-of-hormuz-trying-to-suffocate-iran-without-blowback-is-impossible",
+   "created_at": "2026-09-21T05:02:15Z",
+   "symbols": [
+    "JPM"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/21/The-Iranian-Flag-Is-Visible-On-The-Scree.jpg?width=1024&height=768"
   },
   {
    "headline": "Bitcoin, Dogecoin Rose, but This Obscure AI Token Delivered 255% Weekly Gain Last Week",
@@ -437,67 +492,6 @@
     "BTCUSD"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/09/20/Stack-Of-Bitcoins-And-Handcuffs-Over-Bla.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "US-Greenland Deal Could Open Up One of the World’s Last Mineral Frontiers — If Arctic Hurdles Are Overcome",
-   "summary": "The Trump administration has touted the U.S. agreement with Denmark and Greenland as strengthening American security in the strategically important Arctic region.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/09/61885615/us-greenland-mineral-deal-arctic-hurdles",
-   "created_at": "2026-09-20T16:35:35Z",
-   "symbols": [
-    "ALOY",
-    "CRML",
-    "GRML"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/20/Global-Order-On-The-Brink.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Altcoin Index Soars, SEC's Crypto Rules, Bitcoin's Milestone, Binance's Zero Tolerance and More: This Week in Crypto",
-   "summary": "The week saw altcoins rally, Bitcoin top $80,000, the SEC advance crypto rules, Binance reaffirm sanctions compliance and more.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/09/61885453/altcoin-index-soars-secs-crypto-rules-bitcoins-milestone-binances-zero-tolerance-and-more-this-week-in-crypto",
-   "created_at": "2026-09-20T14:00:23Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/20/Bitcoin-Btc-Virtual-Cryptocurrency-In-Fr.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "EXCLUSIVE: Tesla Vehicles Maintain Nearly 19% Junk Title Rate Across Age Groups, VIN Analysis Shows",
-   "summary": "EpicVIN data shows Tesla has the highest EV junk-title rate at 18.5%, versus 1%-9.5% for leading legacy automaker EVs.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/09/61885437/exclusive-tesla-vehicles-maintain-nearly-19-junk-title-rate-across-age-groups-vin-analysis-shows",
-   "created_at": "2026-09-20T13:30:21Z",
-   "symbols": [
-    "F",
-    "GM",
-    "HMC",
-    "NSANY",
-    "TSLA"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/20/Tesla-EV-electric-vehicle-Service-Center.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "OpenAI's Cash Burn, Google's Rogue AI, Spacex's FCC Nod and More: This Week in Tech",
-   "summary": "The roundup covers OpenAI’s cash burn, Google’s rogue Gemini, SpaceX’s Starlink expansion and new AI developments.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/09/61885399/openais-cash-burn-googles-rogue-ai-spacexs-fcc-nod-and-more-this-week-in-tech",
-   "created_at": "2026-09-20T13:00:28Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/20/Openai-Ceo-Sam-Altman-Attends-The-Artifi.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Benzinga's 'Stock Whisper' Index: 5 Stocks Investors Secretly Monitor But Don't Talk About Yet",
-   "summary": "The Stock Whisper Index is a market indicator highlighting stocks that are attracting heightened interest from traders and investors during the last week.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/09/61885385/benzingas-stock-whisper-index-5-stocks-investors-secretly-monitor-but-dont-talk-about-yet-127",
-   "created_at": "2026-09-20T12:59:13Z",
-   "symbols": [
-    "DDOG",
-    "FLR",
-    "NB",
-    "SNX",
-    "UMBF"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/20/Stock-Whisper-Index.jpg?width=1024&height=768"
   }
  ]
 }
