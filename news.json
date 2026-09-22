@@ -1,6 +1,19 @@
 {
- "updated": "2026-09-22 17:00",
+ "updated": "2026-09-22 18:00",
  "items": [
+  {
+   "headline": "Alibaba Just Supercharged its AI Ambitions: New Zhenwu V900 AI Chip Promises 3X Performance, Targets 20GW Data Center Expansion by 2032",
+   "summary": "Alibaba unveils its Zhenwu V900 AI chip and plans to expand global data center capacity to over 20GW by 2032.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/09/61912697/alibaba-just-supercharged-its-ai-ambitions-new-zhenwu-v900-ai-chip-promises-3x-performance-targets-20gw-data-center-expansion-by-2032",
+   "created_at": "2026-09-22T08:04:24Z",
+   "symbols": [
+    "BABA",
+    "META",
+    "NVDA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/22/Tianjin-china-oct-24-2022-Logo-Of-Alibab.jpg?width=1024&height=768"
+  },
   {
    "headline": "S&P 500 Nears Record High But Breadth Flashes Rare 1929, 1999 Signal — Analyst Says ‘We’ve Never in Almost 100 Years Seen Breadth This Bad’",
    "summary": "The S&amp;P 500 nears record highs, but Jason Goepfert warns of a rare technical anomaly last seen before the 1929 and 1999 market crashes.",
@@ -196,19 +209,70 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/09/21/Man-checks-financial-chart-on-laptops-an.jpg?width=1024&height=768"
   },
   {
-   "headline": "10 Information Technology Stocks Whale Activity In Today’s Session",
-   "summary": "This whale alert can help traders discover the next big trading opportunities.\nWhales are entities with large sums of money and we track their transactions here at Benzinga on our options activity sca",
+   "headline": "S&P 500 Boom Is Sending Older Americans Into ‘Retirement Party,’ Economists Say ‘Strength of the Equity Market Is Partly to Blame’",
+   "summary": "Stock gains are encouraging Americans to retire, while economists warn a downturn could hurt workers.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/options/26/09/61904158/10-information-technology-stocks-whale-activity-today-s-session",
-   "created_at": "2026-09-21T17:35:17Z",
+   "url": "https://www.benzinga.com/markets/macro-economic-events/26/09/61912892/sp-500-boom-is-sending-older-americans-into-retirement-party-economists-say-strength-of-the-equity-market-is-partly-to-blame",
+   "created_at": "2026-09-22T08:46:51Z",
    "symbols": [
-    "ALGM",
-    "AXTI",
-    "DELL",
-    "INTC",
-    "MU"
+    "BAC"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/aggregated_options_2.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/22/Asian-Senior-Woman-Holding-And-Counting-.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Elon Musk Says Tesla Has Offered FSD to Legacy Automakers, but ‘None’ Have Accepted So Far",
+   "summary": "Elon Musk reitartes that Tesla has offered Full Self-Driving system as licenses to legacy automakers, but none accepted.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/09/61912876/elon-musk-says-tesla-has-offered-fsd-to-legacy-automakers-but-none-have-accepted-so-far",
+   "created_at": "2026-09-22T08:43:30Z",
+   "symbols": [
+    "TSLA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/22/Tesla-FSD.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "QCOM Stock in Focus Today: What Investors Need to Know About GOOGL Partnership",
+   "summary": "Qualcomm shares slipped 0.93% in premarket trading Tuesday, pulling back after Monday&#39;s rally on a new Google partnership.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/09/61912812/qualcomm-shares-rise-after-hours-google-partnership",
+   "created_at": "2026-09-22T08:35:32Z",
+   "symbols": [
+    "DELL",
+    "GOOG",
+    "GOOGL",
+    "HPQ",
+    "QCOM"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/22/Qualcomm-Logo-On-Smartphone-Screen-Held-.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Cathie Wood-led Ark Invest Bets Big On Prediction Markets, Snaps Up Kalshi Shares Across 3 Funds, Dumps Brera Holdings",
+   "summary": "Cathie Wood&#39;s Ark Invest buys 126K Kalshi shares across ARKK, ARKW and ARKF, while dumping 309K shares of Brera Holdings.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/09/61912780/cathie-wood-led-ark-invest-bets-big-on-prediction-markets-snaps-up-kalshi-shares-across-3-funds-dumps-brera-holdings",
+   "created_at": "2026-09-22T08:19:20Z",
+   "symbols": [
+    "ARKF",
+    "ARKK",
+    "ARKW",
+    "SLMT"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/22/Cathie-Wood-Led-Ark-Invest-Bets-1-74-Mil.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "$6.9 Billion in Russia-Linked Payments Reportedly Slipped Through Global Banks Despite Sanctions — Elizabeth Warren Slams Trump as Citi, Deutsche Bank and JPMorgan Get Caught in the Money Trail",
+   "summary": "Global banks, including Standard Chartered and Citigroup, processed over $6.9 billion from a Russia-backed financial firm that deceived its way into the system via document forgery.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/forex/26/09/61912764/6-9-billion-in-russia-linked-payments-reportedly-slipped-through-global-banks-despite-sanctions-elizabeth-warren-slams-trump-as-citi-deutsche-bank-and-jpmorgan-get-caught-in-the-money-trai",
+   "created_at": "2026-09-22T08:11:11Z",
+   "symbols": [
+    "C",
+    "DB",
+    "DBSDY",
+    "JPM",
+    "SCBFY"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/22/Stack-Of-Coins-With-Russia-Flag-And-Us-D.jpg?width=1024&height=768"
   },
   {
    "headline": "Senator Mark Kelly Defends Press Freedom Amid Trump’s Media Crackdown: ‘The Government Doesn’t Get to Decide Which Voices Are Heard’",
@@ -426,60 +490,6 @@
     "TOPS"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/09/22/A-Dynamic-Blue-Arrow-Superimposed-On-A-S.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Micron's Largest Production Base Faces Strike Threats as Bonus Falls 'Short of Expectations,' Workers Demand Bigger Cut of AI-Driven Profits: Report (UPDATED)",
-   "summary": "Hundreds of Micron employees rallied in Taiwan Thursday, threatening to strike after rejecting the company&#39;s fiscal 2026 bonus offer.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/09/61860049/micron-largest-production-base-strike-threats-bonus-ai-profits-workers-demand",
-   "created_at": "2026-09-18T05:20:02Z",
-   "symbols": [
-    "MU",
-    "SKHY",
-    "SSNLF"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/22/Los-Angeles--California---24-January-202.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Anthony Pompiano Reiterates Bitcoin Has 'No Top' Because the Dollar Has 'No Bottom,' Bets BTC Will Go 'Way Higher'",
-   "summary": "Anthony Pompliano, CEO of ProCap Financial Inc., reiterated his long-held view on Monday, September 21, that Bitcoin’s future growth is tied to an increase in the money supply.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/09/61911633/anthony-pompiano-bitcoin-no-top-dollar-no-bottom-btc-higher",
-   "created_at": "2026-09-22T03:17:26Z",
-   "symbols": [
-    "BRR",
-    "BTCUSD",
-    "ZECUSD"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/22/Bitcoin-Btc-Virtual-Cryptocurrency-In-Fr.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Paramount's $110B Warner Bros. Discovery Merger Clears Legal Hurdle; Elizabeth Warren Says Letting Trump-Aligned Entity 'Dominate' News Is 'Disastrous'",
-   "summary": "Paramount’s $110 billion WBD merger cleared a key legal hurdle despite criticism from lawmakers over competition and media consolidation.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/legal/26/09/61911529/paramount-110-billion-warner-bros-discovery-merger-legal-hurdle-elizabeth-warren",
-   "created_at": "2026-09-22T02:11:05Z",
-   "symbols": [
-    "NFLX",
-    "PSKY",
-    "WBD"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/22/Warsaw--Poland---Feb-10--2026-Mobile-Scr.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Bitcoin Tops $87,000, Ethereum, XRP, Dogecoin Also Lift Amid 'Extreme Greed'—Analyst Declares Bear Market Over, Says This is the 'Next Stop' for BTC",
-   "summary": "Leading cryptocurrencies jumped to multi-month highs on Monday, September 21, amid rampant optimism and growing &#34;fear of missing out.&#34;",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/09/61911457/bitcoin-ethereum-xrp-dogecoin-crypto-greed-sentiment",
-   "created_at": "2026-09-22T02:01:49Z",
-   "symbols": [
-    "BMNR",
-    "BTCUSD",
-    "DOGEUSD",
-    "ETHUSD",
-    "MSTR"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/22/Bitcoin-Coins-On-Reflective-Black-Surfac.jpg?width=1024&height=768"
   }
  ]
 }
