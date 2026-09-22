@@ -1,6 +1,36 @@
 {
- "updated": "2026-09-22 14:16",
+ "updated": "2026-09-22 15:00",
  "items": [
+  {
+   "headline": "Stock Market: Will S&P 500 Open Up or Down Today?",
+   "summary": "Will the S&amp;P 500 open higher? Polymarket odds sit at 53% as Wall Street weighs Iranian airline sanctions, $101 Brent oil, and AZO earnings.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/09/61912020/stock-market-will-sp-500-open-up-or-down-today-42",
+   "created_at": "2026-09-22T05:55:14Z",
+   "symbols": [
+    "AZO",
+    "DIA",
+    "KBH",
+    "MLKN",
+    "POLUSD"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/22/Stock-S-And-P-500-Index-Fund-Symbol-Is-O.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Nvidia, Apple Drive Demand for Coinbase-Issued Tokenized Stocks— Brian Armstrong Notes 'Good Traction So Far'",
+   "summary": "Coinbase Global Inc. CEO Brian Armstrong highlighted on Monday, September 21, growing traction for the tokenized U.S. stocks issued by the company.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/09/61912006/nvidia-apple-drive-demand-coinbase-tokenized-stocks-armstrong",
+   "created_at": "2026-09-22T05:53:16Z",
+   "symbols": [
+    "AAPL",
+    "AAVEUSD",
+    "BTCUSD",
+    "COIN",
+    "NVDA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/22/Germany---April-19-2024-Coinbase-Mobile-.jpg?width=1024&height=768"
+  },
   {
    "headline": "Mark Zuckerberg Says 'More Partnerships' Coming as Meta Teams With Shopify to Power AI Purchases: 'Shoppers Find More, Shops Sell More'",
    "summary": "Meta and Shopify announced that they are partnering to enable AI-powered shopping and checkout through Meta’s Muse agent.",
@@ -182,31 +212,60 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/09/21/Smart-Phone-With-The-Microsoft-Azure-Log.jpg?width=1024&height=768"
   },
   {
-   "headline": "Buy These 4 Cybersecurity Stocks, Skip These 2: Josh Brown Names Names",
-   "summary": "Josh Brown names four cybersecurity stocks to his &#34;Best Stocks in the Market&#34; list, but leaves off these two.",
+   "headline": "Quanome Technologies (QNME) Stock Jumps Over 51% After Hours: Here's Why It Is Trending",
+   "summary": "Quanome Technologies shares surged 51.66% after hours Monday after the company disclosed an $18.8 million deal with Compal Electronics.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/09/61903477/buy-these-4-cybersecurity-stocks-skip-these-2-josh-brown-names-names",
-   "created_at": "2026-09-21T17:12:06Z",
+   "url": "https://www.benzinga.com/markets/equities/26/09/61911995/quanome-technologies-shares-surge-after-hours-board-resignation",
+   "created_at": "2026-09-22T05:48:30Z",
    "symbols": [
-    "CRWD",
-    "FTNT",
-    "IGV",
-    "NET",
-    "PANW"
+    "QNME"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/21/Josh-Brown--The-Writting-Best-Stock-To-B.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/22/Stock-Market-Trading-Chart-And-Analyzing.jpg?width=1024&height=768"
   },
   {
-   "headline": "Einride Taps NVIDIA to Put More Self-Driving Trucks on the Highway",
-   "summary": "Einride partners with NVIDIA to scale autonomous electric trucks using the DRIVE Hyperion platform and Blackwell AI computing.",
+   "headline": "Elon Musk Says 'First Starship Launch to Orbit' Will Carry Starlink V3 Satellites in 7 Days",
+   "summary": "Elon Musk says SpaceX will launch operational Starlink V3 satellites aboard Starship in 7 days, targeting Sept. 28 pending approval.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/09/61898194/einride-taps-nvidia-to-put-more-self-driving-trucks-on-the-highway",
-   "created_at": "2026-09-21T14:35:40Z",
+   "url": "https://www.benzinga.com/news/space/26/09/61911979/elon-musk-says-first-starship-launch-to-orbit-will-carry-starlink-v3-satellites-in-7-days",
+   "created_at": "2026-09-22T05:44:06Z",
    "symbols": [
-    "ENRD",
-    "NVDA"
+    "SPCX"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/21/New-York--Usa--June-10--2026-Einride-Aut.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/22/Paris--France---February-3--2026-A-Horiz.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "BioCardia Shares Fall 10% After Hours: Here's Why",
+   "summary": "BioCardia shares fall 10% after hours after Nasdaq confirms the company regained listing compliance.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/09/61911928/biocardia-shares-fall-10-after-hours-heres-why",
+   "created_at": "2026-09-22T05:35:05Z",
+   "symbols": [
+    "BCDA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/22/Using-A-Mobile-Phone-To-View-Stocks-And-.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "FAA Resolves Telecom Outage After Nearly 7,000 US Flights Were Delayed or Canceled, Northeast Airports Resume Operations Following Hours of Disruption",
+   "summary": "FAA lifts Northeast ground stops after telecom failures delayed or canceled 7,000 flights, renewing calls to modernize air traffic control.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/travel/26/09/61911898/faa-resolves-telecom-outage-after-nearly-7000-us-flights-were-delayed-or-canceled-northeast-airports-resume-operations-following-hours-of-disruption",
+   "created_at": "2026-09-22T05:25:06Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/22/FAA.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Trump TV Launched on YouTube by White House Amid Growing Dispute with CNN, MS NOW and Others: 'It's Live'",
+   "summary": "White House launched a 24/7 “Trump TV” stream amid a growing fight over press access, after Trump barred three news outlets.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/09/61911675/trump-tv-youtube-white-house-cnn-ms-now-dispute",
+   "created_at": "2026-09-22T03:38:11Z",
+   "symbols": [
+    "GOOG",
+    "GOOGL",
+    "VSNT",
+    "WBD"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/22/President-Donald-J--Trump-Speaks-With-Me.jpg?width=1024&height=768"
   },
   {
    "headline": "SpaceX, Tesla Share Chips, Robots And Compute; Morgan Stanley Calls It A 'Shared Mission' To Turn Energy Into Intelligence: Merger Next?",
@@ -275,20 +334,6 @@
     "SSNLF"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/09/22/Los-Angeles--California---24-January-202.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Trump TV Launched on YouTube by White House Amid Growing Dispute with CNN, MS NOW and Others: 'It's Live'",
-   "summary": "White House launched a 24/7 “Trump TV” stream amid a growing fight over press access, after Trump barred three news outlets.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/09/61911675/trump-tv-youtube-white-house-cnn-ms-now-dispute",
-   "created_at": "2026-09-22T03:38:19Z",
-   "symbols": [
-    "GOOG",
-    "GOOGL",
-    "VSNT",
-    "WBD"
-   ],
-   "image": ""
   },
   {
    "headline": "Anthony Pompiano Reiterates Bitcoin Has 'No Top' Because the Dollar Has 'No Bottom,' Bets BTC Will Go 'Way Higher'",
@@ -427,81 +472,6 @@
     "LNG"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_3.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "$1000 Invested In nVent Electric 5 Years Ago Would Be Worth This Much Today",
-   "summary": "nVent Electric (NYSE:NVT) has outperformed the market over the past 5 years by 25.53% on an annualized basis producing an average annual return of 37.28%. Currently, nVent Electric has a market capita",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/09/61910437/1000-invested-nvent-electric-5-years-ago-would-be-worth-much-today",
-   "created_at": "2026-09-21T21:45:24Z",
-   "symbols": [
-    "NVT"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_3.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "GameStop CEO Ryan Cohen Buys Another $26 Million of GME Stock",
-   "summary": "GameStop CEO Ryan Cohen bought 1.15M shares for $26.4M, raising his stake above 40M shares as insider buying continues.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/09/61910408/gamestop-ceo-ryan-cohen-buys-another-26-million-of-gme-stock",
-   "created_at": "2026-09-21T21:39:51Z",
-   "symbols": [
-    "EBAY",
-    "GME"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/21/GameStop.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "If You Invested $1000 In Alamos Gold Stock 10 Years Ago, You Would Have This Much Today",
-   "summary": "Alamos Gold (NYSE:AGI) has outperformed the market over the past 10 years by 2.46% on an annualized basis producing an average annual return of 16.09%. Currently, Alamos Gold has a market capitalizati",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/09/61910280/if-you-invested-1000-alamos-gold-stock-10-years-ago-you-would-have-much-today",
-   "created_at": "2026-09-21T21:30:27Z",
-   "symbols": [
-    "AGI"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_2.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "$100 Invested In Tapestry 5 Years Ago Would Be Worth This Much Today",
-   "summary": "Tapestry (NYSE:TPR) has outperformed the market over the past 5 years by 11.69% on an annualized basis producing an average annual return of 23.43%. Currently, Tapestry has a market capitalization of ",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/09/61910048/100-invested-tapestry-5-years-ago-would-be-worth-much-today",
-   "created_at": "2026-09-21T21:15:31Z",
-   "symbols": [
-    "TPR"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_4.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "12 Consumer Discretionary Stocks Moving In Monday's After-Market Session",
-   "summary": "Gainers\n\nLixiang Education Hldg (NASDAQ:LXEH) shares moved upwards by 6.9% to $1.54 during Monday&#39;s after-market session. The company&#39;s market cap stands at $3.1 million. \nCCH Holdings (NASDAQ",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/09/61909790/12-consumer-discretionary-stocks-moving-monday-s-after-market-session",
-   "created_at": "2026-09-21T21:06:07Z",
-   "symbols": [
-    "AMBO",
-    "BYAH",
-    "CCHH",
-    "EJH",
-    "FEBO"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_3.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "12 Health Care Stocks Moving In Monday's After-Market Session",
-   "summary": "Gainers\n\nMilestone Scientific (AMEX:MLSS) stock moved upwards by 11.8% to $0.44 during Monday&#39;s after-market session. The company&#39;s market cap stands at $36.9 million. \nEvotec (NASDAQ:EVO) sto",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/09/61909789/12-health-care-stocks-moving-monday-s-after-market-session",
-   "created_at": "2026-09-21T21:06:07Z",
-   "symbols": [
-    "ANAB",
-    "CELZ",
-    "DGX",
-    "EVO",
-    "GDTC"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_1.jpg?width=1024&height=768"
   }
  ]
 }
