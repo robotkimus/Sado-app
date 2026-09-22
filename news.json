@@ -1,6 +1,18 @@
 {
- "updated": "2026-09-22 13:00",
+ "updated": "2026-09-22 14:16",
  "items": [
+  {
+   "headline": "Mark Zuckerberg Says 'More Partnerships' Coming as Meta Teams With Shopify to Power AI Purchases: 'Shoppers Find More, Shops Sell More'",
+   "summary": "Meta and Shopify announced that they are partnering to enable AI-powered shopping and checkout through Meta’s Muse agent.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/09/61911829/meta-shopify-ai-shopping-partnership-zuckerberg",
+   "created_at": "2026-09-22T04:59:18Z",
+   "symbols": [
+    "META",
+    "SHOP"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/22/Bukovel--Ukraine--October-13--2022-Wax-F.jpg?width=1024&height=768"
+  },
   {
    "headline": "Cloudflare (NET) Stock Is Trending After Hours: Here's Why",
    "summary": "Cloudflare shares rose 0.25% after hours Monday, extending gains after the stock surged 8.67% during regular trading.",
@@ -197,17 +209,72 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/09/21/New-York--Usa--June-10--2026-Einride-Aut.jpg?width=1024&height=768"
   },
   {
-   "headline": "An Nvidia Earnings Miss Is Almost Unthinkable—VanEck Says There’s a Real Risk",
-   "summary": "Nvidia has a long track record of beating analyst estimates. VanEck warns the streak could be at risk. Here&#39;s why.",
+   "headline": "SpaceX, Tesla Share Chips, Robots And Compute; Morgan Stanley Calls It A 'Shared Mission' To Turn Energy Into Intelligence: Merger Next?",
+   "summary": "&#34;SpaceX and Tesla are tightening shared infrastructure as they push into &#39;physical AI,&#39; a dynamic that could lead to a merger, according to Morgan Stanley.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/09/61902221/nvidia-earnings-miss-unthinkable-vaneck-flags-real-risk",
-   "created_at": "2026-09-21T16:34:16Z",
+   "url": "https://www.benzinga.com/markets/tech/26/09/61911814/morgan-stanley-says-spacex-and-teslas-deepening-ai-ties-could-lead-to-a-merger",
+   "created_at": "2026-09-22T04:47:54Z",
    "symbols": [
-    "AMD",
-    "AVGO",
-    "NVDA"
+    "INTC",
+    "SPCX",
+    "TSLA"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/21/Nvidia-Logo-Displayed-On-A-Smartphone-Sc.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/22/Hawthorne-la-County--California--Novembe.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Trump Administration Secures Two New US Military Sites in Greenland, But Denmark Insists NATO Leads Arctic Security",
+   "summary": "U.S. plans two new military sites in Greenland as Washington, Denmark and Nuuk prepare to sign a new Arctic security agreement.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/09/61911779/trump-greenland-us-military-sites-denmark-nato-arctic-security",
+   "created_at": "2026-09-22T04:34:40Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/22/Exploring-Greenlands-Unique-Geography-Ma.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Scott Bessent Says All Iranian Airlines Will Be 'Shut Down' Worldwide by Wednesday, Warns Foreign Firms: 'You Will Be Knocked Out of the Dollar System'",
+   "summary": "Treasury Secretary Scott Bessent says U.S. pressure will shut Iranian airlines by Wednesday, threatening dollar-system bans.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/09/61911764/scott-bessent-says-all-iranian-airlines-will-be-shut-down-worldwide-by-wednesday-warns-foreign-firms-you-will-be-knocked-out-of-the-dollar-system",
+   "created_at": "2026-09-22T04:29:24Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/22/US-Treasury-Secretary-Scott-Bessent-walk.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "XRP Will Advance to $5.40? Veteran Trader Peter Brandt Shares Long-Term Forecast, Another Popular Analyst Says Coin Has 'Room to Run'",
+   "summary": "Veteran trader Peter Brandt forecast on Monday, September 21, a potential fourfold jump in XRP&#39;s price as the fifth-largest cryptocurrency regained momentum.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/09/61911752/xrp-peter-brandt-bullish-price-target",
+   "created_at": "2026-09-22T04:26:24Z",
+   "symbols": [
+    "BTCUSD",
+    "XRPUSD",
+    "ZECUSD"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/22/Coin-Cryptocurrency-Ripple-On-The-Backgr.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "TOP Ships (TOPS) Stock Rockets 67% After-Hours: Why Is It Moving?",
+   "summary": "TOP Ships shares rallied 67.13% after hours Monday after closing 0.84% higher, as an SEC filing highlighted changes in insider ownership.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/09/61911739/top-ships-shares-rally-after-hours-insider-ownership",
+   "created_at": "2026-09-22T04:24:43Z",
+   "symbols": [
+    "TOPS"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/22/A-Dynamic-Blue-Arrow-Superimposed-On-A-S.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Micron's Largest Production Base Faces Strike Threats as Bonus Falls 'Short of Expectations,' Workers Demand Bigger Cut of AI-Driven Profits: Report (UPDATED)",
+   "summary": "Hundreds of Micron employees rallied in Taiwan Thursday, threatening to strike after rejecting the company&#39;s fiscal 2026 bonus offer.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/09/61860049/micron-largest-production-base-strike-threats-bonus-ai-profits-workers-demand",
+   "created_at": "2026-09-18T05:20:02Z",
+   "symbols": [
+    "MU",
+    "SKHY",
+    "SSNLF"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/22/Los-Angeles--California---24-January-202.jpg?width=1024&height=768"
   },
   {
    "headline": "Trump TV Launched on YouTube by White House Amid Growing Dispute with CNN, MS NOW and Others: 'It's Live'",
@@ -435,84 +502,6 @@
     "GDTC"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_1.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "12 Industrials Stocks Moving In Monday's After-Market Session",
-   "summary": "Gainers\n\nQuanome Technologies (NASDAQ:QNME) stock rose 55.0% to $0.99 during Monday&#39;s after-market session. The company&#39;s market cap stands at $19.2 million. \nZeo Energy (NASDAQ:ZEO) stock mov",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/09/61909788/12-industrials-stocks-moving-monday-s-after-market-session",
-   "created_at": "2026-09-21T21:06:07Z",
-   "symbols": [
-    "CISS",
-    "DSS",
-    "ELOG",
-    "QNME",
-    "SOS"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_4.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "12 Information Technology Stocks Moving In Monday's After-Market Session",
-   "summary": "Gainers\n\nVida Global (AMEX:VIDA) shares increased by 10.4% to $2.02 during Monday&#39;s after-market session. The market value of their outstanding shares is at $28.2 million. \nCyabra (NASDAQ:CYAB) sh",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/09/61909787/12-information-technology-stocks-moving-monday-s-after-market-session",
-   "created_at": "2026-09-21T21:06:06Z",
-   "symbols": [
-    "AUUD",
-    "BTTC",
-    "CANG",
-    "CCTG",
-    "CYAB"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_2.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Here’s How Much You Would Have Made Owning Rocket Lab Stock In The Last 5 Years",
-   "summary": "Rocket Lab (NASDAQ:RKLB) has outperformed the market over the past 5 years by 26.08% on an annualized basis producing an average annual return of 37.83%. Currently, Rocket Lab has a market capitalizat",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/09/61909684/here-s-how-much-you-would-have-made-owning-rocket-lab-stock-last-5-years",
-   "created_at": "2026-09-21T21:00:36Z",
-   "symbols": [
-    "RKLB"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_3.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Vicor Stock Rises After Stronger Q3 Guidance",
-   "summary": "Vicor Corp (NASDAQ:VICR) shares are trading higher in Monday&#39;s after-hours session after the company raised guidance for the third quarter.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/09/61909562/vicor-stock-rises-after-stronger-q3-guidance",
-   "created_at": "2026-09-21T20:53:23Z",
-   "symbols": [
-    "VICR"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/21/Financial-Graph-With-Uptrend-Line-Techno.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "If You Invested $1000 In Apollo Global Management Stock 15 Years Ago, You Would Have This Much Today",
-   "summary": "Apollo Global Management (NYSE:APO) has outperformed the market over the past 15 years by 5.02% on an annualized basis producing an average annual return of 18.4%. Currently, Apollo Global Management ",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/09/61909472/if-you-invested-1000-apollo-global-management-stock-15-years-ago-you-would-have-much-today",
-   "created_at": "2026-09-21T20:45:36Z",
-   "symbols": [
-    "APO"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_3.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Airline Stocks Unbothered by Ground Stop Delays: UAL Up 5%",
-   "summary": "Airline stocks rise despite a telecom outage disrupting New York-area airports, as falling oil prices outweigh delays.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/09/61909427/airline-stocks-unbothered-by-ground-stop-delays-ual-up-5",
-   "created_at": "2026-09-21T20:42:43Z",
-   "symbols": [
-    "AAL",
-    "DAL",
-    "JETS",
-    "LUV",
-    "UAL"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/21/Melbourne--Australia---September-07--202.jpg?width=1024&height=768"
   }
  ]
 }
