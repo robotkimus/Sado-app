@@ -1,6 +1,19 @@
 {
- "updated": "2026-09-22 16:00",
+ "updated": "2026-09-22 17:00",
  "items": [
+  {
+   "headline": "S&P 500 Nears Record High But Breadth Flashes Rare 1929, 1999 Signal — Analyst Says ‘We’ve Never in Almost 100 Years Seen Breadth This Bad’",
+   "summary": "The S&amp;P 500 nears record highs, but Jason Goepfert warns of a rare technical anomaly last seen before the 1929 and 1999 market crashes.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/market-summary/26/09/61912560/sp-500-nears-record-high-but-breadth-flashes-rare-1929-1999-signal-analyst-says-weve-never-in-almost-100-years-seen-breadth-this-bad",
+   "created_at": "2026-09-22T07:36:17Z",
+   "symbols": [
+    "DIA",
+    "QQQ",
+    "SPY"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/22/Wall-Street.jpg?width=1024&height=768"
+  },
   {
    "headline": "Stock Market: Will S&P 500 Open Up or Down Today?",
    "summary": "Will the S&amp;P 500 open higher? Polymarket odds sit at 53% as Wall Street weighs Iranian airline sanctions, $101 Brent oil, and AZO earnings.",
@@ -198,18 +211,61 @@
    "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/aggregated_options_2.jpg?width=1024&height=768"
   },
   {
-   "headline": "Microsoft’s Azure Has Another Growth Lever Waiting in the Wings, Analyst Says",
-   "summary": "BNP Paribas sees upside for Microsoft (MSFT) with a $549 target as Azure price increases gradually roll out to renewing contracts.",
+   "headline": "Senator Mark Kelly Defends Press Freedom Amid Trump’s Media Crackdown: ‘The Government Doesn’t Get to Decide Which Voices Are Heard’",
+   "summary": "Kelly defended press freedom, urging media to inform Americans, scrutinize government and hold leaders accountable despite pressure.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/09/61904100/microsofts-azure-has-another-growth-lever-waiting-in-the-wings-analyst-says",
-   "created_at": "2026-09-21T17:33:27Z",
+   "url": "https://www.benzinga.com/news/politics/26/09/61912670/senator-mark-kelly-defends-press-freedom-amid-trumps-media-crackdown-the-government-doesnt-get-to-decide-which-voices-are-heard",
+   "created_at": "2026-09-22T07:57:26Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/22/Senator-Mark-Kelly-at-a-Democratic-Natio.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Scott Bessent Says US, China to Meet in 2 Months on AI Threats: ‘We Want to Start Discussing Protocols’",
+   "summary": "U.S. and China will formalize AI safety talks in Shenzhen, focusing on incident protocols, shared threats and developer accountability.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/09/61912659/scott-bessent-says-us-china-to-meet-in-2-months-on-ai-threats-we-want-to-start-discussing-protocols",
+   "created_at": "2026-09-22T07:56:33Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/22/US-Treasury-Secretary-Scott-Bessent-walk.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Vitalik Buterin Welcomes Prediction Market Contender to Ethereum Base Chain, Says It Does 'Interesting and Meaningful' Things Ethically",
+   "summary": "Ethereum co-founder Vitalik Buterin endorsed Trueo, a new cryptocurrency-based prediction market, describing it as ethical and free of “corposlop.”",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/09/61912571/vitalik-buterin-ethereum-prediction-market-ethical-ethereum-base-chain",
+   "created_at": "2026-09-22T07:36:44Z",
    "symbols": [
-    "MGK",
-    "MSFT",
-    "VUG",
-    "XLK"
+    "BTCUSD",
+    "ETHUSD",
+    "POLUSD",
+    "USDCUSD",
+    "ZECUSD"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/21/Smart-Phone-With-The-Microsoft-Azure-Log.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/22/Saint-Petersburg-russia-09-05-2021-The-F.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Bernie Sanders Says AI Could Soon Surpass Human Intelligence: Trump And Xi Must Strike Treaty 'Before It’s Too Late'",
+   "summary": "On Monday, Sanders urges Trump and Xi to pause advanced AI and ban superintelligence over control concerns.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/09/61912528/bernie-sanders-ai-surpass-human-intelligence-trump-xi-treaty",
+   "created_at": "2026-09-22T07:22:53Z",
+   "symbols": [
+    "GOOG",
+    "GOOGL"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/22/New-York--Ny---April-5--2019-Democratic-.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Marjorie Taylor Greene Backs Trump’s Diesel Export Ban, but Top Oil Analyst Says It Would ‘Not Be Good At All’",
+   "summary": "Marjorie Taylor Greene backs banning diesel exports to cut prices, but analyst warns it could hurt refinery investment and disrupt oil flow.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/09/61912517/marjorie-taylor-greene-backs-trumps-diesel-export-ban-but-top-oil-analyst-says-it-would-not-be-good-at-all",
+   "created_at": "2026-09-22T07:21:46Z",
+   "symbols": [
+    "UCO",
+    "USO"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/22/Milwaukee--Wisconsin---July-15--2024-Rep.jpg?width=1024&height=768"
   },
   {
    "headline": "Sanae Takaichi Set to Highlight Japan's Investments in US Amid Defense Spending Pressure by Trump Administration: Report",
@@ -424,48 +480,6 @@
     "MSTR"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/09/22/Bitcoin-Coins-On-Reflective-Black-Surfac.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Charlie Munger Once Called Greg Abel a 'Tremendous Learning Machine' Just as Good as Warren Buffett: Here's the Quality That Left Him Impressed",
-   "summary": "Munger once praised Greg Abel as a “sensational” leader and exceptional learner, saying Buffett recognized Abel’s strengths.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/09/61911285/charlie-munger-greg-abel-tremendous-learning-machine-warren-buffett",
-   "created_at": "2026-09-22T00:57:36Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/22/Charlie-Munger--Vice-President-Of-Berksh.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Here’s How Much You Would Have Made Owning Adobe Stock In The Last 15 Years",
-   "summary": "Adobe (NASDAQ:ADBE) has outperformed the market over the past 15 years by 3.02% on an annualized basis producing an average annual return of 16.4%. Currently, Adobe has a market capitalization of $99.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/09/61911011/here-s-how-much-you-would-have-made-owning-adobe-stock-last-15-years",
-   "created_at": "2026-09-21T23:45:39Z",
-   "symbols": [
-    "ADBE"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_1.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Here’s How Much You Would Have Made Owning Popular Stock In The Last 10 Years",
-   "summary": "Popular (NASDAQ:BPOP) has outperformed the market over the past 10 years by 1.93% on an annualized basis producing an average annual return of 15.56%. Currently, Popular has a market capitalization of",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/09/61910908/here-s-how-much-you-would-have-made-owning-popular-stock-last-10-years",
-   "created_at": "2026-09-21T23:30:26Z",
-   "symbols": [
-    "BPOP"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_3.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "If You Invested $100 In Texas Pacific Land Stock 15 Years Ago, You Would Have This Much Today",
-   "summary": "Texas Pacific Land (NYSE:TPL) has outperformed the market over the past 15 years by 42.63% on an annualized basis producing an average annual return of 56.02%. Currently, Texas Pacific Land has a mark",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/09/61910879/if-you-invested-100-texas-pacific-land-stock-15-years-ago-you-would-have-much-today",
-   "created_at": "2026-09-21T23:15:29Z",
-   "symbols": [
-    "TPL"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_3.jpg?width=1024&height=768"
   }
  ]
 }
