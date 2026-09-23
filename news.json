@@ -1,6 +1,21 @@
 {
- "updated": "2026-09-23 15:00",
+ "updated": "2026-09-23 16:00",
  "items": [
+  {
+   "headline": "Stock Market: Will S&P 500 Open Up or Down Today?",
+   "summary": "Will S&amp;P 500 open higher? Polymarket odds favor a green open as Wall Street digests cooling oil, Trump&#39;s UN address, and fresh AI momentum.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/09/61938049/stock-market-will-sp-500-open-up-or-down-today-43",
+   "created_at": "2026-09-23T06:03:48Z",
+   "symbols": [
+    "CBRL",
+    "CTAS",
+    "DIA",
+    "GIS",
+    "META"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/23/Stock-S-And-P-500-Index-Fund-Symbol-Is-O.jpg?width=1024&height=768"
+  },
   {
    "headline": "D-Wave, Rigetti and Other Quantum Stocks Are Trending Overnight: Here's Why",
    "summary": "IonQ shares surged 12.17% after hours, while D-Wave and Rigetti also gained as quantum stocks rallied Tuesday.",
@@ -195,15 +210,86 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/09/22/4-Stocks-JPMorgan-Is-Betting-Big-On-For-.jpg?width=1024&height=768"
   },
   {
-   "headline": "Vertex Touts Encouraging Data From 'Underappreciated' Kidney Drug",
-   "summary": "Vertex Pharmaceuticals reported positive Phase 2b data for inaxaplin in patients with APOL1-mediated kidney disease.",
+   "headline": "Sean Duffy Defends FAA’s New AI Air Traffic System, Says Humans ‘Control the Airspace’ as Virginia Democrat Calls for Suspension",
+   "summary": "Duffy backs FAA’s SMART AI tool to reduce flight delays, stressing that human air traffic controllers will remain in charge of U.S. airspace.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/09/61930193/vertex-touts-encouraging-data-from-underappreciated-kidney-drug",
-   "created_at": "2026-09-22T17:55:42Z",
+   "url": "https://www.benzinga.com/markets/tech/26/09/61938357/sean-duffy-defends-faas-new-ai-air-traffic-system-says-humans-control-the-airspace-as-virginia-democrat-calls-for-suspension",
+   "created_at": "2026-09-23T06:55:06Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/23/Sean-Duffy.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "InnovAge (INNV) Shares Tumble 9% After Hours: Here's Why",
+   "summary": "InnovAge shares fall 9% after hours following pricing of a 10 million share secondary offering Tuesday.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/09/61938340/innovage-shares-fall-after-hours-secondary-offering",
+   "created_at": "2026-09-23T06:48:18Z",
    "symbols": [
-    "VRTX"
+    "GS",
+    "INNV"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/22/Vertex-Pharmaceuticals-Inc.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/23/Using-A-Mobile-Phone-To-View-Stocks-And-.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Apple Pendant? Tim Cook, Eddy Cue Also Reportedly Throwing Weight Behind Another Mystery Device, Says This Analyst",
+   "summary": "Apple is reportedly developing a screen-free fitness tracker and AI pendant to expand beyond the Apple Watch.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/09/61938327/apple-pendant-tim-cook-eddy-cue-mystery-device-analyst",
+   "created_at": "2026-09-23T06:45:40Z",
+   "symbols": [
+    "AAPL"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/23/Dublin--Ireland---11112015-Apple-Ceo--Ti.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "No Mr. President' We Shouldn't Annihilate People of Iran, Says Bernie Sanders: 'That Is a War Crime'",
+   "summary": "Bernie Sanders condemned Trump’s threat to “annihilate” Iran, calling the war illegal and unconstitutional and urging Congress to act.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/09/61938304/bernie-sanders-trump-iran-annihilate-war-crime",
+   "created_at": "2026-09-23T06:40:11Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/23/New-York--Ny---April-5--2019-Democratic-.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Apple Bringing Stablecoins to Billions of Devices? Binance CEO Weighs In After Job Listing Fuels Speculation",
+   "summary": "Binance Co-CEO Richard Teng reacted with interest on Tuesday, September 22, to speculation of Apple Inc. adding stablecoin support on Apple Pay.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/09/61938176/apple-stablecoins-billions-devices-binance-ceo-job-listing-speculation",
+   "created_at": "2026-09-23T06:32:07Z",
+   "symbols": [
+    "AAPL",
+    "BNBUSD",
+    "BTCUSD",
+    "SOLUSD",
+    "SPCX"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/23/Basel--Switzerland---December-23--2024-A.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "General Mills, Cintas And 3 Stocks To Watch Heading Into Wednesday",
+   "summary": "General Mills, Cintas and Paychex report earnings; Worthington beat estimates and surged 18.8%, while KB Home topped forecasts.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/09/61938160/general-mills-cintas-and-3-stocks-to-watch-heading-into-wednesday",
+   "created_at": "2026-09-23T06:28:03Z",
+   "symbols": [
+    "CTAS",
+    "GIS",
+    "KBH",
+    "PAYX",
+    "WOR"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/23/Stuttgart--Germany---05-22-2021-Mobile-P.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Scott Bessent’s Husband Held Up to $250,000 in JPMorgan Stock Misreported as Cash, Ethics Review Found No ‘Knowing Violation:’ Report",
+   "summary": "Bessent’s spouse’s JPMorgan stock was mistakenly reported as cash; shares were sold, but an ethics review found no knowing violation.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/09/61938115/scott-bessents-husband-held-up-to-250000-in-jpmorgan-stock-misreported-as-cash-ethics-review-found-no-knowing-violation-report",
+   "created_at": "2026-09-23T06:18:55Z",
+   "symbols": [
+    "JPM"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/23/US-Treasury-Secretary-Scott-Bessent-walk.jpg?width=1024&height=768"
   },
   {
    "headline": "Biomea Fusion Shares Fall 19% After Hours: Here’s Why",
@@ -417,83 +503,6 @@
    "created_at": "2026-09-22T23:15:18Z",
    "symbols": [
     "SPOT"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_4.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "$100 Invested In Simpson Manufacturing Co 10 Years Ago Would Be Worth This Much Today",
-   "summary": "Simpson Manufacturing Co (NYSE:SSD) has outperformed the market over the past 10 years by 1.04% on an annualized basis producing an average annual return of 14.67%. Currently, Simpson Manufacturing Co",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/09/61936535/100-invested-simpson-manufacturing-co-10-years-ago-would-be-worth-much-today",
-   "created_at": "2026-09-22T23:00:32Z",
-   "symbols": [
-    "SSD"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_2.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "$1000 Invested In InterDigital 10 Years Ago Would Be Worth This Much Today",
-   "summary": "InterDigital (NASDAQ:IDCC) has outperformed the market over the past 10 years by 1.9% on an annualized basis producing an average annual return of 15.53%. Currently, InterDigital has a market capitali",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/09/61936494/1000-invested-interdigital-10-years-ago-would-be-worth-much-today",
-   "created_at": "2026-09-22T22:45:18Z",
-   "symbols": [
-    "IDCC"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_4.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "$100 Invested In Williams-Sonoma 5 Years Ago Would Be Worth This Much Today",
-   "summary": "Williams-Sonoma (NYSE:WSM) has outperformed the market over the past 5 years by 7.26% on an annualized basis producing an average annual return of 19.07%. Currently, Williams-Sonoma has a market capit",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/09/61936432/100-invested-williams-sonoma-5-years-ago-would-be-worth-much-today",
-   "created_at": "2026-09-22T22:30:33Z",
-   "symbols": [
-    "WSM"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_2.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "$100 Invested In Jackson Financial 5 Years Ago Would Be Worth This Much Today",
-   "summary": "Jackson Financial (NYSE:JXN) has outperformed the market over the past 5 years by 24.58% on an annualized basis producing an average annual return of 36.38%. Currently, Jackson Financial has a market ",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/09/61936380/100-invested-jackson-financial-5-years-ago-would-be-worth-much-today",
-   "created_at": "2026-09-22T22:15:23Z",
-   "symbols": [
-    "JXN"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_2.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "If You Invested $1000 In AutoZone Stock 15 Years Ago, You Would Have This Much Today",
-   "summary": "AutoZone (NYSE:AZO) has outperformed the market over the past 15 years by 2.23% on an annualized basis producing an average annual return of 15.77%. Currently, AutoZone has a market capitalization of ",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/09/61936117/if-you-invested-1000-autozone-stock-15-years-ago-you-would-have-much-today",
-   "created_at": "2026-09-22T22:00:54Z",
-   "symbols": [
-    "AZO"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_1.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "$1000 Invested In Arista Networks 10 Years Ago Would Be Worth This Much Today",
-   "summary": "Arista Networks (NYSE:ANET) has outperformed the market over the past 10 years by 30.26% on an annualized basis producing an average annual return of 43.89%. Currently, Arista Networks has a market ca",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/09/61936015/1000-invested-arista-networks-10-years-ago-would-be-worth-much-today",
-   "created_at": "2026-09-22T21:45:14Z",
-   "symbols": [
-    "ANET"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_4.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Here's How Much $1000 Invested In ITT 10 Years Ago Would Be Worth Today",
-   "summary": "ITT (NYSE:ITT) has outperformed the market over the past 10 years by 6.02% on an annualized basis producing an average annual return of 19.65%. Currently, ITT has a market capitalization of $18.65 bil",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/09/61935780/here-s-how-much-1000-invested-itt-10-years-ago-would-be-worth-today",
-   "created_at": "2026-09-22T21:30:21Z",
-   "symbols": [
-    "ITT"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_4.jpg?width=1024&height=768"
   }
