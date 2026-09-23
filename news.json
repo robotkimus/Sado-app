@@ -1,6 +1,33 @@
 {
- "updated": "2026-09-23 16:00",
+ "updated": "2026-09-23 17:00",
  "items": [
+  {
+   "headline": "Broadcom Faces China Data Center Threat as Beijing Finds Its Switches in Up to 90% of State-Owned Firms: Report",
+   "summary": "China probes Broadcom’s data center switches as Beijing pushes state-backed facilities to adopt domestic chip technology.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/09/61938821/broadcom-faces-china-data-center-threat-as-beijing-finds-its-switches-in-up-to-90-of-state-owned-firms-report",
+   "created_at": "2026-09-23T07:58:41Z",
+   "symbols": [
+    "AMD",
+    "AVGO",
+    "INTC",
+    "NVDA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/23/Chipset-On-Circuit-Board-For-China-Semic.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "AI Boom Will Dwarf the Industrial Revolution, Push Real GDP Growth to 7%: Cathie Wood Says, 'Get on the Right Side of Change'",
+   "summary": "Ark Invest CEO Cathie Wood said the AI-driven technology revolution could reshape the global economy more powerfully than the Industrial Revolution.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/economic-data/26/09/61938598/cathie-wood-ai-boom-industrial-revolution-real-gdp-growth-7-percent",
+   "created_at": "2026-09-23T07:20:40Z",
+   "symbols": [
+    "MU",
+    "QQQ",
+    "SOXX"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/23/Ai-Technology-Bubble-Concept-Chip-Stock-.jpg?width=1024&height=768"
+  },
   {
    "headline": "Stock Market: Will S&P 500 Open Up or Down Today?",
    "summary": "Will S&amp;P 500 open higher? Polymarket odds favor a green open as Wall Street digests cooling oil, Trump&#39;s UN address, and fresh AI momentum.",
@@ -181,33 +208,108 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/09/22/Benzinga-Quick-Spark.jpg?width=1024&height=768"
   },
   {
-   "headline": "Nasdaq 100 Flirts with Records, Oil Sinks for Fifth Day: Stock Market Today",
-   "summary": "Nasdaq 100 printed an intraday record on AI enthusiasm while financials slid nearly 2% and crude fell for a fifth straight session.",
+   "headline": "Transcript: FedEx Freight Hldg Co Q4 2026 Earnings Conference Call",
+   "summary": "On Thursday, FedEx Freight Hldg Co (NYSE:FDXF) discussed fourth-quarter financial results during its earnings call. The full transcript is provided below.\nThis transcript is brought to you by Benzinga",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/09/61930818/nasdaq-record-banks-fall-oil-fifth-decline-whats-moving-markets-tuesday",
-   "created_at": "2026-09-22T18:15:04Z",
+   "url": "https://www.benzinga.com/news/26/09/61938798/transcript-fedex-freight-hldg-co-q4-2026-earnings-conference-call",
+   "created_at": "2026-09-23T07:56:42Z",
    "symbols": [
-    "ALAB",
-    "AZO",
-    "DIA",
-    "GDX",
-    "GEN"
+    "FDXF"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/22/Wall-Street-Bull.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_1.jpg?width=1024&height=768"
   },
   {
-   "headline": "JPMorgan Stock Slips as Traders Shift to Tech Sector",
-   "summary": "JPMorgan Chase shares are sliding Tuesday amid a broad financial sector selloff as investors rotate into tech stocks.",
+   "headline": "Eli Lilly Could Be a ‘$2,000 Stock’ in the Next 3 to 4 Years, Says Home Depot Co-Founder Ken Langone",
+   "summary": "Home Depot co-founder Ken Langone says Eli Lilly could hit $2,000 in 3 to 4 years, challenging Home Depot as his top portfolio holding.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/09/61930209/jpmorgan-stock-slips-as-traders-shift-to-tech-sector",
-   "created_at": "2026-09-22T17:56:04Z",
+   "url": "https://www.benzinga.com/markets/equities/26/09/61938783/eli-lilly-could-be-a-2000-stock-in-the-next-3-to-4-years-says-home-depot-co-founder-ken-langone",
+   "created_at": "2026-09-23T07:50:16Z",
    "symbols": [
-    "JPM",
-    "META",
-    "PYPL",
-    "SHOP"
+    "HD",
+    "LLY"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/22/4-Stocks-JPMorgan-Is-Betting-Big-On-For-.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/23/Los-Angeles--California---July-7-2025-El.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Rick Scott Says China Is ‘Weaponizing Birthright Citizenship:’ ‘American Citizenship Should Not Be for Sale’",
+   "summary": "Scott urged passage of the SAFE KIDS Act to ban surrogacy contracts tied to foreign adversaries, citing Chinese birth tourism concerns.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/09/61938665/rick-scott-says-china-is-weaponizing-birthright-citizenship-american-citizenship-should-not-be-for-sale",
+   "created_at": "2026-09-23T07:38:05Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/23/Dallas--Tx---August-5--2022-Senator-Rick.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Kash Patel Among Those Exposed: ShinyHunters Says It Hacked FBI Website, Stole Informatyion of 'Almost All' Agents",
+   "summary": "ShinyHunters claims to have stolen sensitive data on thousands of FBI agents, prompting an agency investigation.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/09/61938654/kash-patel-fbi-website-hack-shinyhunters-agents-information",
+   "created_at": "2026-09-23T07:37:39Z",
+   "symbols": [
+    "GOOG",
+    "GOOGL"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/23/Retaliation-And-Enemies-List-Denied.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Bitcoin At $80,000 Today Vs. Bitcoin At $80,000 in May: 'Very Different,' Says This Analyst",
+   "summary": "CryptoQuant Head of Research Julio Moreno contrasted Bitcoin crossing above $80,000 in September versus May, noting much stronger fundamentals today.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/09/61938628/bitcoin-80000-today-vs-may-analyst-different",
+   "created_at": "2026-09-23T07:30:10Z",
+   "symbols": [
+    "BTCUSD",
+    "MSTR",
+    "POLUSD",
+    "ZECUSD"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/23/London--Uk---January-26--2024-Photograph.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "McCormick Likely To Report Lower Q3 Earnings; These Most Accurate Analysts Revise Forecasts Ahead Of Earnings Call",
+   "summary": "McCormick will report Q3 earnings Oct. 1; analysts expect EPS to fall to $0.76 while revenue rises to $1.98B.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/09/61938614/mccormick-likely-to-report-lower-q3-earnings-these-most-accurate-analysts-revise-forecasts-ahead-of-earnings-call",
+   "created_at": "2026-09-23T07:24:09Z",
+   "symbols": [
+    "MKC"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/23/London--On--Canada---August-30--2020-Clo.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Endovia Health Sciences (EVDA) Stock Soars 48% After-Hours: Here's What's Going On",
+   "summary": "Endovia Health Sciences shares jumped 47.83% after hours Tuesday as investors cheered fresh funding for its CannEpil drug program.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/09/61938584/endovia-health-sciences-stock-jumps-after-hours-cannepil-funding",
+   "created_at": "2026-09-23T07:17:30Z",
+   "symbols": [
+    "EDVA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/23/Stock-Market-Trading-Chart-And-Analyzing.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Trump Energy Adviser Points to ‘Refining Capacity’ Bottleneck for Fuel Price Pain as He Touts Ample Crude Supply",
+   "summary": "Trump energy adviser Jarrod Agen says refining capacity constraints are driving fuel costs, with DPA action possible to ease the bottleneck.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/09/61938573/trump-energy-adviser-points-to-refining-capacity-bottleneck-for-fuel-price-pain-as-he-touts-ample-crude-supply",
+   "created_at": "2026-09-23T07:15:59Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/23/President-Of-The-United-States-Donald-Tr.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Nasdaq Hits New Record As Crude Oil Slides Further; Investor Sentiment Improves Slightly, But Fear & Greed Index Remains In ‘Fear’ Zone",
+   "summary": "Markets mixed: Nasdaq hit a record, Dow fell, oil extended losses. Fear &amp; Greed rose to 35 but stayed in fear; manufacturing weakened.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/market-summary/26/09/61938455/nasdaq-hits-new-record-as-crude-oil-slides-further-investor-sentiment-improves-slightly-but-fear-greed-index-remains-in-fear-zone",
+   "created_at": "2026-09-23T07:07:03Z",
+   "symbols": [
+    "AZO",
+    "CTAS",
+    "GIS",
+    "PAYX",
+    "THO"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/23/Market-sentiment---Fear-and-Greed.jpg?width=1024&height=768"
   },
   {
    "headline": "Sean Duffy Defends FAA’s New AI Air Traffic System, Says Humans ‘Control the Airspace’ as Virginia Democrat Calls for Suspension",
@@ -370,141 +472,6 @@
     "ZECUSD"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/09/23/Bitcoin-Btc-Virtual-Cryptocurrency-In-Fr.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Jaguar Health Stock Surged 1200% on Tuesday: Here's Why JAGX Stock Is Trending After Hours",
-   "summary": "Jaguar Health shares jumped 5.19% after hours following FDA fee waivers for two of its commercialized therapies.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/09/61937515/jaguar-health-shares-jump-after-hours-fda-fee-waivers",
-   "created_at": "2026-09-23T03:29:57Z",
-   "symbols": [
-    "JAGX"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/23/Technical-Price-Graph-And-Indicator--Red.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Scott Bessent as Trump's AI Czar? Treasury Secretary Reportedly Emerges as Top Contender",
-   "summary": "Scott Bessent is reportedly a top contender for Trump’s AI czar role, expanding his potential role in AI and China policy.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/09/61937496/scott-bessent-trump-ai-czar-top-contender",
-   "created_at": "2026-09-23T03:14:36Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/23/January-16--2025---Washington-Dc-The-Sen.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Gary Black Cites Kalshi, Says Democrats Set for Senate and House Wins in Midterms—Crypto Punters Agree",
-   "summary": "Gary Black, managing partner at The Future Fund, pointed on Tuesday to growing odds of a Democratic sweep in both chambers of Congress in the November midterms.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/prediction-markets/26/09/61937464/gary-black-kalshi-democrats-senate-house-midterm-wins-crypto-punters",
-   "created_at": "2026-09-23T03:07:29Z",
-   "symbols": [
-    "BTCUSD",
-    "POLUSD",
-    "ZECUSD"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/23/United-States-Midterm-Election-2026.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Cathie Wood Trims Alphabet Even as Google Regains Search Share, Ark Bets Big on This Space Stock",
-   "summary": "Ark Invest bought Rocket Lab shares across three ETFs while trimming Alphabet on Tuesday, Sept. 22, 2026.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/etfs/broad-u-s-equity-etfs/26/09/61937403/cathie-wood-trims-alphabet-even-as-google-regains-search-share-ark-bets-big-on-this-space-stock",
-   "created_at": "2026-09-23T02:16:26Z",
-   "symbols": [
-    "ARKK",
-    "ARKQ",
-    "ARKX",
-    "GOOGL",
-    "RKLB"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/23/Russia-Moscow-24-06-2021-Logo-Of-Financi.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Elizabeth Warren Counts Trump's Oil, Gas Gains Amid Iran War As Americans Pay More At Pump: Ban President From 'Owning And Trading Stock'",
-   "summary": "Sen. Elizabeth Warren accused President Trump of profiting from oil and gas holdings during the Iran war, as pump prices rose.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/09/61937303/bitcoin-ethereum-xrp-dogecoin-gain-trump-iran-btc-support",
-   "created_at": "2026-09-23T02:07:54Z",
-   "symbols": [
-    "BKR",
-    "COP",
-    "CVX",
-    "DVN",
-    "EQT"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/23/Elizabeth-Warren.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Bitcoin, Ethereum, XRP, Dogecoin Gain as Trump Touts 'Good Meeting' With Iran: Analyst Says BTC 'Sitting' Above Strong Support",
-   "summary": "Leading cryptocurrencies ticked higher on Tuesday, September 22, as investors digested President Donald Trump&#39;s latest remarks on Iran peace negotiations.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/09/61937290/bitcoin-ethereum-xrp-dogecoin-gain-trump-iran-btc-support",
-   "created_at": "2026-09-23T02:04:11Z",
-   "symbols": [
-    "BMNR",
-    "BTCUSD",
-    "DOGEUSD",
-    "ETHUSD",
-    "MSTR"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/23/Cryptocurrency--Focus-Bitcoin-On-Tablet-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Trump Threatens to ‘Annihilate’ Iran If No Peace Deal Is Reached; Brent Hovers Near $100'",
-   "summary": "On Tuesday, Donald Trump’s Iran escalation threat kept oil prices near $100 as markets remained largely steady.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/09/61937272/trump-threatens-annihilate-iran-peace-deal-brent-oil-100",
-   "created_at": "2026-09-23T01:59:28Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/23/President-Of-The-United-States-Donald-Tr.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Jaguar Health, IONQ, Viking Therapeutics, Xanadu Quantum and Grab Holdings: Why These 5 Stocks Are on Investors' Radars Today",
-   "summary": "JAGX, IONQ, VKTX, XNDU, GRAB were among the stocks seen trending on Tuesday, Sept. 22, 2026.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/09/61937199/jaguar-health-ionq-viking-therapeutics-xanadu-quantum-and-grab-holdings-why-these-5-stocks-are-on-investors-radars-today",
-   "created_at": "2026-09-23T01:18:05Z",
-   "symbols": [
-    "GRAB",
-    "IONQ",
-    "JAGX",
-    "VKTX",
-    "XNDU"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/23/Charts-Of-Financial-Instruments-With-Var.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Here's How Much $100 Invested In Quanta Services 10 Years Ago Would Be Worth Today",
-   "summary": "Quanta Services (NYSE:PWR) has outperformed the market over the past 10 years by 23.73% on an annualized basis producing an average annual return of 37.36%. Currently, Quanta Services has a market cap",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/09/61936806/here-s-how-much-100-invested-quanta-services-10-years-ago-would-be-worth-today",
-   "created_at": "2026-09-22T23:45:27Z",
-   "symbols": [
-    "PWR"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_1.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "If You Invested $100 In Casella Waste Systems Stock 15 Years Ago, You Would Have This Much Today",
-   "summary": "Casella Waste Systems (NASDAQ:CWST) has outperformed the market over the past 15 years by 6.84% on an annualized basis producing an average annual return of 20.38%. Currently, Casella Waste Systems ha",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/09/61936697/if-you-invested-100-casella-waste-systems-stock-15-years-ago-you-would-have-much-today",
-   "created_at": "2026-09-22T23:30:26Z",
-   "symbols": [
-    "CWST"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_3.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Here’s How Much You Would Have Made Owning Spotify Technology Stock In The Last 5 Years",
-   "summary": "Spotify Technology (NYSE:SPOT) has outperformed the market over the past 5 years by 4.76% on an annualized basis producing an average annual return of 16.57%. Currently, Spotify Technology has a marke",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/09/61936644/here-s-how-much-you-would-have-made-owning-spotify-technology-stock-last-5-years",
-   "created_at": "2026-09-22T23:15:18Z",
-   "symbols": [
-    "SPOT"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_4.jpg?width=1024&height=768"
   }
  ]
 }
