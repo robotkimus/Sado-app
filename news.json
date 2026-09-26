@@ -1,6 +1,21 @@
 {
- "updated": "2026-09-26 21:00",
+ "updated": "2026-09-26 22:40",
  "items": [
+  {
+   "headline": "Benzinga Bulls and Bears: Costco, KB Home, McDonald’s",
+   "summary": "Benzinga examined the prospects for many investors’ favorite stocks over the last week — here’s a look at some of our top stories.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/market-summary/26/09/62010895/benzinga-bulls-and-bears-costco-kb-home-mcdonalds",
+   "created_at": "2026-09-26T12:00:12Z",
+   "symbols": [
+    "ALOY",
+    "AMD",
+    "APP",
+    "COST",
+    "CRML"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/26/Bulls-and-Bears-1.jpg?width=1024&height=768"
+  },
   {
    "headline": "AMD Hits $1 Trillion, Muse Spooks Subscription Stocks: This Week on Wall Street",
    "summary": "AMD crossed $1 trillion and Meta&#39;s Muse rattled subscription stocks. Meanwhile, Treasury yields hit 2007 highs.",
@@ -202,18 +217,33 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/09/25/Arlington--Va--Usa---May-26--2025-U-s--V.jpg?width=1024&height=768"
   },
   {
-   "headline": "Elon Musk Says SpaceXAI’s Colossus 2 Could Run More Than 1.2 Million Nvidia GB200 And GB300 Chips By Year-End ‘If We Get Lucky’",
-   "summary": "Elon Musk says SpaceXAI’s Colossus 2 could reach 1.21 million Nvidia chips by year-end, despite power, cooling and networking bottlenecks.",
+   "headline": "This Week in TSLA: Elon Musk Teases Tesla Roadster, FSD's Brussels Speed Limit Violations, And More",
+   "summary": "Tesla teases its Roadster, starts Semi production, faces Brussels FSD scrutiny, highlights Cybercab’s local battery.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/09/61991512/elon-musk-says-spacexais-colossus-2-could-run-more-than-1-2-million-nvidia-gb200-and-gb300-chips-by-year-end-if-we-get-lucky",
-   "created_at": "2026-09-25T11:20:13Z",
+   "url": "https://www.benzinga.com/markets/tech/26/09/62011014/this-week-in-tsla-elon-musk-teases-tesla-roadster-fsds-brussels-speed-limit-violations-and-more",
+   "created_at": "2026-09-26T13:00:25Z",
    "symbols": [
-    "GOOG",
-    "GOOGL",
-    "NVDA",
-    "SPCX"
+    "F",
+    "GM",
+    "SPCX",
+    "TSLA"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/25/Elon-Musk-xAI-Grok.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/26/Tesla-Company-Logo-Seen-On-Smarphone-Pla.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Benzinga's 'Stock Whisper' Index: Five Stocks Investors Secretly Monitor But Don't Talk About Yet",
+   "summary": "The Benzinga Stock Whisper Index highlights five stocks with increased interest from readers during the week and a look at the catalysts driving the attention.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/09/62010960/benzingas-stock-whisper-index-five-stocks-investors-secretly-monitor-but-dont-talk-about-yet",
+   "created_at": "2026-09-26T12:30:07Z",
+   "symbols": [
+    "ALSN",
+    "HUT",
+    "PLD",
+    "SPOT",
+    "UHAL"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/26/Stock-Whisper-Index.jpg?width=1024&height=768"
   },
   {
    "headline": "Supreme Court Revives Trump-Backed Expanded Voter-Citizenship Database Ahead of Midterms, Allowing Bulk Voter Screening by Agencies",
@@ -454,36 +484,6 @@
     "ENS"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_4.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "12 Communication Services Stocks Moving In Friday's After-Market Session",
-   "summary": "Gainers\n\nDreamland (NASDAQ:TDIC) shares rose 16.1% to $3.67 during Friday&#39;s after-market session. The company&#39;s market cap stands at $6.7 million. \nNFT (AMEX:MI) shares rose 11.45% to $2.53. \n",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/09/62009177/12-communication-services-stocks-moving-friday-s-after-market-session",
-   "created_at": "2026-09-25T21:05:52Z",
-   "symbols": [
-    "ABLV",
-    "DKI",
-    "FNGR",
-    "GDC",
-    "HODO"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_2.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "12 Health Care Stocks Moving In Friday's After-Market Session",
-   "summary": "Gainers\n\nOnconetix (NASDAQ:ONCO) stock increased by 10.3% to $1.14 during Friday&#39;s after-market session. The market value of their outstanding shares is at $3.9 million. \nBullfrog AI Hldgs (NASDAQ",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/09/62009176/12-health-care-stocks-moving-friday-s-after-market-session",
-   "created_at": "2026-09-25T21:05:51Z",
-   "symbols": [
-    "ACET",
-    "ADGM",
-    "AIDX",
-    "BFRG",
-    "FBLG"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_1.jpg?width=1024&height=768"
   }
  ]
 }
