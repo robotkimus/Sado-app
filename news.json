@@ -1,6 +1,20 @@
 {
- "updated": "2026-09-28 14:00",
+ "updated": "2026-09-28 15:00",
  "items": [
+  {
+   "headline": "Elon Musk Amplifies Privacy Concerns Over Meta’s Muse After Reports Emerge AI Agent Accessed Private Messages",
+   "summary": "Meta’s Muse AI faces privacy concerns over access to sensitive user data, despite Meta defending its safeguards.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/09/62013450/elon-musk-meta-muse-privacy-private-messages-ai-agent",
+   "created_at": "2026-09-28T05:17:47Z",
+   "symbols": [
+    "GOOG",
+    "GOOGL",
+    "META",
+    "SPCX"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/28/In-This-Photo-Illustration--The-Meta-Mus.jpg?width=1024&height=768"
+  },
   {
    "headline": "Trump Invites Anthropic CEO Dario Amodei to Dinner as AI Safety Debate Rages, Says US Can't Slow Down: 'Why Should We Give That Up?'",
    "summary": "On Sunday, Trump will meet Anthropic CEO Dario Amodei amid a growing debate over AI safety and development.",
@@ -200,19 +214,26 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/09/25/Stocks--Futures-Slip.jpg?width=1024&height=768"
   },
   {
-   "headline": "Everyone Bought Nvidia for AI: Now AMD Could Win the $211 Billion CPU Race, Bank Of America Says",
-   "summary": "Bank of America lifts its AMD target to $720, arguing AI agents will drive server CPU sales to $211 billion by 2030. Nvidia and Intel stay Buy.",
+   "headline": "Ro Khanna Says 'Millions' of Families Would Get Free Childcare Under Act He Backs: 'Time to Pass It'",
+   "summary": "Ro Khanna introduces Free Childcare for America Act, calling it the boldest childcare proposal ever.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/09/61998240/amd-price-target-720-bofa-agentic-ai-cpu-market",
-   "created_at": "2026-09-25T14:47:49Z",
+   "url": "https://www.benzinga.com/news/politics/26/09/62013537/ro-khanna-free-childcare-act-millions-families",
+   "created_at": "2026-09-28T05:58:16Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/28/Washington--Dc--September-27--2021-Rep--.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Dogecoin Whales Getting Ready for 'Bullish Breakout,' Says Popular Analyst: 'Major Resistance' Sits at This Level",
+   "summary": "Cryptocurrency analyst Ali Martinez said on Sunday, September 27, that Dogecoin whales could be positioning for a &#34;bullish breakout&#34; even as the memecoin battled major resistance.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/09/62013525/dogecoin-whales-bullish-breakout-major-resistance-analyst",
+   "created_at": "2026-09-28T05:52:24Z",
    "symbols": [
-    "AKAM",
-    "AMD",
-    "ARM",
-    "INTC",
-    "NVDA"
+    "BTCUSD",
+    "DOGEUSD",
+    "ZECUSD"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/25/Shanghai-china-nov-22nd-2025-Amd-Company.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/28/Dogecoin-Doge-Isolated-On-White-Backgrou.jpg?width=1024&height=768"
   },
   {
    "headline": "Iran’s Ghalibaf Reaffirms Control Over Strait of Hormuz, Touts $50 Premium on Oil Since the Beginning of War: ‘US Narrative Laundromat…’",
@@ -486,26 +507,6 @@
    "created_at": "2026-09-27T14:00:19Z",
    "symbols": [],
    "image": "https://cdn.benzinga.com/files/images/story/2026/09/27/Kaunas--Lithuania-2022---April-14-Tesla-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Is Trump's 'Economic D-Day' Breaking Iran — Or Backfiring?",
-   "summary": "Trump rejects Iran&#39;s peace offer as allies halt flights and cut bank ties under new Iran sanctions. Is the economic squeeze working or backfiring?",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/commodities/26/09/62012127/is-trumps-economic-d-day-breaking-iran-or-backfiring",
-   "created_at": "2026-09-27T13:54:32Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/27/Iran-Threatens-Trump.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Gwynne Shotwell Became a Billionaire Running SpaceX, But She Follows This Bizarre Ritual For Every SPCX Launch Since 2008",
-   "summary": "SpaceX COO Gwynne Shotwell wears “Scotland” sticky notes in her shoes at launches, a ritual born from Falcon 1’s 2008 breakthrough.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/space/26/09/62012111/gwynne-shotwell-became-a-billionaire-running-spacex-but-her-launch-day-ritual-still-comes-down-to-superstition-you-wont-believe",
-   "created_at": "2026-09-27T13:30:09Z",
-   "symbols": [
-    "SPCX"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/27/Brownsville--Texas-Usa-November-21st-202.jpg?width=1024&height=768"
   }
  ]
 }
