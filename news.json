@@ -1,6 +1,36 @@
 {
- "updated": "2026-09-29 14:00",
+ "updated": "2026-09-29 15:00",
  "items": [
+  {
+   "headline": "Stock Market: Will S&P 500 Open Up or Down Today?",
+   "summary": "Will the S&amp;P 500 open higher? Polymarket odds sit at 40% as Wall Street faces $99 Brent crude, 5.3% Treasury yields, and incoming JOLTS data.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/09/62040617/stock-market-will-sp-500-open-up-or-down-today-46",
+   "created_at": "2026-09-29T05:54:26Z",
+   "symbols": [
+    "AIR",
+    "CCL",
+    "CNXC",
+    "DIA",
+    "KMX"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/29/Stock-S-And-P-500-Index-Fund-Symbol-Is-O.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Trump's AI Lunch Will Bring Together Mark Zuckerberg, Jensen Huang, Other Tech Bigwigs: Here's Who Else Is Invited",
+   "summary": "Trump is set to host top executives from Meta, Anthropic, OpenAI, Alphabet, Palantir and Nvidia at a White House AI lunch.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/09/62039917/trump-ai-lunch-zuckerberg-jensen-huang-tech-leaders-invite-list",
+   "created_at": "2026-09-29T05:29:44Z",
+   "symbols": [
+    "GOOG",
+    "GOOGL",
+    "META",
+    "NVDA",
+    "PLTR"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/29/President-Trump-Auto-Tariffs-Announcemen.jpg?width=1024&height=768"
+  },
   {
    "headline": "MongoDB, Kodiak Sciences, Navitas Semiconductor, Boeing and Nvidia: Why These 5 Stocks Are on Investors' Radars Today",
    "summary": "Major U.S. indices closed lower on Monday, with the Dow Jones Industrial Average falling 0.67% to 51,481.51.",
@@ -182,31 +212,49 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/09/28/Oil.jpg?width=1024&height=768"
   },
   {
-   "headline": "Nasdaq 100 Sinks, Oil Rallies as Trump Rejects Iran's Hormuz Plan: Stock Market Today",
-   "summary": "Stocks slipped at midday Monday as oil surged and yields hit a 19-year high after Trump rejected Iran&#39;s Hormuz plan; MongoDB tumbled 18%.",
+   "headline": "Dogecoin and Bitcoin Give Back Gains, but This Coin Bucked the Trend to Rally 227% in a Week",
+   "summary": "Quant emerged as the most profitable cryptocurrency over the past week, even as the large-cap names struggled.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/market-summary/26/09/62030720/oil-surges-nasdaq-slumps-trump-rejects-iran-deal-markets-monday",
-   "created_at": "2026-09-28T17:03:33Z",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/09/62040605/dogecoin-bitcoin-gains-coin-rallies-227-percent-week",
+   "created_at": "2026-09-29T05:51:48Z",
    "symbols": [
-    "BE",
-    "BURL",
-    "CRDO",
-    "CRWD",
-    "DIA"
+    "BTCUSD",
+    "DOGEUSD",
+    "ETHUSD",
+    "QNTUSD",
+    "SOLUSD"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/28/President-Trump-Auto-Tariffs-Announcemen.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/29/Bitcoin-Gold-Coin--Cryptocurrency-Concep.jpg?width=1024&height=768"
   },
   {
-   "headline": "Why Is Intel Stock Falling on Monday?",
-   "summary": "Why is Intel (INTC) stock falling Monday? Rising Treasury yields, Fed rate hike odds, an Nvidia AI safety launch and profit-taking after a 28.42% monthly gain are in focus.",
+   "headline": "NASA Administrator Jared Isaacman Hails Elon Musk’s SpaceX Starship Orbital Launch—Says NASA Is ‘Excited to Help’",
+   "summary": "NASA Administrator Jared Isaacman praised SpaceX’s first Starship orbital launch, calling the event &#34;inspirational.&#34;",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/09/62030357/why-is-intel-stock-falling-on-monday-2",
-   "created_at": "2026-09-28T16:52:57Z",
+   "url": "https://www.benzinga.com/news/space/26/09/62040515/nasa-administrator-jared-isaacman-hails-elon-musks-spacex-starship-orbital-launch-says-nasa-is-excited-to-help",
+   "created_at": "2026-09-29T05:37:12Z",
    "symbols": [
-    "INTC",
-    "NVDA"
+    "FOUR",
+    "SPCX"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/28/Santa-Clara--Ca--Usa---Nov-22--2023-Inte.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/29/Paris--France---February-3--2026-A-Horiz.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Anthropic Bets Big On AI, Bleeds Billions: Key Details From The Reported IPO Prospectus",
+   "summary": "Anthropic reportedly bets AI will transform the economy more than industrialization or the internet — at a staggering cost.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/09/62038979/anthropic-ipo-prospectus-ai-losses-billions-key-details",
+   "created_at": "2026-09-29T05:21:16Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/29/Anthropic-Logo-Is-Displayed-On-The-Scree.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "John Thune Says Iran War Has ‘Trumped Everything Else’ as Diesel Prices Surge Above $6 Ahead of Midterms",
+   "summary": "Thune says the Iran war and soaring diesel prices are driving voter concerns ahead of midterms, intensifying affordability worries.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/09/62038469/john-thune-says-iran-war-has-trumped-everything-else-as-diesel-prices-surge-above-6-ahead-of-midterms",
+   "created_at": "2026-09-29T05:06:46Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/29/US-and-Iran-flags-on-a-cracked-backgroun.jpg?width=1024&height=768"
   },
   {
    "headline": "Gavin Newsom Moves to Allow Winter-Blend Gas Early in California—Blames Trump’s ‘Reckless’ Iran War",
@@ -434,50 +482,6 @@
    "created_at": "2026-09-28T21:45:29Z",
    "symbols": [
     "STX"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_4.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Full Transcript: Sangoma Technologies Q4 2026 Earnings Call",
-   "summary": "Sangoma Technologies (TSX:STC) reported fourth-quarter financial results on Monday. The transcript from the company&#39;s fourth-quarter earnings call has been provided below.\nThis transcript is broug",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/09/62037100/full-transcript-sangoma-technologies-q4-2026-earnings-call",
-   "created_at": "2026-09-28T21:36:11Z",
-   "symbols": [
-    "TSX:STC"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_1.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Transcript: IDT Q4 2026 Earnings Conference Call",
-   "summary": "IDT (NYSE:IDT) held its fourth-quarter earnings conference call on Monday. Below is the complete transcript from the call.\nThis transcript is brought to you by Benzinga APIs. For real-time access to o",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/09/62037098/transcript-idt-q4-2026-earnings-conference-call",
-   "created_at": "2026-09-28T21:35:07Z",
-   "symbols": [
-    "IDT"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_3.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "If You Invested $100 In Shell Stock 5 Years Ago, You Would Have This Much Today",
-   "summary": "Shell (NYSE:SHEL) has outperformed the market over the past 5 years by 4.27% on an annualized basis producing an average annual return of 16.28%. Currently, Shell has a market capitalization of $275.5",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/09/62037060/if-you-invested-100-shell-stock-5-years-ago-you-would-have-much-today",
-   "created_at": "2026-09-28T21:30:29Z",
-   "symbols": [
-    "SHEL"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_3.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "$1000 Invested In Teledyne Technologies 20 Years Ago Would Be Worth This Much Today",
-   "summary": "Teledyne Technologies (NYSE:TDY) has outperformed the market over the past 20 years by 5.5% on an annualized basis producing an average annual return of 14.56%. Currently, Teledyne Technologies has a ",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/09/62036821/1000-invested-teledyne-technologies-20-years-ago-would-be-worth-much-today",
-   "created_at": "2026-09-28T21:15:50Z",
-   "symbols": [
-    "TDY"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_4.jpg?width=1024&height=768"
   }
