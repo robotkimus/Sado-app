@@ -1,6 +1,47 @@
 {
- "updated": "2026-09-29 16:00",
+ "updated": "2026-09-29 17:00",
  "items": [
+  {
+   "headline": "Anthropic Bets Big On AI, Bleeds Billions: Key Details From The Reported IPO Prospectus",
+   "summary": "Anthropic reportedly bets AI will transform the economy more than industrialization or the internet — at a staggering cost.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/09/62038979/anthropic-ipo-prospectus-ai-losses-billions-key-details",
+   "created_at": "2026-09-29T05:21:11Z",
+   "symbols": [
+    "AAPL",
+    "AIQ",
+    "AMZN",
+    "ANTW",
+    "ARKQ"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/29/Anthropic-Logo-Is-Displayed-On-The-Scree.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Scott Bessent Hires 'Wall Street Geek' David Zervos to Advise Treasury Amid Rising Yields: 'Whether It’s Trade, Whether It’s War, He’s Stepped Up'",
+   "summary": "Treasury Secretary Scott Bessent hires &#39;Wall Street geek&#39; David Zervos to advise the department amid rising bond yields and debt strategies.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/economic-data/26/09/62041111/scott-bessent-hires-wall-street-geek-david-zervos-to-advise-treasury-amid-rising-yields-whether-its-trade-whether-its-war-hes-stepped-up",
+   "created_at": "2026-09-29T07:22:55Z",
+   "symbols": [
+    "DIA",
+    "QQQ",
+    "SPY",
+    "TLT"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/29/US-Treasury-Secretary-Scott-Bessent-walk.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Alexandr Wang Praises Meta's Muse for Tackling an Everyday Neighborhood Problem: 'Seriously Awesome Use Case'",
+   "summary": "Meta’s Muse autonomously reported tangled utility wires to Verizon, highlighting its ability to handle everyday tasks.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/09/62041013/alexandr-wang-meta-muse-neighborhood-problem-ai-use-case",
+   "created_at": "2026-09-29T07:06:46Z",
+   "symbols": [
+    "META",
+    "VZ"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/29/In-This-Photo-Illustration--The-Meta-Mus.jpg?width=1024&height=768"
+  },
   {
    "headline": "Mike Johnson Says US Must ‘Strike the Right Balance’ on AI as Trump Meets Zuckerberg, Huang, Amodei and Brockman Amid Growing Safety Debate",
    "summary": "Mike Johnson rejects an AI moratorium, urging innovation with transparency and oversight as Trump meets tech leaders amid rising concerns.",
@@ -166,49 +207,92 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/09/28/DNC-Cash-Trails--Debt-Tops-17M.jpg?width=1024&height=768"
   },
   {
-   "headline": "9 Information Technology Stocks With Whale Alerts In Today’s Session",
-   "summary": "This whale alert can help traders discover the next big trading opportunities.\nWhales are entities with large sums of money and we track their transactions here at Benzinga on our options activity sca",
+   "headline": "Iran's Supreme Leader Says US Won't Dare to Advance Beyond Arabian Sea While Trump Confirms Talks With Mediators",
+   "summary": "Iran&#39;s leader says enemies will be expelled from the Middle East after Hormuz strikes as reports say eight U.S. Marines were injured.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/options/26/09/62031626/9-information-technology-stocks-whale-alerts-today-s-session",
-   "created_at": "2026-09-28T17:35:08Z",
+   "url": "https://www.benzinga.com/news/politics/26/09/62041379/irans-supreme-leader-says-us-wont-dare-to-advance-beyond-arabian-sea-while-trump-confirms-talks-with-mediators",
+   "created_at": "2026-09-29T07:54:40Z",
    "symbols": [
-    "AMD",
-    "BBAI",
-    "CIFR",
-    "LAES",
-    "MARA"
+    "UCO",
+    "USO"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/aggregated_options_2.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/29/Tehran--Iran--May-2022-Mojtaba-Khamenei-.jpg?width=1024&height=768"
   },
   {
-   "headline": "What Is Going on With Amazon Stock on Monday?",
-   "summary": "Amazon stock pulls back amid macro pressures as Bank of America eyes delivery network expansion and ARK Invest analyzes the e-commerce giant&#39;s AI agent strategy.",
+   "headline": "Chuck Schumer Blasts Trump Over Iran War’s Mounting Toll: ‘American People and Our Troops Are Paying the Price’",
+   "summary": "Schumer criticized Trump and Senate Republicans after rejecting a resolution to end U.S. involvement in Iran, saying they prolong an illegal war.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/09/62031537/what-is-going-on-with-amazon-stock-on-monday-2",
-   "created_at": "2026-09-28T17:30:53Z",
-   "symbols": [
-    "AMZN",
-    "EAGL",
-    "FDN",
-    "FFOG",
-    "WMT"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/28/Amazon-Bets-On-Streaming--Not-Theaters.jpg?width=1024&height=768"
+   "url": "https://www.benzinga.com/news/politics/26/09/62041333/chuck-schumer-blasts-trump-over-iran-wars-mounting-toll-american-people-and-our-troops-are-paying-the-price",
+   "created_at": "2026-09-29T07:46:34Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/29/New-York--Ny--June-13-Senate-Majority-Le.jpg?width=1024&height=768"
   },
   {
-   "headline": "Meta Is Coming for Europe’s Bond Market: AI Debt Is Going Global",
-   "summary": "Meta is preparing its first European bond issue as hyperscalers increasingly tap global credit markets to fund the AI infrastructure boom.",
+   "headline": "Carnival, AAR And 3 Stocks To Watch Heading Into Tuesday",
+   "summary": "Investors eye Carnival, CarMax and Concentrix earnings; AAR beat Q1 estimates and raised guidance, while Vail posted mixed results.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/bonds/26/09/62031534/meta-ai-debt-europe",
-   "created_at": "2026-09-28T17:30:41Z",
+   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/09/62041319/carnival-aar-and-3-stocks-to-watch-heading-into-tuesday",
+   "created_at": "2026-09-29T07:38:49Z",
    "symbols": [
-    "AMZN",
-    "GOOG",
-    "GOOGL",
-    "META",
-    "MSFT"
+    "AIR",
+    "CCL",
+    "CNXC",
+    "KMX",
+    "MTN"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/28/Ljubljana--Slovenia---21-January-2023-Me.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/29/New-York--Usa---17-February-2021-Carniva.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Bitcoin to Hit $500,000 by 2030, Reiterates Financial Advisor Ric Edelman: 'Don't Really Care About the 4-Year Cycle'",
+   "summary": "Financial advisor and bestselling author Ric Edelman reiterated on Monday, September 28, that Bitcoin will hit $500,000 by 2030.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/09/62041204/bitcoin-500000-2030-ric-edelman-4-year-cycle",
+   "created_at": "2026-09-29T07:34:23Z",
+   "symbols": [
+    "BTCUSD",
+    "ETHUSD",
+    "XRPUSD",
+    "ZECUSD"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/29/Bitcoin-Btc-Virtual-Cryptocurrency-In-Fr.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Dow Tumbles Over 300 Points As Trump Rejects Iran's Hormuz Plan: Investor Sentiment Weakens, Fear & Greed Index Remains In ‘Fear’ Zone",
+   "summary": "US stocks fell Monday as CNN’s Fear &amp; Greed Index dropped to 34, staying in Fear. Dow lost 347 points; Palo Alto rose, while MongoDB plunged 18%.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/market-summary/26/09/62041186/dow-tumbles-over-300-points-as-trump-rejects-irans-hormuz-plan-investor-sentiment-weakens-fear-greed-index-remains-in-fear-zone",
+   "created_at": "2026-09-29T07:30:28Z",
+   "symbols": [
+    "CCL",
+    "CNXC",
+    "KMX",
+    "MDB",
+    "PANW"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/29/Fear-and-Greed.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "How to Earn $500 a Month From Concentrix Stock Ahead of Q3 Earnings",
+   "summary": "Concentrix reports Q3 earnings Sept. 29; analysts expect $2.81 EPS and $2.48B revenue. Its 5.32% dividend requires ~$112,842 for $500 monthly.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/09/62019019/how-to-earn-500-a-month-from-concentrix-stock-ahead-of-q3-earnings",
+   "created_at": "2026-09-28T12:27:01Z",
+   "symbols": [
+    "CNXC"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/29/Schiff-Criticizes-Tariff-Dividend-Plan.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "'Something Will Break': Ross Gerber Sounds Alarm as Treasury Yields Hit Decades-High Levels, Bond Volatility Flashes 2008 Crisis Signals",
+   "summary": "A sharp spike in bond market volatility is raising alarm on Wall Street, with investor Ross Gerber warning of a breaking point.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/bonds/26/09/62041135/ross-gerber-treasury-yields-bond-volatility-2008-crisis-signals",
+   "created_at": "2026-09-29T07:26:53Z",
+   "symbols": [
+    "IEF",
+    "TLT"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/29/Washington-Dc---April-2--2020-United-Sta.jpg?width=1024&height=768"
   },
   {
    "headline": "Silexion Therapeutics (SLXN) Stock Soars 61% After Hours: Here's What's Going On",
@@ -290,15 +374,6 @@
     "SPCX"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/09/29/Paris--France---February-3--2026-A-Horiz.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Anthropic Bets Big On AI, Bleeds Billions: Key Details From The Reported IPO Prospectus",
-   "summary": "Anthropic reportedly bets AI will transform the economy more than industrialization or the internet — at a staggering cost.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/09/62038979/anthropic-ipo-prospectus-ai-losses-billions-key-details",
-   "created_at": "2026-09-29T05:21:16Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/29/Anthropic-Logo-Is-Displayed-On-The-Scree.jpg?width=1024&height=768"
   },
   {
    "headline": "John Thune Says Iran War Has ‘Trumped Everything Else’ as Diesel Prices Surge Above $6 Ahead of Midterms",
@@ -401,87 +476,6 @@
    "created_at": "2026-09-29T01:57:53Z",
    "symbols": [],
    "image": "https://cdn.benzinga.com/files/images/story/2026/09/29/American-Businessman-And-Philanthropist-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Bitcoin, Ethereum, XRP, Dogecoin Slide as Treasury Yields Push Higher: Analyst Flags BTC 'Buying Opportunity' Before the Rally Resumes",
-   "summary": "Leading cryptocurrencies declined further on Monday, September 28, as investors reacted to rising bond yields and growing expectations of interest rate hikes.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/09/62038122/bitcoin-ethereum-xrp-dogecoin-treasury-yields-btc-buying-opportunity-rally",
-   "created_at": "2026-09-29T01:50:11Z",
-   "symbols": [
-    "BMNR",
-    "BTCUSD",
-    "DOGEUSD",
-    "ETHUSD",
-    "MSTR"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/29/Bitcoin-Coins-On-Reflective-Black-Surfac.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Goldman Sachs Board Reportedly Discussed Plan for CEO David Solomon to Step Down, Hand the Top Job to President John Waldron",
-   "summary": "Goldman Sachs&#39; board has reportedly discussed a plan for CEO David Solomon to step down and hand the job to John Waldron.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/09/62038069/goldman-sachs-david-solomon-john-waldron-ceo-succession-plan",
-   "created_at": "2026-09-29T01:34:17Z",
-   "symbols": [
-    "GS"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/29/New-York--Usa---04-November-2024-Goldman.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "$1000 Invested In Pinnacle Finl Partners 15 Years Ago Would Be Worth This Much Today",
-   "summary": "Pinnacle Finl Partners (NYSE:PNFP) has outperformed the market over the past 15 years by 1.3% on an annualized basis producing an average annual return of 14.94%. Currently, Pinnacle Finl Partners has",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/09/62037735/1000-invested-pinnacle-finl-partners-15-years-ago-would-be-worth-much-today",
-   "created_at": "2026-09-28T23:46:32Z",
-   "symbols": [
-    "PNFP"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_4.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Here’s How Much You Would Have Made Owning AMETEK Stock In The Last 5 Years",
-   "summary": "AMETEK (NYSE:AME) has outperformed the market over the past 5 years by 3.02% on an annualized basis producing an average annual return of 15.03%. Currently, AMETEK has a market capitalization of $57.6",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/09/62037660/here-s-how-much-you-would-have-made-owning-ametek-stock-last-5-years",
-   "created_at": "2026-09-28T23:30:42Z",
-   "symbols": [
-    "AME"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_1.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "If You Invested $1000 In GE Aerospace Stock 5 Years Ago, You Would Have This Much Today",
-   "summary": "GE Aerospace (NYSE:GE) has outperformed the market over the past 5 years by 25.03% on an annualized basis producing an average annual return of 37.03%. Currently, GE Aerospace has a market capitalizat",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/09/62037489/if-you-invested-1000-ge-aerospace-stock-5-years-ago-you-would-have-much-today",
-   "created_at": "2026-09-28T23:00:27Z",
-   "symbols": [
-    "GE"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_1.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "If You Invested $1000 In Eli Lilly Stock 10 Years Ago, You Would Have This Much Today",
-   "summary": "Eli Lilly (NYSE:LLY) has outperformed the market over the past 10 years by 17.2% on an annualized basis producing an average annual return of 30.75%. Currently, Eli Lilly has a market capitalization o",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/09/62037462/if-you-invested-1000-eli-lilly-stock-10-years-ago-you-would-have-much-today",
-   "created_at": "2026-09-28T22:45:35Z",
-   "symbols": [
-    "LLY"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_1.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Here's How Much $100 Invested In Rambus 10 Years Ago Would Be Worth Today",
-   "summary": "Rambus (NASDAQ:RMBS) has outperformed the market over the past 10 years by 9.89% on an annualized basis producing an average annual return of 23.45%. Currently, Rambus has a market capitalization of $",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/09/62037372/here-s-how-much-100-invested-rambus-10-years-ago-would-be-worth-today",
-   "created_at": "2026-09-28T22:30:40Z",
-   "symbols": [
-    "RMBS"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_4.jpg?width=1024&height=768"
   }
  ]
 }
