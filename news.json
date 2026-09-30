@@ -1,6 +1,94 @@
 {
- "updated": "2026-09-30 19:00",
+ "updated": "2026-09-30 20:00",
  "items": [
+  {
+   "headline": "Senator Rick Scott Hails Jobless Claims Near 57-Year Low, Urges Congress to ‘Get Out Of Small Businesses’ Way’ — ‘Jobs Are the Key to Living the American Dream’",
+   "summary": "Scott cited historically low unemployment claims, urging Congress to cut spending and ease burdens on small businesses to support growth.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/09/62073417/senator-rick-scott-hails-jobless-claims-near-57-year-low-urges-congress-to-get-out-of-small-businesses-way-jobs-are-the-key-to-living-the-american-dream",
+   "created_at": "2026-09-30T10:42:05Z",
+   "symbols": [
+    "AMZN"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/30/Dallas--Tx---August-5--2022-Senator-Rick.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Reported Earlier, 'Tech Giants Face Questions Over Secret AI Data-Center Deals; Democratic Rep. Jamie Raskin seeks information from Amazon, Google, Meta and Oracle' - WSJ Exclusive",
+   "summary": "https://www.wsj.com/politics/policy/tech-giants-face-questions-over-secret-ai-data-center-deals-bdc9de98",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/09/62073378/reported-earlier-tech-giants-face-questions-over-secret-ai-data-center-deals-democratic-rep-jamie-ra",
+   "created_at": "2026-09-30T10:39:59Z",
+   "symbols": [
+    "AMZN",
+    "GOOG",
+    "META",
+    "ORCL"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Trump Rejects Deeper AI Cooperation With China, Says It Could Mean Giving Away ‘Lot Of Secrets’ — ‘Whoever Wins Super Intelligence Wins’",
+   "summary": "Trump opposes deeper U.S.-China AI ties over security risks, while both maintain risk talks and tech firms adopt voluntary safety controls.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/09/62073244/trump-rejects-deeper-ai-cooperation-with-china-says-it-could-mean-giving-away-lot-of-secrets-whoever-wins-super-intelligence-wins",
+   "created_at": "2026-09-30T10:38:32Z",
+   "symbols": [
+    "GOOG",
+    "META",
+    "NVDA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/30/President-Donald-J--Trump-Arrives-On-Sta.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Paul Graham Says Best Startup Investors Know When To Break The Rules: ‘There Are Exceptions To Practically Every Rule’",
+   "summary": "Paul Graham says startup success often comes from spotting exceptions to conventional rules and urges investors to support founders who break them.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/personal-finance/financial-advisors/26/09/62073173/paul-graham-says-best-startup-investors-know-when-to-break-the-rules-there-are-exceptions-to-practically-every-rule",
+   "created_at": "2026-09-30T10:35:53Z",
+   "symbols": [
+    "AMZN"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/30/Representational-image-of-a-startups-co-.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "At 5% Yields, Big Tech Marches Onto the Death Ground",
+   "summary": "Big Tech has marched onto &#34;death ground,&#34; risking trillions in AI capex against 5%+ yields. Will it spark historic growth or a bubble burst?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/09/62073107/at-5-yields-big-tech-marches-onto-the-death-ground",
+   "created_at": "2026-09-30T10:32:54Z",
+   "symbols": [
+    "AMZN",
+    "ARTY",
+    "GOOGL",
+    "META",
+    "MSFT"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/30/Aerial-Data-Center-Exterior-Infrastructu.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Cathie Wood Says Real Yields, Not Inflation, Are Driving Rates — Bill Ackman Thinks The Fed May Have Made A ‘Mistake’",
+   "summary": "Cathie Wood said rising rates are driven more by real yields than inflation, weighing in on Bill Ackman&#39;s contrarian Fed hypothesis.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/economic-data/26/09/62072875/cathie-wood-and-bill-ackman-debate-whether-fed-rate-hikes-could-backfire",
+   "created_at": "2026-09-30T10:17:35Z",
+   "symbols": [
+    "QQQ",
+    "SPY"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/30/Us-Financial-Inflation-Crisis-With-Stock.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Could AI Agents Cut Apple Out of the Checkout? Analyst Flags Meta’s Muse Threat",
+   "summary": "CNBC traders debate if Meta&#39;s Muse AI agent threatens Apple&#39;s App Store, as BofA warns AI could redirect user spending.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/09/62072492/could-ai-agents-cut-apple-out-of-the-checkout-analyst-flags-metas-muse-threat",
+   "created_at": "2026-09-30T10:06:52Z",
+   "symbols": [
+    "AAPL",
+    "META"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/30/Meta-Scores-Key-AI-Hire-From-Apple.jpg?width=1024&height=768"
+  },
   {
    "headline": "Sam Altman-Linked World Token Rallies 35% in a Month, Leaving BTC, DOGE Behind — Here's Why AI Agents Could Be Fueling the Surge",
    "summary": "World Network token staged an impressive rebound in September, climbing to its highest levels in over three months.",
@@ -114,107 +202,129 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/09/30/Paris--France---June-25--2015-bill-Gates.jpg?width=1024&height=768"
   },
   {
-   "headline": "MU Stock Split Chatter Divides Traders Online Ahead of Earnings: 'Would It Make Sense' or Get 'Annihilated'?",
-   "summary": "Micron shares are trading above $1,000 ahead of earnings, and retail traders are betting on a stock split amid soaring AI memory demand.",
+   "headline": "Transcript: Niagen Bioscience Q2 2026 Earnings Conference Call",
+   "summary": "Niagen Bioscience (NASDAQ:NAGE) held its second-quarter earnings conference call on Tuesday. Below is the complete transcript from the call.\nThis transcript is brought to you by Benzinga APIs. For rea",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/earnings/26/09/62071303/micron-stock-nears-q4-earnings-amid-stock-split-speculation",
-   "created_at": "2026-09-30T08:29:37Z",
+   "url": "https://www.benzinga.com/news/26/09/62073570/transcript-niagen-bioscience-q2-2026-earnings-conference-call",
+   "created_at": "2026-09-30T10:55:42Z",
    "symbols": [
-    "AAPL",
-    "AMZN",
-    "GOOG",
-    "GOOGL",
-    "MU"
+    "NAGE"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/30/Micron-MU-Logo-On-Smartphone-With-Semico.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_2.jpg?width=1024&height=768"
   },
   {
-   "headline": "Elon Musk Doubles Down on Delta, Says CEO Ed Bastian Will ‘Lose His Job’ Over Starlink Snub",
-   "summary": "Elon Musk warned Delta CEO Ed Bastian could lose his job after rejecting Starlink, doubling down on his earlier criticism of the airline.",
+   "headline": "Trump Says Communities Hosting AI Data Centers Could Get a ‘Dividend' From Teacher Bonuses to Payments: 'People are Going to Benefit Directly'",
+   "summary": "Trump says communities hosting data centers could receive a “dividend” through teacher bonuses, direct payments and other local benefits.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/09/62069983/elon-musk-doubles-down-on-delta-says-ceo-ed-bastian-will-lose-his-job-over-starlink-snub",
-   "created_at": "2026-09-30T05:34:30Z",
+   "url": "https://www.benzinga.com/markets/tech/26/09/62073255/trump-says-communities-hosting-ai-data-centers-could-get-a-dividend-from-teacher-bonuses-to-payments-people-are-going-to-benefit-directly",
+   "created_at": "2026-09-30T10:39:07Z",
    "symbols": [
-    "ALK",
-    "AMZN",
-    "DAL",
-    "SPCX",
-    "UAL"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/30/Paris--France---June-16--2023-Elon-Musk-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Stock Market: Will S&P 500 Open Up or Down Today?",
-   "summary": "Will S&amp;P 500 open higher? Polymarket odds jump to 72% as Wall Street digests PCE inflation data, Micron earnings, and Q4 seasonal strength.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/prediction-markets/26/09/62069859/stock-market-will-sp-500-open-up-or-down-today-47",
-   "created_at": "2026-09-30T05:14:15Z",
-   "symbols": [
-    "CAG",
-    "CALM",
-    "DIA",
-    "FDS",
-    "JBL"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/30/Stock-S-And-P-500-Index-Fund-Symbol-Is-O.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Steve Wozniak Shares 'Unique Perspective' on How AI Will Replace Humans, While Gene Munster Says Chatbots Will 'Blow' Users 'Away' Within a Year",
-   "summary": "Steve Wozniak warned that AI could replace humans through chatbot attachment, while Gene Munster says few people grasp these bots&#39; power.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/09/62069776/steve-wozniak-ai-replace-humans-gene-munster-chatbots-future",
-   "created_at": "2026-09-30T05:06:01Z",
-   "symbols": [
-    "AAPL",
-    "GOOG",
-    "GOOGL",
-    "META",
-    "NVDA"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/30/Milan---2014-Oct-28-Steve-Wozniak-stephe.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Trump Doing 'Free PR' For AI Bosses, Says Ro Khanna: He Also Let Xi Jinping 'Walk Away' Without Tech Treaty",
-   "summary": "Khanna criticized Trump’s voluntary AI pact with tech CEOs, saying he gave them “free PR” while failing to secure a AI deal with China.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/09/62069526/trump-ro-khanna-ai-bosses-xi-jinping-tech-treaty-pr-walkaway",
-   "created_at": "2026-09-30T03:08:59Z",
-   "symbols": [
-    "GOOG",
-    "META",
-    "NVDA",
     "SPCX"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/30/Washington--Dc--September-27--2021-Rep--.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/30/President-Donald-Trump-Delivers-An-Addre.jpg?width=1024&height=768"
   },
   {
-   "headline": "Cathie Wood Goes Big on Nvidia After $150 Billion Buyback, Sells $110 Million of AMD: ARK Invest Also Picks Up Tesla, SpaceX Shares",
-   "summary": "Ark Invest bought Nvidia, Tesla and SpaceX while selling $110 million of AMD on Tuesday, Sept. 29, 2026.",
+   "headline": "Gene Munster Says SPCX Stock Could More Than Double as Starship Supercharges Launch Cadence: ‘Bigger Week Than Most Investors Realize’",
+   "summary": "This analyst says Starship’s orbital milestone, rising launch cadence could drive SpaceX stock 2x if missions reach 2,200 annually by 2030.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/etfs/broad-u-s-equity-etfs/26/09/62069468/cathie-wood-goes-big-on-nvidia-after-150-billion-buyback-sells-110-million-of-amd-ark-invest-also-picks-up-tesla-spacex-shares",
-   "created_at": "2026-09-30T02:49:24Z",
+   "url": "https://www.benzinga.com/news/space/26/09/62073002/gene-munster-says-spcx-stock-could-more-than-double-as-starship-supercharges-launch-cadence-bigger-week-than-most-investors-realize",
+   "created_at": "2026-09-30T10:24:05Z",
    "symbols": [
-    "ABNB",
-    "AMD",
-    "ARKF",
-    "ARKK",
-    "ARKQ"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/30/Cathie-Wood-Doubles-Down-On-Bitcoin-ETF-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Mark Zuckerberg Labels It 'Significant Positive Step,' Musk Nods Yes as Trump Inks New AI Safety Deal With Top CEOs",
-   "summary": "Trump and major AI companies agreed to a voluntary pact requiring stronger safeguards, independent audits and more.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/09/62069379/trump-ai-safety-deal-zuckerberg-musk-top-ceos",
-   "created_at": "2026-09-30T02:12:17Z",
-   "symbols": [
-    "GOOG",
-    "META",
-    "NVDA",
     "SPCX"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/30/Washington-D-c---Usa---April-7--2025-Uni.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/30/SpaceX-Falcon-Heavy-rocket-during-liftof.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Johnson & Johnson Gears Up For Q3 Print; Here Are The Recent Forecast Changes From Wall Street's Most Accurate Analysts",
+   "summary": "Johnson &amp; Johnson reports Q3 earnings Oct. 13; EPS seen at $2.48, revenue $25.31B. Analysts are mostly bullish after positive Tremfya and Carvykti data.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/09/62072451/johnson-here-are-the-recent-forecast-changes-from-wall-streets-most-accurate-analysts-5",
+   "created_at": "2026-09-30T10:05:10Z",
+   "symbols": [
+    "JNJ"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/30/Johnson--Johnson-Inc--JNJ.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Top 3 Consumer Stocks That May Rocket Higher In Q3",
+   "summary": "Oversold consumer discretionary stocks—Home Depot, McDonald’s and Penske Automotive—may offer buying opportunities, with RSI readings below 30.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/09/62072234/top-3-consumer-stocks-that-may-rocket-higher-in-q3-2",
+   "created_at": "2026-09-30T10:01:08Z",
+   "symbols": [
+    "HD",
+    "MCD",
+    "PAG"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/30/The-Home-Depot.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Trump's New AI-Powered Government Website Says Iran War Drove Up Gas Prices — Elizabeth Warren Says 'Even America.gov agrees'",
+   "summary": "Trump launched America.gov using Gemini and Grok, while Warren spotlighted an AI response linking the Iran war to higher gas prices.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/09/62072197/trumps-new-ai-powered-government-website-says-iran-war-drove-up-gas-prices-elizabeth-warren-says-even-america-gov-agrees",
+   "created_at": "2026-09-30T10:00:33Z",
+   "symbols": [
+    "GOOG",
+    "GOOGL",
+    "SPCX"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/30/Sen--Elizabeth-Warren-speaks-on-lowering.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "In-Depth Analysis: Automatic Data Processing Versus Competitors In Professional Services Industry",
+   "summary": "In today&#39;s rapidly changing and highly competitive business world, it is imperative for investors and industry observers to carefully assess companies before making investment choices. In this art",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/09/62072129/depth-analysis-automatic-data-processing-versus-competitors-professional-services-industry",
+   "created_at": "2026-09-30T09:59:27Z",
+   "symbols": [
+    "ADP"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/earnings_preview_11.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Inquiry Into Analog Devices's Competitor Dynamics In Semiconductors &amp; Semiconductor Equipment Industry",
+   "summary": "In today&#39;s rapidly changing and highly competitive business world, it is imperative for investors and industry observers to carefully assess companies before making investment choices. In this art",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/09/62072123/inquiry-analog-devices-s-competitor-dynamics-semiconductors-amp-semiconductor-equipment-industry",
+   "created_at": "2026-09-30T09:59:23Z",
+   "symbols": [
+    "ADI"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/earnings_preview_3.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Market Analysis: Adobe And Competitors In Software Industry",
+   "summary": "In today&#39;s rapidly changing and highly competitive business world, it is vital for investors and industry enthusiasts to carefully assess companies. In this article, we will perform a comprehensiv",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/09/62072117/market-analysis-adobe-and-competitors-software-industry",
+   "created_at": "2026-09-30T09:59:18Z",
+   "symbols": [
+    "ADBE"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/earnings_preview_12.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Assessing Airbnb's Performance Against Competitors In Hotels, Restaurants &amp; Leisure Industry",
+   "summary": "In today&#39;s rapidly changing and highly competitive business world, it is vital for investors and industry enthusiasts to carefully assess companies. In this article, we will perform a comprehensiv",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/09/62072116/assessing-airbnb-s-performance-against-competitors-hotels-restaurants-amp-leisure-industry",
+   "created_at": "2026-09-30T09:59:11Z",
+   "symbols": [
+    "ABNB"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/earnings_preview_6.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Competitor Analysis: Evaluating Apple And Competitors In Technology Hardware, Storage &amp; Peripherals Industry",
+   "summary": "In today&#39;s rapidly changing and highly competitive business world, it is vital for investors and industry enthusiasts to carefully assess companies. In this article, we will perform a comprehensiv",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/09/62072115/competitor-analysis-evaluating-apple-and-competitors-technology-hardware-storage-amp-peripherals-ind",
+   "created_at": "2026-09-30T09:59:06Z",
+   "symbols": [
+    "AAPL"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/earnings_preview_7.jpg?width=1024&height=768"
   },
   {
    "headline": "Medicare Advantage Premiums Set to Fall 16% in 2027 as Oz Says 'CMS Is Keeping Premiums Stable'",
@@ -281,177 +391,6 @@
     "ROK"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_2.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Trump Offers 40M Barrels From US Oil Reserve — But Buyers Aren’t Biting: Global Refining Capacity Is The Problem, Says Top Oil Analyst",
-   "summary": "Trump’s DOE offers 40M oil barrels, but weak buyer interest highlights global refining bottlenecks, this analyst says.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/commodities/26/09/62071265/trump-offers-40m-barrels-from-us-oil-reserve-but-buyers-arent-biting-global-refining-capacity-is-the-problem-says-top-oil-analyst",
-   "created_at": "2026-09-30T08:25:38Z",
-   "symbols": [
-    "UCO",
-    "USO"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/30/Former-President-Donald-J--Trump-Arrives.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Mortgage Rates Could Soar to 9%? Economist Says Forget the Fed, the Bond Market Is Now Driving Mortgage Rates",
-   "summary": "Cotality&#39;s Selma Hepp says mortgage rates could reach 9% in a severe Treasury market shock.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/real-estate/26/09/62071206/mortgage-rates-could-soar-to-9-economist-says-forget-the-fed-the-bond-market-is-now-driving-mortgage-rates",
-   "created_at": "2026-09-30T08:17:45Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/30/Real-Estate-Agent--African-American-Busi.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Iran Makes Unusual Appeal to Americans to 'Wake Up' and Take Back Control, Warns US of 'Massive Economic Earthquake' if Trump Continues War",
-   "summary": "Iran urges Americans to challenge Trump in a 26-page open letter, accusing his administration of misleading the public about the war.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/09/62070994/iran-makes-unusual-appeal-to-americans-to-wake-up-and-take-back-control-warns-us-of-massive-economic-earthquake-if-trump-continues-war",
-   "created_at": "2026-09-30T07:56:57Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/30/The-Word-War-With-The-Iranian-And-Americ.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Jim Cramer Says Wall Street May Be Overreacting to Meta’s Muse AI Threat — This Stock Could Be ‘Mostly Insulated’ From AI Fallout",
-   "summary": "CNBC host Jim Cramer said Wall Street could be overreacting to the potential threat of Meta Platforms Inc.&#39;s (NASDAQ: META) Muse AI agent on consumer-focused companies.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/09/62070983/jim-cramer-says-wall-street-may-be-overreacting-to-metas-muse-ai-threat-this-stock-could-be-mostly-insulated-from-ai-fallout",
-   "created_at": "2026-09-30T07:56:04Z",
-   "symbols": [
-    "ABNB",
-    "BKNG",
-    "DASH",
-    "PLNT"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/30/Shanghai-china-sep-22nd-2026-Muse-From-M.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "BA Stock Climbs After Boeing Secures $20 Billion Contract as Pentagon Pushes Next-Generation Carrier Fighter Program After Years of Delays",
-   "summary": "Boeing wins $20B+ Navy F/A-XX sixth-generation fighter contract, defeating Northrop and adding to its Air Force F-47 win.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/09/62070949/ba-stock-climbs-after-boeing-secures-20-billion-contract-as-pentagon-pushes-next-generation-carrier-fighter-program-after-years-of-delays",
-   "created_at": "2026-09-30T07:42:30Z",
-   "symbols": [
-    "BA",
-    "NOC"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/30/Boeing.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Bitcoin Demand Showing 'Signs of Improvement' Despite 'Challenging' Backdrop, Says Binance Co-CEO as Spot ETF Inflows Surge",
-   "summary": "Binance Co-CEO Richard Teng noted on Tuesday, September 29, improving institutional demand for Bitcoin despite a &#34;challenging&#34; macroeconomic scenario.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/09/62070911/bitcoin-demand-binance-co-ceo-spot-etf-inflows-improve",
-   "created_at": "2026-09-30T07:39:39Z",
-   "symbols": [
-    "BNBUSD",
-    "BTCUSD",
-    "ZECUSD"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/30/Bitcoin-Btc-Virtual-Cryptocurrency-In-Fr.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Bernie Sanders Slams Mike Johnson Over ‘Chinese Psyop’ Allegation on Opposition to Data Centers: ‘Americans Have Not Fallen Victim’",
-   "summary": "Sanders rejected Johnson’s “Chinese psyop” claim, saying Americans oppose AI data centers over rising power bills, environmental damage and AI risks.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/09/62070762/bernie-sanders-slams-mike-johnson-over-chinese-psyop-allegation-on-opposition-to-data-centers-americans-have-not-fallen-victim",
-   "created_at": "2026-09-30T07:31:55Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/30/Des-Moines--Iowa---September-21--2019-Be.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "AT&T CEO Challenges Elon Musk’s Starlink Cellular Plan, Says There Are ‘A Whole Bunch Of Reasons’ Why SPCX’s Strategy Won’t Work — ‘Nothing Beats’ Fiber",
-   "summary": "AT&amp;T CEO John Stankey says SpaceX&#39;s Starlink cellular plan won&#39;t beat fiber, citing speed, cost, legal and technical hurdles.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/09/62070355/att-ceo-challenges-elon-musks-starlink-cellular-plan-says-there-are-a-whole-bunch-of-reasons-why-spcxs-strategy-wont-work-nothing",
-   "created_at": "2026-09-30T06:35:57Z",
-   "symbols": [
-    "SPCX",
-    "T",
-    "TMUS"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/30/Toronto--Canada---November-16-2024-Starl.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "US Penny Nears Final Chapter: Congress Sends Bill to Trump to End Production After Over 230 Years",
-   "summary": "Congress passed a bill ending U.S. penny production due to high costs. Existing pennies remain legal tender; cash may round to five cents.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/09/62070299/us-penny-nears-final-chapter-congress-sends-bill-to-trump-to-end-production-after-over-230-years",
-   "created_at": "2026-09-30T06:31:25Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/30/2019-Penny-In-Fingers-Close-Up-High-Qual.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "FingerMotion (FNGR) Stock Jumps 34% After Hours: What's Going On",
-   "summary": "FingerMotion shares surge after hours following a definitive agreement announcement for its Alberta power site.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/09/62070241/fingermotion-fngr-stock-jumps-34-after-hours-whats-going-on",
-   "created_at": "2026-09-30T06:11:00Z",
-   "symbols": [
-    "FNGR"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/30/Stock-Market-Trading-Chart-And-Analyzing.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Dow Falls Over 100 Points as Treasury Yields Rise: Investor Sentiment Weakens, Fear & Greed Index Stays in ‘Fear’ Zone",
-   "summary": "Markets fell as CNN’s Fear &amp; Greed Index slipped to 32, remaining in the Fear zone; investors awaited earnings and watched economic data.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/market-summary/26/09/62070172/dow-falls-over-100-points-as-treasury-yields-rise-investor-sentiment-weakens-fear-greed-index-stays-in-fear-zone",
-   "created_at": "2026-09-30T06:05:01Z",
-   "symbols": [
-    "CAG",
-    "CCL",
-    "JBL",
-    "MU"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/30/Market-sentiment---Fear-and-Greed.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "AI or Chatbots Face Criminal Charges in 2026? Crypto Bettors Weigh the Odds",
-   "summary": "Cryptocurrency punters doubt artificial intelligence will be charged with a crime in the U.S. in 2026, even as AI safety concerns take center stage.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/prediction-markets/26/09/62070113/ai-chatbots-criminal-charges-2026-crypto-bettors-odds",
-   "created_at": "2026-09-30T05:59:43Z",
-   "symbols": [
-    "BTCUSD",
-    "POLUSD",
-    "ZECUSD"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/30/Laws-Regarding-Cyber-Crimes--Justice-Gav.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Accelevation Set to List Wednesday After Raising $540 Million in IPO Fueled By AI Data Center Demand",
-   "summary": "Accelevation raised about $540 million after the data center infrastructure company priced its initial public offering at $18 per share.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/ipos/26/09/62070096/accelevation-ipo-540-million-ai-data-center-demand",
-   "created_at": "2026-09-30T05:55:52Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/30/Wood-Cube-Ipo-Word-Dollar-Banknote-Finan.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Jabil, Micron and 3 Stocks to Watch Heading Into Wednesday",
-   "summary": "Conagra and Jabil report earnings; FingerMotion plans Newbit acquisition; Concentrix cuts guidance; Micron reports after close.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/09/62070081/jabil-micron-and-3-stocks-to-watch-heading-into-wednesday",
-   "created_at": "2026-09-30T05:44:51Z",
-   "symbols": [
-    "CAG",
-    "CNXC",
-    "FNGR",
-    "JBL",
-    "MU"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/30/Micron.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Trump Explains Why North Korea Can Have Nukes but Not Iran: Kim Jong Un 'a Friend of Mine' and 'I Like Him'",
-   "summary": "Trump defended his friendship with Kim Jong Un, blamed past presidents for North Korea’s nuclear arsenal, and said Kim respects and likes him.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/09/62069996/trump-explains-why-north-korea-can-have-nukes-but-not-iran-kim-jong-un-a-friend-of-mine-and-i-like-him",
-   "created_at": "2026-09-30T05:38:41Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/30/President-Trump-Meets-With-Chairman-Kim-.jpg?width=1024&height=768"
   }
  ]
 }
