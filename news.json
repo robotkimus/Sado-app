@@ -1,6 +1,59 @@
 {
- "updated": "2026-09-30 17:00",
+ "updated": "2026-09-30 18:00",
  "items": [
+  {
+   "headline": "AMZN, MSFT, GOOGL Need $1 Trillion in Revenue To Earn 15% Return on AI Capex — Here's What Goldman Says About Their $1.69 Trillion Backlog",
+   "summary": "Goldman Sachs notes Big Tech&#39;s $1.7T cloud backlog covers 60% of the $1T revenue needed by 2030 to de-risk AI investments.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/09/62071472/amzn-msft-googl-need-1-trillion-in-revenue-to-earn-15-return-on-ai-capex-heres-what-goldman-says-about-their-1-69-trillion-backlog",
+   "created_at": "2026-09-30T08:53:47Z",
+   "symbols": [
+    "AMZN",
+    "GOOG",
+    "GOOGL",
+    "MSFT"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/30/Big-Tech-company-logos-Alphabet--Amazon-.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "OpenAI CFO Accidentally Calls Dots as Muse Giving Meta's AI Agent an Unexpected Shoutout in Faux Pas Moment — Shay Boloor Takes a Dig at 'Brand Differentiation'",
+   "summary": "OpenAI CFO Sarah Friar mistakenly called Dots “Muse” on CNBC, prompting Shay Boloor to mock the AI agent’s brand differentiation.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/09/62071461/openai-cfo-accidentally-calls-dots-as-muse-giving-metas-ai-agent-an-unexpected-shoutout-in-faux-pas-moment-shay-boloor-takes-a-dig-at-brand-differentiation",
+   "created_at": "2026-09-30T08:52:33Z",
+   "symbols": [
+    "META",
+    "MSFT"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/30/Penang--Malaysia---1-Apr-2023-Chatgpt-Ar.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Bill Gates Pushes Back Against Trump, Jensen Huang's Approach to AI Safety: ‘You Can’t Rely on the Industry to Self-Regulate’",
+   "summary": "Gates is calling for stronger government oversight of AI, warning that cyber and biological risks make industry self-regulation insufficient.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/09/62071334/bill-gates-pushes-back-against-trump-jensen-huangs-approach-to-ai-safety-you-cant-rely-on-the-industry-to-self-regulate",
+   "created_at": "2026-09-30T08:38:55Z",
+   "symbols": [
+    "MSFT",
+    "NVDA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/30/Paris--France---June-25--2015-bill-Gates.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "MU Stock Split Chatter Divides Traders Online Ahead of Earnings: 'Would It Make Sense' or Get 'Annihilated'?",
+   "summary": "Micron shares are trading above $1,000 ahead of earnings, and retail traders are betting on a stock split amid soaring AI memory demand.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/earnings/26/09/62071303/micron-stock-nears-q4-earnings-amid-stock-split-speculation",
+   "created_at": "2026-09-30T08:29:37Z",
+   "symbols": [
+    "AAPL",
+    "AMZN",
+    "GOOG",
+    "GOOGL",
+    "MU"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/30/Micron-MU-Logo-On-Smartphone-With-Semico.jpg?width=1024&height=768"
+  },
   {
    "headline": "Elon Musk Doubles Down on Delta, Says CEO Ed Bastian Will ‘Lose His Job’ Over Starlink Snub",
    "summary": "Elon Musk warned Delta CEO Ed Bastian could lose his job after rejecting Starlink, doubling down on his earlier criticism of the airline.",
@@ -154,55 +207,34 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/09/29/Brooklyn--Ny--Usa--11-22-20-Sam-Altman-A.jpg?width=1024&height=768"
   },
   {
-   "headline": "Donald Trump, Cathie Wood Bet on the Same 32 Stocks – Some Might Surprise You",
-   "summary": "A look at the stocks that are owned by Cathie Wood&#39;s Ark Invest and Donald Trump.",
+   "headline": "Trump Offers 40M Barrels From US Oil Reserve — But Buyers Aren’t Biting: Global Refining Capacity Is The Problem, Says Top Oil Analyst",
+   "summary": "Trump’s DOE offers 40M oil barrels, but weak buyer interest highlights global refining bottlenecks, this analyst says.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/09/62066420/donald-trump-cathie-wood-same-32-stocks",
-   "created_at": "2026-09-29T20:32:03Z",
+   "url": "https://www.benzinga.com/markets/commodities/26/09/62071265/trump-offers-40m-barrels-from-us-oil-reserve-but-buyers-arent-biting-global-refining-capacity-is-the-problem-says-top-oil-analyst",
+   "created_at": "2026-09-30T08:25:38Z",
    "symbols": [
-    "ABNB",
-    "AMD",
-    "AMZN",
-    "ARKF",
-    "ARKG"
+    "UCO",
+    "USO"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/29/CathieWood-ArkInvest-Tesla-Shutterstock.png?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/30/Former-President-Donald-J--Trump-Arrives.jpg?width=1024&height=768"
   },
   {
-   "headline": "$100 Invested In Vertex Pharmaceuticals 10 Years Ago Would Be Worth This Much Today",
-   "summary": "Vertex Pharmaceuticals (NASDAQ:VRTX) has outperformed the market over the past 10 years by 6.27% on an annualized basis producing an average annual return of 19.81%. Currently, Vertex Pharmaceuticals ",
+   "headline": "Mortgage Rates Could Soar to 9%? Economist Says Forget the Fed, the Bond Market Is Now Driving Mortgage Rates",
+   "summary": "Cotality&#39;s Selma Hepp says mortgage rates could reach 9% in a severe Treasury market shock.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/09/62065859/100-invested-vertex-pharmaceuticals-10-years-ago-would-be-worth-much-today",
-   "created_at": "2026-09-29T20:15:33Z",
-   "symbols": [
-    "VRTX"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_4.jpg?width=1024&height=768"
+   "url": "https://www.benzinga.com/real-estate/26/09/62071206/mortgage-rates-could-soar-to-9-economist-says-forget-the-fed-the-bond-market-is-now-driving-mortgage-rates",
+   "created_at": "2026-09-30T08:17:45Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/30/Real-Estate-Agent--African-American-Busi.jpg?width=1024&height=768"
   },
   {
-   "headline": "Jim Cramer’s META Muse Bull Case Is About to Get a Revenue Test",
-   "summary": "Jim Cramer sees Meta’s Muse reshaping its valuation. Now paid plans and business adoption will test whether AI can become a revenue engine.",
+   "headline": "Iran Makes Unusual Appeal to Americans to 'Wake Up' and Take Back Control, Warns US of 'Massive Economic Earthquake' if Trump Continues War",
+   "summary": "Iran urges Americans to challenge Trump in a 26-page open letter, accusing his administration of misleading the public about the war.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/09/62063837/meta-muse-revenue-test-jim-cramer",
-   "created_at": "2026-09-29T19:25:23Z",
-   "symbols": [
-    "META",
-    "SHOP"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/29/Meta-Muse.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "EXCLUSIVE: Greenland’s Power Bet Is Bigger Than Microsoft’s Nuclear Deal",
-   "summary": "Greenland hydropower projects could generate 9,500 GWh a year, exceeding the annual output tied to Microsoft’s nuclear power deal.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/commodities/26/09/62060858/greenland-hydropower-bet-bigger-than-microsoft-nuclear-deal",
-   "created_at": "2026-09-29T18:00:12Z",
-   "symbols": [
-    "CEG",
-    "GRML",
-    "MSFT"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/29/Trump-Floats-US-Sovereignty-Over-Arctic-.jpg?width=1024&height=768"
+   "url": "https://www.benzinga.com/news/politics/26/09/62070994/iran-makes-unusual-appeal-to-americans-to-wake-up-and-take-back-control-warns-us-of-massive-economic-earthquake-if-trump-continues-war",
+   "created_at": "2026-09-30T07:56:57Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/30/The-Word-War-With-The-Iranian-And-Americ.jpg?width=1024&height=768"
   },
   {
    "headline": "Jim Cramer Says Wall Street May Be Overreacting to Meta’s Muse AI Threat — This Stock Could Be ‘Mostly Insulated’ From AI Fallout",
@@ -424,70 +456,6 @@
     "ZECUSD"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/09/30/Policy-Changes-Add-Pressure.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Bitcoin Dips, While Ethereum, XRP, Dogecoin Gain: Bull Market 'Intact,' but Rally 'Showing Cracks,' Says Analyst",
-   "summary": "Leading cryptocurrencies stayed resilient on Tuesday, September 29, while rising government bond yields weighed on stock markets.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/09/62069392/bitcoin-ethereum-xrp-dogecoin-bull-market-rally-analyst",
-   "created_at": "2026-09-30T02:16:01Z",
-   "symbols": [
-    "BMNR",
-    "BTCUSD",
-    "DOGEUSD",
-    "ETHUSD",
-    "MSTR"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/30/Cryptocurrency-Bitcoin-Coin-Over-Tablet-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Tesla Locks in $30 Billion in New Credit as It Scales Up Optimus, Cybercab and Joint Solar Plans With SpaceX",
-   "summary": "Tesla entered into $30 billion of new credit facilities as it accelerates investments in AI and scales up production of new products.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/09/62069315/tesla-30-billion-credit-optimus-cybercab-spacex-solar-plans",
-   "created_at": "2026-09-30T02:05:10Z",
-   "symbols": [
-    "SPCX",
-    "TSLA"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/30/Optimus-Faces-Technical-Hurdles.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Fair Issac Corp., Iovance Biotherapeutics, Stablecoin Development Corp., Carnival Corp. and Micron: Why These 5 Stocks Are on Investors' Radars Today",
-   "summary": "FICO, IOVA, SDEV, CCL, MU were among the trending stocks on Tuesday, Sept. 29, 2026.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/09/62069255/fair-issac-corp-iovance-biotherapeutics-stablecoin-development-corp-carnival-corp-and-micron-why-these-5-stocks-are-on-investors-radars-today",
-   "created_at": "2026-09-30T01:39:24Z",
-   "symbols": [
-    "CCL",
-    "FICO",
-    "IOVA",
-    "MU",
-    "SDEV"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/30/Charts-Of-Financial-Instruments-With-Var.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "If You Invested $1000 In ExxonMobil Holdings Stock 5 Years Ago, You Would Have This Much Today",
-   "summary": "ExxonMobil Holdings (NYSE:XOM) has outperformed the market over the past 5 years by 8.93% on an annualized basis producing an average annual return of 21.19%. Currently, ExxonMobil Holdings has a mark",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/09/62068825/if-you-invested-1000-exxonmobil-holdings-stock-5-years-ago-you-would-have-much-today",
-   "created_at": "2026-09-29T23:45:14Z",
-   "symbols": [
-    "XOM"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_2.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "If You Invested $1000 In Visa Stock 15 Years Ago, You Would Have This Much Today",
-   "summary": "Visa (NYSE:V) has outperformed the market over the past 15 years by 7.4% on an annualized basis producing an average annual return of 20.89%. Currently, Visa has a market capitalization of $684.27 bil",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/09/62068696/if-you-invested-1000-visa-stock-15-years-ago-you-would-have-much-today",
-   "created_at": "2026-09-29T23:30:35Z",
-   "symbols": [
-    "V"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_3.jpg?width=1024&height=768"
   }
  ]
 }
