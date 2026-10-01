@@ -1,520 +1,500 @@
 {
- "updated": "2026-09-30 22:00",
+ "updated": "2026-10-01 09:00",
  "items": [
   {
-   "headline": "Stock Market Today: Dow Jones, Nasdaq 100 Futures Fall as Investors Investors Digest Fed's Preferred Inflation Gauge and Spending Data— MU, AMD, FNGR in Focus (UPDATED)",
-   "summary": "Editor’s Note: The ETFs tracking benchmark indices, lede, economic data, and the headline were updated in the story.\n\n\n\nU.S. stock futures were mixed on Wednesday, as the Dow Jones, and Nasdaq 100 ind",
+   "headline": "Cooler-Than-Expected PCE, Hotter Software: IGV Outpaces Chip ETF SOXX",
+   "summary": "Cooler-than-expected PCE inflation eased Fed rate fears, lifting software stocks as IGV gained while semiconductor ETF SOXX lagged.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/09/62071823/stock-market-today-sp-500-dow-jones-futures-gain-as-investors-await-feds-preferred-inflation-data-mu-amd-fngr-in-focus",
-   "created_at": "2026-09-30T12:44:14Z",
+   "url": "https://www.benzinga.com/etfs/sector-etfs/26/09/62093511/cooler-than-expected-pce-hotter-software-igv-outpaces-chip-etf-soxx",
+   "created_at": "2026-09-30T20:20:51Z",
    "symbols": [
-    "AMD",
-    "BTCUSD",
-    "CCL",
-    "CNXC",
-    "FNGR"
+    "IGV",
+    "SOXX"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/30/Close-Up-Of-Wall-Street-Sign-With-Iconic.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/30/Saas-Software-As-A-Service-Concept-With-.jpg?width=1024&height=768"
   },
   {
-   "headline": "Microsoft To Rally Around 20%? Here Are 10 Top Analyst Forecasts For Wednesday",
-   "summary": "Analysts revised targets and ratings for KMX, ARX, JKHY, MRNA, GO, HNGE, AYTU and MSFT, with mixed upgrades, downgrades and reiterations.",
+   "headline": "Top 5 Semiconductor Stocks to Own Into Year End: Bank of America",
+   "summary": "Bank of America names Nvidia, Intel, Micron, Marvell and Lam Research as top semiconductor stocks to own into year-end.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/09/62076005/microsoft-to-rally-around-20-here-are-10-top-analyst-forecasts-for-wednesday",
-   "created_at": "2026-09-30T12:22:08Z",
+   "url": "https://www.benzinga.com/markets/tech/26/09/62092509/top-semiconductor-stocks-to-own-bank-of-america-picks",
+   "created_at": "2026-09-30T20:01:40Z",
    "symbols": [
-    "ARX",
-    "AYTU",
-    "GO",
-    "HNGE",
-    "JKHY"
+    "ADI",
+    "AMAT",
+    "AMD",
+    "INTC",
+    "LRCX"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/30/Lam-Research-Corp.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Amazon Signs $1 Billion Synopsys Deal as AWS Steps Up Nvidia Challenge",
+   "summary": "Amazon signs a $1B-plus Synopsys deal to strengthen Trainium and Graviton as AWS expands its custom-chip push.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/09/62091668/amazon-synopsys-1-billion-aws-custom-chips",
+   "created_at": "2026-09-30T19:33:19Z",
+   "symbols": [
+    "AMZN",
+    "NVDA",
+    "SNPS"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/30/Amazon-Web-Services.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "AI Could Threaten Amazon’s Advertising Flywheel Before E-Commerce",
+   "summary": "AI shopping agents could threaten Amazon’s advertising business by shifting product discovery away from its marketplace.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/09/62089436/amazon-ai-shopping-advertising",
+   "created_at": "2026-09-30T18:21:01Z",
+   "symbols": [
+    "AMZN"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/30/Last-Chance-for-Amazon-Prime-Subscribers.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Amazon Signs Up As Synopsys' Lead Customer In $1 Billion-Plus Chip Pact",
+   "summary": "Synopsys and Amazon entered a multi-year deal to accelerate custom silicon development for AI-powered products and cloud infrastructure.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/large-cap/26/09/62088786/synopsys-amazon-strike-1b-deal-for-ai-silicon",
+   "created_at": "2026-09-30T18:01:59Z",
+   "symbols": [
+    "AMZN",
+    "ENTR",
+    "KWIN",
+    "SMHX",
+    "SNPS"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/30/Konskie--Poland---November-15--2024-Syno.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Make Or Break for AI Trade–Micron Earnings Ahead; Consumers Spend More Even As Income Drops",
+   "summary": "\n\n\n\nMicron Earnings Ahead\n\n\n\nPlease click here for an enlarged chart of Micron Technology Inc (NASDAQ:MU).\n\n\n\nNote the following:\n\n\n\n\nThis article is about the big picture, not an individual stock.  T",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/Opinion/26/09/62087536/make-or-break-for-ai-trade-micron-earnings-ahead-consumers-spend-more-even-as-income-drops",
+   "created_at": "2026-09-30T17:26:58Z",
+   "symbols": [
+    "AAPL",
+    "AMZN",
+    "BTCUSD",
+    "GOOG",
+    "META"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/30/Micron.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "What's Going On With Intel Stock Wednesday?",
+   "summary": "Intel stock rises over 3% as tech rallies. Up 256% in 12 months, INTC displays strong bullish momentum near $119.50.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/09/62086959/whats-going-on-with-intel-stock-wednesday-9",
+   "created_at": "2026-09-30T17:07:46Z",
+   "symbols": [
+    "GOOG",
+    "INTC",
+    "PSI",
+    "SOXX",
+    "SSNLF"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/30/Santa-Clara--Ca--Usa---Nov-22--2023-Inte.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Nasdaq 100 Climbs as Cooler PCE Cuts Rate Hike Bets, Micron Earnings Loom: Stock Market Today",
+   "summary": "Nasdaq 100 gains as softer PCE inflation cools Fed rate-hike bets, with oil above $91 and Micron earnings due after the bell Wednesday.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/09/62086386/nasdaq-100-climbs-cooler-pce-cuts-rate-hike-bets-micron-earnings-loom-stock-market-today",
+   "created_at": "2026-09-30T16:47:40Z",
+   "symbols": [
+    "AAPL",
+    "AMZN",
+    "CAT",
+    "DIA",
+    "FORM"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/30/Market-up.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Is Amazon Really Facing ‘Risk Of Complete Displacement’ by Agentic Commerce?",
+   "summary": "Why a Rosenblatt analyst says agentic commerce risks to Amazon are overstated.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/09/62085223/is-amazon-really-facing-risk-of-complete-displacement-by-agentic-commerce",
+   "created_at": "2026-09-30T16:09:24Z",
+   "symbols": [
+    "AMZN"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/30/Amazons-Box-Office-Doubts.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "QUICK SPARK: Meta Could Be the AI Trade’s Come-From-Behind Winner, Says Strategist",
+   "summary": "WisdomTree’s Sam Rines sees Meta as an overlooked AI winner as investors shift focus from AI spending to returns.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/09/62084801/meta-ai-trade-winner",
+   "created_at": "2026-09-30T15:59:01Z",
+   "symbols": [
+    "META",
+    "NVDA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/30/Benzinga-Quick-Spark.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Microsoft Stock Is Moving Higher Today: What's Happening?",
+   "summary": "Microsoft Corp (NASDAQ:MSFT) shares are rising Wednesday. Piper Sandler raised its price target on the stock while maintaining an Overweight rating.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/09/62084580/microsoft-stock-is-moving-higher-today-whats-happening",
+   "created_at": "2026-09-30T15:50:13Z",
+   "symbols": [
+    "MSFT"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/09/30/New-York--Ny--Usa---July-5--2022-Microso.jpg?width=1024&height=768"
   },
   {
-   "headline": "What's Going on With Nebius Stock on Wednesday?",
-   "summary": "Nebius Group (NASDAQ: NBIS) stock gained Wednesday following AI growth catalysts from OpenAI and Meta Platforms. Here is what is driving the move.",
+   "headline": "EXCLUSIVE: If AI Capex Cracks, Nvidia Could Feel It Before Meta Does",
+   "summary": "WisdomTree’s Sam Rines says a slowdown in AI capex could hit Nvidia and infrastructure providers harder than AI implementers like Meta.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/09/62075977/whats-going-on-with-nebius-stock-on-wednesday",
-   "created_at": "2026-09-30T12:19:54Z",
+   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/09/62084519/nvidia-ai-capex-meta",
+   "created_at": "2026-09-30T15:48:48Z",
    "symbols": [
+    "GOOG",
+    "GOOGL",
     "META",
     "MSFT",
-    "NBIS"
+    "NVDA"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/30/Nebius-Group.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/30/Sam-Rines.png?width=1024&height=768"
   },
   {
-   "headline": "Anthropic IPO Filing Reveals a Major Vulnerability: Nearly 50% of Sales Flow Through Amazon and Google as Revenue Concentration Raises Risks: Report",
-   "summary": "Anthropic&#39;s IPO filing reveals 47% of sales came via Amazon and Google, exposing heavy reliance on a few partners and customers.",
+   "headline": "Growth Leads Sectors In Wednesday Trading As Defensives Trail",
+   "summary": "Five sectors are higher and six are lower in Wednesday&#39;s regular session, with growth sectors holding two of the top three positions. Technology sits well clear of the next sector, separated by a ",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/private-markets/26/09/62075939/anthropic-ipo-filing-reveals-a-major-vulnerability-nearly-50-of-sales-flow-through-amazon-and-google-as-revenue-concentration-raises-risks-report",
-   "created_at": "2026-09-30T12:18:17Z",
-   "symbols": [
-    "AMZN",
-    "GOOG",
-    "GOOGL",
-    "MSFT"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/30/Anthropic-Logo-On-A-Smartphone-Screen-An.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "What's Going On With Oracle Stock Tuesday?",
-   "summary": "Oracle stock trades down near $137 key support. Discover ORCL’s technical analysis, moving averages, and premarket price action.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/09/62075824/whats-going-on-with-oracle-stock-tuesday-7",
-   "created_at": "2026-09-30T12:12:59Z",
-   "symbols": [
-    "IGV",
-    "NTAP",
-    "ORCL",
-    "TDIV",
-    "TDVI"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/30/Konskie--Poland---November-13--2024-Orac.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Moody’s Mark Zandi Warns Wall Street is 'Too Optimistic' About the American Consumer: 'I Am Getting More Nervous...'",
-   "summary": "Moody&#39;s Mark Zandi warns Wall Street is &#34;too optimistic&#34; about U.S. consumer resilience amid flat wages, rising rates, and falling savings.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/economic-data/26/09/62074596/moodys-mark-zandi-warns-wall-street-is-too-optimistic-about-the-american-consumer-i-am-getting-more-nervous",
-   "created_at": "2026-09-30T11:37:20Z",
-   "symbols": [
-    "DIA",
-    "QQQ",
-    "SPY",
-    "V"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/30/Budget-Economy-And-Finance-Background-Wi.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Meta’s Next AI Gold Mine? Muse Targets 200 Million Small Businesses As Zuckerberg Eyes Fees, Subscriptions",
-   "summary": "Meta is expanding its #1 AI app with Muse for Small Business, tapping 200M merchants for automated ops, sales, and task management.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/09/62074469/metas-next-ai-gold-mine-muse-targets-200-million-small-businesses-as-zuckerberg-eyes-fees-subscriptions",
-   "created_at": "2026-09-30T11:32:03Z",
+   "url": "https://www.benzinga.com/etfs/sector-etfs/26/09/62083340/growth-leads-sectors-in-wednesday-trading-as-defensives-trail",
+   "created_at": "2026-09-30T15:12:53Z",
    "symbols": [
     "AAPL",
-    "IGPT",
-    "LSGR",
-    "META",
-    "PNQI"
+    "BRK",
+    "CAT",
+    "COP",
+    "CVX"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/30/In-this-photo-illustration--the-Meta-Mus.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/30/Technical-analysis.jpg?width=1024&height=768"
   },
   {
-   "headline": "Dan Ives Calls Physical AI Nvidia’s 'Holy Grail' — This ETF Is Already in the Trade",
-   "summary": "Dan Ives calls physical AI Nvidia’s “holy grail,” pointing to a potential robotics boom. See how BOTZ offers exposure to Nvidia and the automation trade.",
+   "headline": "What Is Going on With Super Micro Stock on Wednesday?",
+   "summary": "Super Micro Computer stock slips amid Nvidia Vera Rubin shipments, while rival HPE lands a $1.2B AMD AI rack deal.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/etfs/specialty-etfs/26/09/62073694/dan-ives-calls-physical-ai-nvidias-holy-grail-this-etf-is-already-in-the-trade",
-   "created_at": "2026-09-30T11:00:08Z",
+   "url": "https://www.benzinga.com/markets/tech/26/09/62082606/what-is-going-on-with-super-micro-stock-on-wednesday",
+   "created_at": "2026-09-30T14:56:56Z",
    "symbols": [
-    "BOTZ",
-    "ISRG",
-    "NVDA"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/30/Nvidia.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Mark Zuckerberg's Muse Could Charge You for Saving You Money — META President Reveals AI Agent's Potential Monetization Model",
-   "summary": "Meta President Dina Powell McCormick reveals Muse AI will monetize by taking a fee on user savings and offering paid subscriptions.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/09/62073591/mark-zuckerbergs-muse-could-charge-you-for-saving-you-money-meta-president-reveals-ai-agents-potential-monetization-model",
-   "created_at": "2026-09-30T10:58:06Z",
-   "symbols": [
-    "CRM",
-    "META",
-    "SHOP",
-    "WMT"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/30/In-this-photo-illustration--the-Meta-Mus.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Senator Rick Scott Hails Jobless Claims Near 57-Year Low, Urges Congress to ‘Get Out Of Small Businesses’ Way’ — ‘Jobs Are the Key to Living the American Dream’",
-   "summary": "Scott cited historically low unemployment claims, urging Congress to cut spending and ease burdens on small businesses to support growth.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/09/62073417/senator-rick-scott-hails-jobless-claims-near-57-year-low-urges-congress-to-get-out-of-small-businesses-way-jobs-are-the-key-to-living-the-american-dream",
-   "created_at": "2026-09-30T10:42:05Z",
-   "symbols": [
-    "AMZN"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/30/Dallas--Tx---August-5--2022-Senator-Rick.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Reported Earlier, 'Tech Giants Face Questions Over Secret AI Data-Center Deals; Democratic Rep. Jamie Raskin seeks information from Amazon, Google, Meta and Oracle' - WSJ Exclusive",
-   "summary": "https://www.wsj.com/politics/policy/tech-giants-face-questions-over-secret-ai-data-center-deals-bdc9de98",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/09/62073378/reported-earlier-tech-giants-face-questions-over-secret-ai-data-center-deals-democratic-rep-jamie-ra",
-   "created_at": "2026-09-30T10:39:59Z",
-   "symbols": [
-    "AMZN",
-    "GOOG",
-    "META",
-    "ORCL"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Trump Rejects Deeper AI Cooperation With China, Says It Could Mean Giving Away ‘Lot Of Secrets’ — ‘Whoever Wins Super Intelligence Wins’",
-   "summary": "Trump opposes deeper U.S.-China AI ties over security risks, while both maintain risk talks and tech firms adopt voluntary safety controls.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/09/62073244/trump-rejects-deeper-ai-cooperation-with-china-says-it-could-mean-giving-away-lot-of-secrets-whoever-wins-super-intelligence-wins",
-   "created_at": "2026-09-30T10:38:32Z",
-   "symbols": [
-    "GOOG",
-    "META",
-    "NVDA"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/30/President-Donald-J--Trump-Arrives-On-Sta.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Paul Graham Says Best Startup Investors Know When To Break The Rules: ‘There Are Exceptions To Practically Every Rule’",
-   "summary": "Paul Graham says startup success often comes from spotting exceptions to conventional rules and urges investors to support founders who break them.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/personal-finance/financial-advisors/26/09/62073173/paul-graham-says-best-startup-investors-know-when-to-break-the-rules-there-are-exceptions-to-practically-every-rule",
-   "created_at": "2026-09-30T10:35:53Z",
-   "symbols": [
-    "AMZN"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/30/Representational-image-of-a-startups-co-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "At 5% Yields, Big Tech Marches Onto the Death Ground",
-   "summary": "Big Tech has marched onto &#34;death ground,&#34; risking trillions in AI capex against 5%+ yields. Will it spark historic growth or a bubble burst?",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/09/62073107/at-5-yields-big-tech-marches-onto-the-death-ground",
-   "created_at": "2026-09-30T10:32:54Z",
-   "symbols": [
-    "AMZN",
-    "ARTY",
-    "GOOGL",
-    "META",
-    "MSFT"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/30/Aerial-Data-Center-Exterior-Infrastructu.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Cathie Wood Says Real Yields, Not Inflation, Are Driving Rates — Bill Ackman Thinks The Fed May Have Made A ‘Mistake’",
-   "summary": "Cathie Wood said rising rates are driven more by real yields than inflation, weighing in on Bill Ackman&#39;s contrarian Fed hypothesis.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/economic-data/26/09/62072875/cathie-wood-and-bill-ackman-debate-whether-fed-rate-hikes-could-backfire",
-   "created_at": "2026-09-30T10:17:35Z",
-   "symbols": [
-    "QQQ",
-    "SPY"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/30/Us-Financial-Inflation-Crisis-With-Stock.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "SpaceX’s Starlink Just Got More Powerful, and Cable Giants Comcast, Charter May Feel the Heat",
-   "summary": "SpaceX’s V3 Starlink satellites pose a growing threat to cable giants Comcast and Charter, per analyst Craig Moffett.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/09/62077217/spacexs-starlink-just-got-more-powerful-and-cable-giants-comcast-charter-may-feel-the-heat",
-   "created_at": "2026-09-30T12:56:51Z",
-   "symbols": [
-    "CHTR",
-    "CMCSA",
-    "SPCX",
-    "T",
-    "VZ"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/30/SpaceX.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Robinhood Stock Jumps 5% After Unveiling 24/7 Trading, AI Agents",
-   "summary": "Robinhood Markets shares jumped 5% Wednesday after it announced plans for longer trading hours, crypto perpetuals and AI tools.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/09/62077206/robinhood-stock-jumps-5-after-unveiling-24-7-trading-ai-agents",
-   "created_at": "2026-09-30T12:56:39Z",
-   "symbols": [
-    "HOOD"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/30/Robinhood.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "This Dow Analyst Is No Longer Bullish; Here Are Top 5 Downgrades For Wednesday",
-   "summary": "Analysts downgraded SoundThinking, Moderna, Accelerant, Mobileye and Dow, revising their ratings and price targets.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/analyst-stock-ratings/downgrades/26/09/62077130/this-dow-analyst-is-no-longer-bullish-here-are-top-5-downgrades-for-wednesday",
-   "created_at": "2026-09-30T12:54:49Z",
-   "symbols": [
-    "ARX",
-    "DOW",
-    "MBLY",
-    "MRNA",
-    "PCG"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/30/Analyst-Woman-Working-With-Information-D.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Fed's Favorite Inflation Gauge Holds at 3.4%, Cooling Rate-Hike Bets",
-   "summary": "PCE inflation held at 3.4% in August, below the 3.7% expected, as core prices slowed to 3.0%, still a full point above the Fed&#39;s 2% target.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/economic-data/26/09/62076994/august-pce-inflation-core-fed-preferred-gauge",
-   "created_at": "2026-09-30T12:46:49Z",
-   "symbols": [
-    "BTCUSD",
-    "GLD"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/30/Inflation-Word-On-Wooden-Cube-With-With-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "EXCLUSIVE: Space Insurer on What Starship’s First Orbital Flight Means for SpaceX and the Space Economy",
-   "summary": "Space insurer Andrew Bonwick says Starship’s real breakthrough comes with rapid reuse, while “AI in space” may be overhyped.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/prediction-markets/26/09/62077057/spacex-starship-first-orbital-flight-space-economy",
-   "created_at": "2026-09-30T12:50:17Z",
-   "symbols": [
-    "RKLB",
-    "SPCX"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/30/US-Confirms-Weapon-In-Space.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "FB Financial Earnings Are Imminent; These Most Accurate Analysts Revise Forecasts Ahead Of Earnings Call",
-   "summary": "FB Financial will report Q3 results Oct. 13; analysts expect EPS of $1.21 and revenue of $181.55M, up year over year. Shares closed at $51.89.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/09/62076928/fb-financial-earnings-are-imminent-these-most-accurate-analysts-revise-forecasts-ahead-of-earnings-call-2",
-   "created_at": "2026-09-30T12:45:25Z",
-   "symbols": [
-    "FBK"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/30/Crypto-Trader-Investor-Broker-Using-Smar.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Bitcoin 'Debasement Trade' Gains Steam Again as Institutions Pile In",
-   "summary": "Institutions treat Bitcoin like gold; small allocations could drive major buying, while ETFs and resilient demand may support recovery from $60,000.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/09/62076793/bitcoin-debasement-trade-gains-steam-again-as-institutions-pile-in",
-   "created_at": "2026-09-30T12:40:06Z",
-   "symbols": [
-    "BTCUSD"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/30/2-Bitcoin-tokens-flank-a-bar-of-gold.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Top 3 Risk Off Stocks That May Fall Off A Cliff This Month",
-   "summary": "Three consumer staples stocks—Utz Brands, AVAX One Technology and Bonk—show overbought RSI readings above 70, signaling potential momentum warnings.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/short-ideas/26/09/62076476/top-3-risk-off-stocks-that-may-fall-off-a-cliff-this-month",
-   "created_at": "2026-09-30T12:35:07Z",
-   "symbols": [
-    "AVX",
-    "BNKK",
-    "UTZ"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/30/Defensive-Stocks-Puzzle-Utilities-Health.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "What's Going On With Applied Materials Stock Tuesday?",
-   "summary": "Applied Materials (AMAT) hovers near key technical levels amid market weakness. Is the long-term uptrend still intact?",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/09/62076294/whats-going-on-with-applied-materials-stock-tuesday",
-   "created_at": "2026-09-30T12:30:51Z",
-   "symbols": [
-    "AMAT",
-    "EUV",
-    "PSI",
-    "SOXQ"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/30/Applied-Materials.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "This Ciena Analyst Begins Coverage On A Bullish Note; Here Are Top 5 Initiations For Wednesday",
-   "summary": "Analysts initiated coverage: Buy on FORM ($200), NUVB ($12); Outperform on CIEN ($440); Neutral on EXPD ($180); Equal-Weight on SFD ($22).",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/analyst-stock-ratings/initiation/26/09/62075628/this-ciena-analyst-begins-coverage-on-a-bullish-note-here-are-top-5-initiations-for-wednesday",
-   "created_at": "2026-09-30T12:09:11Z",
-   "symbols": [
-    "CIEN",
-    "EXPD",
-    "FORM",
-    "NUVB",
-    "SFD"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/30/Ciena-Signpost-Near-Telecommunications-E.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Eaton, AMD, SpaceX And A Health Care Stock: CNBC’s ‘Final Trades’",
-   "summary": "CNBC traders picked Eaton, SpaceX, AbbVie and AMD, citing analyst support, SpaceX’s Starship launch and AbbVie’s FDA drug approval.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/09/62075558/eaton-amd-spacex-and-a-health-care-stock-cnbcs-final-trades",
-   "created_at": "2026-09-30T12:07:15Z",
-   "symbols": [
-    "ABBV",
     "AMD",
-    "ETN",
-    "SPCX"
+    "ARTY",
+    "ENTR",
+    "HPE",
+    "IDGT"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/30/Burlington--On--Canada---November-8--202.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/30/Supermicro-Logo.jpg?width=1024&height=768"
   },
   {
-   "headline": "12 Consumer Discretionary Stocks Moving In Wednesday's Pre-Market Session",
-   "summary": "Gainers\n\nNeo-Concept Intl Group Hldgs (NASDAQ:NCI) shares moved upwards by 45.2% to $1.83 during Wednesday&#39;s pre-market session. The company&#39;s market cap stands at $3.2 million. \nRedCloud Hold",
+   "headline": "Micron Earnings Prediction Market Preview: Can the AI Memory Boom Keep Running?",
+   "summary": "Micron heads into earnings with traders focused on AI, data centers and whether today’s memory shortage can persist into 2027.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/09/62075429/12-consumer-discretionary-stocks-moving-wednesday-s-pre-market-session",
-   "created_at": "2026-09-30T12:05:55Z",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/09/62081667/micron-earnings-ai-memory-boom",
+   "created_at": "2026-09-30T14:30:51Z",
    "symbols": [
-    "COUR",
-    "EJH",
-    "EPSM",
-    "FCHL",
-    "HTLM"
+    "MU",
+    "NVDA"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_4.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/30/Image-Of-A-Micron-High-Bandwidth-Memory-.jpg?width=1024&height=768"
   },
   {
-   "headline": "12 Health Care Stocks Moving In Wednesday's Pre-Market Session",
-   "summary": "Gainers\n\nNewGenIvf Group (NASDAQ:NIVF) shares moved upwards by 106.0% to $0.15 during Wednesday&#39;s pre-market session. \nConnect Biopharma Hldgs (NASDAQ:CNTB) stock increased by 79.43% to $1.78. The",
+   "headline": "$100 Invested In TD Synnex 10 Years Ago Would Be Worth This Much Today",
+   "summary": "TD Synnex (NYSE:SNX) has outperformed the market over the past 10 years by 2.91% on an annualized basis producing an average annual return of 16.42%. Currently, TD Synnex has a market capitalization o",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/09/62075428/12-health-care-stocks-moving-wednesday-s-pre-market-session",
-   "created_at": "2026-09-30T12:05:54Z",
+   "url": "https://www.benzinga.com/news/26/09/62096119/100-invested-td-synnex-10-years-ago-would-be-worth-much-today",
+   "created_at": "2026-09-30T23:45:24Z",
    "symbols": [
-    "CNTB",
-    "ERNA",
-    "ETRA",
-    "KLRS",
-    "NAUT"
+    "SNX"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_2.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_1.jpg?width=1024&height=768"
   },
   {
-   "headline": "12 Industrials Stocks Moving In Wednesday's Pre-Market Session",
-   "summary": "Gainers\n\nBaiya International Group (NASDAQ:BIYA) shares rose 17.1% to $2.4 during Wednesday&#39;s pre-market session. The company&#39;s market cap stands at $8.8 million. The company&#39;s, H1 earning",
+   "headline": "If You Invested $100 In Encompass Health Stock 15 Years Ago, You Would Have This Much Today",
+   "summary": "Encompass Health (NYSE:EHC) has outperformed the market over the past 15 years by 3.42% on an annualized basis producing an average annual return of 16.76%. Currently, Encompass Health has a market ca",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/09/62075427/12-industrials-stocks-moving-wednesday-s-pre-market-session",
-   "created_at": "2026-09-30T12:05:54Z",
+   "url": "https://www.benzinga.com/news/26/09/62096016/if-you-invested-100-encompass-health-stock-15-years-ago-you-would-have-much-today",
+   "created_at": "2026-09-30T23:30:47Z",
    "symbols": [
-    "ATXG",
-    "BIYA",
-    "CNXC",
-    "DXST",
-    "EGG"
+    "EHC"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_4.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_2.jpg?width=1024&height=768"
   },
   {
-   "headline": "12 Information Technology Stocks Moving In Wednesday's Pre-Market Session",
-   "summary": "Gainers\n\nFrequency Electronics (NASDAQ:FEIM) shares rose 9.3% to $92.0 during Wednesday&#39;s pre-market session. The company&#39;s market cap stands at $948.6 million. \nNayax (NASDAQ:NYAX) shares inc",
+   "headline": "If You Invested $1000 In Waters Stock 20 Years Ago, You Would Have This Much Today",
+   "summary": "Waters (NYSE:WAT) has outperformed the market over the past 20 years by 2.95% on an annualized basis producing an average annual return of 11.99%. Currently, Waters has a market capitalization of $43.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/09/62075426/12-information-technology-stocks-moving-wednesday-s-pre-market-session",
-   "created_at": "2026-09-30T12:05:54Z",
+   "url": "https://www.benzinga.com/news/26/09/62095979/if-you-invested-1000-waters-stock-20-years-ago-you-would-have-much-today",
+   "created_at": "2026-09-30T23:15:49Z",
    "symbols": [
-    "BGIN",
-    "BKYI",
-    "CISO",
-    "CLRO",
-    "FEIM"
+    "WAT"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_2.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Here’s How Much You Would Have Made Owning WESCO International Stock In The Last 10 Years",
+   "summary": "WESCO International (NYSE:WCC) has outperformed the market over the past 10 years by 5.81% on an annualized basis producing an average annual return of 19.33%. Currently, WESCO International has a mar",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/09/62095885/here-s-how-much-you-would-have-made-owning-wesco-international-stock-last-10-years",
+   "created_at": "2026-09-30T23:00:53Z",
+   "symbols": [
+    "WCC"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_1.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Here's How Much $100 Invested In NXP Semiconductors 15 Years Ago Would Be Worth Today",
+   "summary": "NXP Semiconductors (NASDAQ:NXPI) has outperformed the market over the past 15 years by 6.6% on an annualized basis producing an average annual return of 19.94%. Currently, NXP Semiconductors has a mar",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/09/62095847/here-s-how-much-100-invested-nxp-semiconductors-15-years-ago-would-be-worth-today",
+   "created_at": "2026-09-30T22:45:28Z",
+   "symbols": [
+    "NXPI"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_1.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Here's How Much $1000 Invested In Bank of New York Mellon 15 Years Ago Would Be Worth Today",
+   "summary": "Bank of New York Mellon (NYSE:BNY) has outperformed the market over the past 15 years by 1.42% on an annualized basis producing an average annual return of 14.76%. Currently, Bank of New York Mellon h",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/09/62095793/here-s-how-much-1000-invested-bank-new-york-mellon-15-years-ago-would-be-worth-today",
+   "created_at": "2026-09-30T22:30:19Z",
+   "symbols": [
+    "BNY"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_3.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Nancy Pelosi Owns This Hot 2026 Stock — And LeBron James Is About to Wear It",
+   "summary": "Nancy Pelosi and LeBron James are set to be connected in the 2026-2027 NBA season thanks to this company.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/09/62095765/nancy-pelosi-owns-this-hot-2026-stock-and-lebron-james-is-about-to-wear-it",
+   "created_at": "2026-09-30T22:24:25Z",
+   "symbols": [
+    "BE",
+    "IREN"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/30/Nancy-Pelosi-LeBron-James-duo-photo.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Here's How Much $1000 Invested In CF Industries Holdings 20 Years Ago Would Be Worth Today",
+   "summary": "CF Industries Holdings (NYSE:CF) has outperformed the market over the past 20 years by 6.2% on an annualized basis producing an average annual return of 15.24%. Currently, CF Industries Holdings has a",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/09/62095719/here-s-how-much-1000-invested-cf-industries-holdings-20-years-ago-would-be-worth-today",
+   "created_at": "2026-09-30T22:15:26Z",
+   "symbols": [
+    "CF"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_1.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Transcript: Progress Software Q3 2026 Earnings Conference Call",
+   "summary": "Progress Software (NASDAQ:PRGS) reported third-quarter financial results on Wednesday. The transcript from the company&#39;s third-quarter earnings call has been provided below.\nThis content is powere",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/09/62095718/transcript-progress-software-q3-2026-earnings-conference-call",
+   "created_at": "2026-09-30T22:15:19Z",
+   "symbols": [
+    "PRGS"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_3.jpg?width=1024&height=768"
   },
   {
-   "headline": "Ripple Steps Into Brazil's Securities Market: What Does It Mean for XRP?",
-   "summary": "Ripple brings the XRP Ledger into Brazil’s regulated markets through CSD BR, which oversees $4.3 trillion in assets.",
+   "headline": "Here’s How Much You Would Have Made Owning CBRE Group Stock In The Last 15 Years",
+   "summary": "CBRE Group (NYSE:CBRE) has outperformed the market over the past 15 years by 2.37% on an annualized basis producing an average annual return of 15.71%. Currently, CBRE Group has a market capitalizatio",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/09/62075389/ripple-steps-into-brazils-securities-market-what-does-it-mean-for-xrp",
-   "created_at": "2026-09-30T12:05:34Z",
+   "url": "https://www.benzinga.com/news/26/09/62095580/here-s-how-much-you-would-have-made-owning-cbre-group-stock-last-15-years",
+   "created_at": "2026-09-30T22:00:24Z",
    "symbols": [
-    "XRPUSD"
+    "CBRE"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/30/Kyrenia--Cyprus---November-8--2018-Rippl.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_4.jpg?width=1024&height=768"
   },
   {
-   "headline": "US Ends Iraq Mission After Over 20 Years: What It Means For Baghdad, Iran and Regional Security?",
-   "summary": "US troops leave Iraq after years of fighting ISIS, as Iran’s growing influence raises new questions about Baghdad’s security future.",
+   "headline": "OpenAI Says Moonshot AI-Linked Users Tried to Extract its Models’ Secret Reasoning",
+   "summary": "OpenAI says individuals allegedly associated with Moonshot AI, are part of a broader campaign to extract “protected reasoning” from its AI models.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/09/62075304/us-ends-iraq-mission-after-over-20-years-what-it-means-for-baghdad-iran-and-regional-security",
-   "created_at": "2026-09-30T12:04:04Z",
+   "url": "https://www.benzinga.com/markets/private-markets/26/09/62095522/openai-says-moonshot-ai-linked-users-tried-to-extract-its-models-secret-reasoning",
+   "created_at": "2026-09-30T21:45:34Z",
    "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/30/Baghdad--Iraq-20030321-A-Line-Of-U-s--Mi.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/30/Openai-Logo-Seen-On-The-Screen-Of-Smartp.jpg?width=1024&height=768"
   },
   {
-   "headline": "Jim Cramer: This Real Estate Company 'Should Never' Have Gone Public",
-   "summary": "Cramer criticized Fermi, avoided aerospace stock Heico, and questioned Grab’s turnaround after its $1.49B Atome deal.",
+   "headline": "Here's How Much $1000 Invested In Ascendis Pharma 10 Years Ago Would Be Worth Today",
+   "summary": "Ascendis Pharma (NASDAQ:ASND) has outperformed the market over the past 10 years by 14.04% on an annualized basis producing an average annual return of 27.55%. Currently, Ascendis Pharma has a market ",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/09/62075217/jim-cramer-real-estate-company-should-never-have-come-public",
-   "created_at": "2026-09-30T12:02:54Z",
+   "url": "https://www.benzinga.com/news/26/09/62095512/here-s-how-much-1000-invested-ascendis-pharma-10-years-ago-would-be-worth-today",
+   "created_at": "2026-09-30T21:45:28Z",
    "symbols": [
-    "FRMI",
-    "GRAB",
-    "HEI"
+    "ASND"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/30/Jim-Cramer.png?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_4.jpg?width=1024&height=768"
   },
   {
-   "headline": "Concentrix Posts Mixed Q3 Results, Joins Cal-Maine Foods And Other Big Stocks Moving Lower In Wednesday’s Pre-Market Session",
-   "summary": "Concentrix plunged 10.6% premarket after weak guidance, despite an earnings beat; several other stocks also traded lower.",
+   "headline": "Transcript: Micron Technology Q4 2026 Earnings Conference Call",
+   "summary": "Micron Technology (NASDAQ:MU) held its fourth-quarter earnings conference call on Wednesday. Below is the complete transcript from the call.\nBenzinga APIs provide real-time access to earnings call tra",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/09/62075173/concentrix-posts-mixed-q3-results-joins-cal-maine-foods-and-other-big-stocks-moving-lower-in-wednesdays-pre-market-session",
-   "created_at": "2026-09-30T12:02:09Z",
+   "url": "https://www.benzinga.com/news/26/09/62095451/transcript-micron-technology-q4-2026-earnings-conference-call",
+   "created_at": "2026-09-30T21:41:38Z",
    "symbols": [
-    "CALM",
-    "CIM",
-    "CNXC",
-    "ELVR",
-    "IPX"
+    "MU"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/30/Section-Of-A-Financial-Newspaper-Titled-.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_3.jpg?width=1024&height=768"
   },
   {
-   "headline": "Cal-Maine Says Egg-Market Rebound Is Unclear",
-   "summary": "Cal-Maine shares fell 7% premarket after Q1 FY27 missed estimates, with a $1.26 EPS loss, 41.5% sales drop and supply pressures.",
+   "headline": "$100 Invested In Iron Mountain 5 Years Ago Would Be Worth This Much Today",
+   "summary": "Iron Mountain (NYSE:IRM) has outperformed the market over the past 5 years by 8.2% on an annualized basis producing an average annual return of 20.18%. Currently, Iron Mountain has a market capitaliza",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/earnings/26/09/62074967/cal-maine-says-egg-market-rebound-is-unclear",
-   "created_at": "2026-09-30T11:58:05Z",
+   "url": "https://www.benzinga.com/news/26/09/62095286/100-invested-iron-mountain-5-years-ago-would-be-worth-much-today",
+   "created_at": "2026-09-30T21:30:35Z",
    "symbols": [
-    "CALM"
+    "IRM"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/30/Milan--Italy---August-10--2017-Cal-Maine.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_2.jpg?width=1024&height=768"
   },
   {
-   "headline": "How To Earn $500 A Month From Accenture Stock Ahead Of Q4 Earnings",
-   "summary": "Accenture expects higher Q4 earnings and revenue. At a 3.68% yield, investors need about $162,950 for $500 monthly dividends.",
+   "headline": "Here’s How Much You Would Have Made Owning Linde Stock In The Last 20 Years",
+   "summary": "Linde (NASDAQ:LIN) has outperformed the market over the past 20 years by 2.02% on an annualized basis producing an average annual return of 11.06%. Currently, Linde has a market capitalization of $219",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/dividends/26/09/62074935/how-to-earn-500-a-month-from-accenture-stock-ahead-of-q4-earnings",
-   "created_at": "2026-09-30T11:54:09Z",
+   "url": "https://www.benzinga.com/news/26/09/62095071/here-s-how-much-you-would-have-made-owning-linde-stock-last-20-years",
+   "created_at": "2026-09-30T21:15:55Z",
    "symbols": [
-    "ACN"
+    "LIN"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/30/Warsaw--Poland---May-2020-Accenture-Comp.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_2.jpg?width=1024&height=768"
   },
   {
-   "headline": "UiPath Expands Partnership With BDO To Build Agentic AI Solutions",
-   "summary": "UiPath and BDO USA will jointly develop AI agents targeting risk management, controls transformation, enterprise compliance and other Office of the CFO activities.",
+   "headline": "12 Consumer Discretionary Stocks Moving In Wednesday's After-Market Session",
+   "summary": "Gainers\n\nLeslies (NASDAQ:LESL) shares moved upwards by 22.2% to $0.2 during Wednesday&#39;s after-market session. The market value of their outstanding shares is at $2.0 million. \nBassett Furniture In",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/mid-cap/26/09/62074832/uipath-expands-partnership-with-bdo-to-build-agentic-ai-solutions",
-   "created_at": "2026-09-30T11:47:20Z",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/09/62094738/12-consumer-discretionary-stocks-moving-wednesday-s-after-market-session",
+   "created_at": "2026-09-30T21:05:56Z",
    "symbols": [
-    "FTKI",
-    "LSAF",
-    "PATH",
-    "QSML"
+    "ARKO",
+    "ATER",
+    "AZI",
+    "BSET",
+    "CSV"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/30/UiPath-Logo-Mounted-As-A-Sign-On-A-Build.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_1.jpg?width=1024&height=768"
   },
   {
-   "headline": "CarMax Analysts Boost Their Forecasts After Upbeat Q2 Results",
-   "summary": "CarMax beats Q2 estimates with $1.16 EPS and $7.88B sales; used-vehicle sales rose 13.8%. Analysts raised price targets despite Underperform ratings.",
+   "headline": "12 Health Care Stocks Moving In Wednesday's After-Market Session",
+   "summary": "Gainers\n\nMonte Rosa Therapeutics (NASDAQ:GLUE) stock rose 9.7% to $13.09 during Wednesday&#39;s after-market session. The company&#39;s market cap stands at $1.0 billion. \nFilana Therapeutics (NASDAQ:",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/09/62074730/carmax-analysts-boost-their-forecasts-after-upbeat-q2-results",
-   "created_at": "2026-09-30T11:39:30Z",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/09/62094737/12-health-care-stocks-moving-wednesday-s-after-market-session",
+   "created_at": "2026-09-30T21:05:56Z",
    "symbols": [
-    "KMX"
+    "ADGM",
+    "BLRX",
+    "CNTB",
+    "FLNA",
+    "GLUE"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/30/Columbus-ohiousa-April-24--2019-Carmax-I.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_2.jpg?width=1024&height=768"
   },
   {
-   "headline": "Wall Street's Most Accurate Analysts Spotlight On 3 Utilities Stocks Delivering High-Dividend Yields",
-   "summary": "Analysts highlight high-yield utility stocks FirstEnergy, Spire and AES, with dividend yields of 4.26%-4.74% and updated price targets.",
+   "headline": "12 Industrials Stocks Moving In Wednesday's After-Market Session",
+   "summary": "Gainers\n\nWetour Robotics (NASDAQ:WETO) shares moved upwards by 13.8% to $1.15 during Wednesday&#39;s after-market session. The company&#39;s market cap stands at $1.1 million. \nStardust Power (NASDAQ:",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/dividends/26/09/62074607/wall-streets-most-accurate-analysts-spotlight-on-3-utilities-stocks-delivering-high-dividend-yields-17",
-   "created_at": "2026-09-30T11:38:10Z",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/09/62094736/12-industrials-stocks-moving-wednesday-s-after-market-session",
+   "created_at": "2026-09-30T21:05:56Z",
    "symbols": [
-    "AES",
-    "FE",
-    "SR"
+    "BGLC",
+    "BIYA",
+    "FRGT",
+    "LBGJ",
+    "LIQT"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/30/Experts-Criticize-Tariff-Plan.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_4.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "12 Information Technology Stocks Moving In Wednesday's After-Market Session",
+   "summary": "Gainers\n\nBiddance AI Systems (NASDAQ:HKIT) shares increased by 9.2% to $2.73 during Wednesday&#39;s after-market session. The market value of their outstanding shares is at $22.8 million. \n3 E Network",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/09/62094735/12-information-technology-stocks-moving-wednesday-s-after-market-session",
+   "created_at": "2026-09-30T21:05:56Z",
+   "symbols": [
+    "BGIN",
+    "DAIC",
+    "DSC",
+    "HKIT",
+    "HPAI"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_4.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Bitcoin, Ethereum, XRP Are Stuck—So Where Is Crypto Money Actually Going?",
+   "summary": "Quant leads an altcoin rotation as whale activity hits a record, while surging altcoin volume raises caution for Bitcoin.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/09/62094620/bitcoin-ethereum-xrp-are-stuck-so-where-is-crypto-money-actually-going",
+   "created_at": "2026-09-30T21:01:27Z",
+   "symbols": [
+    "BTCUSD",
+    "ETHUSD",
+    "GRTUSD",
+    "HBARUSD",
+    "LINKUSD"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/30/Flying-Altcoins-With-Bitcoin-In-The-Cent.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Alphabet Stock Jumps as Google Releases Gemini 4 Argon",
+   "summary": "Alphabet shares are trading higher in Wednesday&#39;s after-hours session after the company announced Gemini 4 Argon.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/09/62094597/alphabet-stock-jumps-as-google-releases-gemini-4-argon",
+   "created_at": "2026-09-30T21:01:08Z",
+   "symbols": [
+    "GOOG",
+    "GOOGL"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/30/View-Of-Google-Office-Sign--Toronto--Can.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Here’s How Much You Would Have Made Owning Laureate Education Stock In The Last 5 Years",
+   "summary": "Laureate Education (NASDAQ:LAUR) has outperformed the market over the past 5 years by 4.02% on an annualized basis producing an average annual return of 16.0%. Currently, Laureate Education has a mark",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/09/62094579/here-s-how-much-you-would-have-made-owning-laureate-education-stock-last-5-years",
+   "created_at": "2026-09-30T21:00:48Z",
+   "symbols": [
+    "LAUR"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_3.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Here’s How Much You Would Have Made Owning Extra Space Storage Stock In The Last 20 Years",
+   "summary": "Extra Space Storage (NYSE:EXR) has outperformed the market over the past 20 years by 1.47% on an annualized basis producing an average annual return of 10.51%. Currently, Extra Space Storage has a mar",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/09/62094297/here-s-how-much-you-would-have-made-owning-extra-space-storage-stock-last-20-years",
+   "created_at": "2026-09-30T20:45:27Z",
+   "symbols": [
+    "EXR"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_2.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "$100 Invested In Micron Technology 20 Years Ago Would Be Worth This Much Today",
+   "summary": "Micron Technology (NASDAQ:MU) has outperformed the market over the past 20 years by 14.59% on an annualized basis producing an average annual return of 23.63%. Currently, Micron Technology has a marke",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/09/62093749/100-invested-micron-technology-20-years-ago-would-be-worth-much-today",
+   "created_at": "2026-09-30T20:30:43Z",
+   "symbols": [
+    "MU"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_2.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Bain Warned of AI 'Arms Race,' Now It's Circling Data Center Operator",
+   "summary": "Private equity firm Bain Capital is weighing a more than $15 billion acquisition of Koch-owned data center operator Edged.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/09/62093678/bain-warned-of-ai-arms-race-now-its-circling-data-center-operator",
+   "created_at": "2026-09-30T20:28:17Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/09/30/Private-Equity.jpg?width=1024&height=768"
   }
  ]
 }
