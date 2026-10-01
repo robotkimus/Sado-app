@@ -1,6 +1,21 @@
 {
- "updated": "2026-10-01 17:00",
+ "updated": "2026-10-01 18:00",
  "items": [
+  {
+   "headline": "Bernie Sanders Slams Trump’s AI ‘Oligarchs’ as Elon Musk, Jeff Bezos, Mark Zuckerberg and Jensen Huang’s Wealth Tops $1.7 Trillion: ‘You’re Asking Us To Trust The People…’",
+   "summary": "Bernie Sanders questioned Trump’s AI self-regulation approach, citing tech leaders’ combined $1.7 trillion-plus wealth.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62098649/bernie-sanders-slams-trumps-ai-oligarchs-as-elon-musk-jeff-bezos-mark-zuckerberg-and-jensen-huangs-wealth-tops-1-7-trillion-youre-asking-us-to",
+   "created_at": "2026-10-01T08:39:53Z",
+   "symbols": [
+    "AMZN",
+    "GOOG",
+    "GOOGL",
+    "META",
+    "NVDA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/01/Philadelphia--Pa--Usa---May-1--2025-Sena.jpg?width=1024&height=768"
+  },
   {
    "headline": "Jim Cramer Says 'Buy' Apple Stock Because of iPhone Duo, Not On Smart Home Device Buzz: Calls the $1,999 Foldable 'Amazing'",
    "summary": "On Wednesday, Jim Cramer urged investors to buy Apple for its iPhone Duo, not its upcoming smart-home push.",
@@ -192,19 +207,63 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/09/30/Last-Chance-for-Amazon-Prime-Subscribers.jpg?width=1024&height=768"
   },
   {
-   "headline": "Amazon Signs Up As Synopsys' Lead Customer In $1 Billion-Plus Chip Pact",
-   "summary": "Synopsys and Amazon entered a multi-year deal to accelerate custom silicon development for AI-powered products and cloud infrastructure.",
+   "headline": "Trump Unveils Over $50 Billion South Korean Alaska LNG Pipeline Investment as Seoul Also Pledges Up To $120 Billion for Nuclear Reactors",
+   "summary": "Trump unveils over $54 billion South Korean investment in an Alaska gas pipeline as Seoul reviews the project&#39;s viability and risks.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/large-cap/26/09/62088786/synopsys-amazon-strike-1b-deal-for-ai-silicon",
-   "created_at": "2026-09-30T18:01:59Z",
+   "url": "https://www.benzinga.com/news/politics/26/10/62098637/trump-unveils-over-50-billion-south-korean-alaska-lng-pipeline-investment-as-seoul-also-pledges-up-to-120-billion-for-nuclear-reactors",
+   "created_at": "2026-10-01T08:38:38Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/01/President-Trump-Auto-Tariffs-Announcemen.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Homebuilders Sound Alarm on US Housing Slowdown as Mortgage Rates Top 7% — KBH, LEN Warn Conditions Have ‘Deteriorated’",
+   "summary": "Housing hits a &#39;soft period&#39; amid 7% rates. Here’s how homebuilders like Lennar (LEN) and KB Home (KBH) are balancing shifting costs.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/real-estate/26/10/62098626/homebuilders-sound-alarm-on-us-housing-slowdown-as-mortgage-rates-top-7-kbh-len-warn-conditions-have-deteriorated",
+   "created_at": "2026-10-01T08:36:59Z",
    "symbols": [
-    "AMZN",
-    "ENTR",
-    "KWIN",
-    "SMHX",
-    "SNPS"
+    "KBH",
+    "LEN"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/09/30/Konskie--Poland---November-15--2024-Syno.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/01/House-On-The-Coin-Ladder-Real-Estate-Con.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Coinbase, Vlad Tenev-Led Robinhood, Andreessen Horowitz’s Crypto Arm Among Others Poured $8 Million in CLARITY Act Push: Report",
+   "summary": "The cryptocurrency industry spent roughly $8 million in 2026 lobbying for the now-scuttled CLARITY Act, according to a report published on Wednesday, September 30.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/10/62098607/coinbase-vlad-tenev-led-robinhood-andreesen-horowitz-crypto-arm-among-others-reportedly-funneled-8-million-into-lobbying-push-for-now-stalled-clarity-act",
+   "created_at": "2026-10-01T08:33:05Z",
+   "symbols": [
+    "BTCUSD",
+    "COIN",
+    "HOOD",
+    "ZECUSD"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/01/Cryptocurrency-On-Binance-Trading-App--B.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Why Vicor Shares Are Trading Higher By Around 12%; Here Are 20 Stocks Moving Premarket",
+   "summary": "Vicor shares surged 12% after raising Q3 growth guidance above 30%; Roze AI led gainers, while Corteva plunged 57% premarket.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62098587/why-vicor-shares-are-trading-higher-by-around-12-here-are-20-stocks-moving-premarket",
+   "created_at": "2026-10-01T08:31:31Z",
+   "symbols": [
+    "AHG",
+    "CCG",
+    "CLPS",
+    "CTVA",
+    "GIPR"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/01/The-Real-Villains-No-Longer-Hide.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Trump Keeps Diesel Export Ban on the Table as Prices Hit Record $6.53 — Warns Gasoline Could Get More Expensive",
+   "summary": "Trump weighs restricting diesel exports to lower prices, but officials warn it could raise gasoline and jet fuel costs amid tight supplies.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/10/62098568/trump-keeps-diesel-export-ban-on-the-table-as-prices-hit-record-6-53-warns-gasoline-could-get-more-expensive",
+   "created_at": "2026-10-01T08:22:16Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/01/President-Donald-J--Trump-Arrives-On-Sta.jpg?width=1024&height=768"
   },
   {
    "headline": "MacKenzie Realty Capital (MKZR) Stock Climbs Over 21% After Hours: Here's Why",
@@ -379,67 +438,6 @@
    "created_at": "2026-10-01T04:31:14Z",
    "symbols": [],
    "image": "https://cdn.benzinga.com/files/images/story/2026/10/01/Trump-Raises-New-Safety-Doubts.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Sam Altman-Linked Worldcoin Rallies 10% to End September on a High— AI Trade Brewing?",
-   "summary": "Worldcoin lobbed nearly 10% on Wednesday, September 30, extending a rally that pushed the identity-verification token to multi-month highs.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/10/62096990/worldcoin-rallies-10-percent-sam-altman-ai-trade",
-   "created_at": "2026-10-01T04:26:32Z",
-   "symbols": [
-    "BTCUSD",
-    "ETHUSD",
-    "XRPUSD",
-    "ZECUSD"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/01/Sam-Altman-Openai-Ceo-During-A-Speech-Wi.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Pete Hegseth Taps Elon Musk, Palmer Luckey to Examine Future of Warfare From Underground to Moon: No 'Creative Limitations or Restrictions'",
-   "summary": "Hegseth has tapped Musk, Luckey and Newt Gingrich to help the Pentagon plan for future warfare driven by AI, robotics and autonomous weapons.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/10/62096967/pete-hegseth-elon-musk-palmer-luckey-future-warfare-underground-moon",
-   "created_at": "2026-10-01T04:16:15Z",
-   "symbols": [
-    "AVAV",
-    "KTOS",
-    "ONDS",
-    "RCAT",
-    "SPCX"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/01/Arlington--Va--Usa---May-26--2025-U-s--S.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Nu Holdings 'Not Pursuing' Monzo — Stock Jumps 6% After Hours",
-   "summary": "Nu Holdings Ltd. shares rose 6.08% after hours after the company denied pursuing a transaction with Monzo.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/10/62096950/nu-holdings-shares-after-hours-monzo-deal",
-   "created_at": "2026-10-01T04:12:30Z",
-   "symbols": [
-    "NU"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/01/New-York-City--New-York---July-20-2025-N.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Michael Burry Says Markets Should 'Tank Hard' to Stop OpenAI, Anthropic From IPOs ‘For the Benefit of Humanity’",
-   "summary": "On Tuesday, Michael Burry warned that OpenAI and Anthropic IPOs could put trillions of dollars of investor capital at risk.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/09/62096939/michael-burry-openai-anthropic-ipos-markets-humanity",
-   "created_at": "2026-10-01T04:11:05Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/01/Claude-By-Anthropic-And-Chatgpt-By-Opena.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Why is Liquidia (LQDA) Stock Trending After Hours?",
-   "summary": "Liquidia Corp. shares gained 0.13% after hours after closing 57.19% lower following an adverse patent ruling.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/09/62096831/liquidia-corp-shares-after-hours-patent-ruling",
-   "created_at": "2026-10-01T03:29:48Z",
-   "symbols": [
-    "LQDA",
-    "UTHR"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/01/Stock-Market-Trading-Chart-And-Analyzing.jpg?width=1024&height=768"
   }
  ]
 }
