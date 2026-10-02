@@ -1,6 +1,21 @@
 {
- "updated": "2026-10-02 10:00",
+ "updated": "2026-10-02 11:00",
  "items": [
+  {
+   "headline": "Trump Reportedly Says Government 'Might' Take a Stake in OpenAI, Anthropic, Just Like It Did With Intel: 'I Have Many Deals Like That'",
+   "summary": "Trump is ruling out nationalizing AI labs like OpenAI and Anthropic, but may take an equity stake instead, modeled on the Intel deal.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62125807/trump-government-stake-openai-anthropic-intel-deal-ai",
+   "created_at": "2026-10-02T01:54:21Z",
+   "symbols": [
+    "INTC",
+    "LAC",
+    "MP",
+    "NVDA",
+    "TMQ"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/02/President-Trump-Auto-Tariffs-Announcemen.jpg?width=1024&height=768"
+  },
   {
    "headline": "Bill Ackman on AI: ‘Massively Increased the Risk of Disruption’",
    "summary": "Bill Ackman shares his thoughts on how AI has made investments tougher to gauge.",
@@ -196,16 +211,32 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/10/01/Ibm-Logo-On-Smartphone-Screen-With-Stock.jpg?width=1024&height=768"
   },
   {
-   "headline": "Micron's Record Quarter Points to Tighter Memory Supply Through 2028: Analysts Respond",
-   "summary": "Micron analysts at BofA, JPM, Cantor, D.A. Davidson, Needham, RBC and Rosenblatt react to record results, tighter memory supply through 2028.",
+   "headline": "Peter Thiel Says US AI Demand Is Booming, but Cathie Wood Is Trimming Palantir: Here's How Much Ark Invest Sold",
+   "summary": "Cathie Wood&#39;s Ark Invest sold about $3.95 million of Palantir shares on Thursday, Oct. 1, 2026.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/10/62112141/micron-analysts-memory-supply-2028-buybacks",
-   "created_at": "2026-10-01T15:25:59Z",
+   "url": "https://www.benzinga.com/etfs/broad-u-s-equity-etfs/26/10/62125747/peter-thiel-ai-demand-cathie-wood-palantir-ark-invest-sold",
+   "created_at": "2026-10-02T01:41:13Z",
    "symbols": [
-    "MU",
-    "NVDA"
+    "ARKQ",
+    "ARKX",
+    "PLTR"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/01/Image-Of-A-Micron-High-Bandwidth-Memory-.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/02/Cleveland--Ohio--Usa--July-21--2016-Pete.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Nike, Corteva, Mattel, Accenture and Coherent: Why These 5 Stocks Are on Investors' Radars Today",
+   "summary": "NKE, CTVA, MAT, ACN, COHR were among the stocks seen trending on Thursday, Oct. 1, 2026.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62125706/nike-corteva-mattel-accenture-and-coherent-why-these-5-stocks-are-on-investors-radars-today",
+   "created_at": "2026-10-02T01:18:05Z",
+   "symbols": [
+    "ACN",
+    "COHR",
+    "CTVA",
+    "MAT",
+    "NKE"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/02/A-Dynamic-Blue-Arrow-Superimposed-On-A-S.jpg?width=1024&height=768"
   },
   {
    "headline": "$100 Invested In Shopify 10 Years Ago Would Be Worth This Much Today",
@@ -478,26 +509,6 @@
     "TRUMPUSD"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/10/01/Coins-Memcoin-Trump-Against-Other-Crypto.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Trump’s Anthropic Stance May Be Shifting After Dinner With CEO Dario Amodei",
-   "summary": "President Trump expressed a more positive view of Anthropic’s CEO, after a recent dinner, potentially easing tensions with the AI company.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/private-markets/26/10/62122665/trumps-anthropic-stance-may-be-shifting-after-dinner-with-ceo-dario-amodei",
-   "created_at": "2026-10-01T20:25:08Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/01/Former-President-Donald-J--Trump-Arrives.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Here’s How Much You Would Have Made Owning Standex International Stock In The Last 5 Years",
-   "summary": "Standex International (NYSE:SXI) has outperformed the market over the past 5 years by 10.35% on an annualized basis producing an average annual return of 22.37%. Currently, Standex International has a",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/10/62122326/here-s-how-much-you-would-have-made-owning-standex-international-stock-last-5-years",
-   "created_at": "2026-10-01T20:15:41Z",
-   "symbols": [
-    "SXI"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_3.jpg?width=1024&height=768"
   }
  ]
 }
