@@ -1,6 +1,18 @@
 {
- "updated": "2026-10-04 20:00",
+ "updated": "2026-10-04 21:00",
  "items": [
+  {
+   "headline": "Apple, Meta And Jim Cramer Set the Tone for AI, iPhone and Vision Pro Moves: This Week in Apple",
+   "summary": "Apple dominated technology headlines this week as AI privacy, iPhone demand, wearables and corporate restructuring drew investor attention.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62152341/apple-weekly-tech-headlines-ai-iphone",
+   "created_at": "2026-10-04T11:00:23Z",
+   "symbols": [
+    "AAPL",
+    "META"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/04/Cupertino--California--September-25--202.jpg?width=1024&height=768"
+  },
   {
    "headline": "Bernie Sanders Warns AI Could Become Smarter Than Humans: 'Do Not Want to Wait Around'",
    "summary": "Bernie Sanders warns AI could outsmart humans and become uncontrollable, urging its benefits to serve everyone—not just billionaires.",
@@ -186,19 +198,40 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/10/02/Starlink-is-a-satellite-internet-constel.jpg?width=1024&height=768"
   },
   {
-   "headline": "Weak Jobs Lift Tech Stocks to Record Highs, Micron Confirms the AI Rally: This Week on Wall Street",
-   "summary": "Wall Street this week: a weak September jobs report lifts the Nasdaq 100 to a record, Micron confirms the AI rally and FICO sinks 23%.",
+   "headline": "Trump, Bitcoin, The SEC and $8 Million In Crypto Lobbying: This Week In Crypto",
+   "summary": "Bitcoin ETF inflows, bullish price targets and new crypto rules led the week’s top stories, alongside Trump’s memecoin controversy.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/market-summary/26/10/62146454/wall-street-this-week-weak-jobs-nasdaq-100-record-micron-ai-rally",
-   "created_at": "2026-10-02T19:33:58Z",
+   "url": "https://www.benzinga.com/crypto/26/10/62152398/trump-bitcoin-the-sec-and-8-million-in-crypto-lobbying-this-week-in-crypto",
+   "created_at": "2026-10-04T12:00:06Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/04/Golden-Bitcoin-Coin-Is-In-Red-And-Blue-S.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Consumer Tech (Sep 28-Oct 2): Anthropic Preparing for IPO, Trump Weighs AI Stakes & More",
+   "summary": "Trump reportedly weighs government equity stakes in AI labs as Nvidia, Amazon, Meta and other technology companies expand artificial intelligence infrastructure.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/large-cap/26/10/62152378/consumer-tech-sep-28-oct-2-anthropic-preparing-for-ipo-trump-weighs-ai-stakes-more",
+   "created_at": "2026-10-04T11:30:06Z",
    "symbols": [
-    "APP",
-    "CCL",
-    "FICO",
-    "IP",
-    "LITE"
+    "IREN",
+    "SNOW"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/02/Wall-Street-Bull.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/04/Central-Processing-Unit-cpu-With-Circuit.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Benzinga's 'Stock Whisper' Index: Five Stocks Investors Secretly Monitor But Don't Talk About Yet",
+   "summary": "The Benzinga Stock Whisper Index highlights five under-the-radar stocks seeing increased attention from readers during the week.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/10/62152340/benzingas-stock-whisper-index-five-stocks-investors-secretly-monitor-but-dont-talk-about-yet-2",
+   "created_at": "2026-10-04T11:00:20Z",
+   "symbols": [
+    "AGX",
+    "MCHP",
+    "MLM",
+    "TEX",
+    "XPO"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/04/Stock-Whisper-Index.jpg?width=1024&height=768"
   },
   {
    "headline": "Trump Expects Canada Trade Deal, Diesel's Problem and More: This Week in Economics",
@@ -392,24 +425,6 @@
     "MSTR"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/10/03/Bitcoin-Btc-Virtual-Cryptocurrency-In-Fr.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Exclusive: Trump's Diesel Price Dilemma Isn't About Supply — Expert Says It's Because 'Fuel is in the Wrong Place'",
-   "summary": "U.S. diesel prices stay high despite surplus production as costly distribution and transport bottlenecks drive prices, expert says.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/commodities/26/10/62150782/exclusive-trumps-diesel-price-dilemma-isnt-about-supply-expert-says-its-because-fuel-is-in-the-wrong-place",
-   "created_at": "2026-10-03T02:50:36Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/03/Empty-Diesel-Storage-Tank--Rural-Austral.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Iran Security Chief Slams Trump Over ‘Tehran Will Give Up’ Remark: ‘You Can Win Every Day in Your Own Imagination’",
-   "summary": "Iran’s security chief rejected Trump’s claim that Tehran is nearing surrender, saying reality remains on Iran’s side.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/10/62150867/iran-security-chief-slams-trump-after-his-tehran-will-give-up-remark-you-can-win-every-day-in-your-own-imagination",
-   "created_at": "2026-10-03T04:16:56Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/03/The-Word-War-With-The-Iranian-And-Americ.jpg?width=1024&height=768"
   }
  ]
 }
