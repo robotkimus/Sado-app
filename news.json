@@ -1,6 +1,34 @@
 {
- "updated": "2026-10-05 05:16",
+ "updated": "2026-10-05 06:00",
  "items": [
+  {
+   "headline": "Top Three US Stocks to Watch This Week: PepsiCo, Delta Air Lines, Nvidia",
+   "summary": "The top stocks to watch this week include popular names like PepsiCo, Delta Air Lines and Nvidia.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/10/62153028/top-3-us-stocks-to-watch-this-week-pepsico-delta-air-lines-nvidia",
+   "created_at": "2026-10-04T20:53:40Z",
+   "symbols": [
+    "DAL",
+    "NVDA",
+    "PEP"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/04/November-6--2022--Brazil--In-This-Photo-.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "MAGS: Top Magnificent 7 ETF Shows Renewed Demand as Top Stocks Jump Ahead of Earnings",
+   "summary": "MAGS, the top Magnificent 7 ETF is seeing renewed demand as top constituent stocks soared ahead of earnings season",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/market-summary/26/10/62153008/mags-top-magnificent-7-etf-shows-renewed-demand-as-top-stocks-jump-ahead-of-earnings",
+   "created_at": "2026-10-04T20:40:33Z",
+   "symbols": [
+    "GOOGL",
+    "MAGS",
+    "META",
+    "MSFT",
+    "NVDA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/04/Bahia--Brazil---August-29--2025-Nvidia-L.jpg?width=1024&height=768"
+  },
   {
    "headline": "Micron Has a Major Catalyst: A Huge Buyback Could Be Coming",
    "summary": "Micron has a major catalyst as the company may soon announce a large share buyback once the CHIPS Act restrictions end.",
@@ -172,30 +200,15 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/10/03/Financial-Trader-Monitoring-Market-Trend.jpg?width=1024&height=768"
   },
   {
-   "headline": "Benzinga Bulls and Bears: Alphabet, Micron, Nike",
-   "summary": "Benzinga examined the prospects for many investors’ favorite stocks over the last week — here’s a look at some of our top stories.",
+   "headline": "TLT: Popular Treasury Bond ETF Inflows Are Rising as 30-Year Yield Soars",
+   "summary": "The TLT ETF is seeing strong inflows, even as its performance plunges, and the 30-year Treasury yield spikes to a 24-year high",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/market-summary/26/10/62151294/benzinga-bulls-and-bears-alphabet-micron-nike",
-   "created_at": "2026-10-03T12:00:09Z",
+   "url": "https://www.benzinga.com/etfs/sector-etfs/26/10/62152976/tlt-popular-treasury-bond-etf-inflows-are-rising-as-30-year-yield-soars",
+   "created_at": "2026-10-04T20:20:13Z",
    "symbols": [
-    "APP",
-    "CCL",
-    "CTVA",
-    "GOOG",
-    "GOOGL"
+    "TLT"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/03/Bulls-and-Bears-1.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Facebook Whistleblower Frances Haugen Doubts If AI Firms Will Honor ‘Spirit’ of White House Safety Pact",
-   "summary": "Facebook whistleblower Frances Haugen urges AI companies to follow the spirit of White House self-regulation rules, not just their wording.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/10/62151173/facebook-whistleblower-ai-companies-white-house-rules",
-   "created_at": "2026-10-03T09:32:11Z",
-   "symbols": [
-    "META"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/03/Ai-Governance-And-Policy-Compliance-Conc.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/04/Headquarters-Of-The-Federal-Reserve-In-W.jpg?width=1024&height=768"
   },
   {
    "headline": "Blue Owl Stock at Risk as Private Credit Giant Caps Withdrawals Amid Surging Outflows",
@@ -465,15 +478,6 @@
     "TSLA"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/10/04/Elon-Musk--Ceo-Of-Tesla--In-A-Formal-Sui.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Sam Altman Warns Giving AI 'Religious Force' Could Be a 'Real Safety Issue:' 'Very Uncomfortable'",
-   "summary": "OpenAI CEO Sam Altman warns that treating AI as divine or a substitute for human judgment poses serious safety risks.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/10/62152147/sam-altman-warns-giving-ai-religious-force-could-be-a-real-safety-issue-very-uncomfortable",
-   "created_at": "2026-10-04T07:21:31Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/04/Openai-Ceo-Sam-Altman-Attends-The-Artifi.jpg?width=1024&height=768"
   }
  ]
 }
