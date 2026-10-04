@@ -1,6 +1,46 @@
 {
- "updated": "2026-10-05 03:00",
+ "updated": "2026-10-05 04:00",
  "items": [
+  {
+   "headline": "Micron Has a Major Catalyst: A Huge Buyback Could Be Coming",
+   "summary": "Micron has a major catalyst as the company may soon announce a large share buyback once the CHIPS Act restrictions end.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/10/62152836/micron-stock-has-a-major-catalyst-a-huge-buyback-could-be-coming",
+   "created_at": "2026-10-04T18:40:17Z",
+   "symbols": [
+    "BAC",
+    "MU",
+    "NVDA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/04/New-York-City--New-York---August-4-2025-.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "UnitedHealthcare, Aetna Tighten Medicare Advantage Networks as 2027 Costs Rise: ‘We Can’t Ignore the Realities…’",
+   "summary": "UnitedHealthcare and Aetna plan tighter Medicare Advantage networks by 2027 as costs rise, while premiums fall.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/health-care/26/10/62152824/unitedhealthcare-aetna-tighten-medicare-advantage-networks-as-2027-costs-rise-we-cant-ignore-the-realities",
+   "created_at": "2026-10-04T18:35:58Z",
+   "symbols": [
+    "CVS",
+    "UNH"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/04/Jakarta---February-03-2023-Unitedhealthc.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Nvidia Stock Briefly Tops Key Level as Earnings Season Puts AI Spending in Focus",
+   "summary": "Nvidia stock moved above a key resistance level as earnings season nears, which will put AI spending in focus this month.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/10/62152809/nvidia-stock-briefly-tops-key-level-as-earnings-season-puts-ai-spending-in-focus",
+   "created_at": "2026-10-04T18:30:39Z",
+   "symbols": [
+    "AMD",
+    "AMZN",
+    "GOOG",
+    "INTC",
+    "META"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/04/Bahia--Brazil---August-29--2025-Nvidia-L.jpg?width=1024&height=768"
+  },
   {
    "headline": "Apple, Meta And Jim Cramer Set the Tone for AI, iPhone and Vision Pro Moves: This Week in Apple",
    "summary": "Apple dominated technology headlines this week as AI privacy, iPhone demand, wearables and corporate restructuring drew investor attention.",
@@ -158,44 +198,13 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/10/03/Ai-Governance-And-Policy-Compliance-Conc.jpg?width=1024&height=768"
   },
   {
-   "headline": "Nvidia-Backed Robotics Startup FieldAI Hits $10 Billion Valuation After $700 Million Raise, More Than Quadrupling Value in Just Over a Year: Report",
-   "summary": "FieldAI reportedly raises $700 million at a $10 billion valuation, reflecting surging investor interest in physical AI and robotics.",
+   "headline": "Crude Oil Price in Focus as Saudi Arabia-Houthi, US-Iran, Ukraine-Russia Tensions Escalate",
+   "summary": "Crude oil price is in the spotlight as the Saudi Arabia-Houthi, US-Iran, and Ukraine-Russia tensions continue",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/10/62150844/fieldai-700-million-10-billion-valuation-physical-ai",
-   "created_at": "2026-10-03T03:46:39Z",
-   "symbols": [
-    "INTC",
-    "META",
-    "NVDA",
-    "SSNLF"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/03/Futuristic-Concept-Of-Humanity-And-Artif.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Apple Takes Aim at AI Agents, Wants Mac Users to Know When Their Data Is Accessed as Meta Tackles Muse Privacy Claims",
-   "summary": "Apple plans to update macOS to clearly notify users whenever AI agents attempt to access their system data.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/10/62150820/apple-takes-aim-at-ai-agents-wants-mac-users-to-know-when-their-data-is-accessed-as-meta-tackles-muse-privacy-claims",
-   "created_at": "2026-10-03T03:31:53Z",
-   "symbols": [
-    "AAPL",
-    "META"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/03/New-York--Ny--Usa---September-25--2023-M.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "SpaceX Stock Jumps 7% After 3 Launches in 13 Hours, Including Google's Orbital AI Experiment",
-   "summary": "SpaceX shares jumped 6% after three launches in 13 hours carried astronauts, an NRO mission and Google’s first orbital AI experiment.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62149196/spacex-stock-three-launches-google-ai",
-   "created_at": "2026-10-02T21:00:11Z",
-   "symbols": [
-    "GOOG",
-    "GOOGL",
-    "NVDA",
-    "SPCX"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/02/Starlink-is-a-satellite-internet-constel.jpg?width=1024&height=768"
+   "url": "https://www.benzinga.com/markets/commodities/26/10/62152794/crude-oil-price-in-focus-as-saudi-arabia-houthi-us-iran-ukraine-russia-tensions-escalate",
+   "created_at": "2026-10-04T18:20:06Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/04/Crude-oil-production-from-the-ground.jpg?width=1024&height=768"
   },
   {
    "headline": "NFL Legend Rob Gronkowski Didn't Want Stock For His Drink Endorsement — Years Later It Paid A 'Huge Check'",
