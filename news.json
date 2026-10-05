@@ -1,6 +1,35 @@
 {
- "updated": "2026-10-05 15:00",
+ "updated": "2026-10-05 16:00",
  "items": [
+  {
+   "headline": "Ross Gerber Says Amazon, USPS Need to Sunset ‘Dirty’ Gas Trucks Amid High Fuel Costs, Energy Shocks",
+   "summary": "Ross Gerber urges Amazon and USPS to replace costly gas trucks with EVs, praising FedEx’s 2,500-truck electric deal.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62154326/ross-gerber-says-amazon-usps-need-to-sunset-dirty-gas-trucks-amid-high-fuel-costs-energy-shocks",
+   "created_at": "2026-10-05T06:48:08Z",
+   "symbols": [
+    "AMZN",
+    "FDX",
+    "OSK",
+    "RIVN"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/05/Amazon-com-Inc.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Stock Market: Will S&P 500 Open Up or Down Today?",
+   "summary": "Will S&amp;P 500 open higher? Polymarket odds sit at 47% as Wall Street digests a soft jobs report, receding rate hike fears, and Iran&#39;s demands.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62153975/stock-market-will-sp-500-open-up-or-down-today-50",
+   "created_at": "2026-10-05T06:03:47Z",
+   "symbols": [
+    "DAL",
+    "DIA",
+    "LEVI",
+    "PEP",
+    "POLUSD"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/05/Stock-S-And-P-500-Index-Fund-Symbol-Is-O.jpg?width=1024&height=768"
+  },
   {
    "headline": "Elon Musk Shows Off Starlink Streaming 5 Live Football Games on One Flight: United Calls It a ‘Game-Changer’",
    "summary": "Elon Musk touts Starlink streaming five live football games on flights as United backs it amid Delta’s rejection.",
@@ -171,33 +200,73 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/10/04/Munich--Germany---22--January-2023-Amazo.jpg?width=1024&height=768"
   },
   {
-   "headline": "S&P 500 Index Nears Record High as Wall Street Braces for Strong Earnings Season",
-   "summary": "The S&amp;P 500 Index is on the verge of soaring to a record high as investors predict a strong earnings season, which starts later this month.",
+   "headline": "SpaceX, Qualcomm and 3 Stocks to Watch Heading Into Monday",
+   "summary": "Stocks in focus: SpaceX jumps after 3 launches; CL Workshop plans $200M ATM; Qualcomm files share offering; Pasqal names IR chief; Neurosense warned.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/10/62151688/sp-500-index-nears-record-high-as-wall-street-braces-for-strong-earnings-season",
-   "created_at": "2026-10-03T17:30:07Z",
+   "url": "https://www.benzinga.com/markets/equities/26/10/62154415/spacex-qualcomm-and-3-stocks-to-watch-heading-into-monday",
+   "created_at": "2026-10-05T07:00:14Z",
    "symbols": [
-    "FDS",
-    "GS",
-    "MU",
-    "NVDA"
+    "NRSN",
+    "NWGL",
+    "PSQL",
+    "QCOM",
+    "SPCX"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/03/Wall-Street-Sign-With-American-Flag-On-T.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/05/Spacex-Inc-Stock.jpg?width=1024&height=768"
   },
   {
-   "headline": "Forget XRP: These 4 Altcoins Are on Standard Chartered's Radar",
-   "summary": "Standard Chartered backs Uniswap, Aave, Arbitrum and Chainlink—not XRP—as tokenization’s biggest winners through 2030.",
+   "headline": "Once 'Nearly Impossible,' Now Reality: Brian Armstrong Cheers Citi Partnership, Says Coinbase 'Has Come a Long Way'",
+   "summary": "Coinbase Global Inc. CEO Brian Armstrong said on Saturday, October 3, that the cryptocurrency giant has come a long way since its launch and is now facilitating institutional stablecoin payments.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/10/62151542/forget-xrp-these-4-altcoins-are-on-standard-chartereds-radar",
-   "created_at": "2026-10-03T15:00:16Z",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/10/62154401/brian-armstrong-citi-coinbase-partnership-crypto-banking",
+   "created_at": "2026-10-05T06:59:45Z",
    "symbols": [
-    "AAVEUSD",
-    "AMZN",
-    "ARBUSD",
     "BTCUSD",
-    "ETHUSD"
+    "COIN",
+    "CRCL",
+    "USDCUSD",
+    "ZECUSD"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/03/Cryptocurrency-Coins-Displaying-XRP--Sol.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/05/Top-Crypto-Related-Stocks.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Nasdaq Jumps 300 Points Following Jobs Data: Investor Sentiment Improves, Greed Index Remains in ‘Fear’ Zone",
+   "summary": "Markets rose Friday after weak jobs data; Fear &amp; Greed improved to 31 but stayed in fear. Nasdaq led gains amid geopolitical tensions.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/market-summary/26/10/62154364/nasdaq-jumps-300-points-following-jobs-data-investor-sentiment-improves-greed-index-remains-in-fear-zone",
+   "created_at": "2026-10-05T06:56:33Z",
+   "symbols": [
+    "STX",
+    "WDC"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/05/Market-sentiment---Fear-and-Greed.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Bernie Sanders Backs Pope Leo's AI Art Warning: ‘We Cannot Let Big Tech Oligarchs Destroy It’",
+   "summary": "Bernie Sanders backs Pope Leo XIV’s call to protect human art from AI, warning Big Tech while advocating stricter AI oversight.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/10/62154174/bernie-sanders-backs-pope-leos-ai-art-warning-we-cannot-let-big-tech-oligarchs-destroy-it",
+   "created_at": "2026-10-05T06:40:37Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/05/Des-Moines--Iowa---September-21--2019-Be.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Russia Warns 'Strikes' Will Be 'Intensified' After Zelenskyy Vows More Attacks on Russian Oil Refineries",
+   "summary": "Russia vowed to intensify strikes on Ukrainian military targets after Zelenskyy pledged continued attacks on Russian oil refineries.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/10/62153989/russia-warns-intensified-strikes-zelenskyy-oil-refinery-attacks",
+   "created_at": "2026-10-05T06:08:40Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/05/Ukrainian-President-Volodymyr-Zelenskiy-.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "'Stand With 250 Billionaires Or Poor Kids?': Ro Khanna Pushes Democrats To Back California Billionaire Tax",
+   "summary": "Ro Khanna urges a &#39;yes&#39; vote on Prop 40, warning 150,000 health care jobs are at stake in California&#39;s billionaire tax fight.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/health-care/26/10/62153959/ro-khanna-democrats-california-billionaire-tax-poor-kids",
+   "created_at": "2026-10-05T06:01:00Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/05/Washington--Dc--September-27--2021-Rep--.jpg?width=1024&height=768"
   },
   {
    "headline": "MrBeast's 'Eat Everything in a Grocery Store' Becomes His Most-Viewed Video in 24 Hours: 'I Still Think My Best Days Are Ahead'",
@@ -408,65 +477,6 @@
     "BRK"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/10/04/Warren-Buffett-Is-A-Billionaire-Investor.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Crude Oil Price in Focus as Saudi Arabia-Houthi, US-Iran, Ukraine-Russia Tensions Escalate",
-   "summary": "Crude oil price is in the spotlight as the Saudi Arabia-Houthi, US-Iran, and Ukraine-Russia tensions continue",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/commodities/26/10/62152794/crude-oil-price-in-focus-as-saudi-arabia-houthi-us-iran-ukraine-russia-tensions-escalate",
-   "created_at": "2026-10-04T18:20:06Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/04/Crude-oil-production-from-the-ground.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "NFL Legend Rob Gronkowski Didn't Want Stock For His Drink Endorsement — Years Later It Paid A 'Huge Check'",
-   "summary": "Rob Gronkowski took stock from a beverage deal but wasn&#39;t happy about it. Years later he got a buyout from Coca-Cola.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/sports/26/10/62152770/nfl-legend-rob-gronkowski-didnt-want-stock-for-his-drink-endorsement-years-later-it-paid-a-huge-check",
-   "created_at": "2026-10-04T18:00:07Z",
-   "symbols": [
-    "KO",
-    "MNST"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/04/Coca-Cola-Exits-Frozen-Can-Category.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Dogecoin Price Prediction as DOGE ETF Inflows and Open Interest Fall",
-   "summary": "Dogecoin may experience a strong comeback in the near term despite the ongoing retreat in ETF inflows and open interest.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/26/10/62152741/dogecoin-price-prediction-as-doge-etf-inflows-and-open-interest-fall",
-   "created_at": "2026-10-04T17:16:06Z",
-   "symbols": [
-    "DOGEUSD",
-    "XRPUSD",
-    "ZECUSD"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/04/Golden-Dogecoin-Coin-Crypto-Currency.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Getty Images Delists From NYSE, Shares Begin Trading Over The Counter Market",
-   "summary": "Getty Images shares were delisted by the NYSE for an abnormally low price after avoiding bond default amid bankruptcy and funding talks.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/10/62152705/getty-images-delists-from-nyse-shares-begin-trading-over-the-counter-market",
-   "created_at": "2026-10-04T16:44:19Z",
-   "symbols": [
-    "GETY"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/04/Representative-image-of-Getty-Images.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Solana Price Ripe for More Gains as ETF, Staking Inflows Jump Ahead of Alpenglow Upgrade",
-   "summary": "Solana may be ripe for a strong comeback as SOL ETF and staking inflows jump ahead of the Alpenglow upgrade.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/26/10/62152677/solana-price-ripe-for-more-gains-as-etf-staking-inflows-jump-ahead-of-alpenglow-upgrade",
-   "created_at": "2026-10-04T16:15:33Z",
-   "symbols": [
-    "BTCUSD",
-    "NEARUSD",
-    "SOL",
-    "SOLUSD"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/04/Solana-Logo-And-Coin-With-Shiny-Elements.jpg?width=1024&height=768"
   }
  ]
 }
