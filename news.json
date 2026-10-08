@@ -1,6 +1,18 @@
 {
- "updated": "2026-10-08 10:00",
+ "updated": "2026-10-08 11:00",
  "items": [
+  {
+   "headline": "Jeff Bezos Just Put Blue Origin's IPO on the Radar After $10 Billion Funding Round: 'It Probably Makes Sense'",
+   "summary": "Jeff Bezos said Blue Origin could go public several years from now after raising $10 billion at a reported $140 billion valuation.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62236128/jeff-bezos-blue-origin-ipo-funding",
+   "created_at": "2026-10-08T00:58:22Z",
+   "symbols": [
+    "AMZN",
+    "SPCX"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/08/New-York--Ny---May-15--2019-Jeff-Bezos-A.jpg?width=1024&height=768"
+  },
   {
    "headline": "$100 Invested In Broadcom 15 Years Ago Would Be Worth This Much Today",
    "summary": "Broadcom (NASDAQ:AVGO) has outperformed the market over the past 15 years by 23.62% on an annualized basis producing an average annual return of 36.85%. Currently, Broadcom has a market capitalization",
@@ -189,19 +201,48 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/10/07/Supermicro-Logo.jpg?width=1024&height=768"
   },
   {
-   "headline": "The Stock Market Is Falling: VIX Says Investors Aren’t Really Scared Yet",
-   "summary": "Stocks are falling as yields top 5.3%, but the VIX remains below 16. Here&#39;s what the calm volatility signal means for investors.",
+   "headline": "Bitcoin, Ethereum, XRP, Dogecoin Tumble as Treasury Yields Hit New Highs: Analyst Flags 'Phenomenal Entry Opportunity' in BTC",
+   "summary": "Leading cryptocurrencies tanked on Wednesday, October 7, after the Federal Reserve&#39;s hawkish meeting minutes drove Treasury yields higher.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/etfs/specialty-etfs/26/10/62227377/vix-stocks-fall",
-   "created_at": "2026-10-07T17:13:11Z",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/10/62236258/bitcoin-ethereum-xrp-dogecoin-tumble-treasury-yields-btc-entry-opportunity",
+   "created_at": "2026-10-08T01:54:31Z",
    "symbols": [
-    "MRVL",
-    "NVDA",
-    "QQQ",
-    "SPY",
-    "SVXY"
+    "BMNR",
+    "BTCUSD",
+    "DOGEUSD",
+    "ETHUSD",
+    "MSTR"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/07/REIT-Volatility-Risk.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/08/Cryptocurrency--Focus-Bitcoin-On-Tablet-.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Samsung's Q3 Profit Guidance Tops Analyst Estimates As AI Demand Outstrips Memory Supply",
+   "summary": "Samsung guided for a rise in third-quarter profit and sales on AI memory chip demand, though shares in Seoul slipped less than 1%.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/earnings/26/10/62236247/samsung-third-quarter-guidance-profit-sales-ai-memory-demand",
+   "created_at": "2026-10-08T01:51:35Z",
+   "symbols": [
+    "ASML",
+    "MU",
+    "SKHY",
+    "SSNLF"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/08/Modern-Office-Building-With-Large-Samsun.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Applied Digital, Webull Corp., Super Micro Computer, Micron and Caterpillar: Why These 5 Stocks Are on Investors' Radars Today",
+   "summary": "Major U.S. indices closed lower, with the Dow Jones Industrial Average falling 0.66% to 51,179.87.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/10/62236166/applied-digital-webull-super-micro-micron-caterpillar-stocks-investors-radar",
+   "created_at": "2026-10-08T01:11:32Z",
+   "symbols": [
+    "APLD",
+    "BULL",
+    "CAT",
+    "MU",
+    "SMCI"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/08/Stock-Market-Chart-stock-Market-Data-On-.jpg?width=1024&height=768"
   },
   {
    "headline": "$100 Invested In T-Mobile US 15 Years Ago Would Be Worth This Much Today",
@@ -463,43 +504,6 @@
     "APLD"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/10/07/The-Applied-Digital-Corporation-Logo-Is-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "$100 Invested In KLA 15 Years Ago Would Be Worth This Much Today",
-   "summary": "KLA (NASDAQ:KLAC) has outperformed the market over the past 15 years by 15.65% on an annualized basis producing an average annual return of 28.88%. Currently, KLA has a market capitalization of $256.5",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/10/62233930/100-invested-kla-15-years-ago-would-be-worth-much-today",
-   "created_at": "2026-10-07T20:45:27Z",
-   "symbols": [
-    "KLAC"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_1.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Airline Stocks Get Hit by Short Sellers as Oil Hedge: ‘A Bet the War Does Not End Soon’",
-   "summary": "Investors are betting against airline stocks with a rise in the cost of oil.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/short-ideas/26/10/62233667/airline-stocks-get-hit-by-short-sellers-as-oil-hedge-a-bet-the-war-does-not-end-soon",
-   "created_at": "2026-10-07T20:33:17Z",
-   "symbols": [
-    "AAL",
-    "ALK",
-    "DAL",
-    "JBLU",
-    "LUV"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/07/Jetblue.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "If You Invested $1000 In Republic Services Stock 10 Years Ago, You Would Have This Much Today",
-   "summary": "Republic Services (NYSE:RSG) has outperformed the market over the past 10 years by 6.41% on an annualized basis producing an average annual return of 20.21%. Currently, Republic Services has a market ",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/10/62233557/if-you-invested-1000-republic-services-stock-10-years-ago-you-would-have-much-today",
-   "created_at": "2026-10-07T20:30:25Z",
-   "symbols": [
-    "RSG"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_3.jpg?width=1024&height=768"
   }
  ]
 }
