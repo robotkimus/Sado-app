@@ -1,6 +1,17 @@
 {
- "updated": "2026-10-11 19:00",
+ "updated": "2026-10-11 20:00",
  "items": [
+  {
+   "headline": "Jeff Bezos’ Three-Day Week, Scaramucci’s Debt Warning, New Nord Stream Twist and More: This Week in Economy",
+   "summary": "Weekend headlines cover AI liability, billionaire taxes, rising debt costs, shorter workweeks and potential U.S.-Russia energy deals.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/macro-economic-events/26/10/62289149/weekend-top-stories-ai-taxes-debt-energy",
+   "created_at": "2026-10-11T10:00:06Z",
+   "symbols": [
+    "AMZN"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/11/New-York--Ny---May-15--2019-Jeff-Bezos-A.jpg?width=1024&height=768"
+  },
   {
    "headline": "AWS CEO Matt Garman Defends Data Centers Amid Backlash: ‘We Need To Be More Vocal’",
    "summary": "Matt Garman urges clearer messaging on data centers’ role in daily services as communities resist AI infrastructure amid spending and safety",
@@ -183,17 +194,6 @@
     "MRK"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/10/10/Flags-Of-China-And-Usa-Painted-On-Cracke.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Trump Admin Sanctions International Criminal Court Hours After Former Judge Wins Nobel Peace Prize: ‘Ban Transactions With This Rogue Court,’ Rubio Says",
-   "summary": "The Trump administration sanctioned the International Criminal Court, prompting strong criticism from the court.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/10/62287144/trump-sanctions-international-criminal-court",
-   "created_at": "2026-10-10T05:13:50Z",
-   "symbols": [
-    "MSFT"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/10/Washington--Dc--United-States---May-20--.jpg?width=1024&height=768"
   },
   {
    "headline": "Trump’s Fetterman Push, Iran’s Economic Crisis and More: This Week in Politics",
@@ -411,18 +411,6 @@
     "IBIT"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/10/10/3d-Rendering-Of-Exchange-Traded-Fund-etf.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Will Bitcoin Hit $500,000 by 2030? Strive CEO Matt Cole Says Maybe",
-   "summary": "Strive CEO Matt Cole predicts Bitcoin could reach $500,000 by 2030 as debt, a weakening dollar and institutional adoption drive a historic bull market.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/10/62288197/will-bitcoin-hit-500000-by-2030-strive-ceo-matt-cole-says-maybe",
-   "created_at": "2026-10-10T14:00:23Z",
-   "symbols": [
-    "ASST",
-    "BTCUSD"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/10/Physical-Bitcoin-Next-To-Ten--Twenty-And.jpg?width=1024&height=768"
   }
  ]
 }
