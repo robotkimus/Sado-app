@@ -1,6 +1,21 @@
 {
- "updated": "2026-10-12 03:00",
+ "updated": "2026-10-12 04:00",
  "items": [
+  {
+   "headline": "Dow Jones, S&P 500, Nasdaq 100 Outlook: Top Stock Market News This Week",
+   "summary": "The Dow Jones, S&amp;P 500, and Nasdaq 100 indices will be in the spotlight as focus shifts to earnings season, US inflation data, and the bond market",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/10/62289723/dow-jones-sp-500-nasdaq-100-outlook-top-stock-market-news-this-week",
+   "created_at": "2026-10-11T18:45:06Z",
+   "symbols": [
+    "DIA",
+    "FDS",
+    "QQQ",
+    "SPY",
+    "VOO"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/11/Wall-Street-Bull.jpg?width=1024&height=768"
+  },
   {
    "headline": "SpaceX Stock Pressured Despite Its Wireless Hopes as Credit Risk Jumps",
    "summary": "SpaceX stock is being pressured despite its wireless hopes as credit risk jumps as evidenced by its default swaps and bond yields",
@@ -184,19 +199,27 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/10/10/SoundHound-AI-Inc.jpg?width=1024&height=768"
   },
   {
-   "headline": "JD Vance Defends Trump’s Visa Crackdown, Says Bernie Sanders Once Echoed Stephen Miller on Open Borders: ‘It is Ironic’",
-   "summary": "JD Vance cites Bernie Sanders’ past opposition to open borders while defending Trump’s immigration crackdown on companies over worker visas.",
+   "headline": "Trump Announces Russia, Ukraine Have Reached Energy Ceasefire Deal: ‘Do Not Break It!’",
+   "summary": "Trump says Russia and Ukraine agreed to an immediate energy ceasefire; Zelenskyy awaits details as Washington eases some Russian diesel restrictions.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/10/62288329/jd-vance-defends-trumps-visa-crackdown-says-bernie-sanders-once-echoed-stephen-miller-on-open-borders-it-is-ironic",
-   "created_at": "2026-10-10T16:00:11Z",
+   "url": "https://www.benzinga.com/news/politics/26/10/62289736/trump-russia-ukraine-energy-ceasefire-deal",
+   "created_at": "2026-10-11T18:54:12Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/11/President-Trump-Auto-Tariffs-Announcemen.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Global Airline Industry’s Woes Go From Bad To Worse With Deadly Houthi Strikes On Riyadh Airport",
+   "summary": "A deadly Houthi attack on Riyadh airport adds to airlines’ pain from soaring jet fuel costs as airfares jump 23.4% and IATA sees profits halved.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/commodities/26/10/62289687/global-airline-industrys-woes-go-from-bad-to-worse-with-deadly-houthi-strikes-on-riyadh-airport",
+   "created_at": "2026-10-11T18:15:18Z",
    "symbols": [
-    "ADBE",
-    "CTSH",
-    "INFY",
-    "MSFT",
-    "WIT"
+    "AAL",
+    "DAL",
+    "LUV",
+    "UAL"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/10/Atlanta--Georgia--Usa4th-Nov--2024--Ohio.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/11/Boeing-777-Delta-Airlines-Flying-Over-Th.jpg?width=1024&height=768"
   },
   {
    "headline": "Anthony Scaramucci Once Shared the Advice He Would Give His 20-Year-Old Self—The Bitcoin Bull Said He Was 'Too Concerned' About This",
@@ -429,27 +452,6 @@
    "created_at": "2026-10-11T07:03:52Z",
    "symbols": [],
    "image": "https://cdn.benzinga.com/files/images/story/2026/10/11/Washington--Dcusa---April-26--2018-Antho.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "AI Misuse, Nuclear War Could Cause Human Extinction by 2100, New Report Warns",
-   "summary": "A Lancet Commission warns that AI misuse and nuclear conflict pose low-probability extinction risks, alongside major global health threats.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/10/62288944/ai-nuclear-conflict-human-extinction-risks",
-   "created_at": "2026-10-11T05:38:26Z",
-   "symbols": [
-    "SPCX",
-    "TSLA"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/11/AI-Trends.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Trump Signals Possible US Intervention in Yemen After Houthi Missile Strike Kills American in Saudi Arabia: ‘Not Acceptable’",
-   "summary": "Houthi missile strike on Riyadh airport killed 12 and injured 300+, escalating Saudi-Iran tensions as Trump considers U.S. action in Yemen.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/10/62288930/trump-signals-possible-us-intervention-in-yemen-after-houthi-missile-strike-kills-american-in-saudi-arabia-not-acceptable",
-   "created_at": "2026-10-11T05:26:29Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/11/Wilkes-barre--Pa---August-2--2018-Presid.jpg?width=1024&height=768"
   }
  ]
 }
