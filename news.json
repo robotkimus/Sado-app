@@ -1,6 +1,21 @@
 {
- "updated": "2026-10-11 15:00",
+ "updated": "2026-10-11 16:00",
  "items": [
+  {
+   "headline": "Bernie Sanders Demands Congress Pause Advanced AI Development Now: 'They’re Racing to Build a Technology They Can’t Control'",
+   "summary": "Sanders warns unchecked AI development could trigger catastrophe, threaten critical infrastructure and humanity, urging Congress to pause it.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62288970/bernie-sanders-demands-congress-pause-advanced-ai-development-now-theyre-racing-to-build-a-technology-they-cant-control",
+   "created_at": "2026-10-11T06:22:30Z",
+   "symbols": [
+    "AMZN",
+    "GOOG",
+    "GOOGL",
+    "META",
+    "MSFT"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/11/Bernie-Sanders-speaks-to-universal-healt.jpg?width=1024&height=768"
+  },
   {
    "headline": "Microsoft CEO Satya Nadella Says AI Systems Should Be Built to ‘Trust the Model the Least’",
    "summary": "Microsoft CEO Satya Nadella urges companies to strengthen AI security and restrict agent access amid rising cybersecurity incidents.",
@@ -179,17 +194,6 @@
     "BLK"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_1.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Meta Muse Downloads Are Slowing — And Hunterbrook is Short",
-   "summary": "Hunterbrook Capital shorts Meta, citing slowing Muse AI downloads, reviews and user growth despite Zuckerberg calling it central to Meta’s vision.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/10/62283588/meta-muse-downloads-are-slowing-and-hunterbrook-is-short",
-   "created_at": "2026-10-09T19:36:46Z",
-   "symbols": [
-    "META"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/09/Mark-Zuckerberg-Image-On-Mobile-Screen-A.jpg?width=1024&height=768"
   },
   {
    "headline": "AI Misuse, Nuclear War Could Cause Human Extinction by 2100, New Report Warns",
@@ -415,18 +419,6 @@
    "created_at": "2026-10-10T06:56:13Z",
    "symbols": [],
    "image": "https://cdn.benzinga.com/files/images/story/2026/10/10/President-Donald-J--Trump-Hosts-A-Rose-G.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Delta Reconsiders First-Ever US Airline Flights to Riyadh After Deadly Airport Attacks, CEO Ed Bastian Says ‘Safety Is Going to Make the Call’",
-   "summary": "Delta Air Lines is reviewing its planned Riyadh route launch following deadly attacks, with safety concerns weighing on its expansion plans.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/10/62287803/delta-air-lines-reviews-riyadh-flights-attacks",
-   "created_at": "2026-10-10T06:35:27Z",
-   "symbols": [
-    "DAL",
-    "DLAKY"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/10/Boeing-777-Delta-Airlines-Flying-Over-Th.jpg?width=1024&height=768"
   }
  ]
 }
