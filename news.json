@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-12 01:00",
+ "updated": "2026-10-12 02:00",
  "items": [
   {
    "headline": "This Week in TSLA: FSD's Europe Rebrand, Elon Musk Receives Medal From Trump and More",
@@ -200,6 +200,47 @@
     "MU"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/10/10/Bulls-and-Bears-1.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "XRP, Bitcoin, Ethereum Prices Fall as ETF Inflows Slow Ahead of US Inflation Data",
+   "summary": "Top coins like XRP, Bitcoin and Ethereum have fallen in the past few days as ETF outflows continue rising ahead of US inflation data.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/26/10/62289573/xrp-bitcoin-ethereum-prices-fall-as-etf-inflows-slow-ahead-of-us-inflation-data",
+   "created_at": "2026-10-11T16:11:22Z",
+   "symbols": [
+    "BTC",
+    "BTCUSD",
+    "ETH",
+    "ETHUSD",
+    "XRP"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/11/Modern-Way-Of-Exchange--Bitcoin-Is-Conve.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "JPMorgan Earnings Preview: Will it Rebound or Crash Further?",
+   "summary": "This report provides an earnings preview for JPMorgan and what to expect now that it has bottomed at a crucial support level.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/10/62289562/jpmorgan-earnings-preview-will-it-rebound-or-crash-further",
+   "created_at": "2026-10-11T16:11:05Z",
+   "symbols": [
+    "JPM"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/11/JPMorgan-Chase--Co.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Earnings Volatility Watch: JPMorgan, Goldman Kick Off Q3 Season, But These 10 Stocks Are Priced For Bigger Swings",
+   "summary": "Big banks open third-quarter earnings season, but options traders see bigger swings in Home BancShares, ManpowerGroup and Simmons First National.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/earnings/26/10/62289540/earnings-volatility-watch-big-banks-home-bancshares-manpowergroup-implied-moves-october-2026",
+   "created_at": "2026-10-11T16:00:09Z",
+   "symbols": [
+    "ACI",
+    "BAC",
+    "C",
+    "CNS",
+    "DPZ"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/11/JPMorgan-headquarters-glass-building-con.jpg?width=1024&height=768"
   },
   {
    "headline": "US Treasury Yields Stabilize Ahead of Inflation Data as Experts Warn of More Volatility",
@@ -408,38 +449,6 @@
     "SPCX"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/10/11/Elizabeth-Warren.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Anthony Scaramucci Warns $40 Trillion US Debt Could Mean $2.4 Trillion Interest Bill at 6% Rates: 'It’s Just Math'",
-   "summary": "Scaramucci warns 6% rates could make U.S. debt interest cost $2.4T annually, urging higher taxes to curb deficits.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/10/62288810/anthony-scaramucci-warns-40-trillion-us-debt-could-mean-2-4-trillion-interest-bill-at-6-rates-its-just-math",
-   "created_at": "2026-10-11T01:48:42Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/11/Americas-Debt-Is-Ballooning.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Trump Calls for New Ukraine Leader After Russia Diesel Sanctions Deal: ‘I Think It’s Time for Ukraine to Get a New President’",
-   "summary": "Trump said Ukraine should replace Zelenskiy a day after announcing a deal to ease sanctions on Russian diesel exports.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/10/62288795/trump-new-ukraine-leader-russia-diesel-sanctions-deal",
-   "created_at": "2026-10-11T01:37:33Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/11/Us-President-Donald-Trump-And-Russian-Pr.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "DRAM ETF Stuck in Bear Market: Top Catalysts for a Rebound in Memory Stocks",
-   "summary": "The DRAM ETF is stuck in a bear market. Here are the top catalysts for the Roundhill Memory ETF as it continues to struggle.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/etfs/sector-etfs/26/10/62288632/dram-etf-stuck-in-a-bear-market-top-catalysts-for-a-rebound-in-memory-stocks",
-   "created_at": "2026-10-10T20:15:07Z",
-   "symbols": [
-    "DRAM",
-    "MU",
-    "SNDK",
-    "WDC"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/10/Samsung-Sign--Logo--Emblem-On-The-Facade.jpg?width=1024&height=768"
   }
  ]
 }
