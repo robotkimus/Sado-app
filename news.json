@@ -1,6 +1,18 @@
 {
- "updated": "2026-10-11 12:00",
+ "updated": "2026-10-11 13:00",
  "items": [
+  {
+   "headline": "Microsoft CEO Satya Nadella Says AI Systems Should Be Built to ‘Trust the Model the Least’",
+   "summary": "Microsoft CEO Satya Nadella urges companies to strengthen AI security and restrict agent access amid rising cybersecurity incidents.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62288865/nadella-urges-stricter-ai-security-controls",
+   "created_at": "2026-10-11T03:11:04Z",
+   "symbols": [
+    "BOX",
+    "MSFT"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/11/Microsoft-CEO-Satya-Nadella-smiles-in-a-.jpg?width=1024&height=768"
+  },
   {
    "headline": "Report: Nvidia Eyes Reflection AI Takeover as the AI Arms Race Heats Up",
    "summary": "Nvidia is in talks to buy Reflection AI in its biggest deal ever. This deal comes after its recent acquisition of Hugging Face",
@@ -180,17 +192,25 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/10/09/Mark-Zuckerberg-Image-On-Mobile-Screen-A.jpg?width=1024&height=768"
   },
   {
-   "headline": "Nvidia-Backed Fermus Wanted $30 Billion Valuation on Just $51 Million in Revenue",
-   "summary": "Firmus scrapped its IPO after seeking a $30 billion valuation despite generating just $51 million in fiscal 2026 revenue.",
+   "headline": "Trump Urges John Fetterman to Switch Parties as Democrats Target Senate Control: ‘I’d Love to See Him as a Republican’",
+   "summary": "President Trump urges Senator John Fetterman to join Republicans as midterm elections approach and control of Congress remains uncertain.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62281613/firmus-ipo-30-billion-valuation-revenue",
-   "created_at": "2026-10-09T18:20:39Z",
+   "url": "https://www.benzinga.com/news/politics/26/10/62288886/trump-urges-fetterman-to-join-republicans",
+   "created_at": "2026-10-11T03:35:46Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/11/Washington-Dc--2026-February-24--Preside.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Elizabeth Warren Says Trump Made '28,000+' Trades, More Than Congress Combined: ‘Stock Trading…Should Be Illegal’",
+   "summary": "Warren urged banning stock trading by senior officials, citing Trump’s 28,000+ trades and investments linked to companies winning contracts.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62288852/elizabeth-warren-says-trump-made-28000-trades-more-than-congress-combined-stock-tradingshould-be-illegal",
+   "created_at": "2026-10-11T03:04:58Z",
    "symbols": [
-    "CRWV",
-    "META",
-    "NVDA"
+    "EFOR",
+    "SPCX"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/09/Hand-Bursting-Ai-Tech-Bubble-Vector-Conc.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/11/Elizabeth-Warren.jpg?width=1024&height=768"
   },
   {
    "headline": "Anthony Scaramucci Warns $40 Trillion US Debt Could Mean $2.4 Trillion Interest Bill at 6% Rates: 'It’s Just Math'",
@@ -386,26 +406,6 @@
     "DLAKY"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/10/10/Boeing-777-Delta-Airlines-Flying-Over-Th.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Anthropic AI Model Submits Fake Homicide Tip to Philadelphia Police: 'Delay In Detecting and Reporting' Is Unacceptable, Says Department",
-   "summary": "Anthropic disclosed that an artificial intelligence model submitted a false homicide tip to Philadelphia police during testing.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/10/62287077/anthropic-ai-false-homicide-tip-philadelphia-police",
-   "created_at": "2026-10-10T03:57:18Z",
-   "symbols": [
-    "JPM"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/10/Porto--Portugal---October-30th--2024--Si.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Kamala Harris’s Husband Doesn’t Want Her to Run for President Again as Donors Call 2028 Bid a Long Shot: Report",
-   "summary": "Former Vice President Kamala Harris’ husband Doug Emhoff reportedly prefers she not run for president again.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/10/62287054/kamala-harris-doug-emhoff-run-for-president",
-   "created_at": "2026-10-10T03:16:46Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/10/Vice-President-Kamala-Harris-Speaks-On-T.jpg?width=1024&height=768"
   }
  ]
 }
