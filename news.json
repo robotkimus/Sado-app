@@ -1,6 +1,18 @@
 {
- "updated": "2026-10-12 02:00",
+ "updated": "2026-10-12 03:00",
  "items": [
+  {
+   "headline": "SpaceX Stock Pressured Despite Its Wireless Hopes as Credit Risk Jumps",
+   "summary": "SpaceX stock is being pressured despite its wireless hopes as credit risk jumps as evidenced by its default swaps and bond yields",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/10/62289643/spacex-stock-pressured-despite-its-wireless-hopes-as-credit-risk-jumps",
+   "created_at": "2026-10-11T17:30:01Z",
+   "symbols": [
+    "NVDA",
+    "SPCX"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/11/Hawthorne--California---June-06--2026-Sp.jpg?width=1024&height=768"
+  },
   {
    "headline": "This Week in TSLA: FSD's Europe Rebrand, Elon Musk Receives Medal From Trump and More",
    "summary": "Tesla renames European FSD, Musk receives a national medal, Q3 deliveries beat estimates and more; Here are this week&#39;s headlines.",
@@ -187,19 +199,29 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/10/10/Atlanta--Georgia--Usa4th-Nov--2024--Ohio.jpg?width=1024&height=768"
   },
   {
-   "headline": "Benzinga Bulls and Bears: Nvidia, Lumentum, Planet Labs",
-   "summary": "Benzinga examined the prospects for many investors’ favorite stocks over the last week — here’s a look at some of our top stories.",
+   "headline": "Anthony Scaramucci Once Shared the Advice He Would Give His 20-Year-Old Self—The Bitcoin Bull Said He Was 'Too Concerned' About This",
+   "summary": "Skybride Capital founder Anthony Scaramucci would advise his younger self to care less about what others think and recognize that setbacks are an unavoidable part of life.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/market-summary/26/10/62288073/benzinga-bulls-and-bears-nvidia-lumentum-planet-labs",
-   "created_at": "2026-10-10T12:00:11Z",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/10/62289654/anthony-scaramucci-advice-20-year-old-self-bitcoin-bull",
+   "created_at": "2026-10-11T17:30:51Z",
    "symbols": [
-    "APLD",
-    "ASTS",
-    "LEVI",
-    "LITE",
-    "MU"
+    "BTCUSD",
+    "ZECUSD"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/10/Bulls-and-Bears-1.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/11/Scaramucci-Launches-The-Resilience-Lab-T.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "EXCLUSIVE: Canary CEO's 30-Year Bond Bear Call Raises a Bigger Question for REIT ETFs",
+   "summary": "Steven McClurg warns a 30-year bond bear market could hurt real estate and challenge REIT ETFs as yields rise.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/etfs/sector-etfs/26/10/62289606/exclusive-canary-ceos-30-year-bond-bear-call-raises-a-bigger-question-for-reit-etfs",
+   "created_at": "2026-10-11T17:00:08Z",
+   "symbols": [
+    "REM",
+    "VNQ",
+    "XLRE"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/11/Reit--Real-Estate-Investment-Trust-Conce.jpg?width=1024&height=768"
   },
   {
    "headline": "XRP, Bitcoin, Ethereum Prices Fall as ETF Inflows Slow Ahead of US Inflation Data",
@@ -428,27 +450,6 @@
    "created_at": "2026-10-11T05:26:29Z",
    "symbols": [],
    "image": "https://cdn.benzinga.com/files/images/story/2026/10/11/Wilkes-barre--Pa---August-2--2018-Presid.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Trump Urges John Fetterman to Switch Parties as Democrats Target Senate Control: ‘I’d Love to See Him as a Republican’",
-   "summary": "President Trump urges Senator John Fetterman to join Republicans as midterm elections approach and control of Congress remains uncertain.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/10/62288886/trump-urges-fetterman-to-join-republicans",
-   "created_at": "2026-10-11T03:35:46Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/11/Washington-Dc--2026-February-24--Preside.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Elizabeth Warren Says Trump Made '28,000+' Trades, More Than Congress Combined: ‘Stock Trading…Should Be Illegal’",
-   "summary": "Warren urged banning stock trading by senior officials, citing Trump’s 28,000+ trades and investments linked to companies winning contracts.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/10/62288852/elizabeth-warren-says-trump-made-28000-trades-more-than-congress-combined-stock-tradingshould-be-illegal",
-   "created_at": "2026-10-11T03:04:58Z",
-   "symbols": [
-    "EFOR",
-    "SPCX"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/11/Elizabeth-Warren.jpg?width=1024&height=768"
   }
  ]
 }
