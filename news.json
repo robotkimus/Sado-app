@@ -1,6 +1,17 @@
 {
- "updated": "2026-10-12 14:00",
+ "updated": "2026-10-12 15:00",
  "items": [
+  {
+   "headline": "Bill Gates Pushes for AI Safety Rules Along the Lines of Planes, Cars and Medicine: ‘We’re Not Where We Need to Be Yet’",
+   "summary": "Bill Gates called for stronger government oversight of AI, warning that current safeguards are inadequate and companies cannot be trusted.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62290820/bill-gates-stronger-ai-regulations",
+   "created_at": "2026-10-12T05:01:55Z",
+   "symbols": [
+    "MSFT"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/12/Bill-Gates.jpg?width=1024&height=768"
+  },
   {
    "headline": "Jim Cramer Says OpenAI Revenue Isn’t ‘Apples to Apples’ With Anthropic, Daniel Newman Calls Debate 'Hilarious' — $500 Billion Wiped Out (Updated)",
    "summary": "OpenAI’s annualized revenue may be nearer $50 billion than $70 billion, and investors say the $20 billion gap is accounting, not lost sales.",
@@ -183,18 +194,58 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/10/10/Los-Angeles--California---July-6-2025-Nv.jpg?width=1024&height=768"
   },
   {
-   "headline": "S&P 500 Earnings Preview: Will Strong Profits Fuel the Next Rally?",
-   "summary": "In this S&amp;P 500 Index earnings preview, we look at whether the expected profits growth will fuel the next rally.",
+   "headline": "Holiday Hiring Freeze? Employers Pull Back Hard On Seasonal Jobs Says Market Commentator",
+   "summary": "Kobeissi Letter flags weak September hiring as US employers announce fewer seasonal jobs.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/10/62288537/sp-500-earnings-preview-will-strong-profits-fuel-the-next-rally",
-   "created_at": "2026-10-10T18:41:04Z",
+   "url": "https://www.benzinga.com/markets/macro-economic-events/26/10/62290923/holiday-hiring-freeze-employers-cut-seasonal-jobs",
+   "created_at": "2026-10-12T05:44:52Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/12/Female-Asian-Applicant-With-Human-Resour.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Bitcoin, Ethereum Struggled Last Week, But This Token Doubled Its Market Cap in 4 Days on Layer-1 Buzz",
+   "summary": "Starknet&#39;s native token led weekly cryptocurrency gains as the network weighs a shift from an Ethereum Layer 2 to a standalone Layer 1 blockchain.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/10/62290908/bitcoin-ethereum-struggle-layer-1-token-market-cap-doubles-four-days",
+   "created_at": "2026-10-12T05:38:24Z",
    "symbols": [
-    "FDS",
-    "NVDA",
-    "SPY",
-    "VOO"
+    "BTCUSD",
+    "ETHUSD",
+    "SOLUSD",
+    "STRKUSD",
+    "XRPUSD"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/10/Wall-Street-Bull.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/12/Bitcoin-Gold-Coin--Cryptocurrency-Concep.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Peter Schiff Warns Trump’s $5,000 Dividend Plan Would Cost More Than Medicare — Interest on National Debt Would ‘Quickly Surge to Number One’",
+   "summary": "Peter Schiff warned that Trump’s proposed $5,000 payments would become the third-largest federal expenditure as debt interest surges.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/economic-data/26/10/62290895/peter-schiff-trump-5000-dividend-plan-medicare-national-debt-interest",
+   "created_at": "2026-10-12T05:33:20Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/12/Sioux-City--Iowa--Usa---November-6--2016.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Will the US-Iran Ceasefire Continue Through the Midterms? Here’s What the Prediction Market Is Saying",
+   "summary": "Trump says U.S.-Iran attacks won’t resume before midterms, while tensions rise as Iran strikes shipping and the U.S. weighs action in Yemen.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62290848/will-the-us-iran-ceasefire-continue-through-the-midterms-heres-what-the-prediction-market-is-saying",
+   "created_at": "2026-10-12T05:18:45Z",
+   "symbols": [
+    "POLUSD",
+    "USDCUSD"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/12/US-and-Iran-flags-on-a-cracked-backgroun.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Thomas Massie Backs Trump’s Russia Diesel Deal, Says He Warned in 2022 That Sanctions Would Make Americans ‘Suffer From Higher Prices’",
+   "summary": "Thomas Massie backs Trump’s Russian diesel deal, citing higher costs from sanctions; bipartisan senators question its legality.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/10/62290831/thomas-massie-backs-trumps-russia-diesel-deal-says-he-warned-in-2022-that-sanctions-would-make-americans-suffer-from-higher-prices",
+   "created_at": "2026-10-12T05:05:50Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/12/Washington--Dc---September-3--2025-U-s--.jpg?width=1024&height=768"
   },
   {
    "headline": "Marjorie Taylor Greene Says Trump Is ‘the Snake’ That He Warned Everyone About in a Poem: ‘You Never Cared About Putting America First’",
@@ -411,86 +462,6 @@
     "ZECUSD"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/10/11/Scaramucci-Launches-The-Resilience-Lab-T.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "EXCLUSIVE: Canary CEO's 30-Year Bond Bear Call Raises a Bigger Question for REIT ETFs",
-   "summary": "Steven McClurg warns a 30-year bond bear market could hurt real estate and challenge REIT ETFs as yields rise.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/etfs/sector-etfs/26/10/62289606/exclusive-canary-ceos-30-year-bond-bear-call-raises-a-bigger-question-for-reit-etfs",
-   "created_at": "2026-10-11T17:00:08Z",
-   "symbols": [
-    "REM",
-    "VNQ",
-    "XLRE"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/11/Reit--Real-Estate-Investment-Trust-Conce.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "XRP, Bitcoin, Ethereum Prices Fall as ETF Inflows Slow Ahead of US Inflation Data",
-   "summary": "Top coins like XRP, Bitcoin and Ethereum have fallen in the past few days as ETF outflows continue rising ahead of US inflation data.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/26/10/62289573/xrp-bitcoin-ethereum-prices-fall-as-etf-inflows-slow-ahead-of-us-inflation-data",
-   "created_at": "2026-10-11T16:11:22Z",
-   "symbols": [
-    "BTC",
-    "BTCUSD",
-    "ETH",
-    "ETHUSD",
-    "XRP"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/11/Modern-Way-Of-Exchange--Bitcoin-Is-Conve.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "JPMorgan Earnings Preview: Will it Rebound or Crash Further?",
-   "summary": "This report provides an earnings preview for JPMorgan and what to expect now that it has bottomed at a crucial support level.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/10/62289562/jpmorgan-earnings-preview-will-it-rebound-or-crash-further",
-   "created_at": "2026-10-11T16:11:05Z",
-   "symbols": [
-    "JPM"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/11/JPMorgan-Chase--Co.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Earnings Volatility Watch: JPMorgan, Goldman Kick Off Q3 Season, But These 10 Stocks Are Priced For Bigger Swings",
-   "summary": "Big banks open third-quarter earnings season, but options traders see bigger swings in Home BancShares, ManpowerGroup and Simmons First National.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/earnings/26/10/62289540/earnings-volatility-watch-big-banks-home-bancshares-manpowergroup-implied-moves-october-2026",
-   "created_at": "2026-10-11T16:00:09Z",
-   "symbols": [
-    "ACI",
-    "BAC",
-    "C",
-    "CNS",
-    "DPZ"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/11/JPMorgan-headquarters-glass-building-con.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "US Treasury Yields Stabilize Ahead of Inflation Data as Experts Warn of More Volatility",
-   "summary": "US treasury yields are stabilizing ahead of the closely-watched US inflation data as analysts warn of more upheaval in the bond market.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/bonds/26/10/62289523/us-treasury-yields-stabilize-ahead-of-inflation-data-as-experts-warn-of-more-volatility",
-   "created_at": "2026-10-11T15:46:11Z",
-   "symbols": [
-    "BIL"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/11/Headquarters-Of-The-Federal-Reserve-In-W.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "EXCLUSIVE: Ross Gerber Says Tesla May Make Just ‘a Few Hundred’ Roadsters: ‘Hovering Is a Gimmick’",
-   "summary": "Tesla’s Roadster debut was delayed to Oct. 15. Investor Ross Gerber questions its relevance, seeing high-end EVs as a small, exclusive market.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/10/62289504/exclusive-ross-gerber-says-tesla-may-make-just-a-few-hundred-roadsters-hovering-is-a-gimmick",
-   "created_at": "2026-10-11T15:30:29Z",
-   "symbols": [
-    "AAPL",
-    "ABNB",
-    "RACE",
-    "SPCX",
-    "TSLA"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/11/Kaunas--Lithuania-2022---April-14-Tesla-.jpg?width=1024&height=768"
   }
  ]
 }
