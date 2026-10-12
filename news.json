@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-12 12:00",
+ "updated": "2026-10-12 13:00",
  "items": [
+  {
+   "headline": "Jim Cramer Says OpenAI Revenue Isn’t ‘Apples to Apples’ With Anthropic, Daniel Newman Calls Debate 'Hilarious' — $500 Billion Wiped Out (Updated)",
+   "summary": "OpenAI’s annualized revenue may be nearer $50 billion than $70 billion, and investors say the $20 billion gap is accounting, not lost sales.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62264549/jim-cramer-daniel-newman-explain-openai-revenue-scare-gap-is-about-counting-not-sales",
+   "created_at": "2026-10-09T06:02:24Z",
+   "symbols": [
+    "AMZN",
+    "GOOG",
+    "GOOGL",
+    "MSFT"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/12/Using-A-Mobile-Phone-To-View-Stocks-And-.jpg?width=1024&height=768"
+  },
   {
    "headline": "Amazon Reportedly in Talks to Buy Decart for $7 Billion — Market Strategist Says It Is 'Effectively Buying Software Expertise'",
    "summary": "Amazon.com is reportedly weighing a roughly $7 billion purchase of AI startup Decart.",
@@ -183,19 +197,28 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/10/10/Wall-Street-Bull.jpg?width=1024&height=768"
   },
   {
-   "headline": "Nvidia-Backed Neoclouds Face a Test as IREN, CoreWeave and Nebius Stocks Slide",
-   "summary": "Top Nvidia-backed neocloud companies like IREN, CoreWeave and Nebius are facing a major rest as they remain in a bear market.",
+   "headline": "Iran’s Shipping Strikes Top a Dozen Amid Bid to 'Restore' Leverage —Crypto Punters Wager on Hormuz Reopening",
+   "summary": "Iran has intensified attacks on shipping near the Strait of Hormuz and the Persian Gulf in a bid &#34;to restore its leverage&#34; over the critical shipping route, according to a report published on ",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/10/62288504/nvidia-backed-neoclouds-face-a-test-as-iren-coreweave-and-nebius-stocks-slide",
-   "created_at": "2026-10-10T18:20:21Z",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62290627/will-strait-of-hormuz-traffic-return-to-normal-soon-crypto-prediction-markets-wager-as-iran-fights-to-restore-its-leverage",
+   "created_at": "2026-10-12T03:24:34Z",
    "symbols": [
     "BTCUSD",
-    "CRWV",
-    "IREN",
-    "NBIS",
-    "NVDA"
+    "POLUSD",
+    "ZECUSD"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/10/New-York-City--New-York---July-14-2025-C.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/12/Deal-Reopened-Key-Waterway.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Elon Musk Takes Swipe at Billionaire Mukesh Ambani's 'De Facto' Monopoly in India: 'Absurd Hypocrisy and Hyperbole' on Starlink Competition",
+   "summary": "Elon Musk says affordable Starlink internet could challenge Jio’s dominance as he escalates his feud with Mukesh Ambani.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62290603/elon-musk-starlink-jio-mukesh-ambani-india",
+   "created_at": "2026-10-12T03:12:39Z",
+   "symbols": [
+    "SPCX"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/12/Toronto--Canada---November-16-2024-Starl.jpg?width=1024&height=768"
   },
   {
    "headline": "Trump's Russian Diesel Deal Draws Bipartisan Fire — Senators Demand He 'Immediately Reverse Course,' Kamala Harris Says It ‘Reeks of Weakness’",
@@ -462,28 +485,6 @@
    "created_at": "2026-10-11T13:18:45Z",
    "symbols": [],
    "image": "https://cdn.benzinga.com/files/images/story/2026/10/11/Elon-Musk--The-Ceo-Of-Tesla--Spacex--Pay.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Dry Beer Taps, Glove Shortages and Record Tanker Rates Trace Back to Hormuz",
-   "summary": "Global supply chains are feeling the impact of the Strait of Hormuz disruption, driving up freight costs, diesel prices, trucking rates, and tanker earnings as manufacturers and shippers face mounting",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/commodities/26/10/62288442/dry-beer-taps-glove-shortages-and-record-tanker-rates-trace-back-to-hormuz",
-   "created_at": "2026-10-10T17:20:00Z",
-   "symbols": [
-    "BWET",
-    "JBHT",
-    "KNX"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/11/Oil-Supply-Shock-Deepens.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Seven-Year Car Loans Hit a Record. Here’s What Advisors Should Ask Clients",
-   "summary": "Record car borrowing hits $44,664, with $787 payments and longer terms raising costs, prompting advisors to examine clients’ debt and savings goals.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/personal-finance/financial-advisors/26/10/62289333/seven-year-car-loans-hit-a-record-heres-what-advisors-should-ask-clients",
-   "created_at": "2026-10-11T13:00:43Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/11/Driving-Cars-For-The-Long-Haul.jpg?width=1024&height=768"
   }
  ]
 }
