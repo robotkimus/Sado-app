@@ -1,6 +1,18 @@
 {
- "updated": "2026-10-12 10:00",
+ "updated": "2026-10-12 11:00",
  "items": [
+  {
+   "headline": "Amazon Reportedly in Talks to Buy Decart for $7 Billion — Market Strategist Says It Is 'Effectively Buying Software Expertise'",
+   "summary": "Amazon.com is reportedly weighing a roughly $7 billion purchase of AI startup Decart.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62290456/amazon-decart-acquisition-talks-7-billion-software-expertise",
+   "created_at": "2026-10-12T01:33:03Z",
+   "symbols": [
+    "AMZN",
+    "NVDA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/12/Kolbaskowo--Poland---May-3--2026-Amazon-.jpg?width=1024&height=768"
+  },
   {
    "headline": "BlackRock Stock Faces a Test: Can AUM Growth Offset Private Credit Worries?",
    "summary": "BlackRock shares have slumped more than 8% from this year’s high as investors remain concerned about its private credit business.",
@@ -186,16 +198,37 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/10/10/New-York-City--New-York---July-14-2025-C.jpg?width=1024&height=768"
   },
   {
-   "headline": "Jeff Bezos Is Closing the Net Worth Gap With Elon Musk, Thanks to Blue Origin",
-   "summary": "Jeff Bezos&#39;s net worth continued rising this week, helped by the significant fundraising at Blue Origin, the space company he started.",
+   "headline": "Bitcoin, Ethereum, XRP, Dogecoin Rise as ‘Greed’ Persists: Analyst Says BTC Bulls Must Get ‘Moving’ From This Area",
+   "summary": "Leading cryptocurrencies rose on Sunday, October 11, as investors assessed the latest geopolitical developments in the Middle East and President Donald Trump’s potential intervention.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/10/62288461/jeff-bezos-is-closing-the-net-worth-gap-with-elon-musk-thanks-to-blue-origin",
-   "created_at": "2026-10-10T17:40:13Z",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/10/62290496/bitcoin-ethereum-xrp-dogecoin-rise-as-greed-sentiment-persists-analyst-suggests-btc-could-test-mid-70000s-if-it-loses-this-level",
+   "created_at": "2026-10-12T01:52:55Z",
    "symbols": [
-    "AMZN",
-    "SPCX"
+    "BMNR",
+    "BTCUSD",
+    "DOGEUSD",
+    "ETHUSD",
+    "MSTR"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/10/New-York--Ny---May-15--2019-Jeff-Bezos-A.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/12/Los-Angeles--California---July-10-2025-B.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Iran Security Chief Threatens Middle East AI Data Centers, Undersea Cables If War With US Escalates As Hormuz Talks Stall",
+   "summary": "Iran threatened regional AI data centers and undersea cables as stalled peace talks raise fears of escalating war with the U.S.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/10/62290474/iran-mohsen-rezaei-threatens-ai-data-centers-undersea-cables-hormuz-talks",
+   "created_at": "2026-10-12T01:47:16Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/12/Flags-Of-Usa-And-Iran.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Mark Zuckerberg Once Wrote Fencing Sequences in Chemistry Class, Now He’s Into Jiu-Jitsu — Meta Flagged the Danger, His Answer: ‘High Risk = High Reward’",
+   "summary": "Meta warned that CEO Mark Zuckerberg’s combat sports and extreme hobbies pose risks to the company if he is seriously injured.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62290411/zuckerberg-fencing-jiu-jitsu-meta-investors",
+   "created_at": "2026-10-12T01:15:59Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/12/Bukovel--Ukraine--October-13--2022-Wax-F.jpg?width=1024&height=768"
   },
   {
    "headline": "Bank of America Earnings Preview: Options Market Signals a Muted Reaction",
@@ -442,37 +475,6 @@
    "created_at": "2026-10-11T13:00:43Z",
    "symbols": [],
    "image": "https://cdn.benzinga.com/files/images/story/2026/10/11/Driving-Cars-For-The-Long-Haul.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Peter Thiel Once Said You Should ‘Forget About the Medium-Term’ When Planning Your Career—Here’s Why Bill Ackman Thinks It’s ‘Good Advice’",
-   "summary": "Peter Thiel urges prioritizing learning and meaningful work over résumé-building and prestige, a philosophy endorsed by Bill Ackman.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/10/62289307/peter-thiel-once-said-you-should-forget-about-the-medium-term-when-planning-your-career-heres-why-bill-ackman-thinks-its-good-advice",
-   "created_at": "2026-10-11T12:30:09Z",
-   "symbols": [
-    "UBER"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/11/Cleveland--Ohio--Usa--July-21--2016-Pete.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Bitcoin’s $500,000 Bet, Ethereum’s AI Warning, Dogecoin ETF Drama and More: This Week in Crypto",
-   "summary": "Bitcoin forecasts, government adoption, AI security risks and Dogecoin ETF troubles dominated crypto headlines.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/26/10/62289256/bitcoins-500000-bet-ethereums-ai-warning-dogecoin-etf-drama-and-more-this-week-in-crypto",
-   "created_at": "2026-10-11T12:00:08Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/11/Golden-Bitcoin-Coin-Is-In-Red-And-Blue-S.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "iPhone 18 Whiplash, OLED MacBooks, Sudden Order Cut and More: This Week in Appleverse",
-   "summary": "Apple faces fresh iPhone 18 demand concerns as reported supplier order cuts contrast with analysts’ optimism about the latest launch.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/10/62289197/apple-iphone-18-demand-supplier-order-cuts",
-   "created_at": "2026-10-11T11:00:14Z",
-   "symbols": [
-    "AAPL"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/11/Beijing--China---July-21--2023-Apple-Log.jpg?width=1024&height=768"
   }
  ]
 }
