@@ -1,6 +1,19 @@
 {
- "updated": "2026-10-12 16:00",
+ "updated": "2026-10-12 17:00",
  "items": [
+  {
+   "headline": "Scott Bessent Fires Back at Elizabeth Warren’s ‘Trumpflation’ Tracker — Treasury’s Counterattack Makes a Very Different Case About Trump’s Economy",
+   "summary": "Scott Bessent calls Elizabeth Warren an &#39;inflationista&#39; while releasing the &#39;Trump Affordability Tracker&#39; to contrast US economic data.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/economic-data/26/10/62291627/scott-bessent-fires-back-at-elizabeth-warrens-trumpflation-tracker-treasurys-counterattack-makes-a-very-different-case-about-trumps-economy",
+   "created_at": "2026-10-12T07:39:24Z",
+   "symbols": [
+    "DIA",
+    "QQQ",
+    "SPY"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/12/Us-Treasury-Secretary--Scott-Bessent-Wal.jpg?width=1024&height=768"
+  },
   {
    "headline": "Stock Market: Will S&P 500 Open Up or Down Today?",
    "summary": "Will S&amp;P 500 open higher? Polymarket odds reach 78% as Wall Street weighs Q3 bank earnings, cooling oil prices, and broad sector momentum.",
@@ -184,16 +197,60 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/10/11/Bernie-Sanders-speaks-to-universal-healt.jpg?width=1024&height=768"
   },
   {
-   "headline": "Microsoft CEO Satya Nadella Says AI Systems Should Be Built to ‘Trust the Model the Least’",
-   "summary": "Microsoft CEO Satya Nadella urges companies to strengthen AI security and restrict agent access amid rising cybersecurity incidents.",
+   "headline": "Hackers ‘Apparently Bought the Reseller,’ Says Changpeng Zhao — Ledger Issues Advisory After Reported $86 Million Crypto Losses",
+   "summary": "Binance founder Changpeng &#34;CZ&#34; Zhao reacted on Sunday, October 11, to the Ledger hardware wallet hack that reportedly drained more than $86 million in cryptocurrency.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/10/62288865/nadella-urges-stricter-ai-security-controls",
-   "created_at": "2026-10-11T03:11:04Z",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/10/62291581/ledger-wallet-company-acquisition-86-million-crypto-losses-advisory",
+   "created_at": "2026-10-12T07:34:01Z",
    "symbols": [
-    "BOX",
-    "MSFT"
+    "BNBUSD",
+    "BTCUSD",
+    "ETHUSD",
+    "ZECUSD"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/11/Microsoft-CEO-Satya-Nadella-smiles-in-a-.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/12/Ukraine--Rovno---On-January-23-Ledger-Ha.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Trump Admin Warns US Airlines of Saudi Airspace Risks After Deadly Riyadh Airport Attacks, Putting Delta's Launch Next Week in Doubt",
+   "summary": "FAA warns U.S. airlines of military and navigation risks over Saudi Arabia after Riyadh strikes, putting Delta’s Oct. 23 launch in doubt.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/travel/26/10/62291571/trump-admin-warns-us-airlines-of-saudi-airspace-risks-after-deadly-riyadh-airport-attacks-putting-deltas-launch-next-week-in-doubt",
+   "created_at": "2026-10-12T07:33:48Z",
+   "symbols": [
+    "DAL",
+    "FDX"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/12/President-Donald-Trump-stops-to-speak-wi.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Iran Says US Accepted Some Demands to Reopen Strait of Hormuz, But Response Is ‘Inadequate’—Araghchi Warns of Ecological Damage",
+   "summary": "Iran says the U.S. accepted some Hormuz reopening conditions as uncertainty looms over the Strait of Hormuz.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/10/62291540/iran-says-us-accepted-some-demands-to-reopen-strait-of-hormuz-but-response-is-inadequate-araghchi-warns-of-ecological-damage",
+   "created_at": "2026-10-12T07:26:05Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/12/President-Of-The-United-States-Donald-Tr.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Trump Admin Ordered to Halt Taxpayer-Funded Ads Featuring Trump Ahead of Midterms",
+   "summary": "A federal judge ordered Trump’s government-funded ad campaign halted ahead of the midterms amid legal challenges over taxpayer spending.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/10/62291426/trump-admin-ordered-to-halt-taxpayer-funded-ads-featuring-trump-ahead-of-midterms",
+   "created_at": "2026-10-12T07:14:16Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/12/President-Donald-J--Trump-Delivers-Remar.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "'Black Swan' Author Nassim Taleb Says Trump 'Behind a Debt Spiral' That Is 'Unavoidable' — 'It Is Just Fiscal Incompetence'",
+   "summary": "Nassim Taleb said Sunday the U.S. debt spiral is unavoidable, blaming Trump and calling it fiscal incompetence, not partisan politics.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/economic-data/26/10/62291415/nassim-taleb-says-trump-is-behind-a-debt-spiral-it-is-just-fiscal-incompetence",
+   "created_at": "2026-10-12T07:07:07Z",
+   "symbols": [
+    "IEF",
+    "TLT"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/12/Russia--Moscow--11-27-2017-A-Lebanese-am.jpg?width=1024&height=768"
   },
   {
    "headline": "‘Ukraine Wants Peace. The Question Is Whether Russia Does’: Zelenskyy Welcomes Trump’s Energy Truce as Crypto Punters Doubt Peace Deal by 2027",
@@ -415,69 +472,6 @@
     "BAC"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/10/11/Bank-Of-America.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Rivian Stock Flashes Death Cross Pattern Despite Strong R2 Sales Growth",
-   "summary": "Rivian stock has flashed a death cross pattern, pointing to more downside despite the rising R2 sales growth.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/10/62289919/rivian-stock-flashes-death-cross-pattern-despite-strong-r2-sales-growth",
-   "created_at": "2026-10-11T21:20:05Z",
-   "symbols": [
-    "RIVN",
-    "TSLA"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/11/Rivian-Automotive--Inc.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Top 4 Crypto Stocks to Watch This Week: BitMine, Strategy, Strive, BitGo",
-   "summary": "The top crypto stocks to watch this week include popular names like BitMine (BMNR), Strategy (MSTR), Strive and BitGo.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/10/62289895/top-4-crypto-stocks-to-watch-this-week-bitmine-strategy-strive-bitgo",
-   "created_at": "2026-10-11T21:05:06Z",
-   "symbols": [
-    "ASST",
-    "BMNR",
-    "BTCUSD",
-    "BTGO",
-    "ETHUSD"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/11/The-Bitmine-Immersion-Trade.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Nio, Li Auto, XPeng, BYD Stocks Plunge as China EV Headwinds Rise",
-   "summary": "Top China EV stocks like Nio, Li Auto, XPeng, and BYD stocks have plunged this year as headwinds in the industry rise.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/10/62289860/nio-li-auto-xpeng-byd-stocks-plunge-as-china-ev-headwinds-rise",
-   "created_at": "2026-10-11T20:50:07Z",
-   "symbols": [
-    "BYD",
-    "LI",
-    "NIO",
-    "XPEV"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/11/Shanghai-china-november-13th-2021-Large-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "UnitedHealth Stock Has Lost Momentum. Will Earnings Turn the Tide?",
-   "summary": "UnitedHealth stock has slumped in the past few months. Will the upcoming second quarter earnings report help to turn the tide?",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/market-summary/26/10/62289803/unitedhealth-stock-has-lost-momentum-will-earnings-turn-the-tide",
-   "created_at": "2026-10-11T19:45:06Z",
-   "symbols": [
-    "UNH"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/11/Minnetonka--Mnusa---August-13--2015-Unit.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Goldman Sachs Stock Has Dived Into a Bear Market: Will Earnings Change This?",
-   "summary": "Goldman Sachs stock has plunged into a bear market this year. Will the upcoming earnings report change this as a death cross nears?",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/10/62289790/goldman-sachs-stock-has-dived-into-a-bear-market-will-earnings-change-this",
-   "created_at": "2026-10-11T19:30:06Z",
-   "symbols": [
-    "GS"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/11/Goldman-Sachs.jpg?width=1024&height=768"
   }
  ]
 }
