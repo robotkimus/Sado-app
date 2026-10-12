@@ -1,6 +1,21 @@
 {
- "updated": "2026-10-12 15:00",
+ "updated": "2026-10-12 16:00",
  "items": [
+  {
+   "headline": "Stock Market: Will S&P 500 Open Up or Down Today?",
+   "summary": "Will S&amp;P 500 open higher? Polymarket odds reach 78% as Wall Street weighs Q3 bank earnings, cooling oil prices, and broad sector momentum.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62291026/stock-market-will-sp-500-open-up-or-down-today-55",
+   "created_at": "2026-10-12T06:19:33Z",
+   "symbols": [
+    "BAC",
+    "C",
+    "DIA",
+    "GS",
+    "JPM"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/12/Stock-S-And-P-500-Index-Fund-Symbol-Is-O.jpg?width=1024&height=768"
+  },
   {
    "headline": "Bill Gates Pushes for AI Safety Rules Along the Lines of Planes, Cars and Medicine: ‘We’re Not Where We Need to Be Yet’",
    "summary": "Bill Gates called for stronger government oversight of AI, warning that current safeguards are inadequate and companies cannot be trusted.",
@@ -181,17 +196,53 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/10/11/Microsoft-CEO-Satya-Nadella-smiles-in-a-.jpg?width=1024&height=768"
   },
   {
-   "headline": "Report: Nvidia Eyes Reflection AI Takeover as the AI Arms Race Heats Up",
-   "summary": "Nvidia is in talks to buy Reflection AI in its biggest deal ever. This deal comes after its recent acquisition of Hugging Face",
+   "headline": "‘Ukraine Wants Peace. The Question Is Whether Russia Does’: Zelenskyy Welcomes Trump’s Energy Truce as Crypto Punters Doubt Peace Deal by 2027",
+   "summary": "On Sunday, Volodymyr Zelenskyy says Russian attacks continue despite Trump’s energy ceasefire announcement.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/m-a/26/10/62288564/report-nvidia-eyes-reflection-ai-takeover-as-the-ai-arms-race-heats-up",
-   "created_at": "2026-10-10T19:15:27Z",
+   "url": "https://www.benzinga.com/news/politics/26/10/62291220/zelenskyy-trump-energy-truce-ukraine-russia-peace-deal-2027-crypto-odds",
+   "created_at": "2026-10-12T06:44:54Z",
    "symbols": [
-    "NBIS",
-    "NVDA",
-    "SPCX"
+    "POLUSD"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/10/Los-Angeles--California---July-6-2025-Nv.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/12/Rutte-Insists-On-Security-Guarantees.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Dow Jumps Over 400 Points, Records Weekly Gain: Investor Sentiment Improves, Fear & Greed Index Moves yo ‘Neutral’ Zone",
+   "summary": "CNN Fear &amp; Greed Index rose to Neutral at 45 as U.S. stocks gained Friday; Dow jumped 423 points, while consumer sentiment weakened.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/10/62291207/dow-jumps-over-400-points-records-weekly-gain-investor-sentiment-improves-fear-greed-index-moves-yo-neutral-zone",
+   "created_at": "2026-10-12T06:42:46Z",
+   "symbols": [
+    "HUM"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/12/Fear-and-Greed.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Goodyear Tire, Cryo-Cell International and 3 Stocks to Watch Heading Into Monday",
+   "summary": "Goodyear names Joe Hinrichs chair, Pomdoctor faces Nasdaq delisting; Cryo-Cell earnings rise; SMP and Quantum announce CFO changes.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/10/62291175/goodyear-tire-cryo-cell-international-and-3-stocks-to-watch-heading-into-monday",
+   "created_at": "2026-10-12T06:31:45Z",
+   "symbols": [
+    "CCEL",
+    "GT",
+    "POM",
+    "QMCO",
+    "SMP"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/12/Goodyear-Photo-by-Fabio-Pagani-via-Shutt.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "FTC Sending $15.8 Million To 2.1 Million Cash Advance App Users: Here’s When Payments Begin",
+   "summary": "The FTC is distributing $15.8 million in refunds to 2.1 million Cleo AI users over alleged misleading cash advance claims and hidden fees.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/10/62291051/ftc-15-million-refunds-2-million-cash-advance-app-users-payment-dates",
+   "created_at": "2026-10-12T06:23:01Z",
+   "symbols": [
+    "HLF",
+    "INVH"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/12/Hidden-Fees-Cloud-Real-Prices.jpg?width=1024&height=768"
   },
   {
    "headline": "Holiday Hiring Freeze? Employers Pull Back Hard On Seasonal Jobs Says Market Commentator",
@@ -427,41 +478,6 @@
     "GS"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/10/11/Goldman-Sachs.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Trump Announces Russia, Ukraine Have Reached Energy Ceasefire Deal: ‘Do Not Break It!’",
-   "summary": "Trump says Russia and Ukraine agreed to an immediate energy ceasefire; Zelenskyy awaits details as Washington eases some Russian diesel restrictions.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/10/62289736/trump-russia-ukraine-energy-ceasefire-deal",
-   "created_at": "2026-10-11T18:54:12Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/11/President-Trump-Auto-Tariffs-Announcemen.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Global Airline Industry’s Woes Go From Bad To Worse With Deadly Houthi Strikes On Riyadh Airport",
-   "summary": "A deadly Houthi attack on Riyadh airport adds to airlines’ pain from soaring jet fuel costs as airfares jump 23.4% and IATA sees profits halved.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/commodities/26/10/62289687/global-airline-industrys-woes-go-from-bad-to-worse-with-deadly-houthi-strikes-on-riyadh-airport",
-   "created_at": "2026-10-11T18:15:18Z",
-   "symbols": [
-    "AAL",
-    "DAL",
-    "LUV",
-    "UAL"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/11/Boeing-777-Delta-Airlines-Flying-Over-Th.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Anthony Scaramucci Once Shared the Advice He Would Give His 20-Year-Old Self—The Bitcoin Bull Said He Was 'Too Concerned' About This",
-   "summary": "Skybride Capital founder Anthony Scaramucci would advise his younger self to care less about what others think and recognize that setbacks are an unavoidable part of life.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/10/62289654/anthony-scaramucci-advice-20-year-old-self-bitcoin-bull",
-   "created_at": "2026-10-11T17:30:51Z",
-   "symbols": [
-    "BTCUSD",
-    "ZECUSD"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/11/Scaramucci-Launches-The-Resilience-Lab-T.jpg?width=1024&height=768"
   }
  ]
 }
