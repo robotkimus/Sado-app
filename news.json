@@ -1,6 +1,33 @@
 {
- "updated": "2026-10-13 16:00",
+ "updated": "2026-10-13 17:00",
  "items": [
+  {
+   "headline": "Jim Cramer Says ‘Stay In, Keep Buying’ as S&P 500 Surges 118% From 2022 Low — Nvidia Turned $10,000 Into Nearly $200,000",
+   "summary": "Since 2022, market volatility has given investors several reasons to exit their positions. However, CNBC’s Jim Cramer said those who stayed invested instead of selling have benefited from their patien",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62314818/jim-cramer-says-stay-in-keep-buying-as-sp-500-surges-118-from-2022-low-nvidia-turned-10000-into-nearly-200000",
+   "created_at": "2026-10-13T07:51:13Z",
+   "symbols": [
+    "MSFT",
+    "NVDA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/13/Jim-Cramer-Attends-Time100-Gala-At-Jaz-A.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Trump White House Wants Tighter Grip on AI Model Testing, Reportedly Moves Officials From Commerce Department",
+   "summary": "The Trump administration reportedly plans to move three AI testing officials from Commerce to the White House after coordination problems.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/10/62314444/trump-white-house-ai-model-testing-commerce-department-officials",
+   "created_at": "2026-10-13T07:06:49Z",
+   "symbols": [
+    "GOOG",
+    "GOOGL",
+    "META",
+    "NVDA",
+    "SPCX"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/13/Washington-Dc-Usa---June-24--2025---Pres.jpg?width=1024&height=768"
+  },
   {
    "headline": "Stock Market: Will S&P 500 Open Up or Down Today?",
    "summary": "Will S&amp;P 500 open higher? Polymarket odds dip to 37% as Wall Street faces a Nasdaq selloff, Q3 bank earnings and Trump&#39;s new energy policies.",
@@ -183,31 +210,111 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/10/12/Wall-Street.jpg?width=1024&height=768"
   },
   {
-   "headline": "Broadcom CEO Says Many AI Investors Have ‘No Clue,’ Likens Boom to a Casino",
-   "summary": "Broadcom CEO Hock Tan says AI investors may not understand what they’re buying even as his company targets $230 billion in AI chip revenue.",
+   "headline": "Full Transcript: Cloudflare Q2 2026 Earnings Call",
+   "summary": "Cloudflare (NYSE:NET) held its second-quarter earnings conference call on Thursday. Below is the complete transcript from the call.\nThis transcript is brought to you by Benzinga APIs. For real-time ac",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62305417/broadcom-ai-investors-casino-gambling",
-   "created_at": "2026-10-12T16:31:41Z",
+   "url": "https://www.benzinga.com/news/26/10/62314881/full-transcript-cloudflare-q2-2026-earnings-call",
+   "created_at": "2026-10-13T07:55:06Z",
    "symbols": [
-    "AVGO",
-    "NVDA"
+    "NET"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/12/Broadcom-Headquarters-Main-Entrance-Sign.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_1.jpg?width=1024&height=768"
   },
   {
-   "headline": "Dow Jones Industrial Average Gets Spotlight: 5 Earnings Reports Representing 25% of ETF’s Assets On Deck",
-   "summary": "Five of the 30 Dow Jones Industrial Average components report earnings this week. Here are the names.",
+   "headline": "Transcript: Nerdy Q2 2026 Earnings Conference Call",
+   "summary": "Nerdy (NYSE:NRDY) held its second-quarter earnings conference call on Thursday. Below is the complete transcript from the call.\nBenzinga APIs provide real-time access to earnings call transcripts and ",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/previews/26/10/62305174/dow-jones-industrial-average-gets-spotlight-5-earnings-reports-representing-25-of-etfs-assets-on-deck",
-   "created_at": "2026-10-12T16:24:19Z",
+   "url": "https://www.benzinga.com/news/26/10/62314847/transcript-nerdy-q2-2026-earnings-conference-call",
+   "created_at": "2026-10-13T07:52:46Z",
    "symbols": [
-    "DIA",
-    "GS",
-    "JNJ",
-    "JPM",
-    "QQQ"
+    "NRDY"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/12/Tallinn--Estonia---August-4th-2023---Scr.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_2.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Full Transcript: Cable One Q2 2026 Earnings Call",
+   "summary": "Cable One (NYSE:CABO) reported second-quarter financial results on Thursday. The transcript from the company&#39;s second-quarter earnings call has been provided below.\nBenzinga APIs provide real-time",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62314846/full-transcript-cable-one-q2-2026-earnings-call",
+   "created_at": "2026-10-13T07:52:44Z",
+   "symbols": [
+    "CABO"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_4.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Rick Scott Says America Can’t ‘Tax and Spend’ Its Way Out of Debt as Interest Costs Hit $1 Trillion",
+   "summary": "Scott urges spending cuts and a balanced budget as U.S. debt tops $40 trillion and interest costs are projected to exceed $1 trillion.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/economic-data/26/10/62314845/rick-scott-says-america-cant-tax-and-spend-its-way-out-of-debt-as-interest-costs-hit-1-trillion",
+   "created_at": "2026-10-13T07:52:37Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/13/Dallas--Tx---August-5--2022-Senator-Rick.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Trade Desk Q2 2026 Earnings Call: Complete Transcript",
+   "summary": "Trade Desk (NASDAQ:TTD) held its second-quarter earnings conference call on Thursday. Below is the complete transcript from the call.\nThis transcript is brought to you by Benzinga APIs. For real-time ",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62314815/trade-desk-q2-2026-earnings-call-complete-transcript",
+   "created_at": "2026-10-13T07:50:48Z",
+   "symbols": [
+    "TTD"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_4.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Transcript: Netgear Q2 2026 Earnings Conference Call",
+   "summary": "Netgear (NASDAQ:NTGR) reported second-quarter financial results on Thursday. The transcript from the company&#39;s second-quarter earnings call has been provided below.\nBenzinga APIs provide real-time",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62314805/transcript-netgear-q2-2026-earnings-conference-call",
+   "created_at": "2026-10-13T07:49:38Z",
+   "symbols": [
+    "NTGR"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_1.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Full Transcript: Century Aluminum Q2 2026 Earnings Call",
+   "summary": "Century Aluminum (NASDAQ:CENX) held its second-quarter earnings conference call on Thursday. Below is the complete transcript from the call.\nBenzinga APIs provide real-time access to earnings call tra",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62314793/full-transcript-century-aluminum-q2-2026-earnings-call",
+   "created_at": "2026-10-13T07:46:48Z",
+   "symbols": [
+    "CENX"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_1.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "EXCLUSIVE: SanDisk Has ‘More Upside,’ Says Nicholas Mugalli — His $3,000 Target Implies a 102% Rally for SNDK",
+   "summary": "Nicholas Mugalli sees SanDisk reaching $3,000 in two years, with future earnings implying a valuation below 9 times earnings.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/10/62314778/exclusive-sandisk-has-more-upside-says-nicholas-mugalli-his-3000-target-implies-a-102-rally-for-sndk",
+   "created_at": "2026-10-13T07:43:06Z",
+   "symbols": [
+    "MU",
+    "SNDK"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/13/Milpitas--Ca---Feb--12--2017-Sandisk---A.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Iran War Has Cost Americans Nearly $2,000 Per Household, Says Mark Zandi—Higher Fuel Prices and Borrowing Costs Are Driving the Economic Pain",
+   "summary": "Mark Zandi estimates the Iran war has added nearly $2,000 per U.S. household, driven by energy costs, higher interest rates.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/10/62314570/iran-war-has-cost-americans-nearly-2000-per-household-says-mark-zandi-higher-fuel-prices-and-borrowing-costs-are-driving-the-economic-pain",
+   "created_at": "2026-10-13T07:18:31Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/13/US-and-Iran-flags-on-a-cracked-backgroun.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Full Transcript: Pulsenmore H1 2026 Earnings Call",
+   "summary": "Pulsenmore (NASDAQ:PLSM) held its quarterly earnings conference call on Monday. Below is the complete transcript from the call.\nThis content is powered by Benzinga APIs. For comprehensive financial da",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62314434/full-transcript-pulsenmore-h1-2026-earnings-call",
+   "created_at": "2026-10-13T07:05:41Z",
+   "symbols": [
+    "PLSM"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_1.jpg?width=1024&height=768"
   },
   {
    "headline": "Biomea Fusion Stock Climbs 7% After-Hours: What's Going On?",
@@ -382,120 +489,6 @@
     "TSLA"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/10/13/Paris--France---June-16--2023-Elon-Musk-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Bitcoin, Ethereum, XRP, Dogecoin Decline as Oil Prices Push Higher: Analyst Says 'Pullback Isn't the End of Anything,' Rather the 'Next Opportunity'",
-   "summary": "Leading cryptocurrencies plunged on Monday, October 12, as geopolitical uncertainty and upcoming inflation data kept investors on edge.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/10/62313359/bitcoin-ethereum-xrp-dogecoin-tumble-as-geopolitical-risks-weigh-on-oil-prices-analyst-says-upcoming-cpi-remains-a-catalyst",
-   "created_at": "2026-10-13T01:55:36Z",
-   "symbols": [
-    "BMNR",
-    "BTCUSD",
-    "DOGEUSD",
-    "ETHUSD",
-    "MSTR"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/13/Cryptocurrency-Bitcoin-Coin-Over-Tablet-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Here's How Much $100 Invested In AAR 5 Years Ago Would Be Worth Today",
-   "summary": "AAR (NYSE:AIR) has outperformed the market over the past 5 years by 12.55% on an annualized basis producing an average annual return of 24.33%. Currently, AAR has a market capitalization of $4.04 bill",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/10/62313109/here-s-how-much-100-invested-aar-5-years-ago-would-be-worth-today",
-   "created_at": "2026-10-12T23:45:51Z",
-   "symbols": [
-    "AIR"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_4.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "If You Invested $1000 In Marathon Petroleum Stock 10 Years Ago, You Would Have This Much Today",
-   "summary": "Marathon Petroleum (NYSE:MPC) has outperformed the market over the past 10 years by 13.0% on an annualized basis producing an average annual return of 26.79%. Currently, Marathon Petroleum has a marke",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/10/62313024/if-you-invested-1000-marathon-petroleum-stock-10-years-ago-you-would-have-much-today",
-   "created_at": "2026-10-12T23:30:19Z",
-   "symbols": [
-    "MPC"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_1.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Here’s How Much You Would Have Made Owning Roivant Sciences Stock In The Last 5 Years",
-   "summary": "Roivant Sciences (NASDAQ:ROIV) has outperformed the market over the past 5 years by 30.08% on an annualized basis producing an average annual return of 41.86%. Currently, Roivant Sciences has a market",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/10/62313001/here-s-how-much-you-would-have-made-owning-roivant-sciences-stock-last-5-years",
-   "created_at": "2026-10-12T23:15:16Z",
-   "symbols": [
-    "ROIV"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_3.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "If You Invested $100 In Howmet Aerospace Stock 5 Years Ago, You Would Have This Much Today",
-   "summary": "Howmet Aerospace (NYSE:HWM) has outperformed the market over the past 5 years by 36.0% on an annualized basis producing an average annual return of 47.78%. Currently, Howmet Aerospace has a market cap",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/10/62312901/if-you-invested-100-howmet-aerospace-stock-5-years-ago-you-would-have-much-today",
-   "created_at": "2026-10-12T23:00:26Z",
-   "symbols": [
-    "HWM"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_1.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Here’s How Much You Would Have Made Owning Cogent Biosciences Stock In The Last 5 Years",
-   "summary": "Cogent Biosciences (NASDAQ:COGT) has outperformed the market over the past 5 years by 14.59% on an annualized basis producing an average annual return of 26.37%. Currently, Cogent Biosciences has a ma",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/10/62312879/here-s-how-much-you-would-have-made-owning-cogent-biosciences-stock-last-5-years",
-   "created_at": "2026-10-12T22:45:25Z",
-   "symbols": [
-    "COGT"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_4.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Here's How Much $100 Invested In Strategy 5 Years Ago Would Be Worth Today",
-   "summary": "Strategy (NASDAQ:MSTR) has outperformed the market over the past 5 years by 3.5% on an annualized basis producing an average annual return of 15.28%. Currently, Strategy has a market capitalization of",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/10/62312836/here-s-how-much-100-invested-strategy-5-years-ago-would-be-worth-today",
-   "created_at": "2026-10-12T22:30:32Z",
-   "symbols": [
-    "MSTR"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_3.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Here’s How Much You Would Have Made Owning CF Industries Holdings Stock In The Last 10 Years",
-   "summary": "CF Industries Holdings (NYSE:CF) has outperformed the market over the past 10 years by 3.39% on an annualized basis producing an average annual return of 17.19%. Currently, CF Industries Holdings has ",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/10/62312807/here-s-how-much-you-would-have-made-owning-cf-industries-holdings-stock-last-10-years",
-   "created_at": "2026-10-12T22:15:21Z",
-   "symbols": [
-    "CF"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_4.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Here's How Much $100 Invested In MercadoLibre 15 Years Ago Would Be Worth Today",
-   "summary": "MercadoLibre (NASDAQ:MELI) has outperformed the market over the past 15 years by 12.6% on an annualized basis producing an average annual return of 25.71%. Currently, MercadoLibre has a market capital",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/10/62312686/here-s-how-much-100-invested-mercadolibre-15-years-ago-would-be-worth-today",
-   "created_at": "2026-10-12T22:00:19Z",
-   "symbols": [
-    "MELI"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_4.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Here’s How Much You Would Have Made Owning Targa Resources Stock In The Last 15 Years",
-   "summary": "Targa Resources (NYSE:TRGP) has outperformed the market over the past 15 years by 2.58% on an annualized basis producing an average annual return of 15.69%. Currently, Targa Resources has a market cap",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/10/62312653/here-s-how-much-you-would-have-made-owning-targa-resources-stock-last-15-years",
-   "created_at": "2026-10-12T21:45:18Z",
-   "symbols": [
-    "TRGP"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_3.jpg?width=1024&height=768"
   }
  ]
 }
