@@ -1,6 +1,36 @@
 {
- "updated": "2026-10-13 14:00",
+ "updated": "2026-10-13 15:00",
  "items": [
+  {
+   "headline": "Stock Market: Will S&P 500 Open Up or Down Today?",
+   "summary": "Will S&amp;P 500 open higher? Polymarket odds dip to 37% as Wall Street faces a Nasdaq selloff, Q3 bank earnings and Trump&#39;s new energy policies.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62313960/stock-market-will-sp-500-open-up-or-down-today-56",
+   "created_at": "2026-10-13T05:48:41Z",
+   "symbols": [
+    "C",
+    "DIA",
+    "GS",
+    "JNJ",
+    "POLUSD"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/13/Stock-S-And-P-500-Index-Fund-Symbol-Is-O.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Iran Media Outlet Says Google, Meta, Microsoft, Amazon Should Pay Fees for Hormuz Undersea Cables",
+   "summary": "An Iranian news agency said Iran should make Google, Meta, Microsoft, and Amazon pay permit fees for subsea cables through the Strait of Hormuz.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62313882/google-meta-microsoft-and-amazon-should-pay-fees-for-hormuz-cables-report",
+   "created_at": "2026-10-13T05:33:12Z",
+   "symbols": [
+    "AMZN",
+    "GOOG",
+    "GOOGL",
+    "META",
+    "MSFT"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/13/Strait-Of-Hormuz--Middle-East-Maritime-W.jpg?width=1024&height=768"
+  },
   {
    "headline": "Jim Cramer Is ‘Monster Long’ On Mark Zuckerberg’s Meta On Muse Retention, But Cathie Wood Trims $3.36 Million Stake",
    "summary": "Cathie Wood’s Ark sold Meta shares on Monday, Oct. 12, 2026.",
@@ -180,30 +210,61 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/10/12/Tallinn--Estonia---August-4th-2023---Scr.jpg?width=1024&height=768"
   },
   {
-   "headline": "Michael Burry's Big Short Gets Broader: Nvidia-Heavy Chip ETF, Nasdaq Now in Focus",
-   "summary": "Michael Burry shifts bearish bets to Nasdaq-100 and SMH puts. Here&#39;s how Nvidia&#39;s 19.6% ETF weighting puts 4 ETFs in focus.",
+   "headline": "Iran’s 'Mosaic Defense Doctrine' Was Presented to Trump, Says Anthony Scaramucci: 'The President Dismissed It' and Led US Military Into a 'Major Disaster'",
+   "summary": "Scaramucci accused Trump of dismissing Iran’s ‘Mosaic Defense Doctrine,’ warning of a potential U.S. military disaster.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/etfs/sector-etfs/26/10/62305018/michael-burrys-big-short-gets-broader-nvidia-heavy-chip-etf-nasdaq-now-in-focus",
-   "created_at": "2026-10-12T16:17:34Z",
-   "symbols": [
-    "AMAT",
-    "AMD",
-    "AVGO",
-    "MRVL",
-    "MU"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/12/xrdDAE9HpS4rJc10535-j6448429399417680500.jpg?width=1024&height=768"
+   "url": "https://www.benzinga.com/news/politics/26/10/62313949/iran-mosaic-defense-doctrine-trump-anthony-scaramucci-us-military",
+   "created_at": "2026-10-13T05:47:03Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/13/Democrats-Say-Hardship-Is-Growing.jpg?width=1024&height=768"
   },
   {
-   "headline": "Microsoft Stock Moves Higher Monday: What's Happening?",
-   "summary": "Microsoft Corp (NASDAQ:MSFT) shares are climbing Monday. The company said it will scale up its Azure Maia system to multi-gigawatt deployments.",
+   "headline": "Saudi Minister Vows ‘Serious’ Response to Deadly Airport Attack as Crypto Bettors Wager on Houthi Forces Entering Kingdom",
+   "summary": "Saudi Arabia on Monday, October 12, warned of a serious response after Houthi missile strikes killed civilians and disrupted airports and energy infrastructure in the Gulf nation.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62303851/microsoft-stock-moves-higher-monday-whats-happening",
-   "created_at": "2026-10-12T15:47:34Z",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62313937/saudi-arabia-airport-attack-houthi-forces-crypto-prediction-odds",
+   "created_at": "2026-10-13T05:43:32Z",
    "symbols": [
-    "MSFT"
+    "BTCUSD",
+    "POLUSD",
+    "ZECUSD"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/12/Mountain-View--California-Us---March-24-.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/13/Riyadh--Saudi-Arabia---February-15--2023.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Will the US-Iran Ceasefire Continue Through the Midterms? Here’s What the Prediction Market Is Saying",
+   "summary": "Trump says U.S.-Iran attacks won’t resume before midterms, while tensions rise as Iran strikes shipping and the U.S. weighs action in Yemen.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62290848/will-the-us-iran-ceasefire-continue-through-the-midterms-heres-what-the-prediction-market-is-saying",
+   "created_at": "2026-10-12T05:18:39Z",
+   "symbols": [
+    "POLUSD",
+    "USDCUSD"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/13/US-and-Iran-flags-on-a-cracked-backgroun.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Bernie Sanders Says ‘Stop Musk’ as Tesla CEO Spends $366 Million to Keep GOP in Control — Elon Musk Got $696 Billion Richer Since Trump’s Re-Election",
+   "summary": "Bernie Sanders accuses Elon Musk of growing $696B richer and spending $366M to help Republicans retain Congress.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/10/62313867/bernie-sanders-says-stop-musk-as-tesla-ceo-spends-366-million-to-keep-gop-in-control-elon-musk-got-696-billion-richer-since-trumps-re-election",
+   "created_at": "2026-10-13T05:30:18Z",
+   "symbols": [
+    "SPCX",
+    "TSLA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/13/Donald-Trumps-Conversation-With-Elon-Mus.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Polar Power (POLA) Shares Rise 8% After-Hours: Here’s Why",
+   "summary": "Polar Power shares rise after-hours as Chris Mayer and Arthur Sams split Co-CEO responsibilities.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/10/62313854/polar-power-pola-shares-rise-8-after-hours-heres-why",
+   "created_at": "2026-10-13T05:22:27Z",
+   "symbols": [
+    "POLA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/13/Candlestick-Chart-Showing-Falling-Stock-.jpg?width=1024&height=768"
   },
   {
    "headline": "JPMorgan, Goldman Sachs and 3 Stocks to Watch Heading Into Tuesday",
@@ -436,77 +497,6 @@
     "APG"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_2.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "12 Communication Services Stocks Moving In Monday's After-Market Session",
-   "summary": "Gainers\n\nMediaCo Holding (NASDAQ:MDIA) shares rose 8.8% to $1.14 during Monday&#39;s after-market session. The market value of their outstanding shares is at $86.5 million. \nVS Media Holdings (NASDAQ:",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62312317/12-communication-services-stocks-moving-monday-s-after-market-session",
-   "created_at": "2026-10-12T21:05:49Z",
-   "symbols": [
-    "ABLV",
-    "ANGI",
-    "DKI",
-    "GIXI",
-    "MDIA"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_3.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "12 Health Care Stocks Moving In Monday's After-Market Session",
-   "summary": "Gainers\n\nBiomea Fusion (NASDAQ:BMEA) stock increased by 11.0% to $1.51 during Monday&#39;s after-market session. The market value of their outstanding shares is at $102.9 million. \niTonic Holdings (NA",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62312316/12-health-care-stocks-moving-monday-s-after-market-session",
-   "created_at": "2026-10-12T21:05:49Z",
-   "symbols": [
-    "ATPC",
-    "BMEA",
-    "CPHI",
-    "DARE",
-    "ITOC"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_2.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "12 Industrials Stocks Moving In Monday's After-Market Session",
-   "summary": "Gainers\n\nStardust Power (NASDAQ:SDST) shares moved upwards by 12.2% to $0.06 during Monday&#39;s after-market session. \nSU Group Holdings (NASDAQ:SUGP) stock increased by 11.04% to $2.01. The company&",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62312315/12-industrials-stocks-moving-monday-s-after-market-session",
-   "created_at": "2026-10-12T21:05:49Z",
-   "symbols": [
-    "AQMS",
-    "BTOC",
-    "CLWT",
-    "EHGO",
-    "GLXG"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_2.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "12 Information Technology Stocks Moving In Monday's After-Market Session",
-   "summary": "Gainers\n\nCID Holdco (NASDAQ:DAIC) shares moved upwards by 48.2% to $2.52 during Monday&#39;s after-market session. The market value of their outstanding shares is at $5.5 million. \nDarkHorse Technolog",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62312314/12-information-technology-stocks-moving-monday-s-after-market-session",
-   "created_at": "2026-10-12T21:05:49Z",
-   "symbols": [
-    "ABTS",
-    "BDAI",
-    "BGIN",
-    "BZAI",
-    "DAIC"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_1.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "$100 Invested In Hilton Worldwide Holdings 5 Years Ago Would Be Worth This Much Today",
-   "summary": "Hilton Worldwide Holdings (NYSE:HLT) has outperformed the market over the past 5 years by 6.0% on an annualized basis producing an average annual return of 17.78%. Currently, Hilton Worldwide Holdings",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/10/62312209/100-invested-hilton-worldwide-holdings-5-years-ago-would-be-worth-much-today",
-   "created_at": "2026-10-12T21:00:16Z",
-   "symbols": [
-    "HLT"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_3.jpg?width=1024&height=768"
   }
  ]
 }
