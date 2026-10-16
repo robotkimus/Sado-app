@@ -1,6 +1,45 @@
 {
- "updated": "2026-10-16 15:00",
+ "updated": "2026-10-16 16:00",
  "items": [
+  {
+   "headline": "Stock Market: Will S&P 500 Open Up or Down Today?",
+   "summary": "Will the S&amp;P 500 open higher? Polymarket odds reach 65% as Wall Street weighs TSM earnings, cooling core retail spending, and Iran sanctions.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62403366/stock-market-will-sp-500-open-up-or-down-today-59",
+   "created_at": "2026-10-16T06:24:14Z",
+   "symbols": [
+    "CFG",
+    "DIA",
+    "MTB",
+    "POLUSD",
+    "QQQ"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/16/Stock-S-And-P-500-Index-Fund-Symbol-Is-O.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Mark Zuckerberg Opens Meta's Massive Muse Spark AI Model, Says It Runs Great on Apple's New Mac Studios Thanks to John Ternus",
+   "summary": "Zuckerberg released Muse Spark AI model as open-weight, highlighting its ability to run locally on two Apple M5 Ultra Mac Studios.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62403354/meta-muse-spark-open-weight-apple-mac-studio",
+   "created_at": "2026-10-16T06:21:50Z",
+   "symbols": [
+    "AAPL",
+    "META"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/16/Bukovel--Ukraine--October-13--2022-Wax-F.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Jamie Dimon Warns AI Agents That Make Payments on Your Behalf ‘May Not’ Act Properly: AI Revolution Like a ‘Tsunami’ That Must Be Managed",
+   "summary": "JPMorgan CEO Jamie Dimon warned that AI agents making payments would need customers’ bank codes, putting them inside the bank.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62403249/jamie-dimon-warns-ai-agents-making-payments-could-be-treacherous-for-banks",
+   "created_at": "2026-10-16T06:07:34Z",
+   "symbols": [
+    "JPM",
+    "META"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/16/Dimon-Addresses-Cabinet-Rumors.jpg?width=1024&height=768"
+  },
   {
    "headline": "Cathie Wood Buys $13.4 Million of CoreWeave Stock as Jensen Huang Says ‘Strength Is Improving Every Day,’ Ark Trims Amazon and Palantir",
    "summary": "Cathie Wood’s Ark bought CoreWeave and Rocket Lab shares and sold Amazon and Palantir shares on Thursday, Oct. 15, 2026.",
@@ -169,46 +208,89 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/10/15/Alphabet-Inc.jpg?width=1024&height=768"
   },
   {
-   "headline": "Dow Jones Climbs to 52,000 While Chips Bleed on Rate-Hike Fears: Stock Market Today",
-   "summary": "Hot inflation data fuels Fed rate-hike bets, hammering chip and AI-hardware stocks while the Dow tops 52,000 and small caps hold gains; gold rebounds.",
+   "headline": "Elon Musk Opens His Wallet for Ken Paxton, Billionaire Pours $158 Million Into Crucial Texas Senate Race",
+   "summary": "Elon Musk donated $158 million to Republican-aligned groups supporting Ken Paxton’s Texas Senate bid, as per new filing.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/10/62393393/dow-52000-chip-carnage-rate-hike-bets-stock-market-today",
-   "created_at": "2026-10-15T17:17:05Z",
+   "url": "https://www.benzinga.com/news/politics/26/10/62403652/elon-musk-ken-paxton-texas-senate-race",
+   "created_at": "2026-10-16T06:58:33Z",
    "symbols": [
-    "AEIS",
-    "DELL",
-    "DIA",
-    "ETSY",
-    "GDX"
+    "SPCX",
+    "TSLA"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/15/Downward-Red-Business-Chart-On-Blurry-Ba.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/16/Elon-Musk--The-Ceo-Of-Tesla--Spacex--Pay.jpg?width=1024&height=768"
   },
   {
-   "headline": "Rate Pressure vs. AI Demand: Rising Treasury Yields Trigger Nvidia, AMD Slump",
-   "summary": "Nvidia and AMD shares slide as rising interest rates and AI funding concerns trigger a broad semiconductor sell-off, while analysts highlight strong demand.",
+   "headline": "Dow Jumps Over 550 Points Following Economic Data: Investor Sentiment Improves, But Fear & Greed Index Remains in ‘Fear’ Zone",
+   "summary": "U.S. stocks rose, led by the Dow, as strong retail sales and hot producer prices shaped Fed bets. Fear &amp; Greed improved to 31 but remained in fear.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/10/62393159/rate-pressure-vs-ai-demand-rising-treasury-yields-trigger-nvidia-amd-slump",
-   "created_at": "2026-10-15T17:12:17Z",
+   "url": "https://www.benzinga.com/markets/market-summary/26/10/62403453/dow-jumps-over-550-points-following-economic-data-investor-sentiment-improves-but-fear-greed-index-remains-in-fear-zone",
+   "created_at": "2026-10-16T06:41:32Z",
    "symbols": [
-    "AMD",
-    "NVDA"
+    "MAN",
+    "MTB",
+    "SCHW",
+    "TFC",
+    "TRV"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/15/AMD-vs-Nvidia.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/16/Market-sentiment---Fear-and-Greed.jpg?width=1024&height=768"
   },
   {
-   "headline": "Microsoft Stock Heads into Earnings with Azure Growth, Copilot Momentum in Focus",
-   "summary": "Microsoft stock trades near $539 as analysts highlight Azure momentum, Maia 300 inference chips, and 30 million Copilot seats ahead of Q1 fiscal 2027 earnings.",
+   "headline": "M&T Bank, Travelers Companies and 3 Stocks to Watch Heading Into Friday",
+   "summary": "Stocks in focus: M&amp;T Bank and Travelers report earnings; Alcoa beat profit but missed sales; J.B. Hunt missed EPS; Truist results due.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/10/62392567/microsoft-stock-heads-into-earnings-with-azure-growth-copilot-momentum-in-focus",
-   "created_at": "2026-10-15T16:59:17Z",
+   "url": "https://www.benzinga.com/markets/equities/26/10/62403418/mt-bank-travelers-companies-and-3-stocks-to-watch-heading-into-friday",
+   "created_at": "2026-10-16T06:36:35Z",
    "symbols": [
-    "IUSG",
-    "META",
-    "MGK",
-    "MSFT",
-    "NVDA"
+    "AA",
+    "JBHT",
+    "MTB",
+    "TFC",
+    "TRV"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/15/New-York--Ny--Usa---July-5--2022-Microso.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/16/Stock-Market-Chart-With-Green-Candlestic.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Pete Hegseth Firing Looms? Prediction Markets Bet on Trump Move",
+   "summary": "Trump blocked Hegseth’s proposed execution livestream as impeachment efforts grow; Kalshi bettors see 62% odds he exits by Feb. 1, 2027.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62403440/pete-hegseth-firing-looms-prediction-markets-bet-on-trump-move",
+   "created_at": "2026-10-16T06:37:14Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/16/Washington--Jan-30-2025-Secretary-Of-Def.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "22nd Century Group (XXII) Stock Surges Over 64% After Hours on Sales Growth",
+   "summary": "22nd Century Group shares jump 64.22% after hours as retail sales of its low-nicotine cigarettes surge 161% quarter over quarter.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/10/62403405/22nd-century-group-shares-jump-low-nicotine-cigarette-sales",
+   "created_at": "2026-10-16T06:33:45Z",
+   "symbols": [
+    "XXII"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/16/A-Dynamic-Blue-Arrow-Superimposed-On-A-S.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Ross Gerber Says SPCX-TSLA Merger Has 'Become Obvious' After Roadster Reveal, Calls Thruster Tech 'For Show'",
+   "summary": "Ross Gerber says SpaceX may buy Tesla after the flying Roadster reveal as Elon Musk touts 2028 production timeline.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62403375/ross-gerber-says-spcx-tsla-merger-has-become-obvious-after-roadster-reveal-calls-thruster-tech-for-show",
+   "created_at": "2026-10-16T06:24:28Z",
+   "symbols": [
+    "SPCX",
+    "TSLA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/16/Paris--France---February-3--2026-A-Horiz.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Elizabeth Warren Calls Bank of America’s $1.2 Billion Fine a ‘Slap-on-the-Wrist,’ Points to $30 Billion Profit",
+   "summary": "Warren calls Bank of America&#39;s $1.2 Billion AML penalty a slap on the wrist, urging tougher sanctions and a criminal probe as earnings fall.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/10/62403260/elizabeth-warren-calls-bank-of-americas-1-2-billion-fine-a-slap-on-the-wrist-points-to-30-billion-profit",
+   "created_at": "2026-10-16T06:08:02Z",
+   "symbols": [
+    "BAC"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/16/Sen--Elizabeth-Warren-speaks-on-lowering.jpg?width=1024&height=768"
   },
   {
    "headline": "Why Is NextTrip (NTRP) Stock Falling After Hours?",
@@ -430,87 +512,6 @@
     "LAC"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/10/16/Nyc-Mayoral-Candidate-Zohran-Mamdani-Spe.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Nike, FMC Corp., Alcoa, Interactive Brokers and Kimberly-Clark: Why These 5 Stocks Are on Investors' Radars Today",
-   "summary": "NKE, FMC, AA, IBKR, KMB were among the stocks seen trending on Thursday, Oct. 15, 2026.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/10/62402538/nike-fmc-corp-alcoa-interactive-brokers-and-kimberly-clark-why-these-5-stocks-are-on-investors-radars-today",
-   "created_at": "2026-10-16T01:14:21Z",
-   "symbols": [
-    "AA",
-    "FMC",
-    "IBKR",
-    "KMB",
-    "NKE"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/16/Stock-Market-Graph-Trading-Analysis-Inve.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Here’s How Much You Would Have Made Owning Littelfuse Stock In The Last 20 Years",
-   "summary": "Littelfuse (NASDAQ:LFUS) has outperformed the market over the past 20 years by 3.96% on an annualized basis producing an average annual return of 12.95%. Currently, Littelfuse has a market capitalizat",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/10/62402248/here-s-how-much-you-would-have-made-owning-littelfuse-stock-last-20-years",
-   "created_at": "2026-10-15T23:45:39Z",
-   "symbols": [
-    "LFUS"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_3.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Here’s How Much You Would Have Made Owning Ares Management Stock In The Last 10 Years",
-   "summary": "Ares Management (NYSE:ARES) has outperformed the market over the past 10 years by 6.94% on an annualized basis producing an average annual return of 20.61%. Currently, Ares Management has a market cap",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/10/62402181/here-s-how-much-you-would-have-made-owning-ares-management-stock-last-10-years",
-   "created_at": "2026-10-15T23:30:23Z",
-   "symbols": [
-    "ARES"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_4.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "If You Invested $100 In Union Pacific Stock 20 Years Ago, You Would Have This Much Today",
-   "summary": "Union Pacific (NYSE:UNP) has outperformed the market over the past 20 years by 4.52% on an annualized basis producing an average annual return of 13.52%. Currently, Union Pacific has a market capitali",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/10/62402133/if-you-invested-100-union-pacific-stock-20-years-ago-you-would-have-much-today",
-   "created_at": "2026-10-15T23:15:24Z",
-   "symbols": [
-    "UNP"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_3.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Here's How Much $100 Invested In Take-Two Interactive 15 Years Ago Would Be Worth Today",
-   "summary": "Take-Two Interactive (NASDAQ:TTWO) has outperformed the market over the past 15 years by 6.75% on an annualized basis producing an average annual return of 19.71%. Currently, Take-Two Interactive has ",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/10/62402079/here-s-how-much-100-invested-take-two-interactive-15-years-ago-would-be-worth-today",
-   "created_at": "2026-10-15T23:00:40Z",
-   "symbols": [
-    "TTWO"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_4.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "If You Invested $100 In MaxLinear Stock 15 Years Ago, You Would Have This Much Today",
-   "summary": "MaxLinear (NASDAQ:MXL) has outperformed the market over the past 15 years by 6.61% on an annualized basis producing an average annual return of 19.58%. Currently, MaxLinear has a market capitalization",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/10/62402031/if-you-invested-100-maxlinear-stock-15-years-ago-you-would-have-much-today",
-   "created_at": "2026-10-15T22:45:38Z",
-   "symbols": [
-    "MXL"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_3.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "$100 Invested In NRG Energy 5 Years Ago Would Be Worth This Much Today",
-   "summary": "NRG Energy (NYSE:NRG) has outperformed the market over the past 5 years by 9.05% on an annualized basis producing an average annual return of 20.41%. Currently, NRG Energy has a market capitalization ",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/10/62401952/100-invested-nrg-energy-5-years-ago-would-be-worth-much-today",
-   "created_at": "2026-10-15T22:30:22Z",
-   "symbols": [
-    "NRG"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_3.jpg?width=1024&height=768"
   }
  ]
 }
