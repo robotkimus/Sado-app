@@ -1,6 +1,21 @@
 {
- "updated": "2026-10-18 01:00",
+ "updated": "2026-10-18 02:00",
  "items": [
+  {
+   "headline": "Nebius Stock Falls After Key Gartner Warning as Short Interest Nears 20%",
+   "summary": "Nebius Group extended its steep sell-off as investors dumped neocloud stocks amid ongoing jitters in the artificial intelligence industry.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/10/62428420/nebius-stock-falls-after-key-gartner-warning-as-short-interest-nears-20",
+   "created_at": "2026-10-17T16:30:21Z",
+   "symbols": [
+    "CRWV",
+    "IT",
+    "META",
+    "MSFT",
+    "NBIS"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/17/Konskie--Poland---May-03--2025-Nebius-Gr.jpg?width=1024&height=768"
+  },
   {
    "headline": "Broadcom Stock Is Down 35% From Its Peak as AI Bubble Warnings Rise, but Analysts Stay Optimistic",
    "summary": "Broadcom is stuck in a bear market after falling 35% from its all-time high, as analysts remains highly optimistic about the company.",
@@ -193,16 +208,32 @@
    "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/aggregated_options_3.jpg?width=1024&height=768"
   },
   {
-   "headline": "PayPal Teams Up with Glance to Turn AI Shopping Discovery into Instant Purchases",
-   "summary": "PayPal partners with Glance to bring AI-powered shopping, virtual try-ons and seamless checkout to over 60 million mobile and TV devices.",
+   "headline": "Trump Weighs Shadow-Fleet Sanctions Relief: DHT, Frontline, International Seaways Face Rate Risk",
+   "summary": "Tanker stocks DHT, Frontline and International Seaways fell as the Trump administration weighs easing sanctions on shadow‑fleet vessels, a move that could expand tanker supply and pressure freight rat",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/10/62417892/paypal-teams-up-with-glance-to-turn-ai-shopping-discovery-into-instant-purchases",
-   "created_at": "2026-10-16T16:54:54Z",
+   "url": "https://www.benzinga.com/markets/commodities/26/10/62428405/trump-weighs-shadow-fleet-sanctions-relief-dht-frontline-international-seaways-face-rate-risk",
+   "created_at": "2026-10-17T16:19:43Z",
    "symbols": [
-    "META",
-    "PYPL"
+    "BWET",
+    "DHT",
+    "FRO",
+    "INSW"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/16/London--Uk---August-2021-Paypal-Finance-.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/17/Petroleum-Chemical-Or-Methane-Freighter-.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Rich on Paper, Locked Out in Reality: Why These 'Millionaires' Are Empty-Handed",
+   "summary": "Cryptocurrency has created fortunes for many. Yet for a select few, all that remains is their name stamped on a success story they never actually cashed in on.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/10/62428373/crypto-millionaires-accesss-wallet-private-keys",
+   "created_at": "2026-10-17T16:01:24Z",
+   "symbols": [
+    "BNBUSD",
+    "BTCUSD",
+    "ETHUSD",
+    "ZECUSD"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/17/Male-Hand-Pulling-Out-Us-Dollar-Bills-Fr.jpg?width=1024&height=768"
   },
   {
    "headline": "The Next Hollywood Trailer May Talk Back: Tech CEO Predicts Interactive Technology Could Change How Audiences Experience Movies",
@@ -420,39 +451,6 @@
     "ENS"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_2.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Here’s How Much You Would Have Made Owning Cenovus Energy Stock In The Last 5 Years",
-   "summary": "Cenovus Energy (NYSE:CVE) has outperformed the market over the past 5 years by 12.14% on an annualized basis producing an average annual return of 23.25%. Currently, Cenovus Energy has a market capita",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/10/62426520/here-s-how-much-you-would-have-made-owning-cenovus-energy-stock-last-5-years",
-   "created_at": "2026-10-16T22:15:52Z",
-   "symbols": [
-    "CVE"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_3.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Here's How Much $100 Invested In Lowe's Companies 15 Years Ago Would Be Worth Today",
-   "summary": "Lowe&#39;s Companies (NYSE:LOW) has outperformed the market over the past 15 years by 3.04% on an annualized basis producing an average annual return of 15.83%. Currently, Lowe&#39;s Companies has a m",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/10/62426457/here-s-how-much-100-invested-lowe-s-companies-15-years-ago-would-be-worth-today",
-   "created_at": "2026-10-16T22:00:34Z",
-   "symbols": [
-    "LOW"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_3.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "$100 Invested In DT Midstream 5 Years Ago Would Be Worth This Much Today",
-   "summary": "DT Midstream (NYSE:DTM) has outperformed the market over the past 5 years by 8.9% on an annualized basis producing an average annual return of 20.01%. Currently, DT Midstream has a market capitalizati",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/10/62426394/100-invested-dt-midstream-5-years-ago-would-be-worth-much-today",
-   "created_at": "2026-10-16T21:45:35Z",
-   "symbols": [
-    "DTM"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_3.jpg?width=1024&height=768"
   }
  ]
 }
