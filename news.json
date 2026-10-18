@@ -1,6 +1,21 @@
 {
- "updated": "2026-10-19 01:00",
+ "updated": "2026-10-19 02:00",
  "items": [
+  {
+   "headline": "IREN Stock Drops Below Key Support as AI Pivot Faces Major Headwinds",
+   "summary": "IREN dropped below a crucial support level as the ongoing transition from Bitcoin mining to artificial intelligence faces headwinds.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/10/62429524/iren-stock-drops-below-key-support-as-ai-pivot-faces-major-headwinds",
+   "created_at": "2026-10-18T16:45:28Z",
+   "symbols": [
+    "BTCUSD",
+    "IREN",
+    "IT",
+    "MSFT",
+    "SPCX"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/18/IREN-Limited.jpg?width=1024&height=768"
+  },
   {
    "headline": "Earnings Volatility Watch: Bloom Energy and Other 11 Stocks Are Priced For Double-Digit Swings",
    "summary": "Options price moves above 10% in 12 stocks next week, from TTM Technologies at 20.73% to Stifel Financial at 10.03%. The reports land after a chip and memory selloff that also hit CoreWeave",
@@ -190,18 +205,30 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/10/17/Menlo-Park--Ca--Usa--June-7--2026-Meta-H.jpg?width=1024&height=768"
   },
   {
-   "headline": "The Moment Jensen Huang Realized Nvidia 'Won't Have to Die' Came After a Call From This CEO: 'For the Whole Time, 30 Years…'",
-   "summary": "Nvidia CEO Jensen Huang reveals how repeated calls and a personal letter to TSMC founder Morris Chang forged a decades-long partnership.",
+   "headline": "Trump’s Russia Tariff Waiver Helps Apple, Eliminates Tariff Advantage for CF and CVR Partners",
+   "summary": "Trump’s waiver of steep Russia‑related tariffs gives Apple temporary relief while denying fertilizer makers like CF Industries and CVR Partners a potential shield. The move reshapes outlooks across te",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/10/62426900/the-moment-jensen-huang-realized-nvidia-wont-have-to-die-came-after-a-call-from-this-ceo-for-the-whole-time-30-years",
-   "created_at": "2026-10-17T01:18:40Z",
+   "url": "https://www.benzinga.com/markets/commodities/26/10/62429536/trumps-russia-tariff-waiver-helps-apple-eliminates-tariff-advantage-for-cf-and-cvr-partners",
+   "created_at": "2026-10-18T16:55:09Z",
    "symbols": [
-    "INTC",
-    "NVDA",
-    "TSM",
-    "UMC"
+    "AAPL",
+    "CF",
+    "LXU",
+    "MPC",
+    "UAN"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/17/Jensen-Huang-Nvidias-Founder--President-.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/18/President-Trump-Auto-Tariffs-Announcemen.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Larry Ellison’s Net Worth Plummets as Oracle Suffers $488 Billion Wipeout",
+   "summary": "Larry Ellison’s wealth continued falling this week as concerns about the artificial intelligence industry dented Oracle.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62429506/larry-ellisons-net-worth-plummets-as-oracle-suffers-488-billion-wipeout",
+   "created_at": "2026-10-18T16:30:06Z",
+   "symbols": [
+    "ORCL"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/18/Konskie--Poland---November-13--2024-Orac.jpg?width=1024&height=768"
   },
   {
    "headline": "DRAM ETF Records Biggest Daily Outflow as AI Bubble Fears Rise",
@@ -416,32 +443,6 @@
     "VZ"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/10/17/New-Cybersecurity-Grants-Proposed.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Rocket Lab Stock Erases $57 Billion in Value as Headwinds Mount",
-   "summary": "Rocket Lab stock broke below a key support level and fell to its lowest point since December 9 after it delayed its Neutron product.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/10/62428608/rocket-lab-stock-erases-57-billion-in-value-as-headwinds-mount-is-the-drop-a-gift",
-   "created_at": "2026-10-17T20:30:09Z",
-   "symbols": [
-    "LUNR",
-    "PL",
-    "RKLB",
-    "SPCX"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/17/Rocket-Lab-Beats-Q3-Revenue-Expectations.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Dell Stock Enters Bear Market as Analysts Remain Highly Bullish Despite AI Jitters",
-   "summary": "Dell has slumped into a bear market after falling by over 20% from its highest point this year, with analysts remaining optimistic about the company.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/10/62428590/dell-stock-enters-a-bear-market-as-analysts-remain-highly-bullish-despite-ai-jitters",
-   "created_at": "2026-10-17T20:15:06Z",
-   "symbols": [
-    "DELL",
-    "GS"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/17/Shanghai-china-dec-12th-2021-Close-Up-De.jpg?width=1024&height=768"
   }
  ]
 }
