@@ -1,6 +1,21 @@
 {
- "updated": "2026-10-18 21:00",
+ "updated": "2026-10-18 22:00",
  "items": [
+  {
+   "headline": "Earnings Volatility Watch: Bloom Energy and Other 11 Stocks Are Priced For Double-Digit Swings",
+   "summary": "Options price moves above 10% in 12 stocks next week, from TTM Technologies at 20.73% to Stifel Financial at 10.03%. The reports land after a chip and memory selloff that also hit CoreWeave",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/market-summary/26/10/62429217/earnings-volatility-watch-bloom-energy-and-other-11-stocks-are-priced-for-double-digit-swings",
+   "created_at": "2026-10-18T12:30:16Z",
+   "symbols": [
+    "BE",
+    "CACI",
+    "CBRE",
+    "CRS",
+    "CRWV"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/18/Bloom-Energy-Logo-At-Their-Headquarters-.jpg?width=1024&height=768"
+  },
   {
    "headline": "iPhone Duo Preorders, AAPL Crosses $5 Trillion and More: This Week in Appleverse",
    "summary": "Apple dominates headlines as iPhone Duo preorders surge, shares rise, market value tops $5 trillion and China AI launch plans emerge.",
@@ -189,19 +204,47 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/10/17/Jensen-Huang-Nvidias-Founder--President-.jpg?width=1024&height=768"
   },
   {
-   "headline": "Trump’s $330 Million White House Ballroom Donor List Reveals Nvidia, Apple and Google Among Top Tech Contributors: Report (UPDATED)",
-   "summary": "Trump’s $330 million White House ballroom donor list names major corporate contributors and raises questions over political ties and a pardon.",
+   "headline": "This Week in TSLA: Roadster's Flying Debut, Cybercab Speeding in School Zones, SpaceX Merger and More",
+   "summary": "This week, Tesla unveiled its flying Roadster, faced Cybercab questions and merger speculation with SpaceX.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/10/62409115/trumps-330-million-white-house-ballroom-donor-list-reveals-nvidia-apple-and-google-among-top-tech-contributors-report",
-   "created_at": "2026-10-17T00:40:40Z",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62429279/this-week-in-tsla-roadsters-flying-debut-cybercab-speeding-in-school-zones-spacex-merger-and-more",
+   "created_at": "2026-10-18T12:51:02Z",
    "symbols": [
-    "AAPL",
-    "GOOG",
-    "GOOGL",
-    "JPM",
-    "MSFT"
+    "SPCX",
+    "TSLA"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/17/President-Donald-J--Trump-Speaks-With-Me.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/18/Kaunas--Lithuania-2022---April-14-Tesla-.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Elon Musk’s Flying Tesla, Robotaxi Surge, GM’s Earnings Test and More: This Week in Mobility",
+   "summary": "Tesla’s flying Roadster and Robotaxi expansion headline the roundup, alongside GM’s earnings preview and Delta’s Saudi Arabia delay.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62429268/elon-musks-flying-tesla-robotaxi-surge-gms-earnings-test-and-more-this-week-in-mobility",
+   "created_at": "2026-10-18T12:50:29Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/18/Gigafactory-Berlin-brandenburg-Tesla--Au.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Disney’s $60 Million Character.AI Deal, Meta’s Brazil Scrutiny and Anthropic’s IPO Ambitions: This Week in Tech",
+   "summary": "Disney, Meta, TSMC, Apple and Anthropic make headlines with key AI developments spanning staffing, elections, chips and growth.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62429257/disneys-60-million-character-ai-deal-metas-brazil-scrutiny-and-anthropics-ipo-ambitions-this-week-in-tech",
+   "created_at": "2026-10-18T12:49:54Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/18/Konskie--Poland---January-03--2024-Walt-.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Tesla Promises Its Flying Roadster For 2028, but MKBHD Has One Question: ‘This Is A Prank, Right?’",
+   "summary": "Tesla unveils thruster-powered Roadster capable of hovering and barrel rolls, but YouTuber MKBHD doubts its claims.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62429218/tesla-promises-its-flying-roadster-for-2028-but-mkbhd-has-one-question-this-is-a-prank-right",
+   "created_at": "2026-10-18T12:30:20Z",
+   "symbols": [
+    "LMT",
+    "SPCX",
+    "TSLA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/18/Tesla-Roadster-on-the-road-in-the-Canary.jpg?width=1024&height=768"
   },
   {
    "headline": "Saylor and Yusko's BTC Price Target, Bitmine's ETH Purchase and More: This Week in Crypto",
@@ -390,47 +433,6 @@
     "VOO"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/10/17/Wall-Street-Bull.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Trump Weighs Shadow-Fleet Sanctions Relief: DHT, Frontline, International Seaways Face Rate Risk",
-   "summary": "Tanker stocks DHT, Frontline and International Seaways fell as the Trump administration weighs easing sanctions on shadow‑fleet vessels, a move that could expand tanker supply and pressure freight rat",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/commodities/26/10/62428405/trump-weighs-shadow-fleet-sanctions-relief-dht-frontline-international-seaways-face-rate-risk",
-   "created_at": "2026-10-17T16:19:43Z",
-   "symbols": [
-    "BWET",
-    "DHT",
-    "FRO",
-    "INSW"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/17/Petroleum-Chemical-Or-Methane-Freighter-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Rich on Paper, Locked Out in Reality: Why These 'Millionaires' Are Empty-Handed",
-   "summary": "Cryptocurrency has created fortunes for many. Yet for a select few, all that remains is their name stamped on a success story they never actually cashed in on.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/10/62428373/crypto-millionaires-accesss-wallet-private-keys",
-   "created_at": "2026-10-17T16:01:24Z",
-   "symbols": [
-    "BNBUSD",
-    "BTCUSD",
-    "ETHUSD",
-    "ZECUSD"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/17/Male-Hand-Pulling-Out-Us-Dollar-Bills-Fr.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "The Next Hollywood Trailer May Talk Back: Tech CEO Predicts Interactive Technology Could Change How Audiences Experience Movies",
-   "summary": "Flam CEO Shourya Agarwal expects nearly every Hollywood studio to adopt interactive trailers, allowing viewers to engage in real time.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/10/62428248/flam-hollywood-studios-interactive-movie-trailers",
-   "created_at": "2026-10-17T14:00:19Z",
-   "symbols": [
-    "DDOG",
-    "GOOG",
-    "GOOGL"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/17/Shourya-4-1.jpg?width=1024&height=768"
   }
  ]
 }
