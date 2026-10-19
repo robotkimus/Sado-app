@@ -1,6 +1,21 @@
 {
- "updated": "2026-10-19 16:00",
+ "updated": "2026-10-19 17:00",
  "items": [
+  {
+   "headline": "Samsung Turns to Rival TSMC for Nvidia’s Next-Generation Memory—Micron, SK Hynix Face Same Request: Report",
+   "summary": "Samsung will reportedly use TSMC’s process to make the base die for Nvidia’s custom high-bandwidth memory.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62431195/samsung-accepts-nvidia-terms-turns-to-tsmc-next-generation-memory",
+   "created_at": "2026-10-19T07:10:01Z",
+   "symbols": [
+    "MU",
+    "NVDA",
+    "SKHY",
+    "SSNLF",
+    "TSM"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/19/Modern-Office-Building-With-Large-Samsun.jpg?width=1024&height=768"
+  },
   {
    "headline": "Stock Market: Will S&P 500 Open Up or Down Today?",
    "summary": "Will S&amp;P 500 open higher? Polymarket odds reach 88% as Wall Street shakes off &#34;Black Monday&#34; crash fears ahead of Meta and Tesla earnings.",
@@ -194,19 +209,45 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/10/17/CoreWeave.jpg?width=1024&height=768"
   },
   {
-   "headline": "Nebius Stock Falls After Key Gartner Warning as Short Interest Nears 20%",
-   "summary": "Nebius Group extended its steep sell-off as investors dumped neocloud stocks amid ongoing jitters in the artificial intelligence industry.",
+   "headline": "Nasdaq Tumbles Over 2%, Records Weekly Loss: Investor Sentiment Weakens, Fear & Greed Index Moves to ‘Extreme Fear’ Zone",
+   "summary": "Markets fell sharply, led by tech, as CNN’s Fear &amp; Greed Index hit Extreme Fear at 18; oil stayed elevated amid Hormuz tensions.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/10/62428420/nebius-stock-falls-after-key-gartner-warning-as-short-interest-nears-20",
-   "created_at": "2026-10-17T16:30:21Z",
+   "url": "https://www.benzinga.com/markets/market-summary/26/10/62431244/nasdaq-tumbles-over-2-records-weekly-loss-investor-sentiment-weakens-fear-greed-index-moves-to-extreme-fear-zone",
+   "created_at": "2026-10-19T07:21:40Z",
    "symbols": [
-    "CRWV",
-    "IT",
-    "META",
-    "MSFT",
-    "NBIS"
+    "AMD",
+    "CFG",
+    "CLF",
+    "FITB",
+    "MTB"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/17/Konskie--Poland---May-03--2025-Nebius-Gr.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/19/Market-sentiment---Fear-and-Greed.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Fifth Third Bancorp, Cleveland-Cliffs and 3 Stocks to Watch Heading Into Monday",
+   "summary": "Investors eye earnings from Fifth Third, Cleveland-Cliffs, Crown Holdings and Steel Dynamics; Gauzy announces a $7M private placement.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/10/62431231/fifth-third-bancorp-cleveland-cliffs-and-3-stocks-to-watch-heading-into-monday",
+   "created_at": "2026-10-19T07:17:16Z",
+   "symbols": [
+    "CCK",
+    "CLF",
+    "FITB",
+    "GAUZ",
+    "STLD"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/19/Fifth-Third-Bancorp-Editorial--Fifth-Thi.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "SpaceX Launch Could Create a Giant ‘Jellyfish’ in the Sky Over the East Coast Monday",
+   "summary": "SpaceX’s Monday Falcon 9 launch from Florida may create glowing jellyfish clouds as sunlight illuminates expanding exhaust before dawn.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/space/26/10/62431184/spacex-launch-could-create-a-giant-jellyfish-in-the-sky-over-the-east-coast-monday",
+   "created_at": "2026-10-19T07:09:40Z",
+   "symbols": [
+    "SPCX"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/19/Paris--France---February-3--2026-A-Horiz.jpg?width=1024&height=768"
   },
   {
    "headline": "Chris Wright Defends Trump as Gas Tops $4.29—‘He Works Every Single Day’ To Drive Energy Prices Down",
@@ -430,41 +471,6 @@
     "UAN"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/10/18/President-Trump-Auto-Tariffs-Announcemen.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Larry Ellison’s Net Worth Plummets as Oracle Suffers $488 Billion Wipeout",
-   "summary": "Larry Ellison’s wealth continued falling this week as concerns about the artificial intelligence industry dented Oracle.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/10/62429506/larry-ellisons-net-worth-plummets-as-oracle-suffers-488-billion-wipeout",
-   "created_at": "2026-10-18T16:30:06Z",
-   "symbols": [
-    "ORCL"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/18/Konskie--Poland---November-13--2024-Orac.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "DRAM ETF Records Biggest Daily Outflow as AI Bubble Fears Rise",
-   "summary": "The DRAM ETF is seeing substantial outflows, with its price falling to the lowest level in months as top stocks continue falling.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/etfs/sector-etfs/26/10/62429473/dram-etf-records-biggest-daily-outflow-as-ai-bubble-fears-rise",
-   "created_at": "2026-10-18T15:45:06Z",
-   "symbols": [
-    "DRAM",
-    "IT",
-    "MU"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/18/Micron-Technology-Logo-Displayed-On-A-Mo.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Bitcoin to Reach $1M by 2030? Mark Moss Says It Could Happen",
-   "summary": "Investor Mark Moss says Bitcoin could reach $1M by 2030, $11M by 2040 and $43M by 2050 by capturing global wealth, though projections are speculative.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/10/62429451/bitcoin-to-reach-1m-by-2030-mark-moss-says-it-could-happen",
-   "created_at": "2026-10-18T15:30:12Z",
-   "symbols": [
-    "BTCUSD"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/18/Modern-Way-Of-Exchange--Bitcoin-Is-Conve.jpg?width=1024&height=768"
   }
  ]
 }
