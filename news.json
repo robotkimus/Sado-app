@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-19 13:00",
+ "updated": "2026-10-19 14:00",
  "items": [
+  {
+   "headline": "Dow Futures Rise Despite 'Black Monday' Calls: Market Commentator Says Selloff Worries Are 'Overdone'",
+   "summary": "U.S. stock futures rose late Sunday, signaling a bounce from Friday’s Nasdaq slide, even as calls for a Black Monday crash trended. ",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/10/62430539/black-monday-calls-trend-stock-futures-rise",
+   "created_at": "2026-10-19T04:46:14Z",
+   "symbols": [
+    "BLK",
+    "POLUSD",
+    "QQQ",
+    "SPY"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/19/Businessman-Examining-A-Declining-Stock-.jpg?width=1024&height=768"
+  },
   {
    "headline": "GE Aerospace Stock Nears Death Cross Amid Valuation Concerns and Strong Earnings Outlook",
    "summary": "GE Aerospace stock is nearing a death cross amid the ongoing valuation concerns ahead of its third quarter earnings report.",
@@ -193,19 +207,13 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/10/17/Broadcom-Headquarters-Main-Entrance-Sign.jpg?width=1024&height=768"
   },
   {
-   "headline": "Benzinga Bulls and Bears: Palantir, Apple, Six Flags",
-   "summary": "Benzinga examined the prospects for many investors’ favorite stocks over the last week — here’s a look at some of our top stories.",
+   "headline": "France Erupts In Worst Unrest In Years as 2,400 Arrested: Emmanuel Macron Says 'Nothing Justifies It, Nothing Explains It, Nothing Excuses It'",
+   "summary": "Macron urges calm as France riots over living costs damage shops and public buildings; 2,400 arrested and nearly 1,000 officers injured.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/market-summary/26/10/62428065/benzinga-bulls-and-bears-palantir-apple-six-flags",
-   "created_at": "2026-10-17T12:00:10Z",
-   "symbols": [
-    "AAPL",
-    "CBRS",
-    "CRWV",
-    "FUN",
-    "GME"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/17/Bulls-and-Bears-1.jpg?width=1024&height=768"
+   "url": "https://www.benzinga.com/news/politics/26/10/62430428/france-unrest-2400-arrests-emmanuel-macron-condemns-violence",
+   "created_at": "2026-10-19T04:26:51Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/19/Emmanuel-Macron-During-The-Rugby-World-C.jpg?width=1024&height=768"
   },
   {
    "headline": "'This Is What I Will Be Doing’: Elon Musk Says He’ll Give Shares To The Public After Anthropic Announces 5% Fund",
@@ -460,17 +468,6 @@
    "created_at": "2026-10-18T12:00:07Z",
    "symbols": [],
    "image": "https://cdn.benzinga.com/files/images/story/2026/10/18/Bitcoin-Btc-Virtual-Cryptocurrency-In-Fr.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Elon Musk Says Optimus, Cybercab Will Be ‘the Vast Majority’ of Tesla’s Value",
-   "summary": "Musk says Tesla’s Optimus robot and Cybercab will drive most future value as investors await Q3 results and updates on AI, robotaxis and margins.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/10/62429164/elon-musk-says-optimus-cybercab-will-be-the-vast-majority-of-teslas-value",
-   "created_at": "2026-10-18T11:11:45Z",
-   "symbols": [
-    "TSLA"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/18/Kaunas--Lithuania-2022---April-14-Tesla-.jpg?width=1024&height=768"
   }
  ]
 }
