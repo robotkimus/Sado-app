@@ -1,6 +1,46 @@
 {
- "updated": "2026-10-20 19:00",
+ "updated": "2026-10-20 20:00",
  "items": [
+  {
+   "headline": "3M Stock Is Gaining Tuesday: What's Going On?",
+   "summary": "3M (MMM) stock jumps 3.7% premarket ahead of Q3 earnings. Analysts forecast $2.02 EPS on $6.33B revenue. Key technical levels to watch.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62460393/3m-stock-is-gaining-monday-whats-going-on",
+   "created_at": "2026-10-20T10:33:06Z",
+   "symbols": [
+    "AMZN",
+    "MMM"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/20/3M-MMM.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Stock Market Today:  Dow Jones Futures Rise, Nasdaq 100 Falls as Iran Threatens to Target Undersea Cables — SPCX, NFLX, STLD in Focus",
+   "summary": "U.S. stock futures were swinging between gains and losses on Tuesday, as Dow Jones rose, while the S&amp;P 500 and the Nasdaq 100 indices fell.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/10/62460028/stock-market-today-dow-jones-futures-rise-nasdaq-100-falls-as-iran-threatens-to-target-undersea-cables-spcx-nflx-stld-in-focus",
+   "created_at": "2026-10-20T10:13:26Z",
+   "symbols": [
+    "BTCUSD",
+    "CCK",
+    "GE",
+    "GM",
+    "MMM"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/20/Close-Up-Of-Wall-Street-Sign-With-Iconic.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "CoreWeave Stock Sinks to 52-Week Low As Wall Street's AI Debt Fears Deepen",
+   "summary": "CoreWeave (CRWV) hits a new 52-week low premarket as heavy debt worries outweigh strong AI GPU demand and bullish analyst forecasts.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62459918/coreweave-stock-sinks-to-52-week-low-as-wall-streets-ai-debt-fears-deepen",
+   "created_at": "2026-10-20T10:10:12Z",
+   "symbols": [
+    "CRWV",
+    "META",
+    "MSFT"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/20/CoreWeave-Inc.jpg?width=1024&height=768"
+  },
   {
    "headline": "BlackRock Wants to Give Bitcoin Investors ‘Downside Protection’ With New ETF: Here’s How It Works",
    "summary": "BlackRock Inc. filed on Monday, October 19, for a Bitcoin exchange-traded fund that would pair potential gains with an intended layer of &#34;downside protection.&#34;",
@@ -169,41 +209,132 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/10/20/A-Dynamic-Blue-Arrow-Superimposed-On-A-S.jpg?width=1024&height=768"
   },
   {
-   "headline": "Congressman Sells Nvidia Stock Again: 7 Sales in 2026 Add to Trades Since 2022",
-   "summary": "A member of Congress has been selling Nvidia stock consistently in 2026 and in each year since 2022. Here&#39;s a look at the history.",
+   "headline": "Nebius Group Stock Is Falling Tuesday: What's Going On?",
+   "summary": "Nebius (NBIS) falls 4% premarket on AI financing fears. Track price action, moving average signals, and analyst updates.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/10/62456282/congressman-sells-nvidia-stock-again-7-sales-in-2026-add-to-trades-since-2022",
-   "created_at": "2026-10-19T22:19:15Z",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62460872/nebius-group-stock-is-falling-tuesday-whats-going-on",
+   "created_at": "2026-10-20T10:53:50Z",
    "symbols": [
-    "NVDA"
+    "CRWV",
+    "NBIS"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/19/Nvidia-Logo-Displayed-On-A-Smartphone-Sc.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/20/Nebius-Group.jpg?width=1024&height=768"
   },
   {
-   "headline": "Amazon Just Found a Way Around Nvidia’s Biggest Moat",
-   "summary": "Amazon’s TorchNeuron makes it easier to run PyTorch code on Trainium, challenging Nvidia’s software advantage in AI chips.",
+   "headline": "Gary Black Predicts SPCX to Offer $420 Per Share For TSLA in a Stock-For-Stock Deal, Calls Tesla-SpaceX Merger ‘Inevitable’",
+   "summary": "Gary Black expects a $420/share offer from SpaceX, but warns that the deal would lead to dilution that would limit gains for TSLA investors.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/10/62452876/amazon-trainium-nvidia-cuda",
-   "created_at": "2026-10-19T20:05:43Z",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62460836/gary-black-predicts-spcx-to-offer-420-per-share-for-tsla-in-a-stock-for-stock-deal-calls-tesla-spacex-merger-inevitable",
+   "created_at": "2026-10-20T10:52:18Z",
    "symbols": [
-    "AMZN",
-    "NVDA"
+    "SPCX",
+    "TSLA"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/19/Amazon.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/20/Tesla-SpaceX.jpg?width=1024&height=768"
   },
   {
-   "headline": "TIPS Now Pay 2.8% Above Inflation. Here's The Hurdle That Sets For S&P 500 Investors",
-   "summary": "Key Takeaways\n\n\n\n\nThe 10-year Treasury Inflation-Protected Securities (TIPS) yield closed at 2.78% on Oct. 15, up from 1.71% a year earlier, yet the S&amp;P 500 gained 16.8% in that span.\n\n\n\nThe index",
+   "headline": "Top Wall Street Forecasters Revamp Thermo Fisher Scientific Expectations Ahead Of Q3 Earnings",
+   "summary": "Thermo Fisher reports Q3 earnings Oct. 21, with analysts expecting $6.40 EPS and $11.93B revenue; analysts remain bullish, raising price targets.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/Opinion/26/10/62452412/tips-now-pay-2-8-above-inflation-heres-the-hurdle-that-sets-for-sp500-investors",
-   "created_at": "2026-10-19T19:56:06Z",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62460718/top-wall-street-forecasters-revamp-thermo-fisher-scientific-expectations-ahead-of-q3-earnings",
+   "created_at": "2026-10-20T10:45:08Z",
    "symbols": [
-    "MU",
-    "NVDA",
-    "SPY",
-    "TIP"
+    "QNTM",
+    "TMO"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/19/TIPS.png?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/20/Thermo-Fisher-Cambridge--Ma--Usa---June-.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Mortgage Rates Are ‘Eating Up All the Good News’ on Housing, Says NAHB CEO — Peter Schiff Warns of ‘Worst Housing Market in US History’",
+   "summary": "Mortgage rates strain housing market as NAHB’s Jim Tobin and Peter Schiff weigh in.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/real-estate/26/10/62460233/mortgage-rates-are-eating-up-all-the-good-news-on-housing-says-nahb-ceo-peter-schiff-warns-of-worst-housing-market-in-us-history",
+   "created_at": "2026-10-20T10:30:28Z",
+   "symbols": [
+    "FMCC",
+    "FNMA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/20/Representative-image-of-the-U-S--housing.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Top Economist Warns US Is ‘Wildly Irresponsible’ With $1.99 Trillion Deficit as Interest Costs Top Defense Spending",
+   "summary": "Economist Justin Wolfers says the U.S. has its largest deficit outside a recession or war, with Medicare and food stamps funding tax cuts.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/economic-data/26/10/62460136/justin-wolfers-deficit-medicare-food-stamps-tax-cuts-rich",
+   "created_at": "2026-10-20T10:23:07Z",
+   "symbols": [
+    "IEF",
+    "TLT"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/20/Representative-image-of-US-economy.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Top 3 Financial Stocks Which Could Rescue Your Portfolio In Q4",
+   "summary": "Bank of America, Morgan Stanley and Goldman Sachs are among the most oversold financial stocks, offering potential opportunities for investors.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/10/62459916/top-3-financial-stocks-which-could-rescue-your-portfolio-in-q4",
+   "created_at": "2026-10-20T10:10:08Z",
+   "symbols": [
+    "BAC",
+    "GS",
+    "MS"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/20/JPMorgan--Bank-of-America-Rally-Behind-T.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "In-Depth Analysis: Automatic Data Processing Versus Competitors In Professional Services Industry",
+   "summary": "In the fast-paced and cutthroat world of business, conducting thorough company analysis is essential for investors and industry experts. In this article, we will undertake a comprehensive industry com",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62459437/depth-analysis-automatic-data-processing-versus-competitors-professional-services-industry",
+   "created_at": "2026-10-20T09:59:23Z",
+   "symbols": [
+    "ADP"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/earnings_preview_5.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Analyzing Analog Devices In Comparison To Competitors In Semiconductors &amp; Semiconductor Equipment Industry",
+   "summary": "In today&#39;s fast-paced and highly competitive business world, it is crucial for investors and industry followers to conduct comprehensive company evaluations. In this article, we will delve into an",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62459430/analyzing-analog-devices-comparison-competitors-semiconductors-amp-semiconductor-equipment-industry",
+   "created_at": "2026-10-20T09:59:19Z",
+   "symbols": [
+    "ADI"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/earnings_preview_3.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Understanding Adobe's Position In Software Industry Compared To Competitors",
+   "summary": "In the fast-paced and highly competitive business world of today, conducting thorough company analysis is essential for investors and industry observers. In this article, we will conduct an extensive ",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62459427/understanding-adobe-s-position-software-industry-compared-competitors",
+   "created_at": "2026-10-20T09:59:15Z",
+   "symbols": [
+    "ADBE"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/earnings_preview_13.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Comparative Study: Airbnb And Industry Competitors In Hotels, Restaurants &amp; Leisure Industry",
+   "summary": "In the fast-paced and cutthroat world of business, conducting thorough company analysis is essential for investors and industry experts. In this article, we will undertake a comprehensive industry com",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62459426/comparative-study-airbnb-and-industry-competitors-hotels-restaurants-amp-leisure-industry",
+   "created_at": "2026-10-20T09:59:08Z",
+   "symbols": [
+    "ABNB"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/earnings_preview_5.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Comparing Apple With Industry Competitors In Technology Hardware, Storage &amp; Peripherals Industry",
+   "summary": "In today&#39;s rapidly changing and highly competitive business world, it is vital for investors and industry enthusiasts to carefully assess companies. In this article, we will perform a comprehensiv",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62459425/comparing-apple-industry-competitors-technology-hardware-storage-amp-peripherals-industry",
+   "created_at": "2026-10-20T09:59:03Z",
+   "symbols": [
+    "AAPL"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/earnings_preview_13.jpg?width=1024&height=768"
   },
   {
    "headline": "AT&T Gears Up For Q3 Print; Here Are The Recent Forecast Changes From Wall Street's Most Accurate Analysts",
@@ -336,111 +467,6 @@
    "created_at": "2026-10-20T07:33:32Z",
    "symbols": [],
    "image": "https://cdn.benzinga.com/files/images/story/2026/10/20/Usa-And-Iran-Flags-Overlapping-A-Middle-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Anthony Scaramucci Says Ukraine Gave Up Nuclear Arsenal, And Trump Is Treating The Deal ‘As If It Never Existed’",
-   "summary": "SkyBridge’s Anthony Scaramucci said Monday that Trump abandoned a 1994 promise to Ukraine by waiving Russia sanctions to do Putin a favor.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/economic-data/26/10/62458192/anthony-scaramucci-trump-abandoned-ukraine-promise-russia-sanctions-waiver",
-   "created_at": "2026-10-20T07:18:01Z",
-   "symbols": [
-    "GS"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/20/Scaramucci-Crowns-Blankfeins-Streetwise-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Asia’s Bitcoin Play Hits Wall Street: Metaplanet Set to Buy This Nasdaq-Listed Company for BTC Treasury Operations",
-   "summary": "Super League Enterprise, Inc. stockholders on Monday, October 19, approved all proposals connected to Japan-based Metaplanet, Inc.’s planned strategic investment.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/10/62458087/metaplanet-super-league-acquisition-bitcoin-treasury-nasdaq",
-   "created_at": "2026-10-20T07:00:48Z",
-   "symbols": [
-    "BTCUSD",
-    "SLE",
-    "ZECUSD"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/20/Bitcoin-Btc-Virtual-Cryptocurrency-In-Fr.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Trump Media Stock Hits 52-Week Low, Trends Overnight: What’s Going On With DJT?",
-   "summary": "Trump Media stock hits a record low as DJT falls 8.01%, underperforming broader market benchmarks.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/10/62458049/trump-media-stock-hits-52-week-low-trends-overnight-whats-going-on-with-djt",
-   "created_at": "2026-10-20T06:51:41Z",
-   "symbols": [
-    "DJT",
-    "SOCL",
-    "SPY"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/20/Vilnius--Lithuania---2021-November-2-Tru.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Trump Wants New Mexico Renamed ‘New America’; Bernie Sanders Says Americans Paying $6.30 for Diesel Want Him to ‘Immediately’ End Iran War",
-   "summary": "Trump’s push to rename New Mexico “New America” drew backlash, with Bernie Sanders urging him to focus on the Iran war.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/10/62457825/trump-new-mexico-iran-gas-prices",
-   "created_at": "2026-10-20T06:16:43Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/20/Washington-Dc-Usa---June-24--2025---Pres.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Hillary Clinton Calls Trump ‘Putin’s Puppet’ Over Russia Diesel Deal and Starlink Blame Game With Elon Musk",
-   "summary": "Hillary Clinton criticized Trump’s Russia policy as Putin floated Ukraine peace talks with Trump and Xi, excluding Kyiv.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/10/62457513/hillary-clinton-trump-putin-xi-ukraine",
-   "created_at": "2026-10-20T04:50:15Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/20/New-York--Ny--Usa---April-13--2016-Hilla.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Iran Escalates Threat to Target Undersea Cables in Hormuz Strait: ‘All of the World’s Internet and Commercial Data Depend on Them’",
-   "summary": "Cryptocurrency punters remain skeptical that Iran will sabotage undersea cables to disrupt critical digital infrastructure, despite a renewed threat from the Islamic Revolutionary Guard Corps.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62457366/iran-tehran-undersea-cables-digital-infrastructure-war",
-   "created_at": "2026-10-20T03:54:53Z",
-   "symbols": [
-    "BTCUSD",
-    "POLUSD",
-    "ZECUSD"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/20/Strait-of-Hormuz--a-strait-between-the-P.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "‘Obviously This Is a Finger’: Apple’s ‘Pro and Tell’ Teaser Has Everyone Talking — MacBook Pro Buzz Intensifies",
-   "summary": "California based Apple is on track to unveil a touchscreen MacBook Pro, M6 Macs and an OLED iPad mini next week.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/10/62457324/apple-touchscreen-macbook-pro",
-   "created_at": "2026-10-20T03:17:23Z",
-   "symbols": [
-    "AAPL"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/20/Feb-15th-2024--A-Woman-Using-And-Working.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Jim Cramer Calls Trump's Russia Sanctions Waiver 'Tragic' After Report Says President 'Openly Aiding the Kremlin'",
-   "summary": "Jim Cramer weighed in on a report that Trump has made America an ally of Russia, days after he waived the sanctions law.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/economic-data/26/10/62457282/jim-cramer-tragic-report-trump-russia-sanctions-waiver",
-   "created_at": "2026-10-20T02:58:33Z",
-   "symbols": [
-    "GS"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/20/Jim-Cramer-Lauds-Trumps-Tariff-Playbook.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Bitcoin, Ethereum, XRP, Dogecoin Dip Even as 'Greed' Runs High: Analyst Sees 'Strong Bullish Setup' if This Trend Continues",
-   "summary": "Leading cryptocurrencies remained lukewarm on Monday, October 19, as investors weighed Federal Reserve Chair Kevin Warsh&#39;s latest remarks and rate hike odds.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/10/62457259/bitcoin-ethereum-xrp-dogecoin-crypto-market",
-   "created_at": "2026-10-20T02:44:39Z",
-   "symbols": [
-    "BMNR",
-    "BTCUSD",
-    "DOGEUSD",
-    "ETHUSD",
-    "MSTR"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/20/Modern-Way-Of-Exchange--Bitcoin-Is-Conve.jpg?width=1024&height=768"
   }
  ]
 }
