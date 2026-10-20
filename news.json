@@ -1,6 +1,19 @@
 {
- "updated": "2026-10-20 10:16",
+ "updated": "2026-10-20 11:00",
  "items": [
+  {
+   "headline": "Amazon Gets Warrant to Buy $521.4 Million of 3M Stock in Expanded Data Center Partnership: MMM Rises Over 5% After Hours",
+   "summary": "Amazon expanded its data center partnership with 3M and got a warrant to buy about $521.4 million of 3M stock tied to product purchases.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62457090/amazon-gets-3m-stock-warrant-data-center-partnership",
+   "created_at": "2026-10-20T01:40:28Z",
+   "symbols": [
+    "AMZN",
+    "MMM",
+    "MSFT"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/20/Kolbaskowo--Poland---May-3--2026-Amazon-.jpg?width=1024&height=768"
+  },
   {
    "headline": "Amazon.com, Cleveland-Cliffs, Disc Medicine, Silence Therapeutics and EyePoint: Why These 5 Stocks Are on Investors' Radars Today",
    "summary": "Major U.S. indices ended mixed on Monday, with the Dow Jones Industrial Average slipping 0.07% to 51,966.03.",
@@ -192,18 +205,31 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/10/19/Phoenix--Arizona---September-1-2022-Auto.jpg?width=1024&height=768"
   },
   {
-   "headline": "Why Is AMD Stock Surging on Monday?",
-   "summary": "Advanced Micro Devices traded higher on Monday as semiconductor stocks rebounded from an eight-day losing streak.",
+   "headline": "Cathie Wood Buys $8.1 Million of CoreWeave Stock as Goldman Sachs Upgrades, Ark Invest Sells Palantir Stock",
+   "summary": "Cathie Wood’s Ark bought CoreWeave shares and sold Palantir shares on Monday, Oct. 19, 2026.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62445435/why-is-amd-stock-surging-on-monday",
-   "created_at": "2026-10-19T16:31:03Z",
+   "url": "https://www.benzinga.com/etfs/broad-u-s-equity-etfs/26/10/62457109/cathie-wood-buys-8-1-million-of-coreweave-stock-as-goldman-sachs-upgrades-ark-invest-sells-palantir-stock",
+   "created_at": "2026-10-20T01:45:15Z",
    "symbols": [
-    "AMD",
-    "GS",
-    "QQQ",
-    "SOXX"
+    "ARKK",
+    "ARKW",
+    "CRWV",
+    "PLTR"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/19/Charlotte--North-Carolina---November-11-.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/20/Germany--Mannheim-January-29--2025--Sign.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Trump Hits 31%, Lowest Across Both Terms, as Democrats Widen Lead Over Republicans: Poll",
+   "summary": "President Donald Trump’s approval rating has fallen to its lowest point across both presidential terms, while Democrats gain ground ahead of midterm elections, according to a report published on Monda",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62457054/trump-approval-midterm-elections-republicans-democrats-polymarket",
+   "created_at": "2026-10-20T01:36:56Z",
+   "symbols": [
+    "BTCUSD",
+    "POLUSD",
+    "ZECUSD"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/20/Washington-Dc--United-States--August-9-2.jpg?width=1024&height=768"
   },
   {
    "headline": "If You Invested $1000 In JPMorgan Chase Stock 10 Years Ago, You Would Have This Much Today",
@@ -475,32 +501,6 @@
     "GS"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/10/19/Private-Equity.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Here’s How Much You Would Have Made Owning MKS Stock In The Last 10 Years",
-   "summary": "MKS (NASDAQ:MKSI) has outperformed the market over the past 10 years by 2.3% on an annualized basis producing an average annual return of 15.9%. Currently, MKS has a market capitalization of $15.37 bi",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/10/62453946/here-s-how-much-you-would-have-made-owning-mks-stock-last-10-years",
-   "created_at": "2026-10-19T20:30:25Z",
-   "symbols": [
-    "MKSI"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_1.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Dan Ives Sees Cybersecurity Spending Doubling: 5 Stocks That Could Benefit",
-   "summary": "Dan Ives expects cybersecurity’s share of IT budgets to rise to 10%. Here are five stocks he favors as AI agents expand security risks.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/10/62453730/dan-ives-cybersecurity-stocks",
-   "created_at": "2026-10-19T20:23:26Z",
-   "symbols": [
-    "CHKP",
-    "CRWD",
-    "FTNT",
-    "PANW",
-    "ZS"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/19/Ai-driven-Cloud-Interface-Automatically-.jpg?width=1024&height=768"
   }
  ]
 }
