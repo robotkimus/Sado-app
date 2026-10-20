@@ -1,6 +1,29 @@
 {
- "updated": "2026-10-20 16:00",
+ "updated": "2026-10-20 17:00",
  "items": [
+  {
+   "headline": "Mark Zuckerberg Called AI Agents Meta’s Next Revenue Engine: Will Muse Deliver When Q3 Earnings Land",
+   "summary": "Meta Platforms, Inc.’s Q3 earnings will test whether its Muse AI agent can deliver on Zuckerberg’s growth ambitions.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62458367/meta-q3-earnings-muse-ai-agent-revenue",
+   "created_at": "2026-10-20T07:40:49Z",
+   "symbols": [
+    "META",
+    "POLUSD"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/20/Bukovel--Ukraine--October-13--2022-Wax-F.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Big Short Investor Flags Major Vulnerability for Nvidia — 5 Customers Account for 70% of Receivables: ‘Tremendous Amount of Concentration Risk’",
+   "summary": "Big Short&#39;s Steve Eisman warns of Nvidia &#39;concentration risk&#39; as its 10-Q shows 70% of accounts receivable come from just 5 customers.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/10/62458211/big-short-investor-flags-major-vulnerability-for-nvidia-5-customers-account-for-70-of-receivables-tremendous-amount-of-concentration-risk",
+   "created_at": "2026-10-20T07:25:48Z",
+   "symbols": [
+    "NVDA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/20/Jensen-Huang-Nvidias-Founder--President-.jpg?width=1024&height=768"
+  },
   {
    "headline": "Stock Market: Will S&P 500 Open Up or Down Today?",
    "summary": "Will the S&amp;P 500 open higher? Polymarket odds sit at 55% as Wall Street weighs Netflix earnings, slipping tech futures, and $110 Brent crude.",
@@ -182,34 +205,62 @@
    "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/aggregated_options_1.jpg?width=1024&height=768"
   },
   {
-   "headline": "10 Information Technology Stocks With Whale Alerts In Today’s Session",
-   "summary": "This whale alert can help traders discover the next big trading opportunities.\nWhales are entities with large sums of money and we track their transactions here at Benzinga on our options activity sca",
+   "headline": "Chevron, ExxonMobil Stocks Hit 52-Week Highs as Fresh US-Israel Threats Against Iran Push Brent Crude to 5-Month Highs",
+   "summary": "Chevron and Exxon hit 52-week highs as Iran tensions drove oil above $110, raising fears of Middle East supply disruptions.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/options/26/10/62448000/10-information-technology-stocks-whale-alerts-today-s-session",
-   "created_at": "2026-10-19T17:35:12Z",
+   "url": "https://www.benzinga.com/markets/equities/26/10/62458379/chevron-exxonmobil-stocks-hit-52-week-highs-as-fresh-us-israel-threats-against-iran-push-brent-crude-to-5-month-highs",
+   "created_at": "2026-10-20T07:43:18Z",
    "symbols": [
-    "AAPL",
-    "CORZ",
-    "CRWV",
-    "IREN",
-    "MRVL"
+    "CVX",
+    "UCO",
+    "USO",
+    "XOM"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/aggregated_options_3.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/20/Night-View-Chevron-Sign.jpg?width=1024&height=768"
   },
   {
-   "headline": "Dow Jones Industrial Average in Spotlight: 5 Stocks Report This Week, Including 2 of the Worst Performing",
-   "summary": "Five of the 30 Dow Jones Industrial Average components reported this week. A look at analyst expectations for the five names.",
+   "headline": "Why Are GameStop Warrants Trending Overnight?",
+   "summary": "GameStop warrants fall after hours as the company reminds holders of the Oct. 30 expiration deadline and $32 exercise price.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/previews/26/10/62447975/dow-jones-industrial-average-spotlight-5-stocks-worst-performing",
-   "created_at": "2026-10-19T17:34:18Z",
+   "url": "https://www.benzinga.com/markets/equities/26/10/62458264/why-are-gamestop-warrants-trending-overnight",
+   "created_at": "2026-10-20T07:35:38Z",
    "symbols": [
-    "AXP",
-    "DIA",
-    "HON",
-    "IBM",
-    "MMM"
+    "GME"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/19/Tallinn--Estonia---August-4th-2023---Scr.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/20/Gamestop-Stripmall-Location--Gamestop-Is.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Top Risk Analyst Warns Iran Could Expand Ship Strikes Beyond Strait of Hormuz — Tehran Adds 122 Tankers to 'Sanctions' List",
+   "summary": "Iran adds 122 tankers to Strait of Hormuz non-compliance list and this risk analyst warns of broader strikes.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/commodities/26/10/62458242/top-risk-analyst-warns-iran-could-expand-ship-strikes-beyond-strait-of-hormuz-tehran-adds-122-tankers-to-sanctions-list",
+   "created_at": "2026-10-20T07:33:32Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/20/Usa-And-Iran-Flags-Overlapping-A-Middle-.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Anthony Scaramucci Says Ukraine Gave Up Nuclear Arsenal, And Trump Is Treating The Deal ‘As If It Never Existed’",
+   "summary": "SkyBridge’s Anthony Scaramucci said Monday that Trump abandoned a 1994 promise to Ukraine by waiving Russia sanctions to do Putin a favor.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/economic-data/26/10/62458192/anthony-scaramucci-trump-abandoned-ukraine-promise-russia-sanctions-waiver",
+   "created_at": "2026-10-20T07:18:01Z",
+   "symbols": [
+    "GS"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/20/Scaramucci-Crowns-Blankfeins-Streetwise-.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Asia’s Bitcoin Play Hits Wall Street: Metaplanet Set to Buy This Nasdaq-Listed Company for BTC Treasury Operations",
+   "summary": "Super League Enterprise, Inc. stockholders on Monday, October 19, approved all proposals connected to Japan-based Metaplanet, Inc.’s planned strategic investment.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/10/62458087/metaplanet-super-league-acquisition-bitcoin-treasury-nasdaq",
+   "created_at": "2026-10-20T07:00:48Z",
+   "symbols": [
+    "BTCUSD",
+    "SLE",
+    "ZECUSD"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/20/Bitcoin-Btc-Virtual-Cryptocurrency-In-Fr.jpg?width=1024&height=768"
   },
   {
    "headline": "Trump Media Stock Hits 52-Week Low, Trends Overnight: What’s Going On With DJT?",
@@ -404,72 +455,6 @@
     "PLXS"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_4.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Here's How Much $100 Invested In Gartner 20 Years Ago Would Be Worth Today",
-   "summary": "Gartner (NYSE:IT) has outperformed the market over the past 20 years by 3.87% on an annualized basis producing an average annual return of 12.79%. Currently, Gartner has a market capitalization of $13",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/10/62456252/here-s-how-much-100-invested-gartner-20-years-ago-would-be-worth-today",
-   "created_at": "2026-10-19T22:15:56Z",
-   "symbols": [
-    "IT"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_2.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Here's How Much $100 Invested In Fastenal 10 Years Ago Would Be Worth Today",
-   "summary": "Fastenal (NASDAQ:FAST) has outperformed the market over the past 10 years by 4.51% on an annualized basis producing an average annual return of 18.11%. Currently, Fastenal has a market capitalization ",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/10/62456146/here-s-how-much-100-invested-fastenal-10-years-ago-would-be-worth-today",
-   "created_at": "2026-10-19T22:00:59Z",
-   "symbols": [
-    "FAST"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_2.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Servisfirst Bancshares Q3 2026 Earnings Call Transcript",
-   "summary": "Servisfirst Bancshares (NYSE:SFBS) reported third-quarter financial results on Monday. The transcript from the company’s third-quarter earnings call has been provided below.This transcript is brought ",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/10/62456109/servisfirst-bancshares-q3-2026-earnings-call-transcript",
-   "created_at": "2026-10-19T21:58:30Z",
-   "symbols": [
-    "SFBS"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/19/Stock-Market-Crash-Concepts-Backgrounds-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Here’s How Much You Would Have Made Owning Agnico Eagle Mines Stock In The Last 5 Years",
-   "summary": "Agnico Eagle Mines (NYSE:AEM) has outperformed the market over the past 5 years by 15.76% on an annualized basis producing an average annual return of 26.85%. Currently, Agnico Eagle Mines has a marke",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/10/62456030/here-s-how-much-you-would-have-made-owning-agnico-eagle-mines-stock-last-5-years",
-   "created_at": "2026-10-19T21:45:33Z",
-   "symbols": [
-    "AEM"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_2.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Rocky Mountain Chocolate Q2 2027 Earnings Call Transcript",
-   "summary": "Rocky Mountain Chocolate (NASDAQ:RMCF) reported second-quarter financial results on Monday. The transcript from the company’s second-quarter earnings call has been provided below.This transcript is br",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/10/62455945/rocky-mountain-chocolate-q2-2027-earnings-call-transcript",
-   "created_at": "2026-10-19T21:38:54Z",
-   "symbols": [
-    "RMCF"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/19/Stock-Market-Trading-Chart-And-Analyzing.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "If You Invested $100 In UBS Group Stock 5 Years Ago, You Would Have This Much Today",
-   "summary": "UBS Group (NYSE:UBS) has outperformed the market over the past 5 years by 10.52% on an annualized basis producing an average annual return of 21.61%. Currently, UBS Group has a market capitalization o",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/10/62455751/if-you-invested-100-ubs-group-stock-5-years-ago-you-would-have-much-today",
-   "created_at": "2026-10-19T21:30:27Z",
-   "symbols": [
-    "UBS"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_2.jpg?width=1024&height=768"
   }
  ]
 }
