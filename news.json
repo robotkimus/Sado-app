@@ -1,533 +1,461 @@
 {
- "updated": "2026-10-20 22:00",
+ "updated": "2026-10-21 09:00",
  "items": [
   {
-   "headline": "CoreWeave Stock Down 56% From its Peak — HSBC Sees More Pain Ahead",
-   "summary": "HSBC kept CoreWeave at Reduce with a $39 target, citing neocloud disadvantages, weaker demand, low estimates and debt risks.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62464890/coreweave-stock-hsbc-says-more-pain-ahead",
-   "created_at": "2026-10-20T12:55:03Z",
+   "headline": "CVS Health Executive Amaresh Siva Departs for Alaska Airlines",
+   "summary": "Amaresh Siva has left his position at CVS Health to join Alaska Airlines as its new Chief Information Technology Officer.",
+   "source": "fiscal.ai",
+   "url": "https://www.fidelity.com/news/article/default/202610201839PR_NEWS_USPR_____SF77270",
+   "created_at": "2026-10-20T23:01:54Z",
    "symbols": [
+    "CVS"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "TD Cowen Upgrades BlackRock to Buy with $1,405 Price Target",
+   "summary": "Analyst firm TD Cowen has upgraded BlackRock, Inc. to a 'Buy' rating, setting a price target of $1,405.",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/td-cowen-upgrades-blackrock-to-buy-price-target-is-1-405-ce785cd8d989f624",
+   "created_at": "2026-10-20T20:31:54Z",
+   "symbols": [
+    "BLK"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Vertex Pharmaceuticals Appoints Daniel Brennan to Board of Directors",
+   "summary": "Vertex Pharmaceuticals Incorporated has appointed Daniel Brennan, a former executive at Boston Scientific, to its Board of Directors as an independent director.",
+   "source": "fiscal.ai",
+   "url": "https://www.businesswire.com/newsroom/industry/health/pharmaceutical",
+   "created_at": "2026-10-20T20:31:53Z",
+   "symbols": [
+    "VRTX"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Meta Platforms, Tesla Could Swing More Than $100 Billion After Earnings",
+   "summary": "Discover 9 stocks to watch ahead of Wednesday’s earnings, including Meta, Tesla and Lam Research, with options-implied moves reaching 7.42%.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/options/26/10/62480628/meta-platforms-tesla-could-swing-more-than-100-billion-after-earnings",
+   "created_at": "2026-10-20T19:30:21Z",
+   "symbols": [
+    "DHR",
+    "IBM",
+    "LRCX",
+    "META",
+    "PM"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/20/Earnings-Season-Written-In-Search-Bar-Wi.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "'Big Short' Trader Danny Moses Calls CoreWeave the WeWork of AI",
+   "summary": "Danny Moses likens CoreWeave to WeWork, warning $51B in debt and long leases could overwhelm profits as AI financing echoes 2008.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62480073/big-short-trader-danny-moses-calls-coreweave-the-wework-of-ai",
+   "created_at": "2026-10-20T19:12:35Z",
+   "symbols": [
+    "BLK",
     "CRWV",
-    "GOOG",
-    "GOOGL",
-    "META",
-    "MSFT"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/20/The-Coreweave-Logo-Appears-On-A-Smartpho.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Stock Market Today:  Dow Jones, S&P 500, Nasdaq 100 Futures Fall as Iran Threatens to Target Undersea Cables — SPCX, NFLX, STLD in Focus (UPDATED)",
-   "summary": "U.S. stock futures were swinging between gains and losses on Tuesday, as Dow Jones rose, while the S&amp;P 500 and the Nasdaq 100 indices fell.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/10/62460028/stock-market-today-dow-jones-futures-rise-nasdaq-100-falls-as-iran-threatens-to-target-undersea-cables-spcx-nflx-stld-in-focus",
-   "created_at": "2026-10-20T10:13:04Z",
-   "symbols": [
-    "BTCUSD",
-    "CCK",
-    "GE",
-    "GM",
-    "MMM"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/20/Close-Up-Of-Wall-Street-Sign-With-Iconic.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Meta Q3 Earnings Preview: Wall Street Eyes Muse AI Monetization As Mark Zuckerberg's AI Bet Faces Its Next Test",
-   "summary": "Ahead of Meta&#39;s Q3 earnings, Patrick Moorhead praises its Nvidia-powered Prometheus cluster while analysts eyeball Muse AI monetization.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/earnings/26/10/62463513/meta-q3-earnings-preview-wall-street-eyes-muse-ai-monetization-as-mark-zuckerbergs-ai-bet-faces-its-next-test",
-   "created_at": "2026-10-20T12:16:37Z",
-   "symbols": [
-    "META",
     "NVDA"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/20/Mark-Zuckerberg-Image-On-Mobile-Screen-A.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/20/Danny-Moses.png?width=1024&height=768"
   },
   {
-   "headline": "Amazon Deepens Europe Push With $18 Billion Germany Investment, AWS Expansion",
-   "summary": "Amazon Germany Investment tops €16 billion as AWS, AI and logistics expand while Morgan Stanley raises its price target.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/10/62461808/amazon-deepens-europe-push-with-18-billion-germany-investment-aws-expansion",
-   "created_at": "2026-10-20T11:31:34Z",
+   "headline": "3M Expands Commercial Relationship with Amazon and Issues Stock Warrant",
+   "summary": "3M has expanded its commercial partnership with Amazon and granted an Amazon subsidiary a warrant to purchase $521 million in 3M common stock.",
+   "source": "fiscal.ai",
+   "url": "https://www.manilatimes.net/2026/10/21/business/foreign-business/3m-expands-commercial-partnership-with-amazon/2450080",
+   "created_at": "2026-10-20T19:02:17Z",
    "symbols": [
     "AMZN"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/20/Amazon-com-Inc--NASDAQ-AMZN.jpg?width=1024&height=768"
+   "image": ""
   },
   {
-   "headline": "ByteDance, Alibaba, Tencent Place Massive $35 Billion NVIDIA Order",
-   "summary": "NVIDIA lands $35B+ in AI chip orders from Chinese tech giants ByteDance, Alibaba, and Tencent. Read the full story here.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/10/62461592/bytedance-alibaba-tencent-place-massive-35-billion-nvidia-order",
-   "created_at": "2026-10-20T11:13:03Z",
+   "headline": "Amazon Announces Hiring of Over 300,000 Seasonal Workers for U.S. Holiday Season",
+   "summary": "Amazon is hiring more than 300,000 seasonal, part-time, and full-time employees across its U.S. operations network for the upcoming holiday season.",
+   "source": "fiscal.ai",
+   "url": "https://www.barchart.com/press-releases/8243230/amazon-creates-over-300-000-new-u-s-jobs-this-holiday-season-with-increased-pay-and-expanded-benefits",
+   "created_at": "2026-10-20T19:02:17Z",
    "symbols": [
-    "BABA",
+    "AMZN"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Meta Chief Global Affairs Officer Joel Kaplan to Depart",
+   "summary": "Meta Platforms, Inc. has announced that Joel Kaplan, the company's Chief Global Affairs Officer, is stepping down from his role.",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/stock/META-US/news?chain_id=Name1K9-3FXPhg.1lbok80&global_content=%7B%22promote_id%22%3A13764,%22sub_promote_id%22%3A64,%22f%22%3A%22www.moomoo.com%2Fcommunity%2Fprofile%2F151172635%2Fpost%2Fall%22%7D",
+   "created_at": "2026-10-20T19:02:08Z",
+   "symbols": [
+    "META"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "SpaceX Prepares for Q3 Earnings with Focus on Starship, AI Spending",
+   "summary": "SpaceX stock trades near flat ahead of Q3 earnings as analysts weigh $100B revenue run-rate targets, Starlink mobile expansion and AI infrastructure capex.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62478257/spacex-prepares-for-q3-earnings-with-focus-on-starship-ai-spending",
+   "created_at": "2026-10-20T18:11:26Z",
+   "symbols": [
     "NVDA",
-    "TCEHY"
+    "SPCX",
+    "T",
+    "TMUS",
+    "VZ"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/20/Toronto--Canada---May-17-2025-Nvidia-Cor.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/20/Elon-Shadow-SPCX-SpaceX---EK.jpg?width=1024&height=768"
   },
   {
-   "headline": "Tom Lee Predicts S&P 500 At 8,400 By Year-End, Says Midterm Elections Could Trigger ‘Risk-On’ Rally in Tech Stocks and Crypto: ‘We Are in an Unprecedented Time’",
-   "summary": "Tom Lee predicts S&amp;P 500 will hit 8,400 by year-end, dismissing pessimism. He calls the market a &#39;coiled spring&#39; ready to lift tech &amp; crypto.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/market-summary/26/10/62460996/tom-lee-predicts-sp-500-at-8400-by-year-end-says-midterm-elections-could-trigger-risk-on-rally-in-tech-stocks-and-crypto-we-are-in-an-unprecedented-time",
-   "created_at": "2026-10-20T10:59:01Z",
+   "headline": "BlackRock American Income Trust plc Issues Equity from Treasury",
+   "summary": "BlackRock American Income Trust plc sold 425,000 ordinary shares from its treasury at a premium to net asset value.",
+   "source": "fiscal.ai",
+   "url": "https://www.finanznachrichten.de/nachrichten-2026-10/69886706-blackrock-american-income-trust-plc-issue-of-equity-008.htm",
+   "created_at": "2026-10-20T18:01:54Z",
    "symbols": [
-    "DIA",
-    "QQQ",
-    "SPY"
+    "BLK"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/20/Wall-Street-Bull.jpg?width=1024&height=768"
+   "image": ""
   },
   {
-   "headline": "3M Stock Is Gaining Tuesday: What's Going On?",
-   "summary": "3M (MMM) stock jumps 3.7% premarket ahead of Q3 earnings. Analysts forecast $2.02 EPS on $6.33B revenue. Key technical levels to watch.",
+   "headline": "Amazon Announces Seasonal Hiring Drive in Canada",
+   "summary": "Amazon is launching a seasonal hiring campaign in Canada, aiming to fill roles with an average hourly base wage of nearly $24.",
+   "source": "fiscal.ai",
+   "url": "https://www.hrreporter.com/focus-areas/recruitment-and-staffing/9000-amazon-boosting-hires-for-holiday-season-in-canada/395046",
+   "created_at": "2026-10-20T18:01:48Z",
+   "symbols": [
+    "AMZN"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Why Is 3M Stock Soaring Tuesday?",
+   "summary": "3M (NYSE: MMM) stock surged after beating Q3 estimates, raising its 2026 earnings guidance, and boosting its 2027 outlook.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62460393/3m-stock-is-gaining-monday-whats-going-on",
-   "created_at": "2026-10-20T10:33:06Z",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62477397/why-is-3m-stock-soaring-tuesday",
+   "created_at": "2026-10-20T17:48:55Z",
    "symbols": [
     "AMZN",
-    "MMM"
+    "MMM",
+    "MSFT"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/10/20/3M-MMM.jpg?width=1024&height=768"
   },
   {
-   "headline": "CoreWeave Stock Sinks to 52-Week Low As Wall Street's AI Debt Fears Deepen",
-   "summary": "CoreWeave (CRWV) hits a new 52-week low premarket as heavy debt worries outweigh strong AI GPU demand and bullish analyst forecasts.",
+   "headline": "10 Information Technology Stocks With Whale Alerts In Today’s Session",
+   "summary": "This whale alert can help traders discover the next big trading opportunities.\nWhales are entities with large sums of money and we track their transactions here at Benzinga on our options activity sca",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/10/62459918/coreweave-stock-sinks-to-52-week-low-as-wall-streets-ai-debt-fears-deepen",
-   "created_at": "2026-10-20T10:10:12Z",
+   "url": "https://www.benzinga.com/markets/options/26/10/62476787/10-information-technology-stocks-whale-alerts-today-s-session",
+   "created_at": "2026-10-20T17:35:10Z",
    "symbols": [
+    "CIFR",
+    "CLS",
     "CRWV",
-    "META",
-    "MSFT"
+    "IREN",
+    "MU"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/20/CoreWeave-Inc.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/aggregated_options_3.jpg?width=1024&height=768"
   },
   {
-   "headline": "BlackRock Wants to Give Bitcoin Investors ‘Downside Protection’ With New ETF: Here’s How It Works",
-   "summary": "BlackRock Inc. filed on Monday, October 19, for a Bitcoin exchange-traded fund that would pair potential gains with an intended layer of &#34;downside protection.&#34;",
+   "headline": "Meta Q3 Preview: Muse Put Company in Spotlight, Will Financials Support a Rally?",
+   "summary": "Meta can monetize AI, analysts say. Opportunities could be on full display in Q3 results. Here are the key items to watch.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/10/62459126/blackrocks-new-bitcoin-etf-proposal-targets-upside-while-seeking-downside-protection-heres-more",
-   "created_at": "2026-10-20T09:32:18Z",
+   "url": "https://www.benzinga.com/trading-ideas/previews/26/10/62476257/meta-q3-preview-muse-put-company-in-spotlight-will-financials-support-a-rally",
+   "created_at": "2026-10-20T17:16:18Z",
    "symbols": [
-    "BITA",
-    "BLK",
-    "BTCUSD",
-    "IBIT",
-    "ZECUSD"
+    "META"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/20/Bitcoin.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/20/Meta-Muse.jpg?width=1024&height=768"
   },
   {
-   "headline": "VSXY Is Beating Chip Stocks, SOXX and SOXL by a Mile — Kylie Jenner, GLP-1 Boom Could Fuel More Gains",
-   "summary": "VSXY outperforms semiconductor stocks by ~200% amid Kylie Jenner&#39;s Victoria&#39;s Secret runway return and a forecasted GLP-1 weight-loss boost.",
+   "headline": "Meta Heads Into Earnings With AI Ambitions Soaring, Cash Burn in Focus",
+   "summary": "Wall Street stays bullish on Meta (META) ahead of Q3 earnings. Strong AI ad growth and Muse agent potential drive $880+ price targets.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/10/62458905/vsxy-is-beating-chip-stocks-soxx-and-soxl-by-a-mile-kylie-jenner-glp-1-boom-could-fuel-more-gains",
-   "created_at": "2026-10-20T09:06:47Z",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62475856/meta-heads-into-earnings-with-ai-ambitions-soaring-cash-burn-in-focus",
+   "created_at": "2026-10-20T17:02:38Z",
    "symbols": [
-    "SOXL",
-    "SOXX",
-    "VSXY"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/20/Sepang--Malaysia---July-29--2024-Victori.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Why 3M Shares Are Trading Higher; Here Are 20 Stocks Moving Premarket",
-   "summary": "3M shares rose 4.4% premarket after expanding its Amazon data-center deal, including a $521.4M stock warrant; other stocks saw sharp moves.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62458770/why-3m-shares-are-trading-higher-here-are-20-stocks-moving-premarket",
-   "created_at": "2026-10-20T08:43:57Z",
-   "symbols": [
-    "AIXI",
-    "AMRO",
-    "AMZN",
-    "AURE",
-    "BAOS"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/20/Saint-Paul--Mn--Usa---May-5--2023-3m-Log.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Jim Cramer Has a Warning for AI Data Center Investors Ahead of MSFT, GOOGL and AMZN Earnings: ‘Too Early to Say That the Coast Is Clear’",
-   "summary": "Cramer says AI data center stocks need stronger charts, sustained Microsoft, Alphabet and Amazon AI spending before investors turn bullish.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/10/62458647/jim-cramer-has-a-warning-for-ai-data-center-investors-ahead-of-msft-googl-and-amzn-earnings-too-early-to-say-that-the-coast-is-clear",
-   "created_at": "2026-10-20T08:31:55Z",
-   "symbols": [
-    "AMZN",
     "GOOG",
-    "GOOGL",
-    "META",
-    "MSFT"
+    "META"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/20/Jim-Cramer-Lauds-Trumps-Tariff-Playbook.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/20/Meta-Platforms-Inc.jpg?width=1024&height=768"
   },
   {
-   "headline": "Mark Zuckerberg Called AI Agents Meta’s Next Revenue Engine: Will Muse Deliver When Q3 Earnings Land",
-   "summary": "Meta Platforms, Inc.’s Q3 earnings will test whether its Muse AI agent can deliver on Zuckerberg’s growth ambitions.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/10/62458367/meta-q3-earnings-muse-ai-agent-revenue",
-   "created_at": "2026-10-20T07:40:49Z",
+   "headline": "Delta Electronics Thailand Confirms 500kWh ESS Demonstrator Project",
+   "summary": "Delta Electronics (Thailand) Public Company Limited has confirmed a 500kWh energy storage system (ESS) demonstrator project.",
+   "source": "fiscal.ai",
+   "url": "https://www.energy-storage.news/page/863/?author&nocache=1",
+   "created_at": "2026-10-20T23:32:29Z",
    "symbols": [
-    "META",
-    "POLUSD"
+    "DELTA"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/20/Bukovel--Ukraine--October-13--2022-Wax-F.jpg?width=1024&height=768"
+   "image": ""
   },
   {
-   "headline": "Big Short Investor Flags Major Vulnerability for Nvidia — 5 Customers Account for 70% of Receivables: ‘Tremendous Amount of Concentration Risk’",
-   "summary": "Big Short&#39;s Steve Eisman warns of Nvidia &#39;concentration risk&#39; as its 10-Q shows 70% of accounts receivable come from just 5 customers.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/10/62458211/big-short-investor-flags-major-vulnerability-for-nvidia-5-customers-account-for-70-of-receivables-tremendous-amount-of-concentration-risk",
-   "created_at": "2026-10-20T07:25:48Z",
+   "headline": "América Móvil Reports Third-Quarter 2026 Financial Results",
+   "summary": "América Móvil announced a 7% increase in net profit for the third quarter of 2026, driven by growth in revenue and operating gains.",
+   "source": "fiscal.ai",
+   "url": "https://tnonline.uol.com.br/noticias/economia/america-movil-tem-lucro-liquido-de-2428-bilhoes-de-pesos-mexicanos-no-3-trimestre-de-2026-1166600",
+   "created_at": "2026-10-20T23:31:36Z",
    "symbols": [
-    "NVDA"
+    "AMX"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/20/Jensen-Huang-Nvidias-Founder--President-.jpg?width=1024&height=768"
+   "image": ""
   },
   {
-   "headline": "Stock Market: Will S&P 500 Open Up or Down Today?",
-   "summary": "Will the S&amp;P 500 open higher? Polymarket odds sit at 55% as Wall Street weighs Netflix earnings, slipping tech futures, and $110 Brent crude.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62457920/stock-market-will-sp-500-open-up-or-down-today-61",
-   "created_at": "2026-10-20T06:36:15Z",
+   "headline": "Goldman Sachs Adjusts Price Target on UDR, Inc.",
+   "summary": "Goldman Sachs has revised its price target for UDR, Inc. from $38 to $35.",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/goldman-sachs-adjusts-price-target-on-udr-to-35-from-38-ce785cd8db8bff20",
+   "created_at": "2026-10-20T23:01:53Z",
    "symbols": [
-    "DIA",
-    "GE",
-    "GM",
-    "MMM",
+    "GS"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Netflix Reports Q3 2026 Financial Results",
+   "summary": "Netflix announced its third-quarter 2026 financial results, reporting $12.87 billion in revenue and earnings of $0.87 per share, while lowering its ad sales guidance.",
+   "source": "fiscal.ai",
+   "url": "https://michaelwest.com.au/netflix-revenue-and-profit-grows-in-third-quarter/",
+   "created_at": "2026-10-20T23:01:50Z",
+   "symbols": [
     "NFLX"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/20/New-York--Ny--Usa---11-05-2024-Wall-Stre.jpg?width=1024&height=768"
+   "image": ""
   },
   {
-   "headline": "This American Electric Power Analyst Turns Bullish; Here Are Top 5 Upgrades For Tuesday",
-   "summary": "Analysts upgraded Arhaus, Akamai, Trex, American Electric Power, with several receiving higher price targets.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/analyst-stock-ratings/upgrades/26/10/62464922/this-american-electric-power-analyst-turns-bullish-here-are-top-5-upgrades-for-tuesday",
-   "created_at": "2026-10-20T12:55:34Z",
+   "headline": "Goldman Sachs Maintains Hold Rating on Bristol Myers Squibb",
+   "summary": "Goldman Sachs has reaffirmed its 'Hold' rating and $63 price target for Bristol Myers Squibb.",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/news/post/1001711783/goldman-sachs-maintains-bristol-myers-squibb-bmyus-with-hold-rating",
+   "created_at": "2026-10-20T23:01:50Z",
    "symbols": [
-    "AEP",
-    "AKAM",
-    "ARHS",
-    "TREX",
-    "VG"
+    "BMY"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/20/Stuttgart--Germany---04-27-2023-Cellphon.jpg?width=1024&height=768"
+   "image": ""
   },
   {
-   "headline": "Karooooo Q2 2027 Earnings Call Transcript",
-   "summary": "Karooooo (NASDAQ:KARO) reported second-quarter financial results on Tuesday. The transcript from the company’s second-quarter earnings call has been provided below.This transcript is brought to you by",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/10/62464863/karooooo-q2-2027-earnings-call-transcript",
-   "created_at": "2026-10-20T12:54:47Z",
+   "headline": "Evercore Maintains Buy Rating on Texas Instruments",
+   "summary": "Evercore has reaffirmed its Buy rating and $330 price target for Texas Instruments.",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/news/post/1001736238/evercore-maintains-texas-instruments-txnus-with-buy-rating-maintains-target",
+   "created_at": "2026-10-20T23:01:48Z",
    "symbols": [
-    "KARO"
+    "TXN"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/20/Stock-Market-Crash-Concepts-Backgrounds-.jpg?width=1024&height=768"
+   "image": ""
   },
   {
-   "headline": "Occidental Petroleum To Rally Over 18%? Here Are 10 Top Analyst Forecasts For Tuesday",
-   "summary": "Analysts cut targets for WING, ELAN, SBAC and RH; raised targets for TRV, OXY and GILD, with ELAN downgraded to Hold.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/10/62464794/occidental-petroleum-to-rally-over-18-here-are-10-top-analyst-forecasts-for-tuesday",
-   "created_at": "2026-10-20T12:52:24Z",
+   "headline": "SpaceX and Tesla Exploring Potential Merger",
+   "summary": "SpaceX and Tesla have established special committees of independent board directors to evaluate a potential merger between the two companies.",
+   "source": "fiscal.ai",
+   "url": "https://www.morningstar.com/news/marketwatch/20261020419/teslas-stock-rises-as-elon-musk-drops-new-clues-about-a-possible-spacex-merger",
+   "created_at": "2026-10-20T23:01:37Z",
    "symbols": [
-    "AAPL",
-    "ELAN",
-    "GILD",
-    "OXY",
-    "RH"
+    "SPCX"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/20/Milan--Italy---November-1--2017-Occident.jpg?width=1024&height=768"
+   "image": ""
   },
   {
-   "headline": "NuScale Stock Hits New Low After Barclays Downgrades It to Underweight, Cuts Target to $5",
-   "summary": "NuScale Power shares are trading lower Tuesday after Barclays downgraded the stock to Underweight and cut its price target to $5 from $11.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62464782/nuscale-stock-hits-new-low-after-barclays-downgrades-it-to-underweight-cuts-target-to-5",
-   "created_at": "2026-10-20T12:51:44Z",
+   "headline": "Intel and AMD Announce Collaboration on oneDNN Software Optimizations",
+   "summary": "Intel and AMD have announced a joint effort to collaborate on the oneDNN neural network library for PyTorch.",
+   "source": "fiscal.ai",
+   "url": "https://lxer.com/module/newswire/view/368332/index.html",
+   "created_at": "2026-10-20T23:01:36Z",
    "symbols": [
-    "SMR"
+    "INTC"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/20/Nuscale-Power-Corporation-Logo-On-Mobile.jpg?width=1024&height=768"
+   "image": ""
   },
   {
-   "headline": "PLTR Stock’s Biggest Risk Isn’t Slowing Growth, but Its Price, Analyst Warns — Valuation Already Bakes In ‘Years of Exceptional Execution’",
-   "summary": "Is Palantir (PLTR) stock overvalued? George Tsilis warns the AI firm&#39;s massive valuation already prices in years of future execution.",
+   "headline": "Capital One Finl Q3 2026 Earnings Call Transcript",
+   "summary": "Capital One Finl (NYSE:COF) reported third-quarter financial results on Tuesday. The transcript from the company’s third-quarter earnings call has been provided below.This transcript is brought to you",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/10/62464767/pltr-stocks-biggest-risk-isnt-slowing-growth-but-its-price-analyst-warns-valuation-already-bakes-in-years-of-exceptional-execution",
-   "created_at": "2026-10-20T12:51:00Z",
+   "url": "https://www.benzinga.com/news/26/10/62485024/capital-one-finl-q3-2026-earnings-call-transcript",
+   "created_at": "2026-10-20T22:50:41Z",
    "symbols": [
-    "PLTR"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/20/Paris--France---March-4--2026-The-Logo-O.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Top 3 Tech Stocks That May Keep You Up At Night This Month",
-   "summary": "Accenture, Atlassian and PTC show overbought momentum signals, with RSI readings of 76.1, 72.1 and 79 after strong recent gains.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/short-ideas/26/10/62464698/top-3-tech-stocks-that-may-keep-you-up-at-night-this-month",
-   "created_at": "2026-10-20T12:49:05Z",
-   "symbols": [
-    "ACN",
-    "PTC",
-    "TEAM"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/20/Warsaw--Poland---May-2020-Accenture-Comp.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Kevin O'Leary Says Bitcoin Is 'Speculative,' Stablecoins Offer Less Risk",
-   "summary": "Kevin O’Leary favors stablecoins for lower volatility, calls Bitcoin speculative, and says blockchain winners will gain institutional adoption.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/10/62464559/kevin-oleary-says-bitcoin-is-speculative-stablecoins-offer-less-risk",
-   "created_at": "2026-10-20T12:45:43Z",
-   "symbols": [
-    "AVAXUSD",
-    "BTCUSD",
-    "ETHUSD",
-    "SOLUSD"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/20/OLeary-Warns-Against-Oversized--Suffocat.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Winnebago Earnings Are Imminent; These Most Accurate Analysts Revise Forecasts Ahead Of Earnings Call",
-   "summary": "Winnebago will report Q4 earnings Wednesday, with EPS and revenue expected to fall year over year; analysts remain mostly Neutral on WGO.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62464543/winnebago-earnings-are-imminent-these-most-accurate-analysts-revise-forecasts-ahead-of-earnings-call-2",
-   "created_at": "2026-10-20T12:45:18Z",
-   "symbols": [
-    "WGO"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/20/Financial-Analysts-Using-A-Computer-With.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "How To Earn $500 A Month From Abbott Stock Ahead Of Q3 Earnings",
-   "summary": "Abbott expects Q3 EPS of $1.41 and $12.99B revenue. Its 2.42% dividend requires about $247,767 invested to generate $500 monthly.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/dividends/26/10/62464472/how-to-earn-500-a-month-from-abbott-stock-ahead-of-q3-earnings",
-   "created_at": "2026-10-20T12:44:18Z",
-   "symbols": [
-    "ABT"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/20/Abbott-Laboratories.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Genuine Parts Slashes 2026 Profit Outlook, Stock Falls",
-   "summary": "Genuine Parts Co. (NYSE: GPC) stock fell in premarket trading after Q3 earnings beat estimates, but full-year guidance was lowered.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/earnings/26/10/62463998/genuine-parts-slashes-2026-profit-outlook-stock-falls",
-   "created_at": "2026-10-20T12:33:08Z",
-   "symbols": [
-    "GPC"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/20/Konskie--Poland---January-25--2024-Genui.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "GE Aerospace Q3 2026 Earnings Call Transcript",
-   "summary": "GE Aerospace (NYSE:GE) reported third-quarter financial results on Tuesday. The transcript from the company’s third-quarter earnings call has been provided below.This transcript is brought to you by B",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/10/62464248/ge-aerospace-q3-2026-earnings-call-transcript",
-   "created_at": "2026-10-20T12:38:08Z",
-   "symbols": [
-    "GE"
+    "COF"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/10/20/Stock-Market-Trading-Chart-And-Analyzing.jpg?width=1024&height=768"
   },
   {
-   "headline": "Hasbro Raises 2026 Outlook, Doubles Stock Buyback Target As Magic: the Gathering Sales Hit Record High",
-   "summary": "Hasbro stock jumped premarket as Q3 EPS of $2.90 and $1.595B revenue topped estimates. Hasbro also raised its full-year 2026 outlook.",
+   "headline": "AI & Robots vs. Tariffs: Musk Doubles Down on His Plan to Tackle $40 Trillion National Debt",
+   "summary": "A solution to cut the U.S. national debt? Elon Musk has a potential answer.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/earnings/26/10/62464108/hasbro-raises-2026-outlook-doubles-stock-buyback-target-as-magic-the-gathering-sales-hit-record-high",
-   "created_at": "2026-10-20T12:35:48Z",
-   "symbols": [
-    "HAS"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/20/Hasbro.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "This Restaurant Brands Analyst Begins Coverage On A Bullish Note; Here Are Top 5 Initiations For Tuesday",
-   "summary": "Analysts initiated bullish coverage on ADRX ($32), NWSA ($35), MOD ($275), SITM ($750) and QSR ($85), with Overweight, Outperform or Buy ratings.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/analyst-stock-ratings/initiation/26/10/62463917/this-restaurant-brands-analyst-begins-coverage-on-a-bullish-note-here-are-top-5-initiations-for-tuesday",
-   "created_at": "2026-10-20T12:31:13Z",
-   "symbols": [
-    "ADRX",
-    "MOD",
-    "NWSA",
-    "QSR",
-    "SITM"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/20/Konskie--Poland---November-24--2024-Rest.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Bank Stocks Are On Their Longest Losing Streak Since 2008: Rates Aren't The Only Problem",
-   "summary": "Bank stocks are on their longest losing streak since 2008 as Treasury yields rise and Bank of America&#39;s fine weighs on big lenders.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/10/62463829/bank-stocks-longest-losing-streak-since-2008-kbw-nasdaq-bank-index",
-   "created_at": "2026-10-20T12:30:16Z",
-   "symbols": [
-    "BAC",
-    "C",
-    "COF",
-    "GS",
-    "KRE"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/20/2024-11-15-Los-Angeles-Usa-Bank-Of-Ameri.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Jim Cramer Passes on AppLovin: 'In the Crosshairs of Alphabet'",
-   "summary": "Cramer rejects AppLovin, MFA Financial and defense stocks; likes Vale, calls Twilio fairly valued and Cintas terrific after its big run.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/10/62463704/jim-cramer-passes-on-applovin-in-the-crosshairs-of-alphabet",
-   "created_at": "2026-10-20T12:27:17Z",
-   "symbols": [
-    "APP",
-    "CTAS",
-    "GOOG",
-    "GOOGL",
-    "KTOS"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/20/Chinas-Exports-Surge-Despite-US-Shortfal.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "This Apple Analyst Is No Longer Bullish; Here Are Top 5 Downgrades For Tuesday",
-   "summary": "Analysts downgraded Werner, Zoetis, Apple, Heartland Express and Elanco, cutting ratings to Neutral/Hold and lowering price targets.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/analyst-stock-ratings/downgrades/26/10/62463598/this-apple-analyst-is-no-longer-bullish-here-are-top-5-downgrades-for-tuesday",
-   "created_at": "2026-10-20T12:22:04Z",
-   "symbols": [
-    "AAPL",
-    "ELAN",
-    "HTLD",
-    "WERN",
-    "ZTS"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/20/Ljubljana--Slovenia---2022-September-18-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Twilio, Transocean and a Health Care Stock on CNBC’s ‘Final Trades’",
-   "summary": "CNBC&#39;s final trades: Weiss picked UnitedHealth after strong results; Terranova chose Twilio; Lebenthal favored Transocean after $550M Gulf contracts.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/10/62463518/twilio-transocean-and-a-health-care-stock-on-cnbcs-final-trades",
-   "created_at": "2026-10-20T12:16:50Z",
-   "symbols": [
-    "RIG",
-    "TWLO",
-    "UNH"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/20/Experts-Warn-Of-Steep-Reductions.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Bitcoin Stuck at $81,000 but Analyst Says 'Hold On' Before Run to $90,000",
-   "summary": "Bitcoin holds above $81,000 as tight volatility puts $83,500 in focus for a potential run toward the mid-$90,000s.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/10/62463484/bitcoin-stuck-at-81000-but-analyst-says-hold-on-before-run-to-90000",
-   "created_at": "2026-10-20T12:15:57Z",
-   "symbols": [
-    "BTCUSD",
-    "ETHUSD",
-    "SCHW",
-    "UNIUSD"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/20/Bitcoin.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "General Motors, Genuine Parts, Steel Dynamics And Other Big Stocks Moving Lower In Tuesday’s Pre-Market Session",
-   "summary": "U.S. stock futures were mixed as GM shares fell 7.3% despite an earnings beat; FreightCar America, 4D Molecular and others also declined premarket.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62463046/general-motors-genuine-parts-steel-dynamics-and-other-big-stocks-moving-lower-in-tuesdays-pre-market-session",
-   "created_at": "2026-10-20T12:06:19Z",
-   "symbols": [
-    "AXTI",
-    "BOT",
-    "EFXT",
-    "FDMT",
-    "GM"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/20/GM-General-Motors.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "12 Consumer Discretionary Stocks Moving In Tuesday's Pre-Market Session",
-   "summary": "Gainers\n\nFort Technology (NASDAQ:FRTT) shares moved upwards by 18.3% to $0.64 during Tuesday&#39;s pre-market session. The company&#39;s market cap stands at $8.0 million. \nEpsium Enterprise (NASDAQ:E",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62462993/12-consumer-discretionary-stocks-moving-tuesday-s-pre-market-session",
-   "created_at": "2026-10-20T12:05:40Z",
-   "symbols": [
-    "BRLT",
-    "DOGZ",
-    "EPSM",
-    "FCHL",
-    "FRTT"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_4.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "12 Health Care Stocks Moving In Tuesday's Pre-Market Session",
-   "summary": "Gainers\n\nSCWorx (NASDAQ:WORX) stock rose 47.8% to $3.96 during Tuesday&#39;s pre-market session. \nIntegra Lifesciences (NASDAQ:IART) shares increased by 31.97% to $17.75. The market value of their out",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62462992/12-health-care-stocks-moving-tuesday-s-pre-market-session",
-   "created_at": "2026-10-20T12:05:40Z",
-   "symbols": [
-    "FDMT",
-    "IART",
-    "ICCM",
-    "INBS",
-    "MNDR"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_2.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "12 Industrials Stocks Moving In Tuesday's Pre-Market Session",
-   "summary": "Gainers\n\nWF Holding (NASDAQ:WFF) stock moved upwards by 28.6% to $0.12 during Tuesday&#39;s pre-market session. \nCaesarstone (NASDAQ:CSTE) shares moved upwards by 15.34% to $2.48. The market value of ",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62462991/12-industrials-stocks-moving-tuesday-s-pre-market-session",
-   "created_at": "2026-10-20T12:05:39Z",
-   "symbols": [
-    "AXNX",
-    "CBAT",
-    "CSTE",
-    "GCDT",
-    "HDRN"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_3.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "12 Information Technology Stocks Moving In Tuesday's Pre-Market Session",
-   "summary": "Gainers\n\nXIAO-I (NASDAQ:AIXI) shares rose 26.2% to $2.78 during Tuesday&#39;s pre-market session. The company&#39;s market cap stands at $29.0 million. \nARB IOT Group (NASDAQ:ARBB) shares increased by",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62462988/12-information-technology-stocks-moving-tuesday-s-pre-market-session",
-   "created_at": "2026-10-20T12:05:39Z",
-   "symbols": [
-    "AIXI",
-    "ARBB",
-    "CHOW",
-    "CLRO",
-    "KVYO"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_1.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "NYC Mayor Zohran Mamdani Launches $3 Million Team As Medicaid, SNAP Changes Put 900,000 New Yorkers At Risk: ‘No One Gets Left Behind’",
-   "summary": "Mayor Mamdani launches HART outreach team to help New Yorkers keep Medicaid and SNAP.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/health-care/26/10/62462987/nyc-mayor-zohran-mamdani-launches-3-million-team-as-medicaid-snap-changes-put-900000-new-yorkers-at-risk-no-one-gets-left-behind",
-   "created_at": "2026-10-20T12:05:34Z",
+   "url": "https://www.benzinga.com/news/politics/26/10/62484868/ai-robots-vs-tariffs-musk-doubles-down-on-his-plan-to-tackle-40-trillion-national-debt",
+   "created_at": "2026-10-20T22:21:37Z",
    "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/20/Mamdani-Floats-Tax-Hike-Plan.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/20/Debt-Milestones-Since-Early-2024.jpg?width=1024&height=768"
   },
   {
-   "headline": "Top Oil Analyst Warns Iran Escalation Risk Could Rise After Midterm Elections, Says ‘Finish-the-Job’ Camp Is Pushing Trump as Brent Crude Hits 5-Month High",
-   "summary": "Analyst warns U.S.-Iran tensions may escalate after midterms, threatening tanker routes, Strait of Hormuz traffic and global oil prices.",
+   "headline": "Neptune Insurance Hldgs Q3 2026 Earnings Call Transcript",
+   "summary": "Neptune Insurance Hldgs (NYSE:NP) reported third-quarter financial results on Tuesday. The transcript from the company’s third-quarter earnings call has been provided below.This transcript is brought ",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/commodities/26/10/62462972/top-oil-analyst-warns-iran-escalation-risk-could-rise-after-midterm-elections-says-finish-the-job-camp-is-pushing-trump-as-brent-crude-hits-5-month-high",
-   "created_at": "2026-10-20T12:05:09Z",
+   "url": "https://www.benzinga.com/news/26/10/62484847/neptune-insurance-hldgs-q3-2026-earnings-call-transcript",
+   "created_at": "2026-10-20T22:19:45Z",
    "symbols": [
-    "UCO",
-    "USO"
+    "NP"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/20/Concept-Of-Geopolitical-Conflict-Between.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/20/Stock-Market-Trading-Chart-And-Analyzing.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Elon Musk Says AI Could Be a Threat, but He Can’t Stop It: ‘Be Participant or be a Spectator’",
+   "summary": "Elon Musk has new thoughts on the good that AI can do for humanity.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62484767/elon-musk-says-ai-could-be-a-threat-but-he-cant-stop-it-be-participant-or-be-a-spectator",
+   "created_at": "2026-10-20T22:07:34Z",
+   "symbols": [
+    "SPCX",
+    "TSLA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/20/Elon-Musk-Is-The-Founder--Ceo--And-Chief.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Citigroup Maintains Buy Rating and Raises Price Target for Manhattan Associates",
+   "summary": "Citigroup has maintained its 'Buy' rating on Manhattan Associates while increasing its price target to $260.00 per share.",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/news/post/1001758976/us-earnings-preview-after-market-close-oct-20",
+   "created_at": "2026-10-20T22:03:35Z",
+   "symbols": [
+    "MANH"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "The Toro Company Appoints Neal M. Lackritz as Chief Technology Officer",
+   "summary": "The Toro Company has announced the appointment of Neal M. Lackritz to the position of Chief Technology Officer.",
+   "source": "fiscal.ai",
+   "url": "https://www.streetinsider.com/Press+Releases?before_id=27210891",
+   "created_at": "2026-10-20T22:02:44Z",
+   "symbols": [
+    "TTC"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "SentinelOne Hosts OneCon 2026 Cybersecurity Conference",
+   "summary": "SentinelOne is hosting its annual OneCon 2026 event, featuring demonstrations of autonomous endpoint resilience technologies.",
+   "source": "fiscal.ai",
+   "url": "https://www.streetinsider.com/Press+Releases?before_id=27208765",
+   "created_at": "2026-10-20T22:02:42Z",
+   "symbols": [
+    "S"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Resideo to Release Third Quarter 2026 Financial Results on November 10, 2026",
+   "summary": "Resideo Technologies, Inc. has scheduled the release of its third quarter 2026 financial results for November 10, 2026, followed by a conference call.",
+   "source": "fiscal.ai",
+   "url": "https://www.morningstar.com/news/pr-newswire/20261020ny73079/resideo-to-release-third-quarter-2026-financial-results-on-november-10-2026",
+   "created_at": "2026-10-20T22:02:38Z",
+   "symbols": [
+    "REZI"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Northern Trust Corporation Appoints Rima Qureshi to Board of Directors",
+   "summary": "Northern Trust Corporation announced the appointment of Rima Qureshi to its Board of Directors.",
+   "source": "fiscal.ai",
+   "url": "https://www.streetinsider.com/Press+Releases?before_id=27210829",
+   "created_at": "2026-10-20T22:02:38Z",
+   "symbols": [
+    "NTRS"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Northern Trust Corporation Declares Dividends and Announces $3.5 Billion Share Repurchase Authorization",
+   "summary": "Northern Trust Corporation declared quarterly dividends for common and preferred stock and authorized a new $3.5 billion share repurchase program.",
+   "source": "fiscal.ai",
+   "url": "https://www.barchart.com/press-releases/8246981/northern-trust-declares-quarterly-dividends-on-common-and-preferred-stock",
+   "created_at": "2026-10-20T22:02:38Z",
+   "symbols": [
+    "NTRS"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "$100 Invested In Phillips 66 5 Years Ago Would Be Worth This Much Today",
+   "summary": "Phillips 66 (NYSE:PSX) has outperformed the market over the past 5 years by 17.25% on an annualized basis producing an average annual return of 28.3%. Currently, Phillips 66 has a market capitalizatio",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62484742/100-invested-phillips-66-5-years-ago-would-be-worth-much-today",
+   "created_at": "2026-10-20T22:02:36Z",
+   "symbols": [
+    "PSX"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/07/10/valuestock_1.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Rollins, Inc. Increases Regular Quarterly Cash Dividend",
+   "summary": "Rollins, Inc. has announced an increase to its regular quarterly cash dividend from $0.1825 to $0.20 per share.",
+   "source": "fiscal.ai",
+   "url": "https://www.streetinsider.com/Press+Releases?before_id=27210472",
+   "created_at": "2026-10-20T22:02:30Z",
+   "symbols": [
+    "ROL"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "NCR Atleos Announces Date of Third Quarter 2026 Earnings Results",
+   "summary": "NCR Atleos Corporation has scheduled the release of its financial results for the third quarter of 2026.",
+   "source": "fiscal.ai",
+   "url": "https://www.streetinsider.com/Press+Releases?before_id=27210338",
+   "created_at": "2026-10-20T22:02:27Z",
+   "symbols": [
+    "NATL"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Barclays Maintains Equal-Weight Rating on W. P. Carey, Lowers Price Target to $76",
+   "summary": "Barclays has updated its outlook on W. P. Carey Inc., maintaining an Equal-Weight rating while reducing the price target from $80.00 to $76.00.",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/hans/news/post/1001709001",
+   "created_at": "2026-10-20T22:02:27Z",
+   "symbols": [
+    "WPC"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Leerink Partners Initiates Coverage on Kazia Therapeutics With Outperform, $30 Price Target",
+   "summary": "Leerink Partners has initiated research coverage on Kazia Therapeutics with an 'Outperform' rating and a price target of $30 per share.",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/leerink-partners-initiates-coverage-on-kazia-therapeutics-with-outperform-30-price-target-ce785cd8d88bf125",
+   "created_at": "2026-10-20T22:02:26Z",
+   "symbols": [
+    "KZIA"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Novo Resources Corp. Reports Soil Geochemistry Results at Belltopper Project",
+   "summary": "Novo Resources Corp. has released soil geochemistry data for the northwestern corner of its Belltopper Project, highlighting significant gold and arsenic correlations.",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/de/newsroom/attachmentng/09d9ad33-2a86-4edc-a43d-fad818be6623/en",
+   "created_at": "2026-10-20T22:02:25Z",
+   "symbols": [
+    "NVO"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Canadian Government Considers Options Regarding Cleveland-Cliffs' Ontario Plant Idling",
+   "summary": "The Canadian government is evaluating legal options, including a potential forced divestiture, in response to Cleveland-Cliffs' decision to idle a portion of its Ontario steel operations.",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/stock/CLF-US/news?chain_id=Name1K9-3FXPhg.1l48m40&global_content=%7B%22promote_id%22%3A13764,%22sub_promote_id%22%3A63,%22f%22%3A%22www.moomoo.com%2Fcommunity%2Fdiscussion%2Fsk-hynix-to-file-for-nasdaq-listing-will-memory-fever-2174225553%22%7D",
+   "created_at": "2026-10-20T22:02:24Z",
+   "symbols": [
+    "CLF"
+   ],
+   "image": ""
   }
  ]
 }
