@@ -1,6 +1,21 @@
 {
- "updated": "2026-10-21 13:00",
+ "updated": "2026-10-21 14:00",
  "items": [
+  {
+   "headline": "SpaceX Can't Find Spare Nvidia, Google or Amazon Chips Despite Billions to Spend, Strategist Terms It 'Pretty Insane'",
+   "summary": "SpaceX’s struggle to secure AI chips signals that the industry’s compute shortage may persist for years, strategist Shay Boloor says.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/10/62485936/spacex-ai-chip-shortage-nvidia-google-amazon-billions",
+   "created_at": "2026-10-21T04:14:09Z",
+   "symbols": [
+    "AMZN",
+    "GOOG",
+    "GOOGL",
+    "NVDA",
+    "SPCX"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/21/Magnified-View-Of-Tech-Mogul-Elon-Musk-I.jpg?width=1024&height=768"
+  },
   {
    "headline": "Meta Pauses Muse AI Sharing After Researchers Say 6,800 Chats Were Exposed ‘Like a Table Of Contents’",
    "summary": "Meta suspended Muse AI chat sharing after researchers found 6,800 links exposing sensitive personal and business conversations.",
@@ -173,15 +188,61 @@
    "image": ""
   },
   {
-   "headline": "Amazon Announces Seasonal Hiring Drive in Canada",
-   "summary": "Amazon is launching a seasonal hiring campaign in Canada, aiming to fill roles with an average hourly base wage of nearly $24.",
-   "source": "fiscal.ai",
-   "url": "https://www.hrreporter.com/focus-areas/recruitment-and-staffing/9000-amazon-boosting-hires-for-holiday-season-in-canada/395046",
-   "created_at": "2026-10-20T18:01:48Z",
+   "headline": "Elon Musk Says SPCX Could Reach Up to $1 Trillion ARR By 2027—Gwynne Shotwell Says Starlink Is Contracted for 12,000 Aircraft",
+   "summary": "Elon Musk predicts SpaceX could reach $500B–$1T ARR by 2028, driven by Starlink and Starship amid strong Q3 earnings report.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/space/26/10/62486038/elon-musk-says-spcx-could-reach-up-to-1-trillion-arr-by-2027-gwynne-shotwell-says-starlink-is-contracted-for-12000-aircraft",
+   "created_at": "2026-10-21T04:49:36Z",
    "symbols": [
-    "AMZN"
+    "SPCX",
+    "TSLA"
    ],
-   "image": ""
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/21/Paris--France---February-3--2026-A-Horiz.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Rocket Lab Stock Gains As Earnings Date Is Set, Wall Street Price Targets Signal Triple-Digit Upside",
+   "summary": "Rocket Lab shares rise 3.04% after hours as investors look ahead to the company&#39;s third-quarter earnings report.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/10/62486025/rocket-lab-shares-rise-after-hours-third-quarter-earnings",
+   "created_at": "2026-10-21T04:42:30Z",
+   "symbols": [
+    "RKLB",
+    "SPCX"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/21/New-York-City--New-York---May-31-2026-Ro.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Trump Launches $25 Million Fraud Whistleblower Program, Offers 1% Rewards for Tips; Bernie Sanders Says He'd 'Like to Report a Theft'",
+   "summary": "Trump launches a fraud tip program offering 1% rewards for recovered government funds; Nick Shirley reportedly receives first $10,000 award.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/10/62485992/trump-launches-25-million-fraud-whistleblower-program-offers-1-rewards-for-tips-bernie-sanders-says-hed-like-to-report-a-theft",
+   "created_at": "2026-10-21T04:32:32Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/21/President-Donald-J--Trump-Delivers-Remar.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Ross Gerber Blames Elon Musk, Trump Admin for ‘Deaths of Many Innocent People’ Over Ukraine Starlink Slowdown: ‘The Pendulum Always Swings Back’",
+   "summary": "Ross Gerber accused the White House of passing blame for the Starlink slowdown in Ukraine, which Elon Musk reportedly ordered.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62485968/ross-gerber-elon-musk-trump-ukraine-starlink-slowdown-deaths",
+   "created_at": "2026-10-21T04:22:47Z",
+   "symbols": [
+    "SPCX"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/21/Toronto--Canada---November-16-2024-Starl.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "'Disastrous Trump Economy': Peter Schiff Cites Reason Behind Vivek Ramaswamy's Declining Odds in Ohio Governor Race",
+   "summary": "Economist Peter Schiff said on Tuesday, October 20, that Vivek Ramaswamy’s collapsing odds in the Ohio gubernatorial race stem from his ties to what he called the “disastrous” Trump economy.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62485947/peter-schiff-vivek-ramaswamy-ohio-governor-trump-economy",
+   "created_at": "2026-10-21T04:15:07Z",
+   "symbols": [
+    "BTCUSD",
+    "POLUSD",
+    "ZECUSD"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/21/Milwaukee--United-States-Of-America--Jul.jpg?width=1024&height=768"
   },
   {
    "headline": "Dell, HPE Shares Jump After Hours as AI Server Rival Super Micro Raises Revenue Outlook: What You Should Know (CORRECTED)",
@@ -410,61 +471,6 @@
    "created_at": "2026-10-21T01:01:38Z",
    "symbols": [
     "LU"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "China Yuchai International Forms Joint Venture for ADI Heat Treatment",
-   "summary": "China Yuchai International Limited has established a new joint venture, Guangxi Aobei, with Guangxi Zhenye to specialize in the heat treatment of Austempered Ductile Iron (ADI).",
-   "source": "fiscal.ai",
-   "url": "https://www.prnewswire.com/news-releases/yuchai-and-guangxi-zhenye-form-new-joint-venture-302913953.html",
-   "created_at": "2026-10-21T01:01:38Z",
-   "symbols": [
-    "CYD"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Perfect Corp. Launches GenAI-Powered Glasses Removal Tool",
-   "summary": "Perfect Corp. has introduced a new generative AI-powered feature that allows users to digitally remove glasses from photos, enhancing its suite of virtual try-on and editing tools.",
-   "source": "fiscal.ai",
-   "url": "https://www.businesswire.com/newsroom/industry/retail/cosmetics",
-   "created_at": "2026-10-21T01:01:37Z",
-   "symbols": [
-    "PERF"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Ascentage Pharma Receives Breakthrough Therapy Designation for Lisaftoclax in China",
-   "summary": "Ascentage Pharma's novel Bcl-2 inhibitor, lisaftoclax (APG-2575), has been granted Breakthrough Therapy Designation by China's CDE for the treatment of treatment-naïve chronic lymphocytic leukemia/sma",
-   "source": "fiscal.ai",
-   "url": "https://www.globenewswire.com/news-release/2026/10/20/3385051/0/en/ascentage-pharma-s-lisaftoclax-granted-breakthrough-therapy-designation-in-china-for-treatment-na%C3%AFve-cll-sll.html",
-   "created_at": "2026-10-21T01:01:33Z",
-   "symbols": [
-    "AAPG"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Alsea Reports 4.2% Same-Store Sales Growth for Third Quarter 2026",
-   "summary": "Alsea, S.A.B. de C.V. announced its financial performance for the third quarter of 2026, highlighting a 4.2% increase in same-store sales.",
-   "source": "fiscal.ai",
-   "url": "https://miranda-newswire.com/alsea-reports-a-same-store-sales-growth-of-4-2-in-the-third-quarter-of-2026/",
-   "created_at": "2026-10-21T00:02:09Z",
-   "symbols": [
-    "ALSEA"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "UBS Projects Starbucks to Report Fiscal Fourth-Quarter Earnings Beat",
-   "summary": "UBS Securities issued a note projecting that Starbucks is likely to exceed fiscal fourth-quarter earnings estimates due to sustained sales momentum.",
-   "source": "fiscal.ai",
-   "url": "https://www.moomoo.com/news/post/1001757865/starbucks-likely-to-deliver-quarterly-beat-on-continued-sales-momentum",
-   "created_at": "2026-10-21T00:02:08Z",
-   "symbols": [
-    "SBUX"
    ],
    "image": ""
   }
