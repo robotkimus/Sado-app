@@ -1,6 +1,18 @@
 {
- "updated": "2026-10-21 12:00",
+ "updated": "2026-10-21 13:00",
  "items": [
+  {
+   "headline": "Meta Pauses Muse AI Sharing After Researchers Say 6,800 Chats Were Exposed ‘Like a Table Of Contents’",
+   "summary": "Meta suspended Muse AI chat sharing after researchers found 6,800 links exposing sensitive personal and business conversations.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62485859/meta-muse-ai-chat-privacy-flaw",
+   "created_at": "2026-10-21T03:37:15Z",
+   "symbols": [
+    "AAPL",
+    "META"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/21/Ngawi--Indonesia--September-24--2026--Me.jpg?width=1024&height=768"
+  },
   {
    "headline": "Nerdio Releases 2026 State of the MSP Business Report on Microsoft Cloud Ecosystem",
    "summary": "Nerdio's 2026 State of the MSP Business Report highlights challenges and trends for managed service providers managing Microsoft 365 and Azure environments.",
@@ -172,17 +184,17 @@
    "image": ""
   },
   {
-   "headline": "Why Is 3M Stock Soaring Tuesday?",
-   "summary": "3M (NYSE: MMM) stock surged after beating Q3 estimates, raising its 2026 earnings guidance, and boosting its 2027 outlook.",
+   "headline": "Dell, HPE Shares Jump After Hours as AI Server Rival Super Micro Raises Revenue Outlook: What You Should Know (CORRECTED)",
+   "summary": "Dell Technologies shares jump 5.95% in after-hours trading to $489.01 as Super Micro raises its revenue outlook.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62477397/why-is-3m-stock-soaring-tuesday",
-   "created_at": "2026-10-20T17:48:55Z",
+   "url": "https://www.benzinga.com/markets/equities/26/10/62485847/dell-technologies-shares-jump-after-hours-super-micro-outlook",
+   "created_at": "2026-10-21T03:34:49Z",
    "symbols": [
-    "AMZN",
-    "MMM",
-    "MSFT"
+    "DELL",
+    "HPE",
+    "SMCI"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/20/3M-MMM.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/21/New-York-City--New-York---September-27-2.jpg?width=1024&height=768"
   },
   {
    "headline": "SpaceX and Tesla Merger Soon? Crypto Prediction Market Punters Are Betting on This Date as Elon Musk Calls the Combination a 'Good Idea'",
@@ -453,17 +465,6 @@
    "created_at": "2026-10-21T00:02:08Z",
    "symbols": [
     "SBUX"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Perpetuals.com Ltd. Announces Partnership with European Institute of Management",
-   "summary": "Perpetuals.com Ltd. has partnered with the European Institute of Management (EIM) to provide online certificate programs for users of its UpsideOnly paper trading platform.",
-   "source": "fiscal.ai",
-   "url": "https://www.newswire.com/news/perpetuals-partners-with-european-institute-of-management-to-offer-financial",
-   "created_at": "2026-10-21T00:02:01Z",
-   "symbols": [
-    "PDC"
    ],
    "image": ""
   }
