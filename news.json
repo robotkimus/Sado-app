@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-22 14:00",
+ "updated": "2026-10-22 15:00",
  "items": [
+  {
+   "headline": "United Airlines CEO Says Starlink Is a Key Factor in Customers’ Flight Choices—Elon Musk Responds",
+   "summary": "United Airlines says Starlink is attracting customers from rivals, with over half its flights connected to the service.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/travel/26/10/62516630/united-airlines-ceo-says-starlink-is-a-key-factor-in-customers-flight-choices-elon-musk-responds",
+   "created_at": "2026-10-22T05:54:51Z",
+   "symbols": [
+    "AMZN",
+    "DAL",
+    "SPCX",
+    "UAL"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/22/United-Airlines-CEO-John-Scott-Kirby.jpg?width=1024&height=768"
+  },
   {
    "headline": "Mark Zuckerberg Says Muse Could Out-Earn Facebook, Instagram Per User, But Analyst Warns It’s 'Losing' More Money Than Any Other Product Meta Has Launched",
    "summary": "Meta CEO Mark Zuckerberg sees Muse AI as a major revenue driver, but analysts warn its costs are mounting.",
@@ -166,15 +180,61 @@
    "image": ""
   },
   {
-   "headline": "Meta Posts Q3 Double Beat: 'We're Seeing Velocity Across the Board'",
-   "summary": "Meta Platforms (META) reports financial results for the third quarter after the closing bell on Wednesday.",
+   "headline": "US Orders Staff Departures From Saudi Arabia as Another Airport Attack Turns Deadly, Crypto Bettors Weigh Odds of Houthi Escalation",
+   "summary": "U.S. diplomatic staff and their family members have been reportedly ordered to leave missions in the Middle East as hostilities between Iran-backed Houthis and Saudi Arabia escalated.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/earnings/26/10/62511966/meta-posts-q3-double-beat-were-seeing-velocity-across-the-board",
-   "created_at": "2026-10-21T20:21:34Z",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62516643/houthi-saudi-arabia-us-diplomats-war-middle-east",
+   "created_at": "2026-10-22T05:58:41Z",
    "symbols": [
-    "META"
+    "BTCUSD",
+    "POLUSD",
+    "ZECUSD"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/21/Low-Angle-Image-Of-Meta-Logo-On-Glass-Of.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/22/Riyadh--Saudi-Arabia---February-15--2023.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Tesla’s Cybercab Fleet Expands Tenfold in Just a Month, Elon Musk Says Driverless Mileage Is Growing ‘Like a Rocket Going to Orbit’",
+   "summary": "Musk says Tesla’s Austin Cybercab fleet grew 10x in a month and autonomous miles surged, as expansion faces safety scrutiny.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62516616/teslas-cybercab-fleet-expands-tenfold-in-just-a-month-elon-musk-says-driverless-mileage-is-growing-like-a-rocket-going-to-orbit",
+   "created_at": "2026-10-22T05:46:33Z",
+   "symbols": [
+    "TSLA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/22/Elon-Musk-Tesla-Shutterstock.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Marco Rubio Says Elon Musk’s SpaceX, Not White House, Controls Ukraine’s Starlink, After Trump Said ‘I Don’t Know Who Did It’",
+   "summary": "Rubio said SpaceX controls Ukraine’s Starlink access, as conflicting accounts spark calls for a Senate probe.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/10/62516604/marco-rubio-elon-musk-spacex-ukraine-starlink-control-trump",
+   "created_at": "2026-10-22T05:45:26Z",
+   "symbols": [
+    "SPCX"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/22/Secretary-Of-State-Marco-Rubio-Delivers-.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "NVE Corp (NVEC) Stock Plunges 21% After the Bell: Here's Why",
+   "summary": "NVE Corp shares plunge after hours as second-quarter revenue falls 8%, despite strong first-half growth and dividend announcement.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/10/62516448/nve-corp-nvec-stock-plunges-21-after-the-bell-heres-why",
+   "created_at": "2026-10-22T05:31:27Z",
+   "symbols": [
+    "NVEC"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/22/Red-Arrow-And-Falling-Financial-Charts-O.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Elon Musk Says He'd Be 'Stunned' If Any Robot Rivals Optimus At Launch: Gene Munster Calls It A Tesla 'Call Option' With 'Massive Value'",
+   "summary": "Elon Musk says some humanoid demos are pre-programmed, and Tesla aims to release unscripted Optimus footage in a month or two. ",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/earnings/26/10/62516418/elon-musk-tesla-optimus-robot-gene-munster-call-option-value",
+   "created_at": "2026-10-22T05:28:03Z",
+   "symbols": [
+    "TSLA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/22/Elon-Musk.jpg?width=1024&height=768"
   },
   {
    "headline": "STAK Stock Jumps 59% in After-Hours After Returning to Profit",
@@ -400,61 +460,6 @@
    "created_at": "2026-10-22T02:01:45Z",
    "symbols": [
     "VZ"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "CHIPS AHOY! Brand Launches Two New Minis Drizzled Cookies",
-   "summary": "Mondelez International's CHIPS AHOY! brand has introduced two new varieties of its mini cookies, Caramel Drizzled and Fudge Drizzled.",
-   "source": "fiscal.ai",
-   "url": "https://www.moomoo.com/news/post/1001882146/chips-ahoy-brand-launches-two-new-minis-drizzled-cookies-in",
-   "created_at": "2026-10-22T02:01:41Z",
-   "symbols": [
-    "MDLZ"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "New Zealand Commerce Commission to Cap Interchange Fees",
-   "summary": "The New Zealand Commerce Commission has announced plans to cap interchange fees for credit card transactions processed by Mastercard and Visa.",
-   "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/new-zealand-s-commerce-commission-to-cap-interchange-fees-on-mastercard-visa-credit-cards-ce785cd9dc8ff621",
-   "created_at": "2026-10-22T02:01:37Z",
-   "symbols": [
-    "MA"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Analyst Commentary on Loblaw's Earnings Outlook",
-   "summary": "National Bank of Canada analyst Vishal Shreedhar provided an outlook on Loblaw's third-quarter performance, noting expected challenges in food sales alongside resilience in discount banners and pharma",
-   "source": "fiscal.ai",
-   "url": "https://www.moomoo.com/th/news/post/1001897786/global-equities-roundup-market-talk",
-   "created_at": "2026-10-22T02:01:35Z",
-   "symbols": [
-    "L"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Goldman Sachs Adjusts Chubb Price Target",
-   "summary": "Goldman Sachs research analysts have updated their price target for Chubb Ltd, increasing it from $391 to $403.",
-   "source": "fiscal.ai",
-   "url": "https://www.moomoo.com/news/post/1001876793/goldman-sachs-adjusts-price-target-on-chubb-to-403-from",
-   "created_at": "2026-10-22T02:01:32Z",
-   "symbols": [
-    "GS"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Health Canada Approves AbbVie's Skyrizi for Pediatric Plaque Psoriasis",
-   "summary": "Health Canada has approved Skyrizi (risankizumab) for the treatment of moderate-to-severe plaque psoriasis in children and adolescents aged 6 to under 18.",
-   "source": "fiscal.ai",
-   "url": "https://thepharmacanada.ca/abbvies-skyrizi-receives-health-canada-approval-for-pediatric-plaque-psoriasis/",
-   "created_at": "2026-10-22T02:01:30Z",
-   "symbols": [
-    "ABBV"
    ],
    "image": ""
   }
