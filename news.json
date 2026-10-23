@@ -1,6 +1,31 @@
 {
- "updated": "2026-10-23 17:00",
+ "updated": "2026-10-23 18:00",
  "items": [
+  {
+   "headline": "Spotify Embraces AI Agents From ChatGPT to Muse as New Growth Engine: ‘We Are Simply Everywhere’",
+   "summary": "Spotify is partnering with AI assistants like ChatGPT and Meta’s Muse to expand music discovery and reach more listeners.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62552283/spotify-chatgpt-meta-muse-ai-agent",
+   "created_at": "2026-10-23T08:44:38Z",
+   "symbols": [
+    "META",
+    "SPOT"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/23/Delhi--India--October-23--2019-Close-Up-.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Western Digital Warns HDD Price Growth Will Eventually Slow — But AI, Inference and Robotics Are Keeping Demand Strong",
+   "summary": "Western Digital expects hard-drive price growth to cool eventually but sees storage demand staying strong on AI, inference and robotics. ",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/earnings/26/10/62552114/western-digital-price-growth-to-cool-storage-demand-ai-inference-robotic",
+   "created_at": "2026-10-23T08:30:15Z",
+   "symbols": [
+    "NVDA",
+    "STX",
+    "WDC"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/23/View-of-a-Western-Digital-WD-Red-hard-dr.jpg?width=1024&height=768"
+  },
   {
    "headline": "Meta, Nvidia Lead Tech Sell-Off as AI Spending Fears Rattle Wall Street, But Gene Munster Sides With Musk, Zuckerberg and Huang: ‘We’re Still Early'",
    "summary": "Tech stocks plunged on AI spending fears, but Gene Munster says the AI revolution is early, with Meta’s Muse poised to reshape commerce.",
@@ -178,312 +203,285 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/10/22/In-this-photo-illustration--the-Meta-Mus.jpg?width=1024&height=768"
   },
   {
-   "headline": "Walmart’s Best Month Since 1999 Leads a Record Staples Rally: Is This a Warning Sign?",
-   "summary": "Walmart is on track for its best month since 1999 as XLP heads for a record October. Past staples surges like this often came before weaker markets.",
+   "headline": "Dogecoin and Bitcoin Are Stuck in a Dull Week, but This Meme Token Still Managed a 17% Surge",
+   "summary": "Leading cryptocurrencies have struggled for momentum over the past week, but frog-themed meme token Pepe has emerged as the standout.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/etfs/sector-etfs/26/10/62546738/walmart-stock-best-month-since-1999-record-staples-rally",
-   "created_at": "2026-10-22T20:18:29Z",
-   "symbols": [
-    "CL",
-    "COST",
-    "KO",
-    "META",
-    "PG"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/22/Hdr-Image--Walmart-Customers-Check-Out-L.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Michael Burry Shares Chilling Song on AI: 'Watching Trillion-Dollar Monuments Become Obsolete'",
-   "summary": "Michael Burry’s new song warns AI-driven data centers and GPU spending will become obsolete, echoing his bearish tech bets.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/10/62546332/michael-burry-shares-chilling-song-on-ai-watching-trillion-dollar-monuments-become-obsolete",
-   "created_at": "2026-10-22T20:12:46Z",
-   "symbols": [
-    "AMAT",
-    "AMZN",
-    "CAT",
-    "CSCO",
-    "GOOGL"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/22/michael-burry-ai.png?width=1024&height=768"
-  },
-  {
-   "headline": "Treasury ETFs Soar as Tech Stocks Sell Off and 10-Year Yield Falls Below 5% — What's Fueling the Bond Rush?",
-   "summary": "Long-term bond ETFs rally as Treasury yields fall below 5%, even as hot PPI keeps inflation and Fed policy in focus.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/etfs/sector-etfs/26/10/62551919/treasury-etfs-soar-as-tech-stocks-sell-off-and-10-year-yield-falls-below-5-whats-fueling-the-bond-rush",
-   "created_at": "2026-10-23T07:57:59Z",
-   "symbols": [
-    "BSV",
-    "SHY",
-    "TLT",
-    "VGLT"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/23/Texts-About-Treasury-Bonds-Are-Superimpo.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Trump Says Canadian Jetmaker Bombardier to Invest $270 Million in US, Create Thousands of Jobs Across 3 States: ‘We Are Bringing Back…’",
-   "summary": "Trump says Bombardier will invest $270 million in the U.S., creating thousands of jobs across Kansas, Texas and Indiana.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/10/62551907/trump-says-canadian-jetmaker-bombardier-to-invest-270-million-in-us-create-thousands-of-jobs-across-3-states-we-are-bringing-back",
-   "created_at": "2026-10-23T07:53:23Z",
-   "symbols": [
-    "BDRBF"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/23/President-Donald-J--Trump-Delivers-Remar.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Signify Reports Third Quarter 2026 Financial Results",
-   "summary": "Signify announced its third-quarter 2026 financial results, highlighting progress in strategy execution and sequential improvements in profitability.",
-   "source": "fiscal.ai",
-   "url": "https://www.streetinsider.com/Globe+Newswire//27093926.html",
-   "created_at": "2026-10-23T07:32:39Z",
-   "symbols": [
-    "LIGHT"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Valeo Reports Q3 2026 Financial Results",
-   "summary": "Valeo reported a third-quarter revenue of 4.88 billion euros, representing a 2.6% organic decline year-over-year and falling 1% below analyst expectations.",
-   "source": "fiscal.ai",
-   "url": "https://www.abcbourse.com/marches/valeo-chute-apres-un-troisieme-trimestre-decevant_704786",
-   "created_at": "2026-10-23T07:32:03Z",
-   "symbols": [
-    "FR"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Eni Announces Special Dividend and Increased Share Buyback Following Strong Q3 Results",
-   "summary": "Eni S.p.A. reported a Q3 adjusted net profit of 2.8 billion euros, surpassing analyst expectations, and responded by announcing a 1.3 billion euro special dividend and an increase to its annual share ",
-   "source": "fiscal.ai",
-   "url": "https://www.finanzen.at/nachrichten/aktien/eni-plant-nach-gewinnsprung-sonderdividende-aktienrueckkauf-aufgestockt-1036658621",
-   "created_at": "2026-10-23T07:31:44Z",
-   "symbols": [
-    "E"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Deutsche Bank Upgrades Roche to Buy",
-   "summary": "Deutsche Bank AG has revised its rating for Roche Holding AG to 'Buy' as of October 23, 2026.",
-   "source": "fiscal.ai",
-   "url": "https://www.finanzen.ch/nachrichten/aktien/roche-aktie-deutsche-bank-ag-revidiert-auf-buy-1036658644",
-   "created_at": "2026-10-23T07:31:42Z",
-   "symbols": [
-    "DB"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Securitas AB Interim Report Q3 2026",
-   "summary": "Securitas AB reported its financial results for the third quarter and the first nine months of 2026, highlighting an operating margin of 8.2 percent for the quarter.",
-   "source": "fiscal.ai",
-   "url": "https://pr.chinookobserver.com/article/Securitas-AB-Interim-Report-Q3-2026-or-January-September/6adaffc1dba4ed9cc76d92a4",
-   "created_at": "2026-10-23T07:31:36Z",
-   "symbols": [
-    "SECU.B"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Peter Schiff Warns of 'Impending' Recession Due to AI Bubble Bursting — but Prediction Markets Aren't Buying It",
-   "summary": "Cryptocurrency punters are not betting on the U.S. entering recession in 2026, but see a greater risk of one materializing in 2027.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62551763/peter-schiff-recession-economy-ai-prediction-market-polymarket",
-   "created_at": "2026-10-23T07:27:29Z",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/10/62552272/cryptocurrency-weekly-gainers-pepe-memecoin-surge",
+   "created_at": "2026-10-23T08:43:14Z",
    "symbols": [
     "BTCUSD",
-    "POLUSD",
-    "ZECUSD"
+    "DOGEUSD",
+    "ETHUSD",
+    "PEPEUSD",
+    "SOLUSD"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/23/Recession.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/23/Images-of-the-Pepe-logo-on-a-digital-bac.jpg?width=1024&height=768"
   },
   {
-   "headline": "Western Digital (WDC) Stock Is Trending After Hours: Here’s What You Need to Know",
-   "summary": "Western Digital shares fell 6.54% after hours following an insider sale disclosure despite quarterly earnings beating analyst estimates.",
+   "headline": "Why RingCentral Shares Are Trading Higher By 15%; Here Are 20 Stocks Moving Premarket",
+   "summary": "RingCentral surged 15% after beating Q3 estimates and raising FY26 guidance; XXII, LABT and HUBC led premarket gainers, while LNAI fell.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/10/62551721/western-digital-shares-fall-insider-sale-earnings",
-   "created_at": "2026-10-23T07:18:03Z",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62552145/why-ringcentral-shares-are-trading-higher-by-15-here-are-20-stocks-moving-premarket",
+   "created_at": "2026-10-23T08:34:19Z",
    "symbols": [
-    "WDC"
+    "AARD",
+    "BCML",
+    "BOF",
+    "DECK",
+    "DKI"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/23/Irvine--California--Usa---July-9--2022-W.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/23/The-Real-Villains-No-Longer-Hide.jpg?width=1024&height=768"
   },
   {
-   "headline": "Norsk Hydro Q3 2026 Earnings Call Transcript",
-   "summary": "Norsk Hydro (OTC:NHYDY) reported third-quarter financial results on Friday. The transcript from the company’s third-quarter earnings call has been provided below.This transcript is brought to you by B",
+   "headline": "Unite Group to Sell London Academy School for GBP41 Million",
+   "summary": "The Unite Group PLC has announced the sale of the London Academy school property for a total consideration of GBP 41 million.",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/unite-group-to-sell-london-academy-school-for-gbp41-million-ce785cded08af624",
+   "created_at": "2026-10-23T08:32:16Z",
+   "symbols": [
+    "UTG"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Informa Markets India Releases Economic Impact Report for SATTE 2026",
+   "summary": "Informa Markets India, in partnership with EY, published an independent report estimating that the SATTE 2026 exhibition generated a ₹3000 crore economic impact.",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.co.uk/news-releases/sattes-landmark-ey-report-reveals-3000-crore-economic-impact-strengthening-its-position-as-a-gateway-to-indias-travel-market-302917877.html",
+   "created_at": "2026-10-23T08:32:11Z",
+   "symbols": [
+    "INF"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "SK hynix Shelves IPO Plans for Solidigm Subsidiary",
+   "summary": "SK hynix has officially halted plans for a U.S. initial public offering of its NAND flash memory subsidiary, Solidigm, citing market volatility and regulatory concerns.",
+   "source": "fiscal.ai",
+   "url": "https://www.milanofinanza.it/news/sk-hynix-blocca-l-ipo-di-solidigm-a-wall-street-pesano-le-pressioni-di-seul-202610230952413630",
+   "created_at": "2026-10-23T08:32:07Z",
+   "symbols": [
+    "SKHY"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Hon Hai Precision Industry Announces Significant Subsidiary Investments",
+   "summary": "Hon Hai Precision Industry Co., Ltd. has announced a series of long-term investments totaling over $1.2 billion to acquire shares in its subsidiaries, eCMMS Precision Singapore, Foxconn AI Solution (F",
+   "source": "fiscal.ai",
+   "url": "https://www.investegate.co.uk/announcement/rns/hon-hai-precision-industry-co-ltd--hhpd/obtaining-shares-in-subsidiaries/9838635",
+   "created_at": "2026-10-23T08:32:01Z",
+   "symbols": [
+    "2317"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Rio Tinto to Invest $1.9 Billion in Kangwinan Bauxite Project",
+   "summary": "Rio Tinto announced a $1.9 billion investment to develop the Kangwinan bauxite project in Queensland, Australia, to sustain its long-term bauxite production capacity.",
+   "source": "fiscal.ai",
+   "url": "https://shareprophets.com/news/88890/rio-tinto-to-invest-19bn-to-develop-kangwinan-bauxite-project-underpinning-the-long-term-future-of-its-weipa-operations",
+   "created_at": "2026-10-23T08:31:59Z",
+   "symbols": [
+    "RIO"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Smith & Nephew and Johnson & Johnson Orthopaedics Merger Talks Collapse",
+   "summary": "Merger discussions between Smith & Nephew and the orthopaedics unit of Johnson & Johnson have reportedly ended due to a disagreement over leadership roles.",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/smith-nephew-j-j-s-orthopaedics-merger-talks-reportedly-collapse-over-leadership-ce785cded08ef320",
+   "created_at": "2026-10-23T08:31:50Z",
+   "symbols": [
+    "SNN"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "McCormick Announces Plan to Acquire Majority Stake in Unilever Pakistan Foods",
+   "summary": "US-based spice manufacturer McCormick has announced its intention to acquire a majority stake in Unilever Pakistan Foods.",
+   "source": "fiscal.ai",
+   "url": "https://www.brecorder.com/news/40445596",
+   "created_at": "2026-10-23T08:31:48Z",
+   "symbols": [
+    "UL"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "The Capital Group Companies, Inc. Reduces Stake in Weir PLC",
+   "summary": "The Capital Group Companies, Inc. has disclosed a reduction in its voting rights in Weir PLC to 9.984216%.",
+   "source": "fiscal.ai",
+   "url": "https://www.investegate.co.uk/announcement/rns/weir-group--weir/holding-s-in-company/9838658",
+   "created_at": "2026-10-23T08:31:42Z",
+   "symbols": [
+    "WEIR"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "TotalEnergies, Petronas, and Mitsui to Develop Malaysian CO2 Storage Hub",
+   "summary": "Mitsui & Co., Ltd. has entered into a collaboration with TotalEnergies and Petronas to develop a carbon dioxide (CO2) storage hub in Malaysia.",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/totalenergies-petronas-mitsui-to-develop-malaysian-co2-storage-hub-ce785cded08ff424",
+   "created_at": "2026-10-23T08:31:37Z",
+   "symbols": [
+    "8031"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Electrolux Group Reports Operational Milestones in Strategic Partnership with Midea Group",
+   "summary": "Electrolux Group confirmed that its joint ventures with Midea Group for Food Preservation products in the U.S. and Mexico became operational on October 1, 2026.",
+   "source": "fiscal.ai",
+   "url": "https://macaubusiness.com/electrolux-group-interim-report-q3-2026/",
+   "created_at": "2026-10-23T08:31:30Z",
+   "symbols": [
+    "000333"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Elizabeth Warren Says ‘Healthcare Conglomerates Are Jacking Up Prices,’ as US Workers Pay 9% More For Family Health Coverage",
+   "summary": "KFF survey finds workers now pay 9% more for family health coverage through employers.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/10/62551703/norsk-hydro-q3-2026-earnings-call-transcript",
-   "created_at": "2026-10-23T07:17:00Z",
+   "url": "https://www.benzinga.com/news/health-care/26/10/62552099/elizabeth-warren-says-healthcare-conglomerates-are-jacking-up-prices-as-us-workers-pay-9-more-for-family-health-coverage",
+   "created_at": "2026-10-23T08:25:29Z",
    "symbols": [
-    "NHYDY"
+    "BAC"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/23/Stock-Market-Crash-Concepts-Backgrounds-.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/23/Exeter--Nh---March-15--2019-Democratic-2.jpg?width=1024&height=768"
   },
   {
-   "headline": "ContextVision AB Reports Threshold Crossing for Major Shareholding Due to Buybacks",
-   "summary": "ContextVision AB has reported a change in major shareholding status resulting from its ongoing share repurchase program.",
-   "source": "fiscal.ai",
-   "url": "https://www.avanza.se/nyheter.html?a=%2Ftelegram%2Favanza%2F13_37759d0c-0b6f-4d55-82ed-b63699086c0b",
-   "created_at": "2026-10-23T07:03:53Z",
+   "headline": "Volvo Q3 2026 Earnings Call Transcript",
+   "summary": "Volvo (OTC:VLVLY) reported third-quarter financial results on Friday. The transcript from the company’s third-quarter earnings call has been provided below.This transcript is brought to you by Benzing",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62551953/volvo-q3-2026-earnings-call-transcript",
+   "created_at": "2026-10-23T08:08:45Z",
    "symbols": [
-    "CONTX"
+    "VLVLY"
    ],
-   "image": ""
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/23/Stock-market-chart-with-green-candlestic.jpg?width=1024&height=768"
   },
   {
-   "headline": "ContextVision Enters Partnership for Quantitative Imaging Technology Validation",
-   "summary": "ContextVision AB has entered into a new partnership focused on the validation of its quantitative imaging technology.",
+   "headline": "RM plc Announces Share Repurchase Transaction",
+   "summary": "RM plc reported the purchase of its own ordinary shares on the London Stock Exchange on October 21, 2026, as part of its ongoing share buyback program.",
    "source": "fiscal.ai",
-   "url": "https://de.marketscreener.com/boerse-nachrichten/contextvision-schliesst-partnerschaft-zur-validierung-quantitativer-bildgebungstechnologie-ce785cded988f424",
-   "created_at": "2026-10-23T07:03:53Z",
+   "url": "https://www.newscom.com/accesswire?p_p_id=listenersearchresults_WAR_searchportlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&p_p_col_id=column-1&p_p_col_pos=1&p_p_col_count=2&_listenersearchresults_WAR_searchportlet_pageNumber=1&_listenersearchresults_WAR_searchportlet_photoSets=true&_listenersearchresults_WAR_searchportlet_excludeRestricted=true&_listenersearchresults_WAR_searchportlet_struts.portlet.action=%2Fview%2FshowDetail&_listenersearchresults_WAR_searchportlet_tagId=awire236674",
+   "created_at": "2026-10-23T08:02:18Z",
    "symbols": [
-    "CONTX"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "NFL Biosciences Receives Regulatory Approval for Phase 2 TONIC Trial",
-   "summary": "NFL Biosciences has obtained regulatory authorization to initiate its Phase 2 TONIC clinical trial, which focuses on smoking and nicotine cessation.",
-   "source": "fiscal.ai",
-   "url": "https://live.euronext.com/nb/markets/paris/company-news",
-   "created_at": "2026-10-23T07:03:38Z",
-   "symbols": [
-    "ALNFL"
+    "RM."
    ],
    "image": ""
   },
   {
-   "headline": "Natuzzi Appoints Aldo Uva as CEO",
-   "summary": "Natuzzi has appointed Aldo Uva as its new Chief Executive Officer, effective October 26, 2026, to lead the company's industrial and financial reorganization.",
+   "headline": "Afentra PLC Announces Director Share Transfer",
+   "summary": "Afentra PLC reported that Chief Operating Officer Ian Cloke transferred 69,000 ordinary shares to his daughter as a gift.",
    "source": "fiscal.ai",
-   "url": "https://www.milanofinanza.it/fashion/natuzzi-sceglie-aldo-uva-come-ceo-202610221815012672",
-   "created_at": "2026-10-23T07:03:32Z",
+   "url": "https://www.investegate.co.uk/announcement/rns/afentra--aet/director-pdmr-dealings/9836896",
+   "created_at": "2026-10-23T08:02:06Z",
    "symbols": [
-    "NTZ"
+    "AET"
    ],
    "image": ""
   },
   {
-   "headline": "EMB Mission Bound Signs Agreement to Acquire 51% of MegaBet Plus",
-   "summary": "EMB Mission Bound AB (publ) has entered into an agreement to acquire a 51% stake in MegaBet Plus, a move intended to expand the company's gaming operations in Europe.",
+   "headline": "Tribal Group plc: Disclosure of Dealings by Exempt Principal Trader",
+   "summary": "Tribal Group plc has been subject to a regulatory disclosure regarding dealings by an exempt principal trader, as part of the ongoing offer period for the company.",
    "source": "fiscal.ai",
-   "url": "https://www.avanza.se/nyheter.html?a=%2Ftelegram%2Favanza%2F13_6e60db68-4198-41f3-8a33-498d69914000",
-   "created_at": "2026-10-23T07:03:29Z",
+   "url": "https://www.globenewswire.com/news-release/2026/10/22/3386096/0/en/form-8-5-ept-ri-tribal-group-plc.html",
+   "created_at": "2026-10-23T08:02:05Z",
    "symbols": [
-    "EMB"
+    "TRB"
    ],
    "image": ""
   },
   {
-   "headline": "Nanologica Appoints New CEO",
-   "summary": "Nanologica AB has announced the appointment of a new Chief Executive Officer.",
+   "headline": "Synthomer plc Issues Q3 2026 Trading Update",
+   "summary": "Synthomer plc reported continued growth in volume, revenue, and EBITDA for the third quarter of 2026 and reaffirmed its full-year outlook.",
    "source": "fiscal.ai",
-   "url": "https://de.marketscreener.com/boerse-nachrichten/nanologica-ernennt-neuen-konzernchef-ce785cded181fe24",
-   "created_at": "2026-10-23T07:03:26Z",
+   "url": "https://www.investegate.co.uk/announcement/rns/synthomer--synt/trading-statement-autumn-2026/9835197",
+   "created_at": "2026-10-23T08:02:05Z",
    "symbols": [
-    "NICA"
+    "SYNT"
    ],
    "image": ""
   },
   {
-   "headline": "DNB Carnegie Access: Kebni Q3 Initial Comment",
-   "summary": "DNB Carnegie released an initial comment on Kebni's third-quarter results, noting that the company is prepared to scale its operations but requires further order intake.",
+   "headline": "Broker Research Published on Metals One Following Acquisition News",
+   "summary": "Metals One announced that its broker, CREST Corporate Broking, has released a research note evaluating the company's proposed acquisition of Lions Bay Resources.",
    "source": "fiscal.ai",
-   "url": "https://www.avanza.se/nyheter.html?a=%2Ftelegram%2Favanza%2F13_5cb90b1d-ce90-4d9b-a275-77e20db14c8b",
-   "created_at": "2026-10-23T07:03:24Z",
+   "url": "https://www.investegate.co.uk/announcement/rns/metals-one--met1/new-broker-research-on-metals-one/9837650",
+   "created_at": "2026-10-23T08:02:00Z",
    "symbols": [
-    "KEBNI.B"
+    "MET1"
    ],
    "image": ""
   },
   {
-   "headline": "Avensia Strengthens Supply Chain Management Offering",
-   "summary": "Avensia has expanded its capabilities within Supply Chain Management by adding 15 consultants to its team.",
+   "headline": "Petra Diamonds Limited Delays FY2026 Annual Report and Announces Expected Share Suspension",
+   "summary": "Petra Diamonds Limited announced it will not meet the October 31, 2026, regulatory deadline for publishing its FY2026 annual report due to ongoing audit delays, leading to an expected suspension of it",
    "source": "fiscal.ai",
-   "url": "https://www.avanza.se/hall-koll/nyheter.html?a=%2Ftelegram%2Favanza%2F2_38de9657-ac96-450b-b986-ae11d558185c",
-   "created_at": "2026-10-23T07:03:23Z",
+   "url": "https://www.tradingview.com/news/tradingview:1ed6653398215:0-petra-diamonds-limited-pdl-delays-fy2026-results-expects-share-suspension/",
+   "created_at": "2026-10-23T08:01:59Z",
    "symbols": [
-    "AVEN"
+    "PDL"
    ],
    "image": ""
   },
   {
-   "headline": "Arcoma AB Appoints Linda Linnér as New CFO",
-   "summary": "Arcoma AB has announced the appointment of Linda Linnér as its new Chief Financial Officer, effective in the fourth quarter of 2026.",
+   "headline": "Fusion Antibodies PLC Awarded New Project Under Existing Master Services Agreement",
+   "summary": "Fusion Antibodies PLC has secured a new project involving transient gene expression and cryogenic electron microscopy for a US-based pharmaceutical client.",
    "source": "fiscal.ai",
-   "url": "https://www.globenewswire.com/en/news/heathcare/medical-equipment",
-   "created_at": "2026-10-23T07:03:23Z",
+   "url": "https://www.voxmarkets.com/articles/rns-hotlist-october-22-aj-bell-amazon-arrow-bradda-head-fusion-ixico-london-stock-exchange-potentially-ai-wildcat-edf880e",
+   "created_at": "2026-10-23T08:01:59Z",
    "symbols": [
-    "ARCOMA"
+    "FAB"
    ],
    "image": ""
   },
   {
-   "headline": "Hernö Gin Reports Q3 2026 Results",
-   "summary": "Hernö Gin AB reported increased net sales but a lower profit for the third quarter of 2026, citing market challenges and ongoing investments.",
+   "headline": "Arc Minerals Publishes Q3 2026 Quarterly Investor Update",
+   "summary": "Arc Minerals Limited released its Q3 2026 investor update, detailing progress on exploration projects in Botswana and Zambia and reporting a strong liquidity position.",
    "source": "fiscal.ai",
-   "url": "https://www.placera.se/telegram/herno-gin-okad-omsattning-lagre-resultat-3-kv-20261021",
-   "created_at": "2026-10-23T07:03:16Z",
+   "url": "https://www.investegate.co.uk/announcement/rns/arc-minerals-limited-npv-di---arcm/quarterly-investor-update-q3-2026-/9835183",
+   "created_at": "2026-10-23T08:01:58Z",
    "symbols": [
-    "HERNO.B"
+    "ARCM"
    ],
    "image": ""
   },
   {
-   "headline": "YOC AG Announces Preliminary Q3 2026 Figures and Lowers Full-Year Guidance",
-   "summary": "YOC AG has revised its financial outlook for the 2026 fiscal year, citing challenging market conditions and reduced advertiser spending.",
+   "headline": "United Oil & Gas PLC Announces Exercise of Warrants",
+   "summary": "United Oil & Gas PLC has announced the exercise of 307,333,333 warrants, raising £691,500 in proceeds for the company.",
    "source": "fiscal.ai",
-   "url": "https://www.placera.se/pressmeddelanden/yoc-yoc-ag-preliminary-figures-for-q3-2026-adjustment-of-the-full-year-guidance-2026-20261022",
-   "created_at": "2026-10-23T07:03:16Z",
+   "url": "https://www.investegate.co.uk/announcement/rns/united-oil-gas--uog/exercise-of-warrants-and-total-voting-rights/9836866",
+   "created_at": "2026-10-23T08:01:58Z",
    "symbols": [
-    "YOC"
+    "UOG"
    ],
    "image": ""
   },
   {
-   "headline": "Serstech Appoints Carl Vilhelm Crona as Chief Commercial Officer",
-   "summary": "Serstech has appointed Carl Vilhelm Crona as its new Chief Commercial Officer, effective immediately, to lead the company's global sales organization.",
+   "headline": "Anavio Capital Partners LLP Reports Major Holding in Sunda Energy PLC",
+   "summary": "Anavio Capital Partners LLP has notified Sunda Energy PLC of a change in its major holdings, disclosing a 6.54% stake in voting rights through financial instruments.",
    "source": "fiscal.ai",
-   "url": "https://www.globenewswire.com/news-release/2026/10/22/3386061/0/en/serstech-appoints-carl-vilhelm-crona-as-chief-commercial-officer.html",
-   "created_at": "2026-10-23T07:03:15Z",
+   "url": "https://www.investegate.co.uk/announcement/rns/sunda-energy--snda/holding-s-in-company/9837264",
+   "created_at": "2026-10-23T08:01:57Z",
    "symbols": [
-    "SERT"
+    "SNDA"
    ],
    "image": ""
   },
   {
-   "headline": "Komputronik S.A. Registers Statute Changes for Incentive Program",
-   "summary": "Komputronik S.A. announced the registration of amendments to its company statute, which were adopted to facilitate the implementation of a new incentive program.",
+   "headline": "IntelliAM AI PLC Announces £6.8 Million Fundraising and Planned Move to AIM",
+   "summary": "IntelliAM AI PLC is raising approximately £6.8 million through a share placing and retail offer while simultaneously planning to cancel its AQSE Growth Market listing to join the AIM market.",
    "source": "fiscal.ai",
-   "url": "https://pap-mediaroom.pl/biznes-i-finanse/komputronik-sa-152026-rejestracja-przez-sad-zmiany-statutu-emitenta",
-   "created_at": "2026-10-23T07:03:12Z",
+   "url": "https://www.investegate.co.uk/announcement/rns/intelliam-ai-plc--int/fundraising-of-6-3m-move-to-aim-and-notice-of-gm/9836256",
+   "created_at": "2026-10-23T08:01:57Z",
    "symbols": [
-    "KOM"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "pferdewetten.de AG Announces Reorganization of Equity Segment and Cancellation of Retail Shop Acquisitions",
-   "summary": "The board of pferdewetten.de AG has decided to discontinue planned acquisitions of sports betting shops within its Equity segment, including a previously announced deal for 17 retail locations.",
-   "source": "fiscal.ai",
-   "url": "https://www.finanzen.ch/nachrichten/aktien/eqs-adhoc-pferdewetten-de-ag-vorstand-ordnet-segment-equity-neu-1036655863",
-   "created_at": "2026-10-23T07:03:06Z",
-   "symbols": [
-    "EMH"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Cherry SE Receives Major Voting Rights Notification from Fundsight S.A.",
-   "summary": "Cherry SE announced a change in voting rights held by Fundsight S.A., which now reports a total position of 7.01% in the company.",
-   "source": "fiscal.ai",
-   "url": "https://www.placera.se/pressmeddelanden/cherry-cherry-se-release-according-to-article-40-section-1-of-the-wphg-the-german-securities-trading-act-with-the-objective-of-europe-wide-distribution-20261022",
-   "created_at": "2026-10-23T07:03:06Z",
-   "symbols": [
-    "C3R"
+    "INT"
    ],
    "image": ""
   }
