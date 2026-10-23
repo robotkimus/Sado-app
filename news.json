@@ -1,6 +1,63 @@
 {
- "updated": "2026-10-23 21:00",
+ "updated": "2026-10-23 22:00",
  "items": [
+  {
+   "headline": "The Average Stock Is Beating the S&P 500 by the Most Since April 2009: Is the Rotation Now Over?",
+   "summary": "The equal-weight S&amp;P 500 ETF (RSP) is beating SPY by the most since April 2009 as money exits AI stocks. Analysts weigh whether the rotation can last.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/10/62556800/equal-weight-sp-500-rsp-spy-best-month-since-2009-rotation",
+   "created_at": "2026-10-23T12:52:39Z",
+   "symbols": [
+    "META",
+    "NVDA",
+    "RSP",
+    "SPY",
+    "XLK"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/23/New-York--Ny--Usa---11-05-2024-Wall-Stre.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Stock Market Today: S&P 500, Nasdaq 100, Dow Jones Futures Fall Ahead of Global PMI Data—Western Digital, Newmont, Crown Castle in Focus (UPDATED)",
+   "summary": "U.S. stock futures swung Friday as the Dow Jones, and S&amp;P 500 indices fell while the Nasdaq 100 rose, following Thursday&#39;s mixed close.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/10/62553473/stock-market-today-sp-500-nasdaq-100-futures-mixed-ahead-of-global-pmi-data-western-digital-newmont-crown-castle-in-focus",
+   "created_at": "2026-10-23T12:50:25Z",
+   "symbols": [
+    "BE",
+    "BTCUSD",
+    "CCI",
+    "NEM",
+    "OMC"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/23/New-York--Ny--Usa---11-05-2024-Wall-Stre.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Tom Lee Urges Buying the Tech Dip, Calls Sell-Off a ‘Healthy Correction,’ Points to $30 Trillion Infrastructure Boom Ahead",
+   "summary": "Fundstrat&#39;s Tom Lee urges investors to buy the tech dip, calling the recent selloff a &#34;healthy correction&#34; ahead of a $30 trillion AI boom.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/market-summary/26/10/62556338/tom-lee-urges-buying-the-tech-dip-calls-sell-off-a-healthy-correction-points-to-30-trillion-infrastructure-boom-ahead",
+   "created_at": "2026-10-23T12:36:56Z",
+   "symbols": [
+    "CSCO",
+    "DIA",
+    "QQQ",
+    "SPY"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/23/Artificial-Intelligence-And-Technology--.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Wall Street's Most Accurate Analysts Give Their Take On 3 Health Care Stocks Delivering High-Dividend Yields",
+   "summary": "Analysts highlight high-yield healthcare stocks Perrigo (7.09%), Pfizer (5.65%) and CVS Health (2.82%), with updated ratings and news.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/dividends/26/10/62556112/wall-streets-most-accurate-analysts-give-their-take-on-3-health-care-stocks-delivering-high-dividend-yields-18",
+   "created_at": "2026-10-23T12:30:09Z",
+   "symbols": [
+    "CVS",
+    "PFE",
+    "PRGO"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/23/Healthcare-stocks.jpg?width=1024&height=768"
+  },
   {
    "headline": "Pony AI, NVIDIA Take Their Robotaxi Ambitions to a New Market",
    "summary": "Pony AI, NVIDIA, and inDrive join forces to explore autonomous ride-hailing services in Astana, Kazakhstan.",
@@ -99,21 +156,6 @@
    "image": ""
   },
   {
-   "headline": "Stock Market Today: S&P 500, Nasdaq 100 Futures Mixed Ahead of Global PMI Data—Western Digital, Newmont, Crown Castle in Focus",
-   "summary": "U.S. stock futures swung Friday as the Dow Jones, and S&amp;P 500 indices fell while the Nasdaq 100 rose, following Thursday&#39;s mixed close.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/10/62553473/stock-market-today-sp-500-nasdaq-100-futures-mixed-ahead-of-global-pmi-data-western-digital-newmont-crown-castle-in-focus",
-   "created_at": "2026-10-23T10:19:24Z",
-   "symbols": [
-    "BE",
-    "BTCUSD",
-    "CCI",
-    "NEM",
-    "OMC"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/23/New-York--Ny--Usa---11-05-2024-Wall-Stre.jpg?width=1024&height=768"
-  },
-  {
    "headline": "Anthropic’s Path to $1.5 Trillion Demands 30% Margins: Plausible, but Delivering Is Another Matter",
    "summary": "Aswath Damodaran warns Anthropic’s $1.5T IPO is about pricing, not intrinsic valuation. ARR may mask deep cash flow risks.",
    "source": "benzinga",
@@ -152,326 +194,314 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/10/23/Delhi--India--October-23--2019-Close-Up-.jpg?width=1024&height=768"
   },
   {
-   "headline": "Western Digital Warns HDD Price Growth Will Eventually Slow — But AI, Inference and Robotics Are Keeping Demand Strong",
-   "summary": "Western Digital expects hard-drive price growth to cool eventually but sees storage demand staying strong on AI, inference and robotics. ",
+   "headline": "Procter & Gamble To Rally Over 12%? Here Are 10 Top Analyst Forecasts For Friday",
+   "summary": "Analysts cut EAT, TTMI and MRTN targets, while raising SPOT, RBLX, S, PG and ARGX; ratings were largely maintained.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/earnings/26/10/62552114/western-digital-price-growth-to-cool-storage-demand-ai-inference-robotic",
-   "created_at": "2026-10-23T08:30:15Z",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62556954/procter-gamble-to-rally-over-12-here-are-10-top-analyst-forecasts-for-friday",
+   "created_at": "2026-10-23T12:58:46Z",
    "symbols": [
-    "NVDA",
-    "STX",
-    "WDC"
+    "ARGX",
+    "EAT",
+    "HUBS",
+    "MRTN",
+    "PG"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/23/View-of-a-Western-Digital-WD-Red-hard-dr.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/23/Vandalia---Circa-April-2018-Procter-amp-.jpg?width=1024&height=768"
   },
   {
-   "headline": "Meta, Nvidia Lead Tech Sell-Off as AI Spending Fears Rattle Wall Street, But Gene Munster Sides With Musk, Zuckerberg and Huang: ‘We’re Still Early'",
-   "summary": "Tech stocks plunged on AI spending fears, but Gene Munster says the AI revolution is early, with Meta’s Muse poised to reshape commerce.",
+   "headline": "Eni Q3 2026 Earnings Call Transcript",
+   "summary": "Eni (NYSE:E) reported third-quarter financial results on Friday. The transcript from the company’s third-quarter earnings call has been provided below.This transcript is brought to you by Benzinga API",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/10/62551736/meta-nvidia-lead-tech-sell-off-as-ai-spending-fears-rattle-wall-street-but-gene-munster-sides-with-musk-zuckerberg-and-huang-were-still-early",
-   "created_at": "2026-10-23T07:19:22Z",
+   "url": "https://www.benzinga.com/news/26/10/62556934/eni-q3-2026-earnings-call-transcript",
+   "created_at": "2026-10-23T12:58:03Z",
    "symbols": [
-    "GOOGL",
-    "META",
-    "NVDA",
-    "SOXQ",
+    "E"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/23/Stock-Market-Crash-Concepts-Backgrounds-.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Selective Insurance Gr Q3 2026 Earnings Call Transcript",
+   "summary": "Selective Insurance Gr (NASDAQ:SIGI) reported third-quarter financial results on Friday. The transcript from the company’s third-quarter earnings call has been provided below.This transcript is brough",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62556914/selective-insurance-gr-q3-2026-earnings-call-transcript",
+   "created_at": "2026-10-23T12:57:00Z",
+   "symbols": [
+    "SIGI"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/23/Stock-market-chart-with-green-candlestic.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Norwegian Cruise Line Shares Sink Friday: What's Happening?",
+   "summary": "Norwegian Cruise Line Holdings is trading lower after J.P. Morgan downgraded the stock to Underweight and cut its price target by to $11.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62556864/norwegian-cruise-line-shares-sink-friday-whats-happening",
+   "created_at": "2026-10-23T12:55:05Z",
+   "symbols": [
+    "NCLH"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/23/Nassau--Bahamas---April-16--2008-The-Nor.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Houston, Verizon Has a Problem: Verizon Stock Falls as SpaceX Reportedly Seeks 80,000 Cell Sites",
+   "summary": "Verizon Communications is trading lower after a report that SpaceX is seeking access to 80,000 U.S. cell sites for a fourth wireless network.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62556761/houston-verizon-has-a-problem-verizon-stock-falls-as-spacex-reportedly-seeks-80000-cell-sites",
+   "created_at": "2026-10-23T12:51:23Z",
+   "symbols": [
+    "VZ"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/23/Verizon-Communications-Inc.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Why Is SK hynix Stock Surging Friday?",
+   "summary": "SK hynix (SKHY) rose nearly 5% premarket after halting U.S. IPO plans for its Solidigm unit to protect existing shareholder value.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62556708/why-is-sk-hynix-stock-surging-friday",
+   "created_at": "2026-10-23T12:48:33Z",
+   "symbols": [
+    "SKHY"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/23/Sk-Hynix-America-Headquarters-In-San-Jos.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Top 3 Utilities Stocks That May Fall Off A Cliff This Quarter",
+   "summary": "Three utility stocks—Consolidated Edison, Southern and Atmos Energy—show overbought RSI readings near 80, warning momentum-focused investors.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/short-ideas/26/10/62556648/top-3-utilities-stocks-that-may-fall-off-a-cliff-this-quarter",
+   "created_at": "2026-10-23T12:45:08Z",
+   "symbols": [
+    "ATO",
+    "ED",
+    "SO"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/23/High-Voltage-Electricity-Towers-At-A-Sub.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "This Avalo Therapeutics Analyst Is No Longer Bullish; Here Are Top 5 Downgrades For Friday",
+   "summary": "Analysts downgraded DECK, AVTX, ORI, GL and CASS; price targets were cut for DECK, ORI and GL.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/downgrades/26/10/62556598/this-avalo-therapeutics-analyst-is-no-longer-bullish-here-are-top-5-downgrades-for-friday",
+   "created_at": "2026-10-23T12:44:26Z",
+   "symbols": [
+    "AVTX",
+    "CASS",
+    "DECK",
+    "GL",
+    "ORI"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/23/Crypto-Trader-Investor-Broker-Using-Smar.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "This Guardant Health Analyst Begins Coverage On A Bullish Note; Here Are Top 5 Initiations For Friday",
+   "summary": "Analysts initiated coverage: VSE Sector Weight; Guardant, Quantum, Benitec and Diodes rated Buy/Overweight/Outperform with targets up to $200.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/initiation/26/10/62556352/this-guardant-health-analyst-begins-coverage-on-a-bullish-note-here-are-top-5-initiations-for-friday",
+   "created_at": "2026-10-23T12:37:19Z",
+   "symbols": [
+    "BNTC",
+    "DIOD",
+    "GH",
+    "QMCO",
+    "VSEC"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/23/Operations-Research-Analysts.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Moderna Stock Slides Again Friday: What's Going On?",
+   "summary": "Moderna slides in premarket trading post ESMO data leak, despite Phase 3 vaccine trial showing a 42% cut in melanoma recurrence.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/biotech/26/10/62556311/moderna-stock-slides-again-friday-whats-going-on",
+   "created_at": "2026-10-23T12:35:47Z",
+   "symbols": [
+    "MRK",
+    "MRNA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/23/Moderna-vaccine.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "JBS N.V. Announces Registered Exchange Offers",
+   "summary": "JBS N.V. has announced the commencement of registered exchange offers for its debt securities.",
+   "source": "fiscal.ai",
+   "url": "https://www.streetinsider.com/Globe+Newswire?before_id=27223771",
+   "created_at": "2026-10-23T12:32:26Z",
+   "symbols": [
+    "JBS"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "T-Mobile Shares Lose Signal as SpaceX Reportedly Seeks 80,000 Cell Sites to Build a Rival Carrier",
+   "summary": "T-Mobile US is falling Friday after a report that SpaceX is seeking at least 80,000 U.S. cell sites to build a fourth wireless carrier.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62556184/t-mobile-shares-lose-signal-as-spacex-reportedly-seeks-80000-cell-sites-to-build-a-rival-carrier",
+   "created_at": "2026-10-23T12:32:07Z",
+   "symbols": [
+    "TMUS"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/23/Los-Angeles--California--May-20--2024-T-.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Golar LNG Publishes 2025 Environmental, Social and Governance Report",
+   "summary": "Golar LNG Limited has released its 2025 ESG report, highlighting operational performance improvements and efficiency gains across its FLNG fleet.",
+   "source": "fiscal.ai",
+   "url": "https://www.taiwannews.com.tw/en/news/6464412",
+   "created_at": "2026-10-23T12:31:58Z",
+   "symbols": [
+    "GLNG"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Infosys Reports Second Quarter Fiscal Results",
+   "summary": "Infosys Limited announced its financial results for the second quarter of fiscal 2026, reporting a decline in net profit despite a slight increase in revenue.",
+   "source": "fiscal.ai",
+   "url": "https://www.finanzen.at/nachrichten/aktien/infosys-q2-net-profit-declines-despite-revenue-growth-stock-falls-in-pre-market-1036659191",
+   "created_at": "2026-10-23T12:31:39Z",
+   "symbols": [
+    "INFY"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Adani Power Reports Higher Net Profit for First Half of Fiscal Year",
+   "summary": "Adani Power Limited announced an increase in its net profit and revenue for the first half of the fiscal year, driven by strong electricity demand.",
+   "source": "fiscal.ai",
+   "url": "https://ch.marketscreener.com/boerse-nachrichten/adani-power-erzielt-im-ersten-geschaeftshalbjahr-hoeheren-nettogewinn-umsatz-steigt-ce785cdfd981ff25",
+   "created_at": "2026-10-23T12:31:38Z",
+   "symbols": [
+    "ADANIPOWER"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "President Trump, World Liberty Financial Sued Over $2.5 Billion UAE Crypto Deals: Report",
+   "summary": "Trump and World Liberty face a lawsuit alleging UAE-linked crypto deals violated the Foreign Emoluments Clause; the company and White House deny",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/10/62556143/president-trump-world-liberty-financial-sued-over-2-5-billion-uae-crypto-deals-report",
+   "created_at": "2026-10-23T12:31:04Z",
+   "symbols": [
+    "CRCL"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/23/Washington-Dc--2026-January-28--Presiden.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Trump Says Canadian Jetmaker Bombardier to Invest $270 Million in US, Create Thousands of Jobs Across 3 States: ‘We Are Bringing Back…’ (UPDATED)",
+   "summary": "Trump says Bombardier will invest $270 million in the U.S., creating thousands of jobs across Kansas, Texas and Indiana.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/10/62551907/trump-says-canadian-jetmaker-bombardier-to-invest-270-million-in-us-create-thousands-of-jobs-across-3-states-we-are-bringing-back",
+   "created_at": "2026-10-23T12:19:25Z",
+   "symbols": [
+    "BDRBF"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/23/President-Donald-J--Trump-Delivers-Remar.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "How to Earn $500 a Month From Nucor Stock Ahead of Q3 Earnings",
+   "summary": "Nucor reports Q3 earnings Oct. 26; analysts expect $5.83 EPS and $10.79B revenue. At 0.87% yield, $691K investment earns $500 monthly.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/dividends/26/10/62555914/how-to-earn-500-a-month-from-nucor-stock-ahead-of-q3-earnings-2",
+   "created_at": "2026-10-23T12:16:04Z",
+   "symbols": [
+    "NUE"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/23/Stuttgart--Germany---05-20-2022-Person-H.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "American Airlines CEO Robert Isom Backs Elon Musk’s Starlink When Pressed Over Ukraine, Says Customers Want the Best Product on the Market: ‘It’s Starlink’",
+   "summary": "American CEO backs Starlink despite Ukraine scrutiny, expanding it to more than 1,000 aircrafts from 2027.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62555892/american-airlines-ceo-robert-isom-backs-elon-musks-starlink-when-pressed-over-ukraine-says-customers-want-the-best-product-on-the-market-its-starlink",
+   "created_at": "2026-10-23T12:15:34Z",
+   "symbols": [
+    "AAL",
+    "LUV",
     "SPCX"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/23/Mark-Zuckerberg-Image-On-Mobile-Screen-A.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/23/Dallas--United-States---November-5--2022.jpg?width=1024&height=768"
   },
   {
-   "headline": "AI Stocks Are Getting Crushed, But This Strategist Says the Pullback Could Keep the Boom Alive: 'Restraint Prevents Excess'",
-   "summary": "James Thorne argued Thursday that the market is misreading the AI stock slide, a pullback that may help the boom last longer.",
+   "headline": "Bitcoin Could Send to $100,000 if it Breaks $86,000, Top Analyst Predicts",
+   "summary": "Bitcoin could race to $100,000 above $86,000, Coutts says, as he shifts capital into Ethereum, Aave and DeFi.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/10/62551526/james-thorne-ai-selloff-healthy-correction-restraint-more-time-to-run",
-   "created_at": "2026-10-23T07:02:01Z",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/10/62555891/bitcoin-could-send-to-100000-if-it-breaks-86000-top-analyst-predicts",
+   "created_at": "2026-10-23T12:15:32Z",
    "symbols": [
-    "CRWV",
-    "META",
-    "ORCL",
-    "QQQ",
-    "SPY"
+    "AAVEUSD",
+    "BTCUSD",
+    "DRVUSD",
+    "ENAUSD",
+    "ETHUSD"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/23/Creative-Ai-Background-With-Forex-Chart-.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/23/London--Uk---January-26--2024-Photograph.jpg?width=1024&height=768"
   },
   {
-   "headline": "Ripple Partners With Arf to Bring RLUSD Liquidity to XRP Ledger",
-   "summary": "Ripple and Arf will use RLUSD on XRPL to provide settlement liquidity for cross-border payments, expanding institutional lending and adoption.",
+   "headline": "12 Consumer Discretionary Stocks Moving In Friday's Pre-Market Session",
+   "summary": "Gainers\n\nJ-Star Hldg (NASDAQ:YMAT) stock moved upwards by 42.2% to $2.73 during Friday&#39;s pre-market session. The market value of their outstanding shares is at $9.0 million. \nU Power (NASDAQ:UCAR)",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/10/62555339/ripple-partners-with-arf-to-bring-rlusd-liquidity-to-xrp-ledger",
-   "created_at": "2026-10-23T11:59:02Z",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62555663/12-consumer-discretionary-stocks-moving-friday-s-pre-market-session",
+   "created_at": "2026-10-23T12:05:42Z",
    "symbols": [
-    "XRPUSD"
+    "DXLG",
+    "EZGO",
+    "FCHL",
+    "FEBO",
+    "GNTX"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/23/Kyrenia--Cyprus---November-8--2018-Rippl.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_3.jpg?width=1024&height=768"
   },
   {
-   "headline": "Gary Black Says Tesla Investors Are Taking Elon Musk's Earnings Call Projections as 'Gospel' Despite Stock's 'Extreme Valuation Metrics'",
-   "summary": "Gary Black warns Tesla investors not to treat Musk’s AI, autonomy and robotics targets as guaranteed, citing execution risks.",
+   "headline": "12 Health Care Stocks Moving In Friday's Pre-Market Session",
+   "summary": "Gainers\n\nLucid Diagnostics (NASDAQ:LUCD) stock moved upwards by 29.7% to $0.42 during Friday&#39;s pre-market session. The company&#39;s market cap stands at $63.6 million. \nElectra Therapeutics (NASD",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/10/62555207/gary-black-says-tesla-investors-are-taking-elon-musks-earnings-call-projections-as-gospel-despite-stocks-extreme-valuation-metrics",
-   "created_at": "2026-10-23T11:53:06Z",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62555662/12-health-care-stocks-moving-friday-s-pre-market-session",
+   "created_at": "2026-10-23T12:05:42Z",
    "symbols": [
-    "TSLA"
+    "AARD",
+    "ALZN",
+    "CNTX",
+    "ETRA",
+    "EVAX"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/23/Tesla-Logo-On-The-Smartphone-Screen-And-.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_4.jpg?width=1024&height=768"
   },
   {
-   "headline": "ServiceNow, Zscaler and a Music Streaming Giant on CNBC’s ‘Final Trades’",
-   "summary": "CNBC traders picked Zscaler, ServiceNow and Spotify; analyst targets supported the first two, while Spotify jumped 11.1% despite a Q3 earnings miss.",
+   "headline": "12 Industrials Stocks Moving In Friday's Pre-Market Session",
+   "summary": "Gainers\n\nCallan Jmb (NASDAQ:CJMB) stock rose 21.3% to $0.63 during Friday&#39;s pre-market session. The company&#39;s market cap stands at $3.3 million. \nHyperscale Data (AMEX:GPUS) stock increased by",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/10/62555175/servicenow-zscaler-and-a-music-streaming-giant-on-cnbcs-final-trades",
-   "created_at": "2026-10-23T11:51:26Z",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62555661/12-industrials-stocks-moving-friday-s-pre-market-session",
+   "created_at": "2026-10-23T12:05:42Z",
    "symbols": [
-    "NOW",
-    "SPOT",
-    "ZS"
+    "AGRZ",
+    "AMRO",
+    "BNC",
+    "CJMB",
+    "ELOG"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/23/Analyst-Backs-Tyson-Protein-Strategy.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_2.jpg?width=1024&height=768"
   },
   {
-   "headline": "What's Going On With Kohl's Stock Friday?",
-   "summary": "Kohl&#39;s (NYSE: KSS) stock dipped in premarket trading after a 12% rally following Gordon Haskett&#39;s upgrade to Buy with a $27 target.",
+   "headline": "12 Information Technology Stocks Moving In Friday's Pre-Market Session",
+   "summary": "Gainers\n\nRingCentral (NYSE:RNG) shares rose 15.2% to $91.5 during Friday&#39;s pre-market session. The market value of their outstanding shares is at $7.4 billion. The company&#39;s, Q3 earnings came ",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62554890/whats-going-on-with-kohls-stock-friday",
-   "created_at": "2026-10-23T11:40:31Z",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62555660/12-information-technology-stocks-moving-friday-s-pre-market-session",
+   "created_at": "2026-10-23T12:05:41Z",
    "symbols": [
-    "KSS"
+    "ARBB",
+    "AUID",
+    "AUUD",
+    "BKYI",
+    "CSAI"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/23/Sep-16--2019-Milpitas-----Ca-----Usa---K.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_1.jpg?width=1024&height=768"
   },
   {
-   "headline": "This Allegion Analyst Turns Bullish; Here Are Top 5 Upgrades For Friday",
-   "summary": "Top Wall Street analysts changed their outlook on these top names. For a complete view of all analyst rating changes, including upgrades, downgrades and initiations, please see our analyst ratings pag",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/analyst-stock-ratings/upgrades/26/10/62554835/this-allegion-analyst-turns-bullish-here-are-top-5-upgrades-for-friday",
-   "created_at": "2026-10-23T11:37:14Z",
-   "symbols": [
-    "ALLE",
-    "HESM",
-    "PHVS",
-    "TTRX",
-    "VLY"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/23/Analysts-Debate-Depreciation-Impact.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Truist Securities Adjusts Price Target on Boyd Gaming to $95 From $100, Keeps Buy Rating",
-   "summary": "Truist Securities has revised its price target for Boyd Gaming Corporation to $95 from $100 while maintaining a Buy rating on the stock.",
+   "headline": "Kering Reports Q3 2026 Financial Results Amid Declining Luxury Demand",
+   "summary": "Kering shares experienced a significant decline following the release of third-quarter 2026 results, which highlighted a 6% revenue drop at its flagship brand, Gucci.",
    "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/truist-securities-adjusts-price-target-on-boyd-gaming-to-95-from-100-keeps-buy-rating-ce785cdfd98af324",
-   "created_at": "2026-10-23T11:33:08Z",
+   "url": "https://www.marketscreener.com/news/rbc-updates-kering-estimates-after-difficult-to-interpret-q3-results-ce785cdfd981f326",
+   "created_at": "2026-10-23T12:03:30Z",
    "symbols": [
-    "BYD"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "The Gorman-Rupp Company Increases Quarterly Dividend",
-   "summary": "The Gorman-Rupp Company announced an increase in its quarterly dividend to $0.20 per share from $0.19 per share.",
-   "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/gorman-rupp-raises-quarterly-dividend-to-0-20-a-share-from-0-19-payable-dec-10-to-shareholders-o-ce785cdfd980f224",
-   "created_at": "2026-10-23T11:33:04Z",
-   "symbols": [
-    "GRC"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "The Gorman-Rupp Company Reports Q3 2026 Financial Results",
-   "summary": "The Gorman-Rupp Company reported third-quarter 2026 financial results, with adjusted earnings per share of $0.86 and revenue of $193.3 million, both exceeding analyst expectations.",
-   "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/earnings-flash-grc-the-gorman-rupp-company-reports-q3-revenue-193-3m-vs-factset-est-of-181-6m-ce785cdfd981f42c",
-   "created_at": "2026-10-23T11:33:04Z",
-   "symbols": [
-    "GRC"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "RBC Lowers Price Target on Advance Auto Parts to $49 From $52",
-   "summary": "RBC Capital Markets has adjusted its price target for Advance Auto Parts, Inc. to $49 from $52 while maintaining a Sector Perform rating.",
-   "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/rbc-lowers-price-target-on-advance-auto-parts-to-49-from-52-keeps-sector-perform-rating-ce785cdfd981f224",
-   "created_at": "2026-10-23T11:33:02Z",
-   "symbols": [
-    "AAP"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Foremost Clean Energy to Form Joint Ventures with Denison Mines for GR and Blackwing Properties",
-   "summary": "Foremost Clean Energy has announced plans to enter into joint ventures with Denison Mines Corp. regarding the GR and Blackwing properties, including the issuance of warrants at a premium.",
-   "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/foremost-clean-energy-to-form-joint-ventures-with-denison-mines-for-gr-blackwing-properties-ce785cdfd98df427",
-   "created_at": "2026-10-23T11:32:57Z",
-   "symbols": [
-    "DML"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "RBC Raises Price Target on Beacon Financial to $33 From $31",
-   "summary": "RBC Capital Markets has increased its price target for Beacon Financial Corporation from $31 to $33 while maintaining a Sector Perform rating.",
-   "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/rbc-raises-price-target-on-beacon-financial-to-33-from-31-keeps-sector-perform-rating-ce785cdfd980f02d",
-   "created_at": "2026-10-23T11:32:57Z",
-   "symbols": [
-    "BBT"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Energy Fuels Discloses Arbitration Following GM's Termination of e-VAC Magnetics Supply Agreement",
-   "summary": "Energy Fuels reported that General Motors terminated a long-term rare-earth magnet supply agreement with its subsidiary, e-VAC Magnetics, leading to ongoing arbitration that may impact the acquisition",
-   "source": "fiscal.ai",
-   "url": "https://www.moomoo.com/news/post/1002152578/market-chatter-gm-terminates-rare-earth-magnet-supply-agreement-with",
-   "created_at": "2026-10-23T11:32:52Z",
-   "symbols": [
-    "UUUU"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "KeyBanc Initiates Coverage of Astronics Corporation at Sector Weight",
-   "summary": "KeyBanc Capital Markets has initiated coverage of Astronics Corporation with a 'Sector Weight' rating.",
-   "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/keybanc-initiates-astronics-at-sector-weight-ce785cdfd98af325",
-   "created_at": "2026-10-23T11:32:51Z",
-   "symbols": [
-    "ATRO"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Brookdale Announces Third Quarter 2026 Earnings Release and Conference Call",
-   "summary": "Brookdale Senior Living Inc. has scheduled the release of its third-quarter 2026 financial results and a corresponding investor conference call.",
-   "source": "fiscal.ai",
-   "url": "https://pr.chinookobserver.com/article/Brookdale-Announces-Third-Quarter-2026-Earnings-Release-and-Conference-Call/6adb3f0adba4ed9cc76d930c",
-   "created_at": "2026-10-23T11:32:50Z",
-   "symbols": [
-    "BKD"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "RBC Raises Price Target on Badger Meter to $187 From $162, Keeps Outperform Rating",
-   "summary": "RBC Capital Markets has increased its price target for Badger Meter, Inc. from $162 to $187 while maintaining an 'Outperform' rating.",
-   "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/rbc-raises-price-target-on-badger-meter-to-187-from-162-keeps-outperform-rating-ce785cdfd980f227",
-   "created_at": "2026-10-23T11:32:46Z",
-   "symbols": [
-    "BMI"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Knowles Technology Featured in New Vivo True Wireless Earbuds",
-   "summary": "Knowles Corporation's hybrid driver system has been integrated into the latest flagship true wireless earbuds from Vivo.",
-   "source": "fiscal.ai",
-   "url": "https://www.finanznachrichten.de/nachrichten-2026-10/69919497-vivo-buds-ultra-starten-in-europa-mit-hybrid-hi-fi-sound-und-bis-zu-60-db-geraeuschunterdrueckung-007.htm",
-   "created_at": "2026-10-23T11:32:45Z",
-   "symbols": [
-    "KN"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Piper Sandler Adjusts Price Target on Estee Lauder",
-   "summary": "Piper Sandler has increased its price target for The Estée Lauder Companies to $125 from $115.",
-   "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/piper-sandler-adjusts-price-target-on-estee-lauder-to-125-from-115-ce785cdfd889f123",
-   "created_at": "2026-10-23T11:32:44Z",
-   "symbols": [
-    "PIPR"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Black Hills Corp. and NorthWestern Energy Announce Name and Ticker for Combined Company",
-   "summary": "Black Hills Corp. and NorthWestern Energy Group, Inc. have announced that the combined entity will be renamed Bright Horizon Energy Corporation with the ticker symbol \"HZN\" upon the successful complet",
-   "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/black-hills-northwestern-energy-to-be-renamed-bright-horizon-energy-after-merger-ce785cded08af127",
-   "created_at": "2026-10-23T11:32:44Z",
-   "symbols": [
-    "NWE"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Piper Sandler Downgrades Deckers Outdoor to Underweight",
-   "summary": "Piper Sandler has downgraded Deckers Outdoor Corporation from Neutral to Underweight, setting a new price target of $75.",
-   "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/piper-sandler-downgrades-deckers-outdoor-to-underweight-from-neutral-price-target-is-75-ce785cdfd98bfe24",
-   "created_at": "2026-10-23T11:32:44Z",
-   "symbols": [
-    "PIPR"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Piper Sandler Downgrades Globe Life to Neutral",
-   "summary": "Piper Sandler has downgraded Globe Life Inc. from Underweight to Neutral, with a price target of $165.",
-   "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/piper-sandler-downgrades-globe-life-to-neutral-from-underweight-price-target-is-165-ce785cdfd98bfe20",
-   "created_at": "2026-10-23T11:32:44Z",
-   "symbols": [
-    "PIPR"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Piper Sandler Adjusts Price Target on Generac Holdings",
-   "summary": "Piper Sandler has revised its price target for Generac Holdings, lowering it to $279 from the previous $303.",
-   "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/piper-sandler-adjusts-price-target-on-generac-holdings-to-279-from-303-ce785cdfd88bfe22",
-   "created_at": "2026-10-23T11:32:44Z",
-   "symbols": [
-    "PIPR"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Lazard Acts as Financial Advisor to Gilead Sciences in $1.275 Billion Acquisition of PepStar Program",
-   "summary": "Lazard is serving as the financial advisor to Gilead Sciences in its agreement to acquire an investigational oral IL-23R inhibitor program from PepStar Therapeutics Ltd.",
-   "source": "fiscal.ai",
-   "url": "https://www.finanzen.at/nachrichten/aktien/gilead-to-buy-pepstars-ibd-investigational-oral-il-23r-inhibitor-program-for-$1-275-bln-cash-1036658686",
-   "created_at": "2026-10-23T11:32:41Z",
-   "symbols": [
-    "LAZ"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Analysts Update Price Targets for Molina Healthcare Following Quarterly Results",
-   "summary": "Financial institutions including RBC, Jefferies, and Barclays adjusted their price targets and ratings for Molina Healthcare on October 23, 2026.",
-   "source": "fiscal.ai",
-   "url": "https://www.futunn.com/hk/stock/MOH-US/news",
-   "created_at": "2026-10-23T11:32:40Z",
-   "symbols": [
-    "MOH"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Truist Adjusts Price Target on Sonoco Products to $59 From $62, Maintains Buy Rating",
-   "summary": "Truist Securities has revised its price target for Sonoco Products Company while maintaining a 'Buy' rating on the stock.",
-   "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/truist-adjusts-price-target-on-sonoco-products-to-59-from-62-maintains-buy-rating-ce785cdfd98df120",
-   "created_at": "2026-10-23T11:32:39Z",
-   "symbols": [
-    "SON"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Evercore ISI Adjusts Price Target on Deckers Outdoor",
-   "summary": "Evercore ISI has updated its price target for Deckers Outdoor Corporation, reflecting the firm's ongoing institutional equity research activities.",
-   "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/evercore-isi-adjusts-price-target-on-deckers-outdoor-to-90-from-108-ce785cdfd98af72c",
-   "created_at": "2026-10-23T11:32:38Z",
-   "symbols": [
-    "EVR"
+    "KER"
    ],
    "image": ""
   }
