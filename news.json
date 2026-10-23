@@ -1,6 +1,21 @@
 {
- "updated": "2026-10-23 14:00",
+ "updated": "2026-10-23 15:00",
  "items": [
+  {
+   "headline": "Nasdaq Records Worst Session Since June: Investor Sentiment Weakens, Greed Index Moves To ‘Extreme Fear’ Zone",
+   "summary": "Market sentiment hit Extreme Fear as Nasdaq plunged 2.6%; Meta, AMD, Nvidia and Tesla fell, while the Dow edged higher.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/market-summary/26/10/62550969/nasdaq-records-worst-session-since-june-investor-sentiment-weakens-greed-index-moves-to-extreme-fear-zone",
+   "created_at": "2026-10-23T05:54:06Z",
+   "symbols": [
+    "AMD",
+    "AXP",
+    "BAH",
+    "META",
+    "NVDA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/23/Market-sentiment---Fear-and-Greed.jpg?width=1024&height=768"
+  },
   {
    "headline": "Former Fed Adviser Danielle DiMartino Booth Warns Recession May Already Be Here: Treasury Rally Signals ‘Far More Consequential’ Shift",
    "summary": "Danielle DiMartino Booth warns a recession may already be underway, with Treasury yields falling and credit stress widening at AI spenders.",
@@ -192,18 +207,60 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/10/22/Irvine--California--Usa---July-9--2022-W.jpg?width=1024&height=768"
   },
   {
-   "headline": "Meta Analysts Revise Price Target After Q3 Core Ad Strength, Muse Concerns Remain",
-   "summary": "Meta shares fell after Q3 earnings missed expectations. Analysts mostly raised targets but warned about elevated 2027 capex higher.",
+   "headline": "Aardvark Therapeutics Stock Surges as FDA Lifts Clinical Hold After Cardiac Safety Concerns",
+   "summary": "Aardvark Therapeutics shares jumped 25.06% after hours as the FDA lifted its clinical hold on ARD-101 development.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62543931/meta-analysts-revise-price-target-after-q3-core-ad-strength-muse-concerns-remain",
-   "created_at": "2026-10-22T19:36:24Z",
+   "url": "https://www.benzinga.com/markets/equities/26/10/62550984/aardvark-therapeutics-shares-jump-fda-lifts-ard-101-clinical-hold",
+   "created_at": "2026-10-23T05:59:49Z",
    "symbols": [
-    "AAPL",
-    "AMZN",
-    "GOOGL",
-    "META"
+    "AARD"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/22/Low-Angle-Image-Of-Meta-Logo-On-Glass-Of.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/23/Stock-Market.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Trump, World Liberty Financial Sued by Circle Investor Over Alleged $2 Billion UAE Crypto Windfall: ‘No President in American History Has Profited From His Office So Brazenly’",
+   "summary": "A shareholder in Circle Internet Group Inc. sued President Donald Trump and World Liberty Financial on Thursday, October 22, alleging illegal profiteering that violates the U.S. Constitution.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/10/62550958/donald-trump-world-liberty-financial-circle-lawsuit",
+   "created_at": "2026-10-23T05:51:50Z",
+   "symbols": [
+    "BTCUSD",
+    "CRCL",
+    "USDCUSD",
+    "ZECUSD"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/23/Wilkes-barre--Pa---August-2--2018-Presid.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Booz Allen Hamilton Earnings Are Imminent; These Most Accurate Analysts Revise Forecasts Ahead Of Earnings Call",
+   "summary": "Booz Allen will report Q2 earnings Friday; analysts expect EPS of $1.48 and revenue of $2.81B. Analysts offered mixed ratings.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62550848/booz-allen-hamilton-earnings-are-imminent-these-most-accurate-analysts-revise-forecasts-ahead-of-earnings-call-3",
+   "created_at": "2026-10-23T05:30:06Z",
+   "symbols": [
+    "BAH"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/23/Washington--Dc---April-21--2019-Booz-All.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Trump Targets Mortgage Costs as Home Sales Hit Record Low and Mortgage Rates Stay Above 7%: Here’s What Homeowners Need to Know",
+   "summary": "Trump orders mortgage relief measures as U.S. home sales hit a record low, but high rates above 7% continue to strain affordability.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/10/62550824/trump-targets-mortgage-costs-as-home-sales-hit-record-low-and-mortgage-rates-stay-above-7-heres-what-homeowners-need-to-know",
+   "created_at": "2026-10-23T05:13:40Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/23/United-States-President-Donald-Trump-mee.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Top Wall Street Forecasters Revamp SLB Expectations Ahead Of Q3 Earnings",
+   "summary": "SLB reports Q3 earnings Oct. 23; analysts expect EPS to fall to 61¢ while revenue rises to $9.27B.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62550733/top-wall-street-forecasters-revamp-slb-expectations-ahead-of-q3-earnings",
+   "created_at": "2026-10-23T05:01:06Z",
+   "symbols": [
+    "SLB"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/23/Clamart--France---February-2--2024-Sign-.jpg?width=1024&height=768"
   },
   {
    "headline": "American Express, Eni On Deck Friday As Spending, Energy Demand Face Test",
@@ -437,61 +494,6 @@
    "created_at": "2026-10-23T02:01:42Z",
    "symbols": [
     "NDAQ"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "SpaceX in Negotiations for Nationwide Wireless Network Expansion",
-   "summary": "SpaceX is reportedly in talks to secure access to 80,000 cell sites across the U.S. to advance its wireless carrier ambitions.",
-   "source": "fiscal.ai",
-   "url": "https://ucapital.com/en/news/breaking/17680949",
-   "created_at": "2026-10-23T02:01:36Z",
-   "symbols": [
-    "SPCX"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Tesla Updates Long-Term Production Targets and Facility Plans",
-   "summary": "During its third-quarter earnings call, Tesla disclosed updated long-term production goals and plans for a new facility in Austin.",
-   "source": "fiscal.ai",
-   "url": "https://www.morningstar.com/news/marketwatch/20261022104/teslas-stock-falls-as-elon-musk-leaves-investors-wanting-more",
-   "created_at": "2026-10-23T02:01:30Z",
-   "symbols": [
-    "TSLA"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Nomura Adjusts Weibo Price Target to $7 From $8.10, Maintains Neutral Rating",
-   "summary": "Nomura has revised its price target for Weibo Corporation, lowering it from $8.10 to $7 while maintaining a neutral rating on the stock.",
-   "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/nomura-adjusts-weibo-price-target-to-7-from-8-10-maintains-neutral-rating-ce785cded889f724",
-   "created_at": "2026-10-23T01:02:46Z",
-   "symbols": [
-    "WB"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Baird Initiates Coverage on WeRide With Equal Weight Rating",
-   "summary": "Baird has initiated coverage on WeRide Inc. with an 'Equal Weight' rating and a price target of $4.00.",
-   "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/baird-initiates-coverage-on-weride-with-equal-weight-rating-4-price-target-ce785cded88fff23",
-   "created_at": "2026-10-23T01:02:42Z",
-   "symbols": [
-    "WRD"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Ping An Biomedical Announces Planned Acquisition of Medical Technology Patents",
-   "summary": "Ping An Biomedical Co., Ltd. has entered into a letter of intent to acquire three tumor cell-related medical technology patents for a consideration of US$2 million to US$2.5 million.",
-   "source": "fiscal.ai",
-   "url": "https://www.globenewswire.com/news-release/2026/10/22/3386854/0/en/ping-an-biomedical-announces-planned-acquisition-of-three-tumor-cell-related-medical-technology-patents-to-build-a-core-oncology-and-biotech-intellectual-property-portfolio.html",
-   "created_at": "2026-10-23T01:02:10Z",
-   "symbols": [
-    "PASW"
    ],
    "image": ""
   }
