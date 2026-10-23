@@ -1,6 +1,19 @@
 {
- "updated": "2026-10-23 12:00",
+ "updated": "2026-10-23 13:00",
  "items": [
+  {
+   "headline": "Ro Khanna Says Zuckerberg’s California Deal Undercuts Billionaire Tax Exodus Warnings: ‘Gavin, Can You and Sergey Brin Stop...’",
+   "summary": "Ro Khanna says Zuckerberg’s California deal undermines claims that a proposed billionaire tax will drive the wealthy out of the state.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/10/62550501/khanna-zuckerberg-california-billionaire-tax",
+   "created_at": "2026-10-23T03:27:59Z",
+   "symbols": [
+    "GOOG",
+    "GOOGL",
+    "META"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/23/Washington--Dc--September-27--2021-Rep--.jpg?width=1024&height=768"
+  },
   {
    "headline": "Peter Schiff Warns Stock Market Crash Before Midterms 'Is Not Outside the Realm of Possibility' — 'This Is October'",
    "summary": "Peter Schiff warns of a possible stock market crash before the midterms, citing inflation, a weak economy and costly AI financing.",
@@ -185,18 +198,30 @@
    "image": ""
   },
   {
-   "headline": "Meta Bulls Beware: Bond Market Sends Its Loudest Warning on Zuckerberg's Borrowing Binge",
-   "summary": "Meta’s debt insurance costs hit a record as AI spending concerns mount, despite strong cash reserves and revenue.",
+   "headline": "Anthony Scaramucci Says Politicians 'Get Away With Robbing' Working Class Who Feel 'Inflation-Adjusted Rich'",
+   "summary": "Anthony Scaramucci says politicians get away with eroding workers’ wealth because Americans can’t tell nominal gains from real ones.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/10/62541680/meta-bulls-beware-bond-market-sends-its-loudest-warning-on-zuckerbergs-borrowing-binge",
-   "created_at": "2026-10-22T18:30:02Z",
+   "url": "https://www.benzinga.com/markets/economic-data/26/10/62550516/anthony-scaramucci-americans-not-inflation-adjusted-rich",
+   "created_at": "2026-10-23T03:33:37Z",
    "symbols": [
-    "AMZN",
-    "META",
-    "NVDA",
-    "ORCL"
+    "IEF",
+    "PHM",
+    "TLT"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/22/Mark-Zuckerberg-Speaks-At-Georgetown-Uni.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/23/Anthony-Scaramucci--former-White-House-C.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Elizabeth Warren Says ‘Nobody Can Seem to Explain’ What Trump’s War With Iran Accomplished as Crypto Bettors Gauge Midterm Impact",
+   "summary": "Sen. Elizabeth Warren questioned on Thursday, October 22, what the U.S. has accomplished during the nearly eight-month war with Iran that started under President Donald Trump.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62550490/elizabeth-warren-donald-trump-iran-war-midterms-polymarket",
+   "created_at": "2026-10-23T03:27:19Z",
+   "symbols": [
+    "BTCUSD",
+    "POLUSD",
+    "ZECUSD"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/23/Arlington--Va---February-13--2020-Senato.jpg?width=1024&height=768"
   },
   {
    "headline": "Verizon Stock Sinks After Hours as SpaceX Eyes 80,000 US Cell Sites for Fourth Wireless Carrier Push",
@@ -455,28 +480,6 @@
    "created_at": "2026-10-23T01:01:57Z",
    "symbols": [
     "SCAG"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Ping An Digital Bank Launches New Trade Finance Solutions for SMEs",
-   "summary": "Ping An Digital Bank (International) Limited, a subsidiary of Lufax Holding Ltd, has introduced new trade finance solutions offering revolving credit facilities of up to HK$50 million to support small",
-   "source": "fiscal.ai",
-   "url": "https://www.dubaiprnetwork.com/2/17342/ping-an-digital-bank-deepens-trade-finance-to-serve-the",
-   "created_at": "2026-10-23T01:01:47Z",
-   "symbols": [
-    "LU"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Aurelion Inc. Secures US$2 Million Equity Investment from Antalpha",
-   "summary": "Aurelion Inc. has entered into a share subscription agreement to raise approximately US$2 million in additional equity from its existing controlling shareholder, Antalpha Platform Holding Company.",
-   "source": "fiscal.ai",
-   "url": "https://www.prnewswire.com/news-releases/aurelion-announces-us2-million-follow-on-investment-from-antalpha-to-support-digital-gold-strategy-302917234.html",
-   "created_at": "2026-10-23T01:01:44Z",
-   "symbols": [
-    "AURE"
    ],
    "image": ""
   }
