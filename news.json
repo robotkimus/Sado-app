@@ -1,6 +1,21 @@
 {
- "updated": "2026-10-23 15:00",
+ "updated": "2026-10-23 16:00",
  "items": [
+  {
+   "headline": "Stock Market: Will S&P 500 Open Up or Down Today?",
+   "summary": "Will S&amp;P 500 open higher? Polymarket odds sit at 49% as Wall Street digests $114 Brent crude, Anthropic IPO buzz, and a CFTC market probe.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62551350/stock-market-will-sp-500-open-up-or-down-today-64",
+   "created_at": "2026-10-23T06:36:08Z",
+   "symbols": [
+    "AXP",
+    "DIA",
+    "POLUSD",
+    "QQQ",
+    "SLB"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/23/Stock-S-And-P-500-Index-Fund-Symbol-Is-O.jpg?width=1024&height=768"
+  },
   {
    "headline": "Nasdaq Records Worst Session Since June: Investor Sentiment Weakens, Greed Index Moves To ‘Extreme Fear’ Zone",
    "summary": "Market sentiment hit Extreme Fear as Nasdaq plunged 2.6%; Meta, AMD, Nvidia and Tesla fell, while the Dow edged higher.",
@@ -193,309 +208,267 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/10/22/Firm-Bets-on-Homebuilders.jpg?width=1024&height=768"
   },
   {
-   "headline": "Western Digital Is Down 55% From Its June Peak. Can DRAM and SOXX ETFs Hold Up?",
-   "summary": "Western Digital stock plunges 55% from its June peak as investors watch earnings, AI storage demand and risks facing DRAM and SOXX ETFs.",
+   "headline": "First Hawaiian Likely To Report Higher Q3 Revenue; These Most Accurate Analysts Revise Forecasts Ahead Of Earnings Call",
+   "summary": "First Hawaiian will report Q3 earnings Oct. 23; analysts expect 59¢ EPS and $228.92 million in revenue.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/etfs/sector-etfs/26/10/62544302/western-digital-is-down-55-from-its-june-peak-can-dram-and-soxx-etfs-hold-up",
-   "created_at": "2026-10-22T19:43:23Z",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62551362/first-hawaiian-likely-to-report-higher-q3-revenue-these-most-accurate-analysts-revise-forecasts-ahead-of-earnings-call",
+   "created_at": "2026-10-23T06:40:05Z",
    "symbols": [
-    "DRAM",
-    "SOXX",
-    "STX",
-    "WDC"
+    "FHB"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/22/Irvine--California--Usa---July-9--2022-W.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/23/Operations-Research-Analysts.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Putin Is Ready to Restart Ukraine Peace Talks With US Mediation, But He Wants More Than a Ceasefire: ‘Let’s See How Things Develop’",
+   "summary": "Vladimir Putin signaled Russia’s readiness to resume U.S.-mediated peace talks with Ukraine, insisting on a lasting peace deal.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/10/62551339/putin-ukraine-peace-talks",
+   "created_at": "2026-10-23T06:35:53Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/23/Russian-President-Vladimir-Putin-Made-St.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Hyperscale Data (GPUS) Stock Climbs Over 20% After Hours: What’s Driving the Surge",
+   "summary": "Hyperscale Data shares gained 20.56% after hours after suspending its ATM offering, easing immediate dilution concerns for investors.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/10/62551245/hyperscale-data-shares-gain-atm-offering-suspension",
+   "created_at": "2026-10-23T06:21:58Z",
+   "symbols": [
+    "GPUS"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/23/A-Dynamic-Blue-Arrow-Superimposed-On-A-S.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "What’s Going on With America's Car-Mart (CRMT) Stock After Hours?",
+   "summary": "America&#39;s Car-Mart falls after hours following $5 million loan deal and lender relief extension.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/10/62551224/whats-going-on-with-americas-car-mart-crmt-stock-after-hours",
+   "created_at": "2026-10-23T06:17:45Z",
+   "symbols": [
+    "CRMT"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/23/Stock-Market-Chart-Showing-Falling-Equit.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Atlantic American (AAME) Stock Falls 15% After the Bell: Here's Why",
+   "summary": "Atlantic American shares fall after hours as Nasdaq starts delisting over overdue SEC filings.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/10/62551079/atlantic-american-aame-stock-falls-15-after-the-bell-heres-why",
+   "created_at": "2026-10-23T06:09:43Z",
+   "symbols": [
+    "AAME"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/23/Close-Up-Of-Stock-Market-Candlestick-Cha.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "American Express Gears Up For Q3 Print; Here Are The Recent Forecast Changes From Wall Street's Most Accurate Analysts",
+   "summary": "American Express reports Q3 results Oct. 23; analysts expect $4.50 EPS and $20.12B revenue. Dividend is 95 cents.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62551069/american-express-gears-up-for-q3-print-here-are-the-recent-forecast-changes-from-wall-streets-most-accurate-analysts-2",
+   "created_at": "2026-10-23T06:09:06Z",
+   "symbols": [
+    "AXP"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/23/American-Express-Platinum-amex-Platinum-.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Trump Asked Google’s Sundar Pichai to Rename Atlantic Ocean After America, But the CEO Wasn’t Having It: ‘Please Don’t Ask Us to Do That’",
+   "summary": "Donald Trump dropped his Atlantic Ocean renaming idea after Google CEO Sundar Pichai pushed back saying, &#34;don’t ask us to do that.&#34;",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62551058/trump-asked-googles-sundar-pichai-to-rename-atlantic-ocean-after-america-but-the-ceo-wasnt-having-it-please-dont-ask-us-to-do-that",
+   "created_at": "2026-10-23T06:08:18Z",
+   "symbols": [
+    "GOOG",
+    "GOOGL"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/23/Former-President-Donald-J--Trump-Arrives.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Solwers Issues New 2026 Financial Outlook and Reports Potential Covenant Breach",
+   "summary": "Solwers has provided a new financial outlook for 2026 and announced that it may not meet its Net Debt/EBITDA covenant by the end of the year.",
+   "source": "fiscal.ai",
+   "url": "https://www.finanznachrichten.de/nachrichten-2026-10/69904382-solwers-oyj-inside-information-profit-warning-solwers-issues-new-outlook-for-2026-and-updates-its-assessment-of-compliance-with-the-covenant-399.htm",
+   "created_at": "2026-10-23T06:02:59Z",
+   "symbols": [
+    "SOLWERS"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Norrhydro Group Reports Q3 2026 Results",
+   "summary": "Norrhydro Group released its third-quarter 2026 financial results, with profitability figures that exceeded analyst expectations.",
+   "source": "fiscal.ai",
+   "url": "https://www.avanza.se/nyheter.html?a=%2Ftelegram%2Favanza%2F13_5cb90b1d-ce90-4d9b-a275-77e20db14c8b",
+   "created_at": "2026-10-23T06:02:23Z",
+   "symbols": [
+    "NORRH"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Pihlajalinna Lowers 2026 Guidance and Provides Preliminary Q3 Results",
+   "summary": "Pihlajalinna has issued a profit warning, lowering its financial guidance for 2026 while releasing preliminary revenue and profitability figures for the third quarter of 2026.",
+   "source": "fiscal.ai",
+   "url": "https://www.avanza.se/nyheter.html?a=%2Ftelegram%2Favanza%2F13_37759d0c-0b6f-4d55-82ed-b63699086c0b",
+   "created_at": "2026-10-23T06:02:08Z",
+   "symbols": [
+    "PIHLIS"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Kempower Announces Webcast for January-September 2026 Interim Report",
+   "summary": "Kempower has issued an invitation for a webcast to discuss its interim financial results for the period ending September 30, 2026.",
+   "source": "fiscal.ai",
+   "url": "https://www.avanza.se/hall-koll/nyheter.html?a=%2Ftelegram%2Favanza%2F2_38de9657-ac96-450b-b986-ae11d558185c",
+   "created_at": "2026-10-23T06:02:02Z",
+   "symbols": [
+    "KEMPOWR"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "eQ Plc Renews Management Structure and Management Team",
+   "summary": "eQ Plc has announced a renewal of its management structure and the composition of its Management Team to improve strategy implementation and role clarity.",
+   "source": "fiscal.ai",
+   "url": "https://www.streetinsider.com/Globe+Newswire//27093926.html",
+   "created_at": "2026-10-23T06:01:58Z",
+   "symbols": [
+    "EQV1V"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Baltic Classifieds Group PLC Announces Share Buyback Transaction",
+   "summary": "Baltic Classifieds Group PLC purchased over 1 million ordinary shares for cancellation between October 15 and October 21, 2026.",
+   "source": "fiscal.ai",
+   "url": "https://www.investegate.co.uk/announcement/rns/baltic-classifieds-group--bcg/transaction-in-own-shares/9836612",
+   "created_at": "2026-10-23T06:01:54Z",
+   "symbols": [
+    "BCG"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Alpha Exploration Ltd. Completes Enlarged 2026 Drilling Program at Aburna Gold Project",
+   "summary": "Alpha Exploration Ltd. has successfully concluded its 2026 drilling campaign at the Aburna gold project, exceeding its original meterage target.",
+   "source": "fiscal.ai",
+   "url": "https://www.newsfilecorp.com/release/320375",
+   "created_at": "2026-10-23T06:01:54Z",
+   "symbols": [
+    "ALEX"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Capital Clean Energy Carriers Corp. Declares Quarterly Dividend and Implements Dividend Reinvestment Plan",
+   "summary": "Capital Clean Energy Carriers Corp. announced a cash dividend of $0.15 per share for the third quarter of 2026 and the implementation of a new Dividend Reinvestment Plan (DRIP).",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/10/22/3386883/20327/en/capital-clean-energy-carriers-corp-declares-quarterly-dividend.html",
+   "created_at": "2026-10-23T06:01:54Z",
+   "symbols": [
+    "CCEC"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "NurExone Demonstrates Scalable Exosome Production",
+   "summary": "NurExone Biologic Inc. successfully doubled its exosome production by operating two bioreactors in parallel while maintaining process consistency and quality.",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/10/22/3386349/0/en/nurexone-demonstrates-scalable-exosome-production-supporting-its-modular-manufacturing-strategy-and-commercial-growth.html",
+   "created_at": "2026-10-23T06:01:51Z",
+   "symbols": [
+    "NRX"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Suominen Corporation to Publish Interim Report for January–September 2026 on November 5, 2026",
+   "summary": "Suominen Corporation has announced it will release its interim report for the first nine months of 2026 on November 5, 2026, followed by a webcast and conference call.",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/10/22/3386122/0/fi/suomisen-tammi-syyskuun-2026-osavuosikatsauksen-julkistaminen-5-11-2026.html",
+   "created_at": "2026-10-23T06:01:49Z",
+   "symbols": [
+    "SUY1V"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Dynagas LNG Partners LP Declares Cash Distribution on Series A Preferred Units",
+   "summary": "Dynagas LNG Partners LP announced a cash distribution of $0.5625 per unit on its Series A Cumulative Redeemable Perpetual Preferred Units.",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/10/22/3386877/0/en/dynagas-lng-partners-lp-declares-cash-distribution-on-its-series-a-preferred-units.html",
+   "created_at": "2026-10-23T06:01:49Z",
+   "symbols": [
+    "DLNG"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Ceragon to Announce Third Quarter 2026 Financial Results on November 5, 2026",
+   "summary": "Ceragon Networks Ltd. has scheduled the release of its financial results for the third quarter ended September 30, 2026, for November 5, 2026.",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/il/news-releases/ceragon-to-announce-third-quarter-2026-financial-results-on-november-5-2026-302916578.html",
+   "created_at": "2026-10-23T06:01:48Z",
+   "symbols": [
+    "CRNT"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "VVT Med Enters Panama Market Through Trial Distribution Agreement",
+   "summary": "VVT Med Inc. has signed a 12-month trial distribution and evaluation agreement with Ebtec to assess the market and clinical potential of its ScleroSafe platform in Panama.",
+   "source": "fiscal.ai",
+   "url": "https://www.newswire.ca/news-releases/vvt-med-enters-panama-market-through-trial-distribution-agreement-for-sclerosafe-813836523.html",
+   "created_at": "2026-10-23T06:01:45Z",
+   "symbols": [
+    "VVTM"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Verkkokauppa.com Oyj Interim Report for January–September 2026",
+   "summary": "Verkkokauppa.com Oyj released its interim report for the first nine months of 2026, highlighting improved profitability in a competitive market environment.",
+   "source": "fiscal.ai",
+   "url": "https://www.finanznachrichten.de/nachrichten-aktien/verkkokauppa-com-oyj.htm",
+   "created_at": "2026-10-23T06:01:41Z",
+   "symbols": [
+    "VERK"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Astarta Holding PLC 3Q26 and 9M26 Trading Update",
+   "summary": "Astarta Holding PLC released its trading update for the third quarter and the first nine months of 2026.",
+   "source": "fiscal.ai",
+   "url": "https://pap-mediaroom.pl/biznes-i-finanse/astarta-holding-plc-182026-3q26-and-9m26-trading-update",
+   "created_at": "2026-10-23T06:01:40Z",
+   "symbols": [
+    "AST"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Stratasys Technology Utilized in Production of LAIKA's 'Wildwood'",
+   "summary": "Stratasys' PolyJet 3D printing technology and Cuttlefish software were used by animation studio LAIKA to create facial expressions for the film 'Wildwood'.",
+   "source": "fiscal.ai",
+   "url": "https://www.financialcontent.com/article/accwirecq-2026-10-22-how-full-color-3d-printing-brings-laikas-wildwood-characters-to-life",
+   "created_at": "2026-10-23T06:01:37Z",
+   "symbols": [
+    "SSYS"
+   ],
+   "image": ""
   },
   {
    "headline": "Aardvark Therapeutics Stock Surges as FDA Lifts Clinical Hold After Cardiac Safety Concerns",
    "summary": "Aardvark Therapeutics shares jumped 25.06% after hours as the FDA lifted its clinical hold on ARD-101 development.",
    "source": "benzinga",
    "url": "https://www.benzinga.com/markets/equities/26/10/62550984/aardvark-therapeutics-shares-jump-fda-lifts-ard-101-clinical-hold",
-   "created_at": "2026-10-23T05:59:49Z",
+   "created_at": "2026-10-23T05:59:41Z",
    "symbols": [
     "AARD"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/10/23/Stock-Market.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Trump, World Liberty Financial Sued by Circle Investor Over Alleged $2 Billion UAE Crypto Windfall: ‘No President in American History Has Profited From His Office So Brazenly’",
-   "summary": "A shareholder in Circle Internet Group Inc. sued President Donald Trump and World Liberty Financial on Thursday, October 22, alleging illegal profiteering that violates the U.S. Constitution.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/10/62550958/donald-trump-world-liberty-financial-circle-lawsuit",
-   "created_at": "2026-10-23T05:51:50Z",
-   "symbols": [
-    "BTCUSD",
-    "CRCL",
-    "USDCUSD",
-    "ZECUSD"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/23/Wilkes-barre--Pa---August-2--2018-Presid.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Booz Allen Hamilton Earnings Are Imminent; These Most Accurate Analysts Revise Forecasts Ahead Of Earnings Call",
-   "summary": "Booz Allen will report Q2 earnings Friday; analysts expect EPS of $1.48 and revenue of $2.81B. Analysts offered mixed ratings.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62550848/booz-allen-hamilton-earnings-are-imminent-these-most-accurate-analysts-revise-forecasts-ahead-of-earnings-call-3",
-   "created_at": "2026-10-23T05:30:06Z",
-   "symbols": [
-    "BAH"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/23/Washington--Dc---April-21--2019-Booz-All.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Trump Targets Mortgage Costs as Home Sales Hit Record Low and Mortgage Rates Stay Above 7%: Here’s What Homeowners Need to Know",
-   "summary": "Trump orders mortgage relief measures as U.S. home sales hit a record low, but high rates above 7% continue to strain affordability.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/10/62550824/trump-targets-mortgage-costs-as-home-sales-hit-record-low-and-mortgage-rates-stay-above-7-heres-what-homeowners-need-to-know",
-   "created_at": "2026-10-23T05:13:40Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/23/United-States-President-Donald-Trump-mee.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Top Wall Street Forecasters Revamp SLB Expectations Ahead Of Q3 Earnings",
-   "summary": "SLB reports Q3 earnings Oct. 23; analysts expect EPS to fall to 61¢ while revenue rises to $9.27B.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62550733/top-wall-street-forecasters-revamp-slb-expectations-ahead-of-q3-earnings",
-   "created_at": "2026-10-23T05:01:06Z",
-   "symbols": [
-    "SLB"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/23/Clamart--France---February-2--2024-Sign-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "American Express, Eni On Deck Friday As Spending, Energy Demand Face Test",
-   "summary": "American Express headlines Friday’s reports, with premium-card spending and consumer resilience the central questions after a sharp year-to-date stock decline. Eni SpA, SLB, Infosys, First Citizens Ba",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/10/62550616/american-express-eni-on-deck-friday-as-spending-energy-demand-face-test",
-   "created_at": "2026-10-23T04:12:26Z",
-   "symbols": [
-    "ALV",
-    "AXP",
-    "BAH",
-    "BCPC",
-    "E"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/23/earnings-scheduled-1.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "CommBank Partners with Deadly Coders and Microsoft for First Nations AI Education",
-   "summary": "Commonwealth Bank has expanded its partnership with Deadly Coders and Microsoft to provide AI and digital skills training to thousands of First Nations students.",
-   "source": "fiscal.ai",
-   "url": "https://www.commbank.com.au/articles/newsroom/2026/10/commbank-deadly-coders-ai-skills-first-nations-students.html",
-   "created_at": "2026-10-23T04:01:29Z",
-   "symbols": [
-    "CBA"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "CommBank Recognized at Global Retail Banking Innovation Awards",
-   "summary": "Commonwealth Bank of Australia received two awards for its contact centre transformation and generative AI-powered in-app messaging service.",
-   "source": "fiscal.ai",
-   "url": "https://www.commbank.com.au/articles/newsroom/2026/10/innovation_global_retail_innovation_2026.html",
-   "created_at": "2026-10-23T04:01:29Z",
-   "symbols": [
-    "CBA"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Anthony Scaramucci Says Politicians 'Get Away With Robbing' Working Class Who Feel 'Inflation-Adjusted Rich'",
-   "summary": "Anthony Scaramucci says politicians get away with eroding workers’ wealth because Americans can’t tell nominal gains from real ones.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/economic-data/26/10/62550516/anthony-scaramucci-americans-not-inflation-adjusted-rich",
-   "created_at": "2026-10-23T03:33:37Z",
-   "symbols": [
-    "IEF",
-    "PHM",
-    "TLT"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/23/Anthony-Scaramucci--former-White-House-C.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Elizabeth Warren Says ‘Nobody Can Seem to Explain’ What Trump’s War With Iran Accomplished as Crypto Bettors Gauge Midterm Impact",
-   "summary": "Sen. Elizabeth Warren questioned on Thursday, October 22, what the U.S. has accomplished during the nearly eight-month war with Iran that started under President Donald Trump.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62550490/elizabeth-warren-donald-trump-iran-war-midterms-polymarket",
-   "created_at": "2026-10-23T03:27:19Z",
-   "symbols": [
-    "BTCUSD",
-    "POLUSD",
-    "ZECUSD"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/23/Arlington--Va---February-13--2020-Senato.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Verizon Stock Sinks After Hours as SpaceX Eyes 80,000 US Cell Sites for Fourth Wireless Carrier Push",
-   "summary": "Verizon Communications shares fell 3.74% to $43.51 after hours as SpaceX’s reported cell site negotiations raised competition concerns.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/10/62550435/verizon-shares-after-hours-spacex-cell",
-   "created_at": "2026-10-23T02:54:34Z",
-   "symbols": [
-    "SPCX",
-    "T",
-    "TMUS",
-    "VZ"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/23/Verizon-Communications-Inc.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "PT Bayan Resources Tbk Responds to IDX Inquiry Regarding Share Transaction with Jhonlin Baratama",
-   "summary": "PT Bayan Resources Tbk (BYAN) has provided a formal explanation to the Indonesia Stock Exchange (IDX) regarding the recent transfer of shares to PT Jhonlin Baratama at a price significantly below mark",
-   "source": "fiscal.ai",
-   "url": "https://www.liputan6.com/amp/8319506/penjelasan-bayan-resources-soal-harga-jual-saham-rp-2588-ke-jhonlin",
-   "created_at": "2026-10-23T02:31:30Z",
-   "symbols": [
-    "BYAN"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Trump Says Elon Musk Restored Ukraine’s Starlink Access, But Kyiv Says Speeds Remain Restricted",
-   "summary": "On Thursday, Donald Trump says Elon Musk restored Ukraine’s Starlink access, but full service remains uncertain.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/10/62550361/trump-musk-ukraine-starlink-restored",
-   "created_at": "2026-10-23T02:23:49Z",
-   "symbols": [
-    "SPCX"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/23/President-Donald-J--Trump-Arrives-On-Sta.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Bitcoin, Ethereum, XRP, Dogecoin Sink as Iran War Fears Return: Analyst Says Deeper BTC Correction Won’t Be ‘Weird’",
-   "summary": "Leading cryptocurrencies plunged on Thursday, October 22, as reports of renewed hostilities between the U.S. and Iran spooked investors.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/10/62550345/bitcoin-ethereum-xrp-dogecoin-crypto-iran-war",
-   "created_at": "2026-10-23T02:19:57Z",
-   "symbols": [
-    "BMNR",
-    "BTCUSD",
-    "DOGEUSD",
-    "ETHUSD",
-    "MSTR"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/23/Golden-Bitcoin-Coin-Is-In-Red-And-Blue-S.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Comfort Systems USA Announces CFO Retirement",
-   "summary": "Comfort Systems USA announced that its Chief Financial Officer will be retiring.",
-   "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/comfort-systems-usa-q3-earnings-revenue-rise-cfo-to-retire-shares-fall-ce785cdedf8ef120",
-   "created_at": "2026-10-23T02:02:17Z",
-   "symbols": [
-    "FIX"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Comfort Systems USA Increases Quarterly Dividend",
-   "summary": "Comfort Systems USA announced a $0.10 increase to its quarterly dividend, bringing the new payout to $1.00 per share.",
-   "source": "fiscal.ai",
-   "url": "https://www.barchart.com/press-releases/8337789/comfort-systems-usa-increases-quarterly-dividend",
-   "created_at": "2026-10-23T02:02:17Z",
-   "symbols": [
-    "FIX"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Roth MKM Initiates Coverage of Natera with Buy Rating",
-   "summary": "Roth MKM analyst Max Masucci has initiated coverage of Natera, Inc. (NTRA) with a Buy rating and a price target of $475.",
-   "source": "fiscal.ai",
-   "url": "https://www.moomoo.com/hans/news/post/1002070729/roth-mkm-initiates-natera-ntraus-with-buy-rating-announces-target",
-   "created_at": "2026-10-23T02:02:06Z",
-   "symbols": [
-    "NTRA"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Kinder Morgan Approves $4.7 Billion Investment in Two Natural Gas Pipeline Projects",
-   "summary": "Kinder Morgan has committed $4.7 billion to two new natural gas pipeline joint ventures, the Southeast Connector and the Permian Link, to meet rising energy demand.",
-   "source": "fiscal.ai",
-   "url": "https://civl.com/news/story/kinder-morgan-approves-4-7-billion-dollar-investment-in-two-natural-gas-pipeline-065bd6ac",
-   "created_at": "2026-10-23T02:02:03Z",
-   "symbols": [
-    "KMI"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "ATB Cormark Raises Suncor Energy Price Target",
-   "summary": "ATB Cormark has increased its price target for Suncor Energy Inc. from C$100.00 to C$125.00 per share.",
-   "source": "fiscal.ai",
-   "url": "https://www.moomoo.com/news/post/1002046610/suncor-energy-inc-price-target-raised-to-c-125-00",
-   "created_at": "2026-10-23T02:02:00Z",
-   "symbols": [
-    "SU"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Analysts Adjust Price Targets and Ratings for CME Group",
-   "summary": "Several financial institutions, including JPMorgan, Piper Sandler, and Wells Fargo, updated their price targets and ratings for CME Group on October 22, 2026.",
-   "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/jpmorgan-upgrades-cme-group-to-overweight-from-neutral-367-price-target-ce785cded88cf026",
-   "created_at": "2026-10-23T02:01:56Z",
-   "symbols": [
-    "CME"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Johnson Controls and Data Centre Magazine Announce Webinar on Modular Data Center Infrastructure",
-   "summary": "Johnson Controls is partnering with Data Centre Magazine to host a webinar on the strategic use of modular and prefabricated infrastructure for data centers.",
-   "source": "fiscal.ai",
-   "url": "https://datacentremagazine.com/webinars/johnson-controls-webinar",
-   "created_at": "2026-10-23T02:01:52Z",
-   "symbols": [
-    "JCI"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "BioNTech and Gilead Sciences Announce Clinical Trial Collaboration for Pumitamig",
-   "summary": "BioNTech and Gilead Sciences have entered a clinical trial collaboration to evaluate the investigational bispecific immunomodulator pumitamig, which is being co-developed by BioNTech and Bristol Myers",
-   "source": "fiscal.ai",
-   "url": "https://www.moomoo.com/news/post/1002072942/biontech-enters-trial-collaboration-with-gilead-to-evaluate-pumitamig-and",
-   "created_at": "2026-10-23T02:01:49Z",
-   "symbols": [
-    "BMY"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "New Street Research Adjusts Lam Research Price Target",
-   "summary": "New Street Research lowered its price target for Lam Research to $255 from $285 following the company's latest earnings report.",
-   "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/new-street-research-adjusts-lam-research-price-target-to-255-from-285-ce785cdedd8cf123",
-   "created_at": "2026-10-23T02:01:47Z",
-   "symbols": [
-    "LRCX"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Asiamet Resources Limited Announces Annual General Meeting",
-   "summary": "Asiamet Resources Limited has scheduled its Annual General Meeting for November 26, 2026, in London.",
-   "source": "fiscal.ai",
-   "url": "https://www.investegate.co.uk/announcement/rns/asiamet-resources-limited-di---ars/notice-of-annual-general-meeting/9837247",
-   "created_at": "2026-10-23T02:01:43Z",
-   "symbols": [
-    "ARS"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Nasdaq Foundation Awards Grant to Marketplace for Financial Literacy",
-   "summary": "The Nasdaq Foundation's Economic Opportunity Grant Program has awarded a grant to American Public Media's Marketplace to support the expansion of financial literacy programming.",
-   "source": "fiscal.ai",
-   "url": "https://www.prnewswire.com/news-releases/marketplace-awarded-nasdaq-foundation-grant-to-expand-financial-literacy-programming-302917450.html",
-   "created_at": "2026-10-23T02:01:42Z",
-   "symbols": [
-    "NDAQ"
-   ],
-   "image": ""
   }
  ]
 }
