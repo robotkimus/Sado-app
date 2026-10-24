@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25 00:00",
+ "updated": "2026-10-25 01:00",
  "items": [
   {
    "headline": "Amazon Announces First Right Now Climate Fund Investment in Japan",
@@ -184,6 +184,54 @@
     "BLK"
    ],
    "image": ""
+  },
+  {
+   "headline": "Kotak Mahindra Bank Reports 26% Growth in Q2 Consolidated Profit",
+   "summary": "Kotak Mahindra Bank Limited announced its financial results for the second quarter, reporting a 26% increase in consolidated profit after tax to Rs 5,645 crore.",
+   "source": "fiscal.ai",
+   "url": "https://ucapital.com/en/news/breaking/17688137",
+   "created_at": "2026-10-24T15:32:08Z",
+   "symbols": [
+    "KOTAKBANK"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "HDFC Bank Clarifies Export Declaration Form Requirements Following Oversight",
+   "summary": "HDFC Bank has addressed concerns regarding its implementation of Export Declaration Form (EDF) requirements for individual service exporters, characterizing a previous demand as an oversight.",
+   "source": "fiscal.ai",
+   "url": "https://indianexpress.com/article/explained/explained-economics/rbi-forex-rules-freelancers-foreign-payment-delays-export-declaration-form-10935243/",
+   "created_at": "2026-10-24T15:31:30Z",
+   "symbols": [
+    "HDB"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "JetBlue Stock Sinks, Bond Yields Surge as Creditors Hire Advisors Amid Higher Jet Fuel Prices",
+   "summary": "JetBlue stock is hovering near its all-time low as bond yields soar, with creditors hiring advisors amid the rising jet fuel prices.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/10/62577859/jetblue-stock-sinks-bond-yields-surge-as-creditors-hire-advisors-amid-higher-jet-fuel-prices",
+   "created_at": "2026-10-24T15:30:07Z",
+   "symbols": [
+    "JBLU",
+    "UAL"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/24/Jetblue.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Chevron, Exxon, Shell and ConocoPhillips Hit Record Highs as Crude Rally Powers On Into Earnings",
+   "summary": "Top energy companies like Chevron, ExxonMobil, Shell and ConocoPhillips have soared to a record high as crude oil price jumps.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/10/62577840/chevron-exxon-shell-and-conocophillips-hit-record-highs-as-crude-rally-powers-on-into-earnings",
+   "created_at": "2026-10-24T15:15:10Z",
+   "symbols": [
+    "COP",
+    "CVX",
+    "SHEL",
+    "XOM"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/24/Night-View-Chevron-Sign.jpg?width=1024&height=768"
   },
   {
    "headline": "Bill Ackman and Elon Musk Both Want Dinner With the Same Founding Father",
@@ -412,50 +460,6 @@
    "created_at": "2026-10-24T13:05:25Z",
    "symbols": [
     "TBIX"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Algo Grande Copper Corp. Engages Addison Mining Services for NI 43-101 Technical Report Update",
-   "summary": "Algo Grande Copper Corp. has commissioned Addison Mining Services to update the NI 43-101 technical report for its 100%-owned Adelita Project in Sonora, Mexico.",
-   "source": "fiscal.ai",
-   "url": "https://www.accessnewswire.com/newsroom/en/metals-and-mining/algo-grande-commissions-independent-ni-43-101-update-to-capture-first-year-of-pro-1240723",
-   "created_at": "2026-10-24T13:05:25Z",
-   "symbols": [
-    "ALGR"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "ProAm Explorations Expands Golden Ridge Property in New Brunswick",
-   "summary": "ProAm Explorations Corporation has staked over 10 square kilometres of additional ground at its Golden Ridge Gold Project, expanding its land position by more than 13 kilometres.",
-   "source": "fiscal.ai",
-   "url": "https://www.newsfilecorp.com/release/320351/ProAm-Expands-Golden-Ridge-Property-to-Cover-More-than-13-Kilometres-of-a-Prospective-GoldHosting-Structural-Corridor",
-   "created_at": "2026-10-24T13:05:24Z",
-   "symbols": [
-    "PMX"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Niki BioSolutions Subsidiary DiamiR Biosciences Signs APOE Genotyping Agreement with Charter Research",
-   "summary": "Niki BioSolutions, Inc. announced that its subsidiary, DiamiR Biosciences, has entered into an agreement to provide apolipoprotein E (APOE) genotyping services for Charter Research.",
-   "source": "fiscal.ai",
-   "url": "https://www.globenewswire.com/news-release/2026/10/23/3387217/0/en/niki-biosolutions-signs-agreement-to-supply-apoe-genotyping-to-charter-research.html",
-   "created_at": "2026-10-24T13:05:23Z",
-   "symbols": [
-    "NIKI"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Xplore Resources Corp. Files Certification of Annual Filings",
-   "summary": "Xplore Resources Corp. has completed the regulatory certification of its annual filings.",
-   "source": "fiscal.ai",
-   "url": "https://www.moomoo.com/news/notice/308152749/52109fv1-certification-of-annual-filings-cfo-en",
-   "created_at": "2026-10-24T13:05:23Z",
-   "symbols": [
-    "XPLR"
    ],
    "image": ""
   }
