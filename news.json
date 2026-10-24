@@ -1,6 +1,21 @@
 {
- "updated": "2026-10-25 02:00",
+ "updated": "2026-10-25 03:00",
  "items": [
+  {
+   "headline": "Safe Haven Trade: SCHD Outperforms VOO and QQQ as AI Bubble Fears Mount",
+   "summary": "The SCHD ETF is beating popular S&amp;P 500 and Nasdaq 100 ETFs like VOO and QQQ as AI bubble fears continue rising.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/etfs/sector-etfs/26/10/62578639/safe-haven-trade-schd-outperforms-voo-and-qqq-as-ai-bubble-fears-mount",
+   "created_at": "2026-10-24T17:15:24Z",
+   "symbols": [
+    "META",
+    "QQQ",
+    "SCHD",
+    "VOO",
+    "XLV"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/24/New-York--Ny--Usa---11-05-2024-Wall-Stre.jpg?width=1024&height=768"
+  },
   {
    "headline": "Celestica Stock Dips as the AI Trade Unwinds: Can Earnings Turn It Around?",
    "summary": "Celestica has suffered a sharp reversal in recent months as the AI trade has begun to unwind.",
@@ -177,17 +192,19 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/10/23/Malinois-Dog-In-Bulletproof-Vests-Agains.jpg?width=1024&height=768"
   },
   {
-   "headline": "The AI Boom Isn't 1999—and Big Tech Could Cushion a Market Crash, This CEO Says",
-   "summary": "One investing CEO says today&#39;s AI boom isn&#39;t 1999 and argues Big Tech&#39;s earnings, dividends and buybacks could help investors weather a correction.",
+   "headline": "Mike Novogratz: AI Could Be 'Biggest Bubble of Our Lifetime,' Bitcoin to Hit $100,000 in 2026",
+   "summary": "Mike Novogratz sees Bitcoin more likely at $100,000 than $50,000 by year-end, but warns AI may fuel history’s biggest bubble.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/10/62572321/ai-boom-big-tech-market-crash",
-   "created_at": "2026-10-23T19:02:28Z",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/10/62578603/mike-novogratz-ai-could-be-biggest-bubble-of-our-lifetime-bitcoin-to-hit-100000-in-2026",
+   "created_at": "2026-10-24T17:00:20Z",
    "symbols": [
-    "AAPL",
-    "MSFT",
-    "NVDA"
+    "BTCUSD",
+    "ETHUSD",
+    "GLXY",
+    "HYPEUSD",
+    "PURR"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/23/Artificial-Intelligence-Analyzing-Global.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/24/bitcoin-ai.png?width=1024&height=768"
   },
   {
    "headline": "XLE, VDE, IXC ETFs Hit Record Highs as Inflows Jump as Brent Crude Targets $120",
@@ -461,17 +478,6 @@
    "created_at": "2026-10-24T13:05:26Z",
    "symbols": [
     "LUX"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Kingman Minerals Reports Exploration Results for Tombstone Project",
-   "summary": "Kingman Minerals Ltd. announced that recent drilling at its Tombstone Project has extended the known oxide footprint by 190 meters to the west, with mineralization remaining open in multiple direction",
-   "source": "fiscal.ai",
-   "url": "https://irw-press.com/en/aztec-extends-oxide-gold-silver-mineralization-up-to-190-m-west-at-the-north-extension-at-tombstone-arizona-including-115-8-m-of-0-67-g-t-aueq-0-52-g-t-au-8-11-g-t-ag-in-tr26-45/",
-   "created_at": "2026-10-24T13:05:26Z",
-   "symbols": [
-    "KGS"
    ],
    "image": ""
   }
