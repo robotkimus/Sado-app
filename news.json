@@ -1,6 +1,106 @@
 {
- "updated": "2026-10-24 21:00",
+ "updated": "2026-10-24 22:16",
  "items": [
+  {
+   "headline": "Amazon Announces First Right Now Climate Fund Investment in Japan",
+   "summary": "Amazon has launched its first Right Now Climate Fund project in Japan, committing US$1.4 million to support forest biodiversity restoration.",
+   "source": "fiscal.ai",
+   "url": "https://sustainabilitymag.com/news/top-stories-in-sustainability-leaders-restoration-b-corps",
+   "created_at": "2026-10-24T13:01:44Z",
+   "symbols": [
+    "AMZN"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Amazon Threat Intelligence Identifies Exploitation Attempts of PHP Vulnerabilities",
+   "summary": "Amazon's internal security telemetry detected exploitation attempts of critical PHP vulnerabilities prior to their public disclosure.",
+   "source": "fiscal.ai",
+   "url": "https://cybermagazine.com/news/this-weeks-top-five-stories-in-cybersecurity-ai-security",
+   "created_at": "2026-10-24T13:01:44Z",
+   "symbols": [
+    "AMZN"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "BlackRock Launches iShares Future Robotics and Related Technologies Active ETF",
+   "summary": "BlackRock has introduced the iShares Future Robotics and Related Technologies Active ETF (RBTX), an actively managed fund focused on companies involved in robotics, automation, and autonomous systems.",
+   "source": "fiscal.ai",
+   "url": "https://www.morningstar.com/news/marketwatch/20261024116/ai-fever-ignites-a-boom-in-thematic-etfs-as-fund-managers-hunt-for-their-next-big-hit",
+   "created_at": "2026-10-24T13:01:43Z",
+   "symbols": [
+    "BLK"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "NVIDIA and HUMAIN Expand Partnership for Saudi Arabia AI Infrastructure",
+   "summary": "NVIDIA and HUMAIN are collaborating to deploy 84MW of AI compute infrastructure in Saudi Arabia, utilizing Blackwell and Vera Rubin systems.",
+   "source": "fiscal.ai",
+   "url": "https://datacentremagazine.com/news/this-weeks-top-five-stories-in-the-data-centre-industry-24-october-2026",
+   "created_at": "2026-10-24T13:01:36Z",
+   "symbols": [
+    "NVDA"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Brazil's Superior Electoral Court Demands Explanations from Meta Ahead of Presidential Runoff",
+   "summary": "Brazil's Superior Electoral Court has ordered Meta to provide technical explanations regarding its use of AI and content moderation policies ahead of the upcoming presidential runoff.",
+   "source": "fiscal.ai",
+   "url": "https://www.chinadailyasia.com/article/641636",
+   "created_at": "2026-10-24T13:01:33Z",
+   "symbols": [
+    "META"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "EXCLUSIVE: A SpaceX–Tesla Merger Could Boost Passive ETF Demand, But ERShares’ Joel Shulman Flags a Big Risk",
+   "summary": "ERShares CIO Joel Shulman explains how a SpaceX–Tesla merger could boost ETF demand but risk shareholder dilution.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/etfs/specialty-etfs/26/10/62577702/exclusive-a-spacex-tesla-merger-could-boost-passive-etf-demand-but-ershares-joel-shulman-flags-a-big-risk",
+   "created_at": "2026-10-24T13:00:28Z",
+   "symbols": [
+    "QQQ",
+    "QQQM",
+    "SPCX",
+    "TSLA",
+    "XOVR"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/24/Tesla-SpaceX.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Tesla, SpaceX, Micron and More: 5 Stocks Investors Couldn't Stop Buzzing About This Week",
+   "summary": "Retail investors talked up 5 hot stocks during the week (Oct. 19 to Oct. 23) on X and Reddit&#39;s r/WallStreetBets: TSLA, SPCX, NFLX, CRWV, MU",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/10/62577669/tesla-spacex-micron-and-more-5-stocks-investors-couldnt-stop-buzzing-about-this-week",
+   "created_at": "2026-10-24T12:30:19Z",
+   "symbols": [
+    "CRWV",
+    "MU",
+    "NFLX",
+    "NVDA",
+    "SPCX"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/24/Financial-Trader-Monitoring-Market-Trend.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Benzinga Bulls and Bears: SpaceX, Meta, Netflix",
+   "summary": "Benzinga examined the prospects for many investors’ favorite stocks over the last week — here’s a look at some of our top stories.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/market-summary/26/10/62577636/benzinga-bulls-and-bears-spacex-meta-netflix",
+   "created_at": "2026-10-24T12:00:09Z",
+   "symbols": [
+    "AMD",
+    "BE",
+    "CRWV",
+    "GM",
+    "IREN"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/24/Bulls-and-Bears-1.jpg?width=1024&height=768"
+  },
   {
    "headline": "Higgsfield AI Extends Series B Financing with Investment from NVIDIA",
    "summary": "Higgsfield AI announced an extension of its Series B financing round, which includes new investment from TCV and NVIDIA.",
@@ -86,382 +186,277 @@
    "image": ""
   },
   {
-   "headline": "Rhode Island Files Lawsuit Against Meta Over Scam Ads",
-   "summary": "The state of Rhode Island has filed a lawsuit against Meta, alleging the company knowingly facilitates scam advertisements on its platforms to generate revenue.",
+   "headline": "Mkango Magnetic Materials Limited Announces Share Buyback",
+   "summary": "Mkango Magnetic Materials Limited has purchased 130,000 of its own ordinary shares to be held in treasury.",
    "source": "fiscal.ai",
-   "url": "https://www.pymnts.com/legal/2026/rhode-island-lawsuit-claims-meta-knowingly-profits-from-financial-scam-ads/",
-   "created_at": "2026-10-23T19:01:27Z",
+   "url": "https://www.lse.co.uk/rns/transaction-in-own-shares-agm1sphw4z23mro.html",
+   "created_at": "2026-10-24T13:07:05Z",
    "symbols": [
-    "META"
+    "MKA"
    ],
    "image": ""
   },
   {
-   "headline": "Amazon CEO Andy Jassy Says AI Inference Is Still 10 Times Too Expensive, Claims Amazon Chips Offer Answer",
-   "summary": "Andy Jassy says AI inference costs must fall sharply and argues Amazon’s Trainium chips can help bring them down",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62571409/amazon-ai-inference-cost-trainium-jassy",
-   "created_at": "2026-10-23T18:28:24Z",
-   "symbols": [
-    "AMZN",
-    "NVDA"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/23/Los-Angeles---Aug-15-Andy-Jassy-Arrives-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "BlackRock, Inc. Discloses Interests in DCC Energy PLC",
-   "summary": "BlackRock, Inc. filed a regulatory disclosure regarding its holdings and derivative positions in DCC Energy PLC as of October 22, 2026.",
+   "headline": "Silver Pony Resources Corp. Closes Up-Sized $1.3 Million Flow-Through Offering",
+   "summary": "Silver Pony Resources Corp. announced the closing of an up-sized non-brokered flow-through private placement, raising gross proceeds of $1,300,035.",
    "source": "fiscal.ai",
-   "url": "https://www.investegate.co.uk/announcement/rns/dcc-energy-plc--dcc/form-8-3-dcc-energy-plc/9839630",
-   "created_at": "2026-10-23T18:01:57Z",
+   "url": "https://www.streetinsider.com/Newsfile//27218911.html",
+   "created_at": "2026-10-24T13:05:51Z",
    "symbols": [
-    "BLK"
+    "PONY"
    ],
    "image": ""
   },
   {
-   "headline": "Time To Start Deploying Cash In The AI Trade?",
-   "summary": "\n\n\n\n60% Of Capitulation Criteria Met\n\n\n\nPlease click here for an enlarged chart of Direxion Daily Semiconductor Bull 3X ETF (NYSE:SOXL).\n\n\n\nNote the following:\n\n\n\n\nSemiconductors reflect the AI trade,",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/opinion/26/10/62569872/time-to-start-deploying-cash-in-the-ai-trade",
-   "created_at": "2026-10-23T17:45:15Z",
-   "symbols": [
-    "AAPL",
-    "AMZN",
-    "BTCUSD",
-    "GOOG",
-    "META"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/23/CoreWeave.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "10 Financials Stocks With Whale Alerts In Today’s Session",
-   "summary": "This whale alert can help traders discover the next big trading opportunities.\nWhales are entities with large sums of money and we track their transactions here at Benzinga on our options activity sca",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/options/26/10/62569476/10-financials-stocks-whale-alerts-today-s-session",
-   "created_at": "2026-10-23T17:35:10Z",
-   "symbols": [
-    "AXP",
-    "BLK",
-    "BX",
-    "CM",
-    "GGAL"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/aggregated_options_3.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "10 Information Technology Stocks With Whale Alerts In Today’s Session",
-   "summary": "This whale alert can help traders discover the next big trading opportunities.\nWhales are entities with large sums of money and we track their transactions here at Benzinga on our options activity sca",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/options/26/10/62569473/10-information-technology-stocks-whale-alerts-today-s-session",
-   "created_at": "2026-10-23T17:35:10Z",
-   "symbols": [
-    "APPS",
-    "CRWV",
-    "MARA",
-    "MDB",
-    "MRVL"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/aggregated_options_2.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "What's Going On With AMD Stock Friday?",
-   "summary": "Is AMD stock a buy? Unpack recent analyst upgrades, Q3 earnings previews, technical support levels, and valuation risks.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/10/62569379/whats-going-on-with-amd-stock-friday-8",
-   "created_at": "2026-10-23T17:31:33Z",
-   "symbols": [
-    "AINF",
-    "AMD",
-    "IGPT",
-    "SOXX"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/23/AMD-EPS-Target.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Nvidia Growth Could Slow to 20% But Its Stock Can Still Double, Expert Says",
-   "summary": "An investing CEO says Nvidia could double in five to 10 years even if earnings growth slows to 20%–30%.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/10/62569298/nvidia-stock-slower-growth-stock-outlook",
-   "created_at": "2026-10-23T17:30:08Z",
-   "symbols": [
-    "MSFT",
-    "NVDA"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/23/Los-Angeles--California---July-6-2025-Nv.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Dekel Agri-Vision Announces Proposed Equity Fundraising via AIM Capital Access Window",
-   "summary": "Dekel Agri-Vision PLC has announced its intention to conduct an equity capital raise using the AIM Capital Access Window to fund equipment for its cashew operations.",
+   "headline": "Silver Pony Resources Corp. Closes Up-Sized $1.6 Million Strategic Unit Offering",
+   "summary": "Silver Pony Resources Corp. announced the closing of an up-sized non-brokered private placement, raising gross proceeds of $1,600,015 through the issuance of 9,411,852 units.",
    "source": "fiscal.ai",
-   "url": "https://www.investegate.co.uk/announcement/rns/dekel-agri-vision-di---dkl/proposed-fundraising-and-capital-access-window/9835242",
-   "created_at": "2026-10-24T09:01:22Z",
+   "url": "https://www.newsfilecorp.com/release/320687/Silver-Pony-Announces-Closing-of-UpSized-1600015-Strategic-Unit-Offering",
+   "created_at": "2026-10-24T13:05:51Z",
    "symbols": [
-    "DKL"
+    "PONY"
    ],
    "image": ""
   },
   {
-   "headline": "Palo Alto CEO Nikesh Arora Warns Companies to Assume They Will Get ‘Breached’ and Fix Their ‘Technology Debt’ as AI Uncovers Critical Software Flaws",
-   "summary": "Palo Alto Networks CEO Nikesh Arora warns AI-driven cyberattacks expose software flaws, forcing companies to shut vulnerable websites.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/10/62577400/nikesh-arora-ai-cyberattacks-legacy-software-flaws",
-   "created_at": "2026-10-24T08:35:11Z",
-   "symbols": [
-    "PANW"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/24/Santa-Clara--Ca--Usa---Apr-28--2022-The-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Tufton Assets Limited Confirms Third Quarter 2026 Dividend Timetable",
-   "summary": "Tufton Assets Limited has announced the key dates for its third quarter 2026 dividend, including an ex-dividend date of 29 October 2026 and a payment date of 25 November 2026.",
+   "headline": "Skull Ridge Gold Corp. Reports Trench Sampling Results",
+   "summary": "Skull Ridge Gold Corp. announced results from trench sampling at its project in the Bathurst Mining Camp, revealing values for antimony, gold, and silver.",
    "source": "fiscal.ai",
-   "url": "https://www.investegate.co.uk/announcement/rns/tufton-assets-limited--shpp/3q26-dividend-timetable-announcement/9839726",
-   "created_at": "2026-10-24T08:02:30Z",
+   "url": "https://news.pressrelease.com/newsroom",
+   "created_at": "2026-10-24T13:05:36Z",
    "symbols": [
-    "SHIP"
+    "SKUL"
    ],
    "image": ""
   },
   {
-   "headline": "Biodexa Pharmaceuticals Announces 1-for-8 Reverse Stock Split",
-   "summary": "Biodexa Pharmaceuticals has announced a 1-for-8 reverse stock split of its shares, scheduled to take effect on October 26, 2026.",
+   "headline": "Anteros Metals Establishes 1,900-Hectare Land Position in Newfoundland's Deer Lake Basin",
+   "summary": "Anteros Metals Inc. has entered an agreement to acquire the Grand Lake Property and expanded its land position in the Deer Lake Basin to approximately 1,900 hectares for uranium, natural hydrogen, and",
    "source": "fiscal.ai",
-   "url": "https://www.moomoo.com/ja/news/post/1002091613/biodexa-pharmaceuticals-to-carry-out-1-for-8-reverse-stock",
-   "created_at": "2026-10-24T08:02:29Z",
+   "url": "https://www.newsfilecorp.com/release/320592/Anteros-Metals-Establishes-1900Hectare-Land-Position-in-Newfoundlands-Deer-Lake-Basin-Provides-Havens-Steady-and-Seagull-Exploration-Updates",
+   "created_at": "2026-10-24T13:05:34Z",
    "symbols": [
-    "BDRX"
+    "ANT"
    ],
    "image": ""
   },
   {
-   "headline": "Reveille Resources plc Announces Exercise of Warrants",
-   "summary": "Reveille Resources plc has received notice for the exercise of warrants resulting in the issuance of 300,000 new ordinary shares, raising £30,000 in gross proceeds.",
+   "headline": "NUBURU Appoints Gianluca Trezza as CEO of Tekne",
+   "summary": "NUBURU, Inc. has appointed Gianluca Trezza as the new CEO of its subsidiary, Tekne, alongside a broader commercial update.",
    "source": "fiscal.ai",
-   "url": "https://www.investegate.co.uk/announcement/rns/reveille-resources-plc--rev/exercise-of-warrants/9837617",
-   "created_at": "2026-10-24T08:02:27Z",
+   "url": "https://www.streetinsider.com/Press+Releases?before_id=27219609",
+   "created_at": "2026-10-24T13:05:33Z",
    "symbols": [
-    "REV"
+    "BURU"
    ],
    "image": ""
   },
   {
-   "headline": "Reveille Resources plc Chairman Discusses Strategic Vision in Interview",
-   "summary": "Non-Executive Chairman Michael R. Pompeo participated in an interview discussing the company's focus on Italian uranium deposits and Western energy security.",
+   "headline": "Integrated Quantum Technologies Inc. Announces Partnership with ARMI Solutions LLC",
+   "summary": "Integrated Quantum Technologies Inc. has entered into a non-exclusive reseller and referral partnership with ARMI Solutions LLC to expand its U.S. government market strategy.",
    "source": "fiscal.ai",
-   "url": "https://www.investegate.co.uk/announcement/rns/reveille-resources-plc--rev/chairman-interview/9839830",
-   "created_at": "2026-10-24T08:02:27Z",
+   "url": "https://www.newsfilecorp.com/release/320337/Integrated-Quantum-Technologies-Expands-U.S.-Government-Market-Strategy-Through-Partnership-with-ARMI-Solutions",
+   "created_at": "2026-10-24T13:05:33Z",
    "symbols": [
-    "REV"
+    "VEIL"
    ],
    "image": ""
   },
   {
-   "headline": "Reveille Resources plc Issues Warrants to Market Maker",
-   "summary": "Reveille Resources plc has agreed to issue 1,428,571 warrants to a market maker with an exercise price of 17.5 pence per share.",
+   "headline": "Vireo Growth Acquires Florida Cultivation Campus for $21 Million",
+   "summary": "Vireo Growth Inc. has expanded its operational footprint by acquiring a cultivation campus in Florida for $21 million, a facility that supplies 108 dispensaries.",
    "source": "fiscal.ai",
-   "url": "https://www.investegate.co.uk/announcement/rns/reveille-resources-plc--rev/issue-of-warrants-/9839821",
-   "created_at": "2026-10-24T08:02:27Z",
+   "url": "https://prohibitionpartners.com/international-cannabis-weekly/472",
+   "created_at": "2026-10-24T13:05:32Z",
    "symbols": [
-    "REV"
+    "VREO"
    ],
    "image": ""
   },
   {
-   "headline": "Catenai PLC Provides Update on Klarian Ltd Administration",
-   "summary": "Catenai PLC announced that Klarian Ltd, a company to which it provided a £450,000 convertible loan note facility, is facing an application for administration.",
+   "headline": "Lucky Minerals Inc. Announces Strategic Amendments to Prudhomme Property Option Agreement",
+   "summary": "Lucky Minerals Inc. has executed two amendment agreements to strengthen and streamline its option to acquire a 100% interest in the Prudhomme Property in Northern Quebec.",
    "source": "fiscal.ai",
-   "url": "https://www.investegate.co.uk/announcement/rns/catenai--ctai/klarian-update/9837634",
-   "created_at": "2026-10-24T08:02:23Z",
+   "url": "https://www.thenewswire.com/press-releases/1kZaFyKxm-lucky-announces-corporate-update.html",
+   "created_at": "2026-10-24T13:05:30Z",
    "symbols": [
-    "CTAI"
+    "LKY"
    ],
    "image": ""
   },
   {
-   "headline": "Ajax Resources PLC Completes Private Investor Subscription",
-   "summary": "Ajax Resources PLC has successfully closed its Private Investor Subscription, raising approximately €250,000 to support its financing goals.",
+   "headline": "Cedar Realty Trust Declares Dividends on Preferred Stock",
+   "summary": "Cedar Realty Trust, Inc. announced the declaration of cash dividends for its Series B and Series C cumulative redeemable preferred stock.",
    "source": "fiscal.ai",
-   "url": "https://www.investegate.co.uk/announcement/rns/ajax-resources--ajax/private-investor-subscription-fully-subscribed/9836850",
-   "created_at": "2026-10-24T08:02:22Z",
+   "url": "https://www.newswire.com/news/cedar-realty-trust-declares-dividends-on-preferred-3408671",
+   "created_at": "2026-10-24T13:05:30Z",
    "symbols": [
-    "AJAX"
+    "CDR.PRC"
    ],
    "image": ""
   },
   {
-   "headline": "Ajax Resources PLC Approved for Trading on Euronext Growth Oslo",
-   "summary": "Ajax Resources PLC has received approval to list its shares on Euronext Growth Oslo, with trading set to begin on October 26, 2026.",
+   "headline": "22nd Century Group Reports Preliminary Third Quarter 2026 Financial Results",
+   "summary": "22nd Century Group announced preliminary, unaudited financial results for the third quarter of 2026, showing revenue growth and improved profitability metrics compared to the second quarter.",
    "source": "fiscal.ai",
-   "url": "https://www.investegate.co.uk/announcement/rns/ajax-resources--ajax/admission-to-euronext-growth-oslo-confirmed/9839837",
-   "created_at": "2026-10-24T08:02:22Z",
+   "url": "https://www.globenewswire.com/news-release/2026/10/22/3386631/0/en/22nd-century-group-preliminarily-reports-third-quarter-financial-results.html",
+   "created_at": "2026-10-24T13:05:29Z",
    "symbols": [
-    "AJAX"
+    "XXII"
    ],
    "image": ""
   },
   {
-   "headline": "Kore Potash Plc - Form 8.5 (EPT/RI) Disclosure",
-   "summary": "Kore Potash Plc released a Form 8.5 (EPT/RI) regulatory disclosure on October 23, 2026, regarding an exempt principal trader's position in the company's securities.",
+   "headline": "Edible Garden Announces Commercial Supply Agreement and Strategic Partnership with Caney Fork Farms",
+   "summary": "Edible Garden AG Incorporated has entered into a strategic partnership with Caney Fork Farms to transition certain agricultural production activities, aiming to improve operational efficiency and scal",
    "source": "fiscal.ai",
-   "url": "https://www.londonstockexchange.com/en/news/article/disclosure-table/2ff3-6f-99-66-28-47a6a2",
-   "created_at": "2026-10-24T08:02:22Z",
+   "url": "https://www.globenewswire.com/news-release/2026/10/23/3387188/0/en/edible-garden-announces-commercial-supply-agreement-and-strategic-partnership-with-caney-fork-farms.html",
+   "created_at": "2026-10-24T13:05:28Z",
    "symbols": [
-    "KP2"
+    "EDBL"
    ],
    "image": ""
   },
   {
-   "headline": "Springfield Properties PLC Grants Performance Share Awards to Executives",
-   "summary": "Springfield Properties PLC has granted performance share awards to its Chief Executive Officer and Chief Financial Officer under the company's Performance Share Plan.",
+   "headline": "TruSilver Metals Corp. Completes Qualifying Transaction",
+   "summary": "TruSilver Metals Corp. (formerly Galaxy Ventures Inc.) has finalized its qualifying transaction and expects shares to begin trading under the ticker 'TAG' on October 27, 2026.",
    "source": "fiscal.ai",
-   "url": "https://www.investegate.co.uk/announcement/rns/springfield-properties--spr/grant-of-performance-share-awards/9837620",
-   "created_at": "2026-10-24T08:02:21Z",
+   "url": "https://www.newsfilecorp.com/company/12828/TruSilver-Metals-Corp.",
+   "created_at": "2026-10-24T13:05:28Z",
    "symbols": [
-    "SPR"
+    "GXY.P"
    ],
    "image": ""
   },
   {
-   "headline": "Huddled Group PLC to Acquire Joint Venture Partner AEWW Ltd",
-   "summary": "Huddled Group PLC has entered into binding heads of terms to acquire its joint venture partner, AEWW Ltd, for £290,000 to gain full ownership of its live commerce operations on the Whatnot platform.",
+   "headline": "Global Hemp Group Inc. Appoints New CFO and Auditor",
+   "summary": "Global Hemp Group Inc. has announced the appointment of Mickey Goldstein as its new Chief Financial Officer and the engagement of Davidson & Company as the company's auditor.",
    "source": "fiscal.ai",
-   "url": "https://www.investegate.co.uk/announcement/rns/huddled-group--hud/acquisition-of-aeww-ltd/9837607",
-   "created_at": "2026-10-24T08:02:19Z",
+   "url": "https://www.newsfilecorp.com/release/320599/Global-Hemp-Group-Appoints-Mickey-Goldstein-as-Chief-Financial-Officer-Appoints-Davidson-Company-as-Auditor",
+   "created_at": "2026-10-24T13:05:27Z",
    "symbols": [
-    "HUD"
+    "GHG"
    ],
    "image": ""
   },
   {
-   "headline": "Energy B plc Raises £607,500 in Share Placing",
-   "summary": "Energy B plc has successfully raised £607,500 through a placing of 5,062,500 new ordinary shares to fund technical assessments at the Gatwick energy site.",
+   "headline": "Newlox Gold Ventures Corp. Announces Revocation of Cease Trade Order and Operational Update",
+   "summary": "Newlox Gold Ventures Corp. has successfully resolved a regulatory cease trade order following the completion of required financial audits and has provided an update on its tailings processing operatio",
    "source": "fiscal.ai",
-   "url": "https://www.investegate.co.uk/announcement/rns/energy-b-plc--nrgb/family-office-backed-placing/9839140",
-   "created_at": "2026-10-24T08:02:12Z",
+   "url": "https://www.thenewswire.com/press-releases/1k3wFNrOK-newlox-gold-announces-revocation-of-cease-trade-order-and-outlines-operational-progress-and-expansion-plans.html",
+   "created_at": "2026-10-24T13:05:26Z",
    "symbols": [
-    "NRGB"
+    "LUX"
    ],
    "image": ""
   },
   {
-   "headline": "Focus Xplore PLC Provides Technical Overview of Clarkdon Gold Property Exploration",
-   "summary": "Focus Xplore PLC has initiated a Phase 1 exploration programme at its newly acquired Clarkdon Gold Property in Ontario, Canada, utilizing funds from a recent £0.5 million placing.",
+   "headline": "Kingman Minerals Reports Exploration Results for Tombstone Project",
+   "summary": "Kingman Minerals Ltd. announced that recent drilling at its Tombstone Project has extended the known oxide footprint by 190 meters to the west, with mineralization remaining open in multiple direction",
    "source": "fiscal.ai",
-   "url": "https://www.investegate.co.uk/announcement/rns/focus-xplore-plc--fox/technical-overview-of-the-clarkdon-gold-property/9837649",
-   "created_at": "2026-10-24T08:02:12Z",
+   "url": "https://irw-press.com/en/aztec-extends-oxide-gold-silver-mineralization-up-to-190-m-west-at-the-north-extension-at-tombstone-arizona-including-115-8-m-of-0-67-g-t-aueq-0-52-g-t-au-8-11-g-t-ag-in-tr26-45/",
+   "created_at": "2026-10-24T13:05:26Z",
    "symbols": [
-    "FOX"
+    "KGS"
    ],
    "image": ""
   },
   {
-   "headline": "Lift Global Ventures Notes IntelliAM AI Fundraising and Proposed AIM Admission",
-   "summary": "Lift Global Ventures PLC acknowledged an announcement by its investee company, IntelliAM AI plc, regarding a £6.3 million fundraising and a planned move to the AIM market.",
+   "headline": "Mayo Lake Minerals Provides Particulars of 2026 Program to Finalize Targeting for 2027 Diamond Drilling Program",
+   "summary": "Mayo Lake Minerals Inc. announced its autumn 2026 exploration program and a private placement of up to $700,000 to fund activities at the Anderson Gold Trend.",
    "source": "fiscal.ai",
-   "url": "https://www.investegate.co.uk/announcement/rns/lift-global-ventures-plc--lft/investee-company-intelliam-ai-plc-/9837200",
-   "created_at": "2026-10-24T08:02:11Z",
+   "url": "https://www.newsfilecorp.com/release/320439/Mayo-Lake-Minerals-Provides-Particulars-of-2026-Program-to-Finalize-Targeting-for-2027-Diamond-Drilling-Program-on-the-Anderson-Gold-Trend?lang=fr",
+   "created_at": "2026-10-24T13:05:25Z",
    "symbols": [
-    "LFT"
+    "MLKM"
    ],
    "image": ""
   },
   {
-   "headline": "First Equity Limited Increases Holding in Tooru PLC",
-   "summary": "First Equity Limited, acting as investment manager for Armstrong Investments Limited, has increased its voting rights in Tooru PLC to 6.16%.",
+   "headline": "TrustBIX Inc. Announces Further Extension to Private Placement",
+   "summary": "TrustBIX Inc. has received approval from the TSX Venture Exchange to extend the deadline for its previously announced non-brokered private placement to November 21, 2026.",
    "source": "fiscal.ai",
-   "url": "https://www.investegate.co.uk/announcement/rns/tooru-plc--too/holding-s-in-company/9837613",
-   "created_at": "2026-10-24T08:02:09Z",
+   "url": "https://www.newsfilecorp.com/release/320494/TrustBIX-Inc.-Announces-Further-Extension-to-Private-Placement",
+   "created_at": "2026-10-24T13:05:25Z",
    "symbols": [
-    "TOO"
+    "TBIX"
    ],
    "image": ""
   },
   {
-   "headline": "KCR Residential REIT plc Announces Final Results for the Year Ended 30 June 2026",
-   "summary": "KCR Residential REIT plc reported a 15% increase in annual revenue to £2.17 million and achieved its first positive operating cash flow of £416k.",
+   "headline": "Algo Grande Copper Corp. Engages Addison Mining Services for NI 43-101 Technical Report Update",
+   "summary": "Algo Grande Copper Corp. has commissioned Addison Mining Services to update the NI 43-101 technical report for its 100%-owned Adelita Project in Sonora, Mexico.",
    "source": "fiscal.ai",
-   "url": "https://www.investegate.co.uk/announcement/rns/kcr-residential-reit--kcr/final-results/9836239",
-   "created_at": "2026-10-24T08:02:09Z",
+   "url": "https://www.accessnewswire.com/newsroom/en/metals-and-mining/algo-grande-commissions-independent-ni-43-101-update-to-capture-first-year-of-pro-1240723",
+   "created_at": "2026-10-24T13:05:25Z",
    "symbols": [
-    "KCR"
+    "ALGR"
    ],
    "image": ""
   },
   {
-   "headline": "Pythia Sports Joins NYCE Product Marketplace",
-   "summary": "Pythia Sports has partnered with NYCE International to offer its managed racing products through the NYCE Product Marketplace.",
+   "headline": "ProAm Explorations Expands Golden Ridge Property in New Brunswick",
+   "summary": "ProAm Explorations Corporation has staked over 10 square kilometres of additional ground at its Golden Ridge Gold Project, expanding its land position by more than 13 kilometres.",
    "source": "fiscal.ai",
-   "url": "https://g3newswire.com/pythia-sports-joins-nyce-product-marketplace-with-horse-and-greyhound-racing-offering/",
-   "created_at": "2026-10-24T08:02:08Z",
+   "url": "https://www.newsfilecorp.com/release/320351/ProAm-Expands-Golden-Ridge-Property-to-Cover-More-than-13-Kilometres-of-a-Prospective-GoldHosting-Structural-Corridor",
+   "created_at": "2026-10-24T13:05:24Z",
    "symbols": [
-    "NYCE"
+    "PMX"
    ],
    "image": ""
   },
   {
-   "headline": "eEnergy Group plc Announces Results of General Meeting and Completion of Fundraising",
-   "summary": "eEnergy Group plc successfully passed all resolutions at its General Meeting, confirming the allotment of over 2.7 billion new shares to raise approximately £8.3 million in gross proceeds.",
+   "headline": "Niki BioSolutions Subsidiary DiamiR Biosciences Signs APOE Genotyping Agreement with Charter Research",
+   "summary": "Niki BioSolutions, Inc. announced that its subsidiary, DiamiR Biosciences, has entered into an agreement to provide apolipoprotein E (APOE) genotyping services for Charter Research.",
    "source": "fiscal.ai",
-   "url": "https://www.investegate.co.uk/announcement/rns/eenergy-group--eaas/result-of-general-meeting/9839349",
-   "created_at": "2026-10-24T08:02:08Z",
+   "url": "https://www.globenewswire.com/news-release/2026/10/23/3387217/0/en/niki-biosolutions-signs-agreement-to-supply-apoe-genotyping-to-charter-research.html",
+   "created_at": "2026-10-24T13:05:23Z",
    "symbols": [
-    "EAAS"
+    "NIKI"
    ],
    "image": ""
   },
   {
-   "headline": "TheraCryf plc Announces Results of Annual General Meeting",
-   "summary": "TheraCryf plc confirmed that all resolutions presented at its Annual General Meeting held on October 22, 2026, were duly passed.",
+   "headline": "Xplore Resources Corp. Files Certification of Annual Filings",
+   "summary": "Xplore Resources Corp. has completed the regulatory certification of its annual filings.",
    "source": "fiscal.ai",
-   "url": "https://www.investegate.co.uk/announcement/rns/theracryf-plc--tcf/result-of-annual-general-meeting/9837066",
-   "created_at": "2026-10-24T08:02:07Z",
+   "url": "https://www.moomoo.com/news/notice/308152749/52109fv1-certification-of-annual-filings-cfo-en",
+   "created_at": "2026-10-24T13:05:23Z",
    "symbols": [
-    "TCF"
+    "XPLR"
    ],
    "image": ""
   },
   {
-   "headline": "Marechale Capital plc Announces Board Changes",
-   "summary": "Marechale Capital plc has appointed Robin Stevens as a Non-executive Director, while Chris Kenning has stepped down from the board.",
+   "headline": "EverGen Infrastructure Announces Record RNG Production for Q3 2026",
+   "summary": "EverGen Infrastructure Corp. reported record production levels of renewable natural gas (RNG) for the third quarter of 2026.",
    "source": "fiscal.ai",
-   "url": "https://www.investegate.co.uk/announcement/rns/marechale-capital--mac/board-changes-/9839721",
-   "created_at": "2026-10-24T08:02:06Z",
+   "url": "https://www.streetinsider.com/Press+Releases?before_id=27223856",
+   "created_at": "2026-10-24T13:05:23Z",
    "symbols": [
-    "MAC"
+    "EVGN"
    ],
    "image": ""
   },
   {
-   "headline": "NeoTerra Group PLC Announces Equity Conversion of Loan Interest",
-   "summary": "NeoTerra Group PLC has elected to settle £20,000 in accrued loan interest by issuing 2,000,000 new ordinary shares to its lender, Catalyse Capital Limited.",
+   "headline": "American Salars Lithium Inc. Completes Acquisition of K20 Minerals and Lake Throssell Project",
+   "summary": "American Salars Lithium Inc. has finalized its acquisition of K20 Minerals Pty Ltd, gaining full ownership of the Lake Throssell sulphate of potash brine project in Western Australia.",
    "source": "fiscal.ai",
-   "url": "https://www.investegate.co.uk/announcement/rns/neoterra-group--tera/issue-of-equity-following-interest-conversion/9837582",
-   "created_at": "2026-10-24T08:02:06Z",
+   "url": "https://www.thenewswire.com/press-releases/1kZaFyKJe-american-salars-closes-acquisition-of-k20-minerals-and-the-lake-throssell-sulphate-of-potash-sop-project-in-western-australia.html",
+   "created_at": "2026-10-24T13:05:23Z",
    "symbols": [
-    "TERA"
+    "USLI"
    ],
    "image": ""
   },
   {
-   "headline": "IXICO Announces Two New Alzheimer's Disease Contracts Valued at £1.5 Million",
-   "summary": "IXICO plc has secured two new contracts in the Alzheimer's disease space, including a Phase 2b trial and a contract extension, with a combined value of approximately £1.5 million.",
+   "headline": "Glucotrack Announces 1-for-2 Reverse Stock Split",
+   "summary": "Glucotrack, Inc. is set to implement a 1-for-2 reverse stock split, with trading on a split-adjusted basis beginning October 26, 2026.",
    "source": "fiscal.ai",
-   "url": "https://www.investegate.co.uk/announcement/rns/ixico--ixi/alzheimer-s-contract-wins-/9835161",
-   "created_at": "2026-10-24T08:02:05Z",
+   "url": "https://www.moomoo.com/news/post/1002085572/glucotrack-to-carry-out-1-for-2-reverse-stock-split",
+   "created_at": "2026-10-24T13:05:23Z",
    "symbols": [
-    "IXI"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Mind Gym PLC Announces Return of CFO Emily Fyffe",
-   "summary": "Mind Gym PLC has announced that Emily Fyffe will resume her role as Chief Financial Officer on October 30, 2026, following her maternity leave.",
-   "source": "fiscal.ai",
-   "url": "https://www.investegate.co.uk/announcement/rns/mind-gym--mind/board-update-/9838773",
-   "created_at": "2026-10-24T08:02:05Z",
-   "symbols": [
-    "MIND"
+    "GCTK"
    ],
    "image": ""
   }
