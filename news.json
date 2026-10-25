@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26 02:00",
+ "updated": "2026-10-26 03:00",
  "items": [
   {
    "headline": "S&P 500, VOO, and SPY Outlook: What Investors Need to Watch This Week",
@@ -189,6 +189,49 @@
     "META"
    ],
    "image": ""
+  },
+  {
+   "headline": "Top Crypto Stocks to Watch This Week: SoFi, Strategy, Coinbase",
+   "summary": "The top crypto stocks to watch this week will be firms like SoFi Technologies, Strategy (MSTR), and Coinbase (COIN)",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/10/62580021/top-crypto-stocks-to-watch-this-week-sofi-strategy-coinbase",
+   "created_at": "2026-10-25T17:44:51Z",
+   "symbols": [
+    "BTCUSD",
+    "COIN",
+    "MSTR",
+    "SOFI"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/25/Coinbase-Tops-Earnings-Estimates.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Ethereum Price Faces Deeper Downside Risk as October ETH ETF Outflows Reach $1 Billion",
+   "summary": "Ethereum price has slipped in the past few days, and the forming head-and-shoulders pattern points to more downside as ETF outflows rise",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/26/10/62579999/ethereum-price-faces-deeper-downside-risk-as-october-eth-etf-outflows-reach-1-billion",
+   "created_at": "2026-10-25T17:15:08Z",
+   "symbols": [
+    "BTC",
+    "BTCUSD",
+    "ETH",
+    "ETHUSD",
+    "SOLUSD"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/25/Eth-Coin-With-Blurred-Candlestick-Chart-.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "If Tesla Merges With SpaceX, How Many Bitcoin Would Elon's Companies Hold?",
+   "summary": "A potential Tesla-SpaceX merger could consolidate 30,221 BTC worth $2.56B, while Bitcoin gains contributed 28% of Tesla’s Q3 net income.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/10/62579974/if-tesla-merges-with-spacex-how-many-bitcoin-would-elons-companies-hold",
+   "created_at": "2026-10-25T17:00:35Z",
+   "symbols": [
+    "BTCUSD",
+    "MSTR",
+    "SPCX",
+    "TSLA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/25/Magnified-View-Of-Tech-Mogul-Elon-Musk-I.jpg?width=1024&height=768"
   },
   {
    "headline": "Fed, ECB Expected To Hold Rates Next Week, But December Hikes Still In Play",
@@ -437,39 +480,6 @@
    "created_at": "2026-10-25T13:01:52Z",
    "symbols": [
     "MRK"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "CIBC to Relocate Historic Edmonton Branch to Ice District",
-   "summary": "CIBC is moving its nearly 100-year-old branch in Edmonton to a new location within the city's Ice District.",
-   "source": "fiscal.ai",
-   "url": "https://edmontonjournal.com/category/business/",
-   "created_at": "2026-10-25T13:01:52Z",
-   "symbols": [
-    "CM"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Regeneron Announces Long-Term Phase 3 C-POST Trial Data for Libtayo in High-Risk CSCC",
-   "summary": "Regeneron Pharmaceuticals reported nearly four years of follow-up data from the Phase 3 C-POST trial, demonstrating a sustained survival benefit for Libtayo (cemiplimab) as an adjuvant treatment for h",
-   "source": "fiscal.ai",
-   "url": "https://www.globenewswire.com/news-release/2026/10/25/3387719/0/en/libtayo-cemiplimab-longer-term-data-show-increasing-and-clinically-meaningful-overall-survival-benefit-with-adjuvant-treatment-in-high-risk-cutaneous-squamous-cell-carcinoma-cscc.html",
-   "created_at": "2026-10-25T13:01:51Z",
-   "symbols": [
-    "REGN"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "BioNTech and Bristol Myers Squibb Report Encouraging Phase 2 Data for Pumitamig in Advanced NSCLC",
-   "summary": "BioNTech and Bristol Myers Squibb announced positive Phase 2 clinical trial results for their bispecific antibody candidate, pumitamig, in patients with advanced non-small cell lung cancer.",
-   "source": "fiscal.ai",
-   "url": "https://www.globenewswire.com/news-release/2026/10/25/3387717/0/en/biontech-and-bristol-myers-squibb-report-encouraging-global-phase-2-data-for-pumitamig-in-advanced-nsclc-after-progression-on-immunotherapy-plus-chemotherapy.html",
-   "created_at": "2026-10-25T13:01:50Z",
-   "symbols": [
-    "BMY"
    ],
    "image": ""
   }
