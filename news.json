@@ -1,6 +1,21 @@
 {
- "updated": "2026-10-26 04:30",
+ "updated": "2026-10-26 05:16",
  "items": [
+  {
+   "headline": "A $1 Trillion Depreciation Bomb Is Ticking Beneath the AI Market",
+   "summary": "Wall Street’s record profit boom looks less like a productivity miracle and more like an accounting mirage, and the bill comes due by 2030.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62580225/a-1-trillion-depreciation-bomb-is-ticking-beneath-the-ai-market",
+   "created_at": "2026-10-25T19:45:14Z",
+   "symbols": [
+    "AMZN",
+    "GOOGL",
+    "META",
+    "MSFT",
+    "NVDA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/25/Paris--France---January-16--2026-The-Log.jpg?width=1024&height=768"
+  },
   {
    "headline": "Magnificent Seven ETF Pulls Back: What to Expect from Microsoft, Google, and Amazon Earnings",
    "summary": "Top Magnificent Seven stocks have pulled back in the past two weeks as the recent rally lost momentum and as the earnings season starts.",
@@ -184,15 +199,221 @@
    "image": ""
   },
   {
-   "headline": "NVIDIA and HUMAIN Expand Partnership for Saudi Arabia AI Infrastructure",
-   "summary": "NVIDIA and HUMAIN are collaborating to deploy 84MW of AI compute infrastructure in Saudi Arabia, utilizing Blackwell and Vera Rubin systems.",
+   "headline": "Nomination Committee Appointed for Stockholm Nordtech Group's 2027 Annual General Meeting",
+   "summary": "Stockholm Nordtech Group AB has announced the appointment of its nomination committee in preparation for the 2027 Annual General Meeting.",
    "source": "fiscal.ai",
-   "url": "https://datacentremagazine.com/news/this-weeks-top-five-stories-in-the-data-centre-industry-24-october-2026",
-   "created_at": "2026-10-24T13:01:36Z",
+   "url": "https://www.avanza.se/hall-koll/nyheter.html?a=%2Ftelegram%2Favanza%2F39_7d7b8132-fe9a-4087-af8b-fd15a64f1e87",
+   "created_at": "2026-10-25T20:02:56Z",
    "symbols": [
-    "NVDA"
+    "NTECH"
    ],
    "image": ""
+  },
+  {
+   "headline": "Knowit Reports Q3 2026 Financial Results",
+   "summary": "Knowit AB (publ) released its financial results for the third quarter of 2026, reporting a net income of SEK 35 million and an improvement in its adjusted EBITDA margin.",
+   "source": "fiscal.ai",
+   "url": "https://ucapital.com/en/news/breaking/17688335",
+   "created_at": "2026-10-25T20:02:45Z",
+   "symbols": [
+    "KNOW"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Bnode Appoints Nicolas Baise as CEO of Bpost Business Unit",
+   "summary": "Bnode, the parent company of Bpost, has appointed Nicolas Baise as the new CEO of its Bpost business unit, effective January 1, 2027.",
+   "source": "fiscal.ai",
+   "url": "https://press.bnode.com/bnode-announces-nicolas-baise-as-ceo-bpost",
+   "created_at": "2026-10-25T20:02:23Z",
+   "symbols": [
+    "BPOST"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Vitrolife AB: Interim report Q3, 2026",
+   "summary": "Vitrolife AB reported its third-quarter 2026 financial results, highlighting organic growth driven by its Technologies segment.",
+   "source": "fiscal.ai",
+   "url": "https://www.finanznachrichten.de/nachrichten-aktien/vitrolife-ab.htm",
+   "created_at": "2026-10-25T20:02:07Z",
+   "symbols": [
+    "VITR"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Genmab Announces Updated Follow-Up Analyses from Phase 2 Study of Petosemtamab in Metastatic Colorectal Cancer",
+   "summary": "Genmab A/S released updated follow-up data from a Phase 2 trial of its investigational bispecific antibody, petosemtamab, in patients with metastatic colorectal cancer.",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/10/25/3387723/0/en/genmab-announces-updated-follow-up-analyses-from-phase-2-study-of-petosemtamab-demonstrate-meaningful-objective-response-rates-in-patients-with-metastatic-colorectal-cancer.html",
+   "created_at": "2026-10-25T20:02:06Z",
+   "symbols": [
+    "GMAB"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Ariston Announces Brand Relaunch in Middle East and Africa",
+   "summary": "Ariston has launched a major brand relaunch campaign across the Middle East and Africa region, featuring Italian chef Massimo Bottura.",
+   "source": "fiscal.ai",
+   "url": "https://www.finanznachrichten.de/nachrichten-2026-10/69927289-ariston-announces-major-brand-relaunch-across-the-mea-region-headlined-by-italian-chef-massimo-bottura-008.htm",
+   "created_at": "2026-10-25T20:02:02Z",
+   "symbols": [
+    "ARIS"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "TUI Cruises' 'Mein Schiff 3' Involved in Collision in Bremerhaven",
+   "summary": "TUI Cruises confirmed that its cruise ship 'Mein Schiff 3' collided with a container ship while departing from Bremerhaven, with no reported injuries.",
+   "source": "fiscal.ai",
+   "url": "https://www.finanzen.at/nachrichten/aktien/tui-kreuzfahrtschiff-stoesst-mit-containerschiff-zusammen-1036662728",
+   "created_at": "2026-10-25T20:01:58Z",
+   "symbols": [
+    "TUI1"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Triodos Bank and Fondaction Launch Value Nature Fund at COP17",
+   "summary": "Triodos Bank and Fondaction Asset Management have announced the launch of the Value Nature Fund, a natural capital investment strategy aimed at restoring farms and forests.",
+   "source": "fiscal.ai",
+   "url": "https://www.newswire.ca/news-releases/cop17-welcomes-value-nature-fund-s-approach-to-mobilizing-private-capital-for-nature-891212813.html",
+   "created_at": "2026-10-25T20:01:57Z",
+   "symbols": [
+    "TRIO"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Audi Announces $4 Billion Investment for New SUV Manufacturing Plant in the United States",
+   "summary": "Volkswagen subsidiary Audi plans to build its first manufacturing facility in the United States, located in Georgia, with an investment of approximately $4 billion.",
+   "source": "fiscal.ai",
+   "url": "https://www.finanzen.ch/nachrichten/aktien/auf-trump-wahlkampftour-audi-kuendigt-suv-werk-in-den-usa-an-1036662548",
+   "created_at": "2026-10-25T20:01:54Z",
+   "symbols": [
+    "VOW3"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "BW Energy: Drilling rig incident on the Dussafu licence",
+   "summary": "BW Energy reported a drilling rig incident involving the Prospector 5 rig, which was contracted to support the company's operations offshore Gabon.",
+   "source": "fiscal.ai",
+   "url": "https://live.euronext.com/en/markets/oslo/equities/company-news",
+   "created_at": "2026-10-25T20:01:54Z",
+   "symbols": [
+    "BWE"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Piaggio Research Center Presents OmniCar Robot at Maker Faire Rome",
+   "summary": "The Piaggio Research Center in Pisa unveiled OmniCar, a new wheeled robot designed for agile, omnidirectional movement in industrial and logistics environments.",
+   "source": "fiscal.ai",
+   "url": "https://civl.com/news/story/maker-faire-rome-shows-robots-for-warehouse-inspections-and-mapping-e3725b62",
+   "created_at": "2026-10-25T20:01:53Z",
+   "symbols": [
+    "PIA"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Stoxx Announces Temporary MDAX Index Adjustment",
+   "summary": "Index operator Stoxx, a subsidiary of Deutsche Börse, announced a temporary inclusion of TK Accelis Group AG & Co KGaA in the MDAX index for one day.",
+   "source": "fiscal.ai",
+   "url": "https://www.finanznachrichten.de/nachrichten-2026-10/69928012-indexaenderung-accelis-am-mittwoch-fuer-einen-tag-im-mdax-015.htm",
+   "created_at": "2026-10-25T20:01:52Z",
+   "symbols": [
+    "DB1"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Xior Reports Strong Nine-Month Results and Confirms 2026 Outlook",
+   "summary": "Xior Student Housing NV announced higher profits for the first nine months of 2026, driven by its strongest rental season to date and a 98.5% occupancy rate.",
+   "source": "fiscal.ai",
+   "url": "https://www.deaandeelhouder.be/nieuws/2026/10/23/sterkste-verhuurseizoen-ooit-voor-xior/",
+   "created_at": "2026-10-25T20:01:51Z",
+   "symbols": [
+    "XIOR"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Mercedes-Benz Korea Expands After-Sales Training for Electric Vehicles",
+   "summary": "Mercedes-Benz Korea is enhancing its after-sales service capabilities by expanding its specialized electric vehicle training programs as its technician development initiative reaches its 20th annivers",
+   "source": "fiscal.ai",
+   "url": "https://m.koreaherald.com/article/10913958",
+   "created_at": "2026-10-25T20:01:49Z",
+   "symbols": [
+    "MBG"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "US Insurers Inject $510 Million into Partners Group Credit Fund",
+   "summary": "Partners Group has secured $510 million in new capital from United States-based insurers for a private credit investment vehicle.",
+   "source": "fiscal.ai",
+   "url": "https://financialnewswire.com.au/funds-management/us-insurers-inject-510m-into-partners-group-credit-fund/",
+   "created_at": "2026-10-25T20:01:46Z",
+   "symbols": [
+    "PGHN"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Westfield Rise Partners with Lionsgate for Hunger Games Immersive Experience",
+   "summary": "Westfield Rise, the retail media agency of Unibail-Rodamco-Westfield, is launching an exclusive immersive activation at Westfield London in collaboration with Lionsgate.",
+   "source": "fiscal.ai",
+   "url": "https://retailtechinnovationhub.com/home/2026/10/25/immersive-physical-activations-and-ai-powered-experiences-last-weeks-most-read-retail-technology-articles",
+   "created_at": "2026-10-25T20:01:42Z",
+   "symbols": [
+    "URW"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Hermès Market Valuation Declines Amid Luxury Sector Downturn",
+   "summary": "Hermès has experienced a significant reduction in market capitalization as part of a broader downturn in the European luxury goods sector driven by weakening Chinese consumer demand.",
+   "source": "fiscal.ai",
+   "url": "https://www.euro2day.gr/amp/news/world/article/2375191/kapnos-polyteleias-eginan-250-dis-eyro-sthn-eyropa.html",
+   "created_at": "2026-10-25T20:01:41Z",
+   "symbols": [
+    "RMS"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Verizon, Welltower On Deck Monday As Wireless Growth, Senior Housing Demand Face Test",
+   "summary": "Verizon headlines Monday’s reports, with investors weighing whether improving wireless momentum can overcome a recent pullback in the stock. Welltower, Cadence Design Systems, Nucor, Public Storage an",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62580211/verizon-welltower-on-deck-monday-as-wireless-growth-senior-housing-demand-face-test",
+   "created_at": "2026-10-25T19:31:07Z",
+   "symbols": [
+    "AMKR",
+    "ARE",
+    "ARLP",
+    "BOH",
+    "BRO"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/25/earnings-scheduled-1.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "A SpaceX and Tesla Merger Would Build a Conglomerate Just as Spin-Offs Thrive",
+   "summary": "A Tesla and SpaceX merger would create a top conglomerate as key data suggests that spinoffs are doing better.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/10/62580200/a-spacex-and-tesla-merger-would-build-a-conglomerate-just-as-spin-offs-thrive",
+   "created_at": "2026-10-25T19:30:08Z",
+   "symbols": [
+    "CSD",
+    "SNDK",
+    "SPCX",
+    "TSLA",
+    "WDC"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/25/Tesla-SpaceX.jpg?width=1024&height=768"
   },
   {
    "headline": "Brent Crude Oil Price Nears Crucial Level as Trump Prepares Iran Attack",
@@ -204,284 +425,6 @@
     "USO"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/10/25/The-Barrels-Of-Crude-Oil-Are-Placed-On-T.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Bill Ackman Questions Whether College Is Still Worth It: ‘AI Is Changing Education’",
-   "summary": "Bill Ackman is speaking out about universities and student loan debt.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/education/26/10/62580166/bill-ackman-says-return-on-investment-from-going-to-college-has-changed-ai-is-changing-education",
-   "created_at": "2026-10-25T19:00:07Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/25/bill-ackman-midjourney-dall-e.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Survey Reveals the Retirement Fear Holding Americans Back",
-   "summary": "Prudential finds 86% of retirees struggle to spend savings. Withdrawal strategies and clear plans can give clients confidence to enjoy retirement.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/personal-finance/financial-advisors/26/10/62580119/survey-reveals-the-retirement-fear-holding-americans-back",
-   "created_at": "2026-10-25T18:30:08Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/25/Financial-Advisor.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Top Crypto Stocks to Watch This Week: SoFi, Strategy, Coinbase",
-   "summary": "The top crypto stocks to watch this week will be firms like SoFi Technologies, Strategy (MSTR), and Coinbase (COIN)",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/10/62580021/top-crypto-stocks-to-watch-this-week-sofi-strategy-coinbase",
-   "created_at": "2026-10-25T17:44:51Z",
-   "symbols": [
-    "BTCUSD",
-    "COIN",
-    "MSTR",
-    "SOFI"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/25/Coinbase-Tops-Earnings-Estimates.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Ethereum Price Faces Deeper Downside Risk as October ETH ETF Outflows Reach $1 Billion",
-   "summary": "Ethereum price has slipped in the past few days, and the forming head-and-shoulders pattern points to more downside as ETF outflows rise",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/26/10/62579999/ethereum-price-faces-deeper-downside-risk-as-october-eth-etf-outflows-reach-1-billion",
-   "created_at": "2026-10-25T17:15:08Z",
-   "symbols": [
-    "BTC",
-    "BTCUSD",
-    "ETH",
-    "ETHUSD",
-    "SOLUSD"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/25/Eth-Coin-With-Blurred-Candlestick-Chart-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "If Tesla Merges With SpaceX, How Many Bitcoin Would Elon's Companies Hold?",
-   "summary": "A potential Tesla-SpaceX merger could consolidate 30,221 BTC worth $2.56B, while Bitcoin gains contributed 28% of Tesla’s Q3 net income.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/10/62579974/if-tesla-merges-with-spacex-how-many-bitcoin-would-elons-companies-hold",
-   "created_at": "2026-10-25T17:00:35Z",
-   "symbols": [
-    "BTCUSD",
-    "MSTR",
-    "SPCX",
-    "TSLA"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/25/Magnified-View-Of-Tech-Mogul-Elon-Musk-I.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Fed, ECB Expected To Hold Rates Next Week, But December Hikes Still In Play",
-   "summary": "The Fed and ECB rate decisions are due next week, with both expected to hold. But energy-driven inflation keeps December hikes firmly on the table.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/treasuries/26/10/62579887/fed-ecb-expected-to-hold-rates-next-week-but-december-hikes-still-in-play",
-   "created_at": "2026-10-25T15:30:12Z",
-   "symbols": [
-    "AAL",
-    "JBLU",
-    "UAL"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/25/Headquarters-Of-The-Federal-Reserve-In-W.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Gold Price Outlook as US Bond Yields Rise Ahead of FOMC Decision",
-   "summary": "Gold fell below the key support level of $4,000 on Friday, extending a decline that began on August 25, when prices peaked at $4,692.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/commodities/26/10/62579868/gold-price-outlook-as-us-bond-yields-rise-ahead-of-fomc-decision",
-   "created_at": "2026-10-25T15:15:15Z",
-   "symbols": [
-    "GLD"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/25/Federal-Reserve-Chair-Kevin-Warsh-Delive.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Tesla’s Big Quarter, GM's Buyback Fight, Elon Musk’s Autonomous Driving Push and More: This Week in Mobility",
-   "summary": "Tesla’s earnings and self-driving push, GM’s $20 billion buyback backlash and United’s Starlink rollout led weekend business news.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/10/62579792/tesla-earnings-gm-buyback-starlink",
-   "created_at": "2026-10-25T13:47:32Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/25/Kaunas--Lithuania-2022---April-14-Tesla-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Consumer Tech (Oct 19-23): OpenAI Reportedly Seeks $30 Billion, Tesla Cuts 2026 Capex Forecast, Anthropic Commits To Over $600 Billion & More",
-   "summary": "American Airlines CEO Robert Isom defended the carrier’s Starlink partnership, saying customers deserve the best in-flight internet despite concerns about disrupted Ukrainian military communications.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/10/62579783/consumer-tech-oct-19-23-openai-reportedly-seeks-30-billion-tesla-cuts-2026-capex-forecast-anthropic-commits-to-over-600-billion-more",
-   "created_at": "2026-10-25T13:47:05Z",
-   "symbols": [
-    "ADBE",
-    "GM",
-    "IBM",
-    "SMCI",
-    "WDC"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/25/Smartphone-Screen-Displaying-The-Openai-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Benzinga's 'Stock Whisper' Index: Five Stocks Investors Secretly Monitor But Don't Talk About Yet",
-   "summary": "The Stock Whisper Index is a market indicator highlighting stocks that are attracting heightened interest from traders and investors.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/10/62579766/benzingas-stock-whisper-index-five-stocks-investors-secretly-monitor-but-dont-talk-about-yet-5",
-   "created_at": "2026-10-25T13:46:36Z",
-   "symbols": [
-    "EQIX",
-    "FNV",
-    "HSBC",
-    "SCHW",
-    "TWLO"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/25/Stock-Whisper-Index.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "FreeCast CEO William Mobley Discusses Streaming Infrastructure and PEAC Metric on 'New to The Street'",
-   "summary": "FreeCast, Inc. CEO William Mobley appeared on the 'New to The Street' broadcast on Bloomberg Television to detail the company's streaming infrastructure business and introduce its new 'partner-enabled",
-   "source": "fiscal.ai",
-   "url": "https://www.newswire.com/news/from-private-credit-to-fusion-power-new-to-the-street-show-777-22878082",
-   "created_at": "2026-10-25T13:03:37Z",
-   "symbols": [
-    "CAST"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Alpine Income Property Trust Launches New ATM Offering Programs",
-   "summary": "Alpine Income Property Trust has established new at-the-market (ATM) offering programs for up to $150 million in common stock and $35 million in Series A Preferred Stock.",
-   "source": "fiscal.ai",
-   "url": "https://www.tradingview.com/news/tradingview:5a96734c6f9cf:0-alpine-income-property-trust-launches-35-million-preferred-and-150-million-common-atm-programs/",
-   "created_at": "2026-10-25T13:03:09Z",
-   "symbols": [
-    "PINE"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "FreightCar America Completes Acquisition of Trinity Equipment Company",
-   "summary": "FreightCar America has acquired Michigan-based Trinity Equipment Company, a supplier of OEM and replacement railcar components and fastening solutions.",
-   "source": "fiscal.ai",
-   "url": "https://railfanning.org/2026/10/freightcar-america-advances-aftermarket-growth-with-third-acquisition-in-less-than-a-year/",
-   "created_at": "2026-10-25T13:03:07Z",
-   "symbols": [
-    "RAIL"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Amarin Highlights Findings from Investigator-Initiated Phase 3 EMT2 Trial",
-   "summary": "Amarin Corporation plc announced findings from the University of Leeds-sponsored Phase 3 EPA for Metastasis Trial 2 (EMT2), which evaluated the use of icosapent ethyl in patients undergoing liver rese",
-   "source": "fiscal.ai",
-   "url": "https://www.globenewswire.com/news-release/2026/10/25/3387729/18362/en/amarin-provides-update-on-university-of-leeds-sponsored-phase-3-epa-for-metastasis-trial-2-emt2-evaluating-vazkepa-vascepa-icosapent-ethyl-capsules-on-top-of-standard-of-care-treat.html",
-   "created_at": "2026-10-25T13:02:58Z",
-   "symbols": [
-    "AMRN"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "PROG Holdings, Inc. to Release Third Quarter 2026 Financial Results on October 28, 2026",
-   "summary": "PROG Holdings, Inc. has scheduled the release of its financial results for the third quarter of 2026 for October 28, 2026.",
-   "source": "fiscal.ai",
-   "url": "https://ceo.ca/newsroom?id=78af4c6a2fa0",
-   "created_at": "2026-10-25T13:02:47Z",
-   "symbols": [
-    "PRG"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "ArriVent BioPharma Announces Initial Phase 1 Results for ARR-217 in Gastrointestinal Cancers",
-   "summary": "ArriVent BioPharma reported encouraging initial Phase 1 clinical trial results for its CDH17-targeting antibody-drug conjugate, ARR-217, in patients with gastrointestinal malignancies.",
-   "source": "fiscal.ai",
-   "url": "https://www.streetinsider.com/Globe+Newswire/ArriVent+Announces+Initial+Phase+1+Data+for+CDH17-targeted+ADC+ARR-217+in+Patients+with+Gastrointestinal+Cancers+at+ESMO+Congress+2026/27229302.html",
-   "created_at": "2026-10-25T13:02:45Z",
-   "symbols": [
-    "AVBP"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Upwork Launches App Integration Within ChatGPT",
-   "summary": "Upwork has released a new application within ChatGPT, allowing users to describe project needs, find freelance talent, and draft job postings directly from the AI platform.",
-   "source": "fiscal.ai",
-   "url": "https://www.moomoo.com/ja/news/post/68118006/upwork-s-work-marketplace-comes-to-chatgpt",
-   "created_at": "2026-10-25T13:02:40Z",
-   "symbols": [
-    "UPWK"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Xencor Presents Phase 1 Dose Selection Data for XmAb819 in Advanced ccRCC",
-   "summary": "Xencor announced updated Phase 1 study results for XmAb819, an ENPP3 x CD3 bispecific antibody, and outlined plans for future registration-enabling development.",
-   "source": "fiscal.ai",
-   "url": "https://www.barchart.com/press-releases/8442567/xencor-presents-phase-1-dose-selection-data-for-xmab819-a-potential-first-in-class-enpp3-x-cd3-bispecific-t-cell-engager-in-development-for-patients-with-advanced-clear-cell-renal-cell-carcinoma-and-enpp3-tumors",
-   "created_at": "2026-10-25T13:02:36Z",
-   "symbols": [
-    "XNCR"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "CNESST Releases Findings on Fatal Workplace Accident at Allied Properties REIT Site",
-   "summary": "The Commission des normes, de l'équité, de la santé et de la sécurité du travail (CNESST) released a report on October 22, 2026, regarding a fatal accident that occurred in November 2025 at a construc",
-   "source": "fiscal.ai",
-   "url": "https://lejuridhic.ca/chute-mortelle-chantier-pomerleau-cnesst/",
-   "created_at": "2026-10-25T13:02:22Z",
-   "symbols": [
-    "AP.UN"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "H.B. Fuller Subsidiary Identified as Offeror in Regulatory Disclosure",
-   "summary": "H.B. Fuller Medical Adhesive Technologies Inc., a wholly-owned subsidiary of H.B. Fuller Company, has been identified as an offeror in a regulatory disclosure regarding Aptitude Software Group plc.",
-   "source": "fiscal.ai",
-   "url": "https://www.londonstockexchange.com/en/news/article/disclosure-table/fa43-a0-54-f7-7b-46a3a7",
-   "created_at": "2026-10-25T13:02:11Z",
-   "symbols": [
-    "FUL"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Cushman & Wakefield Wins \"Best Deal of the Year\" and \"Valuation Team of the Year\" at RICS Hong Kong Awards 2026",
-   "summary": "Cushman & Wakefield received two top honors at the 2026 Royal Institution of Chartered Surveyors (RICS) Awards in Hong Kong, recognizing the firm's professional service excellence.",
-   "source": "fiscal.ai",
-   "url": "https://www.sinchew.com.my/news/20261025/mysinchew/7994276",
-   "created_at": "2026-10-25T13:02:11Z",
-   "symbols": [
-    "CWK"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Monster Energy Hosts Gamer-Focused Event at Cosm Los Angeles",
-   "summary": "Monster Energy held a brand activation event at the Cosm Los Angeles venue to engage with the gaming community.",
-   "source": "fiscal.ai",
-   "url": "https://www.prnewswire.com/news-releases/monster-energy-and-call-of-duty-take-over-cosm-los-angeles-for-immersive-modern-warfare-4-launch-celebration-302918764.html",
-   "created_at": "2026-10-25T13:02:01Z",
-   "symbols": [
-    "MNST"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "XPeng Delivers First L03 Model in Europe",
-   "summary": "XPeng CEO He Xiaopeng personally delivered the first L03 electric vehicle to a customer in Europe, marking a milestone for the company's regional expansion.",
-   "source": "fiscal.ai",
-   "url": "https://www.finanznachrichten.de/nachrichten-medien/electrive-net.htm",
-   "created_at": "2026-10-25T13:02:00Z",
-   "symbols": [
-    "XPEV"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Ping An Hosts Seminar on Green Development and Global Contributions in Shenzhen",
-   "summary": "Ping An Insurance (Group) Company of China, Ltd. co-organized a seminar in Shenzhen focused on international communication regarding green development and global contributions ahead of APEC 2026.",
-   "source": "fiscal.ai",
-   "url": "https://www.morningstar.com/news/pr-newswire/20261025cn80400/ping-an-highlights-green-development-initiatives-at-international-communication-seminar-in-shenzhen-ahead-of-apec-2026",
-   "created_at": "2026-10-25T13:01:58Z",
-   "symbols": [
-    "601318"
-   ],
-   "image": ""
   }
  ]
 }
