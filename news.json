@@ -1,6 +1,28 @@
 {
- "updated": "2026-10-25 10:00",
+ "updated": "2026-10-25 11:00",
  "items": [
+  {
+   "headline": "Amazon Canada Collaborates with Royal Canadian Legion for 2026 National Poppy Campaign",
+   "summary": "Amazon Canada is partnering with the Royal Canadian Legion to facilitate online donations for the 2026 National Poppy Campaign.",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/10/24/3387682/0/en/2026-national-poppy-campaign-launches-with-a-donation-first-and-stunning-mural-don-t-forget-to-remember.html",
+   "created_at": "2026-10-25T01:01:31Z",
+   "symbols": [
+    "AMZN"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "NVIDIA Proposes Physical AI Hub in Kazakhstan",
+   "summary": "NVIDIA CEO Jensen Huang proposed establishing Kazakhstan as a global hub for Physical AI during a meeting with President Kassym-Jomart Tokayev.",
+   "source": "fiscal.ai",
+   "url": "https://www.uzdaily.uz/en/nvidia-chief-proposes-physical-ai-hub-in-kazakhstan/",
+   "created_at": "2026-10-25T01:01:28Z",
+   "symbols": [
+    "NVDA"
+   ],
+   "image": ""
+  },
   {
    "headline": "S&P 500 and Nasdaq 100 Slip as Strong Earnings Collide With AI Bubble Fears and $117 Oil",
    "summary": "The S&amp;P 500 and Nasdaq 100 indices pulled back as investors focused on the strong earnings season amid the AI bubble.",
@@ -169,307 +191,277 @@
    "image": ""
   },
   {
-   "headline": "BlackRock Canada Announces Dissolution of iShares Convertible Bond Index ETF",
-   "summary": "BlackRock Canada, a subsidiary of BlackRock, Inc., has announced its intention to dissolve the iShares Convertible Bond Index ETF as part of an ongoing product line review.",
+   "headline": "Canaccord Genuity Reaffirms Buy Rating on Compass Therapeutics",
+   "summary": "Canaccord Genuity has reaffirmed its Buy rating on Compass Therapeutics following the publication of positive Phase 2/3 clinical trial results.",
    "source": "fiscal.ai",
-   "url": "https://www.globenewswire.com/news-release/2026/10/23/3387625/0/fr/blackrock-canada-annonce-la-dissolution-du-ishares-convertible-bond-index-etf.html",
-   "created_at": "2026-10-23T23:01:42Z",
+   "url": "https://markets.businessinsider.com/news/stocks/compass-therapeutics-announces-publication-of-phase-2-3-companion-002-results-for-tovecimig-in-the-journal-of-clinical-oncology-and-oral-presentation-at-esmo-2026-1036661995",
+   "created_at": "2026-10-25T01:07:28Z",
    "symbols": [
-    "BLK"
+    "CF"
    ],
    "image": ""
   },
   {
-   "headline": "Bitcoin, Ethereum, Solana Draw Uneven Corporate Bets—Which Is Gaining Ground?",
-   "summary": "Bitcoin dominance hits 57% as altcoins lag, while corporate treasuries shift toward Ethereum for staking income.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/10/62575267/bitcoin-ethereum-solana-draw-uneven-corporate-bets-which-is-gaining-ground",
-   "created_at": "2026-10-23T20:30:27Z",
-   "symbols": [
-    "BLK",
-    "BTCUSD",
-    "ETHUSD",
-    "MSTR",
-    "SOLUSD"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/23/Flying-Altcoins-With-Bitcoin-In-The-Cent.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Robot Consulting Announces Receipt of Nasdaq Delisting Determination and Request to Appeal",
-   "summary": "Robot Consulting Co., Ltd. has received a delisting determination from Nasdaq and has filed an appeal to a Hearings Panel to stay the process.",
+   "headline": "Canaccord Genuity Upgrades Eldorado Gold to Buy",
+   "summary": "Canaccord Genuity has upgraded its rating for Eldorado Gold Corporation to Buy from Hold, setting a price target of CA$57.",
    "source": "fiscal.ai",
-   "url": "https://www.newscom.com/newswire-feed-two?p_p_id=teasersearchresults_WAR_searchportlet_INSTANCE_newswire_instance_2&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&p_p_col_id=column-1&p_p_col_pos=11&p_p_col_count=14&_teasersearchresults_WAR_searchportlet_INSTANCE_newswire_instance_2_pageNumber=1&_teasersearchresults_WAR_searchportlet_INSTANCE_newswire_instance_2_struts.portlet.action=%2Fview%2FshowDetail&_teasersearchresults_WAR_searchportlet_INSTANCE_newswire_instance_2_tagId=awire236900",
-   "created_at": "2026-10-25T00:02:05Z",
+   "url": "https://www.marketscreener.com/news/canaccord-genuity-upgrades-eldorado-gold-to-buy-from-hold-ca-57-price-target-ce785cdfd88afe2d",
+   "created_at": "2026-10-25T01:07:28Z",
    "symbols": [
-    "LAWR"
+    "CF"
    ],
    "image": ""
   },
   {
-   "headline": "RIOT, MARA, IREN, and CORZ Stocks Slide as Bitcoin Miners Turn Neoclouds Face Credit Risks",
-   "summary": "Top Bitcoin mining stocks like RIOT, MARA, IREN and CORZ have slumped this month as neoclouds face substantial credit risks.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/10/62578790/riot-mara-iren-and-corz-stocks-slide-as-bitcoin-miners-turn-neoclouds-face-credit-risks",
-   "created_at": "2026-10-24T20:15:16Z",
-   "symbols": [
-    "BTCUSD",
-    "CORZ",
-    "CRWV",
-    "IREN",
-    "IT"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/24/IREN.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "J.D. Power–GlobalData October Vehicle Forecast",
-   "summary": "A joint forecast from J.D. Power and GlobalData projects steady vehicle sales for October 2026, while noting that average new-vehicle finance payments have reached a record high of $823.",
+   "headline": "Shenzhen Bao'an District and EHang Launch UAM Operation Demonstration Center at OH Bay",
+   "summary": "EHang has partnered with the Shenzhen Bao'an District to establish a new Urban Air Mobility (UAM) operation demonstration center at the OH Bay landmark.",
    "source": "fiscal.ai",
-   "url": "https://www.me-mag.news/newswire/october-vehicle-forecast-highlights-growing-monthly-payment-pressure/?amp=1",
-   "created_at": "2026-10-24T20:02:01Z",
+   "url": "https://www.globenewswire.com/de/newsroom/attachmentng/887060d5-3a1a-47e2-8a00-a10a31dbce29/en",
+   "created_at": "2026-10-25T01:04:21Z",
    "symbols": [
-    "DATA"
+    "EH"
    ],
    "image": ""
   },
   {
-   "headline": "NextEnergy Solar Fund Limited Disclosure Table Update",
-   "summary": "The London Stock Exchange published updated disclosure requirements and position information for NextEnergy Solar Fund Limited regarding its ongoing offer period.",
+   "headline": "Vantage Markets Enhances V-Card Premium Payment Experience",
+   "summary": "Vantage Markets has announced enhancements to its V-Card service, aimed at improving the payment experience for CFD traders.",
    "source": "fiscal.ai",
-   "url": "https://www.lse.co.uk/rns/disclosure-table-0a4oykzurdo1ti8.html",
-   "created_at": "2026-10-24T20:01:50Z",
+   "url": "https://www.newswire.ca/news-releases/general-business-latest-news/licensing-list/",
+   "created_at": "2026-10-25T01:04:16Z",
    "symbols": [
-    "NESF"
+    "VNTG"
    ],
    "image": ""
   },
   {
-   "headline": "Savills Vietnam Co-Hosts Industry Forum on ESG and Industrial Sustainability",
-   "summary": "Savills Vietnam partnered with the EuroCham and LŌ-GOI Group to host an industry forum in Hanoi focused on sustainable industrial development and ESG practices.",
+   "headline": "Donegal Insurance Expands Partnership with ZestyAI for AI-Powered Property Risk Assessment",
+   "summary": "Donegal Insurance Group has expanded its partnership with ZestyAI to utilize advanced artificial intelligence for more precise property risk assessment.",
    "source": "fiscal.ai",
-   "url": "https://moneycompass.com.my/cn/%E8%B6%8A%E5%8D%97%E5%B7%A5%E4%B8%9A%E8%BD%AC%E5%90%91%E9%AB%98%E9%99%84%E5%8A%A0%E5%80%BC%E5%88%B6%E9%80%A0%E4%B8%8E%E5%8F%AF%E6%8C%81%E7%BB%AD%E8%BF%90%E8%90%A5/",
-   "created_at": "2026-10-24T20:01:45Z",
+   "url": "https://pchome.megatime.com.tw/news/cat1/20261023/17927571608567245003.html",
+   "created_at": "2026-10-25T01:04:10Z",
    "symbols": [
-    "SVS"
+    "DGICA"
    ],
    "image": ""
   },
   {
-   "headline": "Vodafone, Deutsche Telekom, Orange, and Telefónica Plan Joint Bid for MSS Spectrum",
-   "summary": "Vodafone and three other major European telecommunications operators have signed a Letter of Intent to explore a joint bid for Mobile Satellite Services (MSS) spectrum.",
+   "headline": "Vital Farms Launches Limited Pilot of Free-Range Eggs at Target",
+   "summary": "Vital Farms has initiated a pilot program to sell its free-range eggs at select Target retail locations across the South and Southeast.",
    "source": "fiscal.ai",
-   "url": "https://telcomagazine.com/news/this-weeks-top-five-stories-in-the-telco-industry-24-10-2026",
-   "created_at": "2026-10-24T20:01:40Z",
+   "url": "https://www.businesswire.com/newsroom/industry/natural/agriculture",
+   "created_at": "2026-10-25T01:04:06Z",
    "symbols": [
-    "VOD"
+    "VITL"
    ],
    "image": ""
   },
   {
-   "headline": "Eleco plc Provides Update on Letter of Intent Regarding Proposed Acquisition",
-   "summary": "Eleco plc announced an update regarding the recommended cash acquisition by Avocet Bidco Limited, noting a change in the number of shares subject to letters of intent.",
+   "headline": "Third Point Files 13D Activist Stake in Strata Critical Medical",
+   "summary": "Investment firm Third Point has filed an initial 13D regarding its stake in Strata Critical Medical, signaling a shift to an activist investor stance.",
    "source": "fiscal.ai",
-   "url": "https://www.investegate.co.uk/announcement/rns/elecosoft-public-limited-company--elco/eleco-plc-update-on-letter-of-intent/9839800",
-   "created_at": "2026-10-24T20:01:37Z",
+   "url": "https://www.moomoo.com/hans/news/post/1002233798/13d-filings-barronscom",
+   "created_at": "2026-10-25T01:03:52Z",
    "symbols": [
-    "ELCO"
+    "SRTA"
    ],
    "image": ""
   },
   {
-   "headline": "Frasers Group Acquires Controlling Stake in Hugo Boss",
-   "summary": "Frasers Group has increased its shareholding in Hugo Boss to 50.08%, marking a transition to a controlling interest in the German fashion house.",
+   "headline": "Natural Grocers Recalls Organic Mung Beans",
+   "summary": "Natural Grocers has issued a recall for its private-label Organic 2 Pound Mung Beans due to the potential presence of foreign material.",
    "source": "fiscal.ai",
-   "url": "https://www.milanofinanza.it/fashion/hugo-boss-frasers-group-supera-la-soglia-del-50-e-diventa-azionista-di-controllo-202610241759143047",
-   "created_at": "2026-10-24T20:01:37Z",
+   "url": "https://www.recall411.com/states/TX.html",
+   "created_at": "2026-10-25T01:03:49Z",
    "symbols": [
-    "FRAS"
+    "NGVC"
    ],
    "image": ""
   },
   {
-   "headline": "Avacta Presents FOCUS-01 Phase 1 Trial Design and Preclinical Data for AVA6103 at ESMO Congress",
-   "summary": "Avacta Therapeutics announced the presentation of its FOCUS-01 Phase 1 clinical trial design and new preclinical data for its AVA6103 drug candidate at the European Society for Medical Oncology (ESMO)",
-   "source": "fiscal.ai",
-   "url": "https://www.globenewswire.com/news-release/2026/10/23/3387194/0/en/avacta-highlights-pre-cision-platform-data-and-ongoing-focus-01-trial-design-with-fap-exd-ava6103.html",
-   "created_at": "2026-10-24T20:01:34Z",
-   "symbols": [
-    "AVCT"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Sir Martin Sorrell Discusses AI's Impact on Advertising",
-   "summary": "S4 Capital Executive Chairman Sir Martin Sorrell stated that AI is significantly reducing the time and cost of content creation, necessitating a shift in agency pricing models.",
-   "source": "fiscal.ai",
-   "url": "https://ch.marketscreener.com/boerse-nachrichten/sir-martin-sorrell-ueber-die-auswirkungen-von-ki-auf-die-werbung-ce785cdfd988ff25",
-   "created_at": "2026-10-24T20:01:34Z",
-   "symbols": [
-    "SFOR"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "M.P. Evans Group PLC Announces Share Purchase and Cancellation",
-   "summary": "M.P. Evans Group PLC has purchased 4,000 of its own shares for cancellation on the London Stock Exchange at a volume-weighted average price of 1,871.76 pence per share.",
-   "source": "fiscal.ai",
-   "url": "https://www.investegate.co.uk/announcement/rns/m-p-evans-group--mpe/transaction-in-own-shares/9837567",
-   "created_at": "2026-10-24T20:01:25Z",
-   "symbols": [
-    "MPE"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Rolls-Royce SMR Signs Contract for UK's First Small Modular Reactor Project",
-   "summary": "Rolls-Royce SMR and the UK government's Great British Energy–Nuclear have signed a contract to begin development of small modular reactors at the Wylfa nuclear plant site.",
-   "source": "fiscal.ai",
-   "url": "https://www.ans.org/news/article-7937/rollsroyce-gben-contract-kickstarts-uks-smr-plans-for-wylfa-site/",
-   "created_at": "2026-10-24T20:01:24Z",
-   "symbols": [
-    "RR."
-   ],
-   "image": ""
-  },
-  {
-   "headline": "NatWest Group Announces Transaction in Own Shares",
-   "summary": "NatWest Group plc reported a routine transaction involving the repurchase of its own shares.",
-   "source": "fiscal.ai",
-   "url": "https://www.sharecast.com/rns/index.html",
-   "created_at": "2026-10-24T20:01:21Z",
-   "symbols": [
-    "NWG"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Realty Income Stock Climbs Back as Treasury Yields Retreat, Yet Challenges Persist",
-   "summary": "Realty Income stock has rebounded in the past few days as US Treasury yields retreat, yet key challenges continue.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/10/62578745/realty-income-stock-climbs-back-as-treasury-yields-retreat-yet-challenges-persist",
-   "created_at": "2026-10-24T19:15:07Z",
-   "symbols": [
-    "O"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/24/Phoenix-az-usa--8-27-22--Realty-Income--.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Idorsia Reports Positive Phase 2 Results for Daridorexant in Pediatric Insomnia",
-   "summary": "Idorsia announced positive results from a Phase 2 study of its dual orexin receptor antagonist, daridorexant, in children and adolescents with insomnia disorder.",
-   "source": "fiscal.ai",
-   "url": "https://www.globenewswire.com/news-release/2026/10/23/3387513/0/en/idorsia-presents-outstanding-results-with-daridorexant-in-children-and-adolescents-with-insomnia-and-an-expanding-body-of-evidence-in-adults-at-sleep-europe-2026.html",
-   "created_at": "2026-10-24T19:02:20Z",
-   "symbols": [
-    "IDIA"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Schaeffler Opens Lighthouse Smart Factory in Taicang for Humanoid Robot Actuators",
-   "summary": "Schaeffler has inaugurated a new 'lighthouse' smart factory in Taicang, China, specifically designed for the mass production of actuators for humanoid robots.",
-   "source": "fiscal.ai",
-   "url": "https://af.net/realtime/chinas-humanoid-robotics-push-faces-factory-viability-test-as-regulators-urge-caution/",
-   "created_at": "2026-10-24T19:02:17Z",
-   "symbols": [
-    "SHA0"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Bayer Reports Positive Phase III Results for NUBEQA® in Prostate Cancer Patients",
-   "summary": "Bayer announced that its drug NUBEQA® (darolutamide), when used in combination with androgen deprivation therapy (ADT) and radiation therapy, significantly reduced the risk of metastasis or death in p",
-   "source": "fiscal.ai",
-   "url": "https://markets.ft.com/data/announce",
-   "created_at": "2026-10-24T19:02:16Z",
-   "symbols": [
-    "BAYN"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Norges Bank Opposes MPS Takeover Bid for Banco BPM",
-   "summary": "Norges Bank Investment Management has announced its intention to vote against the takeover bid launched by Banca Monte dei Paschi di Siena (MPS) for Banco BPM.",
-   "source": "fiscal.ai",
-   "url": "https://it.marketscreener.com/notizie/mps-da-norges-no-a-scalate-su-bpm-banca-generali-e-fusione-mediobanca-rco-ce785cdfdf80f324",
-   "created_at": "2026-10-24T19:02:10Z",
-   "symbols": [
-    "BAMI"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "AMTD Digital Announces Unaudited Financial Results for the Six Months Ended April 30, 2026",
-   "summary": "AMTD Digital Inc. reported its unaudited financial results for the first half of 2026, highlighting total assets of US$1.2 billion and a net profit of US$42.4 million.",
+   "headline": "River City Bank Announces Quarterly Cash Dividend",
+   "summary": "River City Bank has approved a quarterly cash dividend on its common stock, scheduled for payment on November 17, 2026.",
    "source": "fiscal.ai",
    "url": "https://www.businesswire.com/newsroom/subject/earnings",
-   "created_at": "2026-10-24T19:02:07Z",
+   "created_at": "2026-10-25T01:03:48Z",
    "symbols": [
-    "HKD"
+    "RCBC"
    ],
    "image": ""
   },
   {
-   "headline": "Lufthansa Cargo Subsidiary GlobeCross Opens New Headquarters",
-   "summary": "GlobeCross, the cross-border logistics subsidiary of Lufthansa Cargo, has consolidated its operations into a new headquarters at Frankfurt Airport.",
+   "headline": "UWM Holdings Announces Preliminary Third Quarter 2026 Results",
+   "summary": "UWM Holdings Corporation has released preliminary operating and financial results for the third quarter ended September 30, 2026, alongside updated financial disclosures.",
    "source": "fiscal.ai",
-   "url": "https://cargonewswire.com/lufthansa-cargos-globecross-opens-new-headquarters-at-frankfurt-airport/",
-   "created_at": "2026-10-24T19:02:05Z",
+   "url": "https://www.businesswire.com/newsroom/industry/construction-property/residential-real-estate",
+   "created_at": "2026-10-25T01:03:48Z",
    "symbols": [
-    "LHA"
+    "UWMC"
    ],
    "image": ""
   },
   {
-   "headline": "Norion Bank Reports Third Quarter 2026 Financial Results",
-   "summary": "Norion Bank AB (publ) released its financial results for the third quarter of 2026.",
+   "headline": "Hawaiian Electric Industries to Announce Third Quarter 2026 Results on November 6",
+   "summary": "Hawaiian Electric Industries, Inc. has scheduled the release of its third quarter 2026 financial results for November 6, 2026, followed by a conference call.",
    "source": "fiscal.ai",
-   "url": "https://ucapital.com/en/news/breaking/17687025",
-   "created_at": "2026-10-24T19:02:01Z",
+   "url": "https://www.businesswire.com/newsroom/industry/energy",
+   "created_at": "2026-10-25T01:03:48Z",
    "symbols": [
-    "NORION"
+    "HE"
    ],
    "image": ""
   },
   {
-   "headline": "Vitec Software Group Resolves to Repurchase Class B Shares",
-   "summary": "The Board of Directors of Vitec Software Group has resolved to initiate a share buyback program for up to 200,000 Class B shares.",
+   "headline": "Northland Securities Initiates Coverage of Unusual Machines with Buy Rating",
+   "summary": "Northland Securities analyst Michael Latimore initiated coverage on Unusual Machines, Inc. (UMAC) with a buy rating and a price target of $30.",
    "source": "fiscal.ai",
-   "url": "https://www.vitecsoftware.com/en/investors-press/press-releases/vitec-software-group-ab-resolves-to-acquire-own-class-b-shares",
-   "created_at": "2026-10-24T19:02:00Z",
+   "url": "https://www.moomoo.com/stock/UMAC-US/news?chain_id=Name1K9-3FXPhg.1ldl8s0&global_content=%7B%22promote_id%22%3A13764,%22sub_promote_id%22%3A59,%22f%22%3A%22www.moomoo.com%2Foptions%2FKNX261120P42500-US%22%7D",
+   "created_at": "2026-10-25T01:03:47Z",
    "symbols": [
-    "VIT.B"
+    "UMAC"
    ],
    "image": ""
   },
   {
-   "headline": "Piper Sandler Maintains Buy Rating and $26 Price Target for Inventiva",
-   "summary": "Piper Sandler analyst Yasmeen Rahimi has reaffirmed a \"Buy\" rating and a $26 price target for Inventiva (IVA.US).",
+   "headline": "Climb Bio Presents Initial PrisMN Phase 2 Data for Budoprutug at ASN Kidney Week 2026",
+   "summary": "Climb Bio reported positive initial Phase 2 data for its budoprutug therapy in patients with primary membranous nephropathy, showing B-cell depletion and immunologic remission.",
    "source": "fiscal.ai",
-   "url": "https://www.moomoo.com/news/post/1002195518/piper-sandler-maintains-inventiva-ivaus-with-buy-rating-maintains-target",
-   "created_at": "2026-10-24T19:02:00Z",
+   "url": "https://www.globenewswire.com/news/heathcare/pharmaceuticals",
+   "created_at": "2026-10-25T01:03:45Z",
    "symbols": [
-    "IVA"
+    "CLYM"
    ],
    "image": ""
   },
   {
-   "headline": "Immatics Presents Clinical Activity of IMA402 and IMA203CD8 at ESMO 2026",
-   "summary": "Immatics reported positive clinical data for its PRAME-targeting therapies, IMA402 and IMA203CD8, during oral presentations at the 2026 ESMO Annual Meeting.",
+   "headline": "Scotiabank Maintains Blue Moon Metals with Buy Rating and Raises Target Price",
+   "summary": "Scotiabank analyst Eric Winmill has maintained a 'Buy' rating on Blue Moon Metals (BMM) while increasing the price target to $10.",
    "source": "fiscal.ai",
-   "url": "https://www.globenewswire.com/news-release/2026/10/24/3387657/0/en/immatics-presents-clinical-activity-of-ima402-prame-bispecific-and-ima203cd8-prame-cell-therapy-across-advanced-solid-tumors-in-two-oral-presentations-at-2026-esmo-annual-meeting.html",
-   "created_at": "2026-10-24T19:02:00Z",
+   "url": "https://www.moomoo.com/news/post/1002187872/scotiabank-maintains-blue-moon-metals-bmmus-with-buy-rating-raises",
+   "created_at": "2026-10-25T01:03:44Z",
    "symbols": [
-    "IMTX"
+    "MOON"
    ],
    "image": ""
   },
   {
-   "headline": "Volvo Cars Reports Q3 2026 Financial Results Including Polestar Loss Recognition",
-   "summary": "Volvo Cars' Q3 2026 financial report includes a SEK 0.9 billion charge related to the recognition of Polestar's losses from the second quarter of 2026.",
+   "headline": "LGI Homes Introduces New Carolina Floor Plan at The Valley Community",
+   "summary": "LGI Homes has launched the Carolina floor plan, a new three-bedroom, 2.5-bathroom home design, at its The Valley community in South Carolina.",
    "source": "fiscal.ai",
-   "url": "https://mobilityground.com/global-news/europe/volvo/volvo-cars-posts-sek-3-7-billion-q3-2026-ebit-as-china-and-us-pressure-deepens/",
-   "created_at": "2026-10-24T19:01:58Z",
+   "url": "https://www.globenewswire.com/fr/NewsRoom/AttachmentNg/a6be8977-59e9-4dcd-a62f-0461b5fe99e5",
+   "created_at": "2026-10-25T01:03:38Z",
    "symbols": [
-    "PSNY"
+    "LGIH"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Ardelyx Presents Real-World Data at ASN Kidney Week 2026 for XPHOZAH",
+   "summary": "Ardelyx announced results from a real-world analysis presented at the American Society of Nephrology (ASN) Kidney Week 2026, demonstrating serum phosphate reductions in dialysis patients treated with ",
+   "source": "fiscal.ai",
+   "url": "https://ir.ardelyx.com/news-releases/news-release-details/ardelyx-presents-real-world-data-asn-kidney-week-2026-showing",
+   "created_at": "2026-10-25T01:03:34Z",
+   "symbols": [
+    "ARDX"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "ATB Cormark Adjusts Price Target for StorageVault Canada Inc.",
+   "summary": "ATB Cormark has revised its price target for StorageVault Canada Inc. to C$5.15 per share, down from the previous target of C$6.00.",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/hans/news/post/1002207083/storagevault-canada-inc-price-target-cut-to-c-5-15",
+   "created_at": "2026-10-25T01:03:26Z",
+   "symbols": [
+    "SVI"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Nektar Therapeutics Announces Inducement Grants for New Employees",
+   "summary": "Nektar Therapeutics granted stock options and restricted stock units to sixteen new employees under its 2025 Inducement Plan.",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/nektar-therapeutics-reports-inducement-grants-under-nasdaq-listing-rule-5635c4-302918440.html",
+   "created_at": "2026-10-25T01:03:20Z",
+   "symbols": [
+    "NKTR"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Baird Maintains Buy Rating on Biohaven, Adjusts Price Target",
+   "summary": "Baird analyst Brian Skorney maintained a buy rating on Biohaven shares while adjusting the price target from $52 to $48.",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoocn.com/options/BHVN-US",
+   "created_at": "2026-10-25T01:03:17Z",
+   "symbols": [
+    "BHVN"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Couche-Tard Proposes Up to $8 Billion Offer for Cumberland Farms",
+   "summary": "Alimentation Couche-Tard has reportedly proposed an acquisition offer for Cumberland Farms valued at up to $8 billion.",
+   "source": "fiscal.ai",
+   "url": "https://www.fidelity.com/news/article/default/202610240820PRIMZONEFULLFEED9852553",
+   "created_at": "2026-10-25T01:02:51Z",
+   "symbols": [
+    "CMBY"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "EquipmentShare Announces Date for Fiscal Third Quarter 2026 Financial Results",
+   "summary": "EquipmentShare.com Inc. has scheduled the release of its fiscal third quarter 2026 financial results for November 9, 2026, followed by a conference call on November 10, 2026.",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/hant/news/post/1002139626/equipmentshare-to-report-third-quarter-2026-financial-results-on-november",
+   "created_at": "2026-10-25T01:02:50Z",
+   "symbols": [
+    "EQPT"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Analysts Update Price Targets and Ratings for Medpace Holdings, Inc.",
+   "summary": "Several financial institutions, including UBS, Barclays, and TD Cowen, have updated their price targets and maintained ratings for Medpace Holdings, Inc. following recent performance assessments.",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/hans/options/MEDP261120C720000-US/news?chain_id=Name1K9-3FXPhg.1ldnoan&global_content=%7B%22promote_id%22%3A13764,%22sub_promote_id%22%3A33,%22f%22%3A%22www.moomoo.com%2Fhans%2Fnews%2Fflash%2F20450098%2Fmicrosoft-introduces-github-copilot-coding-agent-event%22%7D",
+   "created_at": "2026-10-25T01:02:48Z",
+   "symbols": [
+    "MEDP"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Evercore ISI Maintains Outperform Rating and Raises Price Target for Meta Platforms",
+   "summary": "Evercore ISI reaffirmed its positive outlook on Meta Platforms and increased its price target for the company's shares.",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/hans/news/post/1002274856/investors-recent-money-moves-show-a-preference-for-lowering-risks",
+   "created_at": "2026-10-25T01:02:48Z",
+   "symbols": [
+    "EVR"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Air Canada Cargo Expands Winter Freighter Network",
+   "summary": "Air Canada Cargo is adding Amsterdam, Monterrey, and Panama City to its scheduled freighter services from Toronto for the 2026–27 winter season.",
+   "source": "fiscal.ai",
+   "url": "https://cargonewswire.com/air-canada-cargo-expands-winter-freighter-network-with-three-new-destinations/",
+   "created_at": "2026-10-25T01:02:44Z",
+   "symbols": [
+    "AC"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Banking Frontiers and Zeta Global Publish 'Crossing the AI Divide' Research Report",
+   "summary": "Zeta Global and Banking Frontiers released a joint research report examining the current state of artificial intelligence adoption and deployment within the banking and financial services sector.",
+   "source": "fiscal.ai",
+   "url": "https://bankingfrontiers.com/the-next-challenge-is-not-adopting-ai/",
+   "created_at": "2026-10-25T01:02:29Z",
+   "symbols": [
+    "ZETA"
    ],
    "image": ""
   }
