@@ -1,6 +1,21 @@
 {
- "updated": "2026-10-25 21:00",
+ "updated": "2026-10-25 22:00",
  "items": [
+  {
+   "headline": "Earnings Volatility Watch: SanDisk and 11 Other Stocks Are Priced for at Least 10% Swings This Week",
+   "summary": "Monolithic Power, Intel and SanDisk lead 12 stocks above $50 billion priced for outsized earnings swings as the AI trade faces Big Tech results.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/market-summary/26/10/62579677/earnings-volatility-watch-sandisk-intel-monolithic-power-implied-moves",
+   "created_at": "2026-10-25T12:30:19Z",
+   "symbols": [
+    "AMZN",
+    "APH",
+    "CVNA",
+    "FTNT",
+    "GLW"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/25/Sandisk-Company-Logo---EK.jpg?width=1024&height=768"
+  },
   {
    "headline": "Apple, Peter Thiel and the iPhone Duo Set Up a High-Stakes Weekend for Investors: This Week in Appleverse",
    "summary": "Apple headlines focus on Peter Thiel’s criticism, iPhone Duo demand, Nvidia’s valuation and touchscreen MacBook rumors.",
@@ -180,19 +195,68 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/10/24/Financial-Trader-Monitoring-Market-Trend.jpg?width=1024&height=768"
   },
   {
-   "headline": "Benzinga Bulls and Bears: SpaceX, Meta, Netflix",
-   "summary": "Benzinga examined the prospects for many investors’ favorite stocks over the last week — here’s a look at some of our top stories.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/market-summary/26/10/62577636/benzinga-bulls-and-bears-spacex-meta-netflix",
-   "created_at": "2026-10-24T12:00:09Z",
+   "headline": "Nomura Releases Analysis on AI Infrastructure and Semiconductor Cash Flows",
+   "summary": "Nomura published a research report projecting significant growth in global data center capacity and improved cash flow for semiconductor companies through 2028.",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/hans/news/post/1002283891/is-the-market-overreacting-with-panic-nomura-memory-shortages-will",
+   "created_at": "2026-10-25T12:01:54Z",
    "symbols": [
-    "AMD",
-    "BE",
-    "CRWV",
-    "GM",
-    "IREN"
+    "NMR"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/24/Bulls-and-Bears-1.jpg?width=1024&height=768"
+   "image": ""
+  },
+  {
+   "headline": "POSCO Group Expands Employee-Funded Social Contribution Programs",
+   "summary": "POSCO Group is broadening its 1% Sharing Foundation initiatives, which provide advanced robotic prosthetics to injured veterans and support science education for students.",
+   "source": "fiscal.ai",
+   "url": "https://m.koreaherald.com/article/10913959",
+   "created_at": "2026-10-25T12:01:51Z",
+   "symbols": [
+    "PKX"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "TDK Corporation Expands NTC Temperature Sensor Portfolio",
+   "summary": "TDK Corporation has announced the expansion of its NTC temperature sensor lineup with the introduction of the new M704 and M705 series.",
+   "source": "fiscal.ai",
+   "url": "https://www.newswiretoday.com/index.php",
+   "created_at": "2026-10-25T12:01:50Z",
+   "symbols": [
+    "6762"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Mitsubishi Power Completes Retrofit of Darajat Geothermal Power Plant in Indonesia",
+   "summary": "Mitsubishi Heavy Industries' subsidiary, Mitsubishi Power, has completed a retrofit project at the Darajat Geothermal Power Plant in Indonesia, increasing its power output by 8 MW.",
+   "source": "fiscal.ai",
+   "url": "https://aktienkurs-orderbuch.finanznachrichten.de/ttr1.htm",
+   "created_at": "2026-10-25T12:01:40Z",
+   "symbols": [
+    "7011"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Hitachi, Brookfield, Hartree, and Tokyo Gas Launch Collaboration for Green Data Centers",
+   "summary": "Hitachi, Ltd. has entered into a collaboration with Brookfield, Hartree, and Tokyo Gas to develop green data centers featuring on-site power generation to address rising AI-driven energy demand.",
+   "source": "fiscal.ai",
+   "url": "https://aktienkurs-orderbuch.finanznachrichten.de/byw6.htm",
+   "created_at": "2026-10-25T12:01:37Z",
+   "symbols": [
+    "6501"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Novogratz Sees Bitcoin Upside, Pepe Surges and More: This Week in Crypto",
+   "summary": "XRP’s institutional push, Bitcoin’s price outlook, Pepe’s rally and a lawsuit against Trump dominated crypto headlines.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/10/62579641/xrp-bitcoin-pepe-trump-crypto",
+   "created_at": "2026-10-25T12:00:07Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/25/Bitcoin-Btc-Virtual-Cryptocurrency-In-Fr.jpg?width=1024&height=768"
   },
   {
    "headline": "O’Leary, Warren, Warsh, Schiff and Paul Deliver a Weekend Full of Financial Warnings: This Week in Economics",
@@ -295,85 +359,6 @@
     "ALQ"
    ],
    "image": ""
-  },
-  {
-   "headline": "HomeToGo SE Reports Cyberattack at Subsidiary SECRA Bookings GmbH",
-   "summary": "HomeToGo SE announced that its subsidiary, SECRA Bookings GmbH, was the target of a cyberattack resulting in unauthorized data exfiltration.",
-   "source": "fiscal.ai",
-   "url": "https://www.finanzen.ch/nachrichten/aktien/eqs-adhoc-hometogo-se-unauthorized-data-exfiltration-at-subsidiary-secra-bookings-gmbh-1036662168",
-   "created_at": "2026-10-25T08:02:34Z",
-   "symbols": [
-    "HTG"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Analysts Adjust Price Targets for Mensch und Maschine Following Nine-Month Results",
-   "summary": "Following the release of its nine-month financial figures, two analysis firms have lowered their price targets for Mensch und Maschine Software SE, citing headwinds from the company's Autodesk divisio",
-   "source": "fiscal.ai",
-   "url": "https://www.finanznachrichten.de/nachrichten-medien/wallstreetonline.htm",
-   "created_at": "2026-10-25T08:02:30Z",
-   "symbols": [
-    "MUM"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Corem Property Group Reports Higher Q3 Net Profit",
-   "summary": "Corem Property Group reported an increase in net profit for the third quarter of 2026, supported by ongoing property divestments.",
-   "source": "fiscal.ai",
-   "url": "https://www.nordnet.se/aktier/kurser/corem-property-group-b-core-b-xsto",
-   "created_at": "2026-10-25T08:02:28Z",
-   "symbols": [
-    "CORE.B"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Huuuge, Inc. Class Action Settlement Update",
-   "summary": "A class action lawsuit regarding Huuuge's social casino games has reached a settlement involving a $6.5 million common fund for affected users.",
-   "source": "fiscal.ai",
-   "url": "https://settlementinsight.com/documents/wawd/3-18-cv-05276/final-approval-motion-dkt-120.pdf",
-   "created_at": "2026-10-25T08:02:25Z",
-   "symbols": [
-    "HUG"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Bilia AB Reports Q3 2026 Financial Results",
-   "summary": "Bilia AB announced its financial results for the third quarter of 2026, reporting an operating profit of SEK 380 million.",
-   "source": "fiscal.ai",
-   "url": "https://ucapital.com/en/news/breaking/17688335",
-   "created_at": "2026-10-25T08:02:22Z",
-   "symbols": [
-    "BILI.A"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "BioNTech and Bristol Myers Squibb Report Encouraging Phase 2 Data for Pumitamig in Advanced NSCLC",
-   "summary": "BioNTech SE and Bristol Myers Squibb announced initial data from the global Phase 2 ROSETTA Lung-107 study, showing an objective response rate of 36.7% for the bispecific immunomodulator Pumitamig in ",
-   "source": "fiscal.ai",
-   "url": "https://www.globenewswire.com/news-release/2026/10/25/3387717/0/de/biontech-und-bristol-myers-squibb-pr%C3%A4sentieren-ermutigende-daten-aus-globaler-phase-2-studie-mit-pumitamig-bei-fortgeschrittenem-nicht-kleinzelligem-lungenkrebs-nach-progression-de.html",
-   "created_at": "2026-10-25T08:02:17Z",
-   "symbols": [
-    "BNTX"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Trump Says Audi Will Invest $4 Billion in Georgia SUV Plant as Tariffs Reshape Auto Industry",
-   "summary": "Audi plans a $4 billion Georgia SUV plant creating 4,500 jobs as Trump’s tariffs reshape automakers’ U.S. manufacturing strategies.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/10/62579344/audi-4-billion-georgia-plant-trump-tariffs",
-   "created_at": "2026-10-25T07:59:21Z",
-   "symbols": [
-    "HMC",
-    "TM",
-    "VWAGY"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/25/Former-President-Donald-Trump-Jr--Speaks.jpg?width=1024&height=768"
   }
  ]
 }
