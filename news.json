@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26 06:00",
+ "updated": "2026-10-26 07:00",
  "items": [
   {
    "headline": "CoreWeave Stock at Risk of Falling Below $50 as AI Bubble Index Jumps to 74",
@@ -203,13 +203,145 @@
    "image": ""
   },
   {
-   "headline": "Nomination Committee Appointed for Stockholm Nordtech Group's 2027 Annual General Meeting",
-   "summary": "Stockholm Nordtech Group AB has announced the appointment of its nomination committee in preparation for the 2027 Annual General Meeting.",
+   "headline": "ServiceNow Stock Rebounds as SaaSpocalypse Fears Fade: What to Expect from Earnings",
+   "summary": "ServiceNow stock has rebounded and formed a golden cross as SaaSpocalypse fears started to fade ahead of earnings",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/10/62580441/servicenow-stock-rebounds-as-saaspocalypse-fears-fade-what-to-expect-from-earnings",
+   "created_at": "2026-10-25T21:25:06Z",
+   "symbols": [
+    "NOW"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/25/Servicenow-Office-Building-At-Their-Head.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Reddit Stock Drops to Crucial Support as Earnings Loom: Will It Rebound or Fall Further?",
+   "summary": "Reddit stock has dropped to a crucial support level ahead of earnings report. So, will the shares jump or fall further?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/10/62580417/reddit-stock-drops-to-crucial-support-as-earnings-loom-will-it-rebound-or-fall-further",
+   "created_at": "2026-10-25T21:15:07Z",
+   "symbols": [
+    "RDDT"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/25/Reddit-Inc.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Boeing Stock Forms Rare Bearish Flag as Earnings Loom: Will It Drop Further?",
+   "summary": "Boeing stock has formed a rare bearish flag pattern as the company prepares to release its earnings report this week.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/10/62580396/boeing-stock-forms-rare-bearish-flag-as-earnings-loom-will-it-drop-further",
+   "created_at": "2026-10-25T21:05:14Z",
+   "symbols": [
+    "BA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/25/Boeing-airplane.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Form 8.3 Disclosure: The Vanguard Group, Inc. Interest in Spire Healthcare Group plc",
+   "summary": "The Vanguard Group, Inc. filed a Form 8.3 disclosure regarding its interest in Spire Healthcare Group plc on October 24, 2026.",
    "source": "fiscal.ai",
    "url": "https://www.avanza.se/hall-koll/nyheter.html?a=%2Ftelegram%2Favanza%2F39_7d7b8132-fe9a-4087-af8b-fd15a64f1e87",
-   "created_at": "2026-10-25T20:02:56Z",
+   "created_at": "2026-10-25T21:02:25Z",
    "symbols": [
-    "NTECH"
+    "SPI"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Panoro Energy Reports Drilling Rig Incident on Dussafu License",
+   "summary": "Panoro Energy ASA has disclosed a drilling rig incident occurring at its Dussafu license operations.",
+   "source": "fiscal.ai",
+   "url": "https://live.euronext.com/en/markets/oslo/equities/company-news",
+   "created_at": "2026-10-25T21:02:07Z",
+   "symbols": [
+    "PEN"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Advanced Medical Solutions Group plc Regulatory Disclosure Regarding Offer Period",
+   "summary": "Advanced Medical Solutions Group plc has received a dispensation from the Takeover Panel regarding the publication of announcements during its ongoing offer period.",
+   "source": "fiscal.ai",
+   "url": "https://www.londonstockexchange.com/en/news/article/disclosure-table/fa43-a0-54-f7-7b-46a3a7",
+   "created_at": "2026-10-25T21:01:55Z",
+   "symbols": [
+    "AMS"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Capricorn Energy PLC Disclosure Table Update",
+   "summary": "The London Stock Exchange updated its disclosure table on October 25, 2026, regarding the ongoing offer period for Capricorn Energy PLC.",
+   "source": "fiscal.ai",
+   "url": "https://www.londonstockexchange.com/en/news/article/disclosure-table/a2dc-3d-bf-f9-d6-4d72b3",
+   "created_at": "2026-10-25T21:01:55Z",
+   "symbols": [
+    "CNE"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "easyJet Announces Further Capacity Reductions for Winter 2026-2027 Schedule",
+   "summary": "easyJet has confirmed additional cuts to its winter 2026-2027 flight schedule, removing 600,000 to 700,000 seats in response to ongoing market pressures.",
+   "source": "fiscal.ai",
+   "url": "https://www.euro2day.gr/news/economy/article/2375203/o-kryfos-fovos-gia-ton-toyrismo-to-2027.html",
+   "created_at": "2026-10-25T21:01:46Z",
+   "symbols": [
+    "EZJ"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Borr Drilling Confirms Prospector 5 Rig Incident Offshore Gabon",
+   "summary": "Borr Drilling reported that its Prospector 5 jack-up rig experienced a stability incident and sank offshore Gabon during preload activities, with five personnel currently unaccounted for.",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/borr-drilling-limited--prospector-5-rig-incident-302918752.html",
+   "created_at": "2026-10-25T21:01:45Z",
+   "symbols": [
+    "BORR"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Aviva Details AI Integration for Operational Risk Management",
+   "summary": "Aviva's Operational Risk and Innovation Director, David Debnam, discussed the company's use of IBM watsonx and OpenPages to automate risk management and enhance data governance.",
+   "source": "fiscal.ai",
+   "url": "https://technologymagazine.com/news/uk-leads-emea-agentic-ai-adoption-but-80-face-c-suite-risk",
+   "created_at": "2026-10-25T21:01:44Z",
+   "symbols": [
+    "AV."
+   ],
+   "image": ""
+  },
+  {
+   "headline": "National Grid Reports Power Restoration Following Storm Austen",
+   "summary": "National Grid confirmed that power was restored to over 130,000 properties impacted by Storm Austen by the evening of October 24, 2026.",
+   "source": "fiscal.ai",
+   "url": "https://www.manilatimes.net/2026/10/25/world/americas-emea/uk-endures-second-big-storm-of-the-weekend/2453463",
+   "created_at": "2026-10-25T21:01:41Z",
+   "symbols": [
+    "NGG"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "National Gas Transmission Plc Releases Winter Gas Outlook",
+   "summary": "National Gas Transmission Plc projects that Britain will rely more heavily on natural gas imports this winter due to a forecast decline in North Sea gas output.",
+   "source": "fiscal.ai",
+   "url": "https://www.rigzone.com/news/wire/uk_seen_more_reliant_on_gas_imports_this_winter-25-oct-2026-184923-article/",
+   "created_at": "2026-10-25T21:01:41Z",
+   "symbols": [
+    "NGG"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Accenture and SandboxAQ Collaborate on Enterprise Data Encryption",
+   "summary": "Accenture and SandboxAQ have expanded their partnership to help organizations strengthen data encryption and defend against AI-driven cyber threats and quantum-based decryption.",
+   "source": "fiscal.ai",
+   "url": "https://stockanalysis.com/private/sandboxaq/",
+   "created_at": "2026-10-25T21:01:35Z",
+   "symbols": [
+    "ACN"
    ],
    "image": ""
   },
@@ -278,146 +410,6 @@
     "TUI1"
    ],
    "image": ""
-  },
-  {
-   "headline": "Triodos Bank and Fondaction Launch Value Nature Fund at COP17",
-   "summary": "Triodos Bank and Fondaction Asset Management have announced the launch of the Value Nature Fund, a natural capital investment strategy aimed at restoring farms and forests.",
-   "source": "fiscal.ai",
-   "url": "https://www.newswire.ca/news-releases/cop17-welcomes-value-nature-fund-s-approach-to-mobilizing-private-capital-for-nature-891212813.html",
-   "created_at": "2026-10-25T20:01:57Z",
-   "symbols": [
-    "TRIO"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Audi Announces $4 Billion Investment for New SUV Manufacturing Plant in the United States",
-   "summary": "Volkswagen subsidiary Audi plans to build its first manufacturing facility in the United States, located in Georgia, with an investment of approximately $4 billion.",
-   "source": "fiscal.ai",
-   "url": "https://www.finanzen.ch/nachrichten/aktien/auf-trump-wahlkampftour-audi-kuendigt-suv-werk-in-den-usa-an-1036662548",
-   "created_at": "2026-10-25T20:01:54Z",
-   "symbols": [
-    "VOW3"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "BW Energy: Drilling rig incident on the Dussafu licence",
-   "summary": "BW Energy reported a drilling rig incident involving the Prospector 5 rig, which was contracted to support the company's operations offshore Gabon.",
-   "source": "fiscal.ai",
-   "url": "https://live.euronext.com/en/markets/oslo/equities/company-news",
-   "created_at": "2026-10-25T20:01:54Z",
-   "symbols": [
-    "BWE"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Piaggio Research Center Presents OmniCar Robot at Maker Faire Rome",
-   "summary": "The Piaggio Research Center in Pisa unveiled OmniCar, a new wheeled robot designed for agile, omnidirectional movement in industrial and logistics environments.",
-   "source": "fiscal.ai",
-   "url": "https://civl.com/news/story/maker-faire-rome-shows-robots-for-warehouse-inspections-and-mapping-e3725b62",
-   "created_at": "2026-10-25T20:01:53Z",
-   "symbols": [
-    "PIA"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Stoxx Announces Temporary MDAX Index Adjustment",
-   "summary": "Index operator Stoxx, a subsidiary of Deutsche Börse, announced a temporary inclusion of TK Accelis Group AG & Co KGaA in the MDAX index for one day.",
-   "source": "fiscal.ai",
-   "url": "https://www.finanznachrichten.de/nachrichten-2026-10/69928012-indexaenderung-accelis-am-mittwoch-fuer-einen-tag-im-mdax-015.htm",
-   "created_at": "2026-10-25T20:01:52Z",
-   "symbols": [
-    "DB1"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Xior Reports Strong Nine-Month Results and Confirms 2026 Outlook",
-   "summary": "Xior Student Housing NV announced higher profits for the first nine months of 2026, driven by its strongest rental season to date and a 98.5% occupancy rate.",
-   "source": "fiscal.ai",
-   "url": "https://www.deaandeelhouder.be/nieuws/2026/10/23/sterkste-verhuurseizoen-ooit-voor-xior/",
-   "created_at": "2026-10-25T20:01:51Z",
-   "symbols": [
-    "XIOR"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Mercedes-Benz Korea Expands After-Sales Training for Electric Vehicles",
-   "summary": "Mercedes-Benz Korea is enhancing its after-sales service capabilities by expanding its specialized electric vehicle training programs as its technician development initiative reaches its 20th annivers",
-   "source": "fiscal.ai",
-   "url": "https://m.koreaherald.com/article/10913958",
-   "created_at": "2026-10-25T20:01:49Z",
-   "symbols": [
-    "MBG"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "US Insurers Inject $510 Million into Partners Group Credit Fund",
-   "summary": "Partners Group has secured $510 million in new capital from United States-based insurers for a private credit investment vehicle.",
-   "source": "fiscal.ai",
-   "url": "https://financialnewswire.com.au/funds-management/us-insurers-inject-510m-into-partners-group-credit-fund/",
-   "created_at": "2026-10-25T20:01:46Z",
-   "symbols": [
-    "PGHN"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Westfield Rise Partners with Lionsgate for Hunger Games Immersive Experience",
-   "summary": "Westfield Rise, the retail media agency of Unibail-Rodamco-Westfield, is launching an exclusive immersive activation at Westfield London in collaboration with Lionsgate.",
-   "source": "fiscal.ai",
-   "url": "https://retailtechinnovationhub.com/home/2026/10/25/immersive-physical-activations-and-ai-powered-experiences-last-weeks-most-read-retail-technology-articles",
-   "created_at": "2026-10-25T20:01:42Z",
-   "symbols": [
-    "URW"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Hermès Market Valuation Declines Amid Luxury Sector Downturn",
-   "summary": "Hermès has experienced a significant reduction in market capitalization as part of a broader downturn in the European luxury goods sector driven by weakening Chinese consumer demand.",
-   "source": "fiscal.ai",
-   "url": "https://www.euro2day.gr/amp/news/world/article/2375191/kapnos-polyteleias-eginan-250-dis-eyro-sthn-eyropa.html",
-   "created_at": "2026-10-25T20:01:41Z",
-   "symbols": [
-    "RMS"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Verizon, Welltower On Deck Monday As Wireless Growth, Senior Housing Demand Face Test",
-   "summary": "Verizon headlines Monday’s reports, with investors weighing whether improving wireless momentum can overcome a recent pullback in the stock. Welltower, Cadence Design Systems, Nucor, Public Storage an",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/10/62580211/verizon-welltower-on-deck-monday-as-wireless-growth-senior-housing-demand-face-test",
-   "created_at": "2026-10-25T19:31:07Z",
-   "symbols": [
-    "AMKR",
-    "ARE",
-    "ARLP",
-    "BOH",
-    "BRO"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/25/earnings-scheduled-1.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "A SpaceX and Tesla Merger Would Build a Conglomerate Just as Spin-Offs Thrive",
-   "summary": "A Tesla and SpaceX merger would create a top conglomerate as key data suggests that spinoffs are doing better.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/10/62580200/a-spacex-and-tesla-merger-would-build-a-conglomerate-just-as-spin-offs-thrive",
-   "created_at": "2026-10-25T19:30:08Z",
-   "symbols": [
-    "CSD",
-    "SNDK",
-    "SPCX",
-    "TSLA",
-    "WDC"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/25/Tesla-SpaceX.jpg?width=1024&height=768"
   }
  ]
 }
