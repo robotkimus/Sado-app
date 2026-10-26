@@ -1,6 +1,53 @@
 {
- "updated": "2026-10-26 20:01",
+ "updated": "2026-10-26 21:00",
  "items": [
+  {
+   "headline": "Seagate Technology Advances High-Capacity Storage Deployment With Broadcom",
+   "summary": "Seagate Technology is collaborating with Broadcom and Microsoft to advance the deployment of high-capacity storage solutions.",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/seagate-technology-advances-high-capacity-storage-deployment-with-broadcom-microsoft-ce785cdcdb8bf420",
+   "created_at": "2026-10-26T11:31:43Z",
+   "symbols": [
+    "AVGO"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Meta Announces Public Offerings of Depositary Shares and Class A Common Stock",
+   "summary": "Meta Platforms, Inc. launched concurrent underwritten public offerings of 250 million series A depositary shares and $22.5 billion of Class A common stock.",
+   "source": "fiscal.ai",
+   "url": "https://www.morningstar.com/news/pr-newswire/20261026sf80662/meta-announces-launch-of-offering-of-depositary-shares-representing-series-a-mandatory-convertible-preferred-stock-and-offering-of-class-a-common-stock-in-connection-with-forward-sale-agreements",
+   "created_at": "2026-10-26T11:31:41Z",
+   "symbols": [
+    "META"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Amazon Web Services Commits Multi-Billion Dollar Investment to AI Infrastructure",
+   "summary": "Amazon Web Services is investing tens of billions into global data center capacity, custom silicon, and power infrastructure to support its AI platform.",
+   "source": "fiscal.ai",
+   "url": "https://aimagazine.com/news/can-ai-deliver-6tn-bains-anne-hoecker-on-the-4-2tn-gap",
+   "created_at": "2026-10-26T11:31:40Z",
+   "symbols": [
+    "AMZN"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Jamie Dimon Warns AI Agents Could Be ‘Treacherous’ for Banks, but Researcher Says There May Be Another Reason to Worry",
+   "summary": "Dimon warns AI banking agents pose security risks, while researcher Andrew Yoon says they could erode banks’ profits by moving deposits.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62584938/jamie-dimon-warns-ai-agents-treacherous-banks-researcher-another-reason-to-worry",
+   "created_at": "2026-10-26T11:08:37Z",
+   "symbols": [
+    "BAC",
+    "JPM",
+    "META",
+    "MS"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/26/Jamie-Dimon-Speaks-During-Ceremony-For-F.jpg?width=1024&height=768"
+  },
   {
    "headline": "Trump Says Canada Is ‘Willing to Give Us Anything’ as Michigan GOP Rep Raises Alarm Over Auto Tariffs — Predicts Quick End to Trade Fight",
    "summary": "Trump defended tariffs at a Michigan rally, claiming Canada was &#34;ripping off&#34; the US while promising a new trade deal is coming soon.",
@@ -150,337 +197,281 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/10/26/Artificial-Intelligence-Makes-Tasks-Easi.jpg?width=1024&height=768"
   },
   {
-   "headline": "Stock Market: Will S&P 500 Open Up or Down Today?",
-   "summary": "Will S&amp;P 500 open higher? Polymarket odds reach 69% as Wall Street anticipates Big Tech earnings, the FOMC meeting, and cooling oil prices.",
+   "headline": "IBM, Lockheed Martin, Goldman Sachs And An Energy Stock On CNBC’s ‘Final Trades’",
+   "summary": "CNBC’s Final Trades: Devon Energy, Lockheed Martin, Goldman Sachs and IBM, backed by asset sale and strong earnings; shares mixed Friday.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62581682/stock-market-will-sp-500-open-up-or-down-today-65",
-   "created_at": "2026-10-26T05:52:05Z",
+   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/10/62585859/ibm-lockheed-martin-goldman-sachs-and-an-energy-stock-on-cnbcs-final-trades",
+   "created_at": "2026-10-26T11:54:13Z",
    "symbols": [
-    "AMZN",
-    "DIA",
-    "GOOG",
-    "GOOGL",
-    "META"
+    "CRGY",
+    "DVN",
+    "GS",
+    "IBM",
+    "LMT"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/26/Stock-S-And-P-500-Index-Fund-Symbol-Is-O.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/26/Big-Social-Security-COLA-Update-Expected.jpg?width=1024&height=768"
   },
   {
-   "headline": "CoreWeave Stock at Risk of Falling Below $50 as AI Bubble Index Jumps to 74",
-   "summary": "CoreWeave stock extended its steep downward trend, falling to its lowest level since May last year. This sell-off may continue this year",
+   "headline": "Bill Gates Says His ‘Big Concern’ Is the 20-Year Transition to a World Where AI Makes Almost Everything Abundant — ‘Humanity Will Have to Find a Way to Organize and Have Purpose’",
+   "summary": "Bill Gates says AI and robots could bring true abundance but warns of disruption.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/10/62580379/coreweave-stock-at-risk-of-falling-below-50-as-ai-bubble-index-jumps-to-74",
-   "created_at": "2026-10-25T20:47:21Z",
-   "symbols": [
-    "CRWV",
-    "IT",
-    "META",
-    "RUM",
-    "SPCX"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/25/The-Coreweave-Logo-Appears-On-A-Smartpho.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "A $1 Trillion Depreciation Bomb Is Ticking Beneath the AI Market",
-   "summary": "Wall Street’s record profit boom looks less like a productivity miracle and more like an accounting mirage, and the bill comes due by 2030.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/10/62580225/a-1-trillion-depreciation-bomb-is-ticking-beneath-the-ai-market",
-   "created_at": "2026-10-25T19:45:14Z",
-   "symbols": [
-    "AMZN",
-    "GOOGL",
-    "META",
-    "MSFT",
-    "NVDA"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/25/Paris--France---January-16--2026-The-Log.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Magnificent Seven ETF Pulls Back: What to Expect from Microsoft, Google, and Amazon Earnings",
-   "summary": "Top Magnificent Seven stocks have pulled back in the past two weeks as the recent rally lost momentum and as the earnings season starts.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/etfs/sector-etfs/26/10/62580060/magnificent-seven-etf-pulls-back-what-to-expect-from-microsoft-google-and-amazon-earnings",
-   "created_at": "2026-10-25T18:15:29Z",
-   "symbols": [
-    "AMZN",
-    "GOOG",
-    "GOOGL",
-    "MAGS",
-    "META"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/25/Microsoft.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Why Is Petrobras Stock Sinking Monday?",
-   "summary": "Petrobras (PBR) stock plunged nearly 24% premarket as Lula won Brazil’s presidential runoff. Read the market drivers and key levels.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62584434/why-is-petrobras-stock-sinking-monday",
-   "created_at": "2026-10-26T10:48:10Z",
-   "symbols": [
-    "PBR"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/26/Rio-De-Janeiro-Rj-Brazil---05-17-2023-Fa.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Trump Says Americans Have ‘Best Health Care Plans in the World’ Amid Concerns Auto Workers Could Lose Coverage Under El-Sayed's ‘Medicare for All’ Plan",
-   "summary": "Trump discusses Medicare for All, private health plans and auto workers with Larry Kudlow.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/health-care/26/10/62584194/trump-says-americans-have-best-health-care-plans-in-the-world-amid-concerns-auto-workers-could-lose-coverage-under-el-sayeds-medicare-for-all-plan",
-   "created_at": "2026-10-26T10:40:54Z",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62585824/bill-gates-says-his-big-concern-is-the-20-year-transition-to-a-world-where-ai-makes-almost-everything-abundant-humanity-will-have-to-find-a-way-to-organize-and-hav",
+   "created_at": "2026-10-26T11:50:31Z",
    "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/26/Former-President-Donald-J--Trump-Arrives.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/26/New-York--Ny---June-8--2022-Bill-Gates-A.jpg?width=1024&height=768"
   },
   {
-   "headline": "Top Economist Says Trump Admin Hid Behind Elon Musk Over Ukraine Starlink Row, Says Critical Decisions Need to Be Made By Elected Officials, Not Billionaires",
-   "summary": "Paul Krugman condemns Trump and Musk, arguing billionaires shouldn&#39;t control critical national security infrastructure like Starshield.",
+   "headline": "What's Going On With Micron Technology Stock Monday?",
+   "summary": "Micron (MU) stock rises 1% premarket as investors weigh strong AI demand against warnings of an approaching memory chip cycle peak.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/10/62584123/top-economist-says-trump-admin-hid-behind-elon-musk-over-ukraine-starlink-row-says-critical-decisions-need-to-be-made-by-elected-officials-not-billionaires",
-   "created_at": "2026-10-26T10:36:09Z",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62585814/whats-going-on-with-micron-technology-stock-monday-7",
+   "created_at": "2026-10-26T11:49:58Z",
    "symbols": [
-    "SPCX"
+    "MU"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/26/Donald-Trumps-conversation-with-Elon-Mus.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/26/Micron.jpg?width=1024&height=768"
   },
   {
-   "headline": "Top 3 Materials Stocks That Could Blast Off This Quarter",
-   "summary": "Materials stocks USAS, ASPI and CDE are deeply oversold, with RSI near 30 after steep monthly declines, potentially offering undervalued buying",
+   "headline": "How to Earn $500 a Month From Coca-Cola Stock Ahead of Q3 Earnings",
+   "summary": "Coca-Cola is set to report Q3 earnings; analysts expect growth. Its 2.29% dividend yield requires about $262,369 to generate $500 monthly.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/10/62584107/top-3-materials-stocks-that-could-blast-off-this-quarter-2",
-   "created_at": "2026-10-26T10:35:09Z",
+   "url": "https://www.benzinga.com/trading-ideas/dividends/26/10/62585687/how-to-earn-500-a-month-from-coca-cola-stock-ahead-of-q3-earnings-3",
+   "created_at": "2026-10-26T11:46:22Z",
    "symbols": [
-    "ASPI",
-    "CDE",
-    "USAS"
+    "KO"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/26/MP-Materials--Coreweave--Levi-Strauss--U.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/26/Novopolotskbelarus--01-18-2025-Glass-Bot.jpg?width=1024&height=768"
   },
   {
-   "headline": "Bernstein Adjusts Price Target on FedEx to $377 From $397",
-   "summary": "Bernstein has revised its price target for FedEx Corporation, lowering it from $397 to $377.",
-   "source": "fiscal.ai",
-   "url": "https://www.moomoo.com/news/post/1002343397/us-equity-investors-to-monitor-mag-7-earnings-fed-s",
-   "created_at": "2026-10-26T10:32:24Z",
+   "headline": "Wall Street's Most Accurate Analysts Spotlight On 3 Industrials Stocks Delivering High-Dividend Yields",
+   "summary": "Analyst ratings highlight three high-yield industrial stocks: KRT (3.55%), CNXC (4.48%), and BAH (3.01%), amid mixed company news.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/dividends/26/10/62585669/wall-streets-most-accurate-analysts-spotlight-on-3-industrials-stocks-delivering-high-dividend-yields-11",
+   "created_at": "2026-10-26T11:44:06Z",
    "symbols": [
-    "FDX"
+    "BAH",
+    "CNXC",
+    "KRT"
    ],
-   "image": ""
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/26/Dollar-Bills-Stack-With-Illustrative-Sti.jpg?width=1024&height=768"
   },
   {
-   "headline": "Norfolk Southern to Provide Rail Service to New Audi Factory in Georgia",
-   "summary": "Audi has selected a site served by Norfolk Southern near Macon, Georgia, for the construction of its first U.S. manufacturing facility.",
-   "source": "fiscal.ai",
-   "url": "https://www.trains.com/pro/freight/class-i/",
-   "created_at": "2026-10-26T10:32:14Z",
+   "headline": "Nucor Likely To Report Higher Q3 Earnings; These Most Accurate Analysts Revise Forecasts Ahead Of Earnings Call",
+   "summary": "Nucor to report Q3 earnings Monday; analysts forecast $5.83 EPS and $10.79B revenue. Shares closed at $258.11 after announcing a $60M expansion.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62585554/nucor-likely-to-report-higher-q3-earnings-these-most-accurate-analysts-revise-forecasts-ahead-of-earnings-call",
+   "created_at": "2026-10-26T11:35:07Z",
    "symbols": [
-    "NSC"
+    "NUE"
    ],
-   "image": ""
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/26/Stuttgart--Germany---05-20-2022-Person-H.jpg?width=1024&height=768"
   },
   {
-   "headline": "Goldman Sachs Adjusts Price Target on Comfort Systems USA",
-   "summary": "Goldman Sachs has revised its price target for Comfort Systems USA, Inc. to $1,895 from $1,875.",
+   "headline": "Tutor Perini Announces Conference Call to Discuss Third Quarter 2026 Results",
+   "summary": "Tutor Perini Corporation has scheduled a conference call for November 4, 2026, to discuss its financial results for the third quarter of 2026.",
    "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/goldman-sachs-adjusts-price-target-on-comfort-systems-usa-to-1-895-from-1-875-ce785cdcd88ef424",
-   "created_at": "2026-10-26T10:32:09Z",
+   "url": "https://www.businesswire.com/newsroom?industry=1050055",
+   "created_at": "2026-10-26T11:33:42Z",
    "symbols": [
-    "FIX"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Brookfield Asset Management Expands into Gulf Region with New Doha Office",
-   "summary": "Brookfield Asset Management has reportedly opened a new office in Doha, Qatar, as part of its strategy to broaden its presence in the Gulf region.",
-   "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/brookfield-asset-management-reportedly-opens-doha-office-to-broaden-gulf-presence-ce785cdcd88ffe20",
-   "created_at": "2026-10-26T10:32:06Z",
-   "symbols": [
-    "BAM"
+    "TPC"
    ],
    "image": ""
   },
   {
-   "headline": "Barclays Adjusts Price Target on Bloom Energy",
-   "summary": "Barclays has updated its price target for Bloom Energy, increasing it from $308 to $316.",
+   "headline": "Rothschild & Co Redburn Downgrades Advance Auto Parts to Sell",
+   "summary": "Rothschild & Co Redburn has downgraded Advance Auto Parts from Neutral to Sell, setting a price target of $32.",
    "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/barclays-adjusts-price-target-on-bloom-energy-to-316-from-308-ce785cdcd88ef225",
-   "created_at": "2026-10-26T10:32:02Z",
+   "url": "https://www.marketscreener.com/news/rothschild-co-redburn-downgrades-advance-auto-parts-to-sell-from-neutral-32-price-target-ce785cdcd88ff723",
+   "created_at": "2026-10-26T11:33:04Z",
    "symbols": [
-    "BE"
+    "AAP"
    ],
    "image": ""
   },
   {
-   "headline": "Rothschild & Co Redburn Adjusts Price Target on Blackstone to $132 From $130",
-   "summary": "Rothschild & Co Redburn has raised its price target for Blackstone Inc. from $130 to $132.",
+   "headline": "Immunome Presents Additional Clinical Data for Varegacestat in Desmoid Tumors at ESMO 2026",
+   "summary": "Immunome, Inc. presented new clinical data for its investigational gamma secretase inhibitor, varegacestat, at the 2026 European Society for Medical Oncology (ESMO) Congress.",
    "source": "fiscal.ai",
-   "url": "https://www.moomoo.com/hans/news/post/1002336971/rothschild-co-redburn-adjusts-price-target-on-blackstone-to-132",
-   "created_at": "2026-10-26T10:32:00Z",
+   "url": "https://www.businesswire.com/newsroom/industry/health",
+   "created_at": "2026-10-26T11:33:00Z",
    "symbols": [
-    "BX"
+    "IMNM"
    ],
    "image": ""
   },
   {
-   "headline": "Morgan Stanley Upgrades Lockheed Martin to Overweight From Equalweight",
-   "summary": "Morgan Stanley has upgraded Lockheed Martin Corporation to Overweight from Equalweight, setting a new price target of $835.",
+   "headline": "Bank of Hawaii Reports Q3 2026 Financial Results",
+   "summary": "Bank of Hawaii Corporation announced its third-quarter 2026 financial results, reporting revenue and earnings that fell short of analyst consensus estimates.",
    "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/morgan-stanley-upgrades-lockheed-martin-to-overweight-from-equalweight-price-target-is-835-ce785cdcd88ff726",
-   "created_at": "2026-10-26T10:32:00Z",
+   "url": "https://www.barchart.com/story/news/8451271/bank-of-hawaii-nyseboh-misses-q3-2026-sales-expectations",
+   "created_at": "2026-10-26T11:32:48Z",
    "symbols": [
-    "LMT"
+    "BOH"
    ],
    "image": ""
   },
   {
-   "headline": "JPMorgan Adjusts Price Target on Monster Beverage",
-   "summary": "JPMorgan has revised its price target for Monster Beverage Corporation, lowering it from $99 to $49.",
+   "headline": "Baird Adjusts Gentex Price Target to $24.00",
+   "summary": "Analyst firm Baird has lowered its price target for Gentex Corporation from $25.00 to $24.00 while maintaining a Neutral rating.",
    "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/jpmorgan-adjusts-price-target-on-monster-beverage-to-49-from-99-ce785cdcd88ef326",
-   "created_at": "2026-10-26T10:32:00Z",
+   "url": "https://www.moomoo.com/hans/news/post/1002340896",
+   "created_at": "2026-10-26T11:32:38Z",
    "symbols": [
-    "MNST"
+    "GNTX"
    ],
    "image": ""
   },
   {
-   "headline": "JPMorgan Adjusts Price Target on Lockheed Martin to $665 From $620",
-   "summary": "JPMorgan has revised its price target for Lockheed Martin Corporation, increasing it from $620 to $665.",
+   "headline": "Ducommun to Participate in Baird 2026 Global Industrial Conference",
+   "summary": "Ducommun Incorporated announced that its senior leadership will participate in the upcoming Baird 2026 Global Industrial Conference in November.",
    "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/jpmorgan-adjusts-price-target-on-lockheed-martin-to-665-from-620-ce785cdcd88ff321",
-   "created_at": "2026-10-26T10:32:00Z",
+   "url": "https://www.globenewswire.com/news-release/2026/10/26/3387916/0/en/ducommun-to-participate-in-baird-s-global-industrial-conference.html",
+   "created_at": "2026-10-26T11:32:30Z",
    "symbols": [
-    "LMT"
+    "DCO"
    ],
    "image": ""
   },
   {
-   "headline": "BMO Capital Adjusts Price Target on Blackstone to $140 From $130",
-   "summary": "BMO Capital has increased its price target for Blackstone Inc. from $130 to $140.",
+   "headline": "Casey's Expands Availability of All-New Pan Pizza",
+   "summary": "Casey's General Stores has announced the expanded availability of its all-new pan pizza across its retail locations.",
    "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/bmo-capital-adjusts-price-target-on-blackstone-to-140-from-130-ce785cdcd88ff622",
-   "created_at": "2026-10-26T10:32:00Z",
+   "url": "https://www.fidelity.com/news/article/default",
+   "created_at": "2026-10-26T11:32:28Z",
    "symbols": [
-    "BX"
+    "CASY"
    ],
    "image": ""
   },
   {
-   "headline": "Manulife Financial Asia Limited Recognized as Top Sustainability Advocate at ACES Awards 2026",
-   "summary": "Manulife Financial Asia Limited was honored as one of the Top Sustainability Advocates in Asia at the 13th annual Asia Corporate Excellence & Sustainability (ACES) Awards.",
+   "headline": "CoreWeave Shares Decline Following Industry Commentary on 'Neocloud' Debt Risks",
+   "summary": "CoreWeave shares fell following public comments from Elon Musk regarding the debt-sustainability risks facing 'neocloud' companies.",
    "source": "fiscal.ai",
-   "url": "https://www.media-outreach.com/news/malaysia/2026/10/26/496764/beyond-business-visionaries-and-industry-champions-redefine-excellence-at-aces-awards-2026/",
-   "created_at": "2026-10-26T10:31:58Z",
+   "url": "https://www.moomoo.com/news/post/1002340063/spacex-coreweave-ambev-xp-exxon-and-more-stocks-that-explain",
+   "created_at": "2026-10-26T11:32:27Z",
    "symbols": [
-    "MFC"
+    "CRWV"
    ],
    "image": ""
   },
   {
-   "headline": "Keysight Technologies Recognized as a Top Sustainability Advocate in Asia at ACES Awards 2026",
-   "summary": "Keysight Technologies was honored as one of the Top Sustainability Advocates in Asia at the 2026 Asia Corporate Excellence & Sustainability (ACES) Awards.",
+   "headline": "TDCowen Initiates Coverage on Centrus Energy with Hold Rating",
+   "summary": "Analyst Marc Bianchi of TDCowen has initiated coverage on Centrus Energy (LEU) with a 'Hold' rating and a price target of $120.",
    "source": "fiscal.ai",
-   "url": "https://www.media-outreach.com/news/malaysia/2026/10/26/496778/malaysian-leaders-and-enterprises-advance-excellence-beyond-business/",
-   "created_at": "2026-10-26T10:31:58Z",
+   "url": "https://www.moomoo.com/hans/news/post/1002343948/td-cowen-initiates-centrus-energy-leuus-with-hold-rating-announces",
+   "created_at": "2026-10-26T11:32:25Z",
    "symbols": [
-    "KEYS"
+    "LEU"
    ],
    "image": ""
   },
   {
-   "headline": "Macquarie Adjusts Price Target on AppLovin to $460 From $620",
-   "summary": "Macquarie has revised its price target for AppLovin Corporation, lowering it from $620 to $460.",
+   "headline": "Barclays Upgrades LKQ Corporation to Overweight",
+   "summary": "Barclays upgraded LKQ Corporation from Equalweight to Overweight, setting a price target of $25.",
    "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/macquarie-adjusts-price-target-on-applovin-to-460-from-620-ce785cdcd880f425",
-   "created_at": "2026-10-26T10:31:58Z",
+   "url": "https://www.marketscreener.com/news/barclays-upgrades-lkq-to-overweight-from-equalweight-25-price-target-ce785cdcd880f522",
+   "created_at": "2026-10-26T11:32:25Z",
    "symbols": [
-    "APP"
+    "LKQ"
    ],
    "image": ""
   },
   {
-   "headline": "Piper Sandler Adjusts Price Target on Moderna to $230 From $167",
-   "summary": "Piper Sandler has revised its price target for Moderna, Inc. shares, increasing the target to $230 from the previous $167.",
+   "headline": "RBC Adjusts Flagstar Bank Price Target to $12",
+   "summary": "RBC has lowered its price target for Flagstar Bank from $13 to $12 while maintaining a \"Sector Perform\" rating.",
    "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/piper-sandler-adjusts-price-target-on-moderna-to-230-from-167-ce785cdcd880f325",
-   "created_at": "2026-10-26T10:31:58Z",
+   "url": "https://www.marketscreener.com/news/rbc-cuts-price-target-on-flagstar-bank-to-12-from-13-keeps-sector-perform-rating-ce785cdcdb8cfe22",
+   "created_at": "2026-10-26T11:32:21Z",
    "symbols": [
-    "MRNA"
+    "FLG"
    ],
    "image": ""
   },
   {
-   "headline": "Bristol Myers Squibb and SystImmune Announce Positive Phase 3 Results for Izalontamab Brengitecan in NSCLC",
-   "summary": "Bristol Myers Squibb and partner SystImmune reported positive interim results from the Phase 3 PANKU-Lung01 study, showing that the drug candidate izalontamab brengitecan (Iza-Bren) doubled median pro",
+   "headline": "Wells Fargo Upgrades NorthWestern Energy to Overweight",
+   "summary": "Wells Fargo has upgraded NorthWestern Energy Group, Inc. from Equal Weight to Overweight, setting a price target of $90.",
    "source": "fiscal.ai",
-   "url": "https://www.barchart.com/press-releases/8448846/izalontamab-brengitecan-iza-bren-doubles-median-progression-free-survival-in-patients-with-previously-treated-egfr-mutated-non-small-cell-lung-cancer-compared-to-chemotherapy-in-the-phase-3-panku-lung01-study",
-   "created_at": "2026-10-26T10:31:56Z",
+   "url": "https://www.marketscreener.com/news/wells-fargo-upgrades-northwestern-energy-to-overweight-from-equal-weight-90-price-target-ce785cdcd88ff323",
+   "created_at": "2026-10-26T11:32:21Z",
    "symbols": [
-    "BMY"
+    "NWE"
    ],
    "image": ""
   },
   {
-   "headline": "Piper Sandler Adjusts Price Target on Procter & Gamble to $167",
-   "summary": "Piper Sandler has updated its price target for The Procter & Gamble Company, raising it from $145 to $167.",
+   "headline": "Alliance Resource Partners, L.P. Reports Third Quarter 2026 Financial and Operating Results",
+   "summary": "Alliance Resource Partners, L.P. reported Q3 2026 financial results, including earnings of $1.08 per unit and revenue of $603.0 million, while declaring a quarterly cash distribution of $0.60 per unit",
    "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/piper-sandler-adjusts-price-target-on-procter-gamble-to-167-from-145-ce785cdcd88ff62c",
-   "created_at": "2026-10-26T10:31:56Z",
+   "url": "https://www.businesswire.com/newsroom/industry/energy/oil-gas",
+   "created_at": "2026-10-26T11:32:20Z",
    "symbols": [
-    "PG"
+    "ARLP"
    ],
    "image": ""
   },
   {
-   "headline": "Piper Sandler Adjusts Price Target on Bristol Myers Squibb",
-   "summary": "Piper Sandler has revised its price target for Bristol Myers Squibb, lowering it from $82 to $78.",
+   "headline": "RBC Downgrades Equifax to Sector Perform",
+   "summary": "RBC has downgraded Equifax from Outperform to Sector Perform while increasing its price target from $177 to $189.",
    "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/piper-sandler-adjusts-price-target-on-bristol-myers-squibb-to-78-from-82-ce785cdcd880f521",
-   "created_at": "2026-10-26T10:31:56Z",
+   "url": "https://www.marketscreener.com/news/rbc-downgrades-equifax-to-sector-perform-from-outperform-lifts-price-target-to-189-from-177-ce785cdcdb88f226",
+   "created_at": "2026-10-26T11:32:20Z",
    "symbols": [
-    "BMY"
+    "EFX"
    ],
    "image": ""
   },
   {
-   "headline": "Morgan Stanley Downgrades Block to Equalweight",
-   "summary": "Morgan Stanley has downgraded Block, Inc. from Overweight to Equalweight, setting a price target of $80.",
+   "headline": "Autonomous Research Adjusts Price Target on Equifax",
+   "summary": "Autonomous Research has adjusted its price target for Equifax to $185 from $186.",
    "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/morgan-stanley-downgrades-block-to-equalweight-from-overweight-price-target-is-80-ce785cdcd88ff520",
-   "created_at": "2026-10-26T10:31:56Z",
+   "url": "https://www.marketscreener.com/news/autonomous-research-adjusts-price-target-on-equifax-to-185-from-186-ce785cdcdb8bff2c",
+   "created_at": "2026-10-26T11:32:20Z",
    "symbols": [
-    "MS"
+    "EFX"
    ],
    "image": ""
   },
   {
-   "headline": "Macquarie Adjusts Price Target on Newmont to $128 From $134",
-   "summary": "Macquarie has revised its price target for Newmont Corporation, lowering it from $134 to $128.",
+   "headline": "Cognizant Selected as Strategic Partner for European Bank for Reconstruction and Development's Tech Blueprint",
+   "summary": "Cognizant has been chosen by the European Bank for Reconstruction and Development (EBRD) for a five-year framework agreement to support its technology transformation program.",
    "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/macquarie-adjusts-price-target-on-newmont-to-128-from-134-ce785cdcd880f520",
-   "created_at": "2026-10-26T10:31:56Z",
+   "url": "https://www.prnewswire.com/news-releases/cognizant-and-ebrd-partner-to-accelerate-digital-transformation-through-ai-led-outcome-driven-services-302918452.html",
+   "created_at": "2026-10-26T11:32:19Z",
    "symbols": [
-    "NEM"
+    "CTSH"
    ],
    "image": ""
   },
   {
-   "headline": "Citi Acts as Financial Advisor in EQT's Acquisition of Range",
-   "summary": "Citigroup Inc. served as a financial advisor to EQT in connection with its acquisition of Range.",
+   "headline": "Jefferies Adjusts Price Target on International Flavors & Fragrances to $110 From $105",
+   "summary": "Analyst firm Jefferies has increased its price target for International Flavors & Fragrances Inc. (IFF) from $105 to $110.",
    "source": "fiscal.ai",
-   "url": "https://www.morningstar.com/news/pr-newswire/20261026ne80550/eqt-announces-strategic-acquisition-of-range-resources-creating-americas-undisputed-natural-gas-champion",
-   "created_at": "2026-10-26T10:31:55Z",
+   "url": "https://www.marketscreener.com/news/jefferies-adjusts-price-target-on-international-flavors-fragrances-to-110-from-105-ce785cdcd880f123",
+   "created_at": "2026-10-26T11:32:19Z",
    "symbols": [
-    "C"
+    "IFF"
    ],
    "image": ""
   },
   {
-   "headline": "Boeing 777 Freighter Production Stalled by Supplier Dispute",
-   "summary": "Boeing's production of the 777 freighter has been halted due to an ongoing dispute with a supplier.",
+   "headline": "Wells Fargo Adjusts Price Target on Cognizant Technology Solutions",
+   "summary": "Wells Fargo has updated its price target for Cognizant Technology Solutions Corporation, raising it from $67 to $77.",
    "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/boeing-s-777-freighter-production-stalled-by-supplier-dispute-ce785cdcd88efe20",
-   "created_at": "2026-10-26T10:31:51Z",
+   "url": "https://www.marketscreener.com/news/wells-fargo-adjusts-price-target-on-cognizant-technology-solutions-to-77-from-67-ce785cdcd881f522",
+   "created_at": "2026-10-26T11:32:19Z",
    "symbols": [
-    "BA"
+    "CTSH"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Ovintiv Inc. Announces Agreement to Acquire Logan Energy Corp.",
+   "summary": "Ovintiv has entered into a definitive agreement to acquire Logan Energy Corp. in an all-cash transaction valued at approximately $890 million.",
+   "source": "fiscal.ai",
+   "url": "https://www.morningstar.com/news/pr-newswire/20261026ca80512/ovintiv-announces-agreement-to-acquire-montney-oil-producer-logan-energy-corp",
+   "created_at": "2026-10-26T11:32:17Z",
+   "symbols": [
+    "OVV"
    ],
    "image": ""
   }
