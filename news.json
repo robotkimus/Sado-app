@@ -1,6 +1,18 @@
 {
- "updated": "2026-10-28 15:00",
+ "updated": "2026-10-28 16:00",
  "items": [
+  {
+   "headline": "Apple Is Breaking Away From Big Tech in a Way Wall Street Has Rarely Seen: ‘Unprecedented’",
+   "summary": "Kobeissi flags an unprecedented Apple and Nasdaq decoupling, closing the Nvidia valuation gap amid safe-haven flows.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/10/62643849/apple-is-breaking-away-from-big-tech-in-a-way-wall-street-has-rarely-seen-unprecedented",
+   "created_at": "2026-10-28T06:46:31Z",
+   "symbols": [
+    "AAPL",
+    "NVDA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/28/Apple.jpg?width=1024&height=768"
+  },
   {
    "headline": "Stock Market: Will S&P 500 Open Up or Down Today?",
    "summary": "Will the S&amp;P 500 open higher? Polymarket odds hit 55% as Wall Street weighs Big Tech earnings, the Fed rate decision, and the AI build-out.",
@@ -179,15 +191,62 @@
    "image": ""
   },
   {
-   "headline": "Amazon Business Launches Value Intelligence and Enhanced AI Assistant",
-   "summary": "Amazon Business introduced \"Value Intelligence\" and new AI-powered capabilities for its Business Assistant to help procurement teams measure buying strategy impact and automate repetitive tasks.",
-   "source": "fiscal.ai",
-   "url": "https://procurementmag.com/news/amazon-business-assistant-gets-ai-upgrade-for-procurement",
-   "created_at": "2026-10-27T19:01:33Z",
+   "headline": "Nasdaq Gains Over 200 Points As Chip Stocks Rise: Investor Sentiment Improves, Fear & Greed Index Moves to ‘Fear’ Zone",
+   "summary": "U.S. stocks rose Monday as AI shares gained, but CNN’s Fear &amp; Greed Index remained in the Fear zone at 27. Investors await major earnings.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/market-summary/26/10/62609312/nasdaq-gains-over-200-points-as-chip-stocks-rise-investor-sentiment-improves-fear-greed-index-moves-to-fear-zone",
+   "created_at": "2026-10-27T06:19:54Z",
    "symbols": [
-    "AMZN"
+    "BA",
+    "KO",
+    "VZ"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/28/Market-sentiment---Fear-and-Greed.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "'The Best Prediction Markets Experience': Vlad Tenev Wants Robinhood Users to Have 'Choices' Too",
+   "summary": "Vlad Tenev, CEO of Robinhood Markets Inc., said on Tuesday, October 27, that the company aims to make prediction markets work well without limiting the options available to customers.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62643670/robinhood-third-quarter-earnings-prediction-market-vlad-tenev",
+   "created_at": "2026-10-28T06:16:27Z",
+   "symbols": [
+    "BTCUSD",
+    "HOOD",
+    "ZECUSD"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/28/Robinhood-Logo-Displayed-On-A-Smartphone.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Why Did Ultralife (ULBI) Stock Shoot Up 145% in After-Hours Trading?",
+   "summary": "Ultralife shares surge 144.65% after hours as EnerSys agrees to acquire the battery maker for $320 million in cash.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/10/62643537/ultralife-shares-surge-enersys-320-million-acquisition",
+   "created_at": "2026-10-28T06:04:20Z",
+   "symbols": [
+    "ENS",
+    "ULBI"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/28/A-Dynamic-Blue-Arrow-Superimposed-On-A-S.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Hepsiburada to Announce Third Quarter 2026 Financial Results on November 5, 2026",
+   "summary": "D-MARKET Electronic Services & Trading (Hepsiburada) has scheduled the release of its unaudited financial results for the third quarter ending September 30, 2026, for November 5, 2026.",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/hepsiburada-to-announce-third-quarter-2026-results-on-november-5-2026-ce785cddde81f520",
+   "created_at": "2026-10-28T06:02:04Z",
+   "symbols": [
+    "HEPS"
    ],
    "image": ""
+  },
+  {
+   "headline": "Ted Lieu Says GOP’s 'Deep Red' State Campaign Blitz Signals Midterm Trouble for Republicans Despite Potential Polling Error",
+   "summary": "Lieu says Trump and Republicans’ heavy campaigning in deep-red states signals concern over competitive midterms as Democrats target Congress.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/10/62643506/ted-lieu-systematic-polling-error-democrats-midterms-trump-red-states",
+   "created_at": "2026-10-28T06:00:33Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/28/Washington--Dc---March-13--2024-U-s--Rep.jpg?width=1024&height=768"
   },
   {
    "headline": "Socket Mobile (SCKT) Shares Tumble 30% in After-Hours Trading",
@@ -417,65 +476,6 @@
     "GM"
    ],
    "image": ""
-  },
-  {
-   "headline": "Waste Management Reports Q3 2026 Financial Results",
-   "summary": "Waste Management, Inc. reported third-quarter 2026 revenue of $6.85 billion, exceeding analyst expectations, while adjusted earnings per share of $2.15 slightly missed consensus estimates.",
-   "source": "fiscal.ai",
-   "url": "https://www.barchart.com/story/news/8486861/waste-managements-nysewm-q3-2026-beats-on-revenue",
-   "created_at": "2026-10-28T02:01:47Z",
-   "symbols": [
-    "WM"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Duke Energy Updates Emergency Planning Zones for Brunswick Nuclear Plant",
-   "summary": "Duke Energy is reclassifying and expanding the emergency planning zones for its Brunswick Nuclear Plant, effective November 2026.",
-   "source": "fiscal.ai",
-   "url": "https://www.einnews.com/pr_news/952555626/new-emergency-planning-zones-for-brunswick-nuclear-plant-go-into-effect-this-november",
-   "created_at": "2026-10-28T02:01:46Z",
-   "symbols": [
-    "DUK"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Amanda Demanda Injury Lawyers Partners with Uber for Halloween Ride Program",
-   "summary": "Amanda Demanda Injury Lawyers is offering 1,000 free Uber ride vouchers in Miami-Dade to promote safe driving during Halloween.",
-   "source": "fiscal.ai",
-   "url": "https://natlawreview.com/press-releases/amanda-demanda-injury-lawyers-offers-1000-free-rides-miami-dade-fight-drunk",
-   "created_at": "2026-10-28T02:01:42Z",
-   "symbols": [
-    "UBER"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Bitcoin, Ethereum, XRP, Dogecoin Rise Ahead of Fed Rate Decision: Analyst Says BTC Headed for 'New Highs' If It Flips This Level",
-   "summary": "Leading cryptocurrencies rose alongside stocks on Tuesday, October 27, buoyed by investor focus on the Kevin Warsh-led Federal Reserve&#39;s interest-rate decision and weaker oil prices.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/10/62642612/bitcoin-ethereum-xrp-dogecoin-crypto-market-recap-2",
-   "created_at": "2026-10-28T01:53:56Z",
-   "symbols": [
-    "BMNR",
-    "BTCUSD",
-    "DOGEUSD",
-    "ETHUSD",
-    "MSTR"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/28/Cryptocurrency-Bitcoin-Coin-Over-Tablet-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Trump Is 'Officially Banning' the Term Artificial Intelligence: 'A Very Bad and Inaccurate Name'",
-   "summary": "Trump plans to replace “AI” with “super intelligence,” but Rep. Ted Lieu says renaming it won’t fix oversight risks.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/10/62642598/trump-bans-artificial-intelligence-term-ai-renaming",
-   "created_at": "2026-10-28T01:46:10Z",
-   "symbols": [
-    "SPCX"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/28/Washington-Dc-Usa---June-24--2025---Pres.jpg?width=1024&height=768"
   }
  ]
 }
