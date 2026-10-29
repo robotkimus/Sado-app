@@ -2,13 +2,13 @@
   "AAPL": "hold",
   "NVDA": "hold",
   "TSLA": "buy",
-  "MSFT": "hold",
+  "MSFT": "sell",
   "AMZN": "sell",
-  "GOOGL": "sell",
-  "META": "sell",
-  "005930.KS": "hold",
-  "000660.KS": "hold",
+  "GOOGL": "hold",
+  "META": "hold",
+  "005930.KS": "sell",
+  "000660.KS": "buy",
   "373220.KS": "sell",
   "207940.KS": "buy",
-  "005380.KS": "hold"
+  "005380.KS": "sell"
 }
