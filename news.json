@@ -1,6 +1,36 @@
 {
- "updated": "2026-10-29 14:00",
+ "updated": "2026-10-29 15:16",
  "items": [
+  {
+   "headline": "Stock Market: Will S&P 500 Open Up or Down Today?",
+   "summary": "Will S&amp;P 500 open higher? Polymarket odds dip to 47% as Wall Street weighs a tech selloff, Amazon earnings, PCE inflation, and cooling oil.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62682843/stock-market-will-sp-500-open-up-or-down-today-68",
+   "created_at": "2026-10-29T06:04:17Z",
+   "symbols": [
+    "AMZN",
+    "CAT",
+    "DIA",
+    "GEV",
+    "INTC"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/29/Stock-S-And-P-500-Index-Fund-Symbol-Is-O.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Dow Gains For Third Session Following Fed Decision: Investor Sentiment Improves, Greed Index Remains In ‘Fear’ Zone",
+   "summary": "U.S. stocks rose after the Fed held rates steady, but CNN&#39;s Fear &amp; Greed Index improved to 36, remaining in the Fear zone.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/market-summary/26/10/62682622/dow-gains-for-third-session-following-fed-decision-investor-sentiment-improves-greed-index-remains-in-fear-zone",
+   "created_at": "2026-10-29T05:33:20Z",
+   "symbols": [
+    "AMZN",
+    "CAT",
+    "EAT",
+    "LLY",
+    "SKHY"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/29/Market-sentiment---Fear-and-Greed.jpg?width=1024&height=768"
+  },
   {
    "headline": "Gene Munster 'More Concerned' About Amazon and Alphabet — Says AI Bots Mean Shopping Edge 'Will Increasingly Be Under Attack'",
    "summary": "Investor Gene Munster warned AI bots could threaten Amazon’s hold on online shopping and Alphabet’s grip on search.",
@@ -161,26 +191,84 @@
    "image": ""
   },
   {
-   "headline": "Meta Launches 'Muse' Personal AI Agent in Singapore",
-   "summary": "Meta has introduced its personal AI agent, Muse, in the Singapore market, integrating it with several local service providers.",
-   "source": "fiscal.ai",
-   "url": "https://www.moomoo.com/stock/META-US/news?chain_id=Name1K9-3FXPhg.1ldvqc0&global_content=%7B%22promote_id%22%3A13764,%22sub_promote_id%22%3A64,%22f%22%3A%22www.moomoo.com%2Fcommunity%2Fprofile%2Fwhalehead-151181600%2Fpost%2Fall%22%7D",
-   "created_at": "2026-10-28T20:31:44Z",
+   "headline": "‘Elon Musk or Whoever:’ Jim Himes Says Paper Ballots Could Expose Election Vote Manipulation in 49 States",
+   "summary": "Himes says paper ballots can expose vote tampering, while officials report no proven election hacks and warn about disinformation.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/10/62682942/elon-musk-or-whoever-jim-himes-says-paper-ballots-could-expose-election-vote-manipulation-in-49-states",
+   "created_at": "2026-10-29T06:10:52Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/29/Elon-Musk-Technology-Entrepreneur-And-In.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Nexera Technologies (NEXR) Stock Drops 29%: What's Happening?",
+   "summary": "Nexera Technologies shares fell after hours following a reverse split announcement and planned AI asset sale.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/10/62682857/nexera-technologies-nexr-stock-drops-29-whats-happening",
+   "created_at": "2026-10-29T06:07:14Z",
    "symbols": [
-    "META"
+    "NEXR"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/29/Selloff-Could-Hit-Main-Street-Hard.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Ford CEO Jim Farley Says $28K Fathom EV ‘Completely Blew Me Away:’ ‘Like Something I’ve Never Experienced’",
+   "summary": "Ford CEO Jim Farley praises the sub-$30,000 Fathom EV pickup’s performance, hands-free driving and home-power capabilities.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/earnings/26/10/62682644/ford-ceo-jim-farley-says-28k-fathom-ev-completely-blew-me-away-like-something-ive-never-experienced",
+   "created_at": "2026-10-29T05:34:44Z",
+   "symbols": [
+    "F"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/29/Jim-Farley-Says-5-Years-At-Ford-Were-Ful.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Thomas Massie Calls Out Trump for Iran War 'Legal Fiction' as President Says Conflict Ends 'Whenever I Want'",
+   "summary": "Rep. Thomas Massie criticized Trump’s Iran war remarks, arguing the Constitution requires Congress to authorize military action.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/10/62682632/thomas-massie-trump-iran-war-legal-fiction",
+   "created_at": "2026-10-29T05:33:31Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/29/Washington--Dc---September-3--2025-U-s--.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Scott Bessent Sanctions Pyongyang's Overseas IT Workers as Trump Unsure About Another Meeting Kim Jong Un Again",
+   "summary": "The U.S. sanctioned 10 individuals and one entity over alleged North Korean IT fraud funding weapons programs.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/10/62682594/north-korea-fraud-sanctions-bessent-trump-kim",
+   "created_at": "2026-10-29T05:21:32Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/29/January-16--2025---Washington-Dc-The-Sen.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "GBank Financial (GBFH) Shares Tumble 30% in After-Hours Trading: Here's Why",
+   "summary": "GBank Financial shares fell after hours as quarterly earnings declined amid lower interchange income.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/10/62682579/gbank-financial-gbfh-shares-tumble-30-in-after-hours-trading-heres-why",
+   "created_at": "2026-10-29T05:18:54Z",
+   "symbols": [
+    "GBFH"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/29/Businessman-Examining-A-Declining-Stock-.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Brera Holdings PLC Completes Legal Name Change to Solmate Infrastructure Public Limited Company",
+   "summary": "Brera Holdings PLC has officially changed its legal name to Solmate Infrastructure Public Limited Company, following the issuance of a Certificate of Incorporation on Change of Name by the Irish Regis",
+   "source": "fiscal.ai",
+   "url": "https://natlawreview.com/press-releases/solmate-infrastructure-slmt-completes-legal-name-change",
+   "created_at": "2026-10-29T05:02:07Z",
+   "symbols": [
+    "SLMT"
    ],
    "image": ""
   },
   {
-   "headline": "NVIDIA Expands RTX Spark Laptop Ecosystem",
-   "summary": "NVIDIA has introduced new AI models, creator tools, and game support for its RTX Spark laptop platform.",
-   "source": "fiscal.ai",
-   "url": "https://www.cgmagonline.com/news/nvidia-rtx-spark-laptops-expand-tools/",
-   "created_at": "2026-10-28T20:31:32Z",
-   "symbols": [
-    "NVDA"
-   ],
-   "image": ""
+   "headline": "JD Vance Reaches Out to Iran’s Top Security Official to Restart Peace Talks as Trump Weighs Renewed Military Strikes After Midterms: Report",
+   "summary": "JD Vance contacted Iran&#39;s security chief to revive nuclear talks, while Trump keeps potential post-midterm strikes on the table.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/10/62682521/jd-vance-reaches-out-to-irans-top-security-official-to-restart-peace-talks-as-trump-weighs-renewed-military-strikes-after-midterms-report",
+   "created_at": "2026-10-29T05:00:46Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/29/Washington-january-30-2025-Vice-Presiden.jpg?width=1024&height=768"
   },
   {
    "headline": "Porch Group (PRCH) Stock Soars 22% After Hours: What's Going On?",
@@ -369,94 +457,6 @@
    "created_at": "2026-10-29T02:02:36Z",
    "symbols": [
     "APH"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "BNY Insider Executes $7.39 Million Stock Sale",
-   "summary": "An insider at The Bank of New York Mellon Corporation sold shares valued at approximately $7.39 million, according to a recent SEC filing.",
-   "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/bank-of-new-york-mellon-insider-sold-shares-worth-7-390-652-according-to-a-recent-sec-filing-ce785cd3d881f720",
-   "created_at": "2026-10-29T02:02:31Z",
-   "symbols": [
-    "BNY"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Analysts Adjust Price Targets for HCA Healthcare",
-   "summary": "Multiple financial institutions, including Jefferies, BofA, and KeyBanc, updated their price targets for HCA Healthcare on October 28, 2026.",
-   "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/jefferies-adjusts-price-target-on-hca-healthcare-to-525-from-500-ce785cd2da80ff20",
-   "created_at": "2026-10-29T02:02:22Z",
-   "symbols": [
-    "HCA"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Honeywell Aerospace Reports Third Quarter 2026 Results and Declares Inaugural Dividend",
-   "summary": "Honeywell Aerospace announced its third quarter 2026 financial results, reporting $4.6 billion in sales and declaring its first quarterly cash dividend of $0.40 per share.",
-   "source": "fiscal.ai",
-   "url": "https://www.morningstar.com/news/pr-newswire/20261028la82903/c-o-r-r-e-c-t-i-o-n-honeywell-aerospace-inc",
-   "created_at": "2026-10-29T02:02:18Z",
-   "symbols": [
-    "HONA"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Asiamet Resources Announces Senior Management and Board Changes",
-   "summary": "Asiamet Resources Limited has appointed Mudit Goenka as its new Chief Executive Officer, succeeding Darryn McClelland, as part of a strategic shift following the divestment of the KSK copper project.",
-   "source": "fiscal.ai",
-   "url": "https://www.investegate.co.uk/announcement/rns/asiamet-resources-limited-di---ars/senior-management-and-board-changes/9844616",
-   "created_at": "2026-10-29T02:02:18Z",
-   "symbols": [
-    "ARS"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Autodesk Announces New Construction Platform Capabilities and IDC MarketScape Recognition",
-   "summary": "Autodesk unveiled new AI-powered construction features at Autodesk University 2026 and was named a leader in the IDC MarketScape: Worldwide Construction Management Software 2026 Vendor Assessment.",
-   "source": "fiscal.ai",
-   "url": "https://www.prnewswire.com/news-releases/autodesk-named-a-leader-in-the-idc-marketscape-worldwide-construction-management-software-2026-vendor-assessment-302921517.html",
-   "created_at": "2026-10-29T02:02:15Z",
-   "symbols": [
-    "ADSK"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "JP Morgan Raises Nucor Price Target",
-   "summary": "JP Morgan increased its price target for Nucor Corporation to $304 per share from $296.",
-   "source": "fiscal.ai",
-   "url": "https://www.moomoo.com/hans/news/post/1002696513/nucor-price-target-raised-to-304-00-share-from-296",
-   "created_at": "2026-10-29T02:02:15Z",
-   "symbols": [
-    "NUE"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "FTC Launches Inquiry into Pricing and Compensation Methodology",
-   "summary": "The Federal Trade Commission has issued orders to Delta Air Lines and eight other companies to provide information regarding their use of personal data in setting prices and compensation.",
-   "source": "fiscal.ai",
-   "url": "https://www.pymnts.com/legal/2026/ftc-orders-9-companies-to-explain-pricing-and-compensation-methodologies/",
-   "created_at": "2026-10-29T02:02:14Z",
-   "symbols": [
-    "DAL"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Charles Schwab Expands AI Capabilities and Invests in Nevis",
-   "summary": "Charles Schwab announced an expansion of its artificial intelligence tools for financial advisors and a strategic investment in Nevis, an AI startup focused on wealth management.",
-   "source": "fiscal.ai",
-   "url": "https://www.moomoo.com/news/post/1002660386/charles-schwab-invests-in-ai-start-up-nevis-as-advisor",
-   "created_at": "2026-10-29T02:02:12Z",
-   "symbols": [
-    "SCHW"
    ],
    "image": ""
   }
