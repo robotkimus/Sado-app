@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01 02:00",
+ "updated": "2026-11-01 03:00",
  "items": [
   {
    "headline": "Exclusive: Investors Are Watching AI Revenue Growth Against CapEx as Companies Face Pressure to Prove Returns, Wall Street Veteran Says: ‘The Bar Rises With the Size of the Spend'",
@@ -196,9 +196,35 @@
    "summary": "Three days before the U.S. midterm elections, prediction markets are bullish on a Democratic sweep.",
    "source": "benzinga",
    "url": "https://www.benzinga.com/news/politics/26/10/62763796/kalshi-and-polymarket-see-democratic-house-and-senate-where-12-key-senate-races-stand",
-   "created_at": "2026-10-31T16:00:08Z",
+   "created_at": "2026-10-31T16:00:00Z",
    "symbols": [],
    "image": "https://cdn.benzinga.com/files/images/story/2026/10/31/Screenshot-2026-10-31-082808.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Coinbase, Robinhood and Other Crypto Exchange Stocks Tumble as Binance Hack Exposes Vulnerabilities",
+   "summary": "Top crypto exchange stocks like Coinbase, Robinhood, and Gemini have continued falling as the Binance hack exposes vulnerabilities.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/10/62763899/coinbase-robinhood-and-other-crypto-exchange-stocks-tumble-as-binance-hack-exposes-vulnerabilities",
+   "created_at": "2026-10-31T17:45:06Z",
+   "symbols": [
+    "BLSH",
+    "BTCUSD",
+    "COIN",
+    "ETHUSD",
+    "GEMI"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/31/The-Coinbase-Trade.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Competition Commission of India Approves Sale of Vodafone Stake by e&",
+   "summary": "The Competition Commission of India has approved the acquisition of a 16.2% stake in Vodafone Group PLC by Vega SAS from Emirates Telecommunications Group Company PJSC.",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/moodys:c2f09d13603e5:0-cci-clears-niel-s-5-5-bn-vodafone-stake-acquisition-3-other-deals/",
+   "created_at": "2026-10-31T17:01:35Z",
+   "symbols": [
+    "EAND"
+   ],
+   "image": ""
   },
   {
    "headline": "SEBI Imposes ₹1 Crore Penalty on CDSL for Regulatory Lapses",
@@ -447,28 +473,6 @@
    "created_at": "2026-10-31T13:05:41Z",
    "symbols": [
     "ERKA"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Femasys Inc. Appoints John Moorhead to Board of Directors",
-   "summary": "Femasys Inc. has appointed John Moorhead to its Board of Directors as a board designee following the company's August 2026 private placement.",
-   "source": "fiscal.ai",
-   "url": "https://www.globenewswire.com/news-release/2026/10/30/3392240/0/en/femasys-appoints-john-moorhead-to-board-of-directors.html",
-   "created_at": "2026-10-31T13:05:41Z",
-   "symbols": [
-    "FEMY"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Copper One Resources Corp. Completes First Drill Hole of Phase 2 Program at Majuba Hill",
-   "summary": "Copper One Resources Corp. has finished the first hole of its 10,000-foot Phase 2 diamond drilling program at the Majuba Hill project in Nevada, reaching a depth of 1,460 feet.",
-   "source": "fiscal.ai",
-   "url": "https://www.thenewswire.com/press-releases/1AJ6F1VXP-copper-one-completes-first-hole-of-10-000-foot-phase-2-drill-program-intersecting-visually-identified-native-copper-in-mhb-39-at-flagship-majuba-hill-project-nevada.html",
-   "created_at": "2026-10-31T13:05:40Z",
-   "symbols": [
-    "CEXY"
    ],
    "image": ""
   }
