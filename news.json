@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-31 15:00",
+ "updated": "2026-10-31 16:00",
  "items": [
+  {
+   "headline": "Elizabeth Warren Slams Trump's Voluntary AI Safety Deal With Tech CEOs, Says Republicans Aren't Doing Enough to Regulate AI: ‘Not Lifting A Finger...’",
+   "summary": "Warren slammed Trump for trusting AI companies to regulate themselves, warning that voluntary safety commitments are no substitute.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62763251/elizabeth-warren-trump-ai-self-regulation",
+   "created_at": "2026-10-31T06:11:51Z",
+   "symbols": [
+    "AMZN",
+    "AVGO",
+    "META",
+    "NVDA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/31/Reno--Nvu-s-a----February-16--2020-Eliza.jpg?width=1024&height=768"
+  },
   {
    "headline": "Meta's $145 Billion AI Spending Plan Raises Credit Concerns as S&P Global Turns Outlook Negative: ‘Less Certain That It Will Curtail Its Spending’",
    "summary": "S&amp;P Global cuts Meta’s credit outlook to negative as rising AI spending and cash flow pressures raise concerns over leverage.",
@@ -163,13 +177,24 @@
    "image": ""
   },
   {
-   "headline": "Meta Loses Legal Challenge Against UK Ofcom Information Requests",
-   "summary": "Meta, along with TikTok and X, has lost a legal challenge against the UK's Office of Communications (Ofcom) regarding information requests under the Online Safety Act.",
+   "headline": "Ariana Resources PLC Releases Quarterly Activities Report for Q3 2026",
+   "summary": "Ariana Resources reported its operational and financial progress for the quarter ended September 30, 2026, highlighting advancements at the Dokwe Gold Project and updates on its Turkish interests.",
    "source": "fiscal.ai",
-   "url": "https://www.tradingview.com/news/seekingalpha:f6ef062c1094b:0-meta-tiktok-and-x-lose-legal-challenge-to-uk-s-ofcom-information-request-reuters/",
-   "created_at": "2026-10-30T19:01:49Z",
+   "url": "https://www.tradingview.com/news/reuters.com,2026-10-30:newsml_RSd0418Ba:0-reg-ariana-resources-plc-quarterly-activities-report-ended-30-sept-2026/",
+   "created_at": "2026-10-31T06:01:34Z",
    "symbols": [
-    "META"
+    "AAU"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Marti Partners with CalmCar to Expand Autonomous Mobility Ecosystem in Türkiye",
+   "summary": "Marti Technologies, Inc. has announced a partnership with China-based autonomous driving solutions provider CalmCar to integrate autonomous technology into its mobility platform.",
+   "source": "fiscal.ai",
+   "url": "https://www.businesswire.com/newsroom/industry/automotive",
+   "created_at": "2026-10-31T06:01:29Z",
+   "symbols": [
+    "MRT"
    ],
    "image": ""
   },
@@ -423,28 +448,6 @@
    "created_at": "2026-10-31T02:01:54Z",
    "symbols": [
     "UNH"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Dell Technologies Shares Decline Following Intel PC Demand Warning",
-   "summary": "Dell Technologies stock experienced a significant decline after Intel warned of a prolonged slump in personal computer demand and projected steep declines in global shipments.",
-   "source": "fiscal.ai",
-   "url": "https://www.finanzen.ch/nachrichten/aktien/dell-technologies-stock-falls-12percent-as-intel-warns-of-memory-shortages-and-pc-demand-1036693765",
-   "created_at": "2026-10-31T02:01:53Z",
-   "symbols": [
-    "DELL"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Citibank Announces $2.5 Billion Debt Redemption",
-   "summary": "Citibank, N.A. has announced the full redemption of $2 billion in 5.488% fixed-rate notes and $500 million in floating-rate notes, both due in 2026.",
-   "source": "fiscal.ai",
-   "url": "https://www.businesswire.com/newsroom/subject/funding",
-   "created_at": "2026-10-31T02:01:49Z",
-   "symbols": [
-    "C"
    ],
    "image": ""
   }
