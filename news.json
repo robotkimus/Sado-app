@@ -1,483 +1,459 @@
 {
- "updated": "2026-10-30 22:00",
+ "updated": "2026-10-31 09:00",
  "items": [
   {
-   "headline": "Stock Market Today: Dow Jones, S&P 500, Nasdaq 100 Futures Trade Mixed as AMZN, INTC Slide After Q3 Earnings—DELL, LLY, AZN in Focus (UPDATED)",
-   "summary": "U.S. stock were mixed on Friday, as the Dow Jones, S&amp;P 500, and Nasdaq 100 index futures moved in different direction.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/10/62729872/stock-market-today-dow-jones-sp-500-futures-trade-mixed-as-amzn-intc-slide-after-q3-earnings-dell-lly-azn-in-focus",
-   "created_at": "2026-10-30T12:43:13Z",
-   "symbols": [
-    "AMZN",
-    "AZN",
-    "BTCUSD",
-    "DELL",
-    "DIA"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/30/Close-Up-Of-Wall-Street-Sign-With-Iconic.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Amazon’s Earnings Miss Almost Exactly Equals Its New Debt Bill",
-   "summary": "AI borrowing costs helped drive Amazon&#39;s 7-cent EPS miss, as more than doubled debt clouds the 2027 outlook.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/10/62735906/amazon-earnings-miss-almost-exactly-equals-its-new-debt-bill",
-   "created_at": "2026-10-30T12:35:36Z",
+   "headline": "Amazon Pharmacy Reports Significant Growth in Customers and Delivery Reach",
+   "summary": "Amazon disclosed that its pharmacy business saw a 60% year-over-year increase in customers, with three-hour prescription delivery now available in over 350 cities.",
+   "source": "fiscal.ai",
+   "url": "https://www.pymnts.com/news/artificial-intelligence/2026/amazon-fills-prescription-chatgpt-cannot/",
+   "created_at": "2026-10-30T21:31:38Z",
    "symbols": [
     "AMZN"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/30/Los-Angeles-California---February-14-202.jpg?width=1024&height=768"
+   "image": ""
   },
   {
-   "headline": "Alphabet's $482B Wipeout Sparks AI Spending Fears: Is QQQ's Big Tech Exposure Becoming a Risk?",
-   "summary": "Alphabet&#39;s $482B crash raises concerns over AI spending and Big Tech ETF concentration. Is QQQ vulnerable?",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/etfs/sector-etfs/26/10/62735418/alphabets-482b-wipeout-sparks-ai-spending-fears-is-qqqs-big-tech-exposure-becoming-a-risk",
-   "created_at": "2026-10-30T12:30:27Z",
+   "headline": "William Blair Downgrades Broadcom to Market Perform",
+   "summary": "William Blair downgraded Broadcom from Outperform to Market Perform, citing valuation concerns as the stock trades at over 40 times earnings.",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/invezz:faa101be1094b:0-why-intel-amd-and-broadcom-are-falling-on-friday/",
+   "created_at": "2026-10-30T21:31:31Z",
    "symbols": [
+    "AVGO"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Microsoft Plans $25 Billion Investment-Grade Bond Sale",
+   "summary": "Microsoft is reportedly planning to raise approximately $25 billion through its first U.S. investment-grade bond sale in over nine years.",
+   "source": "fiscal.ai",
+   "url": "https://www.manilatimes.net/2026/10/31/business/foreign-business/microsoft-looking-to-raise-25b-for-ai-push/2458225",
+   "created_at": "2026-10-30T21:31:27Z",
+   "symbols": [
+    "MSFT"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Anthropic Could Join Public Markets With a Junk Rating Despite $112B Cash Pile, Blackstone Warns",
+   "summary": "Blackstone is warning investors that Anthropic may struggle to secure an investment-grade credit rating following its IPO.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/private-markets/26/10/62760671/anthropic-could-join-public-markets-with-a-junk-rating-despite-112b-cash-pile-blackstone-warns",
+   "created_at": "2026-10-30T21:09:48Z",
+   "symbols": [
+    "AVGO"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/30/Anthropic-Logo-Is-Displayed-On-A-Smartph.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Alphabet Posts Worst Week Since 2011, Intel Suffers Record Crash as Warsh Sees 'Cracks': This Week on Wall Street",
+   "summary": "Alphabet logs its worst week since 2011 and Intel its worst day ever as the AI trade cracks, while health care posts a record month against the market.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/market-summary/26/10/62760190/alphabet-worst-week-since-2011-intel-record-crash-warsh-cracks-this-week-on-wall-street",
+   "created_at": "2026-10-30T20:55:28Z",
+   "symbols": [
+    "AAPL",
+    "ALB",
+    "AMD",
     "AMZN",
-    "GOOGL",
-    "META",
-    "MSFT",
-    "NVDA"
+    "ARM"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/10/30/Alphabet-Company-Logo-On-Screen.jpg?width=1024&height=768"
   },
   {
-   "headline": "Andy Jassy Says West Is 'Very Hungry' For More Western Open Source AI Models as Amazon Adds China's Kimi and GLM to Bedrock",
-   "summary": "Amazon&#39;s Andy Jassy says Western demand for open AI models is surging as Bedrock expands and targets EC2-scale ambitions.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/10/62735230/andy-jassy-says-west-is-very-hungry-for-more-western-open-source-ai-models-as-amazon-adds-chinas-kimi-and-glm-to-bedrock",
-   "created_at": "2026-10-30T12:22:57Z",
-   "symbols": [
-    "AMZN",
-    "GOOG",
-    "GOOGL",
-    "NVDA",
-    "SPCX"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/30/Amazon-Logo-Displayed-On-A-Smartphone-Sc.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Incyte To Rally More Than 23%? Here Are 10 Top Analyst Forecasts For Friday",
-   "summary": "Analysts raised targets for Cheniere and Incyte, while cutting Stryker, Roblox, Intel and Honeywell; Bright Horizons was downgraded.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62734910/incyte-to-rally-more-than-23-here-are-10-top-analyst-forecasts-for-friday",
-   "created_at": "2026-10-30T12:10:07Z",
-   "symbols": [
-    "AMZN",
-    "AVTR",
-    "BFAM",
-    "BIIB",
-    "GILD"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/30/Konskie--Poland---December-08--2024-Incy.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Pinterest Posts Downbeat Q3 Results, Joins Intel, Roblox, Twilio And Other Big Stocks Moving Lower In Friday’s Pre-Market Session",
-   "summary": "U.S. futures fell as Pinterest missed Q3 estimates and cut guidance; Intel, ATEC, Reddit, Roblox and others slid sharply premarket.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62734634/pinterest-posts-downbeat-q3-results-joins-intel-roblox-twilio-and-other-big-stocks-moving-lower-in-fridays-pre-market-session",
-   "created_at": "2026-10-30T12:04:08Z",
-   "symbols": [
-    "AAOI",
-    "ALHC",
-    "AMZN",
-    "ARM",
-    "ATEC"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/30/Pinterest-Acquisition-Signals.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "UK Competition Watchdog Probes Meta's Commercial Terms for Businesses",
-   "summary": "The UK's competition authority has initiated an investigation into the commercial terms Meta Platforms, Inc. imposes on businesses using its platforms.",
+   "headline": "Meta Reaches Settlement in Social Media Addiction Trial",
+   "summary": "Meta has settled with plaintiffs in a social media addiction case that was scheduled for trial in Los Angeles.",
    "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/meta-platforms-facing-uk-probe-into-its-commercial-terms-ce785fdbda81f022",
-   "created_at": "2026-10-30T11:32:04Z",
+   "url": "https://www.marketscreener.com/news/meta-settles-with-plaintiffs-set-for-social-media-addiction-trial-in-los-angeles-next-week-ce785fdbd18af12c",
+   "created_at": "2026-10-30T20:32:07Z",
    "symbols": [
     "META"
    ],
    "image": ""
   },
   {
-   "headline": "NVIDIA in Talks to Provide Credit Support for Nscale Data Center Project",
-   "summary": "NVIDIA is reportedly in discussions to provide credit guarantees for an Nscale data center project intended for Anthropic's use.",
+   "headline": "Amazon Discloses Prime Video Profitability and Revenue Scale",
+   "summary": "CEO Andy Jassy announced that Prime Video has become a profitable business generating annualized revenue in the tens of billions of dollars.",
    "source": "fiscal.ai",
-   "url": "https://www.tradingview.com/news/stocktwits:2a4499fc4094b:0-nvda-stock-drops-nvidia-may-back-data-center-loan-its-own-customer-analyst-sees-little-impact-from-intel-s-weak-report/",
-   "created_at": "2026-10-30T11:31:41Z",
+   "url": "https://www.tradingview.com/news/gurufocus:917e0e8bc094b:0-amazon-says-prime-video-is-now-a-tens-of-billions-business/",
+   "created_at": "2026-10-30T20:31:43Z",
+   "symbols": [
+    "AMZN"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "NVIDIA Customer AM Intelligence Seeks $3 Billion Financing for Processor Order",
+   "summary": "Indian AI infrastructure firm AM Intelligence is reportedly seeking up to $3 billion in capital to fund a previously announced order of NVIDIA's next-generation processors.",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/news/post/1002985226/market-chatter-nvidia-chip-buyer-am-intelligence-plans-up-to",
+   "created_at": "2026-10-30T20:31:30Z",
    "symbols": [
     "NVDA"
    ],
    "image": ""
   },
   {
-   "headline": "Trump Administration Moves to Block Chinese Telecom Firms From Accessing US Phone Numbers Amid Robocall Threats: Report",
-   "summary": "Trump administration moves to block Chinese telecom firms from accessing U.S. phone numbers, citing national security and robocall risks.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/10/62733244/trump-administration-moves-to-block-chinese-telecom-firms-from-accessing-us-phone-numbers-amid-robocall-threats-report",
-   "created_at": "2026-10-30T11:22:59Z",
-   "symbols": [
-    "COHR",
-    "GOOG",
-    "GOOGL",
-    "LITE",
-    "META"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/30/Matraman--Indonesia---February-1--2025-T.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Why Is Amazon Stock Falling Friday?",
-   "summary": "Amazon stock dropped over 7% despite 39% AWS growth as Q3 earnings missed targets and $220B in AI spending rattled investors.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/10/62732386/why-is-amazon-stock-falling-friday",
-   "created_at": "2026-10-30T11:00:43Z",
-   "symbols": [
-    "AMZN",
-    "CART",
-    "DASH",
-    "NVDA"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/30/Cdg-Airport--Paris---122218-Aws-Amazon-C.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Nvidia Shares Drop Amid Chip Selloff: What's Happening?",
-   "summary": "Nvidia is down about 2.8% in premarket Friday, sliding with a chip selloff led by Intel’s 25.9% plunge following its earnings and outlook.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62731938/nvidia-shares-drop-amid-chip-selloff-whats-happening",
-   "created_at": "2026-10-30T10:48:28Z",
-   "symbols": [
-    "AMD",
-    "AVGO",
-    "INTC",
-    "NVDA"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/30/Jakarta--September-07-2024-Nvidia-Corpor.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "UK Healthcare Regulator Approves Vertex Pharmaceuticals' Casgevy for Children Aged Five and Older",
-   "summary": "The UK's Medicines and Healthcare products Regulatory Agency (MHRA) has expanded the authorization for Vertex Pharmaceuticals' gene-editing therapy, Casgevy, to include children aged five and older.",
+   "headline": "Microsoft and The Estée Lauder Companies Announce Strategic AI Partnership",
+   "summary": "The Estée Lauder Companies has entered a strategic partnership with Microsoft to integrate cloud and AI-powered workflows across its enterprise.",
    "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/uk-healthcare-regulator-oks-vertex-pharmaceuticals-casgevy-gene-therapy-for-children-from-age-five-ce785fdbdb8df52c",
-   "created_at": "2026-10-30T10:32:01Z",
+   "url": "https://www.barchart.com/press-releases/8554184/the-estee-lauder-companies-and-microsoft-announce-a-new-strategic-partnership-to-power-enterprise-efficiency-and-consumer-centric-growth",
+   "created_at": "2026-10-30T19:02:12Z",
    "symbols": [
-    "VRTX"
+    "MSFT"
    ],
    "image": ""
   },
   {
-   "headline": "BlackRock, Inc. Discloses Major Shareholding in Tryg A/S",
-   "summary": "BlackRock, Inc. has notified Danish insurance company Tryg A/S that it has crossed the 5% threshold in share capital and voting rights.",
+   "headline": "BlackRock, Inc. Increases Stake in London Stock Exchange Group PLC",
+   "summary": "BlackRock, Inc. has increased its total voting rights and financial instruments in London Stock Exchange Group PLC to 7.62%.",
    "source": "fiscal.ai",
-   "url": "https://www.manilatimes.net/2026/10/30/tmt-newswire/globenewswire/major-shareholder-announcement/2458081/amp",
-   "created_at": "2026-10-30T10:31:52Z",
+   "url": "https://www.investegate.co.uk/announcement/rns/london-stock-exchange-group--lseg/holding-s-in-company/9850476",
+   "created_at": "2026-10-30T19:01:55Z",
    "symbols": [
     "BLK"
    ],
    "image": ""
   },
   {
-   "headline": "Billionaire Investor Dan Loeb’s Third Point Held $783 Million In Alphabet And Amazon In Q2 — How His Two Biggest Tech Bets Fared After Earnings",
-   "summary": "Dan Loeb’s Third Point held $783 million in Alphabet and Amazon as both stocks tumbled following quarterly earnings reports.",
+   "headline": "Meta Loses Legal Challenge Against UK Ofcom Information Requests",
+   "summary": "Meta, along with TikTok and X, has lost a legal challenge against the UK's Office of Communications (Ofcom) regarding information requests under the Online Safety Act.",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/seekingalpha:f6ef062c1094b:0-meta-tiktok-and-x-lose-legal-challenge-to-uk-s-ofcom-information-request-reuters/",
+   "created_at": "2026-10-30T19:01:49Z",
+   "symbols": [
+    "META"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Meta Launches AI Fashion App 'Style Sketch' in Southeast Asia",
+   "summary": "Meta has introduced a new standalone AI-powered fashion application called Style Sketch in Indonesia, Singapore, and Thailand.",
+   "source": "fiscal.ai",
+   "url": "https://www.techdogs.com/tech-news/td-newsdesk/meta-launches-style-sketch-ai-app-to-turn-instagram-photos-into-virtual-wardrobes",
+   "created_at": "2026-10-30T18:01:41Z",
+   "symbols": [
+    "META"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Why Is IREN Stock Falling on Friday?",
+   "summary": "IREN stock falls Friday following earnings reports from Amazon and Intel and cloud spending updates from Microsoft and Alphabet.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/10/62731295/dan-loeb-third-point-alphabet-amazon-stock-holdings-q3-earnings",
-   "created_at": "2026-10-30T10:26:13Z",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62752783/why-is-iren-stock-falling-on-friday-2",
+   "created_at": "2026-10-30T17:52:33Z",
+   "symbols": [
+    "AMZN",
+    "BTCUSD",
+    "GOOG",
+    "GOOGL",
+    "INTC"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/30/IREN.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Why Is Nebius Stock Falling on Friday?",
+   "summary": "Nebius Group NV (NASDAQ: NBIS) stock falls Friday as earnings reports from Amazon and Intel raises questions about cloud and AI infrastructure spending.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62752155/why-is-nebius-stock-falling-on-friday-3",
+   "created_at": "2026-10-30T17:37:32Z",
    "symbols": [
     "AMZN",
     "GOOG",
-    "GOOGL"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/30/Mountain-View--Ca--Usa---January-24--202.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Larry Page Said He Would Explore Galaxies at the Head of a Von Neumann Probe—Elon Musk Says He ‘Might Be Right’",
-   "summary": "Elon Musk revived hopes for Von Neumann probes exploring the galaxy by 2100, reaffirming goals of making humanity an interplanetary species.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/space/26/10/62730617/larry-page-said-he-would-explore-galaxies-at-the-head-of-a-von-neumann-probe-elon-musk-says-he-might-be-right",
-   "created_at": "2026-10-30T10:13:28Z",
-   "symbols": [
-    "GOOG",
-    "GOOGL",
+    "INTC",
     "MSFT",
-    "SPCX",
-    "TSLA"
+    "NBIS"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/30/Larry-Page-And-Sergey-Brin-Are-Together-.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/30/Nebius-Group.jpg?width=1024&height=768"
   },
   {
-   "headline": "Silvercrest Asset Mgmt Gr Q3 2026 Earnings Call Transcript",
-   "summary": "Silvercrest Asset Mgmt Gr (NASDAQ:SAMG) reported third-quarter financial results on Friday. The transcript from the company’s third-quarter earnings call has been provided below.Benzinga APIs provide ",
+   "headline": "10 Information Technology Stocks With Whale Alerts In Today’s Session",
+   "summary": "This whale alert can help traders discover the next big trading opportunities.\nWhales are entities with large sums of money and we track their transactions here at Benzinga on our options activity sca",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/10/62736698/silvercrest-asset-mgmt-gr-q3-2026-earnings-call-transcript",
-   "created_at": "2026-10-30T12:55:59Z",
+   "url": "https://www.benzinga.com/markets/options/26/10/62752030/10-information-technology-stocks-whale-alerts-today-s-session",
+   "created_at": "2026-10-30T17:35:10Z",
    "symbols": [
-    "SAMG"
+    "AMD",
+    "CIFR",
+    "CRWV",
+    "INTC",
+    "IONQ"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/30/Stock-Market-Trading-Chart-And-Analyzing.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/aggregated_options_2.jpg?width=1024&height=768"
   },
   {
-   "headline": "Gilead CEO Takes Aim at Medicare Pricing: 'Pill Penalty' Threatens Drug Innovation",
-   "summary": "Gilead stock rose after Q3 earnings beat Wall Street estimates and strong HIV drug demand prompted an increased 2026 sales forecast.",
+   "headline": "Here's How Much $1000 Invested In W.W. Grainger 5 Years Ago Would Be Worth Today",
+   "summary": "W.W. Grainger (NYSE:GWW) has outperformed the market over the past 5 years by 13.27% on an annualized basis producing an average annual return of 23.61%. Currently, W.W. Grainger has a market capitali",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/earnings/26/10/62736600/gilead-ceo-takes-aim-at-medicare-pricing-pill-penalty-threatens-drug-innovation",
-   "created_at": "2026-10-30T12:53:00Z",
+   "url": "https://www.benzinga.com/news/26/10/62762260/here-s-how-much-1000-invested-w-w-grainger-5-years-ago-would-be-worth-today",
+   "created_at": "2026-10-30T23:45:30Z",
+   "symbols": [
+    "GWW"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/valuestock_4.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Here's How Much $1000 Invested In VanEck Semiconductor ETF 15 Years Ago Would Be Worth Today",
+   "summary": "VanEck Semiconductor ETF (NASDAQ:SMH) has outperformed the market over the past 15 years by 13.51% on an annualized basis producing an average annual return of 26.18%. Currently, VanEck Semiconductor ",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62762182/here-s-how-much-1000-invested-vaneck-semiconductor-etf-15-years-ago-would-be-worth-today",
+   "created_at": "2026-10-30T23:31:55Z",
+   "symbols": [
+    "SMH"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/valuestock_2.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "$100 Invested In TechnipFMC 5 Years Ago Would Be Worth This Much Today",
+   "summary": "TechnipFMC (NYSE:FTI) has outperformed the market over the past 5 years by 45.13% on an annualized basis producing an average annual return of 55.48%. Currently, TechnipFMC has a market capitalization",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62762071/100-invested-technipfmc-5-years-ago-would-be-worth-much-today",
+   "created_at": "2026-10-30T23:15:45Z",
+   "symbols": [
+    "FTI"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/valuestock_4.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "CrowdStrike Highlights Partner Ecosystem at Fal.Con Europe 2026",
+   "summary": "CrowdStrike announced that its global partner ecosystem is supporting its sold-out Fal.Con Europe 2026 conference with 70 partner sponsors.",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/stock/CRWD-US/news?chain_id=Name1K9-3FXPhg.1le2eo0&global_content=%7B%22promote_id%22%3A13764,%22sub_promote_id%22%3A64,%22f%22%3A%22www.moomoo.com%2Fcommunity%2Fprofile%2F%E9%9F%AD%E8%8F%9C%E9%80%86%E8%A2%AD-tenbagger-104227343%2Fpost%2Fall%22%7D",
+   "created_at": "2026-10-30T23:02:05Z",
+   "symbols": [
+    "CRWD"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "McDonald's Plans New 'Mix-and-Match' Value Meal",
+   "summary": "McDonald's Corporation is reportedly planning to introduce a new 'mix-and-match' value meal at select U.S. locations, priced between $3.50 and $4.00.",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/stock/MCD-US/news?chain_id=Name1K9-3FXPhg.1le5340&global_content=%7B%22promote_id%22%3A%2211927%22,%22sub_promote_id%22%3A%2282%22,%22f%22%3A%22www.moomoo.com%2Fau%2Flearn%2Fdetail-how-to-invest-in-etfs-australia-117295-240774100%22%7D",
+   "created_at": "2026-10-30T23:01:59Z",
+   "symbols": [
+    "MCD"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Susquehanna Maintains Neutral Rating on Fortinet and Lowers Price Target",
+   "summary": "Susquehanna maintained its Neutral rating on Fortinet while reducing its price target from $160 to $145.",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/tradingview:ba2c63e6f6d45:0-susquehanna-maintains-fortinet-at-neutral-lowers-price-target-to-145-from-160/",
+   "created_at": "2026-10-30T23:01:52Z",
+   "symbols": [
+    "FTNT"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Wells Fargo Maintains Underweight Rating on Fortinet and Lowers Price Target",
+   "summary": "Wells Fargo maintained its Underweight rating on Fortinet and reduced its price target from $160 to $115.",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/tradingview:28c862705d608:0-wells-fargo-maintains-fortinet-at-underweight-lowers-price-target-to-115-from-160/",
+   "created_at": "2026-10-30T23:01:52Z",
+   "symbols": [
+    "FTNT"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Starbucks Reports Fiscal Fourth-Quarter 2026 Results and Announces Share Buyback Plan",
+   "summary": "Starbucks reported fiscal fourth-quarter 2026 non-GAAP EPS of $0.80, exceeding analyst expectations, and announced a $1 billion share repurchase program.",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/gurufocus:c9638c9ec094b:0-starbucks-stock-rises-as-u-s-comparable-sales-climb-7-7/",
+   "created_at": "2026-10-30T23:01:49Z",
+   "symbols": [
+    "SBUX"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "AstroRad Radiation Protection Vest Developed with Lockheed Martin to be Displayed at Smithsonian",
+   "summary": "An AstroRad radiation protection vest, developed by StemRad in collaboration with Lockheed Martin, will be exhibited at the Smithsonian's National Air and Space Museum.",
+   "source": "fiscal.ai",
+   "url": "https://www.morningstar.com/news/pr-newswire/20261030ph84688/astrorad-vest-worn-by-astronauts-aboard-international-space-station-to-go-on-display-at-smithsonian-national-air-and-space-museum",
+   "created_at": "2026-10-30T23:01:42Z",
+   "symbols": [
+    "LMT"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Here's How Much $100 Invested In Everpure 10 Years Ago Would Be Worth Today",
+   "summary": "Everpure (NYSE:P) has outperformed the market over the past 10 years by 13.15% on an annualized basis producing an average annual return of 26.87%. Currently, Everpure has a market capitalization of $",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62761994/here-s-how-much-100-invested-everpure-10-years-ago-would-be-worth-today",
+   "created_at": "2026-10-30T23:01:41Z",
+   "symbols": [
+    "P"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/valuestock_3.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Gilead Sciences Announces Participation in Upcoming Investor Conferences",
+   "summary": "Gilead Sciences executives are scheduled to present at several investor conferences throughout November and December 2026.",
+   "source": "fiscal.ai",
+   "url": "https://www.businesswire.com/newsroom/industry/health/pharmaceutical",
+   "created_at": "2026-10-30T23:01:37Z",
    "symbols": [
     "GILD"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/30/Close-Up-Of-Gilead-Sciences-Logo-And-Sig.jpg?width=1024&height=768"
+   "image": ""
   },
   {
-   "headline": "Newell Brands Q3 2026 Earnings Call Transcript",
-   "summary": "Newell Brands (NASDAQ:NWL) reported third-quarter financial results on Friday. The transcript from the company’s third-quarter earnings call has been provided below.This transcript is brought to you b",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/10/62736601/newell-brands-q3-2026-earnings-call-transcript",
-   "created_at": "2026-10-30T12:53:07Z",
-   "symbols": [
-    "NWL"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/30/Stock-Market-Trading-Chart-And-Analyzing.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Bitcoin Holds $77,000 Despite Binance Scare: ‘ A Sign Of Resilience’",
-   "summary": "Bitcoin falls 3% after a record Binance hack, yet remains 24% above its August start as analysts flag resilience.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/10/62736578/bitcoin-holds-77000-despite-binance-scare-a-sign-of-resilience",
-   "created_at": "2026-10-30T12:52:14Z",
-   "symbols": [
-    "BTCUSD",
-    "CRCL",
-    "USDTUSD"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/30/Bitcoin.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "These Analysts Boost Their Forecasts On Mastercard After Upbeat Q3 Results",
-   "summary": "Mastercard beats Q3 estimates with $5.31 EPS and $9.81B revenue; reaffirms 2026 outlook as analysts raise price targets.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62736554/these-analysts-boost-their-forecasts-on-mastercard-after-upbeat-q3-results",
-   "created_at": "2026-10-30T12:51:34Z",
-   "symbols": [
-    "MA"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/30/Visa-And-Mastercard.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Reddit Analysts Slash Their Forecasts Following Q3 Earnings",
-   "summary": "Reddit beat Q3 revenue and EPS estimates, but weak Q4 guidance sent shares down 21.6%; analysts cut price targets and downgraded the stock.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62736372/reddit-analysts-slash-their-forecasts-following-q3-earnings",
-   "created_at": "2026-10-30T12:46:22Z",
-   "symbols": [
-    "RDDT"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/30/The-Reddit-Trade.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Bancorp Q3 2026 Earnings Call Transcript",
-   "summary": "Bancorp (NASDAQ:TBBK) reported third-quarter financial results on Friday. The transcript from the company’s third-quarter earnings call has been provided below.This transcript is brought to you by Ben",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/10/62736250/bancorp-q3-2026-earnings-call-transcript",
-   "created_at": "2026-10-30T12:43:59Z",
-   "symbols": [
-    "TBBK"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/30/Stock-market-chart-with-green-candlestic.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Top 3 Financial Stocks That May Collapse In October",
-   "summary": "Three financial stocks—S&amp;P Global, Aflac and Prosperity Bancshares—show overbought RSI readings above 70 after strong gains, warning momentum investors.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/short-ideas/26/10/62736102/top-3-financial-stocks-that-may-collapse-in-october",
-   "created_at": "2026-10-30T12:40:06Z",
-   "symbols": [
-    "AFL",
-    "PB",
-    "SPGI"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/30/Financial-chart.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "These Analysts Cut Their Forecasts On Allegro Microsystems After Q2 Results",
-   "summary": "Allegro beats Q2 estimates, guides Q3 EPS at $0.25-$0.29 and sales at $278M-$288M; analysts cut price targets despite strong demand.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62736080/these-analysts-cut-their-forecasts-on-allegro-microsystems-after-q2-results",
-   "created_at": "2026-10-30T12:39:29Z",
-   "symbols": [
-    "ALGM"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/30/Analysts.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Robinhood Stock Falls as Record $6.3 Billion Binance Hack Rattles Crypto",
-   "summary": "Robinhood is falling as crypto prices slide after Binance disclosed a record hack. Crypto remains a key revenue source for the company.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62735964/robinhood-stock-falls-as-record-6-3-billion-binance-hack-rattles-crypto",
-   "created_at": "2026-10-30T12:36:41Z",
-   "symbols": [
-    "HOOD"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/30/Robinhood-Mobile-App-On-Screen-Smartphon.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Veralto Q3 2026 Earnings Call Transcript",
-   "summary": "Veralto (NYSE:VLTO) reported third-quarter financial results on Friday. The transcript from the company’s third-quarter earnings call has been provided below.This transcript is brought to you by Benzi",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/10/62735937/veralto-q3-2026-earnings-call-transcript",
-   "created_at": "2026-10-30T12:36:08Z",
-   "symbols": [
-    "VLTO"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/30/Stock-market-chart-with-green-candlestic.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Binance's $6.3 Billion Hack Could Be Coinbase's Chance to Win Over Crypto Investors",
-   "summary": "Binance&#39;s $6.3 billion hack puts crypto investor trust to the test. Could Coinbase gain customers and market share?",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/26/10/62735847/binance-hack-coinbase-stock",
-   "created_at": "2026-10-30T12:34:49Z",
-   "symbols": [
-    "COIN"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/30/Dangerous-Hacker--Internet--Cryptocurren.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Petrobras Wins Volumes in PPSA Spot Oil Auction",
-   "summary": "Petrobras, alongside PetroChina and CNOOC, has been announced as a winner in the latest spot oil auction held by Brazil's Pré-Sal Petróleo S.A. (PPSA).",
+   "headline": "Texas Instruments Director Executes Share Sale",
+   "summary": "Texas Instruments Director Kirk Ronald sold 6,065 shares of company common stock in a transaction valued at approximately $1.88 million.",
    "source": "fiscal.ai",
-   "url": "https://www.tradingview.com/symbols/LCOUSD/news/?exchange=OSMANLIFX?section=top_news",
-   "created_at": "2026-10-30T12:32:29Z",
+   "url": "https://www.tradingview.com/news/tradingview:106ebe6367d11:0-texas-instruments-director-sold-shares-worth-over-1-8m/",
+   "created_at": "2026-10-30T23:01:35Z",
    "symbols": [
-    "PBR.A"
+    "TXN"
    ],
    "image": ""
   },
   {
-   "headline": "Twilio's Biggest Business Is Slowing, and That's a Problem for Its Growth Story",
-   "summary": "Twilio stock plunged 19% premarket despite Q3 beats, hit by slowing messaging growth and a soft Q4 organic revenue forecast.",
+   "headline": "If You Invested $1000 In Shopify Stock 10 Years Ago, You Would Have This Much Today",
+   "summary": "Shopify (NASDAQ:SHOP) has outperformed the market over the past 10 years by 30.51% on an annualized basis producing an average annual return of 44.24%. Currently, Shopify has a market capitalization o",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62735517/twilios-biggest-business-is-slowing-and-thats-a-problem-for-its-growth-story",
-   "created_at": "2026-10-30T12:32:22Z",
+   "url": "https://www.benzinga.com/news/26/10/62761846/if-you-invested-1000-shopify-stock-10-years-ago-you-would-have-much-today",
+   "created_at": "2026-10-30T22:46:01Z",
    "symbols": [
-    "TWLO"
+    "SHOP"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/30/San-Jose--Ca--Usa---Nov-29--2023-Twilio-.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/valuestock_2.jpg?width=1024&height=768"
   },
   {
-   "headline": "Citigroup Adjusts Price Target on Everest Group, Ltd. to $445 From $415",
-   "summary": "Citigroup has updated its price target for Everest Group, Ltd. (NYSE: EG), increasing it from $415 to $445.",
-   "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/citigroup-adjusts-price-target-on-everest-to-445-from-415-ce785fdbda8ff425",
-   "created_at": "2026-10-30T12:32:19Z",
+   "headline": "Here's How Much $100 Invested In Chipotle Mexican Grill 10 Years Ago Would Be Worth Today",
+   "summary": "Chipotle Mexican Grill (NYSE:CMG) has outperformed the market over the past 10 years by 1.85% on an annualized basis producing an average annual return of 15.58%. Currently, Chipotle Mexican Grill has",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62761667/here-s-how-much-100-invested-chipotle-mexican-grill-10-years-ago-would-be-worth-today",
+   "created_at": "2026-10-30T22:30:46Z",
    "symbols": [
-    "EG"
+    "CMG"
    ],
-   "image": ""
+   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/valuestock_2.jpg?width=1024&height=768"
   },
   {
-   "headline": "Banco de Chile Reports Third Quarter 2026 Financial Results",
-   "summary": "Banco de Chile announced its financial results for the third quarter of 2026, reporting a decline in net income due to higher credit costs and expenses.",
-   "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/banco-de-chile-q3-earnings-fall-operating-revenue-rises-ce785fdbdd8bfe24",
-   "created_at": "2026-10-30T12:32:16Z",
+   "headline": "Here's How Much $100 Invested In SPDR Gold Shares 5 Years Ago Would Be Worth Today",
+   "summary": "SPDR Gold Shares (NYSE:GLD) has outperformed the market over the past 5 years by 5.96% on an annualized basis producing an average annual return of 16.31%. Currently, SPDR Gold Shares has a market cap",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62761507/here-s-how-much-100-invested-spdr-gold-shares-5-years-ago-would-be-worth-today",
+   "created_at": "2026-10-30T22:15:44Z",
    "symbols": [
-    "BCH"
+    "GLD"
    ],
-   "image": ""
+   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/valuestock_3.jpg?width=1024&height=768"
   },
   {
-   "headline": "TIM Enterprise Acquires 70% Stake in VoiSmart",
-   "summary": "TIM Enterprise, the business unit of the TIM Group, has acquired a 70% stake in VoiSmart, an Italian technology company specializing in unified communications and artificial intelligence.",
+   "headline": "TD Cowen Maintains NeoGenomics at Buy, Raises Price Target to $23",
+   "summary": "TD Cowen has reaffirmed its 'Buy' rating on NeoGenomics and increased its price target for the company's stock from $19 to $23.",
    "source": "fiscal.ai",
-   "url": "https://www.milanofinanza.it/news/tim-enterprise-acquisisce-il-70-di-voismart-cosi-rafforza-il-portafoglio-di-tecnologie-per-la-sovranita-202610301152373740",
-   "created_at": "2026-10-30T12:32:14Z",
+   "url": "https://in.tradingview.com/news/urn:summary_document_transcript:quartr.com:4391205:0-dom-recurrent-growth-remained-strong-as-project-execution-lagged-and-2027-recovery-opportunities-emerged/",
+   "created_at": "2026-10-30T22:03:24Z",
    "symbols": [
-    "TIMB"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Embraer Announces 4-for-1 Forward Split of American Depositary Shares",
-   "summary": "Embraer S.A. has announced a 4-for-1 forward split of its American Depositary Shares (ADS), adjusting the ratio of ADSs to common shares.",
-   "source": "fiscal.ai",
-   "url": "https://www.prnewswire.com/news-releases/embraer-announces-change-in-ads-ratio-302924846.html",
-   "created_at": "2026-10-30T12:31:57Z",
-   "symbols": [
-    "EMBJ"
+    "NEO"
    ],
    "image": ""
   },
   {
-   "headline": "ICICI Securities Revises Target Price for One 97 Communications",
-   "summary": "ICICI Securities has maintained its 'BUY' rating on One 97 Communications (Paytm) and revised its target price to INR 1,945.",
+   "headline": "TD Cowen Adjusts TriNet Group Price Target",
+   "summary": "TD Cowen has updated its outlook on TriNet Group, Inc., lowering the price target to $65.00 from $66.00 while maintaining a 'Hold' rating.",
    "source": "fiscal.ai",
-   "url": "https://www.tradingview.com/news/moneycontrol:f68e1c433094b:0-buy-one-97-communications-target-of-rs-1945-icici-securities/",
-   "created_at": "2026-10-30T12:31:53Z",
+   "url": "https://www.moomoo.com/hans/news/post/1003055347?futusource=news_newspage_recommend",
+   "created_at": "2026-10-30T22:02:46Z",
    "symbols": [
-    "PAYTM"
+    "TNET"
    ],
    "image": ""
   },
   {
-   "headline": "Banco Santander-Chile Reports Third Quarter 2026 Results",
-   "summary": "Banco Santander-Chile announced its financial results for the third quarter and the nine-month period ended September 30, 2026.",
+   "headline": "Algonquin Power & Utilities Corp. Completes Sale of Ownership Stake in Chilean Utility",
+   "summary": "Algonquin Power & Utilities Corp. has finalized the sale of its approximately 64% interest in the Chilean water utility Suralis S.A. to a fund managed by Toesca S.A. Administradora General de Fondos.",
    "source": "fiscal.ai",
-   "url": "https://www.globenewswire.com/news/banks-financial-services/banks",
-   "created_at": "2026-10-30T12:31:52Z",
+   "url": "https://www.fidelity.com/news/article/mergers-and-acquisitions/202610301700BIZWIRE_USPR_____20261030_BW874772",
+   "created_at": "2026-10-30T22:02:43Z",
    "symbols": [
-    "BSAC"
+    "AQN"
    ],
    "image": ""
   },
   {
-   "headline": "Largo Inc. Executes Debt-Restructuring Agreement with Banco Santander (Brasil) S.A.",
-   "summary": "Largo Inc. has finalized a definitive debt-restructuring agreement with Banco Santander (Brasil) S.A. as part of its broader commercial bank debt-restructuring efforts.",
+   "headline": "United Therapeutics Insider Executes Stock Sale",
+   "summary": "A company insider at United Therapeutics Corporation sold shares valued at approximately $5.65 million, as disclosed in a recent SEC filing.",
    "source": "fiscal.ai",
-   "url": "https://www.newsfilecorp.com/release/321776/Largo-Reports-Q3-2026-Production-and-Sales-Results-Reflecting-Vanadium-Diversification-with-First-Production-of-Copper-Gold-and-Platinum-Group-Metals-Advances-Commercial-Bank-Debt-Restructuring",
-   "created_at": "2026-10-30T12:31:50Z",
+   "url": "https://www.marketscreener.com/news/united-therapeutics-insider-sold-shares-worth-5-650-415-according-to-a-recent-sec-filing-ce785fdbd08df522",
+   "created_at": "2026-10-30T22:02:39Z",
    "symbols": [
-    "BSBR"
+    "UTHR"
    ],
    "image": ""
   },
   {
-   "headline": "Computer Age Management Services Limited Reports Record Q2 Revenue",
-   "summary": "Computer Age Management Services Limited (CAMS) announced record revenue for the second quarter, driven by growth in non-mutual fund businesses and technology-led productivity gains.",
+   "headline": "Raymond James Adjusts Avery Dennison Price Target",
+   "summary": "Raymond James updated its price target for Avery Dennison Corporation to $198 from $192.",
    "source": "fiscal.ai",
-   "url": "https://www.tradingview.com/news/urn:summary_document_transcript:quartr.com:4390613:0-cams-record-q2-revenue-and-stronger-margins-despite-slower-aum-growth-led-by-non-mf-expansion/",
-   "created_at": "2026-10-30T12:31:49Z",
+   "url": "https://www.marketscreener.com/news/raymond-james-adjusts-price-target-on-avery-dennison-to-198-from-192-ce785fdbdd8bf120",
+   "created_at": "2026-10-30T22:02:38Z",
    "symbols": [
-    "CAMS"
+    "RJF"
    ],
    "image": ""
   },
   {
-   "headline": "Varun Beverages Reports Q3 2026 Financial Results",
-   "summary": "Varun Beverages Limited reported a 13.5% year-on-year increase in consolidated net profit for the third quarter of 2026, driven by strong sales volume growth in India and international markets.",
+   "headline": "Raymond James Adjusts Amazon.com Price Target",
+   "summary": "Raymond James revised its price target for Amazon.com, Inc. from $300 to $250.",
    "source": "fiscal.ai",
-   "url": "https://www.tradingview.com/news/moneycontrol:473b73f73094b:0-varun-beverages-shares-fall-3-after-q3-results-as-margins-contract-despite-14-profit-growth/",
-   "created_at": "2026-10-30T12:31:48Z",
+   "url": "https://www.marketscreener.com/news/raymond-james-adjusts-amazon-com-price-target-to-250-from-300-ce785fdbdd8af025",
+   "created_at": "2026-10-30T22:02:38Z",
    "symbols": [
-    "VBL"
+    "RJF"
    ],
    "image": ""
   },
   {
-   "headline": "Infosys Launches Enterprise AI Center with Columbia University",
-   "summary": "Infosys has established the Topaz–Columbia University Enterprise AI Center at its New York office to advance generative and agentic AI applications.",
+   "headline": "Ralliant Corporation Declares Quarterly Dividend",
+   "summary": "Ralliant Corporation has announced a regular quarterly dividend of $0.05 per share.",
    "source": "fiscal.ai",
-   "url": "https://zerodha.com/markets/stocks/NSE/INFY/",
-   "created_at": "2026-10-30T12:31:47Z",
+   "url": "https://www.tradingview.com/news/seekingalpha:36900a952094b:0-ralliant-corporation-declares-0-05-dividend/",
+   "created_at": "2026-10-30T22:02:37Z",
    "symbols": [
-    "INFY"
+    "RAL"
    ],
    "image": ""
   },
   {
-   "headline": "NTPC Green Energy Commences Commercial Operation of 95.6 MW Solar Capacity in Rajasthan",
-   "summary": "NTPC Green Energy Limited (NGEL) has announced the start of commercial operations for a 95.6 MW portion of the Kalasar Solar Energy Project in Bikaner, Rajasthan.",
+   "headline": "Lindblad Expeditions Holdings Insider Sells Shares Worth Over $8 Million",
+   "summary": "An insider at Lindblad Expeditions Holdings, Inc. has sold shares of the company's stock valued at approximately $8.25 million, according to a recent SEC filing.",
    "source": "fiscal.ai",
-   "url": "https://www.tradingview.com/news/moodys:e51e54da9a6db:0-ntpc-green-energy-begins-commercial-operation-of-95-6-mw-of-kalasar-solar-project-in-rajasthan/",
-   "created_at": "2026-10-30T12:31:47Z",
+   "url": "https://www.marketscreener.com/news/lindblad-expeditions-holdings-insider-sold-shares-worth-8-254-292-according-to-a-recent-sec-filing-ce785fdbd88cf32d",
+   "created_at": "2026-10-30T22:02:36Z",
    "symbols": [
-    "NTPC"
+    "LIND"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Clinuvel Pharmaceuticals Files Marketing Authorisation Dossier for NEURACTHEL® Instant in Europe",
+   "summary": "Clinuvel Pharmaceuticals has submitted a marketing authorisation dossier for its second pharmaceutical product, NEURACTHEL® Instant (tetracosactide), to European regulators via the decentralised proce",
+   "source": "fiscal.ai",
+   "url": "https://announcements.asx.com.au/asxpdf/20261030/pdf/0760csnlyw4m3l.pdf",
+   "created_at": "2026-10-30T22:02:33Z",
+   "symbols": [
+    "CUVL"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "JPMorgan Raises Matson Price Target to $310",
+   "summary": "JPMorgan has increased its price target for Matson, Inc. (MATX) from $270 to $310 while maintaining a Buy rating on the stock.",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/stock/MATX-US/news?chain_id=Name1K9-3FXPhg.1le5340&global_content=%7B%22promote_id%22%3A13764,%22sub_promote_id%22%3A39,%22f%22%3A%22www.moomoo.com%2Fus%2Fhant%2Flearn%2Fdetail-bull-call-spread-66283-230186006%22%7D",
+   "created_at": "2026-10-30T22:02:33Z",
+   "symbols": [
+    "MATX"
    ],
    "image": ""
   }
