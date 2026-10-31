@@ -1,6 +1,36 @@
 {
- "updated": "2026-11-01 03:00",
+ "updated": "2026-11-01 04:00",
  "items": [
+  {
+   "headline": "Anthropic IPO Faces Real Risk as AI Bubble Fears Linger and Blackstone Sounds a Warning",
+   "summary": "The upcoming Anthropic IPO is facing substantial risks amid the ongoing AI bubble fears, with Blackstone sounding a major warning",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/10/62763984/anthropic-ipo-faces-real-risk-as-ai-bubble-fears-linger-and-blackstone-sounds-a-warning",
+   "created_at": "2026-10-31T18:45:18Z",
+   "symbols": [
+    "BX",
+    "GOOG",
+    "META",
+    "MU",
+    "NVDA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/31/Anthropic-Logo-Appears-On-A-Mobile-Phone.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "S&P 500 Index Rally Hits a Wall Amid AI Jitters as Key Valuation Metric Dips",
+   "summary": "The S&amp;P 500 Index rally has hit a major wall as the AI jitters continue and as the forward price-to-earnings ratio falls.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/10/62763971/sp-500-index-rally-hits-a-wall-amid-ai-jitters-as-key-valuation-metric-dips",
+   "created_at": "2026-10-31T18:39:22Z",
+   "symbols": [
+    "AMZN",
+    "FDS",
+    "GOOG",
+    "NVDA",
+    "SPY"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/31/Wall-Street-Sign-With-American-Flag-On-T.jpg?width=1024&height=768"
+  },
   {
    "headline": "Exclusive: Investors Are Watching AI Revenue Growth Against CapEx as Companies Face Pressure to Prove Returns, Wall Street Veteran Says: ‘The Bar Rises With the Size of the Spend'",
    "summary": "Wall Street veteran Steve Neamtz says AI capex winners will be identified by measurable returns and revenue growth as spending rises.",
@@ -166,30 +196,45 @@
    "image": ""
   },
   {
-   "headline": "Anthropic Could Join Public Markets With a Junk Rating Despite $112B Cash Pile, Blackstone Warns",
-   "summary": "Blackstone is warning investors that Anthropic may struggle to secure an investment-grade credit rating following its IPO.",
+   "headline": "Defense Stocks Rebound Into Midterms As Drone Makers Lag",
+   "summary": "Defense stocks rebounded into the midterms as Lockheed rose 26% in October on a record backlog, but drone makers like AeroVironment and Kratos lagged.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/private-markets/26/10/62760671/anthropic-could-join-public-markets-with-a-junk-rating-despite-112b-cash-pile-blackstone-warns",
-   "created_at": "2026-10-30T21:09:48Z",
+   "url": "https://www.benzinga.com/markets/equities/26/10/62763999/defense-stocks-rebound-into-midterms-as-drone-makers-lag",
+   "created_at": "2026-10-31T18:57:41Z",
    "symbols": [
-    "AVGO"
+    "AVAV",
+    "GD",
+    "GE",
+    "ITA",
+    "KTOS"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/30/Anthropic-Logo-Is-Displayed-On-A-Smartph.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/31/Us-Pentagon-In-Washington-Dc-Building-Lo.jpg?width=1024&height=768"
   },
   {
-   "headline": "Alphabet Posts Worst Week Since 2011, Intel Suffers Record Crash as Warsh Sees 'Cracks': This Week on Wall Street",
-   "summary": "Alphabet logs its worst week since 2011 and Intel its worst day ever as the AI trade cracks, while health care posts a record month against the market.",
+   "headline": "Bitcoin, Hyperliquid, Zcash Make '2027 Crypto Playbook': Report",
+   "summary": "Bitcoin may have bottomed, with cycle patterns pointing to a 2027 bull run. Hyperliquid and Zcash emerge as altcoins to watch.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/market-summary/26/10/62760190/alphabet-worst-week-since-2011-intel-record-crash-warsh-cracks-this-week-on-wall-street",
-   "created_at": "2026-10-30T20:55:28Z",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/10/62763943/bitcoin-hyperliquid-zcash-make-2027-crypto-playbook-report",
+   "created_at": "2026-10-31T18:30:06Z",
    "symbols": [
-    "AAPL",
-    "ALB",
-    "AMD",
-    "AMZN",
-    "ARM"
+    "BTCUSD",
+    "HYPEUSD",
+    "MSTR",
+    "PURR",
+    "ZECUSD"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/30/Alphabet-Company-Logo-On-Screen.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/31/Flying-Altcoins-With-Bitcoin-In-The-Cent.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Silver and SLV ETF Prices Lost Crucial Support: Will US NFP Data Turn the Tide?",
+   "summary": "Silver and the popular SLV ETF continued falling and lost the crucial support level as investors wait for the US nonfarm payrolls data.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/commodities/26/10/62763929/silver-and-slv-etf-prices-lost-crucial-support-will-us-nfp-data-turn-the-tide",
+   "created_at": "2026-10-31T18:15:09Z",
+   "symbols": [
+    "SLV"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/31/Stacked-Silver-Bars--Silver-Reserves--St.jpg?width=1024&height=768"
   },
   {
    "headline": "Kalshi and Polymarket See Democratic House and Senate: Where 12 Key Senate Races Stand",
@@ -440,39 +485,6 @@
    "created_at": "2026-10-31T13:05:44Z",
    "symbols": [
     "FREQ"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Electric Royalties Ltd. Announces Application for Warrant Extension",
-   "summary": "Electric Royalties Ltd. has applied to the TSX Venture Exchange to extend the expiry date of over 13.9 million common share purchase warrants by one year.",
-   "source": "fiscal.ai",
-   "url": "https://www.accessnewswire.com/newsroom/en/metals-and-mining/electric-royalties-ltd.-announces-application-for-warrant-extension-1244496",
-   "created_at": "2026-10-31T13:05:43Z",
-   "symbols": [
-    "ELEC"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Allarity Therapeutics Terminates Common Stock Purchase Agreement with Tumim Stone Capital",
-   "summary": "Allarity Therapeutics has terminated its common stock purchase agreement with Tumim Stone Capital, effective October 28, 2026, and plans to seek alternative financing.",
-   "source": "fiscal.ai",
-   "url": "https://es.tradingview.com/news/tradingview:206d05daf3aeb:0-allarity-therapeutics-ends-6-million-stock-purchase-agreement-with-tumim/",
-   "created_at": "2026-10-31T13:05:42Z",
-   "symbols": [
-    "ALLR"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Eureka Metals Corp. Announces Rights Offering and Proposed Share Consolidation",
-   "summary": "Eureka Metals Corp. has initiated a rights offering to raise up to $499,134 and announced a proposed share consolidation with a ratio not exceeding 6:1.",
-   "source": "fiscal.ai",
-   "url": "https://www.newsfilecorp.com/release/321938/Eureka-Metals-Corp.-Announces-Rights-Offering-and-Proposed-Share-Consolidation",
-   "created_at": "2026-10-31T13:05:41Z",
-   "symbols": [
-    "ERKA"
    ],
    "image": ""
   }
