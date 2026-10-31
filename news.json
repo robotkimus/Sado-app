@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-31 14:00",
+ "updated": "2026-10-31 15:00",
  "items": [
+  {
+   "headline": "Meta's $145 Billion AI Spending Plan Raises Credit Concerns as S&P Global Turns Outlook Negative: ‘Less Certain That It Will Curtail Its Spending’",
+   "summary": "S&amp;P Global cuts Meta’s credit outlook to negative as rising AI spending and cash flow pressures raise concerns over leverage.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/10/62763179/sp-global-cuts-meta-credit-outlook-to-negative-ai-spending",
+   "created_at": "2026-10-31T05:33:57Z",
+   "symbols": [
+    "AVGO",
+    "META",
+    "ORCL",
+    "SPGI"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/31/New-York--Usa---November-09--2025-Meta-P.jpg?width=1024&height=768"
+  },
   {
    "headline": "Meta, TikTok and X Lose UK Court Fight Over Requests for Social Media Safety Data",
    "summary": "On Friday, Meta Platforms Inc. (NASDAQ: META), TikTok and X lost their legal challenge in London&#39;s High Court against Ofcom over the British regulator&#39;s requests for information under the Onli",
@@ -160,13 +174,22 @@
    "image": ""
   },
   {
-   "headline": "Meta Launches AI Fashion App 'Style Sketch' in Southeast Asia",
-   "summary": "Meta has introduced a new standalone AI-powered fashion application called Style Sketch in Indonesia, Singapore, and Thailand.",
+   "headline": "Even OpenAI Is Feeling the AI Selloff? ChatGPT Maker Reportedly Cuts Funding Target by $10 Billion as Investors Tighten Purse Strings",
+   "summary": "ChatGPT-maker OpenAI reportedly slashes its funding target by $10 billion as AI market jitters dampen investor appetite.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62763209/openai-cuts-funding-target-ai-selloff",
+   "created_at": "2026-10-31T05:50:17Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/31/The-Sam-Altman-Openai-And-Chatgpt-Logos-.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Solmate Infrastructure Confirms No Exposure to Binance Security Incident",
+   "summary": "Solmate Infrastructure (formerly Brera Holdings) confirmed that it has no accounts or exposure to Binance following a reported security incident, ensuring all its digital assets remain secure with qua",
    "source": "fiscal.ai",
-   "url": "https://www.techdogs.com/tech-news/td-newsdesk/meta-launches-style-sketch-ai-app-to-turn-instagram-photos-into-virtual-wardrobes",
-   "created_at": "2026-10-30T18:01:41Z",
+   "url": "https://natlawreview.com/press-releases/solmate-infrastructure-confirms-no-exposure-and-no-loss-funds-following",
+   "created_at": "2026-10-31T05:01:42Z",
    "symbols": [
-    "META"
+    "SLMT"
    ],
    "image": ""
   },
@@ -422,28 +445,6 @@
    "created_at": "2026-10-31T02:01:49Z",
    "symbols": [
     "C"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "JPMorgan Chase & Co. Reports Change in Major Holding of Ashtead Technology Holdings",
-   "summary": "JPMorgan Chase & Co. notified the London Stock Exchange of a change in its major shareholding position in Ashtead Technology Holdings PLC.",
-   "source": "fiscal.ai",
-   "url": "https://www.tradingview.com/news/reuters.com,2026-10-30:newsml_RSd2793Ba:0-reg-ashtead-tech-hldgs-jpmorgan-chase-co-holding-s-in-company/",
-   "created_at": "2026-10-31T02:01:47Z",
-   "symbols": [
-    "JPM"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "ExxonMobil CEO Announces Over $100 Billion Capital Expenditure Plan Through 2030",
-   "summary": "CEO Darren Woods announced that ExxonMobil plans to invest more than $100 billion in capital projects between 2027 and 2030 to bolster global energy supplies.",
-   "source": "fiscal.ai",
-   "url": "https://www.rigzone.com/news/wire/exxon_plans_100b_in_capex_through_2030_ceo_tells_cnbc-30-oct-2026-184981-article/",
-   "created_at": "2026-10-31T02:01:37Z",
-   "symbols": [
-    "XOM"
    ],
    "image": ""
   }
