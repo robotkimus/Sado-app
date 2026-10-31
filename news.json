@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-01 01:00",
+ "updated": "2026-11-01 02:00",
  "items": [
+  {
+   "headline": "Exclusive: Investors Are Watching AI Revenue Growth Against CapEx as Companies Face Pressure to Prove Returns, Wall Street Veteran Says: ‘The Bar Rises With the Size of the Spend'",
+   "summary": "Wall Street veteran Steve Neamtz says AI capex winners will be identified by measurable returns and revenue growth as spending rises.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62763820/exclusive-investors-are-watching-ai-revenue-growth-against-capex-as-companies-face-pressure-to-prove-returns-wall-street-veteran-says-the-bar-rises-with-the-size-of-the-spend",
+   "created_at": "2026-10-31T16:30:06Z",
+   "symbols": [
+    "AMZN",
+    "GOOGL",
+    "ORCL",
+    "SPCX"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/31/Ai--Artificial-Intelligence-Concept--Typ.jpg?width=1024&height=768"
+  },
   {
    "headline": "S&P Global Ratings Revises Meta's Outlook to Negative",
    "summary": "S&P Global Ratings has downgraded its outlook for Meta Platforms to negative, citing concerns over the company's aggressive capital expenditure on AI.",
@@ -178,15 +192,13 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/10/30/Alphabet-Company-Logo-On-Screen.jpg?width=1024&height=768"
   },
   {
-   "headline": "Meta Reaches Settlement in Social Media Addiction Trial",
-   "summary": "Meta has settled with plaintiffs in a social media addiction case that was scheduled for trial in Los Angeles.",
-   "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/meta-settles-with-plaintiffs-set-for-social-media-addiction-trial-in-los-angeles-next-week-ce785fdbd18af12c",
-   "created_at": "2026-10-30T20:32:07Z",
-   "symbols": [
-    "META"
-   ],
-   "image": ""
+   "headline": "Kalshi and Polymarket See Democratic House and Senate: Where 12 Key Senate Races Stand",
+   "summary": "Three days before the U.S. midterm elections, prediction markets are bullish on a Democratic sweep.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/10/62763796/kalshi-and-polymarket-see-democratic-house-and-senate-where-12-key-senate-races-stand",
+   "created_at": "2026-10-31T16:00:08Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/10/31/Screenshot-2026-10-31-082808.jpg?width=1024&height=768"
   },
   {
    "headline": "SEBI Imposes ₹1 Crore Penalty on CDSL for Regulatory Lapses",
@@ -457,17 +469,6 @@
    "created_at": "2026-10-31T13:05:40Z",
    "symbols": [
     "CEXY"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "PowerBank Announces Results of Annual General Meeting",
-   "summary": "PowerBank Corporation held its annual general meeting, with the company reporting the results of the proceedings.",
-   "source": "fiscal.ai",
-   "url": "https://www.prnewswire.com/news-releases/powerbank-announces-results-of-annual-general-meeting-302925181.html",
-   "created_at": "2026-10-31T13:05:40Z",
-   "symbols": [
-    "PBK"
    ],
    "image": ""
   }
