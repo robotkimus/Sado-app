@@ -1,6 +1,17 @@
 {
- "updated": "2026-10-31 09:00",
+ "updated": "2026-10-31 10:00",
  "items": [
+  {
+   "headline": "Department of Labor Finalizes PBM Transparency Regulation",
+   "summary": "The U.S. Department of Labor has finalized a new rule requiring pharmacy benefit managers (PBMs), including CVS Health's Caremark, to disclose detailed pricing, rebates, and compensation to self-insur",
+   "source": "fiscal.ai",
+   "url": "https://ground.news/article/new-federal-rule-requires-drug-intermediaries-to-disclose-how-theyre-paid",
+   "created_at": "2026-10-31T00:01:54Z",
+   "symbols": [
+    "CVS"
+   ],
+   "image": ""
+  },
   {
    "headline": "Amazon Pharmacy Reports Significant Growth in Customers and Delivery Reach",
    "summary": "Amazon disclosed that its pharmacy business saw a 60% year-over-year increase in customers, with three-hour prescription delivery now available in over 350 cities.",
@@ -168,19 +179,103 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/10/30/Nebius-Group.jpg?width=1024&height=768"
   },
   {
-   "headline": "10 Information Technology Stocks With Whale Alerts In Today’s Session",
-   "summary": "This whale alert can help traders discover the next big trading opportunities.\nWhales are entities with large sums of money and we track their transactions here at Benzinga on our options activity sca",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/options/26/10/62752030/10-information-technology-stocks-whale-alerts-today-s-session",
-   "created_at": "2026-10-30T17:35:10Z",
+   "headline": "US Customs Releases TOYO Solar Shipments from Ethiopia",
+   "summary": "U.S. Customs and Border Protection (CBP) has released shipments of solar cells manufactured at TOYO Co., Ltd.'s facility in Ethiopia while a duty investigation remains ongoing.",
+   "source": "fiscal.ai",
+   "url": "https://www.finanznachrichten.de/nachrichten-medien/pv-magazine.htm",
+   "created_at": "2026-10-31T00:02:06Z",
    "symbols": [
-    "AMD",
-    "CIFR",
-    "CRWV",
-    "INTC",
-    "IONQ"
+    "TOYO"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/aggregated_options_2.jpg?width=1024&height=768"
+   "image": ""
+  },
+  {
+   "headline": "Ferdinand Groenewald Resigns from Advasa Holdings Board",
+   "summary": "Ferdinand Groenewald has resigned from his position on the board of directors and all committee appointments at Advasa Holdings, Inc.",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/tradingview:612ed6a99796e:0-ferdinand-groenewald-resigns-from-advasa-holdings-board/",
+   "created_at": "2026-10-31T00:02:03Z",
+   "symbols": [
+    "ADBT"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "BMO Capital Maintains Buy Rating and Raises Price Target for S&P Global",
+   "summary": "BMO Capital analyst Jeffrey Silber maintained a \"Buy\" rating on S&P Global and increased the price target to $513.",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/news/post/1003014262/bmo-capital-maintains-s-p-global-spgius-with-buy-rating",
+   "created_at": "2026-10-31T00:02:01Z",
+   "symbols": [
+    "SPGI"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "S&P Dow Jones Indices Announces Index Rebalancing Changes",
+   "summary": "S&P Dow Jones Indices, a division of S&P Global, announced upcoming changes to the S&P 500, S&P MidCap 400, and S&P SmallCap 600 indices effective November 4, 2026.",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/okta-set-to-join-sp-500-others-to-join-sp-midcap-400-and-sp-smallcap-600-302925405.html",
+   "created_at": "2026-10-31T00:02:01Z",
+   "symbols": [
+    "SPGI"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Aeromexico and Delta Air Lines Announce Three New Nonstop Routes",
+   "summary": "Aeromexico and Delta Air Lines are expanding their joint network by adding three new nonstop routes.",
+   "source": "fiscal.ai",
+   "url": "https://provinvest.com/business/",
+   "created_at": "2026-10-31T00:01:55Z",
+   "symbols": [
+    "AERO"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "American Express Issues $3 Billion in Notes",
+   "summary": "American Express Company completed a $3 billion debt issuance consisting of fixed-to-floating and floating rate notes due in 2030 and 2034.",
+   "source": "fiscal.ai",
+   "url": "https://in.tradingview.com/news/tradingview:bcdfdf34692ed:0-american-express-issues-3-billion-in-notes-due-2030-and-2034/",
+   "created_at": "2026-10-31T00:01:52Z",
+   "symbols": [
+    "AXP"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "U.S. State Department Approves $2.1B Patriot Missile Sale to Ukraine",
+   "summary": "The U.S. State Department has approved a $2.1 billion sale of Patriot PAC-3 missiles to Ukraine, with Lockheed Martin serving as the principal contractor.",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/seekingalpha:a0029d67c094b:0-state-department-approves-2-1b-patriot-missile-sale-to-ukraine/",
+   "created_at": "2026-10-31T00:01:46Z",
+   "symbols": [
+    "LMT"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "LogProstyle Inc. Pays Second Quarterly Dividend Installment",
+   "summary": "LogProstyle Inc. has completed the payment of the second quarterly installment of its previously declared cash dividend.",
+   "source": "fiscal.ai",
+   "url": "https://www.businesswire.com/newsroom/industry/construction-property/residential-real-estate",
+   "created_at": "2026-10-31T00:01:42Z",
+   "symbols": [
+    "LGPS"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Bank of America Lowers Fiscal 2027 iPhone Forecast for Apple",
+   "summary": "Bank of America has reduced its fiscal 2027 iPhone shipment forecast for Apple by nine million units, citing staggered product launches and rising costs.",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/gurufocus:e2f8b7067094b:0-bank-of-america-delivers-stark-warning-on-apple-stock-ahead-of-earnings/",
+   "created_at": "2026-10-31T00:01:24Z",
+   "symbols": [
+    "AAPL"
+   ],
+   "image": ""
   },
   {
    "headline": "Here's How Much $1000 Invested In W.W. Grainger 5 Years Ago Would Be Worth Today",
@@ -355,105 +450,6 @@
    "created_at": "2026-10-30T22:03:24Z",
    "symbols": [
     "NEO"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "TD Cowen Adjusts TriNet Group Price Target",
-   "summary": "TD Cowen has updated its outlook on TriNet Group, Inc., lowering the price target to $65.00 from $66.00 while maintaining a 'Hold' rating.",
-   "source": "fiscal.ai",
-   "url": "https://www.moomoo.com/hans/news/post/1003055347?futusource=news_newspage_recommend",
-   "created_at": "2026-10-30T22:02:46Z",
-   "symbols": [
-    "TNET"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Algonquin Power & Utilities Corp. Completes Sale of Ownership Stake in Chilean Utility",
-   "summary": "Algonquin Power & Utilities Corp. has finalized the sale of its approximately 64% interest in the Chilean water utility Suralis S.A. to a fund managed by Toesca S.A. Administradora General de Fondos.",
-   "source": "fiscal.ai",
-   "url": "https://www.fidelity.com/news/article/mergers-and-acquisitions/202610301700BIZWIRE_USPR_____20261030_BW874772",
-   "created_at": "2026-10-30T22:02:43Z",
-   "symbols": [
-    "AQN"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "United Therapeutics Insider Executes Stock Sale",
-   "summary": "A company insider at United Therapeutics Corporation sold shares valued at approximately $5.65 million, as disclosed in a recent SEC filing.",
-   "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/united-therapeutics-insider-sold-shares-worth-5-650-415-according-to-a-recent-sec-filing-ce785fdbd08df522",
-   "created_at": "2026-10-30T22:02:39Z",
-   "symbols": [
-    "UTHR"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Raymond James Adjusts Avery Dennison Price Target",
-   "summary": "Raymond James updated its price target for Avery Dennison Corporation to $198 from $192.",
-   "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/raymond-james-adjusts-price-target-on-avery-dennison-to-198-from-192-ce785fdbdd8bf120",
-   "created_at": "2026-10-30T22:02:38Z",
-   "symbols": [
-    "RJF"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Raymond James Adjusts Amazon.com Price Target",
-   "summary": "Raymond James revised its price target for Amazon.com, Inc. from $300 to $250.",
-   "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/raymond-james-adjusts-amazon-com-price-target-to-250-from-300-ce785fdbdd8af025",
-   "created_at": "2026-10-30T22:02:38Z",
-   "symbols": [
-    "RJF"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Ralliant Corporation Declares Quarterly Dividend",
-   "summary": "Ralliant Corporation has announced a regular quarterly dividend of $0.05 per share.",
-   "source": "fiscal.ai",
-   "url": "https://www.tradingview.com/news/seekingalpha:36900a952094b:0-ralliant-corporation-declares-0-05-dividend/",
-   "created_at": "2026-10-30T22:02:37Z",
-   "symbols": [
-    "RAL"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Lindblad Expeditions Holdings Insider Sells Shares Worth Over $8 Million",
-   "summary": "An insider at Lindblad Expeditions Holdings, Inc. has sold shares of the company's stock valued at approximately $8.25 million, according to a recent SEC filing.",
-   "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/lindblad-expeditions-holdings-insider-sold-shares-worth-8-254-292-according-to-a-recent-sec-filing-ce785fdbd88cf32d",
-   "created_at": "2026-10-30T22:02:36Z",
-   "symbols": [
-    "LIND"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Clinuvel Pharmaceuticals Files Marketing Authorisation Dossier for NEURACTHEL® Instant in Europe",
-   "summary": "Clinuvel Pharmaceuticals has submitted a marketing authorisation dossier for its second pharmaceutical product, NEURACTHEL® Instant (tetracosactide), to European regulators via the decentralised proce",
-   "source": "fiscal.ai",
-   "url": "https://announcements.asx.com.au/asxpdf/20261030/pdf/0760csnlyw4m3l.pdf",
-   "created_at": "2026-10-30T22:02:33Z",
-   "symbols": [
-    "CUVL"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "JPMorgan Raises Matson Price Target to $310",
-   "summary": "JPMorgan has increased its price target for Matson, Inc. (MATX) from $270 to $310 while maintaining a Buy rating on the stock.",
-   "source": "fiscal.ai",
-   "url": "https://www.moomoo.com/stock/MATX-US/news?chain_id=Name1K9-3FXPhg.1le5340&global_content=%7B%22promote_id%22%3A13764,%22sub_promote_id%22%3A39,%22f%22%3A%22www.moomoo.com%2Fus%2Fhant%2Flearn%2Fdetail-bull-call-spread-66283-230186006%22%7D",
-   "created_at": "2026-10-30T22:02:33Z",
-   "symbols": [
-    "MATX"
    ],
    "image": ""
   }
