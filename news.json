@@ -1,6 +1,21 @@
 {
- "updated": "2026-11-02 01:00",
+ "updated": "2026-11-02 02:00",
  "items": [
+  {
+   "headline": "Apple Diverges From Magnificent 7 as Options Point to Jump to $355 After Earnings",
+   "summary": "Apple has diverged from its Magnificent 7 peers as investors view it as a safer bet while AI concerns persist.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/11/62766171/apple-stock-diverges-from-magnificent-7-as-options-point-to-a-jump-to-355-after-earnings",
+   "created_at": "2026-11-01T16:15:06Z",
+   "symbols": [
+    "AAPL",
+    "AMZN",
+    "GOOG",
+    "MAGS",
+    "NVDA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/01/Beijing--China---July-21--2023-Apple-Log.jpg?width=1024&height=768"
+  },
   {
    "headline": "EXCLUSIVE: Former Goldman Sachs Analyst Turned Creator Says AI-Ready Workers Need More Than Prompting Skills — ‘You Can’t Outsource the Understanding’",
    "summary": "Workplace AI skills are shifting from clever prompting to safely delegating, evaluating and owning AI-driven work with human judgment.",
@@ -181,15 +196,24 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/10/31/Ai--Artificial-Intelligence-Concept--Typ.jpg?width=1024&height=768"
   },
   {
-   "headline": "S&P Global Ratings Revises Meta's Outlook to Negative",
-   "summary": "S&P Global Ratings has downgraded its outlook for Meta Platforms to negative, citing concerns over the company's aggressive capital expenditure on AI.",
-   "source": "fiscal.ai",
-   "url": "https://www.milanofinanza.it/news/meta-s-p-taglia-l-outlook-a-negativo-pesano-i-maxi-investimenti-nell-ai-202610311056425052",
-   "created_at": "2026-10-31T13:01:46Z",
+   "headline": "Stock of the Day: Is Palantir Breaking Support?",
+   "summary": "Palantir shares fell over 6% amid a market selloff ahead of earnings. The $186 support is potentially breaking signaling further downside.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/technicals/26/11/62766209/stock-of-the-day-is-palantir-breaking-support",
+   "created_at": "2026-11-01T16:45:06Z",
    "symbols": [
-    "META"
+    "PLTR"
    ],
-   "image": ""
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/01/Nyc--New-York---July-5-2026-Palantir-Tec.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Retirement Confidence Surges, but a Troubling Gap Remains",
+   "summary": "Retirement confidence rises, but readiness lags as Americans face competing costs, longer careers, and gender and generational gaps.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/personal-finance/financial-advisors/26/11/62766148/retirement-confidence-surges-but-a-troubling-gap-remains",
+   "created_at": "2026-11-01T16:00:08Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/01/Family-Estate-Plans-Meeting-Financial-Ad.jpg?width=1024&height=768"
   },
   {
    "headline": "Bajaj Auto Electric Two-Wheeler Market Performance Data for October 2026",
@@ -441,28 +465,6 @@
    "created_at": "2026-11-01T14:04:04Z",
    "symbols": [
     "VIVK"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "La Rosa Holdings Launches 'JAEME' AI Technology System",
-   "summary": "La Rosa Holdings Corp. has introduced its proprietary artificial intelligence technology system, JAEME, designed to assist real estate agents.",
-   "source": "fiscal.ai",
-   "url": "https://roxom.com/terminal/stocks/SDA/news",
-   "created_at": "2026-11-01T14:04:04Z",
-   "symbols": [
-    "SRTM"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Golden Rapture Mining Corporation Announces $700,000 Financing",
-   "summary": "Golden Rapture Mining Corporation has launched a private placement financing to raise gross proceeds of $700,000 through the issuance of flow-through and non-flow-through units.",
-   "source": "fiscal.ai",
-   "url": "https://www.newsfilecorp.com/release/321817/Golden-Rapture-Mining-Launches-700000-FlowThrough-and-NonFlowThrough-Financing",
-   "created_at": "2026-11-01T14:04:01Z",
-   "symbols": [
-    "GLDR"
    ],
    "image": ""
   }
