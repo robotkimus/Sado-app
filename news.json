@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01 13:00",
+ "updated": "2026-11-01 14:00",
  "items": [
   {
    "headline": "Jim Cramer Warns ‘Don’t Assume the Worst Is Behind Us’ After $1 Trillion Chip Stock Rout",
@@ -200,6 +200,17 @@
    "created_at": "2026-10-31T02:01:39Z",
    "symbols": [
     "AMZN"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Steppe Cement Limited Announces Delay in Interim Dividend Payment",
+   "summary": "Steppe Cement Limited has announced that its interim dividend of 2 pence per share, originally scheduled for payment on October 30, 2026, has been delayed due to an administrative issue.",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/reuters.com,2026-10-30:newsml_RSd1605Ba:0-reg-steppe-cement-ltd-interim-dividend-payment/",
+   "created_at": "2026-11-01T04:01:36Z",
+   "symbols": [
+    "STCM"
    ],
    "image": ""
   },
@@ -464,17 +475,6 @@
    "created_at": "2026-11-01T01:04:17Z",
    "symbols": [
     "VRRM"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Enphase Energy Enters Agreement to Sell 45X Tax Credits",
-   "summary": "Enphase Energy has entered into a tax credit transfer agreement to sell up to $100 million in 45X manufacturing tax credits for approximately $92 million.",
-   "source": "fiscal.ai",
-   "url": "https://www.tradingview.com/symbols/LS-A1JC82/news/?section=top_news",
-   "created_at": "2026-11-01T01:04:16Z",
-   "symbols": [
-    "ENPH"
    ],
    "image": ""
   }
