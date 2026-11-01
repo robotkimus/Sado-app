@@ -1,6 +1,21 @@
 {
- "updated": "2026-11-01 12:00",
+ "updated": "2026-11-01 13:00",
  "items": [
+  {
+   "headline": "Jim Cramer Warns ‘Don’t Assume the Worst Is Behind Us’ After $1 Trillion Chip Stock Rout",
+   "summary": "Semiconductor stocks lost $1T after Intel plunged 28% on weak guidance. Cramer warned volatility may persist ahead of earnings and midterms.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62765277/jim-cramer-warns-dont-assume-the-worst-is-behind-us-after-1-trillion-chip-stock-rout",
+   "created_at": "2026-11-01T03:28:13Z",
+   "symbols": [
+    "AMD",
+    "AVGO",
+    "INTC",
+    "NVDA",
+    "SOXX"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/01/Jim-Cramer.jpg?width=1024&height=768"
+  },
   {
    "headline": "Meta Develops Humanoid Robot Prototype with Fourier",
    "summary": "Meta is reportedly developing a humanoid robot prototype in collaboration with the Chinese startup Fourier.",
@@ -189,13 +204,31 @@
    "image": ""
   },
   {
-   "headline": "Department of Labor Finalizes PBM Transparency Regulation",
-   "summary": "The U.S. Department of Labor has finalized a new rule requiring pharmacy benefit managers (PBMs), including CVS Health's Caremark, to disclose detailed pricing, rebates, and compensation to self-insur",
+   "headline": "Bernie Sanders Calls Trump ‘Extraordinarily Dangerous,’ Urges Voters To ‘Hold Donald Trump Accountable’",
+   "summary": "Sanders urges voters to turn out in Tuesday’s midterms, warning Trump threatens democracy and favors the wealthy over working families.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/10/62765266/bernie-sanders-trump-corrupt-administration-working-families-midterms-accountable",
+   "created_at": "2026-11-01T03:24:35Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/01/Bernie-Sanders.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "OPEC+ Keeps December Oil Targets Unchanged as Brent Hovers Near Six-Month High: Report",
+   "summary": "OPEC+ plans to keep December oil output targets unchanged as Gulf producers navigate supply disruptions from the Iran war.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/commodities/26/10/62765251/opec-plus-keeps-december-oil-output-targets-unchanged",
+   "created_at": "2026-11-01T03:16:40Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/01/The-Barrels-Of-Crude-Oil-Are-Placed-On-T.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "JPMorgan Maintains Overweight Rating on Vista Energy",
+   "summary": "JPMorgan has reaffirmed its 'Overweight' rating for Vista Energy, S.A.B. de C.V.",
    "source": "fiscal.ai",
-   "url": "https://ground.news/article/new-federal-rule-requires-drug-intermediaries-to-disclose-how-theyre-paid",
-   "created_at": "2026-10-31T00:01:54Z",
+   "url": "https://www.tradingview.com/symbols/BIVA-JPM/news/?section=top_news",
+   "created_at": "2026-11-01T03:02:19Z",
    "symbols": [
-    "CVS"
+    "VIST"
    ],
    "image": ""
   },
@@ -442,39 +475,6 @@
    "created_at": "2026-11-01T01:04:16Z",
    "symbols": [
     "ENPH"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Freedom Broker Downgrades Luxfer Holdings to Hold",
-   "summary": "Freedom Broker downgraded Luxfer Holdings from Buy to Hold and reduced its price target for the company's shares.",
-   "source": "fiscal.ai",
-   "url": "https://fr.tradingview.com/news/tradingview:bd0faf499d51b:0-freedom-broker-downgrades-luxfer-holdings-to-hold-from-buy-lowers-price-target-to-16-40-from-20-50/",
-   "created_at": "2026-11-01T01:04:16Z",
-   "symbols": [
-    "LXFR"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Weyco Group Downgraded to Hold Following Significant Stock Rally",
-   "summary": "Weyco Group, Inc. has been downgraded to \"Hold\" by analysts following a substantial 168.9% stock rally since July 2022, with the company now trading near fair value.",
-   "source": "fiscal.ai",
-   "url": "https://m1.com/invest/stocks/WEYS",
-   "created_at": "2026-11-01T01:04:15Z",
-   "symbols": [
-    "WEYS"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Vanguard Portfolio Management LLC Files Amended Schedule 13G for NexPoint Residential Trust",
-   "summary": "Vanguard Portfolio Management LLC filed an amended Schedule 13G regarding its beneficial ownership in NexPoint Residential Trust, Inc. on October 30, 2026.",
-   "source": "fiscal.ai",
-   "url": "https://www.streetinsider.com/SEC+Filings/Form++SCHEDULE+13GA++NexPoint+Residential+++++++++++++++++++Filed+by%3A+VANGUARD+PORTFOLIO+MANAGEMENT+LLC/27265268.html",
-   "created_at": "2026-11-01T01:04:14Z",
-   "symbols": [
-    "NXRT"
    ],
    "image": ""
   }
