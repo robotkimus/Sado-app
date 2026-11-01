@@ -1,6 +1,50 @@
 {
- "updated": "2026-11-02 05:30",
+ "updated": "2026-11-02 06:00",
  "items": [
+  {
+   "headline": "SOXX: Top Semiconductor ETF Targets $400 as AI Bubble Worries Linger",
+   "summary": "The iShares Semiconductor ETF (NASDAQ: SOXX) has slumped into a bear market, falling from a record high of $656 in June to $471, its lowest level since July.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/etfs/sector-etfs/26/11/62766623/soxx-top-semiconductor-etf-targets-400-as-ai-bubble-worries-linger",
+   "created_at": "2026-11-01T20:55:05Z",
+   "symbols": [
+    "AMD",
+    "AVGO",
+    "INTC",
+    "MU",
+    "NVDA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/01/Nvidia.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "AMD Stuck in Bear Market on Circular Investing Fears: Can Earnings Turn the Tide?",
+   "summary": "AMD stock is stuck in a bear market as investors raise circular investing fears. Explore whether the earnings will help to turn the tide.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/11/62766585/amd-stock-is-stuck-in-a-bear-market-on-circular-investing-fears-can-earnings-turn-the-tide",
+   "created_at": "2026-11-01T20:35:05Z",
+   "symbols": [
+    "AMD",
+    "INTC",
+    "META",
+    "NVDA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/01/Shanghai-china-nov-22nd-2025-Amd-Company.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Apple, Palantir On Deck Monday As AI Demand, iPhone Growth Face Test",
+   "summary": "Apple headlines Monday’s reports, with investors looking for continued iPhone momentum and evidence that its artificial-intelligence push can support the company’s next leg of growth. Marriott Interna",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/62766571/apple-palantir-on-deck-monday-as-ai-demand-iphone-growth-face-test",
+   "created_at": "2026-11-01T20:30:59Z",
+   "symbols": [
+    "AAPL",
+    "AKR",
+    "AXSM",
+    "CHH",
+    "CHKP"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/01/earnings-scheduled-1.jpg?width=1024&height=768"
+  },
   {
    "headline": "S&P 500, Dow Jones, and Nasdaq 100 Outlook: Top Drivers for US Stocks This Week",
    "summary": "The S&amp;P 500, Dow Jones, and Nasdaq 100 indices have pulled back in the past few days. Here are some of the top catalysts to watch",
@@ -156,45 +200,29 @@
    "image": ""
   },
   {
-   "headline": "Micron, SanDisk, and Western Digital Remain in Bear Territory, But Key Catalysts Remain Intact",
-   "summary": "Top memory stocks like Micron, SanDisk, and Western Digital stocks have slumped into a bear market as key catalysts remain intact.",
+   "headline": "Nu Holdings Stock Plunged After Lula Win: UBS and JPMorgan See Opportunity",
+   "summary": "Nu Holdings stock plunged sharply after Lula&#39;s Brazil re-election win. Still, analysts at UBS and JPMorgan believe this is an opportunity.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/10/62764072/micron-sandisk-and-western-digital-remain-in-bear-territory-but-key-catalysts-remain-intact",
-   "created_at": "2026-10-31T19:55:10Z",
+   "url": "https://www.benzinga.com/markets/equities/26/11/62766611/nu-holdings-stock-plunged-after-lula-win-ubs-and-jpmorgan-see-an-opportunity",
+   "created_at": "2026-11-01T20:50:06Z",
    "symbols": [
-    "DRAM",
-    "GOOG",
-    "META",
-    "MSFT",
-    "MU"
+    "EWZ",
+    "NU"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/31/New-York-City--New-York---August-4-2025-.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/01/Nu-Holdings.jpg?width=1024&height=768"
   },
   {
-   "headline": "OpenAI Raises Just $11 Billion as AI Bubble Fears Rise, Valuation Hits $1.25 Trillion",
-   "summary": "OpenAI is about to raise $11 billion, much less than the $30 billion it was targeting, with its valuation falling short to $1.25 trillion",
+   "headline": "Palantir Stock Slowly Forms a Bullish Pattern as Q3 Earnings Loom",
+   "summary": "Palantir stock has retreated in recent days, falling from its year-to-date high of $212.30 in October to around $184.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/10/62764054/openai-raises-just-11-billion-as-ai-bubble-fears-rise-valuation-hits-1-25-trillion",
-   "created_at": "2026-10-31T19:45:05Z",
+   "url": "https://www.benzinga.com/markets/equities/26/11/62766560/palantir-stock-slowly-forms-a-bullish-pattern-as-q3-earnings-loom",
+   "created_at": "2026-11-01T20:30:07Z",
    "symbols": [
-    "META"
+    "INTC",
+    "NOW",
+    "PLTR"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/31/The-Sam-Altman-Openai-And-Chatgpt-Logos-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Anthropic IPO Faces Real Risk as AI Bubble Fears Linger and Blackstone Sounds a Warning",
-   "summary": "The upcoming Anthropic IPO is facing substantial risks amid the ongoing AI bubble fears, with Blackstone sounding a major warning",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/10/62763984/anthropic-ipo-faces-real-risk-as-ai-bubble-fears-linger-and-blackstone-sounds-a-warning",
-   "created_at": "2026-10-31T18:45:18Z",
-   "symbols": [
-    "BX",
-    "GOOG",
-    "META",
-    "MU",
-    "NVDA"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/31/Anthropic-Logo-Appears-On-A-Mobile-Phone.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/01/Nyc--New-York---July-5-2026-Palantir-Tec.jpg?width=1024&height=768"
   },
   {
    "headline": "Shopify Has Dipped Into Earnings as Valuation Concerns Linger",
@@ -449,28 +477,6 @@
    "created_at": "2026-11-01T20:01:51Z",
    "symbols": [
     "DHL"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Solvay SA Receives Transparency Notification from Citigroup Inc.",
-   "summary": "Solvay SA has been notified of a change in shareholding by Citigroup Inc. in accordance with regulatory transparency requirements.",
-   "source": "fiscal.ai",
-   "url": "https://www.finanznachrichten.de/nachrichten-aktien/citigroup-inc.htm",
-   "created_at": "2026-11-01T20:01:50Z",
-   "symbols": [
-    "SOLB"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "AkzoNobel Announces $60 Million Investment in North American Powder Coatings Production",
-   "summary": "AkzoNobel is investing $60 million to expand its production capacity for advanced powder coating technologies in North America.",
-   "source": "fiscal.ai",
-   "url": "https://www.finanznachrichten.de/nachrichten-medien/chemie-de.htm",
-   "created_at": "2026-11-01T20:01:46Z",
-   "symbols": [
-    "AKZA"
    ],
    "image": ""
   }
