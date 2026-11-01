@@ -1,6 +1,36 @@
 {
- "updated": "2026-11-02 02:00",
+ "updated": "2026-11-02 03:00",
  "items": [
+  {
+   "headline": "S&P 500, Dow Jones, and Nasdaq 100 Outlook: Top Drivers for US Stocks This Week",
+   "summary": "The S&amp;P 500, Dow Jones, and Nasdaq 100 indices have pulled back in the past few days. Here are some of the top catalysts to watch",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/11/62766301/sp-500-dow-jones-and-nasdaq-100-outlook-top-drivers-for-us-stocks-this-week",
+   "created_at": "2026-11-01T17:45:07Z",
+   "symbols": [
+    "AAPL",
+    "AMZN",
+    "DIA",
+    "FDS",
+    "GOOG"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/01/Wall-Street-And-New-Street--New-York--Us.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "$600B Tech Wipeout Meets $1.48T Margin Debt",
+   "summary": "A two-day tech rout erased more than $600 billion in market value from Alphabet (NASDAQ:GOOGL) and Intel (NASDAQ:INTC), as investors punished cash-draining AI spending.\n\n\n\nOutside of Alphabet, that po",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/market-summary/26/11/62766282/600b-tech-wipeout-meets-1-48t-margin-debt",
+   "created_at": "2026-11-01T17:30:06Z",
+   "symbols": [
+    "AMD",
+    "AMZN",
+    "AVGO",
+    "COIN",
+    "CVX"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/01/Creative-Crash-Recession-Chart-With-Fall.jpg?width=1024&height=768"
+  },
   {
    "headline": "Apple Diverges From Magnificent 7 as Options Point to Jump to $355 After Earnings",
    "summary": "Apple has diverged from its Magnificent 7 peers as investors view it as a safer bet while AI concerns persist.",
@@ -167,33 +197,22 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/10/31/Anthropic-Logo-Appears-On-A-Mobile-Phone.jpg?width=1024&height=768"
   },
   {
-   "headline": "S&P 500 Index Rally Hits a Wall Amid AI Jitters as Key Valuation Metric Dips",
-   "summary": "The S&amp;P 500 Index rally has hit a major wall as the AI jitters continue and as the forward price-to-earnings ratio falls.",
+   "headline": "Prediction Markets See 72% Chance of Democratic Senate With Two Days To Go",
+   "summary": "As of noon ET on Sunday, both Kalshi and Polymarket give Democrats a 72% chance of winning control of the Senate and a 94% chance of taking control of the House by winning about 235 seats.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/10/62763971/sp-500-index-rally-hits-a-wall-amid-ai-jitters-as-key-valuation-metric-dips",
-   "created_at": "2026-10-31T18:39:22Z",
-   "symbols": [
-    "AMZN",
-    "FDS",
-    "GOOG",
-    "NVDA",
-    "SPY"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/31/Wall-Street-Sign-With-American-Flag-On-T.jpg?width=1024&height=768"
+   "url": "https://www.benzinga.com/news/politics/26/11/62766264/prediction-markets-see-72-chance-of-democratic-senate-with-two-days-to-go",
+   "created_at": "2026-11-01T17:15:07Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/01/Screenshot-2026-11-01-093815.jpg?width=1024&height=768"
   },
   {
-   "headline": "Exclusive: Investors Are Watching AI Revenue Growth Against CapEx as Companies Face Pressure to Prove Returns, Wall Street Veteran Says: ‘The Bar Rises With the Size of the Spend'",
-   "summary": "Wall Street veteran Steve Neamtz says AI capex winners will be identified by measurable returns and revenue growth as spending rises.",
+   "headline": "Democrat Stevens Appears With GOP Senate Nominee Rogers in Michigan Race’s Final Stretch",
+   "summary": "Rep. Haley Stevens (D-Mich.) will appear at a Detroit church with Republican U.S. Senate nominee Mike Rogers on Sunday after being disinvited from an event with Democratic nominee Abdul El-Sayed. %",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/10/62763820/exclusive-investors-are-watching-ai-revenue-growth-against-capex-as-companies-face-pressure-to-prove-returns-wall-street-veteran-says-the-bar-rises-with-the-size-of-the-spend",
-   "created_at": "2026-10-31T16:30:06Z",
-   "symbols": [
-    "AMZN",
-    "GOOGL",
-    "ORCL",
-    "SPCX"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/31/Ai--Artificial-Intelligence-Concept--Typ.jpg?width=1024&height=768"
+   "url": "https://www.benzinga.com/news/politics/26/11/62766248/democrat-stevens-appears-with-gop-senate-nominee-rogers-in-michigan-races-final-stretch",
+   "created_at": "2026-11-01T17:07:31Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/01/Haley-Stevens.jpg?width=1024&height=768"
   },
   {
    "headline": "Stock of the Day: Is Palantir Breaking Support?",
@@ -443,28 +462,6 @@
    "created_at": "2026-11-01T14:04:06Z",
    "symbols": [
     "NTE"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Leonovus Inc. Announces Annual and Special Meeting of Shareholders",
-   "summary": "Leonovus Inc. has scheduled its Annual and Special Meeting of Shareholders for December 22, 2026, and confirmed it has applied to the TSXV to reinstate trading of its common shares.",
-   "source": "fiscal.ai",
-   "url": "https://www.tradingview.com/news/tmx_newsfile:49b6bb2e7094b:0-leonovus-announces-annual-and-special-meeting-of-shareholders/",
-   "created_at": "2026-11-01T14:04:06Z",
-   "symbols": [
-    "LTV"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Vivakor Announces Proposed Hydrogen Plant and Fueling Station at a Texas International Airport",
-   "summary": "Vivakor, Inc. has received a nonbinding letter of intent to negotiate a lease for 12.9 acres at a major Texas international airport to develop a hydrogen production plant and fueling station.",
-   "source": "fiscal.ai",
-   "url": "https://www.globenewswire.com/news-release/2026/10/30/3392258/0/en/vivakor-announces-proposed-hydrogen-plant-and-fueling-station-at-a-texas-international-airport.html",
-   "created_at": "2026-11-01T14:04:04Z",
-   "symbols": [
-    "VIVK"
    ],
    "image": ""
   }
