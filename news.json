@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02 04:00",
+ "updated": "2026-11-02 05:00",
  "items": [
   {
    "headline": "S&P 500, Dow Jones, and Nasdaq 100 Outlook: Top Drivers for US Stocks This Week",
@@ -195,6 +195,43 @@
     "NVDA"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/10/31/Anthropic-Logo-Appears-On-A-Mobile-Phone.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "China EV Stocks Tumble: XPeng, Li Auto, BYD and Polestar Hit as Price War Bites",
+   "summary": "Top China EV stocks like XPeng, Li Auto, BYD, and Polestar have plunged because of the ongoing price war in the country.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/11/62766483/china-ev-stocks-tumble-xpeng-li-auto-byd-and-polestar-hit-as-the-price-war-bites",
+   "created_at": "2026-11-01T19:50:06Z",
+   "symbols": [
+    "BYD",
+    "GS",
+    "LI",
+    "NIO",
+    "PSNY"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/01/XPeng.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Perion Network Enters into Definitive Merger Agreement with Affle",
+   "summary": "Perion Network Ltd. has agreed to be acquired by Affle 3iL Ltd., a subsidiary of Affle International Pte. Ltd., in an all-cash transaction valued at approximately $420 million.",
+   "source": "fiscal.ai",
+   "url": "https://www.fidelity.com/news/article/mergers-and-acquisitions/202611010530BIZWIRE_USPR_____20261101_BW603052",
+   "created_at": "2026-11-01T19:01:44Z",
+   "symbols": [
+    "PERI"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Kesko Raises Financial Guidance Following Q3 Profit Growth",
+   "summary": "Kesko has increased its financial guidance after reporting growth in its third-quarter profits.",
+   "source": "fiscal.ai",
+   "url": "https://www.finanznachrichten.de/nachrichten-medien/esm-agazine.htm",
+   "created_at": "2026-11-01T19:01:39Z",
+   "symbols": [
+    "KESKOB"
+   ],
+   "image": ""
   },
   {
    "headline": "Reddit Stock Slumps as Wall Street Analysts Cut Price Targets After Earnings",
@@ -429,39 +466,6 @@
    "created_at": "2026-11-01T14:04:11Z",
    "symbols": [
     "ATH.PRA"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Pateno Payments Inc. Completes Acquisition of XTM Inc.'s EveryDay Platform Assets",
-   "summary": "Pateno Payments Inc. has finalized the acquisition of specific assets from XTM Inc., including the EveryDay payment program and software, following court-approved proceedings.",
-   "source": "fiscal.ai",
-   "url": "https://www.greensheet.com/newswire&newswire_id=61639",
-   "created_at": "2026-11-01T14:04:11Z",
-   "symbols": [
-    "PAID"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Abound Energy Inc. Declares H2Si Power Incorporated in Material Default of License Agreement",
-   "summary": "Abound Energy Inc. has formally declared H2Si Power Incorporated, Amerada R&D Ltd., and Robert McKenzie in material default of their H2Si™ technology licensing and guarantee agreements.",
-   "source": "fiscal.ai",
-   "url": "https://www.thenewswire.com/press-releases/1AMqFDYX6-abound-declares-h2si-power-incorporated-in-material-default-of-h2si-tm-license-agreement.html",
-   "created_at": "2026-11-01T14:04:10Z",
-   "symbols": [
-    "ABND"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Entergy Corporation Declares Quarterly Dividend Increase",
-   "summary": "Entergy Corporation, the parent company of Entergy Texas, Inc., has declared a quarterly dividend of $0.68 per share, representing a $0.04 increase.",
-   "source": "fiscal.ai",
-   "url": "https://www.prnewswire.com/news-releases/entergy-increases-quarterly-dividend-payment-to-shareholders-302925348.html",
-   "created_at": "2026-11-01T14:04:10Z",
-   "symbols": [
-    "ETIp"
    ],
    "image": ""
   }
