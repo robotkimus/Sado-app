@@ -1,6 +1,50 @@
 {
- "updated": "2026-11-01 23:00",
+ "updated": "2026-11-01 23:40",
  "items": [
+  {
+   "headline": "Context Labs AI Distillery Now Available on Microsoft Marketplace",
+   "summary": "Context Labs B.V. has launched its AI Distillery platform on the Microsoft Marketplace, offering enterprise users a new tool for AI data infrastructure.",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/context-labs-ai-distillery-ermoglicht-es-unternehmen-souverane-ki-auf-ihren-eigenen-daten-zu-betreiben-302925726.html",
+   "created_at": "2026-11-01T14:01:33Z",
+   "symbols": [
+    "MSFT"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Cybersecurity Campaign Exploits Microsoft 365 Authentication Sessions",
+   "summary": "A sophisticated phishing campaign has compromised accounts across 79 organizations by exploiting authenticated sessions in Microsoft 365.",
+   "source": "fiscal.ai",
+   "url": "https://www.varindia.com/news/hackers-hijack-microsoft-365-without-passwords",
+   "created_at": "2026-11-01T14:01:33Z",
+   "symbols": [
+    "MSFT"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "President Trump Expresses Support for NVIDIA CEO Jensen Huang Amid Spy Plot Reports",
+   "summary": "President Donald Trump publicly voiced support for NVIDIA CEO Jensen Huang following reports that the executive was a target of a Chinese intelligence operation.",
+   "source": "fiscal.ai",
+   "url": "https://www.manilatimes.net/2026/11/01/world/trump-says-us-looking-closely-at-report-nvidia-ceo-target-of-china-spy-plot/2458925",
+   "created_at": "2026-11-01T14:01:32Z",
+   "symbols": [
+    "NVDA"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Release of DXVK-NVAPI 0.9.3",
+   "summary": "NVIDIA's NVAPI implementation, used by Valve for Steam Play with Proton, received a feature update to version 0.9.3.",
+   "source": "fiscal.ai",
+   "url": "https://lxer.com/module/newswire/view/368673/index.html",
+   "created_at": "2026-11-01T14:01:32Z",
+   "symbols": [
+    "NVDA"
+   ],
+   "image": ""
+  },
   {
    "headline": "‘We Have About Four Years:’ Raoul Pal Warns Investors to Get Ready Before AI Changes How Markets Work",
    "summary": "Pal says investors have four years to prepare for AI-driven market changes, as AI agents intensify competition and reshape wealth creation.",
@@ -154,334 +198,281 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/10/31/Bulls-and-Bears-1.jpg?width=1024&height=768"
   },
   {
-   "headline": "Chamath Palihapitiya Warns AI Boom Has a Borrowing Problem as Big Tech Debt Nears $400 Billion, Threatening to 'Crowd Out' US Treasury Demand: 'The Entire US Economy Is Levered to the AI Complex'",
-   "summary": "Chamath Palihapitiya warns AI companies’ debt could reach $400 billion, raising concerns about borrowing pressures and U.S. Treasury demand.",
+   "headline": "Mark Cuban Says AI Could 'Collapse' Big Healthcare Companies: 'The Cost of Healthcare… Would Drop Like a Rock'",
+   "summary": "Mark Cuban says AI could analyze healthcare contracts, expose costly terms, strengthen negotiations and ultimately slash U.S. healthcare costs.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/10/62763305/chamath-palihapitiya-warns-ai-debt-could-hit-400-billion",
-   "created_at": "2026-10-31T07:50:39Z",
+   "url": "https://www.benzinga.com/news/health-care/26/11/62766036/mark-cuban-ai-collapse-big-healthcare-companies",
+   "created_at": "2026-11-01T14:20:13Z",
    "symbols": [
-    "GOOG",
-    "GOOGL",
-    "META",
-    "MSFT",
-    "SPGI"
+    "UNH"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/31/Fintech-Investment-Concept--Close-up-Of-.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/01/Mark-Cuban.jpg?width=1024&height=768"
   },
   {
-   "headline": "Elizabeth Warren Slams Trump's Voluntary AI Safety Deal With Tech CEOs, Says Republicans Aren't Doing Enough to Regulate AI: ‘Not Lifting A Finger...’",
-   "summary": "Warren slammed Trump for trusting AI companies to regulate themselves, warning that voluntary safety commitments are no substitute.",
+   "headline": "NIO Stock Under Fire: Slowing October Deliveries Pile On the Pressure",
+   "summary": "Nio stock extended its steep sell-off last week, falling to its lowest level since April 2025 and sitting about 60% below its 2025 peak.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/10/62763251/elizabeth-warren-trump-ai-self-regulation",
-   "created_at": "2026-10-31T06:11:51Z",
+   "url": "https://www.benzinga.com/markets/equities/26/11/62766022/nio-stock-under-fire-slowing-october-deliveries-pile-on-the-pressure",
+   "created_at": "2026-11-01T14:07:18Z",
    "symbols": [
-    "AMZN",
-    "AVGO",
-    "META",
-    "NVDA"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/31/Reno--Nvu-s-a----February-16--2020-Eliza.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Meta's $145 Billion AI Spending Plan Raises Credit Concerns as S&P Global Turns Outlook Negative: ‘Less Certain That It Will Curtail Its Spending’",
-   "summary": "S&amp;P Global cuts Meta’s credit outlook to negative as rising AI spending and cash flow pressures raise concerns over leverage.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/10/62763179/sp-global-cuts-meta-credit-outlook-to-negative-ai-spending",
-   "created_at": "2026-10-31T05:33:57Z",
-   "symbols": [
-    "AVGO",
-    "META",
-    "ORCL",
-    "SPGI"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/31/New-York--Usa---November-09--2025-Meta-P.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Meta, TikTok and X Lose UK Court Fight Over Requests for Social Media Safety Data",
-   "summary": "On Friday, Meta Platforms Inc. (NASDAQ: META), TikTok and X lost their legal challenge in London&#39;s High Court against Ofcom over the British regulator&#39;s requests for information under the Onli",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/10/62763138/meta-tiktok-and-x-lose-uk-court-fight-over-requests-for-social-media-safety-data",
-   "created_at": "2026-10-31T04:17:43Z",
-   "symbols": [
-    "META"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/10/31/Mark-Zuckerberg-Image-On-Mobile-Screen-A.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "StoneX Maintains Buy Rating on Hello Group, Lowers Price Target to $8",
-   "summary": "Analyst Fawne Jiang at StoneX has reaffirmed a 'Buy' rating on Hello Group Inc. (NASDAQ: MOMO) while adjusting the price target downward from $10 to $8.",
-   "source": "fiscal.ai",
-   "url": "https://www.moomoo.com/stock/MOMO-US/news?chain_id=Name1K9-3FXPhg.1leb0v0&global_content=%7B%22promote_id%22%3A13764,%22sub_promote_id%22%3A57,%22f%22%3A%22www.moomoo.com%2Fstock%2FMOMO-US%2Fcommunity%22%7D",
-   "created_at": "2026-11-01T13:02:37Z",
-   "symbols": [
-    "MOMO"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "NIO Inc. Announces October 2026 Delivery Results",
-   "summary": "NIO Inc. reported the delivery of 34,246 vehicles in October 2026, bringing its year-to-date total to 334,547 vehicles.",
-   "source": "fiscal.ai",
-   "url": "https://www.quantisnow.com/insight/nio-inc-provides-october-2026-delivery-update-6765773",
-   "created_at": "2026-11-01T13:01:56Z",
-   "symbols": [
-    "NIO"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "XPeng Announces Record Vehicle Deliveries for October 2026",
-   "summary": "XPeng reported a new monthly record of 50,237 vehicle deliveries in October 2026, alongside the launch of the XPeng L05 and progress in its Robotaxi operations.",
-   "source": "fiscal.ai",
-   "url": "https://smb.americanpress.com/article/XPENG-Announces-Vehicle-Delivery-Results-for-October-2026/6ae6ae61cedaec7734a135f0",
-   "created_at": "2026-11-01T13:01:56Z",
-   "symbols": [
+    "LI",
+    "NIO",
     "XPEV"
    ],
-   "image": ""
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/01/Shanghai-china-november-13th-2021-Large-.jpg?width=1024&height=768"
   },
   {
-   "headline": "BYD Reports 11% Increase in October 2026 New Energy Vehicle Sales",
-   "summary": "BYD Company Limited announced that its new energy vehicle (NEV) sales reached 490,168 units in October 2026, marking an 11.0% growth compared to the same period last year.",
+   "headline": "Artelo Biosciences to Present ART27.13 Data at IASP 2026 World Congress on Pain",
+   "summary": "Artelo Biosciences announced it will present nonclinical data for ART27.13, a candidate for chemotherapy-induced neuropathic pain, at the IASP 2026 World Congress on Pain.",
    "source": "fiscal.ai",
-   "url": "https://www.finanzen.ch/nachrichten/aktien/byds-october-new-energy-vehicle-sales-rise-11percent-as-ev-demand-remains-strong-1036696007",
-   "created_at": "2026-11-01T13:01:35Z",
+   "url": "https://www.moomoo.com/stock/ARTL-US/news?chain_id=Name1K9-3FXPhg.1le2eo0&global_content=%7B%22promote_id%22%3A13764,%22sub_promote_id%22%3A64,%22f%22%3A%22www.moomoo.com%2Fcommunity%2Fprofile%2Fmoomoo-news-sg-101000102%22%7D",
+   "created_at": "2026-11-01T14:05:26Z",
    "symbols": [
-    "002594"
+    "ARTL"
    ],
    "image": ""
   },
   {
-   "headline": "Binance Hack, Bitcoin’s $1.6 Million Forecast, Elon Musk’s Emoji Clash and More: This Week in Crypto",
-   "summary": "Crypto headlines this week included Binance’s hack controversy, Trezor’s security alert and bullish Bitcoin forecasts.",
+   "headline": "This Week in TSLA: Elon Musk's Apple Mac Studio Jibe, Former Autopilot Lead's Vision-Only Criticism and More",
+   "summary": "This week in Tesla: Elon Musk mocks Apple’s $29,799 Mac Studio as Sterling Anderson casts doubts over vision-only autonomy and more.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/26/11/62765926/binance-hack-bitcoin-forecast-alert-crypto",
-   "created_at": "2026-11-01T13:00:06Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/01/Golden-Bitcoin-Coin-Is-In-Red-And-Blue-S.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Earnings Volatility Watch: 10 Stocks Are Set to Swing More Than 10% This Week",
-   "summary": "Ten stocks carry implied earnings moves above 10% next week, led by Moderna and AppLovin. Five are tech names hit in Friday&#39;s chip rout.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/earnings/26/11/62765881/earnings-volatility-watch-10-stocks-set-to-swing-more-than-10-percent",
-   "created_at": "2026-11-01T12:30:07Z",
+   "url": "https://www.benzinga.com/markets/tech/26/11/62766001/this-week-in-tsla-elon-musks-apple-mac-studio-jibe-former-autopilot-leads-vision-only-criticism-and-more",
+   "created_at": "2026-11-01T14:04:25Z",
    "symbols": [
     "AAPL",
-    "AMD",
-    "APP",
-    "COHR",
-    "CPNG"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/01/Moderna-Sign-With-Bold-Red-3D-Lettering-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Hyundai Motor Announces $450 Million Investment in Alabama Plant",
-   "summary": "Hyundai Motor Manufacturing Alabama (HMMA) is investing approximately $450 million to expand engine production and support new vehicle programs, including Extended Range Electric Vehicles (EREVs).",
-   "source": "fiscal.ai",
-   "url": "https://mobilityground.com/global-news/korea/hyundai-motor-company/hyundai-invests-about-450-million-in-alabama-plant-for-engines-and-erev-production/",
-   "created_at": "2026-11-01T12:02:06Z",
-   "symbols": [
-    "005380"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Braskem CEO Denies Plans to Sell U.S. Assets",
-   "summary": "Braskem's CEO stated that the company has no intention of selling its U.S. operations, dismissing reports of potential acquisition talks.",
-   "source": "fiscal.ai",
-   "url": "https://fr.tradingview.com/news/reuters.com,2025:newsml_L6N3TZ12Z:0/",
-   "created_at": "2026-11-01T12:02:06Z",
-   "symbols": [
-    "BAK"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Hyundai Motor India Reports Record Monthly Sales for October 2026",
-   "summary": "Hyundai Motor India (HMIL) achieved its highest-ever total monthly sales of 82,299 units in October 2026, marking a 17.7% year-over-year growth.",
-   "source": "fiscal.ai",
-   "url": "https://www.tradingview.com/news/moodys:5a3e403da98e7:0-festive-mode-brings-cheer-to-automakers-with-record-sales-in-october/",
-   "created_at": "2026-11-01T12:02:06Z",
-   "symbols": [
-    "005380"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Tokyo Electron Device Participates in SK hynix's First Partners Day in Japan",
-   "summary": "Tokyo Electron Device joined other major Japanese semiconductor suppliers at SK hynix's inaugural Partners Day in Japan to discuss technology roadmaps and supply chain cooperation.",
-   "source": "fiscal.ai",
-   "url": "https://www.koreaherald.com/article/10921611",
-   "created_at": "2026-11-01T12:01:51Z",
-   "symbols": [
-    "2760"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Apple's AI Strategy, Chip Downturn, Musk Mocks Mac Studio and More: This Week in Appleverse",
-   "summary": "Wall Street faces AI spending concerns, smartphone weakness and tech stock volatility as Apple and major technology companies make headlines.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/11/62765837/weekly-tech-roundup-apple-ai-smartphone-demand-musk",
-   "created_at": "2026-11-01T12:00:08Z",
-   "symbols": [
-    "AAPL",
-    "GOOG",
-    "GOOGL",
-    "INTC",
+    "GM",
     "TSLA"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/01/Beijing--China---July-21--2023-Apple-Log.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/01/Kaunas--Lithuania-2022---April-14-Tesla-.jpg?width=1024&height=768"
   },
   {
-   "headline": "Bill Gates Warns of AI-Driven Job Crisis, Pelosi Blames Trump and More: This Week in Economy",
-   "summary": "Weekend highlights cover market risks, AI job disruption, inflation concerns, economic policy and Kevin O’Leary’s credit-building advice.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/macro-economic-events/26/11/62765733/bill-gates-warns-of-ai-driven-job-crisis-pelosi-blames-trump-and-more-this-week-in-economy",
-   "created_at": "2026-11-01T11:00:07Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/01/Bill-Gates.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Trump Says Iran Talks Continue, Scaramucci Predicts Midterms Outcome and More: This Week in Politics",
-   "summary": "Weekend headlines cover escalating Iran tensions, midterm election predictions, Ukraine&#39;s missile deal and Musk&#39;s political push in Texas.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/11/62765600/weekend-headlines-iran-midterms-ukraine-musk-texas",
-   "created_at": "2026-11-01T10:00:05Z",
-   "symbols": [
-    "TSLA"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/01/President-Donald-J--Trump-Delivers-Remar.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Murano Global Investments Wins Second Nasdaq Bid-Price Compliance Extension",
-   "summary": "Murano Global Investments PLC has secured a second extension from Nasdaq to meet minimum bid-price requirements for continued listing.",
+   "headline": "Noveris Health Sciences Inc. Announces Market Making Advisory Agreement",
+   "summary": "Noveris Health Sciences Inc. has entered into a market-making advisory agreement with DS Market Solutions Inc. to support its trading activity.",
    "source": "fiscal.ai",
-   "url": "https://www.moomoo.com/stock/MRNO-US/news?chain_id=Name1K9-3FXPhg.1leabs0&global_content=%7B%22promote_id%22%3A13764,%22sub_promote_id%22%3A57,%22f%22%3A%22www.moomoo.com%2Fstock%2F601077-SH%22%7D",
-   "created_at": "2026-11-01T09:03:30Z",
+   "url": "https://www.tradingview.com/symbols/LSX-A42208/news/?section=top_news",
+   "created_at": "2026-11-01T14:04:15Z",
    "symbols": [
-    "MRNO"
+    "NVRS"
    ],
    "image": ""
   },
   {
-   "headline": "The Smarter Web Company CEO Issues Weekly Update",
-   "summary": "CEO Andrew Webley provides a weekly update on the company's progress, Bitcoin treasury strategy, and recent share performance.",
+   "headline": "Dune Oil Corp. Announces $8.3 Million Private Placement",
+   "summary": "Dune Oil Corp. has entered into an agreement for a brokered, best-efforts private placement of units to raise up to $8.3 million in gross proceeds.",
    "source": "fiscal.ai",
-   "url": "https://www.share-talk.com/the-smarter-web-company-weekly-update-saturday-31st-october-202/",
-   "created_at": "2026-11-01T09:02:37Z",
+   "url": "https://stockhouse.com/news/newswire/2026/10/30/dune-oil-plans-up-to-8-3-million-unit-financing-for-m47-work",
+   "created_at": "2026-11-01T14:04:13Z",
    "symbols": [
-    "SWC"
+    "DUNE"
    ],
    "image": ""
   },
   {
-   "headline": "Matthew Jones Increases Stake in TomCo Energy plc",
-   "summary": "Matthew Jones has increased his voting rights in TomCo Energy plc to 16.13%, up from his previous holding of 13.22%.",
+   "headline": "Trading in Dune Oil Corp. Halted and Resumed by CIRO",
+   "summary": "The Canadian Investment Regulatory Organization (CIRO) temporarily halted trading in Dune Oil Corp. shares on October 30, 2026, citing improper dissemination of news.",
    "source": "fiscal.ai",
-   "url": "https://www.tradingview.com/news/reuters.com,2026-10-30:newsml_RSd2218Ba:0-reg-tomco-energy-plc-holding-s-in-company/",
-   "created_at": "2026-11-01T09:02:34Z",
+   "url": "https://www.globenewswire.com/news-release/2026/10/30/3392263/0/en/canadian-investment-regulatory-organization-trading-halt-dune.html",
+   "created_at": "2026-11-01T14:04:13Z",
    "symbols": [
-    "TOM"
+    "DUNE"
    ],
    "image": ""
   },
   {
-   "headline": "Harena Rare Earths PLC Announces Audited Annual Results for Period Ended 30 June 2026",
-   "summary": "Harena Rare Earths PLC reported its audited financial results for the 14-month period ending 30 June 2026, highlighting progress on its Ampasindava Project in Madagascar.",
+   "headline": "Athene Holding Ltd. Publishes Investor Presentation on AI Infrastructure Financing",
+   "summary": "Athene Holding Ltd. released an investor presentation detailing its strategic role in financing infrastructure related to artificial intelligence.",
    "source": "fiscal.ai",
-   "url": "https://www.tradingview.com/news/reuters.com,2026-10-30:newsml_RSd2675Ba:0-reg-harena-rare-earths-annual-results/",
-   "created_at": "2026-11-01T09:02:31Z",
+   "url": "https://es.tradingview.com/news/tradingview:665e90f7e489c:0-athene-holding-posts-presentation-on-financing-ai-infrastructure/",
+   "created_at": "2026-11-01T14:04:11Z",
    "symbols": [
-    "HREE"
+    "ATH.PRA"
    ],
    "image": ""
   },
   {
-   "headline": "Dekel Agri-Vision Announces Conditional Fundraising and Retail Offer",
-   "summary": "Dekel Agri-Vision has conditionally raised approximately £0.7 million through a placing and subscription and is launching a retail offer to raise up to an additional £300,000.",
+   "headline": "Pateno Payments Inc. Completes Acquisition of XTM Inc.'s EveryDay Platform Assets",
+   "summary": "Pateno Payments Inc. has finalized the acquisition of specific assets from XTM Inc., including the EveryDay payment program and software, following court-approved proceedings.",
    "source": "fiscal.ai",
-   "url": "https://www.investegate.co.uk/announcement/rns/dekel-agri-vision-di---dkl/fundraising-director-participation-notice-of-gm/9851059",
-   "created_at": "2026-11-01T09:02:26Z",
+   "url": "https://www.greensheet.com/newswire&newswire_id=61639",
+   "created_at": "2026-11-01T14:04:11Z",
    "symbols": [
-    "DKL"
+    "PAID"
    ],
    "image": ""
   },
   {
-   "headline": "Nativo Resources Announces Conversion of Convertible Loan Notes",
-   "summary": "Nativo Resources plc has converted £100,000 of convertible loan notes into 31,928,480 new ordinary shares, reducing its outstanding debt to £205,250.",
+   "headline": "Abound Energy Inc. Declares H2Si Power Incorporated in Material Default of License Agreement",
+   "summary": "Abound Energy Inc. has formally declared H2Si Power Incorporated, Amerada R&D Ltd., and Robert McKenzie in material default of their H2Si™ technology licensing and guarantee agreements.",
    "source": "fiscal.ai",
-   "url": "https://www.investegate.co.uk/announcement/rns/nativo-resources--ntvo/issue-of-equity-for-cln-conversion-tvr/9851222",
-   "created_at": "2026-11-01T09:02:26Z",
+   "url": "https://www.thenewswire.com/press-releases/1AMqFDYX6-abound-declares-h2si-power-incorporated-in-material-default-of-h2si-tm-license-agreement.html",
+   "created_at": "2026-11-01T14:04:10Z",
    "symbols": [
-    "NTVO"
+    "ABND"
    ],
    "image": ""
   },
   {
-   "headline": "Pristine Capital plc Announces ISIN Change",
-   "summary": "The Financial Conduct Authority (FCA) has updated the listing for Pristine Capital plc, changing the ISIN for its ordinary shares.",
+   "headline": "Entergy Corporation Declares Quarterly Dividend Increase",
+   "summary": "Entergy Corporation, the parent company of Entergy Texas, Inc., has declared a quarterly dividend of $0.68 per share, representing a $0.04 increase.",
    "source": "fiscal.ai",
-   "url": "https://www.tradingview.com/news/eqs:52503138d094b:0-amendment-notice/",
-   "created_at": "2026-11-01T09:02:24Z",
+   "url": "https://www.prnewswire.com/news-releases/entergy-increases-quarterly-dividend-payment-to-shareholders-302925348.html",
+   "created_at": "2026-11-01T14:04:10Z",
    "symbols": [
-    "PRIS"
+    "ETIp"
    ],
    "image": ""
   },
   {
-   "headline": "Mantle Resilience Plc Reports Full Year Results and Strategic Developments",
-   "summary": "Mantle Resilience Plc announced its full-year results for the period ending June 30, 2026, highlighting a strategic shift toward national resource and manufacturing resilience and a successful £2.235 ",
+   "headline": "Elton Resources Corp. (formerly Chicane Capital I Corp.) Completes Private Placement Financing",
+   "summary": "Elton Resources Corp., formerly known as Chicane Capital I Corp., has successfully closed a non-brokered private placement of flow-through units, raising approximately $3.47 million.",
    "source": "fiscal.ai",
-   "url": "https://www.investegate.co.uk/announcement/rns/mantle-resilience-plc--mntl/full-year-results/9851552",
-   "created_at": "2026-11-01T09:02:24Z",
+   "url": "https://www.newsfilecorp.com/release/321908/Elton-Announces-Closing-of-Private-Placement-of-Flow-Through-Units",
+   "created_at": "2026-11-01T14:04:07Z",
    "symbols": [
-    "MNTL"
+    "CCIC.P"
    ],
    "image": ""
   },
   {
-   "headline": "Tomahawk Metals Plc Releases Annual Financial Report for Year Ended 30 April 2026",
-   "summary": "Tomahawk Metals Plc, formerly Shortwave Life Sciences Plc, has published its annual report detailing a strategic pivot from life sciences to natural resources.",
+   "headline": "Network Media Group Announces Theatrical Release of 'Man In Motion: The Rick Hansen Story'",
+   "summary": "Network Media Group Inc. and its subsidiary, Network Entertainment Inc., announced that their feature documentary, 'Man In Motion: The Rick Hansen Story,' will be released in select Cineplex theatres ",
    "source": "fiscal.ai",
-   "url": "https://www.investegate.co.uk/announcement/rns/tomahawk-metals-plc--tmhk/annual-financial-report-/9851367",
-   "created_at": "2026-11-01T09:02:23Z",
+   "url": "https://www.newswire.ca/news-releases/the-untold-story-of-rick-hansen-s-man-in-motion-world-tour-comes-to-cineplex-theatres-across-canada-november-1-and-3-814201671.html",
+   "created_at": "2026-11-01T14:04:06Z",
    "symbols": [
-    "TMHK"
+    "NTE"
    ],
    "image": ""
   },
   {
-   "headline": "Bernie Sanders Targets Elon Musk, Republican Megadonors Over $1.6 Billion in 2026 Election Spending: ‘Trying To Buy...’",
-   "summary": "Bernie Sanders criticizes Republican megadonors for spending $1.6 billion to influence the 2026 midterm elections.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/11/62765522/bernie-sanders-republican-megadonors-election-spending",
-   "created_at": "2026-11-01T08:57:49Z",
-   "symbols": [
-    "SPCX",
-    "TSLA"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/01/Elon-Musk-Technology-Entrepreneur-And-In.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Pete Buttigieg Blasts Trump and GOP Over 'Golden Age' Claims Ahead of Midterms: 'It's Time to Vote Them Out'",
-   "summary": "Buttigieg accused Trump, Republicans and corporate insiders of enriching themselves, urging voters to hold them accountable.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/11/62765483/pete-buttigieg-blasts-trump-and-gop-over-golden-age-claims-ahead-of-midterms-its-time-to-vote-them-out",
-   "created_at": "2026-11-01T08:32:34Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/01/Des-Moines--Iowa---September-21--2019-Pe.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Divio Technologies Releases Podcast Interview with CTO Ralf Brändli",
-   "summary": "Divio Technologies has published a podcast interview featuring CTO Ralf Brändli discussing the company's new platform.",
+   "headline": "Leonovus Inc. Announces Annual and Special Meeting of Shareholders",
+   "summary": "Leonovus Inc. has scheduled its Annual and Special Meeting of Shareholders for December 22, 2026, and confirmed it has applied to the TSXV to reinstate trading of its common shares.",
    "source": "fiscal.ai",
-   "url": "https://www.avanza.se/nyheter.html?a=%2Fnyheter%2Fforvaltaren-ar-trott-pa-ai-radslan-varldens-basta-business-2026-10-30",
-   "created_at": "2026-11-01T08:03:50Z",
+   "url": "https://www.tradingview.com/news/tmx_newsfile:49b6bb2e7094b:0-leonovus-announces-annual-and-special-meeting-of-shareholders/",
+   "created_at": "2026-11-01T14:04:06Z",
    "symbols": [
-    "DIVIO.B"
+    "LTV"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Vivakor Announces Proposed Hydrogen Plant and Fueling Station at a Texas International Airport",
+   "summary": "Vivakor, Inc. has received a nonbinding letter of intent to negotiate a lease for 12.9 acres at a major Texas international airport to develop a hydrogen production plant and fueling station.",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/10/30/3392258/0/en/vivakor-announces-proposed-hydrogen-plant-and-fueling-station-at-a-texas-international-airport.html",
+   "created_at": "2026-11-01T14:04:04Z",
+   "symbols": [
+    "VIVK"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "La Rosa Holdings Launches 'JAEME' AI Technology System",
+   "summary": "La Rosa Holdings Corp. has introduced its proprietary artificial intelligence technology system, JAEME, designed to assist real estate agents.",
+   "source": "fiscal.ai",
+   "url": "https://roxom.com/terminal/stocks/SDA/news",
+   "created_at": "2026-11-01T14:04:04Z",
+   "symbols": [
+    "SRTM"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Golden Rapture Mining Corporation Announces $700,000 Financing",
+   "summary": "Golden Rapture Mining Corporation has launched a private placement financing to raise gross proceeds of $700,000 through the issuance of flow-through and non-flow-through units.",
+   "source": "fiscal.ai",
+   "url": "https://www.newsfilecorp.com/release/321817/Golden-Rapture-Mining-Launches-700000-FlowThrough-and-NonFlowThrough-Financing",
+   "created_at": "2026-11-01T14:04:01Z",
+   "symbols": [
+    "GLDR"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "CIRO Imposes Trading Halt on Golden Rapture Mining Corporation",
+   "summary": "The Canadian Investment Regulatory Organization (CIRO) implemented a temporary trading halt on Golden Rapture Mining Corporation shares due to the improper dissemination of news.",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/10/30/3392571/0/en/canadian-investment-regulatory-organization-trading-halt-gldr.html",
+   "created_at": "2026-11-01T14:04:01Z",
+   "symbols": [
+    "GLDR"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Lexston Mining Corporation Announces Stock Option Grant",
+   "summary": "Lexston Mining Corporation has granted incentive stock options to certain directors, officers, and consultants to purchase up to 360,000 common shares.",
+   "source": "fiscal.ai",
+   "url": "https://www.thenewswire.com/press-releases/1AG9Flmoa-lexston-mining-corporation-announces-stock-option-grant.html",
+   "created_at": "2026-11-01T14:04:01Z",
+   "symbols": [
+    "LEXT"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Enerev5 Metals Inc. Adopts Semi-Annual Financial Reporting",
+   "summary": "Enerev5 Metals Inc. has transitioned to a semi-annual financial reporting framework under a regulatory blanket order to reduce administrative and financial burdens.",
+   "source": "fiscal.ai",
+   "url": "https://www.thenewswire.com/press-releases/1ArbFaRWm-enerev5-metals-inc-adopts-semi-annual-financial-reporting.html",
+   "created_at": "2026-11-01T14:04:00Z",
+   "symbols": [
+    "ENEV"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Clarity Metals Corp. Announces Share Consolidation and Name Change to Critical Copper Mining Corp.",
+   "summary": "Clarity Metals Corp. has implemented a three-for-one share consolidation and rebranded as Critical Copper Mining Corp., with trading under the new ticker symbol 'CCCU' effective October 30, 2026.",
+   "source": "fiscal.ai",
+   "url": "https://irw-press.com/en/clarity-announces-name-change-and-share-consolidation/",
+   "created_at": "2026-11-01T14:03:59Z",
+   "symbols": [
+    "CMET"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "iSpecimen Inc. Stockholders Approve Reverse Stock Split Proposal",
+   "summary": "iSpecimen Inc. stockholders have approved a proposal authorizing a reverse stock split at a ratio between 1-for-10 and 1-for-100.",
+   "source": "fiscal.ai",
+   "url": "https://fr.tradingview.com/news/urn:summary_document_transcript:quartr.com:4392238:0-ispc-stockholders-approved-a-reverse-split-proposal-with-a-board-set-ratio-from-1-for-10-to-1-for-100/",
+   "created_at": "2026-11-01T14:03:57Z",
+   "symbols": [
+    "ISPC"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "BioXcel Therapeutics Announces Executive Changes and Wind-Down Process",
+   "summary": "BioXcel Therapeutics terminated four officers and appointed Samir Saleem as president and secretary as part of a company wind-down.",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/tradingview:99c50592948a4:0-bioxcel-therapeutics-terminates-ceo-vimal-mehta-samir-saleem-named-president/",
+   "created_at": "2026-11-01T14:03:57Z",
+   "symbols": [
+    "BTAI"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Nerds On Site Reports Q1 Fiscal 2027 Financial Results",
+   "summary": "Nerds On Site Inc. reported a 76% improvement in operating results for the first quarter of fiscal 2027 and a 63% reduction in shareholder loss.",
+   "source": "fiscal.ai",
+   "url": "https://www.einpresswire.com/article/953469800/nerds-on-site-reports-76-improvement-in-operating-results-for-q1-fiscal-2027-and-63-reduction-in-shareholder-loss",
+   "created_at": "2026-11-01T14:03:56Z",
+   "symbols": [
+    "NERD"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "McLaren Resources Initiates Exploration Targeting Program on Timmins Area Gold Properties",
+   "summary": "McLaren Resources Inc. has launched an integrated satellite remote-sensing and predictive targeting program across its Blue Quartz, McCool, and Kerrs gold properties in Ontario.",
+   "source": "fiscal.ai",
+   "url": "https://www.newsfilecorp.com/news/mining-metals",
+   "created_at": "2026-11-01T14:03:50Z",
+   "symbols": [
+    "MCL"
    ],
    "image": ""
   }
