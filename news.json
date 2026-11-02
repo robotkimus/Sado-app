@@ -1,6 +1,19 @@
 {
- "updated": "2026-11-02 16:00",
+ "updated": "2026-11-02 17:00",
  "items": [
+  {
+   "headline": "S&P 500 Is Up '19 For 19 Times' In Midterm November-April Window, According To Ryan Detrick",
+   "summary": "S&amp;P 500 is up 19 for 19 times in the midterm November-April window. Read Ryan Detrick&#39;s historical data on the market&#39;s best six months.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/market-summary/26/11/62768845/sp-500-is-up-19-for-19-times-in-midterm-november-april-window-according-to-ryan-detrick",
+   "created_at": "2026-11-02T07:32:04Z",
+   "symbols": [
+    "DIA",
+    "QQQ",
+    "SPY"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/02/Stock-Market-Chart-With-Green-Candlestic.jpg?width=1024&height=768"
+  },
   {
    "headline": "Stock Market: Will S&P 500 Open Up or Down Today?",
    "summary": "Will the S&amp;P 500 open higher? Polymarket odds reach 76% as Wall Street weighs Apple earnings, easing oil prices, and Yardeni&#39;s market outlook.",
@@ -185,13 +198,68 @@
    "image": ""
   },
   {
-   "headline": "Release of DXVK-NVAPI 0.9.3",
-   "summary": "NVIDIA's NVAPI implementation, used by Valve for Steam Play with Proton, received a feature update to version 0.9.3.",
-   "source": "fiscal.ai",
-   "url": "https://lxer.com/module/newswire/view/368673/index.html",
-   "created_at": "2026-11-01T14:01:32Z",
+   "headline": "Trump Announces $4.3 Billion Fannie Mae, Freddie Mac Housing Push in Kansas to Help 15,000 Homebuyers Achieve ‘American Dream’",
+   "summary": "Trump announces a $4.3 billion Fannie Mae and Freddie Mac mortgage investment aimed at helping 15,000 Kansas residents buy homes next year.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/real-estate/26/11/62768999/trump-announces-4-3-billion-fannie-mae-freddie-mac-housing-push-in-kansas-to-help-15000-homebuyers-achieve-american-dream",
+   "created_at": "2026-11-02T07:42:52Z",
    "symbols": [
-    "NVDA"
+    "FMCC",
+    "FNMA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/02/Washington--February-22--2025-President-.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Former Counterterrorism Chief Joe Kent Warns Iran War Escalation Could Backfire: ‘Ending the War Is President Trump’s Best Option’",
+   "summary": "Joe Kent warns escalating the Iran war could hurt the U.S. and urges diplomacy, while Iran’s Mohsen Rezaee reiterates seven conditions.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/11/62768867/former-counterterrorism-chief-joe-kent-warns-iran-war-escalation-could-backfire-ending-the-war-is-president-trumps-best-option",
+   "created_at": "2026-11-02T07:35:43Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/02/Flags-Of-Usa-And-Iran.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "'Incredible' That Bitcoin Outperformed Gold Last Week Despite $6.3 Billion Binance Hack, Says Analyst",
+   "summary": "Cryptocurrency analyst Willy Woo noted on Sunday, November 1, that Bitcoin didn’t really lose its ground much following the massive Binance hack that unsettled the industry.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/11/62768774/bitcoin-outperforms-gold-6-billion-binance-hack-analyst",
+   "created_at": "2026-11-02T07:29:04Z",
+   "symbols": [
+    "BTCUSD",
+    "ETHUSD",
+    "IBIT",
+    "ZECUSD"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/02/Gold-Bars-And-Coins-On-Grey-Marble-Table.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Kevin O'Leary Says AI Is Keeping US Economy Resilient Despite Rising Costs: ‘Earnings Don't Put Food on the Table’",
+   "summary": "Kevin O&#39;Leary says the U.S. economy remains resilient but warns corporate earnings mask Americans&#39; affordability struggles.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/62768542/kevin-oleary-ai-economy-affordability-midterms",
+   "created_at": "2026-11-02T07:07:41Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/02/OLeary-Credits-Wifes-Rule-For-His-Wealth.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "PT Bayan Resources Tbk Schedules Extraordinary General Meeting of Shareholders for November 23, 2026",
+   "summary": "PT Bayan Resources Tbk has announced an Extraordinary General Meeting of Shareholders (RUPSLB) to be held on November 23, 2026, to discuss changes to its Board of Directors and Board of Commissioners.",
+   "source": "fiscal.ai",
+   "url": "https://www.cnbcindonesia.com/market/20261102092419-17-781406/usai-dicaplok-haji-isam-bayan--byan--rombak-direksi-komisaris",
+   "created_at": "2026-11-02T07:01:47Z",
+   "symbols": [
+    "BYAN"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Enersense and Steady Energy Announce Cooperation for Nuclear Heating Pilot",
+   "summary": "Enersense International Plc has entered into a cooperation agreement with Steady Energy to provide operation and maintenance services for a small nuclear heating plant pilot in Helsinki.",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/modular_finance:8c96184ef1394:0-enersense-to-partner-in-operation-and-maintenance-of-finland-s-first-small-nuclear-heating-plant-pilot/",
+   "created_at": "2026-11-02T07:01:41Z",
+   "symbols": [
+    "ESENSE"
    ],
    "image": ""
   },
@@ -406,72 +474,6 @@
    "created_at": "2026-11-02T02:03:36Z",
    "symbols": [
     "UAMY"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Anteris Technologies Reports Positive 30-Day Outcomes for Medium-Size DurAVR THV in EMBARK Study",
-   "summary": "Anteris Technologies announced 30-day clinical and hemodynamic results for its medium-size DurAVR Transcatheter Heart Valve, showing favorable performance in patients with severe aortic stenosis.",
-   "source": "fiscal.ai",
-   "url": "https://www.globenewswire.com/news-release/2026/11/01/3392800/0/en/anteris-reports-medium-size-duravr-thv-outcomes-from-the-embark-study-at-tct-2026.html",
-   "created_at": "2026-11-02T02:03:34Z",
-   "symbols": [
-    "AVR"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Insider Activity Reported for Horizon Kinetics Holding Corporation",
-   "summary": "Recent market data identifies Horizon Kinetics Holding Corporation (HKHC) among companies with notable insider buying activity.",
-   "source": "fiscal.ai",
-   "url": "https://wallstpal.com/insiders/cluster-buys/",
-   "created_at": "2026-11-02T02:03:29Z",
-   "symbols": [
-    "HKHC"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "OmniAb Achieves Self-Sustaining Cash Flow",
-   "summary": "OmniAb has reached a milestone of self-sustaining cash flow, eliminating the need for external investor funding to support its operations.",
-   "source": "fiscal.ai",
-   "url": "https://pluang.com/en/asset/usstock/CBOE/11546/news",
-   "created_at": "2026-11-02T02:03:27Z",
-   "symbols": [
-    "OABI"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Porch Group Files for Mixed Shelf Offering and Share Resale Registration",
-   "summary": "Porch Group, Inc. filed for a mixed shelf offering and registered shares for resale by the Porch Insurance Reciprocal Exchange.",
-   "source": "fiscal.ai",
-   "url": "https://www.moomoo.com/stock/PRCH-US/news?chain_id=Name1K9-3FXPhg.1l4r4o0&global_content=%7B%22promote_id%22%3A13764,%22sub_promote_id%22%3A59,%22f%22%3A%22www.moomoocn.com%2Foptions%2FSNDK260710P1390000-US%2Fcommunity%22%7D",
-   "created_at": "2026-11-02T02:03:19Z",
-   "symbols": [
-    "PRCH"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Canaccord Genuity Acts as Exclusive Financial Advisor to Perion in Acquisition by Affle",
-   "summary": "Canaccord Genuity is serving as the exclusive financial advisor to Perion Network Ltd. in connection with its proposed acquisition by Affle.",
-   "source": "fiscal.ai",
-   "url": "https://www.fidelity.com/news/article/mergers-and-acquisitions/202611010530BIZWIRE_USPR_____20261101_BW603052",
-   "created_at": "2026-11-02T02:03:15Z",
-   "symbols": [
-    "CF"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Rapport Therapeutics, Inc. 12-Month Price Target Adjusted",
-   "summary": "Rapport Therapeutics, Inc. received an updated 12-month price target of $68.29, reflecting a significant implied upside.",
-   "source": "fiscal.ai",
-   "url": "https://fr.tradingview.com/news/tradingview:3c1e0380e6b26:0-rapport-therapeutics-inc-stock-12-month-price-target-cut-to-68-29-implies-173-upside/",
-   "created_at": "2026-11-02T02:03:14Z",
-   "symbols": [
-    "RAPP"
    ],
    "image": ""
   }
