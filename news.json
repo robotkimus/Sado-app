@@ -1,6 +1,17 @@
 {
- "updated": "2026-11-02 10:00",
+ "updated": "2026-11-02 11:00",
  "items": [
+  {
+   "headline": "Trump Labels Jensen Huang ‘Very Aboveboard’ Amid Chinese Spy Report Fallout, but Says It Is a ‘Very Complex Issue’",
+   "summary": "Trump defended Nvidia CEO Jensen Huang after a report that a suspected Chinese spy targeted him, but said officials will look into it.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/62767381/trump-jensen-huang-nvidia-chinese-spy-report-fallout",
+   "created_at": "2026-11-02T01:38:22Z",
+   "symbols": [
+    "NVDA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/02/Washington-Dc-Usa---June-24--2025---Pres.jpg?width=1024&height=768"
+  },
   {
    "headline": "SOXX: Top Semiconductor ETF Targets $400 as AI Bubble Worries Linger",
    "summary": "The iShares Semiconductor ETF (NASDAQ: SOXX) has slumped into a bear market, falling from a record high of $656 in June to $471, its lowest level since July.",
@@ -189,13 +200,39 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/11/01/Jim-Cramer.jpg?width=1024&height=768"
   },
   {
-   "headline": "Meta Develops Humanoid Robot Prototype with Fourier",
-   "summary": "Meta is reportedly developing a humanoid robot prototype in collaboration with the Chinese startup Fourier.",
-   "source": "fiscal.ai",
-   "url": "https://www.fidelity.com/news/article/default/202610311213RTRSNEWSCOMBINED_KCN3WB0GF-OUSBS_1",
-   "created_at": "2026-11-01T01:01:35Z",
+   "headline": "Bitcoin, Ethereum, XRP, Dogecoin Hold Steady Despite Binance Hack; Analyst Warns History Points to ‘Significant’ BTC Correction After Midterms",
+   "summary": "Leading cryptocurrencies held steady Sunday, November 1, evening as investors weighed the fallout from the Binance hack and looked ahead to the midterm elections.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/11/62767403/bitcoin-ethereum-xrp-dogecoin-crypto-binance-hack",
+   "created_at": "2026-11-02T01:50:14Z",
    "symbols": [
-    "META"
+    "BMNR",
+    "BTCUSD",
+    "DOGEUSD",
+    "ETHUSD",
+    "MSTR"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/02/Bitcoin-Coins-On-Reflective-Black-Surfac.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Schall, Brown & Schwartz LLP Announces Investigation into TechCreate Group Ltd.",
+   "summary": "Shareholder rights litigation firm Schall, Brown & Schwartz LLP has launched an investigation into TechCreate Group Ltd. regarding potential violations of securities laws.",
+   "source": "fiscal.ai",
+   "url": "https://www.barchart.com/press-releases/8582346/tcglf-investors-have-opportunity-to-join-techcreate-group-ltd-fraud-investigation-with-sbs-law",
+   "created_at": "2026-11-02T01:02:08Z",
+   "symbols": [
+    "TCGLF"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "HashKey Group Partners with RD Technologies for RDUSD Deployment on HSK Chain",
+   "summary": "HashKey Group has announced a strategic partnership with RD Technologies to deploy the RDUSD stablecoin on the HSK Chain.",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/rd-technologies-upgrades-its-cross-border-payments-and-digital-finance-ecosystem-302925736.html",
+   "created_at": "2026-11-02T01:01:44Z",
+   "symbols": [
+    "3887"
    ],
    "image": ""
   },
@@ -444,39 +481,6 @@
    "created_at": "2026-11-01T20:02:00Z",
    "symbols": [
     "MEL"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Deutsche Bank Research Adjusts STMicroelectronics Price Target",
-   "summary": "Deutsche Bank Research has lowered its price target for STMicroelectronics from 70 euros to 65 euros while maintaining a 'Buy' rating.",
-   "source": "fiscal.ai",
-   "url": "https://www.finanznachrichten.de/nachrichten-medien/dpa-afx-analyser.htm",
-   "created_at": "2026-11-01T20:02:00Z",
-   "symbols": [
-    "STM"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Banco Sabadell Increases Price Target for Indra",
-   "summary": "Analysts at Banco Sabadell have raised their price target for Indra Sistemas, S.A. to 73 euros per share, citing the company's strong position in the European defense sector.",
-   "source": "fiscal.ai",
-   "url": "https://fr.tradingview.com/news/europapress:2e90cfee309cd:0/",
-   "created_at": "2026-11-01T20:01:59Z",
-   "symbols": [
-    "IDR"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "PolyPeptide Management and Board Members Tender Shares in Samsung Biologics Takeover",
-   "summary": "Members of PolyPeptide Group AG's management and board have tendered shares worth approximately 15.2 million CHF as part of the ongoing public takeover offer by Samsung Biologics.",
-   "source": "fiscal.ai",
-   "url": "https://www.finanzen.ch/nachrichten/aktien/polypeptide-aktie-management-dient-aktien-in-millionenhoehe-an-1036696033",
-   "created_at": "2026-11-01T20:01:58Z",
-   "symbols": [
-    "PPGN"
    ],
    "image": ""
   }
