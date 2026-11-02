@@ -1,6 +1,34 @@
 {
- "updated": "2026-11-02 17:00",
+ "updated": "2026-11-02 18:00",
  "items": [
+  {
+   "headline": "Nasdaq Tumbles Over 700 Points as Chip Stocks Fall: Investor Sentiment Weakens, Greed Index Remains in ‘Fear’ Zone",
+   "summary": "Markets fell as the Fear &amp; Greed Index slipped to 26, with Intel plunging 29% and tech stocks leading the decline.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/market-summary/26/11/62769481/nasdaq-tumbles-over-700-points-as-chip-stocks-fall-investor-sentiment-weakens-greed-index-remains-in-fear-zone",
+   "created_at": "2026-11-02T08:55:30Z",
+   "symbols": [
+    "AAPL",
+    "AMD",
+    "AMZN",
+    "EL",
+    "INTC"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/02/Market-sentiment---Fear-and-Greed.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Bill Ackman Says MSFT, AMZN and NFLX Fit His ‘Enormously Valuable’ 20-Year Investing Test",
+   "summary": "Bill Ackman calls Microsoft, Amazon, and Netflix &#39;enormously valuable&#39; stocks. Discover his 20-year investing rule for these tech giants.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/11/62769430/bill-ackman-says-msft-amzn-and-nflx-fit-his-enormously-valuable-20-year-investing-test",
+   "created_at": "2026-11-02T08:46:02Z",
+   "symbols": [
+    "AMZN",
+    "MSFT",
+    "NFLX"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/02/Mountain-View--California-Us---March-24-.jpg?width=1024&height=768"
+  },
   {
    "headline": "S&P 500 Is Up '19 For 19 Times' In Midterm November-April Window, According To Ryan Detrick",
    "summary": "S&amp;P 500 is up 19 for 19 times in the midterm November-April window. Read Ryan Detrick&#39;s historical data on the market&#39;s best six months.",
@@ -176,306 +204,281 @@
    "image": ""
   },
   {
-   "headline": "Cybersecurity Campaign Exploits Microsoft 365 Authentication Sessions",
-   "summary": "A sophisticated phishing campaign has compromised accounts across 79 organizations by exploiting authenticated sessions in Microsoft 365.",
-   "source": "fiscal.ai",
-   "url": "https://www.varindia.com/news/hackers-hijack-microsoft-365-without-passwords",
-   "created_at": "2026-11-01T14:01:33Z",
-   "symbols": [
-    "MSFT"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "President Trump Expresses Support for NVIDIA CEO Jensen Huang Amid Spy Plot Reports",
-   "summary": "President Donald Trump publicly voiced support for NVIDIA CEO Jensen Huang following reports that the executive was a target of a Chinese intelligence operation.",
-   "source": "fiscal.ai",
-   "url": "https://www.manilatimes.net/2026/11/01/world/trump-says-us-looking-closely-at-report-nvidia-ceo-target-of-china-spy-plot/2458925",
-   "created_at": "2026-11-01T14:01:32Z",
-   "symbols": [
-    "NVDA"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Trump Announces $4.3 Billion Fannie Mae, Freddie Mac Housing Push in Kansas to Help 15,000 Homebuyers Achieve ‘American Dream’",
-   "summary": "Trump announces a $4.3 billion Fannie Mae and Freddie Mac mortgage investment aimed at helping 15,000 Kansas residents buy homes next year.",
+   "headline": "Gavin Newsom Says Trump ‘Knows He’s Going to Lose’ in Midterms: ‘His Presidency as We Know It Will End’",
+   "summary": "Gavin Newsom predicts Trump will suffer a major midterm defeat, accuses him of corruption and urges voters to restore congressional oversight.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/real-estate/26/11/62768999/trump-announces-4-3-billion-fannie-mae-freddie-mac-housing-push-in-kansas-to-help-15000-homebuyers-achieve-american-dream",
-   "created_at": "2026-11-02T07:42:52Z",
-   "symbols": [
-    "FMCC",
-    "FNMA"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/02/Washington--February-22--2025-President-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Former Counterterrorism Chief Joe Kent Warns Iran War Escalation Could Backfire: ‘Ending the War Is President Trump’s Best Option’",
-   "summary": "Joe Kent warns escalating the Iran war could hurt the U.S. and urges diplomacy, while Iran’s Mohsen Rezaee reiterates seven conditions.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/11/62768867/former-counterterrorism-chief-joe-kent-warns-iran-war-escalation-could-backfire-ending-the-war-is-president-trumps-best-option",
-   "created_at": "2026-11-02T07:35:43Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/02/Flags-Of-Usa-And-Iran.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "'Incredible' That Bitcoin Outperformed Gold Last Week Despite $6.3 Billion Binance Hack, Says Analyst",
-   "summary": "Cryptocurrency analyst Willy Woo noted on Sunday, November 1, that Bitcoin didn’t really lose its ground much following the massive Binance hack that unsettled the industry.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/11/62768774/bitcoin-outperforms-gold-6-billion-binance-hack-analyst",
-   "created_at": "2026-11-02T07:29:04Z",
-   "symbols": [
-    "BTCUSD",
-    "ETHUSD",
-    "IBIT",
-    "ZECUSD"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/02/Gold-Bars-And-Coins-On-Grey-Marble-Table.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Kevin O'Leary Says AI Is Keeping US Economy Resilient Despite Rising Costs: ‘Earnings Don't Put Food on the Table’",
-   "summary": "Kevin O&#39;Leary says the U.S. economy remains resilient but warns corporate earnings mask Americans&#39; affordability struggles.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/11/62768542/kevin-oleary-ai-economy-affordability-midterms",
-   "created_at": "2026-11-02T07:07:41Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/02/OLeary-Credits-Wifes-Rule-For-His-Wealth.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "PT Bayan Resources Tbk Schedules Extraordinary General Meeting of Shareholders for November 23, 2026",
-   "summary": "PT Bayan Resources Tbk has announced an Extraordinary General Meeting of Shareholders (RUPSLB) to be held on November 23, 2026, to discuss changes to its Board of Directors and Board of Commissioners.",
-   "source": "fiscal.ai",
-   "url": "https://www.cnbcindonesia.com/market/20261102092419-17-781406/usai-dicaplok-haji-isam-bayan--byan--rombak-direksi-komisaris",
-   "created_at": "2026-11-02T07:01:47Z",
-   "symbols": [
-    "BYAN"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Enersense and Steady Energy Announce Cooperation for Nuclear Heating Pilot",
-   "summary": "Enersense International Plc has entered into a cooperation agreement with Steady Energy to provide operation and maintenance services for a small nuclear heating plant pilot in Helsinki.",
-   "source": "fiscal.ai",
-   "url": "https://www.tradingview.com/news/modular_finance:8c96184ef1394:0-enersense-to-partner-in-operation-and-maintenance-of-finland-s-first-small-nuclear-heating-plant-pilot/",
-   "created_at": "2026-11-02T07:01:41Z",
-   "symbols": [
-    "ESENSE"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "‘Healthcare Costs Have Never Been Higher’: Medical Prices Up 132% Since 2000, Outpacing Food and Shelter, Says Market Commentator",
-   "summary": "Kobeissi Letter: medical care prices up 132% since 2000, outpacing shelter, food, CPI.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/health-care/26/11/62768328/healthcare-costs-have-never-been-higher-medical-prices-up-132-since-2000-outpacing-food-and-shelter-says-market-commentator",
-   "created_at": "2026-11-02T06:50:41Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/02/Group-Of-Doctors-With-Face-Masks-Looking.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Ro Khanna Wants Congress To Use Vietnam War Funding Tactic to Stop Trump’s Iran Campaign: ‘That’s What We Did’",
-   "summary": "Rep. Ro Khanna urged Congress to cut funding for further Iran strikes, citing war costs and rising fuel prices as Trump weighs renewed action.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/11/62768317/ro-khanna-wants-congress-to-use-vietnam-war-funding-tactic-to-stop-trumps-iran-campaign-thats-what-we-did",
-   "created_at": "2026-11-02T06:50:19Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/02/Washington--Dc--September-27--2021-Rep--.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Silex Systems Initiated with A$7.50 Price Target",
-   "summary": "An analyst firm has initiated coverage on Silex Systems Limited with a price target of A$7.50 per share.",
-   "source": "fiscal.ai",
-   "url": "https://www.moomoo.com/hans/news/post/1003140314",
-   "created_at": "2026-11-02T06:32:40Z",
-   "symbols": [
-    "SLX"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Mesoblast Announces Board Rotational Changes and Retirements",
-   "summary": "Mesoblast Limited announced the upcoming retirement of board members William Burns and Dr. Philip Krause, as the company seeks to appoint new directors with global commercial expertise.",
-   "source": "fiscal.ai",
-   "url": "https://www.globenewswire.com/news-release/2026/11/01/3392805/0/en/mesoblast-board-changes.html",
-   "created_at": "2026-11-02T06:32:19Z",
-   "symbols": [
-    "MESO"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Can Republicans Flip Senate Swing States in the Midterms? Crypto Bettors Assign Odds",
-   "summary": "Cryptocurrency punters are assigning higher odds to Republicans failing to win any swing states in the upcoming midterms.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/prediction-markets/26/11/62767984/senate-swing-states-midterms-republicans-trump",
-   "created_at": "2026-11-02T06:03:19Z",
-   "symbols": [
-    "BTCUSD",
-    "POLUSD",
-    "ZECUSD"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/02/Toronto--Canada---September-13-2026-The-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "‘I Have a Better Idea’: Sanders Pitches Alternative to AI Data Centers He Says 66% of Americans Oppose",
-   "summary": "Bernie Sanders opposes expanding AI data centers, urging investment in affordable housing, hospitals, schools and childcare instead.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/11/62767908/bernie-sanders-ai-data-centers-affordable-homes-midterms",
-   "created_at": "2026-11-02T05:36:23Z",
-   "symbols": [
-    "SPCX"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/02/Philadelphia--Pa--Usa---May-1--2025-Sena.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Gary Black Says Tesla Is Losing EV Share to ‘No-Name’ Rivals Despite ‘Huge First-Mover Advantage’—Warns TSLA Needs Better Marketing",
-   "summary": "Gary Black says Tesla’s U.S. EV share fell from 80% to 52%, urging stronger marketing as rivals gain share in the sector.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/11/62767855/gary-black-says-tesla-is-losing-ev-share-to-no-name-rivals-despite-huge-first-mover-advantage-warns-tsla-needs-better-marketing",
-   "created_at": "2026-11-02T05:35:44Z",
-   "symbols": [
-    "F",
-    "GM",
-    "HMC",
-    "HYMLF",
-    "RIVN"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/02/Kaunas--Lithuania-2022---April-14-Tesla-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "‘Great For Our Farmers, Great For Our Country’: Trump Says ‘Concept of a Deal’ Reached With Canada",
-   "summary": "Trump said the U.S. is “very close” to a Canada trade deal and that Ottawa would pay for the Keystone pipeline, days before the midterms.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/economic-data/26/11/62767841/trump-touts-concept-of-deal-with-canada-ottawa-foot-bill-keystone-oil-pipeline",
-   "created_at": "2026-11-02T05:29:49Z",
-   "symbols": [
-    "SPY"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/02/Washington-D-c---Usa---February-4--2025-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Mark Carney Says He Had ‘Good Conversation’ With Trump on Trade Deal, Days After Saying Canada Could Wait for New US President",
-   "summary": "Carney and Trump revive trade talks with optimism, but tariffs remain unresolved and Keystone XL’s revival is uncertain.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/11/62767821/mark-carney-says-he-had-good-conversation-with-trump-on-trade-deal-days-after-saying-canada-could-wait-for-new-us-president",
-   "created_at": "2026-11-02T05:25:44Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/02/Mark-Carney-Donald-Trump.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Gavin Newsom Says Trump Delivering ‘Windfall’ Profits For 'Big Oil' Giants XOM, CVX Amid Iran War—Bernie Sanders Says Surge Is ‘Beyond Unacceptable’",
-   "summary": "Newsom and Sanders accuse Trump of enabling Big Oil windfalls as gas prices rise, citing surging ExxonMobil, Chevron and Shell profits.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/11/62767692/gavin-newsom-says-trump-delivering-windfall-profits-for-big-oil-giants-xom-cvx-amid-iran-war-bernie-sanders-says-surge-is-beyond-unacceptable",
-   "created_at": "2026-11-02T04:31:53Z",
-   "symbols": [
-    "CVX",
-    "SHEL",
-    "XOM"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/02/Sacramento--Ca---Jan-10--2024-Governor-G.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Trump Rolls Out $15 Billion Farm Aid Ahead of Midterms as Diesel, Fertilizer Costs Surge Amid Iran War",
-   "summary": "Trump announces over $15B in farm aid to offset soaring fuel and fertilizer costs, but economists warn its only a temporary relief.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/11/62767681/trump-rolls-out-15-billion-farm-aid-ahead-of-midterms-as-diesel-fertilizer-costs-surge-amid-iran-war",
-   "created_at": "2026-11-02T04:31:14Z",
+   "url": "https://www.benzinga.com/news/politics/26/11/62769470/gavin-newsom-says-trump-knows-hes-going-to-lose-in-midterms-his-presidency-as-we-know-it-will-end",
+   "created_at": "2026-11-02T08:54:38Z",
    "symbols": [],
    "image": "https://cdn.benzinga.com/files/images/story/2026/11/02/Former-President-Donald-J--Trump-Arrives.jpg?width=1024&height=768"
   },
   {
-   "headline": "Trump Welcomes Haley Stevens to GOP After Mike Rogers Endorsement, Says ‘I’d Love to Have Her’ in Republican Party",
-   "summary": "Trump praised Stevens for endorsing Republican Mike Rogers, saying he would welcome her into the GOP after her break with the party ranks.",
+   "headline": "Apple, Marriott International and 3 Stocks to Watch Heading Into Monday",
+   "summary": "Stocks in focus: Apple, Marriott and Estée Lauder report earnings; Inovio wins FDA approval, while U.S. Lime posts disappointing results.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/11/62767662/trump-welcomes-haley-stevens-to-gop-after-mike-rogers-endorsement",
-   "created_at": "2026-11-02T04:22:51Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/02/Sioux-City--Iowa--Usa---November-6--2016.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Netanyahu Reportedly Wants Trump to 'Immediately' Strike Iran After the Midterms: Here's What the Crypto Bettors Think the President Will Do",
-   "summary": "Cryptocurrency bettors are seeing higher chances of the U.S. attacking Iran after midterms amid President Donald Trump &#34;candid&#34; phone call with Israeli Prime Minister Benjamin Netanyahu.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/prediction-markets/26/11/62767651/netanyahu-trump-iran-strike-after-midterms-crypto-prediction-odds",
-   "created_at": "2026-11-02T04:22:01Z",
+   "url": "https://www.benzinga.com/markets/equities/26/11/62769458/apple-marriott-international-and-3-stocks-to-watch-heading-into-monday",
+   "created_at": "2026-11-02T08:52:23Z",
    "symbols": [
-    "BTCUSD",
-    "POLUSD",
-    "ZECUSD"
+    "AAPL",
+    "EL",
+    "INO",
+    "MAR",
+    "USLM"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/02/Washington-D-c---Usa---April-7--2025-Isr.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/02/Cupertino--California--September-25--202.jpg?width=1024&height=768"
   },
   {
-   "headline": "Elon Musk Blinks? Tesla’s Terafab May Reportedly Lean on TSMC After All",
-   "summary": "Tesla CEO Elon Musk is reportedly weighing a bigger role for TSMC in building and running his Terafab chip project in Texas.",
+   "headline": "Entergy Gears Up For Q3 Print; Here Are The Recent Forecast Changes From Wall Street's Most Accurate Analysts",
+   "summary": "Entergy reports Q3 Monday; analysts expect $1.70 EPS and $4.15B revenue. Dividend rose to 68¢, while analysts remain mostly bullish.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/11/62767635/elon-musk-tesla-terafab-tsmc-chip-production",
-   "created_at": "2026-11-02T04:13:11Z",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62769416/entergy-gears-up-for-q3-print-here-are-the-recent-forecast-changes-from-wall-streets-most-accurate-analysts",
+   "created_at": "2026-11-02T08:40:06Z",
    "symbols": [
+    "ETR"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/02/Operations-Research-Analysts.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "5 Stock Picks Last Month From Wall Street's Most Accurate Analysts",
+   "summary": "U.S. stocks fell Friday as Nasdaq dropped over 700 points; Benzinga highlighted top analysts’ latest calls on Allegro, Intel and Reddit.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62769336/5-stock-picks-last-month-from-wall-streets-most-accurate-analysts-7",
+   "created_at": "2026-11-02T08:34:53Z",
+   "symbols": [
+    "ALGM",
+    "ALNY",
     "INTC",
-    "TSLA",
-    "TSM"
+    "LHX",
+    "RDDT"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/02/Elon-Musk.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/02/Crypto-Trader-Investor-Broker-Using-Smar.jpg?width=1024&height=768"
   },
   {
-   "headline": "'98% Chose to Stay': Binance Hack Continues to Be Probed by Secret Service as Changpeng Zhao Touts 'Trust' in Platform",
-   "summary": "Most Binance users stayed put after the exchange reopened withdrawals following the hack, founder and former CEO Changpeng “CZ” Zhao said on Sunday, November 1.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/11/62767546/binance-hack-secret-service-investigation-changpeng-zhao-98-percent-stay",
-   "created_at": "2026-11-02T03:01:20Z",
-   "symbols": [
-    "BNBUSD",
-    "BTCUSD",
-    "ZECUSD"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/02/Dhaka--Bangladesh-22-September-2025bitco.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "ON Semiconductor Earnings Are Imminent; These Most Accurate Analysts Revise Forecasts Ahead Of Earnings Call",
-   "summary": "ON Semiconductor is expected to report Q3 EPS of $0.88 and $1.7B revenue; analysts recently cut targets despite mostly positive ratings.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62767518/on-semiconductor-earnings-are-imminent-these-most-accurate-analysts-revise-forecasts-ahead-of-earnings-call-3",
-   "created_at": "2026-11-02T02:47:51Z",
-   "symbols": [
-    "ON",
-    "SYNA"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/02/ON-Semiconductor-Corp.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Trump Says Iran War Will End ‘One Way or the Other’ Ahead of Midterms Tuesday: Dow Futures Rise 184 Points, Brent Crude Falls to $111",
-   "summary": "Trump said Sunday the U.S. has won in Iran and will end the war soon, with or without a deal, days before Tuesday’s midterm elections.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/economic-data/26/11/62767505/trump-iran-war-midterms-dow-futures-rise-brent-crude-111",
-   "created_at": "2026-11-02T02:44:14Z",
-   "symbols": [
-    "AAPL"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/02/Trump-At-A-White-House-Meeting.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Blend Labs, Inc. Announces Winners of Best in Banking Awards",
-   "summary": "Blend Labs, Inc. has announced the recipients of its annual Best in Banking Awards, recognizing financial institutions for their innovation and operational achievements using the company's platform.",
+   "headline": "Mitsubishi Corporation to Sell Stake in LNG Canada to Blackstone",
+   "summary": "Mitsubishi Corporation has announced the sale of a 49.9% stake in its interest in the LNG Canada project to funds managed by Blackstone for $1.6 billion.",
    "source": "fiscal.ai",
-   "url": "https://natlawreview.com/press-releases/blend-honors-seven-customers-best-banking-awards-forum-2026",
-   "created_at": "2026-11-02T02:03:52Z",
+   "url": "https://www.marketscreener.com/news/mitsubishi-makes-dt-lng-canada-partnership-a-specified-subsidiary-ce785fd8df81f725",
+   "created_at": "2026-11-02T08:33:10Z",
    "symbols": [
-    "BLND"
+    "8058"
    ],
    "image": ""
   },
   {
-   "headline": "United States Antimony Corporation Announces Expansion of Processing Capacity",
-   "summary": "United States Antimony Corporation is expanding its processing capacity and advancing a proposed joint venture to support U.S. defense and industrial customers.",
+   "headline": "Mitsubishi Electric Completes Acquisition of PCI Energy Solutions",
+   "summary": "Mitsubishi Electric Corporation has finalized its full acquisition of PCI Energy Solutions.",
    "source": "fiscal.ai",
-   "url": "https://m1.com/invest/stocks/UAMY",
-   "created_at": "2026-11-02T02:03:36Z",
+   "url": "https://ch.marketscreener.com/boerse-nachrichten/mitsubishi-electric-schliesst-vollstaendige-uebernahme-von-pci-energy-solutions-ab-ce785fd8df81f522",
+   "created_at": "2026-11-02T08:32:48Z",
    "symbols": [
-    "UAMY"
+    "6503"
    ],
    "image": ""
+  },
+  {
+   "headline": "Mizuho Financial Group to Participate in Anthropic's US IPO Investment",
+   "summary": "Mizuho Financial Group is reported to be among the Japanese investors participating in a $3.5 billion capital raise for AI company Anthropic ahead of its planned US IPO.",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/anthropic-targets-up-to-3-5-billion-from-japanese-investors-in-us-ipo-offering-ce785fd8df8ef527",
+   "created_at": "2026-11-02T08:32:34Z",
+   "symbols": [
+    "MFG"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "MUFG Completes EU Universal Bank Integration via MUFG Bank (Europe) Merger",
+   "summary": "Mitsubishi UFJ Financial Group (MUFG) has finalized the integration of its European operations into a single universal bank structure through the merger of MUFG Bank (Europe).",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/mufg-completes-eu-universal-bank-integration-via-mufg-bank-europe-merger-ce785fd8df81f624",
+   "created_at": "2026-11-02T08:32:05Z",
+   "symbols": [
+    "MUFG"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Vicore Pharma to Participate in Upcoming Healthcare Conferences",
+   "summary": "Vicore Pharma Holding AB announced its participation in the Guggenheim 3rd Annual Healthcare Innovation Conference and the Stifel 2026 Healthcare Conference in November 2026.",
+   "source": "fiscal.ai",
+   "url": "https://www.morningstar.com/news/accesswire/1245018msn/vicore-pharma-to-participate-in-the-guggenheim-annual-healthcare-innovation-conference-and-the-stifel-healthcare-conference",
+   "created_at": "2026-11-02T08:32:04Z",
+   "symbols": [
+    "VCRE"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Bavarian Nordic Completes Share Buy-Back Program",
+   "summary": "Bavarian Nordic A/S has successfully concluded its share buy-back program, reaching the planned aggregate value of approximately DKK 250 million.",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news/heathcare/biotechnology",
+   "created_at": "2026-11-02T08:32:03Z",
+   "symbols": [
+    "BAVA"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "FLSmidth Announces Share Buyback Transaction Details",
+   "summary": "FLSmidth & Co. A/S has released its transaction details for the share buyback program covering the period from October 26, 2026, to October 30, 2026.",
+   "source": "fiscal.ai",
+   "url": "https://www.manilatimes.net/2026/11/02/tmt-newswire/globenewswire/flsmidth-transactions-under-share-buy-back-programme/2459191",
+   "created_at": "2026-11-02T08:32:03Z",
+   "symbols": [
+    "FLS"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Ericsson Reports Share Buybacks for October 26-30, 2026",
+   "summary": "Ericsson repurchased 500,000 Class B shares between October 26 and October 30, 2026, as part of its ongoing buyback program.",
+   "source": "fiscal.ai",
+   "url": "https://www.morningstar.com/news/pr-newswire/20261102hs86529/share-buybacks-in-ericsson-during-the-period-october-26-october-30-2026",
+   "created_at": "2026-11-02T08:32:03Z",
+   "symbols": [
+    "ERIC"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Tencent Signs Pact With UnionPay for Cross-Border Remittances",
+   "summary": "Tencent has entered into a partnership with UnionPay to facilitate cross-border remittance services.",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/tencent-signs-pact-with-unionpay-for-cross-border-remittances-ce785fd8df8ef025",
+   "created_at": "2026-11-02T08:32:02Z",
+   "symbols": [
+    "700"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Hexagon Completes Acquisition of Waygate Technologies",
+   "summary": "Hexagon AB has finalized its acquisition of Waygate Technologies, a non-destructive testing specialist, from Baker Hughes.",
+   "source": "fiscal.ai",
+   "url": "https://www.morningstar.com/news/pr-newswire/20261102hs86507/hexagon-completes-acquisition-of-waygate-technologies",
+   "created_at": "2026-11-02T08:32:01Z",
+   "symbols": [
+    "HEXA.B"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Sinopec Releases First Global Biodiversity Conservation Report at COP17",
+   "summary": "China Petroleum & Chemical Corporation (Sinopec) has published its inaugural Global Biodiversity Conservation Report, detailing its integration of environmental protection into corporate governance an",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/in/news-releases/sinopec-releases-its-first-global-biodiversity-conservation-report-at-cop17-in-armenia-302926137.html",
+   "created_at": "2026-11-02T08:31:56Z",
+   "symbols": [
+    "600028"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "ABN AMRO Named Founding Partner for Upcoming UNSGSA Event",
+   "summary": "ABN AMRO has been announced as a founding partner for a one-day event organized in collaboration with the Office of the UNSGSA, scheduled for December 2, 2026, in Amsterdam.",
+   "source": "fiscal.ai",
+   "url": "https://natlawreview.com/press-releases/hm-queen-maxima-netherlands-and-european-central-bank-president-christine",
+   "created_at": "2026-11-02T08:31:55Z",
+   "symbols": [
+    "ABN"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Jyske Bank: Share Repurchase Programme Transactions for Week 44 2026",
+   "summary": "Jyske Bank has released its routine weekly disclosure regarding share repurchases conducted under its ongoing buyback program.",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news/banks-financial-services/banks",
+   "created_at": "2026-11-02T08:31:53Z",
+   "symbols": [
+    "JYSK"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Morningstar Raises Fair Value Estimate for CNOOC Limited",
+   "summary": "Morningstar has increased its fair value estimate for CNOOC Limited from HK$32.00 to HK$33.00.",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/hans/news/post/1003161901/zhitong-ah-statistics-november-2",
+   "created_at": "2026-11-02T08:31:53Z",
+   "symbols": [
+    "600938"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Asseco Poland Demonstrates PUSZCZYK Acoustic Detection System for Drone Monitoring",
+   "summary": "Asseco Poland, in collaboration with Ericsson and Play, showcased a drone detection and positioning solution using its PUSZCZYK acoustic system.",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/ericsson-brings-drone-detection-capabilities-to-mobile-networks-302926153.html",
+   "created_at": "2026-11-02T08:31:49Z",
+   "symbols": [
+    "ACP"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "OpenGate Capital Completes Acquisition of Maersk Training",
+   "summary": "OpenGate Capital has finalized its acquisition of Maersk Training, the global safety training and gas safety services division previously owned by A.P. Møller - Mærsk A/S.",
+   "source": "fiscal.ai",
+   "url": "https://www.morningstar.com/news/business-wire",
+   "created_at": "2026-11-02T08:31:48Z",
+   "symbols": [
+    "MAERSK.B"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Alstom Announces Preliminary H1 2026/27 Results and Adjusts Full-Year Outlook",
+   "summary": "Alstom has released preliminary first-half results for the 2026/27 fiscal year, reporting execution challenges in Europe that have led to an adjustment of its full-year guidance.",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news/industrials-utilities/industrials",
+   "created_at": "2026-11-02T08:31:46Z",
+   "symbols": [
+    "ALO"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Skanska Invests CZK 2.2 Billion in New Residential Project Phase in Prague",
+   "summary": "Skanska has announced a new investment of approximately CZK 2.2 billion (SEK 1 billion) for the next phase of a residential development in Prague, Czech Republic.",
+   "source": "fiscal.ai",
+   "url": "https://www.morningstar.com/news/pr-newswire",
+   "created_at": "2026-11-02T08:31:45Z",
+   "symbols": [
+    "SKA.B"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Malaysia Airlines Assessing Potential Amadeus System Breach",
+   "summary": "Malaysia Airlines is currently evaluating a potential security breach involving Amadeus systems.",
+   "source": "fiscal.ai",
+   "url": "https://www.manilatimes.net/author/reuters",
+   "created_at": "2026-11-02T08:31:43Z",
+   "symbols": [
+    "AMS"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Democratic ‘Blue Wave’ Could Become a ‘Red Undertow,’ Chinese Analyst Warns: Trump May Take ‘Risky Actions’ After Midterms",
+   "summary": "Chinese analyst questions a Democratic &#39;blue wave,&#39; warning Trump could pursue risky foreign policy moves despite midterm losses.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/11/62769298/democratic-blue-wave-could-become-a-red-undertow-chinese-analyst-warns-trump-may-take-risky-actions-after-midterms",
+   "created_at": "2026-11-02T08:23:41Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/02/Wilkes-barre--Pa---August-2--2018-Presid.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Jim Cramer Says Bears Want to ‘Derail’ Anthropic IPO as AI Valuation Fears Mount: ‘That Will Be the Straw’",
+   "summary": "Jim Cramer says bears may derail Anthropic’s IPO, making it a key test for AI valuations amid debates over losses, pricing and bubble risks.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/62769129/jim-cramer-says-bears-want-to-derail-anthropic-ipo-as-ai-valuation-fears-mount-that-will-be-the-straw",
+   "created_at": "2026-11-02T08:06:22Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/02/Chinas-Exports-Surge-Despite-US-Shortfal.jpg?width=1024&height=768"
   }
  ]
 }
