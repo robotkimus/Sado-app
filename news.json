@@ -1,6 +1,34 @@
 {
- "updated": "2026-11-03 15:00",
+ "updated": "2026-11-03 16:00",
  "items": [
+  {
+   "headline": "Stock Market: Will S&P 500 Open Up or Down Today?",
+   "summary": "Will the S&amp;P 500 open higher? Polymarket odds dip to 45% as Wall Street navigates Election Day, AMD earnings, and a volatile oil market.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/11/62806278/stock-market-will-sp-500-open-up-or-down-today-71",
+   "created_at": "2026-11-03T06:16:52Z",
+   "symbols": [
+    "AMD",
+    "AMGN",
+    "ANET",
+    "DIA",
+    "PFE"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/03/Stock-S-And-P-500-Index-Fund-Symbol-Is-O.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "'They Don't Want to Talk About It': Top Analyst Says Apple Has a Siri Problem in an Era of Personalized Agents",
+   "summary": "Analyst Gene Munster warns that AI agents could threaten Apple&#39;s ecosystem as questions mount over its AI strategy.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/62806242/apple-ai-agents-siri-earnings",
+   "created_at": "2026-11-03T06:11:53Z",
+   "symbols": [
+    "AAPL",
+    "META",
+    "SPCX"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/03/John-Ternus-Delivering-A-Speech-During-A.jpg?width=1024&height=768"
+  },
   {
    "headline": "Trump's ‘Mr. Veto’ Threat Hangs Over Wall Street: Tech Sell-Off Is ‘More Than Just A Correction,’ Analyst Says",
    "summary": "Tuesday&#39;s midterms follow a rough month for tech stocks, and Democratic odds have investors preparing for political gridlock.",
@@ -156,30 +184,48 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/11/02/Benzinga-Quick-Spark.jpg?width=1024&height=768"
   },
   {
-   "headline": "Jensen Huang Addresses CoreWeave Financial Position",
-   "summary": "NVIDIA CEO Jensen Huang publicly defended the financial health of CoreWeave, a company in which NVIDIA holds a significant stake and maintains a multi-billion dollar capacity commitment.",
+   "headline": "Commonwealth Bank Revises Housing Price Forecasts Amid Broader Market Downturn",
+   "summary": "Commonwealth Bank of Australia has significantly lowered its national dwelling price forecasts, now projecting a 14% peak-to-trough decline as the housing market correction accelerates.",
    "source": "fiscal.ai",
-   "url": "https://www.tradingview.com/news/tradingview:70bca6fb36e66:0-weekly-recap-danish-data-center-expansion-and-nvidia-capacity-purchase/",
-   "created_at": "2026-11-02T20:01:24Z",
+   "url": "https://www.commbank.com.au/articles/newsroom/2026/11/home-prices-record-downturn-commbank-economists.html",
+   "created_at": "2026-11-03T06:31:28Z",
    "symbols": [
-    "NVDA"
+    "CBA"
    ],
    "image": ""
   },
   {
-   "headline": "EXCLUSIVE: AI Bubble Risk Is Low, but SMH Faces a Bigger Threat Than QQQ, Expert Warns",
-   "summary": "Ai Funds founder Tal Schwartz&#39;s AI Bubble Pop Index puts AI bubble risk at just 3/20, but flags risks in chip ETFs, with SMH more vulnerable than QQQ.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/etfs/sector-etfs/26/11/62792415/ai-bubble-risk-is-low-but-smh-faces-a-bigger-threat-than-qqq-expert-warns",
-   "created_at": "2026-11-02T19:15:11Z",
+   "headline": "Fair Work Commission Upholds Commonwealth Bank's Dismissal of Senior Executive",
+   "summary": "The Fair Work Commission has ruled that Commonwealth Bank's dismissal of a senior home lending executive for misleading the bank regarding broker relationships was justified.",
+   "source": "fiscal.ai",
+   "url": "https://www.mpamag.com/au/news/general/cba-exec-lied-about-mortgage-broker-referral-relationship-tribunal-finds/595868",
+   "created_at": "2026-11-03T06:31:28Z",
    "symbols": [
-    "AIQ",
-    "AMZN",
-    "CSCO",
-    "GOOGL",
-    "META"
+    "CBA"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/02/Burry-Warns-AI-Bubble.jpg?width=1024&height=768"
+   "image": ""
+  },
+  {
+   "headline": "Mercer International (MERC) Shares Skyrocket 126% After-Hours: Here’s Why",
+   "summary": "Mercer stock jumps after-hours as recapitalization deal targets 88% senior note debt cut.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/11/62806181/mercer-international-merc-shares-skyrocket-126-after-hours-heres-why",
+   "created_at": "2026-11-03T06:02:32Z",
+   "symbols": [
+    "MERC"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/03/Stock-Market-Chart-stock-Market-Data-On-.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Marula Mining Completes Audited Financial Statements for Northern Cape Lithium & Tungsten",
+   "summary": "Marula Mining PLC has finalized the audited annual financial statements for its subsidiary, Northern Cape Lithium & Tungsten (NCLT), for the 2024, 2025, and 2026 financial years.",
+   "source": "fiscal.ai",
+   "url": "https://www.investegate.co.uk/announcement/rns/marula-mining-plc--maru/update-on-annual-accounts/9851744",
+   "created_at": "2026-11-03T06:01:38Z",
+   "symbols": [
+    "MARU"
+   ],
+   "image": ""
   },
   {
    "headline": "Thomas Massie Accuses Republican and Democratic Leaders of Secretly Working Together to Undermine Voters: 'That's How Your Election Will Get Stolen'",
@@ -410,50 +456,6 @@
    "created_at": "2026-11-03T03:01:57Z",
    "symbols": [
     "PWR"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Truist Securities Maintains Hold Rating and Raises Price Target on Range Resources",
-   "summary": "Truist Securities updated its analyst coverage for Range Resources, maintaining a Hold rating while increasing the price target to $51 from $43.",
-   "source": "fiscal.ai",
-   "url": "https://www.tradingview.com/news/tradingview:6501f167b522e:0/",
-   "created_at": "2026-11-03T03:01:54Z",
-   "symbols": [
-    "TFC"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "CrowdStrike and Dell Technologies Announce Integrated Cybersecurity for AI Infrastructure",
-   "summary": "CrowdStrike and Dell Technologies have launched a joint security solution designed to protect enterprise AI workloads and autonomous agents within the Dell AI Factory with NVIDIA.",
-   "source": "fiscal.ai",
-   "url": "https://af.net/realtime/crowdstrike-and-dell-launch-ai-security-for-nvidia-ai-factory/",
-   "created_at": "2026-11-03T03:01:52Z",
-   "symbols": [
-    "CRWD"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "The Williams Companies, Inc. Reports Third-Quarter 2026 Financial Results",
-   "summary": "The Williams Companies, Inc. reported third-quarter 2026 net income of $699 million and adjusted EBITDA of $2.039 billion, while announcing the closure of its acquisition of Momentum Midstream.",
-   "source": "fiscal.ai",
-   "url": "https://www.tradingview.com/news/tradingview:4d3ef18f18437:0-williams-reports-6-adjusted-ebitda-growth-0-54-adjusted-eps/",
-   "created_at": "2026-11-03T03:01:50Z",
-   "symbols": [
-    "WMB"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "The Cigna Group Objects to Tokenized Share Listing",
-   "summary": "The Cigna Group has formally objected to a plan by OKX-ICE TSV to offer tokenized shares of the company.",
-   "source": "fiscal.ai",
-   "url": "https://www.tradingview.com/news/tradingview:034db565a09ce:0-weekly-recap-dividend-declared-and-tokenized-share-listing-objection/",
-   "created_at": "2026-11-03T03:01:48Z",
-   "symbols": [
-    "CI"
    ],
    "image": ""
   }
