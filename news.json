@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03 12:00",
+ "updated": "2026-11-03 13:00",
  "items": [
   {
    "headline": "NVIDIA Begins Shipping Vera Rubin Platform",
@@ -179,6 +179,219 @@
    "image": ""
   },
   {
+   "headline": "Jim Cramer Calls Out 'Pretty Thick' Negativity on Apple, Palantir and Marvell: 'No Matter What They Say, It Isn't Enough'",
+   "summary": "CNBC’s Jim Cramer is not buying Monday’s selloff in Apple, Palantir and Marvell as the tech slump stretches into a new week.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/62805810/jim-cramer-says-negativity-toward-apple-palantir-marvell-pretty-thick",
+   "created_at": "2026-11-03T03:25:37Z",
+   "symbols": [
+    "AAPL",
+    "GOOGL",
+    "INTC",
+    "LITE",
+    "MRVL"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/03/New-York-City---October-5-2017-The-Brook.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "3M Company Files Form 4 for Insider Transaction",
+   "summary": "3M Company reported an insider transaction involving Jonathan G. Van Wyck in a Form 4 filing with the SEC.",
+   "source": "fiscal.ai",
+   "url": "https://www.streetinsider.com/news.php?id=27274013&classic=1",
+   "created_at": "2026-11-03T03:02:22Z",
+   "symbols": [
+    "MMM"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Xcel Energy Appoints Hanna Grene as Vice President of Enterprise Growth and Commercialization",
+   "summary": "Xcel Energy has named Hanna Grene as its new vice president of Enterprise Growth and Commercialization, effective November 16, 2026.",
+   "source": "fiscal.ai",
+   "url": "https://natlawreview.com/press-releases/xcel-energy-names-hanna-grene-vp-enterprise-growth-and-commercialization",
+   "created_at": "2026-11-03T03:02:10Z",
+   "symbols": [
+    "XEL"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Visa Insider Executes Share Sale",
+   "summary": "A Visa Inc. insider sold shares valued at $251,244 according to a recent SEC filing.",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/visa-insider-sold-shares-worth-251-244-according-to-a-recent-sec-filing-ce785fd9da8df622",
+   "created_at": "2026-11-03T03:02:08Z",
+   "symbols": [
+    "V"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "General Motors and Other Automakers Back Trump Administration in Fuel Economy Legal Challenge",
+   "summary": "General Motors and a coalition of major automakers have filed a legal brief supporting the Trump administration's efforts to defend new, lower vehicle fuel economy standards against a lawsuit from sev",
+   "source": "fiscal.ai",
+   "url": "https://www.fidelity.com/news/article/default/202611021914RTRSNEWSCOMBINED_L2N46J160_1",
+   "created_at": "2026-11-03T03:02:03Z",
+   "symbols": [
+    "GM"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "ServiceNow Acquires Cybersecurity Firm Armis for $7.75 Billion",
+   "summary": "ServiceNow has acquired cybersecurity company Armis in a transaction valued at $7.75 billion.",
+   "source": "fiscal.ai",
+   "url": "https://fr.tradingview.com/news/tradingview:a560acd77b716:0-weekly-recap-q3-outlook-miss-and-7-75-billion-armis-acquisition/",
+   "created_at": "2026-11-03T03:02:02Z",
+   "symbols": [
+    "NOW"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Royal Caribbean Launches Cruise-Themed Experiences at KidZania Santa Fe",
+   "summary": "Royal Caribbean has introduced a travel-adviser role-play activity and a ship-inspired climbing wall at the KidZania Santa Fe indoor attraction in Mexico City.",
+   "source": "fiscal.ai",
+   "url": "https://travelprnews.com/article/royal-caribbean-opens-cruise-travel-role-play-and-climbing-experiences-at-kidzania-santa-fe/",
+   "created_at": "2026-11-03T03:02:02Z",
+   "symbols": [
+    "RCL"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Marathon Petroleum Shares Impacted by Potential Diesel Export Ban Assessment",
+   "summary": "Marathon Petroleum shares declined following reports that the U.S. government is assessing the feasibility of a ban on diesel exports to address inflationary pressures.",
+   "source": "fiscal.ai",
+   "url": "https://www.futunn.com/en/options/IEP261120P7000-US/news",
+   "created_at": "2026-11-03T03:01:58Z",
+   "symbols": [
+    "MPC"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Analyst Coverage Updates for Quanta Services",
+   "summary": "Financial analysts from Oppenheimer and Bernstein issued updated research notes on Quanta Services, maintaining positive ratings while adjusting price targets.",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/oppenheimer-adjusts-quanta-services-price-target-to-800-from-835-maintains-outperform-rating-ce785fd9d98bf023",
+   "created_at": "2026-11-03T03:01:57Z",
+   "symbols": [
+    "PWR"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Truist Securities Maintains Hold Rating and Raises Price Target on Range Resources",
+   "summary": "Truist Securities updated its analyst coverage for Range Resources, maintaining a Hold rating while increasing the price target to $51 from $43.",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/tradingview:6501f167b522e:0/",
+   "created_at": "2026-11-03T03:01:54Z",
+   "symbols": [
+    "TFC"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "CrowdStrike and Dell Technologies Announce Integrated Cybersecurity for AI Infrastructure",
+   "summary": "CrowdStrike and Dell Technologies have launched a joint security solution designed to protect enterprise AI workloads and autonomous agents within the Dell AI Factory with NVIDIA.",
+   "source": "fiscal.ai",
+   "url": "https://af.net/realtime/crowdstrike-and-dell-launch-ai-security-for-nvidia-ai-factory/",
+   "created_at": "2026-11-03T03:01:52Z",
+   "symbols": [
+    "CRWD"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "The Williams Companies, Inc. Reports Third-Quarter 2026 Financial Results",
+   "summary": "The Williams Companies, Inc. reported third-quarter 2026 net income of $699 million and adjusted EBITDA of $2.039 billion, while announcing the closure of its acquisition of Momentum Midstream.",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/tradingview:4d3ef18f18437:0-williams-reports-6-adjusted-ebitda-growth-0-54-adjusted-eps/",
+   "created_at": "2026-11-03T03:01:50Z",
+   "symbols": [
+    "WMB"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "The Cigna Group Objects to Tokenized Share Listing",
+   "summary": "The Cigna Group has formally objected to a plan by OKX-ICE TSV to offer tokenized shares of the company.",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/tradingview:034db565a09ce:0-weekly-recap-dividend-declared-and-tokenized-share-listing-objection/",
+   "created_at": "2026-11-03T03:01:48Z",
+   "symbols": [
+    "CI"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Cheniere Energy Prices $1.2 Billion Senior Notes Offering",
+   "summary": "Cheniere Energy, Inc. announced the pricing of $1.2 billion in senior notes due 2037, with proceeds intended for general corporate purposes including debt refinancing.",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/seekingalpha:550e1238d094b:0-cheniere-prices-1-2b-of-senior-notes-due-2037/",
+   "created_at": "2026-11-03T03:01:48Z",
+   "symbols": [
+    "LNG"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Boston Scientific and Blackstone Life Sciences Announce $455 Million Co-Funding Agreement",
+   "summary": "Boston Scientific and Blackstone Life Sciences entered a $455 million agreement to co-fund the development of the Vitalyst heart pump system.",
+   "source": "fiscal.ai",
+   "url": "https://www.morningstar.com/news/dow-jones/2026110212378/blackstone-boston-scientific-sign-455-million-deal-to-co-fund-heart-pump",
+   "created_at": "2026-11-03T03:01:47Z",
+   "symbols": [
+    "BSX"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Athabasca Oil Corporation Files Management Information Circular for Cenovus Energy Acquisition",
+   "summary": "Athabasca Oil Corporation has filed its management information circular for a special meeting of shareholders to vote on the previously announced acquisition by Cenovus Energy Inc.",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/02/3393799/0/en/athabasca-files-management-information-circular-for-arrangement-with-cenovus.html",
+   "created_at": "2026-11-03T03:01:46Z",
+   "symbols": [
+    "CVE"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Freedom Broker Maintains ONEOK at Buy, Raises Price Target to $110",
+   "summary": "Freedom Broker reaffirmed its 'Buy' rating on ONEOK, Inc. and increased its price target for the company's stock from $105 to $110.",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/tradingview:e69b2f2c9d8a8:0-freedom-broker-maintains-oneok-at-buy-raises-price-target-to-110-from-105/",
+   "created_at": "2026-11-03T03:01:45Z",
+   "symbols": [
+    "OKE"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Disney Reportedly Planning Workforce Reductions",
+   "summary": "Reports indicate that The Walt Disney Company is planning to lay off thousands of employees as part of a cost-cutting initiative.",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/news/post/1003253492/reports-indicate-that-disney-disus-plans-to-lay-off-thousands",
+   "created_at": "2026-11-03T03:01:45Z",
+   "symbols": [
+    "DIS"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Citi Releases 2026 Wealth AI Pulse Survey Results for Hong Kong",
+   "summary": "Citi Hong Kong published its 2026 Wealth AI Pulse Survey, highlighting consumer attitudes toward AI in wealth management and the continued importance of human trust.",
+   "source": "fiscal.ai",
+   "url": "https://www.media-outreach.com/news/hong-kong/2026/11/03/498598/citi-wealth-ai-pulse-survey-hong-kong-consumers-embrace-ai-but-still-want-humans-in-the-drivers-seat/",
+   "created_at": "2026-11-03T03:01:43Z",
+   "symbols": [
+    "C"
+   ],
+   "image": ""
+  },
+  {
    "headline": "‘Absurd Rhetoric’: Kim Jong Un’s Sister Dismisses $6.3 Billion Binance Hack Accusation Against North Korea, Calls It a ‘Grave Political Provocation’",
    "summary": "North Korea rejected on Monday, October 2, U.S. allegations that it carried out a cryptocurrency theft exceeding $6 billion from Binance, the world&#39;s largest cryptocurrency trading platform.",
    "source": "benzinga",
@@ -251,219 +464,6 @@
    "created_at": "2026-11-03T01:32:07Z",
    "symbols": [],
    "image": "https://cdn.benzinga.com/files/images/story/2026/11/03/Sacramento--Ca---Oct-28--2025-Gavin-News.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Apple, Palantir, Marvell Technology, Oracle and Aehr Test Systems: Why These 5 Stocks Are on Investors' Radars Today",
-   "summary": "Major indices closed mixed on Monday, with the Dow Jones Industrial Average gaining 0.41% to 51,983.98.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/11/62805372/apple-palantir-marvell-technology-oracle-and-aehr-test-systems-why-these-5-stocks-are-on-investors-radars-today",
-   "created_at": "2026-11-03T01:16:25Z",
-   "symbols": [
-    "AAPL",
-    "AEHR",
-    "LITE",
-    "MRVL",
-    "ORCL"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/03/Stock-Market-Analysis-Shows-Trading-Patt.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Prenetics Global Chief Financial Officer to Resign",
-   "summary": "Prenetics Global Limited announced that its Chief Financial Officer, Stephen Hoi Chun Lo, has tendered his resignation, effective December 30, 2026.",
-   "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/prenetics-global-chief-financial-officer-to-resign-ce785fd9db8ef12d",
-   "created_at": "2026-11-03T01:03:01Z",
-   "symbols": [
-    "PRE"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "J-Star Holding Co., Ltd. Receives Shareholder Approval for Capital Restructuring",
-   "summary": "J-Star Holding announced that shareholders approved key capital restructuring initiatives during an extraordinary general meeting held on October 29, 2026.",
-   "source": "fiscal.ai",
-   "url": "https://www.globenewswire.com/news-release/2026/11/02/3393835/0/en/j-star-holding-co-ltd-receives-shareholder-approval-for-capital-restructuring-and-reinforces-strategic-focus-on-u-s-growth.html",
-   "created_at": "2026-11-03T01:02:14Z",
-   "symbols": [
-    "YMAT"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Haoxin Holdings Limited Provides Shareholder Update Regarding Broker-Assisted Trading for HXHX Shares",
-   "summary": "Haoxin Holdings Limited issued an update to shareholders regarding potential brokerage-specific requirements for trading the company's Class A ordinary shares.",
-   "source": "fiscal.ai",
-   "url": "https://www.newsfilecorp.com/release/322074/Haoxin-Holdings-Limited-Provides-Shareholder-Update-Regarding-BrokerAssisted-Trading-for-HXHX-Shares",
-   "created_at": "2026-11-03T01:02:09Z",
-   "symbols": [
-    "HXHX"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Pomdoctor Limited Receives Nasdaq Deficiency Notifications",
-   "summary": "Pomdoctor Limited announced it received two letters from Nasdaq regarding deficiencies in meeting continued listing requirements for the Nasdaq Global Market.",
-   "source": "fiscal.ai",
-   "url": "https://www.prnewswire.com/news-releases/pomdoctor-limited-announces-receipt-of-nasdaq-notifications-regarding-continued-listing-requirements-302925899.html",
-   "created_at": "2026-11-03T01:02:04Z",
-   "symbols": [
-    "POM"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Baird Medical Enters Strategic Distribution Agreement with China Resources Medical Devices",
-   "summary": "Baird Medical has signed an exclusive distribution agreement with China Resources Pharmaceutical Commercial Group Medical Devices to expand the reach of its microwave ablation products in China.",
-   "source": "fiscal.ai",
-   "url": "https://www.globenewswire.com/news-release/2026/11/02/3393118/0/en/baird-medical-and-china-resources-pharmaceutical-commercial-group-medical-devices-sign-strategic-distribution-agreement-to-expand-access-to-microwave-ablation-in-china.html",
-   "created_at": "2026-11-03T01:02:04Z",
-   "symbols": [
-    "BDMD"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Luda Technology Enters Mongolia-China Coal Trading Market",
-   "summary": "Luda Technology Group Limited has launched a new coal trading business, securing agreements to supply 440,000 metric tons of Mongolian thermal coal to two Chinese customers over the next year.",
-   "source": "fiscal.ai",
-   "url": "https://www.tradingview.com/news/tradingview:720b8cc48b053:0-luda-technology-group-limited-lud-enters-coal-trading-with-440-000-ton-commitments/",
-   "created_at": "2026-11-03T01:02:02Z",
-   "symbols": [
-    "LUD"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "BNY to Waive Issuance Fees for Foresight Autonomous Holdings ADS Conversion",
-   "summary": "As the depositary for Foresight Autonomous Holdings' ADS program, BNY will waive issuance fees for converting Ordinary Shares into ADSs through January 7, 2027, in connection with Foresight's voluntar",
-   "source": "fiscal.ai",
-   "url": "https://www.globenewswire.com/news-release/2026/11/02/3393711/0/en/foresight-reminds-shareholders-of-upcoming-tase-delisting-and-encourages-conversion-of-ordinary-shares-into-nasdaq-traded-adss-bny-to-waive-issuance-fees-through-january-7-2027.html",
-   "created_at": "2026-11-03T01:02:02Z",
-   "symbols": [
-    "BNY"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Luda Technology Acquires 55% Stake in AI Data Centre Firm",
-   "summary": "Luda Technology Group Limited has acquired a 55% controlling interest in Asia AI Data Centre & Quantum Technology for a total consideration of $935,000.",
-   "source": "fiscal.ai",
-   "url": "https://www.tradingview.com/news/tradingview:d790e6aae37d2:0-luda-technology-group-limited-lud-buys-55-of-ai-data-quant-tech-for-935k/",
-   "created_at": "2026-11-03T01:02:02Z",
-   "symbols": [
-    "LUD"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Rectitude Holdings Ltd Announces Acquisition of Mr. Butler Pte. Ltd.",
-   "summary": "Rectitude Holdings Ltd has entered into a definitive share purchase agreement to acquire 100% of the Singapore-based service company Mr. Butler.",
-   "source": "fiscal.ai",
-   "url": "https://www.globenewswire.com/news-release/2026/11/02/3393086/0/en/rectitude-holdings-ltd-announces-acquisition-of-mr-butler-pte-ltd-and-executes-business-migration-agreements-with-inos-and-g-l.html",
-   "created_at": "2026-11-03T01:02:01Z",
-   "symbols": [
-    "RECT"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "HashKey Exchange Advances Collaboration with Baillie Gifford",
-   "summary": "HashKey Exchange is expanding its partnership with asset manager Baillie Gifford to explore tokenized investment product opportunities for professional investors in Hong Kong.",
-   "source": "fiscal.ai",
-   "url": "https://www.einpresswire.com/article/953874094/hashkey-exchange-collaborates-with-baillie-gifford-to-explore-potential-opportunities-in-tokenised-investment-products",
-   "created_at": "2026-11-03T01:02:01Z",
-   "symbols": [
-    "3887"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "HashKey Group Joins HKMA's EnsembleTX Initiative as Industry Pioneer",
-   "summary": "HashKey Group has become an Industry Pioneer of the Hong Kong Monetary Authority's (HKMA) EnsembleTX initiative to explore the commercial application of tokenized deposits.",
-   "source": "fiscal.ai",
-   "url": "https://www.prnewswire.com/news-releases/hashkey-group-joined-the-hkmas-ensembletx-as-an-industry-pioneer-302926509.html",
-   "created_at": "2026-11-03T01:02:01Z",
-   "symbols": [
-    "3887"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "VNET Group, Inc. Stock 12-Month Price Target Adjusted by Analysts",
-   "summary": "Analysts have updated their 12-month price target for VNET Group, Inc. to $11.83, down from the previous average of $12.29.",
-   "source": "fiscal.ai",
-   "url": "https://www.tradingview.com/news/tradingview:707dbf62f238d:0-vnet-group-inc-stock-12-month-price-target-cut-to-11-83-implies-267-upside/",
-   "created_at": "2026-11-03T01:01:59Z",
-   "symbols": [
-    "VNET"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "The GrowHub Enters African Market Through Strategic Agreement in Guinea-Bissau",
-   "summary": "The GrowHub Limited has entered into a strategic cooperation agreement with Strategic Management Consortium LLC to explore sustainability and carbon-related opportunities in Guinea-Bissau.",
-   "source": "fiscal.ai",
-   "url": "https://www.prlog.org/13180455-the-growhub-enters-african-market-through-strategic-agreement-in-guinea-bissau.html",
-   "created_at": "2026-11-03T01:01:58Z",
-   "symbols": [
-    "TGHL"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Valeura Energy Inc. to Present at Oil & Gas Virtual Investor Conference",
-   "summary": "Valeura Energy Inc. is scheduled to participate in the upcoming Oil & Gas Virtual Investor Conference on November 5, 2026.",
-   "source": "fiscal.ai",
-   "url": "https://www.globenewswire.com/news-release/2026/11/02/3393177/0/en/oil-gas-virtual-investor-conference-agenda-announced-for-november-5th.html",
-   "created_at": "2026-11-03T01:01:57Z",
-   "symbols": [
-    "VLE"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Skyline Builders Group Terminates Business Combination Agreement with Cove Kaz Capital",
-   "summary": "Skyline Builders Group Holding Limited and Cove Kaz Capital Group LLC have mutually agreed to terminate their previously announced business combination agreement.",
-   "source": "fiscal.ai",
-   "url": "https://www.globenewswire.com/news-release/2026/11/02/3393234/0/en/skyline-builders-group-holding-provides-update-on-previously-announced-business-combination-agreement-with-cove-kaz-capital.html",
-   "created_at": "2026-11-03T01:01:55Z",
-   "symbols": [
-    "KAZR"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Black Spade Acquisition III Co Secures $200,000 Promissory Note from Sponsor",
-   "summary": "Black Spade Acquisition III Co has entered into an unsecured promissory note agreement with its sponsor to fund expenses related to its proposed business combination.",
-   "source": "fiscal.ai",
-   "url": "https://fr.tradingview.com/news/tradingview:e9fb2cdc41fd5:0-black-spade-acquisition-iii-secures-up-to-200-000-from-sponsor-for-business-combination-costs/",
-   "created_at": "2026-11-03T01:01:55Z",
-   "symbols": [
-    "BIII.U"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Lotus Technology Receives Nasdaq Minimum Bid Price Deficiency Notice",
-   "summary": "Lotus Technology Inc. has been notified by Nasdaq that it is not in compliance with the exchange's minimum bid price requirement.",
-   "source": "fiscal.ai",
-   "url": "https://www.globenewswire.com/news-release/2026/11/02/3393832/0/en/lotus-tech-announces-receipt-of-nasdaq-notification-regarding-minimum-bid-price.html",
-   "created_at": "2026-11-03T01:01:53Z",
-   "symbols": [
-    "LOT"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Gamehaus Holdings Inc. Announces Agreement to Acquire 56% Stake in Techforge Co., Ltd.",
-   "summary": "Gamehaus Holdings Inc. has entered into a definitive agreement to acquire a 56% stake in Techforge Co., Ltd., the holding company of AI-powered content platform Anamana, for $19.6 million in shares an",
-   "source": "fiscal.ai",
-   "url": "https://www.prnewswire.com/news-releases/gamehaus-signs-definitive-agreement-to-acquire-majority-stake-in-anamana-302926152.html",
-   "created_at": "2026-11-03T01:01:52Z",
-   "symbols": [
-    "GMHS"
-   ],
-   "image": ""
   }
  ]
 }
