@@ -1,6 +1,28 @@
 {
- "updated": "2026-11-04 12:00",
+ "updated": "2026-11-04 13:00",
  "items": [
+  {
+   "headline": "BlackRock, Inc. Files Major Holdings Notification for TeamViewer SE",
+   "summary": "BlackRock, Inc. disclosed a change in its voting rights position regarding TeamViewer SE, following a threshold crossing on October 29, 2026.",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/tradingview:e4472746cca69:0-teamviewer-se-tmv-receives-blackrock-voting-rights-notification/",
+   "created_at": "2026-11-04T03:01:55Z",
+   "symbols": [
+    "BLK"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "CVS Health Explores Potential Separation of Retail Pharmacy Business",
+   "summary": "CVS Health is reportedly considering a strategic separation of its retail pharmacy division from its insurance and pharmacy benefit management operations.",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/stocktwits:9ca831348094b:0-cvs-stock-rises-after-hours-on-alleged-pharmacy-spin-off-ahead-of-q3-earnings-report/",
+   "created_at": "2026-11-04T03:01:52Z",
+   "symbols": [
+    "CVS"
+   ],
+   "image": ""
+  },
   {
    "headline": "AMD, Super Micro Computer, Arista Networks, Astera Labs and Nvidia: Why These 5 Stocks Are on Investors' Radars Today",
    "summary": "Major U.S. indices closed mixed on Tuesday, with the Dow Jones Industrial Average falling 0.38% to 51,786.72.",
@@ -168,24 +190,147 @@
    "image": ""
   },
   {
-   "headline": "Scotiabank Adjusts Price Target on Vertex Pharmaceuticals to $660",
-   "summary": "Scotiabank has increased its price target for Vertex Pharmaceuticals to $660 from $558.",
+   "headline": "Aeries Technology to Report Second-Quarter Fiscal 2027 Results on November 5, 2026",
+   "summary": "Aeries Technology has announced that it will release its financial results for the second quarter of fiscal year 2027 on November 5, 2026.",
    "source": "fiscal.ai",
-   "url": "https://www.moomoo.com/news/post/1003332159/scotiabank-adjusts-price-target-on-vertex-pharmaceuticals-to-660-from",
-   "created_at": "2026-11-03T19:02:43Z",
+   "url": "https://www.streetinsider.com/Press+Releases?before_id=27277527",
+   "created_at": "2026-11-04T03:32:28Z",
    "symbols": [
-    "VRTX"
+    "AERT"
    ],
    "image": ""
   },
   {
-   "headline": "BlackRock, Inc. Increases Stake in Inchcape PLC",
-   "summary": "BlackRock, Inc. reported an increase in its voting rights in Inchcape PLC to 5.95%, up from a previous 5.00% position.",
-   "source": "fiscal.ai",
-   "url": "https://www.investegate.co.uk/announcement/rns/inchcape--inch/holding-s-in-company/9856325",
-   "created_at": "2026-11-03T19:01:38Z",
+   "headline": "AMD, Super Micro Shares Jump After-Hours as Lisa Su Eyes 80% Growth in 2027; Analyst Calls SMCI Print ‘One of the Best Prints of the Season’",
+   "summary": "AMD’s bullish 2027 outlook and Super Micro’s explosive revenue growth highlight surging AI infrastructure demand.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/62850898/amd-super-micro-growth-forecast-revenue",
+   "created_at": "2026-11-04T03:16:16Z",
    "symbols": [
-    "BLK"
+    "AMD",
+    "SMCI",
+    "TSX:SCMI"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/04/Amd-Chairman-And-Ceo-Lisa-Su-Delivers-Th.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Super Micro Pops Above 7% in After-Hours: Executive Says a Single AI Order Now Big Enough to ‘Exceed’ an Entire Quarter From a Year Ago",
+   "summary": "Super Micro rose 7.20% after hours after a beat and higher outlook. CFO Mark Long said one AI deployment can top a year-ago quarter.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/earnings/26/11/62850873/super-micro-computer-cfo-mark-long-ai-order-exceed-year-ago-quarter",
+   "created_at": "2026-11-04T03:09:55Z",
+   "symbols": [
+    "SMCI"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/04/Super-Micro--supermicro.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Monteverde & Associates PC Announces Investigation into Lumentum Holdings Inc. Acquisition",
+   "summary": "Class action law firm Monteverde & Associates PC has launched an investigation into the proposed acquisition of Lumentum Holdings Inc. by Marvell Technology.",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/hareholder-alert-the-ma-class-action-firm-announces-an-investigation-of-lumentum-holdings-inc-nasdaq-lite-302927878.html",
+   "created_at": "2026-11-04T03:02:04Z",
+   "symbols": [
+    "LITE"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Datadog Announces General Availability of New Real User Monitoring Capabilities",
+   "summary": "Datadog has launched three new features for its Real User Monitoring (RUM) suite, including code-level performance profiling, session archiving, and continuous data exports.",
+   "source": "fiscal.ai",
+   "url": "https://www.varindia.com/news/datadog-adds-profiling-archiving-and-data-exports-to-monitoring-suite",
+   "created_at": "2026-11-04T03:02:01Z",
+   "symbols": [
+    "DDOG"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Boeing Releases Long-Term Aviation Forecast for the Middle East",
+   "summary": "Boeing projects that the Middle East's commercial aircraft fleet will double to over 3,500 planes by 2045, driven by regional travel growth.",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/seekingalpha:fe7bca4a0094b:0-boeing-forecasts-middle-east-aircraft-fleet-to-double-by-2045/",
+   "created_at": "2026-11-04T03:01:56Z",
+   "symbols": [
+    "BA"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Johnson Controls Employees Named 2026 SIA Women in Security Forum Scholarship Winners",
+   "summary": "Two Johnson Controls employees were among the 12 recipients of the 2026 Security Industry Association (SIA) Women in Security Forum Scholarship.",
+   "source": "fiscal.ai",
+   "url": "https://www.sdmmag.com/articles/105969-security-industry-association-announces-2026-sia-women-in-security-forum-scholarship-winners",
+   "created_at": "2026-11-04T03:01:52Z",
+   "symbols": [
+    "JCI"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Suncor Energy Reports Third Quarter 2026 Financial Results",
+   "summary": "Suncor Energy reported record third-quarter adjusted funds from operations of $6.7 billion and announced an increase in share repurchases and dividends.",
+   "source": "fiscal.ai",
+   "url": "https://www.newsfilecorp.com/release/322407/Suncor-Energy-reports-third-quarter-2026-results",
+   "created_at": "2026-11-04T03:01:52Z",
+   "symbols": [
+    "SU"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Goldman Sachs Files Major Holdings Notification for AUTO1 Group SE",
+   "summary": "The Goldman Sachs Group, Inc. disclosed a change in its voting rights regarding AUTO1 Group SE following a threshold crossing on October 27, 2026.",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/tradingview:328ae12ca398e:0-auto1-group-ag1-receives-goldman-sachs-voting-rights-notification/",
+   "created_at": "2026-11-04T03:01:47Z",
+   "symbols": [
+    "GS"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Walmart-Backed OnePay Enables Stablecoin Deposits",
+   "summary": "OnePay, a fintech app backed by Walmart, has launched a feature allowing customers to deposit stablecoins directly into their checking accounts.",
+   "source": "fiscal.ai",
+   "url": "https://www.pymnts.com/cybersecurity/2026/walmart-backed-onepay-lets-customers-turn-stablecoins-into-checking-dollars/",
+   "created_at": "2026-11-04T03:01:44Z",
+   "symbols": [
+    "WMT"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Moody's Participates in RealAssets Technologies & Labs Conference on Financial Infrastructure",
+   "summary": "Representatives from Moody's participated in a conference in New York focused on the evolution of blockchain-based financial infrastructure and the role of stablecoins.",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/03/3394515/0/en/assets-on-blockchain-2026-marks-a-turning-point-from-tokenization-to-functioning-financial-markets.html",
+   "created_at": "2026-11-04T03:01:41Z",
+   "symbols": [
+    "MCO"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Apple Announces AI-Powered Health App and Developer Tools",
+   "summary": "Apple unveiled a redesigned, AI-powered Health app and new developer tools for Siri AI integration, with features set to roll out in upcoming software updates.",
+   "source": "fiscal.ai",
+   "url": "https://www.pymnts.com/fitness/2026/apple-readies-launch-of-ai-powered-health-app/",
+   "created_at": "2026-11-04T03:01:41Z",
+   "symbols": [
+    "AAPL"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "JPMorgan Chase Files Quarterly Report on Form 10-Q",
+   "summary": "JPMorgan Chase & Co. has filed its Quarterly Report on Form 10-Q for the period ending September 30, 2026, with the U.S. Securities and Exchange Commission.",
+   "source": "fiscal.ai",
+   "url": "https://investingnews.com/jpmorganchase-files-form-10-q-for-the-quarter-ended-september-30-2026/",
+   "created_at": "2026-11-04T03:01:33Z",
+   "symbols": [
+    "JPM"
    ],
    "image": ""
   },
@@ -327,149 +472,6 @@
    "created_at": "2026-11-04T01:02:04Z",
    "symbols": [
     "AAPG"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Jin Medical Provides Wheelchairs and Accessibility Support for 12th Jiangsu Provincial Games for Persons with Disabilities",
-   "summary": "Jin Medical International Ltd. announced it is supplying professional wheelchairs and accessibility services for the 12th Jiangsu Provincial Games for Persons with Disabilities.",
-   "source": "fiscal.ai",
-   "url": "https://www.prnewswire.com/news-releases/jin-medical-supports-the-12th-jiangsu-provincial-games-for-persons-with-disabilities-with-professional-wheelchairs-and-accessibility-services-302927915.html",
-   "created_at": "2026-11-04T01:02:02Z",
-   "symbols": [
-    "ZJYL"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Analyst Actions Following Marriott International's Q3 2026 Earnings",
-   "summary": "Following the release of third-quarter 2026 results, several financial institutions updated their ratings and price targets for Marriott International.",
-   "source": "fiscal.ai",
-   "url": "https://www.tradingview.com/news/seekingalpha:e2a641e30094b:0-freedom-broker-downgrades-marriott-to-hold-raises-pt-to-439/",
-   "created_at": "2026-11-04T01:02:01Z",
-   "symbols": [
-    "MAR"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Jadestone Energy Provides Operational and Strategic Update",
-   "summary": "Jadestone Energy reported a rise in group production to approximately 19,000 boepd and provided updates on its key assets, including the Montara and Akatara fields, as well as progress on regulatory r",
-   "source": "fiscal.ai",
-   "url": "https://www.investegate.co.uk/announcement/rns/jadestone-energy--jse/operational-update/9854494",
-   "created_at": "2026-11-04T01:02:00Z",
-   "symbols": [
-    "JSE"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Aurora Mobile's EngageLab Partners with SKYWORTH Solar",
-   "summary": "Aurora Mobile announced that its EngageLab customer engagement platform has been deployed by SKYWORTH Solar to support its international business operations.",
-   "source": "fiscal.ai",
-   "url": "https://www.globenewswire.com/news-release/2026/11/03/3394075/0/en/aurora-mobile-s-engagelab-partners-with-skyworth-solar-to-support-global-channel-operations-and-project-delivery-with-apppush.html",
-   "created_at": "2026-11-04T01:02:00Z",
-   "symbols": [
-    "JG"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "STAK Inc. Announces Management Changes",
-   "summary": "STAK Inc. has appointed Mr. Xiaofei Han as its new Chief Financial Officer, while announcing the resignations of its former CFO and CTO.",
-   "source": "fiscal.ai",
-   "url": "https://www.prnewswire.com/news-releases/stak-inc-announces-changes-in-management-302927207.html",
-   "created_at": "2026-11-04T01:02:00Z",
-   "symbols": [
-    "STAK"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Scully Royalty Receives Additional Trading Period From NYSE for Delayed 2025 Form 20-F Filing",
-   "summary": "Scully Royalty Ltd. has been granted an extension by the NYSE to file its 2025 Annual Report on Form 20-F, with a new deadline of January 31, 2027.",
-   "source": "fiscal.ai",
-   "url": "https://www.tradingview.com/news/reuters.com,2026-11-04:newsml_Tnw2bKMTq:0-scully-royalty-receives-additional-trading-period-from-nyse-for-delayed-filing-of-2025-form-20-f/",
-   "created_at": "2026-11-04T01:02:00Z",
-   "symbols": [
-    "SRL"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "HashKey Holdings Chairman and CEO Xiao Feng Increases Stake",
-   "summary": "HashKey Holdings Limited Chairman, Executive Director, and CEO Xiao Feng increased his shareholding in the company through an on-market purchase.",
-   "source": "fiscal.ai",
-   "url": "https://www.tradingview.com/news/gelonghui:9304a13b8e3f9:0/",
-   "created_at": "2026-11-04T01:01:59Z",
-   "symbols": [
-    "3887"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Himax Opens Pre-orders for WiseGuard™ Smart Sensor Evaluation Kit Through DigiKey",
-   "summary": "Himax Technologies has launched pre-orders for its WiseGuard™ smart sensor evaluation kit via global distributor DigiKey, with module shipments expected to begin in mid-November 2026.",
-   "source": "fiscal.ai",
-   "url": "https://www.prnewswire.com/news-releases/himax-opens-pre-orders-for-wiseguard-smart-sensor-evaluation-kit-through-digikey-bringing-ultralow-power-edge-ai-sensing-to-security-applications-302927839.html",
-   "created_at": "2026-11-04T01:01:58Z",
-   "symbols": [
-    "HIMX"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Sohu Video Announces Strategy to Reintroduce US TV Series and Movies",
-   "summary": "Sohu founder and CEO Charles Zhang announced at the 2026 World Internet Conference that the company is restarting its US drama strategy to bring high-quality American content to its platform.",
-   "source": "fiscal.ai",
-   "url": "https://www.tradingview.com/news/gelonghui:80eb28a2de3f9:0/",
-   "created_at": "2026-11-04T01:01:58Z",
-   "symbols": [
-    "SOHU"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Prenetics' IM8 Names Brian J. Rosin as Successor Chief Financial Officer",
-   "summary": "Prenetics Global Limited announced that Brian J. Rosin will succeed Stephen Lo as Chief Financial Officer, effective December 31, 2026.",
-   "source": "fiscal.ai",
-   "url": "https://www.globenewswire.com/news-release/2026/11/03/3394353/0/en/prenetics-im8-names-brian-j-rosin-as-successor-chief-financial-officer.html",
-   "created_at": "2026-11-04T01:01:56Z",
-   "symbols": [
-    "PRE"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Procter & Gamble Closes €3.25 Billion Public Offering of Notes",
-   "summary": "The Procter & Gamble Company completed a €3.25 billion public offering of notes across four different maturities.",
-   "source": "fiscal.ai",
-   "url": "https://www.tradingview.com/news/tradingview:d7740684661dd:0-procter-gamble-closes-3-25-billion-offering-of-notes/",
-   "created_at": "2026-11-04T01:01:55Z",
-   "symbols": [
-    "PG"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "PS International Group Ltd. Announces Unaudited Financial Results for the Six Months Ended June 30, 2026",
-   "summary": "PS International Group Ltd. reported its unaudited financial results for the first half of 2026, highlighting a revenue increase alongside a widened net loss.",
-   "source": "fiscal.ai",
-   "url": "https://www.globenewswire.com/news-release/2026/11/03/3394599/0/en/ps-international-group-ltd-announces-first-half-2026-unaudited-financial-results.html",
-   "created_at": "2026-11-04T01:01:54Z",
-   "symbols": [
-    "PSIG"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Steppe Gold Releases 2025 ESG Report",
-   "summary": "Steppe Gold Ltd. has published its 2025 Environmental, Social and Governance (ESG) report, marking its fourth annual sustainability disclosure and second integrated report covering its Altan Tsagaan-O",
-   "source": "fiscal.ai",
-   "url": "https://www.newsfilecorp.com/release/322275/Steppe-Gold-Releases-2025-ESG-Report",
-   "created_at": "2026-11-04T01:01:52Z",
-   "symbols": [
-    "STGO"
    ],
    "image": ""
   }
