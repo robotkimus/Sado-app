@@ -1,6 +1,21 @@
 {
- "updated": "2026-11-04 15:00",
+ "updated": "2026-11-04 16:00",
  "items": [
+  {
+   "headline": "Dow Futures Fall as Democrats Take Control of Congress: Peter Schiff Warns Trump Now Has a ‘Scapegoat’ for the ‘Coming Economic Collapse’",
+   "summary": "U.S. stock futures fell early Wednesday as Democrats won the Senate and moved to the brink of taking the House.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/11/62851943/stock-futures-fall-democrats-win-senate-midterms-peter-schiff-anthony-scaramucci",
+   "created_at": "2026-11-04T06:35:59Z",
+   "symbols": [
+    "AMZN",
+    "CRWV",
+    "GOOG",
+    "MSFT",
+    "SPCX"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/04/Trump.jpg?width=1024&height=768"
+  },
   {
    "headline": "Stock Market: Will S&P 500 Open Up or Down Today?",
    "summary": "Will the S&amp;P 500 open higher? Polymarket odds plunge to 22% as Wall Street digests midterm results, a tech futures drop, and key earnings.",
@@ -182,15 +197,68 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/11/03/Charts-Of-Financial-Instruments-With-Var.jpg?width=1024&height=768"
   },
   {
-   "headline": "Nvidia Stock Climbs Amid Oil Price Drop",
-   "summary": "Nvidia is rising Tuesday as chipmakers rebound from a sharp Friday selloff, aided by lower oil prices and optimism over potential Iran talks.",
+   "headline": "Barack Obama Calls on Democrats to 'Roll Up' Their Sleeves and Prevent 'Further Damage' After Midterm Election Wins: 'A Clear Message'",
+   "summary": "Barack Obama says midterm victories signal demand for unity, urging Democrats to act and “prevent further damage” over the next two years.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/11/62838137/nvidia-stock-climbs-amid-oil-price-drop",
-   "created_at": "2026-11-03T19:43:30Z",
+   "url": "https://www.benzinga.com/news/politics/26/11/62852177/barack-obama-calls-on-democrats-to-roll-up-their-sleeves-and-prevent-further-damage-after-midterm-election-wins-a-clear-message",
+   "created_at": "2026-11-04T06:53:34Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/04/Chicago--Illinois-Usa---08-20-2024-Democ.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Limbach Holdings (LMB) Shares Jump 19% After-Hours Tuesday: Here’s Why",
+   "summary": "Limbach stock jumps 19% after-hours Tuesday after record third-quarter revenue and a high-end outlook.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/11/62851898/limbach-holdings-lmb-shares-jump-19-after-hours-tuesday-heres-why",
+   "created_at": "2026-11-04T06:26:23Z",
    "symbols": [
-    "NVDA"
+    "LMB"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/03/Los-Angeles--California---July-6-2025-Nv.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/04/Stock-Market-Graph-Trading-Analysis-Inve.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Trump Touts 'VETO' Hat as Democrats Poised to Take Congress, Says He'll Become a 'Political Pundit' on Wins and Losses",
+   "summary": "Trump touted a &#39;VETO&#39; cap as Democrats scored major midterm victories, signaling a potential showdown with a Democratic-controlled Congress.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/11/62851883/trump-veto-hat-midterm-results-bad-news-republicans",
+   "created_at": "2026-11-04T06:23:55Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/04/Democrats-Say-Hardship-Is-Growing.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Trump May Be Impeached ‘Multiple Times’ if Dems Have the House, Warns Ted Cruz — Crypto Bettors Raise the Stakes",
+   "summary": "Cryptocurrency punters sharply raised odds that President Donald Trump would be impeached before his term ends, as early midterm results pointed to a Democratic sweep of Congress.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/11/62851870/trump-impeachment-odds-midterms-ted-cruz",
+   "created_at": "2026-11-04T06:23:28Z",
+   "symbols": [
+    "BTCUSD",
+    "POLUSD",
+    "ZECUSD"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/04/President-Donald-J--Trump-Delivers-Remar.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "International General Insurance Holdings Declares Quarterly Dividend",
+   "summary": "International General Insurance Holdings Ltd. declared a quarterly dividend of $0.075 per share, payable on December 2, 2026.",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/seekingalpha:a63f686ac094b:0-international-general-insurance-holdings-declares-0-075-dividend/",
+   "created_at": "2026-11-04T06:02:10Z",
+   "symbols": [
+    "IGIC"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "International General Insurance Holdings Ltd. Reports Third Quarter and First Nine Months of 2026 Financial Results",
+   "summary": "International General Insurance Holdings Ltd. (IGI) announced its unaudited financial results for the third quarter and first nine months of 2026, reporting net income of $28.0 million for the third q",
+   "source": "fiscal.ai",
+   "url": "https://insurancenewsnet.com/oarticle/igi-reports-third-quarter-and-first-nine-months-of-2026-unaudited-financial-results-and-declares-ordinary-common-share-dividend",
+   "created_at": "2026-11-04T06:02:10Z",
+   "symbols": [
+    "IGIC"
+   ],
+   "image": ""
   },
   {
    "headline": "'I Wasn't on the Ballot': Trump Says 'Absolutely Willing' to Accept Results as Democrats Take Control of Senate",
@@ -393,78 +461,6 @@
     "GS"
    ],
    "image": ""
-  },
-  {
-   "headline": "Walmart-Backed OnePay Enables Stablecoin Deposits",
-   "summary": "OnePay, a fintech app backed by Walmart, has launched a feature allowing customers to deposit stablecoins directly into their checking accounts.",
-   "source": "fiscal.ai",
-   "url": "https://www.pymnts.com/cybersecurity/2026/walmart-backed-onepay-lets-customers-turn-stablecoins-into-checking-dollars/",
-   "created_at": "2026-11-04T03:01:44Z",
-   "symbols": [
-    "WMT"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Moody's Participates in RealAssets Technologies & Labs Conference on Financial Infrastructure",
-   "summary": "Representatives from Moody's participated in a conference in New York focused on the evolution of blockchain-based financial infrastructure and the role of stablecoins.",
-   "source": "fiscal.ai",
-   "url": "https://www.globenewswire.com/news-release/2026/11/03/3394515/0/en/assets-on-blockchain-2026-marks-a-turning-point-from-tokenization-to-functioning-financial-markets.html",
-   "created_at": "2026-11-04T03:01:41Z",
-   "symbols": [
-    "MCO"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Apple Announces AI-Powered Health App and Developer Tools",
-   "summary": "Apple unveiled a redesigned, AI-powered Health app and new developer tools for Siri AI integration, with features set to roll out in upcoming software updates.",
-   "source": "fiscal.ai",
-   "url": "https://www.pymnts.com/fitness/2026/apple-readies-launch-of-ai-powered-health-app/",
-   "created_at": "2026-11-04T03:01:41Z",
-   "symbols": [
-    "AAPL"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "JPMorgan Chase Files Quarterly Report on Form 10-Q",
-   "summary": "JPMorgan Chase & Co. has filed its Quarterly Report on Form 10-Q for the period ending September 30, 2026, with the U.S. Securities and Exchange Commission.",
-   "source": "fiscal.ai",
-   "url": "https://investingnews.com/jpmorganchase-files-form-10-q-for-the-quarter-ended-september-30-2026/",
-   "created_at": "2026-11-04T03:01:33Z",
-   "symbols": [
-    "JPM"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Democrats Are Now Crypto Punters' Favorite to Flip Senate and House With 98% Odds — Peter Schiff Takes a Dig at Republicans as Early Results Roll In",
-   "summary": "Cryptocurrency punters are almost certain that Democrats will sweep both the Senate and the House, as the first midterm results roll in.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/prediction-markets/26/11/62850799/midterm-elections-democrats-republicans-prediction-market-peter-schiff",
-   "created_at": "2026-11-04T02:49:46Z",
-   "symbols": [
-    "BTCUSD",
-    "POLUSD",
-    "ZECUSD"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/04/MG-7884.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Cathie Wood Scoops Up Palantir After Earnings, Ark Sells CrowdStrike, Alphabet Shares",
-   "summary": "Ark bought Palantir across five funds after GOOG reported its first $2 billion revenue quarter. The fund sold Alphabet and CrowdStrike shares.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/etfs/broad-u-s-equity-etfs/26/11/62850704/cathie-wood-scoops-up-palantir-after-earnings-ark-sells-crowdstrike-alphabet-shares",
-   "created_at": "2026-11-04T02:23:43Z",
-   "symbols": [
-    "ARKF",
-    "ARKK",
-    "ARKQ",
-    "ARKW",
-    "ARKX"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/04/New-York-City--New-York---July-14-2025-A.jpg?width=1024&height=768"
   }
  ]
 }
