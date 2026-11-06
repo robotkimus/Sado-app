@@ -1,6 +1,17 @@
 {
- "updated": "2026-11-06 13:00",
+ "updated": "2026-11-06 14:00",
  "items": [
+  {
+   "headline": "Nvidia Stock Loses $1.39 Trillion Since October Peak — Jim Cramer Says NVDA Can 'Buy and Reload'",
+   "summary": "Nvidia lost nearly $450 billion in market value Thursday, and CNBC’s Jim Cramer said the AI darling should buy its own stock.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/62966118/jim-cramer-nvidia-buy-and-reload-stock-selloff-october-high",
+   "created_at": "2026-11-06T04:32:56Z",
+   "symbols": [
+    "NVDA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/06/Jensen-Huang-Nvidias-Founder--President-.jpg?width=1024&height=768"
+  },
   {
    "headline": "Trump Blames 'Dumocrats' as Stock Market Suffers $3 Trillion Rout After Democrats Win Congress: 'Your 401(k)s Have Dropped'",
    "summary": "Donald Trump blamed Democrats for a rout that erased about $3 trillion from the S&amp;P 500 and handed the Nasdaq 100 its worst day since 2020",
@@ -181,15 +192,39 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/11/05/Gav-Blaxberg.jpg?width=1024&height=768"
   },
   {
-   "headline": "Scout Clean Energy's Nimbus Wind Farm Achieves Commercial Operations",
-   "summary": "Scout Clean Energy has brought its Nimbus Wind Farm in Arkansas online, with Microsoft serving as the primary offtaker through a power purchase agreement.",
-   "source": "fiscal.ai",
-   "url": "https://www.globenewswire.com/news-release/2026/11/05/3396771/0/en/scout-clean-energy-s-nimbus-wind-farm-achieves-commercial-operations-supporting-microsoft-s-clean-energy-portfolio.html",
-   "created_at": "2026-11-05T20:01:30Z",
+   "headline": "Ross Gerber Says Tesla's 'Good Old Days' Ended When Elon Musk Started Selling Shares to Buy Twitter",
+   "summary": "Investor Ross Gerber misses Tesla’s early-2020s heyday, blaming Musk’s 2022 Twitter purchase and Tesla’s shift from cars to robots.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/62966184/ross-gerber-says-teslas-good-old-days-ended-when-elon-musk-started-selling-shares-to-buy-twitter",
+   "created_at": "2026-11-06T04:42:24Z",
    "symbols": [
-    "MSFT"
+    "TSLA"
    ],
-   "image": ""
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/06/Kaunas--Lithuania-2022---April-14-Tesla-.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Scaramucci Sees a 'Second Chance' as Bitcoin Erases Gains Since Trump's November 2024 Election Victory",
+   "summary": "Bitcoin&#39;s latest pullback offers investors who missed the last bull run another chance to get in, SkyBridge Capital founder Anthony Scaramucci said on Thursday, November 5.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/11/62966183/anthony-scaramucci-bitcoin-pullback-second-chance",
+   "created_at": "2026-11-06T04:42:15Z",
+   "symbols": [
+    "BTCUSD",
+    "ZECUSD"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/06/Washington--Dcusa---April-26--2018-Antho.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Relief for SpaceX? Elon Musk's Texas Election Bet Backfires, But Democrats Extend an Olive Branch: 'Please Take It,' Says Anthony Scaramucci",
+   "summary": "Elon Musk’s Texas election setback raises data center concerns, but Democrats signal willingness to work with him.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/space/26/11/62966105/musk-texas-election-spacex-data-centers",
+   "created_at": "2026-11-06T04:29:58Z",
+   "symbols": [
+    "SPCX",
+    "TSLA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/06/Paris--France---February-3--2026-A-Horiz.jpg?width=1024&height=768"
   },
   {
    "headline": "Yatra Online, Inc. to Host Second Quarter 2027 Financial Results Call",
@@ -433,39 +468,6 @@
    "created_at": "2026-11-06T03:01:48Z",
    "symbols": [
     "WPM"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Boeing Receives $136.57 Million Defense Contract",
-   "summary": "Boeing has been awarded contract actions valued at $136.57 million related to P-8A and Japan E-767 aircraft programs.",
-   "source": "fiscal.ai",
-   "url": "https://www.finanznachrichten.de/nachrichten-aktien/boeing-company.htm",
-   "created_at": "2026-11-06T03:01:46Z",
-   "symbols": [
-    "BA"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Scotiabank Increases Suncor Energy Price Target to $126",
-   "summary": "Scotiabank maintained its Sector Outperform rating on Suncor Energy and raised its price target to $126 from $123.",
-   "source": "fiscal.ai",
-   "url": "https://www.tradingview.com/news/tradingview:c16ec7fafc65a:0-scotiabank-maintains-suncor-energy-at-sector-outperform-raises-price-target-to-126-from-123/",
-   "created_at": "2026-11-06T03:01:46Z",
-   "symbols": [
-    "SU"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Wells Fargo Raises Suncor Energy Price Target to $114",
-   "summary": "Wells Fargo maintained its Equal-Weight rating on Suncor Energy while increasing the price target from $93 to $114.",
-   "source": "fiscal.ai",
-   "url": "https://www.tradingview.com/news/tradingview:155e6f3a041e4:0-wells-fargo-maintains-suncor-energy-at-equal-weight-raises-price-target-to-114-from-93/",
-   "created_at": "2026-11-06T03:01:46Z",
-   "symbols": [
-    "SU"
    ],
    "image": ""
   }
