@@ -1,6 +1,99 @@
 {
- "updated": "2026-11-06 20:00",
+ "updated": "2026-11-06 21:00",
  "items": [
+  {
+   "headline": "Nvidia CEO Jensen Huang Faces Congressional Scrutiny Over Alleged Chinese Spy Links as Republicans Warn of ‘Significant National Security Concerns’",
+   "summary": "Nvidia CEO Huang faces congressional scrutiny over suspected Chinese intelligence ties, chip diversion concerns and AI security safeguards.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/62970670/nvidia-ceo-jensen-huang-faces-congressional-scrutiny-over-alleged-chinese-spy-links-as-republicans-warn-of-significant-national-security-concerns",
+   "created_at": "2026-11-06T11:48:40Z",
+   "symbols": [
+    "NVDA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/06/Magnifying-Glass-Focusing-On-Nvidia-Ceo-.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Nasdaq’s 5.5% Wipeout And AI's Next Reality Check—IRS' New Tax Brackets",
+   "summary": "AI stocks unravel as Cloudflare, Airbnb and the IRS deliver a very different set of numbers.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/opinion/26/11/62970305/nasdaq-wipeout-ai-next-reality-check-irs-new-tax-brackets",
+   "created_at": "2026-11-06T11:38:52Z",
+   "symbols": [
+    "ABNB",
+    "APP",
+    "AXON",
+    "GOOGL",
+    "NET"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/06/Gav-Blaxberg.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Goldman Sachs Adjusts CVS Health Price Target",
+   "summary": "Goldman Sachs has revised its price target for CVS Health Corporation, lowering it from $120 to $115.",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/goldman-sachs-adjusts-price-target-on-cvs-health-to-115-from-120-ce785fddd08ef220",
+   "created_at": "2026-11-06T11:31:49Z",
+   "symbols": [
+    "CVS"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "NVIDIA Concludes $1 Billion Investment in Naver for AI Factory Expansion",
+   "summary": "NVIDIA has finalized a $1 billion investment in South Korean technology company Naver to support the expansion of its AI factory infrastructure.",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/nvidia-concludes-1-billion-investment-in-naver-to-fund-ai-factory-expansion-ce785fddd18ff126",
+   "created_at": "2026-11-06T11:31:48Z",
+   "symbols": [
+    "NVDA"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "BlackRock, Inc. Acquires Major Holding in Roadside Real Estate PLC",
+   "summary": "BlackRock, Inc. has crossed the 5% regulatory threshold for voting rights in Roadside Real Estate PLC.",
+   "source": "fiscal.ai",
+   "url": "https://www.investegate.co.uk/announcement/rns/roadside-real-estate--road/holding-s-in-company/9862978",
+   "created_at": "2026-11-06T11:31:47Z",
+   "symbols": [
+    "BLK"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "BlackRock, Inc. Reduces Voting Rights in ChemoMetec A/S",
+   "summary": "BlackRock, Inc. has disclosed a reduction in its voting rights in Danish company ChemoMetec A/S to 14.95%.",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/06/3397365/0/en/major-shareholder-announcement-blackrock-inc.html",
+   "created_at": "2026-11-06T11:31:47Z",
+   "symbols": [
+    "BLK"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Amazon Launches Shop Direct Merchant Workspace and Buy for Me AI Feature",
+   "summary": "Amazon has introduced the Shop Direct Merchant Workspace to streamline retailer access to its product discovery program and launched the \"Buy for Me\" agentic AI feature for automated purchasing.",
+   "source": "fiscal.ai",
+   "url": "https://glenbrook.com/payments-news/all-payments-news/",
+   "created_at": "2026-11-06T11:31:34Z",
+   "symbols": [
+    "AMZN"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "NVIDIA Claws Back Losses After $400 Billion Bloodbath, but the AI Scare Isn't Over",
+   "summary": "NVIDIA stock jumps nearly 5% after losing $400 billion in market value. Can AI demand and upcoming earnings fuel a recovery?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/62969899/nvidia-claws-back-losses-after-400-billion-bloodbath-but-the-ai-scare-isnt-over",
+   "created_at": "2026-11-06T11:26:18Z",
+   "symbols": [
+    "AMD",
+    "NVDA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/06/Haley-Warns-Backfire.jpg?width=1024&height=768"
+  },
   {
    "headline": "AI Bubble About to Burst? Top Tech Investor Warns Most Neocloud Players Could Go to Zero",
    "summary": "Midterm results trigger a $3.2T tech market selloff. Analysts assess the fallout for NVIDIA, hyperscalers, and neocloud infrastructure.",
@@ -102,389 +195,258 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/11/06/Mobile--Alabama--October-2--2026-U-s--Pr.jpg?width=1024&height=768"
   },
   {
-   "headline": "Trump Governed 'Almost Entirely Without Congress,' Justin Wolfers Says: 'The Real Question' Is Who Will Stop Him",
-   "summary": "Economist Justin Wolfers said the midterms sent a message on the economy and will test if Congress will stop Trump, who governs without it.",
+   "headline": "Why Is Atlassian Stock Sinking Friday?",
+   "summary": "Atlassian (TEAM) stock slid 14% premarket as weak subscription and Data Center forecasts overshadowed strong Q1 earnings beats.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/economic-data/26/11/62967345/economist-justin-wolfers-donald-trump-governed-without-congress-economy-midterms",
-   "created_at": "2026-11-06T07:42:51Z",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/11/62970587/why-is-atlassian-stock-sinking-friday",
+   "created_at": "2026-11-06T11:46:55Z",
    "symbols": [
-    "QQQ",
-    "SPY"
+    "TEAM"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/06/President-Donald-Trump-waits-outside-of-.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/06/Atlassian-Logo-At-Hq-Of-Australian-Enter.jpg?width=1024&height=768"
   },
   {
-   "headline": "Robotaxis Aren't Killing Lyft's Business: CEO Says Company Is Growing in AV Markets, Details Waymo Partnership",
-   "summary": "Lyft says robotaxis aren&#39;t hurting growth, focusing on Waymo and Baidu partnerships while expanding autonomous fleets.",
+   "headline": "Peter Schiff Calls Dogecoin, Other Memecoins a 'Litmus Test' for Popularity, but Questions Future Demand: 'People Might Want to Wear It on Their Back'",
+   "summary": "Economist Peter Schiff said Ethereum, unlike Bitcoin, has &#34;some value,&#34; although that value is lower than its current price implies.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/earnings/26/11/62966806/robotaxis-arent-killing-lyfts-business-ceo-says-company-is-growing-in-av-markets-details-waymo-partnership",
-   "created_at": "2026-11-06T06:27:04Z",
-   "symbols": [
-    "AMZN",
-    "BIDU",
-    "DASH",
-    "GOOG",
-    "GOOGL"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/06/Ivano-frankivsk--Ukraine---May-10--2019-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Asian Stocks Tumble After $3 Trillion US Wipeout as SK hynix Leads KOSPI Rout — Mohamed El-Erian Says 'When the Nasdaq Sneezes...'",
-   "summary": "Asian chipmakers sank Friday as the AI selloff that erased $3 trillion from U.S. stocks spread, on fears Democrats could slow AI buildout.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/11/62966567/asian-stocks-sk-hynix-samsung-electronics-tsmc-nikkei-kospi-nasdaq-selloff",
-   "created_at": "2026-11-06T05:56:19Z",
-   "symbols": [
-    "AMD",
-    "MU",
-    "NVDA",
-    "SKHY",
-    "SOXX"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/06/Sk-Hynix-America-Headquarters-In-San-Jos.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Stock Market: Will S&P 500 Open Up or Down Today?",
-   "summary": "Will the S&amp;P 500 open higher? Polymarket odds hit 62% as Wall Street eyes jobs data and a tech rebound.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/prediction-markets/26/11/62966566/stock-market-will-sp-500-open-up-or-down-today-74",
-   "created_at": "2026-11-06T05:56:08Z",
-   "symbols": [
-    "DIA",
-    "ENB",
-    "HUM",
-    "MRNA",
-    "POLUSD"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/06/Stock-S-And-P-500-Index-Fund-Symbol-Is-O.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Peter Schiff Sees More Pain Ahead After $3 Trillion Wipeout, While Gary Black Spots a Tech Buying Opportunity: 'The Market Has Reset'",
-   "summary": "Peter Schiff warned of further losses after a $3 trillion market rout, while Gary Black saw a buying opportunity in tech stocks.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/11/62966353/peter-schiff-stock-market-gary-black",
-   "created_at": "2026-11-06T05:29:23Z",
-   "symbols": [
-    "AMD",
-    "AMZN",
-    "GOOG",
-    "GOOGL",
-    "META"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/06/Financial-Market-Crash-Concept-With-Red-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Nvidia Stock Loses $1.39 Trillion Since October Peak — Jim Cramer Says NVDA Can 'Buy and Reload'",
-   "summary": "Nvidia lost nearly $450 billion in market value Thursday, and CNBC’s Jim Cramer said the AI darling should buy its own stock.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/11/62966118/jim-cramer-nvidia-buy-and-reload-stock-selloff-october-high",
-   "created_at": "2026-11-06T04:32:56Z",
-   "symbols": [
-    "NVDA"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/06/Jensen-Huang-Nvidias-Founder--President-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Trump Blames 'Dumocrats' as Stock Market Suffers $3 Trillion Rout After Democrats Win Congress: 'Your 401(k)s Have Dropped'",
-   "summary": "Donald Trump blamed Democrats for a rout that erased about $3 trillion from the S&amp;P 500 and handed the Nasdaq 100 its worst day since 2020",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/11/62965277/donald-trump-democrats-stock-market-selloff-3-trillion-nasdaq-100-midterms",
-   "created_at": "2026-11-06T01:59:15Z",
-   "symbols": [
-    "AMD",
-    "MU",
-    "NVDA",
-    "QQQ",
-    "SMH"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/06/Former-President-Donald-J--Trump-Arrives.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Needham Maintains Buy Rating and Raises Price Target for Vertex Pharmaceuticals",
-   "summary": "Needham has reaffirmed its 'Buy' rating on Vertex Pharmaceuticals and increased its price target for the company's stock.",
-   "source": "fiscal.ai",
-   "url": "https://www.tradingview.com/news/tradingview:071b7b85d556a:0-needham-maintains-vertex-at-buy-raises-price-target-to-30-from-20/",
-   "created_at": "2026-11-06T01:01:38Z",
-   "symbols": [
-    "VRTX"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Datavault AI Fires CEO Nathaniel Bradley",
-   "summary": "Datavault AI ousts CEO Nathaniel Bradley amid scrutiny over a $150M Bitcoin deal restatement and going-concern risks. Get the latest.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/11/62968804/datavault-ai-fires-ceo-nathaniel-bradley",
-   "created_at": "2026-11-06T10:42:27Z",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/11/62970490/peter-schiff-calls-dogecoin-other-memecoins-a-litmus-test-for-popularity-but-questions-future-demand-people-might-want-to-wear-it-on-their-back",
+   "created_at": "2026-11-06T11:45:08Z",
    "symbols": [
     "BTCUSD",
-    "DVLT",
-    "MEDS",
-    "SCLX"
+    "DOGEUSD",
+    "ETHUSD",
+    "ZECUSD"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/06/Datavaultai-Logo-Displayed-In-Foreground.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/06/Peter-Post.jpg?width=1024&height=768"
   },
   {
-   "headline": "Suzano Reports 36% Increase in Third Quarter Net Revenue Following Consolidation of Arbex",
-   "summary": "Suzano announced its third-quarter 2026 financial results, highlighting a 36% increase in net revenue to BRL 16.5 billion, driven by the consolidation of its Arbex joint venture.",
-   "source": "fiscal.ai",
-   "url": "https://www.businesswire.com/news/home/20261105599577/en/Suzano-Reports-36-Increase-in-Third-Quarter-Net-Revenue-Following-Consolidation-of-Arbex",
-   "created_at": "2026-11-06T10:31:38Z",
-   "symbols": [
-    "SUZ"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Trump's Midterm Setback Could Push Him Back Toward Kim Jong Un, as South Korea and Japan Fear Potential Nuclear Concessions: Report",
-   "summary": "Trump may seek renewed talks with North Korea after midterm setbacks, but nuclear concessions could strain ties with South Korea and Japan.",
+   "headline": "The Investors Who Took EA Private Are Eyeing Another Gaming Prize: Unity Software",
+   "summary": "Unity stock jumps as Silver Lake and Saudi PIF explore a $25B buyout following blowout Q3 earnings and a beat on guidance.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/11/62968524/trump-north-korea-talks-nuclear-concessions-south-korea-japan",
-   "created_at": "2026-11-06T10:27:54Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/06/President-Trump-Meets-With-Chairman-Kim-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Weight Watchers' New CEO Says Company Is Falling Short of Its Potential, Eyes 2027 Comeback",
-   "summary": "WW stock slips despite beating Q3 earnings with $1.51 EPS. Declining revenue and cautious full-year guidance weigh on shares.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/earnings/26/11/62968500/weight-watchers-new-ceo-says-company-is-falling-short-of-its-potential-eyes-2027-comeback",
-   "created_at": "2026-11-06T10:24:12Z",
+   "url": "https://www.benzinga.com/m-a/26/11/62970210/the-investors-who-took-ea-private-are-eyeing-another-gaming-prize-unity-software",
+   "created_at": "2026-11-06T11:35:19Z",
    "symbols": [
-    "WW"
+    "U"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/06/Indianapolis---Circa-August-2020-Ww-Inte.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/06/UnityShanghai-china-april-22nd-2023-Clos.jpg?width=1024&height=768"
   },
   {
-   "headline": "Why Cloudflare Shares Are Trading Higher By Around 15%; Here Are 20 Stocks Moving Premarket",
-   "summary": "Cloudflare jumped 14.6% after beating Q3 estimates; JFrog and Eton gained, while Site Centers and Biostem plunged premarket.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/11/62968476/why-cloudflare-shares-are-trading-higher-by-around-15-here-are-20-stocks-moving-premarket",
-   "created_at": "2026-11-06T10:23:07Z",
-   "symbols": [
-    "AEHL",
-    "BDMD",
-    "BDSX",
-    "BSEM",
-    "CIIT"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/06/Cloudflare-Inc.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Bernie Sanders Says He Isn't Certain Trump Wouldn't Sign Medicare For All, Urges Democrats to Lower Medicare Eligibility Age to 55: ‘Our Job Is To Produce It’",
-   "summary": "Bernie Sanders urges Democrats to lower Medicare eligibility to 55 and push Medicare for All.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/health-care/26/11/62968318/bernie-sanders-says-he-isnt-certain-trump-wouldnt-sign-medicare-for-all-urges-democrats-to-lower-medicare-eligibility-age-to-55-our-job-is-to-produce-it",
-   "created_at": "2026-11-06T10:08:48Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/06/Senator-Bernie-Sanders-Arrives-For-Rally.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "JD.com Under EU Foreign Subsidies Regulation Review Regarding CECONOMY Acquisition",
-   "summary": "The European Commission is reviewing JD.com's acquisition of CECONOMY under the European Union's Foreign Subsidies Regulation.",
+   "headline": "Equinix Opens New AI-Ready Data Center in Singapore",
+   "summary": "Equinix has officially opened its sixth International Business Exchange (IBX) data center in Singapore, known as SG6, to support AI and high-performance computing workloads.",
    "source": "fiscal.ai",
-   "url": "https://www.eureporter.co/page/5675/?fbclid=IwZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAEeM-a5fX7ibkkQH3USra1CkE51odV4Ab2NQ9a_D9ywD4heOOaKfdeqqbVloP0_aem_2HzFjnINXDz6etHO6CA4GA",
-   "created_at": "2026-11-06T10:02:25Z",
+   "url": "https://www.fidelity.com/news/article/company-news/202611060422MIDNIGHTUSEQUITY_A3747819",
+   "created_at": "2026-11-06T11:33:44Z",
    "symbols": [
-    "JD"
+    "EQIX"
    ],
    "image": ""
   },
   {
-   "headline": "Italian Antitrust Authority Imposes Constraints on Intesa Sanpaolo-MPS Deal Affecting Generali",
-   "summary": "The Italian antitrust authority has cleared the acquisition of Monte dei Paschi by Intesa Sanpaolo, subject to conditions that include potential divestment requirements for Intesa's stake in Generali.",
+   "headline": "Phillip Securities Adjusts Price Target on Apple to $310 From $300",
+   "summary": "Phillip Securities has updated its price target for Apple Inc. shares, raising the target from $300 to $310.",
    "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/italian-regulator-reportedly-requires-intesa-to-sell-additional-branches-to-clear-mps-takeover-ce785fddd181f72d",
-   "created_at": "2026-11-06T10:02:10Z",
+   "url": "https://www.marketscreener.com/news/phillip-securities-adjusts-price-target-on-apple-to-310-from-300-ce785fddd08bf625",
+   "created_at": "2026-11-06T11:32:32Z",
    "symbols": [
-    "G"
+    "AAPL"
    ],
    "image": ""
   },
   {
-   "headline": "ING Groep N.V. Offers Data Center Loan Portfolio for Sale",
-   "summary": "ING Groep N.V. is reportedly seeking to sell a portfolio of data center loans valued at approximately 500 million USD.",
+   "headline": "Coforge Joins SpaceXSI Partner Network",
+   "summary": "Coforge has joined the SpaceX Super Intelligence (SpaceXSI) partner network to assist enterprises in integrating Grok AI tools.",
    "source": "fiscal.ai",
-   "url": "https://ch.marketscreener.com/boerse-nachrichten/ing-will-kredite-fuer-rechenzentren-im-volumen-von-500-mio-usd-per-auktion-verkaufen-ce785fddd18ff123",
-   "created_at": "2026-11-06T10:02:09Z",
+   "url": "https://www.marketscreener.com/news/coforge-joins-spacexsi-partner-network-to-deploy-grok-for-enterprises-ce785fddd181f125",
+   "created_at": "2026-11-06T11:32:14Z",
    "symbols": [
-    "ING"
+    "SPCX"
    ],
    "image": ""
   },
   {
-   "headline": "Kyivstar Releases 3Q26 Results and Raises 2026 Outlook",
-   "summary": "Kyivstar Group Ltd. reported a return to profitability in the third quarter of 2026, driven by revenue growth, and subsequently raised its full-year 2026 revenue guidance.",
+   "headline": "Texas Governor-Elect Discusses Data Center Construction Policy",
+   "summary": "Texas Governor-elect Gina Hinojosa has indicated that data center construction could continue, provided that necessary legislation is passed to address state concerns.",
    "source": "fiscal.ai",
-   "url": "https://www.globenewswire.com/news/technology-telecom",
-   "created_at": "2026-11-06T10:02:03Z",
+   "url": "https://www.fidelity.com/news/article/company-news/202611060447MIDNIGHTUSEQUITY_A3747830",
+   "created_at": "2026-11-06T11:32:14Z",
    "symbols": [
-    "KYIV"
+    "SPCX"
    ],
    "image": ""
   },
   {
-   "headline": "TBC Bank Group to Launch GEL50 Million Share Buyback",
-   "summary": "TBC Bank Group PLC has announced plans to initiate a share buyback program of up to GEL 50 million.",
+   "headline": "Alphabet Discloses $548 Million Investment Stake in Qualcomm",
+   "summary": "Alphabet Inc. has disclosed a new investment position in Qualcomm, valued at approximately $548 million.",
    "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/tbc-bank-group-to-launch-gel50-million-share-buyback-ce785fddd188f322",
-   "created_at": "2026-11-06T10:02:01Z",
+   "url": "https://www.fidelity.com/news/article/default/202611060615BIZWIRE_USPR_____20261106_BW808070",
+   "created_at": "2026-11-06T11:32:07Z",
    "symbols": [
-    "TBCG"
+    "GOOG"
    ],
    "image": ""
   },
   {
-   "headline": "TBC Bank Group Reports Record Q3 Profit and Sets 2028 Strategic Targets",
-   "summary": "TBC Bank Group PLC reported record third-quarter 2026 profits and outlined new long-term growth and return targets for 2028.",
+   "headline": "Alphabet, Meta, and TikTok Challenge California Law on Addictive Social Media Features",
+   "summary": "Alphabet Inc., along with Meta Platforms and ByteDance, has filed a lawsuit in federal court to block a new California law aimed at restricting addictive social media features for minors.",
    "source": "fiscal.ai",
-   "url": "https://www.tradingview.com/news/tradingview:dfa194af495b6:0-key-facts-record-q3-profit-dividend-and-buyback-tbc-sets-2028-targets/",
-   "created_at": "2026-11-06T10:02:01Z",
+   "url": "https://www.tradingview.com/news/benzinga:a8e9be2d5094b:0-google-meta-and-tiktok-sue-california-over-gavin-newsom-s-law-restricting-addictive-social-media-features-for-children/",
+   "created_at": "2026-11-06T11:32:07Z",
    "symbols": [
-    "TBCG"
+    "GOOG"
    ],
    "image": ""
   },
   {
-   "headline": "Lucky Cup, a Mixue Group Brand, Shifts Strategy to Focus on Core Markets and Equipment Upgrades",
-   "summary": "Lucky Cup, the coffee chain under Mixue Group, is pivoting from rapid nationwide expansion to a more targeted growth strategy focused on core cities and store quality.",
+   "headline": "Johnson Controls Launches Frick HeatPAC Reciprocating Ammonia Heat Pump",
+   "summary": "Johnson Controls has introduced the Frick HeatPAC Reciprocating Ammonia Heat Pump, an industrial heating solution designed to recover waste heat from ammonia refrigeration systems.",
    "source": "fiscal.ai",
-   "url": "https://www.chinadailyasia.com/article/642347",
-   "created_at": "2026-11-06T10:02:00Z",
+   "url": "https://www.finanznachrichten.de/nachrichten-medien/pv-magazine.htm",
+   "created_at": "2026-11-06T11:32:05Z",
    "symbols": [
-    "2097"
+    "JCI"
    ],
    "image": ""
   },
   {
-   "headline": "VEON Raises 2026 Revenue Guidance",
-   "summary": "VEON Ltd. has upwardly revised its revenue forecast for 2026, citing strong growth in its digital services segment.",
+   "headline": "RBC Capital Markets Adjusts Nike Price Target Ahead of Capital Markets Day",
+   "summary": "RBC Capital Markets maintained its 'Sector Perform' rating on Nike while lowering its price target from $40 to $39.",
    "source": "fiscal.ai",
-   "url": "https://www.fidelity.com/news/article/technology/202611060332PR_NEWS_USPR_____SF90758",
-   "created_at": "2026-11-06T10:01:57Z",
+   "url": "https://www.finanzen.ch/analyse/nike-sector-perform-1118635",
+   "created_at": "2026-11-06T11:32:00Z",
    "symbols": [
-    "VEON"
+    "NKE"
    ],
    "image": ""
   },
   {
-   "headline": "VEON to Acquire 33.75% Stake and Control Rights in Jungo TV",
-   "summary": "VEON Ltd. has entered into an agreement to acquire a 33.75% equity stake and control rights in JungoTV Holdco, Inc., a U.S.-based media company.",
+   "headline": "DZ Bank Downgrades Pfizer to Hold From Buy",
+   "summary": "DZ Bank has downgraded its rating for Pfizer Inc. from Buy to Hold, setting a price target of $33.",
    "source": "fiscal.ai",
-   "url": "https://www.manilatimes.net/2026/11/06/tmt-newswire/globenewswire/veon-to-acquire-interest-in-jungo-tv-and-all-womens-sports-network-awsn-to-accelerate-digital-entertainment-growth/2463884",
-   "created_at": "2026-11-06T10:01:57Z",
+   "url": "https://www.marketscreener.com/news/dz-bank-downgrades-pfizer-to-hold-from-buy-33-price-target-ce785fddd089fe24",
+   "created_at": "2026-11-06T11:32:00Z",
    "symbols": [
-    "VEON"
+    "PFE"
    ],
    "image": ""
   },
   {
-   "headline": "Chunghwa Telecom Approves Unsecured Corporate Bond Issuance of Up to NT$20 Billion",
-   "summary": "Chunghwa Telecom has received approval for the issuance of unsecured corporate bonds totaling up to NT$20 billion.",
+   "headline": "Truist Securities Adjusts Price Target on Cummins Inc. to $637",
+   "summary": "Truist Securities has revised its price target for Cummins Inc. from $779 to $637 while maintaining a Buy rating on the stock.",
    "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/chunghwa-telecom-approves-unsecured-corporate-bond-issuance-of-up-to-nt-20-billion-ce785fddd18af723",
-   "created_at": "2026-11-06T10:01:56Z",
+   "url": "https://www.marketscreener.com/news/truist-securities-adjusts-price-target-on-cummins-to-637-from-779-keeps-buy-rating-ce785fddd08efe25",
+   "created_at": "2026-11-06T11:31:58Z",
    "symbols": [
-    "CHT"
+    "CMI"
    ],
    "image": ""
   },
   {
-   "headline": "Singapore Airlines Launches Next-Generation Long-Haul Cabin Products",
-   "summary": "Singapore Airlines has introduced its latest long-haul cabin products across its First, Business, and Premium Economy classes.",
+   "headline": "HCA Healthcare UK's Barnes Private Practice Partners with Nightingale Health",
+   "summary": "Barnes Private Practice, a facility under HCA Healthcare UK, has entered into an agreement to offer Nightingale Health's disease risk detection tests as part of its annual health assessments.",
    "source": "fiscal.ai",
-   "url": "https://www.finanzen.at/nachrichten/aktien/singapore-airlines-to-invest-over-s$2-bln-in-next-generation-long-haul-cabin-products-1036728835",
-   "created_at": "2026-11-06T10:01:52Z",
+   "url": "https://www.tradingview.com/news/modular_finance:492ed2bebc7be:0-nightingale-health-s-disease-risk-detection-becomes-part-of-annual-health-assessments-at-barnes-private-practice-in-london/",
+   "created_at": "2026-11-06T11:31:56Z",
    "symbols": [
-    "C6L"
+    "HCA"
    ],
    "image": ""
   },
   {
-   "headline": "Citigroup Resumes Coverage of Intesa Sanpaolo with Buy Rating",
-   "summary": "Citigroup has resumed coverage of Intesa Sanpaolo S.p.A. with a 'Buy' rating and a price target of €7.18.",
+   "headline": "Salesforce Updates AI Governance and Executive Compensation Metrics",
+   "summary": "Salesforce has revised its board committee charters to distribute AI oversight across five committees and has incorporated AI-related metrics into its executive compensation programs.",
    "source": "fiscal.ai",
-   "url": "https://www.milanofinanza.it/newsmarketdriver/market-driver-intesa-sanpaolo-citi-assegna-buy-202611061012018129",
-   "created_at": "2026-11-06T10:01:52Z",
+   "url": "https://www.einpresswire.com/article/954985580/when-an-algorithm-reads-your-proxy-and-ai-is-on-the-ballot",
+   "created_at": "2026-11-06T11:31:55Z",
    "symbols": [
-    "ISP"
+    "CRM"
    ],
    "image": ""
   },
   {
-   "headline": "Deutsche Bank Analysts Maintain 'Buy' Rating on Pirelli",
-   "summary": "Deutsche Bank analysts have reaffirmed their 'buy' recommendation and set a price target of 7 euros for Pirelli following the company's third-quarter financial results.",
+   "headline": "Salesforce Integrates CrowdStrike Falcon Shield into Security Center",
+   "summary": "Salesforce has integrated CrowdStrike's Falcon Shield technology into its Security Center and incorporated Charlotte AI capabilities into Agentforce for Security to enhance AI agent protection.",
    "source": "fiscal.ai",
-   "url": "https://www.milanofinanza.it/newsmarketdriver/market-driver-pirelli-1-12-db-conferma-buy-dopo-conti-202611060940047952",
-   "created_at": "2026-11-06T10:01:50Z",
+   "url": "https://aimagazine.com/news/crowdstrikes-ai-kill-switch-one-action-every-agent-stops",
+   "created_at": "2026-11-06T11:31:55Z",
    "symbols": [
-    "DB"
+    "CRM"
    ],
    "image": ""
   },
   {
-   "headline": "Crédit Agricole Corporate and Investment Bank Securities Admitted to Official List",
-   "summary": "The Financial Conduct Authority has admitted new debt securities issued by Crédit Agricole Corporate and Investment Bank to the Official List.",
+   "headline": "Salesforce Integrates with Notion for AI Agent Workflows",
+   "summary": "Salesforce has become a supported business system for Notion Workers, allowing AI agents to sync and act on live customer and sales data within Notion databases.",
    "source": "fiscal.ai",
-   "url": "https://www.placera.se/pressmeddelanden/official-list-live-20261106",
-   "created_at": "2026-11-06T10:01:49Z",
+   "url": "https://aimagazine.com/news/notion-ai-agents-for-a-workspace-used-by-100-million-people",
+   "created_at": "2026-11-06T11:31:55Z",
    "symbols": [
-    "ACA"
+    "CRM"
    ],
    "image": ""
   },
   {
-   "headline": "Glencore Executes Buyback of UBS Shareholding",
-   "summary": "Glencore has initiated a buyback of a share package previously held by UBS.",
+   "headline": "Chesnara to Acquire MetLife's Closed-Book UK Life Insurance Business",
+   "summary": "Chesnara plc has entered into an agreement to acquire Metlife UK Limited, the closed-book UK life insurance subsidiary of MetLife, Inc.",
    "source": "fiscal.ai",
-   "url": "https://aktiencheck.de/artikel/glencore-aktie-rueckkauf-von-ubs-paket",
-   "created_at": "2026-11-06T10:01:48Z",
+   "url": "https://www.finanzen.ch/nachrichten/aktien/chesnara-to-buy-metlifes-closed-book-uk-life-insurance-firm;-terms-not-disclosed-1036729038",
+   "created_at": "2026-11-06T11:31:54Z",
    "symbols": [
-    "GLEN"
+    "MET"
    ],
    "image": ""
   },
   {
-   "headline": "Glencore Announces 2026 Annual Investor Update",
-   "summary": "Glencore has scheduled its 2026 Annual Investor Update for December 7, 2026, with presentation materials and a live webcast to be provided.",
+   "headline": "Airbnb Enters $7.1 Million Intellectual Property and Sales Agreement with AI Lab",
+   "summary": "Airbnb has entered into a $7.1 million agreement with a privately held AI lab co-founded by CEO Brian Chesky, involving intellectual property exchange and internal licensing.",
    "source": "fiscal.ai",
-   "url": "https://www.investegate.co.uk/announcement/rns/glencore--glen/notice-of-2026-annual-investor-update-/9862395",
-   "created_at": "2026-11-06T10:01:48Z",
+   "url": "https://www.fidelity.com/news/article/company-news/202611060459MIDNIGHTUSEQUITY_A3747837",
+   "created_at": "2026-11-06T11:31:50Z",
    "symbols": [
-    "GLEN"
+    "ABNB"
    ],
    "image": ""
   },
   {
-   "headline": "Equinor Prepares Repairs for Visund Platform Following Fire",
-   "summary": "Equinor is initiating repair work on its Visund oil and gas platform following a fire incident.",
+   "headline": "Barclays Maintains Buy Rating and Lowers Price Target for Devon Energy",
+   "summary": "Barclays analyst Betty Jiang maintained a Buy rating on Devon Energy while lowering the price target from $60 to $57.",
    "source": "fiscal.ai",
-   "url": "https://stockanalysis.com/news/all-stocks/",
-   "created_at": "2026-11-06T10:01:47Z",
+   "url": "https://www.moomoo.com/hans/news/flash/1003803238/devon-energy-corporation-barclays-cuts-target-price-to-57-from",
+   "created_at": "2026-11-06T11:31:50Z",
    "symbols": [
-    "EQNR"
+    "DVN"
    ],
    "image": ""
   },
   {
-   "headline": "ANTA Sports and 3M to Establish Joint Innovation Laboratory",
-   "summary": "ANTA Sports Products Limited and 3M have announced a memorandum of understanding to launch a joint innovation laboratory focused on sustainable materials for outdoor sports.",
+   "headline": "Devon Energy Sponsors Downtown in December Program",
+   "summary": "Devon Energy is presenting the 25th annual \"Downtown in December\" program in Oklahoma City, which includes the operation of the Devon Ice Rink.",
+   "source": "fiscal.ai",
+   "url": "https://travelprnews.com/article/oklahoma-city-marks-25-years-of-downtown-in-december-with-skating-lights-and-holiday-markets/amp/",
+   "created_at": "2026-11-06T11:31:50Z",
+   "symbols": [
+    "DVN"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Airbnb Reports Q3 Earnings Beat and Announces $12 Billion Share Buyback",
+   "summary": "Airbnb reported third-quarter financial results that exceeded analyst consensus and raised its full-year revenue outlook while authorizing a new $12 billion share repurchase program.",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/airbnb-shares-surge-pre-bell-after-q3-earnings-revenue-beat-consensus-unveils-12-billion-share-bu-ce785fddd08ef125",
+   "created_at": "2026-11-06T11:31:50Z",
+   "symbols": [
+    "ABNB"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "3M Announces Partnership with Anta Sports at China International Import Expo",
+   "summary": "3M is collaborating with Anta Sports to establish a joint innovation laboratory focused on sustainable materials for outdoor sports, as announced during the 9th China International Import Expo.",
    "source": "fiscal.ai",
    "url": "https://www.chinadailyasia.com/article/642346",
-   "created_at": "2026-11-06T10:01:46Z",
+   "created_at": "2026-11-06T11:31:49Z",
    "symbols": [
-    "2020"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Rheinmetall AG Manager Discloses Share Acquisition",
-   "summary": "Rheinmetall AG has reported a share acquisition by a person discharging managerial responsibilities, specifically Armin Theodor Papperger.",
-   "source": "fiscal.ai",
-   "url": "https://de.tradingview.com/news/eqs:7e939dc89600c:0/",
-   "created_at": "2026-11-06T10:01:36Z",
-   "symbols": [
-    "RHM"
+    "MMM"
    ],
    "image": ""
   }
