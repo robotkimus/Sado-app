@@ -1,6 +1,21 @@
 {
- "updated": "2026-11-08 05:30",
+ "updated": "2026-11-08 06:00",
  "items": [
+  {
+   "headline": "CoreWeave and IREN Stocks Face Pressure as Microsoft Reassesses Its Computing Deals",
+   "summary": "CoreWeave, IREN, and other neocloud companies are at risk of further downside as Microsoft starts to reassess their computing deals",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/11/63018357/coreweave-and-iren-stocks-face-pressure-as-microsoft-reassesses-its-computing-deals",
+   "created_at": "2026-11-07T20:50:06Z",
+   "symbols": [
+    "BTC",
+    "BTCUSD",
+    "CRWV",
+    "IREN",
+    "META"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/07/CoreWeave--Inc.jpg?width=1024&height=768"
+  },
   {
    "headline": "Oracle Stock Nears Death Cross as Microsoft Deal Unwinding Points to More Risks",
    "summary": "Oracle stock is nearing a death cross pattern as the unwinding of the Microsoft deal points to more risks in the near term",
@@ -173,15 +188,51 @@
    "image": ""
   },
   {
-   "headline": "BlackRock Greater Europe Investment Trust plc Announces Share Buyback",
-   "summary": "BlackRock Greater Europe Investment Trust plc purchased 12,521 of its own ordinary shares to be held in treasury.",
-   "source": "fiscal.ai",
-   "url": "https://www.prnewswire.co.uk/news-releases/regulatory-news/blackrock-greater-europe-investment-trust-plc-transaction-in-own-shares-833118171.html",
-   "created_at": "2026-11-07T00:01:51Z",
+   "headline": "Stock of the Day: Is Honeywell Headed Higher?",
+   "summary": "Honeywell rallied after finding support at $215, a key level shaped by trader remorse, creating recurring support and resistance.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/technicals/26/11/63018364/stock-of-the-day-is-honeywell-headed-higher",
+   "created_at": "2026-11-07T20:50:24Z",
    "symbols": [
-    "BLK"
+    "HON"
    ],
-   "image": ""
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/07/Redmond--Wa--Usa--10-18-2025-Honeywell-A.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "SpaceX Stock Stays in a Bear Market After the Midterm Elections as Analysts Stay Upbeat",
+   "summary": "SpaceX stock has remained in a bear market this month, a move that intensified after the midterm elections, which Democrats won",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/11/63018347/spacex-stock-stays-in-a-bear-market-after-the-midterm-elections-as-analysts-stay-upbeat",
+   "created_at": "2026-11-07T20:49:52Z",
+   "symbols": [
+    "GOOG",
+    "SPCX",
+    "TSLA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/07/SpaceX.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Donald Trump’s Iran Dilemma: Every Option to End War Carries a Heavy Cost",
+   "summary": "Donald Trump faces a growing dilemma over how to end the Iran war, with every path forward carrying serious risk and no clean exit in sight.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/11/63018318/donald-trumps-iran-dilemma-every-option-to-end-war-carries-a-heavy-cost",
+   "created_at": "2026-11-07T20:40:07Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/07/Vances-Future-Depends-On-Trumps-Support.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "DRAM ETF: Why It’s Falling, and Outflows Are Rising Despite Strong Micron, SanDisk and Samsung Earnings",
+   "summary": "DRAM ETF outflows are accelerating, while the price is falling despite the recent strong earnings by Micron and SanDisk",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/etfs/sector-etfs/26/11/63018305/dram-etf-why-its-falling-and-outflows-are-rising-despite-strong-micron-sandisk-and-samsung-earnings",
+   "created_at": "2026-11-07T20:35:05Z",
+   "symbols": [
+    "DRAM",
+    "MU",
+    "SNDK",
+    "WDC"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/07/Micron.jpg?width=1024&height=768"
   },
   {
    "headline": "SanDisk Stock Drops Ahead of Split as Wall Street Analysts Weigh In",
@@ -334,39 +385,6 @@
    "created_at": "2026-11-07T20:02:25Z",
    "symbols": [
     "GNS"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Bonduelle Monthly Voting Rights and Share Capital Statement",
-   "summary": "Bonduelle SCA released its mandatory monthly disclosure regarding the total number of shares and voting rights composing its share capital as of October 31, 2026.",
-   "source": "fiscal.ai",
-   "url": "https://www.manilatimes.net/2026/11/07/tmt-newswire/globenewswire/bonduelle-monthly-statement-of-the-number-of-shares-and-voting-rights/2464275/amp",
-   "created_at": "2026-11-07T20:02:24Z",
-   "symbols": [
-    "BON"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Rejlers CEO Viktor Svensson Increases Shareholding",
-   "summary": "Rejlers CEO Viktor Svensson has purchased additional shares in the company, as reported in the Swedish Financial Supervisory Authority's insider register.",
-   "source": "fiscal.ai",
-   "url": "https://www.placera.se/telegram/rejlers-rejlers-vd-viktor-svensson-fyller-pa-portfoljen-med-fler-aktier-20261105",
-   "created_at": "2026-11-07T20:02:23Z",
-   "symbols": [
-    "REJL.B"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Regulatory Implementation of Benefit Card Interoperability in Brazil",
-   "summary": "New Brazilian regulations for the Worker's Food Program (PAT) mandate interoperability and fee caps for benefit card providers, including Pluxee.",
-   "source": "fiscal.ai",
-   "url": "https://vgnews.com.br/economia/vr-e-va-podem-ser-aceitos-em-mais-maquininhas-a-partir-deste-sabado/",
-   "created_at": "2026-11-07T20:02:19Z",
-   "symbols": [
-    "PLX"
    ],
    "image": ""
   }
