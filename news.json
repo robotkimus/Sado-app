@@ -1,6 +1,21 @@
 {
- "updated": "2026-11-07 15:00",
+ "updated": "2026-11-07 16:00",
  "items": [
+  {
+   "headline": "Microsoft Reportedly Looks to Cut Reliance on Some Neocloud Partners, Plans to Prioritize Its Own Data Centers",
+   "summary": "Microsoft is reducing its neocloud partnerships as it expands data centers, raising concerns for AI infrastructure companies and investors.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/63017347/microsoft-cuts-neocloud-partners-ai-data-center-expansion",
+   "created_at": "2026-11-07T06:08:27Z",
+   "symbols": [
+    "CRWV",
+    "IREN",
+    "MSFT",
+    "NBIS",
+    "ORCL"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/07/Microsoft-Logo-Displayed-On-A-Smartphone.jpg?width=1024&height=768"
+  },
   {
    "headline": "Amazon Doubles Down on Melania Trump Content With New Prime Video Series After $75 Million Documentary: Touts ‘Never-Before-Told Stories’",
    "summary": "Amazon will release a two-part Melania Trump series on Prime Video, following its $75 million documentary investment.",
@@ -176,16 +191,43 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/11/06/Nasdaq-100-way-down.jpg?width=1024&height=768"
   },
   {
-   "headline": "Oracle Stock Slides as Microsoft Reportedly Pulls Back From AI Computing Deal",
-   "summary": "Oracle shares are falling Friday after Microsoft reportedly is pulling back from a deal to lease AI computing capacity from the company.",
+   "headline": "‘Another Failure For Tesla’: Ross Gerber Slams Elon Musk Amid Cybertruck Shutdown Plans, Gary Black Calls It a ‘Missed Opportunity’",
+   "summary": "Tesla investors slammed the Cybertruck’s poor sales after Elon Musk announced plans to wind down production by 2027.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63003689/oracle-stock-slides-as-microsoft-reportedly-pulls-back-from-ai-computing-deal",
-   "created_at": "2026-11-06T18:45:10Z",
+   "url": "https://www.benzinga.com/markets/tech/26/11/63017393/tesla-cybertruck-gerber-black-musk",
+   "created_at": "2026-11-07T06:31:36Z",
    "symbols": [
-    "MSFT",
-    "ORCL"
+    "F",
+    "GM",
+    "TSLA"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/06/Oracle-Logo-Logo-On-Smartphone.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/07/A-Sleek-Smartphone-Displays-The-Tesla-Lo.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Gold Down 1%; Charter Communications Shares Fall After Q3 Results",
+   "summary": "U.S. stocks gained Friday, led by Nasdaq +1.5%, as jobs beat forecasts. Gogo and JFrog surged, while DraftKings and Biodesix plunged.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/market-summary/26/11/62996162/gold-falls-1-charter-communications-shares-fall-after-q3-results",
+   "created_at": "2026-11-06T17:11:21Z",
+   "symbols": [
+    "AXON",
+    "BDSX",
+    "CHTR",
+    "CLNE",
+    "DKNG"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/07/Digital-Gold-Price-Stock-Market-Trading-.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Marti Technologies, Inc. to Report 2026 Third Quarter Results on November 9, 2026",
+   "summary": "Marti Technologies, Inc. announced it will release its financial and operational results for the third quarter of 2026 before U.S. markets open on November 9, 2026.",
+   "source": "fiscal.ai",
+   "url": "https://www.barchart.com/press-releases/8698002/marti-technologies-inc-to-report-2026-third-quarter-results-on-november-9-2026",
+   "created_at": "2026-11-07T06:01:54Z",
+   "symbols": [
+    "MRT"
+   ],
+   "image": ""
   },
   {
    "headline": "Elon Musk Touts Terafab's Ambitious Goal to Cut Chip Development Time From a Year to a Month: ‘If You Want to Iterate Fast...’",
@@ -425,35 +467,6 @@
    "created_at": "2026-11-07T02:54:21Z",
    "symbols": [],
    "image": "https://cdn.benzinga.com/files/images/story/2026/11/07/Washington--Dc---September-3--2025-U-s--.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Senator Bill Cassidy Urges Social Security Fix With Just 22 Days Left In Congress: ‘The Time Is Always Right To Do The Right Thing’",
-   "summary": "Sen. Bill Cassidy tells CNN Congress should prioritize Social Security solvency in remaining session days.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/financing/26/11/63016995/senator-bill-cassidy-urges-social-security-fix-with-just-22-days-left-in-congress-the-time-is-always-right-to-do-the-right-thing",
-   "created_at": "2026-11-07T02:20:48Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/07/Washington--D-c---January-30--2025-Senat.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Trump's Midterm Setback Could Push Him Back Toward Kim Jong Un, as South Korea and Japan Fear Potential Nuclear Concessions: Report (UPDATED)",
-   "summary": "Trump may seek renewed talks with North Korea after midterm setbacks, but nuclear concessions could strain ties with South Korea and Japan.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/11/62968524/trump-north-korea-talks-nuclear-concessions-south-korea-japan",
-   "created_at": "2026-11-07T01:17:27Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/07/President-Trump-Meets-With-Chairman-Kim-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "707 Cayman Holdings Ltd. Files Form F-1/A Amendment",
-   "summary": "707 Cayman Holdings Ltd. submitted an amended registration statement (Form F-1/A) to the SEC on November 5, 2026.",
-   "source": "fiscal.ai",
-   "url": "https://www.streetinsider.com/SEC+Filings?before_id=27298858",
-   "created_at": "2026-11-07T01:02:56Z",
-   "symbols": [
-    "JEM"
-   ],
-   "image": ""
   }
  ]
 }
