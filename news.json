@@ -1,6 +1,36 @@
 {
- "updated": "2026-11-08 22:00",
+ "updated": "2026-11-08 23:00",
  "items": [
+  {
+   "headline": "Earnings Volatility Watch: CoreWeave Reports Into an AI Rally Test, and Options Expect a 21% Move",
+   "summary": "CoreWeave (CRWV) is priced for a 20.89% post-earnings swing after the Nasdaq 100’s worst day since 2020. Here are 10 stocks expected to move most.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/earnings/26/11/63020065/earnings-volatility-watch-coreweave-ai-rally-test-week-of-nov-9",
+   "created_at": "2026-11-08T13:30:09Z",
+   "symbols": [
+    "AMAT",
+    "CBRS",
+    "CRWV",
+    "CSCO",
+    "NRG"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/08/In-This-Photo-Illustration--The-Coreweav.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Analysts Question AAPL's Valuation, Apple's Margin Pressure and More:  This Week in Appleverse",
+   "summary": "Apple earnings, valuation concerns and memory chip opportunities dominate this week’s market recap, alongside Amazon, Qualcomm and 3M.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/63020016/top-market-stories-amazon-apple-qualcomm-micron-3m",
+   "created_at": "2026-11-08T13:00:08Z",
+   "symbols": [
+    "AAPL",
+    "AMZN",
+    "MMM",
+    "MU",
+    "QCOM"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/08/Apple-Expands-Rapidly-In-India.jpg?width=1024&height=768"
+  },
   {
    "headline": "BlackRock Discloses Discretionary Position in Prologis",
    "summary": "BlackRock reported holding discretionary investment authority over 10.2 million shares of Prologis as of November 6, 2026.",
@@ -163,29 +193,97 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/11/07/Washington--Dc--Usa--March-25--2026-Mela.jpg?width=1024&height=768"
   },
   {
-   "headline": "Google, Meta and TikTok Sue California Over Gavin Newsom's Law Restricting Addictive Social Media Features for Children (UPDATED)",
-   "summary": "Google, Meta and TikTok sue California to block a new law targeting addictive social media features and protecting children online.",
+   "headline": "This Week in TSLA: Elon Musk Loses Big in Midterms, Cybertruck Ends Production and More",
+   "summary": "This week in Tesla sees Elon Musk confirming the Cybertruck&#39;s production sunset as Republicans cede ground to Democrats in midterms.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/11/62967810/google-meta-and-tiktok-sue-california-over-gavin-newsoms-law-restricting-addictive-social-media-features-for-children",
-   "created_at": "2026-11-07T01:06:10Z",
+   "url": "https://www.benzinga.com/markets/tech/26/11/63020098/this-week-in-tsla-elon-musk-loses-big-in-midterms-cybertruck-ends-production-and-more",
+   "created_at": "2026-11-08T13:45:26Z",
    "symbols": [
-    "GOOG",
-    "GOOGL",
-    "META",
-    "MSFT"
+    "LITE",
+    "MRVL",
+    "SPCX",
+    "TSLA"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/07/Mark-Zuckerberg-Image-On-Mobile-Screen-A.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/08/Kaunas--Lithuania-2022---April-14-Tesla-.jpg?width=1024&height=768"
   },
   {
-   "headline": "Vertex Pharmaceuticals Executive Files Form 144 for Share Sale",
-   "summary": "Vertex Pharmaceuticals executive Reshma Kewalramani filed a Form 144 to sell 11,900 shares of the company's common stock.",
-   "source": "fiscal.ai",
-   "url": "https://www.moomoo.com/hans/news/flash/1003847420/form-144-vertex-pharmaceuticals-vrtxus-officer-proposes-to-sell-6",
-   "created_at": "2026-11-07T01:01:40Z",
+   "headline": "Benzinga's 'Stock Whisper' Index: Five Stocks Investors Secretly Monitor But Don't Talk About Yet",
+   "summary": "The Stock Whisper Index is a market indicator highlighting stocks that are attracting heightened interest from traders and investors.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/11/63020087/benzingas-stock-whisper-index-five-stocks-investors-secretly-monitor-but-dont-talk-about-yet-7",
+   "created_at": "2026-11-08T13:43:13Z",
    "symbols": [
-    "VRTX"
+    "GKOS",
+    "MSI",
+    "ROST",
+    "RY",
+    "VSAT"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/08/Stock-Whisper-Index.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Tiger Brokers Celebrates 8th Anniversary with Launch of Tiger Brokers 8.0 App",
+   "summary": "Tiger Brokers (Singapore) has marked its 8th anniversary by launching the Tiger Brokers 8.0 mobile application, featuring next-generation platform capabilities.",
+   "source": "fiscal.ai",
+   "url": "https://thetimes.com.au/news/news-from-asia?start=14566",
+   "created_at": "2026-11-08T13:02:18Z",
+   "symbols": [
+    "TIGR"
    ],
    "image": ""
+  },
+  {
+   "headline": "Chan and Kato Win Women's Doubles at Prudential Hong Kong Tennis Open",
+   "summary": "Chan Hao-ching and Miyu Kato secured the women's doubles championship at the Prudential Hong Kong Tennis Open.",
+   "source": "fiscal.ai",
+   "url": "https://www.chinadailyasia.com/article/642397",
+   "created_at": "2026-11-08T13:01:48Z",
+   "symbols": [
+    "PUK"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "XPeng Demonstrates Adaptive Real-Time Interaction for IRON Humanoid",
+   "summary": "XPeng has showcased its IRON humanoid robot performing adaptive, real-time hand gesture interactions powered by an upgraded VLA 2.0 model.",
+   "source": "fiscal.ai",
+   "url": "https://humanoid.press/humanoid-daily/",
+   "created_at": "2026-11-08T13:01:46Z",
+   "symbols": [
+    "XPEV"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "SM Investments Corporation Receives Five Golden Arrows Award for Corporate Governance",
+   "summary": "SM Investments Corporation has been honored with the Five Golden Arrows Award by the Institute of Corporate Directors for its excellence in corporate governance.",
+   "source": "fiscal.ai",
+   "url": "https://www.manilatimes.net/2026/11/08/tmt-newswire/sm-investments-wins-top-2026-awards-in-corporate-governance/2464681",
+   "created_at": "2026-11-08T13:01:32Z",
+   "symbols": [
+    "SM"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Shopee Recognizes Million Dollar Club Affiliates and Launches 11.11 Big Sale",
+   "summary": "Shopee, a subsidiary of Sea Limited, honored 32 affiliates at its 2026 Shopee Affiliates Connect event and is currently hosting its annual 11.11 Big Sale campaign.",
+   "source": "fiscal.ai",
+   "url": "https://www.media-outreach.com/news/singapore/2026/11/08/500068/shopee-celebrates-more-than-twice-the-million-dollar-club-awardees-at-2026-shopee-affiliates-connect-as-its-11-11-big-sale-kicks-off/",
+   "created_at": "2026-11-08T13:01:32Z",
+   "symbols": [
+    "SE"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Bitcoin Could See Another Decline, Core Scientific's Mining Exit and More: This Week in Crypto",
+   "summary": "Bitcoin faced mixed market outlooks as analysts debated a potential rebound, Core Scientific prepared to exit mining for AI and more.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/11/63020015/bitcoin-crypto-core-scientific-schiff",
+   "created_at": "2026-11-08T13:00:07Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/08/Golden-Bitcoin-Coin-Is-In-Red-And-Blue-S.jpg?width=1024&height=768"
   },
   {
    "headline": "JR East Railway Services Impacted by Magnitude 5.7 Earthquake",
@@ -312,28 +410,6 @@
    "created_at": "2026-11-08T08:03:39Z",
    "symbols": [
     "SINT"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Acroud: Restatement of Q1 and Q2 2026 Interim Reports",
-   "summary": "Acroud AB has announced a restatement of its interim financial reports for the first and second quarters of 2026.",
-   "source": "fiscal.ai",
-   "url": "https://www.avanza.se/nyheter.html?a=%2Ftelegram%2Favanza%2F15_4c5f3aeb-70a3-46c0-9938-85e4c0830a2f",
-   "created_at": "2026-11-08T08:03:23Z",
-   "symbols": [
-    "ACROUD"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Evaxion Reports New Phase 2 Data for Personalized Cancer Vaccine EVX-01",
-   "summary": "Evaxion announced new Phase 2 data for its personalized cancer vaccine, EVX-01, demonstrating strong immune responses and validating its AI-Immunology platform.",
-   "source": "fiscal.ai",
-   "url": "https://www.finanznachrichten.de/nachrichten-medien/globenewswire-europe.htm",
-   "created_at": "2026-11-08T08:03:07Z",
-   "symbols": [
-    "EVAX"
    ],
    "image": ""
   }
