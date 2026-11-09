@@ -1,6 +1,17 @@
 {
- "updated": "2026-11-09 08:00",
+ "updated": "2026-11-09 09:16",
  "items": [
+  {
+   "headline": "Dan Ives Calls Jensen Huang Affair a ‘Black Eye Moment’ for Nvidia, Warns of Stock Overhang",
+   "summary": "Dan Ives warns Nvidia’s Huang controversy may trigger congressional inquiries and uncertainty as the board investigates national security concerns.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/63021090/dan-ives-calls-jensen-huang-affair-a-black-eye-moment-for-nvidia-warns-of-stock-overhang",
+   "created_at": "2026-11-08T23:45:26Z",
+   "symbols": [
+    "NVDA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/08/Jensen-Huang--Nvidia-Founder-And-Ceo-And.jpg?width=1024&height=768"
+  },
   {
    "headline": "Nvidia’s Huang Admits Affair With Suspected Chinese Spy, Board Will Investigate",
    "summary": "NVIDIA Corp said Sunday its board is commissioning an independent review after CEO Jensen Huang told employees he had a romantic relationship with a woman U.S. officials suspected of being tied to Chi",
@@ -181,15 +192,24 @@
    "image": ""
   },
   {
-   "headline": "US House Committees Request Briefing with NVIDIA CEO Jensen Huang Over Intelligence Memo",
-   "summary": "Bipartisan leadership across three US House committees has formally requested a closed-door briefing with NVIDIA CEO Jensen Huang following reports of a counterintelligence memo.",
+   "headline": "Mayor of Palotina Demands Action from Copel Regarding Power Outages",
+   "summary": "The municipal government of Palotina, Paraná, has formally requested urgent measures from Copel to address frequent and prolonged electricity supply interruptions in the city.",
    "source": "fiscal.ai",
-   "url": "https://af.net/realtime/three-us-house-panels-seek-nvidia-ceo-briefing-on-spy-allegations/",
-   "created_at": "2026-11-07T14:01:39Z",
+   "url": "https://palotinapress.com.br/artigo/geral/prefeito-de-palotina-cobra-providencias-da-copel-apos-constantes-quedas-de-energia-C-23381",
+   "created_at": "2026-11-09T00:01:48Z",
    "symbols": [
-    "NVDA"
+    "ELPC"
    ],
    "image": ""
+  },
+  {
+   "headline": "Trump Says Iran Strikes ‘Highly Unlikely’ But Warns ‘We Could Finish Them Off’: 'Fully Locked and Loaded'",
+   "summary": "Trump says renewed Iran strikes are highly unlikely if nuclear and Hormuz talks progress, but warns US forces remain ready for action.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/11/63020993/trump-says-iran-strikes-highly-unlikely-but-warns-we-could-finish-them-off-fully-locked-and-loaded",
+   "created_at": "2026-11-08T23:13:22Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/08/Former-President-Donald-J--Trump-Arrives.jpg?width=1024&height=768"
   },
   {
    "headline": "Hims & Hers Short Interest Climbs to 23% Ahead of Earnings: Can the Stock Break Out?",
@@ -450,28 +470,6 @@
    "created_at": "2026-11-08T20:01:40Z",
    "symbols": [
     "NVO"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "CRISPR Therapeutics Provides Update on Zugocabtagene Geleucel (Zugo-cel) in Refractory Rheumatologic Autoimmune Diseases",
-   "summary": "CRISPR Therapeutics announced preliminary Phase 1 clinical data for its investigational allogeneic CAR-T therapy, zugo-cel, in patients with refractory rheumatologic autoimmune diseases.",
-   "source": "fiscal.ai",
-   "url": "https://www.globenewswire.com/news-release/2026/11/08/3398004/0/en/crispr-therapeutics-provides-update-on-zugocabtagene-geleucel-zugo-cel-in-refractory-rheumatologic-autoimmune-diseases.html",
-   "created_at": "2026-11-08T20:01:38Z",
-   "symbols": [
-    "CRSP"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Philippine Senate Bill Proposes New Labor Protections Against AI-Driven Displacement",
-   "summary": "Philippine Senator Erwin Tulfo has introduced Senate Bill No. 2563, which seeks to mandate separation compensation and reskilling programs for employees displaced by artificial intelligence automation",
-   "source": "fiscal.ai",
-   "url": "https://af.net/realtime/philippines-files-senate-bill-2563-to-curb-ai-worker-layoffs/",
-   "created_at": "2026-11-08T20:01:37Z",
-   "symbols": [
-    "TEP"
    ],
    "image": ""
   }
