@@ -1,6 +1,21 @@
 {
- "updated": "2026-11-09 15:00",
+ "updated": "2026-11-09 16:00",
  "items": [
+  {
+   "headline": "Should Investors Buy the S&P 500 Dip After Wall Street's $3 Trillion Rout Last Week? History Points to a Rebound",
+   "summary": "Fears of an AI slowdown under a Democratic Congress hit chip stocks, but history suggests last week’s selloff was a buying opportunity.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/11/63022106/sp-500-selloff-buying-opportunity-rebound",
+   "created_at": "2026-11-09T06:07:18Z",
+   "symbols": [
+    "AMD",
+    "CRWV",
+    "MRVL",
+    "MU",
+    "NVDA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/09/Tallinn--Estonia---August-4th-2023---Com.jpg?width=1024&height=768"
+  },
   {
    "headline": "Microsoft Confirms Official WSL Support for CachyOS",
    "summary": "Microsoft has confirmed that the Arch-based Linux distribution CachyOS is now officially supported on the Windows Subsystem for Linux (WSL).",
@@ -176,19 +191,35 @@
    "image": ""
   },
   {
-   "headline": "CoreWeave and IREN Stocks Face Pressure as Microsoft Reassesses Its Computing Deals",
-   "summary": "CoreWeave, IREN, and other neocloud companies are at risk of further downside as Microsoft starts to reassess their computing deals",
+   "headline": "Trump Says He Can't Tell His Sons to Stop Making Money While He's President, Shrugs Off Crypto Conflict-of-Interest Questions: 'True for Every President'",
+   "summary": "On Sunday, Trump defended his family’s involvement with World Liberty Financial, saying that his situation is not unusual.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/11/63018357/coreweave-and-iren-stocks-face-pressure-as-microsoft-reassesses-its-computing-deals",
-   "created_at": "2026-11-07T20:50:06Z",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/11/63022386/donald-trump-world-liberty-financial-crypto-defense",
+   "created_at": "2026-11-09T06:45:48Z",
    "symbols": [
-    "BTC",
     "BTCUSD",
-    "CRWV",
-    "IREN",
-    "META"
+    "TRUMPUSD",
+    "ZECUSD"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/07/CoreWeave--Inc.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/09/Vandalia--Ohio--October-3--2026-U-s--Pre.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Trump Says Russia-Ukraine Peace Deal Is 'Very Close,' Blames Zelenskyy-Putin 'Hatred' for Delays: 'Only Reason It's Gonna End Is Because of Me'",
+   "summary": "Trump claims he alone can end the Russia-Ukraine war as US-led peace talks resume, but disputes over territory and security guarantees remain.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/11/63022299/trump-says-russia-ukraine-peace-deal-is-very-close-blames-zelenskyy-putin-hatred-for-delays-only-reason-its-gonna-end-is-because-of-me",
+   "created_at": "2026-11-09T06:40:08Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/09/United-States-President-Donald-Trump-mee.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Trump Warns China Will Poach Data Centers From US, Urges Senate to Pass Energy Bill: 'We're Number One, Let's Keep It That Way'",
+   "summary": "Trump urges the Senate to fast-track energy permits, make data centers pay their own power costs and prevent China from gaining an edge.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/11/63022187/trump-warns-china-will-poach-data-centers-from-us-urges-senate-to-pass-energy-bill-were-number-one-lets-keep-it-that-way",
+   "created_at": "2026-11-09T06:18:37Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/09/Former-President-Donald-Trump-Jr--Speaks.jpg?width=1024&height=768"
   },
   {
    "headline": "Jensen Huang’s Chinese Spy Scandal Puts Nvidia CEO’s Future Under Scrutiny — But, Bettors Aren’t Worried Yet",
@@ -441,39 +472,6 @@
    "created_at": "2026-11-09T02:02:20Z",
    "symbols": [
     "MANE"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Doximity, Inc. Reports Second-Quarter Revenue Beat",
-   "summary": "Doximity, Inc. announced its second-quarter financial results, reporting revenue of $174.54 million, which exceeded analyst expectations.",
-   "source": "fiscal.ai",
-   "url": "https://www.tradingview.com/news/benzinga:3de409d54094b:0-consumer-tech-oct-2-6-big-earnings-dominate-headline-meta-google-face-political-and-regulatory-pressure-over-ai-expansion-more/",
-   "created_at": "2026-11-09T02:02:19Z",
-   "symbols": [
-    "DOCS"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "RadNet Reports Third Quarter 2026 Financial Results and Raises Full-Year Guidance",
-   "summary": "RadNet, Inc. reported record quarterly revenue and Adjusted EBITDA for the third quarter of 2026 and increased its full-year financial guidance ranges.",
-   "source": "fiscal.ai",
-   "url": "https://www.globenewswire.com/news-release/2026/11/08/3398022/0/en/RadNet-Reports-Third-Quarter-Financial-Results-with-Record-Quarterly-Revenue-and-Adjusted-EBITDA-1-and-Revises-Upwards-2026-Financial-Guidance-Ranges.html",
-   "created_at": "2026-11-09T02:02:15Z",
-   "symbols": [
-    "RDNT"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "SB1 Lowers Price Target for Lundin Mining",
-   "summary": "SpareBank 1 (SB1) has adjusted its price target for Lundin Mining while maintaining a positive outlook on the stock.",
-   "source": "fiscal.ai",
-   "url": "https://www.avanza.se/hall-koll/nyheter.html?a=%2Ftelegram%2Favanza%2F39_9b1d5e29-db97-48e0-bc5f-6dc543a5366c",
-   "created_at": "2026-11-09T02:02:13Z",
-   "symbols": [
-    "LUN"
    ],
    "image": ""
   }
