@@ -1,6 +1,31 @@
 {
- "updated": "2026-11-09 20:00",
+ "updated": "2026-11-09 21:00",
  "items": [
+  {
+   "headline": "Jabil Announces Strategic Alliance with Amazon Business",
+   "summary": "Jabil Procurement and Supply Chain Services has entered into a strategic alliance with Amazon Business to integrate its services with Amazon's product catalogue and innovation architecture.",
+   "source": "fiscal.ai",
+   "url": "https://procurementmag.com/news/jabil-launches-procurement-supply-chain-services-portfolio",
+   "created_at": "2026-11-09T11:31:22Z",
+   "symbols": [
+    "AMZN"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Kevin O’Leary Calls AI an 'Amazing Opportunity' for Entrepreneurs, Says Nobody Wants to Stop 'Innovation' or 'Job Creation'",
+   "summary": "Kevin O’Leary defended AI’s rapid growth, calling it a major opportunity for innovation, job creation, prosperity and medical breakthroughs.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/63025193/kevin-oleary-ai-amazing-opportunity-entrepreneurs-innovation-job-creation",
+   "created_at": "2026-11-09T11:21:57Z",
+   "symbols": [
+    "AMD",
+    "GOOG",
+    "GOOGL",
+    "MSFT"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/09/First-Film-Role-Treated-Like-New-Investm.jpg?width=1024&height=768"
+  },
   {
    "headline": "Stock Market Today: Dow, S&P 500 Futures Rise Despite Nvidia Sell-Off Over Jensen Huang Controversy — NVDA, OXY, CEG In Focus",
    "summary": "U.S. stock futures rose, but Nvidia fell over 5% as its board probes CEO Jensen Huang’s alleged ties to a Chinese spy. Markets expect a hike.",
@@ -159,303 +184,275 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/11/08/Jensen-Huang-Nvidias-Founder--President-.jpg?width=1024&height=768"
   },
   {
-   "headline": "CoreWeave Stock Is Eyeing Record Low Amid Insider Sales: Will It Rebound After Earnings?",
-   "summary": "CoreWeave stock is eyeing a record low as investors continue selling the shares ahead of its upcoming earnings report.",
+   "headline": "Peter Schiff Sees Democrats Winning in 2028, But Warns Their Economic Policies Could Lead a Republican Revival in 2032: Here's How",
+   "summary": "Peter Schiff predicts a Democratic 2028 win, but worsening inflation and deficits could fuel a Republican comeback in 2032.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/11/63020421/coreweave-stock-is-eyeing-a-record-low-amid-insider-sales-will-it-rebound-after-earnings",
-   "created_at": "2026-11-08T18:45:23Z",
-   "symbols": [
-    "CRWV",
-    "IT",
-    "MSFT",
-    "NVDA"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/08/The-Coreweave-Logo-Appears-On-A-Smartpho.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Nvidia Stock Loses Key Support, Enters Bear Market as Earnings Loom",
-   "summary": "Nvidia stock has lost a crucial support level and entered a bear market as investors wait for the third quarter earnings",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/11/63020354/nvidia-stock-loses-key-support-enters-bear-market-as-earnings-loom",
-   "created_at": "2026-11-08T17:45:05Z",
-   "symbols": [
-    "LITE",
-    "MRVL",
-    "NVDA",
-    "SPCX"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/08/Jensen-Huang-Nvidias-Founder--President-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Hannover Rueck Q3 2026 Earnings Call Transcript",
-   "summary": "Hannover Rueck (OTC:HVRRY) reported third-quarter financial results on Monday. The transcript from the company’s third-quarter earnings call has been provided below.Benzinga APIs provide real-time acc",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/11/63024176/hannover-rueck-q3-2026-earnings-call-transcript",
-   "created_at": "2026-11-09T10:31:41Z",
-   "symbols": [
-    "HVRRY"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/09/Stock-Market-Trading-Chart-And-Analyzing.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Why Is Greenfire Resources Stock Skyrocketing Monday?",
-   "summary": "Greenfire Resources stock surged 36% after Strathcona announced a multibillion-dollar takeover deal offering shareholders a 39% cash premium.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/m-a/26/11/63024163/why-is-greenfire-resources-stock-skyrocketing-monday",
-   "created_at": "2026-11-09T10:30:23Z",
-   "symbols": [
-    "GFR"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/09/MA-Businessman-Handshake.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "NTT to Sell 32.6 Million NEC Shares in Buyback Program",
-   "summary": "NTT, Inc. announced it will sell 32.6 million shares of NEC Corporation at a price of 3,462 yen per share as part of NEC's share buyback initiative.",
-   "source": "fiscal.ai",
-   "url": "https://www.moomoo.com/hans/news/post/1003964279",
-   "created_at": "2026-11-09T10:02:08Z",
-   "symbols": [
-    "9432"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Deutsche Bank and Ant Digital Technologies Publish White Paper on Agentic Payments",
-   "summary": "Deutsche Bank and Ant Digital Technologies have jointly released a white paper exploring the integration of AI agents into institutional finance, focusing on governance and operational frameworks.",
-   "source": "fiscal.ai",
-   "url": "https://www.finanznachrichten.de/nachrichten-2026-11/70072273-deutsche-bank-and-ant-digital-technologies-release-white-paper-on-agentic-payments-in-wholesale-finance-008.htm",
-   "created_at": "2026-11-09T10:02:07Z",
-   "symbols": [
-    "DB"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Mizuho Securities Appointed for Potential Yen Bond Sale by Berkshire Hathaway",
-   "summary": "Berkshire Hathaway has selected Mizuho Securities and BofA Securities to arrange a potential Yen-denominated bond issuance.",
-   "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/berkshire-hathaway-hires-mizuho-securities-bofa-securities-for-potential-yen-bond-sale-ce785fd3db8af125",
-   "created_at": "2026-11-09T10:02:04Z",
-   "symbols": [
-    "MFG"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Thales and Netcompany Sign Memorandum of Understanding for Strategic Partnership",
-   "summary": "Thales and Netcompany have entered into a Memorandum of Understanding to collaborate on cybersecurity, artificial intelligence, and defense solutions for European public and private sector clients.",
-   "source": "fiscal.ai",
-   "url": "https://www.euro2day.gr/news/enterprises/article/2377284/thales--netcompany-strathgikh-symmahia-se-ai-kyver.html",
-   "created_at": "2026-11-09T10:02:01Z",
-   "symbols": [
-    "HO"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Deutsche Telekom Plans Expansion of Munich AI Factory",
-   "summary": "Deutsche Telekom announced plans to expand its AI factory in Munich's Tucherpark with an investment of nearly 250 million to increase capacity to 20 megawatts.",
-   "source": "fiscal.ai",
-   "url": "https://www.moomoo.com/ja/news/post/1003976113/deutsche-telekom-to-continue-expansion-of-ai-factory-in-munich",
-   "created_at": "2026-11-09T10:01:50Z",
-   "symbols": [
-    "DTE"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Hyundai Motor Group and Air Liquide Partner to Expand Hydrogen Mobility in China",
-   "summary": "Hyundai Motor Group's HTWO Guangzhou and Air Liquide China have signed a memorandum of understanding to develop an integrated hydrogen mobility value chain in China.",
-   "source": "fiscal.ai",
-   "url": "https://www.koreajoongangdaily.com/business/hyundai-joins-air-liquide-on-china-hydrogen-push/12962351",
-   "created_at": "2026-11-09T10:01:49Z",
-   "symbols": [
-    "AI"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Intesa Sanpaolo Receives Consob Approval for Monte dei Paschi di Siena Takeover",
-   "summary": "Intesa Sanpaolo has secured approval from the Italian market regulator, Consob, for its 35.04 billion euro takeover offer for Banca Monte dei Paschi di Siena.",
-   "source": "fiscal.ai",
-   "url": "https://www.finanzen.ch/nachrichten/aktien/intesa-sanpaolo-aktie-fest-consob-genehmigt-uebernahmeangebot-fuer-monte-dei-paschi-1036735930",
-   "created_at": "2026-11-09T10:01:46Z",
-   "symbols": [
-    "ISP"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "argenx to Acquire Unnatural Products for Up to $1.15 Billion",
-   "summary": "argenx has entered into a definitive agreement to acquire Unnatural Products, Inc. (UNP) for a total potential value of approximately $1.15 billion to advance its macrocyclic peptide discovery capabil",
-   "source": "fiscal.ai",
-   "url": "https://www.tmcnet.com/usubmit/-unnatural-products-be-acquired-argenx-up-115-billion-/2026/11/09/10477243.htm",
-   "created_at": "2026-11-09T10:01:44Z",
-   "symbols": [
-    "ARGX"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Just Eat Couriers Strike in Zurich and Glattal",
-   "summary": "Couriers for Just Eat, a subsidiary of Prosus, have initiated a strike in the Zurich and Glattal regions.",
-   "source": "fiscal.ai",
-   "url": "https://www.finanzen.ch/nachrichten/aktien/prosus-aktie-just-eat-kuriere-streiken-in-zuerich-und-im-glatttal-1036733458",
-   "created_at": "2026-11-09T10:01:44Z",
-   "symbols": [
-    "PRX"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "SoftBank and ABB Explore Options to Salvage Robotics Acquisition",
-   "summary": "SoftBank Group and ABB are reportedly considering restructuring their robotics business acquisition after Chinese regulators blocked the original deal due to security concerns.",
-   "source": "fiscal.ai",
-   "url": "https://www.finanzen.ch/nachrichten/aktien/abb-aktie-gesucht-offenbar-abspaltung-des-china-geschafts-der-robotik-sparte-moeglich-1036733507",
-   "created_at": "2026-11-09T10:01:41Z",
-   "symbols": [
-    "9984"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Wiwynn Corporation Reports Q3 2026 Financial Results",
-   "summary": "Wiwynn Corporation announced its financial performance for the third quarter of 2026, reporting quarterly revenue of NT$434.6 billion and net income of NT$23.4 billion.",
-   "source": "fiscal.ai",
-   "url": "https://www.tradingview.com/news/urn:summary_document_report:quartr.com:3990741:0-wiwynn-strong-revenue-and-earnings-growth-but-9m-operating-cash-flow-was-negative-nt-56-8bn/",
-   "created_at": "2026-11-09T10:01:39Z",
-   "symbols": [
-    "6669"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "SAP SE Receives Analyst Upgrade from JP Morgan",
-   "summary": "JP Morgan upgraded SAP SE to \"Overweight\" and significantly increased its price target for the company's shares.",
-   "source": "fiscal.ai",
-   "url": "https://de.marketscreener.com/boerse-nachrichten/leichtes-plus-dank-ki-erholung-und-oel-minus-ce785fd3db8af621",
-   "created_at": "2026-11-09T10:01:35Z",
-   "symbols": [
-    "SAP"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Roche Italia Presents Second Edition of Impact Study",
-   "summary": "Roche Italia presented the second edition of its Impact Study in Rome, highlighting the company's role in the Italian biotech sector and its contribution to the socio-economic development of the count",
-   "source": "fiscal.ai",
-   "url": "https://www.milanofinanza.it/news/roche-italia-e-settore-biotech-energia-per-la-salute-e-valore-per-la-societa-202611091023219148",
-   "created_at": "2026-11-09T10:01:32Z",
-   "symbols": [
-    "ROP"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Trump Admits Deportation Crackdown May Have Gone 'Too Tough' After Republican Midterm Losses",
-   "summary": "Trump admitted his mass deportation crackdown may have hurt Republicans in the 2026 midterm elections, saying his policies were too tough.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/11/63023729/trump-admits-deportation-crackdown-may-have-gone-too-tough-after-republican-midterm-losses",
-   "created_at": "2026-11-09T09:39:38Z",
+   "url": "https://www.benzinga.com/news/politics/26/11/63026231/peter-schiff-sees-democrats-winning-in-2028-but-warns-their-economic-policies-could-lead-a-republican-revival-in-2032-heres-how",
+   "created_at": "2026-11-09T11:54:53Z",
    "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/09/President-Donald-J--Trump-Arrives-On-Sta.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/09/White-House-in-Washington-DC-under-blue-.jpg?width=1024&height=768"
   },
   {
-   "headline": "ASE Technology Signs NT$531 Million Facility Engineering Contracts",
-   "summary": "ASE Technology has entered into facility engineering contracts valued at NT$531 million.",
-   "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/ase-technology-signs-nt-531-million-facility-engineering-contracts-ce785fd3db8cf42c",
-   "created_at": "2026-11-09T09:32:28Z",
+   "headline": "What's Going On With AMD Stock Monday?",
+   "summary": "AMD stock rose over 3% premarket on AI demand and a strong Q4 outlook. Analysts remain bullish despite short-term technical resistance.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/63025964/whats-going-on-with-amd-stock-monday-12",
+   "created_at": "2026-11-09T11:45:47Z",
    "symbols": [
-    "ASX"
+    "AMD",
+    "INTC",
+    "TSM"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/09/Shanghai-china-nov-22nd-2025-Amd-Company.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "DraftKings Analysts Slash Their Forecasts After Downbeat Q3 Results",
+   "summary": "DraftKings missed Q3 estimates, widened its loss and cut 2026 guidance. Shares fell; analysts lowered price targets, with Stifel downgrading to Hold.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/63025762/draftkings-analysts-slash-their-forecasts-after-downbeat-q3-results",
+   "created_at": "2026-11-09T11:40:45Z",
+   "symbols": [
+    "DKNG"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/09/Analysts-Debate-Depreciation-Impact.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "'Get Ready To Go To Jail': Trump Reveals How DOJ Dealt With Alleged AI Misconduct at Major Company",
+   "summary": "Trump says the DOJ once threatened a major AI company figure with jail over alleged misconduct, prompting the person to change course.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/63025728/get-ready-to-go-to-jail-trump-reveals-how-doj-dealt-with-alleged-ai-misconduct-at-major-company",
+   "created_at": "2026-11-09T11:40:21Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/09/Former-President-Donald-J--Trump-Arrives.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Goldman Sachs Adjusts Price Target on Moderna",
+   "summary": "Goldman Sachs has revised its price target for Moderna, increasing it to $195 from the previous $137.",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/goldman-sachs-adjusts-price-target-on-moderna-to-195-from-137-ce785fd3da8cf426",
+   "created_at": "2026-11-09T11:34:03Z",
+   "symbols": [
+    "MRNA"
    ],
    "image": ""
   },
   {
-   "headline": "Delta Electronics Reports Higher October Sales",
-   "summary": "Delta Electronics, Inc. announced an increase in its sales figures for the month of October 2026.",
+   "headline": "JPMorgan Adjusts Price Target on Walmart to $145 From $125",
+   "summary": "JPMorgan has updated its price target for Walmart Inc. (WMT), raising it from $125 to $145.",
    "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/delta-electronics-reports-higher-october-sales-ce785fd3db8ff724",
-   "created_at": "2026-11-09T09:32:12Z",
+   "url": "https://www.marketscreener.com/news/jpmorgan-adjusts-price-target-on-walmart-to-145-from-125-ce785fd3da8bf52d",
+   "created_at": "2026-11-09T11:33:38Z",
    "symbols": [
-    "2308"
+    "WMT"
    ],
    "image": ""
   },
   {
-   "headline": "Barclays Opens New Office in Riyadh, Saudi Arabia",
-   "summary": "Barclays has officially opened a new office in Riyadh's King Abdullah Financial District and appointed Majed Al Hassoun as CEO and head of investment banking for Barclays Capital Saudi.",
+   "headline": "Piper Sandler Adjusts Price Target on Quanta Services",
+   "summary": "Piper Sandler has revised its price target for Quanta Services, Inc. from $714 to $701.",
    "source": "fiscal.ai",
-   "url": "https://www.moomoo.com/hans/news/post/1003967056/barclays-opens-riyadh-office-names-saudi-investment-banking-head",
-   "created_at": "2026-11-09T09:32:03Z",
+   "url": "https://www.marketscreener.com/news/piper-sandler-adjusts-price-target-on-quanta-services-to-701-from-714-ce785fd3da8af027",
+   "created_at": "2026-11-09T11:32:46Z",
    "symbols": [
-    "BCS"
+    "PWR"
    ],
    "image": ""
   },
   {
-   "headline": "Londian Wason Signs Cooperation Agreement to Build Copper Foil Production Base in Kazakhstan",
-   "summary": "Londian Wason New Energy Tech Inc. has entered into a cooperation agreement with NAIKAN Ltd. to establish a high-performance electrolytic copper foil production facility in Kazakhstan with an investme",
+   "headline": "JPMorgan Adjusts Price Target on EOG Resources to $170 From $164",
+   "summary": "JPMorgan has updated its price target for EOG Resources, raising it from $164 to $170.",
    "source": "fiscal.ai",
-   "url": "https://www.financialcontent.com/article/acnnewswire-2026-11-9-londian-wason-signs-cooperation-agreement-in-kazakhstan-to-jointly-build-a-high-performance-electrolytic-copper-foil-production-base-with-naikan-ltd",
-   "created_at": "2026-11-09T09:31:59Z",
+   "url": "https://www.marketscreener.com/news/jpmorgan-adjusts-price-target-on-eog-resources-to-170-from-164-ce785fd3da8cf22d",
+   "created_at": "2026-11-09T11:32:28Z",
    "symbols": [
-    "FOIL"
+    "EOG"
    ],
    "image": ""
   },
   {
-   "headline": "WeRide to Report Third Quarter 2026 Financial Results on November 20, 2026",
-   "summary": "WeRide Inc. has announced it will release its unaudited financial results for the third quarter of 2026 on November 20, 2026, before the U.S. market opens.",
+   "headline": "Jefferies Adjusts Price Target on Airbnb",
+   "summary": "Jefferies has increased its price target for Airbnb, Inc. to $230 from $215.",
    "source": "fiscal.ai",
-   "url": "https://www.morningstar.com/news/globe-newswire/9873062/weride-to-report-third-quarter-2026-financial-results-on-friday-november-20-2026",
-   "created_at": "2026-11-09T09:31:55Z",
+   "url": "https://www.marketscreener.com/news/jefferies-adjusts-price-target-on-airbnb-to-230-from-215-ce785fd3da8bf62d",
+   "created_at": "2026-11-09T11:32:27Z",
    "symbols": [
-    "WRD"
+    "ABNB"
    ],
    "image": ""
   },
   {
-   "headline": "RELX PLC Announces Block Admission of Ordinary Shares",
-   "summary": "RELX PLC has filed for a block admission of 60,000 ordinary shares.",
+   "headline": "Rothschild & Co Upgrades Airbnb to Neutral",
+   "summary": "Rothschild & Co has upgraded Airbnb's stock rating to Neutral from Sell and increased its price target to $190 from $135.",
    "source": "fiscal.ai",
-   "url": "https://www.tradingview.com/news/reuters.com,2026-11-09:newsml_RSI2255Ca:0-reg-stock-exch-notice-admission-to-trading-09-11-2026/",
-   "created_at": "2026-11-09T09:31:55Z",
+   "url": "https://www.tradingview.com/news/tradingview:221254938b44f:0-rothschild-co-upgrades-airbnb-to-neutral-from-sell-raises-price-target-to-190-from-135/",
+   "created_at": "2026-11-09T11:32:27Z",
    "symbols": [
-    "RELX"
+    "ABNB"
    ],
    "image": ""
   },
   {
-   "headline": "Sohu.com Limited Reports Third Quarter 2026 Financial Results",
-   "summary": "Sohu.com Limited reported a GAAP net loss of US$15 million for the third quarter of 2026, with total revenues of US$133 million, reflecting a 26% year-over-year decline.",
+   "headline": "Goldman Sachs International Discloses Position in Permanent TSB Group Holdings PLC",
+   "summary": "Goldman Sachs International filed a regulatory disclosure regarding its long and short positions in Permanent TSB Group Holdings PLC.",
    "source": "fiscal.ai",
-   "url": "https://www.prnewswire.com/news-releases/sohucom-reports-third-quarter-2026-unaudited-financial-results-302932892.html",
-   "created_at": "2026-11-09T09:31:45Z",
+   "url": "https://www.investegate.co.uk/announcement/rns/permanent-tsb-group-holdings-cdi---ptsb/form-38-5b-permanent-tsb-group-holdings-plc/9864873",
+   "created_at": "2026-11-09T11:32:14Z",
    "symbols": [
-    "SOHU"
+    "GS"
    ],
    "image": ""
   },
   {
-   "headline": "Standard Chartered Launches Tokenised Deposits Solution in Hong Kong with HashKey",
-   "summary": "Standard Chartered has introduced a new tokenised deposits solution for corporate clients in Hong Kong, collaborating with HashKey and Fireblocks to expand the local ecosystem.",
+   "headline": "Morgan Stanley Adjusts Price Target on Devon Energy",
+   "summary": "Morgan Stanley has revised its price target for Devon Energy Corporation, lowering it from $65 to $64.",
    "source": "fiscal.ai",
-   "url": "https://www.tradingview.com/news/tradingview:0c74e9c619067:0-weekly-recap-share-buyback-and-hong-kong-tokenised-deposits-launch/",
-   "created_at": "2026-11-09T09:31:41Z",
+   "url": "https://www.marketscreener.com/news/morgan-stanley-adjusts-price-target-on-devon-energy-to-64-from-65-ce785fd3da8bf327",
+   "created_at": "2026-11-09T11:32:10Z",
    "symbols": [
-    "3887"
+    "MS"
    ],
    "image": ""
   },
   {
-   "headline": "CNH Industrial to Sell 70% of Construction Equipment Business to Kobe Steel",
-   "summary": "CNH Industrial has announced an agreement to sell a 70% majority interest in its construction equipment business to Kobe Steel for $700 million, forming a joint venture with the buyer.",
+   "headline": "Morgan Stanley Downgrades PDD Holdings to Equal-Weight",
+   "summary": "Morgan Stanley has downgraded PDD Holdings from Overweight to Equal-Weight and reduced its price target for the company.",
    "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/cnh-industrial-to-sell-70-of-construction-equipment-business-for-700-million-to-kobe-steel-form-j-ce785fd3db8df620",
-   "created_at": "2026-11-09T09:31:35Z",
+   "url": "https://www.tradingview.com/news/tradingview:37ac871f2e4e3:0-morgan-stanley-downgrades-pdd-holdings-to-equal-weight-from-overweight-lowers-price-target-to-90-from-129/",
+   "created_at": "2026-11-09T11:32:10Z",
    "symbols": [
-    "CNH"
+    "MS"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Oppenheimer Upgrades AMD to Outperform with $600 Price Target",
+   "summary": "Oppenheimer analyst Schafer upgraded Advanced Micro Devices (AMD) to Outperform from Market Perform, setting a price target of $600.",
+   "source": "fiscal.ai",
+   "url": "https://news.futunn.com/post/1003878267/amd-stock-pops-it-s-about-much-more-than-the",
+   "created_at": "2026-11-09T11:32:08Z",
+   "symbols": [
+    "AMD"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Bernstein Adjusts Price Target on CrowdStrike",
+   "summary": "Bernstein has updated its price target for CrowdStrike Holdings, Inc., raising it from $132 to $177.",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/bernstein-adjusts-price-target-on-crowdstrike-to-177-from-132-ce785fd3da8df326",
+   "created_at": "2026-11-09T11:32:07Z",
+   "symbols": [
+    "CRWD"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Raymond James Adjusts Price Target on Eaton",
+   "summary": "Raymond James has revised its price target for Eaton Corporation plc, lowering it from $525 to $485.",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/raymond-james-adjusts-price-target-on-eaton-to-485-from-525-ce785fd3da8dfe25",
+   "created_at": "2026-11-09T11:32:06Z",
+   "symbols": [
+    "ETN"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "JPMorgan Adjusts Price Target on Devon Energy to $68 From $65",
+   "summary": "JPMorgan has updated its price target for Devon Energy Corporation, raising it from $65 to $68.",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/jpmorgan-adjusts-price-target-on-devon-energy-to-68-from-65-ce785fd3da8cf222",
+   "created_at": "2026-11-09T11:32:04Z",
+   "symbols": [
+    "DVN"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Jefferies Adjusts Price Target on Booking Holdings to $180 From $185",
+   "summary": "Investment firm Jefferies has lowered its price target for Booking Holdings Inc. from $185 to $180.",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/jefferies-adjusts-price-target-on-booking-holdings-to-180-from-185-ce785fd3da8afe26",
+   "created_at": "2026-11-09T11:32:01Z",
+   "symbols": [
+    "BKNG"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Jefferies Adjusts Price Target on Public Storage to $392 From $319",
+   "summary": "Jefferies has increased its price target for Public Storage, reflecting a new valuation outlook for the self-storage REIT.",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/jefferies-adjusts-price-target-on-public-storage-to-392-from-319-ce785fd3da8df622",
+   "created_at": "2026-11-09T11:31:59Z",
+   "symbols": [
+    "PSA"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "BTIG Maintains Buy Rating and Raises Price Target for Veeva Systems",
+   "summary": "BTIG has reaffirmed its \"Buy\" rating on Veeva Systems and increased its price target for the company's stock from $340 to $360.",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/tradingview:82a92f382bb6a:0-btig-maintains-veeva-systems-at-buy-raises-price-target-to-360-from-340/",
+   "created_at": "2026-11-09T11:31:59Z",
+   "symbols": [
+    "VEEV"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "TD Cowen Adjusts Price Target on Intuit to $350 From $346",
+   "summary": "TD Cowen has updated its price target for Intuit Inc., raising it to $350 from the previous level of $346.",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/td-cowen-adjusts-price-target-on-intuit-to-350-from-346-ce785fd3da8df426",
+   "created_at": "2026-11-09T11:31:58Z",
+   "symbols": [
+    "INTU"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Jefferies Adjusts Price Target on Allstate to $297 From $292",
+   "summary": "Jefferies has increased its price target for The Allstate Corporation from $292 to $297.",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/jefferies-adjusts-price-target-on-allstate-to-297-from-292-ce785fd3da8bf320",
+   "created_at": "2026-11-09T11:31:58Z",
+   "symbols": [
+    "ALL"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "JPMorgan Adjusts Price Target on Home Depot to $400 From $396",
+   "summary": "JPMorgan has updated its price target for The Home Depot, Inc., raising it to $400 from the previous target of $396.",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/jpmorgan-adjusts-price-target-on-home-depot-to-400-from-396-ce785fd3da8bf420",
+   "created_at": "2026-11-09T11:31:57Z",
+   "symbols": [
+    "HD"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Barclays Adjusts Price Target on The Cigna Group",
+   "summary": "Barclays has updated its price target for The Cigna Group, increasing it from $310 to $320.",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/barclays-adjusts-price-target-on-cigna-group-to-320-from-310-ce785fd3da8bf427",
+   "created_at": "2026-11-09T11:31:57Z",
+   "symbols": [
+    "CI"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Barrick Mining Corporation Declares Quarterly Dividend",
+   "summary": "Barrick Mining Corporation has declared a dividend of $0.175 per share for the third quarter of 2026.",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/09/3398152/0/en/barrick-declares-q3-dividend.html",
+   "created_at": "2026-11-09T11:31:56Z",
+   "symbols": [
+    "ABX"
    ],
    "image": ""
   }
