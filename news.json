@@ -1,6 +1,43 @@
 {
- "updated": "2026-11-10 21:00",
+ "updated": "2026-11-10 22:00",
  "items": [
+  {
+   "headline": "QUICK SPARK: SPY, QQQ Attract $9B as ETF Investors Shrug Off Volatility Worries",
+   "summary": "U.S. ETFs attracted $14.1B despite a sharp stock market selloff, with SPY and QQQ leading inflows as 2026 ETF investments approach $1.8T.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/etfs/broad-u-s-equity-etfs/26/11/63085138/quick-spark-spy-qqq-attract-9b-as-etf-investors-shrug-off-volatility-worries",
+   "created_at": "2026-11-10T12:57:00Z",
+   "symbols": [
+    "IEF",
+    "QQQ",
+    "SDY",
+    "SGOV",
+    "SOXL"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/10/Benzinga-Quick-Spark.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "NVIDIA CEO Jensen Huang Faces FBI Probe and Shareholder Lawsuit",
+   "summary": "NVIDIA CEO Jensen Huang is under federal scrutiny and facing a shareholder lawsuit following reports of a personal relationship with an executive suspected of ties to Chinese intelligence.",
+   "source": "fiscal.ai",
+   "url": "https://www.barchart.com/story/news/8754006/nvidia-and-jensen-huang-face-shareholder-lawsuit-alleging-investors-were-misled-about-spy-affair",
+   "created_at": "2026-11-10T12:31:57Z",
+   "symbols": [
+    "NVDA"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Trump Says ‘I Know The FBI Is Looking Into It’ as Nvidia CEO Jensen Huang Faces Scrutiny Over Suspected Chinese Spy Allegations",
+   "summary": "Trump backs Nvidia CEO Jensen Huang as FBI probes alleged Chinese spy links; Nvidia launches review and faces shareholder lawsuit.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/63083228/trump-says-i-know-the-fbi-is-looking-into-it-as-nvidia-ceo-jensen-huang-faces-scrutiny-over-suspected-chinese-spy-allegations",
+   "created_at": "2026-11-10T12:10:12Z",
+   "symbols": [
+    "NVDA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/10/President-Donald-Trump-Delivers-An-Addre.jpg?width=1024&height=768"
+  },
   {
    "headline": "NVIDIA's Jensen Huang Unlikely to Exit Despite Scandal, Analyst Says History Offers Clues",
    "summary": "NVIDIA faces key-person risk amid scrutiny of CEO Jensen Huang. Wall Street weighs succession concerns and stock impact.",
@@ -140,321 +177,286 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/11/10/New-York-Stock-Exchange-On-The-Corner-Of.jpg?width=1024&height=768"
   },
   {
-   "headline": "'This Is Not The Moment To Get Bearish': Morgan Stanley's Mike Wilson Sees Market Correction Nearing End, Stays Selective on Chip Stocks",
-   "summary": "Last week’s crash wiped $3 trillion off the S&amp;P 500, but Morgan Stanley’s Mike Wilson says the correction looks much closer to its end.",
+   "headline": "Microvast's Survival Hangs in Balance As Battery Maker Scrambles to Restructure Debt",
+   "summary": "Microvast (MVST) stock plunged after Q3 revenue fell to $45.8M and adjusted EPS missed estimates amid ongoing going-concern warnings.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/11/63079530/morgan-stanley-mike-wilson-market-done-most-work-correction",
-   "created_at": "2026-11-10T08:35:58Z",
+   "url": "https://www.benzinga.com/markets/earnings/26/11/63085103/microvasts-survival-hangs-in-balance-as-battery-maker-scrambles-to-restructure-debt",
+   "created_at": "2026-11-10T12:56:34Z",
    "symbols": [
-    "AMD",
+    "MVST"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/10/Stock-Market-Chart-Showing-Falling-Equit.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "XRP Drops to $1.08 as ETFs Suffer Biggest Outflows in 8 Months",
+   "summary": "XRP traders turn heavily bullish on Binance as the token falls 30% and spot ETFs suffer their biggest outflow in eight months.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/11/63085053/xrp-drops-to-1-08-as-etfs-suffer-biggest-outflows-in-8-months",
+   "created_at": "2026-11-10T12:55:03Z",
+   "symbols": [
+    "GXRP",
+    "TOXR",
+    "XRP",
+    "XRPC",
+    "XRPUSD"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/10/Digital-Art-Xrp-Logo-Symbol--Ripple-Cryp.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Freeport-McMoRan, State Street, Deckers Outdoor And More On CNBC’s ‘Final Trades’",
+   "summary": "CNBC Final Trades: Harrington picked FCX, Firestone chose DECK, Talkington recommended RSP, and Terranova selected STT.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/11/63085003/freeport-mcmoran-state-street-deckers-outdoor-cnbc-final-trades",
+   "created_at": "2026-11-10T12:53:52Z",
+   "symbols": [
+    "DECK",
+    "FCX",
+    "RSP",
+    "STT"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/10/Germany---July-24--2024-In-This-Photo-Il.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Fed’s Goolsbee Warns AI Data Center Boom Is Starting to Look Like ‘Demand Overheating,’ Says Central Bankers Must Be ‘Aggressive Up Front’",
+   "summary": "Goolsbee warns AI data-center investment could overheat demand, spread inflation and require aggressive Fed action as October CPI arrives.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/macro-economic-events/26/11/63084878/feds-goolsbee-warns-ai-data-center-boom-is-starting-to-look-like-demand-overheating-says-central-bankers-must-be-aggressive-up-front",
+   "created_at": "2026-11-10T12:50:30Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/10/Financial-Technology--Artificial-Intelli.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Regal Rexnord is 'Worth So Much More,' Don't Overlook Churchill Downs: Jim Cramer",
+   "summary": "Cramer favors Regal Rexnord and Churchill Downs, is cautious on Marvell, dismissive of Snap and unaware of Perimeter.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/11/63084671/jim-cramer-regal-rexnord-churchill-downs",
+   "created_at": "2026-11-10T12:47:19Z",
+   "symbols": [
+    "AKAM",
+    "CHDN",
     "MRVL",
-    "MU",
-    "NVDA",
-    "QQQ"
+    "NET",
+    "PRM"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/10/In-The-Background-A-Stock-Market-Graphic.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/10/Florence---Circa-February-2022-Regal-Rex.jpg?width=1024&height=768"
   },
   {
-   "headline": "'Did He Mislead His Board?': Former SEC Chair Questions Jensen Huang's Nvidia Disclosures, Warns NVDA Will Face ‘Some Tough Choices’",
-   "summary": "Gensler questions whether Jensen Huang misled investors over alleged ties to a suspected Chinese spy as probes and a lawsuit pressure company.",
+   "headline": "Why Is Quantum Corporation Stock Surging Tuesday?",
+   "summary": "Quantum Corp. (QMCO) stock jumped 15% premarket after crushing fiscal Q2 earnings and posting $89.6M in revenue, up 43% year over year.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/11/63078798/did-he-mislead-his-board-former-sec-chair-questions-jensen-huangs-nvidia-disclosures-warns-nvda-will-face-some-tough-choices",
-   "created_at": "2026-11-10T06:47:39Z",
+   "url": "https://www.benzinga.com/markets/earnings/26/11/63084309/why-is-quantum-corporation-stock-surging-tuesday",
+   "created_at": "2026-11-10T12:40:06Z",
    "symbols": [
-    "NVDA"
+    "QMCO"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/10/The-Modern-Nvidia-Logo-And-Company-Name-.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/10/Investors-Show-Virtual-Screen-Stock-Mark.jpg?width=1024&height=768"
   },
   {
-   "headline": "Jim Cramer Calls AMD a Winner After 13% Surge, But Warns US Data Center Roadmap Is 'Suspect'",
-   "summary": "Jim Cramer called AMD a winner as shares jumped more than 13%, but warned that a multi-year data center roadmap in the U.S. is now suspect.",
+   "headline": "Why is Plug Power Stock Trading Higher Today?",
+   "summary": "Plug Power reports Q3 revenue of $200.6 million, beating estimates by 13% year over year, and maintains its 2026 revenue growth outlook.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/11/63078362/dvanced-micro-devices-stock-surges-jim-cramer-winner-data-center-suspect",
-   "created_at": "2026-11-10T06:05:49Z",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63084265/why-is-plug-power-stock-trading-higher-today",
+   "created_at": "2026-11-10T12:38:34Z",
    "symbols": [
-    "AMD",
-    "GOOGL",
-    "INTC",
-    "NVDA"
+    "PLUG"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/10/Paris--France---January-23--2026-The-Amd.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/10/Plug-Power.jpg?width=1024&height=768"
   },
   {
-   "headline": "Anthropic's $69.3 Billion IPO Plan Reportedly Sent to Banks Before Retraction",
-   "summary": "Anthropic reportedly retracted IPO details sent to banks that showed up to $69.3 billion.",
+   "headline": "CoreWeave Earnings Are Imminent; These Most Accurate Analysts Revise Forecasts Ahead Of Earnings Call",
+   "summary": "CoreWeave reports Q3 results Nov. 10; analysts expect a $1.55 loss per share and $3.54B revenue amid global AI cloud expansion.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/11/63081237/anthropics-69-3-billion-ipo-plan-reportedly-sent-to-banks-before-retraction-company-unveils-new-versions-of-claude-fable-and-mythos",
-   "created_at": "2026-11-10T11:07:52Z",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/63084173/coreweave-earnings-are-imminent-these-most-accurate-analysts-revise-forecasts-ahead-of-earnings-call-2",
+   "created_at": "2026-11-10T12:36:06Z",
    "symbols": [
-    "GOOG"
+    "CRWV"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/10/Toronto--Canada---September-13-2026-Dari.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/10/The-CoreWeave-Trade.jpg?width=1024&height=768"
   },
   {
-   "headline": "What an Empty Wine Glass Says About the Next Recession",
-   "summary": "Rising rent and debt costs are squeezing U.S. households, making wine an early casualty. Explore the economic data behind the slump.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/economic-data/26/11/63081850/what-an-empty-wine-glass-says-about-the-next-recession",
-   "created_at": "2026-11-10T11:37:29Z",
-   "symbols": [
-    "BF",
-    "DEO",
-    "ITB",
-    "STZ",
-    "TLT"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/10/Stressed-Woman-Checking-Bills-Credit-Car.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "TSMC October Sales Surge Nearly 60% as AI Chip Demand Fuels Growth",
-   "summary": "TSMC&#39;s October revenue surged 59.7% year over year to $17.88 billion as booming AI chip demand fueled record growth.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/11/63081806/tsmc-october-revenue-ai-chip-demand-growth",
-   "created_at": "2026-11-10T11:35:53Z",
-   "symbols": [
-    "TSM"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/10/Hsinchu-City--Taiwan--June-24--2024-Taiw.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Arista Networks Insider Sells Shares Worth Over $43 Million",
-   "summary": "An insider at Arista Networks, Inc. sold shares of the company's stock valued at approximately $43 million, as disclosed in a recent SEC filing.",
+   "headline": "Onto Innovation Maintained at Buy by Needham",
+   "summary": "Needham has maintained its 'Buy' rating on Onto Innovation Inc.",
    "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/arista-networks-insider-sold-shares-worth-43-016-606-according-to-a-recent-sec-filing-ce785edadb8df722",
-   "created_at": "2026-11-10T11:35:08Z",
+   "url": "https://www.moomoo.com/hans/news/post/1004130981/onto-innovation-is-maintained-at-buy-by-needham?futusource=news_newspage_recommend",
+   "created_at": "2026-11-10T12:34:26Z",
    "symbols": [
-    "ANET"
+    "ONTO"
    ],
    "image": ""
   },
   {
-   "headline": "Morgan Stanley Adjusts Price Target on KKR & Co. Inc.",
-   "summary": "Morgan Stanley updated its price target for KKR & Co. Inc. to $140 from $138.",
+   "headline": "JBS N.V. Reports Third-Quarter Financial Results",
+   "summary": "JBS N.V. reported weaker-than-expected third-quarter profit, citing the impact of Chinese beef import quotas on its bottom line.",
    "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/morgan-stanley-adjusts-price-target-on-kkr-to-140-from-138-ce785edada8ef327",
-   "created_at": "2026-11-10T11:34:52Z",
+   "url": "https://www.moomoo.com/news/post/1004134518/nvidia-hims-hers-jbs-take-two-and-more-stocks-that",
+   "created_at": "2026-11-10T12:33:58Z",
    "symbols": [
-    "MS"
+    "JBS"
    ],
    "image": ""
   },
   {
-   "headline": "Morgan Stanley Adjusts Price Target on Targa Resources Corp.",
-   "summary": "Morgan Stanley updated its price target for Targa Resources Corp. to $362 from $359.",
+   "headline": "JBS N.V. to Acquire Flora for US$542 Million",
+   "summary": "JBS N.V. has announced the acquisition of 100% of the Brazilian consumer products company Flora from J&F Group for US$542 million.",
    "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/morgan-stanley-adjusts-price-target-on-targa-resources-to-362-from-359-ce785edada8ef326",
-   "created_at": "2026-11-10T11:34:52Z",
+   "url": "https://businessnewsthisweek.com/business/jbs-enters-personal-care-market-with-flora-acquisition/",
+   "created_at": "2026-11-10T12:33:58Z",
    "symbols": [
-    "MS"
+    "JBS"
    ],
    "image": ""
   },
   {
-   "headline": "Morgan Stanley Releases H2 2026 Survey on Chinese CIO IT Spending",
-   "summary": "Morgan Stanley published a research report based on its AlphaWise survey of Chinese Chief Information Officers, indicating a rebound in IT budgets and a shift toward AI commercialization.",
+   "headline": "RBC Lifts Price Target on LTC Properties to $53 From $52",
+   "summary": "RBC has increased its price target for LTC Properties, Inc. from $52 to $53 while maintaining an Outperform rating.",
    "source": "fiscal.ai",
-   "url": "https://www.moomoo.com/news/post/1004112242/morgan-stanley-h2-survey-of-chinese-cios-shows-rebound-in",
-   "created_at": "2026-11-10T11:34:52Z",
+   "url": "https://www.marketscreener.com/news/rbc-lifts-price-target-on-ltc-properties-to-53-from-52-keeps-outperform-rating-ce785edadd8ef020",
+   "created_at": "2026-11-10T12:33:12Z",
    "symbols": [
-    "MS"
+    "LTC"
    ],
    "image": ""
   },
   {
-   "headline": "Citic Securities Adjusts Apple Price Target",
-   "summary": "Citic Securities has revised its price target for Apple Inc. shares, increasing the target from $349 to $358.",
+   "headline": "JPMorgan Initiates Coverage on EMCOR Group with Neutral Rating",
+   "summary": "JPMorgan has initiated coverage on EMCOR Group, Inc. with a Neutral rating and a price target of $700.",
    "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/citic-securities-adjusts-price-target-on-apple-to-358-from-349-ce785edada8cf724",
-   "created_at": "2026-11-10T11:34:33Z",
+   "url": "https://www.marketscreener.com/news/jpmorgan-initiates-emcor-at-neutral-with-700-price-target-ce785edada8cf52c",
+   "created_at": "2026-11-10T12:33:00Z",
    "symbols": [
-    "AAPL"
+    "EME"
    ],
    "image": ""
   },
   {
-   "headline": "JPMorgan Adjusts Price Target on Cardinal Health to $286 From $260",
-   "summary": "JPMorgan has updated its price target for Cardinal Health, raising it from $260 to $286.",
+   "headline": "Jefferies Downgrades Peabody Energy to Hold From Buy",
+   "summary": "Jefferies has downgraded Peabody Energy Corporation's stock rating from Buy to Hold, setting a price target of $18.",
    "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/jpmorgan-adjusts-price-target-on-cardinal-health-to-286-from-260-ce785edadd89f420",
-   "created_at": "2026-11-10T11:34:24Z",
+   "url": "https://www.marketscreener.com/news/jefferies-downgrades-peabody-energy-to-hold-from-buy-18-price-target-ce785edadd81f025",
+   "created_at": "2026-11-10T12:32:59Z",
    "symbols": [
-    "CAH"
+    "BTU"
    ],
    "image": ""
   },
   {
-   "headline": "Bernstein Adjusts Price Target on Lowe's Companies to $270 From $254",
-   "summary": "Bernstein has updated its price target for Lowe's Companies, Inc., raising it from $254 to $270.",
+   "headline": "UBS Upgrades Southern Copper to Neutral",
+   "summary": "UBS has upgraded Southern Copper Corporation from Sell to Neutral, setting a price target of $180.",
    "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/bernstein-adjusts-price-target-on-lowe-s-companies-to-270-from-254-ce785edada8fff27",
-   "created_at": "2026-11-10T11:34:21Z",
+   "url": "https://www.marketscreener.com/news/ubs-upgrades-southern-copper-to-neutral-from-sell-price-target-is-180-ce785edadd81f52d",
+   "created_at": "2026-11-10T12:32:58Z",
    "symbols": [
-    "LOW"
+    "SCCO"
    ],
    "image": ""
   },
   {
-   "headline": "Abbott Launches Panbio™ COVID-19/Flu A&B Self-Test in Canada",
-   "summary": "Abbott has introduced its new Panbio™ COVID-19/Flu A&B self-test in Canada to assist families during the respiratory illness season.",
+   "headline": "Hemab Therapeutics Reports Third Quarter 2026 Financial Results",
+   "summary": "Hemab Therapeutics announced its financial results for the third quarter ended September 30, 2026, and provided updates on its clinical-stage programs.",
    "source": "fiscal.ai",
-   "url": "https://www.newswire.ca/news-releases/new-abbott-panbio-tm-covid-19-flu-a-amp-b-self-test-helps-canadian-families-make-informed-decisions-during-respiratory-illness-season-872403826.html",
-   "created_at": "2026-11-10T11:34:20Z",
+   "url": "https://www.globenewswire.com/news-release/2026/11/10/3399342/0/en/hemab-therapeutics-reports-third-quarter-2026-financial-results-and-provides-corporate-update.html",
+   "created_at": "2026-11-10T12:32:56Z",
    "symbols": [
-    "ABT"
+    "COAG"
    ],
    "image": ""
   },
   {
-   "headline": "Keefe, Bruyette & Woods Adjusts Price Target on MetLife to $111",
-   "summary": "Analyst firm Keefe, Bruyette & Woods has increased its price target for MetLife, Inc. from $108 to $111.",
+   "headline": "First Tracks Biotherapeutics Recognized in BioSpace 2027 Best Places to Work List",
+   "summary": "First Tracks Biotherapeutics was named as one of the top 30 small employers in the life sciences industry in BioSpace's 2027 Best Places to Work list.",
    "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/keefe-bruyette-woods-adjusts-price-target-on-metlife-to-111-from-108-ce785edada8ff02d",
-   "created_at": "2026-11-10T11:34:00Z",
+   "url": "https://www.prnewswire.com/news-releases/biospace-announces-2027-best-places-to-work-in-life-sciences-winners-302933629.html",
+   "created_at": "2026-11-10T12:32:54Z",
    "symbols": [
-    "MET"
+    "TRAX"
    ],
    "image": ""
   },
   {
-   "headline": "Credit One Bank and Sunoco Launch Sunoco Rewards Plus Mastercard",
-   "summary": "Credit One Bank and Sunoco have introduced the Sunoco Rewards Plus Mastercard to provide enhanced rewards for fuel and other purchases.",
+   "headline": "Brookdale Senior Living Releases New Episode of 'The Grey Take' Podcast for Alzheimer's Awareness Month",
+   "summary": "In observance of National Alzheimer's Disease Awareness Month, Brookdale Senior Living has released a new episode of its podcast featuring a resident's personal journey with the disease.",
    "source": "fiscal.ai",
-   "url": "https://www.einpresswire.com/article/955722007/credit-one-bank-and-sunoco-launch-new-sunoco-rewards-plus-mastercard-to-deliver-more-value-at-the-pump-and-beyond",
-   "created_at": "2026-11-10T11:33:59Z",
+   "url": "https://www.prnewswire.com/news-releases/brookdale-resident-shares-her-alzheimers-journey-on-the-grey-take-302933794.html",
+   "created_at": "2026-11-10T12:32:54Z",
    "symbols": [
-    "MA"
+    "BKD"
    ],
    "image": ""
   },
   {
-   "headline": "Citigroup Adjusts Price Target on Mastercard to $800 From $675",
-   "summary": "Citigroup has increased its price target for Mastercard Incorporated, raising it from $675 to $800.",
+   "headline": "SmartStop Self Storage REIT Announces Pricing of Upsized Offering of Common Stock",
+   "summary": "SmartStop Self Storage REIT, Inc. has finalized the pricing for an upsized public offering of 8.2 million shares of its common stock.",
    "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/citigroup-adjusts-price-target-on-mastercard-to-800-from-675-ce785edada8cf620",
-   "created_at": "2026-11-10T11:33:59Z",
+   "url": "https://www.businesswire.com/newsroom/industry/construction-property/reit",
+   "created_at": "2026-11-10T12:32:53Z",
    "symbols": [
-    "MA"
+    "SMA"
    ],
    "image": ""
   },
   {
-   "headline": "Wells Fargo Adjusts Price Target on Nvidia",
-   "summary": "Wells Fargo has revised its price target for Nvidia, lowering it from $315 to $300.",
+   "headline": "Warner Bros. Korea Rereleases 'Dune' in IMAX Theaters",
+   "summary": "Warner Bros. Korea is bringing the first 'Dune' film back to IMAX theaters across South Korea for a one-week engagement starting November 11, 2026.",
    "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/wells-fargo-adjusts-price-target-on-nvidia-to-300-from-315-ce785edadd89f52d",
-   "created_at": "2026-11-10T11:33:34Z",
+   "url": "https://www.koreaherald.com/article/10932579",
+   "created_at": "2026-11-10T12:32:51Z",
    "symbols": [
-    "WFC"
+    "IMAX"
    ],
    "image": ""
   },
   {
-   "headline": "KKR, Samsung Fire & Marine Insurance, and KIC to Acquire Additional Stake in Canopius Group",
-   "summary": "KKR, alongside Samsung Fire & Marine Insurance and the Korea Investment Corporation, has entered into an agreement to acquire an additional 59.97% stake in Canopius Group Limited for KRW 2.3 trillion.",
+   "headline": "Enova International Announces New $500 Million Share Repurchase Program",
+   "summary": "Enova International has authorized a new $500 million share repurchase program, replacing its previous $400 million authorization.",
    "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/kkr-samsung-fire-and-kic-to-buy-remaining-60-stake-in-canopius-ce785edadb8ef52d",
-   "created_at": "2026-11-10T11:33:32Z",
+   "url": "https://www.morningstar.com/news/pr-newswire/20261110cg93654/enova-announces-new-500-million-share-repurchase-program",
+   "created_at": "2026-11-10T12:32:47Z",
    "symbols": [
-    "KKR"
+    "ENVA"
    ],
    "image": ""
   },
   {
-   "headline": "Autodesk Reports Results for the Third Quarter of Fiscal Year 2027",
-   "summary": "Autodesk, Inc. has released its financial results for the third quarter of its fiscal year 2027.",
+   "headline": "Oscar Health Expands Coverage to Nearly All of Ohio",
+   "summary": "Oscar Health has expanded its health insurance offerings to 73 of Ohio's 88 counties for the 2027 Open Enrollment period.",
    "source": "fiscal.ai",
-   "url": "https://www.moomoo.com/hant/news/post/1004128716/bofa-securities-maintains-autodesk-adskus-with-buy-rating-maintains-target",
-   "created_at": "2026-11-10T11:33:14Z",
+   "url": "https://insurancenewsnet.com/oarticle/oscar-grows-across-ohio-to-serve-nearly-the-entire-state-for-2027-open-enrollment",
+   "created_at": "2026-11-10T12:32:47Z",
    "symbols": [
-    "ADSK"
+    "OSCR"
    ],
    "image": ""
   },
   {
-   "headline": "Bernstein Adjusts Price Target on Lumentum Holdings to $700 From $635",
-   "summary": "Bernstein has updated its price target for Lumentum Holdings Inc. (LITE), raising it to $700 from the previous level of $635.",
+   "headline": "Loop Capital Downgrades Academy Sports and Outdoors to Hold",
+   "summary": "Loop Capital has downgraded Academy Sports and Outdoors, Inc. from Buy to Hold, setting a price target of $69.",
    "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/bernstein-adjusts-price-target-on-lumentum-holdings-to-700-from-635-ce785edada8fff26",
-   "created_at": "2026-11-10T11:32:57Z",
+   "url": "https://www.marketscreener.com/news/loop-capital-downgrades-academy-sports-and-outdoors-to-hold-from-buy-69-price-target-ce785edada8cff2c",
+   "created_at": "2026-11-10T12:32:46Z",
    "symbols": [
-    "LITE"
+    "ASO"
    ],
    "image": ""
   },
   {
-   "headline": "Delta Air Lines Ranked Among Nation's Kindest Companies by Forbes",
-   "summary": "Delta Air Lines has been named the top company in Georgia and the 13th kindest company in the U.S. by Forbes.",
+   "headline": "Cantor Fitzgerald Initiates Coverage of Academy Sports and Outdoors",
+   "summary": "Cantor Fitzgerald has initiated coverage of Academy Sports and Outdoors, Inc. with an Overweight rating and an $89 price target.",
    "source": "fiscal.ai",
-   "url": "https://metroatlantaceo.com/news/2026/11/atlanta-based-company-one-kindest-america-forbes-says/",
-   "created_at": "2026-11-10T11:32:55Z",
+   "url": "https://www.marketscreener.com/news/cantor-fitzgerald-initiates-academy-sports-and-outdoors-at-overweight-with-89-price-target-ce785edadd80f324",
+   "created_at": "2026-11-10T12:32:46Z",
    "symbols": [
-    "DAL"
+    "ASO"
    ],
    "image": ""
   },
   {
-   "headline": "FedEx Adds New US-China Cargo Flights",
-   "summary": "FedEx has introduced additional cargo flight routes between the United States and China in anticipation of an upcoming meeting between leaders Xi Jinping and Donald Trump.",
+   "headline": "Citigroup Adjusts Price Target on Estee Lauder to $132 From $121",
+   "summary": "Citigroup has increased its price target for The Estee Lauder Companies Inc. from $121 to $132.",
    "source": "fiscal.ai",
-   "url": "https://www.newsnow.co.uk/h/World+News/Asia/China/Politics",
-   "created_at": "2026-11-10T11:32:52Z",
+   "url": "https://www.marketscreener.com/news/citigroup-adjusts-price-target-on-estee-lauder-to-132-from-121-ce785edada8ef325",
+   "created_at": "2026-11-10T12:32:45Z",
    "symbols": [
-    "FDX"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Texas Instruments Enhances CCStudio Ecosystem with Agentic AI Capabilities",
-   "summary": "Texas Instruments has introduced significant upgrades to its CCStudio development ecosystem, integrating agentic AI to accelerate embedded software development for microcontrollers, wireless connectiv",
-   "source": "fiscal.ai",
-   "url": "https://www.prnewswire.com/news-releases/ti-redefines-embedded-development-with-agentic-ai-in-its-ccstudio-ecosystem-empowering-engineers-to-accelerate-innovation-302933587.html",
-   "created_at": "2026-11-10T11:32:52Z",
-   "symbols": [
-    "TXN"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Cantor Fitzgerald Initiates Coverage on Ross Stores with Overweight Rating",
-   "summary": "Cantor Fitzgerald has initiated coverage on Ross Stores, Inc. with an \"Overweight\" rating and a price target of $276.",
-   "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/cantor-fitzgerald-initiates-ross-stores-at-overweight-with-276-price-target-ce785edada8cf522",
-   "created_at": "2026-11-10T11:32:49Z",
-   "symbols": [
-    "ROST"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "JPMorgan Adjusts Price Target on Cencora to $413 From $390",
-   "summary": "JPMorgan has updated its price target for Cencora, Inc., raising it from $390 to $413.",
-   "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/jpmorgan-adjusts-price-target-on-cencora-to-413-from-390-ce785edadd89f225",
-   "created_at": "2026-11-10T11:32:49Z",
-   "symbols": [
-    "COR"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Cantor Fitzgerald Initiates Coverage of Nike with Neutral Rating",
-   "summary": "Cantor Fitzgerald has initiated coverage on Nike, Inc. with a Neutral rating and a price target of $38.",
-   "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/cantor-fitzgerald-initiates-nike-at-neutral-with-38-price-target-ce785edadd89f526",
-   "created_at": "2026-11-10T11:32:48Z",
-   "symbols": [
-    "NKE"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Keefe, Bruyette & Woods Adjusts Price Target on Aflac to $123 From $120",
-   "summary": "Analyst firm Keefe, Bruyette & Woods has increased its price target for Aflac Incorporated, moving it from $120 to $123.",
-   "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/keefe-bruyette-woods-adjusts-price-target-on-aflac-to-123-from-120-ce785edada8fff24",
-   "created_at": "2026-11-10T11:32:46Z",
-   "symbols": [
-    "AFL"
+    "EL"
    ],
    "image": ""
   }
