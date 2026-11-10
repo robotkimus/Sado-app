@@ -1,6 +1,46 @@
 {
- "updated": "2026-11-10 15:00",
+ "updated": "2026-11-10 16:00",
  "items": [
+  {
+   "headline": "'Did He Mislead His Board?': Former SEC Chair Questions Jensen Huang's Nvidia Disclosures, Warns NVDA Will Face ‘Some Tough Choices’",
+   "summary": "Gensler questions whether Jensen Huang misled investors over alleged ties to a suspected Chinese spy as probes and a lawsuit pressure company.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/63078798/did-he-mislead-his-board-former-sec-chair-questions-jensen-huangs-nvidia-disclosures-warns-nvda-will-face-some-tough-choices",
+   "created_at": "2026-11-10T06:47:39Z",
+   "symbols": [
+    "NVDA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/10/The-Modern-Nvidia-Logo-And-Company-Name-.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Jim Cramer Calls AMD a Winner After 13% Surge, But Warns US Data Center Roadmap Is 'Suspect'",
+   "summary": "Jim Cramer called AMD a winner as shares jumped more than 13%, but warned that a multi-year data center roadmap in the U.S. is now suspect.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/63078362/dvanced-micro-devices-stock-surges-jim-cramer-winner-data-center-suspect",
+   "created_at": "2026-11-10T06:05:49Z",
+   "symbols": [
+    "AMD",
+    "GOOGL",
+    "INTC",
+    "NVDA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/10/Paris--France---January-23--2026-The-Amd.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Dow Surges 1,100 Points As Oil Prices Fall: Investor Sentiment Improves, Greed Index Moves To ‘Fear’ Zone",
+   "summary": "U.S. stocks rallied Monday as oil prices fell; Dow jumped 1,104 points, S&amp;P 500 and Nasdaq gained 2.35% and 2.74%, while sentiment improved to Fear at 32.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/market-summary/26/11/63078351/dow-surges-1100-points-as-oil-prices-fall-investor-sentiment-improves-greed-index-moves-to-fear-zone",
+   "created_at": "2026-11-10T06:05:09Z",
+   "symbols": [
+    "FRVO",
+    "NRG",
+    "NVDA",
+    "SBH",
+    "TDG"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/10/Market-sentiment---Fear-and-Greed.jpg?width=1024&height=768"
+  },
   {
    "headline": "Jensen Huang Affair Could Have a Bigger Impact on America's AI Race Than Nvidia, Says Gene Munster: 'Both Democrats and Republicans Will Need to...'",
    "summary": "Munster said the Huang controversy highlights the need for the U.S. to accelerate AI data center construction.",
@@ -152,41 +192,122 @@
    "image": ""
   },
   {
-   "headline": "NVIDIA, Rebellions, and SK Telecom Collaborate on Sovereign AI Infrastructure",
-   "summary": "NVIDIA, Rebellions, and SK Telecom announced a partnership to advance South Korea's sovereign AI infrastructure using NVIDIA's NVLink Fusion technology.",
-   "source": "fiscal.ai",
-   "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Rebellions-and-SK-Telecom-Announce-Collaboration-to-Advance-Sovereign-AI-Infrastructure-With-NVIDIA-NVLink-Fusion/default.aspx",
-   "created_at": "2026-11-09T20:01:27Z",
+   "headline": "MARA Holdings Touts Exploding AI Demand, Targets 4 GW Power Portfolio With Bitcoin Mining as Its 'Foundation'",
+   "summary": "MARA Holdings CFO Salman Khan said that the firm owns and operates roughly 1 gigawatt of power capacity, with a roadmap to scale beyond 4 GW.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/11/63078856/mara-holdings-bitcoin-miner-q3-ai-power-capacity",
+   "created_at": "2026-11-10T06:55:09Z",
    "symbols": [
-    "NVDA"
+    "BTCUSD",
+    "CORZ",
+    "MARA",
+    "ZECUSD"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/10/Bitcoin.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Top Wall Street Forecasters Revamp Bitdeer Expectations Ahead Of Q3 Earnings",
+   "summary": "Bitdeer will report Q3 earnings Tuesday, with analysts expecting a 33-cent loss per share and $258.19M revenue.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/63078808/top-wall-street-forecasters-revamp-bitdeer-expectations-ahead-of-q3-earnings",
+   "created_at": "2026-11-10T06:48:08Z",
+   "symbols": [
+    "BTDR"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/10/Analysts-Adjust-Progressive-Targets.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Sanmina Surges 20% After-Hours as Q4 Earnings Beat Estimates, Fiscal Q1 Outlook Tops Expectations",
+   "summary": "Sanmina shares surge after Q4 FY2026 earnings beat estimates and management issues FY2027 outlook.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/11/63078761/sanmina-surges-20-after-hours-as-q4-earnings-beat-estimates-fiscal-q1-outlook-tops-expectations",
+   "created_at": "2026-11-10T06:43:59Z",
+   "symbols": [
+    "SANM"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/10/Soldering-Iron-Tips-Of-Automated-Manufac.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Trump Says Advisers Traded 40,000 Stocks — Now Senator Alex Padilla Wants to Ban Presidential Stock Trading: 'We're Going to Stop This'",
+   "summary": "Alex Padilla renews calls to ban stock trading by Congress and the president following scrutiny of Trump&#39;s investments.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/11/63078545/stock-trading-ban-congress-president-trump",
+   "created_at": "2026-11-10T06:33:07Z",
+   "symbols": [
+    "EFOR",
+    "SPCX"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/10/President-Donald-J--Trump-Arrives-On-Sta.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Southern Cross Gold Consolidated Starts Underground Drilling at Sunday Creek Project",
+   "summary": "Southern Cross Gold Consolidated has initiated an underground drilling program at its Sunday Creek gold-antimony project in Victoria, Australia.",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/southern-cross-gold-consolidated-starts-drilling-at-victoria-project-shares-rise-3-ce785fd3d08dfe22",
+   "created_at": "2026-11-10T06:32:40Z",
+   "symbols": [
+    "SXGC"
    ],
    "image": ""
   },
   {
-   "headline": "AMD Lands Key Role in Google's New AI Chip System as Nvidia Rivalry Intensifies",
-   "summary": "AMD is supplying EPYC processors for Google’s new TPU system as the search giant expands its challenge to Nvidia.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63061050/amd-google-tpu",
-   "created_at": "2026-11-09T19:16:48Z",
+   "headline": "Mesoblast Expands Operational Management and Names Interim COO",
+   "summary": "Mesoblast has appointed Gregory George as interim Chief Operating Officer to bolster its operational management team ahead of the commercial launch of its rexlemestrocel-L product.",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/mesoblast-expands-operational-management-to-prepare-for-commercial-launch-names-interim-coo-ce785fd3d08dff20",
+   "created_at": "2026-11-10T06:32:31Z",
    "symbols": [
-    "AMD",
-    "GOOGL",
-    "NVDA"
+    "MESO"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/09/Amd-Chairman-And-Ceo-Lisa-Su-Delivers-Th.jpg?width=1024&height=768"
+   "image": ""
   },
   {
-   "headline": "Short Nvidia, Long Drama: Traders Pile into Leveraged ETFs During Sell-Off",
-   "summary": "Nvidia&#39;s sell-off fuels a trading frenzy in leveraged ETFs, with NVD and NVDL among the day&#39;s most-traded as traders react to Jensen Huang controversy.",
+   "headline": "Tesla's $10 Billion 'Project Crystal Sun' Takes Shape Near Houston as Elon Musk Eyes TSLA's Largest US Solar Factory Bet So Far",
+   "summary": "Elon Musk-led Tesla begins work on a $10B Houston solar factory, Project Crystal Sun, targeting 2028 completion.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/etfs/specialty-etfs/26/11/63060246/short-nvidia-long-drama-traders-pile-into-leveraged-etfs-during-sell-off",
-   "created_at": "2026-11-09T19:04:19Z",
+   "url": "https://www.benzinga.com/markets/tech/26/11/63078453/teslas-10-billion-project-crystal-sun-takes-shape-near-houston-as-elon-musk-eyes-tslas-largest-us-solar-factory-bet-so-far",
+   "created_at": "2026-11-10T06:21:08Z",
    "symbols": [
-    "NVD",
-    "NVDA",
-    "NVDL"
+    "TSLA"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/09/Toronto--Canada---May-17-2025-Nvidia-Cor.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/10/Focused-Shot-Capturing-Elon-Musk-Alongsi.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "TransDigm Group, Take-Two And 3 Stocks To Watch Heading Into Tuesday",
+   "summary": "Stocks in focus: TransDigm and Sally Beauty report earnings; Babcock &amp; Wilcox beat sales; Take-Two topped estimates; Alcon reports after close.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/11/63078386/transdigm-group-take-two-and-3-stocks-to-watch-heading-into-tuesday",
+   "created_at": "2026-11-10T06:12:08Z",
+   "symbols": [
+    "ALC",
+    "BW",
+    "SBH",
+    "TDG",
+    "TTWO"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/10/Transdigm-Group.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Ariana Resources Announces Approval of VFEX Prospectus for Secondary Listing",
+   "summary": "Ariana Resources plc has received approval from the Victoria Falls Stock Exchange (VFEX) for its prospectus regarding a proposed secondary listing in Zimbabwe.",
+   "source": "fiscal.ai",
+   "url": "https://www.tradingview.com/news/reuters.com,2026-11-09:newsml_RSI3468Ca:0-reg-ariana-resources-plc-vfex-prospectus-and-proposed-secondary-listing/",
+   "created_at": "2026-11-10T06:02:17Z",
+   "symbols": [
+    "AAU"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Marti Technologies, Inc. Reports Record Q3 2026 Financial Results",
+   "summary": "Marti Technologies, Inc. reported record third-quarter 2026 results, achieving its first-ever positive operating income and record revenue of $24.7 million.",
+   "source": "fiscal.ai",
+   "url": "https://www.fidelity.com/news/article/technology/202611090600BIZWIRE_USPR_____20261109_BW722970",
+   "created_at": "2026-11-10T06:01:54Z",
+   "symbols": [
+    "MRT"
+   ],
+   "image": ""
   },
   {
    "headline": "Thomas Massie Moves to Impeach Pete Hegseth Over Iran War, Putting Trump Republicans in a Bind: ‘We’re Not Indicting Him for Being Bad at His Job’",
@@ -349,116 +470,6 @@
    "created_at": "2026-11-10T03:02:07Z",
    "symbols": [
     "HPE"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "KKR Engages Banks for Potential Japan IPO of Logisteed",
-   "summary": "KKR & Co. Inc. has reportedly reached out to additional banks to facilitate a potential initial public offering for its portfolio company, Logisteed, in Japan.",
-   "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/quote/stock/KKR-CO-INC-44486777/news/KKR-Reaches-Out-to-More-Banks-for-Logisteed-s-Japan-IPO-54699861/",
-   "created_at": "2026-11-10T03:02:05Z",
-   "symbols": [
-    "KKR"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Delta Air Lines Executive Files Statement of Changes in Beneficial Ownership",
-   "summary": "Delta Air Lines officer Alain Bellemare filed a statement regarding changes in his beneficial ownership of company securities.",
-   "source": "fiscal.ai",
-   "url": "https://www.moomoo.com/ja/news/notice/1004037369/statement-of-changes-in-beneficial-ownership-of-securities-officer-bellemare",
-   "created_at": "2026-11-10T03:02:02Z",
-   "symbols": [
-    "DAL"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Stifel Maintains Hold Rating on Parker-Hannifin",
-   "summary": "Stifel analyst Nathan Jones has maintained a hold rating and a $1,002 price target on Parker-Hannifin Corporation.",
-   "source": "fiscal.ai",
-   "url": "https://www.moomoo.com/news/post/1004002511/stifel-maintains-parker-hannifin-phus-with-hold-rating-maintains-target",
-   "created_at": "2026-11-10T03:01:56Z",
-   "symbols": [
-    "PH"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "American Tower Corporation Prices Senior Unsecured Notes Offering",
-   "summary": "American Tower Corporation announced the pricing of a registered public offering of senior unsecured notes due 2031, 2033, and 2036.",
-   "source": "fiscal.ai",
-   "url": "https://www.businesswire.com/newsroom/industry/construction-property/reit",
-   "created_at": "2026-11-10T03:01:55Z",
-   "symbols": [
-    "AMT"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Levi & Korsinsky, LLP Announces Investigation into Western Digital Corporation",
-   "summary": "Law firm Levi & Korsinsky, LLP has initiated an investigation into Western Digital Corporation regarding potential breaches of fiduciary duties by the company's officers and directors.",
-   "source": "fiscal.ai",
-   "url": "https://www.morningstar.com/news/pr-newswire/20261109ny93395/shareholder-alert-levi-korsinsky-llp-notifies-shareholders-of-an-investigation-concerning-possible-breaches-of-fiduciary-duties-by-certain-officers-and-directors-of-western-digital-corporation-nasdaq-wdc",
-   "created_at": "2026-11-10T03:01:52Z",
-   "symbols": [
-    "WDC"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Marsh & McLennan Completes Acquisition of AltamarCAM",
-   "summary": "Marsh & McLennan has finalized its acquisition of AltamarCAM, increasing the company's private markets assets under management to $75 billion.",
-   "source": "fiscal.ai",
-   "url": "https://www.tradingview.com/news/tradingview:e9d49e22e0aad:0-weekly-recap-bmo-capital-upgrade-and-altamarcam-acquisition-completion/",
-   "created_at": "2026-11-10T03:01:52Z",
-   "symbols": [
-    "MRSH"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "New York State Files Lawsuit Against General Motors Alleging Deceptive Practices",
-   "summary": "The State of New York has initiated legal action against General Motors Company, alleging the automaker engaged in deceptive business practices.",
-   "source": "fiscal.ai",
-   "url": "https://www.tradingview.com/news/tradingview:6a2ba85420f0b:0-weekly-recap-gm-sees-inflation-pressure-on-profits-and-new-york-lawsuit/",
-   "created_at": "2026-11-10T03:01:51Z",
-   "symbols": [
-    "GM"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "DailyKarma and Change Integrate Charitable Giving Tools with Shopify",
-   "summary": "DailyKarma and Change announced an integration that allows merchants using Shopify's \"Shop for Good\" app to incorporate charitable giving into their e-commerce platforms.",
-   "source": "fiscal.ai",
-   "url": "https://www.morningstar.com/news/pr-newswire/20261109sf92913/change-and-dailykarma-help-brands-unlock-up-to-22x-higher-conversion-through-charitable-giving",
-   "created_at": "2026-11-10T03:01:50Z",
-   "symbols": [
-    "SHOP"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Senator Bill Cassidy Visits Project DASH Site to Discuss Labor Legislation",
-   "summary": "U.S. Senator Bill Cassidy visited a Project DASH partner in Baton Rouge to observe food delivery operations and discuss his proposed labor legislation.",
-   "source": "fiscal.ai",
-   "url": "https://world.einnews.com/pr_news/955621774/icymi-chairman-cassidy-highlights-christian-outreach-center-s-food-delivery-partnership-touts-bill-to-help-independent-workers-access-benefits",
-   "created_at": "2026-11-10T03:01:49Z",
-   "symbols": [
-    "DASH"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Rosenblatt Securities Lowers DoorDash Price Target",
-   "summary": "Rosenblatt Securities maintained a 'Buy' rating on DoorDash, Inc. while reducing its price target from $270 to $225.",
-   "source": "fiscal.ai",
-   "url": "https://www.tradingview.com/news/tradingview:e19e4f2e02341:0-weekly-recap-shares-fall-on-delivery-news-and-rosenblatt-lowers-target/",
-   "created_at": "2026-11-10T03:01:49Z",
-   "symbols": [
-    "DASH"
    ],
    "image": ""
   }
