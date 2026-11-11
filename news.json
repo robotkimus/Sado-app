@@ -1,6 +1,45 @@
 {
- "updated": "2026-11-11 17:00",
+ "updated": "2026-11-11 18:00",
  "items": [
+  {
+   "headline": "Chuck Schumer Blasts Trump Over Nvidia CEO Jensen Huang’s Alleged China Spy Ties Despite Intelligence Warning a Year Ago: ‘What a Dereliction of Duty’",
+   "summary": "Schumer accused Trump of ignoring warnings about Huang’s alleged China spy ties, while Schiff demanded a congressional probe.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/63131521/schumer-trump-huang-china-spy-allegations",
+   "created_at": "2026-11-11T08:41:41Z",
+   "symbols": [
+    "NVDA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/11/New-York--Ny--June-13-Senate-Majority-Le.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Micron (MU) Stock Is Trending Pre-Market: Here’s What You Should Know",
+   "summary": "Micron shares rise 1.5% premarket as the company joins a $26 billion investor group backing Anthropic&#39;s IPO.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/11/63131455/micron-shares-rise-premarket-anthropic-ipo-investment",
+   "created_at": "2026-11-11T08:29:13Z",
+   "symbols": [
+    "AMD",
+    "AVGO",
+    "GOOG",
+    "GOOGL",
+    "GS"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/11/The-Micron-Logo-Appears---EK.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Alibaba Prepares Hong Kong IPO For Chip Unit T-Head as China Ramps Up AI Chip Ambitions to Challenge Nvidia",
+   "summary": "Alibaba plans a Hong Kong IPO for chip unit T-Head as it expands AI hardware ambitions amid growing demand for Nvidia chips in China.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/63131208/alibaba-prepares-hong-kong-ipo-for-chip-unit-t-head-as-china-ramps-up-ai-chip-ambitions-to-challenge-nvidia",
+   "created_at": "2026-11-11T08:03:53Z",
+   "symbols": [
+    "BABA",
+    "NVDA",
+    "TCEHY"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/11/Shanghai-china-oct-25th-2025-Alibaba-Com.jpg?width=1024&height=768"
+  },
   {
    "headline": "Elon Musk Wants to Build a ‘Sentient Sun’: SpaceX Orders Massive 100 GW Solar Manufacturing Line",
    "summary": "SPCX ordered $66.9 million in solar equipment from Germany’s Singulus to build 100GW annually for Starmind AI satellites.",
@@ -160,313 +199,273 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/11/11/Stock-Market-Analysis-Shows-Trading-Patt.jpg?width=1024&height=768"
   },
   {
-   "headline": "Microsoft Briefly Overtakes Nvidia as Jensen Huang Affair Helps Erase $1.8 Trillion Lead",
-   "summary": "Microsoft briefly overtook Nvidia after a $1.8 trillion valuation gap vanished amid Jensen Huang’s affair-driven selloff.",
+   "headline": "Hakeem Jeffries, JB Pritzker Urge Congress to Raise Federal Minimum Wage: ‘It’s A Disgrace’ It ‘Hasn’t Been Raised In 20 Years’",
+   "summary": "Jeffries says federal minimum wage must rise as Pritzker and Ramirez urge Congress to act.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63128428/microsoft-overtakes-nvidia",
-   "created_at": "2026-11-10T23:00:16Z",
-   "symbols": [
-    "AAPL",
-    "MSFT",
-    "NVDA"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/10/Satya-Nadella--Ceo-Of-Microsoft--Speakin.jpg?width=1024&height=768"
+   "url": "https://www.benzinga.com/news/politics/26/11/63131498/hakeem-jeffries-jb-pritzker-urge-congress-to-raise-federal-minimum-wage-its-a-disgrace-it-hasnt-been-raised-in-20-years",
+   "created_at": "2026-11-11T08:37:17Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/11/New-York--New-York---January-19-U-s--Rep.jpg?width=1024&height=768"
   },
   {
-   "headline": "Amazon Web Services Launches $100 Million Health Impact Initiative",
-   "summary": "Amazon Web Services has pledged $100 million in cloud computing and artificial intelligence resources over five years to support healthcare organizations in underserved communities.",
+   "headline": "Scotch Shipments by Pernod Ricard and Diageo Detained in India Over Tariffs",
+   "summary": "Indian authorities have reportedly detained shipments of bulk Scotch whisky belonging to Pernod Ricard and Diageo as part of an investigation into potential tariff underpayments.",
    "source": "fiscal.ai",
-   "url": "https://af.net/realtime/aws-pledges-100m-in-ai-and-cloud-credits-for-healthcare-access/",
-   "created_at": "2026-11-10T22:31:29Z",
+   "url": "https://www.marketscreener.com/news/scotch-shipments-by-diageo-pernod-detained-in-india-over-tariffs-ce785edbda89f02d",
+   "created_at": "2026-11-11T08:32:23Z",
    "symbols": [
-    "AMZN"
+    "RI"
    ],
    "image": ""
   },
   {
-   "headline": "CVS Caremark Reports $1.5 Billion in Gross Savings Through Biosimilar Adoption Strategy",
-   "summary": "CVS Caremark announced that its strategy to accelerate biosimilar adoption has generated approximately $1.5 billion in gross savings for clients and members.",
+   "headline": "Cathay Pacific Orders 11 New Airbus Jets",
+   "summary": "Cathay Pacific has placed a new order for 11 aircraft from Airbus to expand its fleet.",
    "source": "fiscal.ai",
-   "url": "https://www.accessnewswire.com/newsroom/en/healthcare-and-pharmaceutical/cvs-caremark-is-expanding-access-and-affordability-with-biosimilars-1249331",
-   "created_at": "2026-11-10T21:31:52Z",
+   "url": "https://www.finanzen.ch/nachrichten/aktien/boerse-aktuell-11-11-2026-1036747719",
+   "created_at": "2026-11-11T08:32:12Z",
    "symbols": [
-    "CVS"
+    "AIR"
    ],
    "image": ""
   },
   {
-   "headline": "Top Wall Street Forecasters Revamp Applied Aerospace & Defense Expectations Ahead Of Q3 Earnings",
-   "summary": "Applied Aerospace &amp; Defense reports Q3 earnings Wednesday; analysts expect EPS of $0.12 and revenue of $170.38M.",
+   "headline": "ASM International Announces €300 Million Share Buyback Program",
+   "summary": "ASM International N.V. has initiated a share buyback program to repurchase up to €300 million of its common shares.",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/en/news/technology-telecom",
+   "created_at": "2026-11-11T08:31:49Z",
+   "symbols": [
+    "ASM"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Saab Receives SEK 350 Million Order for Live Training Systems from Denmark",
+   "summary": "Saab has secured a contract from the Danish Defence Acquisition and Logistics Organisation to supply advanced live training equipment between 2026 and 2028.",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/saab-receives-order-for-advanced-live-training-systems-from-denmark-302936239.html",
+   "created_at": "2026-11-11T08:31:48Z",
+   "symbols": [
+    "SAAB.B"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "AkzoNobel and Axalta Respond to UK CMA Merger Review",
+   "summary": "AkzoNobel and Axalta are addressing competition concerns raised by the UK Competition and Markets Authority regarding their proposed merger by proposing a remedy package involving the divestment of Eu",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/11/3400482/0/en/update-on-the-uk-competition-and-markets-authority-s-review-of-the-akzonobel-axalta-merger.html",
+   "created_at": "2026-11-11T08:31:46Z",
+   "symbols": [
+    "AKZA"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "FLSmidth Releases 9M 2026 Interim Financial Report",
+   "summary": "FLSmidth & Co. A/S reported a 36% increase in order intake for the third quarter of 2026 and announced an upward adjustment to its financial guidance.",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news/industrials-utilities/construction-materials",
+   "created_at": "2026-11-11T08:31:44Z",
+   "symbols": [
+    "FLS"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "DoubleU Games Commences Tender Offer for DoubleDown Interactive",
+   "summary": "DoubleU Games has initiated an all-cash tender offer to acquire all outstanding American Depositary Shares of DoubleDown Interactive not already owned by the parent company for $16.25 per ADS.",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/10/3400356/0/en/doubleu-games-commences-all-cash-tender-offer-for-all-adss-of-doubledown-interactive-at-us-16-25-per-ads.html",
+   "created_at": "2026-11-11T08:31:41Z",
+   "symbols": [
+    "DDI"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Munters Announces Updates to Financial Targets",
+   "summary": "Munters Group has updated its medium-term financial targets, including adjustments to its margin and return on capital employed (ROCE) goals, during its Capital Markets Day.",
+   "source": "fiscal.ai",
+   "url": "https://www.morningstar.com/news/pr-newswire/20261111hs95014/munters-announces-updates-to-financial-targets",
+   "created_at": "2026-11-11T08:31:41Z",
+   "symbols": [
+    "MTRS"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Sectra Announces Presentation of Six-Month Report 2026/2027",
+   "summary": "Sectra has scheduled a presentation for its upcoming six-month financial report, featuring President Torbjörn Kronander and CFO Jessica Holmquist.",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/invitation-to-presentation-of-sectras-six-month-report-20262027-302936232.html",
+   "created_at": "2026-11-11T08:31:41Z",
+   "symbols": [
+    "SECT.B"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "K+S Aktiengesellschaft Voting Rights Announcement",
+   "summary": "K+S Aktiengesellschaft released a notification regarding a change in voting rights held by The Goldman Sachs Group, Inc.",
+   "source": "fiscal.ai",
+   "url": "https://www.finanzen.ch/nachrichten/aktien/eqs-pvr-k+s-aktiengesellschaft-release-according-to-article-40-section-1-of-the-wphg-[the-german-securities-trading-act]-with-the-objective-of-europe-wide-distribution-1036748564",
+   "created_at": "2026-11-11T08:31:40Z",
+   "symbols": [
+    "SDF"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Siemens Energy Reports Record Fiscal Year and Sets Ambitious Growth Targets",
+   "summary": "Following a record-breaking 2025/26 fiscal year, Siemens Energy has announced new, ambitious growth targets driven by rising global electricity demand.",
+   "source": "fiscal.ai",
+   "url": "https://www.finanzen.ch/nachrichten/aktien/siemens-energy-aktie-mit-kurssprung-nach-rekordjahr-folgen-ehrgeizige-wachstumsziele-1036748291",
+   "created_at": "2026-11-11T08:31:39Z",
+   "symbols": [
+    "ENR"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "MTU Aero Engines AG Announces Advance Notice of Financial Reporting Date",
+   "summary": "MTU Aero Engines AG has issued a regulatory advance notice regarding the scheduled publication of its group financial report for the first half of 2027.",
+   "source": "fiscal.ai",
+   "url": "https://www.finanzen.at/nachrichten/aktien/eqs-afr-mtu-aero-engines-ag-vorabbekanntmachung-ueber-die-veroeffentlichung-von-finanzberichten-gemass-%C2%A7%C2%A7-114-115-117-wphg-1036748603",
+   "created_at": "2026-11-11T08:31:37Z",
+   "symbols": [
+    "MTX"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Novartis Reaches Key Milestone for Ianalumab Ahead of FDA Vote",
+   "summary": "Novartis has achieved a significant development milestone for its drug candidate ianalumab as it approaches a regulatory decision from the FDA.",
+   "source": "fiscal.ai",
+   "url": "https://www.finanzen.ch/nachrichten/aktien/wichtiger-ianalumab-meilenstein-vor-fda-votum-novartis-aktie-ohne-neuen-kurstreiber-1036743724",
+   "created_at": "2026-11-11T08:31:29Z",
+   "symbols": [
+    "NVS"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Hitachi Energy Named a Leader in 2026 IDC MarketScape for Advanced Distribution Management Systems",
+   "summary": "Hitachi Energy has been recognized as a leader in the 2026 IDC MarketScape report for worldwide advanced distribution management systems (ADMS).",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/energy-latest-news/electrical-utilities-list/",
+   "created_at": "2026-11-11T08:31:29Z",
+   "symbols": [
+    "6501"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "China's PLA-Linked University Reportedly Bought Nvidia's Powerful H200 AI Chips Despite US Export Blacklist — As Jensen Huang Faces Scrutiny",
+   "summary": "Northwestern Polytechnical University, an institution with longstanding connections to the Chinese army, reportedly bought Nvidia Corp. (NASDAQ: NVDA) advanced H200 AIchips last month, despite being i",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/63131009/top-wall-street-forecasters-revamp-applied-aerospace-defense-expectations-ahead-of-q3-earnings",
-   "created_at": "2026-11-11T07:43:21Z",
-   "symbols": [
-    "AADX"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/11/Crypto-Trader-Investor-Broker-Using-Smar.jpg?width=1024&height=768"
+   "url": "https://www.benzinga.com/markets/tech/26/11/63131219/chinas-pla-linked-university-reportedly-bought-nvidias-powerful-h200-ai-chips-despite-us-export-blacklist-as-jensen-huang-faces-scrutiny",
+   "created_at": "2026-11-11T08:04:44Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/11/Nvidia-Founder--President-And-Ceo-Jensen.jpg?width=1024&height=768"
   },
   {
-   "headline": "‘Everybody Will Be Hacked at Some Point,’ Ledger CEO Warns as Crypto Thefts Hit $8.7 Billion in 2026",
-   "summary": "Pascal Gauthier, CEO of hardware wallet company Ledger, said on Tuesday, November 10, that security failures remain possible across the technology industry.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/11/63130957/ledger-ceo-crypto-hack-binance-self-custody-centralized-exchanges",
-   "created_at": "2026-11-11T07:29:33Z",
-   "symbols": [
-    "BTCUSD",
-    "ZECUSD"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/11/Cybercrime--Hacker-And-Thinking-At-Compu.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Rigetti Computing Stock Sinks Nearly 7% After Hours as CFO Signals Another Year of Heavy Spending: CapEx Won’t Return to 2025 Levels",
-   "summary": "Rigetti shares fell nearly 7% after hours as the CFO signaled elevated CapEx will continue through 2027 to support its 1,000-qubit ambitions.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/11/63130856/rigetti-shares-capex-spending-2027-qubit",
-   "created_at": "2026-11-11T07:13:14Z",
-   "symbols": [
-    "RGTI"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/11/Los-Angeles--California---August-3-2025-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Tesla May Be Done With Cybertruck, but This Company Wants to Keep It Alive — and Ross Gerber Is on Board",
-   "summary": "Unplugged Tesla offers to take over Tesla’s Cybertruck line, build a three-row CyberSUV as Tesla pivots to Cybercab production.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/11/63130810/tesla-may-be-done-with-cybertruck-but-this-company-wants-to-keep-it-alive-and-ross-gerber-is-on-board",
-   "created_at": "2026-11-11T07:07:40Z",
-   "symbols": [
-    "TSLA"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/11/Tesla-Cybertruck.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Raisio Q3 2026 Financial Analysis",
-   "summary": "Inderes published an analysis of Raisio's third-quarter 2026 financial performance, highlighting the company's low valuation and potential in profitability.",
+   "headline": "Biofrigas CEO Discusses Customer Engagement and Investment Path",
+   "summary": "Biofrigas CEO highlights the company's ongoing efforts to guide potential customers through the investment process for its biogas technology.",
    "source": "fiscal.ai",
-   "url": "https://www.avanza.se/nyheter.html?a=%2Ftelegram%2Favanza%2F16_2ccd7fef-ba63-47a4-8587-61cf1be54752",
-   "created_at": "2026-11-11T07:02:42Z",
+   "url": "https://www.avanza.se/nyheter-bevaka-app.html?a=%2Ftelegram%2Favanza%2F39_bcb38c7a-70b6-4f79-8ab0-72142d790507",
+   "created_at": "2026-11-11T08:04:33Z",
    "symbols": [
-    "RAIVV"
+    "BIOF"
    ],
    "image": ""
   },
   {
-   "headline": "Aktia Bank Reports Weak Domestic Fund Sales for October",
-   "summary": "Aktia Bank experienced weak sales performance for its domestic funds during the month of October 2026.",
+   "headline": "Realfiction Announces Last Day of Trading in BTUs and First Day of Trading in Warrants of Series TO3",
+   "summary": "Realfiction Holding AB has announced the final day for trading in BTUs (units) and the commencement of trading for its series TO3 warrants.",
    "source": "fiscal.ai",
-   "url": "https://www.avanza.se/nyheter.html?a=%2Ftelegram%2Favanza%2F8_795a758a-3cd2-43bd-b719-7683946d3b2a",
-   "created_at": "2026-11-11T07:02:42Z",
+   "url": "https://www.avanza.se/hall-koll/nyheter.html?a=%2Ftelegram%2Favanza%2F16_3b995bf9-4583-4ad3-94c0-78a50d969dee",
+   "created_at": "2026-11-11T08:04:11Z",
    "symbols": [
-    "AKTIA"
+    "REALFI"
    ],
    "image": ""
   },
   {
-   "headline": "Rubico Announces Acquisition of Two Newbuilding MR Tankers",
-   "summary": "Rubico Inc. has entered into a share purchase agreement to acquire two special purpose vehicles (SPVs) from related party Top Ships Inc., adding two newbuilding MR tankers to its fleet.",
+   "headline": "Qbim Aktiebolag Announces Directed Share Issue",
+   "summary": "Qbim Aktiebolag has decided to carry out a directed new share issue of approximately 1.6 million SEK.",
    "source": "fiscal.ai",
-   "url": "https://www.globenewswire.com/news-release/2026/11/10/3399787/0/en/rubico-announces-acquisition-of-another-two-newbuilding-mr-tankers-and-a-40-increase-of-potential-gross-revenue-backlog-to-about-523-million.html",
-   "created_at": "2026-11-11T07:02:24Z",
+   "url": "https://www.avanza.se/hall-koll/nyheter.html?a=%2Ftelegram%2Favanza%2F16_217a9c39-c013-4c88-8154-657d099504b7",
+   "created_at": "2026-11-11T08:04:06Z",
    "symbols": [
-    "RUBI"
+    "QBIM"
    ],
    "image": ""
   },
   {
-   "headline": "Oriola to Restructure Commercial Operating Model",
-   "summary": "Oriola Corporation has announced plans to restructure its commercial operating model, as reported on November 10, 2026.",
+   "headline": "Mantex expands loan facility with largest shareholder",
+   "summary": "Mantex AB has announced an expansion of its existing loan facility with its largest shareholder to strengthen its financial position.",
    "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/oriola-to-restructure-commercial-operating-model-ce785edadd8dff25",
-   "created_at": "2026-11-11T07:02:13Z",
+   "url": "https://www.avanza.se/hall-koll/nyheter.html?a=%2Ftelegram%2Favanza%2F13_13fba1c1-7b5f-44dd-a9db-22983b7f6271",
+   "created_at": "2026-11-11T08:04:03Z",
    "symbols": [
-    "ORIOLA"
+    "MANTEX"
    ],
    "image": ""
   },
   {
-   "headline": "Robin Energy Announces 1-for-75 Reverse Stock Split and Special Dividend",
-   "summary": "Robin Energy Ltd. has announced that its board of directors approved a 1-for-75 reverse stock split and a one-time special cash dividend of $0.10 per share.",
+   "headline": "Athanase Innovation AB Convenes Extraordinary General Meeting",
+   "summary": "Athanase Innovation AB has issued a formal notice to convene an extraordinary general meeting of shareholders.",
    "source": "fiscal.ai",
-   "url": "https://www.moomoo.com/stock/RBNE-US/news?chain_id=Name1K9-3FXPhg.1lb7fq0&global_content=%7B%22promote_id%22%3A13764,%22sub_promote_id%22%3A107,%22f%22%3A%22www.moomoo.com%2Fetfs%2FNVDL-US%2Fcommunity%22%7D",
-   "created_at": "2026-11-11T07:02:12Z",
+   "url": "https://www.avanza.se/hall-koll/nyheter.html?a=%2Ftelegram%2Favanza%2F13_42eaa38d-5be0-47da-aad0-ac2560a8dff2",
+   "created_at": "2026-11-11T08:03:51Z",
    "symbols": [
-    "RBNE"
+    "ATIN"
    ],
    "image": ""
   },
   {
-   "headline": "Rail Vision Completes Testing Phase of TrackScout™ System",
-   "summary": "Rail Vision Ltd. announced the successful completion of the testing phase for its TrackScout™ mainline railway system under the Association of American Railroads (AAR) Technology Roadmap Program.",
+   "headline": "Safe at Sea AB Receives Order from SDIS 36",
+   "summary": "Safe at Sea AB has secured an order from the French fire and rescue service SDIS 36, with delivery expected in the fourth quarter of 2026.",
    "source": "fiscal.ai",
-   "url": "https://www.globenewswire.com/news-release/2026/11/10/3399375/0/en/rail-vision-successfully-completes-u-s-rail-industry-testing-phase-under-the-association-of-american-railroads-technology-roadmap-program.html",
-   "created_at": "2026-11-11T07:02:07Z",
+   "url": "https://www.avanza.se/hall-koll/nyheter.html?a=%2Ftelegram%2Favanza%2F8_58c28f03-2cc7-4db1-b864-5aa0f2f4a16a",
+   "created_at": "2026-11-11T08:03:46Z",
    "symbols": [
-    "RVSN"
+    "SAFE"
    ],
    "image": ""
   },
   {
-   "headline": "Rail Vision Subsidiary Launches Quantum Error Correction Program",
-   "summary": "Rail Vision Ltd.'s subsidiary, Quantum Transportation Ltd., has launched an end-to-end quantum error correction program on the Arbel superconducting quantum processor at the Israeli Quantum Computing ",
+   "headline": "Aino Health Announces Rights Issue of Approximately 13.6 Million SEK",
+   "summary": "Aino Health AB (publ) has decided to carry out a rights issue of shares to raise approximately 13.6 million SEK.",
    "source": "fiscal.ai",
-   "url": "https://www.globenewswire.com/fr/news-release/2026/11/09/3398305/0/en/rail-vision-s-quantum-platform-launches-end-to-end-quantum-error-correction-program-at-the-israeli-quantum-computing-center.html",
-   "created_at": "2026-11-11T07:02:07Z",
+   "url": "https://www.avanza.se/hall-koll/nyheter.html?a=%2Ftelegram%2Favanza%2F8_644c3207-b973-493f-a310-cb257fe87653",
+   "created_at": "2026-11-11T08:03:46Z",
    "symbols": [
-    "RVSN"
+    "AINO"
    ],
    "image": ""
   },
   {
-   "headline": "NoHo Partners Plc: Managers' Transactions (Niemi)",
-   "summary": "NoHo Partners Oyj reported a transaction involving a person discharging managerial responsibilities, specifically identified as Niemi.",
+   "headline": "Qiiwi Games Announces Invitation to Q3 2026 Earnings Presentation",
+   "summary": "Qiiwi Games AB (publ) has issued an invitation for its upcoming third-quarter 2026 earnings presentation and Q&A session.",
    "source": "fiscal.ai",
-   "url": "https://www.avanza.se/hall-koll/nyheter.html?a=%2Ftelegram%2Favanza%2F1_6942bc4f-10af-4f2a-abd1-0bdb6e9a8ff6",
-   "created_at": "2026-11-11T07:02:05Z",
+   "url": "https://www.avanza.se/hall-koll/nyheter.html?a=%2Fnyheter%2Fsbab-stora-lagenheter-fortsatt-hetast-2026-11-10",
+   "created_at": "2026-11-11T08:03:45Z",
    "symbols": [
-    "NOHO"
+    "QIIWI"
    ],
    "image": ""
   },
   {
-   "headline": "Maris-Tech Announces Record Order Backlog of Approximately $11 Million",
-   "summary": "Maris-Tech Ltd. reported that its order backlog reached a record high of approximately $11 million as of November 8, 2026.",
+   "headline": "Communiqué from the Extraordinary General Meeting of Ortelius International AB (publ)",
+   "summary": "Ortelius International AB (publ) held an Extraordinary General Meeting on November 10, 2026, where resolutions were passed to amend the company's articles of association.",
    "source": "fiscal.ai",
-   "url": "https://www.globenewswire.com/fr/news-release/2026/11/09/3398391/0/en/maris-tech-announces-record-order-backlog-of-approximately-11-000-000.html",
-   "created_at": "2026-11-11T07:02:05Z",
+   "url": "https://www.finanznachrichten.de/nachrichten-medien/globenewswire-europe.htm",
+   "created_at": "2026-11-11T08:03:38Z",
    "symbols": [
-    "MTEK"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Levi & Korsinsky Initiates Investigation into Gilat Satellite Networks",
-   "summary": "Law firm Levi & Korsinsky has launched an investigation into potential securities law violations following Gilat's reduction of its 2026 revenue guidance.",
-   "source": "fiscal.ai",
-   "url": "https://www.prnewswire.com/news-releases/gilat-satellite-networks-investigation-notice-levi--korsinsky-notifies-investors-of-pending-investigation-into-gilat-satellite-networks-ltd-gilt-302935666.html",
-   "created_at": "2026-11-11T07:02:05Z",
-   "symbols": [
-    "GILT"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Maris-Tech Receives $350,000 Follow-On Order from Aero Sentinel",
-   "summary": "Maris-Tech Ltd. has secured a $350,000 follow-on order from long-standing customer Aero Sentinel for its Uranus Drones platform, with deliveries expected in 2027 and 2028.",
-   "source": "fiscal.ai",
-   "url": "https://www.moomoo.com/news/post/1004147996/maris-tech-receives-350000-follow-on-order-from-long-standing",
-   "created_at": "2026-11-11T07:02:05Z",
-   "symbols": [
-    "MTEK"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Eocene Ltd. Announces Commercial Launch of CG-100 in Greece and Cyprus",
-   "summary": "Eocene Ltd. (formerly Galmed Pharmaceuticals) has announced the upcoming commercial launch of its CG-100 intraluminal bypass device at the 17th Hellenic-Cypriot Surgical Conference.",
-   "source": "fiscal.ai",
-   "url": "https://www.prnewswire.com/news-releases/eocene-announces-its-first-european-sales-and-distribution-agreement-to-accelerate-the-commercialization-of-colospans-cg-100-device-302934810.html",
-   "created_at": "2026-11-11T07:02:04Z",
-   "symbols": [
-    "EOCN"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "MIND CTI Reports Third Quarter 2026 Financial Results",
-   "summary": "MIND CTI reported its financial results for the third quarter ended September 30, 2026, showing a loss per share of $0.15.",
-   "source": "fiscal.ai",
-   "url": "https://www.finanzen.at/nachrichten/aktien/mind-cti-zog-bilanz-zum-juengsten-jahresviertel-1036746079",
-   "created_at": "2026-11-11T07:02:04Z",
-   "symbols": [
-    "MNDO"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Enghouse Systems to Acquire MIND CTI",
-   "summary": "Enghouse Systems Ltd. has entered into a definitive agreement to acquire MIND C.T.I. Ltd. for US$1.30 per share in an all-cash transaction.",
-   "source": "fiscal.ai",
-   "url": "https://www.globenewswire.com/news-release/2026/11/10/3399837/0/en/mind-cti-to-be-acquired-by-enghouse-systems-in-all-cash-transaction.html",
-   "created_at": "2026-11-11T07:02:04Z",
-   "symbols": [
-    "MNDO"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Nexera Technologies Completes Sale of KeepZone AI Subsidiary",
-   "summary": "Nexera Technologies Ltd has finalized the sale of its wholly owned subsidiary, KeepZone AI Inc., to a global aerospace and defense company for up to $6.5 million.",
-   "source": "fiscal.ai",
-   "url": "https://markets.businessinsider.com/news/stocks/nexera-technologies-completes-sale-of-keepzone-ai-to-a-global-aerospace-and-defense-company-for-up-to-6-5-million-1036736704",
-   "created_at": "2026-11-11T07:02:04Z",
-   "symbols": [
-    "NEXR"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Tessera Defense and Homeland Security Launches Integrated Perimeter Security Solution",
-   "summary": "The company announced the commercial launch of a modular perimeter security solution that integrates DFSL's LADAR sensors with Zorronet's AI-driven command-and-control platform.",
-   "source": "fiscal.ai",
-   "url": "https://www.prnewswire.com/news-releases/tessera-unveils-integrated-ladar--based-perimeter-security-solution-combining-ai-platform-with-thermal-imaging-and-intelligent-classification-302935010.html",
-   "created_at": "2026-11-11T07:02:03Z",
-   "symbols": [
-    "HLSQ"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Tessera Subsidiary Zorronet Expands Collaboration with D4P Group",
-   "summary": "Zorronet expanded its partnership with D4P Group to address UAV threats and critical infrastructure security across the European Union.",
-   "source": "fiscal.ai",
-   "url": "https://www.prnewswire.com/news-releases/tessera-subsidiary-zorronet-expands-d4p-group-collaboration-into-ai-powered-critical-infrastructure-and-homeland-security-markets-across-the-eu-302933377.html",
-   "created_at": "2026-11-11T07:02:03Z",
-   "symbols": [
-    "HLSQ"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Seegnal Inc. Announces CEO Resignation, New Five-Year Deployment Agreement, and Financing",
-   "summary": "Seegnal Inc. announced the upcoming resignation of its CEO, a new five-year contract with Hadassah Medical Center, and the procurement of US$300,000 in short-term loans.",
-   "source": "fiscal.ai",
-   "url": "https://www.newswire.ca/news-releases/seegnal-inc-announces-resignation-of-ceo-signs-five-year-agreement-to-deploy-its-medication-safety-platform-across-hadassah-medical-center-and-announces-aggregate-us-300-000-short-term-loans-from-major-shareholders-884398488.html",
-   "created_at": "2026-11-11T07:02:00Z",
-   "symbols": [
-    "SEGN"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Martela Corporation's Interim Report 1 January - 30 September 2026",
-   "summary": "Martela reported a decline in revenue and operating profit for the first nine months of 2026 and provided updated guidance for the full year.",
-   "source": "fiscal.ai",
-   "url": "https://www.globenewswire.com/news-release/2026/11/11/3400446/0/fi/martela-oyj-n-osavuosikatsaus-ajalta-1-1-30-9-2026.html",
-   "created_at": "2026-11-11T07:02:00Z",
-   "symbols": [
-    "MARAS"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Can-Fite BioPharma Reports Ten-Year Survival Milestone for Namodenoson Patient",
-   "summary": "Can-Fite BioPharma announced that a patient with advanced liver cancer who participated in its Phase II study of Namodenoson has achieved ten years of overall survival.",
-   "source": "fiscal.ai",
-   "url": "https://www.globenewswire.com/news-release/2026/11/09/3398268/0/en/can-fite-reports-ten-year-survival-milestone-for-advanced-liver-cancer-patient-from-phase-ii-namodenoson-study.html",
-   "created_at": "2026-11-11T07:01:59Z",
-   "symbols": [
-    "CANF"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Nasus Pharma Announces Abstracts Accepted for Presentation at ACAAI 2026",
-   "summary": "Nasus Pharma announced that multiple abstracts regarding its investigational intranasal epinephrine powder, NS002, have been accepted for presentation at the ACAAI 2026 Annual Scientific Meeting.",
-   "source": "fiscal.ai",
-   "url": "https://www.globenewswire.com/news-release/2026/11/10/3399438/0/en/nasus-pharma-announces-abstracts-accepted-for-presentation-at-acaai-2026.html",
-   "created_at": "2026-11-11T07:01:58Z",
-   "symbols": [
-    "NSRX"
+    "ORTIN"
    ],
    "image": ""
   }
