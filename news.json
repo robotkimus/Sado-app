@@ -1,6 +1,29 @@
 {
- "updated": "2026-11-11 20:00",
+ "updated": "2026-11-11 21:00",
  "items": [
+  {
+   "headline": "Reports of NVIDIA H200 Chips Found at Chinese University",
+   "summary": "Reports indicate that NVIDIA H200 chips have been acquired by a Chinese university linked to the military, despite existing US export restrictions.",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/nvidia-h200-chips-gets-purchased-by-chinese-university-despite-us-blacklist-ce785edbda8ef524",
+   "created_at": "2026-11-11T11:31:56Z",
+   "symbols": [
+    "NVDA"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Dan Niles Buys Nvidia Dip, Says Apple's 2011 Rally After Steve Jobs' Exit Shows Why Losing a Visionary Isn't the End: 'Don't Know How It Gets Much More Negative'",
+   "summary": "Dan Niles buys Nvidia shares after the selloff, citing Apple&#39;s 25% rally following Steve Jobs&#39; 2011 departure as a lesson.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/63133037/dan-niles-buys-nvidia-dip-says-apples-2011-rally-after-steve-jobs-exit-shows-why-losing-a-visionary-isnt-the-end-dont-know-how-it-gets-much-more-negative",
+   "created_at": "2026-11-11T11:28:25Z",
+   "symbols": [
+    "AAPL",
+    "NVDA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/11/Jakarta--September-07-2024-Nvidia-Corpor.jpg?width=1024&height=768"
+  },
   {
    "headline": "CRWV CEO Michael Intrator Sees Nearly $10 Billion Revenue Opportunity From Older Nvidia GPUs — Without Spending Another Dollar",
    "summary": "CoreWeave sees nearly $10 Billion in annual revenue from renewing 300,000 older Nvidia GPUs through 2028 without new hardware spending.",
@@ -172,308 +195,281 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/11/11/Jakarta--September-07-2024-Nvidia-Corpor.jpg?width=1024&height=768"
   },
   {
-   "headline": "TSMC Stock Is Trending After Hours As Chipmaker Plans Up To $1 Billion Bet On Anthropic, OpenAI",
-   "summary": "TSMC shares rise 1.54% after hours as the chipmaker approves up to $1 billion in investments in Anthropic and OpenAI.",
+   "headline": "Corteva Earnings Are Imminent; These Most Accurate Analysts Revise Forecasts Ahead Of Earnings Call",
+   "summary": "Corteva will report Q3 earnings Nov. 11, with estimates of 10¢ EPS and $1.77B revenue.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/11/63129980/tsmc-shares-rise-after-hours-anthropic-openai-investment",
-   "created_at": "2026-11-11T04:01:42Z",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/63133599/corteva-earnings-are-imminent-these-most-accurate-analysts-revise-forecasts-ahead-of-earnings-call",
+   "created_at": "2026-11-11T11:53:38Z",
    "symbols": [
-    "AMD",
-    "GOOG",
-    "GOOGL",
-    "MSFT",
-    "NVDA"
+    "CTVA"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/11/Hsinchu-City--Taiwan--August-19--2022-Ta.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/11/Analyst-Works-On-Personal-Computer-Showi.jpg?width=1024&height=768"
   },
   {
-   "headline": "Nvidia Stock (NVDA) Is Trending After Hours As Analysts Cut Price Targets Amid CEO Probe: Here’s What You Should Know",
-   "summary": "NVIDIA shares rise 1% after hours following heavy selling, as investors assess analyst target cuts and leadership concerns.",
+   "headline": "Why Is Gevo Stock Gaining Wednesday?",
+   "summary": "Gevo stock surges after Q3 revenue jumps 94% to $82.95M and EPS beats estimates at $0.12. Read the full Q3 earnings breakdown.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/11/63129853/nvidia-shares-rise-after-hours-analyst-target-cuts-leadership-probe",
-   "created_at": "2026-11-11T03:03:59Z",
+   "url": "https://www.benzinga.com/markets/earnings/26/11/63133569/why-is-gevo-stock-gaining-wednesday",
+   "created_at": "2026-11-11T11:50:40Z",
    "symbols": [
-    "NVDA"
+    "GEVO"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/11/Jensen-Huang-Nvidias-Founder--President-.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/11/Technician-Is-Refueling-Aircraft-With-Su.jpg?width=1024&height=768"
   },
   {
-   "headline": "SpaceX Scores Key FCC Breakthrough in $8 Billion Spectrum Deal: Starlink Moves Closer to Nationwide 5G Push",
-   "summary": "FCC accepts SpaceX’s application to acquire 546 Grain Management 800 MHz licenses covering nearly all U.S. residents.",
+   "headline": "Trump's White House Refuses to Retreat on Tariffs Despite Republican Midterm Defeat, Declares ‘We Are Just Getting Started’",
+   "summary": "White House vows to continue Trump’s tariffs despite election losses, while critics cite consumer costs and Democratic repeal efforts.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/news/space/26/11/63132648/spacex-scores-key-fcc-breakthrough-in-8-billion-spectrum-deal-starlink-moves-closer-to-nationwide-5g-push",
-   "created_at": "2026-11-11T10:50:36Z",
+   "url": "https://www.benzinga.com/news/politics/26/11/63133313/trumps-white-house-refuses-to-retreat-on-tariffs-despite-republican-midterm-defeat-declares-we-are-just-getting-started",
+   "created_at": "2026-11-11T11:42:41Z",
    "symbols": [
-    "ASTS",
-    "QCOM",
-    "SPCX",
-    "T",
-    "TMUS"
+    "UPS"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/11/USAID-Criticized-on-Starlink.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/11/Toronto--Canada---April-5--2025---Trade-.jpg?width=1024&height=768"
   },
   {
-   "headline": "Oil Rebounds From 2-Month Low as US-Iran Diplomacy Doubts Meet Hormuz Shipping Risk",
-   "summary": "Oil prices rebound from two-month lows as Iran peace hopes clash with tanker attacks and persistent Strait of Hormuz supply risks.",
+   "headline": "Why Fossil Group Shares Are Trading Higher By Over 26%; Here Are 20 Stocks Moving Premarket",
+   "summary": "Fossil surged 26% after beating Q3 estimates and raising FY26 sales guidance; SHF and OMH led gainers, while STAK and LWLG fell.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/commodities/26/11/63132511/oil-prices-rebound-iran-peace-hopes-hormuz-tanker-attacks",
-   "created_at": "2026-11-11T10:44:28Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/11/Oil-Industry-Growth-Price-Market-conflic.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Elon Musk Makes Bold $10 Trillion Net Worth Remark as He Predicts Tesla Cybercab Will Dominate Ride-Hailing: ‘Obvious to Anyone With Eyes and a Brain’",
-   "summary": "Elon Musk predicts Tesla’s Cybercab will dominate legal robotaxi markets and jokes his net worth could reach $10 trillion.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/11/63132472/elon-musk-makes-bold-10-trillion-net-worth-remark-as-he-predicts-tesla-cybercab-will-dominate-ride-hailing-obvious-to-anyone-with-eyes-and-a-brain",
-   "created_at": "2026-11-11T10:34:15Z",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63133304/why-fossil-group-shares-are-trading-higher-by-over-26-here-are-20-stocks-moving-premarket",
+   "created_at": "2026-11-11T11:42:30Z",
    "symbols": [
-    "SPCX",
-    "TSLA"
+    "ATRO",
+    "BMGL",
+    "BV",
+    "FOSL",
+    "HGTY"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/11/Cybercab-Nears-Completion.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/11/Markham--Ontario--Canada---March-13--201.jpg?width=1024&height=768"
   },
   {
-   "headline": "Guggenheim Downgrades Globant to Neutral From Buy",
-   "summary": "Guggenheim has downgraded its rating for Globant S.A. from Buy to Neutral.",
+   "headline": "CoreWeave's AI Boom Splits Wall Street: One Analyst Sees a Hurricane, Another Sees a Turning Point",
+   "summary": "CoreWeave (CRWV) surges as Q3 revenue jumps 168% to $3.66B. But with mounting debt and a $132B backlog, Wall Street remains divided.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/63133194/coreweaves-ai-boom-splits-wall-street-one-analyst-sees-a-hurricane-another-sees-a-turning-point",
+   "created_at": "2026-11-11T11:35:04Z",
+   "symbols": [
+    "CRWV"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/11/CoreWeave.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "TD Cowen Updates Analyst Coverage on Edwards Lifesciences",
+   "summary": "TD Cowen has adjusted its price target for Edwards Lifesciences to $121 from $117 and issued a sell rating on the stock.",
    "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/guggenheim-downgrades-globant-to-neutral-from-buy-ce785edbda80ff23",
-   "created_at": "2026-11-11T10:32:01Z",
+   "url": "https://www.marketscreener.com/news/td-cowen-adjusts-price-target-on-edwards-lifesciences-to-121-from-117-ce785edbdd8af62c",
+   "created_at": "2026-11-11T11:32:59Z",
    "symbols": [
-    "GLOB"
+    "EW"
    ],
    "image": ""
   },
   {
-   "headline": "Credo Technology Stock Is Surging Wednesday: What's Going On?",
-   "summary": "Credo Technology (CRDO) jumped nearly 9% premarket as AI infrastructure stocks rebounded. Explore growth catalysts and technical levels.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63132447/credo-technology-stock-is-surging-wednesday-whats-going-on",
-   "created_at": "2026-11-11T10:30:50Z",
-   "symbols": [
-    "CRDO"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/11/CredoSignSan-Jose--California-Us---Febru.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "BBVA Argentina Announces Third Quarter 2026 Financial Results Schedule",
-   "summary": "Banco BBVA Argentina S.A. has scheduled the release of its third quarter 2026 financial results for November 24, 2026, followed by a conference call on November 25, 2026.",
+   "headline": "Bernstein Adjusts Price Target on Costco Wholesale",
+   "summary": "Bernstein has updated its price target for Costco Wholesale Corporation, increasing it from $1,143 to $1,155.",
    "source": "fiscal.ai",
-   "url": "https://www.businesswire.com/newsroom/subject/earnings",
-   "created_at": "2026-11-11T10:31:40Z",
+   "url": "https://www.marketscreener.com/news/bernstein-adjusts-price-target-on-costco-wholesale-to-1-155-from-1-143-ce785edbdd88f121",
+   "created_at": "2026-11-11T11:32:54Z",
    "symbols": [
-    "BBAR"
+    "COST"
    ],
    "image": ""
   },
   {
-   "headline": "Petrobras Reports Rise in Q3 2026 Net Income and Sales Revenue",
-   "summary": "Petrobras announced its financial results for the third quarter of 2026, reporting growth in both net income and sales revenue.",
+   "headline": "Mizuho Securities Reaffirms Neutral Rating on Costco Wholesale",
+   "summary": "Mizuho Securities has reaffirmed its neutral rating on Costco Wholesale Corporation following a price target adjustment.",
    "source": "fiscal.ai",
-   "url": "https://www.moomoo.com/hans/news/post/1004272678/petrobras-q3-net-income-sales-revenue-rise",
-   "created_at": "2026-11-11T10:31:37Z",
+   "url": "https://de.marketscreener.com/boerse-nachrichten/costco-wholesale-corporation-mizuho-securities-bekraeftigt-seine-neutrale-bewertung-ce785edbdd8df220",
+   "created_at": "2026-11-11T11:32:54Z",
    "symbols": [
-    "PBR.A"
+    "COST"
    ],
    "image": ""
   },
   {
-   "headline": "Sabesp Updates Water and Sewage Bill Layout",
-   "summary": "Sabesp has introduced a new, modernized layout for its water and sewage bills to improve clarity and comply with tax reform requirements.",
+   "headline": "Mizuho, TD Cowen, and Jefferies Adjust Price Targets on Humana",
+   "summary": "Several financial institutions, including Mizuho, TD Cowen, and Jefferies, updated their price targets for Humana Inc. on November 11, 2026.",
    "source": "fiscal.ai",
-   "url": "https://economia.ig.com.br/2026-11-11/sabesp-muda-o-visual-da-conta-de-agua-e-esgoto-em-sao-paulo.html",
-   "created_at": "2026-11-11T10:31:35Z",
+   "url": "https://www.marketscreener.com/news/mizuho-adjusts-price-target-on-humana-to-530-from-495-ce785edbdd8cf72c",
+   "created_at": "2026-11-11T11:32:27Z",
    "symbols": [
-    "SBS"
+    "HUM"
    ],
    "image": ""
   },
   {
-   "headline": "Want to Pay Your Property Taxes in Bitcoin? Miami-Dade Just Made It Possible",
-   "summary": "Property owners in Miami-Dade County can now use Bitcoin to pay taxes online or in person, tax collector Dariel Fernandez announced on Monday, November 9.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/11/63132418/want-to-pay-your-property-taxes-in-bitcoin-miami-dade-just-made-it-possible",
-   "created_at": "2026-11-11T10:21:32Z",
+   "headline": "AMD and Samsung Electronics Announce Partnership for Semiconductor Manufacturing Test Infrastructure",
+   "summary": "AMD and Samsung Electronics have entered into a partnership aimed at enhancing the performance of semiconductor manufacturing test infrastructure.",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/amd-samsung-electronics-collaborate-on-semiconductor-manufacturing-test-technology-ce785edbda80f422",
+   "created_at": "2026-11-11T11:32:23Z",
    "symbols": [
-    "BTCUSD",
-    "ZECUSD"
+    "AMD"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/11/Bitcoin-Logo-On-Digital-Screen-With-Gree.jpg?width=1024&height=768"
+   "image": ""
   },
   {
-   "headline": "Vestas Wind Systems Q3 2026 Earnings Call Transcript",
-   "summary": "Vestas Wind Systems (OTC:VWDRY) reported third-quarter financial results on Wednesday. The transcript from the company’s third-quarter earnings call has been provided below.This transcript is brought ",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/11/63132306/vestas-wind-systems-q3-2026-earnings-call-transcript",
-   "created_at": "2026-11-11T10:13:44Z",
+   "headline": "BMO Capital Adjusts Price Target on Marathon Petroleum to $450 From $535",
+   "summary": "BMO Capital has revised its price target for Marathon Petroleum Corporation, lowering it from $535 to $450.",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/bmo-capital-adjusts-price-target-on-marathon-petroleum-to-450-from-535-ce785edbdd8ff321",
+   "created_at": "2026-11-11T11:32:23Z",
    "symbols": [
-    "VWDRY"
+    "MPC"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/11/Stock-market-chart-with-green-candlestic.jpg?width=1024&height=768"
+   "image": ""
   },
   {
-   "headline": "Barrick Mining to Split in Two, Easy As AB(G)C",
-   "summary": "Barrick Mining files for NYSE IPO of American Barrick (ABGC), spinning off its North American gold assets to isolate global risk.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/ipos/26/11/63132282/barrick-mining-to-split-in-two-easy-as-abgc",
-   "created_at": "2026-11-11T10:11:11Z",
+   "headline": "Director and Co-Chairman Charles R. Schwab Sells Shares",
+   "summary": "Charles R. Schwab, Director and Co-Chairman of The Charles Schwab Corporation, sold 70,750 shares of company stock on November 9, 2026, as disclosed in a recent SEC filing.",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/schwab-charles-insider-sold-shares-worth-6-580-274-according-to-a-recent-sec-filing-ce785edbda8af127",
+   "created_at": "2026-11-11T11:32:23Z",
    "symbols": [
-    "B",
+    "SCHW"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "BNP Paribas Adjusts Price Target on Freeport-McMoRan to $83 From $80",
+   "summary": "BNP Paribas has updated its price target for Freeport-McMoRan, increasing it from $80 to $83.",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/bnp-paribas-adjusts-price-target-on-freeport-mcmoran-to-83-from-80-ce785edbdd8ff626",
+   "created_at": "2026-11-11T11:32:22Z",
+   "symbols": [
+    "FCX"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Arista Networks Insider Executes Significant Stock Sale",
+   "summary": "An insider at Arista Networks, Inc. has sold shares of the company's common stock valued at approximately $43.9 million, according to a recent SEC filing.",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/arista-networks-insider-sold-shares-worth-43-928-304-according-to-a-recent-sec-filing-ce785edbda8df527",
+   "created_at": "2026-11-11T11:32:20Z",
+   "symbols": [
+    "ANET"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Bernstein Adjusts Price Target on Visa",
+   "summary": "Bernstein has updated its price target for Visa Inc. to $486 from $475.",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/bernstein-adjusts-price-target-on-visa-to-486-from-475-ce785edbdd88f127",
+   "created_at": "2026-11-11T11:32:20Z",
+   "symbols": [
+    "V"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Daiwa Securities Adjusts Price Target on Datadog to $270 From $300",
+   "summary": "Daiwa Securities has revised its price target for Datadog, Inc. downward from $300 to $270.",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/daiwa-securities-adjusts-price-target-on-datadog-to-270-from-300-ce785edbdd8af626",
+   "created_at": "2026-11-11T11:32:20Z",
+   "symbols": [
+    "DDOG"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "BNP Paribas Adjusts Price Target on Newmont to $115 From $112",
+   "summary": "BNP Paribas has updated its price target for Newmont Corporation, raising it to $115 from the previous level of $112.",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/bnp-paribas-adjusts-price-target-on-newmont-to-115-from-112-ce785edbdd8cff23",
+   "created_at": "2026-11-11T11:32:19Z",
+   "symbols": [
     "NEM"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/11/Barrick-Logo-On-Phone--Blurred-Gold-Bars.jpg?width=1024&height=768"
+   "image": ""
   },
   {
-   "headline": "Intesa Sanpaolo Could Reduce Threshold for MPS Takeover to Just Over 50%",
-   "summary": "Intesa Sanpaolo is reportedly considering lowering the acceptance threshold for its tender and exchange offer for Banca Monte dei Paschi di Siena to just over 50%.",
+   "headline": "Mizuho Adjusts Price Target on HCA Healthcare to $570 From $495",
+   "summary": "Mizuho has updated its price target for HCA Healthcare, increasing it from $495 to $570.",
    "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/intesa-sanpaolo-could-reduce-threshold-for-mps-takeover-to-just-over-50-ce785edbda8ff12d",
-   "created_at": "2026-11-11T10:02:26Z",
+   "url": "https://www.marketscreener.com/news/mizuho-adjusts-price-target-on-hca-healthcare-to-570-from-495-ce785edbdd8cf32d",
+   "created_at": "2026-11-11T11:32:18Z",
    "symbols": [
-    "ISP"
+    "HCA"
    ],
    "image": ""
   },
   {
-   "headline": "DHL Express Begins Construction of New Gateway Facility in Sweden",
-   "summary": "DHL Express has commenced construction on a 14,000-square-meter gateway facility in Arlanda Stad, Sweden.",
+   "headline": "Bernstein Adjusts Price Target on Keurig Dr Pepper to $41 From $39",
+   "summary": "Bernstein has updated its price target for Keurig Dr Pepper, raising it from $39 to $41.",
    "source": "fiscal.ai",
-   "url": "https://de.marketscreener.com/boerse-nachrichten/dhl-tochter-legt-grundstein-fuer-gateway-anlage-in-schweden-ce785edbda8cf22c",
-   "created_at": "2026-11-11T10:02:06Z",
+   "url": "https://www.marketscreener.com/news/bernstein-adjusts-price-target-on-keurig-dr-pepper-to-41-from-39-ce785edbdd8bfe2c",
+   "created_at": "2026-11-11T11:32:15Z",
    "symbols": [
-    "DHL"
+    "KDP"
    ],
    "image": ""
   },
   {
-   "headline": "Deutsche Bank Launches Crypto Custody Service for Institutional Clients",
-   "summary": "Deutsche Bank has officially launched its digital asset custody service for institutional clients, enabling the bank to hold crypto-assets on behalf of its customers.",
+   "headline": "Brookfield in Talks to Buy China Life's Stake in London Office Tower",
+   "summary": "Brookfield is reportedly in negotiations to acquire China Life Insurance's interest in the 99 Bishopsgate office skyscraper in London.",
    "source": "fiscal.ai",
-   "url": "https://coindoo.com/deutsche-bank-officially-live-with-crypto-custody-scale-unknown/",
-   "created_at": "2026-11-11T10:02:02Z",
+   "url": "https://www.marketscreener.com/news/brookfield-in-talks-to-buy-china-life-s-stake-in-london-office-tower-ce785edbda8cfe24",
+   "created_at": "2026-11-11T11:32:15Z",
    "symbols": [
-    "DB"
+    "BNT"
    ],
    "image": ""
   },
   {
-   "headline": "Deutsche Bank Research Maintains 'Buy' Rating on Henkel",
-   "summary": "Deutsche Bank Research has reiterated its 'Buy' rating and 80 EUR price target for Henkel following the company's third-quarter results.",
+   "headline": "Bernstein Adjusts Price Target on Cigna Group to $390 From $387",
+   "summary": "Bernstein has updated its price target for The Cigna Group, increasing it from $387 to $390.",
    "source": "fiscal.ai",
-   "url": "https://www.finanznachrichten.de/nachrichten-2026-11/70097343-deutsche-bank-research-stuft-henkel-vorzuege-auf-buy-322.htm",
-   "created_at": "2026-11-11T10:02:02Z",
+   "url": "https://www.marketscreener.com/news/bernstein-adjusts-price-target-on-cigna-group-to-390-from-387-ce785edbdd8bfe20",
+   "created_at": "2026-11-11T11:32:12Z",
    "symbols": [
-    "DB"
+    "CI"
    ],
    "image": ""
   },
   {
-   "headline": "E.ON Confirms 2026 Outlook and Continues Infrastructure Investment",
-   "summary": "E.ON SE has reaffirmed its financial guidance for the 2026 fiscal year while emphasizing its ongoing commitment to investing in European energy infrastructure.",
+   "headline": "Bernstein Downgrades Cigna Group Rating to Sell",
+   "summary": "Bernstein has downgraded its rating on The Cigna Group from Neutral to Sell, as reported on November 11, 2026.",
    "source": "fiscal.ai",
-   "url": "https://www.finanzen.ch/nachrichten/aktien/analyse-so-bewertet-deutsche-bank-ag-die-eon-se-aktie-1036748935",
-   "created_at": "2026-11-11T10:01:58Z",
+   "url": "https://de.marketscreener.com/boerse-nachrichten/cigna-herabstufung-von-neutral-auf-verkaufen-durch-bernstein-ce785edbdd8afe21",
+   "created_at": "2026-11-11T11:32:12Z",
    "symbols": [
-    "EOAN"
+    "CI"
    ],
    "image": ""
   },
   {
-   "headline": "DSV Highlights Cloud Computing Logistics Services",
-   "summary": "DSV provides specialized logistics solutions for the data center industry, including White Glove handling, on-site installation, and testing services.",
+   "headline": "Daiwa Securities Adjusts Price Target on Pfizer to $29 From $27",
+   "summary": "Daiwa Securities has updated its price target for Pfizer Inc. (PFE), raising it from $27 to $29.",
    "source": "fiscal.ai",
-   "url": "https://datacentremagazine.com/top10/top-10-logistics-firms-supporting-the-data-centre-industry",
-   "created_at": "2026-11-11T10:01:56Z",
+   "url": "https://www.marketscreener.com/news/daiwa-securities-adjusts-price-target-on-pfizer-to-29-from-27-ce785edbdd88fe20",
+   "created_at": "2026-11-11T11:32:11Z",
    "symbols": [
-    "DSV"
+    "PFE"
    ],
    "image": ""
   },
   {
-   "headline": "Prudential Hong Kong Becomes Main Sponsor of Winter Wonderland",
-   "summary": "Prudential Hong Kong Limited has been announced as the main sponsor for the inaugural \"Prudential Hong Kong Winter Wonderland\" festival in Tsim Sha Tsui.",
+   "headline": "Morgan Stanley Adjusts Price Target on TransDigm to $1,405 From $1,300",
+   "summary": "Morgan Stanley has updated its price target for TransDigm Group Incorporated, raising it to $1,405 from the previous level of $1,300.",
    "source": "fiscal.ai",
-   "url": "https://riaugreen.com/view/Bisnis/114965/Prudential-Resmi-Menjadi-Sponsor-Utama--Prudential-Hong-Kong-Winter-Wonderland-di-Tsim-Sha-Tsui---Hadirkan-Gemerlap-Cahaya-di-Pelabuhan-Victoria-Musim-Dingin-Ini.html",
-   "created_at": "2026-11-11T10:01:55Z",
+   "url": "https://www.marketscreener.com/news/morgan-stanley-adjusts-price-target-on-transdigm-to-1-405-from-1-300-ce785edbdd8af727",
+   "created_at": "2026-11-11T11:32:09Z",
    "symbols": [
-    "PUK"
+    "TDG"
    ],
    "image": ""
   },
   {
-   "headline": "JD.com Enters Short-Form Drama Market",
-   "summary": "JD.com has reportedly entered the short-form drama sector, marking a new strategic expansion for the company.",
+   "headline": "JPMorgan Upgrades Republic Services to Overweight",
+   "summary": "JPMorgan has upgraded Republic Services, Inc. from Neutral to Overweight, setting a new price target of $295.",
    "source": "fiscal.ai",
-   "url": "https://www.moomoo.com/hans/stock/JD-US/news",
-   "created_at": "2026-11-11T10:01:54Z",
+   "url": "https://www.marketscreener.com/news/jpmorgan-upgrades-republic-services-to-overweight-from-neutral-price-target-is-295-ce785edbdd89f026",
+   "created_at": "2026-11-11T11:32:09Z",
    "symbols": [
-    "JD"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Deutsche Bank Research Adjusts Siemens Healthineers Price Target",
-   "summary": "Deutsche Bank Research has maintained its 'Hold' rating on Siemens Healthineers AG while increasing the price target from 39 to 43 euros following the release of the company's fourth-quarter fiscal 20",
-   "source": "fiscal.ai",
-   "url": "https://www.finanzen.ch/nachrichten/aktien/hold-note-fuer-siemens-healthineers-aktie-neue-analyse-von-deutsche-bank-ag-1036748658",
-   "created_at": "2026-11-11T10:01:52Z",
-   "symbols": [
-    "SHL"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Baidu Founder Robin Li Demonstrates New AI Applications Ahead of Baidu World Conference",
-   "summary": "Baidu founder Robin Li appeared at the National Convention Center to showcase several new AI applications, including an AI-powered mahjong game and a health-focused intelligent agent.",
-   "source": "fiscal.ai",
-   "url": "https://www.moomoo.com/hans/news/post/1004269825",
-   "created_at": "2026-11-11T10:01:51Z",
-   "symbols": [
-    "BIDU"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Quanta Computer Inc. Lends NT$54.2 Billion to Subsidiary",
-   "summary": "Quanta Computer Inc. has provided a loan of NT$54.2 billion to one of its subsidiaries.",
-   "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/quanta-computer-lends-nt-54-2-billion-to-subsidiary-ce785edbda8bf326",
-   "created_at": "2026-11-11T10:01:49Z",
-   "symbols": [
-    "2382"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Analyst Actions Regarding Infineon Technologies AG",
-   "summary": "Several financial institutions, including Jefferies, Berenberg, and Bernstein, updated their price targets and ratings for Infineon Technologies AG on November 11, 2026.",
-   "source": "fiscal.ai",
-   "url": "https://www.finanzen.at/nachrichten/aktien/infineon-aktie-legt-kraftig-zu-trotz-gesenkten-kursziels-von-jefferies-1036748586",
-   "created_at": "2026-11-11T10:01:41Z",
-   "symbols": [
-    "IFX"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Barclays Maintains Overweight Rating on Banca Generali",
-   "summary": "Barclays has reaffirmed its 'overweight' recommendation for Banca Generali, while slightly adjusting its price target.",
-   "source": "fiscal.ai",
-   "url": "https://www.milanofinanza.it/newsmarketdriver/market-driver-b-generali-1-16-barclays-conferma-overweight-202611111012011305",
-   "created_at": "2026-11-11T10:01:41Z",
-   "symbols": [
-    "G"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Hafnia Announces Q3 2026 Financial Results Presentation Date",
-   "summary": "Hafnia Limited has scheduled the release of its third-quarter 2026 financial results and an accompanying investor presentation for November 18, 2026.",
-   "source": "fiscal.ai",
-   "url": "https://www.businesswire.com/newsroom/industry/energy",
-   "created_at": "2026-11-11T10:01:41Z",
-   "symbols": [
-    "HAFN"
+    "RSG"
    ],
    "image": ""
   }
