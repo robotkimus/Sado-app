@@ -1,6 +1,21 @@
 {
- "updated": "2026-11-11 10:00",
+ "updated": "2026-11-11 11:00",
  "items": [
+  {
+   "headline": "CoreWeave, Rigetti Computing, ServiceNow, Costco and Nvidia: Why These 5 Stocks Are on Investors' Radars Today",
+   "summary": "Major U.S. indices closed lower on Tuesday, with the Dow Jones Industrial Average falling 0.30% to 52,231.89.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/11/63129526/coreweave-rigetti-computing-servicenow-costco-and-nvidia-why-these-5-stocks-are-on-investors-radars-today",
+   "created_at": "2026-11-11T01:19:15Z",
+   "symbols": [
+    "COST",
+    "CRWV",
+    "NOW",
+    "NVDA",
+    "RGTI"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/11/Stock-Market-Analysis-Shows-Trading-Patt.jpg?width=1024&height=768"
+  },
   {
    "headline": "Microsoft Briefly Overtakes Nvidia as Jensen Huang Affair Helps Erase $1.8 Trillion Lead",
    "summary": "Microsoft briefly overtook Nvidia after a $1.8 trillion valuation gap vanished amid Jensen Huang’s affair-driven selloff.",
@@ -179,293 +194,281 @@
    "image": ""
   },
   {
-   "headline": "Why Is SMCI Stock Falling on Tuesday?",
-   "summary": "Super Micro Computer Inc. (NASDAQ: SMCI) stock falls Tuesday amid China export-control concerns tied to partner Nvidia Corp. (NASDAQ: NVDA).",
+   "headline": "Bitcoin, Ethereum, XRP, Dogecoin Drop as Investors Weigh Rate Hike Odds: Analyst Explains Why ‘Horrific’ BTC Chart Is Routine in a Bull Market",
+   "summary": "Leading cryptocurrencies fell further on Tuesday, November 10, as investors weighed hotter-than-expected consumer prices and the rising odds of an interest-rate hike.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63110842/why-is-smci-stock-falling-on-tuesday",
-   "created_at": "2026-11-10T18:06:02Z",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/11/63129630/bitcoin-ethereum-xrp-dogecoin-crypto-cpi-inflation",
+   "created_at": "2026-11-11T01:47:04Z",
    "symbols": [
-    "NVDA",
-    "SMCI"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/10/Super-Micro-Computer.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "B. Riley Downgrades DoubleDown Interactive to Neutral",
-   "summary": "B. Riley downgraded DoubleDown Interactive from Buy to Neutral and lowered its price target to $16.25 from $24.00.",
-   "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/b-riley-downgrades-doubledown-interactive-to-neutral-from-buy-adjusts-price-target-to-16-25-from-ce785edadc88f021",
-   "created_at": "2026-11-11T00:02:44Z",
-   "symbols": [
-    "DDI"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "HCA Healthcare Insider Executes Stock Sale",
-   "summary": "An HCA Healthcare insider sold shares of the company's stock valued at approximately $1.77 million, according to a recent SEC filing.",
-   "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/hca-healthcare-insider-sold-shares-worth-1-770-335-according-to-a-recent-sec-filing-ce785edad08df12c",
-   "created_at": "2026-11-11T00:02:14Z",
-   "symbols": [
-    "HCA"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Micware Co., Ltd. Reports Financial Results for the First Half of Fiscal Year 2027",
-   "summary": "Micware Co., Ltd. announced its unaudited financial results for the six months ended August 31, 2026, reporting a 3.4% increase in revenue and improved gross profit margins.",
-   "source": "fiscal.ai",
-   "url": "https://www.globenewswire.com/news-release/2026/11/10/3399468/0/en/micware-co-ltd-announces-first-half-of-fiscal-year-2027-financial-results.html",
-   "created_at": "2026-11-11T00:02:07Z",
-   "symbols": [
-    "MWC"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "SBC Medical Group Participates in Deusaderm APAC Summit 2026",
-   "summary": "SBC Medical Group Holdings Inc. representatives participated in the Deusaderm APAC Summit 2026 in Singapore, which focused on collagen regeneration and aesthetic medical advancements.",
-   "source": "fiscal.ai",
-   "url": "https://www.prnewswire.com/apac/news-releases/sunmax-brings-together-asia-pacific-medical-experts-for-deusaderm-apac-summit-2026-celebrating-25-years-of-collagen-innovation-302935079.html",
-   "created_at": "2026-11-11T00:02:03Z",
-   "symbols": [
-    "SBC"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "BMO Receives Five 2026 OMNI Awards for AI-Powered Banking Solutions",
-   "summary": "BMO Financial Group has been recognized with five OMNI Awards for its implementation of AI-powered tools designed to enhance client and employee banking experiences.",
-   "source": "fiscal.ai",
-   "url": "https://www.quantisnow.com/insight/bmo-wins-five-omni-awards-for-ai-innovation-across-client-6783001",
-   "created_at": "2026-11-11T00:01:48Z",
-   "symbols": [
-    "BMO"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Chevron Announces Expansion Plans for Vaca Muerta Assets in Argentina",
-   "summary": "Chevron has outlined a strategic goal to triple its production output in Argentina's Vaca Muerta shale play by 2035.",
-   "source": "fiscal.ai",
-   "url": "https://stocktwits.com/symbol/CVX/news",
-   "created_at": "2026-11-11T00:01:48Z",
-   "symbols": [
-    "CVX"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Palantir Officer Shyam Sankar Files Notice of Proposed Sale of Securities",
-   "summary": "Palantir Technologies officer Shyam Sankar has filed a Form 144 notice indicating an intent to sell 300,000 shares of common stock.",
-   "source": "fiscal.ai",
-   "url": "https://www.moomoo.com/news/flash/1004189289/form-144-palantir-pltrus-officer-proposes-to-sell-50-76",
-   "created_at": "2026-11-11T00:01:34Z",
-   "symbols": [
-    "PLTR"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "AI Investing App Ulys Launches on Apple App Store",
-   "summary": "The AI-powered investing application Ulys has officially launched on the Apple App Store, allowing users to build investment baskets through conversational prompts.",
-   "source": "fiscal.ai",
-   "url": "https://www.newswire.com/news/ulys-unveils-ai-app-that-builds-investment-portfolios-from-simple-text-prompts",
-   "created_at": "2026-11-11T00:01:27Z",
-   "symbols": [
-    "AAPL"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "$1000 Invested In Morgan Stanley 10 Years Ago Would Be Worth This Much Today",
-   "summary": "Morgan Stanley (NYSE:MS) has outperformed the market over the past 10 years by 3.57% on an annualized basis producing an average annual return of 16.71%. Currently, Morgan Stanley has a market capital",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/11/63129065/1000-invested-morgan-stanley-10-years-ago-would-be-worth-much-today",
-   "created_at": "2026-11-10T23:45:59Z",
-   "symbols": [
-    "MS"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/valuestock_4.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Firefly Aerospace Q3 2026 Earnings Call Transcript",
-   "summary": "Firefly Aerospace (NASDAQ:FLY) reported third-quarter financial results on Tuesday. The transcript from the company’s third-quarter earnings call has been provided below.This transcript is brought to ",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/11/63128946/firefly-aerospace-q3-2026-earnings-call-transcript",
-   "created_at": "2026-11-10T23:39:13Z",
-   "symbols": [
-    "FLY"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/10/Stock-market-chart-with-green-candlestic.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Rigetti Computing Q3 2026 Earnings Call Transcript",
-   "summary": "Rigetti Computing (NASDAQ:RGTI) reported third-quarter financial results on Tuesday. The transcript from the company’s third-quarter earnings call has been provided below.This transcript is brought to",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/11/63128922/rigetti-computing-q3-2026-earnings-call-transcript",
-   "created_at": "2026-11-10T23:33:31Z",
-   "symbols": [
-    "RGTI"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/10/Stock-Market-Trading-Chart-And-Analyzing.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "If You Invested $100 In Cardinal Health Stock 5 Years Ago, You Would Have This Much Today",
-   "summary": "Cardinal Health (NYSE:CAH) has outperformed the market over the past 5 years by 30.64% on an annualized basis producing an average annual return of 40.55%. Currently, Cardinal Health has a market capi",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/11/63128913/if-you-invested-100-cardinal-health-stock-5-years-ago-you-would-have-much-today",
-   "created_at": "2026-11-10T23:33:20Z",
-   "symbols": [
-    "CAH"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/valuestock_3.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Andean Precious Metals Corp. Reports Q3 Revenue of $196.6 Million",
-   "summary": "Andean Precious Metals Corp. announced its financial results for the third quarter of 2026, reporting revenue of $196.6 million.",
-   "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/earnings-flash-apm-to-andean-precious-metals-corp-reports-q3-revenue-196-6m-ce785edad08df327",
-   "created_at": "2026-11-10T23:32:35Z",
-   "symbols": [
-    "APM"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "QuickLogic Q3 2026 Earnings Call Transcript",
-   "summary": "QuickLogic (NASDAQ:QUIK) reported third-quarter financial results on Tuesday. The transcript from the company’s third-quarter earnings call has been provided below.This transcript is brought to you by",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/11/63128902/quicklogic-q3-2026-earnings-call-transcript",
-   "created_at": "2026-11-10T23:32:17Z",
-   "symbols": [
-    "QUIK"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/10/Stock-market-chart-with-green-candlestic.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Fold Holdings Q3 2026 Earnings Call Transcript",
-   "summary": "Fold Holdings (NASDAQ:FLD) reported third-quarter financial results on Tuesday. The transcript from the company’s third-quarter earnings call has been provided below.This transcript is brought to you ",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/11/63128817/fold-holdings-q3-2026-earnings-call-transcript",
-   "created_at": "2026-11-10T23:22:26Z",
-   "symbols": [
-    "FLD"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/10/Stock-Market-Trading-Chart-And-Analyzing.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Black Rock Coffee Bar Q3 2026 Earnings Call Transcript",
-   "summary": "Black Rock Coffee Bar (NASDAQ:BRCB) reported third-quarter financial results on Tuesday. The transcript from the company’s third-quarter earnings call has been provided below.This transcript is brough",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/11/63128816/black-rock-coffee-bar-q3-2026-earnings-call-transcript",
-   "created_at": "2026-11-10T23:22:11Z",
-   "symbols": [
-    "BRCB"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/10/Stock-market-chart-with-green-candlestic.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "If You Invested $1000 In Comfort Systems USA Stock 5 Years Ago, You Would Have This Much Today",
-   "summary": "Comfort Systems USA (NYSE:FIX) has outperformed the market over the past 5 years by 51.59% on an annualized basis producing an average annual return of 61.5%. Currently, Comfort Systems USA has a mark",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/11/63128764/if-you-invested-1000-comfort-systems-usa-stock-5-years-ago-you-would-have-much-today",
-   "created_at": "2026-11-10T23:15:43Z",
-   "symbols": [
-    "FIX"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/valuestock_4.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "National CineMedia Q3 2026 Earnings Call Transcript",
-   "summary": "National CineMedia (NASDAQ:NCMI) reported third-quarter financial results on Tuesday. The transcript from the company’s third-quarter earnings call has been provided below.This transcript is brought t",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/11/63128630/national-cinemedia-q3-2026-earnings-call-transcript",
-   "created_at": "2026-11-10T23:13:12Z",
-   "symbols": [
-    "NCMI"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/10/Stock-Market-Trading-Chart-And-Analyzing.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "CoreWeave Q3 2026 Earnings Call Transcript",
-   "summary": "CoreWeave (NASDAQ:CRWV) reported third-quarter financial results on Tuesday. The transcript from the company’s third-quarter earnings call has been provided below.This transcript is brought to you by ",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/11/63128629/coreweave-q3-2026-earnings-call-transcript",
-   "created_at": "2026-11-10T23:13:10Z",
-   "symbols": [
-    "CRWV"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/10/Stock-Market-Trading-Chart-And-Analyzing.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Freehold Royalties Q3 2026 Earnings Call Transcript",
-   "summary": "Freehold Royalties (TSX:FRU) reported third-quarter financial results on Tuesday. The transcript from the company’s third-quarter earnings call has been provided below.This transcript is brought to yo",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/11/63128589/freehold-royalties-q3-2026-earnings-call-transcript",
-   "created_at": "2026-11-10T23:10:33Z",
-   "symbols": [
-    "TSX:FRU"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/10/Stock-Market-Trading-Chart-And-Analyzing.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "The Musk Midterms Trade: SPCX Flat, TSLA Drops 5% but DOGE Plunges 7%",
-   "summary": "Dogecoin falls 7% since the midterms, trailing SpaceX and Tesla as Musk-linked stocks rebound while crypto lacks a catalyst.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/11/63128576/the-musk-midterms-trade-spcx-flat-tsla-drops-5-but-doge-plunges-7",
-   "created_at": "2026-11-10T23:10:07Z",
-   "symbols": [
+    "BMNR",
+    "BTCUSD",
     "DOGEUSD",
     "ETHUSD",
-    "SPCX",
-    "TSLA",
-    "XRPUSD"
+    "MSTR"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/10/Dogecoin-Golden-Cryptocurrency-And-Blue-.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/11/The-Bitmine-Immersion-Trade.jpg?width=1024&height=768"
   },
   {
-   "headline": "Orion180 Insurance Group Q3 2026 Earnings Call Transcript",
-   "summary": "Orion180 Insurance Group (NASDAQ:OIG) reported third-quarter financial results on Tuesday. The transcript from the company’s third-quarter earnings call has been provided below.This content is powered",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/11/63128550/orion180-insurance-group-q3-2026-earnings-call-transcript",
-   "created_at": "2026-11-10T23:08:12Z",
-   "symbols": [
-    "OIG"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/10/Stock-market-chart-with-green-candlestic.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Fossil Group Q3 2026 Earnings Call Transcript",
-   "summary": "Fossil Group (NASDAQ:FOSL) reported third-quarter financial results on Tuesday. The transcript from the company’s third-quarter earnings call has been provided below.This transcript is brought to you ",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/11/63128504/fossil-group-q3-2026-earnings-call-transcript",
-   "created_at": "2026-11-10T23:03:56Z",
-   "symbols": [
-    "FOSL"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/10/Stock-market-chart-with-green-candlestic.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Western Midstream Partners Price Target Reduced",
-   "summary": "An analyst firm has lowered the price target for Western Midstream Partners, LP to $50.00 per share.",
+   "headline": "YYForce Humanoid Robotics Training Featured on Mediacorp's 'Meeting AI'",
+   "summary": "YYForce Inc.'s humanoid robotics and VLA training initiatives were showcased in a dedicated episode of Mediacorp's technology program, 'Meeting AI'.",
    "source": "fiscal.ai",
-   "url": "https://www.moomoo.com/hant/news/post/1004154302",
-   "created_at": "2026-11-10T23:03:19Z",
+   "url": "https://www.prnewswire.com/news-releases/yyforces-humanoid-robotics-and-vla-training-workflow-featured-on-mediacorps-meeting-ai-302933529.html",
+   "created_at": "2026-11-11T01:02:17Z",
    "symbols": [
-    "WES"
+    "YFOR"
    ],
    "image": ""
   },
   {
-   "headline": "Jersey Mike's Subs Named Title Sponsor for 2026 Best Buddies Miami Gala and New York Challenge",
-   "summary": "Jersey Mike's Subs Inc. has been announced as a title sponsor for the 2026 Best Buddies Miami Gala and the 2026 Best Buddies Challenge: New York, supporting the nonprofit's mission of inclusion for in",
+   "headline": "J-Star Holding Announces U.S. Operational Progress and Upcoming Delegation Visit",
+   "summary": "J-Star Holding Co., Ltd. is advancing its U.S. manufacturing initiative by hosting a delegation from a Japan-based global Tier 1 carbon fiber manufacturer for a site review of its planned Texas facili",
    "source": "fiscal.ai",
-   "url": "https://www.morningstar.com/news/pr-newswire/20261110dc94362/hip-hop-artist-flo-rida-to-headline-the-2026-jersey-mikes-subs-best-buddies-miami-gala",
-   "created_at": "2026-11-10T23:02:56Z",
+   "url": "https://www.globenewswire.com/news-release/2026/11/09/3398259/0/en/j-star-holding-co-ltd-highlights-u-s-operational-progress-with-delegation-visit-from-global-tier-1-carbon-fiber-manufacturer.html",
+   "created_at": "2026-11-11T01:02:14Z",
    "symbols": [
-    "JMKE"
+    "YMAT"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Lichen International Limited Announces Pricing of $3.5 Million Registered Direct Offering",
+   "summary": "Lichen International Limited has entered into securities purchase agreements with institutional investors to raise approximately $3.5 million through a registered direct offering.",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/10/3399449/0/en/lichen-international-limited-announces-pricing-of-3-5-million-registered-direct-offering.html",
+   "created_at": "2026-11-11T01:02:12Z",
+   "symbols": [
+    "LICN"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Intercont (Cayman) Limited Announces 8-for-1 Reverse Share Split",
+   "summary": "Intercont (Cayman) Limited has announced a reverse share split of its ordinary shares at a ratio of 8-for-1, effective November 16, 2026.",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/10/3399814/0/en/intercont-cayman-limited-announces-effective-time-of-share-consolidation-reverse-share-split.html",
+   "created_at": "2026-11-11T01:02:10Z",
+   "symbols": [
+    "NCT"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "JIADE LIMITED Announces Closing of $1.2 Million Registered Direct Offering",
+   "summary": "JIADE LIMITED has completed a registered direct offering of 6,666,666 Class A Ordinary Shares, raising approximately $1.2 million in gross proceeds.",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/10/3400345/0/en/univest-securities-llc-announces-closing-of-1-2-million-registered-direct-offering-for-its-client-jiade-limited-nasdaq-jdzg.html",
+   "created_at": "2026-11-11T01:02:10Z",
+   "symbols": [
+    "JDZG"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "RLX Technology to Report Third Quarter 2026 Financial Results on November 20, 2026",
+   "summary": "RLX Technology Inc. has scheduled the release of its unaudited financial results for the third quarter ended September 30, 2026, for November 20, 2026.",
+   "source": "fiscal.ai",
+   "url": "https://www.morningstar.com/news/pr-newswire/20261110cn93779/rlx-technology-to-report-third-quarter-2026-financial-results-on-november-20-2026",
+   "created_at": "2026-11-11T01:02:10Z",
+   "symbols": [
+    "RLX"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "SOS Limited Announces 1-for-20 Reverse Share Split",
+   "summary": "SOS Limited has announced that its board of directors approved a 1-for-20 reverse share split of its Class A and Class B ordinary shares, expected to become effective on or about November 19, 2026.",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news/technology-telecom/it-services",
+   "created_at": "2026-11-11T01:02:08Z",
+   "symbols": [
+    "SOS"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Genius Group Announces 1-for-10 Share Consolidation",
+   "summary": "Genius Group Limited has approved a 1-for-10 share consolidation to increase its per-share trading price and support compliance with NYSE American listing standards.",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/10/3399653/0/en/genius-group-announces-share-consolidation-to-support-exchange-listing-compliance.html",
+   "created_at": "2026-11-11T01:02:06Z",
+   "symbols": [
+    "GNS"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Jinko Solar Invited to Attend the U.S. B20 Summit and Serve as a Core Member of the Energy Task Force",
+   "summary": "Jinko Holdings Limited announced that its principal operating subsidiary, Jinko Solar Co., Ltd., participated in the 2026 U.S. B20 Summit as a core member of the Energy Task Force.",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/jinko-solar-invited-to-attend-the-us-b20-summit-and-serve-as-a-core-member-of-the-energy-task-force-302934729.html",
+   "created_at": "2026-11-11T01:02:01Z",
+   "symbols": [
+    "JKS"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Anamana Pte. Ltd. Launches Anamana Studio Platform",
+   "summary": "Anamana Pte. Ltd., a company in which Gamehaus Holdings Inc. has agreed to acquire a majority stake, has launched its cloud-based production platform, Anamana Studio, for public commercial use.",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/anamana-opens-micro-serial-production-platform-anamana-studio-to-the-public-302933033.html",
+   "created_at": "2026-11-11T01:01:58Z",
+   "symbols": [
+    "GMHS"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Aurora Mobile's EngageLab Integrates with Purrrr IoT Platform",
+   "summary": "Aurora Mobile Limited announced that the global IoT cat rescue platform Purrrr has integrated its EngageLab AppPush service to enhance real-time user notifications.",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/10/3399335/0/en/aurora-mobile-s-engagelab-powers-real-time-engagement-for-purrrr-s-global-iot-cat-rescue-platform.html",
+   "created_at": "2026-11-11T01:01:58Z",
+   "symbols": [
+    "JG"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "JPMorgan Downgrades HashKey Holdings to 'Neutral' with Price Target Cut",
+   "summary": "JPMorgan has downgraded HashKey Holdings (03887.HK) from 'Overweight' to 'Neutral' and reduced its target price from HK$9 to HK$5, citing concerns over revenue outlook and margin pressure.",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/news/post/67677707",
+   "created_at": "2026-11-11T01:01:57Z",
+   "symbols": [
+    "3887"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Concorde International Group Appoints Dentris See as CEO of YOOV Group",
+   "summary": "Concorde International Group Ltd. has appointed Dentris See Chun Pong as the new Chief Executive Officer of its subsidiary, YOOV Group Holding Limited, effective immediately.",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/news/post/1004147685/press-release-concorde-international-group-announces-dentris-see-as-ceo",
+   "created_at": "2026-11-11T01:01:56Z",
+   "symbols": [
+    "CIGL"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Baozun to Announce Third Quarter 2026 Unaudited Financial Results on November 24, 2026",
+   "summary": "Baozun Inc. announced it will release its unaudited financial results for the third quarter and nine months ended September 30, 2026, on November 24, 2026.",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/apac/news-releases/baozun-to-announce-third-quarter-2026-unaudited-financial-results-on-november-24-2026-302934726.html",
+   "created_at": "2026-11-11T01:01:55Z",
+   "symbols": [
+    "BZUN"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Canaan Inc. Reports Unaudited Third Quarter 2026 Financial Results",
+   "summary": "Canaan Inc. announced its unaudited financial results for the third quarter of 2026, reporting total revenue of US$14.5 million and a net profit of US$8 million.",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/canaan-inc-reports-unaudited-third-quarter-2026-financial-results-302934786.html",
+   "created_at": "2026-11-11T01:01:54Z",
+   "symbols": [
+    "CAN"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Canaan Inc. Announces ADS Ratio Change",
+   "summary": "Canaan Inc. plans to change the ratio of its American depositary shares (ADSs) to its Class A ordinary shares from 1:15 to 1:375.",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/canaan-inc-announces-plan-to-implement-ads-ratio-change-302934793.html",
+   "created_at": "2026-11-11T01:01:54Z",
+   "symbols": [
+    "CAN"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Canaan Inc. Announces New US$20 Million Share Repurchase Program",
+   "summary": "Canaan Inc. has launched an initial share repurchase program of up to US$20 million under a broader US$100 million board-authorized plan.",
+   "source": "fiscal.ai",
+   "url": "https://news.futunn.com/post/1004025149/canaan-inc-announces-new-us-20-million-share-repurchase-program",
+   "created_at": "2026-11-11T01:01:54Z",
+   "symbols": [
+    "CAN"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Airbnb CEO Brian Chesky Pledges $100 Million for San Francisco Parks",
+   "summary": "Airbnb co-founder and CEO Brian Chesky has committed $100 million to support the renovation and maintenance of public parks in San Francisco.",
+   "source": "fiscal.ai",
+   "url": "https://travelprnews.com/article/airbnb-co-founder-brian-chesky-pledges-100-million-to-renew-san-francisco-parks/",
+   "created_at": "2026-11-11T01:01:53Z",
+   "symbols": [
+    "ABNB"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Airbnb.org Expands Free Temporary Housing for US Military Families",
+   "summary": "Airbnb.org is broadening its support for US service members and veterans by funding temporary accommodation through partnerships with three nonprofit organizations.",
+   "source": "fiscal.ai",
+   "url": "https://travelprnews.com/article/airbnb-org-expands-free-stays-for-us-veterans-and-military-families-travelling-for-care/amp/",
+   "created_at": "2026-11-11T01:01:53Z",
+   "symbols": [
+    "ABNB"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "ChipMOS Reports 30.9% Year-Over-Year Revenue Increase for October 2026",
+   "summary": "ChipMOS Technologies announced a 30.9% year-over-year increase in its revenue for the month of October 2026.",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/chipmos-reports-30-9-yoy-increase-in-october-2026-revenue-302934510.html",
+   "created_at": "2026-11-11T01:01:51Z",
+   "symbols": [
+    "IMOS"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "ChipMOS Technologies to Acquire Equipment for NT$805.5 Million",
+   "summary": "ChipMOS Technologies announced the acquisition of machinery and accessories from Advantest Taiwan to expand its manufacturing capacity.",
+   "source": "fiscal.ai",
+   "url": "https://news.futunn.com/hk/post/1004014232/chipmos-technologies-to-buy-tnt-806-million-worth-of-machinery",
+   "created_at": "2026-11-11T01:01:51Z",
+   "symbols": [
+    "IMOS"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Horizon Quantum Holdings Ltd. Reports Q3 2026 Financial Results and Strategic Developments",
+   "summary": "Horizon Quantum Holdings Ltd. announced its third-quarter 2026 financial results, alongside a non-binding letter of intent to acquire Entropica Labs and a successful technical integration with Oxford ",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/news/post/1004138596/press-release-horizon-quantum-announces-third-quarter-2026-financial-results",
+   "created_at": "2026-11-11T01:01:49Z",
+   "symbols": [
+    "HQ"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Bitdeer Technologies Group Reports Unaudited Third Quarter 2026 Financial Results",
+   "summary": "Bitdeer Technologies Group announced its unaudited financial results for the third quarter ended September 30, 2026, reporting record revenue of US$320.7 million.",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/10/3399340/0/en/bitdeer-reports-unaudited-third-quarter-2026-results-record-revenue-of-us-320-7-million-adjusted-ebitda-up-173-to-us-69-6-million.html",
+   "created_at": "2026-11-11T01:01:43Z",
+   "symbols": [
+    "BTDR"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "BGIN Blockchain Limited Announces Participation in 15th Annual ROTH Technology Conference",
+   "summary": "BGIN Blockchain Limited management will participate in the 15th Annual ROTH Technology Conference in New York City on November 17–18, 2026, to engage with institutional investors.",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/10/3399537/0/en/bgin-blockchain-limited-to-participate-in-the-15th-annual-roth-technology-conference.html",
+   "created_at": "2026-11-11T01:01:42Z",
+   "symbols": [
+    "BGIN"
    ],
    "image": ""
   }
