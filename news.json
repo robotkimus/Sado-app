@@ -1,6 +1,18 @@
 {
- "updated": "2026-11-11 14:00",
+ "updated": "2026-11-11 15:00",
  "items": [
+  {
+   "headline": "Why Is Broadcom (AVGO) Stock Trending After Hours?",
+   "summary": "Broadcom shares rise 2.20% after hours as investors look ahead to December earnings and assess its custom AI chip outlook.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/11/63130138/broadcom-shares-rise-after-hours-fiscal-2026-earnings-date",
+   "created_at": "2026-11-11T04:58:25Z",
+   "symbols": [
+    "AVGO",
+    "JPM"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/11/Broadcom-Inc.jpg?width=1024&height=768"
+  },
   {
    "headline": "Dow Falls Over 150 Points Following Inflation Report: Greed Index Remains In ‘Fear’ Zone",
    "summary": "U.S. stocks fell after hotter-than-expected inflation data, while CNN’s Fear &amp; Greed Index improved to 33 but remained in the Fear zone.",
@@ -188,15 +200,35 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/11/10/Anthropic-CEO-Dario-Amodei-arrives-near-.jpg?width=1024&height=768"
   },
   {
-   "headline": "Broadcom Updates VMware Cloud Foundation to Enhance Private AI Infrastructure Security and Resilience",
-   "summary": "Broadcom is updating its VMware Cloud Foundation (VCF) platform with new security features and automation tools to support private AI cloud infrastructure.",
-   "source": "fiscal.ai",
-   "url": "https://technologymagazine.com/news/how-broadcom-protects-private-ai-workloads-in-vmware-vcf",
-   "created_at": "2026-11-10T20:01:37Z",
+   "headline": "CoreWeave Stock Jumps Nearly 8% After Hours as CEO Courts Texas Governor-Elect Gina Hinojosa, Calls Company ‘Nonpartisan’",
+   "summary": "CoreWeave shares jumped nearly 8% after hours as its CEO dismissed regulatory concerns and raised 2026 revenue guidance.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/63130253/coreweave-ceo-dismisses-regulatory-concerns",
+   "created_at": "2026-11-11T05:37:24Z",
    "symbols": [
-    "AVGO"
+    "CRWV"
    ],
-   "image": ""
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/11/CoreWeaveApex--North-Carolina---April-2-.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Iran Says No Dialogue With US Underway, Rejects Claims of Qatar Meeting as Trump Pauses Fresh Strikes After Warning Against ‘Imaginary Talks’",
+   "summary": "Iranian security official denies talks with Washington, saying Tehran awaits a U.S. response to seven conditions tied to reopening Hormuz.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/11/63130236/iran-says-no-dialogue-with-us-underway-rejects-claims-of-qatar-meeting-as-trump-pauses-fresh-strikes-after-warning-against-imaginary-talks",
+   "created_at": "2026-11-11T05:28:24Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/11/Tehran--Enghelab-Iran---June-6-2021-Iran.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "NEXTNRG (NXXT) Shares Plunge 25% After-Hours: Here’s Why",
+   "summary": "NextNRG shares fall after Nasdaq denies listing request, trading moves to OTC Markets.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/11/63130225/nextnrg-nxxt-shares-plunge-25-after-hours-heres-why",
+   "created_at": "2026-11-11T05:27:12Z",
+   "symbols": [
+    "NXXT"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/11/Stock-And-Securities-Trading-Data.jpg?width=1024&height=768"
   },
   {
    "headline": "Rigetti Computing, Tetra Tech And 3 Stocks To Watch Heading Into Wednesday",
@@ -441,32 +473,6 @@
     "FDX"
    ],
    "image": ""
-  },
-  {
-   "headline": "Apple to Shut Down Support Community Forums on November 20",
-   "summary": "Apple is closing its long-running Support Community forums, with the site transitioning to a read-only state before its final shutdown.",
-   "source": "fiscal.ai",
-   "url": "https://appleosophy.com/wire/3qyakii/",
-   "created_at": "2026-11-11T03:01:24Z",
-   "symbols": [
-    "AAPL"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Bitcoin, Ethereum, XRP, Dogecoin Drop as Investors Weigh Rate Hike Odds: Analyst Explains Why ‘Horrific’ BTC Chart Is Routine in a Bull Market",
-   "summary": "Leading cryptocurrencies fell further on Tuesday, November 10, as investors weighed hotter-than-expected consumer prices and the rising odds of an interest-rate hike.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/11/63129630/bitcoin-ethereum-xrp-dogecoin-crypto-cpi-inflation",
-   "created_at": "2026-11-11T01:47:04Z",
-   "symbols": [
-    "BMNR",
-    "BTCUSD",
-    "DOGEUSD",
-    "ETHUSD",
-    "MSTR"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/11/The-Bitmine-Immersion-Trade.jpg?width=1024&height=768"
   }
  ]
 }
