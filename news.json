@@ -1,6 +1,71 @@
 {
- "updated": "2026-11-11 22:00",
+ "updated": "2026-11-11 23:00",
  "items": [
+  {
+   "headline": "Why Is NVIDIA Stock Gaining Wednesday?",
+   "summary": "NVIDIA stock rebounds ahead of earnings as chip stocks rally, but analysts warn of a potential 30% drop if Jensen Huang exits.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/63136565/why-is-nvidia-stock-gaining-wednesday",
+   "created_at": "2026-11-11T13:44:25Z",
+   "symbols": [
+    "CRWV",
+    "NVDA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/11/Nvidia-AI.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Microsoft Warns Trump Administration's Proposed China Data-Center Tech Ban Could Slow US AI Buildout, Raise Costs: Report",
+   "summary": "Microsoft warns the Trump administration that banning Chinese tech could raise costs and slow America&#39;s AI data center expansion.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/63136492/microsoft-warns-trump-administrations-proposed-china-data-center-tech-ban-could-slow-us-ai-buildout-raise-costs-report",
+   "created_at": "2026-11-11T13:40:24Z",
+   "symbols": [
+    "AMD",
+    "AVGO",
+    "CRDO",
+    "MRVL",
+    "MSFT"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/11/Microsoft-Logo-Displayed-On-A-Smartphone.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Stock Market Today: Dow Jones, S&P 500, Nasdaq 100 Futures Rise as Bessent Urges US-China to ‘De-Risk’— Alcon, CoreWeave, Telefonica Brasil in Focus (UPDATED)",
+   "summary": "U.S. stock futures rose on Wednesday, as the Dow Jones, S&amp;P 500, and Nasdaq 100 indices advanced, following Tuesday&#39;s lower close.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/11/63132394/stock-market-today-dow-jones-sp-500-futures-rise-as-bessent-urges-us-china-to-de-risk-crwv-rgti-fnv-in-focus",
+   "created_at": "2026-11-11T13:36:01Z",
+   "symbols": [
+    "ALC",
+    "BTCUSD",
+    "CRWV",
+    "DIA",
+    "FNV"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/11/Close-Up-Of-Wall-Street-Sign-With-Iconic.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Nvidia’s China Comeback Faces 3 New Washington Roadblocks. Trump Holds the Wild Card",
+   "summary": "Congress advances three measures targeting China&#39;s access to AI chips. Trump&#39;s position could determine Nvidia&#39;s China comeback.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/11/63136323/nvidia-china-chip-restrictions",
+   "created_at": "2026-11-11T13:32:58Z",
+   "symbols": [
+    "NVDA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/11/Nvidia-logo-on-smartphone-screen-with-Ch.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Vertiv CFO Says Customers Aren't Pushing Back on Higher Prices Despite Inflation Pressure",
+   "summary": "Vertiv (NYSE: VRT) stock jumps premarket as management highlights surging AI infrastructure orders and a growing pipeline.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63135575/vertiv-cfo-says-customers-arent-pushing-back-on-higher-prices-despite-inflation-pressure",
+   "created_at": "2026-11-11T13:04:02Z",
+   "symbols": [
+    "NVDA",
+    "VRT"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/11/Vertiv-Holdings.jpg?width=1024&height=768"
+  },
   {
    "headline": "Retail Pours Billions Into ETFs As Hedge Funds Go Underweight AI",
    "summary": "Hedge funds unwind tech and AI stocks at record pace while retail investors aggressively buy the dip in major index ETFs.",
@@ -67,21 +132,6 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/11/11/CoreWeave-Inc.jpg?width=1024&height=768"
   },
   {
-   "headline": "Stock Market Today: Dow Jones, S&P 500 Futures Rise as Bessent Urges US-China to 'De-Risk' — CRWV, RGTI, FNV in Focus",
-   "summary": "U.S. stock futures rose on Wednesday, as the Dow Jones, S&amp;P 500, and Nasdaq 100 indices advanced, following Tuesday&#39;s lower close.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/11/63132394/stock-market-today-dow-jones-sp-500-futures-rise-as-bessent-urges-us-china-to-de-risk-crwv-rgti-fnv-in-focus",
-   "created_at": "2026-11-11T10:16:37Z",
-   "symbols": [
-    "ALC",
-    "BTCUSD",
-    "CRWV",
-    "DIA",
-    "FNV"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/11/Close-Up-Of-Wall-Street-Sign-With-Iconic.jpg?width=1024&height=768"
-  },
-  {
    "headline": "Anthropic Expands Claude's Workplace Arsenal to Rival Google and Microsoft: What Its New AI Tools Can Do Differently",
    "summary": "On Tuesday, AI startup Anthropic added AI-powered workplace tools to Claude to compete with Google and Microsoft.",
    "source": "benzinga",
@@ -146,333 +196,278 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/11/11/Elon-Musk-On-Digital-News-Feed-Viewed-Th.jpg?width=1024&height=768"
   },
   {
-   "headline": "‘Sinking Under Water’: Americans Feel the Inflation Squeeze as Prices Outpace Wage Growth, Economist Says — Warns 50-Basis-Point Fed Hike Is Back on the Table",
-   "summary": "October CPI outpaces wages, leaving workers &#39;sinking under water,&#39; says Justin Wolfers. Experts warn of a Fed rate hike.",
+   "headline": "Reed's Q3 2026 Earnings Call Transcript",
+   "summary": "Reed’s (AMEX:REED) reported third-quarter financial results on Wednesday. The transcript from the company’s third-quarter earnings call has been provided below.This transcript is brought to you by Ben",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/economic-data/26/11/63131120/sinking-under-water-americans-feel-the-inflation-squeeze-as-prices-outpace-wage-growth-economist-says-warns-50-basis-point-fed-hike-is-back-on-the-table",
-   "created_at": "2026-11-11T07:45:22Z",
+   "url": "https://www.benzinga.com/news/26/11/63136954/reeds-q3-2026-earnings-call-transcript",
+   "created_at": "2026-11-11T13:55:41Z",
    "symbols": [
-    "DIA",
-    "QQQ",
-    "SPY"
+    "REED"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/11/Wolfers-Highlights-Inflation.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/11/Stock-market-chart-with-green-candlestic.jpg?width=1024&height=768"
   },
   {
-   "headline": "GOP Senator Kevin Cramer Calls for Nvidia CEO Jensen Huang’s Resignation Over China Spy Concerns, Says Potential for Extortion Is ‘Tremendous’",
-   "summary": "Senate Banking Committee member Sen. Cramer urges Nvidia CEO Huang to resign over alleged ties to a Chinese spy, citing extortion risks.",
+   "headline": "Angel Studios Q3 2026 Earnings Call Transcript",
+   "summary": "Angel Studios (NYSE:ANGX) reported third-quarter financial results on Wednesday. The transcript from the company’s third-quarter earnings call has been provided below.This transcript is brought to you",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/11/63130636/gop-senator-kevin-cramer-calls-for-nvidia-ceo-jensen-huangs-resignation-over-china-spy-concerns-says-potential-for-extortion-is-tremendous",
-   "created_at": "2026-11-11T06:38:36Z",
+   "url": "https://www.benzinga.com/news/26/11/63136864/angel-studios-q3-2026-earnings-call-transcript",
+   "created_at": "2026-11-11T13:52:37Z",
    "symbols": [
-    "NVDA"
+    "ANGX"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/11/Taipei--Taiwan-On-June-1--2023--Jen-hsun.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/11/Stock-market-chart-with-green-candlestic.jpg?width=1024&height=768"
   },
   {
-   "headline": "Stock Market: Will S&P 500 Open Up or Down Today?",
-   "summary": "Will S&amp;P 500 open higher? Polymarket odds hit 83% as Wall Street rides a massive tech rally, weighs Iran diplomacy, and eyes a Fed rate hike.",
+   "headline": "Elon Musk Aims for Historic 'Double Catch' Friday",
+   "summary": "SpaceX will try to catch both Starship stages Friday, a first for the rocket and a major test of Musk’s reusability plans",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63130550/stock-market-will-sp-500-open-up-or-down-today-75",
-   "created_at": "2026-11-11T06:19:23Z",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63136815/starship-double-catch",
+   "created_at": "2026-11-11T13:50:42Z",
    "symbols": [
-    "DIA",
-    "FNV",
-    "GIB",
-    "POLUSD",
-    "QQQ"
+    "SPCX"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/11/Stock-S-And-P-500-Index-Fund-Symbol-Is-O.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/11/Elon-Musk--founder--CEO--and-chief-engin.jpg?width=1024&height=768"
   },
   {
-   "headline": "Why Is Broadcom (AVGO) Stock Trending After Hours?",
-   "summary": "Broadcom shares rise 2.20% after hours as investors look ahead to December earnings and assess its custom AI chip outlook.",
+   "headline": "Ed Yardeni Backs a 50-Point Fed Hike in December: ‘Such a Move Is Warranted’",
+   "summary": "Ed Yardeni backs a 50-basis-point Fed hike in December after core CPI rose 0.3% for a third month, as two-year yields and the SHY ETF repriced.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/11/63130138/broadcom-shares-rise-after-hours-fiscal-2026-earnings-date",
-   "created_at": "2026-11-11T04:58:25Z",
+   "url": "https://www.benzinga.com/markets/macro-economic-events/26/11/63136753/ed-yardeni-fed-50-basis-point-hike-december-cpi-waller",
+   "created_at": "2026-11-11T13:48:55Z",
    "symbols": [
-    "AVGO",
-    "JPM"
+    "SHY"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/11/Broadcom-Inc.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/11/Federal-Reserve-Chair-Kevin-Warsh.jpg?width=1024&height=768"
   },
   {
-   "headline": "Gogoro Q3 2026 Earnings Call Transcript",
-   "summary": "Gogoro (NASDAQ:GGR) reported third-quarter financial results on Wednesday. The transcript from the company’s third-quarter earnings call has been provided below.This transcript is brought to you by Be",
+   "headline": "Top 3 Consumer Stocks That May Fall Off A Cliff This month",
+   "summary": "ADT, Fossil Group and Upbound Group show RSI readings above 80 after sharp gains, warning momentum-focused investors of potential pullbacks.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/11/63135125/gogoro-q3-2026-earnings-call-transcript",
-   "created_at": "2026-11-11T12:45:43Z",
+   "url": "https://www.benzinga.com/trading-ideas/short-ideas/26/11/63136726/top-3-consumer-stocks-that-may-fall-off-a-cliff-this-month",
+   "created_at": "2026-11-11T13:47:07Z",
    "symbols": [
-    "GGR"
+    "ADT",
+    "FOSL",
+    "UPBD"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/11/Wealthiest-Driving-Consumer-Spending.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Caesarstone Q3 2026 Earnings Call Transcript",
+   "summary": "Caesarstone (NASDAQ:CSTE) reported third-quarter financial results on Wednesday. The transcript from the company’s third-quarter earnings call has been provided below.This transcript is brought to you",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63136715/caesarstone-q3-2026-earnings-call-transcript",
+   "created_at": "2026-11-11T13:46:36Z",
+   "symbols": [
+    "CSTE"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/11/Stock-market-chart-with-green-candlestic.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Dell Shares Heat Up Wednesday: What's Going On?",
+   "summary": "Dell Technologies shares are trading higher Wednesday after CoreWeave beat Q3 estimates and raised its FY revenue outlook.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63136554/dell-shares-heat-up-wednesday-whats-going-on",
+   "created_at": "2026-11-11T13:44:12Z",
+   "symbols": [
+    "CRWV",
+    "DELL"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/11/Bucharest--Romania---16-03-2020-Close-up.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "CoreWeave Posts Solid Q3: Analyst Can 'Almost Hear the Sigh of Relief'",
+   "summary": "CoreWeave beat Q3 estimates, raised 2026 guidance and outlined funding plans, easing concerns over debt and massive AI data-center spending.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/63136415/coreweave-posts-solid-q3-you-could-almost-hear-sigh-relief-analyst",
+   "created_at": "2026-11-11T13:36:44Z",
+   "symbols": [
+    "CRWV"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/11/The-Coreweave-Logo-Appears-On-A-Smartpho.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "MiNK Therapeutics Q3 2026 Earnings Call Transcript",
+   "summary": "MiNK Therapeutics (NASDAQ:INKT) reported third-quarter financial results on Wednesday. The transcript from the company’s third-quarter earnings call has been provided below.This transcript is brought ",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63136413/mink-therapeutics-q3-2026-earnings-call-transcript",
+   "created_at": "2026-11-11T13:36:15Z",
+   "symbols": [
+    "INKT"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/11/11/Stock-Market-Trading-Chart-And-Analyzing.jpg?width=1024&height=768"
   },
   {
-   "headline": "Bitcoin Is Repeating a 2023 Pattern That Started the Last Bull Run, Analyst Claims",
-   "summary": "Bitcoin retests key support as Tim Warren says the setup mirrors the last pre-bull run correction and declares, “I’m a buyer today.”",
+   "headline": "Virgin Galactic Reports Q3 Earnings Thursday: Here's What Investors Need To Know",
+   "summary": "Virgin Galactic shares are rising Wednesday ahead of Q3 earnings due Thursday, with investors focused on its flight timeline and cash burn.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/11/63134977/bitcoin-is-repeating-a-2023-pattern-that-started-the-last-bull-run-analyst-claims",
-   "created_at": "2026-11-11T12:41:50Z",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63136400/virgin-galactic-reports-q3-earnings-thursday-heres-what-investors-need-to-know",
+   "created_at": "2026-11-11T13:35:32Z",
    "symbols": [
-    "BTCUSD",
-    "NEARUSD",
-    "SOLUSD",
-    "XRPUSD"
+    "SPCE"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/11/Golden-Bitcoin-Coin-Is-In-Red-And-Blue-S.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/11/Virgin-Galactic-Holdings-Inc.jpg?width=1024&height=768"
   },
   {
-   "headline": "Velo3D Analysts Lower Their Forecasts After Q3 Results",
-   "summary": "Velo3D&#39;s Q3 revenue beat estimates, but adjusted loss missed. 2026 guidance was reaffirmed; shares fell 4.1% as analysts cut price targets.",
+   "headline": "Vesta to Host 2026 Investor Day and Present Route 2030 Strategy Update",
+   "summary": "Corporación Inmobiliaria Vesta is hosting its 2026 Investor Day in New York City to provide an update on its Route 2030 strategic plan, including development programs and long-term growth objectives.",
+   "source": "fiscal.ai",
+   "url": "https://www.businesswire.com/newsroom/industry/construction-property/commercial-real-estate",
+   "created_at": "2026-11-11T13:31:34Z",
+   "symbols": [
+    "VTMX"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "ADNOC Gas Reports Strong Q3 2026 Financial Results",
+   "summary": "ADNOC Gas announced its third-quarter 2026 financial results, reporting a net profit of $1.34 billion, doubling compared to the previous quarter.",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/adnoc-gas-verzeichnet-im-dritten-quartal-eine-erholung-mit-einem-nettogewinn-von-1-34-milliarden-us-dollar-302936465.html",
+   "created_at": "2026-11-11T13:31:28Z",
+   "symbols": [
+    "ADNOCGAS"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Cathie Wood Calls Humanoid Robots a '$26 Trillion Opportunity' Over the Next 15 Years: 'Embodied AI' Could Eventually Equal '20% of Global GDP'",
+   "summary": "ARK Invest&#39;s Cathie Wood calls humanoid robots a $26T opportunity, predicting &#39;embodied AI&#39; will eventually equal 20% of global GDP.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/63134949/velo3d-analysts-lower-their-forecasts-after-q3-results",
-   "created_at": "2026-11-11T12:40:47Z",
+   "url": "https://www.benzinga.com/markets/tech/26/11/63136167/cathie-wood-calls-humanoid-robots-a-26-trillion-opportunity-over-the-next-15-years-embodied-ai-could-eventually-equal-20-of-global-gdp",
+   "created_at": "2026-11-11T13:26:18Z",
    "symbols": [
-    "VELO"
+    "TSLA"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/11/Analysts-Adjust-Progressive-Targets.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/11/Germany--Mannheim-January-29--2025--Sign.jpg?width=1024&height=768"
   },
   {
-   "headline": "Baird Maintains Outperform Rating on Alliance Laundry Holdings",
-   "summary": "Baird has reaffirmed its 'Outperform' rating for Alliance Laundry Holdings Inc., while adjusting its price target for the company's stock.",
-   "source": "fiscal.ai",
-   "url": "https://www.moomoo.com/hant/news/post/1004288725",
-   "created_at": "2026-11-11T12:33:48Z",
-   "symbols": [
-    "ALH"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Bernie Sanders Vows Federal Billionaire Wealth Tax After California Proposal Fails, Warns ‘Oligarchs’: ‘Your Victory Is Fleeting’",
-   "summary": "Bernie Sanders blames $425 million in opposition spending for California&#39;s billionaire tax defeat and vows to pursue a federal wealth tax.",
+   "headline": "Houlihan Lokey Snaps Up London Advisory Firm Behind Major Beauty Deals",
+   "summary": "Houlihan Lokey acquires London-based Vicente &amp; Partners to expand investment banking in beauty, personal care, and pet health advisory.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/11/63134771/bernie-sanders-vows-federal-billionaire-wealth-tax-after-california-proposal-fails-warns-oligarchs-your-victory-is-fleeting",
-   "created_at": "2026-11-11T12:33:39Z",
+   "url": "https://www.benzinga.com/m-a/26/11/63136029/houlihan-lokey-snaps-up-london-advisory-firm-behind-major-beauty-deals",
+   "created_at": "2026-11-11T13:20:17Z",
    "symbols": [
-    "GOOG",
-    "GOOGL",
-    "META"
+    "HLI"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/11/Philadelphia--Pa--Usa---May-1--2025-Sena.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/11/MA-Businessman-Handshake.jpg?width=1024&height=768"
   },
   {
-   "headline": "Jefferies Initiates Coverage on JBT Marel With Hold Rating",
-   "summary": "Jefferies has initiated coverage on JBT Marel Corporation with a 'Hold' rating and a price target of $142.",
-   "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/jefferies-initiates-coverage-on-jbt-marel-with-hold-142-price-target-ce785edbdc8af224",
-   "created_at": "2026-11-11T12:33:20Z",
-   "symbols": [
-    "JBTM"
-   ],
-   "image": ""
+   "headline": "No CLARITY Act, No Problem, 'Crypto Dad' Chris Giancarlo Says",
+   "summary": "Former CFTC Chair Giancarlo says existing SEC and CFTC powers can support U.S. crypto innovation despite the Clarity Act’s failure.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/11/63135947/no-clarity-act-no-problem-crypto-dad-chris-giancarlo-says",
+   "created_at": "2026-11-11T13:15:07Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/11/Clarity-Act-Text-With-American-Flag--Us-.jpg?width=1024&height=768"
   },
   {
-   "headline": "Boyd Group Services Inc. Reports Third Quarter 2026 Financial Results",
-   "summary": "Boyd Group Services Inc. announced its financial results for the third quarter ended September 30, 2026, highlighting a 28% increase in revenue and a 34.3% rise in Adjusted EBITDA.",
-   "source": "fiscal.ai",
-   "url": "https://www.newswire.ca/news-releases/boyd-group-services-inc-reports-third-quarter-2026-results-806727596.html",
-   "created_at": "2026-11-11T12:33:19Z",
+   "headline": "CCL Industries Q3 2026 Earnings Call Transcript",
+   "summary": "CCL Industries (TSX:CCL) reported third-quarter financial results on Wednesday. The transcript from the company’s third-quarter earnings call has been provided below.Benzinga APIs provide real-time ac",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63135736/ccl-industries-q3-2026-earnings-call-transcript",
+   "created_at": "2026-11-11T13:09:48Z",
    "symbols": [
-    "BYD"
+    "TSX:CCL"
    ],
-   "image": ""
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/11/Stock-Market-Trading-Chart-And-Analyzing.jpg?width=1024&height=768"
   },
   {
-   "headline": "Guggenheim Adjusts Price Target on Ardent Health to $21 From $14",
-   "summary": "Guggenheim has raised its price target for Ardent Health, Inc. from $14 to $21 while maintaining a Buy rating.",
-   "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/guggenheim-adjusts-price-target-on-ardent-health-partners-to-21-from-14-keeps-buy-rating-ce785edbdd81f124",
-   "created_at": "2026-11-11T12:33:18Z",
+   "headline": "Americans' Credit Card Debt Climbs to Record $1.29 Trillion While US Household Debt Rises to $19.1 Trillion, Says New York Fed",
+   "summary": "U.S. credit-card debt hit a record as borrowers faced higher rates and repayment pressure.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/financing/26/11/63135648/americans-credit-card-debt-climbs-to-record-1-29-trillion-while-us-household-debt-rises-to-19-1-trillion-says-new-york-fed",
+   "created_at": "2026-11-11T13:05:24Z",
    "symbols": [
-    "ARDT"
+    "WFC"
    ],
-   "image": ""
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/11/Pile-Of-Credit-Cards-On-White-Background.jpg?width=1024&height=768"
   },
   {
-   "headline": "Needham Maintains Buy Rating and Raises Price Target for Liquidia",
-   "summary": "Needham has reaffirmed its 'Buy' rating on Liquidia Corporation and increased its price target for the company's stock to $66.",
+   "headline": "Henkel's subsidiary ATP Adhesive Systems opens new manufacturing plant in the USA",
+   "summary": "Henkel's subsidiary, ATP Adhesive Systems, has officially opened a new manufacturing facility in the United States to expand its production capabilities.",
    "source": "fiscal.ai",
-   "url": "https://www.moomoo.com/hans/news/post/1004274225",
-   "created_at": "2026-11-11T12:33:17Z",
+   "url": "https://de.marketscreener.com/boerse-nachrichten/henkel-tochter-atp-adhesive-systems-eroeffnet-produktionswerk-in-den-usa-ce785edbdd8bf021",
+   "created_at": "2026-11-11T13:03:06Z",
    "symbols": [
-    "LQDA"
+    "HEN3"
    ],
    "image": ""
   },
   {
-   "headline": "Piper Sandler Adjusts Price Target on Hilltop Holdings to $36 from $42",
-   "summary": "Piper Sandler has lowered its price target for Hilltop Holdings Inc. while maintaining a neutral rating on the stock.",
+   "headline": "Munters Announces Investments in US and Italy to Expand Data Center Cooling Capacity",
+   "summary": "Munters Group is investing approximately SEK 365 million to scale its production capacity for data center cooling solutions in the United States and Italy.",
    "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/piper-sandler-adjusts-price-target-on-hilltop-to-36-from-42-maintains-neutral-rating-ce785edbdd8ff02d",
-   "created_at": "2026-11-11T12:33:14Z",
+   "url": "https://www.marketscreener.com/news/munters-group-outlines-us-italy-investments-to-scale-data-center-cooling-production-ce785edbdc8df025",
+   "created_at": "2026-11-11T13:02:46Z",
    "symbols": [
-    "HTH"
+    "MTRS"
    ],
    "image": ""
   },
   {
-   "headline": "Hagerty Prices Upsized Common Offering of 10 Million Shares",
-   "summary": "Hagerty, Inc. has priced an upsized public offering of 10 million shares of its Class A common stock at $14.85 per share.",
+   "headline": "UBS Group AG Reports Change in Voting Rights in Ströer SE & Co. KGaA",
+   "summary": "UBS Group AG has notified Ströer SE & Co. KGaA of a change in its voting rights, with its total position reaching 3.23% as of November 6, 2026.",
    "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/hagerty-prices-upsized-common-offering-of-10-million-shares-ce785edbda8df523",
-   "created_at": "2026-11-11T12:33:12Z",
+   "url": "https://www.placera.se/pressmeddelanden/stroeer-se-co-stroer-se-co-kgaa-release-according-to-article-40-section-1-of-the-wphg-the-german-securities-trading-act-with-the-objective-of-europe-wide-distribution-20261111",
+   "created_at": "2026-11-11T13:02:37Z",
    "symbols": [
-    "HGTY"
+    "SAX"
    ],
    "image": ""
   },
   {
-   "headline": "Guggenheim Adjusts Price Target on Fervo Energy",
-   "summary": "Guggenheim has revised its price target for Fervo Energy to $33 from $48 while maintaining a \"Buy\" rating.",
+   "headline": "Apollo Global Management's EasyJet Acquisition Receives Shareholder Approval",
+   "summary": "Apollo Global Management has secured shareholder approval for its GBP 5.7 billion takeover offer for EasyJet.",
    "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/guggenheim-adjusts-price-target-on-fervo-energy-to-33-from-48-keeps-buy-rating-ce785edbdd81f127",
-   "created_at": "2026-11-11T12:33:12Z",
+   "url": "https://www.marketscreener.com/news/apollo-global-management-s-easyjet-acquisition-wins-shareholder-approval-ce785edbdc8af321",
+   "created_at": "2026-11-11T13:02:35Z",
    "symbols": [
-    "FRVO"
+    "APO"
    ],
    "image": ""
   },
   {
-   "headline": "Ford Recalls 33,578 U.S. Vehicles Due to Map Light Issue",
-   "summary": "Ford Motor Company is recalling 33,578 vehicles in the United States because of a potential issue where map lights may remain illuminated.",
+   "headline": "Cantor Fitzgerald Adjusts Price Target on Elevance Health",
+   "summary": "Cantor Fitzgerald has updated its price target for Elevance Health, raising it from $450 to $493.",
    "source": "fiscal.ai",
-   "url": "https://www.fidelity.com/news/article/default/202611110307PRIMZONEFULLFEED9875290",
-   "created_at": "2026-11-11T12:33:11Z",
+   "url": "https://www.marketscreener.com/news/cantor-fitzgerald-adjusts-price-target-on-elevance-health-to-493-from-450-ce785edbdc8af726",
+   "created_at": "2026-11-11T13:02:34Z",
    "symbols": [
-    "F"
+    "ELV"
    ],
    "image": ""
   },
   {
-   "headline": "Mizuho Securities Downgrades Fortrea to Underperform",
-   "summary": "Mizuho Securities has downgraded Fortrea Holdings Inc. from Neutral to Underperform, setting a price target of $19.",
+   "headline": "Barclays Raises Jungheinrich Price Target to 33 Euros",
+   "summary": "Investment bank Barclays has increased its price target for Jungheinrich from 32 to 33 euros while maintaining an 'Overweight' rating.",
    "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/mizuho-securities-downgrades-fortrea-to-underperform-from-neutral-19-price-target-ce785edbda80f122",
-   "created_at": "2026-11-11T12:33:11Z",
+   "url": "https://www.finanzen.ch/analyse/jungheinrich-overweight-1120189",
+   "created_at": "2026-11-11T13:02:31Z",
    "symbols": [
-    "FTRE"
+    "JUN3"
    ],
    "image": ""
   },
   {
-   "headline": "Mizuho Securities Downgrades Pediatrix Medical to Underperform",
-   "summary": "Mizuho Securities has downgraded Pediatrix Medical Group, Inc. from Neutral to Underperform, setting a price target of $28.",
+   "headline": "MPCM Maintains 'Buy' Rating on Jungheinrich Following Q3 Results",
+   "summary": "Analyst firm MPCM has maintained its 'Buy' rating for Jungheinrich with a price target of 41 euros following the company's third-quarter results.",
    "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/mizuho-securities-downgrades-pediatrix-medical-to-underperform-from-neutral-28-price-target-ce785edbda80f322",
-   "created_at": "2026-11-11T12:33:08Z",
+   "url": "https://www.finanzen.ch/analyse/jungheinrich-buy-1120173",
+   "created_at": "2026-11-11T13:02:31Z",
    "symbols": [
-    "MD"
+    "JUN3"
    ],
    "image": ""
   },
   {
-   "headline": "Mizuho Securities Downgrades Surgery Partners to Neutral",
-   "summary": "Mizuho Securities has downgraded Surgery Partners from Outperform to Neutral, setting a price target of $25.",
+   "headline": "Recruit Holdings Reports Higher Fiscal H1 Attributable Profit and Revenue",
+   "summary": "Recruit Holdings Co., Ltd. announced an increase in both revenue and attributable profit for the first half of the fiscal year.",
    "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/mizuho-securities-downgrades-surgery-partners-to-neutral-from-outperform-25-price-target-ce785edbda80f224",
-   "created_at": "2026-11-11T12:33:08Z",
+   "url": "https://www.marketscreener.com/news/recruit-holdings-posts-higher-fiscal-h1-attributable-profit-revenue-up-ce785edbdc8af72d",
+   "created_at": "2026-11-11T13:02:30Z",
    "symbols": [
-    "SGRY"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Truist Securities Cuts Price Target on EquipmentShare.com to $24 From $31",
-   "summary": "Truist Securities has lowered its price target for EquipmentShare.com Inc. while maintaining a Buy rating on the stock.",
-   "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/truist-securities-cuts-price-target-on-equipmentshare-com-to-24-from-31-keeps-buy-rating-ce785edbda80f025",
-   "created_at": "2026-11-11T12:33:06Z",
-   "symbols": [
-    "EQPT"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Spectrum Brands Holdings Declares Quarterly Dividend",
-   "summary": "Spectrum Brands Holdings, Inc. announced that its Board of Directors has declared a quarterly dividend of $0.47 per share on the company's common stock.",
-   "source": "fiscal.ai",
-   "url": "https://www.businesswire.com/newsroom/industry/construction-property/residential-real-estate",
-   "created_at": "2026-11-11T12:33:06Z",
-   "symbols": [
-    "SPB"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "National Energy Services Reunited Corp. Confirmed as Gold Sponsor for Libya Energy & Economic Summit 2027",
-   "summary": "National Energy Services Reunited Corp. (NESR) has been confirmed as a Gold Sponsor for the upcoming Libya Energy & Economic Summit (LEES) 2027, scheduled for January 2027 in Tripoli.",
-   "source": "fiscal.ai",
-   "url": "https://africa.com/apo/libyas-energy-investment-drive-gains-backing-from-delta-united-national-energy-services-reunited-nesr-slb-and-saudi-arabias-industrialization-and-energy-services-company-taqa",
-   "created_at": "2026-11-11T12:33:04Z",
-   "symbols": [
-    "NESR"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Western Union Terminates Merger Agreement with International Money Express",
-   "summary": "The Western Union Company has formally moved to terminate its pending acquisition of International Money Express, Inc. (Intermex) following regulatory conditions imposed by the California Department o",
-   "source": "fiscal.ai",
-   "url": "https://www.globenewswire.com/news-release/2026/11/11/3400552/0/en/intermex-rejects-western-union-s-purported-termination-of-merger-agreement.html",
-   "created_at": "2026-11-11T12:33:02Z",
-   "symbols": [
-    "WU"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Peloton Announces Upsize and Pricing of $700 Million Senior Secured Notes Offering",
-   "summary": "Peloton Interactive, Inc. has announced the upsize and pricing of $700 million in aggregate principal amount of 8.625% senior secured notes due 2032.",
-   "source": "fiscal.ai",
-   "url": "https://www.businesswire.com/newsroom/subject/funding",
-   "created_at": "2026-11-11T12:33:02Z",
-   "symbols": [
-    "PTON"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "GXO Logistics Renews Nine-Year Contract with ASOS",
-   "summary": "GXO Logistics has announced a nine-year contract renewal with global online fashion retailer ASOS, extending their long-standing partnership through 2034.",
-   "source": "fiscal.ai",
-   "url": "https://www.globenewswire.com/news-release/2026/11/11/3400479/0/en/gxo-and-asos-extend-strategic-partnership-to-2034.html",
-   "created_at": "2026-11-11T12:33:01Z",
-   "symbols": [
-    "GXO"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "JPMorgan Upgrades Mercury Systems to Overweight",
-   "summary": "JPMorgan has upgraded Mercury Systems, Inc. from Neutral to Overweight, setting a price target of $102 per share.",
-   "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/jpmorgan-upgrades-mercury-systems-to-overweight-from-neutral-102-price-target-ce785edbdd88ff27",
-   "created_at": "2026-11-11T12:33:00Z",
-   "symbols": [
-    "MRCY"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "RBC Capital Markets Adjusts Price Target for Legend Biotech",
-   "summary": "RBC Capital Markets has lowered its price target for Legend Biotech Corporation from $56 to $50 while maintaining an Outperform rating.",
-   "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/rbc-cuts-price-target-on-legend-biotech-to-50-from-56-keeps-outperform-rating-ce785edbdd81f526",
-   "created_at": "2026-11-11T12:32:59Z",
-   "symbols": [
-    "LEGN"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Hims & Hers Health Faces Expanded FTC Lawsuit",
-   "summary": "Hims & Hers Health is facing an expanded lawsuit from the Federal Trade Commission (FTC) regarding its privacy and billing practices.",
-   "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/hims-hers-health-faces-expanded-ftc-lawsuit-over-privacy-billing-practices-ce785edbda8ff020",
-   "created_at": "2026-11-11T12:32:58Z",
-   "symbols": [
-    "HIMS"
+    "6098"
    ],
    "image": ""
   }
