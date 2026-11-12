@@ -1,6 +1,49 @@
 {
- "updated": "2026-11-12 13:00",
+ "updated": "2026-11-12 14:00",
  "items": [
+  {
+   "headline": "Elon Musk Says It Would Be an 'Honor' to Hire Nvidia CEO Jensen Huang Amid Chinese Spy Row, as Dan Ives Flags 'Black Eye Moment'",
+   "summary": "Elon Musk says hiring Nvidia CEO Jensen Huang would be an honor amid fallout over Huang’s alleged ties to a Chinese asset.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/63171937/elon-musk-honor-hire-nvidia-ceo-jensen-huang-amid-chinese-spy-row",
+   "created_at": "2026-11-12T04:49:18Z",
+   "symbols": [
+    "NVDA",
+    "SPCX",
+    "TSLA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/12/Elon-Musk.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "‘Cost Americans Their Wallets’: Nikki Haley Backs Trump’s Iran War but Says Administration Stalled as Iran Gained Leverage",
+   "summary": "Nikki Haley backed Trump&#39;s Iran war but blamed delayed decisions for strengthening Tehran&#39;s position and hurting Americans.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/11/63171837/nikki-haley-trump-iran-war-negotiations",
+   "created_at": "2026-11-12T04:18:13Z",
+   "symbols": [
+    "DIA",
+    "QQQ",
+    "SPY",
+    "UCO",
+    "USO"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/12/Nikki-Haley-Speaks-On-The-2nd-Day-Of-Cpa.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Tim Cook as Nvidia CEO? Kalshi Bettors See These Names as Top Replacement Bets for Scandal-Embroiled Jensen Huang",
+   "summary": "Cryptocurrency bettors are now wagering on who might succeed Jensen Huang as NVIDIA Corp. CEO — and former Apple Inc. CEO Tim Cook is among the contenders.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63171801/tim-cook-nvidia-ceo-jensen-huang-kalshi-prediction-market",
+   "created_at": "2026-11-12T04:08:09Z",
+   "symbols": [
+    "AAPL",
+    "BTCUSD",
+    "NVDA",
+    "POLUSD",
+    "ZECUSD"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/12/Apple-Ceo-Tim-Cook-Attends-The-Grand-Ope.jpg?width=1024&height=768"
+  },
   {
    "headline": "Jim Cramer Wants to ‘Throw Up’ Over Nvidia CEO Jensen Huang’s Ouster News, But Elon Musk Says There’s a Better Way",
    "summary": "Jim Cramer slammed reports of Jensen Huang’s potential ouster, while Elon Musk backed a shareholder vote on his future at Nvidia.",
@@ -148,41 +191,35 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/11/11/Anthropic-Ipo-Initial-Public-Offering-On.jpg?width=1024&height=768"
   },
   {
-   "headline": "POET Stock Soars After CoreWeave's Strong Q3 Results and FY26 Guidance",
-   "summary": "POET Technologies is rising Wednesday as fabless chip stocks gain after CoreWeave&#39;s results and a continued chip rally in South Korea.",
+   "headline": "Air New Zealand Takes Delivery of Two Boeing 787 Aircraft",
+   "summary": "Air New Zealand has received two new Boeing 787 Dreamliner aircraft while continuing to await European regulatory certification for its economy-class Skyrest sleep pods.",
+   "source": "fiscal.ai",
+   "url": "https://www.manilatimes.net/2026/11/12/business/foreign-business/boeing-jet-deliveries-down-14-in-october/2467818",
+   "created_at": "2026-11-12T04:31:39Z",
+   "symbols": [
+    "AIR"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Scott Colom Makes History: ‘Kept the Faith’ in Win Over Cindy Hyde-Smith as Mississippi’s First Black Senator Since Reconstruction",
+   "summary": "Scott Colom defeated Hyde-Smith, becoming Mississippi’s first Black senator since Reconstruction and dealing Trump a major setback.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63162605/poet-stock-soars-after-coreweaves-strong-q3-results-and-fy26-guidance",
-   "created_at": "2026-11-11T19:20:47Z",
-   "symbols": [
-    "ALAB",
-    "AMD",
-    "ARM",
-    "AVGO",
-    "CBRS"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/11/POET-Technologies-Inc.jpg?width=1024&height=768"
+   "url": "https://www.benzinga.com/news/politics/26/11/63171874/scott-colom-makes-history-kept-the-faith-in-win-over-cindy-hyde-smith-as-mississippis-first-black-senator-since-reconstruction",
+   "created_at": "2026-11-12T04:29:56Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/12/United-States-Midterm-Election-2026.jpg?width=1024&height=768"
   },
   {
-   "headline": "BlackRock Increases Voting Rights in ChemoMetec A/S",
-   "summary": "BlackRock, Inc. has disclosed an increase in its voting rights in ChemoMetec A/S to 15.02%.",
-   "source": "fiscal.ai",
-   "url": "https://www.globenewswire.com/news-release/2026/11/11/3401037/0/en/major-shareholder-announcement-blackrock-inc.html",
-   "created_at": "2026-11-11T19:02:17Z",
+   "headline": "Zoom (ZM) Stock Is Trending in After-Hours Trading: Here’s Why",
+   "summary": "Zoom Communications shares slip 0.22% after hours as its 7.89% rally cools following the AI Launchpad announcement.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/11/63171853/zoom-communications-shares-slip-after-hours-ai-launchpad-announcement",
+   "created_at": "2026-11-12T04:22:38Z",
    "symbols": [
-    "BLK"
+    "ZM"
    ],
-   "image": ""
-  },
-  {
-   "headline": "BlackRock Expands AI Capabilities Within Aladdin Platform",
-   "summary": "BlackRock is integrating conversational AI interfaces and agents into its Aladdin platform to enhance risk management and portfolio analysis.",
-   "source": "fiscal.ai",
-   "url": "https://www.milanofinanza.it/news/aladdin-vale-il-10-dei-ricavi-di-blackrock-202611111450122083",
-   "created_at": "2026-11-11T19:02:17Z",
-   "symbols": [
-    "BLK"
-   ],
-   "image": ""
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/12/Poznan--Poland---August-23--2025-Zoom-Lo.jpg?width=1024&height=768"
   },
   {
    "headline": "Why Is Digi International (DGII) Stock Trending After Hours?",
@@ -422,50 +459,6 @@
    "created_at": "2026-11-12T01:01:47Z",
    "symbols": [
     "LOT"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "FG Communities Holdings Announces Third Quarter 2026 Financial Results and Real Estate Strategy Update",
-   "summary": "FG Communities Holdings reported its third quarter 2026 financial results and provided an update on its real estate strategy, including recent manufactured housing acquisitions.",
-   "source": "fiscal.ai",
-   "url": "https://www.morningstar.com/news/accesswire/1249793msn/fg-communities-holdings-announces-third-quarter-2026-financial-results-and-provides-update-on-execution-of-real-estate-strategy",
-   "created_at": "2026-11-12T01:01:46Z",
-   "symbols": [
-    "FGO"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Rantizo Announces Expansion of Agricultural Drone Services into California",
-   "summary": "Rantizo is launching its agricultural drone-spraying services in California's Central Valley, targeting high-value specialty crops across four counties.",
-   "source": "fiscal.ai",
-   "url": "https://www.globenewswire.com/news-release/2026/11/11/3400658/0/en/rantizo-nasdaq-rntz-advances-u-s-production-of-heavy-lift-autonomous-drones-after-258-8-million-acquisition-targets-california-s-61-2-billion-agricultural-market.html",
-   "created_at": "2026-11-12T01:01:45Z",
-   "symbols": [
-    "RNTZ"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Ruanyun Edai Technology Announces AI Script and Film Production Cooperation Agreement",
-   "summary": "Ruanyun Edai Technology Inc. announced that its VIE, Jiangxi Ruanyun Technology Co., Ltd., has entered a cooperation agreement to develop and produce AI-assisted scripts and films using the company's ",
-   "source": "fiscal.ai",
-   "url": "https://www.globenewswire.com/news-release/2026/11/11/3400728/0/en/ryet-launches-co-funded-ai-script-and-film-production-program-on-yeezo.html",
-   "created_at": "2026-11-12T01:01:44Z",
-   "symbols": [
-    "RYET"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Gogoro Inc. Reports Third Quarter 2026 Financial Results",
-   "summary": "Gogoro Inc. announced its financial results for the third quarter ended September 30, 2026, highlighting record-high gross margins and revised full-year revenue guidance.",
-   "source": "fiscal.ai",
-   "url": "https://www.globenewswire.com/news-release/2026/11/11/3400525/0/en/gogoro-releases-third-quarter-financial-results-gogoro-reports-continued-gross-margin-improvement.html",
-   "created_at": "2026-11-12T01:01:41Z",
-   "symbols": [
-    "GGR"
    ],
    "image": ""
   }
