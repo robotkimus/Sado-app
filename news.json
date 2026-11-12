@@ -1,6 +1,36 @@
 {
- "updated": "2026-11-12 15:00",
+ "updated": "2026-11-12 16:00",
  "items": [
+  {
+   "headline": "Nasdaq Jumps 400 Points As CoreWeave Shares Jump: Greed Index Remains In ‘Fear’ Zone",
+   "summary": "Markets rose, led by CoreWeave, Gevo and Fossil gains, but CNN’s Fear &amp; Greed Index stayed at 37 in the Fear zone.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/market-summary/26/11/63172450/nasdaq-jumps-400-points-as-coreweave-shares-jump-greed-index-remains-in-fear-zone",
+   "created_at": "2026-11-12T06:36:13Z",
+   "symbols": [
+    "AMAT",
+    "CRWV",
+    "CSCO",
+    "FOSL",
+    "GEVO"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/12/Market-sentiment---Fear-and-Greed.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Stock Market: Will S&P 500 Open Up or Down Today?",
+   "summary": "Will S&amp;P 500 open higher? Polymarket odds dip to 33% as Wall Street digests Nvidia CEO ouster rumors, a tech futures drop, and falling oil.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63172206/stock-market-will-sp-500-open-up-or-down-today-76",
+   "created_at": "2026-11-12T06:00:43Z",
+   "symbols": [
+    "AMAT",
+    "BN",
+    "CRWV",
+    "CSCO",
+    "DIA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/12/Stock-S-And-P-500-Index-Fund-Symbol-Is-O.jpg?width=1024&height=768"
+  },
   {
    "headline": "Nvidia Executive Kimberly Powell Suddenly Drops Out of Major Health Summit After Bombshell Jensen Huang Affair Report",
    "summary": "Nvidia executive Kimberly Powell canceled a health summit appearance after reports of an alleged affair with CEO Jensen Huang.",
@@ -163,28 +193,82 @@
    "image": ""
   },
   {
-   "headline": "Microsoft Announces 2026 Partner of the Year Award Winners",
-   "summary": "Microsoft has announced the winners and finalists for its 2026 Partner of the Year Awards, recognizing partners for their innovation and implementation of customer solutions using Microsoft technology",
-   "source": "fiscal.ai",
-   "url": "https://www.globenewswire.com/news-release/2026/11/11/3401091/0/en/simpson-associates-recognised-as-the-winner-of-2026-microsoft-partner-of-the-year-for-community-response.html",
-   "created_at": "2026-11-11T21:31:26Z",
+   "headline": "Legence, Cisco Systems And 3 Stocks To Watch Heading Into Thursday",
+   "summary": "Mixed futures: Tetra Tech beat estimates and surged, Digi topped but fell; Legence, Cisco and Applied Materials earnings are due.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/11/63172463/legence-cisco-systems-and-3-stocks-to-watch-heading-into-thursday",
+   "created_at": "2026-11-12T06:40:12Z",
    "symbols": [
-    "MSFT"
+    "AMAT",
+    "CSCO",
+    "DGII",
+    "LGN",
+    "TTEK"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/12/Cisco-Systems-Inc.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Investcorp Credit Management (ICMB) Stock Jumps Over 53% After Hours on BCIC Merger Deal",
+   "summary": "Investcorp Credit Management shares surge 53.54% after hours as merger agreement with BCIC promises shareholders a substantial premium.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/11/63172426/investcorp-credit-management-shares-surge-after-hours-bcic-merger",
+   "created_at": "2026-11-12T06:32:21Z",
+   "symbols": [
+    "BCIC",
+    "ICMB"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/12/red-chart-Market-Crash-Concept-Red-Arrow.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Commonwealth Bank Data Shows Resilience in Household Spending Amid Fuel Price Pressures",
+   "summary": "New data from Commonwealth Bank of Australia indicates that while overall household spending remains resilient, higher fuel costs are masking a slowdown in other areas of consumer expenditure.",
+   "source": "fiscal.ai",
+   "url": "https://www.commbank.com.au/articles/newsroom/2026/11/petrol-spending-black-friday-test.html",
+   "created_at": "2026-11-12T06:31:35Z",
+   "symbols": [
+    "CBA"
    ],
    "image": ""
   },
   {
-   "headline": "Nvidia’s Brutal Selloff Triggers a Signal Unseen Since 2019 — Is the Worst Over?",
-   "summary": "Nvidia rebounds from oversold levels, but the scandal investigation fuels volatility. Analysts cut targets, while maintaining Buy ratings.",
+   "headline": "Trump Has ‘Something to Hide’: Robert Garcia Fires Back at White House Over Warning Against Congressional Probes",
+   "summary": "The White House warns Democrats against investigating the Trump administration, while Garcia rejects the threat and vows not to be deterred.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/11/63168922/nvidias-brutal-selloff-triggers-a-signal-unseen-since-2019-is-the-worst-over",
-   "created_at": "2026-11-11T21:09:03Z",
+   "url": "https://www.benzinga.com/news/politics/26/11/63172394/trump-robert-garcia-white-house-congressional-probes-warning",
+   "created_at": "2026-11-12T06:30:17Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/12/Mobile--Alabama--October-2--2026-U-s--Pr.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "First GOP Senator Joins Democrats in Demanding Nationwide Data Center Moratorium Until Congress Passes a ‘Bill of Rights’ Protecting Americans From Rising Power Bills",
+   "summary": "Sen. Josh Hawley seeks a nationwide pause on new AI data centers until Congress guarantees they won’t raise household electricity bills.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/11/63172338/first-gop-senator-joins-democrats-in-demanding-nationwide-data-center-moratorium-until-congress-passes-a-bill-of-rights-protecting-americans-from-rising-power-bills",
+   "created_at": "2026-11-12T06:21:08Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/12/Josh-Hawley-Speaking-As-Robert-F--Kenned.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Forgent Power Solutions Gears Up For Q1 Print; Here Are The Recent Forecast Changes From Wall Street's Most Accurate Analysts",
+   "summary": "Forgent Power Solutions reports Q1 results Nov. 12; analysts expect 20¢ EPS and $460.8M revenue. CFO Ryan Fiedler is stepping down.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/63172323/forgent-power-solutions-gears-up-for-q1-print-here-are-the-recent-forecast-changes-from-wall-streets-most-accurate-analysts",
+   "created_at": "2026-11-12T06:17:06Z",
    "symbols": [
-    "LRCX",
-    "MU",
-    "NVDA"
+    "FPS"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/11/Jensen-Huang.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/12/Analyst-Works-On-Personal-Computer-Showi.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "OptimizeRx Shares Tumble 20% After-Hours: Here's Why",
+   "summary": "OptimizeRx shares tumble 20% after-hours after earnings beat estimates despite lower 2026 revenue guidance.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/11/63172223/optimizerx-shares-tumble-20-after-hours-heres-why",
+   "created_at": "2026-11-12T06:01:30Z",
+   "symbols": [
+    "OPRX"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/12/Candlestick-Chart-Showing-Falling-Stock-.jpg?width=1024&height=768"
   },
   {
    "headline": "Ford’s Jim Farley Isn’t the Only One Worried About BYD, Geely and Chinese Automakers: UAW Sends Warning to Congress, Says ‘China Must Not Gain a Foothold’",
@@ -377,104 +461,6 @@
     "ELV"
    ],
    "image": ""
-  },
-  {
-   "headline": "Sempra Declares Quarterly Dividend",
-   "summary": "Sempra's board of directors has declared a quarterly dividend of $0.6575 per share on the company's common stock.",
-   "source": "fiscal.ai",
-   "url": "https://www.prnewswire.com/news-releases/sempra-declares-common-dividend-302937057.html",
-   "created_at": "2026-11-12T03:01:48Z",
-   "symbols": [
-    "SRE"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Brazilian Labor Court Suspends Uber's Driver Subscription Program",
-   "summary": "A Brazilian labor court has issued a preliminary injunction requiring Uber to suspend a program that allowed drivers to pay a fee for access to the platform.",
-   "source": "fiscal.ai",
-   "url": "https://economia.ig.com.br/2026-11-11/justica-suspende-programa-da-uber-que-cobra-motoristas.html",
-   "created_at": "2026-11-12T03:01:46Z",
-   "symbols": [
-    "UBER"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Motorola Solutions Sponsors 2026 Big Blue Bash",
-   "summary": "Motorola Solutions is the presenting sponsor for the 2026 Big Blue Bash, a gala supporting the Federal Law Enforcement Officers Foundation.",
-   "source": "fiscal.ai",
-   "url": "https://www.einpresswire.com/article/956105458/the-vierra-group-and-teya-diversified-services-join-the-2026-big-blue-bash-in-support-of-america-s-law-enforcement",
-   "created_at": "2026-11-12T03:01:40Z",
-   "symbols": [
-    "MSI"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "ASIC Commences Civil Proceedings Against Commonwealth Bank Over CommBiz Fee Disclosures",
-   "summary": "The Australian Securities and Investments Commission (ASIC) has initiated civil penalty proceedings against Commonwealth Bank of Australia, alleging the bank failed to disclose certain fees on its Com",
-   "source": "fiscal.ai",
-   "url": "https://www.mpamag.com/au/news/general/commonwealth-bank-sued-over-alleged-undisclosed-business-fees/597055",
-   "created_at": "2026-11-12T03:01:34Z",
-   "symbols": [
-    "CBA"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Tesla Extends Cybertruck Production Timeline",
-   "summary": "Tesla has extended the production schedule for the Cybertruck through late summer 2027 to manage a significant order backlog before repurposing the manufacturing line for the Cybercab.",
-   "source": "fiscal.ai",
-   "url": "https://www.moomoo.com/news/post/1004353703/once-hailed-as-tesla-s-best-product-ever-elon-musk",
-   "created_at": "2026-11-12T03:01:31Z",
-   "symbols": [
-    "TSLA"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "'Some of Those Bagholders Voted for Democrats': Peter Schiff Says Trump's Memecoin Riches Came 'At the Expense' of Investors",
-   "summary": "Economist Peter Schiff said on Wednesday, November 11, that President Donald Trump’s cryptocurrency proceeds came at investors’ expense, suggesting some affected holders may have supported Democrats i",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/11/63171647/peter-schiff-donald-trump-memecoin-democrats-midterms",
-   "created_at": "2026-11-12T02:51:45Z",
-   "symbols": [
-    "BTCUSD",
-    "TRUMPUSD",
-    "ZECUSD"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/12/MG-7884.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Cathie Wood Doubles Down On Archer Aviation, Rocket Lab As Ark Keeps Selling BYD Stock",
-   "summary": "Cathie Wood’s Ark Invest added to Archer and Rocket Lab while continuing to trim its BYD stake on Wednesday.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/etfs/broad-u-s-equity-etfs/26/11/63171579/cathie-wood-doubles-down-on-archer-aviation-rocket-lab-as-ark-keeps-selling-byd-stock",
-   "created_at": "2026-11-12T02:12:10Z",
-   "symbols": [
-    "ACHR",
-    "ARKK",
-    "ARKQ",
-    "ARKX",
-    "BYDDY"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/12/Russia-Moscow-24-06-2021-Logo-Of-Financi.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Bitcoin, Ethereum, XRP Steady, but Dogecoin Dips: Analyst Bets a Repeat of BTC's Short Squeeze, Driving It Toward $90,000",
-   "summary": "Leading cryptocurrencies struggled for big gains on Wednesday, November 11, as investors trimmed risk appetite.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/11/63171545/bitcoin-ethereum-xrp-dogecoin-crypto-3",
-   "created_at": "2026-11-12T01:53:13Z",
-   "symbols": [
-    "BMNR",
-    "BTCUSD",
-    "DOGEUSD",
-    "ETHUSD",
-    "MSTR"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/12/Modern-Way-Of-Exchange--Bitcoin-Is-Conve.jpg?width=1024&height=768"
   }
  ]
 }
