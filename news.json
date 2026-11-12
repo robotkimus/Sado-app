@@ -1,6 +1,17 @@
 {
- "updated": "2026-11-12 14:00",
+ "updated": "2026-11-12 15:00",
  "items": [
+  {
+   "headline": "Nvidia Executive Kimberly Powell Suddenly Drops Out of Major Health Summit After Bombshell Jensen Huang Affair Report",
+   "summary": "Nvidia executive Kimberly Powell canceled a health summit appearance after reports of an alleged affair with CEO Jensen Huang.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/63172051/nvidia-kimberly-powell-summit-affair",
+   "created_at": "2026-11-12T05:37:15Z",
+   "symbols": [
+    "NVDA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/12/Taipei--Taiwan-On-June-1--2023--Jen-hsun.jpg?width=1024&height=768"
+  },
   {
    "headline": "Elon Musk Says It Would Be an 'Honor' to Hire Nvidia CEO Jensen Huang Amid Chinese Spy Row, as Dan Ives Flags 'Black Eye Moment'",
    "summary": "Elon Musk says hiring Nvidia CEO Jensen Huang would be an honor amid fallout over Huang’s alleged ties to a Chinese asset.",
@@ -176,19 +187,66 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/11/11/Jensen-Huang.jpg?width=1024&height=768"
   },
   {
-   "headline": "Anthropic Perp Rallies 8%: Traders Price the Claude Maker at $1.8 Trillion",
-   "summary": "Anthropic&#39;s Polymarket perp rose 8% to imply a $1.84 trillion valuation as IPO demand builds and CoreWeave (CRWV) lifts AI stocks.",
+   "headline": "Ford’s Jim Farley Isn’t the Only One Worried About BYD, Geely and Chinese Automakers: UAW Sends Warning to Congress, Says ‘China Must Not Gain a Foothold’",
+   "summary": "UAW urges Congress to shield U.S. automakers from Chinese EV competition, echoing Ford CEO Jim Farley’s warnings about foreign market gains.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/ipos/26/11/63164916/anthropic-perp-rallies-8-traders-price-claude-maker-1-8-trillion",
-   "created_at": "2026-11-11T20:03:00Z",
+   "url": "https://www.benzinga.com/markets/tech/26/11/63172169/fords-jim-farley-isnt-the-only-one-worried-about-byd-geely-and-chinese-automakers-uaw-sends-warning-to-congress-says-china-must-not-gain-a-foothold",
+   "created_at": "2026-11-12T05:55:37Z",
    "symbols": [
-    "AVGO",
-    "CRWV",
-    "GOOG",
-    "GOOGL",
-    "MSFT"
+    "BYDDF",
+    "BYDDY",
+    "F",
+    "GELHY",
+    "GELYF"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/11/Anthropic-Ipo-Initial-Public-Offering-On.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/12/Electric-Cars-Are-Being-Charged-At-Elect.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Elon Musk’s Tweets Don’t Matter Anymore, Says Dogecoin Labs Founder and That’s ‘Healthy’ for DOGE",
+   "summary": "Dogecoin Labs founder and CEO Jordan Jefferson said on Wednesday, November 11, that Dogecoin has &#34;transcended&#34; the market-moving impact of Elon Musk&#39;s social posts.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/11/63172159/elon-musk-dogecoin-memecoin-mars-dogecoin-labs-founder",
+   "created_at": "2026-11-12T05:54:44Z",
+   "symbols": [
+    "BTCUSD",
+    "DOGEUSD",
+    "ZECUSD"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/12/Paris--France---June-16--2023-Elon-Musk-.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Children’s Place (PLCE) Stock Soars Nearly 260% After Hours: Here’s What You Should Know",
+   "summary": "Children&#39;s Place shares surge 257.63% after hours following a Chapter 11 filing and plans for a court-supervised sale.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/11/63172063/childrens-place-shares-surge-after-hours-chapter-11-bankruptcy-filing",
+   "created_at": "2026-11-12T05:41:47Z",
+   "symbols": [
+    "PLCE"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/12/San-Antonio--Texas--Usa---March-17--2022.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Inlif (INLF) Shares Fall 22% After-Hours: Here's Why",
+   "summary": "Inlif shares fall after subsidiary announces planned $30 million industrial robotics supply agreement.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/11/63172033/inlif-inlf-shares-fall-22-after-hours-heres-why",
+   "created_at": "2026-11-12T05:29:04Z",
+   "symbols": [
+    "INLF"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/12/Red-Glowing-Candlestick-Chart-On-Dark-Ba.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Elon Musk Must Extend an ‘Olive Branch’ to Texas to Secure SpaceX’s Data Center Future After Democrat Election Wins, Says Dan Ives: ‘He Needs Texas. Texas Needs Him’",
+   "summary": "Dan Ives says Elon Musk must compromise with Texas officials to advance SpaceX’s AI data centers amid Democratic victories.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/63171978/elon-musk-must-extend-an-olive-branch-to-texas-to-secure-spacexs-data-center-future-after-democrat-election-wins-says-dan-ives-he-needs-texas-texas-needs-him",
+   "created_at": "2026-11-12T05:11:13Z",
+   "symbols": [
+    "SPCX",
+    "TSLA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/12/Elon-Musk-is-the-founder--CEO--and-Chief.jpg?width=1024&height=768"
   },
   {
    "headline": "Air New Zealand Takes Delivery of Two Boeing 787 Aircraft",
@@ -417,50 +475,6 @@
     "MSTR"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/11/12/Modern-Way-Of-Exchange--Bitcoin-Is-Conve.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "ZJK Industrial Announces New Precision Component Portfolio for Robotics Industry",
-   "summary": "ZJK Industrial Co., Ltd. has launched a new portfolio of six precision component product series specifically designed to meet the requirements of the robotics industry.",
-   "source": "fiscal.ai",
-   "url": "https://www.globenewswire.com/news-release/2026/11/11/3400638/0/en/zjk-establishes-six-series-precision-component-product-matrix-to-expand-robotics-opportunities.html",
-   "created_at": "2026-11-12T01:02:12Z",
-   "symbols": [
-    "ZJK"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "China Automotive Systems Reports Record Third Quarter 2026 EPS Sales and Approves Share Repurchase Program",
-   "summary": "China Automotive Systems announced record-breaking electronic power steering (EPS) unit sales for the third quarter of 2026 and the authorization of a $5 million share repurchase program.",
-   "source": "fiscal.ai",
-   "url": "https://www.prnewswire.com/news-releases/china-automotive-systems-reports-record-third-quarter-2026-eps-sales-board-approves-5-million-share-repurchase-program-302935730.html",
-   "created_at": "2026-11-12T01:01:48Z",
-   "symbols": [
-    "CAAS"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "JP Morgan Resumes Coverage of Eaton Corporation plc",
-   "summary": "JP Morgan has resumed its equity research coverage of Eaton Corporation plc.",
-   "source": "fiscal.ai",
-   "url": "https://www.moomoo.com/news/flash/1004293996/eaton-corporation-plc-jp-morgan-resumes-coverage-with-neutral-rating",
-   "created_at": "2026-11-12T01:01:48Z",
-   "symbols": [
-    "ETN"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Lotus Technology Announces Partnership with Horse Powertrain for Type 135 Supercar",
-   "summary": "Lotus Technology has partnered with Horse Powertrain to integrate the new HORSE W40 V8 engine and 8LDCT transmission into the upcoming Type 135 hybrid supercar.",
-   "source": "fiscal.ai",
-   "url": "https://www.morningstar.com/news/globe-newswire/9875374/lotus-tech-confirms-partnership-with-horse-powertrain-to-debut-hybrid-v8-powertrain-in-type-135",
-   "created_at": "2026-11-12T01:01:47Z",
-   "symbols": [
-    "LOT"
-   ],
-   "image": ""
   }
  ]
 }
