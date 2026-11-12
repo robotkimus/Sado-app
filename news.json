@@ -1,6 +1,32 @@
 {
- "updated": "2026-11-12 10:00",
+ "updated": "2026-11-12 11:00",
  "items": [
+  {
+   "headline": "Jensen Huang Heat Intensifies As Taiwan Revokes Entry for Alleged Spy Who Slipped In On Hong Kong Passport",
+   "summary": "Taiwan revoked the entry permit of a woman accused of spying for China and linked to Nvidia CEO Jensen Huang.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/63171508/taiwan-china-spy-jensen-huang-permit",
+   "created_at": "2026-11-12T01:44:54Z",
+   "symbols": [
+    "NVDA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/12/Jensen-Huang-Nvidias-Founder--President-.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Nvidia, AMD, SanDisk, Broadcom and Apple: Why These 5 Stocks Are on Investors' Radars Today",
+   "summary": "Major U.S. indices closed higher on Wednesday, with the Dow Jones Industrial Average rising 0.49% to 52,486.49.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/11/63171475/nvidia-amd-sandisk-broadcom-and-apple-why-these-5-stocks-are-on-investors-radars-today",
+   "created_at": "2026-11-12T01:15:56Z",
+   "symbols": [
+    "AAPL",
+    "AMD",
+    "AVGO",
+    "NVDA",
+    "SNDK"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/12/Jakarta--September-07-2024-Nvidia-Corpor.jpg?width=1024&height=768"
+  },
   {
    "headline": "Nvidia Stock Sinks as Jensen Huang Ouster Report Sends Investors Toward AMD, Broadcom",
    "summary": "Broadcom and AMD stocks rise as reported turmoil around Nvidia CEO Jensen Huang sends investors to rival chipmakers.",
@@ -163,31 +189,162 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/11/11/Jensen-Huang-Nvidias-Founder--President-.jpg?width=1024&height=768"
   },
   {
-   "headline": "Nvidia’s Earnings Day Is ‘Earnings Day for Your 401(k).’ Here’s Why",
-   "summary": "NVIDIA&#39;s Nov. 17 earnings could affect millions of 401(k) investors. Here&#39;s why S&amp;P 500 concentration matters.",
+   "headline": "Bitcoin, Ethereum, XRP Steady, but Dogecoin Dips: Analyst Bets a Repeat of BTC's Short Squeeze, Driving It Toward $90,000",
+   "summary": "Leading cryptocurrencies struggled for big gains on Wednesday, November 11, as investors trimmed risk appetite.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/11/63159321/nvidia-earnings-401k-impact",
-   "created_at": "2026-11-11T18:26:29Z",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/11/63171545/bitcoin-ethereum-xrp-dogecoin-crypto-3",
+   "created_at": "2026-11-12T01:53:13Z",
    "symbols": [
-    "AAPL",
-    "MSFT",
-    "NVDA",
-    "SPY"
+    "BMNR",
+    "BTCUSD",
+    "DOGEUSD",
+    "ETHUSD",
+    "MSTR"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/11/Mogilno--Poland--06-04-2025-Illustration.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/12/Modern-Way-Of-Exchange--Bitcoin-Is-Conve.jpg?width=1024&height=768"
   },
   {
-   "headline": "What Is Going On With Snap Stock on Wednesday?",
-   "summary": "Snap Inc. (NYSE: SNAP) stock moved higher Wednesday alongside broad gains in technology and communication equities.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63158783/what-is-going-on-with-snap-stock-on-wednesday-2",
-   "created_at": "2026-11-11T18:18:02Z",
+   "headline": "ZJK Industrial Announces New Precision Component Portfolio for Robotics Industry",
+   "summary": "ZJK Industrial Co., Ltd. has launched a new portfolio of six precision component product series specifically designed to meet the requirements of the robotics industry.",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/11/3400638/0/en/zjk-establishes-six-series-precision-component-product-matrix-to-expand-robotics-opportunities.html",
+   "created_at": "2026-11-12T01:02:12Z",
    "symbols": [
-    "CRWV",
-    "NVDA",
-    "SNAP"
+    "ZJK"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/11/Sankt-petersburg--Russia--July-11--2018-.jpg?width=1024&height=768"
+   "image": ""
+  },
+  {
+   "headline": "China Automotive Systems Reports Record Third Quarter 2026 EPS Sales and Approves Share Repurchase Program",
+   "summary": "China Automotive Systems announced record-breaking electronic power steering (EPS) unit sales for the third quarter of 2026 and the authorization of a $5 million share repurchase program.",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/china-automotive-systems-reports-record-third-quarter-2026-eps-sales-board-approves-5-million-share-repurchase-program-302935730.html",
+   "created_at": "2026-11-12T01:01:48Z",
+   "symbols": [
+    "CAAS"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "JP Morgan Resumes Coverage of Eaton Corporation plc",
+   "summary": "JP Morgan has resumed its equity research coverage of Eaton Corporation plc.",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/news/flash/1004293996/eaton-corporation-plc-jp-morgan-resumes-coverage-with-neutral-rating",
+   "created_at": "2026-11-12T01:01:48Z",
+   "symbols": [
+    "ETN"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Lotus Technology Announces Partnership with Horse Powertrain for Type 135 Supercar",
+   "summary": "Lotus Technology has partnered with Horse Powertrain to integrate the new HORSE W40 V8 engine and 8LDCT transmission into the upcoming Type 135 hybrid supercar.",
+   "source": "fiscal.ai",
+   "url": "https://www.morningstar.com/news/globe-newswire/9875374/lotus-tech-confirms-partnership-with-horse-powertrain-to-debut-hybrid-v8-powertrain-in-type-135",
+   "created_at": "2026-11-12T01:01:47Z",
+   "symbols": [
+    "LOT"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "FG Communities Holdings Announces Third Quarter 2026 Financial Results and Real Estate Strategy Update",
+   "summary": "FG Communities Holdings reported its third quarter 2026 financial results and provided an update on its real estate strategy, including recent manufactured housing acquisitions.",
+   "source": "fiscal.ai",
+   "url": "https://www.morningstar.com/news/accesswire/1249793msn/fg-communities-holdings-announces-third-quarter-2026-financial-results-and-provides-update-on-execution-of-real-estate-strategy",
+   "created_at": "2026-11-12T01:01:46Z",
+   "symbols": [
+    "FGO"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Rantizo Announces Expansion of Agricultural Drone Services into California",
+   "summary": "Rantizo is launching its agricultural drone-spraying services in California's Central Valley, targeting high-value specialty crops across four counties.",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/11/3400658/0/en/rantizo-nasdaq-rntz-advances-u-s-production-of-heavy-lift-autonomous-drones-after-258-8-million-acquisition-targets-california-s-61-2-billion-agricultural-market.html",
+   "created_at": "2026-11-12T01:01:45Z",
+   "symbols": [
+    "RNTZ"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Ruanyun Edai Technology Announces AI Script and Film Production Cooperation Agreement",
+   "summary": "Ruanyun Edai Technology Inc. announced that its VIE, Jiangxi Ruanyun Technology Co., Ltd., has entered a cooperation agreement to develop and produce AI-assisted scripts and films using the company's ",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/11/3400728/0/en/ryet-launches-co-funded-ai-script-and-film-production-program-on-yeezo.html",
+   "created_at": "2026-11-12T01:01:44Z",
+   "symbols": [
+    "RYET"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Gogoro Inc. Reports Third Quarter 2026 Financial Results",
+   "summary": "Gogoro Inc. announced its financial results for the third quarter ended September 30, 2026, highlighting record-high gross margins and revised full-year revenue guidance.",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/11/3400525/0/en/gogoro-releases-third-quarter-financial-results-gogoro-reports-continued-gross-margin-improvement.html",
+   "created_at": "2026-11-12T01:01:41Z",
+   "symbols": [
+    "GGR"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "GOWell Energy Technology Completes Acquisition of WellSense",
+   "summary": "GOWell Energy Technology has acquired Aberdeen-based WellSense, a provider of distributed fiber optic sensing and well integrity diagnostic technologies.",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/11/3400589/0/en/gowell-acquires-wellsense-to-expand-global-well-integrity-and-fiber-optic-sensing-capabilities.html",
+   "created_at": "2026-11-12T01:01:40Z",
+   "symbols": [
+    "GOW"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Morgan Stanley Adjusts Price Target on TransDigm to $1,405 From $1,300",
+   "summary": "Morgan Stanley analysts have updated their price target for TransDigm Group, increasing it from $1,300 to $1,405.",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/news/post/1004282248/morgan-stanley-adjusts-price-target-on-transdigm-to-1405-from",
+   "created_at": "2026-11-12T01:01:38Z",
+   "symbols": [
+    "MS"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Chevron Progresses Toward New Energy Agreements in Venezuela",
+   "summary": "Chevron is reportedly on track to sign new energy project agreements in Venezuela as part of a broader industry effort to migrate contracts under recent energy reforms.",
+   "source": "fiscal.ai",
+   "url": "https://energynow.ca/2026/09/red-flags-trumps-oil-deal-with-venezuela-raises-red-flags-for-some-major-producers/",
+   "created_at": "2026-11-12T01:01:36Z",
+   "symbols": [
+    "CVX"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Prologis Leases Logistics Center in Herne to JF Global",
+   "summary": "Prologis has entered into a lease agreement for a logistics facility located in Herne, Germany, with JF Global.",
+   "source": "fiscal.ai",
+   "url": "https://www.finanznachrichten.de/nachrichten-medien/verkehrsrundschau.htm",
+   "created_at": "2026-11-12T01:01:34Z",
+   "symbols": [
+    "PLD"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Goldman Sachs Maintains Neutral Rating on Micron Technology",
+   "summary": "Goldman Sachs analyst Toshiya Hari maintains a Neutral rating on Micron Technology, citing a more attractive risk/reward profile due to expected strong free cash flow, despite preferring South Korean ",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/news/post/1004324379/micron-is-rebounding-goldman-prefers-these-memory-stocks-barronscom",
+   "created_at": "2026-11-12T01:01:33Z",
+   "symbols": [
+    "MU"
+   ],
+   "image": ""
   },
   {
    "headline": "Lowe's Announces Holiday Airblown® Inflatables Collection",
@@ -314,158 +471,6 @@
     "SPCX"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/11/11/Stephen-Miller--America-First-Legal-Spea.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Xanadu Quantum Q3 2026 Earnings Call Transcript",
-   "summary": "Xanadu Quantum (NASDAQ:XNDU) reported third-quarter financial results on Wednesday. The transcript from the company’s third-quarter earnings call has been provided below.This transcript is brought to ",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/11/63171086/xanadu-quantum-q3-2026-earnings-call-transcript",
-   "created_at": "2026-11-11T23:37:03Z",
-   "symbols": [
-    "XNDU"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/11/Stock-Market-Trading-Chart-And-Analyzing.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Fake Private Equity Executive Used ChatGPT to Forge $202M Takeover Bid",
-   "summary": "A man who posed as a private equity executive and orchestrated a bogus $202 million takeover bid has been sentenced.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/private-markets/26/11/63171073/fake-private-equity-executive-used-chatgpt-to-forge-202m-takeover-bid",
-   "created_at": "2026-11-11T23:35:05Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/11/Legal-Fights-Continue.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Andean Precious Metals Reports Third Quarter 2026 Financial Results",
-   "summary": "Andean Precious Metals Corp. has released its financial results for the three and nine months ended September 30, 2026.",
-   "source": "fiscal.ai",
-   "url": "https://www.newsfilecorp.com/news/mining-metals",
-   "created_at": "2026-11-11T23:32:02Z",
-   "symbols": [
-    "APM"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "If You Invested $1000 In Nasdaq Stock 10 Years Ago, You Would Have This Much Today",
-   "summary": "Nasdaq (NASDAQ:NDAQ) has outperformed the market over the past 10 years by 4.42% on an annualized basis producing an average annual return of 17.7%. Currently, Nasdaq has a market capitalization of $6",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/11/63171058/if-you-invested-1000-nasdaq-stock-10-years-ago-you-would-have-much-today",
-   "created_at": "2026-11-11T23:30:41Z",
-   "symbols": [
-    "NDAQ"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/valuestock_4.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Here’s How Much You Would Have Made Owning ProShares UltraPro QQQ Stock In The Last 15 Years",
-   "summary": "ProShares UltraPro QQQ (NASDAQ:TQQQ) has outperformed the market over the past 15 years by 27.8% on an annualized basis producing an average annual return of 40.76%. Currently, ProShares UltraPro QQQ ",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/11/63171012/here-s-how-much-you-would-have-made-owning-proshares-ultrapro-qqq-stock-last-15-years",
-   "created_at": "2026-11-11T23:17:07Z",
-   "symbols": [
-    "TQQQ"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/valuestock_1.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "AEVEX Q3 2026 Earnings Call Transcript",
-   "summary": "AEVEX (NYSE:AVEX) reported third-quarter financial results on Wednesday. The transcript from the company’s third-quarter earnings call has been provided below.This transcript is brought to you by Benz",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/11/63170949/aevex-q3-2026-earnings-call-transcript",
-   "created_at": "2026-11-11T23:05:34Z",
-   "symbols": [
-    "AVEX"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/11/Stock-market-chart-with-green-candlestic.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Digi Intl Q4 2026 Earnings Call Transcript",
-   "summary": "Digi Intl (NASDAQ:DGII) reported fourth-quarter financial results on Wednesday. The transcript from the company’s fourth-quarter earnings call has been provided below.This content is powered by Benzin",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/11/63170930/digi-intl-q4-2026-earnings-call-transcript",
-   "created_at": "2026-11-11T23:03:57Z",
-   "symbols": [
-    "DGII"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/11/Stock-market-chart-with-green-candlestic.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Blue Owl Finance Chief Clarifies Data Center Investment Strategy",
-   "summary": "Blue Owl Capital's finance chief Alan Kirshenbaum stated that the firm's data center investments are focused on long-term leases with investment-grade tenants rather than speculative AI bets.",
-   "source": "fiscal.ai",
-   "url": "https://www.moomoo.com/hans/news/post/1004330763/private-equity-rethinks-the-ai-trade-wsj",
-   "created_at": "2026-11-11T23:03:30Z",
-   "symbols": [
-    "OWL"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "KBW Maintains Hut 8 With Buy Rating, Cuts Target Price to $81",
-   "summary": "KBW analyst Stephen Glagola has maintained a Buy rating on Hut 8 while adjusting the company's price target from $92 to $81.",
-   "source": "fiscal.ai",
-   "url": "https://www.moomoo.com/stock/HUT261113P45000-US?chain_id=Name1K9-3FXPhg.1lf9b90&global_content=%7B%22promote_id%22%3A13764%2C%22sub_promote_id%22%3A57%2C%22f%22%3A%22www.moomoo.com%2Fstock%2FHUT-US%22%7D",
-   "created_at": "2026-11-11T23:03:23Z",
-   "symbols": [
-    "HUT"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "GQG Partners Downgraded to Neutral by Barrenjoey",
-   "summary": "Barrenjoey has downgraded GQG Partners from Overweight to Neutral and significantly reduced its price target for the company's shares.",
-   "source": "fiscal.ai",
-   "url": "https://www.moomoo.com/hans/news/post/1004260477",
-   "created_at": "2026-11-11T23:03:11Z",
-   "symbols": [
-    "GQG"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Rocket Lab Acquisition of Iridium Communications",
-   "summary": "Morgan Stanley analysts highlighted the ongoing acquisition of Iridium Communications by Rocket Lab as a key component of their long-term investment thesis for the latter.",
-   "source": "fiscal.ai",
-   "url": "https://news.futunn.com/post/1004201105/rocket-lab-s-neutron-commercialization-path-outweighs-q3-margin-noise",
-   "created_at": "2026-11-11T23:02:54Z",
-   "symbols": [
-    "IRDM"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "RLI Announces Special Dividend of $3.00 per Share",
-   "summary": "RLI Corp. has declared a special cash dividend of $3.00 per share, payable on December 7, 2026, to shareholders of record as of November 30, 2026.",
-   "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/rli-announces-special-dividend-of-3-00-per-share-payable-dec-7-to-shareholders-of-record-nov-30-ce785edbd181f024",
-   "created_at": "2026-11-11T23:02:49Z",
-   "symbols": [
-    "RLI"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "RLI Maintains Quarterly Dividend at $0.18 per Share",
-   "summary": "RLI Corp. confirmed its regular quarterly dividend of $0.18 per share, payable on December 7, 2026, to shareholders of record as of November 30, 2026.",
-   "source": "fiscal.ai",
-   "url": "https://de.marketscreener.com/boerse-nachrichten/rli-belaesst-quartalsdividende-bei-0-18-usd-je-aktie-zahlbar-am-7-dezember-an-die-am-30-november-e-ce785edbd181f420",
-   "created_at": "2026-11-11T23:02:49Z",
-   "symbols": [
-    "RLI"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Franco-Nevada Reports Q3 2026 Financial Results",
-   "summary": "Franco-Nevada Corporation announced its third-quarter 2026 financial results, reporting an adjusted EPS of $1.89 and revenue of $549.3 million.",
-   "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/earnings-flash-fnv-franco-nevada-posts-q3-adjusted-eps-1-89-vs-factset-est-1-74-ce785edbd180f023",
-   "created_at": "2026-11-11T23:02:49Z",
-   "symbols": [
-    "FNV"
-   ],
-   "image": ""
   }
  ]
 }
