@@ -1,116 +1,197 @@
 {
- "updated": "2026-11-12 23:00",
+ "updated": "2026-11-13 10:00",
  "items": [
   {
-   "headline": "Stock Market Today: NVDA Stock Sinks Nasdaq, S&P 500 Futures as Board Weighs Jensen Huang’s Future — CRWV, TTEK, FNV in Focus (UPDATED)",
-   "summary": "U.S. stock futures were mixed on Thursday, as the Dow Jones, S&amp;P 500, and Nasdaq 100 indices diverged, following Wednesday&#39;s higher close.",
+   "headline": "TQQQ ETF Barely Outpaces QQQ Despite Its 3X Leverage",
+   "summary": "TQQQ is designed to deliver 3X the daily return of the Nasdaq-100, yet it has barely outpaced QQQ this year. Here&#39;s why.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/11/63174263/stock-market-today-nvda-rout-drags-nasdaq-sp-500-futures-lower-as-nvidia-board-weighs-jensen-huangs-future-crwv-ttek-fnv-in-focus",
-   "created_at": "2026-11-12T13:39:56Z",
+   "url": "https://www.benzinga.com/opinion/26/11/63227572/tqqq-etf-barely-outpaces-qqq-despite-its-3x-leverage",
+   "created_at": "2026-11-12T22:56:23Z",
    "symbols": [
-    "BTCUSD",
-    "CRWV",
-    "CSCO",
-    "DIA",
-    "FNV"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/12/New-York-Stock-Exchange-On-The-Corner-Of.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Why Is IonQ Stock Falling on Thursday?",
-   "summary": "IonQ Inc. (NYSE: IONQ) stock drops in Thursday pre-market trading amid quantum sector weakness, Rigetti Computing&#39;s earnings miss, and broader tech selloffs.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63183149/why-is-ionq-stock-falling-on-thursday",
-   "created_at": "2026-11-12T13:26:28Z",
-   "symbols": [
-    "IONQ",
-    "NVDA",
-    "RGTI"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/12/Munich--Bavaria--Germany---March-31-2023.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Nvidia Stock’s 'Very Sad Day,' Analyst Cuts Price Target by $100",
-   "summary": "Cantor Fitzgerald drops Nvidia as a top stock pick amid uncertainty surrounding Jensen Huang&#39;s tenure as CEO.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/63183072/nvidia-stock-price-target-100-haircut-cantor-jensen-huang",
-   "created_at": "2026-11-12T13:23:46Z",
-   "symbols": [
-    "NVDA",
-    "SMH",
-    "TSM"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/12/Magnifying-Glass-Focusing-On-Nvidia-Ceo-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Bitcoin Dumps Below $73,000 as NVDA Plunges 8% on Huang Ouster Report",
-   "summary": "Bitcoin faces a fresh “Black Monday” test as Nvidia slides 8% on reports its board may remove CEO Jensen Huang.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/11/63182823/bitcoin-dumps-below-73000-as-nvda-plunges-8-on-huang-ouster-report",
-   "created_at": "2026-11-12T13:17:28Z",
-   "symbols": [
-    "BTCUSD",
-    "GBTC",
-    "IBIT",
-    "MSBT",
-    "NVDA"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/12/Bitcoin.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Corteva Posts Downbeat Q3 Results, Joins Nvidia, Alvotech And Other Big Stocks Moving Lower In Thursday’s Pre-Market Session",
-   "summary": "U.S. futures were mixed as Corteva plunged 8% after missing earnings and sales estimates; Digi, Nvidia, quantum stocks and others also fell premarket.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63182030/corteva-posts-downbeat-q3-results-joins-nvidia-alvotech-and-other-big-stocks-moving-lower-in-thursdays-pre-market-session",
-   "created_at": "2026-11-12T13:05:07Z",
-   "symbols": [
-    "ALVO",
-    "AMSC",
-    "BABA",
-    "CRWV",
-    "CTVA"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/12/Kyiv--Ukraine---March-19--2021-In-This-P.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Broadcom Stock Rises Amid Nvidia Executive Turmoil",
-   "summary": "Broadcom shares experienced gains as market participants speculated that the company could capture market share following reports of potential leadership changes at competitor Nvidia.",
-   "source": "fiscal.ai",
-   "url": "https://news.futunn.com/en/post/1004306717/amd-and-broadcom-stocks-jump-what-it-says-about-the",
-   "created_at": "2026-11-12T13:01:39Z",
-   "symbols": [
-    "AVGO"
+    "QQQ",
+    "TQQQ"
    ],
    "image": ""
   },
   {
-   "headline": "Nvidia Faces A 'Black Eye Moment,' Dan Ives Says, as 'Writing Is On The Wall' for Jensen Huang; Projects $225 Stock Valuation Without CEO",
-   "summary": "Dan Ives says Nvidia faces a &#39;black eye moment,&#39; predicting CEO Jensen Huang&#39;s removal and projecting a $225 NVDA stock valuation.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/11/63181607/nvidia-faces-a-black-eye-moment-dan-ives-says-as-writing-is-on-the-wall-for-jensen-huang-projects-225-stock-valuation-without-ceo",
-   "created_at": "2026-11-12T13:00:49Z",
-   "symbols": [
-    "NVDA"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/12/Jensen-Huang-Nvidias-Founder--President-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Wells Fargo Adjusts Price Target on CVS Health",
-   "summary": "Wells Fargo has revised its price target for CVS Health, lowering it from $123 to $112.",
+   "headline": "Wells Fargo Securities Reaffirms Neutral Rating on CVS Health",
+   "summary": "Wells Fargo Securities has maintained its neutral rating on CVS Health Corporation.",
    "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/wells-fargo-adjusts-price-target-on-cvs-health-to-112-from-123-ce785ed8dc8bf525",
-   "created_at": "2026-11-12T12:31:43Z",
+   "url": "https://ch.marketscreener.com/boerse-nachrichten/cvs-health-corporation-wells-fargo-securities-bekraeftigt-seine-neutrale-bewertung-ce785ed8df8af520",
+   "created_at": "2026-11-12T22:32:14Z",
    "symbols": [
     "CVS"
    ],
    "image": ""
   },
   {
-   "headline": "Jensen’s ‘Affair’ Wiped Out $300 Billion In Nvidia Market Value, Top Economist Says, as Market Concentration Is Highest ‘Since 1932’",
-   "summary": "Economist Justin Wolfers explains how a single affair at Nvidia erased $300 billion, exposing the highest US market concentration since 1932.",
+   "headline": "From AI Chips to Rocket Ships: Will Jensen Huang Join Elon Musk?",
+   "summary": "Traders are betting on Jensen Huang joining SpaceX after Elon Musk said hiring the former Nvidia CEO “would be an honor.”",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/11/63179587/jensens-affair-wiped-out-300-billion-in-nvidia-market-value-top-economist-says-as-market-concentration-is-highest-since-1932",
-   "created_at": "2026-11-12T12:29:55Z",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63227294/jensen-huang-spacex",
+   "created_at": "2026-11-12T22:32:07Z",
+   "symbols": [
+    "NVDA",
+    "SPCX",
+    "TSLA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/12/Jensen-Huang--Nvidia-Founder-And-Ceo-And.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Microsoft 365 Experiences Service Outage",
+   "summary": "Microsoft reported a service outage affecting Microsoft 365 connectivity for users across multiple regions due to elevated infrastructure load.",
+   "source": "fiscal.ai",
+   "url": "https://www.manilatimes.net/2026/11/13/world/americas-emea/major-outage-hits-microsoft-outlook/2469181",
+   "created_at": "2026-11-12T22:31:35Z",
+   "symbols": [
+    "MSFT"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "AOC Says Five Guys in Tuxedos Shouldn’t Control the Economy: ‘We Need to Check These Guys Power’",
+   "summary": "Tech CEOs may have too much power over the economy, U.S. Rep. Alexandria Ocasio-Cortez (D-N.Y.) tells TMZ.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/11/63227251/aoc-says-five-guys-in-tuxedos-shouldnt-control-the-economy-we-need-to-check-these-guys-power",
+   "created_at": "2026-11-12T22:30:18Z",
+   "symbols": [
+    "AAPL",
+    "AMZN",
+    "GOOG",
+    "GOOGL",
+    "META"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/12/AOC-and-Schumer-Pulled-Into-the-Feud.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Here’s How Much You Would Have Made Owning BlackRock Stock In The Last 20 Years",
+   "summary": "BlackRock (NYSE:BLK) has outperformed the market over the past 20 years by 2.29% on an annualized basis producing an average annual return of 11.07%. Currently, BlackRock has a market capitalization o",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63226061/here-s-how-much-you-would-have-made-owning-blackrock-stock-last-20-years",
+   "created_at": "2026-11-12T22:00:19Z",
+   "symbols": [
+    "BLK"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/valuestock_1.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Jensen Huang Drops Out of Top 10 Richest, Elon Musk Now 6.3x Richer Than Former Nvidia CEO",
+   "summary": "Nvidia stock is down more than 5% on Thursday and more than 13% year to date. Here&#39;s what that means for Jensen Huang&#39;s net worth.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63226051/jensen-huang-drops-out-of-top-10-richest-elon-musk-now-6-3x-richer-than-former-nvidia-ceo",
+   "created_at": "2026-11-12T22:00:12Z",
+   "symbols": [
+    "NVDA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/12/Jensen-Huang-Nvidias-Founder--President-.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Nvidia at 11X Earnings? One Wall Street Bull Says Investors Are Getting a Rare Bargain",
+   "summary": "Nancy Tengler sees Nvidia as a bargain at 11X earnings, favoring the AI giant over Procter &amp; Gamble at 23X.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/11/63222411/nvidia-stock-11x-earnings-bargain",
+   "created_at": "2026-11-12T21:10:07Z",
+   "symbols": [
+    "AAPL",
+    "AMZN",
+    "AVGO",
+    "GOOG",
+    "GOOGL"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/12/Los-Angeles--California---July-6-2025-Nv.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Would a Tesla–SpaceX Merger Be Bullish for Bitcoin? Careful What You Wish For",
+   "summary": "A Tesla-SpaceX merger may not drain Bitcoin like an IPO, as an all-stock deal requires no cash and both firms have held their BTC.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/11/63220353/would-a-tesla-spacex-merger-be-bullish-for-bitcoin-careful-what-you-wish-for",
+   "created_at": "2026-11-12T21:00:06Z",
+   "symbols": [
+    "BTCUSD",
+    "NVDA",
+    "SPCX",
+    "TSLA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/12/Tesla-SpaceX.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Nebius Crashes 20% as Jensen Huang Shock Rocks AI Stocks: One ETF Is Having a Field Day",
+   "summary": "Inverse ETF rallies 39% as Nebius shares plunge nearly 20% amid earnings concerns and Jensen Huang shock exit.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/etfs/specialty-etfs/26/11/63220058/nebius-crashes-20-as-jensen-huang-shock-rocks-ai-stocks-one-etf-is-having-a-field-day",
+   "created_at": "2026-11-12T20:56:50Z",
+   "symbols": [
+    "CRWV",
+    "IREN",
+    "NBIS",
+    "NBIZ",
+    "NVDA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/12/Austin--Usa---September-13--2025-Nebius-.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Short Seller Flagged Nvidia China Worries Months Ago: Here’s How Much Stock Has Fallen Since",
+   "summary": "A short report on Nvidia stock in May got mostly ignored. Six months later, it&#39;s getting increased attention for being right.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/short-ideas/26/11/63218891/short-seller-flagged-nvidia-china-worries-months-ago-heres-how-much-stock-has-fallen-since",
+   "created_at": "2026-11-12T20:40:06Z",
+   "symbols": [
+    "ACHR",
+    "ADMA",
+    "BMNR",
+    "CBRS",
+    "ETHUSD"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/12/Jensen-Huang-Nvidia.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Jensen Huang Scandal Widens: Former Nvidia CEO Linked to Second Employee",
+   "summary": "Reuters reports former Nvidia CEO Jensen Huang was involved in a relationship with a second Nvidia employee.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/63217739/jensen-huang-scandal-widens-former-nvidia-ceo-linked-to-second-employee",
+   "created_at": "2026-11-12T20:22:09Z",
+   "symbols": [
+    "AMD",
+    "ARM",
+    "AVGO",
+    "INTC",
+    "MRVL"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/12/Jen-hsun-Huan-Nvidias-Founder--President.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Wall Street Takes the Chainsaw to Nvidia Targets: One Bank Slashes $465 to $186",
+   "summary": "Evercore cut its Nvidia (NVDA) target to $186 from $465, valuing it like Apple in 2012, as nine banks slashed targets after Jensen Huang&#39;s exit.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/63216627/nvidia-price-targets-cut-evercore-apple-jensen-huang",
+   "created_at": "2026-11-12T19:58:54Z",
+   "symbols": [
+    "AAPL",
+    "NVDA",
+    "SMH"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/12/Nvidia.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Workday CEO Admits He’s ‘Absolutely’ Worried About AI Job Displacement — Says ‘Yes,’ Companies Will Want to Replace Humans for Less",
+   "summary": "Workday CEO Aneel Bhusri says AI agents will do the work of junior auditors and some lawyers within 5 years, and he is worried.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/topics/26/11/63215089/workday-ceo-aneel-bhusri-ai-agents-replace-junior-auditors-lawyers-5-years",
+   "created_at": "2026-11-12T19:30:10Z",
+   "symbols": [
+    "AMZN",
+    "MSFT",
+    "TSLA",
+    "WDAY"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/12/Disappointed-stressed-woman-and-AI-robot.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "EXCLUSIVE: Google, Microsoft ‘Fail to Sway’ Democrats With AI Power Pledge",
+   "summary": "Google&#39;s and Microsoft&#39;s AI power pledges haven&#39;t satisfied Democrats, raising new regulatory risks for data centers and AI stocks.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/11/63214835/google-microsoft-ai-power-scrutiny",
+   "created_at": "2026-11-12T19:24:59Z",
    "symbols": [
     "AMZN",
     "GOOG",
@@ -118,362 +199,283 @@
     "META",
     "MSFT"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/12/Nvidia-Logo-Is-Displayed-On-A-Smartphone.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/12/Chris-Gannatti-Color.jpg?width=1024&height=768"
   },
   {
-   "headline": "This Nvidia Analyst Is No Longer Bullish; Here Are Top 5 Downgrades For Thursday",
-   "summary": "Analysts downgraded General Mills, Redwood Trust, DoubleDown Interactive, EVgo and Nvidia; price targets fell for all except DoubleDown.",
+   "headline": "FF EAI Robotics Ecosystem Q3 2026 Earnings Call Transcript",
+   "summary": "FF EAI Robotics Ecosystem (NASDAQ:FFR) reported third-quarter financial results on Thursday. The transcript from the company’s third-quarter earnings call has been provided below.This transcript is br",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/analyst-stock-ratings/downgrades/26/11/63179430/this-nvidia-analyst-is-no-longer-bullish-here-are-top-5-downgrades-for-thursday",
-   "created_at": "2026-11-12T12:24:07Z",
+   "url": "https://www.benzinga.com/news/26/11/63228233/ff-eai-robotics-ecosystem-q3-2026-earnings-call-transcript",
+   "created_at": "2026-11-13T00:35:16Z",
    "symbols": [
-    "DDI",
-    "EVGO",
-    "GIS",
-    "NVDA",
-    "RWT"
+    "FFR"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/12/Nvidia.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/13/Stock-Market-Trading-Chart-And-Analyzing.jpg?width=1024&height=768"
   },
   {
-   "headline": "NVIDIA To $186? Here Are 10 Top Analyst Forecasts For Thursday",
-   "summary": "Analysts cut targets and ratings for General Mills, Redwood Trust and Evgo, while raising targets for Radcom, Royal Caribbean and others.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/63178439/nvidia-to-186-here-are-10-top-analyst-forecasts-for-thursday",
-   "created_at": "2026-11-12T12:07:14Z",
-   "symbols": [
-    "ALC",
-    "CRWV",
-    "DDI",
-    "ELE",
-    "ENS"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/12/Analyst-Woman-Working-With-Information-D.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "AMD, Broadcom Stocks Gain as Investors Rotate Away From Nvidia: What’s Going On?",
-   "summary": "Advanced Micro Devices and Broadcom extended gains Thursday as investors rotated into rival chipmakers amid Nvidia leadership uncertainty.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63177290/amd-broadcom-stocks-gain-as-investors-rotate-away-from-nvidia-whats-going-on",
-   "created_at": "2026-11-12T11:51:28Z",
-   "symbols": [
-    "AMD",
-    "AVGO",
-    "NVDA"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/12/Ai-Chips--Ai-Microprocessor--Artificial-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Nvidia Board Weighs CFO Colette Kress For Interim CEO Role Amid Uncertainty Over Jensen Huang’s Future: Report",
-   "summary": "Nvidia reportedly weighs CFO Colette Kress as interim CEO as scrutiny surrounding Jensen Huang raises questions about succession.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/11/63176842/nvidia-board-weighs-cfo-colette-kress-for-interim-ceo-role-amid-uncertainty-over-jensen-huangs-future-report",
-   "created_at": "2026-11-12T11:40:56Z",
-   "symbols": [
-    "AAPL",
-    "INTC",
-    "NVDA"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/12/Magnifying-Glass-Focusing-On-Nvidia-Ceo-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "BlackRock, Inc. Discloses Change in Voting Rights in Zalando SE",
-   "summary": "BlackRock, Inc. has filed a regulatory notification regarding a change in its voting rights interest in Zalando SE.",
+   "headline": "Wedbush Adjusts Price Target for DoubleDown Interactive",
+   "summary": "Wedbush Securities raised its price target for DoubleDown Interactive to $16.25 from $15.00 while maintaining an Outperform rating.",
    "source": "fiscal.ai",
-   "url": "https://www.finanzen.ch/nachrichten/aktien/eqs-pvr-zalando-se-release-according-to-article-40-section-1-of-the-wphg-[the-german-securities-trading-act]-with-the-objective-of-europe-wide-distribution-1036754925",
-   "created_at": "2026-11-12T11:31:37Z",
+   "url": "https://www.marketscreener.com/news/wedbush-lifts-price-target-on-doubledown-interactive-to-16-25-from-15-keeps-outperform-rating-ce785ed8dc8cf520",
+   "created_at": "2026-11-13T00:02:16Z",
    "symbols": [
-    "BLK"
+    "DDI"
    ],
    "image": ""
   },
   {
-   "headline": "'Do Not Fire Jensen Huang,' Kobeissi Letter Says, Warning Ousting CEO Could Be a 'Costly Mistake' and a 'Net Negative for Nvidia'",
-   "summary": "A market commentator urges Nvidia to retain Jensen Huang as Dan Ives and Scott Colangelo defend his leadership.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/11/63176347/do-not-fire-jensen-huang-kobeissi-letter-says-warning-ousting-ceo-could-be-a-costly-mistake-and-a-net-negative-for-nvidia",
-   "created_at": "2026-11-12T11:28:54Z",
-   "symbols": [
-    "NVDA"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/12/Jensen-Huang--Nvidia-Founder-And-Ceo-And.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Power Corp of Canada Q3 2026 Earnings Call Transcript",
-   "summary": "Power Corp of Canada (TSX:POW) reported third-quarter financial results on Thursday. The transcript from the company’s third-quarter earnings call has been provided below.This transcript is brought to",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/11/63184720/power-corp-of-canada-q3-2026-earnings-call-transcript",
-   "created_at": "2026-11-12T13:55:02Z",
-   "symbols": [
-    "TSX:POW"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/12/Stock-Market-Trading-Chart-And-Analyzing.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Intuitive Machines Is No Longer Just About the Moon, CEO Sees Bigger Space Opportunity",
-   "summary": "Intuitive Machines (LUNR) stock surged 13% after Q3 revenue jumped 413.7% to $269.35M, beating estimates, and backlog hit a record $1.9B.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/earnings/26/11/63184656/intuitive-machines-is-no-longer-just-about-the-moon-ceo-sees-bigger-space-opportunity",
-   "created_at": "2026-11-12T13:54:41Z",
-   "symbols": [
-    "LUNR"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/12/Intuitive-Machines.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Palantir CEO Alex Karp Says Silicon Valley ‘Would Not Even Exist’ Without US Military Support",
-   "summary": "Palantir CEO Alex Karp says Silicon Valley owes its rise to U.S. military support and government-backed innovation.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/11/63184565/palantir-ceo-alex-karp-says-silicon-valley-would-not-even-exist-without-us-military-support",
-   "created_at": "2026-11-12T13:52:07Z",
-   "symbols": [
-    "PLTR"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/12/A-Smartphone-Displaying-The-Ceo-Of-Palan.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "BCP Investment Q3 2026 Earnings Call Transcript",
-   "summary": "BCP Investment (NASDAQ:BCIC) reported third-quarter financial results on Thursday. The transcript from the company’s third-quarter earnings call has been provided below.This transcript is brought to y",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/11/63184518/bcp-investment-q3-2026-earnings-call-transcript",
-   "created_at": "2026-11-12T13:50:49Z",
-   "symbols": [
-    "BCIC"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/12/Stock-Market-Trading-Chart-And-Analyzing.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Data I/O Q3 2026 Earnings Call Transcript",
-   "summary": "Data I/O (NASDAQ:DAIO) reported third-quarter financial results on Thursday. The transcript from the company’s third-quarter earnings call has been provided below.This transcript is brought to you by ",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/11/63184473/data-io-q3-2026-earnings-call-transcript",
-   "created_at": "2026-11-12T13:49:51Z",
-   "symbols": [
-    "DAIO"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/12/Stock-market-chart-with-green-candlestic.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Ag Growth International Q3 2026 Earnings Call Transcript",
-   "summary": "Ag Growth International (TSX:AFN) reported third-quarter financial results on Thursday. The transcript from the company’s third-quarter earnings call has been provided below.This transcript is brought",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/11/63184348/ag-growth-international-q3-2026-earnings-call-transcript",
-   "created_at": "2026-11-12T13:46:18Z",
-   "symbols": [
-    "TSX:AFN"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/12/Stock-market-chart-with-green-candlestic.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "EXCLUSIVE: Alamos Gold CEO – ‘Be a Good Investment, Not a Gold Call Option’",
-   "summary": "Alamos Gold CEO John McCluskey tells Benzinga why the miner is betting on Island Gold, how it is working through mine bottlenecks and why it stays focused on gold in Canada.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/commodities/26/11/63184196/alamos-gold-ceo-be-a-good-investment-not-a-call-option",
-   "created_at": "2026-11-12T13:45:25Z",
-   "symbols": [
-    "AGI"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/12/Alamos-Gold-Inc--logo-displayed-on-a-sma.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Hyperion DeFi Q3 2026 Earnings Call Transcript",
-   "summary": "Hyperion DeFi (NASDAQ:HYPD) reported third-quarter financial results on Thursday. The transcript from the company’s third-quarter earnings call has been provided below.This transcript is brought to yo",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/11/63184149/hyperion-defi-q3-2026-earnings-call-transcript",
-   "created_at": "2026-11-12T13:44:36Z",
-   "symbols": [
-    "HYPD"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/12/Stock-market-chart-with-green-candlestic.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Franco-Nevada Q3 2026 Earnings Call Transcript",
-   "summary": "Franco-Nevada (NYSE:FNV) reported third-quarter financial results on Thursday. The transcript from the company’s third-quarter earnings call has been provided below.This transcript is brought to you b",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/11/63184146/franco-nevada-q3-2026-earnings-call-transcript",
-   "created_at": "2026-11-12T13:44:30Z",
-   "symbols": [
-    "FNV"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/12/Stock-Market-Trading-Chart-And-Analyzing.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Top 3 Risk Off Stocks That Could Sink Your Portfolio This Quarter",
-   "summary": "Costco, Coca-Cola and Keurig Dr Pepper show overbought RSI readings above 70, signaling potential momentum warnings despite recent gains.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/short-ideas/26/11/63184027/top-3-risk-off-stocks-that-could-sink-your-portfolio-this-quarter",
-   "created_at": "2026-11-12T13:42:07Z",
-   "symbols": [
-    "COST",
-    "KDP",
-    "KO"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/12/Costco-Sign-At-The-Entrance-Of-A-Store-I.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "MariMed Q3 2026 Earnings Call Transcript",
-   "summary": "MariMed (OTC:MRMD) reported third-quarter financial results on Thursday. The transcript from the company’s third-quarter earnings call has been provided below.This transcript is brought to you by Benz",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/11/63183990/marimed-q3-2026-earnings-call-transcript",
-   "created_at": "2026-11-12T13:41:37Z",
-   "symbols": [
-    "MRMD"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/12/Stock-Market-Trading-Chart-And-Analyzing.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Applied Materials Earnings Are Imminent; These Most Accurate Analysts Revise Forecasts Ahead Of Earnings Call",
-   "summary": "Applied Materials reports Q4 earnings Nov. 12; analysts expect $4.06 EPS and $10.3B revenue as price targets fall.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/63183966/applied-materials-earnings-are-imminent-these-most-accurate-analysts-revise-forecasts-ahead-of-earnings-call-6",
-   "created_at": "2026-11-12T13:41:06Z",
-   "symbols": [
-    "AMAT"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/12/Santa-Clara--California---April-26--2018.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "AIRO Group Holdings Q3 2026 Earnings Call Transcript",
-   "summary": "AIRO Group Holdings (NASDAQ:AIRO) reported third-quarter financial results on Thursday. The transcript from the company’s third-quarter earnings call has been provided below.This transcript is brought",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/11/63183920/airo-group-holdings-q3-2026-earnings-call-transcript",
-   "created_at": "2026-11-12T13:40:11Z",
-   "symbols": [
-    "AIRO"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/12/Stock-market-chart-with-green-candlestic.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Katapult Holdings Q3 2026 Earnings Call Transcript",
-   "summary": "Katapult Holdings (NASDAQ:KPLT) reported third-quarter financial results on Thursday. The transcript from the company’s third-quarter earnings call has been provided below.This transcript is brought t",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/11/63183890/katapult-holdings-q3-2026-earnings-call-transcript",
-   "created_at": "2026-11-12T13:38:59Z",
-   "symbols": [
-    "KPLT"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/12/Stock-market-chart-with-green-candlestic.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Forgent Power Solutions Rides AI Boom to Record Revenue",
-   "summary": "Forgent Power Solutions (NYSE: FPS) stock falls over 7% premarket despite beating Q1 2027 earnings estimates and raising its full-year forecast.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/earnings/26/11/63183740/forgent-power-solutions-rides-ai-boom-to-record-revenue",
-   "created_at": "2026-11-12T13:35:59Z",
-   "symbols": [
-    "FPS"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/12/Stuttgart--Germany---09-25-2026-In-This-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Acurx Pharmaceuticals Q3 2026 Earnings Call Transcript",
-   "summary": "Acurx Pharmaceuticals (NASDAQ:ACXP) reported third-quarter financial results on Thursday. The transcript from the company’s third-quarter earnings call has been provided below.This transcript is broug",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/11/63183562/acurx-pharmaceuticals-q3-2026-earnings-call-transcript",
-   "created_at": "2026-11-12T13:34:06Z",
-   "symbols": [
-    "ACXP"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/12/Stock-Market-Trading-Chart-And-Analyzing.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Metatek-Group Q3 2026 Earnings Call Transcript",
-   "summary": "Metatek-Group (TSX:MTEK) reported third-quarter financial results on Thursday. The transcript from the company’s third-quarter earnings call has been provided below.This transcript is brought to you b",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/11/63183511/metatek-group-q3-2026-earnings-call-transcript",
-   "created_at": "2026-11-12T13:33:06Z",
-   "symbols": [
-    "TSX:MTEK"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/12/Stock-market-chart-with-green-candlestic.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "AIR Global PLC Reports Q3 2026 Financial Results",
-   "summary": "AIR Global PLC announced its financial results for the third quarter of 2026, reporting an 11.1% increase in revenue to $99.8 million.",
+   "headline": "Airbnb Releases Q3 2026 Holiday Travel Trends",
+   "summary": "Airbnb released new data on November 12, 2026, highlighting shifting US holiday travel preferences, including a rise in 'Friendsgiving' and mountain destination searches.",
    "source": "fiscal.ai",
-   "url": "https://www.globenewswire.com/news-release/2026/11/12/3401353/0/en/air-global-reports-third-quarter-and-nine-month-2026-results.html",
-   "created_at": "2026-11-12T13:31:45Z",
+   "url": "https://travelprnews.com/article/friendsgiving-getaways-and-small-mountain-towns-shape-us-winter-travel-plans-for-2026/amp/",
+   "created_at": "2026-11-13T00:02:10Z",
    "symbols": [
-    "AIIR"
+    "ABNB"
    ],
    "image": ""
   },
   {
-   "headline": "Brookfield Wealth Solutions Reports Third Quarter 2026 Financial Results",
-   "summary": "Brookfield Wealth Solutions announced its financial results for the third quarter ended September 30, 2026, reporting net income of $863 million and distributable operating earnings of $519 million.",
+   "headline": "TryHard Holdings Subsidiary Operates Record-Breaking Drone Light Show in Saga",
+   "summary": "TryHard Holdings Limited announced that its subsidiary, TryHard Japan, successfully executed a 4,050-drone light show at the 2026 Saga International Balloon Fiesta.",
    "source": "fiscal.ai",
-   "url": "https://www.manilatimes.net/2026/11/12/tmt-newswire/globenewswire/brookfield-wealth-solutions-announces-strong-third-quarter-results/2468429",
-   "created_at": "2026-11-12T13:31:33Z",
+   "url": "https://www.globenewswire.com/news-release/2026/11/11/3400588/0/en/tryhard-dazzles-50-000-spectators-with-4-050-drone-light-show-at-saga-international-balloon-fiesta.html",
+   "created_at": "2026-11-13T00:01:56Z",
    "symbols": [
-    "BNT"
+    "THH"
    ],
    "image": ""
   },
   {
-   "headline": "Laser Photonics Q3 2026 Earnings Call Transcript",
-   "summary": "Laser Photonics (NASDAQ:LASE) reported third-quarter financial results on Thursday. The transcript from the company’s third-quarter earnings call has been provided below.This transcript is brought to ",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/11/63183343/laser-photonics-q3-2026-earnings-call-transcript",
-   "created_at": "2026-11-12T13:31:00Z",
+   "headline": "TD Adjusts Price Target for Canadian Imperial Bank of Commerce",
+   "summary": "TD has lowered its price target for Canadian Imperial Bank of Commerce shares to C$174.00 from C$175.00.",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/news/post/1004458995/canadian-imperial-bank-of-commerce-price-target-cut-to-c",
+   "created_at": "2026-11-13T00:01:55Z",
    "symbols": [
-    "LASE"
+    "CM"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/12/Stock-Market-Trading-Chart-And-Analyzing.jpg?width=1024&height=768"
+   "image": ""
   },
   {
-   "headline": "Eli Lilly Wins China Approval for First GLP-1 Weight-Loss Pill, Giving It First-Mover Edge In Potential $4.5 Billion Market: Report",
-   "summary": "Eli Lilly wins China approval for its first GLP-1 weight-loss pill, gaining an early edge in the country&#39;s $4.5 billion market.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/health-care/26/11/63183337/eli-lilly-wins-china-approval-for-first-glp-1-weight-loss-pill-giving-it-first-mover-edge-in-potential-4-5-billion-market-report",
-   "created_at": "2026-11-12T13:30:53Z",
+   "headline": "Marriott Bonvoy Announces Extended Cyber Week Sale and Giving Tuesday Initiatives",
+   "summary": "Marriott International has launched its longest Cyber Week Sale to date, offering a five-month travel window, alongside a points-matching program for Giving Tuesday.",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/marriott-bonvoys-cyber-week-sale-turns-one-week-of-deals-into-five-months-of-getaways-302937911.html",
+   "created_at": "2026-11-13T00:01:52Z",
    "symbols": [
-    "LLY",
-    "NOVO",
-    "PFE"
+    "MAR"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/12/Close-up-Of-Person-Standing-On-Digital-B.jpg?width=1024&height=768"
+   "image": ""
   },
   {
-   "headline": "BioHarvest Sciences Q3 2026 Earnings Call Transcript",
-   "summary": "BioHarvest Sciences (NASDAQ:BHST) reported third-quarter financial results on Thursday. The transcript from the company’s third-quarter earnings call has been provided below.This transcript is brought",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/11/63183180/bioharvest-sciences-q3-2026-earnings-call-transcript",
-   "created_at": "2026-11-12T13:27:40Z",
+   "headline": "Goldman Sachs International Discloses Dealings in DCC Energy PLC",
+   "summary": "Goldman Sachs International filed a disclosure regarding its trading activity and positions in DCC Energy PLC as of November 11, 2026.",
+   "source": "fiscal.ai",
+   "url": "https://www.investegate.co.uk/announcement/rns/dcc-energy-plc--dcc/form-38-5b-dcc-energy-plc/9872483",
+   "created_at": "2026-11-13T00:01:49Z",
    "symbols": [
-    "BHST"
+    "GS"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/12/Stock-market-chart-with-green-candlestic.jpg?width=1024&height=768"
+   "image": ""
   },
   {
-   "headline": "Aurora Mobile Q3 2026 Earnings Call Transcript",
-   "summary": "Aurora Mobile (NASDAQ:JG) reported third-quarter financial results on Thursday. The transcript from the company’s third-quarter earnings call has been provided below.This transcript is brought to you ",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/11/63183064/aurora-mobile-q3-2026-earnings-call-transcript",
-   "created_at": "2026-11-12T13:23:15Z",
+   "headline": "Eli Lilly Presents New Clinical Data at ACR Convergence 2026",
+   "summary": "Eli Lilly shared positive Phase 3 clinical trial results for retatrutide in knee osteoarthritis and combination therapy data for Taltz and Zepbound in psoriatic arthritis.",
+   "source": "fiscal.ai",
+   "url": "https://www.patientcareonline.com/view/retatrutide-phase-3-trials-report-reduced-knee-osteoarthritis-pain",
+   "created_at": "2026-11-13T00:01:49Z",
    "symbols": [
-    "JG"
+    "LLY"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/12/Stock-Market-Trading-Chart-And-Analyzing.jpg?width=1024&height=768"
+   "image": ""
   },
   {
-   "headline": "Rockwell Medical Q3 2026 Earnings Call Transcript",
-   "summary": "Rockwell Medical (NASDAQ:RMTI) reported third-quarter financial results on Thursday. The transcript from the company’s third-quarter earnings call has been provided below.This transcript is brought to",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/11/63182988/rockwell-medical-q3-2026-earnings-call-transcript",
-   "created_at": "2026-11-12T13:21:09Z",
+   "headline": "HeartCore Enterprises Announces Partnership with ONE AI to Bring Physical AI to Industrial Robots in Japan",
+   "summary": "HeartCore Enterprises, Inc. announced that its subsidiary, HeartCore Financial, has entered into a sales agency agreement with ONE AI Co., Ltd. to introduce the Axis.ONE physical AI platform to the Ja",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/12/3401605/0/en/heartcore-partners-with-one-ai-to-bring-physical-ai-to-existing-industrial-robots-in-japan.html",
+   "created_at": "2026-11-13T00:01:47Z",
    "symbols": [
-    "RMTI"
+    "HTCR"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/12/Stock-Market-Trading-Chart-And-Analyzing.jpg?width=1024&height=768"
+   "image": ""
   },
   {
-   "headline": "Steve Forbes Sounds Alarm On Federal Wealth Tax, Says It Could Drive Entrepreneurs Away: Successful People Become 'Public Enemy Number One'",
-   "summary": "Steve Forbes warns federal wealth taxes could discourage investment and push American entrepreneurs away.",
+   "headline": "Martinrea International Q3 2026 Earnings Call Transcript",
+   "summary": "Martinrea International (TSX:MRE) reported third-quarter financial results on Thursday. The transcript from the company’s third-quarter earnings call has been provided below.This transcript is brought",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/11/63182795/steve-forbes-sounds-alarm-on-federal-wealth-tax-says-it-could-drive-entrepreneurs-away-successful-people-become-public-enemy-number-one",
-   "created_at": "2026-11-12T13:16:56Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/12/Big-Pile-Of-New-Usd-Hundred-Dollar-Bills.jpg?width=1024&height=768"
+   "url": "https://www.benzinga.com/news/26/11/63228062/martinrea-international-q3-2026-earnings-call-transcript",
+   "created_at": "2026-11-13T00:00:14Z",
+   "symbols": [
+    "TSX:MRE"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/13/Stock-Market-Trading-Chart-And-Analyzing.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "If You Invested $1000 In Western Digital Stock 10 Years Ago, You Would Have This Much Today",
+   "summary": "Western Digital (NASDAQ:WDC) has outperformed the market over the past 10 years by 8.08% on an annualized basis producing an average annual return of 21.34%. Currently, Western Digital has a market ca",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63227958/if-you-invested-1000-western-digital-stock-10-years-ago-you-would-have-much-today",
+   "created_at": "2026-11-12T23:45:19Z",
+   "symbols": [
+    "WDC"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/valuestock_3.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Tesla Launches Over 20 New Merchandise Products for Holidays and Some are Already Sold Out: Here’s the List",
+   "summary": "Tesla has new clothes, toys and holiday items available for the 2026 holiday season. Here&#39;s a full list.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/large-cap/26/11/63227877/tesla-launches-over-20-new-merchandise-products-for-holidays-and-some-are-already-sold-out-heres-the-list",
+   "created_at": "2026-11-12T23:30:17Z",
+   "symbols": [
+    "TSLA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/12/Vinnytsia--Ukraine-April-10--2026--Close.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "If You Invested $1000 In Intuit Stock 20 Years Ago, You Would Have This Much Today",
+   "summary": "Intuit (NASDAQ:INTU) has outperformed the market over the past 20 years by 3.81% on an annualized basis producing an average annual return of 12.59%. Currently, Intuit has a market capitalization of $",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63227875/if-you-invested-1000-intuit-stock-20-years-ago-you-would-have-much-today",
+   "created_at": "2026-11-12T23:30:15Z",
+   "symbols": [
+    "INTU"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/valuestock_4.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "DeSantis Asks How Congress Members With 'No Investment Acumen' Outperform Warren Buffett — 'Oh You Just Happened to Buy Something…Then It Goes Up 150%'",
+   "summary": "Ron DeSantis questions how members of Congress with &#39;no investment acumen&#39; beat legendary investor Warren Buffett.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/11/63227874/desantis-asks-how-congress-members-with-no-investment-acumen-outperform-warren-buffett-oh-you-just-happened-to-buy-somethingthen-it-goes-up-150",
+   "created_at": "2026-11-12T23:30:14Z",
+   "symbols": [
+    "BRK",
+    "SPY"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/12/DeSantis-Calls-Results-A-Rebuke.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Nancy Pelosi Is Not Alone — These Other Congress Members Cashed Out of WBD Stock After Merger",
+   "summary": "Several members of Congress have reportedly cashing out their WBD stock after a media merger.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/11/63227830/nancy-pelosi-is-not-alone-these-other-congress-members-cashed-out-of-wbd-stock-after-merger",
+   "created_at": "2026-11-12T23:17:18Z",
+   "symbols": [
+    "SKYD"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/12/Warsaw--Poland--21-May-2021--Sign-Warner.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "$100 Invested In Eaton Corp 20 Years Ago Would Be Worth This Much Today",
+   "summary": "Eaton Corp (NYSE:ETN) has outperformed the market over the past 20 years by 3.08% on an annualized basis producing an average annual return of 11.86%. Currently, Eaton Corp has a market capitalization",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/26/11/63227712/100-invested-eaton-corp-20-years-ago-would-be-worth-much-today",
+   "created_at": "2026-11-12T23:15:14Z",
+   "symbols": [
+    "ETN"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/valuestock_1.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Almonty Industries Reports Q3 2026 Financial Results and Sangdong Mine Production",
+   "summary": "Almonty Industries reported a significant increase in third-quarter revenue to C$41.9 million and announced the commencement of production at its Sangdong tungsten mine in South Korea.",
+   "source": "fiscal.ai",
+   "url": "https://stockhouse.com/news/newswire/2026/11/12/almonty-revenue-jumps-to-c-41-9-million-as-sangdong-starts-production",
+   "created_at": "2026-11-12T23:04:37Z",
+   "symbols": [
+    "ALM"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Ardent Health Announces Definitive Agreement to Acquire Boone Health",
+   "summary": "Ardent Health has entered into a definitive agreement to acquire the Missouri-based not-for-profit health system Boone Health for $47 million in cash.",
+   "source": "fiscal.ai",
+   "url": "https://www.businesswire.com/newsroom?industry=1000092",
+   "created_at": "2026-11-12T23:03:04Z",
+   "symbols": [
+    "ARDT"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Brookdale to Present at the 2026 Stephens Annual Investment Conference",
+   "summary": "Brookdale Senior Living Inc. announced that it will participate in the 2026 Stephens Annual Investment Conference.",
+   "source": "fiscal.ai",
+   "url": "https://www.fidelity.com/news/article/default/202611121730PRIMZONEFULLFEED9876880",
+   "created_at": "2026-11-12T23:02:52Z",
+   "symbols": [
+    "BKD"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Morningstar Insider Sells Shares Worth $5.39 Million",
+   "summary": "A Morningstar, Inc. insider has sold company shares valued at approximately $5.39 million, according to a recent SEC filing.",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/morningstar-insider-sold-shares-worth-5-392-943-according-to-a-recent-sec-filing-ce785ed9d981f725",
+   "created_at": "2026-11-12T23:02:40Z",
+   "symbols": [
+    "MORN"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Pinterest Insider Executes Share Sale",
+   "summary": "A Pinterest insider has sold shares of the company's stock valued at approximately $1.78 million, as disclosed in a recent SEC filing.",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/pinterest-insider-sold-shares-worth-1-776-539-according-to-a-recent-sec-filing-ce785ed9d98cf02d",
+   "created_at": "2026-11-12T23:02:34Z",
+   "symbols": [
+    "PINS"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Choice Properties Real Estate Investment Trust Reports Results for the Three and Nine Months Ended September 30, 2026",
+   "summary": "Choice Properties Real Estate Investment Trust announced its consolidated financial results for the third quarter of 2026.",
+   "source": "fiscal.ai",
+   "url": "https://www.businesswire.com/newsroom/industry/construction-property/residential-real-estate",
+   "created_at": "2026-11-12T23:02:29Z",
+   "symbols": [
+    "CHP.UN"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "First Capital REIT Provides Update on Plan of Arrangement Involving Choice Properties",
+   "summary": "First Capital REIT provided an update on the expected completion timing for its previously announced plan of arrangement with Choice Properties.",
+   "source": "fiscal.ai",
+   "url": "https://www.newswire.ca/news-releases/first-capital-provides-update-on-timing-of-completion-of-arrangement-with-kingsett-capital-and-choice-properties-reit-866732099.html",
+   "created_at": "2026-11-12T23:02:29Z",
+   "symbols": [
+    "CHP.UN"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Seabridge Gold Files Third Quarter 2026 Report to Shareholders",
+   "summary": "Seabridge Gold Inc. has officially filed its Report to Shareholders, interim financial statements, and Management's Discussion and Analysis for the period ending September 30, 2026.",
+   "source": "fiscal.ai",
+   "url": "https://www.newsfilecorp.com/release/323831/Seabridge-Gold-Files-Third-Quarter-2026-Report-to-Shareholders-Financial-Statements-and-MDA",
+   "created_at": "2026-11-12T23:02:26Z",
+   "symbols": [
+    "SEA"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Visa Expands Stablecoin Settlement to Support Western Union's USDPT Token",
+   "summary": "Visa has expanded its stablecoin settlement capabilities through a partnership with Anchorage Digital, which now supports Western Union's USDPT token.",
+   "source": "fiscal.ai",
+   "url": "https://www.pymnts.com/news/b2b-payments/2026/visa-expands-stablecoin-services-with-anchorage-partnership/",
+   "created_at": "2026-11-12T23:02:26Z",
+   "symbols": [
+    "WU"
+   ],
+   "image": ""
   }
  ]
 }
