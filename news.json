@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14 23:16",
+ "updated": "2026-11-14 23:40",
  "items": [
   {
    "headline": "Microsoft Restores Services Following Global Outage",
@@ -191,6 +191,21 @@
     "SHOP"
    ],
    "image": "https://cdn.benzinga.com/files/images/story/2026/11/13/Cali--Colombia---May-6-2022-spacex-Logo-.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Crypto Market Crashes as Bitcoin and Altcoins Slide, Fear and Greed Index Sinks to 17 and Liquidations Surge",
+   "summary": "The crypto market is in a downward spiral, with Bitcoin and most altcoins being in a deep bear market. What next?",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/26/11/63273824/crypto-market-crashes-as-bitcoin-and-altcoins-slide-fear-and-greed-index-sinks-to-17-and-liquidations-surge",
+   "created_at": "2026-11-14T14:30:07Z",
+   "symbols": [
+    "ADAUSD",
+    "BTC",
+    "BTCUSD",
+    "COIN",
+    "ETHUSD"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/14/Bitcoin.jpg?width=1024&height=768"
   },
   {
    "headline": "BofA Securities Adjusts Price Target on Perspective Therapeutics",
@@ -453,17 +468,6 @@
    "created_at": "2026-11-14T14:04:30Z",
    "symbols": [
     "TCRX"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Star Diamond Corporation Announces Third Quarter 2026 Results",
-   "summary": "Star Diamond Corporation reported its financial and operating results for the three and nine months ended September 30, 2026.",
-   "source": "fiscal.ai",
-   "url": "https://www.newswire.ca/news-releases/energy-latest-news/mining-metals-list/",
-   "created_at": "2026-11-14T14:04:30Z",
-   "symbols": [
-    "DIAM"
    ],
    "image": ""
   }
