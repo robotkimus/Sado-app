@@ -1,6 +1,17 @@
 {
- "updated": "2026-11-14 15:00",
+ "updated": "2026-11-14 16:00",
  "items": [
+  {
+   "headline": "FAA Resumes Flights After Nationwide Ground Stop, Says No Link to Microsoft Outage or Cyberattack; Marjorie Taylor Greene Slams Duffy's $50 Billion Ask (UPDATED)",
+   "summary": "FAA lifts nationwide ground stop after a telecommunications failure disrupted air traffic operations, delaying thousands of flights.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/11/63273371/faa-lifts-nationwide-ground-stop-telecommunications-outage",
+   "created_at": "2026-11-14T06:28:22Z",
+   "symbols": [
+    "MSFT"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/14/Boston--Us---Sep-16--2024-An-Aerial-View.jpg?width=1024&height=768"
+  },
   {
    "headline": "Nvidia Yet to Hire Search Firm for Jensen Huang's Successor as Arm CEO Rene Haas Reportedly Emerges as Potential Contender",
    "summary": "Nvidia has yet to begin its CEO search, with Arm&#39;s Rene Haas emerging as a potential successor to Jensen Huang.",
@@ -181,19 +192,26 @@
    "image": ""
   },
   {
-   "headline": "AMD Bulls Make a Killing With 2X ETFs, But Friday’s 20% Rout Delivers a Reality Check",
-   "summary": "AMD&#39;s AI-fueled rally lifted leveraged ETFs AMDL, AMDG, AMUU and AMDC over 50% in five days. Friday&#39;s sharp reversal put those gains to the test.",
+   "headline": "Trump Economic Adviser Kevin Hassett Pushes Back On Exit Report Amid White House Shake-Up Speculation After Republican Midterm Rout (UPDATED)",
+   "summary": "Kevin Hassett dismisses reports of an impending White House exit, calling speculation about his departure inaccurate.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/etfs/specialty-etfs/26/11/63260317/amd-bulls-make-a-killing-with-2x-etfs-but-fridays-20-rout-delivers-a-reality-check",
-   "created_at": "2026-11-13T18:48:28Z",
+   "url": "https://www.benzinga.com/news/politics/26/11/63273135/kevin-hassett-denies-white-house-exit-report",
+   "created_at": "2026-11-14T06:09:54Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/14/Washington--July-30-2025-White-House-Nat.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Robinhood Gets Its Day at the Supreme Court Over 2021 IPO Disclosures: Here’s What You Should Know",
+   "summary": "Supreme Court agrees to hear Robinhood&#39;s appeal seeking dismissal of investor claims over alleged misleading disclosures.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/legal/26/11/63273423/supreme-court-robinhood-ipo-investor-lawsuit-appeal",
+   "created_at": "2026-11-14T06:03:56Z",
    "symbols": [
-    "AMD",
-    "AMDC",
-    "AMDG",
-    "AMDL",
-    "AMUU"
+    "DOGEUSD",
+    "GME",
+    "HOOD"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/13/Paris--France---January-23--2026-The-Amd.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/14/New-York--Usa---July-15--2025-Robinhood-.jpg?width=1024&height=768"
   },
   {
    "headline": "Caspian Sunrise Announces Notice of 2026 Annual General Meeting",
@@ -447,29 +465,6 @@
     "AEP"
    ],
    "image": ""
-  },
-  {
-   "headline": "ChatGPT Wallet Lets OpenAI's Dots AI Agents Shop On Your Behalf Without Accessing Actual Card Details",
-   "summary": "OpenAI unveiled ChatGPT Wallet, a new payment capability that allows its “dots” AI agents to complete purchases for users&#39; behalf.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/11/63273173/chatgpt-wallet-openais-dots",
-   "created_at": "2026-11-14T02:34:24Z",
-   "symbols": [
-    "AXP",
-    "MA",
-    "META",
-    "V"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/14/The-Sam-Altman-Openai-And-Chatgpt-Logos-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Trump Economic Adviser Kevin Hassett Pushes Back On Exit Report Amid White House Shake-Up Speculation After Republican Midterm Rout",
-   "summary": "Kevin Hassett dismisses reports of an impending White House exit, calling speculation about his departure inaccurate.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/11/63273135/kevin-hassett-denies-white-house-exit-report",
-   "created_at": "2026-11-14T02:20:14Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/14/Washington--July-30-2025-White-House-Nat.jpg?width=1024&height=768"
   }
  ]
 }
