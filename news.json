@@ -1,6 +1,21 @@
 {
- "updated": "2026-11-16 14:00",
+ "updated": "2026-11-16 15:00",
  "items": [
+  {
+   "headline": "Nasdaq Falls Over 200 Points but Still Posts Weekly Gain; Investor Sentiment Weakens as Fear & Greed Index Remains in 'Fear' Zone",
+   "summary": "Market sentiment slipped deeper into Fear at 39. Stocks closed mixed as Nasdaq fell 0.91%, though all major indexes posted weekly gains.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/market-summary/26/11/63278805/nasdaq-falls-over-200-points-but-still-posts-weekly-gain-investor-sentiment-weakens-as-fear-greed-index-remains-in-fear-zone",
+   "created_at": "2026-11-16T05:18:49Z",
+   "symbols": [
+    "ARMK",
+    "BIDU",
+    "CSCO",
+    "DELL",
+    "NVDA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/16/Market-sentiment---Fear-and-Greed.jpg?width=1024&height=768"
+  },
   {
    "headline": "‘The FBI Doesn’t Take Petitions’: Anthony Scaramucci Says ‘Stop Comparing’ Jensen Huang With Sam Altman",
    "summary": "Scaramucci says Huang’s Nvidia resignation differs from Sam Altman’s ouster, citing federal investigations versus OpenAI’s internal dispute.",
@@ -183,18 +198,49 @@
    "image": ""
   },
   {
-   "headline": "Dan Ives Says Nvidia Turmoil Could Hand Big Tech an Unexpected AI Advantage as Hyperscalers Gain, Dismisses ‘Blue Tidal Wave’ Reaction",
-   "summary": "Dan Ives says AI demand exceeds supply 4:1, with delays boosting hyperscalers and Big Tech, while Nvidia and smaller AI players face risks.",
+   "headline": "Social Security ‘Deteriorating Rapidly,’ Says Market Commentator as Fund Deficit Hit Record $221 Billion in Fiscal Year 2026",
+   "summary": "Social Security deficit hits $221 billion as benefit costs rise and trust fund reserves decline sharply.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/11/63276639/dan-ives-says-nvidia-turmoil-could-hand-big-tech-an-unexpected-ai-advantage-as-hyperscalers-gain-dismisses-blue-tidal-wave-reaction",
-   "created_at": "2026-11-15T07:29:36Z",
+   "url": "https://www.benzinga.com/news/financing/26/11/63279024/social-security-deteriorating-rapidly-says-market-commentator-as-fund-deficit-hit-record-221-billion-in-fiscal-year-2026",
+   "created_at": "2026-11-16T05:55:11Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/16/New-And-Old-Style-Social-Security-Cards-.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Ryan Cohen Wants Someone Who Can ‘Move Fast’ and ‘Own Results’ at GameStop as CEO Looks to Build His Next Big Move: Here’s How You Can Apply",
+   "summary": "GameStop CEO Ryan Cohen is seeking a results-driven operator to work directly with him, as the company maintains a strong cash position.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/63279013/ryan-cohen-gamestop-hiring-operator",
+   "created_at": "2026-11-16T05:53:11Z",
    "symbols": [
-    "MAGS",
-    "NCLD",
-    "NVDA",
-    "TSLA"
+    "EBAY",
+    "GME"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/15/Jensen-Huang-Photo-On-Digital-Display-Sc.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/16/Gamestop-Logo-Displayed-On-A-Smartphone-.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Trump’s Ex-Counterterrorism Chief Cites FAA Ground Stop, Nearly $50 Billion Bill In Call To Focus On Domestic Issues: ‘End the Iran War Now…’",
+   "summary": "Joe Kent urges ending the Iran war, citing $47 billion in taxpayer costs, higher prices and earlier failed Middle East wars.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/11/63278878/trumps-ex-counterterrorism-chief-cites-faa-ground-stop-nearly-50-billion-bill-in-call-to-focus-on-domestic-issues-end-the-iran-war-now",
+   "created_at": "2026-11-16T05:24:23Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/16/FAA.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Tyson Foods, Aramark and 3 Stocks to Watch Heading Into Monday",
+   "summary": "Tyson Foods and Aramark report earnings before Monday’s open; AECOM and Baidu after close. Espey posts weak results; shares slip.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/11/63278781/tyson-foods-aramark-and-3-stocks-to-watch-heading-into-monday",
+   "created_at": "2026-11-16T05:16:21Z",
+   "symbols": [
+    "ACM",
+    "ARMK",
+    "BIDU",
+    "ESP",
+    "TSN"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/16/New-York-Nyusa-may-5--2015-Packages-Of-T.jpg?width=1024&height=768"
   },
   {
    "headline": "Flight Meltdown Enters Day 3: JetBlue, American Still Scrambling After FAA Router Failure",
@@ -426,50 +472,6 @@
    "created_at": "2026-11-16T02:02:54Z",
    "symbols": [
     "IBEX"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Helus Pharma to Present Topline Results from Phase 3 APPROACH Study of HLP003",
-   "summary": "Helus Pharma announced it will host a webcast on November 16, 2026, to reveal topline results from its Phase 3 APPROACH clinical trial evaluating HLP003 as an adjunctive treatment for major depressive",
-   "source": "fiscal.ai",
-   "url": "https://www.globenewswire.com/news-release/2026/11/15/3403114/0/en/helus-pharma-to-present-topline-results-from-phase-3-approach-study-evaluating-hlp003-as-adjunctive-treatment-in-major-depressive-disorder-on-november-16-2026.html",
-   "created_at": "2026-11-16T02:02:52Z",
-   "symbols": [
-    "HELP"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Multiple Financial Institutions Update Ratings and Price Targets for Candel Therapeutics",
-   "summary": "On November 14, 2026, several Wall Street firms updated their investment ratings and price targets for Candel Therapeutics (CADL).",
-   "source": "fiscal.ai",
-   "url": "https://www.moomoo.com/hans/news/post/1004665307/a-quick-look-at-today-s-ratings-for-candel-therapeutics",
-   "created_at": "2026-11-16T02:02:51Z",
-   "symbols": [
-    "CADL"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Jefferies Initiates Coverage of Genesis Minerals with Buy Rating",
-   "summary": "Jefferies has officially initiated research coverage on Genesis Minerals Limited, assigning the stock a 'Buy' rating.",
-   "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/jefferies-starts-genesis-minerals-at-buy-ce785ededf8cff25",
-   "created_at": "2026-11-16T02:02:51Z",
-   "symbols": [
-    "JEF"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "J.P. Morgan Maintains Buy Rating on Solid Biosciences",
-   "summary": "J.P. Morgan analyst Anupam Rama has maintained a \"Buy\" rating on Solid Biosciences (SLDB) and set a price target of $11.",
-   "source": "fiscal.ai",
-   "url": "https://www.moomoo.com/hant/news/post/1004439177/jp-morgan-maintains-solid-biosciences-sldbus-with-buy-rating-announces",
-   "created_at": "2026-11-16T02:02:49Z",
-   "symbols": [
-    "SLDB"
    ],
    "image": ""
   }
