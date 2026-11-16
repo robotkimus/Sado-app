@@ -1,6 +1,17 @@
 {
- "updated": "2026-11-16 13:00",
+ "updated": "2026-11-16 14:00",
  "items": [
+  {
+   "headline": "‘The FBI Doesn’t Take Petitions’: Anthony Scaramucci Says ‘Stop Comparing’ Jensen Huang With Sam Altman",
+   "summary": "Scaramucci says Huang’s Nvidia resignation differs from Sam Altman’s ouster, citing federal investigations versus OpenAI’s internal dispute.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/63278668/the-fbi-doesnt-take-petitions-anthony-scaramucci-says-stop-comparing-jensen-huang-with-sam-altman",
+   "created_at": "2026-11-16T04:32:41Z",
+   "symbols": [
+    "NVDA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/16/Washington--Dcusa---April-26--2018-Antho.jpg?width=1024&height=768"
+  },
   {
    "headline": "CVS Health Releases Research on GLP-1 Benefits and Affordability",
    "summary": "CVS Health published new research analyzing the clinical and economic impact of GLP-1 medications using real-world Aetna claims data.",
@@ -186,16 +197,48 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/11/15/Jensen-Huang-Photo-On-Digital-Display-Sc.jpg?width=1024&height=768"
   },
   {
-   "headline": "Elon Musk Backs Jensen Huang Comeback as Petition to Reinstate Ex-NVIDIA CEO Surpasses 135,000 Signatures",
-   "summary": "Petition to reinstate Jensen Huang as NVIDIA CEO surpasses 135,000 signatures, drawing support from Elon Musk and prominent investors.",
+   "headline": "Flight Meltdown Enters Day 3: JetBlue, American Still Scrambling After FAA Router Failure",
+   "summary": "Flight disruptions entered a third day as airlines struggled to recover from an FAA system failure that led to many cancellations and delays.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/11/63276610/nvidia-jensen-huang-reinstate-ceo-petition-elon-musk-investors",
-   "created_at": "2026-11-15T06:46:49Z",
+   "url": "https://www.benzinga.com/markets/tech/26/11/63278693/faa-ground-stop-airline-cancellations",
+   "created_at": "2026-11-16T04:37:49Z",
    "symbols": [
-    "NVDA",
-    "TSLA"
+    "AAL",
+    "DAL",
+    "JBLU",
+    "LHX",
+    "LUV"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/15/Jensen-Huang-Nvidias-Founder--President-.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/16/Boston--Us---Sep-16--2024-An-Aerial-View.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Air New Zealand to Launch First Direct Jet Service Between Hamilton and Queenstown",
+   "summary": "Air New Zealand has announced the introduction of a new direct jet service connecting Hamilton and Queenstown.",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/air-new-zealand-to-launch-first-direct-jet-service-between-hamilton-and-queenstown-ce785ededf81f626",
+   "created_at": "2026-11-16T04:32:05Z",
+   "symbols": [
+    "AIR"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Trump Says FAA ‘Doing a Great Job’ as He Blames Biden for Ground Stop Order: ‘Everything They Touched Turned Bad’",
+   "summary": "Trump blames Biden for FAA failures after a nationwide ground stop, urging Congress to fund $50B in air traffic control modernization.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/11/63278646/trump-says-faa-doing-a-great-job-as-he-blames-biden-for-ground-stop-order-everything-they-touched-turned-bad",
+   "created_at": "2026-11-16T04:19:42Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/16/Mobile--Alabama--October-2--2026-U-s--Pr.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Trump Faces GOP Opposition as Republican Senators Challenge His Judicial Nominees Ahead of Senate Power Shift: 'That's Not How It Works Here'",
+   "summary": "Trump&#39;s judicial nominees face GOP resistance as Senate Republicans clash over selections before Democrats take control in January 2027.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/11/63278607/trump-gop-senators-challenge-judicial-nominees-senate-power-shift",
+   "created_at": "2026-11-16T04:10:36Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/16/Sioux-City--Iowa--Usa---November-6--2016.jpg?width=1024&height=768"
   },
   {
    "headline": "Nebius Shares Rise 8% After Key Trading Signal",
@@ -427,50 +470,6 @@
    "created_at": "2026-11-16T02:02:49Z",
    "symbols": [
     "SLDB"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Calian Group Ltd. Schedules Quarterly Earnings Presentation",
-   "summary": "Calian Group Ltd. is scheduled to release its financial results for the most recent fiscal quarter on November 30, 2026.",
-   "source": "fiscal.ai",
-   "url": "https://www.finanzen.ch/nachrichten/aktien/erste-schatzungen-calian-technologies-gibt-ergebnis-zum-abgelaufenen-quartal-bekannt-1036764372",
-   "created_at": "2026-11-16T02:02:49Z",
-   "symbols": [
-    "CGY"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Canaccord Genuity Group Inc. Announces Sale of UK Wealth Management Business",
-   "summary": "Canaccord Genuity has entered into a definitive agreement to sell its UK and Crown Dependencies wealth management business to affiliates of Centerbridge Partners, L.P.",
-   "source": "fiscal.ai",
-   "url": "https://www.prnewswire.co.uk/news-releases/canaccord-genuity-group-inc-announces-sale-of-its-wealth-management-business-in-the-uk--crown-dependencies-to-centerbridge-partners-lp-and-mubadala-investment-company-pjsc-302939793.html",
-   "created_at": "2026-11-16T02:02:48Z",
-   "symbols": [
-    "CF"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Canaccord Genuity Group Inc. Enters Into Agreement to Go Private",
-   "summary": "Canaccord Genuity has announced an arrangement agreement to be acquired by an entity owned by its Chairman and CEO, Dan Daviau.",
-   "source": "fiscal.ai",
-   "url": "https://www.newswire.ca/news-releases/canaccord-genuity-group-inc-enters-into-agreement-to-be-taken-private-by-chairman-and-ceo-dan-daviau-835103153.html",
-   "created_at": "2026-11-16T02:02:48Z",
-   "symbols": [
-    "CF"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Piper Sandler Raises Alerus Financial Price Target",
-   "summary": "Piper Sandler has increased its price target for Alerus Financial Corporation (NASDAQ: ALRS) from $38 to $40.",
-   "source": "fiscal.ai",
-   "url": "https://www.moomoo.com/hans/news/flash/1003146939/alerus-financial-corp-piper-sandler-raises-target-price-to-40",
-   "created_at": "2026-11-16T02:02:44Z",
-   "symbols": [
-    "ALRS"
    ],
    "image": ""
   }
