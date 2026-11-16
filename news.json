@@ -1,6 +1,21 @@
 {
- "updated": "2026-11-16 18:12",
+ "updated": "2026-11-16 19:00",
  "items": [
+  {
+   "headline": "Fallout From Last Week's News May Be More Severe Than Market Action Suggests",
+   "summary": "I was surprised to learn about Jensen Huang’s affairs with a suspected spy and reportedly at least two company subordinates.\n\n\n\nBefore that news got out, I hadn’t anticipated he would suddenly resign ",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/opinion/26/11/63280256/fallout-from-last-week-news-may-be-more-severe-than-market-action-suggests",
+   "created_at": "2026-11-16T09:22:17Z",
+   "symbols": [
+    "IVV",
+    "META",
+    "NVDA",
+    "SPY",
+    "VOO"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/16/Sam-Ro.jpg?width=1024&height=768"
+  },
   {
    "headline": "Elizabeth Warren Takes Aim at Big Tech Billionaires Over China AI Access — '...Put Our National Security Above Their Bottom Line'",
    "summary": "Warren urges Congress to restrict China&#39;s access to advanced AI, warning Big Tech profits may undermine U.S. national security.",
@@ -187,15 +202,211 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/11/15/Jensen-Huang-Nvidia.jpg?width=1024&height=768"
   },
   {
-   "headline": "Nvidia Stock Faces First Earnings Since Jensen Huang’s Ouster as Options Signal a Big Move",
-   "summary": "Nvidia stock is bracing for high volatility as it publishes its first earnings report after Jensen Huang&#39;s ouster last week",
+   "headline": "Democrats Turn Up Pressure for Medicare Expansion — Tammy Baldwin Targets Age 50 as Abdul El-Sayed Dares Trump to Veto Broader Coverage Plan",
+   "summary": "Tammy Baldwin pushes Medicare eligibility at 50 as Abdul El-Sayed calls for broader healthcare coverage.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/11/63277138/nvidia-stock-faces-first-earnings-since-jensen-huangs-ouster-as-options-signal-a-big-move",
-   "created_at": "2026-11-15T14:09:44Z",
+   "url": "https://www.benzinga.com/news/health-care/26/11/63280466/democrats-turn-up-pressure-for-medicare-expansion-tammy-baldwin-targets-age-50-as-abdul-el-sayed-dares-trump-to-veto-broader-coverage-plan",
+   "created_at": "2026-11-16T09:53:22Z",
+   "symbols": [],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/16/Fresh-Leaks-Raise-Questions-About-Trumps.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "ASE Technology Unit Signs NT$705 Million Facility Engineering Contracts",
+   "summary": "A subsidiary of ASE Technology Holding Co., Ltd. has entered into facility engineering contracts valued at NT$705 million.",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/ase-technology-unit-signs-nt-705-million-facility-engineering-contracts-ce785eded180f023",
+   "created_at": "2026-11-16T09:32:03Z",
    "symbols": [
-    "NVDA"
+    "ASX"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/15/Jensen-Huang-Nvidias-Founder--President-.jpg?width=1024&height=768"
+   "image": ""
+  },
+  {
+   "headline": "AerCap Holdings Insider Executes Share Sale",
+   "summary": "An insider at AerCap Holdings N.V. sold company shares valued at approximately $3.5 million, according to a recent regulatory filing.",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/aercap-holdings-insider-sold-shares-worth-3-502-109-according-to-a-recent-sec-filing-ce785eded089f320",
+   "created_at": "2026-11-16T09:31:55Z",
+   "symbols": [
+    "AER"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Bunzl Launches Second Tranche of £500 Million Share Buyback Program",
+   "summary": "Bunzl plc has initiated the second tranche of its previously announced £500 million share buyback program.",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/bunzl-launches-second-tranche-of-gbp500-million-share-buyback-program-ce785eded18ef12d",
+   "created_at": "2026-11-16T09:31:53Z",
+   "symbols": [
+    "BNZL"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "OSB Group PLC Announces Preliminary Data on Early Redemptions",
+   "summary": "OSB Group PLC released an announcement regarding preliminary data on early redemptions (prepayments) on November 16, 2026.",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news/banks-financial-services/finance-credit-services",
+   "created_at": "2026-11-16T09:31:52Z",
+   "symbols": [
+    "OSB"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Bellway Rating Downgraded to Hold by Jefferies",
+   "summary": "Jefferies has downgraded Bellway's stock rating from Buy to Hold and adjusted its price target.",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/hans/news/post/1004724401",
+   "created_at": "2026-11-16T09:31:49Z",
+   "symbols": [
+    "BWY"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "FCA Announces Official List Changes for IG Group Holdings plc Senior Notes",
+   "summary": "The UK Financial Conduct Authority (FCA) has updated the Official List regarding two series of senior notes issued by IG Group Holdings plc.",
+   "source": "fiscal.ai",
+   "url": "https://www.finanznachrichten.de/nachrichten-2026-11/70137927-official-list-notice-015.htm",
+   "created_at": "2026-11-16T09:31:47Z",
+   "symbols": [
+    "IGG"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Hercules plc Secures Contract for National Grid Electricity Distribution Network",
+   "summary": "Hercules plc has been awarded a contract by United Infrastructure Ltd for overhead line works on National Grid's electricity distribution network in the Bristol area.",
+   "source": "fiscal.ai",
+   "url": "https://www.voxmarkets.com/articles/rns-hotlist-november-16-cleantech-georgina-hercules-nvidia-quantum-helium-sintana-sovereign-metals-zenith-energy-d6442ea",
+   "created_at": "2026-11-16T09:31:44Z",
+   "symbols": [
+    "NGG"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "EHang Confirmed as Exhibitor for AIE Expo 2026 in Macao and Zhuhai",
+   "summary": "EHang has been named as a confirmed exhibitor for the upcoming Global Artificial Intelligence Manufacturing and Electronics Expo (AIE Expo 2026), which will take place in December 2026.",
+   "source": "fiscal.ai",
+   "url": "https://panafricanvisions.com/2026/11/aie-expo-2026-press-conference-in-macao-spotlights-greater-bay-area-innovation-and-global-partnerships/",
+   "created_at": "2026-11-16T09:31:43Z",
+   "symbols": [
+    "EH"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "AstraZeneca Receives US and EU Approval for Klygefa",
+   "summary": "AstraZeneca has secured regulatory approval in both the United States and Europe for its therapy Klygefa, indicated for the treatment of myasthenia gravis.",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/astrazeneca-klygefa-approved-in-us-europe-for-myasthenia-gravis-ce785eded180fe24",
+   "created_at": "2026-11-16T09:31:42Z",
+   "symbols": [
+    "AZN"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "iQIYI Announces Unaudited Financial Results for the Third Quarter of 2026",
+   "summary": "iQIYI, Inc. reported its unaudited financial results for the third quarter ended September 30, 2026, with revenue reaching 6.01 billion Renminbi.",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news/consumer-products-services/entertainment",
+   "created_at": "2026-11-16T09:31:39Z",
+   "symbols": [
+    "IQ"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "HKEX Launches Offshore RMB Bond Index",
+   "summary": "Hong Kong Exchanges and Clearing Limited (HKEX) has officially launched the HKEX Offshore RMB Bond Index to provide a new benchmark for the market.",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/general-business-latest-news/new-products-services-list/",
+   "created_at": "2026-11-16T09:31:39Z",
+   "symbols": [
+    "388"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Tuya Smart Participates in COP31 Side Event on Climate Diplomacy and Energy Action",
+   "summary": "Tuya Smart showcased its AI-powered energy management solutions and participated in discussions on climate resilience at the 31st United Nations Climate Change Conference (COP31).",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/turning-climate-warnings-into-energy-action-tuya-smart-showcases-its-ai-energy-solutions-at-cop31-302940021.html",
+   "created_at": "2026-11-16T09:31:36Z",
+   "symbols": [
+    "TUYA"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Pony.ai and Toyota Launch Fully Driverless Commercial Services with Gen-7 bZ4X Robotaxi",
+   "summary": "Pony.ai and Toyota have officially launched fully driverless commercial services in Guangzhou using their collaboratively developed Gen-7 bZ4X Robotaxi.",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/ponyai-and-toyota-launch-fully-driverless-commercial-services-with-gen-7-bz4x-robotaxi-302939910.html",
+   "created_at": "2026-11-16T09:31:32Z",
+   "symbols": [
+    "PONY"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Rio Tinto to Contribute $250 Million to Fund Addressing Panguna Mine Legacy Impacts",
+   "summary": "Rio Tinto announced a $250 million contribution to a new fund aimed at addressing environmental and social impacts associated with the former Panguna mine in Papua New Guinea.",
+   "source": "fiscal.ai",
+   "url": "https://www.fidelity.com/news/article/company-news/202611160333MIDNIGHTUSEQUITY_A3754274",
+   "created_at": "2026-11-16T09:31:30Z",
+   "symbols": [
+    "RIO"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "BYD Surpasses 10,000 Cumulative Passenger Car Sales in Japan",
+   "summary": "BYD has reached a milestone of 10,000 cumulative passenger car sales in the Japanese market, driven by the success of localized models.",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/hans/news/post/1004727539/byd-hits-10000-cumulative-sales-milestone-in-japan-as-new",
+   "created_at": "2026-11-16T09:31:28Z",
+   "symbols": [
+    "002594"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Tencent Cloud Introduces AI-Native Productivity Flywheel Framework",
+   "summary": "Tencent Cloud has launched an AI-native productivity framework designed to help organizations transition from individual AI usage to enterprise-wide human-AI collaboration.",
+   "source": "fiscal.ai",
+   "url": "https://www.taiwannews.com.tw/en/news/6476996",
+   "created_at": "2026-11-16T09:31:28Z",
+   "symbols": [
+    "700"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Kweichow Moutai Unveils First Brand Experience Space in Singapore",
+   "summary": "Kweichow Moutai has launched its first brand experience space in Singapore, designed according to new store identity (SI) standards.",
+   "source": "fiscal.ai",
+   "url": "https://www.einpresswire.com/article/957001504/world-s-first-moutai-brand-experience-space-built-to-new-si-standards-unveiled-in-singapore",
+   "created_at": "2026-11-16T09:31:26Z",
+   "symbols": [
+    "600519"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "SK Hynix Bets Over $1 Billion on Domestic Chip Suppliers, Commits to $655 Million Testing Center: SKHY Stock Down Over 4% in Premarket",
+   "summary": "SK Hynix plans a $1.05B investment to support local chip suppliers, fund R&amp;D and build a $655M semiconductor testing center.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/63280233/sk-hynix-bets-over-1-billion-on-domestic-chip-suppliers-commits-to-655-million-testing-center-skhy-stock-down-over-4-in-premarket",
+   "created_at": "2026-11-16T09:20:35Z",
+   "symbols": [
+    "SKHY"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/16/Close-Up-Of-Sk-Hynix-Logo-Sign-On-The-Bu.jpg?width=1024&height=768"
   },
   {
    "headline": "Trump Backs $1.5 Trillion Social Security Proposal, Says Bill Cassidy: 'I Have Democrats Who Are Also Supportive'",
@@ -258,217 +469,6 @@
    "created_at": "2026-11-16T09:01:58Z",
    "symbols": [
     "VCT"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Nscale Joins Consortium to Develop AI Gigafactory Northern",
-   "summary": "Nscale has partnered with Nokia, Telia, and other firms to form a consortium aimed at building a federated AI infrastructure network across the Nordic and Baltic regions.",
-   "source": "fiscal.ai",
-   "url": "https://www.globenewswire.com/news-release/2026/11/16/3403172/0/en/european-technology-leaders-form-ai-gigafactory-northern-consortium-to-build-trusted-sustainable-ai-infrastructure.html",
-   "created_at": "2026-11-16T09:01:58Z",
-   "symbols": [
-    "NSCL"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Axiom Intelligence Acquisition Corp 1 Reports Quarterly Financial Results",
-   "summary": "Axiom Intelligence Acquisition Corp 1 reported its financial results for the quarter ending September 30, 2026, during a financial conference held on November 13, 2026.",
-   "source": "fiscal.ai",
-   "url": "https://www.finanzen.at/nachrichten/aktien/axiom-intelligence-acquisition-a-bilanzzahlen-zum-vergangenen-quartal-1036766067",
-   "created_at": "2026-11-16T09:01:55Z",
-   "symbols": [
-    "AXIN"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Regulatory Disclosure Regarding Dealings in Tribal Group plc Securities",
-   "summary": "Investec Bank plc, acting as an exempt principal trader, filed a Form 8.5 disclosure regarding its dealings in the securities of Tribal Group plc.",
-   "source": "fiscal.ai",
-   "url": "https://natlawreview.com/press-releases/form-85-eptri-tribal-group-plc",
-   "created_at": "2026-11-16T09:01:53Z",
-   "symbols": [
-    "TRB"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Rome Resources Commences Tin Concentrate Production at Kalayi",
-   "summary": "Rome Resources has officially started producing tin concentrate at its Kalayi project, marking a significant operational milestone for the company.",
-   "source": "fiscal.ai",
-   "url": "https://www.voxmarkets.com/articles/rome-produces-first-tin-at-kalayi-project-in-drc-6198c8f",
-   "created_at": "2026-11-16T09:01:53Z",
-   "symbols": [
-    "RMR"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "National Westminster Bank PLC Securities Admitted to FCA Official List",
-   "summary": "The UK Financial Conduct Authority (FCA) has officially admitted new securities issued by National Westminster Bank PLC to its Official List as of November 16, 2026.",
-   "source": "fiscal.ai",
-   "url": "https://www.finanznachrichten.de/nachrichten-2026-11/70137928-financial-conduct-authority-notice-of-admission-to-the-official-list-015.htm",
-   "created_at": "2026-11-16T09:01:51Z",
-   "symbols": [
-    "NWBD"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Zotefoams plc Announces Board Changes",
-   "summary": "Zotefoams plc has appointed Jackie Hu as an independent Non-Executive Director, effective December 1, 2026, while Jonathan Carling will step down from the Board on December 9, 2026.",
-   "source": "fiscal.ai",
-   "url": "https://www.investegate.co.uk/announcement/rns/zotefoams--ztf/board-changes/9875747",
-   "created_at": "2026-11-16T09:01:47Z",
-   "symbols": [
-    "ZTF"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Empire Metals Enters Capital Access Window for Proposed ASX Dual Listing",
-   "summary": "Empire Metals has initiated a Capital Access Window and trading halt to finalize its proposed dual listing on the Australian Securities Exchange (ASX) and an associated A$8 million capital raise.",
-   "source": "fiscal.ai",
-   "url": "https://www.investegate.co.uk/announcement/rns/empire-metals-limited-npv-di---eee/capital-access-window-trading-halt/9875788",
-   "created_at": "2026-11-16T09:01:46Z",
-   "symbols": [
-    "EEE"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Citi Maintains Hold Rating and Raises Price Target for Wickes Group plc",
-   "summary": "Citi analyst Vandita Sood has maintained a 'Hold' rating on Wickes Group plc while increasing the price target for the company's shares.",
-   "source": "fiscal.ai",
-   "url": "https://www.moomoo.com/hans/news/post/1001820814/citi-maintains-wickes-group-plc-wckgfus-with-hold-rating-raises",
-   "created_at": "2026-11-16T09:01:32Z",
-   "symbols": [
-    "WIX"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Peter Schiff Slams Trump Admin’s $50 Billion Demand to Overhaul Air Traffic Control System, Says Spending Will Add to Inflation",
-   "summary": "Peter Schiff warns Trump&#39;s $50B FAA upgrade package, funded by deficits, will worsen inflation and affordability.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/11/63279960/peter-schiff-slams-trump-air-traffic",
-   "created_at": "2026-11-16T08:42:31Z",
-   "symbols": [
-    "AAL",
-    "DAL",
-    "JBLU"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/16/Sioux-City--Iowa--Usa---November-6--2016.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Barclays Upgrades Wacker Chemie AG to Overweight",
-   "summary": "Barclays analyst Katie Richards has upgraded Wacker Chemie AG from 'Equal Weight' to 'Overweight', maintaining a price target of 99 euros.",
-   "source": "fiscal.ai",
-   "url": "https://www.streetinsider.com/Analyst+Comments/Barclays+Upgrades+Wacker+Chemie+AG+%28WCH%3AGR%29+%28WKCMF%29+to+Overweight/27346517.html",
-   "created_at": "2026-11-16T08:33:07Z",
-   "symbols": [
-    "WCH"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Epiroc Completes Acquisition of Aramine",
-   "summary": "Epiroc has finalized its acquisition of the French company Aramine, a specialist in mining equipment and solutions.",
-   "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/epiroc-wraps-up-purchase-of-france-s-aramine-ce785eded18ef024",
-   "created_at": "2026-11-16T08:32:26Z",
-   "symbols": [
-    "EPI.A"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Deutsche Bank Raises Price Target for dsm-firmenich",
-   "summary": "Deutsche Bank has increased its price target for dsm-firmenich shares from EUR 110 to EUR 112.",
-   "source": "fiscal.ai",
-   "url": "https://www.moomoo.com/hans/news/post/1004720041",
-   "created_at": "2026-11-16T08:32:20Z",
-   "symbols": [
-    "DSFIR"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Telia Joins Consortium to Develop AI Infrastructure in the Nordics and Baltics",
-   "summary": "Telia has joined a new European consortium, AI Gigafactory Northern, to build out artificial intelligence infrastructure across the Nordic and Baltic regions.",
-   "source": "fiscal.ai",
-   "url": "https://www.morningstar.com/news/dow-jones/20261116979/nokia-nscale-and-partners-form-consortium-to-build-ai-infrastructure-across-nordics-baltics",
-   "created_at": "2026-11-16T08:32:00Z",
-   "symbols": [
-    "TELIA"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Helvetia Baloise Holding AG Focuses on Integration of Baloise",
-   "summary": "The insurance group is prioritizing the integration of Baloise following their merger, according to recent market reports.",
-   "source": "fiscal.ai",
-   "url": "https://www.finanzen.ch/nachrichten/aktien/aktie-im-blick-versicherer-helvetia-konzentriert-sich-vorerst-auf-integration-von-baloise-1036767788",
-   "created_at": "2026-11-16T08:31:55Z",
-   "symbols": [
-    "HBAN"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Lerøy Seafood Group ASA to Acquire Additional 47.7% Stake in Sjøtroll Havbruk AS",
-   "summary": "Lerøy Seafood Group ASA has entered into an agreement to acquire a 47.7% stake in Sjøtroll Havbruk AS, increasing its total ownership to 98.4%.",
-   "source": "fiscal.ai",
-   "url": "https://www.globenewswire.com/news/consumer-products-services/food-beverage",
-   "created_at": "2026-11-16T08:31:52Z",
-   "symbols": [
-    "LSG"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "FLSmidth: Transactions under share buy-back programme",
-   "summary": "FLSmidth & Co. A/S has announced transactions conducted under its ongoing share buy-back programme.",
-   "source": "fiscal.ai",
-   "url": "https://www.globenewswire.com/news/industrials-utilities",
-   "created_at": "2026-11-16T08:31:51Z",
-   "symbols": [
-    "FLS"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "TARSBOT and Aptiv Deepen Strategic Collaboration on Embodied AI",
-   "summary": "Aptiv and TARS have announced an expansion of their strategic partnership focused on the development and integration of embodied AI technologies.",
-   "source": "fiscal.ai",
-   "url": "https://www.prnewswire.co.uk/news-releases/tarsbot-and-aptiv-deepen-strategic-collaboration-on-embodied-ai-302939142.html",
-   "created_at": "2026-11-16T08:31:49Z",
-   "symbols": [
-    "APTV"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Jyske Bank: Share Repurchase Programme Transactions (Week 46 2026)",
-   "summary": "Jyske Bank has reported its share repurchase transactions for week 46 of 2026 as part of its ongoing buyback program.",
-   "source": "fiscal.ai",
-   "url": "https://www.globenewswire.com/news/banks-financial-services",
-   "created_at": "2026-11-16T08:31:47Z",
-   "symbols": [
-    "JYSK"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Coca-Cola HBC to Complete CCBA Deal on November 27",
-   "summary": "Coca-Cola HBC has announced that the acquisition deal involving Coca-Cola Beverages Africa (CCBA) is scheduled to be finalized on November 27, 2026.",
-   "source": "fiscal.ai",
-   "url": "https://www.euro2day.gr/news/highlights/121/list.html",
-   "created_at": "2026-11-16T08:31:44Z",
-   "symbols": [
-    "CCH"
    ],
    "image": ""
   }
