@@ -1,6 +1,28 @@
 {
- "updated": "2026-11-16 11:00",
+ "updated": "2026-11-16 12:00",
  "items": [
+  {
+   "headline": "CVS Health Releases Research on GLP-1 Benefits and Affordability",
+   "summary": "CVS Health published new research analyzing the clinical and economic impact of GLP-1 medications using real-world Aetna claims data.",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/cvs-health-study-highlights-glp-1-benefits-and-the-affordability-challenge-302939570.html",
+   "created_at": "2026-11-16T02:01:38Z",
+   "symbols": [
+    "CVS"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Vulcan Rocket Failure Impacts Amazon Kuiper Satellite Mission",
+   "summary": "A United Launch Alliance (ULA) Vulcan rocket experienced an anomaly shortly after launch, resulting in the loss of 40 satellites intended for Amazon's Kuiper internet constellation.",
+   "source": "fiscal.ai",
+   "url": "https://www.kyfreepress.com.au/world/rocket-from-boeing-lockheed-firm-fails-mid-flight/",
+   "created_at": "2026-11-16T02:01:27Z",
+   "symbols": [
+    "AMZN"
+   ],
+   "image": ""
+  },
   {
    "headline": "Jensen Huang Could Return to Nvidia as Silicon Valley Plans ‘War Room,’ While Anthony Scaramucci Says ‘Not Happening’",
    "summary": "Jensen Huang’s comeback odds have jumped to 51%, but Scaramucci says ongoing investigations could block his reinstatement.",
@@ -176,311 +198,279 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/11/15/Jensen-Huang-Nvidias-Founder--President-.jpg?width=1024&height=768"
   },
   {
-   "headline": "Vertex Pharmaceuticals Announces Management Participation in Upcoming Investor Conferences",
-   "summary": "Vertex Pharmaceuticals has announced that members of its management team will participate in three upcoming investor conferences.",
-   "source": "fiscal.ai",
-   "url": "https://stocktwits.com/symbol/VRTX/news",
-   "created_at": "2026-11-15T02:01:54Z",
-   "symbols": [
-    "VRTX"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "AWS Launches First Infrastructure Region in Chile",
-   "summary": "Amazon Web Services has officially launched its first cloud infrastructure region in Chile, marking a significant expansion of its footprint in South America.",
-   "source": "fiscal.ai",
-   "url": "https://infosertecla.com/2026/11/14/aws-abre-su-primera-region-en-chile-con-mas-de-usd-4-000-m/",
-   "created_at": "2026-11-15T02:01:26Z",
-   "symbols": [
-    "AMZN"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Pony.ai Implements Contingency Strategy to Mitigate Chip Supply Risks",
-   "summary": "Pony.ai is adopting a dual-track strategy to reduce reliance on foreign chip suppliers by integrating domestic alternatives into its autonomous driving systems.",
-   "source": "fiscal.ai",
-   "url": "https://www.techtimes.vn/ke-hoach-du-phong-nvidia-cho-nganh-tu-lai-trung-quoc/",
-   "created_at": "2026-11-16T01:01:39Z",
-   "symbols": [
-    "PONY"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Ascentage Pharma Announces Inclusion of Lisaftoclax in China's 2026 National Reimbursement Drug List and Successful Renewal of Coverage for Olverembatinib",
-   "summary": "Ascentage Pharma's cancer drugs lisaftoclax and olverembatinib have been included or renewed in China's 2026 National Reimbursement Drug List (NRDL), effective January 1, 2027.",
-   "source": "fiscal.ai",
-   "url": "https://www.globenewswire.com/news-release/2026/11/15/3403131/0/en/ascentage-pharma-announces-inclusion-of-lisaftoclax-in-china-s-2026-national-reimbursement-drug-list-and-successful-renewal-of-coverage-for-olverembatinib.html",
-   "created_at": "2026-11-16T01:01:35Z",
-   "symbols": [
-    "AAPG"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "LATAM Airlines Brasil Addresses Incident Involving Unattended Child on Flight",
-   "summary": "LATAM Airlines Brasil confirmed that a child was left on board a flight after passengers disembarked, with the company safely reuniting the child with their family shortly thereafter.",
-   "source": "fiscal.ai",
-   "url": "https://ultimosegundo.ig.com.br/2026-11-15/pais-esquecem-filho-a-bordo-de-voo-em-porto-alegre.html",
-   "created_at": "2026-11-16T00:01:41Z",
-   "symbols": [
-    "LTM"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Crypto Market Loses $750 Billion in Value as ETF Demand Fades and Liquidations Surge",
-   "summary": "The crypto market has suffered a $750 billion value in the past few days because of the fading ETF demand as liquidations jump",
+   "headline": "Elon Musk Takes Aim at Boeing, Jeff Bezos’ Blue Origin After SpaceX Catches Starship With ‘Chopsticks’: ‘I Am Genuinely Curious’",
+   "summary": "Elon Musk questioned why Boeing and Blue Origin lag behind SpaceX despite billions in funding, highlighting its latest Starship milestone.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/26/11/63277708/crypto-market-loses-750-billion-in-value-as-etf-demand-fades-and-liquidations-surge",
-   "created_at": "2026-11-15T21:45:06Z",
+   "url": "https://www.benzinga.com/markets/tech/26/11/63278449/musk-boeing-blue-origin-spacex-starship",
+   "created_at": "2026-11-16T02:41:47Z",
    "symbols": [
-    "BTC",
-    "BTCUSD",
-    "ETH",
-    "ETHUSD",
-    "SOLUSD"
+    "BA",
+    "LMT",
+    "SPCX"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/15/Bitcoin.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/16/Elon-Musk.jpg?width=1024&height=768"
   },
   {
-   "headline": "Palo Alto Networks Slips Into Bear Market as Earnings Loom and Valuation Risks Persist",
-   "summary": "Palo Alto Networks stock has slumped into a bear market after falling more than 26% from its October high, with focus being on its earnings",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/11/63277661/palo-alto-networks-slips-into-bear-market-as-earnings-loom-and-valuation-risks-persist",
-   "created_at": "2026-11-15T21:20:06Z",
-   "symbols": [
-    "PANW"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/15/Palo-Alto-Networks-Logo-And-Sign-At-Sili.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Target, Home Depot, TJX, and Lowe’s Report Earnings as Their Stock Recoveries Stall",
-   "summary": "Top US retail companies like Target, Home Depot, TJX, and Lowe&#39;s will publish their earnings reports this week as their stocks fall",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/11/63277632/target-home-depot-tjx-and-lowes-report-earnings-as-their-stock-recoveries-stall",
-   "created_at": "2026-11-15T21:10:25Z",
-   "symbols": [
-    "HD",
-    "LOW",
-    "TGT",
-    "TJX",
-    "WMT"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/15/The-Home-Depot-Red--White--and-Renovate.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "YouGov Releases Survey Findings for National Skin Cancer Action Week",
-   "summary": "YouGov published new survey data for Cancer Council Australia highlighting generational differences in sun safety knowledge and behavior.",
+   "headline": "Eightco Secures $125M in Institutional Commitments to Expand into Next-Generation Technology",
+   "summary": "Eightco Holdings (NASDAQ: ORBS) has secured $125 million in institutional commitments from investors including Bitmine, ARK Invest, and Payward to support its expansion into next-generation technology",
    "source": "fiscal.ai",
-   "url": "https://www.newswirenz.co.nz/media-releases.html?id=1062057&headline=generational-sun-safety-gaps-revealed-in-new-cancer-council-australia-poll",
-   "created_at": "2026-11-15T21:02:18Z",
+   "url": "https://www.streetinsider.com/Press+Releases?before_id=26149840",
+   "created_at": "2026-11-16T02:03:44Z",
    "symbols": [
-    "YOU"
+    "ORBS"
    ],
    "image": ""
   },
   {
-   "headline": "YouGov and Prospa Publish Research on Australian SME Operational Costs",
-   "summary": "YouGov released new research in collaboration with Prospa regarding the impact of rising operational costs on Australian small and medium-sized enterprises.",
+   "headline": "PBR Australia Grand Finals Concludes in Townsville",
+   "summary": "The 2026 PBR Australia Grand Finals concluded in Townsville, Queensland, with Kurt Shephard securing his second consecutive Australian Championship Gold Buckle.",
    "source": "fiscal.ai",
-   "url": "https://www.prnewswire.com/apac/news-releases/prospa-research-two-in-three-aussie-smes-want-rewards-on-their-bills-yet-only-8-are-cashing-in-on-supplier-payments-302937153.html",
-   "created_at": "2026-11-15T21:02:18Z",
+   "url": "https://www.newswirenz.co.nz/media-releases.html?id=1062058&headline=bucking-insane-pbr-australia-grand-finals-delivers",
+   "created_at": "2026-11-16T02:03:42Z",
    "symbols": [
-    "YOU"
+    "TKO"
    ],
    "image": ""
   },
   {
-   "headline": "IG Group to Cut 50 Jobs Amid European Office Closures",
-   "summary": "IG Group is reportedly planning to reduce its workforce by 50 positions as part of a strategy to close offices in France, Spain, and Italy.",
+   "headline": "Mattr Announces Earnings Release Schedule Through Q4 2026",
+   "summary": "Mattr Corp. has publicly disclosed the scheduled dates for its upcoming quarterly earnings releases and conference calls for the remainder of 2026.",
    "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/ig-group-to-reportedly-cut-50-jobs-amid-office-closures-in-france-spain-italy-ce785ededc8cf02d",
-   "created_at": "2026-11-15T21:02:15Z",
+   "url": "https://www.streetinsider.com/Press+Releases?before_id=26313132",
+   "created_at": "2026-11-16T02:03:36Z",
    "symbols": [
-    "IGG"
+    "MATR"
    ],
    "image": ""
   },
   {
-   "headline": "Moody's Affirms Willis Towers Watson Ratings",
-   "summary": "Moody's has affirmed the credit ratings of Willis Towers Watson, citing the company's diversified client base, strong market position, and professional expertise.",
+   "headline": "Harbour Island Acquisition Corp. I Decreases Units Offered Ahead of IPO",
+   "summary": "Harbour Island Acquisition Corp. I has reduced the number of units offered in its upcoming initial public offering by 20%.",
    "source": "fiscal.ai",
-   "url": "https://ch.marketscreener.com/boerse-nachrichten/moody-s-bestaetigt-ratings-von-willis-towers-watson-dank-diversifizierter-kundenbasis-starker-marktp-ce785ededc8cff24",
-   "created_at": "2026-11-15T21:02:02Z",
+   "url": "https://www.finanznachrichten.de/nachrichten-medien/renaissance-capital.htm",
+   "created_at": "2026-11-16T02:03:10Z",
    "symbols": [
-    "WTW"
+    "HRIAU"
    ],
    "image": ""
   },
   {
-   "headline": "NewRiver REIT plc: Holding(s) in Company",
-   "summary": "NewRiver REIT plc has released a regulatory disclosure regarding changes in shareholdings.",
+   "headline": "Gloo Announces Launch of Gloo Code for AI Development",
+   "summary": "Gloo has introduced Gloo Code, a new agentic building capability within its Gloo AI Studio designed to optimize token usage and model selection for developers.",
    "source": "fiscal.ai",
-   "url": "https://www.finanznachrichten.de/nachrichten-medien/rns.htm",
-   "created_at": "2026-11-15T21:01:53Z",
+   "url": "https://natlawreview.com/press-releases/gloo-launches-gloo-code-agentic-coding-and-optimized-agents-make-your-tokens",
+   "created_at": "2026-11-16T02:03:10Z",
    "symbols": [
-    "NRR"
+    "GLOO"
    ],
    "image": ""
   },
   {
-   "headline": "Savills Reports Growth in India and Asia-Pacific Real Estate Investment",
-   "summary": "Savills released a report detailing a 15% year-on-year increase in commercial real estate investment volumes in India for the first nine months of 2026.",
+   "headline": "Fermi Inc. Reportedly Revives Talks with Amazon",
+   "summary": "Fermi Inc. has reportedly resumed negotiations with Amazon regarding a previously unsuccessful agreement, contributing to a significant rise in the company's stock price.",
    "source": "fiscal.ai",
-   "url": "https://realtynxt.com/commercial-news/2026-11-14/indias-commercial-property-market-records-15-investment-growth-as-global-investors-increase-their-exposure-in-2026",
-   "created_at": "2026-11-15T21:01:48Z",
+   "url": "https://growthinvesting.net/stock/NasdaqGS-AMZN",
+   "created_at": "2026-11-16T02:03:06Z",
    "symbols": [
-    "SVS"
+    "FRMI"
    ],
    "image": ""
   },
   {
-   "headline": "Centrica and Equinor Advance in Bidding Process for Uniper",
-   "summary": "Centrica and Equinor have reportedly moved to the second round of the bidding process for the German utility company Uniper.",
+   "headline": "Bell Potter Lowers Target Price for PMET Resources",
+   "summary": "Bell Potter reduced its target price for PMET Resources to 60c from 97c, citing weaker lithium market conditions despite positive findings in the company's enhanced feasibility study.",
    "source": "fiscal.ai",
-   "url": "https://finimize.com/content/centrica-and-equinor-move-ahead-in-the-uniper-sale",
-   "created_at": "2026-11-15T21:01:46Z",
+   "url": "https://fnarena.com/2026/11/16/weekly-ratings-targets-forecast-changes-13-11-26/",
+   "created_at": "2026-11-16T02:03:05Z",
    "symbols": [
-    "CNA"
+    "PMET"
    ],
    "image": ""
   },
   {
-   "headline": "Jefferies Maintains Buy Rating and Raises Price Target for Wickes Group plc",
-   "summary": "Jefferies analyst Andrew Wade has maintained a Buy rating on Wickes Group plc and increased the price target to $3.35.",
+   "headline": "XMax Inc. Files Form 10-Q for Third Quarter 2026",
+   "summary": "XMax Inc. has officially filed its Form 10-Q with the SEC, providing detailed financial and operational disclosures for the third quarter of 2026.",
    "source": "fiscal.ai",
-   "url": "https://www.moomoo.com/hant/news/post/1001728122/jefferies-maintains-wickes-group-plc-wckgfus-with-buy-rating-raises",
-   "created_at": "2026-11-15T21:01:36Z",
+   "url": "https://www.quantisnow.com/company/XMAX",
+   "created_at": "2026-11-16T02:03:02Z",
    "symbols": [
-    "WIX"
+    "XMAX"
    ],
    "image": ""
   },
   {
-   "headline": "Nationwide Building Society Reports Decline in Real-Terms UK House Prices",
-   "summary": "Nationwide Building Society released data indicating that real-terms UK property prices fell by 2% between July and September 2026.",
+   "headline": "KBW Maintains Buy Rating and Lowers Price Target for Primis Financial Corp.",
+   "summary": "Analyst Wood Lay from KBW has maintained a 'Buy' rating on Primis Financial Corp. (FRST) while adjusting the price target from $18 to $17.",
    "source": "fiscal.ai",
-   "url": "https://www.voxmarkets.com/articles/weekend-news-review-november-15-9845612",
-   "created_at": "2026-11-15T21:01:29Z",
+   "url": "https://www.moomoo.com/hant/news/post/1003345193/kbw-maintains-primis-financial-frstus-with-buy-rating-cuts-target",
+   "created_at": "2026-11-16T02:03:02Z",
    "symbols": [
-    "NBS"
+    "FRST"
    ],
    "image": ""
   },
   {
-   "headline": "Oman Shell Launches New Edition of Shell Intilaaqah to Support SMEs",
-   "summary": "Oman Shell has launched a new edition of its Shell Intilaaqah program in partnership with Flat6Labs to accelerate the growth of 15 small and medium enterprises in Oman.",
+   "headline": "DeGen Medical Files Motion to Dismiss Carlsmed Patent Infringement Suit",
+   "summary": "DeGen Medical, Inc. has filed a motion in the U.S. District Court for the District of South Carolina seeking to dismiss key portions of a patent infringement lawsuit previously brought by Carlsmed, In",
    "source": "fiscal.ai",
-   "url": "https://newsfilter.io/latest/news",
-   "created_at": "2026-11-15T21:01:28Z",
+   "url": "https://www.globenewswire.com/news-release/2026/11/15/3403129/0/en/degen-medical-moves-to-dismiss-carlsmed-patent-suit-vows-to-fight-remaining-claims.html",
+   "created_at": "2026-11-16T02:03:02Z",
    "symbols": [
-    "SHEL"
+    "CARL"
    ],
    "image": ""
   },
   {
-   "headline": "Unilever's Royco Brand Launches 'Shake & Sprinkle' Dry Rub in Indonesia",
-   "summary": "Unilever's seasoning brand Royco has introduced a new line of dry rubs in Indonesia, designed for convenient seasoning of everyday meals.",
+   "headline": "Tectonic Therapeutic, Inc. Reports Officer Beneficial Ownership Change",
+   "summary": "Tectonic Therapeutic, Inc. filed a Form 4 statement regarding a change in beneficial ownership of securities by an officer.",
    "source": "fiscal.ai",
-   "url": "https://www.minimeinsights.com/2026/11/15/royco-spices-up-indonesias-protein-loading-trend-with-shake-sprinkle/",
-   "created_at": "2026-11-15T21:01:27Z",
+   "url": "https://www.moomoo.com/hant/news/notice/307521199/tectonic-therapeutic-4-statement-of-changes-in-beneficial-ownership-of",
+   "created_at": "2026-11-16T02:02:58Z",
    "symbols": [
-    "UL"
+    "TECX"
    ],
    "image": ""
   },
   {
-   "headline": "Top Stocks to Watch After Weekend Chaos At US Airports",
-   "summary": "The crisis at US airports will put the spotlight on several stocks like Delta Air Lines, Booking Holdings, and L3Harris.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/11/63277550/top-us-stocks-to-watch-after-the-weekend-chaos-in-us-airports",
-   "created_at": "2026-11-15T20:15:06Z",
-   "symbols": [
-    "BKNG",
-    "DAL",
-    "EXPE",
-    "JBLU",
-    "LHX"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/15/Delta-Air-Lines-Jet-Overturns-At-Toronto.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Centrica and Equinor Advance to Second Round of Bidding for Uniper",
-   "summary": "Centrica and Equinor have progressed to the second round of the German government's reprivatization process for Uniper, joining other bidders in the ongoing sale.",
+   "headline": "D.A. Davidson Lowers Price Target for Boost Run Inc.",
+   "summary": "Investment firm D.A. Davidson has reduced its price target for Boost Run Inc. from $45 to $10.",
    "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/centrica-equinor-others-proceed-to-next-round-of-bidding-for-german-utility-ce785ededc8ef725",
-   "created_at": "2026-11-15T20:02:14Z",
+   "url": "https://www.moomoo.com/hans/news/flash/1004568842/boost-run-inc-da-davidson-cuts-target-price-to-10",
+   "created_at": "2026-11-16T02:02:55Z",
    "symbols": [
-    "UN0"
+    "BRUN"
    ],
    "image": ""
   },
   {
-   "headline": "adesso SE Participates in Joint Venture Formation",
-   "summary": "adesso SE is listed as a participant in a joint venture filing with the German Federal Cartel Office (Bundeskartellamt).",
+   "headline": "Analysts Update Price Targets for Gladstone Investment Corp.",
+   "summary": "Analysts from Oppenheimer and B. Riley Securities maintained Buy ratings on Gladstone Investment Corp. while adjusting their price targets.",
    "source": "fiscal.ai",
-   "url": "https://www.finanznachrichten.de/nachrichten-medien/bundeskartellamt.htm",
-   "created_at": "2026-11-15T20:01:57Z",
+   "url": "https://www.moomoo.com/hant/news/post/1004300370/oppenheimer-maintains-gladstone-investment-gainus-with-buy-rating-maintains-target",
+   "created_at": "2026-11-16T02:02:54Z",
    "symbols": [
-    "ADN1"
+    "GAIN"
    ],
    "image": ""
   },
   {
-   "headline": "Ubisoft to Sunset Rainbow Six Mobile",
-   "summary": "Ubisoft has announced the decision to discontinue its mobile title, Rainbow Six Mobile, with service scheduled to end on January 15, 2027.",
+   "headline": "LendingTree Releases 2026 Buy Now, Pay Later Report",
+   "summary": "LendingTree's 2026 Buy Now, Pay Later (BNPL) report indicates that 47 percent of US BNPL users made a late payment in the past year, reflecting an upward trend in missed payments.",
    "source": "fiscal.ai",
-   "url": "https://www.ubisoft.com/en-us/news",
-   "created_at": "2026-11-15T20:01:55Z",
+   "url": "https://finance-monthly.com/top-consumer-financing-bnpl-companies-2026/",
+   "created_at": "2026-11-16T02:02:54Z",
    "symbols": [
-    "UBI"
+    "TREE"
    ],
    "image": ""
   },
   {
-   "headline": "Volkswagen CEO Oliver Blume Outlines 2030 Strategic Goals and Defends Restructuring",
-   "summary": "In a recent interview, Volkswagen CEO Oliver Blume announced a target of selling nine million vehicles by 2030 with a nine percent return, while defending the company's ongoing restructuring and workf",
+   "headline": "Insider Selling by IBEX Limited Executive",
+   "summary": "Julie Casteel, the Chief Marketing & Strategic Accounts Officer of IBEX Limited, recently sold approximately US$592,000 worth of company stock.",
    "source": "fiscal.ai",
-   "url": "https://www.finanzen.ch/nachrichten/aktien/volkswagen-will-bis-2030-so-profitabel-werden-wie-nie-vw-aktie-im-fokus-der-anleger-1036764617",
-   "created_at": "2026-11-15T20:01:45Z",
+   "url": "https://www.moomoo.com/news/post/1004679284/don-t-ignore-the-insider-selling-in-ibex",
+   "created_at": "2026-11-16T02:02:54Z",
    "symbols": [
-    "VOW3"
+    "IBEX"
    ],
    "image": ""
   },
   {
-   "headline": "Ipsos Releases Survey on Pet Longevity in Brazil",
-   "summary": "Ipsos, in partnership with PremieR, published a survey of 1,200 pet owners in Brazil regarding their concerns and perceptions of pet aging and longevity.",
+   "headline": "Helus Pharma to Present Topline Results from Phase 3 APPROACH Study of HLP003",
+   "summary": "Helus Pharma announced it will host a webcast on November 16, 2026, to reveal topline results from its Phase 3 APPROACH clinical trial evaluating HLP003 as an adjunctive treatment for major depressive",
    "source": "fiscal.ai",
-   "url": "https://canaldopet.ig.com.br/2026-11-15/tutores-temem-sofrimento-de-pets-na-velhice--aponta-pesquisa.html",
-   "created_at": "2026-11-15T20:01:44Z",
+   "url": "https://www.globenewswire.com/news-release/2026/11/15/3403114/0/en/helus-pharma-to-present-topline-results-from-phase-3-approach-study-evaluating-hlp003-as-adjunctive-treatment-in-major-depressive-disorder-on-november-16-2026.html",
+   "created_at": "2026-11-16T02:02:52Z",
    "symbols": [
-    "IPS"
+    "HELP"
    ],
    "image": ""
   },
   {
-   "headline": "Berenberg Adjusts Jungheinrich Price Target",
-   "summary": "Private bank Berenberg has lowered its price target for Jungheinrich AG from 37 euros to 34 euros following a review of the company's third-quarter results, while maintaining a 'Buy' rating.",
+   "headline": "Multiple Financial Institutions Update Ratings and Price Targets for Candel Therapeutics",
+   "summary": "On November 14, 2026, several Wall Street firms updated their investment ratings and price targets for Candel Therapeutics (CADL).",
    "source": "fiscal.ai",
-   "url": "https://www.finanznachrichten.de/nachrichten-aktien/jungheinrich-ag.htm",
-   "created_at": "2026-11-15T20:01:41Z",
+   "url": "https://www.moomoo.com/hans/news/post/1004665307/a-quick-look-at-today-s-ratings-for-candel-therapeutics",
+   "created_at": "2026-11-16T02:02:51Z",
    "symbols": [
-    "JUN3"
+    "CADL"
    ],
    "image": ""
   },
   {
-   "headline": "Genmab A/S Holds Extraordinary General Meeting and Approves Board Remuneration",
-   "summary": "Genmab A/S held an Extraordinary General Meeting on November 15, 2026, where shareholders approved the board's 2026 remuneration proposal, including the grant of 5,300 restricted stock units.",
+   "headline": "Jefferies Initiates Coverage of Genesis Minerals with Buy Rating",
+   "summary": "Jefferies has officially initiated research coverage on Genesis Minerals Limited, assigning the stock a 'Buy' rating.",
    "source": "fiscal.ai",
-   "url": "https://ml-eu.globenewswire.com/Resource/Download/7aecd365-4394-4ccd-83f2-4d95224691fc",
-   "created_at": "2026-11-15T20:01:40Z",
+   "url": "https://www.marketscreener.com/news/jefferies-starts-genesis-minerals-at-buy-ce785ededf8cff25",
+   "created_at": "2026-11-16T02:02:51Z",
    "symbols": [
-    "GMAB"
+    "JEF"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "J.P. Morgan Maintains Buy Rating on Solid Biosciences",
+   "summary": "J.P. Morgan analyst Anupam Rama has maintained a \"Buy\" rating on Solid Biosciences (SLDB) and set a price target of $11.",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/hant/news/post/1004439177/jp-morgan-maintains-solid-biosciences-sldbus-with-buy-rating-announces",
+   "created_at": "2026-11-16T02:02:49Z",
+   "symbols": [
+    "SLDB"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Calian Group Ltd. Schedules Quarterly Earnings Presentation",
+   "summary": "Calian Group Ltd. is scheduled to release its financial results for the most recent fiscal quarter on November 30, 2026.",
+   "source": "fiscal.ai",
+   "url": "https://www.finanzen.ch/nachrichten/aktien/erste-schatzungen-calian-technologies-gibt-ergebnis-zum-abgelaufenen-quartal-bekannt-1036764372",
+   "created_at": "2026-11-16T02:02:49Z",
+   "symbols": [
+    "CGY"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Canaccord Genuity Group Inc. Announces Sale of UK Wealth Management Business",
+   "summary": "Canaccord Genuity has entered into a definitive agreement to sell its UK and Crown Dependencies wealth management business to affiliates of Centerbridge Partners, L.P.",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.co.uk/news-releases/canaccord-genuity-group-inc-announces-sale-of-its-wealth-management-business-in-the-uk--crown-dependencies-to-centerbridge-partners-lp-and-mubadala-investment-company-pjsc-302939793.html",
+   "created_at": "2026-11-16T02:02:48Z",
+   "symbols": [
+    "CF"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Canaccord Genuity Group Inc. Enters Into Agreement to Go Private",
+   "summary": "Canaccord Genuity has announced an arrangement agreement to be acquired by an entity owned by its Chairman and CEO, Dan Daviau.",
+   "source": "fiscal.ai",
+   "url": "https://www.newswire.ca/news-releases/canaccord-genuity-group-inc-enters-into-agreement-to-be-taken-private-by-chairman-and-ceo-dan-daviau-835103153.html",
+   "created_at": "2026-11-16T02:02:48Z",
+   "symbols": [
+    "CF"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Piper Sandler Raises Alerus Financial Price Target",
+   "summary": "Piper Sandler has increased its price target for Alerus Financial Corporation (NASDAQ: ALRS) from $38 to $40.",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/hans/news/flash/1003146939/alerus-financial-corp-piper-sandler-raises-target-price-to-40",
+   "created_at": "2026-11-16T02:02:44Z",
+   "symbols": [
+    "ALRS"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Target Hospitality Reports Q3 2026 Financial Results and Raises Revenue Guidance",
+   "summary": "Target Hospitality reported its third-quarter 2026 financial results, showing a net loss of $0.09 per diluted share and an increase in revenue to $129.1 million, while raising its full-year 2026 reven",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/hans/news/post/1003990395/target-hospitality-s-q3-net-loss-widens-revenue-rises-lifts",
+   "created_at": "2026-11-16T02:02:43Z",
+   "symbols": [
+    "TH"
    ],
    "image": ""
   }
