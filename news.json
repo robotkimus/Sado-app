@@ -1,6 +1,91 @@
 {
- "updated": "2026-11-16 21:00",
+ "updated": "2026-11-16 22:00",
  "items": [
+  {
+   "headline": "Nvidia Stock's 'Icarus' Fall Isn’t Over Yet, But Microsoft, Apple Show Path to Recovery, Says Top Strategist: 'Wildly Profitable'",
+   "summary": "JPMorgan&#39;s Michael Cembalest says Microsoft&#39;s and Apple&#39;s recoveries offer hope for Nvidia despite AI competition and market-share losses.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/63285307/nvidia-stocks-icarus-fall-isnt-over-yet-but-microsoft-apple-show-path-to-recovery-says-top-strategist-wildly-profitable",
+   "created_at": "2026-11-16T12:45:52Z",
+   "symbols": [
+    "AAPL",
+    "GOOG",
+    "GOOGL",
+    "MSFT",
+    "NVDA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/16/Jensen-Huang-Nvidia.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "RBC Lowers Price Target on CVS Health",
+   "summary": "RBC Capital Markets has adjusted its price target for CVS Health Corporation, lowering it from $113 to $108 while maintaining an Outperform rating.",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/rbc-lowers-price-target-on-cvs-health-to-108-from-113-keeps-outperform-rating-ce785edfd981f125",
+   "created_at": "2026-11-16T12:32:03Z",
+   "symbols": [
+    "CVS"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "BlackRock Files Q3 2026 13F Holdings Report",
+   "summary": "BlackRock disclosed its investment holdings as of September 30, 2026, reporting a total market value of approximately $6.79 trillion.",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/news/post/1004722673/blackrock-s-q3-portfolio-adjustments-significant-increase-in-meta-metaus",
+   "created_at": "2026-11-16T12:31:36Z",
+   "symbols": [
+    "BLK"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Coatue Management Increases Stake in Broadcom",
+   "summary": "Coatue Management has increased its shareholding in Broadcom Inc. by 14.0%, bringing its total position to 6.7 million shares.",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/news/flash/1004739565/coatue-management-raises-share-stake-in-broadcom-by-14-0",
+   "created_at": "2026-11-16T12:31:21Z",
+   "symbols": [
+    "AVGO"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "EBay, Amazon, Caterpillar and More on CNBC’s ‘Final Trades’",
+   "summary": "CNBC Final Trades: Liz Thomas picked 10-year Treasuries; others favored Caterpillar, Amazon and eBay for growth and strong fundamentals.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/11/63284659/ebay-amazon-caterpillar-on-cnbc-final-trades",
+   "created_at": "2026-11-16T12:28:23Z",
+   "symbols": [
+    "AMZN",
+    "CAT",
+    "EBAY"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/16/Ebay-Sign.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "DOJ Warns Elizabeth Warren of ‘Significant Legal Consequences’ Ahead of Potential Probes Into Trump, Corporate Allies: 'Strong Smoke ​Signal'",
+   "summary": "DOJ warns Elizabeth Warren of potential legal consequences and urges her to preserve records ahead of investigations into Trump allies.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/politics/26/11/63284205/doj-warns-elizabeth-warren-of-significant-legal-consequences-ahead-of-potential-probes-into-trump-corporate-allies-strong-smoke-signal",
+   "created_at": "2026-11-16T12:17:27Z",
+   "symbols": [
+    "NVDA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/16/Prosecutor-Calls-It-His-First-Move.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "'Soft Recession or Something More Dramatic:' Former SEC Chair Gary Gensler Warns AI Boom Could End in Dot-Com-Scale Bust — 'They Loaned Too Much Money, Too Fast'",
+   "summary": "Wall Street’s former top cop warns AI bubble could spark recession before 2028 election.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/63283689/soft-recession-or-something-more-dramatic-former-sec-chair-gary-gensler-warns-ai-boom-could-end-in-dot-com-scale-bust-they-loaned-too-much-money-too-fast",
+   "created_at": "2026-11-16T12:05:59Z",
+   "symbols": [
+    "CRWV",
+    "META",
+    "NVDA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/16/Sept--12--2023-Washington--D-C---USA-Gar.jpg?width=1024&height=768"
+  },
   {
    "headline": "NVIDIA Must Now Prove It's Bigger Than Jensen Huang",
    "summary": "NVIDIA stock slips ahead of Q3 FY27 earnings as Wall Street weighs Jensen Huang’s exit, export risks, and rising AI competition.",
@@ -99,376 +184,282 @@
    "image": "https://cdn.benzinga.com/files/images/story/2026/11/16/Washington--January-29-2025-Howard-Lutni.jpg?width=1024&height=768"
   },
   {
-   "headline": "Why Is Rocket Lab Stock Falling Monday?",
-   "summary": "Rocket Lab (RKLB) stock dipped over 4% premarket after rival ULA&#39;s Vulcan rocket failed to deploy 40 Amazon satellites, rattling space stocks",
+   "headline": "AstraZeneca Secures Dual Rare Disease and Bladder Cancer Approvals Across US, Europe",
+   "summary": "U.S. and EU regulators approve AstraZeneca&#39;s Klygefa for generalized myasthenia gravis, while the FDA clears Imfinzi for bladder cancer.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/news/space/26/11/63280714/why-is-rocket-lab-stock-falling-monday",
-   "created_at": "2026-11-16T10:14:25Z",
+   "url": "https://www.benzinga.com/news/fda/26/11/63285561/astrazeneca-secures-dual-rare-disease-and-bladder-cancer-approvals-across-us-europe",
+   "created_at": "2026-11-16T12:52:34Z",
    "symbols": [
-    "AMZN",
-    "ARKQ",
-    "ARKX",
-    "BA",
-    "LMT"
+    "AZN"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/16/Rocket-Lab-USA.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/16/Shanghai-china-feb-12th-2023-Astrazeneca.jpg?width=1024&height=768"
   },
   {
-   "headline": "Big Short Investor Michael Burry Takes Aim at Nvidia's Jensen Huang — Says 'Sad That It Took a Lurid Affair' to Expose How Chinese Firms Accessed Restricted AI Chips",
-   "summary": "Michael Burry says it sadly took a &#34;lurid affair&#34; for the press to expose ex-Nvidia CEO Jensen Huang&#39;s backdoor AI chip pipeline to China.",
+   "headline": "Why Is Lionsgate Studios Stock Surging Monday?",
+   "summary": "Lionsgate (LION) stock surges ahead of The Hunger Games: Sunrise on the Reaping debut, backed by $300M opening projections and Q2 beats.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/11/63280517/big-short-investor-michael-burry-takes-aim-at-nvidias-jensen-huang-says-sad-that-it-took-a-lurid-affair-to-expose-how-chinese-firms-accessed-restricted-ai-chips",
-   "created_at": "2026-11-16T10:00:06Z",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63285144/why-is-lionsgate-studios-stock-surging-monday",
+   "created_at": "2026-11-16T12:38:14Z",
    "symbols": [
-    "NVDA"
+    "LION"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/16/China-Semiconductor-Industry--Computer-C.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/16/Kharkiv--Ukraine---June-1--2020-Smartpho.jpg?width=1024&height=768"
   },
   {
-   "headline": "Stock Market Today: Dow Jones, S&P 500 Futures Trade Mixed as Scott Bessent Presses Nvidia Over China Chips — BIDU, RKLB, MSTR in Focus",
-   "summary": "U.S. stocks were mixed on Monday, as the Dow Jones, S&amp;P 500, and Nasdaq 100 index futures moved in different directions.",
+   "headline": "Meet Wall Street’s New Dividend King: SCHD’s $27.5B Inflow Surge Signals Shift Away from AI",
+   "summary": "Schwab U.S. Dividend Equity ETF (SCHD) is now America&#39;s largest dividend ETF, overtaking VIG. Is Wall Street changing its mind on AI?",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/11/63280484/stock-market-today-dow-jones-sp-500-futures-trade-mixed-as-scott-bessent-presses-nvidia-over-china-chips-bidu-rklb-mstr-in-focus",
-   "created_at": "2026-11-16T09:57:55Z",
+   "url": "https://www.benzinga.com/etfs/specialty-etfs/26/11/63285209/meet-wall-streets-new-dividend-king-schds-27-5b-inflow-surge-signals-shift-away-from-ai",
+   "created_at": "2026-11-16T12:41:18Z",
    "symbols": [
-    "BIDU",
-    "BTCUSD",
-    "DIA",
-    "MSTR",
-    "NVDA"
+    "CGDV",
+    "COP",
+    "CVX",
+    "MRK",
+    "SCHD"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/16/NYSE.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/16/Businessman-Is-Selecting-Dividends-On-Th.jpg?width=1024&height=768"
   },
   {
-   "headline": "Fallout From Last Week's News May Be More Severe Than Market Action Suggests",
-   "summary": "I was surprised to learn about Jensen Huang’s affairs with a suspected spy and reportedly at least two company subordinates.\n\n\n\nBefore that news got out, I hadn’t anticipated he would suddenly resign ",
+   "headline": "Bitcoin Could Hit $90,000 if the Anthropic IPO Repeats the SpaceX IPO Pattern",
+   "summary": "Bitcoin could reach $90,000 by February if its Anthropic IPO selloff repeats the rebound that followed SpaceX’s listing.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/opinion/26/11/63280256/fallout-from-last-week-news-may-be-more-severe-than-market-action-suggests",
-   "created_at": "2026-11-16T09:22:17Z",
+   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/11/63285114/bitcoin-anthropic-ipo",
+   "created_at": "2026-11-16T12:36:56Z",
    "symbols": [
-    "IVV",
-    "META",
-    "NVDA",
-    "SPY",
-    "VOO"
+    "ASST",
+    "BTCUSD"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/16/Sam-Ro.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/16/Golden-Bitcoin-Coin-Is-In-Red-And-Blue-S.jpg?width=1024&height=768"
   },
   {
-   "headline": "Elizabeth Warren Takes Aim at Big Tech Billionaires Over China AI Access — '...Put Our National Security Above Their Bottom Line'",
-   "summary": "Warren urges Congress to restrict China&#39;s access to advanced AI, warning Big Tech profits may undermine U.S. national security.",
+   "headline": "How To Earn $500 A Month From Home Depot Stock Ahead of Q3 Earnings",
+   "summary": "Home Depot expects Q3 EPS of $3.84 and $42.78B revenue. Its 2.67% dividend requires about $224,556 invested to earn $500 monthly.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/11/63280126/elizabeth-warren-big-tech-ceos-us-national-security-china-ai-technology",
-   "created_at": "2026-11-16T09:06:00Z",
+   "url": "https://www.benzinga.com/trading-ideas/dividends/26/11/63285005/how-to-earn-500-a-month-from-home-depot-stock-ahead-of-q3-earnings-3",
+   "created_at": "2026-11-16T12:34:01Z",
    "symbols": [
-    "MSFT",
-    "NVDA",
-    "PLTR"
+    "HD"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/16/Finance-Faces-Exposure.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/16/The-Home-Depot.jpg?width=1024&height=768"
   },
   {
-   "headline": "Nvidia's Jensen Huang Controversy Could Backfire on China, Chamath Palihapitiya Says — Washington May Get the Chip Controls It's Been Seeking",
-   "summary": "Over the weekend, Chamath Palihapitiya said Nvidia’s turmoil could give the U.S. government greater control over AI chips.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/11/63280028/nvidia-chamath-us-government-chip-control",
-   "created_at": "2026-11-16T08:51:14Z",
-   "symbols": [
-    "AMD",
-    "ARM",
-    "GOOG",
-    "GOOGL",
-    "NVDA"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/16/Donald-Trump-And-Xi-Jinping-Stand-Togeth.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Scott Bessent Gives Nvidia 10 Days to Explain China Chip Concerns, Calls for External CEO to Replace Jensen Huang: 'Dramatic Shakeup'",
-   "summary": "Scott Bessent urges Nvidia to appoint an outside CEO and demands answers on China chip sales and alleged export violations.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/11/63279833/scott-bessent-gives-nvidia-10-days-to-explain-china-chip-concerns-calls-for-external-ceo-to-replace-jensen-huang-dramatic-shakeup",
-   "created_at": "2026-11-16T08:09:04Z",
-   "symbols": [
-    "ARM",
-    "NVDA"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/16/Washington---January-16-2025-Treasury-Se.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "AECOM Earnings Are Imminent; These Most Accurate Analysts Revise Forecasts Ahead Of Earnings Call",
-   "summary": "AECOM reports Q4 earnings Nov. 16; analysts expect EPS of $1.59 and $4.1B revenue. Analysts maintain bullish ratings but cut price targets.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/63283065/aecom-earnings-are-imminent-these-most-accurate-analysts-revise-forecasts-ahead-of-earnings-call",
-   "created_at": "2026-11-16T11:55:05Z",
-   "symbols": [
-    "ACM"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/16/Los-Angeles--Ca--Usa---May-11--2022-Exte.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "5 Stock Picks Last Week From Wall Street's Most Accurate Analysts",
-   "summary": "U.S. stocks ended mixed, but major indexes posted weekly gains. Benzinga highlights top-rated analysts’ bullish picks for AMAT, CSCO and CBRS.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/63282700/5-stock-picks-last-week-from-wall-streets-most-accurate-analysts-43",
-   "created_at": "2026-11-16T11:40:05Z",
-   "symbols": [
-    "AMAT",
-    "CBRS",
-    "CSCO",
-    "EYE"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/16/Operations-Research-Analysts.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "United Launch Alliance Rocket Mission Fails to Deploy Satellites",
-   "summary": "A United Launch Alliance (ULA) rocket, a joint venture between Boeing and Lockheed Martin, experienced a technical malfunction during a mission, resulting in the loss of Amazon satellites.",
+   "headline": "RBC Raises Price Target on Kinetik Holdings to $62 From $58",
+   "summary": "RBC Capital Markets has increased its price target for Kinetik Holdings Inc. from $58 to $62 while maintaining an Outperform rating.",
    "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/amazon-loses-40-leo-satellites-after-boeing-lockheed-rocket-fails-ce785edfd98af125",
-   "created_at": "2026-11-16T11:32:41Z",
+   "url": "https://www.marketscreener.com/news/rbc-raises-price-target-on-kinetik-holdings-to-62-from-58-keeps-outperform-rating-ce785edfd889f226",
+   "created_at": "2026-11-16T12:33:11Z",
    "symbols": [
-    "BA"
+    "KNTK"
    ],
    "image": ""
   },
   {
-   "headline": "Jefferies Adjusts Price Target on AppLovin to $500 From $430",
-   "summary": "Investment firm Jefferies has raised its price target for AppLovin Corporation, moving it from $430 to $500.",
+   "headline": "Truist Securities Adjusts Price Target on Samsara to $41 From $48",
+   "summary": "Truist Securities has lowered its price target for Samsara Inc. (NYSE: IOT) from $48 to $41 while maintaining a 'Hold' rating on the stock.",
    "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/jefferies-adjusts-price-target-on-applovin-to-500-from-430-ce785edfd98bff23",
-   "created_at": "2026-11-16T11:32:39Z",
+   "url": "https://www.marketscreener.com/news/truist-securities-adjusts-price-target-on-samsara-to-41-from-48-keeps-hold-rating-ce785edfd98cf724",
+   "created_at": "2026-11-16T12:33:10Z",
    "symbols": [
-    "APP"
+    "IOT"
    ],
    "image": ""
   },
   {
-   "headline": "UBS Upgrades Nucor to Buy with $307 Price Target",
-   "summary": "UBS has upgraded Nucor Corporation to a Buy rating, setting a new price target of $307 per share.",
+   "headline": "Piper Sandler Adjusts Home Depot Price Target",
+   "summary": "Piper Sandler has revised its price target for Home Depot, citing the current interest rate outlook.",
    "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/ubs-upgrades-nucor-to-buy-price-target-is-307-ce785eded08efe2d",
-   "created_at": "2026-11-16T11:32:21Z",
+   "url": "https://www.vantagemarkets.com/market-analysis/why-home-depot-stock-climbed-q3-earnings-november-16-2026/",
+   "created_at": "2026-11-16T12:33:10Z",
    "symbols": [
-    "NUE"
+    "PIPR"
    ],
    "image": ""
   },
   {
-   "headline": "Freeport-McMoRan's Indonesian Joint Venture Announces Planned Notes Offering",
-   "summary": "Freeport-McMoRan's Indonesian joint venture has unveiled plans for a new notes offering.",
+   "headline": "RBC Lifts Price Target on Addus HomeCare to $141 From $134",
+   "summary": "RBC Capital Markets has raised its price target for Addus HomeCare Corporation while maintaining an Outperform rating.",
    "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/freeport-mcmoran-s-indonesian-jv-unveils-planned-notes-offering-ce785eded08bfe25",
-   "created_at": "2026-11-16T11:32:14Z",
+   "url": "https://www.marketscreener.com/news/rbc-lifts-price-target-on-addus-homecare-to-141-from-134-keeps-outperform-rating-ce785edfd98cf426",
+   "created_at": "2026-11-16T12:32:54Z",
    "symbols": [
-    "FCX"
+    "ADUS"
    ],
    "image": ""
   },
   {
-   "headline": "Uber Eats and Best Buy Canada Announce Exclusive Delivery Partnership",
-   "summary": "Uber Technologies, Inc. and Best Buy Co., Inc. have launched a partnership making Uber Eats the exclusive third-party delivery marketplace for Best Buy Canada.",
+   "headline": "Leerink Partners Initiates Coverage of Palvella Therapeutics with Outperform Rating",
+   "summary": "Leerink Partners has initiated coverage on Palvella Therapeutics, assigning the stock an 'Outperform' rating and a price target of $228.",
    "source": "fiscal.ai",
-   "url": "https://www.newswire.ca/news-releases/best-buy-canada-and-uber-eats-partner-for-on-demand-electronics-delivery-across-canada-875392762.html",
-   "created_at": "2026-11-16T11:32:08Z",
+   "url": "https://www.marketscreener.com/news/leerink-partners-initiates-palvella-therapeutics-at-outperform-with-228-price-target-ce785edfd98cf723",
+   "created_at": "2026-11-16T12:32:53Z",
    "symbols": [
-    "UBER"
+    "PVLA"
    ],
    "image": ""
   },
   {
-   "headline": "Jefferies Adjusts Price Target on Walt Disney to $140 From $125",
-   "summary": "Investment firm Jefferies has increased its price target for The Walt Disney Company, raising it from $125 to $140.",
+   "headline": "Analysts Adjust Price Targets for Installed Building Products",
+   "summary": "RBC and Truist Securities have updated their price targets for Installed Building Products, reflecting revised outlooks from the firms.",
    "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/jefferies-adjusts-price-target-on-walt-disney-to-140-from-125-ce785eded081f521",
-   "created_at": "2026-11-16T11:32:07Z",
+   "url": "https://www.marketscreener.com/news/rbc-raises-price-target-on-installed-building-products-to-215-from-194-keeps-sector-perform-ratin-ce785edfd981f120",
+   "created_at": "2026-11-16T12:32:53Z",
    "symbols": [
-    "DIS"
+    "IBP"
    ],
    "image": ""
   },
   {
-   "headline": "HBSC Adjusts Price Target on Southern Company to $103 From $99.50",
-   "summary": "HBSC has updated its price target for Southern Company, raising it from $99.50 to $103.",
+   "headline": "Oruka Therapeutics Insider Sells Shares Worth Over $1 Million",
+   "summary": "A recent SEC filing indicates that an insider at Oruka Therapeutics has sold shares of the company's stock valued at approximately $1,049,658.",
    "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/hbsc-adjusts-price-target-on-southern-company-to-103-from-99-50-ce785edfd98bf522",
-   "created_at": "2026-11-16T11:32:07Z",
+   "url": "https://www.moomoo.com/hant/news/flash/1004729225/premarket-snapshot",
+   "created_at": "2026-11-16T12:32:45Z",
    "symbols": [
-    "SO"
+    "ORKA"
    ],
    "image": ""
   },
   {
-   "headline": "Goldman Sachs and Banco Santander Reportedly Selling Risk Transfers for Loan Portfolios",
-   "summary": "Goldman Sachs and Banco Santander are reportedly selling significant risk transfers for large corporate loan portfolios amid record deal activity.",
+   "headline": "Goldman Sachs Downgrades YETI Holdings to Neutral",
+   "summary": "Goldman Sachs has downgraded YETI Holdings, Inc. from Buy to Neutral, setting a price target of $41.",
    "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/santander-goldman-sachs-sell-risk-transfers-on-corporate-loan-portfolios-ce785edfd98bf22d",
-   "created_at": "2026-11-16T11:32:07Z",
+   "url": "https://www.marketscreener.com/news/goldman-sachs-downgrades-yeti-to-neutral-from-buy-price-target-is-41-ce785eded080f425",
+   "created_at": "2026-11-16T12:32:43Z",
    "symbols": [
-    "GS"
+    "YETI"
    ],
    "image": ""
   },
   {
-   "headline": "Morgan Stanley Adjusts Price Target on Marsh & McLennan Companies to $215 From $190",
-   "summary": "Morgan Stanley has revised its price target for Marsh & McLennan Companies, increasing it from $190 to $215.",
+   "headline": "Maire S.p.A. Acquires LNG Project Assets from Baker Hughes Unit",
+   "summary": "Maire S.p.A. has acquired a business unit from Baker Hughes focused on liquefied natural gas (LNG) projects.",
    "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/morgan-stanley-adjusts-price-target-on-marsh-mclennan-companies-to-215-from-190-ce785edfd98af72c",
-   "created_at": "2026-11-16T11:32:06Z",
+   "url": "https://www.fidelity.com/news/article/company-news/202611160350RTRSNEWSCOMBINED_L3N46X08Y_1",
+   "created_at": "2026-11-16T12:32:42Z",
    "symbols": [
-    "MRSH"
+    "BKR"
    ],
    "image": ""
   },
   {
-   "headline": "Citigroup Adjusts Price Target on Dell Technologies to $550 From $600",
-   "summary": "Citigroup has revised its price target for Dell Technologies, lowering it from $600 to $550.",
+   "headline": "Truist Adjusts Price Target on Lineage to $41 From $46",
+   "summary": "Truist has lowered its price target for Lineage, Inc. from $46 to $41 while maintaining a Buy rating on the stock.",
    "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/citigroup-adjusts-price-target-on-dell-technologies-to-550-from-600-ce785edfd98bf52c",
-   "created_at": "2026-11-16T11:32:05Z",
+   "url": "https://www.marketscreener.com/news/truist-adjusts-price-target-on-lineage-to-41-from-46-maintains-buy-rating-ce785eded081f52c",
+   "created_at": "2026-11-16T12:32:42Z",
    "symbols": [
-    "DELL"
+    "LINE"
    ],
    "image": ""
   },
   {
-   "headline": "Rothschild & Co Redburn Adjusts Price Target on Charles Schwab",
-   "summary": "Rothschild & Co Redburn has revised its price target for The Charles Schwab Corporation, lowering it from $120 to $105.",
+   "headline": "Truist Adjusts Price Target on Encore Capital to $115 From $122",
+   "summary": "Truist has lowered its price target for Encore Capital Group, Inc. from $122 to $115 while maintaining a Hold rating on the stock.",
    "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/rothschild-co-redburn-adjusts-price-target-on-charles-schwab-to-105-from-120-ce785eded081f424",
-   "created_at": "2026-11-16T11:32:00Z",
+   "url": "https://www.marketscreener.com/news/truist-adjusts-price-target-on-encore-capital-to-115-from-122-maintains-hold-rating-ce785eded081f523",
+   "created_at": "2026-11-16T12:32:41Z",
    "symbols": [
-    "SCHW"
+    "ECPG"
    ],
    "image": ""
   },
   {
-   "headline": "Mizuho Adjusts Price Target on Welltower to $270 From $260",
-   "summary": "Mizuho has updated its price target for Welltower Inc., increasing it from $260 to $270.",
+   "headline": "Altius Resources Subsidiary Completes Voyageur Project Option Agreement",
+   "summary": "Altius Resources Michigan Inc., a subsidiary of Altius Minerals, participated in the completion of an option agreement for the Voyageur Project, resulting in the receipt of common shares.",
    "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/mizuho-adjusts-price-target-on-welltower-to-270-from-260-ce785edfd98bf220",
-   "created_at": "2026-11-16T11:31:59Z",
+   "url": "https://www.newsfilecorp.com/release/324128/Perseverance-Metals-Earns-100-Ownership-of-the-Voyageur-NiCuPGE-Project-Michigan-USA",
+   "created_at": "2026-11-16T12:32:39Z",
    "symbols": [
-    "WELL"
+    "ALS"
    ],
    "image": ""
   },
   {
-   "headline": "Citigroup Adjusts Price Target on Hewlett Packard Enterprise to $80 From $92",
-   "summary": "Citigroup has revised its price target for Hewlett Packard Enterprise, lowering it from $92 to $80.",
+   "headline": "Mizuho Securities Adjusts Price Target for Alexandria Real Estate Equities",
+   "summary": "Mizuho Securities has revised its price target for Alexandria Real Estate Equities, lowering it from $60 to $50.",
    "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/citigroup-adjusts-price-target-on-hewlett-packard-enterprise-to-80-from-92-ce785eded080f221",
-   "created_at": "2026-11-16T11:31:56Z",
+   "url": "https://www.moomoo.com/hans/news/post/1004739234",
+   "created_at": "2026-11-16T12:32:32Z",
    "symbols": [
-    "HPE"
+    "ARE"
    ],
    "image": ""
   },
   {
-   "headline": "UBS Initiates Coverage of OFG Bancorp with Sell Rating",
-   "summary": "UBS has initiated research coverage on OFG Bancorp with a \"Sell\" rating and a price target of $50.",
+   "headline": "Granite Completes Acquisitions of Construction Materials Company and Ford Construction",
+   "summary": "Granite Construction Incorporated has finalized the acquisition of a construction materials company and Ford Construction.",
    "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/ubs-initiates-ofg-bancorp-at-sell-with-50-price-target-ce785eded080f424",
-   "created_at": "2026-11-16T11:31:56Z",
+   "url": "https://www.moomoo.com/hans/news/flash/1004742503/granite-completes-acquisitions-of-construction-materials-company-and-ford-construction",
+   "created_at": "2026-11-16T12:32:30Z",
    "symbols": [
-    "OFG"
+    "GVA"
    ],
    "image": ""
   },
   {
-   "headline": "BNP Paribas Adjusts Price Target on Monster Beverage to $47",
-   "summary": "BNP Paribas has revised its price target for Monster Beverage Corporation, lowering it from $48 to $47.",
+   "headline": "Chefs' Warehouse Insider Sold Shares Worth $1,072,660",
+   "summary": "An insider at The Chefs' Warehouse, Inc. sold shares of company stock valued at approximately $1.07 million, as disclosed in a recent SEC filing.",
    "source": "fiscal.ai",
-   "url": "https://www.moomoo.com/hans/news/post/1004740187/bnp-paribas-adjusts-price-target-on-monster-beverage-to-47",
-   "created_at": "2026-11-16T11:31:56Z",
+   "url": "https://www.marketscreener.com/news/chefs-warehouse-insider-sold-shares-worth-1-072-660-according-to-a-recent-sec-filing-ce785eded089ff20",
+   "created_at": "2026-11-16T12:32:28Z",
    "symbols": [
-    "MNST"
+    "CHEF"
    ],
    "image": ""
   },
   {
-   "headline": "DA Davidson Adjusts Price Target on Berkshire Hathaway to $635 From $592",
-   "summary": "DA Davidson has updated its price target for Berkshire Hathaway, raising it to $635 from $592 while maintaining a Buy rating.",
+   "headline": "Kinaxis Named a Leader in Five 2026 IDC MarketScapes for Worldwide Supply Chain Planning",
+   "summary": "Kinaxis has been recognized as a leader across five distinct 2026 IDC MarketScape reports focused on worldwide supply chain planning.",
    "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/da-davidson-adjusts-price-target-on-berkshire-hathaway-to-635-from-592-maintains-buy-rating-ce785eded081f527",
-   "created_at": "2026-11-16T11:31:54Z",
+   "url": "https://www.businesswirechina.com/en/news/64611.html",
+   "created_at": "2026-11-16T12:32:27Z",
    "symbols": [
-    "BRK.A"
+    "KXS"
    ],
    "image": ""
   },
   {
-   "headline": "Micron, Samsung, and SK Hynix Fail to Dismiss DRAM Price-Fixing Lawsuit",
-   "summary": "A court has denied a motion by Micron Technology, Samsung, and SK Hynix to dismiss a lawsuit alleging price-fixing in the DRAM market.",
+   "headline": "Mizuho Adjusts Price Target on Healthpeak Properties to $23 From $24",
+   "summary": "Mizuho has revised its price target for Healthpeak Properties, Inc., lowering it from $24 to $23.",
    "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/micron-samsung-sk-hynix-fail-to-get-dram-price-fixing-lawsuit-dismissed-ce785eded088f123",
-   "created_at": "2026-11-16T11:31:53Z",
+   "url": "https://www.marketscreener.com/news/mizuho-adjusts-price-target-on-healthpeak-properties-to-23-from-24-ce785edfd98bf42d",
+   "created_at": "2026-11-16T12:32:26Z",
    "symbols": [
-    "MU"
+    "DOC"
    ],
    "image": ""
   },
   {
-   "headline": "Wells Fargo Downgrades Cogent Communications to Underweight",
-   "summary": "Wells Fargo has downgraded Cogent Communications Holdings, Inc. from Equalweight to Underweight and set a price target of $4.",
+   "headline": "HSBC Adjusts Price Target on Pinnacle West Capital to $123 From $119.50",
+   "summary": "HSBC has updated its price target for Pinnacle West Capital Corporation, increasing it from $119.50 to $123.",
    "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/wells-fargo-downgrades-cogent-communications-to-underweight-from-equalweight-price-target-is-4-ce785eded080f427",
-   "created_at": "2026-11-16T11:31:53Z",
+   "url": "https://www.marketscreener.com/news/hsbc-adjusts-price-target-on-pinnacle-west-capital-to-123-from-119-50-ce785edfd98bf327",
+   "created_at": "2026-11-16T12:32:25Z",
    "symbols": [
-    "WFC"
+    "PNW"
    ],
    "image": ""
   },
   {
-   "headline": "HSBC Adjusts Price Target on Gilead Sciences to $190 From $175",
-   "summary": "HSBC has increased its price target for Gilead Sciences, reflecting a change in the firm's valuation outlook for the biopharmaceutical company.",
+   "headline": "Black Hills Corporation and NorthWestern Energy Complete Merger",
+   "summary": "NorthWestern Energy Group, Inc. and Black Hills Corporation have finalized their merger, resulting in the formation of a new entity named Bright Horizon Energy Corporation.",
    "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/hsbc-adjusts-price-target-on-gilead-sciences-to-190-from-175-ce785edfd98bf125",
-   "created_at": "2026-11-16T11:31:53Z",
+   "url": "https://www.marketscreener.com/news/black-hills-northwestern-complete-merger-to-form-bright-horizon-energy-ce785edfd889f42d",
+   "created_at": "2026-11-16T12:32:23Z",
    "symbols": [
-    "GILD"
+    "NWE"
    ],
    "image": ""
   },
   {
-   "headline": "Northcoast Downgrades Costco Wholesale to Neutral",
-   "summary": "Northcoast has downgraded Costco Wholesale Corporation's stock rating from Buy to Neutral.",
+   "headline": "Zymeworks Announces $200 Million Share Repurchase Authorization",
+   "summary": "Zymeworks Inc. has authorized a second 2026 share repurchase program, allowing for the buyback of up to $200 million of its common stock through 2028.",
    "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/northcoast-downgrades-costco-wholesale-to-neutral-from-buy-ce785edfd98bf020",
-   "created_at": "2026-11-16T11:31:51Z",
+   "url": "https://www.globenewswire.com/news-release/2026/11/16/3403291/0/en/zymeworks-announces-200-million-share-repurchase-authorization.html",
+   "created_at": "2026-11-16T12:32:23Z",
    "symbols": [
-    "COST"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Transportation Safety Board of Canada Investigating CN Derailment in Alberta",
-   "summary": "The Transportation Safety Board of Canada (TSB) has deployed investigators to the site of a Canadian National Railway derailment in Alberta.",
-   "source": "fiscal.ai",
-   "url": "https://www.trains.com/pro/freight/",
-   "created_at": "2026-11-16T11:31:46Z",
-   "symbols": [
-    "CNR"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "BMO Capital Adjusts Price Target on Simon Property Group to $255",
-   "summary": "BMO Capital has increased its price target for Simon Property Group, Inc. from $250 to $255.",
-   "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/bmo-capital-adjusts-price-target-on-simon-property-to-255-from-250-ce785edfd98bff24",
-   "created_at": "2026-11-16T11:31:44Z",
-   "symbols": [
-    "SPG"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Adobe Highlights C2PA Standards at Adobe MAX 2026",
-   "summary": "At the Adobe MAX 2026 conference, Adobe emphasized the role of the C2PA standard in distinguishing AI-generated content and providing provenance information.",
-   "source": "fiscal.ai",
-   "url": "https://www.techtimes.vn/adobe-c2pa-adobe-nhan-manh-chuan-c2pa-de-ghi-nguon-noi-dung-ai/",
-   "created_at": "2026-11-16T11:31:43Z",
-   "symbols": [
-    "ADBE"
+    "ZYME"
    ],
    "image": ""
   }
