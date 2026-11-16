@@ -1,477 +1,486 @@
 {
- "updated": "2026-11-15 03:00",
+ "updated": "2026-11-16 11:00",
  "items": [
   {
-   "headline": "Microsoft Restores Services Following Global Outage",
-   "summary": "Microsoft has confirmed that its services, including Outlook, Teams, and Copilot, have fully recovered following a widespread global outage that lasted over 24 hours.",
-   "source": "fiscal.ai",
-   "url": "https://www.cobramcourier.com.au/world/microsoft-services-fully-recover-after-global-outage/",
-   "created_at": "2026-11-14T14:01:11Z",
-   "symbols": [
-    "MSFT"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "NVDA, AMD, CRWV and More: 5 Stocks Investors Couldn’t Stop Buzzing About This Week",
-   "summary": "tail investors talked up five hot stocks during the week (Nov. 9 to Nov. 13) on X and Reddit&#39;s r/WallStreetBets: NVDA, AMD, TSLA, CSCO, CRWV",
+   "headline": "Jensen Huang Could Return to Nvidia as Silicon Valley Plans ‘War Room,’ While Anthony Scaramucci Says ‘Not Happening’",
+   "summary": "Jensen Huang’s comeback odds have jumped to 51%, but Scaramucci says ongoing investigations could block his reinstatement.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/equities/26/11/63273727/nvda-amd-crwv-and-more-5-stocks-investors-couldnt-stop-buzzing-about-this-week",
-   "created_at": "2026-11-14T12:17:58Z",
+   "url": "https://www.benzinga.com/markets/tech/26/11/63278302/jensen-huang-nvidia-comeback-scaramucci",
+   "created_at": "2026-11-16T01:45:31Z",
    "symbols": [
-    "AMD",
-    "AVGO",
-    "CRWV",
-    "CSCO",
-    "NVDA"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/14/Nvidia-Logo-On-Smartphone-Screen-And-Amd.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Benzinga Bulls and Bears: Nvidia, Rocket Lab, Nebius",
-   "summary": "Benzinga examined the prospects for many investors’ favorite stocks over the last week — here’s a look at some of our top stories.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/market-summary/26/11/63273716/benzinga-bulls-and-bears-nvidia-rocket-lab-nebius",
-   "created_at": "2026-11-14T12:17:23Z",
-   "symbols": [
-    "ACHR",
-    "AMD",
-    "ANET",
-    "APPS",
-    "ASTS"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/14/Bulls-and-Bears-1.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "'Nvidia Will Die Without Jensen' Doesn't Add Up, Says Anthony Scaramucci, Pointing to Apple's Post-Steve Jobs Success: 'Great Entrepreneurs...'",
-   "summary": "On Friday, Anthony Scaramucci argued Nvidia can thrive without Jensen Huang, citing Apple&#39;s post-Steve Jobs success.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/11/63273511/anthony-scaramucci-nvidia-jensen-huang",
-   "created_at": "2026-11-14T08:00:57Z",
-   "symbols": [
-    "AAPL",
-    "NVDA"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/14/Jakarta--September-07-2024-Nvidia-Corpor.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Gary Black Says Tesla Board Would Be Reluctant to Hire Jensen Huang, Warns Against Bringing Ex-Nvidia Chief Into Elon Musk's Empire",
-   "summary": "On Friday, Gary Black says Tesla’s board would resist hiring former Nvidia CEO Jensen Huang due to governance risks.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/11/63273462/gary-black-tesla-board-jensen-huang",
-   "created_at": "2026-11-14T06:59:12Z",
-   "symbols": [
+    "ARM",
     "NVDA",
-    "SPCX",
     "TSLA"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/14/Magnified-View-Of-Tech-Mogul-Elon-Musk-I.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/16/Jensen-Huang--Nvidia-Founder-And-Ceo-And.jpg?width=1024&height=768"
   },
   {
-   "headline": "FAA Resumes Flights After Nationwide Ground Stop, Says No Link to Microsoft Outage or Cyberattack; Marjorie Taylor Greene Slams Duffy's $50 Billion Ask (UPDATED)",
-   "summary": "FAA lifts nationwide ground stop after a telecommunications failure disrupted air traffic operations, delaying thousands of flights.",
+   "headline": "Anthropic IPO Is Coming Up: Top Companies Set to Benefit if ANT Stock Jumps",
+   "summary": "The upcoming Anthropic IPO will benefit some of the biggest companies in Wall Street like Google, Amazon, and Salesforce.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/news/politics/26/11/63273371/faa-lifts-nationwide-ground-stop-telecommunications-outage",
-   "created_at": "2026-11-14T06:28:22Z",
-   "symbols": [
-    "MSFT"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/14/Boston--Us---Sep-16--2024-An-Aerial-View.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Nvidia Yet to Hire Search Firm for Jensen Huang's Successor as Arm CEO Rene Haas Reportedly Emerges as Potential Contender",
-   "summary": "Nvidia has yet to begin its CEO search, with Arm&#39;s Rene Haas emerging as a potential successor to Jensen Huang.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/11/63273340/nvidia-rene-haas-jensen-huang",
-   "created_at": "2026-11-14T05:10:17Z",
-   "symbols": [
-    "AAPL",
-    "AMD",
-    "ARM",
-    "MRVL",
-    "MU"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/14/Jensen-Huang--Nvidia-Founder-And-Ceo-And.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Elon Musk Says He Is ‘Signing’ Petition to Reinstate Jensen Huang as Nvidia Employees Rally Behind Former CEO",
-   "summary": "On Friday, Elon Musk said he had joined calls to reinstate former Nvidia CEO Jensen Huang following his resignation.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/tech/26/11/63273186/elon-musk-jensen-huang-nvidia",
-   "created_at": "2026-11-14T02:38:34Z",
-   "symbols": [
-    "NVDA"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/14/Person-Holding-Mobile-Phone-Screen-Revea.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Amazon YVR2 Fulfillment Center Workers Covered by Binding Collective Agreement",
-   "summary": "Approximately 800 workers at Amazon's YVR2 fulfillment center are now subject to a binding collective agreement following an independent arbitration process.",
-   "source": "fiscal.ai",
-   "url": "https://www.newswire.ca/news-releases/amazon-workers-in-delta-win-first-union-contract-in-north-america-888332994.html",
-   "created_at": "2026-11-13T22:32:09Z",
-   "symbols": [
-    "AMZN"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "BlackRock Transfers $205.59 Million in Crypto Assets to Coinbase Prime",
-   "summary": "BlackRock moved approximately $205.59 million in Bitcoin and Ethereum from its exchange-traded fund (ETF) wallets to Coinbase Prime.",
-   "source": "fiscal.ai",
-   "url": "https://www.moomoo.com/community/feed/blackrock-moves-another-205-59m-in-crypto-to-coinbase-prime-117609358426117",
-   "created_at": "2026-11-13T22:31:38Z",
-   "symbols": [
-    "BLK"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Bitcoin, Ethereum, XRP Bottom Calls Get Louder but Prediction Markets Disagree",
-   "summary": "Bitcoin, Ethereum and XRP plunge as analysts split on a bottom and Polymarket bettors see BTC falling to $65,000.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/cryptocurrency/26/11/63271367/bitcoin-ethereum-xrp-bottom-calls-get-louder-but-prediction-markets-disagree",
-   "created_at": "2026-11-13T22:00:08Z",
-   "symbols": [
-    "BTCUSD",
-    "ETHUSD",
-    "NVDA",
-    "XRPUSD"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/13/Flying-Altcoins-With-Bitcoin-In-The-Cent.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "‘Nvidia Letting Jensen Go is Terrible for America’: Podcaster Lex Fridman Compares Chipmaker to Apple Firing Steve Jobs",
-   "summary": "Podcaster Lex Fridman thinks Nvidia was wrong to force Jensen Huang out as CEO.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63271091/nvidia-letting-jensen-go-is-terrible-for-america-podcaster-lex-fridman-compares-chipmaker-to-apple-firing-steve-jobs",
-   "created_at": "2026-11-13T21:48:57Z",
-   "symbols": [
-    "NVDA"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/13/Jensen-Huang-Nvidias-Founder--President-.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Amazon Developing 'World Product Graph' to Expand Shopping Data",
-   "summary": "Amazon is reportedly developing an initiative called 'World Product Graph' to provide shoppers with comprehensive product information, including items not currently stocked by the company.",
-   "source": "fiscal.ai",
-   "url": "https://www.pymnts.com/commerce/ecommerce/2026/amazon-targets-google-walmart-with-plan-catalog-every-product-online/",
-   "created_at": "2026-11-13T21:31:27Z",
-   "symbols": [
-    "AMZN"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Nvidia Loses Its Founder, AMD and Broadcom Take the Crown: This Week on Wall Street",
-   "summary": "Nvidia lost its founder and AMD and Broadcom led the S&amp;P 100 with 18% weekly gains, as hot inflation and a 5.15% 10-year yield put a Fed hike in play.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/market-summary/26/11/63269563/this-week-on-wall-street-nvidia-huang-amd-broadcom-fed-hike",
-   "created_at": "2026-11-13T21:17:32Z",
-   "symbols": [
-    "AMD",
-    "ANET",
-    "AVGO",
-    "BTCUSD",
-    "DELL"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/13/Nvidia-Logo-On-Smartphone-Screen-And-Amd.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Josh Kushner Bets Big on Elon Musk, More Than Doubles Thrive Capital Stake in SpaceX Stock in Q3",
-   "summary": "By the end of Q3, Thrive Capital&#39;s SpaceX position was valued at around $7.1 billion, representing 92% of the investment portfolio.",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/11/63266602/josh-kushner-bets-big-on-elon-musk-more-than-doubles-thrive-capital-stake-in-spacex-stock-in-q3",
-   "created_at": "2026-11-13T20:37:21Z",
+   "url": "https://www.benzinga.com/markets/ipos/26/11/63277688/anthropic-ipo-is-coming-up-top-companies-set-to-benefit-if-ant-stock-jumps",
+   "created_at": "2026-11-15T21:35:06Z",
    "symbols": [
     "AMZN",
-    "FIG",
-    "OSCR",
-    "SECZ",
-    "SHOP"
+    "CRM",
+    "GOOG",
+    "GOOGL",
+    "NVDA"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/13/Cali--Colombia---May-6-2022-spacex-Logo-.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/15/Anthropic-Logo-Appears-On-A-Mobile-Phone.jpg?width=1024&height=768"
   },
   {
-   "headline": "Behind the Rising US Bond Yields: Traders Bet on Fed Hikes in December and January, a Blow to Trump",
-   "summary": "US bond yields are rebounding as investors bet that the Federal Reserve will hike interest rates in December and January",
+   "headline": "Dow Jones, Nasdaq 100, and S&P 500 Outlooks: Key Stock Market News This Week",
+   "summary": "This article looks at the top stock market news that will impact the Dow Jones, Nasdaq 100, and S&amp;P 500 indices this week.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/bonds/26/11/63274017/behind-the-rising-us-bond-yields-traders-bet-on-fed-hikes-in-december-and-january-a-blow-to-trump",
-   "created_at": "2026-11-14T17:30:07Z",
+   "url": "https://www.benzinga.com/markets/equities/26/11/63277592/dow-jones-nasdaq-100-and-sp-500-outlooks-key-stock-market-news-this-week",
+   "created_at": "2026-11-15T20:30:08Z",
    "symbols": [
-    "SPY",
-    "VOO"
+    "AMZN",
+    "CME",
+    "GOOG",
+    "NVDA",
+    "SPCX"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/14/Federal-Reserve-Chair-Kevin-Warsh-Delive.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/15/Wall-Street-And-New-Street--New-York--Us.jpg?width=1024&height=768"
   },
   {
-   "headline": "XRP Price Tests Key Support as ETF and Futures Pressure Builds on Ripple Token",
-   "summary": "XRP price has dropped to a crucial support level as ETF and futures open interest continues facing substantial pressure.",
+   "headline": "Nvidia Earnings Without Jensen Huang Could Trigger $341 Billion Stock Swing As Options Traders Brace For Volatility",
+   "summary": "Nvidia, Palo Alto Networks, Disney and major retailers headline next week’s earnings watchlist, with options markets signaling the biggest expected stock moves.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/26/11/63273960/xrp-price-tests-key-support-as-etf-and-futures-pressure-builds-on-ripple-token",
-   "created_at": "2026-11-14T16:30:06Z",
+   "url": "https://www.benzinga.com/markets/options/26/11/63277522/nvidia-earnings-without-jensen-huang-could-trigger-341-billion-stock-swing-as-options-traders-brace-for-volatility",
+   "created_at": "2026-11-15T20:00:30Z",
    "symbols": [
+    "DIS",
+    "HD",
+    "LOW",
+    "NVDA",
+    "PANW"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/15/Jensen-Huang-Nvidia.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Nvidia Stock Faces First Earnings Since Jensen Huang’s Ouster as Options Signal a Big Move",
+   "summary": "Nvidia stock is bracing for high volatility as it publishes its first earnings report after Jensen Huang&#39;s ouster last week",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/equities/26/11/63277138/nvidia-stock-faces-first-earnings-since-jensen-huangs-ouster-as-options-signal-a-big-move",
+   "created_at": "2026-11-15T14:09:44Z",
+   "symbols": [
+    "NVDA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/15/Jensen-Huang-Nvidias-Founder--President-.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Consumer Tech (Nov 9-13): Jensen Resigns From Nvidia Amid Affair Controvery, Microsoft Faces Massive Outage & More",
+   "summary": "Zelenskyy blames Starshield limits for drone threats as AI chip curbs, data-center backlash and Nvidia turmoil reshape tech and auto policy.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/63277092/consumer-tech-nov-9-13-jensen-resigns-from-nvidia-amid-affair-controvery-microsoft-faces-massive-outage-more",
+   "created_at": "2026-11-15T13:58:56Z",
+   "symbols": [
+    "AMAT",
+    "BTCUSD",
+    "CBRS",
+    "CRWD",
+    "CRWV"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/15/Financial-Technology--Artificial-Intelli.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Earnings Volatility Watch: Nvidia Stock Could Swing 9% Without Jensen Huang, Yet This Newly Listed Tech Name Is Priced For 21.7%",
+   "summary": "Nvidia reports without Jensen Huang for the first time in 33 years. Options price a 9.1% NVDA swing; Bending Spoons tops the week&#39;s implied moves at 21.7%.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/earnings/26/11/63277064/nvidia-earnings-without-jensen-huang-implied-move-bending-spoons",
+   "created_at": "2026-11-15T13:30:06Z",
+   "symbols": [
+    "AS",
+    "BRK",
+    "BSP",
+    "DELL",
+    "FRO"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/15/Mogilno--Poland--06-04-2025-Illustration.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Nvidia Partner Megaspeed Breaks Silence on Alice Huang, Launches Probe Into China Chip Supply Links",
+   "summary": "Megaspeed hired outside lawyers to investigate supply-chain concerns tied to former executive Alice Huang.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/63276977/nvidia-partner-megaspeed-breaks-silence-on-alice-huang-launches-probe-into-china-chip-supply-links",
+   "created_at": "2026-11-15T12:07:27Z",
+   "symbols": [
+    "NVDA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/15/Nvidias-Ceo--Jensen-Huang--Presenting-Th.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Apple’s Tim Cook Legacy, Nvidia’s Jensen Huang Question and the $5 Trillion Crown: This Weekend in Appleverse",
+   "summary": "Apple’s post-Steve Jobs success, Nvidia’s leadership transition and Tim Cook succession speculation dominated this weekend’s tech stories.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/63276957/weekend-tech-roundup-apple-nvidia-jensen-huang-tim-cook",
+   "created_at": "2026-11-15T12:01:05Z",
+   "symbols": [
+    "AAPL",
+    "NVDA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/15/Basel--Switzerland---December-23--2024-A.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "This Lowe's Analyst Turns Bearish; Here Are Top 5 Downgrades For Friday",
+   "summary": "Analysts downgraded Tractor Supply, Lowe’s, Roblox, NVIDIA and Cognizant, cutting ratings and/or price targets.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/downgrades/26/11/63276847/this-lowes-analyst-turns-bearish-here-are-top-5-downgrades-for-friday",
+   "created_at": "2026-11-13T21:27:00Z",
+   "symbols": [
+    "CTSH",
+    "LOW",
+    "NVDA",
+    "RBLX",
+    "TSCO"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/15/Lowes.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Shareholder Meeting Confrontation: Hoop Club Challenges I Grandi Viaggi Management",
+   "summary": "Activist investor Hoop Club is set to challenge the controlling Clementi family at the upcoming I Grandi Viaggi shareholder meeting, with a focus on potential liability actions and oversight of foreig",
+   "source": "fiscal.ai",
+   "url": "https://www.milanofinanza.it/news/i-grandi-viaggi-resa-dei-conti-in-assemblea-l-attivista-hoop-club-sfida-la-famiglia-clementi-202611131944563774",
+   "created_at": "2026-11-15T08:02:41Z",
+   "symbols": [
+    "IGV"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Dan Ives Says Nvidia Turmoil Could Hand Big Tech an Unexpected AI Advantage as Hyperscalers Gain, Dismisses ‘Blue Tidal Wave’ Reaction",
+   "summary": "Dan Ives says AI demand exceeds supply 4:1, with delays boosting hyperscalers and Big Tech, while Nvidia and smaller AI players face risks.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/63276639/dan-ives-says-nvidia-turmoil-could-hand-big-tech-an-unexpected-ai-advantage-as-hyperscalers-gain-dismisses-blue-tidal-wave-reaction",
+   "created_at": "2026-11-15T07:29:36Z",
+   "symbols": [
+    "MAGS",
+    "NCLD",
+    "NVDA",
+    "TSLA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/15/Jensen-Huang-Photo-On-Digital-Display-Sc.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Elon Musk Backs Jensen Huang Comeback as Petition to Reinstate Ex-NVIDIA CEO Surpasses 135,000 Signatures",
+   "summary": "Petition to reinstate Jensen Huang as NVIDIA CEO surpasses 135,000 signatures, drawing support from Elon Musk and prominent investors.",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/markets/tech/26/11/63276610/nvidia-jensen-huang-reinstate-ceo-petition-elon-musk-investors",
+   "created_at": "2026-11-15T06:46:49Z",
+   "symbols": [
+    "NVDA",
+    "TSLA"
+   ],
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/15/Jensen-Huang-Nvidias-Founder--President-.jpg?width=1024&height=768"
+  },
+  {
+   "headline": "Vertex Pharmaceuticals Announces Management Participation in Upcoming Investor Conferences",
+   "summary": "Vertex Pharmaceuticals has announced that members of its management team will participate in three upcoming investor conferences.",
+   "source": "fiscal.ai",
+   "url": "https://stocktwits.com/symbol/VRTX/news",
+   "created_at": "2026-11-15T02:01:54Z",
+   "symbols": [
+    "VRTX"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "AWS Launches First Infrastructure Region in Chile",
+   "summary": "Amazon Web Services has officially launched its first cloud infrastructure region in Chile, marking a significant expansion of its footprint in South America.",
+   "source": "fiscal.ai",
+   "url": "https://infosertecla.com/2026/11/14/aws-abre-su-primera-region-en-chile-con-mas-de-usd-4-000-m/",
+   "created_at": "2026-11-15T02:01:26Z",
+   "symbols": [
+    "AMZN"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Pony.ai Implements Contingency Strategy to Mitigate Chip Supply Risks",
+   "summary": "Pony.ai is adopting a dual-track strategy to reduce reliance on foreign chip suppliers by integrating domestic alternatives into its autonomous driving systems.",
+   "source": "fiscal.ai",
+   "url": "https://www.techtimes.vn/ke-hoach-du-phong-nvidia-cho-nganh-tu-lai-trung-quoc/",
+   "created_at": "2026-11-16T01:01:39Z",
+   "symbols": [
+    "PONY"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Ascentage Pharma Announces Inclusion of Lisaftoclax in China's 2026 National Reimbursement Drug List and Successful Renewal of Coverage for Olverembatinib",
+   "summary": "Ascentage Pharma's cancer drugs lisaftoclax and olverembatinib have been included or renewed in China's 2026 National Reimbursement Drug List (NRDL), effective January 1, 2027.",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/15/3403131/0/en/ascentage-pharma-announces-inclusion-of-lisaftoclax-in-china-s-2026-national-reimbursement-drug-list-and-successful-renewal-of-coverage-for-olverembatinib.html",
+   "created_at": "2026-11-16T01:01:35Z",
+   "symbols": [
+    "AAPG"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "LATAM Airlines Brasil Addresses Incident Involving Unattended Child on Flight",
+   "summary": "LATAM Airlines Brasil confirmed that a child was left on board a flight after passengers disembarked, with the company safely reuniting the child with their family shortly thereafter.",
+   "source": "fiscal.ai",
+   "url": "https://ultimosegundo.ig.com.br/2026-11-15/pais-esquecem-filho-a-bordo-de-voo-em-porto-alegre.html",
+   "created_at": "2026-11-16T00:01:41Z",
+   "symbols": [
+    "LTM"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Crypto Market Loses $750 Billion in Value as ETF Demand Fades and Liquidations Surge",
+   "summary": "The crypto market has suffered a $750 billion value in the past few days because of the fading ETF demand as liquidations jump",
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/crypto/26/11/63277708/crypto-market-loses-750-billion-in-value-as-etf-demand-fades-and-liquidations-surge",
+   "created_at": "2026-11-15T21:45:06Z",
+   "symbols": [
+    "BTC",
     "BTCUSD",
     "ETH",
     "ETHUSD",
-    "XRP",
-    "XRPUSD"
+    "SOLUSD"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/14/XRP.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/15/Bitcoin.jpg?width=1024&height=768"
   },
   {
-   "headline": "IEA Sees First Oil Surplus Since Iran War As Gulf Supply Rebounds",
-   "summary": "The IEA sees the first oil surplus since the Iran war, as Gulf exports rebound to 74% of pre-war levels and global supply overtakes demand in Q4.",
+   "headline": "Palo Alto Networks Slips Into Bear Market as Earnings Loom and Valuation Risks Persist",
+   "summary": "Palo Alto Networks stock has slumped into a bear market after falling more than 26% from its October high, with focus being on its earnings",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/commodities/26/11/63273939/iea-sees-first-oil-surplus-since-iran-war-as-gulf-supply-rebounds",
-   "created_at": "2026-11-14T16:15:08Z",
-   "symbols": [],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/14/Oil-Pump-Jacks-And-Barrels-With-Forex-Ch.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "Dr. Reddy's Laboratories Receives VAI Classification from USFDA",
-   "summary": "The US Food and Drug Administration (USFDA) has classified the inspection outcome for a Dr. Reddy's facility as Voluntary Action Indicated (VAI) and has officially closed the inspection.",
-   "source": "fiscal.ai",
-   "url": "https://www.fidelity.com/news/article/default/202611140800PRIMZONEFULLFEED9871115",
-   "created_at": "2026-11-14T15:32:00Z",
+   "url": "https://www.benzinga.com/markets/equities/26/11/63277661/palo-alto-networks-slips-into-bear-market-as-earnings-loom-and-valuation-risks-persist",
+   "created_at": "2026-11-15T21:20:06Z",
    "symbols": [
-    "RDY"
+    "PANW"
    ],
-   "image": ""
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/15/Palo-Alto-Networks-Logo-And-Sign-At-Sili.jpg?width=1024&height=768"
   },
   {
-   "headline": "Gold Price Slips to Key Support as Fed Rate Risks and GLD ETF Outflows Build",
-   "summary": "Gold has come under intense pressure this month and is now trading near an important support level, as the risk of Federal Reserve rate hikes and ETF outflows builds.",
+   "headline": "Target, Home Depot, TJX, and Lowe’s Report Earnings as Their Stock Recoveries Stall",
+   "summary": "Top US retail companies like Target, Home Depot, TJX, and Lowe&#39;s will publish their earnings reports this week as their stocks fall",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/markets/commodities/26/11/63273900/gold-price-slips-to-key-support-as-fed-rate-risks-and-gld-etf-outflows-build",
-   "created_at": "2026-11-14T15:30:05Z",
+   "url": "https://www.benzinga.com/markets/equities/26/11/63277632/target-home-depot-tjx-and-lowes-report-earnings-as-their-stock-recoveries-stall",
+   "created_at": "2026-11-15T21:10:25Z",
    "symbols": [
-    "GLD",
-    "IAU"
+    "HD",
+    "LOW",
+    "TGT",
+    "TJX",
+    "WMT"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/14/Gold-bars-in-mans-hand.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/15/The-Home-Depot-Red--White--and-Renovate.jpg?width=1024&height=768"
   },
   {
-   "headline": "From FTX Collapse to Anthropic IPO: The $40 Billion Sam Bankman-Fried Never Saw",
-   "summary": "Sam Bankman-Fried, the jailed founder of FTX, would have made nearly $40 billion in the upcoming Anthropic IPO.",
+   "headline": "YouGov Releases Survey Findings for National Skin Cancer Action Week",
+   "summary": "YouGov published new survey data for Cancer Council Australia highlighting generational differences in sun safety knowledge and behavior.",
+   "source": "fiscal.ai",
+   "url": "https://www.newswirenz.co.nz/media-releases.html?id=1062057&headline=generational-sun-safety-gaps-revealed-in-new-cancer-council-australia-poll",
+   "created_at": "2026-11-15T21:02:18Z",
+   "symbols": [
+    "YOU"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "YouGov and Prospa Publish Research on Australian SME Operational Costs",
+   "summary": "YouGov released new research in collaboration with Prospa regarding the impact of rising operational costs on Australian small and medium-sized enterprises.",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/apac/news-releases/prospa-research-two-in-three-aussie-smes-want-rewards-on-their-bills-yet-only-8-are-cashing-in-on-supplier-payments-302937153.html",
+   "created_at": "2026-11-15T21:02:18Z",
+   "symbols": [
+    "YOU"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "IG Group to Cut 50 Jobs Amid European Office Closures",
+   "summary": "IG Group is reportedly planning to reduce its workforce by 50 positions as part of a strategy to close offices in France, Spain, and Italy.",
+   "source": "fiscal.ai",
+   "url": "https://www.marketscreener.com/news/ig-group-to-reportedly-cut-50-jobs-amid-office-closures-in-france-spain-italy-ce785ededc8cf02d",
+   "created_at": "2026-11-15T21:02:15Z",
+   "symbols": [
+    "IGG"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Moody's Affirms Willis Towers Watson Ratings",
+   "summary": "Moody's has affirmed the credit ratings of Willis Towers Watson, citing the company's diversified client base, strong market position, and professional expertise.",
+   "source": "fiscal.ai",
+   "url": "https://ch.marketscreener.com/boerse-nachrichten/moody-s-bestaetigt-ratings-von-willis-towers-watson-dank-diversifizierter-kundenbasis-starker-marktp-ce785ededc8cff24",
+   "created_at": "2026-11-15T21:02:02Z",
+   "symbols": [
+    "WTW"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "NewRiver REIT plc: Holding(s) in Company",
+   "summary": "NewRiver REIT plc has released a regulatory disclosure regarding changes in shareholdings.",
+   "source": "fiscal.ai",
+   "url": "https://www.finanznachrichten.de/nachrichten-medien/rns.htm",
+   "created_at": "2026-11-15T21:01:53Z",
+   "symbols": [
+    "NRR"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Savills Reports Growth in India and Asia-Pacific Real Estate Investment",
+   "summary": "Savills released a report detailing a 15% year-on-year increase in commercial real estate investment volumes in India for the first nine months of 2026.",
+   "source": "fiscal.ai",
+   "url": "https://realtynxt.com/commercial-news/2026-11-14/indias-commercial-property-market-records-15-investment-growth-as-global-investors-increase-their-exposure-in-2026",
+   "created_at": "2026-11-15T21:01:48Z",
+   "symbols": [
+    "SVS"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Centrica and Equinor Advance in Bidding Process for Uniper",
+   "summary": "Centrica and Equinor have reportedly moved to the second round of the bidding process for the German utility company Uniper.",
+   "source": "fiscal.ai",
+   "url": "https://finimize.com/content/centrica-and-equinor-move-ahead-in-the-uniper-sale",
+   "created_at": "2026-11-15T21:01:46Z",
+   "symbols": [
+    "CNA"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Jefferies Maintains Buy Rating and Raises Price Target for Wickes Group plc",
+   "summary": "Jefferies analyst Andrew Wade has maintained a Buy rating on Wickes Group plc and increased the price target to $3.35.",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/hant/news/post/1001728122/jefferies-maintains-wickes-group-plc-wckgfus-with-buy-rating-raises",
+   "created_at": "2026-11-15T21:01:36Z",
+   "symbols": [
+    "WIX"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Nationwide Building Society Reports Decline in Real-Terms UK House Prices",
+   "summary": "Nationwide Building Society released data indicating that real-terms UK property prices fell by 2% between July and September 2026.",
+   "source": "fiscal.ai",
+   "url": "https://www.voxmarkets.com/articles/weekend-news-review-november-15-9845612",
+   "created_at": "2026-11-15T21:01:29Z",
+   "symbols": [
+    "NBS"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Oman Shell Launches New Edition of Shell Intilaaqah to Support SMEs",
+   "summary": "Oman Shell has launched a new edition of its Shell Intilaaqah program in partnership with Flat6Labs to accelerate the growth of 15 small and medium enterprises in Oman.",
+   "source": "fiscal.ai",
+   "url": "https://newsfilter.io/latest/news",
+   "created_at": "2026-11-15T21:01:28Z",
+   "symbols": [
+    "SHEL"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Unilever's Royco Brand Launches 'Shake & Sprinkle' Dry Rub in Indonesia",
+   "summary": "Unilever's seasoning brand Royco has introduced a new line of dry rubs in Indonesia, designed for convenient seasoning of everyday meals.",
+   "source": "fiscal.ai",
+   "url": "https://www.minimeinsights.com/2026/11/15/royco-spices-up-indonesias-protein-loading-trend-with-shake-sprinkle/",
+   "created_at": "2026-11-15T21:01:27Z",
+   "symbols": [
+    "UL"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Top Stocks to Watch After Weekend Chaos At US Airports",
+   "summary": "The crisis at US airports will put the spotlight on several stocks like Delta Air Lines, Booking Holdings, and L3Harris.",
    "source": "benzinga",
-   "url": "https://www.benzinga.com/news/26/11/63273860/from-ftx-collapse-to-anthropic-ipo-the-40-billion-sam-bankman-fried-never-saw",
-   "created_at": "2026-11-14T15:00:07Z",
+   "url": "https://www.benzinga.com/markets/equities/26/11/63277550/top-us-stocks-to-watch-after-the-weekend-chaos-in-us-airports",
+   "created_at": "2026-11-15T20:15:06Z",
    "symbols": [
-    "HOOD"
+    "BKNG",
+    "DAL",
+    "EXPE",
+    "JBLU",
+    "LHX"
    ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/14/Former-Ceo-Of-Ftx-Sam-Bankman-fried-Leav.jpg?width=1024&height=768"
+   "image": "https://cdn.benzinga.com/files/images/story/2026/11/15/Delta-Air-Lines-Jet-Overturns-At-Toronto.jpg?width=1024&height=768"
   },
   {
-   "headline": "Crypto Market Crashes as Bitcoin and Altcoins Slide, Fear and Greed Index Sinks to 17 and Liquidations Surge",
-   "summary": "The crypto market is in a downward spiral, with Bitcoin and most altcoins being in a deep bear market. What next?",
-   "source": "benzinga",
-   "url": "https://www.benzinga.com/crypto/26/11/63273824/crypto-market-crashes-as-bitcoin-and-altcoins-slide-fear-and-greed-index-sinks-to-17-and-liquidations-surge",
-   "created_at": "2026-11-14T14:30:07Z",
-   "symbols": [
-    "ADAUSD",
-    "BTC",
-    "BTCUSD",
-    "COIN",
-    "ETHUSD"
-   ],
-   "image": "https://cdn.benzinga.com/files/images/story/2026/11/14/Bitcoin.jpg?width=1024&height=768"
-  },
-  {
-   "headline": "BofA Securities Adjusts Price Target on Perspective Therapeutics",
-   "summary": "BofA Securities has lowered its price target for Perspective Therapeutics, Inc. from $5 to $1.",
+   "headline": "Centrica and Equinor Advance to Second Round of Bidding for Uniper",
+   "summary": "Centrica and Equinor have progressed to the second round of the German government's reprivatization process for Uniper, joining other bidders in the ongoing sale.",
    "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/bofa-securities-adjusts-price-target-on-perspective-therapeutics-to-1-from-5-ce785ed9d18af62c",
-   "created_at": "2026-11-14T14:05:27Z",
+   "url": "https://www.marketscreener.com/news/centrica-equinor-others-proceed-to-next-round-of-bidding-for-german-utility-ce785ededc8ef725",
+   "created_at": "2026-11-15T20:02:14Z",
    "symbols": [
-    "CATX"
+    "UN0"
    ],
    "image": ""
   },
   {
-   "headline": "Cleantek Industries Reports Strong Third Quarter 2026 Financial Results",
-   "summary": "Cleantek Industries Inc. announced record third-quarter revenue of $5.187 million, representing a 58% increase compared to the same period in 2025.",
+   "headline": "adesso SE Participates in Joint Venture Formation",
+   "summary": "adesso SE is listed as a participant in a joint venture filing with the German Federal Cartel Office (Bundeskartellamt).",
    "source": "fiscal.ai",
-   "url": "https://www.newsfilecorp.com/release/323902/Cleantek-Industries-Reports-Strong-Third-Quarter-2026-Financial-Results",
-   "created_at": "2026-11-14T14:05:16Z",
+   "url": "https://www.finanznachrichten.de/nachrichten-medien/bundeskartellamt.htm",
+   "created_at": "2026-11-15T20:01:57Z",
    "symbols": [
-    "CTEK"
+    "ADN1"
    ],
    "image": ""
   },
   {
-   "headline": "5E Advanced Materials Provides Additional Details on Searles Valley Asset Acquisition Integration and Financial Impact",
-   "summary": "5E Advanced Materials has released further details regarding its acquisition of Searles Valley Minerals, outlining a new operating plan that targets approximately $40 million in steady-state annual Ad",
+   "headline": "Ubisoft to Sunset Rainbow Six Mobile",
+   "summary": "Ubisoft has announced the decision to discontinue its mobile title, Rainbow Six Mobile, with service scheduled to end on January 15, 2027.",
    "source": "fiscal.ai",
-   "url": "https://www.otcmarkets.com/stock/FEAM/news/5E-Advanced-Materials-Provides-Additional-Details-on-Integration-and-Expected-Financial-Impact-of-Searles-Valley-Asset-A?e&id=3549848",
-   "created_at": "2026-11-14T14:05:02Z",
+   "url": "https://www.ubisoft.com/en-us/news",
+   "created_at": "2026-11-15T20:01:55Z",
    "symbols": [
-    "FEAM"
+    "UBI"
    ],
    "image": ""
   },
   {
-   "headline": "Needham Adjusts Streamex Price Target to $2",
-   "summary": "Needham & Company adjusted its price target for Streamex Corp. from $4 to $2 while maintaining a Buy rating on the stock.",
+   "headline": "Volkswagen CEO Oliver Blume Outlines 2030 Strategic Goals and Defends Restructuring",
+   "summary": "In a recent interview, Volkswagen CEO Oliver Blume announced a target of selling nine million vehicles by 2030 with a nine percent return, while defending the company's ongoing restructuring and workf",
    "source": "fiscal.ai",
-   "url": "https://www.marketscreener.com/news/needham-adjusts-streamex-price-target-to-2-from-4-maintains-buy-rating-ce785ed9de80f62c",
-   "created_at": "2026-11-14T14:05:01Z",
+   "url": "https://www.finanzen.ch/nachrichten/aktien/volkswagen-will-bis-2030-so-profitabel-werden-wie-nie-vw-aktie-im-fokus-der-anleger-1036764617",
+   "created_at": "2026-11-15T20:01:45Z",
    "symbols": [
-    "STEX"
+    "VOW3"
    ],
    "image": ""
   },
   {
-   "headline": "Charbone Files Amended 2025 Financial Statements Following Regulatory Review",
-   "summary": "Charbone Corporation has filed amended 2025 consolidated financial statements and management's discussion and analysis following a routine disclosure review by the Autorité des marchés financiers.",
+   "headline": "Ipsos Releases Survey on Pet Longevity in Brazil",
+   "summary": "Ipsos, in partnership with PremieR, published a survey of 1,200 pet owners in Brazil regarding their concerns and perceptions of pet aging and longevity.",
    "source": "fiscal.ai",
-   "url": "https://www.thenewswire.com/press-releases/1Bb4F0qrg-charbone-issues-corrective-disclosure.html",
-   "created_at": "2026-11-14T14:04:47Z",
+   "url": "https://canaldopet.ig.com.br/2026-11-15/tutores-temem-sofrimento-de-pets-na-velhice--aponta-pesquisa.html",
+   "created_at": "2026-11-15T20:01:44Z",
    "symbols": [
-    "CH"
+    "IPS"
    ],
    "image": ""
   },
   {
-   "headline": "Eva Live, Inc. Reports Third Quarter 2026 Financial Results",
-   "summary": "Eva Live, Inc. reported a decline in revenue and a shift to an operating loss for the third quarter of 2026.",
+   "headline": "Berenberg Adjusts Jungheinrich Price Target",
+   "summary": "Private bank Berenberg has lowered its price target for Jungheinrich AG from 37 euros to 34 euros following a review of the company's third-quarter results, while maintaining a 'Buy' rating.",
    "source": "fiscal.ai",
-   "url": "https://www.moomoo.com/hans/news/post/1004628371?futusource=news_newspage_recommend",
-   "created_at": "2026-11-14T14:04:46Z",
+   "url": "https://www.finanznachrichten.de/nachrichten-aktien/jungheinrich-ag.htm",
+   "created_at": "2026-11-15T20:01:41Z",
    "symbols": [
-    "GOAI"
+    "JUN3"
    ],
    "image": ""
   },
   {
-   "headline": "AQR Capital Management Files Amended Schedule 13G for The Hain Celestial Group, Inc.",
-   "summary": "AQR Capital Management, LLC filed an amended Schedule 13G with the SEC regarding its beneficial ownership stake in The Hain Celestial Group, Inc. on November 13, 2026.",
+   "headline": "Genmab A/S Holds Extraordinary General Meeting and Approves Board Remuneration",
+   "summary": "Genmab A/S held an Extraordinary General Meeting on November 15, 2026, where shareholders approved the board's 2026 remuneration proposal, including the grant of 5,300 restricted stock units.",
    "source": "fiscal.ai",
-   "url": "https://www.streetinsider.com/SEC+Filings?before_id=27340200",
-   "created_at": "2026-11-14T14:04:46Z",
+   "url": "https://ml-eu.globenewswire.com/Resource/Download/7aecd365-4394-4ccd-83f2-4d95224691fc",
+   "created_at": "2026-11-15T20:01:40Z",
    "symbols": [
-    "HAIN"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Shareholders of Clean Air Metals and Springbok Ventures Approve Amalgamation",
-   "summary": "Clean Air Metals Inc. and Springbok Ventures Inc. shareholders have voted to approve a proposed three-cornered amalgamation, which includes a share consolidation and a corporate name change.",
-   "source": "fiscal.ai",
-   "url": "https://www.newsfilecorp.com/release/324036/Shareholders-of-Clean-Air-Metals-and-FioreBacked-Springbok-Ventures-Overwhelmingly-Approve-Proposed-Transaction",
-   "created_at": "2026-11-14T14:04:46Z",
-   "symbols": [
-    "AIR"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "HC Wainwright & Co. Raises Pasithea Therapeutics Price Target to $4.00",
-   "summary": "HC Wainwright & Co. increased its price target for Pasithea Therapeutics Corp. from $3.00 to $4.00 while maintaining a Buy rating.",
-   "source": "fiscal.ai",
-   "url": "https://www.moomoo.com/hans/news/post/1004618002/pasithea-therapeutics-price-target-raised-to-4-00-share-from?futusource=news_newspage_recommend",
-   "created_at": "2026-11-14T14:04:43Z",
-   "symbols": [
-    "KTTA"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Palatin Technologies, Inc. to Report First Quarter Fiscal Year 2027 Results",
-   "summary": "Palatin Technologies, Inc. announced it will release its first quarter fiscal year 2027 operating results on November 17, 2026, followed by a conference call.",
-   "source": "fiscal.ai",
-   "url": "https://news.futunn.com/post/1004466872/palatin-to-report-first-quarter-fiscal-year-2027-results",
-   "created_at": "2026-11-14T14:04:37Z",
-   "symbols": [
-    "PTN"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Craig-Hallum Maintains Buy Rating on Fractyl Health and Adjusts Price Target",
-   "summary": "Craig-Hallum analyst Chase Knickerbocker has maintained a 'Buy' rating on Fractyl Health, Inc. while lowering the price target from $5 to $4.",
-   "source": "fiscal.ai",
-   "url": "https://www.moomoo.com/hant/news/post/1004608761/craig-hallum-maintains-fractyl-health-gutsus-with-buy-rating-cuts",
-   "created_at": "2026-11-14T14:04:37Z",
-   "symbols": [
-    "GUTS"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "BofA Securities Maintains Buy Rating on Fractyl Health",
-   "summary": "BofA Securities has maintained its 'Buy' rating on Fractyl Health, Inc. (GUTS).",
-   "source": "fiscal.ai",
-   "url": "https://www.moomoo.com/hans/news/post/1004626904/bofa-securities-maintains-fractyl-health-gutsus-with-buy-rating",
-   "created_at": "2026-11-14T14:04:37Z",
-   "symbols": [
-    "GUTS"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "High Arctic Energy Services Inc. to be Acquired by Newport Capital Ltd.",
-   "summary": "High Arctic Energy Services Inc. has entered into a definitive agreement to be acquired by Newport Capital Ltd. in a go-private transaction for $1.59 per share.",
-   "source": "fiscal.ai",
-   "url": "https://www.globenewswire.com/news-release/2026/11/14/3403026/0/en/high-arctic-energy-services-inc-enters-into-a-definitive-agreement-to-be-acquired-by-newport-capital-in-a-go-private-transaction-and-announces-intent-to-make-a-cash-distribution-to.html",
-   "created_at": "2026-11-14T14:04:35Z",
-   "symbols": [
-    "HWO"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Mobix Labs Announces 1-for-7 Reverse Stock Split",
-   "summary": "Mobix Labs, Inc. has announced a 1-for-7 reverse stock split of its common stock, effective November 17, 2026.",
-   "source": "fiscal.ai",
-   "url": "https://www.moomoo.com/hans/news/post/1004638802/mobix-labs-to-carry-out-1-for-7-reverse-stock",
-   "created_at": "2026-11-14T14:04:35Z",
-   "symbols": [
-    "MOBX"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Cheelcare Announces Results of 2026 Annual General Meeting",
-   "summary": "Cheelcare Inc. held its 2026 Annual General Meeting of Shareholders on November 13, 2026, where shareholders approved all presented matters, including the election of six directors and the continuatio",
-   "source": "fiscal.ai",
-   "url": "https://www.newsfilecorp.com/release/323972/Cheelcare-Announces-Results-of-2026-Annual-General-Meeting",
-   "created_at": "2026-11-14T14:04:33Z",
-   "symbols": [
-    "CHER"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Inovalis Real Estate Investment Trust Reports Q3 2026 Financial Results",
-   "summary": "Inovalis REIT released its financial results for the third quarter ended September 30, 2026, providing updates on its portfolio performance and asset recycling progress.",
-   "source": "fiscal.ai",
-   "url": "https://www.fidelity.com/news/article/default/202611131730BIZWIRE_USPR_____20261113_BW202609",
-   "created_at": "2026-11-14T14:04:32Z",
-   "symbols": [
-    "INO.UN"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Beasley Broadcast Group Reports Third Quarter 2026 Financial Results",
-   "summary": "Beasley Broadcast Group, Inc. announced its operating results for the third quarter ended September 30, 2026, reporting net revenue of $42.8 million.",
-   "source": "fiscal.ai",
-   "url": "https://www.prnewswire.com/news-releases/beasley-broadcast-group-reports-third-quarter-revenue-of-42-8-million-302938531.html",
-   "created_at": "2026-11-14T14:04:32Z",
-   "symbols": [
-    "BBGI"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "MetaVia Reports Third Quarter 2026 Financial Results and Provides Corporate Update",
-   "summary": "MetaVia Inc. announced its financial results for the third quarter ended September 30, 2026, and provided updates on its clinical development pipeline.",
-   "source": "fiscal.ai",
-   "url": "https://www.prnewswire.com/news-releases/metavia-reports-third-quarter-2026-financial-results-and-provides-corporate-update-302938506.html",
-   "created_at": "2026-11-14T14:04:32Z",
-   "symbols": [
-    "MTVA"
+    "GMAB"
    ],
    "image": ""
   }
