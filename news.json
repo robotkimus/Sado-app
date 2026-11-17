@@ -1,6 +1,17 @@
 {
- "updated": "2026-11-17 12:00",
+ "updated": "2026-11-17 13:00",
  "items": [
+  {
+   "headline": "Microsoft Releases Preliminary Report on Recent 365 Service Outage",
+   "summary": "Microsoft issued a preliminary post-incident report attributing the recent Microsoft 365 service disruption to a latent software defect and network capacity issues.",
+   "source": "fiscal.ai",
+   "url": "https://www.newswire.ca/news-releases/microsoft-outage-triggers-canada-wide-class-action-lawsuit-852582849.html",
+   "created_at": "2026-11-17T03:01:25Z",
+   "symbols": [
+    "MSFT"
+   ],
+   "image": ""
+  },
   {
    "headline": "Vertex Pharmaceuticals Officer Sells $8.37 Million in Common Stock",
    "summary": "Charles F. Wagner Jr., an officer at Vertex Pharmaceuticals, sold 15,300 shares of common stock valued at approximately $8.37 million.",
@@ -31,17 +42,6 @@
    "created_at": "2026-11-16T22:31:22Z",
    "symbols": [
     "AMZN"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Class Action Lawsuit Filed Against Microsoft Following Global 365 Outage",
-   "summary": "Diamond & Diamond Lawyers has initiated a proposed Canada-wide class action lawsuit against Microsoft Corporation and Microsoft Canada Inc. in response to the global Microsoft 365 service disruption t",
-   "source": "fiscal.ai",
-   "url": "https://www.newswire.ca/news-releases/microsoft-outage-triggers-canada-wide-class-action-lawsuit-852582849.html",
-   "created_at": "2026-11-16T22:31:21Z",
-   "symbols": [
-    "MSFT"
    ],
    "image": ""
   },
@@ -156,13 +156,178 @@
    "image": ""
   },
   {
-   "headline": "Corvex Signs $103 Million Agreement for NVIDIA Blackwell Capacity",
-   "summary": "AI cloud computing firm Corvex has entered into a $103 million take-or-pay agreement to secure NVIDIA Blackwell GPU capacity.",
+   "headline": "Former Robinhood Engineer Pleads Guilty to Wire Fraud",
+   "summary": "A former engineer at Robinhood has pleaded guilty to charges of wire fraud related to cryptocurrency futures trading.",
    "source": "fiscal.ai",
-   "url": "https://www.prnewswire.com/news-releases/corvex-signs-103-million-take-or-pay-agreement-for-nvidia-blackwell-capacity-21-million-of-annual-contract-revenue-per-megawatt-302940368.html",
-   "created_at": "2026-11-16T14:31:25Z",
+   "url": "https://www.marketscreener.com/news/ex-robinhood-engineer-pleads-guilty-to-wire-fraud-over-crypto-futures-trades-ce785edfdf8bf221",
+   "created_at": "2026-11-17T03:02:29Z",
    "symbols": [
-    "NVDA"
+    "HOOD"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Humana Announces Final Results of Cash Tender Offers for Outstanding Debt Securities",
+   "summary": "Humana Inc. announced the expiration and final results of its cash tender offers for several series of its outstanding senior notes.",
+   "source": "fiscal.ai",
+   "url": "https://www.businesswire.com/newsroom/industry/health",
+   "created_at": "2026-11-17T03:02:01Z",
+   "symbols": [
+    "HUM"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Cummins Addresses Operational Issues with HyLYZER Electrolysers",
+   "summary": "Cummins has advised customers to cease the use of its HyLYZER electrolysers following a review of operating data, with the potential financial impact of necessary modifications currently under assessm",
+   "source": "fiscal.ai",
+   "url": "https://cleantechnica.com/2026/11/16/cummins-hylyzer-stop-use-hydrogen-equipment-support/",
+   "created_at": "2026-11-17T03:01:59Z",
+   "symbols": [
+    "CMI"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Sierra Club Opposes Proposed NextEra Energy and Dominion Energy Merger Ahead of SCC Hearings",
+   "summary": "The Sierra Club has filed expert testimony urging the Virginia State Corporation Commission to reject a proposed merger between NextEra Energy and Dominion Energy.",
+   "source": "fiscal.ai",
+   "url": "https://cleantechnica.com/2026/11/16/as-hearings-begin-sierra-club-virginia-calls-for-the-scc-to-stop-the-dominion-nextera-merger/",
+   "created_at": "2026-11-17T03:01:50Z",
+   "symbols": [
+    "NEE"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Priceline Announces Cyber Week 2026 Sale",
+   "summary": "Priceline, a subsidiary of Booking Holdings, has launched its annual Cyber Week sale featuring discounts on hotels, vacation packages, and rental cars.",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/pricelines-biggest-sale-of-the-year-returns-for-cyber-week-2026-with-up-to-40-off-hotels-500-coupons-and-flash-sales-302939580.html",
+   "created_at": "2026-11-17T03:01:44Z",
+   "symbols": [
+    "BKNG"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Director Eugen J. Elmiger Sells 2,500 Shares of Monolithic Power Systems",
+   "summary": "Monolithic Power Systems director Eugen J. Elmiger sold 2,500 shares of company stock on November 13, 2026, as disclosed in an SEC filing on November 16, 2026.",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/ja/news/post/1004803440/monolithic-power-systems-mpwrus-director-sells-us-3-4-million",
+   "created_at": "2026-11-17T03:01:43Z",
+   "symbols": [
+    "MPWR"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Class Action Lawsuit Filed Against Abbott Laboratories Over Glucerna Labeling",
+   "summary": "A proposed class action lawsuit alleges that Abbott Laboratories falsely advertises Glucerna nutrition shakes as containing only one gram of sugar despite the presence of allulose.",
+   "source": "fiscal.ai",
+   "url": "https://www.classaction.org/news/glucerna-1g-total-sugars-claim-is-false-due-to-presence-of-allulose-class-action-lawsuit-claims",
+   "created_at": "2026-11-17T03:01:42Z",
+   "symbols": [
+    "ABT"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Weatherford Awarded Deepwater Managed Pressure Drilling Contract by Constellation",
+   "summary": "Weatherford International plc has been awarded a contract by Constellation to provide deepwater managed pressure drilling (MPD) solutions for an exploration campaign in Brazil.",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/16/3403431/0/en/weatherford-awarded-a-deepwater-managed-pressure-drilling-contract-by-constellation-for-a-drillship-operation-in-brazil.html",
+   "created_at": "2026-11-17T03:01:42Z",
+   "symbols": [
+    "CSU"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "California Court of Appeal Rules in Employment Arbitration Case",
+   "summary": "A California Court of Appeal ruled in the case of Chin v. DoorDash, Inc. regarding the waiver of sexual harassment claims in arbitration.",
+   "source": "fiscal.ai",
+   "url": "https://natlawreview.com/article/employee-waived-efaa-protection-strategically-withholding-his-sexual-harassment",
+   "created_at": "2026-11-17T03:01:41Z",
+   "symbols": [
+    "DASH"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Plaza Pizza Partners with DoorDash for Delivery",
+   "summary": "Plaza Pizza, a Newark-based pizzeria, announced that it now offers delivery through DoorDash from its Newark and Heath locations.",
+   "source": "fiscal.ai",
+   "url": "https://www.globenewswire.com/news-release/2026/11/16/3404219/0/en/plaza-pizza-marks-55-years-in-newark-and-now-delivers-from-its-newark-and-heath-locations-through-doordash.html",
+   "created_at": "2026-11-17T03:01:41Z",
+   "symbols": [
+    "DASH"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "ADP Announces Presentation at Nasdaq Investor Conference",
+   "summary": "ADP has announced that it will present at the upcoming Nasdaq Investor Conference in London on December 8, 2026.",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/adp-to-present-at-upcoming-investor-conference-302939068.html",
+   "created_at": "2026-11-17T03:01:38Z",
+   "symbols": [
+    "ADP"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Visa and Mastercard Seek Final Approval for Swipe Fee Settlement",
+   "summary": "Visa and Mastercard have requested final court approval for a proposed swipe fee settlement, which would impose new limits on card acceptance rules and pilot programs.",
+   "source": "fiscal.ai",
+   "url": "https://www.pymnts.com/credit-cards/2026/visa-and-mastercard-hearing-puts-premium-card-pilots-on-the-line/",
+   "created_at": "2026-11-17T03:01:33Z",
+   "symbols": [
+    "MA"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Mastercard Introduces 'Mastercard Accept' for Simplified Payment Acceptance",
+   "summary": "Mastercard has launched 'Mastercard Accept,' a new solution that enables individuals and small businesses to accept card payments directly through smartphones and existing banking apps.",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/apac/news-releases/mastercard-enables-debit-cardholders-to-get-paid-as-easily-as-they-pay-302941200.html",
+   "created_at": "2026-11-17T03:01:33Z",
+   "symbols": [
+    "MA"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "S&P Global Prices $2 Billion Senior Notes Offering",
+   "summary": "S&P Global has priced an underwritten public offering of $2 billion in aggregate principal amount of senior notes across three tranches.",
+   "source": "fiscal.ai",
+   "url": "https://www.prnewswire.com/news-releases/sp-global-announces-pricing-of-public-offering-of-750-000-000-senior-notes-due-2031--600-000-000-senior-notes-due-2034-and-650-000-000-senior-notes-due-2036--302941155.html",
+   "created_at": "2026-11-17T03:01:32Z",
+   "symbols": [
+    "SPGI"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "SanDisk Shares Decline Following Commerce Department Regulatory Update",
+   "summary": "SanDisk shares fell 7.9% on November 16, 2026, following a U.S. Commerce Department move to restrict Chinese companies from leasing high-end computing power.",
+   "source": "fiscal.ai",
+   "url": "https://www.barchart.com/story/news/8857083/micron-sk-hynix-and-sandisk-shares-plummet-what-you-need-to-know",
+   "created_at": "2026-11-17T03:01:31Z",
+   "symbols": [
+    "SNDK"
+   ],
+   "image": ""
+  },
+  {
+   "headline": "Berkshire Hathaway Reduces Stake in Nucor Corporation",
+   "summary": "A recent SEC filing indicates that Berkshire Hathaway has reduced its shareholding in Nucor Corporation by 14.9%, bringing its total stake to 1.6 million shares.",
+   "source": "fiscal.ai",
+   "url": "https://www.moomoo.com/news/flash/1004787685/berkshire-hathaway-cuts-share-stake-in-nucor-corp-by-14",
+   "created_at": "2026-11-17T03:01:30Z",
+   "symbols": [
+    "NUE"
    ],
    "image": ""
   },
@@ -273,171 +438,6 @@
    "created_at": "2026-11-17T01:02:14Z",
    "symbols": [
     "YMAT"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Pop Culture Group Co., Ltd. Announces Audited Financial Results for Fiscal Year 2026",
-   "summary": "Pop Culture Group Co., Ltd. reported total revenue of US$121.33 million for the fiscal year ended June 30, 2026, marking a 12.73% increase from the previous year.",
-   "source": "fiscal.ai",
-   "url": "https://www.prnewswire.com/news-releases/pop-culture-group-co-ltd-announced-fiscal-year-2026-financial-results-302940541.html",
-   "created_at": "2026-11-17T01:02:12Z",
-   "symbols": [
-    "CPOP"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Highway Holdings Declares US$0.43228 Cash Special Dividend",
-   "summary": "Highway Holdings Limited announced that its Special Committee of the Board of Directors has declared a special cash dividend of US$0.43228 per common share.",
-   "source": "fiscal.ai",
-   "url": "https://www.prnewswire.com/news-releases/highway-holdings-declares-us0-43228-cash-per-share-special-dividend-302939872.html",
-   "created_at": "2026-11-17T01:02:11Z",
-   "symbols": [
-    "HIHO"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Wellchange Holdings Co Ltd Files for Mixed Shelf Offering of up to $200 Million",
-   "summary": "Wellchange Holdings Co Ltd has filed for a mixed shelf offering, allowing the company to raise up to $200 million in capital.",
-   "source": "fiscal.ai",
-   "url": "https://www.moomoo.com/hans/news/flash/1004739669/wellchange-holdings-co-ltd-files-for-mixed-shelf-of-up",
-   "created_at": "2026-11-17T01:02:10Z",
-   "symbols": [
-    "WCT"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Global Mofy AI Limited Announces Indirect Investment in Anthropic",
-   "summary": "Global Mofy AI Limited has announced an indirect investment in artificial intelligence company Anthropic, made through an investment fund in September 2026.",
-   "source": "fiscal.ai",
-   "url": "https://www.globenewswire.com/news-release/2026/11/16/3403520/0/en/global-mofy-announces-indirect-investment-in-anthropic-strengthening-its-position-in-the-global-ai-ecosystem.html",
-   "created_at": "2026-11-17T01:02:09Z",
-   "symbols": [
-    "GMM"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Click Holdings Reports Q1 FY2026/27 Operating Update",
-   "summary": "Click Holdings Limited announced a strong start to its 2026/27 financial year, reporting a revenue increase of over 45% for the first quarter compared to the same period last year.",
-   "source": "fiscal.ai",
-   "url": "https://www.globenewswire.com/news-release/2026/11/16/3403527/0/en/click-holdings-nasdaq-clik-reports-strong-q1-fy2026-27-results-revenue-up-over-45-all-segments-grow-nursing-margins-improve-operating-net-income-expected-to-hit-new-high.html",
-   "created_at": "2026-11-17T01:02:09Z",
-   "symbols": [
-    "CLIK"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "CLPS Inc. Recognized as Diamond Partner at 3rd Anniversary DALA Awards",
-   "summary": "CLPS Inc. served as a Diamond Partner for the 3rd Anniversary DALA Awards, an event celebrating advancements in data literacy and responsible AI governance in Hong Kong.",
-   "source": "fiscal.ai",
-   "url": "https://www.etnet.com.hk/www/tc/news/news-article.php?section=index&category=prnewswire&newsid=5097020_AE97020_0",
-   "created_at": "2026-11-17T01:02:07Z",
-   "symbols": [
-    "CLPS"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Ascentage Pharma Trustee Purchases 200,000 Shares for Restricted Share Unit Plan",
-   "summary": "Ascentage Pharma announced that a trustee purchased 200,000 existing shares in the open market to satisfy restricted share units under its 2022 plan.",
-   "source": "fiscal.ai",
-   "url": "https://www.moomoo.com/hant/news/post/1004752252/ascentage-pharma-06855-trustee-purchases-total-of-200000-existing-shares",
-   "created_at": "2026-11-17T01:02:06Z",
-   "symbols": [
-    "AAPG"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "JE Cleantech Holdings Limited Announces Declaration of Cash Dividend",
-   "summary": "JE Cleantech Holdings Limited has declared a cash dividend of US$0.20 per ordinary share, payable to shareholders of record as of November 30, 2026.",
-   "source": "fiscal.ai",
-   "url": "https://www.globenewswire.com/news-release/2026/11/16/3403516/0/en/je-cleantech-holdings-limited-announces-declaration-of-cash-dividend.html",
-   "created_at": "2026-11-17T01:02:06Z",
-   "symbols": [
-    "JCSE"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Zenta Group Announces At-the-Market Offering of Class A Ordinary Shares",
-   "summary": "Zenta Group Company Limited has entered into an at-the-market (ATM) offering agreement with E.F. Hutton & Co. LLC for up to $6,465,812 in Class A ordinary shares.",
-   "source": "fiscal.ai",
-   "url": "https://www.globenewswire.com/news-release/2026/11/16/3403675/0/en/zenta-group-company-limited-announces-at-the-market-offering-of-class-a-ordinary-shares-for-up-to-6-465-812.html",
-   "created_at": "2026-11-17T01:02:06Z",
-   "symbols": [
-    "ZTG"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "FingerMotion Initiates Strategic Review of China Business",
-   "summary": "FingerMotion, Inc. has launched a strategic review of its entire business operations in the People's Republic of China, including the potential for a sale, to prioritize its Alberta-based power and co",
-   "source": "fiscal.ai",
-   "url": "https://www.globenewswire.com/news-release/2026/11/16/3403566/0/en/fingermotion-board-initiates-strategic-review-of-china-business-and-potential-sales-process-to-focus-on-alberta-power-and-compute-program.html",
-   "created_at": "2026-11-17T01:02:06Z",
-   "symbols": [
-    "FNGR"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Zenta Group Signs Binding MOU for Strategic Acquisition of Controlling Stake in SE Asia-Based AI Technology Start-Up",
-   "summary": "Zenta Group Company Limited has executed a binding Memorandum of Understanding to acquire a controlling stake in a Southeast Asia-based AI technology start-up.",
-   "source": "fiscal.ai",
-   "url": "https://www.globenewswire.com/news-release/2026/11/16/3403518/0/en/zenta-group-signs-binding-mou-for-strategic-acquisition-of-controlling-stake-in-se-asia-based-ai-technology-start-up.html",
-   "created_at": "2026-11-17T01:02:06Z",
-   "symbols": [
-    "ZTG"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Helport AI Reports Fiscal Year 2026 Financial Results",
-   "summary": "Helport AI announced its financial results for the fiscal year 2026, reporting $22.05 million in revenue and significant growth in its AI and business process outsourcing segments.",
-   "source": "fiscal.ai",
-   "url": "https://www.globenewswire.com/news/technology-telecom/software",
-   "created_at": "2026-11-17T01:02:04Z",
-   "symbols": [
-    "HPAI"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Evercore ISI Group Raises Costco Wholesale Price Target to $1,200",
-   "summary": "Evercore ISI Group has increased its price target for Costco Wholesale Corporation from $1,100 to $1,200.",
-   "source": "fiscal.ai",
-   "url": "https://www.moomoo.com/hans/news/post/1004752446/costco-price-target-raised-to-1200-00-share-from-1100?futusource=news_newspage_recommend",
-   "created_at": "2026-11-17T01:01:58Z",
-   "symbols": [
-    "COST"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Golden Heaven Group Holdings Ltd. (GDHG) Trading Halt",
-   "summary": "Golden Heaven Group Holdings Ltd. experienced a volatility-related trading halt on November 16, 2026.",
-   "source": "fiscal.ai",
-   "url": "https://newsfilter.io/latest/news",
-   "created_at": "2026-11-17T01:01:58Z",
-   "symbols": [
-    "GDHG"
-   ],
-   "image": ""
-  },
-  {
-   "headline": "Sealand Capital Galaxy Announces Exercise of Warrants and Issue of Equity",
-   "summary": "Sealand Capital Galaxy Limited has received notices to exercise 29,529,781 Conversion A Warrants, resulting in the issuance of new ordinary shares and gross proceeds of £88,589.34.",
-   "source": "fiscal.ai",
-   "url": "https://www.investegate.co.uk/announcement/rns/sealand-capital-galaxy-limited-di---scgl/exercise-of-warrants/9875777",
-   "created_at": "2026-11-17T01:01:57Z",
-   "symbols": [
-    "SCGL"
    ],
    "image": ""
   }
